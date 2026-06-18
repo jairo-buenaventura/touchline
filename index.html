@@ -179,7 +179,7 @@
 
       const posicionesPorId = {};
       equipo.jugadores.forEach(j => {
-        const [cx, cy] = aCancha(j.x, j.y);
+        const esVisitante = lado === "away"; const [cx, cy] = aCancha(j.x, esVisitante ? 100 - j.y : j.y);
         const radio = radioMinimo + (j.toques / maxToques) * (radioMaximo - radioMinimo);
         posicionesPorId[j.id] = { jugador: j, cx, cy, radio };
       });
@@ -218,7 +218,7 @@
 
       posiciones.forEach(p => {
         const { cx, cy, radio, jugador: j } = p;
-        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#3478F6" stroke="white" stroke-width="1.5"/>`;
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#1a1a1a" stroke="white" stroke-width="1.5"/>`;
         html += `<text class="nombre-jugador" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
       });
 
