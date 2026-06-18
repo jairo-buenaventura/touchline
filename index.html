@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Touchline</title>
+<style>
+  body {
+    font-family: -apple-system, sans-serif;
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  h1 {
+    margin-bottom: 0.25rem;
+  }
+  #info {
+    color: #aaa;
+    margin-bottom: 1.5rem;
+  }
+  svg {
+    background: #2a5a2a;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Touchline</h1>
+  <p id="info">Cargando partido...</p>
+  <svg id="cancha" width="380" height="560" viewBox="0 0 380 560"></svg>
+
+  <script>
+    const PITCH_X0 = 20, PITCH_X1 = 360, PITCH_Y0 = 20, PITCH_Y1 = 500;
+
+    function aCancha(px, py) {
+        const cx = PITCH_X0 + (py / 100) * (PITCH_X1 - PITCH_X0);
+        const cy = PITCH_Y1 - (px / 100) * (PITCH_Y1 - PITCH_Y0);
+        return [cx, cy];
+    }
+
+    async function cargarPartido() {
+      const respuesta = await fetch('data/Spain 0-0 Cabo Verde - FIFA World Cup 2026.json');
+      const datos = await respuesta.json();
+      dibujar(datos);
+    }
+
+    function dibujar(datos) {
+      const info = document.getElementById('info');
+      info.textContent = `${datos.home.equipo} ${datos.marcador} ${datos.away.equipo} — ${datos.estadio}`;
+
+      const svg = document.getElementById('cancha');
+      let html = '';
+
+      html += `<rect x="${PITCH_X0}" y="${PITCH_Y0}" width="${PITCH_X1 - PITCH_X0}" height="${PITCH_Y1 - PITCH_Y0}" fill="none" stroke="white" stroke-width="1"/>`;
+      html += `<line x1="${PITCH_X0}" y1="${(PITCH_Y0 + PITCH_Y1) / 2}" x2="${PITCH_X1}" y2="${(PITCH_Y0 + PITCH_Y1) / 2}" stroke="white" stroke-width="1"/>`;
+
+      const jugadoresPorId = {};
+      datos.home.jugadores.forEach(j => { jugadoresPorId[j.id] = j; });
+
+      datos.home.pases.forEach(p => {
+        if (p.veces < 5) return;
+        const j1 = jugadoresPorId[p.de];
+        const j2 = jugadoresPorId[p.a];
+        if (!j1 || !j2) return;
+        const [x1, y1] = aCancha(j1.x, j1.y);
+        const [x2, y2] = aCancha(j2.x, j2.y);
+        const grosor = Math.max(0.5, p.veces / 6);
+        html += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="white" stroke-width="${grosor}" opacity="0.6"/>`;
+      });
+
+      datos.home.jugadores.forEach(j => {
+        const [cx, cy] = aCancha(j.x, j.y);
+        html += `<circle cx="${cx}" cy="${cy}" r="14" fill="#3478F6" stroke="white" stroke-width="1"/>`;
+        html += `<text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="white" font-size="12" font-weight="bold">${j.dorsal}</text>`;
+      });
+
+      svg.innerHTML = html;
+    }
+
+    cargarPartido().catch(err => {
+      document.getElementById('info').textContent = 'Error cargando los datos: ' + err.message;
+    });
+  </script>
+
+</body>
+</html>
