@@ -135,13 +135,13 @@ def calcular_posiciones_y_pases(data, lado="home", solo_titulares=True, periodo=
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
-    Devuelve True si tuvo exito, False si hubo un error (y lo imprime).
+    Devuelve un resumen del partido si tuvo exito, o None si hubo un error (y lo imprime).
     """
     try:
         data = extraer_match_data(ruta_html)
     except Exception as e:
         print(f"  [ERROR] {ruta_html.name}: {e}")
-        return False
+        return None
 
     resultado = {
         "marcador": data.get("score"),
@@ -151,7 +151,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     }
 
     nombre_base = ruta_html.stem
-    ruta_salida = carpeta_salida / f"{nombre_base}.json"
+    nombre_json = f"{nombre_base}.json"
+    ruta_salida = carpeta_salida / nombre_json
 
     ruta_salida.write_text(
         json.dumps(resultado, ensure_ascii=False, indent=2),
@@ -160,7 +161,14 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
 
     print(f"  [OK] {ruta_html.name} -> {ruta_salida.name}")
     print(f"       {resultado['home']['equipo']} {resultado['marcador']} {resultado['away']['equipo']}")
-    return True
+
+    return {
+        "archivo": nombre_json,
+        "home": resultado["home"]["equipo"],
+        "away": resultado["away"]["equipo"],
+        "marcador": resultado["marcador"],
+        "estadio": resultado["estadio"],
+    }
 
 
 def main():
@@ -184,13 +192,21 @@ def main():
 
     print(f"Procesando {len(archivos_html)} archivo(s) de '{carpeta_html}'...\n")
 
-    exitosos = 0
+    resumenes = []
     for ruta_html in archivos_html:
-        if procesar_un_archivo(ruta_html, carpeta_salida):
-            exitosos += 1
+        resumen = procesar_un_archivo(ruta_html, carpeta_salida)
+        if resumen is not None:
+            resumenes.append(resumen)
 
-    print(f"\nListo: {exitosos}/{len(archivos_html)} partidos procesados correctamente.")
+    ruta_lista = carpeta_salida / "lista.json"
+    ruta_lista.write_text(
+        json.dumps(resumenes, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"\nListo: {len(resumenes)}/{len(archivos_html)} partidos procesados correctamente.")
     print(f"Los JSON quedaron guardados en la carpeta '{carpeta_salida}'.")
+    print(f"Lista de partidos actualizada en '{ruta_lista}'.")
 
 
 if __name__ == "__main__":
