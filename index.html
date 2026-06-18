@@ -42,12 +42,18 @@
     text-align: center;
   }
   svg {
-    background: #2a5a2a;
+    background: #d8d6cd;
     border-radius: 8px;
   }
+  .linea-cancha {
+    fill: none;
+    stroke: rgba(60,58,52,0.45);
+    stroke-width: 1;
+  }
   .nombre-jugador {
-    font-size: 9px;
-    fill: #ddd;
+    font-size: 7.5px;
+    fill: white;
+    font-weight: 500;
   }
 </style>
 </head>
@@ -70,16 +76,52 @@
 
   <script>
     const PITCH_X0 = 20, PITCH_X1 = 360, PITCH_Y0 = 20, PITCH_Y1 = 500;
+    const ANCHO = PITCH_X1 - PITCH_X0;
+    const LARGO = PITCH_Y1 - PITCH_Y0;
 
     function aCancha(px, py) {
-      const cx = PITCH_X0 + (py / 100) * (PITCH_X1 - PITCH_X0);
-      const cy = PITCH_Y1 - (px / 100) * (PITCH_Y1 - PITCH_Y0);
+      const cx = PITCH_X0 + (py / 100) * ANCHO;
+      const cy = PITCH_Y1 - (px / 100) * LARGO;
       return [cx, cy];
     }
 
     function apellido(nombreCompleto) {
       const partes = nombreCompleto.trim().split(" ");
       return partes[partes.length - 1];
+    }
+
+    function dibujarLineasCancha() {
+      let html = '';
+
+      html += `<rect class="linea-cancha" x="${PITCH_X0}" y="${PITCH_Y0}" width="${ANCHO}" height="${LARGO}"/>`;
+
+      const mitadY = PITCH_Y0 + LARGO / 2;
+      html += `<line class="linea-cancha" x1="${PITCH_X0}" y1="${mitadY}" x2="${PITCH_X1}" y2="${mitadY}"/>`;
+
+      const centroX = PITCH_X0 + ANCHO / 2;
+      html += `<circle class="linea-cancha" cx="${centroX}" cy="${mitadY}" r="${ANCHO * 0.18}"/>`;
+      html += `<circle cx="${centroX}" cy="${mitadY}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+
+      const areaAncho = ANCHO * 0.6;
+      const areaLargoArriba = LARGO * 0.16;
+      const areaLargoAbajo = LARGO * 0.16;
+      const areaX = centroX - areaAncho / 2;
+
+      const cajaAncho = ANCHO * 0.3;
+      const cajaLargo = LARGO * 0.06;
+      const cajaX = centroX - cajaAncho / 2;
+
+      html += `<rect class="linea-cancha" x="${areaX}" y="${PITCH_Y0}" width="${areaAncho}" height="${areaLargoArriba}"/>`;
+      html += `<rect class="linea-cancha" x="${cajaX}" y="${PITCH_Y0}" width="${cajaAncho}" height="${cajaLargo}"/>`;
+      html += `<circle cx="${centroX}" cy="${PITCH_Y0 + areaLargoArriba * 0.7}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+      html += `<path class="linea-cancha" d="M ${areaX + areaAncho * 0.18} ${PITCH_Y0 + areaLargoArriba} A ${ANCHO * 0.16} ${ANCHO * 0.16} 0 0 0 ${areaX + areaAncho * 0.82} ${PITCH_Y0 + areaLargoArriba}"/>`;
+
+      html += `<rect class="linea-cancha" x="${areaX}" y="${PITCH_Y1 - areaLargoAbajo}" width="${areaAncho}" height="${areaLargoAbajo}"/>`;
+      html += `<rect class="linea-cancha" x="${cajaX}" y="${PITCH_Y1 - cajaLargo}" width="${cajaAncho}" height="${cajaLargo}"/>`;
+      html += `<circle cx="${centroX}" cy="${PITCH_Y1 - areaLargoAbajo * 0.7}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+      html += `<path class="linea-cancha" d="M ${areaX + areaAncho * 0.18} ${PITCH_Y1 - areaLargoAbajo} A ${ANCHO * 0.16} ${ANCHO * 0.16} 0 0 1 ${areaX + areaAncho * 0.82} ${PITCH_Y1 - areaLargoAbajo}"/>`;
+
+      return html;
     }
 
     let datosPartidoActual = null;
@@ -129,34 +171,55 @@
       info.textContent = `${datos.home.equipo} ${datos.marcador} ${datos.away.equipo} — ${datos.estadio}`;
 
       const svg = document.getElementById('cancha');
-      let html = '';
-
-      html += `<rect x="${PITCH_X0}" y="${PITCH_Y0}" width="${PITCH_X1 - PITCH_X0}" height="${PITCH_Y1 - PITCH_Y0}" fill="none" stroke="white" stroke-width="1"/>`;
-      html += `<line x1="${PITCH_X0}" y1="${(PITCH_Y0 + PITCH_Y1) / 2}" x2="${PITCH_X1}" y2="${(PITCH_Y0 + PITCH_Y1) / 2}" stroke="white" stroke-width="1"/>`;
-      html += `<circle cx="${(PITCH_X0 + PITCH_X1) / 2}" cy="${(PITCH_Y0 + PITCH_Y1) / 2}" r="38" fill="none" stroke="white" stroke-width="1"/>`;
-
-      const jugadoresPorId = {};
-      equipo.jugadores.forEach(j => { jugadoresPorId[j.id] = j; });
+      let html = dibujarLineasCancha();
 
       const maxToques = Math.max(...equipo.jugadores.map(j => j.toques));
+      const radioMinimo = 20;
+      const radioMaximo = 27;
+
+      const posicionesPorId = {};
+      equipo.jugadores.forEach(j => {
+        const [cx, cy] = aCancha(j.x, j.y);
+        const radio = radioMinimo + (j.toques / maxToques) * (radioMaximo - radioMinimo);
+        posicionesPorId[j.id] = { jugador: j, cx, cy, radio };
+      });
+      const posiciones = Object.values(posicionesPorId);
+
+      for (let vuelta = 0; vuelta < 30; vuelta++) {
+        for (let i = 0; i < posiciones.length; i++) {
+          for (let k = i + 1; k < posiciones.length; k++) {
+            const a = posiciones[i];
+            const b = posiciones[k];
+            const dx = b.cx - a.cx;
+            const dy = b.cy - a.cy;
+            const distancia = Math.hypot(dx, dy) || 0.01;
+            const minimaDistancia = a.radio + b.radio + 2;
+            if (distancia < minimaDistancia) {
+              const sobra = (minimaDistancia - distancia) / 2;
+              const ux = dx / distancia;
+              const uy = dy / distancia;
+              a.cx -= ux * sobra;
+              a.cy -= uy * sobra;
+              b.cx += ux * sobra;
+              b.cy += uy * sobra;
+            }
+          }
+        }
+      }
 
       equipo.pases.forEach(p => {
         if (p.veces < 5) return;
-        const j1 = jugadoresPorId[p.de];
-        const j2 = jugadoresPorId[p.a];
-        if (!j1 || !j2) return;
-        const [x1, y1] = aCancha(j1.x, j1.y);
-        const [x2, y2] = aCancha(j2.x, j2.y);
+        const a = posicionesPorId[p.de];
+        const b = posicionesPorId[p.a];
+        if (!a || !b) return;
         const grosor = Math.max(0.5, p.veces / 6);
-        html += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#cfe8cf" stroke-width="${grosor}" opacity="0.65"/>`;
+        html += `<line x1="${a.cx.toFixed(1)}" y1="${a.cy.toFixed(1)}" x2="${b.cx.toFixed(1)}" y2="${b.cy.toFixed(1)}" stroke="#8a9bb0" stroke-width="${grosor}" opacity="0.8"/>`;
       });
 
-      equipo.jugadores.forEach(j => {
-        const [cx, cy] = aCancha(j.x, j.y);
-        const radio = 10 + (j.toques / maxToques) * 9;
-        html += `<circle cx="${cx}" cy="${cy}" r="${radio.toFixed(1)}" fill="#3478F6" stroke="white" stroke-width="1.5"/>`;
-        html += `<text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="white" font-size="11" font-weight="bold">${j.dorsal}</text>`;
-        html += `<text class="nombre-jugador" x="${cx}" y="${cy + radio + 12}" text-anchor="middle">${apellido(j.nombre)}</text>`;
+      posiciones.forEach(p => {
+        const { cx, cy, radio, jugador: j } = p;
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#3478F6" stroke="white" stroke-width="1.5"/>`;
+        html += `<text class="nombre-jugador" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
       });
 
       svg.innerHTML = html;
