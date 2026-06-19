@@ -232,6 +232,61 @@ def calcular_tiros(data, lado="home"):
     return tiros_salida
 
 
+def calcular_acciones(data, lado="home", solo_titulares=True):
+    """
+    Extrae acciones individuales (regates, recuperaciones, intercepciones,
+    tackles, faltas, despejes, aereos, pases bloqueados, perdidas de balon)
+    agrupadas por jugador, para dibujar un mapa de acciones de un jugador
+    especifico sobre la cancha.
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+
+    if solo_titulares:
+        jugadores_validos = {
+            p["playerId"]: p for p in equipo["players"] if p.get("isFirstEleven")
+        }
+    else:
+        jugadores_validos = {p["playerId"]: p for p in equipo["players"]}
+
+    tipos_accion = {
+        "TakeOn", "BallRecovery", "Interception", "Tackle", "Foul",
+        "Aerial", "Clearance", "BlockedPass", "Dispossessed", "Challenge",
+    }
+
+    acciones_por_jugador = {}
+    for ev in eventos:
+        if ev.get("teamId") != team_id:
+            continue
+        pid = ev.get("playerId")
+        if pid not in jugadores_validos:
+            continue
+        tipo = ev["type"]["displayName"]
+        if tipo not in tipos_accion:
+            continue
+        if "x" not in ev or "y" not in ev:
+            continue
+
+        if pid not in acciones_por_jugador:
+            info = jugadores_validos[pid]
+            acciones_por_jugador[pid] = {
+                "id": pid,
+                "nombre": nombres.get(str(pid), info.get("name", "?")),
+                "acciones": [],
+            }
+
+        acciones_por_jugador[pid]["acciones"].append({
+            "tipo": tipo,
+            "x": ev["x"],
+            "y": ev["y"],
+            "exitoso": ev.get("outcomeType", {}).get("displayName") == "Successful",
+        })
+
+    return list(acciones_por_jugador.values())
+
+
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
@@ -249,6 +304,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     away_datos["estadisticas"] = calcular_estadisticas(data, lado="away")
     home_datos["tiros"] = calcular_tiros(data, lado="home")
     away_datos["tiros"] = calcular_tiros(data, lado="away")
+    home_datos["acciones"] = calcular_acciones(data, lado="home")
+    away_datos["acciones"] = calcular_acciones(data, lado="away")
 
     resultado = {
         "marcador": data.get("score"),

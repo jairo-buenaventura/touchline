@@ -210,6 +210,9 @@
         <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
         <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
       </div>
+      <div id="selector-jugador-contenedor" style="display:none; margin-bottom:0.75rem;">
+        <select id="selector-jugador"></select>
+      </div>
       <p id="info">Cargando...</p>
       <svg id="cancha" viewBox="0 0 380 580"></svg>
     </div>
@@ -270,10 +273,29 @@
       document.getElementById('tab-passing').classList.toggle('activo', vista === 'passing');
       document.getElementById('tab-shots').classList.toggle('activo', vista === 'shots');
       document.getElementById('tab-action').classList.toggle('activo', vista === 'action');
+      document.getElementById('selector-jugador-contenedor').style.display = vista === 'action' ? 'block' : 'none';
       if (datosPartidoActual) {
         const lado = document.getElementById('selector-equipo').value;
+        if (vista === 'action') poblarSelectorJugador(datosPartidoActual, lado);
         dibujarVistaActual(datosPartidoActual, lado);
       }
+    }
+
+    function poblarSelectorJugador(datos, lado) {
+      const equipo = datos[lado];
+      const selector = document.getElementById('selector-jugador');
+      const valorAnterior = selector.value;
+      selector.innerHTML = '';
+      (equipo.acciones || []).forEach(j => {
+        const opcion = document.createElement('option');
+        opcion.value = j.id;
+        opcion.textContent = j.nombre;
+        selector.appendChild(opcion);
+      });
+      if (valorAnterior && (equipo.acciones || []).some(j => String(j.id) === valorAnterior)) {
+        selector.value = valorAnterior;
+      }
+      selector.onchange = () => dibujarVistaActual(datosPartidoActual, document.getElementById('selector-equipo').value);
     }
 
     function dibujarVistaActual(datos, lado) {
@@ -282,8 +304,7 @@
       } else if (vistaActual === 'shots') {
         dibujarShotsMap(datos, lado);
       } else {
-        document.getElementById('info').textContent = 'Action map: próximamente';
-        document.getElementById('cancha').innerHTML = dibujarLineasCancha();
+        dibujarActionMap(datos, lado);
       }
     }
 
@@ -467,6 +488,46 @@
         const color = colorPorResultado[t.resultado] || '#999';
         const radio = t.resultado === 'Goal' ? 6 : 4.5;
         html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio}" fill="${color}" stroke="white" stroke-width="1" opacity="0.9"/>`;
+      });
+
+      svg.innerHTML = html;
+    }
+
+    function dibujarActionMap(datos, lado) {
+      const equipo = datos[lado];
+      const acciones = equipo.acciones || [];
+      const selector = document.getElementById('selector-jugador');
+      const pidElegido = selector.value;
+      const jugador = acciones.find(j => String(j.id) === pidElegido) || acciones[0];
+
+      const svg = document.getElementById('cancha');
+      let html = dibujarLineasCancha();
+
+      if (!jugador) {
+        document.getElementById('info').textContent = `${equipo.equipo} — sin acciones registradas`;
+        svg.innerHTML = html;
+        return;
+      }
+
+      document.getElementById('info').textContent = `${jugador.nombre} — ${jugador.acciones.length} accion(es)`;
+
+      const colorPorTipo = {
+        TakeOn: '#3478F6',
+        BallRecovery: '#1a7a3c',
+        Interception: '#1a7a3c',
+        Tackle: '#1a7a3c',
+        Foul: '#c0392b',
+        Aerial: '#8a9bb0',
+        Clearance: '#8a9bb0',
+        BlockedPass: '#8a9bb0',
+        Dispossessed: '#c0392b',
+        Challenge: '#8a9bb0',
+      };
+
+      jugador.acciones.forEach(a => {
+        const [cx, cy] = aCancha(a.x, 100 - a.y);
+        const color = colorPorTipo[a.tipo] || '#999';
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4.5" fill="${color}" stroke="white" stroke-width="1" opacity="${a.exitoso ? 0.9 : 0.5}"/>`;
       });
 
       svg.innerHTML = html;
