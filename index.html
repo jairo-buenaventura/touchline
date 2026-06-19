@@ -4,50 +4,163 @@
 <meta charset="UTF-8">
 <title>Touchline</title>
 <style>
+  * {
+    box-sizing: border-box;
+  }
   body {
     font-family: -apple-system, sans-serif;
-    background: #1c1c1c;
-    color: white;
+    background: #f5f5f3;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 1.5rem;
+  }
+  .layout {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  h1 {
-    margin-bottom: 0.25rem;
+
+  .col-izquierda {
+    width: 220px;
+    flex-shrink: 0;
   }
-  #controles {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 1rem 0;
-    flex-wrap: wrap;
-    justify-content: center;
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
   }
-  #controles label {
-    color: #aaa;
-    font-size: 14px;
+  .seccion-titulo {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+    margin: 1.25rem 0 0.5rem;
+    letter-spacing: 0.05em;
   }
-  #controles select {
-    background: #2c2c2a;
-    color: white;
-    border: 1px solid #555;
+  .control-grupo {
+    margin-bottom: 0.75rem;
+  }
+  select {
+    width: 100%;
+    background: white;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
     border-radius: 6px;
-    padding: 6px 10px;
-    font-size: 14px;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .col-central {
+    width: 280px;
+    flex-shrink: 0;
+    background: white;
+    border: 1px solid #e5e5e3;
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .marcador-equipos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+  .marcador-equipos .nombre {
+    font-size: 13px;
+    font-weight: 600;
+    max-width: 90px;
+  }
+  .marcador-equipos .numero {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .estadio-linea {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .stat-fila {
+    margin-bottom: 0.9rem;
+  }
+  .stat-valores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .stat-nombre {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em;
+  }
+  .stat-barra {
+    display: flex;
+    height: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #eee;
+  }
+  .stat-barra-home {
+    background: #1a1a1a;
+  }
+  .stat-barra-away {
+    background: #ccc;
+  }
+  .goles-lista {
+    margin-top: 1.25rem;
+    border-top: 1px solid #eee;
+    padding-top: 0.9rem;
+  }
+  .gol-item {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+    color: #555;
+  }
+
+  .col-derecha {
+    flex: 1;
+    background: white;
+    border: 1px solid #e5e5e3;
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  .tab {
+    font-size: 12px;
+    padding: 6px 12px;
+    color: #999;
+    border-bottom: 2px solid transparent;
+  }
+  .tab.activo {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
+    font-weight: 600;
   }
   #info {
-    color: #aaa;
-    margin-bottom: 0.5rem;
-    text-align: center;
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
   }
   svg {
-    background: #d8d6cd;
+    background: #f7f6f3;
     border-radius: 8px;
+    width: 100%;
+    height: auto;
   }
   .linea-cancha {
     fill: none;
-    stroke: rgba(60,58,52,0.45);
+    stroke: rgba(40,40,40,0.18);
     stroke-width: 1;
   }
   .nombre-jugador {
@@ -59,20 +172,49 @@
 </head>
 <body>
 
-  <h1>Touchline</h1>
+  <div class="layout">
 
-  <div id="controles">
-    <label for="selector-partido">Partido:</label>
-    <select id="selector-partido"></select>
-    <label for="selector-equipo">Equipo:</label>
-    <select id="selector-equipo">
-      <option value="home">Local</option>
-      <option value="away">Visitante</option>
-    </select>
+    <div class="col-izquierda">
+      <div class="logo">⚽ Touchline</div>
+
+      <div class="seccion-titulo">Partido</div>
+      <div class="control-grupo">
+        <select id="selector-partido"></select>
+      </div>
+
+      <div class="seccion-titulo">Equipo</div>
+      <div class="control-grupo">
+        <select id="selector-equipo">
+          <option value="home">Local</option>
+          <option value="away">Visitante</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-central">
+      <div class="marcador-equipos">
+        <div class="nombre" id="nombre-home">-</div>
+        <div class="numero" id="marcador-numero">- : -</div>
+        <div class="nombre" id="nombre-away" style="text-align:right;">-</div>
+      </div>
+      <div class="estadio-linea" id="estadio-linea">-</div>
+
+      <div id="bloque-estadisticas"></div>
+
+      <div class="goles-lista" id="bloque-goles"></div>
+    </div>
+
+    <div class="col-derecha">
+      <div class="tabs">
+        <div class="tab activo">Passing network</div>
+        <div class="tab">Shots map</div>
+        <div class="tab">Action map</div>
+      </div>
+      <p id="info">Cargando...</p>
+      <svg id="cancha" viewBox="0 0 380 580"></svg>
+    </div>
+
   </div>
-
-  <p id="info">Cargando...</p>
-  <svg id="cancha" width="380" height="580" viewBox="0 0 380 580"></svg>
 
   <script>
     const PITCH_X0 = 20, PITCH_X1 = 360, PITCH_Y0 = 20, PITCH_Y1 = 500;
@@ -87,38 +229,34 @@
 
     function apellido(nombreCompleto) {
       const partes = nombreCompleto.trim().split(" ");
-      return partes[partes.length - 1];
+      return partes.slice(1).join(" ") || partes[0];
     }
 
     function dibujarLineasCancha() {
       let html = '';
-
       html += `<rect class="linea-cancha" x="${PITCH_X0}" y="${PITCH_Y0}" width="${ANCHO}" height="${LARGO}"/>`;
-
       const mitadY = PITCH_Y0 + LARGO / 2;
       html += `<line class="linea-cancha" x1="${PITCH_X0}" y1="${mitadY}" x2="${PITCH_X1}" y2="${mitadY}"/>`;
-
       const centroX = PITCH_X0 + ANCHO / 2;
       html += `<circle class="linea-cancha" cx="${centroX}" cy="${mitadY}" r="${ANCHO * 0.18}"/>`;
-      html += `<circle cx="${centroX}" cy="${mitadY}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+      html += `<circle cx="${centroX}" cy="${mitadY}" r="1.5" fill="rgba(40,40,40,0.18)"/>`;
 
       const areaAncho = ANCHO * 0.6;
       const areaLargoArriba = LARGO * 0.16;
       const areaLargoAbajo = LARGO * 0.16;
       const areaX = centroX - areaAncho / 2;
-
       const cajaAncho = ANCHO * 0.3;
       const cajaLargo = LARGO * 0.06;
       const cajaX = centroX - cajaAncho / 2;
 
       html += `<rect class="linea-cancha" x="${areaX}" y="${PITCH_Y0}" width="${areaAncho}" height="${areaLargoArriba}"/>`;
       html += `<rect class="linea-cancha" x="${cajaX}" y="${PITCH_Y0}" width="${cajaAncho}" height="${cajaLargo}"/>`;
-      html += `<circle cx="${centroX}" cy="${PITCH_Y0 + areaLargoArriba * 0.7}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+      html += `<circle cx="${centroX}" cy="${PITCH_Y0 + areaLargoArriba * 0.7}" r="1.5" fill="rgba(40,40,40,0.18)"/>`;
       html += `<path class="linea-cancha" d="M ${areaX + areaAncho * 0.18} ${PITCH_Y0 + areaLargoArriba} A ${ANCHO * 0.16} ${ANCHO * 0.16} 0 0 0 ${areaX + areaAncho * 0.82} ${PITCH_Y0 + areaLargoArriba}"/>`;
 
       html += `<rect class="linea-cancha" x="${areaX}" y="${PITCH_Y1 - areaLargoAbajo}" width="${areaAncho}" height="${areaLargoAbajo}"/>`;
       html += `<rect class="linea-cancha" x="${cajaX}" y="${PITCH_Y1 - cajaLargo}" width="${cajaAncho}" height="${cajaLargo}"/>`;
-      html += `<circle cx="${centroX}" cy="${PITCH_Y1 - areaLargoAbajo * 0.7}" r="1.5" fill="rgba(60,58,52,0.45)"/>`;
+      html += `<circle cx="${centroX}" cy="${PITCH_Y1 - areaLargoAbajo * 0.7}" r="1.5" fill="rgba(40,40,40,0.18)"/>`;
       html += `<path class="linea-cancha" d="M ${areaX + areaAncho * 0.18} ${PITCH_Y1 - areaLargoAbajo} A ${ANCHO * 0.16} ${ANCHO * 0.16} 0 0 1 ${areaX + areaAncho * 0.82} ${PITCH_Y1 - areaLargoAbajo}"/>`;
 
       return html;
@@ -144,7 +282,7 @@
       const selectorEquipo = document.getElementById('selector-equipo');
       selectorEquipo.addEventListener('change', () => {
         if (datosPartidoActual) {
-          dibujar(datosPartidoActual, selectorEquipo.value);
+          actualizarTodo(datosPartidoActual, selectorEquipo.value);
         }
       });
 
@@ -161,14 +299,74 @@
       const datos = await respuesta.json();
       datosPartidoActual = datos;
       const ladoElegido = document.getElementById('selector-equipo').value;
-      dibujar(datos, ladoElegido);
+      actualizarTodo(datos, ladoElegido);
     }
 
-    function dibujar(datos, lado) {
-      const equipo = datos[lado];
+    function actualizarTodo(datos, lado) {
+      actualizarMarcador(datos);
+      actualizarEstadisticas(datos);
+      actualizarGoles(datos);
+      dibujarCancha(datos, lado);
+    }
 
-      const info = document.getElementById('info');
-      info.textContent = `${datos.home.equipo} ${datos.marcador} ${datos.away.equipo} — ${datos.estadio}`;
+    function actualizarMarcador(datos) {
+      document.getElementById('nombre-home').textContent = datos.home.equipo;
+      document.getElementById('nombre-away').textContent = datos.away.equipo;
+      document.getElementById('marcador-numero').textContent = datos.marcador;
+      document.getElementById('estadio-linea').textContent = datos.estadio || '';
+    }
+
+    function filaEstadistica(nombre, valorHome, valorAway, sufijo, maxValor) {
+      const total = maxValor !== undefined ? maxValor : (valorHome + valorAway || 1);
+      const pctHome = Math.round((valorHome / total) * 100);
+      const pctAway = 100 - pctHome;
+      return `
+        <div class="stat-fila">
+          <div class="stat-valores">
+            <span>${valorHome}${sufijo || ''}</span>
+            <span>${valorAway}${sufijo || ''}</span>
+          </div>
+          <div class="stat-nombre">${nombre}</div>
+          <div class="stat-barra">
+            <div class="stat-barra-home" style="width:${pctHome}%"></div>
+            <div class="stat-barra-away" style="width:${pctAway}%"></div>
+          </div>
+        </div>
+      `;
+    }
+
+    function actualizarEstadisticas(datos) {
+      const h = datos.home.estadisticas;
+      const a = datos.away.estadisticas;
+      const bloque = document.getElementById('bloque-estadisticas');
+
+      bloque.innerHTML =
+        filaEstadistica('Posesion', h.posesion, a.posesion, '%', 100) +
+        filaEstadistica('Tiros', h.tiros, a.tiros) +
+        filaEstadistica('Tiros al arco', h.tiros_al_arco, a.tiros_al_arco) +
+        filaEstadistica('Pases', h.pases_totales, a.pases_totales) +
+        filaEstadistica('Precision de pases', h.precision_pases, a.precision_pases, '%', 100);
+    }
+
+    function actualizarGoles(datos) {
+      const bloque = document.getElementById('bloque-goles');
+      const golesHome = datos.home.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.home.equipo}));
+      const golesAway = datos.away.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.away.equipo}));
+      const todos = golesHome.concat(golesAway).sort((a, b) => a.minuto - b.minuto);
+
+      if (todos.length === 0) {
+        bloque.innerHTML = '<div class="gol-item">Sin goles en este partido</div>';
+        return;
+      }
+
+      bloque.innerHTML = todos.map(g =>
+        `<div class="gol-item"><span>${g.minuto}' ${g.jugador}</span><span>${g.equipo}</span></div>`
+      ).join('');
+    }
+
+    function dibujarCancha(datos, lado) {
+      const equipo = datos[lado];
+      document.getElementById('info').textContent = `${equipo.equipo} — red de pases`;
 
       const svg = document.getElementById('cancha');
       let html = dibujarLineasCancha();
@@ -178,8 +376,9 @@
       const radioMaximo = 27;
 
       const posicionesPorId = {};
+      
       equipo.jugadores.forEach(j => {
-        const esVisitante = lado === "away"; const [cx, cy] = aCancha(j.x, esVisitante ? 100 - j.y : j.y);
+        const [cx, cy] = aCancha(j.x, 100 - j.y);
         const radio = radioMinimo + (j.toques / maxToques) * (radioMaximo - radioMinimo);
         posicionesPorId[j.id] = { jugador: j, cx, cy, radio };
       });
@@ -217,7 +416,7 @@
       });
 
       posiciones.forEach(p => {
-        const { cx, cy, radio, jugador: j } = p;
+        const cx = p.cx, cy = p.cy, radio = p.radio, j = p.jugador;
         html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#1a1a1a" stroke="white" stroke-width="1.5"/>`;
         html += `<text class="nombre-jugador" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
       });

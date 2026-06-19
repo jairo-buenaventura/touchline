@@ -6,6 +6,7 @@ Este script lee un archivo HTML descargado de WhoScored y extrae:
   2. La lista de jugadores titulares
   3. La posicion promedio de cada jugador en la cancha
   4. Cuantos pases se hicieron entre cada par de jugadores
+  5. Estadisticas generales del equipo (tiros, posesion, goles)
 
 El resultado se guarda como un archivo JSON limpio en la carpeta data/,
 listo para que una pagina web lo lea y lo dibuje.
@@ -132,6 +133,70 @@ def calcular_posiciones_y_pases(data, lado="home", solo_titulares=True, periodo=
     }
 
 
+def calcular_estadisticas(data, lado="home"):
+    """
+    Calcula estadisticas generales del equipo para mostrar en el panel
+    de resumen: tiros, tiros al arco, pases totales, precision de pases,
+    posesion aproximada (basada en cantidad de toques de balon), y goles
+    con su minuto y goleador.
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+    home_id = data["home"]["teamId"]
+    away_id = data["away"]["teamId"]
+
+    tipos_tiro = {"MissedShots", "SavedShot", "ShotOnPost", "Goal"}
+    tipos_al_arco = {"SavedShot", "Goal"}
+
+    tiros = 0
+    tiros_al_arco = 0
+    pases_totales = 0
+    pases_exitosos = 0
+    toques_equipo = 0
+    toques_totales = 0
+    goles = []
+
+    for ev in eventos:
+        tipo = ev["type"]["displayName"]
+        team_ev = ev.get("teamId")
+
+        if team_ev == team_id:
+            if tipo in tipos_tiro:
+                tiros += 1
+            if tipo in tipos_al_arco:
+                tiros_al_arco += 1
+            if tipo == "Pass":
+                pases_totales += 1
+                if ev["outcomeType"]["displayName"] == "Successful":
+                    pases_exitosos += 1
+            if ev.get("playerId"):
+                toques_equipo += 1
+            if tipo == "Goal":
+                goles.append({
+                    "minuto": ev.get("minute", 0),
+                    "jugador": nombres.get(str(ev.get("playerId")), "?"),
+                })
+
+        if team_ev in (home_id, away_id) and ev.get("playerId"):
+            toques_totales += 1
+
+    precision_pases = round(100 * pases_exitosos / pases_totales, 1) if pases_totales else 0.0
+    posesion = round(100 * toques_equipo / toques_totales, 1) if toques_totales else 0.0
+
+    goles.sort(key=lambda g: g["minuto"])
+
+    return {
+        "tiros": tiros,
+        "tiros_al_arco": tiros_al_arco,
+        "pases_totales": pases_totales,
+        "precision_pases": precision_pases,
+        "posesion": posesion,
+        "goles": goles,
+    }
+
+
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
@@ -143,11 +208,16 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         print(f"  [ERROR] {ruta_html.name}: {e}")
         return None
 
+    home_datos = calcular_posiciones_y_pases(data, lado="home")
+    away_datos = calcular_posiciones_y_pases(data, lado="away")
+    home_datos["estadisticas"] = calcular_estadisticas(data, lado="home")
+    away_datos["estadisticas"] = calcular_estadisticas(data, lado="away")
+
     resultado = {
         "marcador": data.get("score"),
         "estadio": data.get("venueName"),
-        "home": calcular_posiciones_y_pases(data, lado="home"),
-        "away": calcular_posiciones_y_pases(data, lado="away"),
+        "home": home_datos,
+        "away": away_datos,
     }
 
     nombre_base = ruta_html.stem
