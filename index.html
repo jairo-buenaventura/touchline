@@ -206,9 +206,9 @@
 
     <div class="col-derecha">
       <div class="tabs">
-        <div class="tab activo">Passing network</div>
-        <div class="tab">Shots map</div>
-        <div class="tab">Action map</div>
+        <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
+        <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
+        <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
       </div>
       <p id="info">Cargando...</p>
       <svg id="cancha" viewBox="0 0 380 580"></svg>
@@ -263,6 +263,29 @@
     }
 
     let datosPartidoActual = null;
+    let vistaActual = 'passing';
+
+    function cambiarVista(vista) {
+      vistaActual = vista;
+      document.getElementById('tab-passing').classList.toggle('activo', vista === 'passing');
+      document.getElementById('tab-shots').classList.toggle('activo', vista === 'shots');
+      document.getElementById('tab-action').classList.toggle('activo', vista === 'action');
+      if (datosPartidoActual) {
+        const lado = document.getElementById('selector-equipo').value;
+        dibujarVistaActual(datosPartidoActual, lado);
+      }
+    }
+
+    function dibujarVistaActual(datos, lado) {
+      if (vistaActual === 'passing') {
+        dibujarCancha(datos, lado);
+      } else if (vistaActual === 'shots') {
+        dibujarShotsMap(datos, lado);
+      } else {
+        document.getElementById('info').textContent = 'Action map: próximamente';
+        document.getElementById('cancha').innerHTML = dibujarLineasCancha();
+      }
+    }
 
     async function cargarLista() {
       const respuesta = await fetch('data/lista.json');
@@ -306,7 +329,7 @@
       actualizarMarcador(datos);
       actualizarEstadisticas(datos);
       actualizarGoles(datos);
-      dibujarCancha(datos, lado);
+      dibujarVistaActual(datos, lado);
     }
 
     function actualizarMarcador(datos) {
@@ -376,7 +399,6 @@
       const radioMaximo = 27;
 
       const posicionesPorId = {};
-      
       equipo.jugadores.forEach(j => {
         const [cx, cy] = aCancha(j.x, 100 - j.y);
         const radio = radioMinimo + (j.toques / maxToques) * (radioMaximo - radioMinimo);
@@ -419,6 +441,32 @@
         const cx = p.cx, cy = p.cy, radio = p.radio, j = p.jugador;
         html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#1a1a1a" stroke="white" stroke-width="1.5"/>`;
         html += `<text class="nombre-jugador" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
+      });
+
+      svg.innerHTML = html;
+    }
+
+    function dibujarShotsMap(datos, lado) {
+      const equipo = datos[lado];
+      const tiros = equipo.tiros || [];
+      document.getElementById('info').textContent = `${equipo.equipo} — ${tiros.length} tiro(s)`;
+
+      const colorPorResultado = {
+        Goal: '#1a7a3c',
+        SavedShot: '#3478F6',
+        MissedShots: '#bbb',
+        ShotOnPost: '#d99a1f',
+      };
+
+      const svg = document.getElementById('cancha');
+      let html = dibujarLineasCancha();
+
+      tiros.forEach(t => {
+        if (t.x == null || t.y == null) return;
+        const [cx, cy] = aCancha(t.x, 100 - t.y);
+        const color = colorPorResultado[t.resultado] || '#999';
+        const radio = t.resultado === 'Goal' ? 6 : 4.5;
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio}" fill="${color}" stroke="white" stroke-width="1" opacity="0.9"/>`;
       });
 
       svg.innerHTML = html;

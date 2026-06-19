@@ -6,7 +6,6 @@ Este script lee un archivo HTML descargado de WhoScored y extrae:
   2. La lista de jugadores titulares
   3. La posicion promedio de cada jugador en la cancha
   4. Cuantos pases se hicieron entre cada par de jugadores
-  5. Estadisticas generales del equipo (tiros, posesion, goles)
 
 El resultado se guarda como un archivo JSON limpio en la carpeta data/,
 listo para que una pagina web lo lea y lo dibuje.
@@ -197,6 +196,42 @@ def calcular_estadisticas(data, lado="home"):
     }
 
 
+def calcular_tiros(data, lado="home"):
+    """
+    Extrae la lista de tiros de un equipo, con su posicion de origen en la
+    cancha (x, y) y, cuando esta disponible, hacia donde apuntaba el tiro
+    dentro del arco (goal_mouth_y, goal_mouth_z), para poder dibujar tanto
+    un mapa de tiros sobre la cancha como un mini-marco de portico.
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+
+    tipos_tiro = {"MissedShots", "SavedShot", "ShotOnPost", "Goal"}
+
+    tiros_salida = []
+    for ev in eventos:
+        if ev.get("teamId") != team_id:
+            continue
+        tipo = ev["type"]["displayName"]
+        if tipo not in tipos_tiro:
+            continue
+
+        tiros_salida.append({
+            "minuto": ev.get("minute", 0),
+            "jugador": nombres.get(str(ev.get("playerId")), "?"),
+            "resultado": tipo,
+            "x": ev.get("x"),
+            "y": ev.get("y"),
+            "arco_y": ev.get("goalMouthY"),
+            "arco_z": ev.get("goalMouthZ"),
+        })
+
+    tiros_salida.sort(key=lambda t: t["minuto"])
+    return tiros_salida
+
+
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
@@ -212,6 +247,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     away_datos = calcular_posiciones_y_pases(data, lado="away")
     home_datos["estadisticas"] = calcular_estadisticas(data, lado="home")
     away_datos["estadisticas"] = calcular_estadisticas(data, lado="away")
+    home_datos["tiros"] = calcular_tiros(data, lado="home")
+    away_datos["tiros"] = calcular_tiros(data, lado="away")
 
     resultado = {
         "marcador": data.get("score"),
