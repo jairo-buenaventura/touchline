@@ -180,6 +180,10 @@
     <div class="col-izquierda">
       <div class="logo">⚽ Touchline</div>
 
+      <div class="seccion-titulo">Jornada</div>
+      <div class="control-grupo">
+        <select id="selector-jornada"></select>
+      </div>
       <div class="seccion-titulo">Partido</div>
       <div class="control-grupo">
         <select id="selector-partido"></select>
@@ -312,19 +316,69 @@
       }
     }
 
-    async function cargarLista() {
-      const respuesta = await fetch('data/lista.json');
-      const lista = await respuesta.json();
+    let listaCompleta = [];
 
+    function poblarSelectorPartido(jornadaElegida) {
       const selectorPartido = document.getElementById('selector-partido');
+      const valorAnterior = selectorPartido.value;
       selectorPartido.innerHTML = '';
-      lista.forEach(partido => {
+
+      const partidosDeJornada = listaCompleta.filter(p => {
+        if (jornadaElegida === 'eliminatoria') return !p.jornada;
+        return String(p.jornada) === jornadaElegida;
+      });
+
+      const partidosOrdenados = partidosDeJornada.slice().sort((a, b) => (a.grupo || '').localeCompare(b.grupo || ''));
+
+      let grupoAnterior = null;
+      let optgroupActual = null;
+      partidosOrdenados.forEach(partido => {
+        if (partido.grupo && partido.grupo !== grupoAnterior) {
+          grupoAnterior = partido.grupo;
+          optgroupActual = document.createElement('optgroup');
+          optgroupActual.label = `Grupo ${partido.grupo}`;
+          selectorPartido.appendChild(optgroupActual);
+        }
         const opcion = document.createElement('option');
         opcion.value = partido.archivo;
         opcion.textContent = `${partido.home} ${partido.marcador} ${partido.away}`;
-        selectorPartido.appendChild(opcion);
+        (optgroupActual || selectorPartido).appendChild(opcion);
       });
 
+      if (valorAnterior && partidosOrdenados.some(p => p.archivo === valorAnterior)) {
+        selectorPartido.value = valorAnterior;
+      } else if (partidosOrdenados.length > 0) {
+        cargarPartido(partidosOrdenados[0].archivo);
+      }
+    }
+
+    async function cargarLista() {
+      const respuesta = await fetch('data/lista.json');
+      const lista = await respuesta.json();
+      listaCompleta = lista;
+
+      const selectorJornada = document.getElementById('selector-jornada');
+      selectorJornada.innerHTML = '';
+
+      const jornadas = [...new Set(lista.filter(p => p.jornada).map(p => p.jornada))].sort((a, b) => a - b);
+      jornadas.forEach(j => {
+        const opcion = document.createElement('option');
+        opcion.value = String(j);
+        opcion.textContent = `Jornada ${j}`;
+        selectorJornada.appendChild(opcion);
+      });
+
+      const hayEliminatoria = lista.some(p => !p.jornada);
+      if (hayEliminatoria) {
+        const opcion = document.createElement('option');
+        opcion.value = 'eliminatoria';
+        opcion.textContent = 'Fase eliminatoria';
+        selectorJornada.appendChild(opcion);
+      }
+
+      selectorJornada.addEventListener('change', () => poblarSelectorPartido(selectorJornada.value));
+
+      const selectorPartido = document.getElementById('selector-partido');
       selectorPartido.addEventListener('change', () => cargarPartido(selectorPartido.value));
 
       const selectorEquipo = document.getElementById('selector-equipo');
@@ -334,8 +388,10 @@
         }
       });
 
-      if (lista.length > 0) {
-        cargarPartido(lista[0].archivo);
+      if (jornadas.length > 0) {
+        poblarSelectorPartido(String(jornadas[jornadas.length - 1]));
+      } else if (lista.length > 0) {
+        poblarSelectorPartido('eliminatoria');
       } else {
         document.getElementById('info').textContent = 'No hay partidos en data/lista.json todavia.';
       }

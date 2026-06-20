@@ -19,6 +19,7 @@ Como usarlo:
 """
 
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -44,6 +45,28 @@ def extraer_match_data(ruta_html):
 
     bloque_json = contenido[inicio:fin].strip().rstrip(",").rstrip()
     return json.loads(bloque_json)
+
+
+def extraer_grupo(ruta_html):
+    """
+    Busca en el HTML crudo el texto 'World Cup Grp. X' para identificar
+    a que grupo de la fase de grupos pertenece el partido.
+    Devuelve None si no lo encuentra (por ejemplo, en fases eliminatorias).
+    """
+    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    m = re.search(r"World Cup Grp\.\s*([A-Z])", contenido)
+    return m.group(1) if m else None
+
+
+def extraer_fecha(ruta_html):
+    """
+    Busca en el HTML crudo el campo 'startDate' para saber en que fecha
+    se jugo el partido. Se usa para calcular la jornada dentro del grupo.
+    Devuelve None si no lo encuentra.
+    """
+    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    m = re.search(r'"startDate":"([\d-]+)T', contenido)
+    return m.group(1) if m else None
 
 
 def calcular_posiciones_y_pases(data, lado="home", solo_titulares=True, periodo=None):
@@ -332,6 +355,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         "away": resultado["away"]["equipo"],
         "marcador": resultado["marcador"],
         "estadio": resultado["estadio"],
+        "grupo": extraer_grupo(ruta_html),
+        "fecha": extraer_fecha(ruta_html),
     }
 
 
@@ -361,6 +386,15 @@ def main():
         resumen = procesar_un_archivo(ruta_html, carpeta_salida)
         if resumen is not None:
             resumenes.append(resumen)
+
+    por_grupo = defaultdict(list)
+    for r in resumenes:
+        if r.get("grupo") and r.get("fecha"):
+            por_grupo[r["grupo"]].append(r)
+    for grupo, partidos in por_grupo.items():
+        partidos.sort(key=lambda r: r["fecha"])
+        for i, r in enumerate(partidos):
+            r["jornada"] = (i // 2) + 1
 
     ruta_lista = carpeta_salida / "lista.json"
     ruta_lista.write_text(
