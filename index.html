@@ -156,7 +156,10 @@
     background: #f7f6f3;
     border-radius: 8px;
     width: 100%;
+    max-width: 420px;
     height: auto;
+    display: block;
+    margin: 0 auto;
   }
   .linea-cancha {
     fill: none;
@@ -214,7 +217,8 @@
         <select id="selector-jugador"></select>
       </div>
       <p id="info">Cargando...</p>
-      <svg id="cancha" viewBox="0 0 380 580"></svg>
+      <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
+      <svg id="cancha" viewBox="0 0 380 520"></svg>
     </div>
 
   </div>
@@ -350,6 +354,7 @@
       actualizarMarcador(datos);
       actualizarEstadisticas(datos);
       actualizarGoles(datos);
+      poblarSelectorJugador(datos, lado);
       dibujarVistaActual(datos, lado);
     }
 
@@ -411,18 +416,29 @@
     function dibujarCancha(datos, lado) {
       const equipo = datos[lado];
       document.getElementById('info').textContent = `${equipo.equipo} — red de pases`;
+      document.getElementById('leyenda-acciones').innerHTML = '';
 
       const svg = document.getElementById('cancha');
       let html = dibujarLineasCancha();
 
-      const maxToques = Math.max(...equipo.jugadores.map(j => j.toques));
-      const radioMinimo = 20;
-      const radioMaximo = 27;
+      const pasesPorJugador = {};
+      equipo.jugadores.forEach(j => { pasesPorJugador[j.id] = 0; });
+      (equipo.pases || []).forEach(p => {
+        pasesPorJugador[p.de] = (pasesPorJugador[p.de] || 0) + p.veces;
+        pasesPorJugador[p.a] = (pasesPorJugador[p.a] || 0) + p.veces;
+      });
+      const valoresPases = equipo.jugadores.map(j => pasesPorJugador[j.id] || 0);
+      const maxPases = Math.max(...valoresPases);
+      const minPases = Math.min(...valoresPases);
+      const rangoPases = (maxPases - minPases) || 1;
+      const radioMinimo = 12;
+      const radioMaximo = 32;
 
       const posicionesPorId = {};
       equipo.jugadores.forEach(j => {
         const [cx, cy] = aCancha(j.x, 100 - j.y);
-        const radio = radioMinimo + (j.toques / maxToques) * (radioMaximo - radioMinimo);
+        const valor = pasesPorJugador[j.id] || 0;
+        const radio = radioMinimo + ((valor - minPases) / rangoPases) * (radioMaximo - radioMinimo);
         posicionesPorId[j.id] = { jugador: j, cx, cy, radio };
       });
       const posiciones = Object.values(posicionesPorId);
@@ -472,11 +488,18 @@
       const tiros = equipo.tiros || [];
       document.getElementById('info').textContent = `${equipo.equipo} — ${tiros.length} tiro(s)`;
 
-      const colorPorResultado = {
-        Goal: '#1a7a3c',
-        SavedShot: '#3478F6',
-        MissedShots: '#bbb',
-        ShotOnPost: '#d99a1f',
+      const ordenResultados = ['Goal','SavedShot','ShotOnPost','MissedShots'];
+      const etiquetaResultado = {
+        Goal: 'Gol',
+        SavedShot: 'Atajado',
+        ShotOnPost: 'Al palo',
+        MissedShots: 'Desviado',
+      };
+      const grisPorResultado = {
+        Goal: 'rgb(20,20,20)',
+        SavedShot: 'rgb(75,75,75)',
+        ShotOnPost: 'rgb(130,130,130)',
+        MissedShots: 'rgb(185,185,185)',
       };
 
       const svg = document.getElementById('cancha');
@@ -485,12 +508,21 @@
       tiros.forEach(t => {
         if (t.x == null || t.y == null) return;
         const [cx, cy] = aCancha(t.x, 100 - t.y);
-        const color = colorPorResultado[t.resultado] || '#999';
+        const color = grisPorResultado[t.resultado] || '#999';
         const radio = t.resultado === 'Goal' ? 6 : 4.5;
-        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio}" fill="${color}" stroke="white" stroke-width="1" opacity="0.9"/>`;
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio}" fill="${color}" stroke="white" stroke-width="1" opacity="0.95"/>`;
       });
 
       svg.innerHTML = html;
+
+      const resultadosPresentes = ordenResultados.filter(r => tiros.some(t => t.resultado === r));
+      const leyenda = document.getElementById('leyenda-acciones');
+      leyenda.innerHTML = resultadosPresentes.map(r =>
+        `<div style="display:flex; align-items:center; gap:6px; font-size:11px; color:#555;">
+          <span style="width:10px; height:10px; border-radius:50%; background:${grisPorResultado[r]}; display:inline-block;"></span>
+          ${etiquetaResultado[r]}
+        </div>`
+      ).join('');
     }
 
     function dibujarActionMap(datos, lado) {
@@ -505,32 +537,55 @@
 
       if (!jugador) {
         document.getElementById('info').textContent = `${equipo.equipo} — sin acciones registradas`;
+        document.getElementById('leyenda-acciones').innerHTML = '';
         svg.innerHTML = html;
         return;
       }
 
       document.getElementById('info').textContent = `${jugador.nombre} — ${jugador.acciones.length} accion(es)`;
 
-      const colorPorTipo = {
-        TakeOn: '#3478F6',
-        BallRecovery: '#1a7a3c',
-        Interception: '#1a7a3c',
-        Tackle: '#1a7a3c',
-        Foul: '#c0392b',
-        Aerial: '#8a9bb0',
-        Clearance: '#8a9bb0',
-        BlockedPass: '#8a9bb0',
-        Dispossessed: '#c0392b',
-        Challenge: '#8a9bb0',
+      const ordenTipos = ['TakeOn','BallRecovery','Interception','Tackle','Aerial','Clearance','BlockedPass','Challenge','Foul','Dispossessed'];
+      const etiquetaTipo = {
+        TakeOn: 'Regate',
+        BallRecovery: 'Recuperación',
+        Interception: 'Intercepción',
+        Tackle: 'Entrada',
+        Aerial: 'Duelo aéreo',
+        Clearance: 'Despeje',
+        BlockedPass: 'Pase bloqueado',
+        Challenge: 'Disputa',
+        Foul: 'Falta',
+        Dispossessed: 'Pérdida de balón',
+      };
+      const grisPorTipo = {
+        TakeOn: '#1a1a1a',
+        BallRecovery: '#2563eb',
+        Interception: '#16a34a',
+        Tackle: '#dc2626',
+        Aerial: '#9333ea',
+        Clearance: '#0891b2',
+        BlockedPass: '#ea580c',
+        Challenge: '#65a30d',
+        Foul: '#be185d',
+        Dispossessed: '#78716c',
       };
 
       jugador.acciones.forEach(a => {
         const [cx, cy] = aCancha(a.x, 100 - a.y);
-        const color = colorPorTipo[a.tipo] || '#999';
-        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4.5" fill="${color}" stroke="white" stroke-width="1" opacity="${a.exitoso ? 0.9 : 0.5}"/>`;
+        const color = grisPorTipo[a.tipo] || '#999';
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4.5" fill="${color}" stroke="white" stroke-width="1" opacity="${a.exitoso ? 0.95 : 0.6}"/>`;
       });
 
       svg.innerHTML = html;
+
+      const tiposPresentes = ordenTipos.filter(tipo => jugador.acciones.some(a => a.tipo === tipo));
+      const leyenda = document.getElementById('leyenda-acciones');
+      leyenda.innerHTML = tiposPresentes.map(tipo =>
+        `<div style="display:flex; align-items:center; gap:6px; font-size:11px; color:#555;">
+          <span style="width:10px; height:10px; border-radius:50%; background:${grisPorTipo[tipo]}; display:inline-block;"></span>
+          ${etiquetaTipo[tipo]}
+        </div>`
+      ).join('');
     }
 
     cargarLista().catch(err => {
