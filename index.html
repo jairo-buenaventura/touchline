@@ -49,6 +49,67 @@
     padding: 8px 10px;
     font-size: 13px;
   }
+  .dropdown-personalizado {
+    position: relative;
+  }
+  .dropdown-boton {
+    width: 100%;
+    background: white;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+  }
+  .dropdown-boton::after {
+    content: '▾';
+    font-size: 11px;
+    color: #999;
+    flex-shrink: 0;
+  }
+  .dropdown-lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-height: 260px;
+    overflow-y: auto;
+    z-index: 50;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .dropdown-lista.abierto {
+    display: block;
+  }
+  .dropdown-grupo-titulo {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 0.04em;
+    padding: 8px 10px 4px;
+  }
+  .dropdown-item {
+    padding: 7px 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .dropdown-item:hover {
+    background: #f5f5f3;
+  }
+  .dropdown-item.seleccionado {
+    background: #1a1a1a;
+    color: white;
+  }
 
   .col-central {
     width: 280px;
@@ -185,13 +246,19 @@
         <select id="selector-jornada"></select>
       </div>
       <div class="seccion-titulo">Partido</div>
-      <div class="control-grupo">
-        <select id="selector-partido"></select>
+      <div class="control-grupo dropdown-personalizado" id="dropdown-partido-contenedor">
+        <button type="button" class="dropdown-boton" id="dropdown-partido-boton">Selecciona un partido</button>
+        <div class="dropdown-lista" id="dropdown-partido-lista"></div>
       </div>
 
       <div class="seccion-titulo">Equipo</div>
-      <div class="control-grupo">
-        <select id="selector-equipo">
+      <div class="control-grupo dropdown-personalizado" id="dropdown-equipo-contenedor">
+        <button type="button" class="dropdown-boton" id="dropdown-equipo-boton">Local</button>
+        <div class="dropdown-lista" id="dropdown-equipo-lista">
+          <div class="dropdown-item seleccionado" data-valor="home">Local</div>
+          <div class="dropdown-item" data-valor="away">Visitante</div>
+        </div>
+        <select id="selector-equipo" style="display:none;">
           <option value="home">Local</option>
           <option value="away">Visitante</option>
         </select>
@@ -318,37 +385,64 @@
 
     let listaCompleta = [];
 
+    let partidoSeleccionadoActual = null;
+
+    function cerrarDropdownPartido() {
+      document.getElementById('dropdown-partido-lista').classList.remove('abierto');
+    }
+
     function poblarSelectorPartido(jornadaElegida) {
-      const selectorPartido = document.getElementById('selector-partido');
-      const valorAnterior = selectorPartido.value;
-      selectorPartido.innerHTML = '';
+      const boton = document.getElementById('dropdown-partido-boton');
+      const lista = document.getElementById('dropdown-partido-lista');
+      const valorAnterior = partidoSeleccionadoActual;
+      lista.innerHTML = '';
 
       const partidosDeJornada = listaCompleta.filter(p => {
         if (jornadaElegida === 'eliminatoria') return !p.jornada;
         return String(p.jornada) === jornadaElegida;
       });
-
       const partidosOrdenados = partidosDeJornada.slice().sort((a, b) => (a.grupo || '').localeCompare(b.grupo || ''));
 
       let grupoAnterior = null;
-      let optgroupActual = null;
       partidosOrdenados.forEach(partido => {
         if (partido.grupo && partido.grupo !== grupoAnterior) {
           grupoAnterior = partido.grupo;
-          optgroupActual = document.createElement('optgroup');
-          optgroupActual.label = `Grupo ${partido.grupo}`;
-          selectorPartido.appendChild(optgroupActual);
+          const titulo = document.createElement('div');
+          titulo.className = 'dropdown-grupo-titulo';
+          titulo.textContent = `Grupo ${partido.grupo}`;
+          lista.appendChild(titulo);
         }
-        const opcion = document.createElement('option');
-        opcion.value = partido.archivo;
-        opcion.textContent = `${partido.home} ${partido.marcador} ${partido.away}`;
-        (optgroupActual || selectorPartido).appendChild(opcion);
+        const item = document.createElement('div');
+        item.className = 'dropdown-item';
+        item.textContent = `${partido.home} ${partido.marcador} ${partido.away}`;
+        item.dataset.archivo = partido.archivo;
+        item.addEventListener('click', () => {
+          partidoSeleccionadoActual = partido.archivo;
+          boton.textContent = item.textContent;
+          lista.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('seleccionado'));
+          item.classList.add('seleccionado');
+          cerrarDropdownPartido();
+          cargarPartido(partido.archivo);
+        });
+        lista.appendChild(item);
       });
 
-      if (valorAnterior && partidosOrdenados.some(p => p.archivo === valorAnterior)) {
-        selectorPartido.value = valorAnterior;
+      const sigueExistiendo = valorAnterior && partidosOrdenados.some(p => p.archivo === valorAnterior);
+      if (sigueExistiendo) {
+        const item = lista.querySelector(`[data-archivo="${valorAnterior}"]`);
+        if (item) {
+          boton.textContent = item.textContent;
+          item.classList.add('seleccionado');
+        }
       } else if (partidosOrdenados.length > 0) {
-        cargarPartido(partidosOrdenados[0].archivo);
+        const primero = partidosOrdenados[0];
+        partidoSeleccionadoActual = primero.archivo;
+        boton.textContent = `${primero.home} ${primero.marcador} ${primero.away}`;
+        const item = lista.querySelector(`[data-archivo="${primero.archivo}"]`);
+        if (item) item.classList.add('seleccionado');
+        cargarPartido(primero.archivo);
+      } else {
+        boton.textContent = 'Sin partidos';
       }
     }
 
@@ -378,8 +472,18 @@
 
       selectorJornada.addEventListener('change', () => poblarSelectorPartido(selectorJornada.value));
 
-      const selectorPartido = document.getElementById('selector-partido');
-      selectorPartido.addEventListener('change', () => cargarPartido(selectorPartido.value));
+      const botonPartido = document.getElementById('dropdown-partido-boton');
+      const listaPartido = document.getElementById('dropdown-partido-lista');
+      botonPartido.addEventListener('click', (e) => {
+        e.stopPropagation();
+        listaPartido.classList.toggle('abierto');
+      });
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('dropdown-partido-contenedor').contains(e.target)) {
+          cerrarDropdownPartido();
+        }
+      });
+
 
       const selectorEquipo = document.getElementById('selector-equipo');
       selectorEquipo.addEventListener('change', () => {
@@ -388,8 +492,32 @@
         }
       });
 
+      const botonEquipo = document.getElementById('dropdown-equipo-boton');
+      const listaEquipo = document.getElementById('dropdown-equipo-lista');
+      botonEquipo.addEventListener('click', (e) => {
+        e.stopPropagation();
+        listaEquipo.classList.toggle('abierto');
+      });
+      listaEquipo.querySelectorAll('.dropdown-item').forEach(item => {
+        item.addEventListener('click', () => {
+          listaEquipo.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('seleccionado'));
+          item.classList.add('seleccionado');
+          botonEquipo.textContent = item.textContent;
+          selectorEquipo.value = item.dataset.valor;
+          selectorEquipo.dispatchEvent(new Event('change'));
+          listaEquipo.classList.remove('abierto');
+        });
+      });
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('dropdown-equipo-contenedor').contains(e.target)) {
+          listaEquipo.classList.remove('abierto');
+        }
+      });
+
       if (jornadas.length > 0) {
-        poblarSelectorPartido(String(jornadas[jornadas.length - 1]));
+        const ultimaJornada = String(jornadas[jornadas.length - 1]);
+        selectorJornada.value = ultimaJornada;
+        poblarSelectorPartido(ultimaJornada);
       } else if (lista.length > 0) {
         poblarSelectorPartido('eliminatoria');
       } else {
