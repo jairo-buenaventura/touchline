@@ -255,6 +255,98 @@ def calcular_tiros(data, lado="home"):
     return tiros_salida
 
 
+def calcular_recepcion_pases(data, lado="home", solo_titulares=True):
+    """
+    Para cada jugador, calcula todos los puntos donde recibio un pase
+    (posicion de destino del pase, endX/endY), distinguiendo pases
+    normales, pases clave (key pass) y asistencias (assist).
+    Tambien cuenta cuantos pases recibio en el ultimo tercio, en el
+    area rival, y cuantos de esos pases fueron centros (crosses).
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+
+    if solo_titulares:
+        jugadores_validos = {
+            p["playerId"]: p for p in equipo["players"] if p.get("isFirstEleven")
+        }
+    else:
+        jugadores_validos = {p["playerId"]: p for p in equipo["players"]}
+
+    eventos_equipo = [ev for ev in eventos if ev.get("teamId") == team_id]
+    eventos_equipo.sort(key=lambda ev: (ev.get("minute", 0), ev.get("second", 0), ev.get("eventId", 0)))
+
+    resultado_por_jugador = {}
+
+    for i in range(len(eventos_equipo) - 1):
+        actual = eventos_equipo[i]
+        siguiente = eventos_equipo[i + 1]
+
+        es_pase_exitoso = (
+            actual["type"]["displayName"] == "Pass"
+            and actual["outcomeType"]["displayName"] == "Successful"
+        )
+        if not es_pase_exitoso:
+            continue
+
+        quien_pasa = actual.get("playerId")
+        quien_recibe = siguiente.get("playerId")
+        if quien_recibe is None or quien_recibe == quien_pasa:
+            continue
+        if quien_recibe not in jugadores_validos:
+            continue
+
+        nombres_qualifiers = {q["type"]["displayName"] for q in actual.get("qualifiers", [])}
+        es_cruce = "Cross" in nombres_qualifiers
+        es_pase_clave = "KeyPass" in nombres_qualifiers
+        es_asistencia = "IntentionalGoalAssist" in nombres_qualifiers or "IntentionalAssist" in nombres_qualifiers
+
+        end_x = actual.get("endX")
+        end_y = actual.get("endY")
+        if end_x is None or end_y is None:
+            continue
+
+        if quien_recibe not in resultado_por_jugador:
+            info = jugadores_validos[quien_recibe]
+            resultado_por_jugador[quien_recibe] = {
+                "id": quien_recibe,
+                "nombre": nombres.get(str(quien_recibe), info.get("name", "?")),
+                "recepciones": [],
+                "pases_clave_recibidos": [],
+                "asistencias_recibidas": [],
+                "en_tercio_final": 0,
+                "en_area_rival": 0,
+                "cruces_recibidos": 0,
+            }
+
+        registro = resultado_por_jugador[quien_recibe]
+        punto = {"x": round(end_x, 1), "y": round(end_y, 1)}
+        punto_con_origen = {
+            "x": round(end_x, 1),
+            "y": round(end_y, 1),
+            "x_inicio": round(actual.get("x", end_x), 1),
+            "y_inicio": round(actual.get("y", end_y), 1),
+        }
+
+        if es_asistencia:
+            registro["asistencias_recibidas"].append(punto_con_origen)
+        elif es_pase_clave:
+            registro["pases_clave_recibidos"].append(punto_con_origen)
+        else:
+            registro["recepciones"].append(punto)
+
+        if end_x >= 66.7:
+            registro["en_tercio_final"] += 1
+        if end_x >= 83.0 and 21.1 <= end_y <= 78.9:
+            registro["en_area_rival"] += 1
+        if es_cruce:
+            registro["cruces_recibidos"] += 1
+
+    return list(resultado_por_jugador.values())
+
+
 def calcular_acciones(data, lado="home", solo_titulares=True):
     """
     Extrae acciones individuales (regates, recuperaciones, intercepciones,
@@ -329,6 +421,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     away_datos["tiros"] = calcular_tiros(data, lado="away")
     home_datos["acciones"] = calcular_acciones(data, lado="home")
     away_datos["acciones"] = calcular_acciones(data, lado="away")
+    home_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="home")
+    away_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="away")
 
     resultado = {
         "marcador": data.get("score"),

@@ -283,13 +283,17 @@
         <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
         <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
         <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
+        <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
       </div>
-      <div id="selector-jugador-contenedor" style="display:none; margin-bottom:0.75rem;">
-        <select id="selector-jugador"></select>
+      <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
+        <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
+        <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
+        <select id="selector-jugador" style="display:none;"></select>
       </div>
       <p id="info">Cargando...</p>
       <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
       <svg id="cancha" viewBox="0 0 380 520"></svg>
+      <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
     </div>
 
   </div>
@@ -348,29 +352,71 @@
       document.getElementById('tab-passing').classList.toggle('activo', vista === 'passing');
       document.getElementById('tab-shots').classList.toggle('activo', vista === 'shots');
       document.getElementById('tab-action').classList.toggle('activo', vista === 'action');
-      document.getElementById('selector-jugador-contenedor').style.display = vista === 'action' ? 'block' : 'none';
+      document.getElementById('tab-recepcion').classList.toggle('activo', vista === 'recepcion');
+      document.getElementById('selector-jugador-contenedor').style.display = (vista === 'action' || vista === 'recepcion') ? 'block' : 'none';
+      document.getElementById('stats-recepcion').style.display = vista === 'recepcion' ? 'flex' : 'none';
       if (datosPartidoActual) {
         const lado = document.getElementById('selector-equipo').value;
         if (vista === 'action') poblarSelectorJugador(datosPartidoActual, lado);
+        if (vista === 'recepcion') poblarSelectorJugadorRecepcion(datosPartidoActual, lado);
         dibujarVistaActual(datosPartidoActual, lado);
+      }
+    }
+
+    function poblarDropdownJugador(listaJugadores) {
+      const selector = document.getElementById('selector-jugador');
+      const boton = document.getElementById('dropdown-jugador-boton');
+      const lista = document.getElementById('dropdown-jugador-lista');
+      const valorAnterior = selector.value;
+      selector.innerHTML = '';
+      lista.innerHTML = '';
+
+      listaJugadores.forEach(j => {
+        const opcion = document.createElement('option');
+        opcion.value = j.id;
+        opcion.textContent = j.nombre;
+        selector.appendChild(opcion);
+
+        const item = document.createElement('div');
+        item.className = 'dropdown-item';
+        item.textContent = j.nombre;
+        item.dataset.valor = String(j.id);
+        item.addEventListener('click', () => {
+          selector.value = String(j.id);
+          boton.textContent = j.nombre;
+          lista.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('seleccionado'));
+          item.classList.add('seleccionado');
+          lista.classList.remove('abierto');
+          dibujarVistaActual(datosPartidoActual, document.getElementById('selector-equipo').value);
+        });
+        lista.appendChild(item);
+      });
+
+      const sigueExistiendo = valorAnterior && listaJugadores.some(j => String(j.id) === valorAnterior);
+      if (sigueExistiendo) {
+        selector.value = valorAnterior;
+        const item = lista.querySelector(`[data-valor="${valorAnterior}"]`);
+        if (item) {
+          boton.textContent = item.textContent;
+          item.classList.add('seleccionado');
+        }
+      } else if (listaJugadores.length > 0) {
+        selector.value = String(listaJugadores[0].id);
+        boton.textContent = listaJugadores[0].nombre;
+        const item = lista.querySelector(`[data-valor="${listaJugadores[0].id}"]`);
+        if (item) item.classList.add('seleccionado');
+      } else {
+        boton.textContent = 'Sin jugadores';
       }
     }
 
     function poblarSelectorJugador(datos, lado) {
       const equipo = datos[lado];
-      const selector = document.getElementById('selector-jugador');
-      const valorAnterior = selector.value;
-      selector.innerHTML = '';
-      (equipo.acciones || []).forEach(j => {
-        const opcion = document.createElement('option');
-        opcion.value = j.id;
-        opcion.textContent = j.nombre;
-        selector.appendChild(opcion);
-      });
-      if (valorAnterior && (equipo.acciones || []).some(j => String(j.id) === valorAnterior)) {
-        selector.value = valorAnterior;
-      }
-      selector.onchange = () => dibujarVistaActual(datosPartidoActual, document.getElementById('selector-equipo').value);
+      poblarDropdownJugador(equipo.acciones || []);
+    }
+    function poblarSelectorJugadorRecepcion(datos, lado) {
+      const equipo = datos[lado];
+      poblarDropdownJugador(equipo.recepcion_pases || []);
     }
 
     function dibujarVistaActual(datos, lado) {
@@ -378,6 +424,8 @@
         dibujarCancha(datos, lado);
       } else if (vistaActual === 'shots') {
         dibujarShotsMap(datos, lado);
+      } else if (vistaActual === 'recepcion') {
+        dibujarRecepcionPases(datos, lado);
       } else {
         dibujarActionMap(datos, lado);
       }
@@ -447,7 +495,7 @@
     }
 
     async function cargarLista() {
-      const respuesta = await fetch('data/lista.json');
+      const respuesta = await fetch('data/lista.json?v=' + Date.now());
       const lista = await respuesta.json();
       listaCompleta = lista;
 
@@ -514,6 +562,18 @@
         }
       });
 
+      const botonJugador = document.getElementById('dropdown-jugador-boton');
+      const listaJugador = document.getElementById('dropdown-jugador-lista');
+      botonJugador.addEventListener('click', (e) => {
+        e.stopPropagation();
+        listaJugador.classList.toggle('abierto');
+      });
+      document.addEventListener('click', (e) => {
+        if (!document.getElementById('selector-jugador-contenedor').contains(e.target)) {
+          listaJugador.classList.remove('abierto');
+        }
+      });
+
       if (jornadas.length > 0) {
         const ultimaJornada = String(jornadas[jornadas.length - 1]);
         selectorJornada.value = ultimaJornada;
@@ -527,7 +587,7 @@
 
     async function cargarPartido(nombreArchivo) {
       document.getElementById('info').textContent = 'Cargando partido...';
-      const respuesta = await fetch('data/' + nombreArchivo);
+      const respuesta = await fetch('data/' + nombreArchivo + '?v=' + Date.now());
       const datos = await respuesta.json();
       datosPartidoActual = datos;
       const ladoElegido = document.getElementById('selector-equipo').value;
@@ -538,7 +598,11 @@
       actualizarMarcador(datos);
       actualizarEstadisticas(datos);
       actualizarGoles(datos);
-      poblarSelectorJugador(datos, lado);
+      if (vistaActual === 'recepcion') {
+        poblarSelectorJugadorRecepcion(datos, lado);
+      } else {
+        poblarSelectorJugador(datos, lado);
+      }
       dibujarVistaActual(datos, lado);
     }
 
@@ -770,6 +834,94 @@
           ${etiquetaTipo[tipo]}
         </div>`
       ).join('');
+    }
+
+    function envolturaConvexa(puntos) {
+      if (puntos.length < 3) return puntos;
+      const ordenados = puntos.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+      const cruz = (o, a, b) => (a[0]-o[0])*(b[1]-o[1]) - (a[1]-o[1])*(b[0]-o[0]);
+      const inferior = [];
+      for (const p of ordenados) {
+        while (inferior.length >= 2 && cruz(inferior[inferior.length-2], inferior[inferior.length-1], p) <= 0) {
+          inferior.pop();
+        }
+        inferior.push(p);
+      }
+      const superior = [];
+      for (let i = ordenados.length - 1; i >= 0; i--) {
+        const p = ordenados[i];
+        while (superior.length >= 2 && cruz(superior[superior.length-2], superior[superior.length-1], p) <= 0) {
+          superior.pop();
+        }
+        superior.push(p);
+      }
+      inferior.pop();
+      superior.pop();
+      return inferior.concat(superior);
+    }
+
+    function dibujarRecepcionPases(datos, lado) {
+      const equipo = datos[lado];
+      const jugadores = equipo.recepcion_pases || [];
+      const selector = document.getElementById('selector-jugador');
+      const pidElegido = selector.value;
+      const jugador = jugadores.find(j => String(j.id) === pidElegido) || jugadores[0];
+
+      const svg = document.getElementById('cancha');
+      const statsDiv = document.getElementById('stats-recepcion');
+      document.getElementById('leyenda-acciones').innerHTML = '';
+      let html = dibujarLineasCancha();
+
+      if (!jugador) {
+        document.getElementById('info').textContent = `${equipo.equipo} — sin recepciones registradas`;
+        svg.innerHTML = html;
+        statsDiv.innerHTML = '';
+        return;
+      }
+
+      document.getElementById('info').textContent = `${jugador.nombre} — mapa de recepcion de pases`;
+
+      const recepciones = jugador.recepciones || [];
+      const pasesClave = jugador.pases_clave_recibidos || [];
+      const asistencias = jugador.asistencias_recibidas || [];
+
+      const todosLosPuntosCancha = recepciones.concat(pasesClave, asistencias).map(p => aCancha(p.x, 100 - p.y));
+
+      if (todosLosPuntosCancha.length >= 3) {
+        const hull = envolturaConvexa(todosLosPuntosCancha);
+        const puntosSvg = hull.map(p => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+        html += `<polygon points="${puntosSvg}" fill="rgba(120,130,220,0.18)" stroke="rgba(120,130,220,0.6)" stroke-width="1"/>`;
+      }
+
+      recepciones.forEach(p => {
+        const [cx, cy] = aCancha(p.x, 100 - p.y);
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="3" fill="none" stroke="#5b6fb0" stroke-width="1.2"/>`;
+      });
+
+      pasesClave.forEach(p => {
+        const [ix, iy] = aCancha(p.x_inicio, 100 - p.y_inicio);
+        const [fx, fy] = aCancha(p.x, 100 - p.y);
+        html += `<line x1="${ix.toFixed(1)}" y1="${iy.toFixed(1)}" x2="${fx.toFixed(1)}" y2="${fy.toFixed(1)}" stroke="#e07b39" stroke-width="1.4"/>`;
+        html += `<circle cx="${fx.toFixed(1)}" cy="${fy.toFixed(1)}" r="3" fill="#e07b39"/>`;
+      });
+
+      asistencias.forEach(p => {
+        const [ix, iy] = aCancha(p.x_inicio, 100 - p.y_inicio);
+        const [fx, fy] = aCancha(p.x, 100 - p.y);
+        html += `<line x1="${ix.toFixed(1)}" y1="${iy.toFixed(1)}" x2="${fx.toFixed(1)}" y2="${fy.toFixed(1)}" stroke="#2e9e4f" stroke-width="1.6"/>`;
+        html += `<circle cx="${fx.toFixed(1)}" cy="${fy.toFixed(1)}" r="3.5" fill="#2e9e4f"/>`;
+      });
+
+      svg.innerHTML = html;
+
+      statsDiv.innerHTML = `
+        <div><strong>${recepciones.length + pasesClave.length + asistencias.length}</strong><br>Pases recibidos</div>
+        <div style="color:#e07b39;"><strong>${pasesClave.length}</strong><br>Pase clave</div>
+        <div style="color:#2e9e4f;"><strong>${asistencias.length}</strong><br>Asistencia</div>
+        <div><strong>${jugador.en_tercio_final}</strong><br>Tercio final</div>
+        <div><strong>${jugador.en_area_rival}</strong><br>Area rival</div>
+        <div><strong>${jugador.cruces_recibidos}</strong><br>Cruces</div>
+      `;
     }
 
     cargarLista().catch(err => {
