@@ -155,6 +155,42 @@ def calcular_posiciones_y_pases(data, lado="home", solo_titulares=True, periodo=
     }
 
 
+def calcular_ppda(data, lado="home"):
+    """
+    PPDA (Passes allowed Per Defensive Action): pases del equipo rival
+    en su zona de armado (x <= 60, fuera del ultimo 40% de la cancha)
+    dividido entre las acciones defensivas de este equipo en esa misma
+    zona (x >= 40 en su propia escala, que es la misma zona fisica).
+    Mientras mas bajo el numero, mas presiona el equipo arriba en la cancha.
+    """
+    eventos = data["events"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+    home_id = data["home"]["teamId"]
+    away_id = data["away"]["teamId"]
+    rival_id = away_id if team_id == home_id else home_id
+
+    tipos_defensivos = {"Tackle", "Interception", "Foul", "Challenge"}
+
+    pases_rival_zona = 0
+    for ev in eventos:
+        if ev.get("teamId") == rival_id and ev["type"]["displayName"] == "Pass":
+            x = ev.get("x")
+            if x is not None and x <= 60:
+                pases_rival_zona += 1
+
+    acciones_defensivas_zona = 0
+    for ev in eventos:
+        if ev.get("teamId") == team_id and ev["type"]["displayName"] in tipos_defensivos:
+            x = ev.get("x")
+            if x is not None and x >= 40:
+                acciones_defensivas_zona += 1
+
+    if acciones_defensivas_zona == 0:
+        return None
+    return round(pases_rival_zona / acciones_defensivas_zona, 2)
+
+
 def calcular_estadisticas(data, lado="home"):
     """
     Calcula estadisticas generales del equipo para mostrar en el panel
@@ -216,6 +252,7 @@ def calcular_estadisticas(data, lado="home"):
         "precision_pases": precision_pases,
         "posesion": posesion,
         "goles": goles,
+        "ppda": calcular_ppda(data, lado=lado),
     }
 
 

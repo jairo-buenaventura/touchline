@@ -171,6 +171,38 @@
   .stat-barra-away {
     background: #ccc;
   }
+  .tabla-stats {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .tabla-stats tr {
+    border-bottom: 1px solid #f0f0ee;
+  }
+  .tabla-stats tr:last-child {
+    border-bottom: none;
+  }
+  .tabla-stats td {
+    padding: 6px 2px;
+  }
+  .tabla-stats .valor-home {
+    text-align: left;
+    font-weight: 600;
+    width: 30%;
+  }
+  .tabla-stats .valor-away {
+    text-align: right;
+    font-weight: 600;
+    width: 30%;
+  }
+  .tabla-stats .nombre-metrica {
+    text-align: center;
+    color: #999;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    width: 40%;
+  }
   .goles-lista {
     margin-top: 1.25rem;
     border-top: 1px solid #eee;
@@ -613,36 +645,60 @@
       document.getElementById('estadio-linea').textContent = datos.estadio || '';
     }
 
-    function filaEstadistica(nombre, valorHome, valorAway, sufijo, maxValor) {
-      const total = maxValor !== undefined ? maxValor : (valorHome + valorAway || 1);
-      const pctHome = Math.round((valorHome / total) * 100);
-      const pctAway = 100 - pctHome;
+    function valorOGuion(valor, sufijo) {
+      if (valor === null || valor === undefined || Number.isNaN(valor)) return '—';
+      return `${valor}${sufijo || ''}`;
+    }
+    function valorDecimales(valor, decimales) {
+      if (valor === null || valor === undefined || Number.isNaN(valor)) return '—';
+      return valor.toFixed(decimales);
+    }
+    function filaCategoria(nombre) {
+      return `<tr><td colspan="3" style="padding-top:12px; padding-bottom:2px; font-size:11px; text-transform:uppercase; color:#1a1a1a; font-weight:700; letter-spacing:0.05em; text-align:center;">${nombre}</td></tr>`;
+    }
+    function filaTabla(nombre, valorHome, valorAway, sufijo) {
       return `
-        <div class="stat-fila">
-          <div class="stat-valores">
-            <span>${valorHome}${sufijo || ''}</span>
-            <span>${valorAway}${sufijo || ''}</span>
-          </div>
-          <div class="stat-nombre">${nombre}</div>
-          <div class="stat-barra">
-            <div class="stat-barra-home" style="width:${pctHome}%"></div>
-            <div class="stat-barra-away" style="width:${pctAway}%"></div>
-          </div>
-        </div>
+        <tr>
+          <td class="valor-home">${valorOGuion(valorHome, sufijo)}</td>
+          <td class="nombre-metrica">${nombre}</td>
+          <td class="valor-away">${valorOGuion(valorAway, sufijo)}</td>
+        </tr>
       `;
     }
-
     function actualizarEstadisticas(datos) {
       const h = datos.home.estadisticas;
       const a = datos.away.estadisticas;
+      const hf = datos.home.fotmob || {};
+      const af = datos.away.fotmob || {};
       const bloque = document.getElementById('bloque-estadisticas');
+      bloque.innerHTML = `
+        <table class="tabla-stats">
+          ${filaCategoria('Posesion')}
+          ${filaTabla('Posesion', h.posesion, a.posesion, '%')}
+          ${filaTabla('Dominio del campo rival', hf.field_tilt, af.field_tilt, '%')}
 
-      bloque.innerHTML =
-        filaEstadistica('Posesion', h.posesion, a.posesion, '%', 100) +
-        filaEstadistica('Tiros', h.tiros, a.tiros) +
-        filaEstadistica('Tiros al arco', h.tiros_al_arco, a.tiros_al_arco) +
-        filaEstadistica('Pases', h.pases_totales, a.pases_totales) +
-        filaEstadistica('Precision de pases', h.precision_pases, a.precision_pases, '%', 100);
+          ${filaCategoria('Ataque')}
+          ${filaTabla('xG', valorDecimales(hf.xg, 2), valorDecimales(af.xg, 2))}
+          ${filaTabla('xG en el arco (xGOT)', valorDecimales(hf.xgot, 2), valorDecimales(af.xgot, 2))}
+          ${filaTabla('xG por tiro', valorDecimales(hf.xg_por_tiro, 2), valorDecimales(af.xg_por_tiro, 2))}
+          ${filaTabla('Tiros', hf.tiros, af.tiros)}
+          ${filaTabla('Tiros al arco', hf.tiros_al_arco, af.tiros_al_arco)}
+          ${filaTabla('Tiros dentro del area', hf.tiros_dentro_area, af.tiros_dentro_area)}
+          ${filaTabla('Tiros fuera del area', hf.tiros_fuera_area, af.tiros_fuera_area)}
+          ${filaTabla('Ocasiones claras', hf.big_chances, af.big_chances)}
+          ${filaTabla('Ocasiones claras falladas', hf.big_chances_perdidas, af.big_chances_perdidas)}
+
+          ${filaCategoria('Pases')}
+          ${filaTabla('Pases', h.pases_totales, a.pases_totales)}
+          ${filaTabla('Precision de pases', h.precision_pases, a.precision_pases, '%')}
+          ${filaTabla('Cruces', hf.cruces_totales, af.cruces_totales)}
+
+          ${filaCategoria('Presion y disciplina')}
+          ${filaTabla('PPDA', valorDecimales(h.ppda, 2), valorDecimales(a.ppda, 2))}
+          ${filaTabla('Corners', hf.corners, af.corners)}
+          ${filaTabla('Faltas', hf.faltas, af.faltas)}
+        </table>
+      `;
     }
 
     function actualizarGoles(datos) {
