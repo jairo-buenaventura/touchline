@@ -14,6 +14,175 @@
     margin: 0;
     padding: 1.5rem;
   }
+  body {
+    padding: 0;
+  }
+  .app-shell {
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar-nav {
+    width: 200px;
+    flex-shrink: 0;
+    background: #1a1a1a;
+    color: #e5e5e3;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .sidebar-logo {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.75rem;
+    padding-left: 0.4rem;
+  }
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 10px;
+    border-radius: 7px;
+    font-size: 13px;
+    color: #b5b5b3;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  .sidebar-item:hover {
+    background: #262626;
+    color: white;
+  }
+  .sidebar-item.activo {
+    background: #2d2d2d;
+    color: white;
+    font-weight: 600;
+  }
+  .sidebar-seccion-titulo {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    letter-spacing: 0.05em;
+    margin: 1.5rem 0 0.5rem 0.4rem;
+  }
+  .sidebar-recent-item {
+    padding: 7px 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #8a8a88;
+    cursor: pointer;
+  }
+  .sidebar-recent-item:hover {
+    background: #262626;
+    color: #e5e5e3;
+  }
+  .sidebar-perfil {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    border-top: 1px solid #2d2d2d;
+    font-size: 12px;
+  }
+  .sidebar-perfil-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #3a3a3a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 11px;
+    flex-shrink: 0;
+  }
+  .sidebar-perfil-nombre {
+    color: white;
+    font-weight: 600;
+  }
+  .sidebar-perfil-rol {
+    color: #8a8a88;
+    font-size: 11px;
+  }
+  .contenido-principal {
+    flex: 1;
+    padding: 1.5rem;
+    background: #f5f5f3;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .nivel-matches {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .breadcrumb-matches {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .grid-torneos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  .tarjeta-torneo {
+    background: white;
+    border: 1px solid #e5e5e3;
+    border-radius: 10px;
+    padding: 1.25rem;
+    cursor: pointer;
+  }
+  .tarjeta-torneo:hover {
+    border-color: #ccc;
+  }
+  .tarjeta-torneo-nombre {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .tarjeta-torneo-sub {
+    font-size: 11px;
+    color: #999;
+    margin-top: 4px;
+  }
+  .lista-jornadas-titulo {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 0.04em;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .tarjeta-partido {
+    background: white;
+    border: 1px solid #e5e5e3;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  .tarjeta-partido:hover {
+    border-color: #ccc;
+  }
+  .tarjeta-partido-grupo {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+  }
+  .vista-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    color: #999;
+    font-size: 14px;
+  }
   .layout {
     display: flex;
     gap: 1rem;
@@ -33,7 +202,8 @@
   .seccion-titulo {
     font-size: 11px;
     text-transform: uppercase;
-    color: #999;
+    color: #1a1a1a;
+    font-weight: 700;
     margin: 1.25rem 0 0.5rem;
     letter-spacing: 0.05em;
   }
@@ -267,23 +437,47 @@
 </style>
 </head>
 <body>
-
+  <div class="app-shell">
+    <div class="sidebar-nav">
+      <div class="sidebar-logo">⚽ Touchline</div>
+      <div class="sidebar-item activo" id="nav-matches" onclick="cambiarVistaApp('matches')">📅 Matches</div>
+      <div class="sidebar-item" id="nav-search" onclick="cambiarVistaApp('search')">🔍 Search</div>
+      <div class="sidebar-item" id="nav-players" onclick="cambiarVistaApp('players')">👤 Players</div>
+      <div class="sidebar-item" id="nav-saved" onclick="cambiarVistaApp('saved')">⭐ Saved</div>
+      <div class="sidebar-seccion-titulo">Recent</div>
+      <div id="sidebar-recientes"></div>
+      <div class="sidebar-perfil">
+        <div class="sidebar-perfil-avatar">JB</div>
+        <div>
+          <div class="sidebar-perfil-nombre">Jairo Buenaventura</div>
+          <div class="sidebar-perfil-rol">Analyst</div>
+        </div>
+      </div>
+    </div>
+    <div class="contenido-principal">
+      <div id="vista-matches">
+        <div class="nivel-matches" id="nivel-torneos">
+          <div class="grid-torneos">
+            <div class="tarjeta-torneo" onclick="abrirTorneo()">
+              <div class="tarjeta-torneo-nombre">Mundial 2026</div>
+              <div class="tarjeta-torneo-sub">FIFA World Cup</div>
+            </div>
+          </div>
+        </div>
+        <div class="nivel-matches" id="nivel-jornadas" style="display:none;">
+          <div class="breadcrumb-matches" onclick="volverATorneos()">&larr; Torneos</div>
+          <div id="contenedor-lista-partidos"></div>
+        </div>
+        <div class="nivel-matches" id="nivel-detalle" style="display:none;">
+          <div class="breadcrumb-matches" onclick="volverAJornadas()">&larr; Mundial 2026</div>
   <div class="layout">
 
     <div class="col-izquierda">
-      <div class="logo">⚽ Touchline</div>
-
-      <div class="seccion-titulo">Jornada</div>
-      <div class="control-grupo">
+      <div style="display:none;">
         <select id="selector-jornada"></select>
-      </div>
-      <div class="seccion-titulo">Partido</div>
-      <div class="control-grupo dropdown-personalizado" id="dropdown-partido-contenedor">
-        <button type="button" class="dropdown-boton" id="dropdown-partido-boton">Selecciona un partido</button>
+        <button type="button" id="dropdown-partido-boton">Selecciona un partido</button>
         <div class="dropdown-lista" id="dropdown-partido-lista"></div>
       </div>
-
-      <div class="seccion-titulo">Equipo</div>
       <div class="control-grupo dropdown-personalizado" id="dropdown-equipo-contenedor">
         <button type="button" class="dropdown-boton" id="dropdown-equipo-boton">Local</button>
         <div class="dropdown-lista" id="dropdown-equipo-lista">
@@ -295,7 +489,14 @@
           <option value="away">Visitante</option>
         </select>
       </div>
+      <div id="squad-escudo-nombre" style="text-align:center; margin:1rem 0;"></div>
+      <div id="squad-formacion" style="text-align:center; font-size:11px; color:#999; margin-bottom:1rem;"></div>
+      <div class="seccion-titulo">Titulares</div>
+      <div id="squad-titulares"></div>
+      <div class="seccion-titulo">Banca</div>
+      <div id="squad-banca"></div>
     </div>
+
 
     <div class="col-central">
       <div class="marcador-equipos">
@@ -327,10 +528,96 @@
       <svg id="cancha" viewBox="0 0 380 520"></svg>
       <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
     </div>
-
+  </div>
+        </div>
+      </div>
+      <div id="vista-search" class="vista-placeholder" style="display:none;">Search - Proximamente</div>
+      <div id="vista-players" class="vista-placeholder" style="display:none;">Players - Proximamente</div>
+      <div id="vista-saved" class="vista-placeholder" style="display:none;">Saved - Proximamente</div>
+    </div>
   </div>
 
   <script>
+    function mostrarNivelMatches(nivel) {
+      ['torneos', 'jornadas', 'detalle'].forEach(n => {
+        document.getElementById('nivel-' + n).style.display = (n === nivel) ? 'block' : 'none';
+      });
+    }
+
+    function abrirTorneo() {
+      mostrarNivelMatches('jornadas');
+      poblarListaPartidosTorneo();
+    }
+
+    function volverATorneos() {
+      mostrarNivelMatches('torneos');
+    }
+
+    function volverAJornadas() {
+      mostrarNivelMatches('jornadas');
+    }
+
+    function abrirDetallePartido(archivo) {
+      mostrarNivelMatches('detalle');
+      cargarPartido(archivo);
+    }
+
+    function poblarListaPartidosTorneo() {
+      const contenedor = document.getElementById('contenedor-lista-partidos');
+      contenedor.innerHTML = '';
+
+      const porJornada = {};
+      const sinJornada = [];
+      listaCompleta.forEach(p => {
+        if (p.jornada) {
+          if (!porJornada[p.jornada]) porJornada[p.jornada] = [];
+          porJornada[p.jornada].push(p);
+        } else {
+          sinJornada.push(p);
+        }
+      });
+
+      Object.keys(porJornada).sort((a, b) => a - b).forEach(jornada => {
+        const titulo = document.createElement('div');
+        titulo.className = 'lista-jornadas-titulo';
+        titulo.textContent = `Jornada ${jornada}`;
+        contenedor.appendChild(titulo);
+
+        const partidos = porJornada[jornada].slice().sort((a, b) => (a.grupo || '').localeCompare(b.grupo || ''));
+        partidos.forEach(p => {
+          const tarjeta = document.createElement('div');
+          tarjeta.className = 'tarjeta-partido';
+          tarjeta.innerHTML = `
+            <span>${p.home} ${p.marcador} ${p.away}</span>
+            <span class="tarjeta-partido-grupo">${p.grupo ? 'Grupo ' + p.grupo : ''}</span>
+          `;
+          tarjeta.addEventListener('click', () => abrirDetallePartido(p.archivo));
+          contenedor.appendChild(tarjeta);
+        });
+      });
+
+      if (sinJornada.length > 0) {
+        const titulo = document.createElement('div');
+        titulo.className = 'lista-jornadas-titulo';
+        titulo.textContent = 'Fase eliminatoria';
+        contenedor.appendChild(titulo);
+        sinJornada.forEach(p => {
+          const tarjeta = document.createElement('div');
+          tarjeta.className = 'tarjeta-partido';
+          tarjeta.innerHTML = `<span>${p.home} ${p.marcador} ${p.away}</span>`;
+          tarjeta.addEventListener('click', () => abrirDetallePartido(p.archivo));
+          contenedor.appendChild(tarjeta);
+        });
+      }
+    }
+
+    function cambiarVistaApp(vista) {
+      ['matches', 'search', 'players', 'saved'].forEach(v => {
+        document.getElementById('vista-' + v).style.display = (v === vista) ? 'block' : 'none';
+        document.getElementById('nav-' + v).classList.toggle('activo', v === vista);
+      });
+    }
+
     const PITCH_X0 = 20, PITCH_X1 = 360, PITCH_Y0 = 20, PITCH_Y1 = 500;
     const ANCHO = PITCH_X1 - PITCH_X0;
     const LARGO = PITCH_Y1 - PITCH_Y0;
@@ -630,6 +917,7 @@
       actualizarMarcador(datos);
       actualizarEstadisticas(datos);
       actualizarGoles(datos);
+      actualizarSquad(datos, lado);
       if (vistaActual === 'recepcion') {
         poblarSelectorJugadorRecepcion(datos, lado);
       } else {
@@ -637,12 +925,54 @@
       }
       dibujarVistaActual(datos, lado);
     }
+    function actualizarSquad(datos, lado) {
+      const equipo = datos[lado];
+      const al = equipo.alineacion;
+      const escudoNombre = document.getElementById('squad-escudo-nombre');
+      const formacionDiv = document.getElementById('squad-formacion');
+      const titularesDiv = document.getElementById('squad-titulares');
+      const bancaDiv = document.getElementById('squad-banca');
+
+      if (!al) {
+        escudoNombre.innerHTML = `<div style="font-weight:700;">${equipo.equipo}</div>`;
+        formacionDiv.textContent = '';
+        titularesDiv.innerHTML = '';
+        bancaDiv.innerHTML = '';
+        return;
+      }
+
+      escudoNombre.innerHTML = `
+        <img src="escudos/${equipo.equipo}.png" style="width:48px; height:48px; object-fit:contain; display:block; margin:0 auto 6px;" onerror="this.style.display='none'">
+        <div style="font-weight:700; font-size:14px;">${equipo.equipo}</div>
+      `;
+      formacionDiv.textContent = al.formacion ? `Formacion ${al.formacion} — ${al.entrenador || ''}` : (al.entrenador || '');
+
+      titularesDiv.innerHTML = al.titulares.map(t => `
+        <div style="display:flex; align-items:center; gap:8px; padding:5px 0; font-size:12px;">
+          <span style="width:20px; color:#999; text-align:right;">${t.dorsal ?? ''}</span>
+          <span style="flex:1;">${t.nombre || '?'}${t.es_capitan ? ' (C)' : ''}</span>
+          <span style="color:#999; font-size:10px;">${t.posicion || ''}</span>
+        </div>
+      `).join('');
+
+      bancaDiv.innerHTML = al.banca.map(b => `
+        <div style="display:flex; align-items:center; gap:8px; padding:4px 0; font-size:12px; color:#999;">
+          <span style="width:20px; text-align:right;">${b.dorsal ?? ''}</span>
+          <span style="flex:1;">${b.nombre || '?'}</span>
+        </div>
+      `).join('');
+    }
 
     function actualizarMarcador(datos) {
       document.getElementById('nombre-home').textContent = datos.home.equipo;
       document.getElementById('nombre-away').textContent = datos.away.equipo;
       document.getElementById('marcador-numero').textContent = datos.marcador;
-      document.getElementById('estadio-linea').textContent = datos.estadio || '';
+      let textoEstadio = datos.estadio || '';
+      if (datos.asistencia && datos.capacidad_estadio) {
+        const pctLleno = Math.round(100 * datos.asistencia / datos.capacidad_estadio);
+        textoEstadio += ` — ${datos.asistencia.toLocaleString('es')} / ${datos.capacidad_estadio.toLocaleString('es')} (${pctLleno}%)`;
+      }
+      document.getElementById('estadio-linea').textContent = textoEstadio;
     }
 
     function valorOGuion(valor, sufijo) {

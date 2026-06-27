@@ -24,6 +24,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from capacidades_estadios import CAPACIDADES
+
 
 def extraer_match_data(ruta_html):
     """
@@ -189,6 +191,62 @@ def calcular_ppda(data, lado="home"):
     if acciones_defensivas_zona == 0:
         return None
     return round(pases_rival_zona / acciones_defensivas_zona, 2)
+
+
+def calcular_alineacion(data, lado="home"):
+    """
+    Extrae la alineacion titular (en orden de posicion segun la formacion
+    inicial), la banca de suplentes, el nombre de la formacion (ej "4-4-2"),
+    el capitan y el entrenador.
+    """
+    equipo = data[lado]
+    jugadores = equipo["players"]
+    jugadores_por_id = {p["playerId"]: p for p in jugadores}
+
+    formaciones = equipo.get("formations", [])
+    primera_formacion = formaciones[0] if formaciones else {}
+    formacion_nombre = primera_formacion.get("formationName")
+    formacion_legible = "-".join(list(formacion_nombre)) if formacion_nombre else None
+    capitan_id = primera_formacion.get("captainPlayerId")
+
+    slots = primera_formacion.get("formationSlots", [])
+    ids_formacion = primera_formacion.get("playerIds", [])
+    posiciones_xy = primera_formacion.get("formationPositions", [])
+
+    titulares = []
+    for i, slot in enumerate(slots):
+        if slot == 0:
+            continue
+        pid = ids_formacion[i] if i < len(ids_formacion) else None
+        info = jugadores_por_id.get(pid, {})
+        pos_xy = posiciones_xy[slot - 1] if 0 <= slot - 1 < len(posiciones_xy) else None
+        titulares.append({
+            "id": pid,
+            "nombre": info.get("name"),
+            "dorsal": info.get("shirtNo"),
+            "posicion": info.get("position"),
+            "es_capitan": pid == capitan_id,
+            "vertical": pos_xy.get("vertical") if pos_xy else None,
+            "horizontal": pos_xy.get("horizontal") if pos_xy else None,
+        })
+
+    ids_titulares = {t["id"] for t in titulares}
+    banca = []
+    for p in jugadores:
+        if p["playerId"] not in ids_titulares:
+            banca.append({
+                "id": p["playerId"],
+                "nombre": p.get("name"),
+                "dorsal": p.get("shirtNo"),
+                "posicion": p.get("position"),
+            })
+
+    return {
+        "formacion": formacion_legible,
+        "entrenador": equipo.get("managerName"),
+        "titulares": titulares,
+        "banca": banca,
+    }
 
 
 def calcular_estadisticas(data, lado="home"):
@@ -460,10 +518,15 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     away_datos["acciones"] = calcular_acciones(data, lado="away")
     home_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="home")
     away_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="away")
+    home_datos["alineacion"] = calcular_alineacion(data, lado="home")
+    away_datos["alineacion"] = calcular_alineacion(data, lado="away")
 
+    nombre_estadio = data.get("venueName")
     resultado = {
         "marcador": data.get("score"),
-        "estadio": data.get("venueName"),
+        "estadio": nombre_estadio,
+        "capacidad_estadio": CAPACIDADES.get(nombre_estadio),
+        "asistencia": data.get("attendance"),
         "home": home_datos,
         "away": away_datos,
     }
