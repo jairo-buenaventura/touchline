@@ -532,17 +532,28 @@
     <div class="col-central">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
         <div id="encabezado-partido" style="font-size:12px; color:#999;"></div>
-        <div style="font-size:10px; font-weight:700; color:#1a1a1a; background:#f0f0ee; padding:3px 8px; border-radius:5px; letter-spacing:0.04em;">FULL TIME</div>
+        <div style="display:flex; align-items:center; gap:5px; font-size:10px; font-weight:700; color:#1a1a1a; background:#f0f0ee; padding:3px 8px; border-radius:5px; letter-spacing:0.04em;">
+          <span style="width:6px; height:6px; border-radius:50%; background:#999;"></span>FULL TIME
+        </div>
       </div>
       <div class="marcador-equipos">
         <div style="display:flex; align-items:center; gap:8px;">
-          <img id="escudo-home" src="" style="width:28px; height:28px; object-fit:contain;" onerror="this.style.display='none'">
-          <div class="nombre" id="nombre-home">-</div>
+          <img id="escudo-home" src="" style="width:40px; height:40px; object-fit:contain;" onerror="this.style.display='none'">
+          <div>
+            <div class="nombre" id="nombre-home">-</div>
+            <div style="font-size:10px; color:#999;">Home</div>
+          </div>
         </div>
-        <div class="numero" id="marcador-numero">- : -</div>
+        <div style="text-align:center;">
+          <div class="numero" id="marcador-numero">- : -</div>
+          <div id="marcador-xg" style="font-size:11px; color:#999; margin-top:2px;"></div>
+        </div>
         <div style="display:flex; align-items:center; gap:8px;">
-          <div class="nombre" id="nombre-away" style="text-align:right;">-</div>
-          <img id="escudo-away" src="" style="width:28px; height:28px; object-fit:contain;" onerror="this.style.display='none'">
+          <div style="text-align:right;">
+            <div class="nombre" id="nombre-away">-</div>
+            <div style="font-size:10px; color:#999;">Away</div>
+          </div>
+          <img id="escudo-away" src="" style="width:40px; height:40px; object-fit:contain;" onerror="this.style.display='none'">
         </div>
       </div>
       <div class="estadio-linea" id="estadio-linea" style="display:none;">-</div>
@@ -551,7 +562,8 @@
 
       <div class="goles-lista" id="bloque-goles"></div>
 
-      <div class="tabs" style="margin-top:1.5rem;">
+      <div style="font-weight:700; font-size:14px; margin-top:1.75rem; margin-bottom:0.5rem;">Pitch view</div>
+      <div class="tabs">
         <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
         <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
         <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
@@ -632,6 +644,7 @@
 
     function abrirDetallePartido(archivo) {
       mostrarNivelMatches('detalle');
+      partidoSeleccionadoActual = archivo;
       cargarPartido(archivo);
       const partido = listaCompleta.find(p => p.archivo === archivo);
       if (partido) registrarPartidoReciente(partido);
@@ -1086,8 +1099,17 @@
       document.getElementById('nombre-home').textContent = datos.home.equipo;
       document.getElementById('nombre-away').textContent = datos.away.equipo;
       document.getElementById('marcador-numero').textContent = datos.marcador;
-      document.getElementById('escudo-home').src = `escudos/${datos.home.equipo}.png`;
-      document.getElementById('escudo-away').src = `escudos/${datos.away.equipo}.png`;
+      const imgHome = document.getElementById('escudo-home');
+      const imgAway = document.getElementById('escudo-away');
+      imgHome.style.display = '';
+      imgAway.style.display = '';
+      imgHome.src = `escudos/${datos.home.equipo}.png`;
+      imgAway.src = `escudos/${datos.away.equipo}.png`;
+
+      const xgHome = datos.home.fotmob && datos.home.fotmob.xg;
+      const xgAway = datos.away.fotmob && datos.away.fotmob.xg;
+      const elXg = document.getElementById('marcador-xg');
+      elXg.textContent = (xgHome != null && xgAway != null) ? `xG ${xgHome} \u2014 ${xgAway}` : '';
 
       let textoEstadio = datos.estadio || '';
       if (datos.asistencia && datos.capacidad_estadio) {
@@ -1096,9 +1118,17 @@
       }
       document.getElementById('estadio-linea').textContent = textoEstadio;
 
+      const mesesAbreviados = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+      function formatearFecha(fechaISO) {
+        const partes = fechaISO.split('-');
+        if (partes.length !== 3) return fechaISO;
+        const [anio, mes, dia] = partes;
+        return `${parseInt(dia, 10)} ${mesesAbreviados[parseInt(mes, 10) - 1]} ${anio}`;
+      }
+
       const partidoActual = listaCompleta.find(p => p.archivo === partidoSeleccionadoActual);
       const partesEncabezado = ['FIFA World Cup 2026'];
-      if (partidoActual && partidoActual.fecha) partesEncabezado.push(partidoActual.fecha);
+      if (partidoActual && partidoActual.fecha) partesEncabezado.push(formatearFecha(partidoActual.fecha));
       if (datos.estadio) partesEncabezado.push(datos.estadio);
       document.getElementById('encabezado-partido').textContent = partesEncabezado.join(' · ');
     }
@@ -1115,12 +1145,29 @@
       return `<tr><td colspan="3" style="padding-top:12px; padding-bottom:2px; font-size:11px; text-transform:uppercase; color:#1a1a1a; font-weight:700; letter-spacing:0.05em; text-align:center;">${nombre}</td></tr>`;
     }
     function filaTabla(nombre, valorHome, valorAway, sufijo) {
+      const hayAmbos = typeof valorHome === 'number' && typeof valorAway === 'number';
+      let pctHome = 50;
+      if (hayAmbos) {
+        const total = valorHome + valorAway;
+        pctHome = total > 0 ? Math.round((valorHome / total) * 100) : 50;
+      }
+      const pctAway = 100 - pctHome;
+      const homeEsMayor = hayAmbos && valorHome >= valorAway;
+      const colorHome = homeEsMayor ? '#1a1a1a' : '#ccc';
+      const colorAway = homeEsMayor ? '#ccc' : '#1a1a1a';
+      const barra = hayAmbos
+        ? `<div style="display:flex; height:4px; border-radius:2px; overflow:hidden; background:#eee; margin-top:4px;">
+             <div style="width:${pctHome}%; background:${colorHome};"></div>
+             <div style="width:${pctAway}%; background:${colorAway};"></div>
+           </div>`
+        : '';
       return `
         <tr>
           <td class="valor-home">${valorOGuion(valorHome, sufijo)}</td>
           <td class="nombre-metrica">${nombre}</td>
           <td class="valor-away">${valorOGuion(valorAway, sufijo)}</td>
         </tr>
+        <tr><td colspan="3" style="padding:0 0 4px 0;">${barra}</td></tr>
       `;
     }
     function actualizarEstadisticas(datos) {
@@ -1161,8 +1208,8 @@
 
     function actualizarGoles(datos) {
       const bloque = document.getElementById('bloque-goles');
-      const golesHome = datos.home.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.home.equipo}));
-      const golesAway = datos.away.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.away.equipo}));
+      const golesHome = datos.home.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.home.equipo, esHome: true}));
+      const golesAway = datos.away.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.away.equipo, esHome: false}));
       const todos = golesHome.concat(golesAway).sort((a, b) => a.minuto - b.minuto);
 
       if (todos.length === 0) {
@@ -1170,9 +1217,10 @@
         return;
       }
 
-      bloque.innerHTML = todos.map(g =>
-        `<div class="gol-item"><span>${g.minuto}' ${g.jugador}</span><span>${g.equipo}</span></div>`
-      ).join('');
+      bloque.innerHTML = todos.map(g => {
+        const color = g.esHome ? '#1a1a1a' : '#ccc';
+        return `<div class="gol-item"><span><span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:${color}; margin-right:6px;"></span>${g.minuto}' ${g.jugador}</span></div>`;
+      }).join('');
     }
 
     function dibujarCancha(datos, lado) {
