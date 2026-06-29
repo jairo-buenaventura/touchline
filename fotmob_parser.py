@@ -148,7 +148,10 @@ def extraer_datos_fotmob(ruta_html):
 
 
 def normalizar(nombre):
-    return nombre.strip().lower().replace("ó", "o").replace("í", "i")
+    base = nombre.strip().lower().replace("ó", "o").replace("í", "i")
+    base = base.replace("cape verde", "cabo verde")
+    base = base.replace("south korea", "republic of korea")
+    return base
 
 
 def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data):
