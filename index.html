@@ -1206,12 +1206,12 @@
       bloque.innerHTML = `
         <table class="tabla-stats">
           ${filaTabla('Posesion', h.posesion, a.posesion, '%')}
-          ${filaTabla('Tiros', hf.tiros, af.tiros)}
-          ${filaTabla('Tiros al arco', hf.tiros_al_arco, af.tiros_al_arco)}
+          ${filaTabla('Tiros', hf.tiros ?? h.tiros, af.tiros ?? a.tiros)}
+          ${filaTabla('Tiros al arco', hf.tiros_al_arco ?? h.tiros_al_arco, af.tiros_al_arco ?? a.tiros_al_arco)}
           ${filaTabla('Pases', h.pases_totales, a.pases_totales)}
           ${filaTabla('Precision de pases', h.precision_pases, a.precision_pases, '%')}
           ${filaTabla('PPDA', valorDecimales(h.ppda, 2), valorDecimales(a.ppda, 2))}
-          ${filaTabla('Corners', hf.corners, af.corners)}
+          ${filaTabla('Corners', hf.corners ?? null, af.corners ?? null)}
         </table>
       `;
     }
