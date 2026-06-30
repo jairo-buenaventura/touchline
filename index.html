@@ -328,12 +328,12 @@
     margin-bottom: 1.25rem;
   }
   .marcador-equipos .nombre {
-    font-size: 13px;
-    font-weight: 600;
-    max-width: 90px;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 180px;
   }
   .marcador-equipos .numero {
-    font-size: 28px;
+    font-size: 56px;
     font-weight: 700;
   }
   .estadio-linea {
@@ -433,9 +433,10 @@
   }
   .tab {
     font-size: 12px;
-    padding: 6px 12px;
+    padding: 6px 8px;
     color: #999;
     border-bottom: 2px solid transparent;
+    white-space: nowrap;
   }
   .tab.activo {
     color: #1a1a1a;
@@ -538,7 +539,7 @@
       </div>
       <div class="marcador-equipos">
         <div style="display:flex; align-items:center; gap:8px;">
-          <img id="escudo-home" src="" style="width:40px; height:40px; object-fit:contain;" onerror="this.style.display='none'">
+          <img id="escudo-home" src="" style="width:72px; height:72px; object-fit:contain;" onerror="this.style.display='none'">
           <div>
             <div class="nombre" id="nombre-home">-</div>
             <div style="font-size:10px; color:#999;">Home</div>
@@ -553,30 +554,33 @@
             <div class="nombre" id="nombre-away">-</div>
             <div style="font-size:10px; color:#999;">Away</div>
           </div>
-          <img id="escudo-away" src="" style="width:40px; height:40px; object-fit:contain;" onerror="this.style.display='none'">
+          <img id="escudo-away" src="" style="width:72px; height:72px; object-fit:contain;" onerror="this.style.display='none'">
         </div>
       </div>
       <div class="estadio-linea" id="estadio-linea" style="display:none;">-</div>
 
       <div style="display:flex; gap:1.5rem; margin-top:1rem; align-items:flex-start;">
         <div style="flex:0 0 220px; min-width:0;">
+          <div id="match-stats-titulo" style="font-weight:700; font-size:14px; margin-top:1.25rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:8px;"></div>
           <div id="bloque-estadisticas"></div>
           <div class="goles-lista" id="bloque-goles"></div>
         </div>
         <div style="flex:1; min-width:0;">
-          <div style="font-weight:700; font-size:14px; margin-bottom:0.5rem;">Pitch view</div>
-          <div class="tabs">
-            <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
-            <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
-            <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
-            <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
+          <div style="width:100%; max-width:420px; margin:0 auto; box-sizing:border-box; padding-left:22px;">
+            <div style="font-weight:700; font-size:14px; margin-top:1.25rem; margin-bottom:0.5rem;">Pitch view</div>
+            <div class="tabs">
+              <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
+              <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
+              <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
+              <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
+            </div>
+            <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
+              <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
+              <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
+              <select id="selector-jugador" style="display:none;"></select>
+            </div>
+            <p id="info">Cargando...</p>
           </div>
-          <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
-            <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
-            <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
-            <select id="selector-jugador" style="display:none;"></select>
-          </div>
-          <p id="info">Cargando...</p>
           <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
           <svg id="cancha" viewBox="0 0 380 520"></svg>
           <div id="leyenda-fija-cancha" style="text-align:center; font-size:10px; color:#999; margin-top:0.5rem;"></div>
@@ -1036,13 +1040,18 @@
       return (partes[0][0] + partes[partes.length - 1][0]).toUpperCase();
     }
 
-    function filaJugador(p, esTitular) {
-      const colorTexto = esTitular ? '#1a1a1a' : '#999';
+    function filaJugador(p, esTitular, jugo) {
+      const habilitado = esTitular || jugo;
+      const colorTexto = !habilitado ? '#ccc' : (esTitular ? '#1a1a1a' : '#999');
+      const colorAvatar = !habilitado ? '#f0f0ee' : '#dedede';
+      const colorTextoAvatar = !habilitado ? '#ccc' : '#555';
       const etiquetaPosicion = (esTitular && p.posicion) ? p.posicion : '';
+      const cursorEstilo = habilitado ? 'cursor:pointer;' : 'cursor:default;';
+      const claseFila = habilitado ? 'fila-jugador-squad' : '';
       return `
-        <div class="fila-jugador-squad" data-id="${p.id}" style="display:flex; align-items:center; gap:6px; padding:6px 0; min-width:0; cursor:pointer; border-radius:6px;">
-          <span style="width:16px; font-size:11px; color:#999; text-align:right; flex-shrink:0;">${p.dorsal ?? ''}</span>
-          <span style="width:22px; height:22px; border-radius:6px; background:#dedede; color:#555; font-size:9px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;">${iniciales(p.nombre)}</span>
+        <div class="${claseFila}" data-id="${p.id}" style="display:flex; align-items:center; gap:6px; padding:6px 0; min-width:0; ${cursorEstilo} border-radius:6px;">
+          <span style="width:16px; font-size:11px; color:${!habilitado ? '#ddd' : '#999'}; text-align:right; flex-shrink:0;">${p.dorsal ?? ''}</span>
+          <span style="width:22px; height:22px; border-radius:6px; background:${colorAvatar}; color:${colorTextoAvatar}; font-size:9px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;">${iniciales(p.nombre)}</span>
           <span style="flex:1; font-size:12px; color:${colorTexto}; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0;">${p.nombre || '?'}${p.es_capitan ? ' (C)' : ''}</span>
           <span style="color:#999; font-size:10px; flex-shrink:0;">${etiquetaPosicion}</span>
         </div>
@@ -1091,8 +1100,12 @@
       document.getElementById('squad-count-titulares').textContent = al.titulares.length;
       document.getElementById('squad-count-banca').textContent = al.banca.length;
 
-      titularesDiv.innerHTML = al.titulares.map(t => filaJugador(t, true)).join('');
-      bancaDiv.innerHTML = al.banca.map(b => filaJugador(b, false)).join('');
+      const idsConDatos = new Set();
+      (equipo.acciones || []).forEach(j => idsConDatos.add(j.id));
+      (equipo.recepcion_pases || []).forEach(j => idsConDatos.add(j.id));
+
+      titularesDiv.innerHTML = al.titulares.map(t => filaJugador(t, true, idsConDatos.has(t.id))).join('');
+      bancaDiv.innerHTML = al.banca.map(b => filaJugador(b, false, idsConDatos.has(b.id))).join('');
 
       document.querySelectorAll('.fila-jugador-squad').forEach(fila => {
         fila.addEventListener('mouseenter', () => fila.style.background = '#f5f5f3');
@@ -1154,10 +1167,13 @@
       }
 
       const partidoActual = listaCompleta.find(p => p.archivo === partidoSeleccionadoActual);
-      const partesEncabezado = ['FIFA World Cup 2026'];
-      if (partidoActual && partidoActual.fecha) partesEncabezado.push(formatearFecha(partidoActual.fecha));
-      if (datos.estadio) partesEncabezado.push(datos.estadio);
-      document.getElementById('encabezado-partido').textContent = partesEncabezado.join(' · ');
+      const partesResto = [];
+      if (partidoActual && partidoActual.fecha) partesResto.push(formatearFecha(partidoActual.fecha));
+      if (datos.estadio) partesResto.push(datos.estadio);
+      const tituloTorneo = '<span style="font-weight:700; font-size:14px; color:#1a1a1a;">FIFA World Cup 2026</span>';
+      document.getElementById('encabezado-partido').innerHTML = partesResto.length > 0
+        ? `${tituloTorneo} · ${partesResto.join(' · ')}`
+        : tituloTorneo;
     }
 
     function valorOGuion(valor, sufijo) {
@@ -1179,9 +1195,8 @@
         pctHome = total > 0 ? Math.round((valorHome / total) * 100) : 50;
       }
       const pctAway = 100 - pctHome;
-      const homeEsMayor = hayAmbos && valorHome >= valorAway;
-      const colorHome = homeEsMayor ? '#1a1a1a' : '#ccc';
-      const colorAway = homeEsMayor ? '#ccc' : '#1a1a1a';
+      const colorHome = '#1a1a1a';
+      const colorAway = '#ccc';
       const barra = hayAmbos
         ? `<div style="display:flex; height:4px; border-radius:2px; overflow:hidden; background:#eee; margin-top:4px;">
              <div style="width:${pctHome}%; background:${colorHome};"></div>
@@ -1197,11 +1212,41 @@
         <tr><td colspan="3" style="padding:0 0 4px 0;">${barra}</td></tr>
       `;
     }
+    const CODIGOS_FIFA = {
+      'Algeria': 'ALG', 'Argentina': 'ARG', 'Australia': 'AUS', 'Austria': 'AUT',
+      'Belgium': 'BEL', 'Bosnia and Herzegovina': 'BIH', 'Brazil': 'BRA', 'Cabo Verde': 'CPV',
+      'Canada': 'CAN', 'Colombia': 'COL', 'Croatia': 'CRO', 'Curacao': 'CUW',
+      'Czechia': 'CZE', 'DR Congo': 'COD', 'Ecuador': 'ECU', 'Egypt': 'EGY',
+      'England': 'ENG', 'France': 'FRA', 'Germany': 'GER', 'Ghana': 'GHA',
+      'Haiti': 'HAI', 'Iran': 'IRN', 'Iraq': 'IRQ', 'Ivory Coast': 'CIV',
+      'Japan': 'JPN', 'Jordan': 'JOR', 'Mexico': 'MEX', 'Morocco': 'MAR',
+      'Netherlands': 'NED', 'New Zealand': 'NZL', 'Norway': 'NOR', 'Panama': 'PAN',
+      'Paraguay': 'PAR', 'Portugal': 'POR', 'Qatar': 'QAT', 'Republic of Korea': 'KOR',
+      'South Korea': 'KOR', 'Saudi Arabia': 'KSA', 'Scotland': 'SCO', 'Senegal': 'SEN',
+      'South Africa': 'RSA', 'Spain': 'ESP', 'Sweden': 'SWE', 'Switzerland': 'SUI',
+      'Tunisia': 'TUN', 'Turkiye': 'TUR', 'USA': 'USA', 'Uruguay': 'URU', 'Uzbekistan': 'UZB',
+    };
+
+    function codigoFifa(nombreEquipo) {
+      return CODIGOS_FIFA[nombreEquipo] || nombreEquipo.slice(0, 3).toUpperCase();
+    }
+
     function actualizarEstadisticas(datos) {
       const h = datos.home.estadisticas;
       const a = datos.away.estadisticas;
       const hf = datos.home.fotmob || {};
       const af = datos.away.fotmob || {};
+
+      document.getElementById('match-stats-titulo').innerHTML = `
+        Match Stats
+        <span style="margin-left:auto; display:flex; align-items:center; gap:4px; font-size:11px; font-weight:600; color:#1a1a1a;">
+          <span style="width:8px; height:8px; border-radius:50%; background:#1a1a1a;"></span>${codigoFifa(datos.home.equipo)}
+        </span>
+        <span style="display:flex; align-items:center; gap:4px; font-size:11px; font-weight:600; color:#999;">
+          <span style="width:8px; height:8px; border-radius:50%; background:#ccc;"></span>${codigoFifa(datos.away.equipo)}
+        </span>
+      `;
+
       const bloque = document.getElementById('bloque-estadisticas');
       bloque.innerHTML = `
         <table class="tabla-stats">
@@ -1517,12 +1562,12 @@
       svg.innerHTML = html;
 
       statsDiv.innerHTML = `
-        <div><strong>${recepciones.length + pasesClave.length + asistencias.length}</strong><br>Pases recibidos</div>
-        <div style="color:#e07b39;"><strong>${pasesClave.length}</strong><br>Pase clave</div>
-        <div style="color:#2e9e4f;"><strong>${asistencias.length}</strong><br>Asistencia</div>
-        <div><strong>${jugador.en_tercio_final}</strong><br>Tercio final</div>
-        <div><strong>${jugador.en_area_rival}</strong><br>Area rival</div>
-        <div><strong>${jugador.cruces_recibidos}</strong><br>Cruces</div>
+        <div style="text-align:center;"><strong>${recepciones.length + pasesClave.length + asistencias.length}</strong><br>Pases recibidos</div>
+        <div style="text-align:center; color:#e07b39;"><strong>${pasesClave.length}</strong><br>Pase clave</div>
+        <div style="text-align:center; color:#2e9e4f;"><strong>${asistencias.length}</strong><br>Asistencia</div>
+        <div style="text-align:center;"><strong>${jugador.en_tercio_final}</strong><br>Tercio final</div>
+        <div style="text-align:center;"><strong>${jugador.en_area_rival}</strong><br>Area rival</div>
+        <div style="text-align:center;"><strong>${jugador.cruces_recibidos}</strong><br>Cruces</div>
       `;
     }
 
