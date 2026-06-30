@@ -1544,6 +1544,114 @@
             "exitoso": false
           }
         ]
+      },
+      {
+        "id": 400828,
+        "nombre": "Darwin Núñez",
+        "acciones": [
+          {
+            "tipo": "Tackle",
+            "x": 45.2,
+            "y": 11.3,
+            "exitoso": false
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 84.0,
+            "y": 60.8,
+            "exitoso": false
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 51.9,
+            "y": 48.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 92.5,
+            "y": 65.1,
+            "exitoso": false
+          },
+          {
+            "tipo": "Aerial",
+            "x": 93.3,
+            "y": 57.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 88.7,
+            "y": 9.1,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 345389,
+        "nombre": "Nicolás de la Cruz",
+        "acciones": [
+          {
+            "tipo": "BallRecovery",
+            "x": 14.8,
+            "y": 49.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 53.6,
+            "y": 63.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 80.2,
+            "y": 51.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 15.9,
+            "y": 20.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 23.6,
+            "y": 17.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Interception",
+            "x": 36.4,
+            "y": 74.8,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 382265,
+        "nombre": "Brian Rodríguez",
+        "acciones": [
+          {
+            "tipo": "Dispossessed",
+            "x": 81.0,
+            "y": 91.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 76.0,
+            "y": 72.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 95.7,
+            "y": 83.4,
+            "exitoso": false
+          }
+        ]
       }
     ],
     "recepcion_pases": [
@@ -3393,6 +3501,130 @@
         "en_tercio_final": 16,
         "en_area_rival": 6,
         "cruces_recibidos": 1
+      },
+      {
+        "id": 345389,
+        "nombre": "Nicolás de la Cruz",
+        "recepciones": [
+          {
+            "x": 70.6,
+            "y": 66.9
+          },
+          {
+            "x": 72.2,
+            "y": 78.0
+          },
+          {
+            "x": 51.6,
+            "y": 68.4
+          },
+          {
+            "x": 66.4,
+            "y": 71.7
+          },
+          {
+            "x": 53.8,
+            "y": 63.4
+          },
+          {
+            "x": 73.4,
+            "y": 13.0
+          },
+          {
+            "x": 67.6,
+            "y": 13.6
+          },
+          {
+            "x": 55.1,
+            "y": 8.4
+          },
+          {
+            "x": 88.1,
+            "y": 99.1
+          }
+        ],
+        "pases_clave_recibidos": [
+          {
+            "x": 72.4,
+            "y": 73.6,
+            "x_inicio": 59.5,
+            "y_inicio": 79.2
+          }
+        ],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 6,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 400828,
+        "nombre": "Darwin Núñez",
+        "recepciones": [
+          {
+            "x": 88.8,
+            "y": 67.2
+          },
+          {
+            "x": 83.8,
+            "y": 69.3
+          },
+          {
+            "x": 67.5,
+            "y": 44.1
+          },
+          {
+            "x": 83.1,
+            "y": 3.1
+          },
+          {
+            "x": 85.9,
+            "y": 25.2
+          },
+          {
+            "x": 69.8,
+            "y": 63.7
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 6,
+        "en_area_rival": 3,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 382265,
+        "nombre": "Brian Rodríguez",
+        "recepciones": [
+          {
+            "x": 95.5,
+            "y": 85.6
+          },
+          {
+            "x": 64.5,
+            "y": 96.0
+          },
+          {
+            "x": 72.8,
+            "y": 73.6
+          },
+          {
+            "x": 77.9,
+            "y": 86.7
+          },
+          {
+            "x": 69.0,
+            "y": 97.3
+          },
+          {
+            "x": 84.0,
+            "y": 96.3
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 5,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
       }
     ],
     "alineacion": {
@@ -3579,26 +3811,6 @@
           "posicion": "Sub"
         }
       ]
-    },
-    "fotmob": {
-      "posesion": 65,
-      "xg": 2.32,
-      "xgot": 1.65,
-      "xg_por_tiro": 0.14,
-      "tiros": 17,
-      "tiros_al_arco": 2,
-      "pases": 511,
-      "pases_mitad_propia": 103,
-      "pases_mitad_opuesta": 317,
-      "cruces_exitosos": 4.0,
-      "cruces_totales": 29,
-      "corners": 11,
-      "faltas": 11,
-      "big_chances": 2,
-      "big_chances_perdidas": 0,
-      "tiros_dentro_area": 9,
-      "tiros_fuera_area": 8,
-      "field_tilt": 81.5
     }
   },
   "away": {
@@ -5121,6 +5333,276 @@
             "exitoso": true
           }
         ]
+      },
+      {
+        "id": 328549,
+        "nombre": "Deroy Duarte",
+        "acciones": [
+          {
+            "tipo": "BlockedPass",
+            "x": 22.2,
+            "y": 18.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 76.8,
+            "y": 94.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 65.1,
+            "y": 74.4,
+            "exitoso": false
+          },
+          {
+            "tipo": "Interception",
+            "x": 35.4,
+            "y": 89.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 35.0,
+            "y": 96.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 16.0,
+            "y": 39.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 33.7,
+            "y": 42.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Interception",
+            "x": 32.7,
+            "y": 45.4,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 493061,
+        "nombre": "Hélio Varela",
+        "acciones": [
+          {
+            "tipo": "TakeOn",
+            "x": 37.4,
+            "y": 58.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 72.2,
+            "y": 39.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 37.3,
+            "y": 91.9,
+            "exitoso": false
+          },
+          {
+            "tipo": "Aerial",
+            "x": 58.7,
+            "y": 91.2,
+            "exitoso": false
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 56.3,
+            "y": 95.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 47.7,
+            "y": 86.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 64.2,
+            "y": 48.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "BlockedPass",
+            "x": 34.4,
+            "y": 93.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 2.6,
+            "y": 35.7,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 342550,
+        "nombre": "Nuno da Costa",
+        "acciones": [
+          {
+            "tipo": "TakeOn",
+            "x": 71.8,
+            "y": 69.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 65.6,
+            "y": 14.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 42.8,
+            "y": 36.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 42.7,
+            "y": 34.7,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 6.7,
+            "y": 42.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 59.9,
+            "y": 79.9,
+            "exitoso": false
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 45.8,
+            "y": 4.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 83.4,
+            "y": 49.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 86.6,
+            "y": 53.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 61.0,
+            "y": 16.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 71.2,
+            "y": 7.0,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 379742,
+        "nombre": "Laros Duarte",
+        "acciones": [
+          {
+            "tipo": "TakeOn",
+            "x": 71.8,
+            "y": 72.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 20.2,
+            "y": 38.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 7.8,
+            "y": 58.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 22.8,
+            "y": 10.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 84.1,
+            "y": 79.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "Foul",
+            "x": 66.6,
+            "y": 36.8,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 457407,
+        "nombre": "Yannick Semedo",
+        "acciones": [
+          {
+            "tipo": "BallRecovery",
+            "x": 14.2,
+            "y": 35.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 19.8,
+            "y": 48.7,
+            "exitoso": false
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 8.8,
+            "y": 2.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Interception",
+            "x": 65.8,
+            "y": 40.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 56.4,
+            "y": 80.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 61.8,
+            "y": 25.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "recepcion_pases": [
@@ -6003,6 +6485,212 @@
         "en_tercio_final": 3,
         "en_area_rival": 0,
         "cruces_recibidos": 0
+      },
+      {
+        "id": 328549,
+        "nombre": "Deroy Duarte",
+        "recepciones": [
+          {
+            "x": 2.2,
+            "y": 11.1
+          },
+          {
+            "x": 50.8,
+            "y": 54.8
+          },
+          {
+            "x": 53.2,
+            "y": 42.8
+          },
+          {
+            "x": 70.5,
+            "y": 90.0
+          },
+          {
+            "x": 53.1,
+            "y": 21.6
+          },
+          {
+            "x": 48.0,
+            "y": 35.2
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 1,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 342550,
+        "nombre": "Nuno da Costa",
+        "recepciones": [
+          {
+            "x": 73.5,
+            "y": 81.8
+          },
+          {
+            "x": 66.7,
+            "y": 78.8
+          },
+          {
+            "x": 54.4,
+            "y": 84.8
+          },
+          {
+            "x": 70.8,
+            "y": 94.1
+          },
+          {
+            "x": 72.1,
+            "y": 71.4
+          },
+          {
+            "x": 66.0,
+            "y": 76.6
+          },
+          {
+            "x": 95.2,
+            "y": 89.9
+          },
+          {
+            "x": 34.6,
+            "y": 16.4
+          },
+          {
+            "x": 65.6,
+            "y": 14.6
+          },
+          {
+            "x": 39.8,
+            "y": 8.0
+          },
+          {
+            "x": 78.4,
+            "y": 39.8
+          },
+          {
+            "x": 60.6,
+            "y": 17.6
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 6,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 493061,
+        "nombre": "Hélio Varela",
+        "recepciones": [
+          {
+            "x": 55.6,
+            "y": 96.3
+          },
+          {
+            "x": 37.3,
+            "y": 59.6
+          },
+          {
+            "x": 56.4,
+            "y": 76.5
+          },
+          {
+            "x": 52.2,
+            "y": 59.0
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 0,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 379742,
+        "nombre": "Laros Duarte",
+        "recepciones": [
+          {
+            "x": 76.2,
+            "y": 66.6
+          },
+          {
+            "x": 65.4,
+            "y": 93.2
+          },
+          {
+            "x": 63.2,
+            "y": 73.0
+          },
+          {
+            "x": 79.7,
+            "y": 94.7
+          },
+          {
+            "x": 64.9,
+            "y": 47.6
+          },
+          {
+            "x": 88.5,
+            "y": 25.6
+          },
+          {
+            "x": 64.1,
+            "y": 31.0
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [
+          {
+            "x": 84.3,
+            "y": 30.7,
+            "x_inicio": 84.6,
+            "y_inicio": 8.2
+          }
+        ],
+        "en_tercio_final": 4,
+        "en_area_rival": 2,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 457407,
+        "nombre": "Yannick Semedo",
+        "recepciones": [
+          {
+            "x": 48.0,
+            "y": 48.1
+          },
+          {
+            "x": 57.8,
+            "y": 30.3
+          },
+          {
+            "x": 44.5,
+            "y": 59.3
+          },
+          {
+            "x": 28.8,
+            "y": 46.0
+          },
+          {
+            "x": 55.1,
+            "y": 58.2
+          },
+          {
+            "x": 54.5,
+            "y": 94.5
+          },
+          {
+            "x": 57.5,
+            "y": 90.3
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 0,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
       }
     ],
     "alineacion": {
@@ -6201,26 +6889,6 @@
           "posicion": "Sub"
         }
       ]
-    },
-    "fotmob": {
-      "posesion": 35,
-      "xg": 0.88,
-      "xgot": 1.26,
-      "xg_por_tiro": 0.07,
-      "tiros": 12,
-      "tiros_al_arco": 4,
-      "pases": 278,
-      "pases_mitad_propia": 133,
-      "pases_mitad_opuesta": 72,
-      "cruces_exitosos": 2.0,
-      "cruces_totales": 7,
-      "corners": 4,
-      "faltas": 4,
-      "big_chances": 1,
-      "big_chances_perdidas": 0,
-      "tiros_dentro_area": 2,
-      "tiros_fuera_area": 10,
-      "field_tilt": 18.5
     }
   }
 }

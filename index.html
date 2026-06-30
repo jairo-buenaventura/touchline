@@ -558,27 +558,31 @@
       </div>
       <div class="estadio-linea" id="estadio-linea" style="display:none;">-</div>
 
-      <div id="bloque-estadisticas"></div>
-
-      <div class="goles-lista" id="bloque-goles"></div>
-
-      <div style="font-weight:700; font-size:14px; margin-top:1.75rem; margin-bottom:0.5rem;">Pitch view</div>
-      <div class="tabs">
-        <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
-        <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
-        <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
-        <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
+      <div style="display:flex; gap:1.5rem; margin-top:1rem; align-items:flex-start;">
+        <div style="flex:0 0 220px; min-width:0;">
+          <div id="bloque-estadisticas"></div>
+          <div class="goles-lista" id="bloque-goles"></div>
+        </div>
+        <div style="flex:1; min-width:0;">
+          <div style="font-weight:700; font-size:14px; margin-bottom:0.5rem;">Pitch view</div>
+          <div class="tabs">
+            <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
+            <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
+            <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
+            <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
+          </div>
+          <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
+            <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
+            <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
+            <select id="selector-jugador" style="display:none;"></select>
+          </div>
+          <p id="info">Cargando...</p>
+          <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
+          <svg id="cancha" viewBox="0 0 380 520"></svg>
+          <div id="leyenda-fija-cancha" style="text-align:center; font-size:10px; color:#999; margin-top:0.5rem;"></div>
+          <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
+        </div>
       </div>
-      <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
-        <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
-        <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
-        <select id="selector-jugador" style="display:none;"></select>
-      </div>
-      <p id="info">Cargando...</p>
-      <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
-      <svg id="cancha" viewBox="0 0 380 520"></svg>
-      <div id="leyenda-fija-cancha" style="text-align:center; font-size:10px; color:#999; margin-top:0.5rem;"></div>
-      <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
     </div>
   </div>
         </div>
@@ -771,7 +775,7 @@
       document.getElementById('tab-shots').classList.toggle('activo', vista === 'shots');
       document.getElementById('tab-action').classList.toggle('activo', vista === 'action');
       document.getElementById('tab-recepcion').classList.toggle('activo', vista === 'recepcion');
-      document.getElementById('selector-jugador-contenedor').style.display = (vista === 'action' || vista === 'recepcion') ? 'block' : 'none';
+      document.getElementById('selector-jugador-contenedor').style.display = 'none';
       document.getElementById('stats-recepcion').style.display = vista === 'recepcion' ? 'flex' : 'none';
       if (datosPartidoActual) {
         const lado = document.getElementById('selector-equipo').value;
@@ -1036,7 +1040,7 @@
       const colorTexto = esTitular ? '#1a1a1a' : '#999';
       const etiquetaPosicion = (esTitular && p.posicion) ? p.posicion : '';
       return `
-        <div style="display:flex; align-items:center; gap:6px; padding:6px 0; min-width:0;">
+        <div class="fila-jugador-squad" data-id="${p.id}" style="display:flex; align-items:center; gap:6px; padding:6px 0; min-width:0; cursor:pointer; border-radius:6px;">
           <span style="width:16px; font-size:11px; color:#999; text-align:right; flex-shrink:0;">${p.dorsal ?? ''}</span>
           <span style="width:22px; height:22px; border-radius:6px; background:#dedede; color:#555; font-size:9px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;">${iniciales(p.nombre)}</span>
           <span style="flex:1; font-size:12px; color:${colorTexto}; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0;">${p.nombre || '?'}${p.es_capitan ? ' (C)' : ''}</span>
@@ -1089,6 +1093,29 @@
 
       titularesDiv.innerHTML = al.titulares.map(t => filaJugador(t, true)).join('');
       bancaDiv.innerHTML = al.banca.map(b => filaJugador(b, false)).join('');
+
+      document.querySelectorAll('.fila-jugador-squad').forEach(fila => {
+        fila.addEventListener('mouseenter', () => fila.style.background = '#f5f5f3');
+        fila.addEventListener('mouseleave', () => {
+          fila.style.background = fila.classList.contains('jugador-activo') ? '#f0f0ee' : '';
+        });
+        fila.addEventListener('click', () => {
+          const pid = fila.dataset.id;
+          document.querySelectorAll('.fila-jugador-squad').forEach(f => {
+            f.classList.remove('jugador-activo');
+            f.style.background = '';
+          });
+          fila.classList.add('jugador-activo');
+          fila.style.background = '#f0f0ee';
+          const selector = document.getElementById('selector-jugador');
+          selector.value = pid;
+          if (vistaActual === 'passing') {
+            cambiarVista('action');
+          } else {
+            dibujarVistaActual(datosPartidoActual, document.getElementById('selector-equipo').value);
+          }
+        });
+      });
 
       entrenadorDiv.innerHTML = al.entrenador
         ? `<span style="width:32px; height:32px; border-radius:50%; background:#1a1a1a; color:white; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; margin-bottom:6px;">${iniciales(al.entrenador)}</span><span style="font-weight:600;">${al.entrenador}</span><span style="color:#999; font-size:10px; letter-spacing:0.04em; margin-top:2px;">HEAD COACH</span>`
@@ -1178,30 +1205,13 @@
       const bloque = document.getElementById('bloque-estadisticas');
       bloque.innerHTML = `
         <table class="tabla-stats">
-          ${filaCategoria('Posesion')}
           ${filaTabla('Posesion', h.posesion, a.posesion, '%')}
-          ${filaTabla('Dominio del campo rival', hf.field_tilt, af.field_tilt, '%')}
-
-          ${filaCategoria('Ataque')}
-          ${filaTabla('xG', valorDecimales(hf.xg, 2), valorDecimales(af.xg, 2))}
-          ${filaTabla('xG en el arco (xGOT)', valorDecimales(hf.xgot, 2), valorDecimales(af.xgot, 2))}
-          ${filaTabla('xG por tiro', valorDecimales(hf.xg_por_tiro, 2), valorDecimales(af.xg_por_tiro, 2))}
           ${filaTabla('Tiros', hf.tiros, af.tiros)}
           ${filaTabla('Tiros al arco', hf.tiros_al_arco, af.tiros_al_arco)}
-          ${filaTabla('Tiros dentro del area', hf.tiros_dentro_area, af.tiros_dentro_area)}
-          ${filaTabla('Tiros fuera del area', hf.tiros_fuera_area, af.tiros_fuera_area)}
-          ${filaTabla('Ocasiones claras', hf.big_chances, af.big_chances)}
-          ${filaTabla('Ocasiones claras falladas', hf.big_chances_perdidas, af.big_chances_perdidas)}
-
-          ${filaCategoria('Pases')}
           ${filaTabla('Pases', h.pases_totales, a.pases_totales)}
           ${filaTabla('Precision de pases', h.precision_pases, a.precision_pases, '%')}
-          ${filaTabla('Cruces', hf.cruces_totales, af.cruces_totales)}
-
-          ${filaCategoria('Presion y disciplina')}
           ${filaTabla('PPDA', valorDecimales(h.ppda, 2), valorDecimales(a.ppda, 2))}
           ${filaTabla('Corners', hf.corners, af.corners)}
-          ${filaTabla('Faltas', hf.faltas, af.faltas)}
         </table>
       `;
     }
