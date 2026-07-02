@@ -641,23 +641,8 @@
   </div>
 
   <script>
-    function mostrarNivelMatches(nivel) {
-      ['torneos', 'jornadas', 'detalle'].forEach(n => {
-        document.getElementById('nivel-' + n).style.display = (n === nivel) ? 'block' : 'none';
-      });
-    }
-
-    function abrirTorneo() {
-      mostrarNivelMatches('jornadas');
-      poblarListaPartidosTorneo();
-    }
-
-    function volverATorneos() {
-      mostrarNivelMatches('torneos');
-    }
-
-    function volverAJornadas() {
-      mostrarNivelMatches('jornadas');
+    function mostrarNivelMatches() {
+      document.getElementById('nivel-detalle').style.display = 'block';
     }
 
     function registrarPartidoReciente(partido) {
