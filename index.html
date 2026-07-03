@@ -22,13 +22,13 @@
     min-height: 100vh;
   }
   .sidebar-nav {
-    width: 200px;
+    width: 260px;
     flex-shrink: 0;
     background: #f5f5f3;
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
-    padding: 1.25rem 1rem;
+    padding: 1.25rem 1.25rem;
     min-height: 100vh;
     box-sizing: border-box;
     border-right: 1px solid #e5e5e3;
@@ -488,30 +488,26 @@
 <body>
   <div class="app-shell">
     <div class="sidebar-nav" id="sidebar-nav">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-        <div class="sidebar-logo">⚽ Touchline</div>
-        <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:14px; color:#999;">«</button>
+      <div style="display:flex; justify-content:flex-end; margin-bottom:2rem;">
+        <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:28px; color:#bbb; padding:4px 8px; line-height:1;">«</button>
       </div>
-      <div class="sidebar-item activo" id="nav-matches">📅 Matches</div>
-      <div class="sidebar-item" id="nav-search" onclick="cambiarVistaApp('search')">🔍 Search</div>
-      <div class="sidebar-item" id="nav-players" onclick="cambiarVistaApp('players')">👤 Players</div>
-      <div class="sidebar-item" id="nav-saved" onclick="cambiarVistaApp('saved')">⭐ Saved</div>
-      <hr style="border:none; border-top:1px solid #e5e5e3; margin:1rem 0;">
+      <div class="sidebar-item activo" id="nav-matches" style="margin-bottom:2rem; white-space:nowrap;">📋 Reporte de Partidos</div>
+      <hr style="border:none; border-top:1px solid #e5e5e3; margin:1.5rem 0;">
       <div class="sidebar-seccion-titulo">Liga</div>
       <select id="sidebar-liga" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;">
         <option value="world_cup">World Cup</option>
       </select>
       <div class="sidebar-seccion-titulo">Temporada</div>
-      <select id="sidebar-temporada" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;">
+      <select id="sidebar-temporada" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
         <option value="2026">2026</option>
       </select>
-      <div class="sidebar-seccion-titulo">Equipo</div>
-      <select id="sidebar-selector-equipo" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;"></select>
-      <div class="sidebar-seccion-titulo">Partidos</div>
-      <div style="display:flex; gap:4px; margin-bottom:0.75rem;">
-        <button id="btn-especifico" onclick="cambiarModoPartidos('especifico')" style="flex:1; padding:5px 4px; font-size:11px; border-radius:5px; border:1px solid #ddd; background:white; cursor:pointer; font-weight:600;">Especifico</button>
-        <button id="btn-recientes" onclick="cambiarModoPartidos('recientes')" style="flex:1; padding:5px 4px; font-size:11px; border-radius:5px; border:1px solid #ddd; background:#f5f5f3; cursor:pointer;">Recientes</button>
-      </div>
+      <div class="sidebar-seccion-titulo">De que equipo quieres el reporte?</div>
+      <select id="sidebar-selector-equipo" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;"></select>
+      <div class="sidebar-seccion-titulo">Partido especifico o Partidos mas recientes?</div>
+      <select id="sidebar-modo-partidos" onchange="cambiarModoPartidos(this.value)" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
+        <option value="especifico">Partido especifico</option>
+        <option value="recientes">Partidos recientes</option>
+      </select>
       <div id="sidebar-slider-contenedor" style="display:none; margin-bottom:0.75rem;">
         <div style="display:flex; justify-content:space-between; font-size:11px; color:#999; margin-bottom:4px;">
           <span>Ultimos partidos</span><span id="sidebar-slider-valor">3</span>
@@ -527,7 +523,7 @@
         </div>
       </div>
     </div>
-    <button id="btn-expandir-sidebar" onclick="expandirSidebar()" style="display:none; position:fixed; left:0; top:50%; transform:translateY(-50%); background:white; border:1px solid #e5e5e3; border-left:none; border-radius:0 6px 6px 0; padding:8px 4px; cursor:pointer; font-size:14px; color:#999; z-index:100;">»</button>
+    <button id="btn-expandir-sidebar" onclick="expandirSidebar()" style="display:none; position:fixed; left:0; top:1.25rem; background:white; border:1px solid #e5e5e3; border-left:none; border-radius:0 6px 6px 0; padding:8px 6px; cursor:pointer; font-size:28px; color:#bbb; z-index:100; line-height:1;">»</button>
     <div class="contenido-principal">
       <div id="vista-matches">
         <div class="nivel-matches" id="nivel-torneos" style="display:none;">
@@ -686,10 +682,6 @@
 
     function cambiarModoPartidos(modo) {
       modoPartidos = modo;
-      document.getElementById('btn-especifico').style.background = modo === 'especifico' ? 'white' : '#f5f5f3';
-      document.getElementById('btn-especifico').style.fontWeight = modo === 'especifico' ? '600' : 'normal';
-      document.getElementById('btn-recientes').style.background = modo === 'recientes' ? 'white' : '#f5f5f3';
-      document.getElementById('btn-recientes').style.fontWeight = modo === 'recientes' ? '600' : 'normal';
       document.getElementById('sidebar-slider-contenedor').style.display = modo === 'recientes' ? 'block' : 'none';
       const equipo = document.getElementById('sidebar-selector-equipo').value;
       poblarSidebarPartidos(equipo);
