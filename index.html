@@ -61,6 +61,61 @@
     font-weight: 600;
     box-shadow: 0 1px 2px rgba(0,0,0,0.06);
   }
+  .custom-select {
+    position: relative;
+    margin-bottom: 0.75rem;
+  }
+  .custom-select-btn {
+    width: 100%;
+    background: white;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 32px 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .custom-select-btn::after {
+    content: '\25BE';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  .custom-select-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-height: 224px;
+    overflow-y: auto;
+    z-index: 200;
+  }
+  .custom-select-list.abierto {
+    display: block;
+  }
+  .custom-select-option {
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1a1a1a;
+  }
+  .custom-select-option:hover {
+    background: #f5f5f3;
+  }
+  .custom-select-option.seleccionado {
+    font-weight: 700;
+    background: #f0f0ee;
+  }
   .sidebar-seccion-titulo {
     font-size: 13px;
     text-transform: uppercase;
@@ -494,20 +549,47 @@
       <div class="sidebar-item activo" id="nav-matches" style="margin-bottom:2rem; white-space:nowrap;">📋 Reporte de Partidos</div>
       <hr style="border:none; border-top:1px solid #e5e5e3; margin:1.5rem 0;">
       <div class="sidebar-seccion-titulo">Liga</div>
-      <select id="sidebar-liga" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
-        <option value="world_cup">World Cup</option>
-      </select>
+      <div class="custom-select" id="cs-liga">
+        <button class="custom-select-btn" id="cs-liga-btn">World Cup</button>
+        <div class="custom-select-list" id="cs-liga-list">
+          <div class="custom-select-option seleccionado" data-value="world_cup">World Cup</div>
+          <div class="custom-select-option" data-value="premier_league">Premier League</div>
+          <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
+          <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
+          <div class="custom-select-option" data-value="liga_argentina">Liga Argentina</div>
+        </div>
+      </div>
+
       <div class="sidebar-seccion-titulo">Temporada</div>
-      <select id="sidebar-temporada" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
-        <option value="2026">2026</option>
-      </select>
+      <div class="custom-select" id="cs-temporada">
+        <button class="custom-select-btn" id="cs-temporada-btn">2026</button>
+        <div class="custom-select-list" id="cs-temporada-list">
+          <div class="custom-select-option seleccionado" data-value="2026">2026</div>
+          <div class="custom-select-option" data-value="2025/26">2025/26</div>
+          <div class="custom-select-option" data-value="2024/25">2024/25</div>
+        </div>
+      </div>
+
       <div class="sidebar-seccion-titulo">De que equipo quieres el reporte?</div>
-      <select id="sidebar-selector-equipo" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;"></select>
+      <div class="custom-select" id="cs-equipo">
+        <button class="custom-select-btn" id="cs-equipo-btn">Selecciona un equipo</button>
+        <div class="custom-select-list" id="cs-equipo-list" style="max-height:224px;"></div>
+      </div>
+
       <div class="sidebar-seccion-titulo">Tipo de partido</div>
-      <select id="sidebar-modo-partidos" onchange="cambiarModoPartidos(this.value)" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
-        <option value="especifico">Partido especifico</option>
-        <option value="recientes">Partidos recientes</option>
-      </select>
+      <div class="custom-select" id="cs-tipo">
+        <button class="custom-select-btn" id="cs-tipo-btn">Partido especifico</button>
+        <div class="custom-select-list" id="cs-tipo-list">
+          <div class="custom-select-option seleccionado" data-value="especifico">Partido especifico</div>
+          <div class="custom-select-option" data-value="recientes">Partidos recientes</div>
+        </div>
+      </div>
+
+      <div id="cs-partido-contenedor" class="custom-select" style="margin-bottom:0.75rem;">
+        <button class="custom-select-btn" id="cs-partido-btn">Selecciona un partido</button>
+        <div class="custom-select-list" id="cs-partido-list" style="max-height:224px;"></div>
+      </div>
+
       <div id="sidebar-slider-contenedor" style="display:none; margin-bottom:0.75rem;">
         <div style="display:flex; justify-content:space-between; font-size:11px; color:#999; margin-bottom:4px;">
           <span>Ultimos partidos</span><span id="sidebar-slider-valor">3</span>
@@ -670,6 +752,102 @@
 
     let modoPartidos = 'especifico';
 
+    function iniciarCustomSelect(btnId, listId, onChange) {
+      const btn = document.getElementById(btnId);
+      const list = document.getElementById(listId);
+      if (!btn || !list) return;
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('.custom-select-list.abierto').forEach(l => {
+          if (l !== list) l.classList.remove('abierto');
+        });
+        list.classList.toggle('abierto');
+      });
+      list.querySelectorAll('.custom-select-option').forEach(opt => {
+        opt.addEventListener('click', () => {
+          list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
+          opt.classList.add('seleccionado');
+          btn.textContent = opt.textContent;
+          list.classList.remove('abierto');
+          if (onChange) onChange(opt.dataset.value);
+        });
+      });
+      document.addEventListener('click', () => list.classList.remove('abierto'));
+    }
+
+    function poblarCustomSelectEquipo() {
+      const list = document.getElementById('cs-equipo-list');
+      const btn = document.getElementById('cs-equipo-btn');
+      const equipos = [...new Set(listaCompleta.flatMap(p => [p.home, p.away]))].sort();
+      list.innerHTML = equipos.map((e, i) =>
+        `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${e}">${e}</div>`
+      ).join('');
+      if (equipos.length > 0) btn.textContent = equipos[0];
+      list.querySelectorAll('.custom-select-option').forEach(opt => {
+        opt.addEventListener('click', () => {
+          list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
+          opt.classList.add('seleccionado');
+          btn.textContent = opt.dataset.value;
+          list.classList.remove('abierto');
+          onEquipoChange(opt.dataset.value);
+        });
+      });
+      document.addEventListener('click', () => list.classList.remove('abierto'));
+      document.getElementById('cs-equipo-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
+        list.classList.toggle('abierto');
+      });
+      if (equipos.length > 0) onEquipoChange(equipos[0]);
+    }
+
+    function poblarCustomSelectPartidos(equipo) {
+      const list = document.getElementById('cs-partido-list');
+      const btn = document.getElementById('cs-partido-btn');
+      const partidos = listaCompleta.filter(p => p.home === equipo || p.away === equipo)
+        .sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+      list.innerHTML = partidos.map((p, i) => {
+        const esLocal = p.home === equipo;
+        const rival = esLocal ? p.away : p.home;
+        const texto = `${esLocal ? equipo : rival} ${p.marcador} ${esLocal ? rival : equipo}`;
+        return `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${p.archivo}" data-lado="${esLocal ? 'home' : 'away'}">${texto}</div>`;
+      }).join('');
+      if (partidos.length > 0) {
+        const p0 = partidos[0];
+        const esLocal = p0.home === equipo;
+        const rival = esLocal ? p0.away : p0.home;
+        btn.textContent = `${esLocal ? equipo : rival} ${p0.marcador} ${esLocal ? rival : equipo}`;
+      }
+      list.querySelectorAll('.custom-select-option').forEach(opt => {
+        opt.addEventListener('click', () => {
+          list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
+          opt.classList.add('seleccionado');
+          btn.textContent = opt.textContent;
+          list.classList.remove('abierto');
+          document.getElementById('selector-equipo').value = opt.dataset.lado;
+          mostrarNivelMatches('detalle');
+          cargarPartido(opt.dataset.value);
+        });
+      });
+      document.getElementById('cs-partido-btn').onclick = null;
+      document.getElementById('cs-partido-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
+        list.classList.toggle('abierto');
+      });
+      document.addEventListener('click', () => list.classList.remove('abierto'));
+      if (partidos.length > 0) {
+        document.getElementById('selector-equipo').value = partidos[0].home === equipo ? 'home' : 'away';
+        mostrarNivelMatches('detalle');
+        cargarPartido(partidos[0].archivo);
+      }
+    }
+
+    function onEquipoChange(equipo) {
+      poblarCustomSelectPartidos(equipo);
+      poblarSidebarPartidos(equipo);
+    }
+
     function colapsarSidebar() {
       document.getElementById('sidebar-nav').style.display = 'none';
       document.getElementById('btn-expandir-sidebar').style.display = 'block';
@@ -683,31 +861,25 @@
     function cambiarModoPartidos(modo) {
       modoPartidos = modo;
       document.getElementById('sidebar-slider-contenedor').style.display = modo === 'recientes' ? 'block' : 'none';
-      const equipo = document.getElementById('sidebar-selector-equipo').value;
+      document.getElementById('cs-partido-contenedor').style.display = modo === 'especifico' ? 'block' : 'none';
+      const equipo = document.getElementById('cs-equipo-btn').textContent;
       poblarSidebarPartidos(equipo);
     }
 
     function poblarSidebarEquipos() {
-      const selector = document.getElementById('sidebar-selector-equipo');
-      const equipos = [...new Set(listaCompleta.flatMap(p => [p.home, p.away]))].sort();
-      selector.innerHTML = equipos.map(e => `<option value="${e}">${e}</option>`).join('');
-      selector.addEventListener('change', () => {
-        poblarSidebarPartidos(selector.value);
-        const partidos = listaCompleta.filter(p => p.home === selector.value || p.away === selector.value);
-        if (partidos.length > 0) {
-          const p0 = partidos.sort((a,b) => (a.fecha||'').localeCompare(b.fecha||''))[0];
-          document.getElementById('selector-equipo').value = p0.home === selector.value ? 'home' : 'away';
-          mostrarNivelMatches('detalle');
-          cargarPartido(p0.archivo);
-        }
-      });
       const slider = document.getElementById('sidebar-slider');
       const sliderValor = document.getElementById('sidebar-slider-valor');
       slider.addEventListener('input', () => {
         sliderValor.textContent = slider.value;
-        poblarSidebarPartidos(selector.value);
+        const equipo = document.getElementById('cs-equipo-btn').textContent;
+        poblarSidebarPartidos(equipo);
       });
-      poblarSidebarPartidos(selector.value);
+      iniciarCustomSelect('cs-liga-btn', 'cs-liga-list', null);
+      iniciarCustomSelect('cs-temporada-btn', 'cs-temporada-list', null);
+      iniciarCustomSelect('cs-tipo-btn', 'cs-tipo-list', (valor) => {
+        cambiarModoPartidos(valor);
+      });
+      poblarCustomSelectEquipo();
     }
 
     function poblarSidebarPartidos(equipo) {
