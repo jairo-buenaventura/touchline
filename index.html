@@ -596,7 +596,7 @@
         </div>
         <input type="range" id="sidebar-slider" min="1" max="5" value="3" style="width:100%;">
       </div>
-      <div id="sidebar-lista-partidos" style="overflow-y:auto; max-height:280px;"></div>
+      <div id="sidebar-lista-partidos" style="overflow-y:auto; max-height:280px; display:none;"></div>
       <div class="sidebar-perfil">
         <div class="sidebar-perfil-avatar">JB</div>
         <div>
@@ -862,6 +862,7 @@
       modoPartidos = modo;
       document.getElementById('sidebar-slider-contenedor').style.display = modo === 'recientes' ? 'block' : 'none';
       document.getElementById('cs-partido-contenedor').style.display = modo === 'especifico' ? 'block' : 'none';
+      document.getElementById('sidebar-lista-partidos').style.display = modo === 'recientes' ? 'block' : 'none';
       const equipo = document.getElementById('cs-equipo-btn').textContent;
       poblarSidebarPartidos(equipo);
     }
