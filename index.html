@@ -718,13 +718,25 @@
         item.addEventListener('click', () => {
           contenedor.querySelectorAll('.sidebar-partido-item').forEach(i => i.classList.remove('activo'));
           item.classList.add('activo');
-          abrirDetallePartido(item.dataset.archivo);
+          cargarPartido(item.dataset.archivo);
         });
       });
     }
-
+      if (partidos.length > 0) {
+        const p0 = partidos[0];
+        const primerItem = contenedor.querySelector('.sidebar-partido-item');
+        if (primerItem) primerItem.classList.add('activo');
+        document.getElementById('selector-equipo').value = p0.home === equipo ? 'home' : 'away';
+        cargarPartido(p0.archivo);
+      }
+    }
     function poblarSidebarRecientes() {
       poblarSidebarEquipos();
+      if (listaCompleta.length > 0) {
+        const p = listaCompleta[0];
+        document.getElementById('selector-equipo').value = 'home';
+        cargarPartido(p.archivo);
+      }
     }
 
     function abrirDetallePartido(archivo) {
