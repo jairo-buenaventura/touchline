@@ -46,7 +46,7 @@
     gap: 10px;
     padding: 9px 10px;
     border-radius: 7px;
-    font-size: 13px;
+    font-size: 16px;
     color: #6b6b6b;
     cursor: pointer;
     margin-bottom: 2px;
@@ -62,16 +62,16 @@
     box-shadow: 0 1px 2px rgba(0,0,0,0.06);
   }
   .sidebar-seccion-titulo {
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
-    color: #999;
+    color: #1a1a1a;
     letter-spacing: 0.05em;
     margin: 1.5rem 0 0.5rem 0.4rem;
   }
   .sidebar-partido-item {
     padding: 7px 10px;
     border-radius: 7px;
-    font-size: 12px;
+    font-size: 14px;
     color: #1a1a1a;
     cursor: pointer;
     margin-bottom: 2px;
@@ -494,7 +494,7 @@
       <div class="sidebar-item activo" id="nav-matches" style="margin-bottom:2rem; white-space:nowrap;">📋 Reporte de Partidos</div>
       <hr style="border:none; border-top:1px solid #e5e5e3; margin:1.5rem 0;">
       <div class="sidebar-seccion-titulo">Liga</div>
-      <select id="sidebar-liga" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;">
+      <select id="sidebar-liga" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
         <option value="world_cup">World Cup</option>
       </select>
       <div class="sidebar-seccion-titulo">Temporada</div>
@@ -503,7 +503,7 @@
       </select>
       <div class="sidebar-seccion-titulo">De que equipo quieres el reporte?</div>
       <select id="sidebar-selector-equipo" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;"></select>
-      <div class="sidebar-seccion-titulo">Partido especifico o Partidos mas recientes?</div>
+      <div class="sidebar-seccion-titulo">Tipo de partido</div>
       <select id="sidebar-modo-partidos" onchange="cambiarModoPartidos(this.value)" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:8px; font-size:14px; margin-bottom:0.75rem;">
         <option value="especifico">Partido especifico</option>
         <option value="recientes">Partidos recientes</option>
