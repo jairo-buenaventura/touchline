@@ -68,6 +68,22 @@
     letter-spacing: 0.05em;
     margin: 1.5rem 0 0.5rem 0.4rem;
   }
+  .sidebar-partido-item {
+    padding: 7px 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #1a1a1a;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  .sidebar-partido-item:hover {
+    background: #ececea;
+  }
+  .sidebar-partido-item.activo {
+    background: white;
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  }
   .sidebar-recent-item {
     padding: 7px 10px;
     border-radius: 7px;
@@ -471,14 +487,38 @@
 </head>
 <body>
   <div class="app-shell">
-    <div class="sidebar-nav">
-      <div class="sidebar-logo">⚽ Touchline</div>
-      <div class="sidebar-item activo" id="nav-matches" onclick="cambiarVistaApp('matches')">📅 Matches</div>
+    <div class="sidebar-nav" id="sidebar-nav">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+        <div class="sidebar-logo">⚽ Touchline</div>
+        <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:14px; color:#999;">«</button>
+      </div>
+      <div class="sidebar-item activo" id="nav-matches">📅 Matches</div>
       <div class="sidebar-item" id="nav-search" onclick="cambiarVistaApp('search')">🔍 Search</div>
       <div class="sidebar-item" id="nav-players" onclick="cambiarVistaApp('players')">👤 Players</div>
       <div class="sidebar-item" id="nav-saved" onclick="cambiarVistaApp('saved')">⭐ Saved</div>
-      <div class="sidebar-seccion-titulo">Recent</div>
-      <div id="sidebar-recientes"></div>
+      <hr style="border:none; border-top:1px solid #e5e5e3; margin:1rem 0;">
+      <div class="sidebar-seccion-titulo">Liga</div>
+      <select id="sidebar-liga" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;">
+        <option value="world_cup">World Cup</option>
+      </select>
+      <div class="sidebar-seccion-titulo">Temporada</div>
+      <select id="sidebar-temporada" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;">
+        <option value="2026">2026</option>
+      </select>
+      <div class="sidebar-seccion-titulo">Equipo</div>
+      <select id="sidebar-selector-equipo" style="width:100%; background:white; color:#1a1a1a; border:1px solid #ddd; border-radius:6px; padding:6px 8px; font-size:12px; margin-bottom:0.75rem;"></select>
+      <div class="sidebar-seccion-titulo">Partidos</div>
+      <div style="display:flex; gap:4px; margin-bottom:0.75rem;">
+        <button id="btn-especifico" onclick="cambiarModoPartidos('especifico')" style="flex:1; padding:5px 4px; font-size:11px; border-radius:5px; border:1px solid #ddd; background:white; cursor:pointer; font-weight:600;">Especifico</button>
+        <button id="btn-recientes" onclick="cambiarModoPartidos('recientes')" style="flex:1; padding:5px 4px; font-size:11px; border-radius:5px; border:1px solid #ddd; background:#f5f5f3; cursor:pointer;">Recientes</button>
+      </div>
+      <div id="sidebar-slider-contenedor" style="display:none; margin-bottom:0.75rem;">
+        <div style="display:flex; justify-content:space-between; font-size:11px; color:#999; margin-bottom:4px;">
+          <span>Ultimos partidos</span><span id="sidebar-slider-valor">3</span>
+        </div>
+        <input type="range" id="sidebar-slider" min="1" max="5" value="3" style="width:100%;">
+      </div>
+      <div id="sidebar-lista-partidos" style="overflow-y:auto; max-height:280px;"></div>
       <div class="sidebar-perfil">
         <div class="sidebar-perfil-avatar">JB</div>
         <div>
@@ -487,9 +527,10 @@
         </div>
       </div>
     </div>
+    <button id="btn-expandir-sidebar" onclick="expandirSidebar()" style="display:none; position:fixed; left:0; top:50%; transform:translateY(-50%); background:white; border:1px solid #e5e5e3; border-left:none; border-radius:0 6px 6px 0; padding:8px 4px; cursor:pointer; font-size:14px; color:#999; z-index:100;">»</button>
     <div class="contenido-principal">
       <div id="vista-matches">
-        <div class="nivel-matches" id="nivel-torneos">
+        <div class="nivel-matches" id="nivel-torneos" style="display:none;">
           <div class="grid-torneos">
             <div class="tarjeta-torneo" onclick="abrirTorneo()">
               <div class="tarjeta-torneo-nombre">Mundial 2026</div>
@@ -501,7 +542,7 @@
           <div class="breadcrumb-matches" onclick="volverATorneos()">&larr; Torneos</div>
           <div id="contenedor-lista-partidos"></div>
         </div>
-        <div class="nivel-matches" id="nivel-detalle" style="display:none;">
+        <div class="nivel-matches" id="nivel-detalle">
           <div class="breadcrumb-matches" onclick="volverAJornadas()">&larr; Mundial 2026</div>
   <div class="layout">
 
@@ -631,23 +672,84 @@
       poblarSidebarRecientes();
     }
 
-    function poblarSidebarRecientes() {
-      let recientes = [];
-      try {
-        recientes = JSON.parse(localStorage.getItem('touchline_recientes') || '[]');
-      } catch (e) {
-        recientes = [];
+    let modoPartidos = 'especifico';
+
+    function colapsarSidebar() {
+      document.getElementById('sidebar-nav').style.display = 'none';
+      document.getElementById('btn-expandir-sidebar').style.display = 'block';
+    }
+
+    function expandirSidebar() {
+      document.getElementById('sidebar-nav').style.display = 'flex';
+      document.getElementById('btn-expandir-sidebar').style.display = 'none';
+    }
+
+    function cambiarModoPartidos(modo) {
+      modoPartidos = modo;
+      document.getElementById('btn-especifico').style.background = modo === 'especifico' ? 'white' : '#f5f5f3';
+      document.getElementById('btn-especifico').style.fontWeight = modo === 'especifico' ? '600' : 'normal';
+      document.getElementById('btn-recientes').style.background = modo === 'recientes' ? 'white' : '#f5f5f3';
+      document.getElementById('btn-recientes').style.fontWeight = modo === 'recientes' ? '600' : 'normal';
+      document.getElementById('sidebar-slider-contenedor').style.display = modo === 'recientes' ? 'block' : 'none';
+      const equipo = document.getElementById('sidebar-selector-equipo').value;
+      poblarSidebarPartidos(equipo);
+    }
+
+    function poblarSidebarEquipos() {
+      const selector = document.getElementById('sidebar-selector-equipo');
+      const equipos = [...new Set(listaCompleta.flatMap(p => [p.home, p.away]))].sort();
+      selector.innerHTML = equipos.map(e => `<option value="${e}">${e}</option>`).join('');
+      selector.addEventListener('change', () => {
+        poblarSidebarPartidos(selector.value);
+        const partidos = listaCompleta.filter(p => p.home === selector.value || p.away === selector.value);
+        if (partidos.length > 0) {
+          const p0 = partidos.sort((a,b) => (a.fecha||'').localeCompare(b.fecha||''))[0];
+          document.getElementById('selector-equipo').value = p0.home === selector.value ? 'home' : 'away';
+          mostrarNivelMatches('detalle');
+          cargarPartido(p0.archivo);
+        }
+      });
+      const slider = document.getElementById('sidebar-slider');
+      const sliderValor = document.getElementById('sidebar-slider-valor');
+      slider.addEventListener('input', () => {
+        sliderValor.textContent = slider.value;
+        poblarSidebarPartidos(selector.value);
+      });
+      poblarSidebarPartidos(selector.value);
+    }
+
+    function poblarSidebarPartidos(equipo) {
+      const contenedor = document.getElementById('sidebar-lista-partidos');
+      let partidos = listaCompleta.filter(p => p.home === equipo || p.away === equipo)
+        .sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+      if (modoPartidos === 'recientes') {
+        const n = parseInt(document.getElementById('sidebar-slider').value);
+        partidos = partidos.slice(0, n);
+      } else {
+        partidos = partidos.slice().reverse();
       }
-      const contenedor = document.getElementById('sidebar-recientes');
-      contenedor.innerHTML = recientes.map(r => `
-        <div class="sidebar-recent-item" data-archivo="${r.archivo}">${r.home} vs ${r.away}</div>
-      `).join('');
-      contenedor.querySelectorAll('.sidebar-recent-item').forEach(item => {
+      let html = '';
+      partidos.forEach(p => {
+        const esLocal = p.home === equipo;
+        const rival = esLocal ? p.away : p.home;
+        html += `<div class="sidebar-partido-item" data-archivo="${p.archivo}" data-lado="${esLocal ? 'home' : 'away'}">
+          <div>${esLocal ? equipo : rival} ${p.marcador} ${esLocal ? rival : equipo}</div>
+        </div>`;
+      });
+      contenedor.innerHTML = html || '<div style="font-size:11px; color:#bbb; padding:8px 10px;">Sin partidos</div>';
+      contenedor.querySelectorAll('.sidebar-partido-item').forEach(item => {
         item.addEventListener('click', () => {
-          cambiarVistaApp('matches');
-          abrirDetallePartido(item.dataset.archivo);
+          contenedor.querySelectorAll('.sidebar-partido-item').forEach(i => i.classList.remove('activo'));
+          item.classList.add('activo');
+          document.getElementById('selector-equipo').value = item.dataset.lado;
+          mostrarNivelMatches('detalle');
+          cargarPartido(item.dataset.archivo);
         });
       });
+    }
+
+    function poblarSidebarRecientes() {
+      poblarSidebarEquipos();
     }
 
     function abrirDetallePartido(archivo) {
@@ -967,27 +1069,6 @@
         }
       });
 
-      const botonEquipo = document.getElementById('dropdown-equipo-boton');
-      const listaEquipo = document.getElementById('dropdown-equipo-lista');
-      botonEquipo.addEventListener('click', (e) => {
-        e.stopPropagation();
-        listaEquipo.classList.toggle('abierto');
-      });
-      listaEquipo.querySelectorAll('.dropdown-item').forEach(item => {
-        item.addEventListener('click', () => {
-          listaEquipo.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('seleccionado'));
-          item.classList.add('seleccionado');
-          botonEquipo.textContent = item.textContent;
-          selectorEquipo.value = item.dataset.valor;
-          selectorEquipo.dispatchEvent(new Event('change'));
-          listaEquipo.classList.remove('abierto');
-        });
-      });
-      document.addEventListener('click', (e) => {
-        if (!document.getElementById('dropdown-equipo-contenedor').contains(e.target)) {
-          listaEquipo.classList.remove('abierto');
-        }
-      });
 
       const botonJugador = document.getElementById('dropdown-jugador-boton');
       const listaJugador = document.getElementById('dropdown-jugador-lista');
