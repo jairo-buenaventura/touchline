@@ -17,14 +17,14 @@ from playwright.sync_api import sync_playwright
 
 # ==================== EDITA ESTO PARA CADA PARTIDO ====================
 PARTIDO = {
-    "whoscored_url": "https://www.whoscored.com/matches/1914080/live/spain-laliga-2025-2026-sevilla-athletic-club",
-    "home": "Sevilla",
-    "away": "Athletic Club",
-    "marcador": "2 : 1",
-    "estadio": "Ramon Sanchez Pizjuan",
-    "fecha": "2026-01-24",
-    "jornada": 20,
-    "nombre_archivo_base": "Sevilla 2-1 Athletic Club - LaLiga 2025-2026",
+    "whoscored_url": "https://www.whoscored.com/matches/1914212/live/spain-laliga-2025-2026-real-oviedo-getafe",
+    "home": "Real Oviedo",
+    "away": "Getafe",
+    "marcador": "0 : 0",
+    "estadio": "Estadio Carlos Tartiere",
+    "fecha": "2026-05-10",
+    "jornada": 35,
+    "nombre_archivo_base": "Real Oviedo 0-0 Getafe - LaLiga 2025-2026",
 }
 # ========================================================================
 

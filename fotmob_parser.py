@@ -52,6 +52,8 @@ def extraer_datos_fotmob(ruta_html):
         """
         if valor is None:
             return None, None
+        if not isinstance(valor, str):
+            return num(valor), None
         m2 = re.match(r"([\d.]+)\s*\((\d+)%\)", valor)
         if not m2:
             return num(valor), None
