@@ -19,7 +19,7 @@ from playwright.sync_api import sync_playwright
 
 def fetch_html(url, wait_ms=8000):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(url, timeout=60000)
         page.wait_for_timeout(wait_ms)
