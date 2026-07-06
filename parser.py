@@ -49,6 +49,33 @@ def extraer_match_data(ruta_html):
     return json.loads(bloque_json)
 
 
+def extraer_competicion(ruta_html):
+    """
+    Detecta la competicion a partir del HTML de WhoScored.
+    Devuelve: 'world_cup', 'la_liga', u 'otro'.
+    """
+    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    if "World Cup" in contenido:
+        return "world_cup"
+    if "La Liga" in contenido:
+        return "la_liga"
+    return "otro"
+
+def extraer_temporada(ruta_html):
+    """
+    Detecta la temporada a partir del HTML de WhoScored.
+    Para el Mundial devuelve '2026'.
+    Para ligas europeas busca el patron 'YYYY/YYYY'.
+    """
+    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    if "World Cup" in contenido:
+        return "2026"
+    m = re.search(r'(\d{4}/\d{4})', contenido)
+    if m:
+        partes = m.group(1).split('/')
+        return f"{partes[0][2:]}/{partes[1][2:]}"
+    return None
+
 def extraer_grupo(ruta_html):
     """
     Busca en el HTML crudo el texto 'World Cup Grp. X' para identificar
@@ -527,6 +554,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         "estadio": nombre_estadio,
         "capacidad_estadio": CAPACIDADES.get(nombre_estadio),
         "asistencia": data.get("attendance"),
+        "competicion": extraer_competicion(ruta_html),
+        "temporada": extraer_temporada(ruta_html),
         "home": home_datos,
         "away": away_datos,
     }
@@ -551,6 +580,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         "estadio": resultado["estadio"],
         "grupo": extraer_grupo(ruta_html),
         "fecha": extraer_fecha(ruta_html),
+        "competicion": extraer_competicion(ruta_html),
+        "temporada": extraer_temporada(ruta_html),
     }
 
 
