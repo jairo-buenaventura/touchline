@@ -554,6 +554,7 @@
         <button class="custom-select-btn" id="cs-liga-btn">World Cup</button>
         <div class="custom-select-list" id="cs-liga-list">
           <div class="custom-select-option seleccionado" data-value="world_cup">World Cup</div>
+          <div class="custom-select-option" data-value="la_liga">La Liga</div>
           <div class="custom-select-option" data-value="premier_league">Premier League</div>
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
@@ -752,6 +753,8 @@
     }
 
     let modoPartidos = 'especifico';
+    let ligaActual = 'world_cup';
+    let temporadaActual = '2026';
 
     function iniciarCustomSelect(btnId, listId, onChange) {
       const btn = document.getElementById(btnId);
@@ -776,10 +779,42 @@
       document.addEventListener('click', () => list.classList.remove('abierto'));
     }
 
+    function actualizarTemporadas() {
+      const list = document.getElementById('cs-temporada-list');
+      const btn = document.getElementById('cs-temporada-btn');
+      const temporadas = [...new Set(listaCompleta
+        .filter(p => p.competicion === ligaActual)
+        .map(p => p.temporada)
+        .filter(Boolean)
+      )].sort().reverse();
+      list.innerHTML = temporadas.map((t, i) =>
+        `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${t}">${t}</div>`
+      ).join('');
+      temporadaActual = temporadas[0] || '';
+      if (temporadas.length > 0) btn.textContent = temporadas[0];
+      list.querySelectorAll('.custom-select-option').forEach(opt => {
+        opt.addEventListener('click', () => {
+          list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
+          opt.classList.add('seleccionado');
+          btn.textContent = opt.textContent;
+          list.classList.remove('abierto');
+          temporadaActual = opt.dataset.value;
+          poblarCustomSelectEquipo();
+        });
+      });
+    }
+
+    function listaFiltrada() {
+      return listaCompleta.filter(p =>
+        p.competicion === ligaActual &&
+        p.temporada === temporadaActual
+      );
+    }
+
     function poblarCustomSelectEquipo() {
       const list = document.getElementById('cs-equipo-list');
       const btn = document.getElementById('cs-equipo-btn');
-      const equipos = [...new Set(listaCompleta.flatMap(p => [p.home, p.away]))].sort();
+      const equipos = [...new Set(listaFiltrada().flatMap(p => [p.home, p.away]))].sort();
       list.innerHTML = equipos.map((e, i) =>
         `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${e}">${e}</div>`
       ).join('');
@@ -805,7 +840,7 @@
     function poblarCustomSelectPartidos(equipo) {
       const list = document.getElementById('cs-partido-list');
       const btn = document.getElementById('cs-partido-btn');
-      const partidos = listaCompleta.filter(p => p.home === equipo || p.away === equipo)
+      const partidos = listaFiltrada().filter(p => p.home === equipo || p.away === equipo)
         .sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
       list.innerHTML = partidos.map((p, i) => {
         const esLocal = p.home === equipo;
@@ -876,17 +911,24 @@
         const equipo = document.getElementById('cs-equipo-btn').textContent;
         poblarSidebarPartidos(equipo);
       });
-      iniciarCustomSelect('cs-liga-btn', 'cs-liga-list', null);
-      iniciarCustomSelect('cs-temporada-btn', 'cs-temporada-list', null);
+      iniciarCustomSelect('cs-liga-btn', 'cs-liga-list', (valor) => {
+        ligaActual = valor;
+        actualizarTemporadas();
+        poblarCustomSelectEquipo();
+      });
+      iniciarCustomSelect('cs-temporada-btn', 'cs-temporada-list', (valor) => {
+        poblarCustomSelectEquipo();
+      });
       iniciarCustomSelect('cs-tipo-btn', 'cs-tipo-list', (valor) => {
         cambiarModoPartidos(valor);
       });
+      actualizarTemporadas();
       poblarCustomSelectEquipo();
     }
 
     function poblarSidebarPartidos(equipo) {
       const contenedor = document.getElementById('sidebar-lista-partidos');
-      let partidos = listaCompleta.filter(p => p.home === equipo || p.away === equipo)
+      let partidos = listaFiltrada().filter(p => p.home === equipo || p.away === equipo)
         .sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
       if (modoPartidos === 'recientes') {
         const n = parseInt(document.getElementById('sidebar-slider').value);
@@ -1221,11 +1263,7 @@
         e.stopPropagation();
         listaPartido.classList.toggle('abierto');
       });
-      document.addEventListener('click', (e) => {
-        if (!document.getElementById('dropdown-partido-contenedor').contains(e.target)) {
-          cerrarDropdownPartido();
-        }
-      });
+
 
 
       const selectorEquipo = document.getElementById('selector-equipo');
