@@ -149,16 +149,32 @@ def extraer_datos_fotmob(ruta_html):
     }
 
 
+import unicodedata
+
 def normalizar(nombre):
-    base = nombre.strip().lower().replace("ó", "o").replace("í", "i")
+    base = nombre.strip().lower()
+    base = "".join(c for c in unicodedata.normalize("NFD", base) if unicodedata.category(c) != "Mn")
     base = base.replace("cape verde", "cabo verde")
     base = base.replace("south korea", "republic of korea")
+    base = base.replace("atletico madrid", "atletico")
+    base = base.replace("deportivo alaves", "alaves")
     return base
 
 
-def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data):
+def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None):
     candidatos = list(carpeta_data.glob("*.json"))
     candidatos = [c for c in candidatos if c.name != "lista.json"]
+
+    # Primero: intento exacto, quitando el sufijo _FotMob del nombre del HTML
+    if nombre_html_stem:
+        stem_limpio = nombre_html_stem
+        if stem_limpio.endswith("_FotMob"):
+            stem_limpio = stem_limpio[: -len("_FotMob")]
+        for c in candidatos:
+            if c.stem == stem_limpio:
+                return c
+
+    # Fallback: matching por substring exacto de nombres completos (no tokens sueltos)
     h = normalizar(home_fotmob)
     a = normalizar(away_fotmob)
     for c in candidatos:
@@ -190,7 +206,7 @@ def main():
             continue
 
         ruta_json = encontrar_archivo_json(
-            datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data
+            datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data, archivo.stem
         )
         if ruta_json is None:
             print(f"  [SIN MATCH] {archivo.name} ({datos_fotmob['home_nombre']} vs {datos_fotmob['away_nombre']}) - no se encontro JSON correspondiente")
