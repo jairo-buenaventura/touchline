@@ -165,7 +165,7 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
     candidatos = list(carpeta_data.glob("*.json"))
     candidatos = [c for c in candidatos if c.name != "lista.json"]
 
-    # Primero: intento exacto, quitando el sufijo _FotMob del nombre del HTML
+    # Estrategia 1: coincidencia EXACTA quitando el sufijo _FotMob.
     if nombre_html_stem:
         stem_limpio = nombre_html_stem
         if stem_limpio.endswith("_FotMob"):
@@ -174,13 +174,20 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             if c.stem == stem_limpio:
                 return c
 
-    # Fallback: matching por substring exacto de nombres completos (no tokens sueltos)
-    h = normalizar(home_fotmob)
-    a = normalizar(away_fotmob)
-    for c in candidatos:
-        nombre = normalizar(c.stem)
-        if h in nombre and a in nombre:
-            return c
+    # Estrategia 2 (segura): requiere AMBOS equipos + el marcador exacto
+    # extraido del nombre del HTML (ej. "Athletic Club 2-1 Elche").
+    if nombre_html_stem:
+        m_score = re.search(r"(\d+)-(\d+)", nombre_html_stem)
+        if m_score:
+            marcador_variantes = [f"{m_score.group(1)}-{m_score.group(2)}", f"{m_score.group(2)}-{m_score.group(1)}"]
+            h = normalizar(home_fotmob)
+            a = normalizar(away_fotmob)
+            for c in candidatos:
+                nombre = normalizar(c.stem)
+                if h in nombre and a in nombre:
+                    for variante in marcador_variantes:
+                        if variante in c.stem:
+                            return c
     return None
 
 
