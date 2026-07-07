@@ -55,27 +55,20 @@ def extraer_competicion(ruta_html):
     Devuelve: 'world_cup', 'la_liga', u 'otro'.
     """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
-    if "World Cup" in contenido:
-        return "world_cup"
-    if "La Liga" in contenido:
+    if re.search(r"LaLiga\s+\d{4}", contenido):
         return "la_liga"
+    if "World Cup Grp" in contenido or "FIFA World Cup" in contenido:
+        return "world_cup"
     return "otro"
 
 def extraer_temporada(ruta_html):
-    """
-    Detecta la temporada a partir del HTML de WhoScored.
-    Para el Mundial devuelve '2026'.
-    Para ligas europeas busca el patron 'YYYY/YYYY'.
-    """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
-    if "World Cup" in contenido:
-        return "2026"
-    m = re.search(r'(\d{4}/\d{4})', contenido)
+    m = re.search(r"LaLiga (\d{4})/(\d{4})", contenido)
     if m:
-        partes = m.group(1).split('/')
-        return f"{partes[0][2:]}/{partes[1][2:]}"
+        return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
+    if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
+        return "2026"
     return None
-
 def extraer_grupo(ruta_html):
     """
     Busca en el HTML crudo el texto 'World Cup Grp. X' para identificar

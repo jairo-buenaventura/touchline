@@ -22,6 +22,10 @@ def fetch_html(url, wait_ms=8000):
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(url, timeout=60000)
+        try:
+            page.wait_for_load_state("networkidle", timeout=20000)
+        except Exception:
+            pass
         page.wait_for_timeout(wait_ms)
         html = page.content()
         browser.close()
