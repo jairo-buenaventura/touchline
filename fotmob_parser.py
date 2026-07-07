@@ -188,6 +188,14 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
                     for variante in marcador_variantes:
                         if variante in c.stem:
                             return c
+    # Estrategia 3: solo equipos sin marcador (Mundial FotMob en español)
+    if home_fotmob and away_fotmob:
+        h = normalizar(home_fotmob)
+        a = normalizar(away_fotmob)
+        for c in candidatos:
+            nombre = normalizar(c.stem)
+            if h in nombre and a in nombre:
+                return c
     return None
 
 
