@@ -652,6 +652,19 @@
 
 
     <div class="col-central">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid #e5e5e3;">
+        <div>
+          <div style="font-weight:700; font-size:13px; color:#1a1a1a;">Reporte de Partidos</div>
+          <div style="font-size:11px; color:#999; margin-top:2px;">All data via WhoScored & FotMob</div>
+        </div>
+        <div style="text-align:right;">
+          <div id="last-updated" style="font-size:11px; color:#999;">Last Updated: <span id="fecha-actualizacion"></span></div>
+          <div id="disclaimer-toggle" onclick="toggleDisclaimer()" style="font-size:11px; color:#1a1a1a; cursor:pointer; margin-top:2px;">ℹ Disclaimer & Info ▾</div>
+        </div>
+      </div>
+      <div id="disclaimer-box" style="display:none; background:#f5f5f3; border-radius:8px; padding:0.75rem 1rem; font-size:12px; color:#555; margin-bottom:1rem; line-height:1.6;">
+        All data comes from WhoScored & FotMob. You are allowed to share images from this app on your socials, websites, videos, etc. Please give credit and do not remove watermarks. Thank you!
+      </div>
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
         <div id="encabezado-partido" style="font-size:12px; color:#999;"></div>
         <div style="display:flex; align-items:center; gap:5px; font-size:10px; font-weight:700; color:#1a1a1a; background:#f0f0ee; padding:3px 8px; border-radius:5px; letter-spacing:0.04em;">
@@ -1026,6 +1039,26 @@
       if (sinJornada.length > 0) {
         contenedor.appendChild(crearAcordeonJornada('Fase eliminatoria', sinJornada, false));
       }
+    }
+
+    function toggleDisclaimer() {
+      const box = document.getElementById('disclaimer-box');
+      const toggle = document.getElementById('disclaimer-toggle');
+      if (box.style.display === 'none') {
+        box.style.display = 'block';
+        toggle.textContent = 'ℹ Disclaimer & Info ▴';
+      } else {
+        box.style.display = 'none';
+        toggle.textContent = 'ℹ Disclaimer & Info ▾';
+      }
+    }
+
+    function actualizarFechaActualizacion() {
+      const ahora = new Date();
+      const meses = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+      const texto = `${ahora.getDate()} ${meses[ahora.getMonth()]} ${ahora.getFullYear()}`;
+      const el = document.getElementById('fecha-actualizacion');
+      if (el) el.textContent = texto;
     }
 
     function cambiarVistaApp(vista) {
@@ -1882,6 +1915,7 @@
       `;
     }
 
+    actualizarFechaActualizacion();
     cargarLista().catch(err => {
       document.getElementById('info').textContent = 'Error cargando los datos: ' + err.message;
     });
