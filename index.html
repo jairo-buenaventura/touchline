@@ -1568,10 +1568,25 @@
         return;
       }
 
-      bloque.innerHTML = todos.map(g => {
+      const esPenales = datos.marcador && datos.marcador.includes('*');
+      const normales = esPenales ? todos.filter(g => g.minuto <= 120) : todos;
+      const penales = esPenales ? todos.filter(g => g.minuto > 120) : [];
+
+      function renderGol(g) {
         const color = g.esHome ? '#1a1a1a' : '#ccc';
-        return `<div class="gol-item"><span><span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:${color}; margin-right:6px;"></span>${g.minuto}' ${g.jugador}</span></div>`;
-      }).join('');
+        const ownGoal = g.own_goal ? ' <span style="font-size:10px; color:#e07b39;">(OG)</span>' : '';
+        return `<div class="gol-item"><span><span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:${color}; margin-right:6px;"></span>${g.minuto}' ${g.jugador}${ownGoal}</span></div>`;
+      }
+
+      let html = normales.map(renderGol).join('');
+      if (penales.length > 0) {
+        html += `<div style="border-top:1px solid #eee; margin:6px 0;"></div>`;
+        html += penales.map(g => {
+          const color = g.esHome ? '#1a1a1a' : '#ccc';
+          return `<div class="gol-item"><span><span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:${color}; margin-right:6px;"></span><span style="font-size:10px; font-weight:700; color:#666; margin-right:4px;">PEN</span>${g.minuto}' ${g.jugador}</span></div>`;
+        }).join('');
+      }
+      bloque.innerHTML = html;
     }
 
     function dibujarCancha(datos, lado) {

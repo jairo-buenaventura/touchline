@@ -313,7 +313,15 @@ def calcular_estadisticas(data, lado="home"):
                 goles.append({
                     "minuto": ev.get("minute", 0),
                     "jugador": nombres.get(str(ev.get("playerId")), "?"),
+                    "penal": ev.get("isGoalFromPenalty", False),
                 })
+
+        if tipo == "OwnGoal" and team_ev != team_id and team_ev in (home_id, away_id):
+            goles.append({
+                "minuto": ev.get("minute", 0),
+                "jugador": nombres.get(str(ev.get("playerId")), "?"),
+                "own_goal": True,
+            })
 
         if team_ev in (home_id, away_id) and ev.get("playerId"):
             toques_totales += 1
