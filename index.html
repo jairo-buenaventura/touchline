@@ -718,6 +718,7 @@
           </div>
           <svg id="cancha" viewBox="0 0 380 520"></svg>
           <div id="leyenda-fija-cancha" style="text-align:center; font-size:10px; color:#999; margin-top:0.5rem;"></div>
+
           <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
         </div>
       </div>
@@ -1622,6 +1623,10 @@
       bloque.innerHTML = html;
     }
 
+    function agregarCredito(svg) {
+      svg.innerHTML += '<text x="8" y="18" font-size="11" fill="#1a1a1a" font-family="sans-serif" font-weight="bold">X @jairo-buenaventura</text>';
+    }
+
     function dibujarCancha(datos, lado) {
       const equipo = datos[lado];
       document.getElementById('info').textContent = `${equipo.equipo} — red de pases`;
@@ -1703,6 +1708,7 @@
       });
 
       svg.innerHTML = html;
+      agregarCredito(svg);
     }
 
     function dibujarShotsMap(datos, lado) {
@@ -1737,6 +1743,7 @@
       });
 
       svg.innerHTML = html;
+      agregarCredito(svg);
 
       const resultadosPresentes = ordenResultados.filter(r => tiros.some(t => t.resultado === r));
       const leyenda = document.getElementById('leyenda-acciones');
@@ -1763,6 +1770,7 @@
         document.getElementById('info').textContent = `${equipo.equipo} — sin acciones registradas`;
         document.getElementById('leyenda-acciones').innerHTML = '';
         svg.innerHTML = html;
+      agregarCredito(svg);
         return;
       }
 
@@ -1801,6 +1809,7 @@
       });
 
       svg.innerHTML = html;
+      agregarCredito(svg);
 
       const tiposPresentes = ordenTipos.filter(tipo => jugador.acciones.some(a => a.tipo === tipo));
       const leyenda = document.getElementById('leyenda-acciones');
@@ -1865,6 +1874,7 @@
       if (!jugador) {
         document.getElementById('info').textContent = `${equipo.equipo} — sin recepciones registradas`;
         svg.innerHTML = html;
+      agregarCredito(svg);
         statsDiv.innerHTML = '';
         return;
       }
@@ -1904,6 +1914,7 @@
       });
 
       svg.innerHTML = html;
+      agregarCredito(svg);
 
       statsDiv.innerHTML = `
         <div style="text-align:center;"><strong>${recepciones.length + pasesClave.length + asistencias.length}</strong><br>Pases recibidos</div>
@@ -1923,3 +1934,4 @@
 
 </body>
 </html>
+
