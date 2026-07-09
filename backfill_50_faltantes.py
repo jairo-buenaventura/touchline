@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 
 def fetch_html(url, wait_ms=8000):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         page.goto(url, timeout=60000)
         try:
@@ -58,7 +58,7 @@ def main():
             print(f"  ERROR: {home} vs {away} -> {e}")
             errores.append({"partido": f"{home} vs {away}", "error": str(e)})
 
-        time.sleep(6)
+        time.sleep(10)
 
     print(f"\n=== Resumen ===")
     print(f"Exitosos: {exitosos}/{len(faltantes)}")
