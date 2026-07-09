@@ -890,9 +890,9 @@
       });
       document.addEventListener('click', () => list.classList.remove('abierto'));
       if (partidos.length > 0) {
-        document.getElementById('selector-equipo').value = partidos[0].home === equipo ? 'home' : 'away';
+        document.getElementById('selector-equipo').value = partidos[partidos.length-1].home === equipo ? 'home' : 'away';
         mostrarNivelMatches('detalle');
-        cargarPartido(partidos[0].archivo);
+        cargarPartido(partidos[partidos.length-1].archivo);
       }
     }
 
