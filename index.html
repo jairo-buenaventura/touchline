@@ -844,12 +844,12 @@
         });
       });
       document.addEventListener('click', () => list.classList.remove('abierto'));
-      document.getElementById('cs-equipo-btn').addEventListener('click', (e) => {
+      document.getElementById('cs-equipo-btn').onclick = (e) => {
         e.stopPropagation();
         const estaAbierto = list.classList.contains('abierto');
         document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
         if (!estaAbierto) list.classList.add('abierto');
-      });
+      };
       if (equipos.length > 0) onEquipoChange(equipos[0]);
     }
 
