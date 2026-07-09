@@ -50,13 +50,15 @@ def extraer_match_data(ruta_html):
 
 
 def extraer_competicion(ruta_html):
-    """
-    Detecta la competicion a partir del HTML de WhoScored.
-    Devuelve: 'world_cup', 'la_liga', u 'otro'.
-    """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
     if re.search(r"LaLiga\s+\d{4}", contenido):
         return "la_liga"
+    if re.search(r"Premier League \d{4}/\d{4}", contenido):
+        return "premier_league"
+    if re.search(r"Bundesliga \d{4}/\d{4}", contenido):
+        return "bundesliga"
+    if re.search(r"Ligue 1 \d{4}/\d{4}", contenido):
+        return "ligue_1"
     if "World Cup Grp" in contenido or "FIFA World Cup" in contenido:
         return "world_cup"
     return "otro"
@@ -66,9 +68,13 @@ def extraer_temporada(ruta_html):
     m = re.search(r"LaLiga (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
+    m = re.search(r"(?:Premier League|Bundesliga|Ligue 1) (\d{4})/(\d{4})", contenido)
+    if m:
+        return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
     if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
         return "2026"
     return None
+
 def extraer_grupo(ruta_html):
     """
     Busca en el HTML crudo el texto 'World Cup Grp. X' para identificar
