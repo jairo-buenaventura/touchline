@@ -49,7 +49,34 @@ def extraer_match_data(ruta_html):
     return json.loads(bloque_json)
 
 
-def extraer_competicion(ruta_html):
+# Las 48 selecciones nacionales que clasificaron al Mundial 2026,
+# extraidas de los 96 partidos de "World Cup Grp" ya verificados.
+# Se usa como lista blanca para no confundir partidos de Mundial de
+# Clubes (Man City vs Napoli, etc.) con partidos de selecciones,
+# ya que ambos comparten el mismo texto "FIFA World Cup" en el menu
+# de navegacion de WhoScored (aparece en TODAS las paginas del sitio).
+SELECCIONES_MUNDIAL_2026 = {
+    "Algeria", "Argentina", "Australia", "Austria", "Belgium",
+    "Bosnia and Herzegovina", "Brazil", "Cabo Verde", "Canada",
+    "Colombia", "Croatia", "Curacao", "Czechia", "DR Congo", "Ecuador",
+    "Egypt", "England", "France", "Germany", "Ghana", "Haiti", "Iran",
+    "Iraq", "Ivory Coast", "Japan", "Jordan", "Mexico", "Morocco",
+    "Netherlands", "New Zealand", "Norway", "Panama", "Paraguay",
+    "Portugal", "Qatar", "Republic of Korea", "South Korea",
+    "Saudi Arabia", "Scotland", "Senegal", "South Africa", "Spain",
+    "Sweden", "Switzerland", "Tunisia", "Turkiye", "USA", "Uruguay",
+    "Uzbekistan",
+}
+
+
+def extraer_competicion(ruta_html, data=None):
+    """
+    data: el dict ya parseado de matchCentreData (opcional). Si se
+    provee, se usa para distinguir Mundial de Selecciones de Mundial
+    de Clubes de forma confiable (comparando el nombre del equipo
+    contra la lista blanca de selecciones). Si no se provee, se
+    intenta parsear aqui mismo.
+    """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
     if re.search(r"LaLiga\s+\d{4}", contenido):
         return "la_liga"
@@ -59,8 +86,33 @@ def extraer_competicion(ruta_html):
         return "bundesliga"
     if re.search(r"Ligue 1 \d{4}/\d{4}", contenido):
         return "ligue_1"
+
+    # Nota: el texto "FIFA World Cup" / "FIFA Club World Cup" aparece
+    # en el menu de navegacion de CUALQUIER pagina de WhoScored, no
+    # solo en partidos de esa competicion. Por eso, si llegamos hasta
+    # aqui, hay que confirmar con los datos del partido (no solo con
+    # texto suelto del HTML) si de verdad es un partido de Mundial.
     if "World Cup Grp" in contenido or "FIFA World Cup" in contenido:
+        if data is None:
+            try:
+                data = extraer_match_data(ruta_html)
+            except Exception:
+                data = None
+
+        if data is not None:
+            home_nombre = data.get("home", {}).get("name")
+            away_nombre = data.get("away", {}).get("name")
+            es_seleccion = (
+                home_nombre in SELECCIONES_MUNDIAL_2026
+                or away_nombre in SELECCIONES_MUNDIAL_2026
+            )
+            if es_seleccion:
+                return "world_cup"
+            return "club_world_cup"
+
+        # Si no se pudo parsear matchCentreData, mejor no adivinar.
         return "world_cup"
+
     return "otro"
 
 def extraer_temporada(ruta_html):
@@ -561,7 +613,7 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         "estadio": nombre_estadio,
         "capacidad_estadio": CAPACIDADES.get(nombre_estadio),
         "asistencia": data.get("attendance"),
-        "competicion": extraer_competicion(ruta_html),
+        "competicion": extraer_competicion(ruta_html, data=data),
         "temporada": extraer_temporada(ruta_html),
         "home": home_datos,
         "away": away_datos,
@@ -587,7 +639,7 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         "estadio": resultado["estadio"],
         "grupo": extraer_grupo(ruta_html),
         "fecha": extraer_fecha(ruta_html),
-        "competicion": extraer_competicion(ruta_html),
+        "competicion": extraer_competicion(ruta_html, data=data),
         "temporada": extraer_temporada(ruta_html),
     }
 
