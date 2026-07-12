@@ -235,10 +235,19 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
                 nombre = normalizar(c.stem)
                 if h in nombre and a in nombre:
                     for variante in marcador_variantes:
-                        if variante in c.stem:
+                        # \b evita que "1-0" matchee dentro de "11-0"
+                        patron = r"(?<!\d)" + re.escape(variante) + r"(?!\d)"
+                        if re.search(patron, c.stem):
                             return c
-    # Estrategia 3: solo equipos sin marcador (Mundial FotMob en español)
-    if home_fotmob and away_fotmob:
+    # Estrategia 3: solo equipos sin marcador. Esto SOLO es seguro
+    # cuando el nombre del archivo no trae marcador (los FotMob del
+    # Mundial en español, ej. "Argentina vs Brasil - marcador en
+    # vivo..."). Si el archivo SI tenia marcador pero la Estrategia 2
+    # no encontro nada, NO caemos aqui: eso significaria fusionar a
+    # ciegas sin verificar el resultado, y en una liga con ida y
+    # vuelta eso puede pegar el partido equivocado sin avisar.
+    tiene_marcador = bool(nombre_html_stem and re.search(r"(\d+)\s*-\s*(\d+)", nombre_html_stem))
+    if not tiene_marcador and home_fotmob and away_fotmob:
         h = normalizar(home_fotmob)
         a = normalizar(away_fotmob)
         for c in candidatos:

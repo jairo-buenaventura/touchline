@@ -63,17 +63,15 @@ def nombre_archivo_esperado(home, away, marcador):
 
 def ya_descargado(home, away, marcador):
     """
-    Revisa si ya existe un .json o .html en partidos_fotmob/ para este
-    partido, comparando nombres normalizados (sin tildes, minusculas)
-    en vez de exigir coincidencia exacta de archivo.
+    Revisa si el archivo EXACTO que este script generaria para este
+    partido ya existe. nombre_archivo_esperado() es una funcion
+    deterministica de (home, away, marcador), y en una temporada de
+    liga esa combinacion nunca se repite (incluso si ida y vuelta
+    terminan con el mismo marcador, el orden local/visitante siempre
+    es distinto). Por eso comparar el nombre exacto del archivo es
+    mas seguro que comparar texto de forma difusa.
     """
-    h = normalizar(home)
-    a = normalizar(away)
-    for archivo in CARPETA_FOTMOB.glob("*Premier League*"):
-        nombre = normalizar(archivo.stem)
-        if h in nombre and a in nombre:
-            return True
-    return False
+    return (CARPETA_FOTMOB / nombre_archivo_esperado(home, away, marcador)).exists()
 
 
 NOMBRES_BUSQUEDA = {
@@ -236,31 +234,34 @@ def main():
             home, away, marcador, fecha = partido["home"], partido["away"], partido["marcador"], partido["fecha"]
             etiqueta = f"[{i}/{len(pendientes)}] {home} {marcador} {away}"
 
-            match_id = buscar_match_id_en_calendario(calendario, home, away, fecha)
-            if not match_id:
-                print(f"{etiqueta} -> [SIN MATCH ID]")
-                fallidos.append(partido)
-                continue
+            try:
+                match_id = buscar_match_id_en_calendario(calendario, home, away, fecha)
+                if not match_id:
+                    print(f"{etiqueta} -> [SIN MATCH ID]")
+                    fallidos.append(partido)
+                    continue
 
-            datos = descargar_match_details(page, match_id)
-            if not datos:
-                print(f"{etiqueta} -> [ERROR] no llego matchDetails a tiempo")
-                fallidos.append(partido)
-                continue
+                datos = descargar_match_details(page, match_id)
+                if not datos:
+                    print(f"{etiqueta} -> [ERROR] no llego matchDetails a tiempo")
+                    fallidos.append(partido)
+                    continue
 
-            if not fecha_coincide(datos, fecha):
-                fecha_real = datos.get("general", {}).get("matchTimeUTC", "?")
-                print(f"{etiqueta} -> [RECHAZADO] capturo el partido equivocado (fecha real: {fecha_real})")
-                fallidos.append(partido)
-                continue
+                if not fecha_coincide(datos, fecha):
+                    fecha_real = datos.get("general", {}).get("matchTimeUTC", "?")
+                    print(f"{etiqueta} -> [RECHAZADO] capturo el partido equivocado (fecha real: {fecha_real})")
+                    fallidos.append(partido)
+                    continue
 
-            nombre_archivo = nombre_archivo_esperado(home, away, marcador)
-            ruta = CARPETA_FOTMOB / nombre_archivo
-            ruta.write_text(json.dumps(datos, ensure_ascii=False), encoding="utf-8")
-            print(f"{etiqueta} -> [OK] guardado como {nombre_archivo}")
-            exitosos += 1
-
-            time.sleep(DEMORA_ENTRE_PARTIDOS)
+                nombre_archivo = nombre_archivo_esperado(home, away, marcador)
+                ruta = CARPETA_FOTMOB / nombre_archivo
+                ruta.write_text(json.dumps(datos, ensure_ascii=False), encoding="utf-8")
+                print(f"{etiqueta} -> [OK] guardado como {nombre_archivo}")
+                exitosos += 1
+            finally:
+                # La pausa aplica siempre (exito o fallo), para no
+                # martillar el sitio en una racha de errores seguidos.
+                time.sleep(DEMORA_ENTRE_PARTIDOS)
 
         browser.close()
 
