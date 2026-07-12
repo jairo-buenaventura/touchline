@@ -216,8 +216,12 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             if c.stem == stem_limpio:
                 return c
 
-    # Estrategia 2 (segura): requiere AMBOS equipos + el marcador exacto
-    # extraido del nombre del HTML (ej. "Athletic Club 2-1 Elche").
+    # Estrategia 2 (segura): requiere AMBOS equipos, EN ORDEN
+    # (local antes que visitante, como en "Athletic Club 2-1 Elche")
+    # + el marcador exacto. Solo exigir que ambos nombres esten
+    # presentes (sin importar el orden) causaba que partidos de ida
+    # y vuelta con el mismo marcador (ej. "Fulham 1-0 Leeds" y
+    # "Leeds 1-0 Fulham") se fusionaran los dos en el mismo archivo.
     if nombre_html_stem:
         m_score = re.search(r"(\d+)\s*-\s*(\d+)", nombre_html_stem)
         if m_score:
@@ -233,12 +237,15 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             a = normalizar(away_fotmob)
             for c in candidatos:
                 nombre = normalizar(c.stem)
-                if h in nombre and a in nombre:
-                    for variante in marcador_variantes:
-                        # \b evita que "1-0" matchee dentro de "11-0"
-                        patron = r"(?<!\d)" + re.escape(variante) + r"(?!\d)"
-                        if re.search(patron, c.stem):
-                            return c
+                pos_h = nombre.find(h)
+                pos_a = nombre.find(a)
+                if pos_h == -1 or pos_a == -1 or pos_h >= pos_a:
+                    continue
+                for variante in marcador_variantes:
+                    # \b evita que "1-0" matchee dentro de "11-0"
+                    patron = r"(?<!\d)" + re.escape(variante) + r"(?!\d)"
+                    if re.search(patron, c.stem):
+                        return c
     # Estrategia 3: solo equipos sin marcador. Esto SOLO es seguro
     # cuando el nombre del archivo no trae marcador (los FotMob del
     # Mundial en español, ej. "Argentina vs Brasil - marcador en
