@@ -188,6 +188,18 @@ def normalizar(nombre):
     base = base.replace("south korea", "republic of korea")
     base = base.replace("atletico madrid", "atletico")
     base = base.replace("deportivo alaves", "alaves")
+    # FotMob usa nombres oficiales completos para la Premier League;
+    # los archivos de WhoScored usan las versiones cortas.
+    base = base.replace("afc bournemouth", "bournemouth")
+    base = base.replace("brighton & hove albion", "brighton")
+    base = base.replace("brighton and hove albion", "brighton")
+    base = base.replace("leeds united", "leeds")
+    base = base.replace("manchester city", "man city")
+    base = base.replace("manchester united", "man utd")
+    base = base.replace("newcastle united", "newcastle")
+    base = base.replace("tottenham hotspur", "tottenham")
+    base = base.replace("west ham united", "west ham")
+    base = base.replace("wolverhampton wanderers", "wolves")
     return base
 
 
@@ -207,9 +219,16 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
     # Estrategia 2 (segura): requiere AMBOS equipos + el marcador exacto
     # extraido del nombre del HTML (ej. "Athletic Club 2-1 Elche").
     if nombre_html_stem:
-        m_score = re.search(r"(\d+)-(\d+)", nombre_html_stem)
+        m_score = re.search(r"(\d+)\s*-\s*(\d+)", nombre_html_stem)
         if m_score:
-            marcador_variantes = [f"{m_score.group(1)}-{m_score.group(2)}", f"{m_score.group(2)}-{m_score.group(1)}"]
+            g1, g2 = m_score.group(1), m_score.group(2)
+            # Se generan variantes con y sin espacios alrededor del guion,
+            # porque los archivos de Premier League usan "3 - 1" y los de
+            # LaLiga usan "3-1".
+            marcador_variantes = [
+                f"{g1}-{g2}", f"{g2}-{g1}",
+                f"{g1} - {g2}", f"{g2} - {g1}",
+            ]
             h = normalizar(home_fotmob)
             a = normalizar(away_fotmob)
             for c in candidatos:
