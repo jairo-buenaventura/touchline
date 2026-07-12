@@ -76,67 +76,73 @@ def ya_descargado(home, away, marcador):
     return False
 
 
+NOMBRES_BUSQUEDA = {
+    "Man Utd": "Manchester United",
+    "Man City": "Manchester City",
+    "Nott'm Forest": "Nottingham Forest",
+    "Spurs": "Tottenham Hotspur",
+}
+
+
 def convertir_fecha(fecha_dd_mm_aaaa):
-    """Convierte '15/08/2025' -> '2025-08-15' (formato que usa FotMob)."""
+    """Convierte '15/08/2025' -> '2025-08-15' (formato ISO)."""
     dia, mes, anio = fecha_dd_mm_aaaa.split("/")
     return f"{anio}-{mes}-{dia}"
 
 
-def buscar_match_id(request_context, home, away, fecha_esperada_dd_mm_aaaa):
+def cargar_calendario_fotmob(request_context):
     """
-    Usa la API publica de busqueda de FotMob para encontrar el matchId
-    exacto de este partido (filtrando por liga y fecha para no
-    confundirlo con el mismo cruce de otra temporada).
+    Trae el calendario COMPLETO de la temporada en una sola llamada
+    (en vez de buscar partido por partido, que se confunde con
+    equipos grandes que tienen muchos cruces). Devuelve una lista de
+    partidos con su matchId, nombres de equipo (tal como los escribe
+    FotMob) y fecha.
     """
-    fecha_esperada = convertir_fecha(fecha_esperada_dd_mm_aaaa)
-    termino = f"{home} {away}"
-    url = f"https://apigw.fotmob.com/searchapi/suggest?term={termino}&lang=en"
+    url = "https://www.fotmob.com/api/data/leagues?id=47&season=2025/2026&ccode3=ENG"
     resp = request_context.get(url)
     if not resp.ok:
-        return None
+        raise RuntimeError(f"No se pudo traer el calendario de FotMob (status {resp.status})")
     data = resp.json()
 
-    candidatos = []
-    for grupo in data.get("matchSuggest", []):
-        for opcion in grupo.get("options", []):
-            payload = opcion.get("payload", {})
-            if payload.get("leagueId") != LEAGUE_ID_FOTMOB:
-                continue
-            candidatos.append(payload)
+    # La clave exacta puede variar segun la version de la API
+    # (se ha visto 'matches' y 'fixtures' en distintos momentos).
+    bloque = data.get("matches") or data.get("fixtures") or {}
+    partidos = bloque.get("allMatches", [])
+    if not partidos:
+        raise RuntimeError(
+            "El calendario llego vacio. Claves de nivel superior recibidas: "
+            + ", ".join(data.keys())
+        )
 
-    if not candidatos:
-        return None
+    calendario = []
+    for p in partidos:
+        calendario.append({
+            "id": p.get("id"),
+            "home": normalizar(p.get("home", {}).get("name", "")),
+            "away": normalizar(p.get("away", {}).get("name", "")),
+            "fecha": (p.get("status", {}).get("utcTime") or "")[:10],
+        })
+    return calendario
 
-    # Elegir el candidato cuya fecha este mas cerca de la esperada,
-    # en vez de solo buscar coincidencia exacta de texto (evita el
-    # fallback ciego al primer resultado, que suele ser el proximo
-    # cruce entre los mismos equipos en la temporada siguiente).
-    from datetime import date
 
-    try:
-        anio, mes, dia = fecha_esperada.split("-")
-        fecha_obj_esperada = date(int(anio), int(mes), int(dia))
-    except Exception:
-        return candidatos[0].get("id")
+def buscar_match_id_en_calendario(calendario, home, away, fecha_esperada_dd_mm_aaaa):
+    """
+    Busca el matchId dentro del calendario ya descargado, comparando
+    nombres normalizados (con contiene, no igualdad exacta, porque
+    FotMob puede usar 'Manchester United' y nosotros 'Man Utd') y
+    exigiendo que la fecha coincida exactamente.
+    """
+    fecha_esperada = convertir_fecha(fecha_esperada_dd_mm_aaaa)
+    home_norm = normalizar(NOMBRES_BUSQUEDA.get(home, home))
+    away_norm = normalizar(NOMBRES_BUSQUEDA.get(away, away))
 
-    mejor = None
-    mejor_diff = None
-    for c in candidatos:
-        fecha_match = (c.get("matchDate") or "")[:10]
-        try:
-            a2, m2, d2 = fecha_match.split("-")
-            fecha_obj_candidato = date(int(a2), int(m2), int(d2))
-        except Exception:
+    for p in calendario:
+        if p["fecha"] != fecha_esperada:
             continue
-        diff = abs((fecha_obj_candidato - fecha_obj_esperada).days)
-        if mejor_diff is None or diff < mejor_diff:
-            mejor_diff = diff
-            mejor = c
-
-    if mejor is not None and mejor_diff is not None and mejor_diff <= 2:
-        return mejor.get("id")
-
-    # Ninguno quedo razonablemente cerca de la fecha esperada
+        h_ok = home_norm in p["home"] or p["home"] in home_norm
+        a_ok = away_norm in p["away"] or p["away"] in away_norm
+        if h_ok and a_ok:
+            return p["id"]
     return None
 
 
@@ -222,11 +228,15 @@ def main():
         context = browser.new_context()
         page = context.new_page()
 
+        print("Descargando el calendario completo de la temporada...")
+        calendario = cargar_calendario_fotmob(context.request)
+        print(f"Calendario cargado: {len(calendario)} partidos.\n")
+
         for i, partido in enumerate(pendientes, 1):
             home, away, marcador, fecha = partido["home"], partido["away"], partido["marcador"], partido["fecha"]
             etiqueta = f"[{i}/{len(pendientes)}] {home} {marcador} {away}"
 
-            match_id = buscar_match_id(context.request, home, away, fecha)
+            match_id = buscar_match_id_en_calendario(calendario, home, away, fecha)
             if not match_id:
                 print(f"{etiqueta} -> [SIN MATCH ID]")
                 fallidos.append(partido)
