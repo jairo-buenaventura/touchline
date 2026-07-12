@@ -15,17 +15,47 @@ from pathlib import Path
 
 
 def extraer_datos_fotmob(ruta_html):
+    """
+    Lee un HTML guardado desde el navegador (con Cmd+S) y extrae los
+    datos de FotMob a partir del bloque <script id="__NEXT_DATA__">.
+    """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', contenido, re.DOTALL)
     if not m:
         raise ValueError("No se encontro __NEXT_DATA__ en este HTML.")
-    data = json.loads(m.group(1))
+    data_completo = json.loads(m.group(1))
+    data = data_completo["props"]["pageProps"]
+    return _procesar_datos_fotmob(data)
 
-    general = data["props"]["pageProps"]["general"]
+
+def extraer_datos_fotmob_json(ruta_json):
+    """
+    Lee un .json guardado copiando la respuesta cruda de la pestaña
+    Network -> matchDetails de las Herramientas de Desarrollador de
+    Chrome (clic derecho -> Copy -> Copy Response). Este formato trae
+    'general' y 'content' directo en la raiz del archivo, sin el
+    envoltorio props.pageProps que trae el HTML guardado con Cmd+S.
+    """
+    contenido = Path(ruta_json).read_text(encoding="utf-8")
+    if not contenido.strip():
+        raise ValueError("El archivo esta vacio (0 bytes). Vuelve a copiar y pegar el JSON.")
+    if contenido.lstrip().startswith("<"):
+        raise ValueError("Este archivo .json en realidad contiene HTML (se guardo la pagina completa en vez de copiar la respuesta del Network tab).")
+    data = json.loads(contenido)
+    return _procesar_datos_fotmob(data)
+
+
+def _procesar_datos_fotmob(data):
+    """
+    Logica compartida: recibe un dict que ya tiene 'general' y
+    'content' como claves directas (sin importar si vino de un HTML
+    o de un JSON crudo de la API) y devuelve las estadisticas.
+    """
+    general = data["general"]
     home_nombre = general["homeTeam"]["name"]
     away_nombre = general["awayTeam"]["name"]
 
-    grupos = data["props"]["pageProps"]["content"]["stats"]["Periods"]["All"]["stats"]
+    grupos = data["content"]["stats"]["Periods"]["All"]["stats"]
 
     def buscar(titulo_grupo, titulo_stat):
         for g in grupos:
@@ -207,15 +237,20 @@ def main():
         print(f"No existe la carpeta '{carpeta_fotmob}'.")
         return
 
-    archivos = sorted(carpeta_fotmob.glob("*.html"))
+    archivos_html = sorted(carpeta_fotmob.glob("*.html"))
+    archivos_json = sorted(carpeta_fotmob.glob("*.json"))
+    archivos = archivos_html + archivos_json
     if not archivos:
-        print(f"No hay archivos .html en '{carpeta_fotmob}'.")
+        print(f"No hay archivos .html ni .json en '{carpeta_fotmob}'.")
         return
 
     actualizados = 0
     for archivo in archivos:
         try:
-            datos_fotmob = extraer_datos_fotmob(archivo)
+            if archivo.suffix == ".json":
+                datos_fotmob = extraer_datos_fotmob_json(archivo)
+            else:
+                datos_fotmob = extraer_datos_fotmob(archivo)
         except Exception as e:
             print(f"  [ERROR] {archivo.name}: {e}")
             continue
