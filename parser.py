@@ -395,6 +395,7 @@ def calcular_estadisticas(data, lado="home"):
         "pases_totales": pases_totales,
         "precision_pases": precision_pases,
         "posesion": posesion,
+
         "goles": goles,
         "ppda": calcular_ppda(data, lado=lado),
     }
