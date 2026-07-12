@@ -107,14 +107,37 @@ def buscar_match_id(request_context, home, away, fecha_esperada_dd_mm_aaaa):
     if not candidatos:
         return None
 
-    # Preferir el candidato cuya fecha coincide con la esperada
+    # Elegir el candidato cuya fecha este mas cerca de la esperada,
+    # en vez de solo buscar coincidencia exacta de texto (evita el
+    # fallback ciego al primer resultado, que suele ser el proximo
+    # cruce entre los mismos equipos en la temporada siguiente).
+    from datetime import date
+
+    try:
+        anio, mes, dia = fecha_esperada.split("-")
+        fecha_obj_esperada = date(int(anio), int(mes), int(dia))
+    except Exception:
+        return candidatos[0].get("id")
+
+    mejor = None
+    mejor_diff = None
     for c in candidatos:
         fecha_match = (c.get("matchDate") or "")[:10]
-        if fecha_match == fecha_esperada:
-            return c.get("id")
+        try:
+            a2, m2, d2 = fecha_match.split("-")
+            fecha_obj_candidato = date(int(a2), int(m2), int(d2))
+        except Exception:
+            continue
+        diff = abs((fecha_obj_candidato - fecha_obj_esperada).days)
+        if mejor_diff is None or diff < mejor_diff:
+            mejor_diff = diff
+            mejor = c
 
-    # Si no hay match exacto de fecha, devolver el primero como fallback
-    return candidatos[0].get("id")
+    if mejor is not None and mejor_diff is not None and mejor_diff <= 2:
+        return mejor.get("id")
+
+    # Ninguno quedo razonablemente cerca de la fecha esperada
+    return None
 
 
 def descargar_match_details(page, match_id):
@@ -147,6 +170,22 @@ def descargar_match_details(page, match_id):
 
     page.remove_listener("response", on_response)
     return resultado.get("data")
+
+
+def fecha_coincide(datos, fecha_esperada_dd_mm_aaaa):
+    """
+    Verifica que la fecha real del partido descargado coincida con la
+    esperada (con 1 dia de tolerancia por zona horaria). Esto evita
+    guardar por error el cruce de otra temporada entre los mismos
+    equipos (ej: capturar el partido de 2026/27 en vez del de esta
+    temporada).
+    """
+    try:
+        fecha_real = datos["general"]["matchTimeUTCDate"][:10]  # 'YYYY-MM-DD'
+    except (KeyError, TypeError):
+        return False
+    fecha_esperada = convertir_fecha(fecha_esperada_dd_mm_aaaa)
+    return fecha_real == fecha_esperada
 
 
 def main():
@@ -196,6 +235,12 @@ def main():
             datos = descargar_match_details(page, match_id)
             if not datos:
                 print(f"{etiqueta} -> [ERROR] no llego matchDetails a tiempo")
+                fallidos.append(partido)
+                continue
+
+            if not fecha_coincide(datos, fecha):
+                fecha_real = datos.get("general", {}).get("matchTimeUTC", "?")
+                print(f"{etiqueta} -> [RECHAZADO] capturo el partido equivocado (fecha real: {fecha_real})")
                 fallidos.append(partido)
                 continue
 
