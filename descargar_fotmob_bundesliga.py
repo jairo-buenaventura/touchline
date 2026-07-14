@@ -75,8 +75,9 @@ def ya_descargado(home, away, marcador):
 
 
 NOMBRES_BUSQUEDA = {
+    "Bayer 04 Leverkusen": "Bayer Leverkusen",
     # Se completa aqui si durante las pruebas se descubre que algun
-    # nombre de FotMob no coincide por subcadena con el nuestro
+    # otro nombre de FotMob no coincide por subcadena con el nuestro
     # (ej. "Borussia Monchengladbach" vs "Borussia M.Gladbach").
 }
 
