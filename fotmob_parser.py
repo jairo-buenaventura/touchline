@@ -55,7 +55,16 @@ def _procesar_datos_fotmob(data):
     home_nombre = general["homeTeam"]["name"]
     away_nombre = general["awayTeam"]["name"]
 
-    grupos = data["content"]["stats"]["Periods"]["All"]["stats"]
+    if not general.get("finished"):
+        raise ValueError(
+            f"Partido no jugado todavia ({home_nombre} vs {away_nombre}, "
+            f"{general.get('matchTimeUTC')}) - sin estadisticas que extraer."
+        )
+
+    stats = data["content"]["stats"]
+    if not stats:
+        raise ValueError(f"FotMob no trae estadisticas para {home_nombre} vs {away_nombre}.")
+    grupos = stats["Periods"]["All"]["stats"]
 
     def buscar(titulo_grupo, titulo_stat):
         for g in grupos:
@@ -199,6 +208,21 @@ def normalizar(nombre):
     base = base.replace("newcastle united", "newcastle")
     base = base.replace("tottenham hotspur", "tottenham")
     base = base.replace("west ham united", "west ham")
+    # Igual, pero para la Bundesliga.
+    base = base.replace("1. fc heidenheim 1846", "fc heidenheim")
+    base = base.replace("1. fc koln", "fc koln")
+    base = base.replace("1. fc union berlin", "union berlin")
+    base = base.replace("1. fsv mainz 05", "mainz 05")
+    base = base.replace("bayer 04 leverkusen", "bayer leverkusen")
+    base = base.replace("borussia monchengladbach", "borussia m.gladbach")
+    base = base.replace("fc augsburg", "augsburg")
+    base = base.replace("fc bayern munchen", "bayern munich")
+    base = base.replace("bayern munchen", "bayern munich")
+    base = base.replace("fc st. pauli", "st. pauli")
+    base = base.replace("sport-club freiburg", "freiburg")
+    base = base.replace("sv werder bremen", "werder bremen")
+    base = base.replace("tsg hoffenheim", "hoffenheim")
+    base = base.replace("vfl wolfsburg", "wolfsburg")
     base = base.replace("wolverhampton wanderers", "wolves")
     return base
 

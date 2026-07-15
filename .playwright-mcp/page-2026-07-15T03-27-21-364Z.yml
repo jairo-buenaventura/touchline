@@ -1,0 +1,416 @@
+- generic [active] [ref=f120e1]:
+  - generic [ref=f120e5]:
+    - generic [ref=f120e7]:
+      - generic [ref=f120e8]:
+        - link [ref=f120e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=f120e12]
+        - combobox [ref=f120e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=f120e14]:
+        - generic [ref=f120e15]:
+          - button [ref=f120e16] [cursor=pointer]:
+            - img "search" [ref=f120e18]
+          - textbox "Search" [ref=f120e19]
+      - iframe [ref=f120e22]:
+        - generic [ref=f121e2]:
+          - link "Sign In" [ref=f121e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f121e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=f120e24]:
+      - navigation [ref=f120e25]:
+        - link "Live Scores" [ref=f120e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=f120e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=f120e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=f120e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=f120e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=f120e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=f120e38]:
+          - img "ws+_logo" [ref=f120e39]
+          - link "WHOSCORED+" [ref=f120e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=f120e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=f120e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=f120e48]
+    - generic [ref=f120e52]:
+      - button "Top Tournaments" [ref=f120e53] [cursor=pointer]
+      - button "Favourites" [ref=f120e57] [cursor=pointer]
+      - button "All Tournaments" [ref=f120e61] [cursor=pointer]
+  - generic [ref=f120e66]:
+    - generic [ref=f120e67]:
+      - generic [ref=f120e72]:
+        - generic [ref=f120e73]:
+          - generic [ref=f120e74]:
+            - img "teammate-stars-logo" [ref=f120e75]
+            - generic [ref=f120e79]: TEAMMATE
+          - generic [ref=f120e80]:
+            - button "refresh-button" [ref=f120e81] [cursor=pointer]:
+              - img "refresh-chatbot-session" [ref=f120e82]
+            - button "expand-button" [ref=f120e84] [cursor=pointer]:
+              - img "expand-chatbot" [ref=f120e85]
+        - textbox "Ask me anything..." [ref=f120e91]
+        - list "chips-list" [ref=f120e93]:
+          - listitem "chips-list-item" [ref=f120e94] [cursor=pointer]: Outright Winner Odds
+          - listitem "chips-list-item" [ref=f120e95] [cursor=pointer]: In Form Players
+          - listitem "chips-list-item" [ref=f120e96] [cursor=pointer]: Best Value Bets
+      - generic [ref=f120e97]:
+        - generic [ref=f120e98]: Netherlands
+        - generic [ref=f120e100]: »
+        - combobox [ref=f120e102]:
+          - option "Eredivisie" [selected]
+          - option "Dutch Super Cup"
+          - option "KNVB Cup"
+          - option "Eredivisie Promotion Playoff"
+          - option "Eerste Divisie"
+          - option "Eredivisie Comeback"
+          - option "Tweede Divisie"
+        - generic [ref=f120e103]: »
+        - combobox [ref=f120e105]:
+          - option "2026/2027"
+          - option "2025/2026" [selected]
+          - option "2024/2025"
+          - option "2023/2024"
+          - option "2022/2023"
+          - option "2021/2022"
+          - option "2020/2021"
+          - option "2019/2020"
+          - option "2018/2019"
+          - option "2017/2018"
+          - option "2016/2017"
+          - option "2015/2016"
+          - option "2014/2015"
+          - option "2013/2014"
+          - option "2012/2013"
+          - option "2011/2012"
+          - option "2010/2011"
+          - option "2009/2010"
+          - option "2008/2009"
+          - option "2007/2008"
+          - option "2006/2007"
+          - option "2005/2006"
+          - option "2004/2005"
+          - option "2003/2004"
+          - option "2002/2003"
+          - option "2001/2002"
+          - option "2000/2001"
+          - option "1999/2000"
+        - generic [ref=f120e106]: »
+        - combobox [ref=f120e108]:
+          - option "Eredivisie"
+          - option "Eredivisie ECL Playoff" [selected]
+      - heading [level=1] [ref=f120e109]:
+        - text: Eredivisie ECL Playoff
+        - link "Add to favourites" [ref=f120e111] [cursor=pointer]:
+          - /url: "#popular"
+      - list [ref=f120e114]:
+        - listitem [ref=f120e115]:
+          - link "Summary" [ref=f120e116] [cursor=pointer]:
+            - /url: /regions/155/tournaments/13/seasons/10752/stages/25484/show/netherlands-eredivisie-2025-2026
+        - listitem [ref=f120e117]:
+          - link "Fixtures" [ref=f120e118] [cursor=pointer]:
+            - /url: /regions/155/tournaments/13/seasons/10752/stages/25484/fixtures/netherlands-eredivisie-2025-2026
+        - listitem
+        - listitem
+        - listitem
+      - generic [ref=f120e119]:
+        - heading [level=2] [ref=f120e121]:
+          - link "Eredivisie ECL Playoff Fixtures" [ref=f120e122] [cursor=pointer]:
+            - /url: /regions/155/tournaments/13/seasons/10752/stages/25484/fixtures/netherlands-eredivisie-2025-2026
+        - generic [ref=f120e125]:
+          - generic [ref=f120e128]:
+            - button [ref=f120e129] [cursor=pointer]:
+              - img "chevron-left" [ref=f120e131]
+            - button "calendar 19 - 25 May 2026 ▼" [ref=f120e132] [cursor=pointer]:
+              - img "calendar" [ref=f120e134]
+              - generic [ref=f120e135]: 19 - 25 May 2026
+              - generic [ref=f120e136]: ▼
+            - button [ref=f120e137] [cursor=pointer]:
+              - img "chevron-right" [ref=f120e139]
+          - generic [ref=f120e141]:
+            - generic [ref=f120e143] [cursor=pointer]:
+              - img "B3" [ref=f120e146]
+              - img "chevron-down" [ref=f120e151]
+            - generic [ref=f120e152]: Odds
+          - generic [ref=f120e158]:
+            - generic [ref=f120e159]:
+              - generic [ref=f120e160]: Thursday, May 21 2026
+              - generic [ref=f120e163]:
+                - generic [ref=f120e165]:
+                  - generic [ref=f120e166]:
+                    - generic [ref=f120e167]: FT
+                    - button [ref=f120e168] [cursor=pointer]:
+                      - img "chevron-down" [ref=f120e172]
+                  - generic [ref=f120e173]:
+                    - link "2 0" [ref=f120e175] [cursor=pointer]:
+                      - /url: /matches/1980233/live/netherlands-eredivisie-2025-2026-ajax-fc-groningen
+                      - generic [ref=f120e176]: "2"
+                      - generic [ref=f120e177]: "0"
+                    - generic [ref=f120e178]:
+                      - link "Ajax" [ref=f120e180] [cursor=pointer]:
+                        - /url: /teams/130/show/netherlands-ajax
+                      - link "FC Groningen" [ref=f120e182] [cursor=pointer]:
+                        - /url: /teams/758/show/netherlands-fc-groningen
+                  - link "comments 5" [ref=f120e184] [cursor=pointer]:
+                    - /url: /matches/1980233/show/netherlands-eredivisie-2025-2026-ajax-fc-groningen/#comments-panel
+                    - img "comments" [ref=f120e186]
+                    - generic [ref=f120e187]: "5"
+                - generic [ref=f120e189]:
+                  - generic [ref=f120e190]:
+                    - generic [ref=f120e191]: FT
+                    - button [ref=f120e192] [cursor=pointer]:
+                      - img "chevron-down" [ref=f120e196]
+                  - generic [ref=f120e197]:
+                    - link "3 2" [ref=f120e199] [cursor=pointer]:
+                      - /url: /matches/1980234/live/netherlands-eredivisie-2025-2026-fc-utrecht-sc-heerenveen
+                      - generic [ref=f120e200]: "3"
+                      - generic [ref=f120e201]: "2"
+                    - generic [ref=f120e202]:
+                      - link "FC Utrecht" [ref=f120e204] [cursor=pointer]:
+                        - /url: /teams/128/show/netherlands-fc-utrecht
+                      - link "SC Heerenveen" [ref=f120e206] [cursor=pointer]:
+                        - /url: /teams/287/show/netherlands-sc-heerenveen
+                  - link "comments 1" [ref=f120e208] [cursor=pointer]:
+                    - /url: /matches/1980234/show/netherlands-eredivisie-2025-2026-fc-utrecht-sc-heerenveen/#comments-panel
+                    - img "comments" [ref=f120e210]
+                    - generic [ref=f120e211]: "1"
+            - generic [ref=f120e212]:
+              - generic [ref=f120e213]: Sunday, May 24 2026
+              - generic [ref=f120e218]:
+                - generic [ref=f120e219]:
+                  - generic [ref=f120e220]: PEN
+                  - button [ref=f120e221] [cursor=pointer]:
+                    - img "chevron-down" [ref=f120e225]
+                - generic [ref=f120e226]:
+                  - link "1 1" [ref=f120e228] [cursor=pointer]:
+                    - /url: /matches/1980235/live/netherlands-eredivisie-2025-2026-ajax-fc-utrecht
+                    - generic [ref=f120e229]: "1"
+                    - generic [ref=f120e230]: "1"
+                  - generic [ref=f120e231]:
+                    - link "Ajax" [ref=f120e233] [cursor=pointer]:
+                      - /url: /teams/130/show/netherlands-ajax
+                    - link "FC Utrecht" [ref=f120e235] [cursor=pointer]:
+                      - /url: /teams/128/show/netherlands-fc-utrecht
+                - link "comments 2" [ref=f120e237] [cursor=pointer]:
+                  - /url: /matches/1980235/show/netherlands-eredivisie-2025-2026-ajax-fc-utrecht/#comments-panel
+                  - img "comments" [ref=f120e239]
+                  - generic [ref=f120e240]: "2"
+      - img "Loading..." [ref=f120e245]
+      - heading "Eredivisie ECL Playoff Top Players" [level=2] [ref=f120e250]
+      - generic [ref=f120e253]:
+        - term [ref=f120e254]: "View:"
+        - definition [ref=f120e255]:
+          - link "Overall" [ref=f120e256] [cursor=pointer]:
+            - /url: "#"
+        - definition [ref=f120e257]:
+          - link "Home" [ref=f120e258] [cursor=pointer]:
+            - /url: "#"
+        - definition [ref=f120e259]:
+          - link "Away" [ref=f120e260] [cursor=pointer]:
+            - /url: "#"
+      - table [ref=f120e262]:
+        - rowgroup [ref=f120e263]:
+          - row [ref=f120e264]:
+            - columnheader "R" [ref=f120e265] [cursor=pointer]
+            - columnheader "Player" [ref=f120e266]
+            - columnheader "Team" [ref=f120e267]
+            - columnheader "Player Goals/Team Goals" [ref=f120e268] [cursor=pointer]
+            - columnheader "Contribution" [ref=f120e269] [cursor=pointer]
+        - rowgroup [ref=f120e270]:
+          - row [ref=f120e271]:
+            - cell "1" [ref=f120e272]
+            - cell [ref=f120e273]:
+              - link "D. Klaassen" [ref=f120e274] [cursor=pointer]:
+                - /url: /players/108860/show/davy-klaassen
+            - cell [ref=f120e275]:
+              - generic "Ajax" [ref=f120e276]:
+                - link "Ajax" [ref=f120e277] [cursor=pointer]:
+                  - /url: /teams/130/show/netherlands-ajax
+            - cell "2 3" [ref=f120e278]:
+              - generic [ref=f120e279]:
+                - generic [ref=f120e280]: "2"
+                - generic [ref=f120e281]: "3"
+            - cell "67%" [ref=f120e282]
+          - row [ref=f120e283]:
+            - cell "2" [ref=f120e284]
+            - cell [ref=f120e285]:
+              - link "M. v. d. Hoorn" [ref=f120e286] [cursor=pointer]:
+                - /url: /players/101605/show/mike-van-der-hoorn
+            - cell [ref=f120e287]:
+              - generic "FC Utrecht" [ref=f120e288]:
+                - link "F. Utrecht" [ref=f120e289] [cursor=pointer]:
+                  - /url: /teams/128/show/netherlands-fc-utrecht
+            - cell "1 4" [ref=f120e290]:
+              - generic [ref=f120e291]:
+                - generic [ref=f120e292]: "1"
+                - generic [ref=f120e293]: "4"
+            - cell "25%" [ref=f120e294]
+          - row [ref=f120e295]:
+            - cell "3" [ref=f120e296]
+            - cell [ref=f120e297]:
+              - link "S. E. Karouani" [ref=f120e298] [cursor=pointer]:
+                - /url: /players/422805/show/souffian-el-karouani
+            - cell [ref=f120e299]:
+              - generic "FC Utrecht" [ref=f120e300]:
+                - link "F. Utrecht" [ref=f120e301] [cursor=pointer]:
+                  - /url: /teams/128/show/netherlands-fc-utrecht
+            - cell "1 4" [ref=f120e302]:
+              - generic [ref=f120e303]:
+                - generic [ref=f120e304]: "1"
+                - generic [ref=f120e305]: "4"
+            - cell "25%" [ref=f120e306]
+          - row [ref=f120e307]:
+            - cell "4" [ref=f120e308]
+            - cell [ref=f120e309]:
+              - link "G. Zechiël" [ref=f120e310] [cursor=pointer]:
+                - /url: /players/489979/show/gjivai-zechiël
+            - cell [ref=f120e311]:
+              - generic "FC Utrecht" [ref=f120e312]:
+                - link "F. Utrecht" [ref=f120e313] [cursor=pointer]:
+                  - /url: /teams/128/show/netherlands-fc-utrecht
+            - cell "1 4" [ref=f120e314]:
+              - generic [ref=f120e315]:
+                - generic [ref=f120e316]: "1"
+                - generic [ref=f120e317]: "4"
+            - cell "25%" [ref=f120e318]
+          - row [ref=f120e319]:
+            - cell "5" [ref=f120e320]
+            - cell [ref=f120e321]:
+              - link "A. Stepanov" [ref=f120e322] [cursor=pointer]:
+                - /url: /players/538240/show/artem-stepanov
+            - cell [ref=f120e323]:
+              - generic "FC Utrecht" [ref=f120e324]:
+                - link "F. Utrecht" [ref=f120e325] [cursor=pointer]:
+                  - /url: /teams/128/show/netherlands-fc-utrecht
+            - cell "1 4" [ref=f120e326]:
+              - generic [ref=f120e327]:
+                - generic [ref=f120e328]: "1"
+                - generic [ref=f120e329]: "4"
+            - cell "25%" [ref=f120e330]
+          - row [ref=f120e331]:
+            - cell "6" [ref=f120e332]
+            - cell [ref=f120e333]:
+              - link "J. Mokio" [ref=f120e334] [cursor=pointer]:
+                - /url: /players/517929/show/jorthy-mokio
+            - cell [ref=f120e335]:
+              - generic "Ajax" [ref=f120e336]:
+                - link "Ajax" [ref=f120e337] [cursor=pointer]:
+                  - /url: /teams/130/show/netherlands-ajax
+            - cell "1 3" [ref=f120e338]:
+              - generic [ref=f120e339]:
+                - generic [ref=f120e340]: "1"
+                - generic [ref=f120e341]: "3"
+            - cell "33%" [ref=f120e342]
+          - row [ref=f120e343]:
+            - cell "7" [ref=f120e344]
+            - cell [ref=f120e345]:
+              - link "D. Vente" [ref=f120e346] [cursor=pointer]:
+                - /url: /players/333781/show/dylan-vente
+            - cell [ref=f120e347]:
+              - generic "SC Heerenveen" [ref=f120e348]:
+                - link "S. Heerenveen" [ref=f120e349] [cursor=pointer]:
+                  - /url: /teams/287/show/netherlands-sc-heerenveen
+            - cell "1 2" [ref=f120e350]:
+              - generic [ref=f120e351]:
+                - generic [ref=f120e352]: "1"
+                - generic [ref=f120e353]: "2"
+            - cell "50%" [ref=f120e354]
+          - row [ref=f120e355]:
+            - cell "8" [ref=f120e356]
+            - cell [ref=f120e357]:
+              - link "J. Trenskow" [ref=f120e358] [cursor=pointer]:
+                - /url: /players/535678/show/jacob-trenskow
+            - cell [ref=f120e359]:
+              - generic "SC Heerenveen" [ref=f120e360]:
+                - link "S. Heerenveen" [ref=f120e361] [cursor=pointer]:
+                  - /url: /teams/287/show/netherlands-sc-heerenveen
+            - cell "1 2" [ref=f120e362]:
+              - generic [ref=f120e363]:
+                - generic [ref=f120e364]: "1"
+                - generic [ref=f120e365]: "2"
+            - cell "50%" [ref=f120e366]
+    - generic [ref=f120e367]:
+      - iframe [ref=f120e371]:
+        - generic:
+          - generic:
+            - insertion
+      - heading "Top Facts Of The Day Sponsored" [level=3] [ref=f120e373]:
+        - text: Top Facts Of The Day
+        - generic [ref=f120e374]: Sponsored
+  - generic [ref=f120e382]:
+    - generic [ref=f120e383]:
+      - generic [ref=f120e384]:
+        - link "About Us" [ref=f120e386] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=f120e388] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=f120e390] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=f120e392] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=f120e394] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=f120e396] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=f120e398] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=f120e400] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=f120e402] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=f120e403]:
+        - link "Best Betting Sites & Bookmakers" [ref=f120e405] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=f120e407] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=f120e409] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=f120e411] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=f120e413] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=f120e414]:
+      - link [ref=f120e415] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=f120e417] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=f120e419] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=f120e423]
+    - generic [ref=f120e424]:
+      - link [ref=f120e425] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=f120e427] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=f120e429]: Copyright © 2026 WhoScored.com
+    - generic [ref=f120e431]:
+      - link "Safer Gambling" [ref=f120e432] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=f120e433]:
+        - link "GamStop" [ref=f120e434] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=f120e437] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=f120e439] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=f120e441] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo
+  - generic [ref=f120e451]:
+    - img "Logo"

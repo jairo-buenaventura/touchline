@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\)\\); print\\(d[0]\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(python3 -)",
+      "Bash(awk '{print $1}')",
+      "Bash(git rm *)",
+      "Bash(python3 parser.py)",
+      "Bash(python3 fotmob_parser.py)",
+      "Bash(rm \"data/Manchester City 3-0 Crystal Palace - Premier League 2025_2026.json\")",
+      "Bash(git add *)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)"
+    ]
+  }
+}

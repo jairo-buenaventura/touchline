@@ -1,0 +1,1698 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=e12]
+        - combobox [ref=e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]:
+            - img "search" [ref=e18]
+          - textbox "Search" [ref=e19]
+      - iframe [ref=e22]:
+        - generic [ref=f1e2]:
+          - link "Sign In" [ref=f1e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f1e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=e24]:
+      - navigation [ref=e25]:
+        - link "Live Scores" [ref=e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=e38]:
+          - img "ws+_logo" [ref=e39]
+          - link "WHOSCORED+" [ref=e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=e48]
+    - generic [ref=e52]:
+      - button "Top Tournaments" [ref=e53] [cursor=pointer]
+      - button "Favourites" [ref=e57] [cursor=pointer]
+      - button "All Tournaments" [ref=e61] [cursor=pointer]
+  - generic [ref=e65]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img "teammate-stars-logo" [ref=e75]
+              - generic [ref=e79]: TEAMMATE
+            - generic [ref=e80]:
+              - button "refresh-button" [ref=e81] [cursor=pointer]:
+                - img "refresh-chatbot-session" [ref=e82]
+              - button "expand-button" [ref=e84] [cursor=pointer]:
+                - img "expand-chatbot" [ref=e85]
+          - textbox "Ask me anything..." [ref=e91]
+          - list "chips-list" [ref=e93]:
+            - listitem "chips-list-item" [ref=e94] [cursor=pointer]: Outright Winner Odds
+            - listitem "chips-list-item" [ref=e95] [cursor=pointer]: In Form Players
+            - listitem "chips-list-item" [ref=e96] [cursor=pointer]: Best Value Bets
+        - generic [ref=e97]:
+          - generic [ref=e98]: Germany
+          - generic [ref=e100]: »
+          - combobox [ref=e102]:
+            - option "Bundesliga" [selected]
+            - option "German Super Cup"
+            - option "DFB-Pokal"
+            - option "2. Bundesliga"
+            - option "Bundesliga Qualification"
+            - option "Frauen-Bundesliga"
+            - option "2. Bundesliga Qualification"
+            - option "3. Liga"
+            - option "Regionalliga"
+          - generic [ref=e103]: »
+          - combobox [ref=e105]:
+            - option "2026/2027"
+            - option "2025/2026" [selected]
+            - option "2024/2025"
+            - option "2023/2024"
+            - option "2022/2023"
+            - option "2021/2022"
+            - option "2020/2021"
+            - option "2019/2020"
+            - option "2018/2019"
+            - option "2017/2018"
+            - option "2016/2017"
+            - option "2015/2016"
+            - option "2014/2015"
+            - option "2013/2014"
+            - option "2012/2013"
+            - option "2011/2012"
+            - option "2010/2011"
+            - option "2009/2010"
+            - option "2008/2009"
+            - option "2007/2008"
+            - option "2006/2007"
+            - option "2005/2006"
+            - option "2004/2005"
+            - option "2003/2004"
+            - option "2002/2003"
+            - option "2001/2002"
+            - option "2000/2001"
+            - option "1999/2000"
+        - heading [level=1] [ref=e106]:
+          - text: Bundesliga
+          - link "Add to favourites" [ref=e108] [cursor=pointer]:
+            - /url: "#popular"
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "Summary" [ref=e113] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/show/germany-bundesliga-2025-2026
+          - listitem [ref=e114]:
+            - link "Fixtures" [ref=e115] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/fixtures/germany-bundesliga-2025-2026
+          - listitem [ref=e116]:
+            - link "Team Statistics" [ref=e117] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/teamstatistics/germany-bundesliga-2025-2026
+          - listitem [ref=e118]:
+            - link "Player Statistics" [ref=e119] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/playerstatistics/germany-bundesliga-2025-2026
+          - listitem [ref=e120]:
+            - link "Referee Statistics" [ref=e121] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/refereestatistics/germany-bundesliga-2025-2026
+        - generic [ref=e122]:
+          - heading [level=2] [ref=e124]:
+            - link "Bundesliga Fixtures" [ref=e125] [cursor=pointer]:
+              - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/fixtures/germany-bundesliga-2025-2026
+          - generic [ref=e128]:
+            - generic [ref=e131]:
+              - button [ref=e132] [cursor=pointer]:
+                - img "chevron-left" [ref=e134]
+              - button "calendar 12 - 18 May 2026 ▼" [ref=e135] [cursor=pointer]:
+                - img "calendar" [ref=e137]
+                - generic [ref=e138]: 12 - 18 May 2026
+                - generic [ref=e139]: ▼
+              - button [ref=e140] [cursor=pointer]:
+                - img "chevron-right" [ref=e142]
+            - generic [ref=e144]:
+              - generic [ref=e146] [cursor=pointer]:
+                - img "B3" [ref=e149]
+                - img "chevron-down" [ref=e154]
+              - generic [ref=e155]: Odds
+            - generic [ref=e162]:
+              - generic [ref=e163]: Saturday, May 16 2026
+              - generic [ref=e166]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - generic [ref=e170]: FT
+                    - button [ref=e171] [cursor=pointer]:
+                      - img "chevron-down" [ref=e175]
+                  - generic [ref=e176]:
+                    - link "1 1" [ref=e178] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                      - generic [ref=e179]: "1"
+                      - generic [ref=e180]: "1"
+                    - generic [ref=e181]:
+                      - link "Bayer Leverkusen" [ref=e183] [cursor=pointer]:
+                        - /url: /teams/36/show/germany-bayer-leverkusen
+                      - link "Hamburger SV" [ref=e185] [cursor=pointer]:
+                        - /url: /teams/38/show/germany-hamburger-sv
+                  - generic [ref=e186]:
+                    - link "comments 8" [ref=e187] [cursor=pointer]:
+                      - /url: /matches/1910894/show/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv/#comments-panel
+                      - img "comments" [ref=e189]
+                      - generic [ref=e190]: "8"
+                    - link [ref=e191] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                      - img "stats" [ref=e193]
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: FT
+                    - button [ref=e198] [cursor=pointer]:
+                      - img "chevron-down" [ref=e202]
+                  - generic [ref=e203]:
+                    - link "5 1" [ref=e205] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                      - generic [ref=e206]: "5"
+                      - generic [ref=e207]: "1"
+                    - generic [ref=e208]:
+                      - link "Bayern Munich" [ref=e210] [cursor=pointer]:
+                        - /url: /teams/37/show/germany-bayern-munich
+                      - link "FC Koln" [ref=e212] [cursor=pointer]:
+                        - /url: /teams/282/show/germany-fc-koln
+                  - generic [ref=e213]:
+                    - link "comments 7" [ref=e214] [cursor=pointer]:
+                      - /url: /matches/1910895/show/germany-bundesliga-2025-2026-bayern-munich-fc-koln/#comments-panel
+                      - img "comments" [ref=e216]
+                      - generic [ref=e217]: "7"
+                    - link [ref=e218] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                      - img "stats" [ref=e220]
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: FT
+                    - button [ref=e225] [cursor=pointer]:
+                      - img "chevron-down" [ref=e229]
+                  - generic [ref=e230]:
+                    - link "4 0" [ref=e232] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                      - generic [ref=e233]: "4"
+                      - generic [ref=e234]: "0"
+                    - generic [ref=e235]:
+                      - link "Borussia M.Gladbach" [ref=e237] [cursor=pointer]:
+                        - /url: /teams/134/show/germany-borussia-m-gladbach
+                      - generic [ref=e238]:
+                        - link "Hoffenheim" [ref=e239] [cursor=pointer]:
+                          - /url: /teams/1211/show/germany-hoffenheim
+                        - generic [ref=e240]: "1"
+                  - generic [ref=e243]:
+                    - link "comments 6" [ref=e244] [cursor=pointer]:
+                      - /url: /matches/1910896/show/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim/#comments-panel
+                      - img "comments" [ref=e246]
+                      - generic [ref=e247]: "6"
+                    - link [ref=e248] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                      - img "stats" [ref=e250]
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: FT
+                    - button [ref=e255] [cursor=pointer]:
+                      - img "chevron-down" [ref=e259]
+                  - generic [ref=e260]:
+                    - link "2 2" [ref=e262] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                      - generic [ref=e263]: "2"
+                      - generic [ref=e264]: "2"
+                    - generic [ref=e265]:
+                      - link "Eintracht Frankfurt" [ref=e267] [cursor=pointer]:
+                        - /url: /teams/45/show/germany-eintracht-frankfurt
+                      - link "VfB Stuttgart" [ref=e269] [cursor=pointer]:
+                        - /url: /teams/41/show/germany-vfb-stuttgart
+                  - generic [ref=e270]:
+                    - link "comments 6" [ref=e271] [cursor=pointer]:
+                      - /url: /matches/1910897/show/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart/#comments-panel
+                      - img "comments" [ref=e273]
+                      - generic [ref=e274]: "6"
+                    - link [ref=e275] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                      - img "stats" [ref=e277]
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: FT
+                    - button [ref=e282] [cursor=pointer]:
+                      - img "chevron-down" [ref=e286]
+                  - generic [ref=e287]:
+                    - link "4 1" [ref=e289] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                      - generic [ref=e290]: "4"
+                      - generic [ref=e291]: "1"
+                    - generic [ref=e292]:
+                      - link "Freiburg" [ref=e294] [cursor=pointer]:
+                        - /url: /teams/50/show/germany-freiburg
+                      - link "RB Leipzig" [ref=e296] [cursor=pointer]:
+                        - /url: /teams/7614/show/germany-rb-leipzig
+                  - generic [ref=e297]:
+                    - link "comments 6" [ref=e298] [cursor=pointer]:
+                      - /url: /matches/1910898/show/germany-bundesliga-2025-2026-freiburg-rb-leipzig/#comments-panel
+                      - img "comments" [ref=e300]
+                      - generic [ref=e301]: "6"
+                    - link [ref=e302] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                      - img "stats" [ref=e304]
+                - generic [ref=e306]:
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: FT
+                    - button [ref=e309] [cursor=pointer]:
+                      - img "chevron-down" [ref=e313]
+                  - generic [ref=e314]:
+                    - link "0 2" [ref=e316] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                      - generic [ref=e317]: "0"
+                      - generic [ref=e318]: "2"
+                    - generic [ref=e319]:
+                      - link "FC Heidenheim" [ref=e321] [cursor=pointer]:
+                        - /url: /teams/4852/show/germany-fc-heidenheim
+                      - link "Mainz 05" [ref=e323] [cursor=pointer]:
+                        - /url: /teams/219/show/germany-mainz-05
+                  - generic [ref=e324]:
+                    - link "comments 7" [ref=e325] [cursor=pointer]:
+                      - /url: /matches/1910899/show/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05/#comments-panel
+                      - img "comments" [ref=e327]
+                      - generic [ref=e328]: "7"
+                    - link [ref=e329] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                      - img "stats" [ref=e331]
+                - generic [ref=e333]:
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: FT
+                    - button [ref=e336] [cursor=pointer]:
+                      - img "chevron-down" [ref=e340]
+                  - generic [ref=e341]:
+                    - link "1 3" [ref=e343] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+                      - generic [ref=e344]: "1"
+                      - generic [ref=e345]: "3"
+                    - generic [ref=e346]:
+                      - link "St. Pauli" [ref=e348] [cursor=pointer]:
+                        - /url: /teams/283/show/germany-st-pauli
+                      - link "Wolfsburg" [ref=e350] [cursor=pointer]:
+                        - /url: /teams/33/show/germany-wolfsburg
+                  - generic [ref=e351]:
+                    - link "comments 3" [ref=e352] [cursor=pointer]:
+                      - /url: /matches/1910900/show/germany-bundesliga-2025-2026-st-pauli-wolfsburg/#comments-panel
+                      - img "comments" [ref=e354]
+                      - generic [ref=e355]: "3"
+                    - link [ref=e356] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+                      - img "stats" [ref=e358]
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: FT
+                    - button [ref=e363] [cursor=pointer]:
+                      - img "chevron-down" [ref=e367]
+                  - generic [ref=e368]:
+                    - link "4 0" [ref=e370] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                      - generic [ref=e371]: "4"
+                      - generic [ref=e372]: "0"
+                    - generic [ref=e373]:
+                      - link "Union Berlin" [ref=e375] [cursor=pointer]:
+                        - /url: /teams/796/show/germany-union-berlin
+                      - link "Augsburg" [ref=e377] [cursor=pointer]:
+                        - /url: /teams/1730/show/germany-augsburg
+                  - generic [ref=e378]:
+                    - link "comments 3" [ref=e379] [cursor=pointer]:
+                      - /url: /matches/1910901/show/germany-bundesliga-2025-2026-union-berlin-augsburg/#comments-panel
+                      - img "comments" [ref=e381]
+                      - generic [ref=e382]: "3"
+                    - link [ref=e383] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                      - img "stats" [ref=e385]
+                - generic [ref=e387]:
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: FT
+                    - button [ref=e390] [cursor=pointer]:
+                      - img "chevron-down" [ref=e394]
+                  - generic [ref=e395]:
+                    - link "0 2" [ref=e397] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                      - generic [ref=e398]: "0"
+                      - generic [ref=e399]: "2"
+                    - generic [ref=e400]:
+                      - link "Werder Bremen" [ref=e402] [cursor=pointer]:
+                        - /url: /teams/42/show/germany-werder-bremen
+                      - link "Borussia Dortmund" [ref=e404] [cursor=pointer]:
+                        - /url: /teams/44/show/germany-borussia-dortmund
+                  - generic [ref=e405]:
+                    - link "comments 4" [ref=e406] [cursor=pointer]:
+                      - /url: /matches/1910902/show/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund/#comments-panel
+                      - img "comments" [ref=e408]
+                      - generic [ref=e409]: "4"
+                    - link [ref=e410] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                      - img "stats" [ref=e412]
+        - generic [ref=e417]:
+          - generic [ref=e419]:
+            - img "bet builder whoscored logo" [ref=e420]
+            - paragraph [ref=e421]: NEW
+          - generic [ref=e423]:
+            - generic [ref=e424]: Select your match and start building!
+            - button "Change Match" [ref=e504] [cursor=pointer]
+        - heading "Bundesliga Tables" [level=2] [ref=e507]
+        - generic [ref=e508]:
+          - list [ref=e510]:
+            - listitem [ref=e511]:
+              - link "Standings" [ref=e512] [cursor=pointer]:
+                - /url: "#standings-24478"
+            - listitem [ref=e513]:
+              - link "Form" [ref=e514] [cursor=pointer]:
+                - /url: "#forms-24478"
+            - listitem [ref=e515]:
+              - link "Streaks" [ref=e516] [cursor=pointer]:
+                - /url: "#streaks-24478"
+            - listitem [ref=e517]:
+              - link "Progress" [ref=e518] [cursor=pointer]:
+                - /url: "#history-24478"
+            - listitem [ref=e519]:
+              - link "Custom Dates" [ref=e520] [cursor=pointer]:
+                - /url: "#custom-standings-24478"
+          - generic [ref=e521]:
+            - generic [ref=e524]:
+              - definition [ref=e525]:
+                - link "Overall" [ref=e526] [cursor=pointer]:
+                  - /url: "#"
+              - definition [ref=e527]:
+                - link "Home" [ref=e528] [cursor=pointer]:
+                  - /url: "#"
+              - definition [ref=e529]:
+                - link "Away" [ref=e530] [cursor=pointer]:
+                  - /url: "#"
+              - definition [ref=e531]:
+                - link "Wide" [ref=e532] [cursor=pointer]:
+                  - /url: "#"
+            - table [ref=e534]:
+              - rowgroup [ref=e535]:
+                - row [ref=e536]:
+                  - columnheader "Team" [ref=e537] [cursor=pointer]
+                  - columnheader "P" [ref=e538] [cursor=pointer]
+                  - columnheader "W" [ref=e539] [cursor=pointer]
+                  - columnheader "D" [ref=e540] [cursor=pointer]
+                  - columnheader "L" [ref=e541] [cursor=pointer]
+                  - columnheader "GF" [ref=e542] [cursor=pointer]
+                  - columnheader "GA" [ref=e543] [cursor=pointer]
+                  - columnheader "GD" [ref=e544] [cursor=pointer]
+                  - columnheader "Pts" [ref=e545] [cursor=pointer]
+                  - columnheader "Form" [ref=e546]
+              - rowgroup [ref=e547]:
+                - row [ref=e548]:
+                  - cell "1 Bayern Munich" [ref=e549]:
+                    - generic [ref=e550]: "1"
+                    - link "Bayern Munich" [ref=e551] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern-munich
+                  - cell "34" [ref=e552]
+                  - cell "28" [ref=e553]
+                  - cell "5" [ref=e554]
+                  - cell "1" [ref=e555]
+                  - cell "122" [ref=e556]
+                  - cell "36" [ref=e557]
+                  - cell "+86" [ref=e558]
+                  - cell "89" [ref=e559]
+                  - cell [ref=e560]:
+                    - link "w" [ref=e561] [cursor=pointer]:
+                      - /url: /matches/1910855/live/germany-bundesliga-2025-2026-st-pauli-bayern-munich
+                    - link "w" [ref=e562] [cursor=pointer]:
+                      - /url: /matches/1910859/live/germany-bundesliga-2025-2026-bayern-munich-vfb-stuttgart
+                    - link "w" [ref=e563] [cursor=pointer]:
+                      - /url: /matches/1910872/live/germany-bundesliga-2025-2026-mainz-05-bayern-munich
+                    - link "d" [ref=e564] [cursor=pointer]:
+                      - /url: /matches/1910877/live/germany-bundesliga-2025-2026-bayern-munich-fc-heidenheim
+                    - link "w" [ref=e565] [cursor=pointer]:
+                      - /url: /matches/1910893/live/germany-bundesliga-2025-2026-wolfsburg-bayern-munich
+                    - link "w" [ref=e566] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                - row [ref=e567]:
+                  - cell "2 Borussia Dortmund" [ref=e568]:
+                    - generic [ref=e569]: "2"
+                    - link "Borussia Dortmund" [ref=e570] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "34" [ref=e571]
+                  - cell "22" [ref=e572]
+                  - cell "7" [ref=e573]
+                  - cell "5" [ref=e574]
+                  - cell "70" [ref=e575]
+                  - cell "34" [ref=e576]
+                  - cell "+36" [ref=e577]
+                  - cell "73" [ref=e578]
+                  - cell [ref=e579]:
+                    - link "l" [ref=e580] [cursor=pointer]:
+                      - /url: /matches/1910850/live/germany-bundesliga-2025-2026-borussia-dortmund-bayer-leverkusen
+                    - link "l" [ref=e581] [cursor=pointer]:
+                      - /url: /matches/1910863/live/germany-bundesliga-2025-2026-hoffenheim-borussia-dortmund
+                    - link "w" [ref=e582] [cursor=pointer]:
+                      - /url: /matches/1910868/live/germany-bundesliga-2025-2026-borussia-dortmund-freiburg
+                    - link "l" [ref=e583] [cursor=pointer]:
+                      - /url: /matches/1910878/live/germany-bundesliga-2025-2026-borussia-m-gladbach-borussia-dortmund
+                    - link "w" [ref=e584] [cursor=pointer]:
+                      - /url: /matches/1910886/live/germany-bundesliga-2025-2026-borussia-dortmund-eintracht-frankfurt
+                    - link "w" [ref=e585] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                - row [ref=e586]:
+                  - cell "3 RB Leipzig" [ref=e587]:
+                    - generic [ref=e588]: "3"
+                    - link "RB Leipzig" [ref=e589] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rb-leipzig
+                  - cell "34" [ref=e590]
+                  - cell "20" [ref=e591]
+                  - cell "5" [ref=e592]
+                  - cell "9" [ref=e593]
+                  - cell "66" [ref=e594]
+                  - cell "47" [ref=e595]
+                  - cell "+19" [ref=e596]
+                  - cell "65" [ref=e597]
+                  - cell [ref=e598]:
+                    - link "w" [ref=e599] [cursor=pointer]:
+                      - /url: /matches/1910854/live/germany-bundesliga-2025-2026-rb-leipzig-borussia-m-gladbach
+                    - link "w" [ref=e600] [cursor=pointer]:
+                      - /url: /matches/1910861/live/germany-bundesliga-2025-2026-eintracht-frankfurt-rb-leipzig
+                    - link "w" [ref=e601] [cursor=pointer]:
+                      - /url: /matches/1910873/live/germany-bundesliga-2025-2026-rb-leipzig-union-berlin
+                    - link "l" [ref=e602] [cursor=pointer]:
+                      - /url: /matches/1910876/live/germany-bundesliga-2025-2026-bayer-leverkusen-rb-leipzig
+                    - link "w" [ref=e603] [cursor=pointer]:
+                      - /url: /matches/1910891/live/germany-bundesliga-2025-2026-rb-leipzig-st-pauli
+                    - link "l" [ref=e604] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                - row [ref=e605]:
+                  - cell "4 VfB Stuttgart" [ref=e606]:
+                    - generic [ref=e607]: "4"
+                    - link "VfB Stuttgart" [ref=e608] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-vfb-stuttgart
+                  - cell "34" [ref=e609]
+                  - cell "18" [ref=e610]
+                  - cell "8" [ref=e611]
+                  - cell "8" [ref=e612]
+                  - cell "71" [ref=e613]
+                  - cell "49" [ref=e614]
+                  - cell "+22" [ref=e615]
+                  - cell "62" [ref=e616]
+                  - cell [ref=e617]:
+                    - link "w" [ref=e618] [cursor=pointer]:
+                      - /url: /matches/1910856/live/germany-bundesliga-2025-2026-vfb-stuttgart-hamburger-sv
+                    - link "l" [ref=e619] [cursor=pointer]:
+                      - /url: /matches/1910859/live/germany-bundesliga-2025-2026-bayern-munich-vfb-stuttgart
+                    - link "d" [ref=e620] [cursor=pointer]:
+                      - /url: /matches/1910874/live/germany-bundesliga-2025-2026-vfb-stuttgart-werder-bremen
+                    - link "d" [ref=e621] [cursor=pointer]:
+                      - /url: /matches/1910881/live/germany-bundesliga-2025-2026-hoffenheim-vfb-stuttgart
+                    - link "w" [ref=e622] [cursor=pointer]:
+                      - /url: /matches/1910892/live/germany-bundesliga-2025-2026-vfb-stuttgart-bayer-leverkusen
+                    - link "d" [ref=e623] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                - row [ref=e624]:
+                  - cell "5 Hoffenheim" [ref=e625]:
+                    - generic [ref=e626]: "5"
+                    - link "Hoffenheim" [ref=e627] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                  - cell "34" [ref=e628]
+                  - cell "18" [ref=e629]
+                  - cell "7" [ref=e630]
+                  - cell "9" [ref=e631]
+                  - cell "65" [ref=e632]
+                  - cell "52" [ref=e633]
+                  - cell "+13" [ref=e634]
+                  - cell "61" [ref=e635]
+                  - cell [ref=e636]:
+                    - link "d" [ref=e637] [cursor=pointer]:
+                      - /url: /matches/1910849/live/germany-bundesliga-2025-2026-augsburg-hoffenheim
+                    - link "w" [ref=e638] [cursor=pointer]:
+                      - /url: /matches/1910863/live/germany-bundesliga-2025-2026-hoffenheim-borussia-dortmund
+                    - link "w" [ref=e639] [cursor=pointer]:
+                      - /url: /matches/1910870/live/germany-bundesliga-2025-2026-hamburger-sv-hoffenheim
+                    - link "d" [ref=e640] [cursor=pointer]:
+                      - /url: /matches/1910881/live/germany-bundesliga-2025-2026-hoffenheim-vfb-stuttgart
+                    - link "w" [ref=e641] [cursor=pointer]:
+                      - /url: /matches/1910889/live/germany-bundesliga-2025-2026-hoffenheim-werder-bremen
+                    - link "l" [ref=e642] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                - row [ref=e643]:
+                  - cell "6 Bayer Leverkusen" [ref=e644]:
+                    - generic [ref=e645]: "6"
+                    - link "Bayer Leverkusen" [ref=e646] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-bayer-leverkusen
+                  - cell "34" [ref=e647]
+                  - cell "17" [ref=e648]
+                  - cell "8" [ref=e649]
+                  - cell "9" [ref=e650]
+                  - cell "68" [ref=e651]
+                  - cell "47" [ref=e652]
+                  - cell "+21" [ref=e653]
+                  - cell "59" [ref=e654]
+                  - cell [ref=e655]:
+                    - link "w" [ref=e656] [cursor=pointer]:
+                      - /url: /matches/1910850/live/germany-bundesliga-2025-2026-borussia-dortmund-bayer-leverkusen
+                    - link "l" [ref=e657] [cursor=pointer]:
+                      - /url: /matches/1910858/live/germany-bundesliga-2025-2026-bayer-leverkusen-augsburg
+                    - link "w" [ref=e658] [cursor=pointer]:
+                      - /url: /matches/1910869/live/germany-bundesliga-2025-2026-fc-koln-bayer-leverkusen
+                    - link "w" [ref=e659] [cursor=pointer]:
+                      - /url: /matches/1910876/live/germany-bundesliga-2025-2026-bayer-leverkusen-rb-leipzig
+                    - link "l" [ref=e660] [cursor=pointer]:
+                      - /url: /matches/1910892/live/germany-bundesliga-2025-2026-vfb-stuttgart-bayer-leverkusen
+                    - link "d" [ref=e661] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                - row [ref=e662]:
+                  - cell "7 Freiburg" [ref=e663]:
+                    - generic [ref=e664]: "7"
+                    - link "Freiburg" [ref=e665] [cursor=pointer]:
+                      - /url: /teams/50/show/germany-freiburg
+                  - cell "34" [ref=e666]
+                  - cell "13" [ref=e667]
+                  - cell "8" [ref=e668]
+                  - cell "13" [ref=e669]
+                  - cell "51" [ref=e670]
+                  - cell "57" [ref=e671]
+                  - cell "-6" [ref=e672]
+                  - cell "47" [ref=e673]
+                  - cell [ref=e674]:
+                    - link "w" [ref=e675] [cursor=pointer]:
+                      - /url: /matches/1910853/live/germany-bundesliga-2025-2026-mainz-05-freiburg
+                    - link "w" [ref=e676] [cursor=pointer]:
+                      - /url: /matches/1910862/live/germany-bundesliga-2025-2026-freiburg-fc-heidenheim
+                    - link "l" [ref=e677] [cursor=pointer]:
+                      - /url: /matches/1910868/live/germany-bundesliga-2025-2026-borussia-dortmund-freiburg
+                    - link "d" [ref=e678] [cursor=pointer]:
+                      - /url: /matches/1910880/live/germany-bundesliga-2025-2026-freiburg-wolfsburg
+                    - link "l" [ref=e679] [cursor=pointer]:
+                      - /url: /matches/1910888/live/germany-bundesliga-2025-2026-hamburger-sv-freiburg
+                    - link "w" [ref=e680] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                - row [ref=e681]:
+                  - cell "8 Eintracht Frankfurt" [ref=e682]:
+                    - generic [ref=e683]: "8"
+                    - link "Eintracht Frankfurt" [ref=e684] [cursor=pointer]:
+                      - /url: /teams/45/show/germany-eintracht-frankfurt
+                  - cell "34" [ref=e685]
+                  - cell "11" [ref=e686]
+                  - cell "11" [ref=e687]
+                  - cell "12" [ref=e688]
+                  - cell "61" [ref=e689]
+                  - cell "65" [ref=e690]
+                  - cell "-4" [ref=e691]
+                  - cell "44" [ref=e692]
+                  - cell [ref=e693]:
+                    - link "w" [ref=e694] [cursor=pointer]:
+                      - /url: /matches/1910857/live/germany-bundesliga-2025-2026-wolfsburg-eintracht-frankfurt
+                    - link "l" [ref=e695] [cursor=pointer]:
+                      - /url: /matches/1910861/live/germany-bundesliga-2025-2026-eintracht-frankfurt-rb-leipzig
+                    - link "d" [ref=e696] [cursor=pointer]:
+                      - /url: /matches/1910867/live/germany-bundesliga-2025-2026-augsburg-eintracht-frankfurt
+                    - link "l" [ref=e697] [cursor=pointer]:
+                      - /url: /matches/1910879/live/germany-bundesliga-2025-2026-eintracht-frankfurt-hamburger-sv
+                    - link "l" [ref=e698] [cursor=pointer]:
+                      - /url: /matches/1910886/live/germany-bundesliga-2025-2026-borussia-dortmund-eintracht-frankfurt
+                    - link "d" [ref=e699] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                - row [ref=e700]:
+                  - cell "9 Augsburg" [ref=e701]:
+                    - generic [ref=e702]: "9"
+                    - link "Augsburg" [ref=e703] [cursor=pointer]:
+                      - /url: /teams/1730/show/germany-augsburg
+                  - cell "34" [ref=e704]
+                  - cell "12" [ref=e705]
+                  - cell "7" [ref=e706]
+                  - cell "15" [ref=e707]
+                  - cell "45" [ref=e708]
+                  - cell "61" [ref=e709]
+                  - cell "-16" [ref=e710]
+                  - cell "43" [ref=e711]
+                  - cell [ref=e712]:
+                    - link "d" [ref=e713] [cursor=pointer]:
+                      - /url: /matches/1910849/live/germany-bundesliga-2025-2026-augsburg-hoffenheim
+                    - link "w" [ref=e714] [cursor=pointer]:
+                      - /url: /matches/1910858/live/germany-bundesliga-2025-2026-bayer-leverkusen-augsburg
+                    - link "d" [ref=e715] [cursor=pointer]:
+                      - /url: /matches/1910867/live/germany-bundesliga-2025-2026-augsburg-eintracht-frankfurt
+                    - link "w" [ref=e716] [cursor=pointer]:
+                      - /url: /matches/1910884/live/germany-bundesliga-2025-2026-werder-bremen-augsburg
+                    - link "w" [ref=e717] [cursor=pointer]:
+                      - /url: /matches/1910885/live/germany-bundesliga-2025-2026-augsburg-borussia-m-gladbach
+                    - link "l" [ref=e718] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                - row [ref=e719]:
+                  - cell "10 Mainz 05" [ref=e720]:
+                    - generic [ref=e721]: "10"
+                    - link "Mainz 05" [ref=e722] [cursor=pointer]:
+                      - /url: /teams/219/show/germany-mainz-05
+                  - cell "34" [ref=e723]
+                  - cell "10" [ref=e724]
+                  - cell "10" [ref=e725]
+                  - cell "14" [ref=e726]
+                  - cell "44" [ref=e727]
+                  - cell "53" [ref=e728]
+                  - cell "-9" [ref=e729]
+                  - cell "40" [ref=e730]
+                  - cell [ref=e731]:
+                    - link "l" [ref=e732] [cursor=pointer]:
+                      - /url: /matches/1910853/live/germany-bundesliga-2025-2026-mainz-05-freiburg
+                    - link "d" [ref=e733] [cursor=pointer]:
+                      - /url: /matches/1910860/live/germany-bundesliga-2025-2026-borussia-m-gladbach-mainz-05
+                    - link "l" [ref=e734] [cursor=pointer]:
+                      - /url: /matches/1910872/live/germany-bundesliga-2025-2026-mainz-05-bayern-munich
+                    - link "w" [ref=e735] [cursor=pointer]:
+                      - /url: /matches/1910882/live/germany-bundesliga-2025-2026-st-pauli-mainz-05
+                    - link "l" [ref=e736] [cursor=pointer]:
+                      - /url: /matches/1910890/live/germany-bundesliga-2025-2026-mainz-05-union-berlin
+                    - link "w" [ref=e737] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                - row [ref=e738]:
+                  - cell "11 Union Berlin" [ref=e739]:
+                    - generic [ref=e740]: "11"
+                    - link "Union Berlin" [ref=e741] [cursor=pointer]:
+                      - /url: /teams/796/show/germany-union-berlin
+                  - cell "34" [ref=e742]
+                  - cell "10" [ref=e743]
+                  - cell "9" [ref=e744]
+                  - cell "15" [ref=e745]
+                  - cell "44" [ref=e746]
+                  - cell "58" [ref=e747]
+                  - cell "-14" [ref=e748]
+                  - cell "39" [ref=e749]
+                  - cell [ref=e750]:
+                    - link "l" [ref=e751] [cursor=pointer]:
+                      - /url: /matches/1910852/live/germany-bundesliga-2025-2026-fc-heidenheim-union-berlin
+                    - link "l" [ref=e752] [cursor=pointer]:
+                      - /url: /matches/1910865/live/germany-bundesliga-2025-2026-union-berlin-wolfsburg
+                    - link "l" [ref=e753] [cursor=pointer]:
+                      - /url: /matches/1910873/live/germany-bundesliga-2025-2026-rb-leipzig-union-berlin
+                    - link "d" [ref=e754] [cursor=pointer]:
+                      - /url: /matches/1910883/live/germany-bundesliga-2025-2026-union-berlin-fc-koln
+                    - link "w" [ref=e755] [cursor=pointer]:
+                      - /url: /matches/1910890/live/germany-bundesliga-2025-2026-mainz-05-union-berlin
+                    - link "w" [ref=e756] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                - row [ref=e757]:
+                  - cell "12 Borussia M.Gladbach" [ref=e758]:
+                    - generic [ref=e759]: "12"
+                    - link "Borussia M.Gladbach" [ref=e760] [cursor=pointer]:
+                      - /url: /teams/134/show/germany-borussia-m-gladbach
+                  - cell "34" [ref=e761]
+                  - cell "9" [ref=e762]
+                  - cell "11" [ref=e763]
+                  - cell "14" [ref=e764]
+                  - cell "42" [ref=e765]
+                  - cell "53" [ref=e766]
+                  - cell "-11" [ref=e767]
+                  - cell "38" [ref=e768]
+                  - cell [ref=e769]:
+                    - link "l" [ref=e770] [cursor=pointer]:
+                      - /url: /matches/1910854/live/germany-bundesliga-2025-2026-rb-leipzig-borussia-m-gladbach
+                    - link "d" [ref=e771] [cursor=pointer]:
+                      - /url: /matches/1910860/live/germany-bundesliga-2025-2026-borussia-m-gladbach-mainz-05
+                    - link "d" [ref=e772] [cursor=pointer]:
+                      - /url: /matches/1910875/live/germany-bundesliga-2025-2026-wolfsburg-borussia-m-gladbach
+                    - link "w" [ref=e773] [cursor=pointer]:
+                      - /url: /matches/1910878/live/germany-bundesliga-2025-2026-borussia-m-gladbach-borussia-dortmund
+                    - link "l" [ref=e774] [cursor=pointer]:
+                      - /url: /matches/1910885/live/germany-bundesliga-2025-2026-augsburg-borussia-m-gladbach
+                    - link "w" [ref=e775] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                - row [ref=e776]:
+                  - cell "13 Hamburger SV" [ref=e777]:
+                    - generic [ref=e778]: "13"
+                    - link "Hamburger SV" [ref=e779] [cursor=pointer]:
+                      - /url: /teams/38/show/germany-hamburger-sv
+                  - cell "34" [ref=e780]
+                  - cell "9" [ref=e781]
+                  - cell "11" [ref=e782]
+                  - cell "14" [ref=e783]
+                  - cell "40" [ref=e784]
+                  - cell "54" [ref=e785]
+                  - cell "-14" [ref=e786]
+                  - cell "38" [ref=e787]
+                  - cell [ref=e788]:
+                    - link "l" [ref=e789] [cursor=pointer]:
+                      - /url: /matches/1910856/live/germany-bundesliga-2025-2026-vfb-stuttgart-hamburger-sv
+                    - link "l" [ref=e790] [cursor=pointer]:
+                      - /url: /matches/1910866/live/germany-bundesliga-2025-2026-werder-bremen-hamburger-sv
+                    - link "l" [ref=e791] [cursor=pointer]:
+                      - /url: /matches/1910870/live/germany-bundesliga-2025-2026-hamburger-sv-hoffenheim
+                    - link "w" [ref=e792] [cursor=pointer]:
+                      - /url: /matches/1910879/live/germany-bundesliga-2025-2026-eintracht-frankfurt-hamburger-sv
+                    - link "w" [ref=e793] [cursor=pointer]:
+                      - /url: /matches/1910888/live/germany-bundesliga-2025-2026-hamburger-sv-freiburg
+                    - link "d" [ref=e794] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                - row [ref=e795]:
+                  - cell "14 FC Koln" [ref=e796]:
+                    - generic [ref=e797]: "14"
+                    - link "FC Koln" [ref=e798] [cursor=pointer]:
+                      - /url: /teams/282/show/germany-fc-koln
+                  - cell "34" [ref=e799]
+                  - cell "7" [ref=e800]
+                  - cell "11" [ref=e801]
+                  - cell "16" [ref=e802]
+                  - cell "49" [ref=e803]
+                  - cell "63" [ref=e804]
+                  - cell "-14" [ref=e805]
+                  - cell "32" [ref=e806]
+                  - cell [ref=e807]:
+                    - link "w" [ref=e808] [cursor=pointer]:
+                      - /url: /matches/1910851/live/germany-bundesliga-2025-2026-fc-koln-werder-bremen
+                    - link "d" [ref=e809] [cursor=pointer]:
+                      - /url: /matches/1910864/live/germany-bundesliga-2025-2026-st-pauli-fc-koln
+                    - link "l" [ref=e810] [cursor=pointer]:
+                      - /url: /matches/1910869/live/germany-bundesliga-2025-2026-fc-koln-bayer-leverkusen
+                    - link "d" [ref=e811] [cursor=pointer]:
+                      - /url: /matches/1910883/live/germany-bundesliga-2025-2026-union-berlin-fc-koln
+                    - link "l" [ref=e812] [cursor=pointer]:
+                      - /url: /matches/1910887/live/germany-bundesliga-2025-2026-fc-koln-fc-heidenheim
+                    - link "l" [ref=e813] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                - row [ref=e814]:
+                  - cell "15 Werder Bremen" [ref=e815]:
+                    - generic [ref=e816]: "15"
+                    - link "Werder Bremen" [ref=e817] [cursor=pointer]:
+                      - /url: /teams/42/show/germany-werder-bremen
+                  - cell "34" [ref=e818]
+                  - cell "8" [ref=e819]
+                  - cell "8" [ref=e820]
+                  - cell "18" [ref=e821]
+                  - cell "37" [ref=e822]
+                  - cell "60" [ref=e823]
+                  - cell "-23" [ref=e824]
+                  - cell "32" [ref=e825]
+                  - cell [ref=e826]:
+                    - link "l" [ref=e827] [cursor=pointer]:
+                      - /url: /matches/1910851/live/germany-bundesliga-2025-2026-fc-koln-werder-bremen
+                    - link "w" [ref=e828] [cursor=pointer]:
+                      - /url: /matches/1910866/live/germany-bundesliga-2025-2026-werder-bremen-hamburger-sv
+                    - link "d" [ref=e829] [cursor=pointer]:
+                      - /url: /matches/1910874/live/germany-bundesliga-2025-2026-vfb-stuttgart-werder-bremen
+                    - link "l" [ref=e830] [cursor=pointer]:
+                      - /url: /matches/1910884/live/germany-bundesliga-2025-2026-werder-bremen-augsburg
+                    - link "l" [ref=e831] [cursor=pointer]:
+                      - /url: /matches/1910889/live/germany-bundesliga-2025-2026-hoffenheim-werder-bremen
+                    - link "l" [ref=e832] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                - row [ref=e833]:
+                  - cell "16 Wolfsburg" [ref=e834]:
+                    - generic [ref=e835]: "16"
+                    - link "Wolfsburg" [ref=e836] [cursor=pointer]:
+                      - /url: /teams/33/show/germany-wolfsburg
+                  - cell "34" [ref=e837]
+                  - cell "7" [ref=e838]
+                  - cell "8" [ref=e839]
+                  - cell "19" [ref=e840]
+                  - cell "45" [ref=e841]
+                  - cell "69" [ref=e842]
+                  - cell "-24" [ref=e843]
+                  - cell "29" [ref=e844]
+                  - cell [ref=e845]:
+                    - link "l" [ref=e846] [cursor=pointer]:
+                      - /url: /matches/1910857/live/germany-bundesliga-2025-2026-wolfsburg-eintracht-frankfurt
+                    - link "w" [ref=e847] [cursor=pointer]:
+                      - /url: /matches/1910865/live/germany-bundesliga-2025-2026-union-berlin-wolfsburg
+                    - link "d" [ref=e848] [cursor=pointer]:
+                      - /url: /matches/1910875/live/germany-bundesliga-2025-2026-wolfsburg-borussia-m-gladbach
+                    - link "d" [ref=e849] [cursor=pointer]:
+                      - /url: /matches/1910880/live/germany-bundesliga-2025-2026-freiburg-wolfsburg
+                    - link "l" [ref=e850] [cursor=pointer]:
+                      - /url: /matches/1910893/live/germany-bundesliga-2025-2026-wolfsburg-bayern-munich
+                    - link "w" [ref=e851] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+                - row [ref=e852]:
+                  - cell "17 FC Heidenheim" [ref=e853]:
+                    - generic [ref=e854]: "17"
+                    - link "FC Heidenheim" [ref=e855] [cursor=pointer]:
+                      - /url: /teams/4852/show/germany-fc-heidenheim
+                  - cell "34" [ref=e856]
+                  - cell "6" [ref=e857]
+                  - cell "8" [ref=e858]
+                  - cell "20" [ref=e859]
+                  - cell "41" [ref=e860]
+                  - cell "72" [ref=e861]
+                  - cell "-31" [ref=e862]
+                  - cell "26" [ref=e863]
+                  - cell [ref=e864]:
+                    - link "w" [ref=e865] [cursor=pointer]:
+                      - /url: /matches/1910852/live/germany-bundesliga-2025-2026-fc-heidenheim-union-berlin
+                    - link "l" [ref=e866] [cursor=pointer]:
+                      - /url: /matches/1910862/live/germany-bundesliga-2025-2026-freiburg-fc-heidenheim
+                    - link "w" [ref=e867] [cursor=pointer]:
+                      - /url: /matches/1910871/live/germany-bundesliga-2025-2026-fc-heidenheim-st-pauli
+                    - link "d" [ref=e868] [cursor=pointer]:
+                      - /url: /matches/1910877/live/germany-bundesliga-2025-2026-bayern-munich-fc-heidenheim
+                    - link "w" [ref=e869] [cursor=pointer]:
+                      - /url: /matches/1910887/live/germany-bundesliga-2025-2026-fc-koln-fc-heidenheim
+                    - link "l" [ref=e870] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                - row [ref=e871]:
+                  - cell "18 St. Pauli" [ref=e872]:
+                    - generic [ref=e873]: "18"
+                    - link "St. Pauli" [ref=e874] [cursor=pointer]:
+                      - /url: /teams/283/show/germany-st-pauli
+                  - cell "34" [ref=e875]
+                  - cell "6" [ref=e876]
+                  - cell "8" [ref=e877]
+                  - cell "20" [ref=e878]
+                  - cell "29" [ref=e879]
+                  - cell "60" [ref=e880]
+                  - cell "-31" [ref=e881]
+                  - cell "26" [ref=e882]
+                  - cell [ref=e883]:
+                    - link "l" [ref=e884] [cursor=pointer]:
+                      - /url: /matches/1910855/live/germany-bundesliga-2025-2026-st-pauli-bayern-munich
+                    - link "d" [ref=e885] [cursor=pointer]:
+                      - /url: /matches/1910864/live/germany-bundesliga-2025-2026-st-pauli-fc-koln
+                    - link "l" [ref=e886] [cursor=pointer]:
+                      - /url: /matches/1910871/live/germany-bundesliga-2025-2026-fc-heidenheim-st-pauli
+                    - link "l" [ref=e887] [cursor=pointer]:
+                      - /url: /matches/1910882/live/germany-bundesliga-2025-2026-st-pauli-mainz-05
+                    - link "l" [ref=e888] [cursor=pointer]:
+                      - /url: /matches/1910891/live/germany-bundesliga-2025-2026-rb-leipzig-st-pauli
+                    - link "l" [ref=e889] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+            - table
+        - heading [level=2] [ref=e890]:
+          - link "Bundesliga Top Teams" [ref=e891] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/teamstatistics/germany-bundesliga-2025-2026
+        - generic [ref=e895]:
+          - term [ref=e896]: "View:"
+          - definition [ref=e897]:
+            - link "Overall" [ref=e898] [cursor=pointer]:
+              - /url: "#"
+          - definition [ref=e899]:
+            - link "Home" [ref=e900] [cursor=pointer]:
+              - /url: "#"
+          - definition [ref=e901]:
+            - link "Away" [ref=e902] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e904]:
+          - generic:
+            - table [ref=e906]:
+              - rowgroup [ref=e907]:
+                - row [ref=e908]:
+                  - columnheader "Possession" [ref=e909]
+              - rowgroup [ref=e910]:
+                - row [ref=e911]:
+                  - cell [ref=e912]:
+                    - link "Bayern" [ref=e913] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "63%" [ref=e914]
+                - row [ref=e918]:
+                  - cell [ref=e919]:
+                    - link "Leverkusen" [ref=e920] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "57%" [ref=e921]
+                - row [ref=e925]:
+                  - cell [ref=e926]:
+                    - link "Stuttgart" [ref=e927] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "55.9%" [ref=e928]
+                - row [ref=e932]:
+                  - cell [ref=e933]:
+                    - link "Eintracht Frankfurt" [ref=e934] [cursor=pointer]:
+                      - /url: /teams/45/show/germany-eintracht-frankfurt
+                  - cell "53.7%" [ref=e935]
+                - row [ref=e939]:
+                  - cell [ref=e940]:
+                    - link "Hoffenheim" [ref=e941] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                  - cell "53.2%" [ref=e942]
+            - table [ref=e947]:
+              - rowgroup [ref=e948]:
+                - row [ref=e949]:
+                  - columnheader "Aggression" [ref=e950]
+                  - columnheader [ref=e951]
+                  - columnheader [ref=e952]
+              - rowgroup [ref=e953]:
+                - row [ref=e954]:
+                  - cell [ref=e955]:
+                    - link "Hamburg" [ref=e956] [cursor=pointer]:
+                      - /url: /teams/38/show/germany-hamburg
+                  - cell "68" [ref=e957]
+                  - cell "8" [ref=e959]
+                - row [ref=e961]:
+                  - cell [ref=e962]:
+                    - link "Werder Bremen" [ref=e963] [cursor=pointer]:
+                      - /url: /teams/42/show/germany-werder-bremen
+                  - cell "70" [ref=e964]
+                  - cell "5" [ref=e966]
+                - row [ref=e968]:
+                  - cell [ref=e969]:
+                    - link "Augsburg" [ref=e970] [cursor=pointer]:
+                      - /url: /teams/1730/show/germany-augsburg
+                  - cell "80" [ref=e971]
+                  - cell "1" [ref=e973]
+                - row [ref=e975]:
+                  - cell [ref=e976]:
+                    - link "Mainz" [ref=e977] [cursor=pointer]:
+                      - /url: /teams/219/show/germany-mainz
+                  - cell "68" [ref=e978]
+                  - cell "5" [ref=e980]
+                - row [ref=e982]:
+                  - cell [ref=e983]:
+                    - link "Hoffenheim" [ref=e984] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                  - cell "71" [ref=e985]
+                  - cell "3" [ref=e987]
+            - table [ref=e990]:
+              - rowgroup [ref=e991]:
+                - row [ref=e992]:
+                  - columnheader "Aerial Duels Won" [ref=e993]
+              - rowgroup [ref=e994]:
+                - row [ref=e995]:
+                  - cell [ref=e996]:
+                    - link "Stuttgart" [ref=e997] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "54.3%" [ref=e998]
+                - row [ref=e1002]:
+                  - cell [ref=e1003]:
+                    - link "Hoffenheim" [ref=e1004] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                  - cell "53.3%" [ref=e1005]
+                - row [ref=e1009]:
+                  - cell [ref=e1010]:
+                    - link "Leverkusen" [ref=e1011] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "53.2%" [ref=e1012]
+                - row [ref=e1016]:
+                  - cell [ref=e1017]:
+                    - link "Borussia Dortmund" [ref=e1018] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "52.5%" [ref=e1019]
+                - row [ref=e1023]:
+                  - cell [ref=e1024]:
+                    - link "Werder Bremen" [ref=e1025] [cursor=pointer]:
+                      - /url: /teams/42/show/germany-werder-bremen
+                  - cell "52%" [ref=e1026]
+          - generic:
+            - table [ref=e1031]:
+              - rowgroup [ref=e1032]:
+                - row [ref=e1033]:
+                  - columnheader "Shots per Game" [ref=e1034]
+              - rowgroup [ref=e1035]:
+                - row [ref=e1036]:
+                  - cell [ref=e1037]:
+                    - link "Bayern" [ref=e1038] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "19.2" [ref=e1039]
+                - row [ref=e1043]:
+                  - cell [ref=e1044]:
+                    - link "RBL" [ref=e1045] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "15.8" [ref=e1046]
+                - row [ref=e1050]:
+                  - cell [ref=e1051]:
+                    - link "Leverkusen" [ref=e1052] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "15.2" [ref=e1053]
+                - row [ref=e1057]:
+                  - cell [ref=e1058]:
+                    - link "Stuttgart" [ref=e1059] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "15.2" [ref=e1060]
+                - row [ref=e1064]:
+                  - cell [ref=e1065]:
+                    - link "Hoffenheim" [ref=e1066] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                  - cell "14.1" [ref=e1067]
+            - table [ref=e1072]:
+              - rowgroup [ref=e1073]:
+                - row [ref=e1074]:
+                  - columnheader "Pass Accuracy" [ref=e1075]
+              - rowgroup [ref=e1076]:
+                - row [ref=e1077]:
+                  - cell [ref=e1078]:
+                    - link "Bayern" [ref=e1079] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "90.2%" [ref=e1080]
+                - row [ref=e1084]:
+                  - cell [ref=e1085]:
+                    - link "Leverkusen" [ref=e1086] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "88.2%" [ref=e1087]
+                - row [ref=e1091]:
+                  - cell [ref=e1092]:
+                    - link "RBL" [ref=e1093] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "84.7%" [ref=e1094]
+                - row [ref=e1098]:
+                  - cell [ref=e1099]:
+                    - link "Borussia Dortmund" [ref=e1100] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "84.3%" [ref=e1101]
+                - row [ref=e1105]:
+                  - cell [ref=e1106]:
+                    - link "Stuttgart" [ref=e1107] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "84.1%" [ref=e1108]
+            - table [ref=e1113]:
+              - rowgroup [ref=e1114]:
+                - row [ref=e1115]:
+                  - columnheader "Ratings" [ref=e1116]
+              - rowgroup [ref=e1117]:
+                - row [ref=e1118]:
+                  - cell [ref=e1119]:
+                    - link "Bayern" [ref=e1120] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "7" [ref=e1121]
+                - row [ref=e1123]:
+                  - cell [ref=e1124]:
+                    - link "RBL" [ref=e1125] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "6.78" [ref=e1126]
+                - row [ref=e1128]:
+                  - cell [ref=e1129]:
+                    - link "Borussia Dortmund" [ref=e1130] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "6.76" [ref=e1131]
+                - row [ref=e1133]:
+                  - cell [ref=e1134]:
+                    - link "Stuttgart" [ref=e1135] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "6.75" [ref=e1136]
+                - row [ref=e1138]:
+                  - cell [ref=e1139]:
+                    - link "Leverkusen" [ref=e1140] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "6.71" [ref=e1141]
+        - heading [level=2] [ref=e1143]:
+          - link "Bundesliga Top Players" [ref=e1144] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/playerstatistics/germany-bundesliga-2025-2026
+        - generic [ref=e1148]:
+          - term [ref=e1149]: "View:"
+          - definition [ref=e1150]:
+            - link "Overall" [ref=e1151] [cursor=pointer]:
+              - /url: "#"
+          - definition [ref=e1152]:
+            - link "Home" [ref=e1153] [cursor=pointer]:
+              - /url: "#"
+          - definition [ref=e1154]:
+            - link "Away" [ref=e1155] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e1156]:
+          - table [ref=e1157]:
+            - rowgroup [ref=e1158]:
+              - row [ref=e1159]:
+                - columnheader "R" [ref=e1160] [cursor=pointer]
+                - columnheader "Player" [ref=e1161]
+                - columnheader "Team" [ref=e1162]
+                - columnheader "Player Goals/Team Goals" [ref=e1163] [cursor=pointer]
+                - columnheader "Contribution" [ref=e1164] [cursor=pointer]
+            - rowgroup [ref=e1165]:
+              - row [ref=e1166]:
+                - cell "1" [ref=e1167]
+                - cell [ref=e1168]:
+                  - link "H. Kane" [ref=e1169] [cursor=pointer]:
+                    - /url: /players/83532/show/harry-kane
+                - cell [ref=e1170]:
+                  - generic "Bayern" [ref=e1171]:
+                    - link "Bayern" [ref=e1172] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                - cell "36 122" [ref=e1173]:
+                  - generic [ref=e1174]:
+                    - generic [ref=e1175]: "36"
+                    - generic [ref=e1176]: "122"
+                - cell "30%" [ref=e1177]
+              - row [ref=e1178]:
+                - cell "2" [ref=e1179]
+                - cell [ref=e1180]:
+                  - link "D. Undav" [ref=e1181] [cursor=pointer]:
+                    - /url: /players/357091/show/deniz-undav
+                - cell [ref=e1182]:
+                  - generic "Stuttgart" [ref=e1183]:
+                    - link "Stuttgart" [ref=e1184] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                - cell "19 71" [ref=e1185]:
+                  - generic [ref=e1186]:
+                    - generic [ref=e1187]: "19"
+                    - generic [ref=e1188]: "71"
+                - cell "27%" [ref=e1189]
+              - row [ref=e1190]:
+                - cell "3" [ref=e1191]
+                - cell [ref=e1192]:
+                  - link "S. Guirassy" [ref=e1193] [cursor=pointer]:
+                    - /url: /players/236506/show/serhou-guirassy
+                - cell [ref=e1194]:
+                  - generic "Borussia Dortmund" [ref=e1195]:
+                    - link "B. Dortmund" [ref=e1196] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                - cell "17 70" [ref=e1197]:
+                  - generic [ref=e1198]:
+                    - generic [ref=e1199]: "17"
+                    - generic [ref=e1200]: "70"
+                - cell "24%" [ref=e1201]
+              - row [ref=e1202]:
+                - cell "4" [ref=e1203]
+                - cell [ref=e1204]:
+                  - link "P. Schick" [ref=e1205] [cursor=pointer]:
+                    - /url: /players/243565/show/patrik-schick
+                - cell [ref=e1206]:
+                  - generic "Leverkusen" [ref=e1207]:
+                    - link "Leverkusen" [ref=e1208] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                - cell "16 68" [ref=e1209]:
+                  - generic [ref=e1210]:
+                    - generic [ref=e1211]: "16"
+                    - generic [ref=e1212]: "68"
+                - cell "24%" [ref=e1213]
+              - row [ref=e1214]:
+                - cell "5" [ref=e1215]
+                - cell [ref=e1216]:
+                  - link "M. Olise" [ref=e1217] [cursor=pointer]:
+                    - /url: /players/371281/show/michael-olise
+                - cell [ref=e1218]:
+                  - generic "Bayern" [ref=e1219]:
+                    - link "Bayern" [ref=e1220] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                - cell "15 122" [ref=e1221]:
+                  - generic [ref=e1222]:
+                    - generic [ref=e1223]: "15"
+                    - generic [ref=e1224]: "122"
+                - cell "12%" [ref=e1225]
+              - row [ref=e1226]:
+                - cell "6" [ref=e1227]
+                - cell [ref=e1228]:
+                  - link "L. Díaz" [ref=e1229] [cursor=pointer]:
+                    - /url: /players/377168/show/luis-díaz
+                - cell [ref=e1230]:
+                  - generic "Bayern" [ref=e1231]:
+                    - link "Bayern" [ref=e1232] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                - cell "15 122" [ref=e1233]:
+                  - generic [ref=e1234]:
+                    - generic [ref=e1235]: "15"
+                    - generic [ref=e1236]: "122"
+                - cell "12%" [ref=e1237]
+              - row [ref=e1238]:
+                - cell "7" [ref=e1239]
+                - cell [ref=e1240]:
+                  - link "A. Kramaric" [ref=e1241] [cursor=pointer]:
+                    - /url: /players/75217/show/andrej-kramaric
+                - cell [ref=e1242]:
+                  - generic "Hoffenheim" [ref=e1243]:
+                    - link "Hoffenheim" [ref=e1244] [cursor=pointer]:
+                      - /url: /teams/1211/show/germany-hoffenheim
+                - cell "14 65" [ref=e1245]:
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]: "14"
+                    - generic [ref=e1248]: "65"
+                - cell "22%" [ref=e1249]
+              - row [ref=e1250]:
+                - cell "8" [ref=e1251]
+                - cell [ref=e1252]:
+                  - link "J. Burkardt" [ref=e1253] [cursor=pointer]:
+                    - /url: /players/363037/show/jonathan-burkardt
+                - cell [ref=e1254]:
+                  - generic "Eintracht Frankfurt" [ref=e1255]:
+                    - link "E. Frankfurt" [ref=e1256] [cursor=pointer]:
+                      - /url: /teams/45/show/germany-eintracht-frankfurt
+                - cell "13 61" [ref=e1257]:
+                  - generic [ref=e1258]:
+                    - generic [ref=e1259]: "13"
+                    - generic [ref=e1260]: "61"
+                - cell "21%" [ref=e1261]
+              - row [ref=e1262]:
+                - cell "9" [ref=e1263]
+                - cell [ref=e1264]:
+                  - link "H. Tabakovic" [ref=e1265] [cursor=pointer]:
+                    - /url: /players/119642/show/haris-tabakovic
+                - cell [ref=e1266]:
+                  - generic "Borussia M.Gladbach" [ref=e1267]:
+                    - link "B. M.Gladbach" [ref=e1268] [cursor=pointer]:
+                      - /url: /teams/134/show/germany-borussia-m-gladbach
+                - cell "13 42" [ref=e1269]:
+                  - generic [ref=e1270]:
+                    - generic [ref=e1271]: "13"
+                    - generic [ref=e1272]: "42"
+                - cell "31%" [ref=e1273]
+              - row [ref=e1274]:
+                - cell "10" [ref=e1275]
+                - cell [ref=e1276]:
+                  - link "S. E. Mala" [ref=e1277] [cursor=pointer]:
+                    - /url: /players/517371/show/saïd-el-mala
+                - cell [ref=e1278]:
+                  - generic "FC Koln" [ref=e1279]:
+                    - link "F. Koln" [ref=e1280] [cursor=pointer]:
+                      - /url: /teams/282/show/germany-fc-koln
+                - cell "13 49" [ref=e1281]:
+                  - generic [ref=e1282]:
+                    - generic [ref=e1283]: "13"
+                    - generic [ref=e1284]: "49"
+                - cell "27%" [ref=e1285]
+          - generic:
+            - table [ref=e1287]:
+              - rowgroup [ref=e1288]:
+                - row [ref=e1289]:
+                  - columnheader "Aggression" [ref=e1290]
+                  - columnheader [ref=e1291]
+                  - columnheader [ref=e1292]
+                  - columnheader [ref=e1293]
+              - rowgroup [ref=e1294]:
+                - row [ref=e1295]:
+                  - cell [ref=e1296]:
+                    - generic "Dominik Kohr" [ref=e1297]:
+                      - link "D. Kohr" [ref=e1298] [cursor=pointer]:
+                        - /url: /players/110165/show/dominik-kohr
+                  - cell [ref=e1299]:
+                    - link "Mainz" [ref=e1300] [cursor=pointer]:
+                      - /url: /teams/219/show/germany-mainz
+                  - cell "9" [ref=e1301]
+                  - cell "2" [ref=e1303]
+                - row [ref=e1305]:
+                  - cell [ref=e1306]:
+                    - generic "Eric Martel" [ref=e1307]:
+                      - link "E. Martel" [ref=e1308] [cursor=pointer]:
+                        - /url: /players/404336/show/eric-martel
+                  - cell [ref=e1309]:
+                    - link "F. Koln" [ref=e1310] [cursor=pointer]:
+                      - /url: /teams/282/show/germany-fc-koln
+                  - cell "10" [ref=e1311]
+                  - cell "1" [ref=e1313]
+                - row [ref=e1315]:
+                  - cell [ref=e1316]:
+                    - generic "Marco Friedl" [ref=e1317]:
+                      - link "M. Friedl" [ref=e1318] [cursor=pointer]:
+                        - /url: /players/333227/show/marco-friedl
+                  - cell [ref=e1319]:
+                    - link "W. Bremen" [ref=e1320] [cursor=pointer]:
+                      - /url: /teams/42/show/germany-werder-bremen
+                  - cell "9" [ref=e1321]
+                  - cell "1" [ref=e1323]
+                - row [ref=e1325]:
+                  - cell [ref=e1326]:
+                    - generic "Nicolai Remberg" [ref=e1327]:
+                      - link "N. Remberg" [ref=e1328] [cursor=pointer]:
+                        - /url: /players/485118/show/nicolai-remberg
+                  - cell [ref=e1329]:
+                    - link "Hamburg" [ref=e1330] [cursor=pointer]:
+                      - /url: /teams/38/show/germany-hamburg
+                  - cell "11" [ref=e1331]
+                  - cell "0" [ref=e1333]
+                - row [ref=e1335]:
+                  - cell [ref=e1336]:
+                    - generic "Rocco Reitz" [ref=e1337]:
+                      - link "R. Reitz" [ref=e1338] [cursor=pointer]:
+                        - /url: /players/401014/show/rocco-reitz
+                  - cell [ref=e1339]:
+                    - link "B. M.Gladbach" [ref=e1340] [cursor=pointer]:
+                      - /url: /teams/134/show/germany-borussia-m-gladbach
+                  - cell "8" [ref=e1341]
+                  - cell "1" [ref=e1343]
+            - table [ref=e1346]:
+              - rowgroup [ref=e1347]:
+                - row [ref=e1348]:
+                  - columnheader "Shots per Game" [ref=e1349]
+                  - columnheader [ref=e1350]
+                  - columnheader [ref=e1351]
+              - rowgroup [ref=e1352]:
+                - row [ref=e1353]:
+                  - cell [ref=e1354]:
+                    - generic "Deniz Undav" [ref=e1355]:
+                      - link "D. Undav" [ref=e1356] [cursor=pointer]:
+                        - /url: /players/357091/show/deniz-undav
+                  - cell [ref=e1357]:
+                    - link "Stuttgart" [ref=e1358] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "4.2" [ref=e1359]
+                - row [ref=e1363]:
+                  - cell [ref=e1364]:
+                    - generic "Harry Kane" [ref=e1365]:
+                      - link "H. Kane" [ref=e1366] [cursor=pointer]:
+                        - /url: /players/83532/show/harry-kane
+                  - cell [ref=e1367]:
+                    - link "Bayern" [ref=e1368] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "3.8" [ref=e1369]
+                - row [ref=e1373]:
+                  - cell [ref=e1374]:
+                    - generic "Michael Olise" [ref=e1375]:
+                      - link "M. Olise" [ref=e1376] [cursor=pointer]:
+                        - /url: /players/371281/show/michael-olise
+                  - cell [ref=e1377]:
+                    - link "Bayern" [ref=e1378] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "3.2" [ref=e1379]
+                - row [ref=e1383]:
+                  - cell [ref=e1384]:
+                    - generic "Luis Díaz" [ref=e1385]:
+                      - link "L. Díaz" [ref=e1386] [cursor=pointer]:
+                        - /url: /players/377168/show/luis-díaz
+                  - cell [ref=e1387]:
+                    - link "Bayern" [ref=e1388] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "2.8" [ref=e1389]
+                - row [ref=e1393]:
+                  - cell [ref=e1394]:
+                    - generic "Patrik Schick" [ref=e1395]:
+                      - link "P. Schick" [ref=e1396] [cursor=pointer]:
+                        - /url: /players/243565/show/patrik-schick
+                  - cell [ref=e1397]:
+                    - link "Leverkusen" [ref=e1398] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                  - cell "2.6" [ref=e1399]
+            - table [ref=e1404]:
+              - rowgroup [ref=e1405]:
+                - row [ref=e1406]:
+                  - columnheader "Assists" [ref=e1407]
+                  - columnheader [ref=e1408]
+                  - columnheader [ref=e1409]
+              - rowgroup [ref=e1410]:
+                - row [ref=e1411]:
+                  - cell [ref=e1412]:
+                    - generic "Michael Olise" [ref=e1413]:
+                      - link "M. Olise" [ref=e1414] [cursor=pointer]:
+                        - /url: /players/371281/show/michael-olise
+                  - cell [ref=e1415]:
+                    - link "Bayern" [ref=e1416] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "19" [ref=e1417]
+                - row [ref=e1421]:
+                  - cell [ref=e1422]:
+                    - generic "Julian Ryerson" [ref=e1423]:
+                      - link "J. Ryerson" [ref=e1424] [cursor=pointer]:
+                        - /url: /players/320436/show/julian-ryerson
+                  - cell [ref=e1425]:
+                    - link "B. Dortmund" [ref=e1426] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "15" [ref=e1427]
+                - row [ref=e1431]:
+                  - cell [ref=e1432]:
+                    - generic "Luis Díaz" [ref=e1433]:
+                      - link "L. Díaz" [ref=e1434] [cursor=pointer]:
+                        - /url: /players/377168/show/luis-díaz
+                  - cell [ref=e1435]:
+                    - link "Bayern" [ref=e1436] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "14" [ref=e1437]
+                - row [ref=e1441]:
+                  - cell [ref=e1442]:
+                    - generic "Konrad Laimer" [ref=e1443]:
+                      - link "K. Laimer" [ref=e1444] [cursor=pointer]:
+                        - /url: /players/248010/show/konrad-laimer
+                  - cell [ref=e1445]:
+                    - link "Bayern" [ref=e1446] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "9" [ref=e1447]
+                - row [ref=e1451]:
+                  - cell [ref=e1452]:
+                    - generic "Andrej Ilic" [ref=e1453]:
+                      - link "A. Ilic" [ref=e1454] [cursor=pointer]:
+                        - /url: /players/426239/show/andrej-ilic
+                  - cell [ref=e1455]:
+                    - link "U. Berlin" [ref=e1456] [cursor=pointer]:
+                      - /url: /teams/796/show/germany-union-berlin
+                  - cell "9" [ref=e1457]
+            - table [ref=e1462]:
+              - rowgroup [ref=e1463]:
+                - row [ref=e1464]:
+                  - columnheader "Ratings" [ref=e1465]
+                  - columnheader [ref=e1466]
+                  - columnheader "Apps" [ref=e1467]
+                  - columnheader "Rt" [ref=e1468]
+              - rowgroup [ref=e1469]:
+                - row [ref=e1470]:
+                  - cell "*Ordered by appearance weighted ratings" [ref=e1471]
+              - rowgroup [ref=e1472]:
+                - row [ref=e1473]:
+                  - cell [ref=e1474]:
+                    - generic "Harry Kane" [ref=e1475]:
+                      - link "H. Kane" [ref=e1476] [cursor=pointer]:
+                        - /url: /players/83532/show/harry-kane
+                  - cell [ref=e1477]:
+                    - link "Bayern" [ref=e1478] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "25(6)" [ref=e1479]
+                  - cell "8.14" [ref=e1481]
+                - row [ref=e1483]:
+                  - cell [ref=e1484]:
+                    - generic "Michael Olise" [ref=e1485]:
+                      - link "M. Olise" [ref=e1486] [cursor=pointer]:
+                        - /url: /players/371281/show/michael-olise
+                  - cell [ref=e1487]:
+                    - link "Bayern" [ref=e1488] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "23(9)" [ref=e1489]
+                  - cell "7.84" [ref=e1491]
+                - row [ref=e1493]:
+                  - cell [ref=e1494]:
+                    - generic "Yan Diomande" [ref=e1495]:
+                      - link "Y. Diomande" [ref=e1496] [cursor=pointer]:
+                        - /url: /players/557000/show/yan-diomande
+                  - cell [ref=e1497]:
+                    - link "RBL" [ref=e1498] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "28(5)" [ref=e1499]
+                  - cell "7.47" [ref=e1501]
+                - row [ref=e1503]:
+                  - cell [ref=e1504]:
+                    - generic "Luis Díaz" [ref=e1505]:
+                      - link "L. Díaz" [ref=e1506] [cursor=pointer]:
+                        - /url: /players/377168/show/luis-díaz
+                  - cell [ref=e1507]:
+                    - link "Bayern" [ref=e1508] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "27(5)" [ref=e1509]
+                  - cell "7.44" [ref=e1511]
+                - row [ref=e1513]:
+                  - cell [ref=e1514]:
+                    - generic "David Raum" [ref=e1515]:
+                      - link "D. Raum" [ref=e1516] [cursor=pointer]:
+                        - /url: /players/330538/show/david-raum
+                  - cell [ref=e1517]:
+                    - link "RBL" [ref=e1518] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "29(1)" [ref=e1519]
+                  - cell "7.43" [ref=e1521]
+      - generic [ref=e1530]:
+        - generic [ref=e1531]: Match Facts
+        - generic [ref=e1563]:
+          - generic [ref=e1564]:
+            - button "First page" [disabled] [ref=e1565]
+            - button "Previous page" [disabled] [ref=e1570]
+          - generic [ref=e1573]:
+            - button "Next page" [disabled] [ref=e1574]
+            - button "Last page" [disabled] [ref=e1577]
+    - generic [ref=e1582]:
+      - generic [ref=e1583]:
+        - heading "Bundesliga Best XI" [level=2] [ref=e1584]
+        - generic [ref=e1585]:
+          - generic [ref=e1588]:
+            - definition [ref=e1589]:
+              - link "Weekly" [ref=e1590] [cursor=pointer]:
+                - /url: "#overall-formation-weekly-content"
+            - definition [ref=e1591]:
+              - link "Monthly" [ref=e1592] [cursor=pointer]:
+                - /url: "#overall-formation-monthly-content"
+            - definition [ref=e1593]:
+              - link "Seasonal" [ref=e1594] [cursor=pointer]:
+                - /url: "#overall-formation-seasonal-content"
+          - generic [ref=e1595]:
+            - generic [ref=e1596]: 16-05-2026
+            - generic [ref=e1598]:
+              - list [ref=e1599]:
+                - listitem [ref=e1600]:
+                  - img "Mainz 05" [ref=e1602]
+                - listitem [ref=e1603]:
+                  - link "Mainz 05" [ref=e1604] [cursor=pointer]:
+                    - /url: /teams/219/show/germany-mainz-05
+                - 'listitem "Daniel Batz: Rating: 8.5 | Appearances: 1" [ref=e1605]':
+                  - link "D. Batz" [ref=e1606] [cursor=pointer]:
+                    - /url: /players/91023/show/daniel-batz
+                - listitem [ref=e1607]:
+                  - generic [ref=e1608]: "8.5"
+              - list [ref=e1609]:
+                - listitem [ref=e1610]:
+                  - img "Union Berlin" [ref=e1612]
+                - listitem [ref=e1613]:
+                  - link "Union Berlin" [ref=e1614] [cursor=pointer]:
+                    - /url: /teams/796/show/germany-union-berlin
+                - 'listitem "Christopher Trimmel: Rating: 7.5 | Appearances: 1" [ref=e1615]':
+                  - link "C. Trimmel" [ref=e1616] [cursor=pointer]:
+                    - /url: /players/71757/show/christopher-trimmel
+                - listitem [ref=e1617]:
+                  - generic [ref=e1618]: "7.5"
+              - list [ref=e1619]:
+                - listitem [ref=e1620]:
+                  - img "Bayern Munich" [ref=e1622]
+                - listitem [ref=e1623]:
+                  - link "Bayern Munich" [ref=e1624] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - 'listitem "Tom Bischof: Rating: 8.3 | Appearances: 1" [ref=e1625]':
+                  - link "T. Bischof" [ref=e1626] [cursor=pointer]:
+                    - /url: /players/431282/show/tom-bischof
+                - listitem [ref=e1627]:
+                  - generic [ref=e1628]: "8.3"
+              - list [ref=e1629]:
+                - listitem [ref=e1630]:
+                  - img "Union Berlin" [ref=e1632]
+                - listitem [ref=e1633]:
+                  - link "Union Berlin" [ref=e1634] [cursor=pointer]:
+                    - /url: /teams/796/show/germany-union-berlin
+                - 'listitem "András Schäfer: Rating: 8.7 | Appearances: 1" [ref=e1635]':
+                  - link "A. Schäfer" [ref=e1636] [cursor=pointer]:
+                    - /url: /players/369687/show/andrás-schäfer
+                - listitem [ref=e1637]:
+                  - generic [ref=e1638]: "8.7"
+              - list [ref=e1639]:
+                - listitem [ref=e1640]:
+                  - img "Borussia M.Gladbach" [ref=e1642]
+                - listitem [ref=e1643]:
+                  - link "Borussia M.Gladbach" [ref=e1644] [cursor=pointer]:
+                    - /url: /teams/134/show/germany-borussia-m-gladbach
+                - 'listitem "Kevin Diks: Rating: 8.1 | Appearances: 1" [ref=e1645]':
+                  - link "K. Diks" [ref=e1646] [cursor=pointer]:
+                    - /url: /players/232262/show/kevin-diks
+                - listitem [ref=e1647]:
+                  - generic [ref=e1648]: "8.1"
+              - list [ref=e1649]:
+                - listitem [ref=e1650]:
+                  - img "Borussia M.Gladbach" [ref=e1652]
+                - listitem [ref=e1653]:
+                  - link "Borussia M.Gladbach" [ref=e1654] [cursor=pointer]:
+                    - /url: /teams/134/show/germany-borussia-m-gladbach
+                - 'listitem "Nico Elvedi: Rating: 8.6 | Appearances: 1" [ref=e1655]':
+                  - link "N. Elvedi" [ref=e1656] [cursor=pointer]:
+                    - /url: /players/243534/show/nico-elvedi
+                - listitem [ref=e1657]:
+                  - generic [ref=e1658]: "8.6"
+              - list [ref=e1659]:
+                - listitem [ref=e1660]:
+                  - generic [ref=e1661]:
+                    - img "Hamburger SV"
+                - listitem [ref=e1662]:
+                  - link "Hamburger SV" [ref=e1663] [cursor=pointer]:
+                    - /url: /teams/38/show/germany-hamburger-sv
+                - 'listitem "Nicolás Capaldo: Rating: 8.1 | Appearances: 1" [ref=e1664]':
+                  - link "N. Capaldo" [ref=e1665] [cursor=pointer]:
+                    - /url: /players/369480/show/nicolás-capaldo
+                - listitem [ref=e1666]:
+                  - generic [ref=e1667]: "8.1"
+              - list [ref=e1668]:
+                - listitem [ref=e1669]:
+                  - img "Bayern Munich" [ref=e1671]
+                - listitem [ref=e1672]:
+                  - link "Bayern Munich" [ref=e1673] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - 'listitem "Joshua Kimmich: Rating: 8.7 | Appearances: 1" [ref=e1674]':
+                  - link "J. Kimmich" [ref=e1675] [cursor=pointer]:
+                    - /url: /players/283323/show/joshua-kimmich
+                - listitem [ref=e1676]:
+                  - generic [ref=e1677]: "8.7"
+              - list [ref=e1678]:
+                - listitem [ref=e1679]:
+                  - generic [ref=e1680]:
+                    - img "Freiburg"
+                - listitem [ref=e1681]:
+                  - link "Freiburg" [ref=e1682] [cursor=pointer]:
+                    - /url: /teams/50/show/germany-freiburg
+                - 'listitem "Igor Matanovic: Rating: 9.2 | Appearances: 1" [ref=e1683]':
+                  - link "I. Matanovic" [ref=e1684] [cursor=pointer]:
+                    - /url: /players/407222/show/igor-matanovic
+                - listitem [ref=e1685]:
+                  - generic [ref=e1686]: "9.2"
+              - list [ref=e1687]:
+                - listitem [ref=e1688]:
+                  - img "Bayern Munich" [ref=e1690]
+                - listitem [ref=e1691]:
+                  - link "Bayern Munich" [ref=e1692] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - 'listitem "Harry Kane: Rating: 10.0 | Appearances: 1" [ref=e1693]':
+                  - link "H. Kane" [ref=e1694] [cursor=pointer]:
+                    - /url: /players/83532/show/harry-kane
+                - listitem [ref=e1695]:
+                  - generic [ref=e1696]: "10.0"
+              - list [ref=e1697]:
+                - listitem [ref=e1698]:
+                  - generic [ref=e1699]:
+                    - img "Freiburg"
+                - listitem [ref=e1700]:
+                  - link "Freiburg" [ref=e1701] [cursor=pointer]:
+                    - /url: /teams/50/show/germany-freiburg
+                - 'listitem "Derry Scherhant: Rating: 8.1 | Appearances: 1" [ref=e1702]':
+                  - link "D. Scherhant" [ref=e1703] [cursor=pointer]:
+                    - /url: /players/444289/show/derry-scherhant
+                - listitem [ref=e1704]:
+                  - generic [ref=e1705]: "8.1"
+            - generic [ref=e1706]: "* Only the best performing player for each position is displayed"
+            - generic [ref=e1707]: "** Player ratings in weekly Best XIs correct as of midnight (GMT) on the final match of the gameweek"
+      - generic [ref=e1709]:
+        - heading "Did You Know?" [level=2] [ref=e1710]
+        - generic [ref=e1711]:
+          - generic [ref=e1712]: Deniz Undav (VfB Stuttgart) had the most open play or fastbreak attempts in the Bundesliga this season, with 100.
+          - link "Tweet" [ref=e1714] [cursor=pointer]:
+            - /url: https://twitter.com/share
+  - generic [ref=e1719]:
+    - generic [ref=e1720]:
+      - generic [ref=e1721]:
+        - link "About Us" [ref=e1723] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=e1725] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=e1727] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=e1729] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=e1731] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=e1733] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=e1735] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=e1737] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=e1739] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=e1740]:
+        - link "Best Betting Sites & Bookmakers" [ref=e1742] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=e1744] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=e1746] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=e1748] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=e1750] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=e1751]:
+      - link [ref=e1752] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=e1754] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=e1756] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=e1760]
+    - generic [ref=e1761]:
+      - link [ref=e1762] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=e1764] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=e1766]: Copyright © 2026 WhoScored.com
+    - generic [ref=e1768]:
+      - link "Safer Gambling" [ref=e1769] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=e1770]:
+        - link "GamStop" [ref=e1771] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=e1774] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=e1776] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=e1778] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo

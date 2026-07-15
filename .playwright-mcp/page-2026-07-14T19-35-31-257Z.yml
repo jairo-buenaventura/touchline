@@ -1,0 +1,864 @@
+- generic [active] [ref=f323e1]:
+  - generic [ref=f323e5]:
+    - generic [ref=f323e7]:
+      - generic [ref=f323e8]:
+        - link [ref=f323e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=f323e12]
+        - combobox [ref=f323e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=f323e14]:
+        - generic [ref=f323e15]:
+          - button [ref=f323e16] [cursor=pointer]:
+            - img "search" [ref=f323e18]
+          - textbox "Search" [ref=f323e19]
+      - iframe [ref=f323e22]:
+        - generic [ref=f324e2]:
+          - link "Sign In" [ref=f324e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f324e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=f323e24]:
+      - navigation [ref=f323e25]:
+        - link "Live Scores" [ref=f323e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=f323e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=f323e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=f323e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=f323e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=f323e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=f323e38]:
+          - img "ws+_logo" [ref=f323e39]
+          - link "WHOSCORED+" [ref=f323e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=f323e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=f323e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=f323e48]
+    - generic [ref=f323e52]:
+      - button "Top Tournaments" [ref=f323e53] [cursor=pointer]
+      - button "Favourites" [ref=f323e57] [cursor=pointer]
+      - button "All Tournaments" [ref=f323e61] [cursor=pointer]
+  - generic [ref=f323e66]:
+    - generic [ref=f323e67]:
+      - generic [ref=f323e72]:
+        - generic [ref=f323e73]:
+          - generic [ref=f323e74]:
+            - img "teammate-stars-logo" [ref=f323e75]
+            - generic [ref=f323e79]: TEAMMATE
+          - generic [ref=f323e80]:
+            - button "refresh-button" [ref=f323e81] [cursor=pointer]:
+              - img "refresh-chatbot-session" [ref=f323e82]
+            - button "expand-button" [ref=f323e84] [cursor=pointer]:
+              - img "expand-chatbot" [ref=f323e85]
+        - textbox "Ask me anything..." [ref=f323e91]
+        - list "chips-list" [ref=f323e93]:
+          - listitem "chips-list-item" [ref=f323e94] [cursor=pointer]: Outright Winner Odds
+          - listitem "chips-list-item" [ref=f323e95] [cursor=pointer]: In Form Players
+          - listitem "chips-list-item" [ref=f323e96] [cursor=pointer]: Best Value Bets
+      - generic [ref=f323e97]:
+        - generic [ref=f323e98]: Germany
+        - generic [ref=f323e100]: »
+        - combobox [ref=f323e102]:
+          - option "Bundesliga" [selected]
+          - option "German Super Cup"
+          - option "DFB-Pokal"
+          - option "2. Bundesliga"
+          - option "Bundesliga Qualification"
+          - option "Frauen-Bundesliga"
+          - option "2. Bundesliga Qualification"
+          - option "3. Liga"
+          - option "Regionalliga"
+        - generic [ref=f323e103]: »
+        - combobox [ref=f323e105]:
+          - option "2026/2027"
+          - option "2025/2026" [selected]
+          - option "2024/2025"
+          - option "2023/2024"
+          - option "2022/2023"
+          - option "2021/2022"
+          - option "2020/2021"
+          - option "2019/2020"
+          - option "2018/2019"
+          - option "2017/2018"
+          - option "2016/2017"
+          - option "2015/2016"
+          - option "2014/2015"
+          - option "2013/2014"
+          - option "2012/2013"
+          - option "2011/2012"
+          - option "2010/2011"
+          - option "2009/2010"
+          - option "2008/2009"
+          - option "2007/2008"
+          - option "2006/2007"
+          - option "2005/2006"
+          - option "2004/2005"
+          - option "2003/2004"
+          - option "2002/2003"
+          - option "2001/2002"
+          - option "2000/2001"
+          - option "1999/2000"
+      - heading [level=1] [ref=f323e106]:
+        - text: Bundesliga
+        - link "Add to favourites" [ref=f323e108] [cursor=pointer]:
+          - /url: "#popular"
+      - list [ref=f323e111]:
+        - listitem [ref=f323e112]:
+          - link "Summary" [ref=f323e113] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/show/germany-bundesliga-2025-2026
+        - listitem [ref=f323e114]:
+          - link "Fixtures" [ref=f323e115] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/fixtures/germany-bundesliga-2025-2026
+        - listitem [ref=f323e116]:
+          - link "Team Statistics" [ref=f323e117] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/teamstatistics/germany-bundesliga-2025-2026
+        - listitem [ref=f323e118]:
+          - link "Player Statistics" [ref=f323e119] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/playerstatistics/germany-bundesliga-2025-2026
+        - listitem [ref=f323e120]:
+          - link "Referee Statistics" [ref=f323e121] [cursor=pointer]:
+            - /url: /regions/81/tournaments/3/seasons/10720/stages/24478/refereestatistics/germany-bundesliga-2025-2026
+      - generic [ref=f323e122]:
+        - heading "Bundesliga Fixture & Results" [level=2] [ref=f323e124]
+        - generic [ref=f323e126]:
+          - generic [ref=f323e129]:
+            - button [ref=f323e130] [cursor=pointer]:
+              - img "chevron-left" [ref=f323e132]
+            - button "calendar May 2026 ▼" [ref=f323e133] [cursor=pointer]:
+              - img "calendar" [ref=f323e135]
+              - generic [ref=f323e136]: May 2026
+              - generic [ref=f323e137]: ▼
+            - button [ref=f323e138] [cursor=pointer]:
+              - img "chevron-right" [ref=f323e140]
+          - generic [ref=f323e142]:
+            - generic [ref=f323e144] [cursor=pointer]:
+              - img "B3" [ref=f323e147]
+              - img "chevron-down" [ref=f323e152]
+            - generic [ref=f323e153]: Odds
+          - generic [ref=f323e159]:
+            - generic [ref=f323e160]:
+              - generic [ref=f323e161]: Saturday, May 02 2026
+              - generic [ref=f323e164]:
+                - generic [ref=f323e166]:
+                  - generic [ref=f323e167]:
+                    - generic [ref=f323e168]: FT
+                    - button [ref=f323e169] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e173]
+                  - generic [ref=f323e174]:
+                    - link "3 3" [ref=f323e176] [cursor=pointer]:
+                      - /url: /matches/1910877/live/germany-bundesliga-2025-2026-bayern-munich-fc-heidenheim
+                      - generic [ref=f323e177]: "3"
+                      - generic [ref=f323e178]: "3"
+                    - generic [ref=f323e179]:
+                      - link "Bayern Munich" [ref=f323e181] [cursor=pointer]:
+                        - /url: /teams/37/show/germany-bayern-munich
+                      - link "FC Heidenheim" [ref=f323e183] [cursor=pointer]:
+                        - /url: /teams/4852/show/germany-fc-heidenheim
+                  - generic [ref=f323e184]:
+                    - link "comments 11" [ref=f323e185] [cursor=pointer]:
+                      - /url: /matches/1910877/show/germany-bundesliga-2025-2026-bayern-munich-fc-heidenheim/#comments-panel
+                      - img "comments" [ref=f323e187]
+                      - generic [ref=f323e188]: "11"
+                    - link [ref=f323e189] [cursor=pointer]:
+                      - /url: /matches/1910877/live/germany-bundesliga-2025-2026-bayern-munich-fc-heidenheim
+                      - img "stats" [ref=f323e191]
+                - generic [ref=f323e193]:
+                  - generic [ref=f323e194]:
+                    - generic [ref=f323e195]: FT
+                    - button [ref=f323e196] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e200]
+                  - generic [ref=f323e201]:
+                    - link "1 2" [ref=f323e203] [cursor=pointer]:
+                      - /url: /matches/1910879/live/germany-bundesliga-2025-2026-eintracht-frankfurt-hamburger-sv
+                      - generic [ref=f323e204]: "1"
+                      - generic [ref=f323e205]: "2"
+                    - generic [ref=f323e206]:
+                      - generic [ref=f323e207]:
+                        - link "Eintracht Frankfurt" [ref=f323e208] [cursor=pointer]:
+                          - /url: /teams/45/show/germany-eintracht-frankfurt
+                        - generic [ref=f323e209]: "1"
+                      - link "Hamburger SV" [ref=f323e213] [cursor=pointer]:
+                        - /url: /teams/38/show/germany-hamburger-sv
+                  - generic [ref=f323e214]:
+                    - link "comments 2" [ref=f323e215] [cursor=pointer]:
+                      - /url: /matches/1910879/show/germany-bundesliga-2025-2026-eintracht-frankfurt-hamburger-sv/#comments-panel
+                      - img "comments" [ref=f323e217]
+                      - generic [ref=f323e218]: "2"
+                    - link [ref=f323e219] [cursor=pointer]:
+                      - /url: /matches/1910879/live/germany-bundesliga-2025-2026-eintracht-frankfurt-hamburger-sv
+                      - img "stats" [ref=f323e221]
+                - generic [ref=f323e223]:
+                  - generic [ref=f323e224]:
+                    - generic [ref=f323e225]: FT
+                    - button [ref=f323e226] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e230]
+                  - generic [ref=f323e231]:
+                    - link "3 3" [ref=f323e233] [cursor=pointer]:
+                      - /url: /matches/1910881/live/germany-bundesliga-2025-2026-hoffenheim-vfb-stuttgart
+                      - generic [ref=f323e234]: "3"
+                      - generic [ref=f323e235]: "3"
+                    - generic [ref=f323e236]:
+                      - link "Hoffenheim" [ref=f323e238] [cursor=pointer]:
+                        - /url: /teams/1211/show/germany-hoffenheim
+                      - generic [ref=f323e239]:
+                        - link "VfB Stuttgart" [ref=f323e240] [cursor=pointer]:
+                          - /url: /teams/41/show/germany-vfb-stuttgart
+                        - generic [ref=f323e241]: "1"
+                  - generic [ref=f323e244]:
+                    - link "comments 2" [ref=f323e245] [cursor=pointer]:
+                      - /url: /matches/1910881/show/germany-bundesliga-2025-2026-hoffenheim-vfb-stuttgart/#comments-panel
+                      - img "comments" [ref=f323e247]
+                      - generic [ref=f323e248]: "2"
+                    - link [ref=f323e249] [cursor=pointer]:
+                      - /url: /matches/1910881/live/germany-bundesliga-2025-2026-hoffenheim-vfb-stuttgart
+                      - img "stats" [ref=f323e251]
+                - generic [ref=f323e253]:
+                  - generic [ref=f323e254]:
+                    - generic [ref=f323e255]: FT
+                    - button [ref=f323e256] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e260]
+                  - generic [ref=f323e261]:
+                    - link "2 2" [ref=f323e263] [cursor=pointer]:
+                      - /url: /matches/1910883/live/germany-bundesliga-2025-2026-union-berlin-fc-koln
+                      - generic [ref=f323e264]: "2"
+                      - generic [ref=f323e265]: "2"
+                    - generic [ref=f323e266]:
+                      - link "Union Berlin" [ref=f323e268] [cursor=pointer]:
+                        - /url: /teams/796/show/germany-union-berlin
+                      - link "FC Koln" [ref=f323e270] [cursor=pointer]:
+                        - /url: /teams/282/show/germany-fc-koln
+                  - generic [ref=f323e271]:
+                    - link "comments 1" [ref=f323e272] [cursor=pointer]:
+                      - /url: /matches/1910883/show/germany-bundesliga-2025-2026-union-berlin-fc-koln/#comments-panel
+                      - img "comments" [ref=f323e274]
+                      - generic [ref=f323e275]: "1"
+                    - link [ref=f323e276] [cursor=pointer]:
+                      - /url: /matches/1910883/live/germany-bundesliga-2025-2026-union-berlin-fc-koln
+                      - img "stats" [ref=f323e278]
+                - generic [ref=f323e280]:
+                  - generic [ref=f323e281]:
+                    - generic [ref=f323e282]: FT
+                    - button [ref=f323e283] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e287]
+                  - generic [ref=f323e288]:
+                    - link "1 3" [ref=f323e290] [cursor=pointer]:
+                      - /url: /matches/1910884/live/germany-bundesliga-2025-2026-werder-bremen-augsburg
+                      - generic [ref=f323e291]: "1"
+                      - generic [ref=f323e292]: "3"
+                    - generic [ref=f323e293]:
+                      - link "Werder Bremen" [ref=f323e295] [cursor=pointer]:
+                        - /url: /teams/42/show/germany-werder-bremen
+                      - link "Augsburg" [ref=f323e297] [cursor=pointer]:
+                        - /url: /teams/1730/show/germany-augsburg
+                  - generic [ref=f323e298]:
+                    - link "comments 1" [ref=f323e299] [cursor=pointer]:
+                      - /url: /matches/1910884/show/germany-bundesliga-2025-2026-werder-bremen-augsburg/#comments-panel
+                      - img "comments" [ref=f323e301]
+                      - generic [ref=f323e302]: "1"
+                    - link [ref=f323e303] [cursor=pointer]:
+                      - /url: /matches/1910884/live/germany-bundesliga-2025-2026-werder-bremen-augsburg
+                      - img "stats" [ref=f323e305]
+                - generic [ref=f323e307]:
+                  - generic [ref=f323e308]:
+                    - generic [ref=f323e309]: FT
+                    - button [ref=f323e310] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e314]
+                  - generic [ref=f323e315]:
+                    - link "4 1" [ref=f323e317] [cursor=pointer]:
+                      - /url: /matches/1910876/live/germany-bundesliga-2025-2026-bayer-leverkusen-rb-leipzig
+                      - generic [ref=f323e318]: "4"
+                      - generic [ref=f323e319]: "1"
+                    - generic [ref=f323e320]:
+                      - link "Bayer Leverkusen" [ref=f323e322] [cursor=pointer]:
+                        - /url: /teams/36/show/germany-bayer-leverkusen
+                      - link "RB Leipzig" [ref=f323e324] [cursor=pointer]:
+                        - /url: /teams/7614/show/germany-rb-leipzig
+                  - generic [ref=f323e325]:
+                    - link "comments 3" [ref=f323e326] [cursor=pointer]:
+                      - /url: /matches/1910876/show/germany-bundesliga-2025-2026-bayer-leverkusen-rb-leipzig/#comments-panel
+                      - img "comments" [ref=f323e328]
+                      - generic [ref=f323e329]: "3"
+                    - link [ref=f323e330] [cursor=pointer]:
+                      - /url: /matches/1910876/live/germany-bundesliga-2025-2026-bayer-leverkusen-rb-leipzig
+                      - img "stats" [ref=f323e332]
+            - generic [ref=f323e333]:
+              - generic [ref=f323e334]: Sunday, May 03 2026
+              - generic [ref=f323e337]:
+                - generic [ref=f323e339]:
+                  - generic [ref=f323e340]:
+                    - generic [ref=f323e341]: FT
+                    - button [ref=f323e342] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e346]
+                  - generic [ref=f323e347]:
+                    - link "1 2" [ref=f323e349] [cursor=pointer]:
+                      - /url: /matches/1910882/live/germany-bundesliga-2025-2026-st-pauli-mainz-05
+                      - generic [ref=f323e350]: "1"
+                      - generic [ref=f323e351]: "2"
+                    - generic [ref=f323e352]:
+                      - link "St. Pauli" [ref=f323e354] [cursor=pointer]:
+                        - /url: /teams/283/show/germany-st-pauli
+                      - link "Mainz 05" [ref=f323e356] [cursor=pointer]:
+                        - /url: /teams/219/show/germany-mainz-05
+                  - generic [ref=f323e357]:
+                    - link "comments 1" [ref=f323e358] [cursor=pointer]:
+                      - /url: /matches/1910882/show/germany-bundesliga-2025-2026-st-pauli-mainz-05/#comments-panel
+                      - img "comments" [ref=f323e360]
+                      - generic [ref=f323e361]: "1"
+                    - link [ref=f323e362] [cursor=pointer]:
+                      - /url: /matches/1910882/live/germany-bundesliga-2025-2026-st-pauli-mainz-05
+                      - img "stats" [ref=f323e364]
+                - generic [ref=f323e366]:
+                  - generic [ref=f323e367]:
+                    - generic [ref=f323e368]: FT
+                    - button [ref=f323e369] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e373]
+                  - generic [ref=f323e374]:
+                    - link "1 0" [ref=f323e376] [cursor=pointer]:
+                      - /url: /matches/1910878/live/germany-bundesliga-2025-2026-borussia-m-gladbach-borussia-dortmund
+                      - generic [ref=f323e377]: "1"
+                      - generic [ref=f323e378]: "0"
+                    - generic [ref=f323e379]:
+                      - link "Borussia M.Gladbach" [ref=f323e381] [cursor=pointer]:
+                        - /url: /teams/134/show/germany-borussia-m-gladbach
+                      - link "Borussia Dortmund" [ref=f323e383] [cursor=pointer]:
+                        - /url: /teams/44/show/germany-borussia-dortmund
+                  - generic [ref=f323e384]:
+                    - link "comments 6" [ref=f323e385] [cursor=pointer]:
+                      - /url: /matches/1910878/show/germany-bundesliga-2025-2026-borussia-m-gladbach-borussia-dortmund/#comments-panel
+                      - img "comments" [ref=f323e387]
+                      - generic [ref=f323e388]: "6"
+                    - link [ref=f323e389] [cursor=pointer]:
+                      - /url: /matches/1910878/live/germany-bundesliga-2025-2026-borussia-m-gladbach-borussia-dortmund
+                      - img "stats" [ref=f323e391]
+                - generic [ref=f323e393]:
+                  - generic [ref=f323e394]:
+                    - generic [ref=f323e395]: FT
+                    - button [ref=f323e396] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e400]
+                  - generic [ref=f323e401]:
+                    - link "1 1" [ref=f323e403] [cursor=pointer]:
+                      - /url: /matches/1910880/live/germany-bundesliga-2025-2026-freiburg-wolfsburg
+                      - generic [ref=f323e404]: "1"
+                      - generic [ref=f323e405]: "1"
+                    - generic [ref=f323e406]:
+                      - link "Freiburg" [ref=f323e408] [cursor=pointer]:
+                        - /url: /teams/50/show/germany-freiburg
+                      - link "Wolfsburg" [ref=f323e410] [cursor=pointer]:
+                        - /url: /teams/33/show/germany-wolfsburg
+                  - generic [ref=f323e411]:
+                    - link "comments 1" [ref=f323e412] [cursor=pointer]:
+                      - /url: /matches/1910880/show/germany-bundesliga-2025-2026-freiburg-wolfsburg/#comments-panel
+                      - img "comments" [ref=f323e414]
+                      - generic [ref=f323e415]: "1"
+                    - link [ref=f323e416] [cursor=pointer]:
+                      - /url: /matches/1910880/live/germany-bundesliga-2025-2026-freiburg-wolfsburg
+                      - img "stats" [ref=f323e418]
+            - generic [ref=f323e419]:
+              - generic [ref=f323e420]: Friday, May 08 2026
+              - generic [ref=f323e425]:
+                - generic [ref=f323e426]:
+                  - generic [ref=f323e427]: FT
+                  - button [ref=f323e428] [cursor=pointer]:
+                    - img "chevron-down" [ref=f323e432]
+                - generic [ref=f323e433]:
+                  - link "3 2" [ref=f323e435] [cursor=pointer]:
+                    - /url: /matches/1910886/live/germany-bundesliga-2025-2026-borussia-dortmund-eintracht-frankfurt
+                    - generic [ref=f323e436]: "3"
+                    - generic [ref=f323e437]: "2"
+                  - generic [ref=f323e438]:
+                    - link "Borussia Dortmund" [ref=f323e440] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                    - link "Eintracht Frankfurt" [ref=f323e442] [cursor=pointer]:
+                      - /url: /teams/45/show/germany-eintracht-frankfurt
+                - generic [ref=f323e443]:
+                  - link "comments 4" [ref=f323e444] [cursor=pointer]:
+                    - /url: /matches/1910886/show/germany-bundesliga-2025-2026-borussia-dortmund-eintracht-frankfurt/#comments-panel
+                    - img "comments" [ref=f323e446]
+                    - generic [ref=f323e447]: "4"
+                  - link [ref=f323e448] [cursor=pointer]:
+                    - /url: /matches/1910886/live/germany-bundesliga-2025-2026-borussia-dortmund-eintracht-frankfurt
+                    - img "stats" [ref=f323e450]
+            - generic [ref=f323e451]:
+              - generic [ref=f323e452]: Saturday, May 09 2026
+              - generic [ref=f323e455]:
+                - generic [ref=f323e457]:
+                  - generic [ref=f323e458]:
+                    - generic [ref=f323e459]: FT
+                    - button [ref=f323e460] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e464]
+                  - generic [ref=f323e465]:
+                    - link "1 0" [ref=f323e467] [cursor=pointer]:
+                      - /url: /matches/1910889/live/germany-bundesliga-2025-2026-hoffenheim-werder-bremen
+                      - generic [ref=f323e468]: "1"
+                      - generic [ref=f323e469]: "0"
+                    - generic [ref=f323e470]:
+                      - link "Hoffenheim" [ref=f323e472] [cursor=pointer]:
+                        - /url: /teams/1211/show/germany-hoffenheim
+                      - generic [ref=f323e473]:
+                        - link "Werder Bremen" [ref=f323e474] [cursor=pointer]:
+                          - /url: /teams/42/show/germany-werder-bremen
+                        - generic [ref=f323e475]: "1"
+                  - generic [ref=f323e478]:
+                    - link "comments 4" [ref=f323e479] [cursor=pointer]:
+                      - /url: /matches/1910889/show/germany-bundesliga-2025-2026-hoffenheim-werder-bremen/#comments-panel
+                      - img "comments" [ref=f323e481]
+                      - generic [ref=f323e482]: "4"
+                    - link [ref=f323e483] [cursor=pointer]:
+                      - /url: /matches/1910889/live/germany-bundesliga-2025-2026-hoffenheim-werder-bremen
+                      - img "stats" [ref=f323e485]
+                - generic [ref=f323e487]:
+                  - generic [ref=f323e488]:
+                    - generic [ref=f323e489]: FT
+                    - button [ref=f323e490] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e494]
+                  - generic [ref=f323e495]:
+                    - link "3 1" [ref=f323e497] [cursor=pointer]:
+                      - /url: /matches/1910885/live/germany-bundesliga-2025-2026-augsburg-borussia-m-gladbach
+                      - generic [ref=f323e498]: "3"
+                      - generic [ref=f323e499]: "1"
+                    - generic [ref=f323e500]:
+                      - link "Augsburg" [ref=f323e502] [cursor=pointer]:
+                        - /url: /teams/1730/show/germany-augsburg
+                      - link "Borussia M.Gladbach" [ref=f323e504] [cursor=pointer]:
+                        - /url: /teams/134/show/germany-borussia-m-gladbach
+                  - generic [ref=f323e505]:
+                    - link "comments 3" [ref=f323e506] [cursor=pointer]:
+                      - /url: /matches/1910885/show/germany-bundesliga-2025-2026-augsburg-borussia-m-gladbach/#comments-panel
+                      - img "comments" [ref=f323e508]
+                      - generic [ref=f323e509]: "3"
+                    - link [ref=f323e510] [cursor=pointer]:
+                      - /url: /matches/1910885/live/germany-bundesliga-2025-2026-augsburg-borussia-m-gladbach
+                      - img "stats" [ref=f323e512]
+                - generic [ref=f323e514]:
+                  - generic [ref=f323e515]:
+                    - generic [ref=f323e516]: FT
+                    - button [ref=f323e517] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e521]
+                  - generic [ref=f323e522]:
+                    - link "2 1" [ref=f323e524] [cursor=pointer]:
+                      - /url: /matches/1910891/live/germany-bundesliga-2025-2026-rb-leipzig-st-pauli
+                      - generic [ref=f323e525]: "2"
+                      - generic [ref=f323e526]: "1"
+                    - generic [ref=f323e527]:
+                      - link "RB Leipzig" [ref=f323e529] [cursor=pointer]:
+                        - /url: /teams/7614/show/germany-rb-leipzig
+                      - link "St. Pauli" [ref=f323e531] [cursor=pointer]:
+                        - /url: /teams/283/show/germany-st-pauli
+                  - generic [ref=f323e532]:
+                    - link "comments 4" [ref=f323e533] [cursor=pointer]:
+                      - /url: /matches/1910891/show/germany-bundesliga-2025-2026-rb-leipzig-st-pauli/#comments-panel
+                      - img "comments" [ref=f323e535]
+                      - generic [ref=f323e536]: "4"
+                    - link [ref=f323e537] [cursor=pointer]:
+                      - /url: /matches/1910891/live/germany-bundesliga-2025-2026-rb-leipzig-st-pauli
+                      - img "stats" [ref=f323e539]
+                - generic [ref=f323e541]:
+                  - generic [ref=f323e542]:
+                    - generic [ref=f323e543]: FT
+                    - button [ref=f323e544] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e548]
+                  - generic [ref=f323e549]:
+                    - link "3 1" [ref=f323e551] [cursor=pointer]:
+                      - /url: /matches/1910892/live/germany-bundesliga-2025-2026-vfb-stuttgart-bayer-leverkusen
+                      - generic [ref=f323e552]: "3"
+                      - generic [ref=f323e553]: "1"
+                    - generic [ref=f323e554]:
+                      - link "VfB Stuttgart" [ref=f323e556] [cursor=pointer]:
+                        - /url: /teams/41/show/germany-vfb-stuttgart
+                      - link "Bayer Leverkusen" [ref=f323e558] [cursor=pointer]:
+                        - /url: /teams/36/show/germany-bayer-leverkusen
+                  - generic [ref=f323e559]:
+                    - link "comments 1" [ref=f323e560] [cursor=pointer]:
+                      - /url: /matches/1910892/show/germany-bundesliga-2025-2026-vfb-stuttgart-bayer-leverkusen/#comments-panel
+                      - img "comments" [ref=f323e562]
+                      - generic [ref=f323e563]: "1"
+                    - link [ref=f323e564] [cursor=pointer]:
+                      - /url: /matches/1910892/live/germany-bundesliga-2025-2026-vfb-stuttgart-bayer-leverkusen
+                      - img "stats" [ref=f323e566]
+                - generic [ref=f323e568]:
+                  - generic [ref=f323e569]:
+                    - generic [ref=f323e570]: FT
+                    - button [ref=f323e571] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e575]
+                  - generic [ref=f323e576]:
+                    - link "0 1" [ref=f323e578] [cursor=pointer]:
+                      - /url: /matches/1910893/live/germany-bundesliga-2025-2026-wolfsburg-bayern-munich
+                      - generic [ref=f323e579]: "0"
+                      - generic [ref=f323e580]: "1"
+                    - generic [ref=f323e581]:
+                      - link "Wolfsburg" [ref=f323e583] [cursor=pointer]:
+                        - /url: /teams/33/show/germany-wolfsburg
+                      - link "Bayern Munich" [ref=f323e585] [cursor=pointer]:
+                        - /url: /teams/37/show/germany-bayern-munich
+                  - generic [ref=f323e586]:
+                    - link "comments 7" [ref=f323e587] [cursor=pointer]:
+                      - /url: /matches/1910893/show/germany-bundesliga-2025-2026-wolfsburg-bayern-munich/#comments-panel
+                      - img "comments" [ref=f323e589]
+                      - generic [ref=f323e590]: "7"
+                    - link [ref=f323e591] [cursor=pointer]:
+                      - /url: /matches/1910893/live/germany-bundesliga-2025-2026-wolfsburg-bayern-munich
+                      - img "stats" [ref=f323e593]
+            - generic [ref=f323e594]:
+              - generic [ref=f323e595]: Sunday, May 10 2026
+              - generic [ref=f323e598]:
+                - generic [ref=f323e600]:
+                  - generic [ref=f323e601]:
+                    - generic [ref=f323e602]: FT
+                    - button [ref=f323e603] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e607]
+                  - generic [ref=f323e608]:
+                    - link "3 2" [ref=f323e610] [cursor=pointer]:
+                      - /url: /matches/1910888/live/germany-bundesliga-2025-2026-hamburger-sv-freiburg
+                      - generic [ref=f323e611]: "3"
+                      - generic [ref=f323e612]: "2"
+                    - generic [ref=f323e613]:
+                      - link "Hamburger SV" [ref=f323e615] [cursor=pointer]:
+                        - /url: /teams/38/show/germany-hamburger-sv
+                      - link "Freiburg" [ref=f323e617] [cursor=pointer]:
+                        - /url: /teams/50/show/germany-freiburg
+                  - generic [ref=f323e618]:
+                    - link "comments 1" [ref=f323e619] [cursor=pointer]:
+                      - /url: /matches/1910888/show/germany-bundesliga-2025-2026-hamburger-sv-freiburg/#comments-panel
+                      - img "comments" [ref=f323e621]
+                      - generic [ref=f323e622]: "1"
+                    - link [ref=f323e623] [cursor=pointer]:
+                      - /url: /matches/1910888/live/germany-bundesliga-2025-2026-hamburger-sv-freiburg
+                      - img "stats" [ref=f323e625]
+                - generic [ref=f323e627]:
+                  - generic [ref=f323e628]:
+                    - generic [ref=f323e629]: FT
+                    - button [ref=f323e630] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e634]
+                  - generic [ref=f323e635]:
+                    - link "1 3" [ref=f323e637] [cursor=pointer]:
+                      - /url: /matches/1910887/live/germany-bundesliga-2025-2026-fc-koln-fc-heidenheim
+                      - generic [ref=f323e638]: "1"
+                      - generic [ref=f323e639]: "3"
+                    - generic [ref=f323e640]:
+                      - link "FC Koln" [ref=f323e642] [cursor=pointer]:
+                        - /url: /teams/282/show/germany-fc-koln
+                      - link "FC Heidenheim" [ref=f323e644] [cursor=pointer]:
+                        - /url: /teams/4852/show/germany-fc-heidenheim
+                  - generic [ref=f323e645]:
+                    - link "comments 2" [ref=f323e646] [cursor=pointer]:
+                      - /url: /matches/1910887/show/germany-bundesliga-2025-2026-fc-koln-fc-heidenheim/#comments-panel
+                      - img "comments" [ref=f323e648]
+                      - generic [ref=f323e649]: "2"
+                    - link [ref=f323e650] [cursor=pointer]:
+                      - /url: /matches/1910887/live/germany-bundesliga-2025-2026-fc-koln-fc-heidenheim
+                      - img "stats" [ref=f323e652]
+                - generic [ref=f323e654]:
+                  - generic [ref=f323e655]:
+                    - generic [ref=f323e656]: FT
+                    - button [ref=f323e657] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e661]
+                  - generic [ref=f323e662]:
+                    - link "1 3" [ref=f323e664] [cursor=pointer]:
+                      - /url: /matches/1910890/live/germany-bundesliga-2025-2026-mainz-05-union-berlin
+                      - generic [ref=f323e665]: "1"
+                      - generic [ref=f323e666]: "3"
+                    - generic [ref=f323e667]:
+                      - link "Mainz 05" [ref=f323e669] [cursor=pointer]:
+                        - /url: /teams/219/show/germany-mainz-05
+                      - link "Union Berlin" [ref=f323e671] [cursor=pointer]:
+                        - /url: /teams/796/show/germany-union-berlin
+                  - generic [ref=f323e672]:
+                    - link "comments 1" [ref=f323e673] [cursor=pointer]:
+                      - /url: /matches/1910890/show/germany-bundesliga-2025-2026-mainz-05-union-berlin/#comments-panel
+                      - img "comments" [ref=f323e675]
+                      - generic [ref=f323e676]: "1"
+                    - link [ref=f323e677] [cursor=pointer]:
+                      - /url: /matches/1910890/live/germany-bundesliga-2025-2026-mainz-05-union-berlin
+                      - img "stats" [ref=f323e679]
+            - generic [ref=f323e680]:
+              - generic [ref=f323e681]: Saturday, May 16 2026
+              - generic [ref=f323e684]:
+                - generic [ref=f323e686]:
+                  - generic [ref=f323e687]:
+                    - generic [ref=f323e688]: FT
+                    - button [ref=f323e689] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e693]
+                  - generic [ref=f323e694]:
+                    - link "1 1" [ref=f323e696] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                      - generic [ref=f323e697]: "1"
+                      - generic [ref=f323e698]: "1"
+                    - generic [ref=f323e699]:
+                      - link "Bayer Leverkusen" [ref=f323e701] [cursor=pointer]:
+                        - /url: /teams/36/show/germany-bayer-leverkusen
+                      - link "Hamburger SV" [ref=f323e703] [cursor=pointer]:
+                        - /url: /teams/38/show/germany-hamburger-sv
+                  - generic [ref=f323e704]:
+                    - link "comments 8" [ref=f323e705] [cursor=pointer]:
+                      - /url: /matches/1910894/show/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv/#comments-panel
+                      - img "comments" [ref=f323e707]
+                      - generic [ref=f323e708]: "8"
+                    - link [ref=f323e709] [cursor=pointer]:
+                      - /url: /matches/1910894/live/germany-bundesliga-2025-2026-bayer-leverkusen-hamburger-sv
+                      - img "stats" [ref=f323e711]
+                - generic [ref=f323e713]:
+                  - generic [ref=f323e714]:
+                    - generic [ref=f323e715]: FT
+                    - button [ref=f323e716] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e720]
+                  - generic [ref=f323e721]:
+                    - link "5 1" [ref=f323e723] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                      - generic [ref=f323e724]: "5"
+                      - generic [ref=f323e725]: "1"
+                    - generic [ref=f323e726]:
+                      - link "Bayern Munich" [ref=f323e728] [cursor=pointer]:
+                        - /url: /teams/37/show/germany-bayern-munich
+                      - link "FC Koln" [ref=f323e730] [cursor=pointer]:
+                        - /url: /teams/282/show/germany-fc-koln
+                  - generic [ref=f323e731]:
+                    - link "comments 7" [ref=f323e732] [cursor=pointer]:
+                      - /url: /matches/1910895/show/germany-bundesliga-2025-2026-bayern-munich-fc-koln/#comments-panel
+                      - img "comments" [ref=f323e734]
+                      - generic [ref=f323e735]: "7"
+                    - link [ref=f323e736] [cursor=pointer]:
+                      - /url: /matches/1910895/live/germany-bundesliga-2025-2026-bayern-munich-fc-koln
+                      - img "stats" [ref=f323e738]
+                - generic [ref=f323e740]:
+                  - generic [ref=f323e741]:
+                    - generic [ref=f323e742]: FT
+                    - button [ref=f323e743] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e747]
+                  - generic [ref=f323e748]:
+                    - link "4 0" [ref=f323e750] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                      - generic [ref=f323e751]: "4"
+                      - generic [ref=f323e752]: "0"
+                    - generic [ref=f323e753]:
+                      - link "Borussia M.Gladbach" [ref=f323e755] [cursor=pointer]:
+                        - /url: /teams/134/show/germany-borussia-m-gladbach
+                      - generic [ref=f323e756]:
+                        - link "Hoffenheim" [ref=f323e757] [cursor=pointer]:
+                          - /url: /teams/1211/show/germany-hoffenheim
+                        - generic [ref=f323e758]: "1"
+                  - generic [ref=f323e761]:
+                    - link "comments 6" [ref=f323e762] [cursor=pointer]:
+                      - /url: /matches/1910896/show/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim/#comments-panel
+                      - img "comments" [ref=f323e764]
+                      - generic [ref=f323e765]: "6"
+                    - link [ref=f323e766] [cursor=pointer]:
+                      - /url: /matches/1910896/live/germany-bundesliga-2025-2026-borussia-m-gladbach-hoffenheim
+                      - img "stats" [ref=f323e768]
+                - generic [ref=f323e770]:
+                  - generic [ref=f323e771]:
+                    - generic [ref=f323e772]: FT
+                    - button [ref=f323e773] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e777]
+                  - generic [ref=f323e778]:
+                    - link "2 2" [ref=f323e780] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                      - generic [ref=f323e781]: "2"
+                      - generic [ref=f323e782]: "2"
+                    - generic [ref=f323e783]:
+                      - link "Eintracht Frankfurt" [ref=f323e785] [cursor=pointer]:
+                        - /url: /teams/45/show/germany-eintracht-frankfurt
+                      - link "VfB Stuttgart" [ref=f323e787] [cursor=pointer]:
+                        - /url: /teams/41/show/germany-vfb-stuttgart
+                  - generic [ref=f323e788]:
+                    - link "comments 6" [ref=f323e789] [cursor=pointer]:
+                      - /url: /matches/1910897/show/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart/#comments-panel
+                      - img "comments" [ref=f323e791]
+                      - generic [ref=f323e792]: "6"
+                    - link [ref=f323e793] [cursor=pointer]:
+                      - /url: /matches/1910897/live/germany-bundesliga-2025-2026-eintracht-frankfurt-vfb-stuttgart
+                      - img "stats" [ref=f323e795]
+                - generic [ref=f323e797]:
+                  - generic [ref=f323e798]:
+                    - generic [ref=f323e799]: FT
+                    - button [ref=f323e800] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e804]
+                  - generic [ref=f323e805]:
+                    - link "4 1" [ref=f323e807] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                      - generic [ref=f323e808]: "4"
+                      - generic [ref=f323e809]: "1"
+                    - generic [ref=f323e810]:
+                      - link "Freiburg" [ref=f323e812] [cursor=pointer]:
+                        - /url: /teams/50/show/germany-freiburg
+                      - link "RB Leipzig" [ref=f323e814] [cursor=pointer]:
+                        - /url: /teams/7614/show/germany-rb-leipzig
+                  - generic [ref=f323e815]:
+                    - link "comments 6" [ref=f323e816] [cursor=pointer]:
+                      - /url: /matches/1910898/show/germany-bundesliga-2025-2026-freiburg-rb-leipzig/#comments-panel
+                      - img "comments" [ref=f323e818]
+                      - generic [ref=f323e819]: "6"
+                    - link [ref=f323e820] [cursor=pointer]:
+                      - /url: /matches/1910898/live/germany-bundesliga-2025-2026-freiburg-rb-leipzig
+                      - img "stats" [ref=f323e822]
+                - generic [ref=f323e824]:
+                  - generic [ref=f323e825]:
+                    - generic [ref=f323e826]: FT
+                    - button [ref=f323e827] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e831]
+                  - generic [ref=f323e832]:
+                    - link "0 2" [ref=f323e834] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                      - generic [ref=f323e835]: "0"
+                      - generic [ref=f323e836]: "2"
+                    - generic [ref=f323e837]:
+                      - link "FC Heidenheim" [ref=f323e839] [cursor=pointer]:
+                        - /url: /teams/4852/show/germany-fc-heidenheim
+                      - link "Mainz 05" [ref=f323e841] [cursor=pointer]:
+                        - /url: /teams/219/show/germany-mainz-05
+                  - generic [ref=f323e842]:
+                    - link "comments 7" [ref=f323e843] [cursor=pointer]:
+                      - /url: /matches/1910899/show/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05/#comments-panel
+                      - img "comments" [ref=f323e845]
+                      - generic [ref=f323e846]: "7"
+                    - link [ref=f323e847] [cursor=pointer]:
+                      - /url: /matches/1910899/live/germany-bundesliga-2025-2026-fc-heidenheim-mainz-05
+                      - img "stats" [ref=f323e849]
+                - generic [ref=f323e851]:
+                  - generic [ref=f323e852]:
+                    - generic [ref=f323e853]: FT
+                    - button [ref=f323e854] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e858]
+                  - generic [ref=f323e859]:
+                    - link "1 3" [ref=f323e861] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+                      - generic [ref=f323e862]: "1"
+                      - generic [ref=f323e863]: "3"
+                    - generic [ref=f323e864]:
+                      - link "St. Pauli" [ref=f323e866] [cursor=pointer]:
+                        - /url: /teams/283/show/germany-st-pauli
+                      - link "Wolfsburg" [ref=f323e868] [cursor=pointer]:
+                        - /url: /teams/33/show/germany-wolfsburg
+                  - generic [ref=f323e869]:
+                    - link "comments 3" [ref=f323e870] [cursor=pointer]:
+                      - /url: /matches/1910900/show/germany-bundesliga-2025-2026-st-pauli-wolfsburg/#comments-panel
+                      - img "comments" [ref=f323e872]
+                      - generic [ref=f323e873]: "3"
+                    - link [ref=f323e874] [cursor=pointer]:
+                      - /url: /matches/1910900/live/germany-bundesliga-2025-2026-st-pauli-wolfsburg
+                      - img "stats" [ref=f323e876]
+                - generic [ref=f323e878]:
+                  - generic [ref=f323e879]:
+                    - generic [ref=f323e880]: FT
+                    - button [ref=f323e881] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e885]
+                  - generic [ref=f323e886]:
+                    - link "4 0" [ref=f323e888] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                      - generic [ref=f323e889]: "4"
+                      - generic [ref=f323e890]: "0"
+                    - generic [ref=f323e891]:
+                      - link "Union Berlin" [ref=f323e893] [cursor=pointer]:
+                        - /url: /teams/796/show/germany-union-berlin
+                      - link "Augsburg" [ref=f323e895] [cursor=pointer]:
+                        - /url: /teams/1730/show/germany-augsburg
+                  - generic [ref=f323e896]:
+                    - link "comments 3" [ref=f323e897] [cursor=pointer]:
+                      - /url: /matches/1910901/show/germany-bundesliga-2025-2026-union-berlin-augsburg/#comments-panel
+                      - img "comments" [ref=f323e899]
+                      - generic [ref=f323e900]: "3"
+                    - link [ref=f323e901] [cursor=pointer]:
+                      - /url: /matches/1910901/live/germany-bundesliga-2025-2026-union-berlin-augsburg
+                      - img "stats" [ref=f323e903]
+                - generic [ref=f323e905]:
+                  - generic [ref=f323e906]:
+                    - generic [ref=f323e907]: FT
+                    - button [ref=f323e908] [cursor=pointer]:
+                      - img "chevron-down" [ref=f323e912]
+                  - generic [ref=f323e913]:
+                    - link "0 2" [ref=f323e915] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                      - generic [ref=f323e916]: "0"
+                      - generic [ref=f323e917]: "2"
+                    - generic [ref=f323e918]:
+                      - link "Werder Bremen" [ref=f323e920] [cursor=pointer]:
+                        - /url: /teams/42/show/germany-werder-bremen
+                      - link "Borussia Dortmund" [ref=f323e922] [cursor=pointer]:
+                        - /url: /teams/44/show/germany-borussia-dortmund
+                  - generic [ref=f323e923]:
+                    - link "comments 4" [ref=f323e924] [cursor=pointer]:
+                      - /url: /matches/1910902/show/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund/#comments-panel
+                      - img "comments" [ref=f323e926]
+                      - generic [ref=f323e927]: "4"
+                    - link [ref=f323e928] [cursor=pointer]:
+                      - /url: /matches/1910902/live/germany-bundesliga-2025-2026-werder-bremen-borussia-dortmund
+                      - img "stats" [ref=f323e930]
+    - iframe [ref=f323e935]:
+      - generic:
+        - generic:
+          - insertion
+  - generic [ref=f323e944]:
+    - generic [ref=f323e945]:
+      - generic [ref=f323e946]:
+        - link "About Us" [ref=f323e948] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=f323e950] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=f323e952] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=f323e954] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=f323e956] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=f323e958] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=f323e960] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=f323e962] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=f323e964] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=f323e965]:
+        - link "Best Betting Sites & Bookmakers" [ref=f323e967] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=f323e969] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=f323e971] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=f323e973] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=f323e975] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=f323e976]:
+      - link [ref=f323e977] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=f323e979] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=f323e981] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=f323e985]
+    - generic [ref=f323e986]:
+      - link [ref=f323e987] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=f323e989] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=f323e991]: Copyright © 2026 WhoScored.com
+    - generic [ref=f323e993]:
+      - link "Safer Gambling" [ref=f323e994] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=f323e995]:
+        - link "GamStop" [ref=f323e996] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=f323e999] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=f323e1001] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=f323e1003] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo
+  - generic [ref=f323e1006]:
+    - img "Logo"

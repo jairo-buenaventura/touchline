@@ -1,0 +1,1212 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=e12]
+        - combobox [ref=e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]:
+            - img "search" [ref=e18]
+          - textbox "Search" [ref=e19]
+      - iframe [ref=e22]:
+        - generic [ref=f1e2]:
+          - link "Sign In" [ref=f1e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f1e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=e24]:
+      - navigation [ref=e25]:
+        - link "Live Scores" [ref=e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=e38]:
+          - img "ws+_logo" [ref=e39]
+          - link "WHOSCORED+" [ref=e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=e48]
+    - generic [ref=e52]:
+      - button "Top Tournaments" [ref=e53] [cursor=pointer]
+      - button "Favourites" [ref=e57] [cursor=pointer]
+      - button "All Tournaments" [ref=e61] [cursor=pointer]
+  - generic [ref=e65]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img "teammate-stars-logo" [ref=e75]
+              - generic [ref=e79]: TEAMMATE
+            - generic [ref=e80]:
+              - button "refresh-button" [ref=e81] [cursor=pointer]:
+                - img "refresh-chatbot-session" [ref=e82]
+              - button "expand-button" [ref=e84] [cursor=pointer]:
+                - img "expand-chatbot" [ref=e85]
+          - textbox "Ask me anything..." [ref=e91]
+          - list "chips-list" [ref=e93]:
+            - listitem "chips-list-item" [ref=e94] [cursor=pointer]: Best Value Bets
+            - listitem "chips-list-item" [ref=e95] [cursor=pointer]: Top 5 League Form Players
+            - listitem "chips-list-item" [ref=e96] [cursor=pointer]: World Cup Winner Odds
+        - heading [level=2] [ref=e97]:
+          - link "Live Scores Summary" [ref=e98] [cursor=pointer]:
+            - /url: /livescores
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: Yesterday
+              - generic [ref=e108]: Today
+              - generic [ref=e111]: Tomorrow
+            - generic [ref=e114]:
+              - generic [ref=e116] [cursor=pointer]:
+                - img "B3" [ref=e119]
+                - img "chevron-down" [ref=e124]
+              - generic [ref=e125]: Odds
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e136]:
+                - button [ref=e138] [cursor=pointer]:
+                  - img "hollow_star" [ref=e141]
+                - generic [ref=e144]:
+                  - link "International - World Cup Final Stage" [ref=e145] [cursor=pointer]:
+                    - /url: /regions/247/tournaments/36/seasons/10498/stages/23752/show/international-fifa-world-cup-2026
+                  - img "statBars" [ref=e148]
+              - img "chevron-down" [ref=e153]
+            - generic [ref=e154]:
+              - generic [ref=e157]:
+                - generic [ref=e158]: "1"
+                - generic [ref=e159]: X
+                - generic [ref=e160]: "2"
+              - generic [ref=e163]:
+                - generic [ref=e164]: 20:00
+                - generic [ref=e166]:
+                  - link "- -" [ref=e168] [cursor=pointer]:
+                    - /url: /matches/2005991/show/international-fifa-world-cup-2026-england-argentina
+                    - generic [ref=e169]: "-"
+                    - generic [ref=e170]: "-"
+                  - generic [ref=e171]:
+                    - link "England" [ref=e173] [cursor=pointer]:
+                      - /url: /teams/345/show/international-england
+                    - link "Argentina" [ref=e175] [cursor=pointer]:
+                      - /url: /teams/346/show/international-argentina
+                - generic [ref=e177]:
+                  - button "2.70" [ref=e179] [cursor=pointer]
+                  - button "2.88" [ref=e181] [cursor=pointer]
+                  - button "3.00" [ref=e183] [cursor=pointer]
+                - generic [ref=e184]:
+                  - link "comments 31" [ref=e185] [cursor=pointer]:
+                    - /url: /matches/2005991/show/international-fifa-world-cup-2026-england-argentina/#comments-panel
+                    - img "comments" [ref=e187]
+                    - generic [ref=e188]: "31"
+                  - link [ref=e189] [cursor=pointer]:
+                    - /url: /matches/2005991/preview/international-fifa-world-cup-2026-england-argentina
+                    - img "preview" [ref=e191]
+        - heading [level=2] [ref=e192]:
+          - link "News" [ref=e193] [cursor=pointer]:
+            - /url: /editorial
+        - generic [ref=e195]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: /news/aW8K22hcsUGFpEjzKuOCbg/show/20260714-france-vs-spain-confirmed-lineup-1784052050
+            - heading "France vs Spain Confirmed Lineups" [level=2] [ref=e198]
+            - img "France vs Spain Confirmed Lineups" [ref=e199]
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - generic [ref=e202]: "1"
+            - listitem [ref=e203]:
+              - generic [ref=e204]: "2"
+            - listitem [ref=e205]:
+              - generic [ref=e206]: "3"
+            - listitem [ref=e207]:
+              - generic [ref=e208]: "4"
+            - listitem [ref=e209]:
+              - generic [ref=e210]: "5"
+            - listitem [ref=e211]:
+              - generic [ref=e212]: "6"
+            - listitem [ref=e213]:
+              - generic [ref=e214]: "7"
+            - listitem [ref=e215]:
+              - generic [ref=e216]: "8"
+            - listitem [ref=e217]:
+              - generic [ref=e218]: "9"
+            - listitem [ref=e219]:
+              - generic [ref=e220]: "10"
+        - heading [level=2] [ref=e221]:
+          - link "Top Player Statistics" [ref=e222] [cursor=pointer]:
+            - /url: /statistics
+        - generic [ref=e226]:
+          - term [ref=e227]: "View:"
+          - definition [ref=e228]:
+            - link "Overall" [ref=e229] [cursor=pointer]:
+              - /url: "#overall-top-players-overall-content"
+          - definition [ref=e230]:
+            - link "Home" [ref=e231] [cursor=pointer]:
+              - /url: "#overall-top-players-home-content"
+          - definition [ref=e232]:
+            - link "Away" [ref=e233] [cursor=pointer]:
+              - /url: "#overall-top-players-away-content"
+        - generic [ref=e234]:
+          - table [ref=e235]:
+            - rowgroup [ref=e236]:
+              - row [ref=e237]:
+                - columnheader "R" [ref=e238]
+                - columnheader "Player" [ref=e239]
+                - columnheader "Team" [ref=e240]
+                - columnheader "Player Goals/Team Goals" [ref=e241]
+                - columnheader "Contribution" [ref=e242]
+            - rowgroup [ref=e243]:
+              - row [ref=e244]:
+                - cell "1" [ref=e245]
+                - cell [ref=e246]:
+                  - link "H. Kane" [ref=e247] [cursor=pointer]:
+                    - /url: /players/83532/show/harry-kane
+                - cell [ref=e248]:
+                  - generic "Bayern" [ref=e249]:
+                    - link "Bayern" [ref=e250] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                - cell "36 122" [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: "36"
+                    - generic [ref=e254]: "122"
+                - cell "30%" [ref=e255]
+              - row [ref=e256]:
+                - cell "2" [ref=e257]
+                - cell [ref=e258]:
+                  - link "K. Mbappé" [ref=e259] [cursor=pointer]:
+                    - /url: /players/300713/show/kylian-mbappé
+                - cell [ref=e260]:
+                  - generic "R. Madrid" [ref=e261]:
+                    - link "R. Madrid" [ref=e262] [cursor=pointer]:
+                      - /url: /teams/52/show/spain-real-madrid
+                - cell "25 77" [ref=e263]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: "25"
+                    - generic [ref=e266]: "77"
+                - cell "32%" [ref=e267]
+              - row [ref=e268]:
+                - cell "3" [ref=e269]
+                - cell [ref=e270]:
+                  - link "V. Muriqi" [ref=e271] [cursor=pointer]:
+                    - /url: /players/254352/show/vedat-muriqi
+                - cell [ref=e272]:
+                  - generic "Mallorca" [ref=e273]:
+                    - link "Mallorca" [ref=e274] [cursor=pointer]:
+                      - /url: /teams/51/show/spain-mallorca
+                - cell "23 47" [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: "23"
+                    - generic [ref=e278]: "47"
+                - cell "49%" [ref=e279]
+              - row [ref=e280]:
+                - cell "4" [ref=e281]
+                - cell [ref=e282]:
+                  - link "D. Undav" [ref=e283] [cursor=pointer]:
+                    - /url: /players/357091/show/deniz-undav
+                - cell [ref=e284]:
+                  - generic "Stuttgart" [ref=e285]:
+                    - link "Stuttgart" [ref=e286] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                - cell "19 71" [ref=e287]:
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: "19"
+                    - generic [ref=e290]: "71"
+                - cell "27%" [ref=e291]
+              - row [ref=e292]:
+                - cell "5" [ref=e293]
+                - cell [ref=e294]:
+                  - link "A. Budimir" [ref=e295] [cursor=pointer]:
+                    - /url: /players/98126/show/ante-budimir
+                - cell [ref=e296]:
+                  - generic "Osasuna" [ref=e297]:
+                    - link "Osasuna" [ref=e298] [cursor=pointer]:
+                      - /url: /teams/131/show/spain-osasuna
+                - cell "17 44" [ref=e299]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: "17"
+                    - generic [ref=e302]: "44"
+                - cell "39%" [ref=e303]
+              - row [ref=e304]:
+                - cell "6" [ref=e305]
+                - cell [ref=e306]:
+                  - link "S. Guirassy" [ref=e307] [cursor=pointer]:
+                    - /url: /players/236506/show/serhou-guirassy
+                - cell [ref=e308]:
+                  - generic "B. Dortmund" [ref=e309]:
+                    - link "B. Dortmund" [ref=e310] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                - cell "17 70" [ref=e311]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: "17"
+                    - generic [ref=e314]: "70"
+                - cell "24%" [ref=e315]
+              - row [ref=e316]:
+                - cell "7" [ref=e317]
+                - cell [ref=e318]:
+                  - link "F. Torres" [ref=e319] [cursor=pointer]:
+                    - /url: /players/349760/show/ferran-torres
+                - cell [ref=e320]:
+                  - generic "Barcelona" [ref=e321]:
+                    - link "Barcelona" [ref=e322] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                - cell "16 95" [ref=e323]:
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: "16"
+                    - generic [ref=e326]: "95"
+                - cell "17%" [ref=e327]
+              - row [ref=e328]:
+                - cell "8" [ref=e329]
+                - cell [ref=e330]:
+                  - link "V. Júnior" [ref=e331] [cursor=pointer]:
+                    - /url: /players/337782/show/vinícius-júnior
+                - cell [ref=e332]:
+                  - generic "R. Madrid" [ref=e333]:
+                    - link "R. Madrid" [ref=e334] [cursor=pointer]:
+                      - /url: /teams/52/show/spain-real-madrid
+                - cell "16 77" [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: "16"
+                    - generic [ref=e338]: "77"
+                - cell "21%" [ref=e339]
+              - row [ref=e340]:
+                - cell "9" [ref=e341]
+                - cell [ref=e342]:
+                  - link "P. Schick" [ref=e343] [cursor=pointer]:
+                    - /url: /players/243565/show/patrik-schick
+                - cell [ref=e344]:
+                  - generic "Leverkusen" [ref=e345]:
+                    - link "Leverkusen" [ref=e346] [cursor=pointer]:
+                      - /url: /teams/36/show/germany-leverkusen
+                - cell "16 68" [ref=e347]:
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: "16"
+                    - generic [ref=e350]: "68"
+                - cell "24%" [ref=e351]
+              - row [ref=e352]:
+                - cell "10" [ref=e353]
+                - cell [ref=e354]:
+                  - link "L. Yamal" [ref=e355] [cursor=pointer]:
+                    - /url: /players/480249/show/lamine-yamal
+                - cell [ref=e356]:
+                  - generic "Barcelona" [ref=e357]:
+                    - link "Barcelona" [ref=e358] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                - cell "16 95" [ref=e359]:
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: "16"
+                    - generic [ref=e362]: "95"
+                - cell "17%" [ref=e363]
+          - generic [ref=e364]:
+            - table [ref=e366]:
+              - rowgroup [ref=e367]:
+                - row [ref=e368]:
+                  - columnheader "Aggression" [ref=e369]
+                  - columnheader [ref=e370]
+                  - columnheader [ref=e371]
+                  - columnheader [ref=e372]
+              - rowgroup [ref=e373]:
+                - row [ref=e374]:
+                  - cell [ref=e375]:
+                    - link "D. Dakonam" [ref=e377] [cursor=pointer]:
+                      - /url: /players/332990/show/djené-dakonam
+                  - cell [ref=e378]:
+                    - link "Getafe" [ref=e379] [cursor=pointer]:
+                      - /url: /teams/819/show/spain-getafe
+                  - cell "10" [ref=e380]
+                  - cell "2" [ref=e382]
+                - row [ref=e384]:
+                  - cell [ref=e385]:
+                    - link "P. Ciss" [ref=e387] [cursor=pointer]:
+                      - /url: /players/422963/show/pathé-ciss
+                  - cell [ref=e388]:
+                    - link "Rayo Vallecano" [ref=e389] [cursor=pointer]:
+                      - /url: /teams/64/show/spain-rayo-vallecano
+                  - cell "9" [ref=e390]
+                  - cell "2" [ref=e392]
+                - row [ref=e394]:
+                  - cell [ref=e395]:
+                    - link "D. Kohr" [ref=e397] [cursor=pointer]:
+                      - /url: /players/110165/show/dominik-kohr
+                  - cell [ref=e398]:
+                    - link "Mainz" [ref=e399] [cursor=pointer]:
+                      - /url: /teams/219/show/germany-mainz
+                  - cell "9" [ref=e400]
+                  - cell "2" [ref=e402]
+                - row [ref=e404]:
+                  - cell [ref=e405]:
+                    - link "A. Catena" [ref=e407] [cursor=pointer]:
+                      - /url: /players/374638/show/alejandro-catena
+                  - cell [ref=e408]:
+                    - link "Osasuna" [ref=e409] [cursor=pointer]:
+                      - /url: /teams/131/show/spain-osasuna
+                  - cell "11" [ref=e410]
+                  - cell "1" [ref=e412]
+                - row [ref=e414]:
+                  - cell [ref=e415]:
+                    - link "F. Viñas" [ref=e417] [cursor=pointer]:
+                      - /url: /players/484254/show/federico-viñas
+                  - cell [ref=e418]:
+                    - link "Real Oviedo" [ref=e419] [cursor=pointer]:
+                      - /url: /teams/61/show/spain-real-oviedo
+                  - cell "5" [ref=e420]
+                  - cell "3" [ref=e422]
+            - table [ref=e425]:
+              - rowgroup [ref=e426]:
+                - row [ref=e427]:
+                  - columnheader "Shots per Game" [ref=e428]
+                  - columnheader [ref=e429]
+                  - columnheader [ref=e430]
+              - rowgroup [ref=e431]:
+                - row [ref=e432]:
+                  - cell [ref=e433]:
+                    - link "K. Mbappé" [ref=e435] [cursor=pointer]:
+                      - /url: /players/300713/show/kylian-mbappé
+                  - cell [ref=e436]:
+                    - link "Real Madrid" [ref=e437] [cursor=pointer]:
+                      - /url: /teams/52/show/spain-real-madrid
+                  - cell "4.7" [ref=e438]
+                - row [ref=e441]:
+                  - cell [ref=e442]:
+                    - link "D. Undav" [ref=e444] [cursor=pointer]:
+                      - /url: /players/357091/show/deniz-undav
+                  - cell [ref=e445]:
+                    - link "Stuttgart" [ref=e446] [cursor=pointer]:
+                      - /url: /teams/41/show/germany-stuttgart
+                  - cell "4.2" [ref=e447]
+                - row [ref=e450]:
+                  - cell [ref=e451]:
+                    - link "L. Yamal" [ref=e453] [cursor=pointer]:
+                      - /url: /players/480249/show/lamine-yamal
+                  - cell [ref=e454]:
+                    - link "Barcelona" [ref=e455] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                  - cell "4.2" [ref=e456]
+                - row [ref=e459]:
+                  - cell [ref=e460]:
+                    - link "H. Kane" [ref=e462] [cursor=pointer]:
+                      - /url: /players/83532/show/harry-kane
+                  - cell [ref=e463]:
+                    - link "Bayern" [ref=e464] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "3.8" [ref=e465]
+                - row [ref=e468]:
+                  - cell [ref=e469]:
+                    - link "M. Olise" [ref=e471] [cursor=pointer]:
+                      - /url: /players/371281/show/michael-olise
+                  - cell [ref=e472]:
+                    - link "Bayern" [ref=e473] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "3.2" [ref=e474]
+            - table [ref=e478]:
+              - rowgroup [ref=e479]:
+                - row [ref=e480]:
+                  - columnheader "Tackles per Game" [ref=e481]
+                  - columnheader [ref=e482]
+                  - columnheader [ref=e483]
+              - rowgroup [ref=e484]:
+                - row [ref=e485]:
+                  - cell [ref=e486]:
+                    - link "S. Mouriño" [ref=e488] [cursor=pointer]:
+                      - /url: /players/448936/show/santiago-mouriño
+                  - cell [ref=e489]:
+                    - link "Villarreal" [ref=e490] [cursor=pointer]:
+                      - /url: /teams/839/show/spain-villarreal
+                  - cell "3.6" [ref=e491]
+                - row [ref=e494]:
+                  - cell [ref=e495]:
+                    - link "J. Iglesias" [ref=e497] [cursor=pointer]:
+                      - /url: /players/408735/show/juan-iglesias
+                  - cell [ref=e498]:
+                    - link "Getafe" [ref=e499] [cursor=pointer]:
+                      - /url: /teams/819/show/spain-getafe
+                  - cell "3" [ref=e500]
+                - row [ref=e503]:
+                  - cell [ref=e504]:
+                    - link "J. Aramburu" [ref=e506] [cursor=pointer]:
+                      - /url: /players/463961/show/jon-aramburu
+                  - cell [ref=e507]:
+                    - link "Real Sociedad" [ref=e508] [cursor=pointer]:
+                      - /url: /teams/68/show/spain-real-sociedad
+                  - cell "3" [ref=e509]
+                - row [ref=e512]:
+                  - cell [ref=e513]:
+                    - link "G. Suazo" [ref=e515] [cursor=pointer]:
+                      - /url: /players/286080/show/gabriel-suazo
+                  - cell [ref=e516]:
+                    - link "Sevilla" [ref=e517] [cursor=pointer]:
+                      - /url: /teams/67/show/spain-sevilla
+                  - cell "3" [ref=e518]
+                - row [ref=e521]:
+                  - cell [ref=e522]:
+                    - link "P. Navarro" [ref=e524] [cursor=pointer]:
+                      - /url: /players/537235/show/pau-navarro
+                  - cell [ref=e525]:
+                    - link "Villarreal" [ref=e526] [cursor=pointer]:
+                      - /url: /teams/839/show/spain-villarreal
+                  - cell "2.8" [ref=e527]
+            - table [ref=e531]:
+              - rowgroup [ref=e532]:
+                - row [ref=e533]:
+                  - columnheader "Dribbles per Game" [ref=e534]
+                  - columnheader [ref=e535]
+                  - columnheader [ref=e536]
+              - rowgroup [ref=e537]:
+                - row [ref=e538]:
+                  - cell [ref=e539]:
+                    - link "L. Yamal" [ref=e541] [cursor=pointer]:
+                      - /url: /players/480249/show/lamine-yamal
+                  - cell [ref=e542]:
+                    - link "Barcelona" [ref=e543] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                  - cell "4.8" [ref=e544]
+                - row [ref=e547]:
+                  - cell [ref=e548]:
+                    - link "Y. Diomande" [ref=e550] [cursor=pointer]:
+                      - /url: /players/557000/show/yan-diomande
+                  - cell [ref=e551]:
+                    - link "RBL" [ref=e552] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "3.6" [ref=e553]
+                - row [ref=e556]:
+                  - cell [ref=e557]:
+                    - link "A. Ounahi" [ref=e559] [cursor=pointer]:
+                      - /url: /players/392361/show/azzedine-ounahi
+                  - cell [ref=e560]:
+                    - link "Girona" [ref=e561] [cursor=pointer]:
+                      - /url: /teams/2783/show/spain-girona
+                  - cell "2.9" [ref=e562]
+                - row [ref=e565]:
+                  - cell [ref=e566]:
+                    - link "N. Williams" [ref=e568] [cursor=pointer]:
+                      - /url: /players/408449/show/nico-williams
+                  - cell [ref=e569]:
+                    - link "Athletic Club" [ref=e570] [cursor=pointer]:
+                      - /url: /teams/53/show/spain-athletic-club
+                  - cell "2.7" [ref=e571]
+                - row [ref=e574]:
+                  - cell [ref=e575]:
+                    - link "K. Mbappé" [ref=e577] [cursor=pointer]:
+                      - /url: /players/300713/show/kylian-mbappé
+                  - cell [ref=e578]:
+                    - link "Real Madrid" [ref=e579] [cursor=pointer]:
+                      - /url: /teams/52/show/spain-real-madrid
+                  - cell "2.5" [ref=e580]
+            - table [ref=e584]:
+              - rowgroup [ref=e585]:
+                - row [ref=e586]:
+                  - columnheader "Assists" [ref=e587]
+                  - columnheader [ref=e588]
+                  - columnheader [ref=e589]
+              - rowgroup [ref=e590]:
+                - row [ref=e591]:
+                  - cell [ref=e592]:
+                    - link "M. Olise" [ref=e594] [cursor=pointer]:
+                      - /url: /players/371281/show/michael-olise
+                  - cell [ref=e595]:
+                    - link "Bayern" [ref=e596] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "19" [ref=e597]
+                - row [ref=e600]:
+                  - cell [ref=e601]:
+                    - link "J. Ryerson" [ref=e603] [cursor=pointer]:
+                      - /url: /players/320436/show/julian-ryerson
+                  - cell [ref=e604]:
+                    - link "Borussia Dortmund" [ref=e605] [cursor=pointer]:
+                      - /url: /teams/44/show/germany-borussia-dortmund
+                  - cell "15" [ref=e606]
+                - row [ref=e609]:
+                  - cell [ref=e610]:
+                    - link "L. Díaz" [ref=e612] [cursor=pointer]:
+                      - /url: /players/377168/show/luis-díaz
+                  - cell [ref=e613]:
+                    - link "Bayern" [ref=e614] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "14" [ref=e615]
+                - row [ref=e618]:
+                  - cell [ref=e619]:
+                    - link "L. Yamal" [ref=e621] [cursor=pointer]:
+                      - /url: /players/480249/show/lamine-yamal
+                  - cell [ref=e622]:
+                    - link "Barcelona" [ref=e623] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                  - cell "11" [ref=e624]
+                - row [ref=e627]:
+                  - cell [ref=e628]:
+                    - link "L. Milla" [ref=e630] [cursor=pointer]:
+                      - /url: /players/279320/show/luis-milla
+                  - cell [ref=e631]:
+                    - link "Getafe" [ref=e632] [cursor=pointer]:
+                      - /url: /teams/819/show/spain-getafe
+                  - cell "10" [ref=e633]
+            - table [ref=e637]:
+              - rowgroup [ref=e638]:
+                - row [ref=e639]:
+                  - columnheader "Ratings" [ref=e640]
+                  - columnheader [ref=e641]
+                  - columnheader "Apps" [ref=e642]
+                  - columnheader "Rt" [ref=e643]
+              - rowgroup [ref=e644]:
+                - row [ref=e645]:
+                  - cell [ref=e646]:
+                    - link "L. Yamal" [ref=e648] [cursor=pointer]:
+                      - /url: /players/480249/show/lamine-yamal
+                  - cell [ref=e649]:
+                    - link "Barcelona" [ref=e650] [cursor=pointer]:
+                      - /url: /teams/65/show/spain-barcelona
+                  - cell "26(2)" [ref=e651]
+                  - cell "8.23" [ref=e653]
+                - row [ref=e655]:
+                  - cell [ref=e656]:
+                    - link "H. Kane" [ref=e658] [cursor=pointer]:
+                      - /url: /players/83532/show/harry-kane
+                  - cell [ref=e659]:
+                    - link "Bayern" [ref=e660] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "25(6)" [ref=e661]
+                  - cell "8.14" [ref=e663]
+                - row [ref=e665]:
+                  - cell [ref=e666]:
+                    - link "M. Olise" [ref=e668] [cursor=pointer]:
+                      - /url: /players/371281/show/michael-olise
+                  - cell [ref=e669]:
+                    - link "Bayern" [ref=e670] [cursor=pointer]:
+                      - /url: /teams/37/show/germany-bayern
+                  - cell "23(9)" [ref=e671]
+                  - cell "7.84" [ref=e673]
+                - row [ref=e675]:
+                  - cell [ref=e676]:
+                    - link "K. Mbappé" [ref=e678] [cursor=pointer]:
+                      - /url: /players/300713/show/kylian-mbappé
+                  - cell [ref=e679]:
+                    - link "Real Madrid" [ref=e680] [cursor=pointer]:
+                      - /url: /teams/52/show/spain-real-madrid
+                  - cell "29(2)" [ref=e681]
+                  - cell "7.70" [ref=e683]
+                - row [ref=e685]:
+                  - cell [ref=e686]:
+                    - link "Y. Diomande" [ref=e688] [cursor=pointer]:
+                      - /url: /players/557000/show/yan-diomande
+                  - cell [ref=e689]:
+                    - link "RBL" [ref=e690] [cursor=pointer]:
+                      - /url: /teams/7614/show/germany-rbl
+                  - cell "28(5)" [ref=e691]
+                  - cell "7.47" [ref=e693]
+            - generic [ref=e695]: "* Statistics from top 5 leagues only"
+      - generic [ref=e699]:
+        - generic [ref=e704]:
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - generic [ref=e708]:
+                - generic [ref=e709]: England
+                - generic [ref=e710]: v
+                - generic [ref=e711]: Argentina
+              - generic [ref=e712]: mié 15th jul, 14:00
+            - generic [ref=e713]:
+              - img "Home team logo" [ref=e716]
+              - img "Away team logo" [ref=e719]
+          - list [ref=e721]:
+            - listitem [ref=e722]:
+              - generic [ref=e729]:
+                - generic [ref=e730]:
+                  - text: Lionel Messi
+                  - generic [ref=e731]: "- Anytime Goalscorer"
+                - generic [ref=e732]: Hit in 6 of last 7
+            - listitem [ref=e738]:
+              - generic [ref=e745]:
+                - generic [ref=e746]:
+                  - text: Harry Kane Over 0.5
+                  - generic [ref=e747]: "- Shots On Target"
+                - generic [ref=e748]: Hit in 7 of last 7
+            - listitem [ref=e754]:
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - text: Over 1.5
+                  - generic [ref=e763]: "- Total Away Goals"
+                - generic [ref=e764]: Hit in 6 of last 6
+            - listitem [ref=e770]:
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - text: Lionel Messi Over 3.5
+                  - generic [ref=e778]: "- Shots"
+                - generic [ref=e779]: Hit in 3 of last 3
+          - button "B3 logo 15/2" [ref=e786] [cursor=pointer]:
+            - img "B3 logo" [ref=e788]
+            - generic [ref=e789]: 15/2
+        - iframe [ref=e797]:
+          - generic:
+            - generic:
+              - insertion
+        - heading "Top Facts Of The Day Sponsored" [level=3] [ref=e799]:
+          - text: Top Facts Of The Day
+          - generic [ref=e800]: Sponsored
+        - iframe [ref=e808]:
+          - generic [ref=f19e2]:
+            - iframe [ref=f19e5]:
+              
+            - button [ref=f19e12] [cursor=pointer]
+    - generic [ref=e809]:
+      - generic [ref=e810]:
+        - heading [level=2] [ref=e811]:
+          - link "Top Team Statistics" [ref=e812] [cursor=pointer]:
+            - /url: /statistics
+        - generic [ref=e816]:
+          - term [ref=e817]: "View:"
+          - definition [ref=e818]:
+            - link "Overall" [ref=e819] [cursor=pointer]:
+              - /url: "#overall-top-teams-overall-content"
+          - definition [ref=e820]:
+            - link "Home" [ref=e821] [cursor=pointer]:
+              - /url: "#overall-top-teams-home-content"
+          - definition [ref=e822]:
+            - link "Away" [ref=e823] [cursor=pointer]:
+              - /url: "#overall-top-teams-away-content"
+        - generic [ref=e825]:
+          - table [ref=e827]:
+            - rowgroup [ref=e828]:
+              - row [ref=e829]:
+                - columnheader "Possession" [ref=e830]
+                - columnheader [ref=e831]
+            - rowgroup [ref=e832]:
+              - row [ref=e833]:
+                - cell [ref=e834]:
+                  - link "Barcelona" [ref=e835] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "69%" [ref=e836]
+              - row [ref=e839]:
+                - cell [ref=e840]:
+                  - link "Bayern Munich" [ref=e841] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - cell "67.6%" [ref=e842]
+              - row [ref=e845]:
+                - cell [ref=e846]:
+                  - link "Real Madrid" [ref=e847] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "59.4%" [ref=e848]
+              - row [ref=e851]:
+                - cell [ref=e852]:
+                  - link "Bayer Leverkusen" [ref=e853] [cursor=pointer]:
+                    - /url: /teams/36/show/germany-bayer-leverkusen
+                - cell "59.3%" [ref=e854]
+              - row [ref=e857]:
+                - cell [ref=e858]:
+                  - link "Elche" [ref=e859] [cursor=pointer]:
+                    - /url: /teams/833/show/spain-elche
+                - cell "58%" [ref=e860]
+          - table [ref=e864]:
+            - rowgroup [ref=e865]:
+              - row [ref=e866]:
+                - columnheader "Aggression" [ref=e867]
+                - columnheader [ref=e868]
+                - columnheader [ref=e869]
+            - rowgroup [ref=e870]:
+              - row [ref=e871]:
+                - cell [ref=e872]:
+                  - link "Getafe" [ref=e873] [cursor=pointer]:
+                    - /url: /teams/819/show/spain-getafe
+                - cell "103" [ref=e874]
+                - cell "8" [ref=e876]
+              - row [ref=e878]:
+                - cell [ref=e879]:
+                  - link "Rayo Vallecano" [ref=e880] [cursor=pointer]:
+                    - /url: /teams/64/show/spain-rayo-vallecano
+                - cell "98" [ref=e881]
+                - cell "9" [ref=e883]
+              - row [ref=e885]:
+                - cell [ref=e886]:
+                  - link "Sevilla" [ref=e887] [cursor=pointer]:
+                    - /url: /teams/67/show/spain-sevilla
+                - cell "105" [ref=e888]
+                - cell "5" [ref=e890]
+              - row [ref=e892]:
+                - cell [ref=e893]:
+                  - link "Osasuna" [ref=e894] [cursor=pointer]:
+                    - /url: /teams/131/show/spain-osasuna
+                - cell "91" [ref=e895]
+                - cell "7" [ref=e897]
+              - row [ref=e899]:
+                - cell [ref=e900]:
+                  - link "Real Oviedo" [ref=e901] [cursor=pointer]:
+                    - /url: /teams/61/show/spain-real-oviedo
+                - cell "73" [ref=e902]
+                - cell "10" [ref=e904]
+          - table [ref=e907]:
+            - rowgroup [ref=e908]:
+              - row [ref=e909]:
+                - columnheader "Aerial Duels Won" [ref=e910]
+                - columnheader [ref=e911]
+            - rowgroup [ref=e912]:
+              - row [ref=e913]:
+                - cell [ref=e914]:
+                  - link "Barcelona" [ref=e915] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "57.7%" [ref=e916]
+              - row [ref=e919]:
+                - cell [ref=e920]:
+                  - link "Real Madrid" [ref=e921] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "56.9%" [ref=e922]
+              - row [ref=e925]:
+                - cell [ref=e926]:
+                  - link "VfB Stuttgart" [ref=e927] [cursor=pointer]:
+                    - /url: /teams/41/show/germany-vfb-stuttgart
+                - cell "54.3%" [ref=e928]
+              - row [ref=e931]:
+                - cell [ref=e932]:
+                  - link "Atletico Madrid" [ref=e933] [cursor=pointer]:
+                    - /url: /teams/63/show/spain-atletico-madrid
+                - cell "53.8%" [ref=e934]
+              - row [ref=e937]:
+                - cell [ref=e938]:
+                  - link "Hoffenheim" [ref=e939] [cursor=pointer]:
+                    - /url: /teams/1211/show/germany-hoffenheim
+                - cell "53.3%" [ref=e940]
+          - table [ref=e944]:
+            - rowgroup [ref=e945]:
+              - row [ref=e946]:
+                - columnheader "Dribbles per Game" [ref=e947]
+                - columnheader [ref=e948]
+            - rowgroup [ref=e949]:
+              - row [ref=e950]:
+                - cell [ref=e951]:
+                  - link "Barcelona" [ref=e952] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "11.3" [ref=e953]
+              - row [ref=e956]:
+                - cell [ref=e957]:
+                  - link "RB Leipzig" [ref=e958] [cursor=pointer]:
+                    - /url: /teams/7614/show/germany-rb-leipzig
+                - cell "11" [ref=e959]
+              - row [ref=e962]:
+                - cell [ref=e963]:
+                  - link "Real Madrid" [ref=e964] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "10.3" [ref=e965]
+              - row [ref=e968]:
+                - cell [ref=e969]:
+                  - link "Girona" [ref=e970] [cursor=pointer]:
+                    - /url: /teams/2783/show/spain-girona
+                - cell "9.6" [ref=e971]
+              - row [ref=e974]:
+                - cell [ref=e975]:
+                  - link "Bayern Munich" [ref=e976] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - cell "9.5" [ref=e977]
+          - table [ref=e981]:
+            - rowgroup [ref=e982]:
+              - row [ref=e983]:
+                - columnheader "Tackles per Game" [ref=e984]
+                - columnheader [ref=e985]
+            - rowgroup [ref=e986]:
+              - row [ref=e987]:
+                - cell [ref=e988]:
+                  - link "Deportivo Alaves" [ref=e989] [cursor=pointer]:
+                    - /url: /teams/60/show/spain-deportivo-alaves
+                - cell "18.2" [ref=e990]
+              - row [ref=e993]:
+                - cell [ref=e994]:
+                  - link "Sevilla" [ref=e995] [cursor=pointer]:
+                    - /url: /teams/67/show/spain-sevilla
+                - cell "18.1" [ref=e996]
+              - row [ref=e999]:
+                - cell [ref=e1000]:
+                  - link "Rayo Vallecano" [ref=e1001] [cursor=pointer]:
+                    - /url: /teams/64/show/spain-rayo-vallecano
+                - cell "18" [ref=e1002]
+              - row [ref=e1005]:
+                - cell [ref=e1006]:
+                  - link "Getafe" [ref=e1007] [cursor=pointer]:
+                    - /url: /teams/819/show/spain-getafe
+                - cell "18" [ref=e1008]
+              - row [ref=e1011]:
+                - cell [ref=e1012]:
+                  - link "Real Sociedad" [ref=e1013] [cursor=pointer]:
+                    - /url: /teams/68/show/spain-real-sociedad
+                - cell "17.8" [ref=e1014]
+          - table [ref=e1018]:
+            - rowgroup [ref=e1019]:
+              - row [ref=e1020]:
+                - columnheader "Interceptions per Game" [ref=e1021]
+                - columnheader [ref=e1022]
+            - rowgroup [ref=e1023]:
+              - row [ref=e1024]:
+                - cell [ref=e1025]:
+                  - link "Mainz 05" [ref=e1026] [cursor=pointer]:
+                    - /url: /teams/219/show/germany-mainz-05
+                - cell "10.4" [ref=e1027]
+              - row [ref=e1030]:
+                - cell [ref=e1031]:
+                  - link "Borussia M.Gladbach" [ref=e1032] [cursor=pointer]:
+                    - /url: /teams/134/show/germany-borussia-m-gladbach
+                - cell "9.5" [ref=e1033]
+              - row [ref=e1036]:
+                - cell [ref=e1037]:
+                  - link "Werder Bremen" [ref=e1038] [cursor=pointer]:
+                    - /url: /teams/42/show/germany-werder-bremen
+                - cell "9.3" [ref=e1039]
+              - row [ref=e1042]:
+                - cell [ref=e1043]:
+                  - link "Eintracht Frankfurt" [ref=e1044] [cursor=pointer]:
+                    - /url: /teams/45/show/germany-eintracht-frankfurt
+                - cell "9.3" [ref=e1045]
+              - row [ref=e1048]:
+                - cell [ref=e1049]:
+                  - link "St. Pauli" [ref=e1050] [cursor=pointer]:
+                    - /url: /teams/283/show/germany-st-pauli
+                - cell "9.3" [ref=e1051]
+          - table [ref=e1055]:
+            - rowgroup [ref=e1056]:
+              - row [ref=e1057]:
+                - columnheader "Shots per Game" [ref=e1058]
+                - columnheader [ref=e1059]
+            - rowgroup [ref=e1060]:
+              - row [ref=e1061]:
+                - cell [ref=e1062]:
+                  - link "Bayern Munich" [ref=e1063] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - cell "19.2" [ref=e1064]
+              - row [ref=e1067]:
+                - cell [ref=e1068]:
+                  - link "Barcelona" [ref=e1069] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "18.2" [ref=e1070]
+              - row [ref=e1073]:
+                - cell [ref=e1074]:
+                  - link "Real Madrid" [ref=e1075] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "17.5" [ref=e1076]
+              - row [ref=e1079]:
+                - cell [ref=e1080]:
+                  - link "RB Leipzig" [ref=e1081] [cursor=pointer]:
+                    - /url: /teams/7614/show/germany-rb-leipzig
+                - cell "15.8" [ref=e1082]
+              - row [ref=e1085]:
+                - cell [ref=e1086]:
+                  - link "VfB Stuttgart" [ref=e1087] [cursor=pointer]:
+                    - /url: /teams/41/show/germany-vfb-stuttgart
+                - cell "15.2" [ref=e1088]
+          - table [ref=e1092]:
+            - rowgroup [ref=e1093]:
+              - row [ref=e1094]:
+                - columnheader "Pass Accuracy" [ref=e1095]
+                - columnheader [ref=e1096]
+            - rowgroup [ref=e1097]:
+              - row [ref=e1098]:
+                - cell [ref=e1099]:
+                  - link "Bayern Munich" [ref=e1100] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - cell "90.2%" [ref=e1101]
+              - row [ref=e1104]:
+                - cell [ref=e1105]:
+                  - link "Barcelona" [ref=e1106] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "90%" [ref=e1107]
+              - row [ref=e1110]:
+                - cell [ref=e1111]:
+                  - link "Real Madrid" [ref=e1112] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "89.7%" [ref=e1113]
+              - row [ref=e1116]:
+                - cell [ref=e1117]:
+                  - link "Bayer Leverkusen" [ref=e1118] [cursor=pointer]:
+                    - /url: /teams/36/show/germany-bayer-leverkusen
+                - cell "88.2%" [ref=e1119]
+              - row [ref=e1122]:
+                - cell [ref=e1123]:
+                  - link "Celta Vigo" [ref=e1124] [cursor=pointer]:
+                    - /url: /teams/62/show/spain-celta-vigo
+                - cell "86.1%" [ref=e1125]
+          - table [ref=e1129]:
+            - rowgroup [ref=e1130]:
+              - row [ref=e1131]:
+                - columnheader "Ratings" [ref=e1132]
+                - columnheader [ref=e1133]
+            - rowgroup [ref=e1134]:
+              - row [ref=e1135]:
+                - cell [ref=e1136]:
+                  - link "Bayern Munich" [ref=e1137] [cursor=pointer]:
+                    - /url: /teams/37/show/germany-bayern-munich
+                - cell "7.00" [ref=e1138]
+              - row [ref=e1140]:
+                - cell [ref=e1141]:
+                  - link "Barcelona" [ref=e1142] [cursor=pointer]:
+                    - /url: /teams/65/show/spain-barcelona
+                - cell "6.92" [ref=e1143]
+              - row [ref=e1145]:
+                - cell [ref=e1146]:
+                  - link "Real Madrid" [ref=e1147] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - cell "6.82" [ref=e1148]
+              - row [ref=e1150]:
+                - cell [ref=e1151]:
+                  - link "RB Leipzig" [ref=e1152] [cursor=pointer]:
+                    - /url: /teams/7614/show/germany-rb-leipzig
+                - cell "6.78" [ref=e1153]
+              - row [ref=e1155]:
+                - cell [ref=e1156]:
+                  - link "Borussia Dortmund" [ref=e1157] [cursor=pointer]:
+                    - /url: /teams/44/show/germany-borussia-dortmund
+                - cell "6.76" [ref=e1158]
+          - generic [ref=e1160]: "* Statistics from top 5 leagues only"
+        - heading [level=2] [ref=e1164]:
+          - link "Statistical Best XI" [ref=e1165] [cursor=pointer]:
+            - /url: /statistics
+        - generic [ref=e1168]:
+          - generic [ref=e1169]: "Tournaments:"
+          - combobox [ref=e1170]:
+            - option "Top 5 Leagues" [selected]
+            - option "Premier League"
+            - option "Serie A"
+            - option "La Liga"
+            - option "Bundesliga"
+            - option "Ligue 1"
+        - generic [ref=e1171]:
+          - generic [ref=e1174]:
+            - definition [ref=e1175]:
+              - link "Weekly" [ref=e1176] [cursor=pointer]:
+                - /url: "#overall-formation-weekly-content"
+            - definition [ref=e1177]:
+              - link "Monthly" [ref=e1178] [cursor=pointer]:
+                - /url: "#overall-formation-monthly-content"
+            - definition [ref=e1179]:
+              - link "Seasonal" [ref=e1180] [cursor=pointer]:
+                - /url: "#overall-formation-seasonal-content"
+          - generic [ref=e1181]:
+            - generic [ref=e1182]: 03-10-2025 / 05-10-2025
+            - generic [ref=e1184]:
+              - list [ref=e1185]:
+                - listitem [ref=e1186]:
+                  - img "Sassuolo" [ref=e1188]
+                - listitem [ref=e1189]:
+                  - link "Sassuolo" [ref=e1190] [cursor=pointer]:
+                    - /url: /teams/2889/show/italy-sassuolo
+                - 'listitem "Arijanet Muric: Rating: 9.3 | Appearances: 1" [ref=e1191]':
+                  - link "A. Muric" [ref=e1192] [cursor=pointer]:
+                    - /url: /players/362426/show/arijanet-muric
+                - listitem [ref=e1193]:
+                  - generic [ref=e1194]: "9.3"
+              - list [ref=e1195]:
+                - listitem [ref=e1196]:
+                  - generic [ref=e1197]:
+                    - img "Sevilla"
+                - listitem [ref=e1198]:
+                  - link "Sevilla" [ref=e1199] [cursor=pointer]:
+                    - /url: /teams/67/show/spain-sevilla
+                - 'listitem "José Ángel Carmona: Rating: 8.1 | Appearances: 1" [ref=e1200]':
+                  - link "J.Á. Carmona" [ref=e1201] [cursor=pointer]:
+                    - /url: /players/422956/show/josé-ángel-carmona
+                - listitem [ref=e1202]:
+                  - generic [ref=e1203]: "8.1"
+              - list [ref=e1204]:
+                - listitem [ref=e1205]:
+                  - generic [ref=e1206]:
+                    - img "RB Leipzig"
+                - listitem [ref=e1207]:
+                  - link "RB Leipzig" [ref=e1208] [cursor=pointer]:
+                    - /url: /teams/7614/show/germany-rb-leipzig
+                - 'listitem "David Raum: Rating: 8.2 | Appearances: 1" [ref=e1209]':
+                  - link "D. Raum" [ref=e1210] [cursor=pointer]:
+                    - /url: /players/330538/show/david-raum
+                - listitem [ref=e1211]:
+                  - generic [ref=e1212]: "8.2"
+              - list [ref=e1213]:
+                - listitem [ref=e1214]:
+                  - generic [ref=e1215]:
+                    - img "Strasbourg"
+                - listitem [ref=e1216]:
+                  - link "Strasbourg" [ref=e1217] [cursor=pointer]:
+                    - /url: /teams/148/show/france-strasbourg
+                - 'listitem "Martial Godo: Rating: 9.2 | Appearances: 1" [ref=e1218]':
+                  - link "M. Godo" [ref=e1219] [cursor=pointer]:
+                    - /url: /players/454749/show/martial-godo
+                - listitem [ref=e1220]:
+                  - generic [ref=e1221]: "9.2"
+              - list [ref=e1222]:
+                - listitem [ref=e1223]:
+                  - generic [ref=e1224]:
+                    - img "Strasbourg"
+                - listitem [ref=e1225]:
+                  - link "Strasbourg" [ref=e1226] [cursor=pointer]:
+                    - /url: /teams/148/show/france-strasbourg
+                - 'listitem "Guéla Doué: Rating: 8.5 | Appearances: 1" [ref=e1227]':
+                  - link "G. Doué" [ref=e1228] [cursor=pointer]:
+                    - /url: /players/447449/show/guéla-doué
+                - listitem [ref=e1229]:
+                  - generic [ref=e1230]: "8.5"
+              - list [ref=e1231]:
+                - listitem [ref=e1232]:
+                  - generic [ref=e1233]:
+                    - img "VfB Stuttgart"
+                - listitem [ref=e1234]:
+                  - link "VfB Stuttgart" [ref=e1235] [cursor=pointer]:
+                    - /url: /teams/41/show/germany-vfb-stuttgart
+                - 'listitem "Jeff Chabot: Rating: 8.5 | Appearances: 1" [ref=e1236]':
+                  - link "J. Chabot" [ref=e1237] [cursor=pointer]:
+                    - /url: /players/343317/show/jeff-chabot
+                - listitem [ref=e1238]:
+                  - generic [ref=e1239]: "8.5"
+              - list [ref=e1240]:
+                - listitem [ref=e1241]:
+                  - generic [ref=e1242]:
+                    - img "Hamburger SV"
+                - listitem [ref=e1243]:
+                  - link "Hamburger SV" [ref=e1244] [cursor=pointer]:
+                    - /url: /teams/38/show/germany-hamburger-sv
+                - 'listitem "Rayan Philippe: Rating: 8.9 | Appearances: 1" [ref=e1245]':
+                  - link "R. Philippe" [ref=e1246] [cursor=pointer]:
+                    - /url: /players/380644/show/rayan-philippe
+                - listitem [ref=e1247]:
+                  - generic [ref=e1248]: "8.9"
+              - list [ref=e1249]:
+                - listitem [ref=e1250]:
+                  - generic [ref=e1251]:
+                    - img "Marseille"
+                - listitem [ref=e1252]:
+                  - link "Marseille" [ref=e1253] [cursor=pointer]:
+                    - /url: /teams/249/show/france-marseille
+                - 'listitem "Matt O''Riley: Rating: 8.7 | Appearances: 1" [ref=e1254]':
+                  - link "M. O'Riley" [ref=e1255] [cursor=pointer]:
+                    - /url: /players/342889/show/matt-o-riley
+                - listitem [ref=e1256]:
+                  - generic [ref=e1257]: "8.7"
+              - list [ref=e1258]:
+                - listitem [ref=e1259]:
+                  - generic [ref=e1260]:
+                    - img "Inter"
+                - listitem [ref=e1261]:
+                  - link "Inter" [ref=e1262] [cursor=pointer]:
+                    - /url: /teams/75/show/italy-inter
+                - 'listitem "Ange-Yoan Bonny: Rating: 9.3 | Appearances: 1" [ref=e1263]':
+                  - link "A-Y. Bonny" [ref=e1264] [cursor=pointer]:
+                    - /url: /players/447489/show/ange-yoan-bonny
+                - listitem [ref=e1265]:
+                  - generic [ref=e1266]: "9.3"
+              - list [ref=e1267]:
+                - listitem [ref=e1268]:
+                  - generic [ref=e1269]:
+                    - img "Strasbourg"
+                - listitem [ref=e1270]:
+                  - link "Strasbourg" [ref=e1271] [cursor=pointer]:
+                    - /url: /teams/148/show/france-strasbourg
+                - 'listitem "Joaquín Panichelli: Rating: 9.3 | Appearances: 1" [ref=e1272]':
+                  - link "J. Panichelli" [ref=e1273] [cursor=pointer]:
+                    - /url: /players/458728/show/joaquín-panichelli
+                - listitem [ref=e1274]:
+                  - generic [ref=e1275]: "9.3"
+              - list [ref=e1276]:
+                - listitem [ref=e1277]:
+                  - generic [ref=e1278]:
+                    - img "Real Madrid"
+                - listitem [ref=e1279]:
+                  - link "Real Madrid" [ref=e1280] [cursor=pointer]:
+                    - /url: /teams/52/show/spain-real-madrid
+                - 'listitem "Vinícius Júnior: Rating: 10.0 | Appearances: 1" [ref=e1281]':
+                  - link "V. Júnior" [ref=e1282] [cursor=pointer]:
+                    - /url: /players/337782/show/vinícius-júnior
+                - listitem [ref=e1283]:
+                  - generic [ref=e1284]: "10.0"
+            - generic [ref=e1285]: "* Only the best performing player for each position is displayed"
+            - generic [ref=e1286]: "** Player ratings in weekly Best XIs correct as of midnight (GMT) on the final match of the gameweek"
+      - generic [ref=e1287]:
+        - generic [ref=e1288]:
+          - heading "Did You Know?" [level=2] [ref=e1289]
+          - generic [ref=e1290]:
+            - generic [ref=e1291]: Juan Pablo Freytes (Fluminense) has made the most accurate passes in Brasileirão this season, with 968.
+            - link "Tweet" [ref=e1293] [cursor=pointer]:
+              - /url: https://twitter.com/share
+        - iframe [ref=e1298]:
+          - iframe [ref=f43e2]:
+            - iframe [ref=f45e2]:
+              - link [ref=f49e6] [cursor=pointer]:
+                - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=510935801;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.10597164;redirecturl2=http://www.quantcast.com/adchoices
+  - generic [ref=e1303]:
+    - generic [ref=e1304]:
+      - generic [ref=e1305]:
+        - link "About Us" [ref=e1307] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=e1309] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=e1311] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=e1313] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=e1315] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=e1317] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=e1319] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=e1321] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=e1323] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=e1324]:
+        - link "Best Betting Sites & Bookmakers" [ref=e1326] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=e1328] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=e1330] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=e1332] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=e1334] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=e1335]:
+      - link [ref=e1336] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=e1338] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=e1340] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=e1344]
+    - generic [ref=e1345]:
+      - link [ref=e1346] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=e1348] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=e1350]: Copyright © 2026 WhoScored.com
+    - generic [ref=e1352]:
+      - link "Safer Gambling" [ref=e1353] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=e1354]:
+        - link "GamStop" [ref=e1355] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=e1358] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=e1360] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=e1362] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo
+  - iframe [ref=e1371]:
+    - iframe [ref=f27e2]:
+      - generic [ref=f30e3]:
+        - iframe [ref=f30e5]:
+          - generic [ref=f38e3]:
+            - link [ref=f38e6] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjss-8VYdxYJ5S-er9Qd5jWSGbTolV-eQf37lFJ3M2oMMsKontwhsDkW6i59E99KeYs30Y7vFzSc2QI999-QGAixA2F-8y2g3c9zhFiDocFgYTkG3lCxY2D2tyt5Sju2Duq8q38_Y4S0hoVj4MLsErwBbUSDupIvgEwFxIYONrlQAya8uJdWV1p8NyqrI-S3uq5M_OPTsFtyRLFVfkY36Gz45jCNCU7MgX50K8LZvzt1mIeWUGL2xaB1Nv6Nlu9GO0LR91mjj2MZGahD3FJvdC3ET3oe9WHzCEJAPcqis3Z0cG0iX3jQq2eoj9run5-j2d60A5vaFwCx4Xa18zvPEHXTi-xQcHrWf5vHdA67TVu4yqf5fKedgYzBq9YZzNviTgjTLZxZlKcar0zoe85Wb9WYjjqkkZVH5gF9j5q6v9seCXHtpCNbUFbxQls08FoxFRVHHKiCz8HRkZ3Nmr8d7de99cOXVr_h4fLqnvCRBZ4pGpGuL4pRx3hcxwGZpbvgeLl5Uyy_O2QUcqx66MHzecOQ2k41bfBqu6YGo2HxkHOgggHTQsyip8v9Jfz4frdmGH7azU5sJk5xlIXvrqEXY6bQe6-RKlbXw2LlWaUA8j2xKSXUKTaVfJGIq7YF702tvIVuFGiskH3_TuQMRHqV4Zex4B7Y3H67TrDnVdY3YbD6H_r4VyyLj8jAUxF-WG0u8SOsn3YYhzjPimF9zV9FIbJjR0-BlQ8X063fc5hBptRDwCEc3qz43RSwnBgK-spbO4ktKSCkYgLnRDR0nIhW-LM6bMnNeLU5URZNmmiG4WnSfITnxsM_XD5o8A7ovwMwP7pTNkh0kV6wn3YvHCzhbTKBRqut_zr8OeOmP3IzDlFxQ7GOGjd_meyuaoaIE_FT34vJOqJVE3vOp1yzVoJKjfHS0LsUtNkcs6YqBKcXMdgh3U2PGPuPfkTcGRyEvcLc8FhVA7DZc_S_JH_qY9JUi5Hs1OBft9iVsKmH0T7tbXUGLRjOX3gh2694cWCe4S0_gz7i14O2TBh4AakeGTG8xjFdKTvW2tcVi6MLVnJ0crwmgg1l8Duf7-ZO55_rSctCeTpfXlEkksixabEz_oZ1i78x8ph3IjTiBk4895fO7KX3sSSDct3HpYTZmAzoZiVYiSHdGFGuCcu0QIkCDW83opNWHd4EgsLj55SbjbrMpvxYM3eMYtj6m0ofDnivGxgYXMYqPcugUjQQLiuF0oQTOU2UDSOaGAtbgCGgjRADZseOiu4kk-Qq_i7in0k8aA-S-_YqR2Oi_b2xRSs73EyqA4v0esLnkUYuq6hVs_luik8W49m9tzyyRBw4q6crdStE-AwNQVeBDX0VjzW2puDSLhp974dSarN6kJggVIoEh3YXmqmVMBTbBERVKD0_M2YGYLe5b8k-RXbbvRYh0VxjTK13V95CGmW-nDorfjSw3e5V2ZRT6RbPgzsBdhg9W_7VuxN9lAIHLzi2m9FaDjXGvbdgLROLSrhtG_Dxa_TaGSbHa6korfm91MCaLYkF-gofLP3d8xe-UPRTzo89uysngvv4wX2vIimIPtA7PzOpKBEtL8SXEfInEao0spOF_aL5SHlI1kUATsMKhhyLC5jfvUSTWlp1GUuU_g2G6Hkdepe3Zmt63lhM7JJ4obb9IcH7j2zrQDw5RLTVE8yf9m7pcbLuYPsHvDNMQRw5Ct7lTPeNz_StgQ4ti0DWLTTLI4eo0rtBZU5qNUXZymzMK4YjMTmmAKc4gBc4QtOGX_bI1axk4jDTiEiLXXQWAPZMZVWYzSpQPAOR9xkNzz9X-hLPKxgK8EJwIfv_QP0uJxC1NW8oolmkGASHgBCifJzz3L_wi1BykcczmcQQyMGZdtdZo_pwTd6podkSRSwOQQw&sai=AMfl-YSPZ2BlQWVHYzx_jNNIJT85BfaemvlDbjRxmOFlOWwAJIfJVJqjlerSW3wDQVJJinAVDNVy5JGqGe-InKQykq9nHkFu1OOyPd_MwRqWKeGNAjzL7Zgk2lkQ67R1eJpiJi3qJjDC2uAPDGd898X9R9qcp6ZTXTd6jT8mEkZLMUc2LG7DDj1ZSdv_dxCG5sXGqegZcYa1JufQ3xkl0bzMC6tZEJDarQgi6AosUsSGDjmddNKOr0IZqoyuJ1x5KwOpn9jQo2hSYmbMfaxMiKGctDSya0_tPAfkr_DivhMiUCP8TULJZ088OIVaocpsg-3bPBvmrrX5neoS-_sreBsKO0MwUhPi_4Ar4SIYpaLGgHY3_zqYsAiPUlW8uXvw1iBkHH_R-seU7Oj3O5gij5o6oxKLC1jZV5Prj7Q8yUJt2MtK4keqZz_beWn7XWhIofScRiqecyfmpOFq4nkIcxF0IwIc3vU77k50OghmWQdnwFLW1LbxzKvHJHL38mWntGNRA1SZ_0rjwUH41qxwSOQZe0vLWSunBTZKe1-1HpXJmNzjM_DYyVIjidfjJweQbdo4o_4LZEBu1C3Z5yToh52Ns-ZxOy0l1rPjXqbd_6PraumoNSGHUNyY9Cv-LUZK-9Y0K5i4PDALrLsN-Lv8OjDf2mqBtSM44p75HczEuxtwm-KDb1YM_6IZGLt8jXna88a86YANoLWzUYyhJoSLd4edkjCwrSAv3_QT4AWdRdsu7ssffkPuadMprl80AFuD87jwT5ncSzk33mJzDAN8V8tvJesEvY6tGNnNcX8DVzylkd-ZhBSDmysfPZBEo_Tn34wJfYTDrk5HTNmy-p9cPquf94oc_zfg6wz0ag26kIoIkZhWXiyOvKZ3zTbTDUBBvlM291zOIcnVbd0FNSFrHV019atAzyIbWzdbygs-JofttdkN46hKs3jHPuPYGx2t3X7Gs3DbUCJHFLrZma_CAxv8zlpnLDMx4n5TrQ9HENo4ywD2HCJNol3k8ugrr1lBh-esL0Moqt9qGQJjrcc&sig=Cg0ArKJSzMHq_136ih5_&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=http://www.paramountplus.com/%3Fftag%3DIPP-00-10gdc6g%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D24023888157
+              - img "Advertisement" [ref=f38e7]
+            - button [ref=f38e14] [cursor=pointer]
+        - navigation
+  - generic [ref=e1373]:
+    - img "Logo"

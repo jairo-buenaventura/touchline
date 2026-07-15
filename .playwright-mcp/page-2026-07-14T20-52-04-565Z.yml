@@ -1,0 +1,764 @@
+- generic [active] [ref=f499e1]:
+  - generic [ref=f499e5]:
+    - generic [ref=f499e7]:
+      - generic [ref=f499e8]:
+        - link [ref=f499e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=f499e12]
+        - combobox [ref=f499e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=f499e14]:
+        - generic [ref=f499e15]:
+          - button [ref=f499e16] [cursor=pointer]:
+            - img "search" [ref=f499e18]
+          - textbox "Search" [ref=f499e19]
+      - iframe [ref=f499e22]:
+        - generic [ref=f500e2]:
+          - link "Sign In" [ref=f500e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f500e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=f499e24]:
+      - navigation [ref=f499e25]:
+        - link "Live Scores" [ref=f499e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=f499e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=f499e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=f499e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=f499e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=f499e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=f499e38]:
+          - img "ws+_logo" [ref=f499e39]
+          - link "WHOSCORED+" [ref=f499e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=f499e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=f499e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=f499e48]
+    - generic [ref=f499e52]:
+      - button "Top Tournaments" [ref=f499e53] [cursor=pointer]
+      - button "Favourites" [ref=f499e57] [cursor=pointer]
+      - button "All Tournaments" [ref=f499e61] [cursor=pointer]
+  - generic [ref=f499e66]:
+    - generic [ref=f499e67]:
+      - generic [ref=f499e72]:
+        - generic [ref=f499e73]:
+          - generic [ref=f499e74]:
+            - img "teammate-stars-logo" [ref=f499e75]
+            - generic [ref=f499e79]: TEAMMATE
+          - generic [ref=f499e80]:
+            - button "refresh-button" [ref=f499e81] [cursor=pointer]:
+              - img "refresh-chatbot-session" [ref=f499e82]
+            - button "expand-button" [ref=f499e84] [cursor=pointer]:
+              - img "expand-chatbot" [ref=f499e85]
+        - textbox "Ask me anything..." [ref=f499e91]
+        - list "chips-list" [ref=f499e93]:
+          - listitem "chips-list-item" [ref=f499e94] [cursor=pointer]: Outright Winner Odds
+          - listitem "chips-list-item" [ref=f499e95] [cursor=pointer]: In Form Players
+          - listitem "chips-list-item" [ref=f499e96] [cursor=pointer]: Best Value Bets
+      - generic [ref=f499e97]:
+        - generic [ref=f499e98]: France
+        - generic [ref=f499e100]: »
+        - combobox [ref=f499e102]:
+          - option "Ligue 1" [selected]
+          - option "Coupe de France"
+          - option "Trophée des Champions"
+          - option "Ligue 1 Qualification"
+          - option "Ligue 2"
+          - option "Division 1 Feminine"
+          - option "Ligue 2 Qualification"
+          - option "National"
+          - option "National 2"
+        - generic [ref=f499e103]: »
+        - combobox [ref=f499e105]:
+          - option "2026/2027" [selected]
+          - option "2025/2026"
+          - option "2024/2025"
+          - option "2023/2024"
+          - option "2022/2023"
+          - option "2021/2022"
+          - option "2020/2021"
+          - option "2019/2020"
+          - option "2018/2019"
+          - option "2017/2018"
+          - option "2016/2017"
+          - option "2015/2016"
+          - option "2014/2015"
+          - option "2013/2014"
+          - option "2012/2013"
+          - option "2011/2012"
+          - option "2010/2011"
+          - option "2009/2010"
+          - option "2008/2009"
+          - option "2007/2008"
+          - option "2006/2007"
+          - option "2005/2006"
+          - option "2004/2005"
+          - option "2003/2004"
+          - option "2002/2003"
+          - option "2001/2002"
+          - option "2000/2001"
+          - option "1999/2000"
+      - heading [level=1] [ref=f499e106]:
+        - text: Ligue 1
+        - link "Add to favourites" [ref=f499e108] [cursor=pointer]:
+          - /url: "#popular"
+      - list [ref=f499e111]:
+        - listitem [ref=f499e112]:
+          - link "Summary" [ref=f499e113] [cursor=pointer]:
+            - /url: /regions/74/tournaments/22/seasons/11150/stages/25554/show/france-ligue-1-2026-2027
+        - listitem [ref=f499e114]:
+          - link "Fixtures" [ref=f499e115] [cursor=pointer]:
+            - /url: /regions/74/tournaments/22/seasons/11150/stages/25554/fixtures/france-ligue-1-2026-2027
+        - listitem
+        - listitem
+        - listitem
+      - generic [ref=f499e116]:
+        - heading [level=2] [ref=f499e118]:
+          - link "Ligue 1 Fixtures" [ref=f499e119] [cursor=pointer]:
+            - /url: /regions/74/tournaments/22/seasons/11150/stages/25554/fixtures/france-ligue-1-2026-2027
+        - generic [ref=f499e122]:
+          - generic [ref=f499e125]:
+            - button [ref=f499e126] [cursor=pointer]:
+              - img "chevron-left" [ref=f499e128]
+            - button "calendar 11 - 17 Aug 2026 ▼" [ref=f499e129] [cursor=pointer]:
+              - img "calendar" [ref=f499e131]
+              - generic [ref=f499e132]: 11 - 17 Aug 2026
+              - generic [ref=f499e133]: ▼
+            - button [ref=f499e134] [cursor=pointer]:
+              - img "chevron-right" [ref=f499e136]
+          - generic [ref=f499e138]:
+            - generic [ref=f499e140] [cursor=pointer]:
+              - img "B3" [ref=f499e143]
+              - img "chevron-down" [ref=f499e148]
+            - generic [ref=f499e149]: Odds
+          - generic [ref=f499e155]:
+            - generic [ref=f499e156]:
+              - generic [ref=f499e157]: Friday, Aug 21 2026
+              - generic [ref=f499e159]:
+                - generic [ref=f499e162]:
+                  - generic [ref=f499e163]: "1"
+                  - generic [ref=f499e164]: X
+                  - generic [ref=f499e165]: "2"
+                - generic [ref=f499e169]:
+                  - generic [ref=f499e170]: 19:45
+                  - generic [ref=f499e172]:
+                    - link "- -" [ref=f499e174] [cursor=pointer]:
+                      - /url: /matches/1984273/show/france-ligue-1-2026-2027-marseille-strasbourg
+                      - generic [ref=f499e175]: "-"
+                      - generic [ref=f499e176]: "-"
+                    - generic [ref=f499e177]:
+                      - link "Marseille" [ref=f499e179] [cursor=pointer]:
+                        - /url: /teams/249/show/france-marseille
+                      - link "Strasbourg" [ref=f499e181] [cursor=pointer]:
+                        - /url: /teams/148/show/france-strasbourg
+                  - generic [ref=f499e183]:
+                    - button "1.60" [ref=f499e185] [cursor=pointer]
+                    - button "4.20" [ref=f499e187] [cursor=pointer]
+                    - button "4.75" [ref=f499e189] [cursor=pointer]
+            - generic [ref=f499e191]:
+              - generic [ref=f499e192]: Saturday, Aug 22 2026
+              - generic [ref=f499e194]:
+                - generic [ref=f499e197]:
+                  - generic [ref=f499e198]: "1"
+                  - generic [ref=f499e199]: X
+                  - generic [ref=f499e200]: "2"
+                - generic [ref=f499e202]:
+                  - generic [ref=f499e204]:
+                    - generic [ref=f499e205]: 16:15
+                    - generic [ref=f499e207]:
+                      - link "- -" [ref=f499e209] [cursor=pointer]:
+                        - /url: /matches/1984272/show/france-ligue-1-2026-2027-lens-auxerre
+                        - generic [ref=f499e210]: "-"
+                        - generic [ref=f499e211]: "-"
+                      - generic [ref=f499e212]:
+                        - link "Lens" [ref=f499e214] [cursor=pointer]:
+                          - /url: /teams/309/show/france-lens
+                        - link "Auxerre" [ref=f499e216] [cursor=pointer]:
+                          - /url: /teams/308/show/france-auxerre
+                    - generic [ref=f499e218]:
+                      - button "1.57" [ref=f499e220] [cursor=pointer]
+                      - button "4.10" [ref=f499e222] [cursor=pointer]
+                      - button "5.75" [ref=f499e224] [cursor=pointer]
+                  - generic [ref=f499e227]:
+                    - generic [ref=f499e228]: 19:45
+                    - generic [ref=f499e230]:
+                      - link "- -" [ref=f499e232] [cursor=pointer]:
+                        - /url: /matches/1984070/show/france-ligue-1-2026-2027-toulouse-lyon
+                        - generic [ref=f499e233]: "-"
+                        - generic [ref=f499e234]: "-"
+                      - generic [ref=f499e235]:
+                        - link "Toulouse" [ref=f499e237] [cursor=pointer]:
+                          - /url: /teams/246/show/france-toulouse
+                        - link "Lyon" [ref=f499e239] [cursor=pointer]:
+                          - /url: /teams/228/show/france-lyon
+                    - generic [ref=f499e241]:
+                      - button "3.40" [ref=f499e243] [cursor=pointer]
+                      - button "3.50" [ref=f499e245] [cursor=pointer]
+                      - button "2.00" [ref=f499e247] [cursor=pointer]
+                  - generic [ref=f499e250]:
+                    - generic [ref=f499e251]: 19:45
+                    - generic [ref=f499e253]:
+                      - link "- -" [ref=f499e255] [cursor=pointer]:
+                        - /url: /matches/1984074/show/france-ligue-1-2026-2027-troyes-paris-fc
+                        - generic [ref=f499e256]: "-"
+                        - generic [ref=f499e257]: "-"
+                      - generic [ref=f499e258]:
+                        - link "Troyes" [ref=f499e260] [cursor=pointer]:
+                          - /url: /teams/229/show/france-troyes
+                        - link "Paris FC" [ref=f499e262] [cursor=pointer]:
+                          - /url: /teams/2832/show/france-paris-fc
+                    - generic [ref=f499e264]:
+                      - button "2.70" [ref=f499e266] [cursor=pointer]
+                      - button "3.25" [ref=f499e268] [cursor=pointer]
+                      - button "2.55" [ref=f499e270] [cursor=pointer]
+                  - generic [ref=f499e273]:
+                    - generic [ref=f499e274]: 19:45
+                    - generic [ref=f499e276]:
+                      - link "- -" [ref=f499e278] [cursor=pointer]:
+                        - /url: /matches/1984060/show/france-ligue-1-2026-2027-le-mans-brest
+                        - generic [ref=f499e279]: "-"
+                        - generic [ref=f499e280]: "-"
+                      - generic [ref=f499e281]:
+                        - link "Le Mans" [ref=f499e283] [cursor=pointer]:
+                          - /url: /teams/611/show/france-le-mans
+                        - link "Brest" [ref=f499e285] [cursor=pointer]:
+                          - /url: /teams/2332/show/france-brest
+                    - generic [ref=f499e287]:
+                      - button "2.50" [ref=f499e289] [cursor=pointer]
+                      - button "3.40" [ref=f499e291] [cursor=pointer]
+                      - button "2.63" [ref=f499e293] [cursor=pointer]
+                  - generic [ref=f499e296]:
+                    - generic [ref=f499e297]: 19:45
+                    - generic [ref=f499e299]:
+                      - link "- -" [ref=f499e301] [cursor=pointer]:
+                        - /url: /matches/1984062/show/france-ligue-1-2026-2027-nice-lorient
+                        - generic [ref=f499e302]: "-"
+                        - generic [ref=f499e303]: "-"
+                      - generic [ref=f499e304]:
+                        - link "Nice" [ref=f499e306] [cursor=pointer]:
+                          - /url: /teams/613/show/france-nice
+                        - link "Lorient" [ref=f499e308] [cursor=pointer]:
+                          - /url: /teams/146/show/france-lorient
+                    - generic [ref=f499e310]:
+                      - button "2.20" [ref=f499e312] [cursor=pointer]
+                      - button "3.40" [ref=f499e314] [cursor=pointer]
+                      - button "3.10" [ref=f499e316] [cursor=pointer]
+            - generic [ref=f499e318]:
+              - generic [ref=f499e319]: Sunday, Aug 23 2026
+              - generic [ref=f499e321]:
+                - generic [ref=f499e324]:
+                  - generic [ref=f499e325]: "1"
+                  - generic [ref=f499e326]: X
+                  - generic [ref=f499e327]: "2"
+                - generic [ref=f499e329]:
+                  - generic [ref=f499e331]:
+                    - generic [ref=f499e332]: 14:00
+                    - generic [ref=f499e334]:
+                      - link "- -" [ref=f499e336] [cursor=pointer]:
+                        - /url: /matches/1984058/show/france-ligue-1-2026-2027-angers-lille
+                        - generic [ref=f499e337]: "-"
+                        - generic [ref=f499e338]: "-"
+                      - generic [ref=f499e339]:
+                        - link "Angers" [ref=f499e341] [cursor=pointer]:
+                          - /url: /teams/614/show/france-angers
+                        - link "Lille" [ref=f499e343] [cursor=pointer]:
+                          - /url: /teams/607/show/france-lille
+                    - generic [ref=f499e345]:
+                      - button "4.75" [ref=f499e347] [cursor=pointer]
+                      - button "3.60" [ref=f499e349] [cursor=pointer]
+                      - button "1.67" [ref=f499e351] [cursor=pointer]
+                  - generic [ref=f499e354]:
+                    - generic [ref=f499e355]: 16:15
+                    - generic [ref=f499e357]:
+                      - link "- -" [ref=f499e359] [cursor=pointer]:
+                        - /url: /matches/1984059/show/france-ligue-1-2026-2027-le-havre-monaco
+                        - generic [ref=f499e360]: "-"
+                        - generic [ref=f499e361]: "-"
+                      - generic [ref=f499e362]:
+                        - link "Le Havre" [ref=f499e364] [cursor=pointer]:
+                          - /url: /teams/217/show/france-le-havre
+                        - link "Monaco" [ref=f499e366] [cursor=pointer]:
+                          - /url: /teams/248/show/france-monaco
+                    - generic [ref=f499e368]:
+                      - button "3.50" [ref=f499e370] [cursor=pointer]
+                      - button "3.75" [ref=f499e372] [cursor=pointer]
+                      - button "1.95" [ref=f499e374] [cursor=pointer]
+                  - generic [ref=f499e377]:
+                    - generic [ref=f499e378]: 19:45
+                    - generic [ref=f499e380]:
+                      - link "- -" [ref=f499e382] [cursor=pointer]:
+                        - /url: /matches/1984066/show/france-ligue-1-2026-2027-paris-saint-germain-rennes
+                        - generic [ref=f499e383]: "-"
+                        - generic [ref=f499e384]: "-"
+                      - generic [ref=f499e385]:
+                        - link "Paris Saint-Germain" [ref=f499e387] [cursor=pointer]:
+                          - /url: /teams/304/show/france-paris-saint-germain
+                        - link "Rennes" [ref=f499e389] [cursor=pointer]:
+                          - /url: /teams/313/show/france-rennes
+                    - generic [ref=f499e391]:
+                      - button "1.42" [ref=f499e393] [cursor=pointer]
+                      - button "4.75" [ref=f499e395] [cursor=pointer]
+                      - button "6.50" [ref=f499e397] [cursor=pointer]
+      - generic [ref=f499e403]:
+        - generic [ref=f499e405]:
+          - img "bet builder whoscored logo" [ref=f499e406]
+          - paragraph [ref=f499e407]: NEW
+        - generic [ref=f499e409]:
+          - generic [ref=f499e410]: Select your match and start building!
+          - button "Change Match" [ref=f499e490] [cursor=pointer]
+      - heading "Ligue 1 Tables" [level=2] [ref=f499e493]
+      - generic [ref=f499e494]:
+        - list [ref=f499e496]:
+          - listitem [ref=f499e497]:
+            - link "Standings" [ref=f499e498] [cursor=pointer]:
+              - /url: "#standings-25554"
+          - listitem [ref=f499e499]:
+            - link "Form" [ref=f499e500] [cursor=pointer]:
+              - /url: "#forms-25554"
+          - listitem [ref=f499e501]:
+            - link "Streaks" [ref=f499e502] [cursor=pointer]:
+              - /url: "#streaks-25554"
+          - listitem [ref=f499e503]:
+            - link "Progress" [ref=f499e504] [cursor=pointer]:
+              - /url: "#history-25554"
+          - listitem [ref=f499e505]:
+            - link "Custom Dates" [ref=f499e506] [cursor=pointer]:
+              - /url: "#custom-standings-25554"
+        - generic [ref=f499e507]:
+          - generic [ref=f499e510]:
+            - definition [ref=f499e511]:
+              - link "Overall" [ref=f499e512] [cursor=pointer]:
+                - /url: "#"
+            - definition [ref=f499e513]:
+              - link "Home" [ref=f499e514] [cursor=pointer]:
+                - /url: "#"
+            - definition [ref=f499e515]:
+              - link "Away" [ref=f499e516] [cursor=pointer]:
+                - /url: "#"
+            - definition [ref=f499e517]:
+              - link "Wide" [ref=f499e518] [cursor=pointer]:
+                - /url: "#"
+          - table [ref=f499e520]:
+            - rowgroup [ref=f499e521]:
+              - row [ref=f499e522]:
+                - columnheader "Team" [ref=f499e523] [cursor=pointer]
+                - columnheader "P" [ref=f499e524] [cursor=pointer]
+                - columnheader "W" [ref=f499e525] [cursor=pointer]
+                - columnheader "D" [ref=f499e526] [cursor=pointer]
+                - columnheader "L" [ref=f499e527] [cursor=pointer]
+                - columnheader "GF" [ref=f499e528] [cursor=pointer]
+                - columnheader "GA" [ref=f499e529] [cursor=pointer]
+                - columnheader "GD" [ref=f499e530] [cursor=pointer]
+                - columnheader "Pts" [ref=f499e531] [cursor=pointer]
+                - columnheader "Form" [ref=f499e532]
+            - rowgroup [ref=f499e533]:
+              - row [ref=f499e534]:
+                - cell "1 Angers" [ref=f499e535]:
+                  - generic [ref=f499e536]: "1"
+                  - link "Angers" [ref=f499e537] [cursor=pointer]:
+                    - /url: /teams/614/show/france-angers
+                - cell "0" [ref=f499e538]
+                - cell "0" [ref=f499e539]
+                - cell "0" [ref=f499e540]
+                - cell "0" [ref=f499e541]
+                - cell "0" [ref=f499e542]
+                - cell "0" [ref=f499e543]
+                - cell "0" [ref=f499e544]
+                - cell "0" [ref=f499e545]
+                - cell [ref=f499e546]
+              - row [ref=f499e547]:
+                - cell "2 Auxerre" [ref=f499e548]:
+                  - generic [ref=f499e549]: "2"
+                  - link "Auxerre" [ref=f499e550] [cursor=pointer]:
+                    - /url: /teams/308/show/france-auxerre
+                - cell "0" [ref=f499e551]
+                - cell "0" [ref=f499e552]
+                - cell "0" [ref=f499e553]
+                - cell "0" [ref=f499e554]
+                - cell "0" [ref=f499e555]
+                - cell "0" [ref=f499e556]
+                - cell "0" [ref=f499e557]
+                - cell "0" [ref=f499e558]
+                - cell [ref=f499e559]
+              - row [ref=f499e560]:
+                - cell "3 Brest" [ref=f499e561]:
+                  - generic [ref=f499e562]: "3"
+                  - link "Brest" [ref=f499e563] [cursor=pointer]:
+                    - /url: /teams/2332/show/france-brest
+                - cell "0" [ref=f499e564]
+                - cell "0" [ref=f499e565]
+                - cell "0" [ref=f499e566]
+                - cell "0" [ref=f499e567]
+                - cell "0" [ref=f499e568]
+                - cell "0" [ref=f499e569]
+                - cell "0" [ref=f499e570]
+                - cell "0" [ref=f499e571]
+                - cell [ref=f499e572]
+              - row [ref=f499e573]:
+                - cell "4 Le Havre" [ref=f499e574]:
+                  - generic [ref=f499e575]: "4"
+                  - link "Le Havre" [ref=f499e576] [cursor=pointer]:
+                    - /url: /teams/217/show/france-le-havre
+                - cell "0" [ref=f499e577]
+                - cell "0" [ref=f499e578]
+                - cell "0" [ref=f499e579]
+                - cell "0" [ref=f499e580]
+                - cell "0" [ref=f499e581]
+                - cell "0" [ref=f499e582]
+                - cell "0" [ref=f499e583]
+                - cell "0" [ref=f499e584]
+                - cell [ref=f499e585]
+              - row [ref=f499e586]:
+                - cell "5 Le Mans" [ref=f499e587]:
+                  - generic [ref=f499e588]: "5"
+                  - link "Le Mans" [ref=f499e589] [cursor=pointer]:
+                    - /url: /teams/611/show/france-le-mans
+                - cell "0" [ref=f499e590]
+                - cell "0" [ref=f499e591]
+                - cell "0" [ref=f499e592]
+                - cell "0" [ref=f499e593]
+                - cell "0" [ref=f499e594]
+                - cell "0" [ref=f499e595]
+                - cell "0" [ref=f499e596]
+                - cell "0" [ref=f499e597]
+                - cell [ref=f499e598]
+              - row [ref=f499e599]:
+                - cell "6 Lens" [ref=f499e600]:
+                  - generic [ref=f499e601]: "6"
+                  - link "Lens" [ref=f499e602] [cursor=pointer]:
+                    - /url: /teams/309/show/france-lens
+                - cell "0" [ref=f499e603]
+                - cell "0" [ref=f499e604]
+                - cell "0" [ref=f499e605]
+                - cell "0" [ref=f499e606]
+                - cell "0" [ref=f499e607]
+                - cell "0" [ref=f499e608]
+                - cell "0" [ref=f499e609]
+                - cell "0" [ref=f499e610]
+                - cell [ref=f499e611]
+              - row [ref=f499e612]:
+                - cell "7 Lille" [ref=f499e613]:
+                  - generic [ref=f499e614]: "7"
+                  - link "Lille" [ref=f499e615] [cursor=pointer]:
+                    - /url: /teams/607/show/france-lille
+                - cell "0" [ref=f499e616]
+                - cell "0" [ref=f499e617]
+                - cell "0" [ref=f499e618]
+                - cell "0" [ref=f499e619]
+                - cell "0" [ref=f499e620]
+                - cell "0" [ref=f499e621]
+                - cell "0" [ref=f499e622]
+                - cell "0" [ref=f499e623]
+                - cell [ref=f499e624]
+              - row [ref=f499e625]:
+                - cell "8 Lorient" [ref=f499e626]:
+                  - generic [ref=f499e627]: "8"
+                  - link "Lorient" [ref=f499e628] [cursor=pointer]:
+                    - /url: /teams/146/show/france-lorient
+                - cell "0" [ref=f499e629]
+                - cell "0" [ref=f499e630]
+                - cell "0" [ref=f499e631]
+                - cell "0" [ref=f499e632]
+                - cell "0" [ref=f499e633]
+                - cell "0" [ref=f499e634]
+                - cell "0" [ref=f499e635]
+                - cell "0" [ref=f499e636]
+                - cell [ref=f499e637]
+              - row [ref=f499e638]:
+                - cell "9 Lyon" [ref=f499e639]:
+                  - generic [ref=f499e640]: "9"
+                  - link "Lyon" [ref=f499e641] [cursor=pointer]:
+                    - /url: /teams/228/show/france-lyon
+                - cell "0" [ref=f499e642]
+                - cell "0" [ref=f499e643]
+                - cell "0" [ref=f499e644]
+                - cell "0" [ref=f499e645]
+                - cell "0" [ref=f499e646]
+                - cell "0" [ref=f499e647]
+                - cell "0" [ref=f499e648]
+                - cell "0" [ref=f499e649]
+                - cell [ref=f499e650]
+              - row [ref=f499e651]:
+                - cell "10 Marseille" [ref=f499e652]:
+                  - generic [ref=f499e653]: "10"
+                  - link "Marseille" [ref=f499e654] [cursor=pointer]:
+                    - /url: /teams/249/show/france-marseille
+                - cell "0" [ref=f499e655]
+                - cell "0" [ref=f499e656]
+                - cell "0" [ref=f499e657]
+                - cell "0" [ref=f499e658]
+                - cell "0" [ref=f499e659]
+                - cell "0" [ref=f499e660]
+                - cell "0" [ref=f499e661]
+                - cell "0" [ref=f499e662]
+                - cell [ref=f499e663]
+              - row [ref=f499e664]:
+                - cell "11 Monaco" [ref=f499e665]:
+                  - generic [ref=f499e666]: "11"
+                  - link "Monaco" [ref=f499e667] [cursor=pointer]:
+                    - /url: /teams/248/show/france-monaco
+                - cell "0" [ref=f499e668]
+                - cell "0" [ref=f499e669]
+                - cell "0" [ref=f499e670]
+                - cell "0" [ref=f499e671]
+                - cell "0" [ref=f499e672]
+                - cell "0" [ref=f499e673]
+                - cell "0" [ref=f499e674]
+                - cell "0" [ref=f499e675]
+                - cell [ref=f499e676]
+              - row [ref=f499e677]:
+                - cell "12 Nice" [ref=f499e678]:
+                  - generic [ref=f499e679]: "12"
+                  - link "Nice" [ref=f499e680] [cursor=pointer]:
+                    - /url: /teams/613/show/france-nice
+                - cell "0" [ref=f499e681]
+                - cell "0" [ref=f499e682]
+                - cell "0" [ref=f499e683]
+                - cell "0" [ref=f499e684]
+                - cell "0" [ref=f499e685]
+                - cell "0" [ref=f499e686]
+                - cell "0" [ref=f499e687]
+                - cell "0" [ref=f499e688]
+                - cell [ref=f499e689]
+              - row [ref=f499e690]:
+                - cell "13 Paris FC" [ref=f499e691]:
+                  - generic [ref=f499e692]: "13"
+                  - link "Paris FC" [ref=f499e693] [cursor=pointer]:
+                    - /url: /teams/2832/show/france-paris-fc
+                - cell "0" [ref=f499e694]
+                - cell "0" [ref=f499e695]
+                - cell "0" [ref=f499e696]
+                - cell "0" [ref=f499e697]
+                - cell "0" [ref=f499e698]
+                - cell "0" [ref=f499e699]
+                - cell "0" [ref=f499e700]
+                - cell "0" [ref=f499e701]
+                - cell [ref=f499e702]
+              - row [ref=f499e703]:
+                - cell "14 Paris Saint-Germain" [ref=f499e704]:
+                  - generic [ref=f499e705]: "14"
+                  - link "Paris Saint-Germain" [ref=f499e706] [cursor=pointer]:
+                    - /url: /teams/304/show/france-paris-saint-germain
+                - cell "0" [ref=f499e707]
+                - cell "0" [ref=f499e708]
+                - cell "0" [ref=f499e709]
+                - cell "0" [ref=f499e710]
+                - cell "0" [ref=f499e711]
+                - cell "0" [ref=f499e712]
+                - cell "0" [ref=f499e713]
+                - cell "0" [ref=f499e714]
+                - cell [ref=f499e715]
+              - row [ref=f499e716]:
+                - cell "15 Rennes" [ref=f499e717]:
+                  - generic [ref=f499e718]: "15"
+                  - link "Rennes" [ref=f499e719] [cursor=pointer]:
+                    - /url: /teams/313/show/france-rennes
+                - cell "0" [ref=f499e720]
+                - cell "0" [ref=f499e721]
+                - cell "0" [ref=f499e722]
+                - cell "0" [ref=f499e723]
+                - cell "0" [ref=f499e724]
+                - cell "0" [ref=f499e725]
+                - cell "0" [ref=f499e726]
+                - cell "0" [ref=f499e727]
+                - cell [ref=f499e728]
+              - row [ref=f499e729]:
+                - cell "16 Strasbourg" [ref=f499e730]:
+                  - generic [ref=f499e731]: "16"
+                  - link "Strasbourg" [ref=f499e732] [cursor=pointer]:
+                    - /url: /teams/148/show/france-strasbourg
+                - cell "0" [ref=f499e733]
+                - cell "0" [ref=f499e734]
+                - cell "0" [ref=f499e735]
+                - cell "0" [ref=f499e736]
+                - cell "0" [ref=f499e737]
+                - cell "0" [ref=f499e738]
+                - cell "0" [ref=f499e739]
+                - cell "0" [ref=f499e740]
+                - cell [ref=f499e741]
+              - row [ref=f499e742]:
+                - cell "17 Toulouse" [ref=f499e743]:
+                  - generic [ref=f499e744]: "17"
+                  - link "Toulouse" [ref=f499e745] [cursor=pointer]:
+                    - /url: /teams/246/show/france-toulouse
+                - cell "0" [ref=f499e746]
+                - cell "0" [ref=f499e747]
+                - cell "0" [ref=f499e748]
+                - cell "0" [ref=f499e749]
+                - cell "0" [ref=f499e750]
+                - cell "0" [ref=f499e751]
+                - cell "0" [ref=f499e752]
+                - cell "0" [ref=f499e753]
+                - cell [ref=f499e754]
+              - row [ref=f499e755]:
+                - cell "18 Troyes" [ref=f499e756]:
+                  - generic [ref=f499e757]: "18"
+                  - link "Troyes" [ref=f499e758] [cursor=pointer]:
+                    - /url: /teams/229/show/france-troyes
+                - cell "0" [ref=f499e759]
+                - cell "0" [ref=f499e760]
+                - cell "0" [ref=f499e761]
+                - cell "0" [ref=f499e762]
+                - cell "0" [ref=f499e763]
+                - cell "0" [ref=f499e764]
+                - cell "0" [ref=f499e765]
+                - cell "0" [ref=f499e766]
+                - cell [ref=f499e767]
+          - table
+    - generic [ref=f499e768]:
+      - generic [ref=f499e773]:
+        - generic [ref=f499e775]:
+          - generic [ref=f499e776]:
+            - generic [ref=f499e777]:
+              - generic [ref=f499e778]: England
+              - generic [ref=f499e779]: v
+              - generic [ref=f499e780]: Argentina
+            - generic [ref=f499e781]: mié 15th jul, 14:00
+          - generic [ref=f499e782]:
+            - img "Home team logo" [ref=f499e785]
+            - img "Away team logo" [ref=f499e788]
+        - list [ref=f499e790]:
+          - listitem [ref=f499e791]:
+            - generic [ref=f499e798]:
+              - generic [ref=f499e799]:
+                - text: Lionel Messi
+                - generic [ref=f499e800]: "- Anytime Goalscorer"
+              - generic [ref=f499e801]: Hit in 6 of last 7
+          - listitem [ref=f499e807]:
+            - generic [ref=f499e814]:
+              - generic [ref=f499e815]:
+                - text: Harry Kane Over 0.5
+                - generic [ref=f499e816]: "- Shots On Target"
+              - generic [ref=f499e817]: Hit in 7 of last 7
+          - listitem [ref=f499e823]:
+            - generic [ref=f499e830]:
+              - generic [ref=f499e831]:
+                - text: Over 1.5
+                - generic [ref=f499e832]: "- Total Away Goals"
+              - generic [ref=f499e833]: Hit in 6 of last 6
+          - listitem [ref=f499e839]:
+            - generic [ref=f499e845]:
+              - generic [ref=f499e846]:
+                - text: Lionel Messi Over 3.5
+                - generic [ref=f499e847]: "- Shots"
+              - generic [ref=f499e848]: Hit in 3 of last 3
+        - button "B3 logo 15/2" [ref=f499e855] [cursor=pointer]:
+          - img "B3 logo" [ref=f499e857]
+          - generic [ref=f499e858]: 15/2
+      - generic [ref=f499e865]:
+        - heading "Top Facts Of The Day Sponsored" [level=3] [ref=f499e866]:
+          - text: Top Facts Of The Day
+          - generic [ref=f499e867]: Sponsored
+        - generic [ref=f499e870]:
+          - generic [ref=f499e871]:
+            - generic [ref=f499e875]:
+              - link "Troyes vs Paris FC" [ref=f499e876] [cursor=pointer]:
+                - /url: /matches/1984074/betting/france-ligue-1-2026-2027-troyes-paris-fc
+              - generic [ref=f499e877]: (in 933 hrs 53 mins)
+            - generic [ref=f499e879]:
+              - generic [ref=f499e881]:
+                - generic [ref=f499e882]: +
+                - generic [ref=f499e883]: Troyes have failed to win their last 21 matches (Ligue 1).
+              - generic [ref=f499e886] [cursor=pointer]:
+                - generic [ref=f499e887]: Troyes lose or draw
+                - button "1.44" [ref=f499e890]
+          - generic [ref=f499e894]:
+            - generic [ref=f499e898]:
+              - link "Paris Saint-Germain vs Rennes" [ref=f499e899] [cursor=pointer]:
+                - /url: /matches/1984066/betting/france-ligue-1-2026-2027-paris-saint-germain-rennes
+              - generic [ref=f499e900]: (in 957 hrs 53 mins)
+            - generic [ref=f499e902]:
+              - generic [ref=f499e904]:
+                - generic [ref=f499e905]: +
+                - generic [ref=f499e906]: There have been over 2.5 goals scored in Rennes's last 7 games (Ligue 1).
+              - generic [ref=f499e909] [cursor=pointer]:
+                - generic [ref=f499e910]: Over 2.5 goals
+                - button "1.40" [ref=f499e913]
+          - generic [ref=f499e917]:
+            - generic [ref=f499e921]:
+              - link "Nice vs Lorient" [ref=f499e922] [cursor=pointer]:
+                - /url: /matches/1984062/betting/france-ligue-1-2026-2027-nice-lorient
+              - generic [ref=f499e923]: (in 933 hrs 53 mins)
+            - generic [ref=f499e925]:
+              - generic [ref=f499e927]:
+                - generic [ref=f499e928]: +
+                - generic [ref=f499e929]: Nice have drawn 5 of their last 6 matches (Ligue 1).
+              - generic [ref=f499e932] [cursor=pointer]:
+                - generic [ref=f499e933]: Nice draw
+                - button "3.40" [ref=f499e936]
+  - generic [ref=f499e944]:
+    - generic [ref=f499e945]:
+      - generic [ref=f499e946]:
+        - link "About Us" [ref=f499e948] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=f499e950] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=f499e952] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=f499e954] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=f499e956] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=f499e958] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=f499e960] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=f499e962] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=f499e964] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=f499e965]:
+        - link "Best Betting Sites & Bookmakers" [ref=f499e967] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=f499e969] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=f499e971] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=f499e973] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=f499e975] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=f499e976]:
+      - link [ref=f499e977] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=f499e979] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=f499e981] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=f499e985]
+    - generic [ref=f499e986]:
+      - link [ref=f499e987] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=f499e989] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=f499e991]: Copyright © 2026 WhoScored.com
+    - generic [ref=f499e993]:
+      - link "Safer Gambling" [ref=f499e994] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=f499e995]:
+        - link "GamStop" [ref=f499e996] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=f499e999] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=f499e1001] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=f499e1003] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo
+  - generic [ref=f499e1006]:
+    - img "Logo"
