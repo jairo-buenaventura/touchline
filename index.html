@@ -559,6 +559,8 @@
           <div class="custom-select-option" data-value="premier_league">Premier League</div>
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
+          <div class="custom-select-option" data-value="serie_a">Serie A</div>
+          <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
           <div class="custom-select-option" data-value="liga_argentina">Liga Argentina</div>
         </div>
       </div>
@@ -881,13 +883,12 @@
           cargarPartido(opt.dataset.value);
         });
       });
-      document.getElementById('cs-partido-btn').onclick = null;
-      document.getElementById('cs-partido-btn').addEventListener('click', (e) => {
+      document.getElementById('cs-partido-btn').onclick = (e) => {
         e.stopPropagation();
         const estaAbierto = list.classList.contains('abierto');
         document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
         if (!estaAbierto) list.classList.add('abierto');
-      });
+      };
       document.addEventListener('click', () => list.classList.remove('abierto'));
       if (partidos.length > 0) {
         document.getElementById('selector-equipo').value = partidos[partidos.length-1].home === equipo ? 'home' : 'away';

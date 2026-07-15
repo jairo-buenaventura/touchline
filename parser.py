@@ -86,6 +86,10 @@ def extraer_competicion(ruta_html, data=None):
         return "bundesliga"
     if re.search(r"Ligue 1 \d{4}/\d{4}", contenido):
         return "ligue_1"
+    if re.search(r"Serie A \d{4}/\d{4}", contenido):
+        return "serie_a"
+    if re.search(r"Eredivisie \d{4}/\d{4}", contenido):
+        return "eredivisie"
 
     # Nota: el texto "FIFA World Cup" / "FIFA Club World Cup" aparece
     # en el menu de navegacion de CUALQUIER pagina de WhoScored, no
@@ -120,7 +124,7 @@ def extraer_temporada(ruta_html):
     m = re.search(r"LaLiga (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
-    m = re.search(r"(?:Premier League|Bundesliga|Ligue 1) (\d{4})/(\d{4})", contenido)
+    m = re.search(r"(?:Premier League|Bundesliga|Ligue 1|Serie A|Eredivisie) (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
     if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
