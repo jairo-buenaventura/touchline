@@ -74,6 +74,34 @@ con `filename` = `partidos_html/<nombre exacto>.html`. Esto escribe el HTML dire
 
 No usar `browser_navigate` para esto — el `fetch()` desde la página ya cargada es más rápido (no carga imágenes/anuncios/scripts) y ya se ha confirmado que devuelve el HTML completo con el bloque `matchCentreData` embebido (los mismos datos que tendría la página renderizada).
 
+### ⚠️ Bug conocido del MCP: el `filename` de `browser_evaluate` a veces guarda el resultado como JSON-string en vez de texto plano
+
+Detectado el 2026-07-14 (Bundesliga/Ligue 1/Serie A/Eredivisie): en vez de escribir el HTML devuelto por el `fetch()` tal cual, el paquete `@playwright/mcp` (instalado vía `npx -y @playwright/mcp@latest`, o sea sin versión fija — el comportamiento puede cambiar de una sesión a otra sin aviso) guardó el archivo como si hubiera hecho `JSON.stringify(html)`: el archivo entero queda envuelto en comillas, con `\r\n` y `\"` escapados en vez de saltos de línea y comillas reales. `parser.py` truena con `Expecting property name enclosed in double quotes` porque el bloque `matchCentreData` que busca también queda doble-escapado.
+
+Es recuperable sin volver a descargar (el HTML original vive intacto dentro del string JSON) — después de CADA tanda de descargas, antes de pasar a `parser.py`, correr esto:
+
+```python
+import glob, json
+
+reparados = 0
+for f in glob.glob("partidos_html/*<Liga> <temporada>.html"):
+    with open(f, "rb") as fh:
+        primero = fh.read(1)
+    if primero != b'"':
+        continue  # archivo sano, HTML crudo normal
+    with open(f, encoding="utf-8") as fh:
+        contenido = fh.read()
+    html = json.loads(contenido)  # des-escapa
+    assert isinstance(html, str) and "matchCentreData" in html
+    with open(f, "w", encoding="utf-8") as fh:
+        fh.write(html)
+    reparados += 1
+
+print(f"Reparados: {reparados}")
+```
+
+Si `reparados` da 0, no hubo bug esta vez. Si da más de 0, quedó arreglado in-place; no hace falta re-descargar nada.
+
 ## Paso 4 — Delegar el volumen a un agente en background
 
 Descargar una temporada completa son 300+ llamadas de tool, una por partido. Para no saturar el contexto de la conversación principal, lanzar un `Agent` (`subagent_type: general-purpose`, `run_in_background: true`) que:
