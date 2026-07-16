@@ -26,6 +26,18 @@ from pathlib import Path
 
 from capacidades_estadios import CAPACIDADES
 
+# WhoScored a veces usa nombres cortos internos que no coinciden con el
+# archivo de escudo en escudos/ (que usa el nombre completo del club).
+NOMBRES_EQUIPO = {
+    "Bayern": "Bayern Munchen",
+    "RBL": "RB Leipzig",
+    "Leverkusen": "Bayer Leverkusen",
+    "Mainz": "Mainz 05",
+    "Hamburg": "Hamburger SV",
+    "Stuttgart": "VfB Stuttgart",
+    "PSG": "Paris Saint-Germain",
+}
+
 
 def extraer_match_data(ruta_html):
     """
@@ -232,8 +244,9 @@ def calcular_posiciones_y_pases(data, lado="home", solo_titulares=True, periodo=
         for (a, b), veces in conteo_pases.items()
     ]
 
+    nombre_equipo = equipo.get("name")
     return {
-        "equipo": equipo.get("name"),
+        "equipo": NOMBRES_EQUIPO.get(nombre_equipo, nombre_equipo),
         "jugadores": jugadores_salida,
         "pases": pases_salida,
     }
