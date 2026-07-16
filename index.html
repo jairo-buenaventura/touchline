@@ -555,11 +555,11 @@
         <button class="custom-select-btn" id="cs-liga-btn">World Cup</button>
         <div class="custom-select-list" id="cs-liga-list">
           <div class="custom-select-option seleccionado" data-value="world_cup">World Cup</div>
-          <div class="custom-select-option" data-value="la_liga">La Liga</div>
           <div class="custom-select-option" data-value="premier_league">Premier League</div>
-          <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
+          <div class="custom-select-option" data-value="la_liga">La Liga</div>
           <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
           <div class="custom-select-option" data-value="serie_a">Serie A</div>
+          <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
           <div class="custom-select-option" data-value="liga_argentina">Liga Argentina</div>
         </div>
@@ -1460,8 +1460,14 @@
     }
 
     function actualizarMarcador(datos) {
-      document.getElementById('nombre-home').textContent = datos.home.equipo;
-      document.getElementById('nombre-away').textContent = datos.away.equipo;
+      const nombreHome = datos.home.equipo;
+      const nombreAway = datos.away.equipo;
+      const maxLen = Math.max(nombreHome.length, nombreAway.length);
+      const fontSize = maxLen > 20 ? '14px' : maxLen > 15 ? '18px' : '22px';
+      document.getElementById('nombre-home').textContent = nombreHome;
+      document.getElementById('nombre-away').textContent = nombreAway;
+      document.getElementById('nombre-home').style.fontSize = fontSize;
+      document.getElementById('nombre-away').style.fontSize = fontSize;
       document.getElementById('marcador-numero').textContent = datos.marcador;
       const imgHome = document.getElementById('escudo-home');
       const imgAway = document.getElementById('escudo-away');

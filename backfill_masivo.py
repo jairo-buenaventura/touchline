@@ -32,8 +32,30 @@ def fetch_html(url, wait_ms=8000):
     return html
 
 
+EQUIVALENCIAS_FOTMOB = {
+    "Parma Calcio 1913": "Parma",
+    "Verona": "Hellas Verona",
+    "AZ Alkmaar": "AZ",
+    "FC Groningen": "Groningen",
+    "PEC Zwolle": "Zwolle",
+    "PSV Eindhoven": "PSV",
+    "Borussia M'gladbach": "Borussia Monchengladbach",
+    "Bayer Leverkusen": "Leverkusen",
+    "Eintracht Frankfurt": "Frankfurt",
+    "RB Leipzig": "Leipzig",
+    "Paris Saint-Germain": "PSG",
+    "Olympique Marseille": "Marseille",
+    "Olympique Lyonnais": "Lyon",
+    "Stade Rennais": "Rennes",
+}
+
+def normalizar_nombre_fotmob(nombre):
+    return EQUIVALENCIAS_FOTMOB.get(nombre, nombre)
+
 def buscar_id_fotmob(home, away, fecha_iso):
-    termino = f"{home} {away}"
+    home_n = normalizar_nombre_fotmob(home)
+    away_n = normalizar_nombre_fotmob(away)
+    termino = f"{home_n} {away_n}"
     r = requests.get(
         "https://apigw.fotmob.com/searchapi/suggest",
         params={"term": termino, "lang": "en"},
