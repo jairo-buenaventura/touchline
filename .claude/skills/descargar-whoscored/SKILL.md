@@ -1,6 +1,6 @@
 ---
 name: descargar-whoscored
-description: Descarga el HTML completo (match center) de todos los partidos de una liga/temporada en WhoScored usando el navegador de Playwright MCP, y los guarda en partidos_html/. Usar cuando el usuario pida "descargar partidos de whoscored", "bajar el html de [liga] de whoscored" o similar para cualquier competición/temporada.
+description: Descarga el HTML completo (match center) de todos los partidos de una liga/temporada en WhoScored usando el navegador de Playwright MCP, y los guarda en partidos_html/. Usar cuando el usuario pida "descargar partidos de whoscored", "bajar el html de [liga] de whoscored" o similar para cualquier competición/temporada. También cubre el flujo de un solo partido (ver Paso 6): bajar WhoScored + FotMob de un partido puntual y generar de una vez su CSV de eventos y sus 4 PNG de dashboard.
 ---
 
 SOP para descargar en bloque el HTML de partidos de WhoScored (match center "live") para una liga y temporada dadas, evitando el bloqueo de Cloudflare y sin agotar el contexto de la conversación.
@@ -174,3 +174,52 @@ Elegir el `stageId` cuyo texto sea el nombre de la liga regular (no "Playoff", "
 - El popup de suscripción a notificaciones push (`.webpush-swal2-container`) intercepta clicks reales del mouse; si se necesita clickear algo en la UI, hacerlo vía `element.click()` en JS (evaluate) en vez de `browser_click`, o eliminar el overlay primero con `document.querySelector('.webpush-swal2-container')?.remove()`.
 - Los IDs de partido de WhoScored NO son contiguos por competición/temporada de forma fiable en toda la temporada (hay bloques contiguos localmente por reprogramaciones, pero no se puede asumir un rango numérico completo sin gaps para toda la temporada) — por eso el paso 2 (endpoint de datos) es más fiable que adivinar rangos de ID.
 - `mcp__playwright__browser_click` requiere el parámetro `target` (no `ref`) con la referencia exacta del snapshot.
+
+## Paso 6 — Partido individual: WhoScored + FotMob + CSV + dashboards, de una sola vez
+
+Cuando lo que se pide es UN partido puntual (no una liga/temporada completa) y además se quiere terminar con el CSV de eventos y las 4 imágenes de dashboard listas — no solo el HTML crudo — el flujo completo es:
+
+### 6.1 — HTML de WhoScored del partido
+
+Igual que el Paso 3, pero para un solo `matchId` (buscarlo navegando a la página del partido en whoscored.com, o vía el endpoint de datos del Paso 2 si ya se tiene el `stageId` de esa competición). Un solo `browser_evaluate` con `fetch('https://www.whoscored.com/matches/<ID>/live')` y `filename` apuntando a la carpeta del partido (NO a `partidos_html/` si es un partido suelto fuera de una liga trackeada, p.ej. Mundial — en ese caso el destino es la carpeta propia del partido, ej. `~/Documents/Mundial/<Ronda>/<NN. Equipo1 vs Equipo2>/`).
+
+### 6.2 — HTML de FotMob del mismo partido
+
+FotMob no tiene el mismo bloqueo de Cloudflare que WhoScored, pero de todas formas conviene usar la sesión de navegador ya autenticada por consistencia. Con la página de FotMob del partido ya navegada (`browser_navigate` a `https://www.fotmob.com/match/<matchId>` o a la URL de "H2H" que se obtiene buscando el partido en fotmob.com), un `browser_evaluate` con:
+
+```js
+async () => {
+  const res = await fetch(window.location.href);
+  return await res.text();
+}
+```
+
+y `filename` apuntando al HTML de FotMob dentro de la misma carpeta del partido. Esto guarda exactamente el mismo contenido que el usuario venía guardando a mano con Cmd+S: una página con el bloque `<script id="__NEXT_DATA__">` embebido, que es lo único que necesita `fotmob_parser.py` (función `extraer_datos_fotmob`) para sacar xG/xGOT — no hace falta el JSON crudo del Network tab salvo que este fetch falle.
+
+Si el partido todavía no se jugó o FotMob no trae stats (`extraer_datos_fotmob` lanza `ValueError` en ese caso), avisar y no continuar al paso 6.3 hasta que haya HTML post-partido.
+
+### 6.3 — Generar el CSV + los 4 PNG de dashboard
+
+Con ambos HTML ya en la carpeta del partido, usar la función ya existente en el repo (NO reescribir la lógica de dibujo desde cero):
+
+- Módulo: `/Users/jairobuenaventura/Desktop/touchline/mundial_dashboard.py`, función `generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir)`.
+- Intérprete: el venv ya preparado con todas las dependencias (mplsoccer, highlight_text, scikit-learn, scipy, seaborn, pandas, numpy, matplotlib) en `/Users/jairobuenaventura/Desktop/touchline/.venv_mundial/bin/python3`. Si no existe, recrearlo con `python3 -m venv .venv_mundial && .venv_mundial/bin/pip install mplsoccer highlight_text scikit-learn scipy seaborn pandas numpy matplotlib`.
+- `gw_label`: string descriptivo de la ronda ("Jornada 5", "Dieciseisavos", "Final", etc.) — no tiene que ser un entero.
+- `output_dir`: la misma carpeta del partido; ahí se guardan `{Home}_vs_{Away}.csv` y los 4 PNG (`_Dashboard`, `_Player_Dashboard`, `_KPI_Summary`, `_Tactical_Insights`), con `{Home}`/`{Away}` tomados del nombre de equipo tal como viene en el JSON de WhoScored (en inglés).
+
+La función ya resuelve automáticamente, sin pedir nada al usuario:
+- **xG/xGOT**: los saca de `fotmob_parser.extraer_datos_fotmob(fotmob_html)`, emparejando cuidadosamente el lado home/away de FotMob (que puede venir en español y en distinto orden) contra el home/away de WhoScored.
+- **PLAYER_HOME / PLAYER_AWAY** (jugador destacado para el panel individual): el jugador de campo (no arquero) con la calificación final más alta de WhoScored (`stats.ratings`, último valor por minuto) de cada equipo.
+- **Goles de tanda de penales**: si el partido fue a penales (existen eventos con período `PenaltyShootout`), se excluyen del conteo de goles y de todas las visualizaciones de tiros/xT — el marcador que se muestra es el de tiempo reglamentario + prórroga, no el de la tanda.
+
+### 6.4 — Colores del equipo (`TEAM_COLORS` dentro de `mundial_dashboard.py`)
+
+Antes de generar los PNG, confirmar que ambos equipos del partido están en el diccionario `TEAM_COLORS` y que su color de local y de visitante:
+1. **No sea blanco (`#FFFFFF`) ni un tono casi blanco** — el fondo del campo en el dashboard es blanco, así que un color de equipo blanco/gris muy claro lo hace ilegible (bug real ya encontrado y corregido para Canadá, Japón, Alemania, Senegal y Ghana).
+2. **No choque con el color asignado al rival en ese partido específico** (mismo color o demasiado parecido para ambos lados).
+
+Si el equipo no está en `TEAM_COLORS`, o su color choca/es blanco para este partido, conseguir los colores oficiales (idealmente pidiéndole al usuario una fuente, ej. footylogos.com/es/team-color-codes/<competición>) antes de generar las imágenes — no usar el color de fallback genérico del script (`#F50900`/`#0115F5`) si se puede evitar, porque no representa al equipo real.
+
+### 6.5 — Para varios partidos a la vez
+
+Si son varios partidos (una ronda completa, por ejemplo), delegar el batch (6.1–6.3 repetido por partido) a un `Agent` en background igual que en el Paso 4, para no saturar el contexto de la conversación principal — pasándole en el prompt la lista exacta de carpetas + nombres de HTML esperados, y pidiéndole que reporte por partido el marcador calculado, los jugadores elegidos y el origen del xG (FotMob real vs. algún fallback).
