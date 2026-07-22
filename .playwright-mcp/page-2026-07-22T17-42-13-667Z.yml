@@ -1,0 +1,1073 @@
+- generic [active] [ref=f14617e1]:
+  - generic [ref=f14617e5]:
+    - generic [ref=f14617e7]:
+      - generic [ref=f14617e8]:
+        - link [ref=f14617e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=f14617e12]
+        - combobox [ref=f14617e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=f14617e14]:
+        - generic [ref=f14617e15]:
+          - button [ref=f14617e16] [cursor=pointer]:
+            - img "search" [ref=f14617e18]
+          - textbox "Search" [ref=f14617e19]
+      - iframe [ref=f14617e22]:
+        - generic [ref=f14618e2]:
+          - link "Sign In" [ref=f14618e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f14618e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=f14617e24]:
+      - navigation [ref=f14617e25]:
+        - link "Live Scores" [ref=f14617e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=f14617e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=f14617e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=f14617e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=f14617e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=f14617e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=f14617e38]:
+          - img "ws+_logo" [ref=f14617e39]
+          - link "WHOSCORED+" [ref=f14617e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=f14617e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=f14617e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=f14617e48]
+    - generic [ref=f14617e52]:
+      - button "Top Tournaments" [ref=f14617e53] [cursor=pointer]
+      - button "Favourites" [ref=f14617e57] [cursor=pointer]
+      - button "All Tournaments" [ref=f14617e61] [cursor=pointer]
+  - generic [ref=f14617e65]:
+    - generic [ref=f14617e67]:
+      - generic [ref=f14617e72]:
+        - generic [ref=f14617e73]:
+          - generic [ref=f14617e74]:
+            - img "teammate-stars-logo" [ref=f14617e75]
+            - generic [ref=f14617e79]: TEAMMATE
+          - generic [ref=f14617e80]:
+            - button "refresh-button" [ref=f14617e81] [cursor=pointer]:
+              - img "refresh-chatbot-session" [ref=f14617e82]
+            - button "expand-button" [ref=f14617e84] [cursor=pointer]:
+              - img "expand-chatbot" [ref=f14617e85]
+        - textbox "Ask me anything..." [ref=f14617e91]
+        - list "chips-list" [ref=f14617e93]:
+          - listitem "chips-list-item" [ref=f14617e94] [cursor=pointer]: Live Player Ratings
+          - listitem "chips-list-item" [ref=f14617e95] [cursor=pointer]: Latest Stats Summary
+          - listitem "chips-list-item" [ref=f14617e96] [cursor=pointer]: Latest Odds
+      - generic [ref=f14617e98]:
+        - generic [ref=f14617e99]: England
+        - generic [ref=f14617e101]: »
+        - link "Premier League - 2024/2025" [ref=f14617e102] [cursor=pointer]:
+          - /url: /Regions/252/Tournaments/2/Seasons/10316/england-premier-league
+        - generic [ref=f14617e103]: »
+        - combobox [ref=f14617e104]:
+          - option "Manchester United-Fulham" [selected]
+          - option "Ipswich-Liverpool"
+          - option "Arsenal-Wolves"
+          - option "Everton-Brighton"
+          - option "Newcastle-Southampton"
+          - option "Nottingham Forest-Bournemouth"
+          - option "West Ham-Aston Villa"
+          - option "Brentford-Crystal Palace"
+          - option "Chelsea-Manchester City"
+      - table [ref=f14617e106]:
+        - rowgroup [ref=f14617e107]:
+          - row [ref=f14617e108]:
+            - cell [ref=f14617e109]:
+              - link "Man Utd" [ref=f14617e110] [cursor=pointer]:
+                - /url: /teams/32/show/england-man-utd
+            - 'cell "1 : 0" [ref=f14617e111]'
+            - cell [ref=f14617e112]:
+              - link "Fulham" [ref=f14617e113] [cursor=pointer]:
+                - /url: /teams/170/show/england-fulham
+          - row [ref=f14617e114]:
+            - cell [ref=f14617e115]
+            - 'cell "Elapsed: FT Half time: 0 : 0 Full time: 1 : 0 Kick off: 20:00 Date: Fri, 16-Aug-24" [ref=f14617e118]':
+              - generic:
+                - generic:
+                  - term [ref=f14617e119]: "Elapsed:"
+                  - definition [ref=f14617e120]:
+                    - generic [ref=f14617e121]: FT
+              - generic:
+                - generic:
+                  - term [ref=f14617e122]: "Half time:"
+                  - definition [ref=f14617e123]: "0 : 0"
+                  - term [ref=f14617e124]: "Full time:"
+                  - definition [ref=f14617e125]: "1 : 0"
+              - generic:
+                - generic:
+                  - term [ref=f14617e126]: "Kick off:"
+                  - definition [ref=f14617e127]: 20:00
+                  - term [ref=f14617e128]: "Date:"
+                  - definition [ref=f14617e129]: Fri, 16-Aug-24
+            - cell [ref=f14617e130]
+      - list [ref=f14617e134]:
+        - listitem [ref=f14617e135]:
+          - link "Preview" [ref=f14617e136] [cursor=pointer]:
+            - /url: /matches/1821049/preview/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem [ref=f14617e137]:
+          - link "Head to Head" [ref=f14617e138] [cursor=pointer]:
+            - /url: /matches/1821049/show/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem
+        - listitem [ref=f14617e139]:
+          - link "Betting" [ref=f14617e140] [cursor=pointer]:
+            - /url: /matches/1821049/betting/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem [ref=f14617e141]:
+          - link "Match Centre" [ref=f14617e142] [cursor=pointer]:
+            - /url: /matches/1821049/live/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem [ref=f14617e143]:
+          - link "Match Report" [ref=f14617e144] [cursor=pointer]:
+            - /url: /matches/1821049/matchreport/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem [ref=f14617e145]:
+          - link "Live Stream" [ref=f14617e146] [cursor=pointer]:
+            - /url: /matches/1821049/livestream/england-premier-league-2024-2025-manchester-united-fulham
+      - list [ref=f14617e148]:
+        - listitem [ref=f14617e149]:
+          - link "Summary" [ref=f14617e150] [cursor=pointer]:
+            - /url: /matches/1821049/live/england-premier-league-2024-2025-manchester-united-fulham
+        - listitem [ref=f14617e151]:
+          - link "Player Statistics" [ref=f14617e152] [cursor=pointer]:
+            - /url: /matches/1821049/livestatistics/england-premier-league-2024-2025-manchester-united-fulham
+      - heading "Timeline" [level=2] [ref=f14617e153]
+      - table [ref=f14617e156]:
+        - rowgroup [ref=f14617e157]:
+          - row [ref=f14617e158]:
+            - cell [ref=f14617e159]:
+              - generic "Mason Mount recieves a yellow card" [ref=f14617e160]:
+                - link "Mason Mount" [ref=f14617e161] [cursor=pointer]:
+                  - /url: /players/343346/show/mason-mount
+            - cell "18'" [ref=f14617e163]
+            - cell [ref=f14617e165]
+          - row [ref=f14617e166]:
+            - cell [ref=f14617e167]
+            - cell "25'" [ref=f14617e168]
+            - cell [ref=f14617e170]:
+              - generic "Calvin Bassey recieves a yellow card" [ref=f14617e171]:
+                - link "Calvin Bassey" [ref=f14617e173] [cursor=pointer]:
+                  - /url: /players/396976/show/calvin-bassey
+          - row [ref=f14617e174]:
+            - cell [ref=f14617e175]:
+              - generic "Harry Maguire recieves a yellow card" [ref=f14617e176]:
+                - link "Harry Maguire" [ref=f14617e177] [cursor=pointer]:
+                  - /url: /players/99487/show/harry-maguire
+            - cell "40'" [ref=f14617e179]
+            - cell [ref=f14617e181]
+          - row [ref=f14617e182]:
+            - cell [ref=f14617e183]:
+              - generic "Mason Mount is substituted off" [ref=f14617e184]:
+                - link "Mason Mount" [ref=f14617e185] [cursor=pointer]:
+                  - /url: /players/343346/show/mason-mount
+              - generic "Joshua Zirkzee is substituted on" [ref=f14617e187]:
+                - link "Joshua Zirkzee" [ref=f14617e188] [cursor=pointer]:
+                  - /url: /players/383956/show/joshua-zirkzee
+              - generic "Amad Diallo is substituted off" [ref=f14617e190]:
+                - link "Amad Diallo" [ref=f14617e191] [cursor=pointer]:
+                  - /url: /players/386634/show/amad-diallo
+              - generic "Alejandro Garnacho is substituted on" [ref=f14617e193]:
+                - link "Alejandro Garnacho" [ref=f14617e194] [cursor=pointer]:
+                  - /url: /players/437022/show/alejandro-garnacho
+            - cell "61'" [ref=f14617e196]
+            - cell [ref=f14617e198]
+          - row [ref=f14617e199]:
+            - cell [ref=f14617e200]
+            - cell "64'" [ref=f14617e201]
+            - cell [ref=f14617e203]:
+              - generic "Emile Smith Rowe is substituted off" [ref=f14617e204]:
+                - link "Emile Smith Rowe" [ref=f14617e206] [cursor=pointer]:
+                  - /url: /players/363686/show/emile-smith-rowe
+              - generic "Tom Cairney is substituted on" [ref=f14617e207]:
+                - link "Tom Cairney" [ref=f14617e209] [cursor=pointer]:
+                  - /url: /players/79583/show/tom-cairney
+          - row [ref=f14617e210]:
+            - cell [ref=f14617e211]
+            - cell "70'" [ref=f14617e212]
+            - cell [ref=f14617e214]:
+              - generic "Andreas Pereira recieves a yellow card" [ref=f14617e215]:
+                - link "Andreas Pereira" [ref=f14617e217] [cursor=pointer]:
+                  - /url: /players/243254/show/andreas-pereira
+          - row [ref=f14617e218]:
+            - cell [ref=f14617e219]
+            - cell "73'" [ref=f14617e220]
+            - cell [ref=f14617e222]:
+              - generic "Tom Cairney recieves a yellow card" [ref=f14617e223]:
+                - link "Tom Cairney" [ref=f14617e225] [cursor=pointer]:
+                  - /url: /players/79583/show/tom-cairney
+          - row [ref=f14617e226]:
+            - cell [ref=f14617e227]
+            - cell "78'" [ref=f14617e228]
+            - cell [ref=f14617e230]:
+              - generic "Adama Traoré is substituted off" [ref=f14617e231]:
+                - link "Adama Traoré" [ref=f14617e233] [cursor=pointer]:
+                  - /url: /players/140088/show/adama-traoré
+              - generic "Harry Wilson is substituted on" [ref=f14617e234]:
+                - link "Harry Wilson" [ref=f14617e236] [cursor=pointer]:
+                  - /url: /players/333044/show/harry-wilson
+              - generic "Rodrigo Muniz is substituted off" [ref=f14617e237]:
+                - link "Rodrigo Muniz" [ref=f14617e239] [cursor=pointer]:
+                  - /url: /players/403649/show/rodrigo-muniz
+              - generic "Raúl Jiménez is substituted on" [ref=f14617e240]:
+                - link "Raúl Jiménez" [ref=f14617e242] [cursor=pointer]:
+                  - /url: /players/108186/show/raúl-jiménez
+          - row [ref=f14617e243]:
+            - cell [ref=f14617e244]:
+              - generic "Harry Maguire is substituted off" [ref=f14617e245]:
+                - link "Harry Maguire" [ref=f14617e246] [cursor=pointer]:
+                  - /url: /players/99487/show/harry-maguire
+              - generic "Jonny Evans is substituted on" [ref=f14617e248]:
+                - link "Jonny Evans" [ref=f14617e249] [cursor=pointer]:
+                  - /url: /players/22079/show/jonny-evans
+              - generic "Noussair Mazraoui is substituted off" [ref=f14617e251]:
+                - link "Noussair Mazraoui" [ref=f14617e252] [cursor=pointer]:
+                  - /url: /players/349932/show/noussair-mazraoui
+              - generic "Matthijs de Ligt is substituted on" [ref=f14617e254]:
+                - link "Matthijs de Ligt" [ref=f14617e255] [cursor=pointer]:
+                  - /url: /players/320374/show/matthijs-de-ligt
+            - cell "81'" [ref=f14617e257]
+            - cell [ref=f14617e259]
+          - row [ref=f14617e260]:
+            - cell [ref=f14617e261]:
+              - generic "Kobbie Mainoo is substituted off" [ref=f14617e262]:
+                - link "Kobbie Mainoo" [ref=f14617e263] [cursor=pointer]:
+                  - /url: /players/460260/show/kobbie-mainoo
+              - generic "Scott McTominay is substituted on" [ref=f14617e265]:
+                - link "Scott McTominay" [ref=f14617e266] [cursor=pointer]:
+                  - /url: /players/336915/show/scott-mctominay
+            - cell "84'" [ref=f14617e268]
+            - cell [ref=f14617e270]
+          - row [ref=f14617e271]:
+            - cell "Alejandro Garnacho Joshua Zirkzee (1-0)" [ref=f14617e272]:
+              - generic "Alejandro Garnacho assists a goal (Standing, Cross, Key pass, Right footed, Open play)" [ref=f14617e273]:
+                - link "Alejandro Garnacho" [ref=f14617e274] [cursor=pointer]:
+                  - /url: /players/437022/show/alejandro-garnacho
+              - generic "GOAL! Joshua Zirkzee scores , Assisted by Alejandro Garnacho (Standing, Low to the left, 18-yard box, Left footed, Open play)" [ref=f14617e276]:
+                - link "Joshua Zirkzee" [ref=f14617e277] [cursor=pointer]:
+                  - /url: /players/383956/show/joshua-zirkzee
+                - generic [ref=f14617e278]: (1-0)
+            - cell "87'" [ref=f14617e280]
+            - cell [ref=f14617e282]
+          - row [ref=f14617e283]:
+            - cell [ref=f14617e284]
+            - cell "91'" [ref=f14617e285]
+            - cell [ref=f14617e287]:
+              - generic "Sasa Lukic is substituted off" [ref=f14617e288]:
+                - link "Sasa Lukic" [ref=f14617e290] [cursor=pointer]:
+                  - /url: /players/297395/show/sasa-lukic
+              - generic "Jay Stansfield is substituted on" [ref=f14617e291]:
+                - link "Jay Stansfield" [ref=f14617e293] [cursor=pointer]:
+                  - /url: /players/390214/show/jay-stansfield
+              - generic "Andreas Pereira is substituted off" [ref=f14617e294]:
+                - link "Andreas Pereira" [ref=f14617e296] [cursor=pointer]:
+                  - /url: /players/243254/show/andreas-pereira
+              - generic "Harrison Reed is substituted on" [ref=f14617e297]:
+                - link "Harrison Reed" [ref=f14617e299] [cursor=pointer]:
+                  - /url: /players/135724/show/harrison-reed
+    - list [ref=f14617e302]:
+      - listitem [ref=f14617e303] [cursor=pointer]:
+        - link "Match Centre" [ref=f14617e304]:
+          - /url: "#match-centre"
+      - listitem [ref=f14617e306] [cursor=pointer]:
+        - link "Match Commentary" [ref=f14617e307]:
+          - /url: "#match-commentary"
+      - listitem [ref=f14617e309] [cursor=pointer]:
+        - link "Chalkboard" [ref=f14617e310]:
+          - /url: "#chalkboard"
+      - listitem [ref=f14617e312] [cursor=pointer]:
+        - link "Heatmaps" [ref=f14617e313]:
+          - /url: "#heatmaps"
+      - listitem [ref=f14617e315] [cursor=pointer]:
+        - link "Live Stream" [ref=f14617e316]:
+          - /url: "#livestream"
+    - generic [ref=f14617e318]:
+      - generic [ref=f14617e319]:
+        - generic [ref=f14617e323]:
+          - generic [ref=f14617e324]: "6.95"
+          - link "Man Utd" [ref=f14617e325] [cursor=pointer]:
+            - /url: /teams/32/show/england-man-utd
+          - generic [ref=f14617e326]: Erik ten Hag
+          - generic [ref=f14617e328]: 4-2-3-1
+        - generic [ref=f14617e330]:
+          - generic [ref=f14617e331]: "1 : 0"
+          - generic [ref=f14617e332]: FT
+        - generic [ref=f14617e337]:
+          - generic [ref=f14617e338]: "6.40"
+          - link "Fulham" [ref=f14617e339] [cursor=pointer]:
+            - /url: /teams/170/show/england-fulham
+          - generic [ref=f14617e340]: Marco Alexandre Saraiva da Silva
+          - generic [ref=f14617e342]: 4-2-3-1
+      - generic [ref=f14617e343]:
+        - generic [ref=f14617e344]:
+          - generic [ref=f14617e345]:
+            - generic [ref=f14617e346]:
+              - generic [ref=f14617e351]:
+                - generic [ref=f14617e352] [cursor=pointer]:
+                  - generic [ref=f14617e353]: "6.2"
+                  - generic "Jonny Evans" [ref=f14617e356]:
+                    - generic [ref=f14617e357]: "35."
+                    - generic [ref=f14617e358]: Evans
+                - generic [ref=f14617e361] [cursor=pointer]:
+                  - generic [ref=f14617e362]: "6.2"
+                  - generic "Scott McTominay" [ref=f14617e365]:
+                    - generic [ref=f14617e366]: "39."
+                    - generic [ref=f14617e367]: McTominay
+                - generic [ref=f14617e370] [cursor=pointer]:
+                  - generic [ref=f14617e371]: "7.1"
+                  - generic "Joshua Zirkzee" [ref=f14617e374]:
+                    - generic [ref=f14617e375]: "11."
+                    - generic [ref=f14617e376]: Zirkzee
+                - generic [ref=f14617e380] [cursor=pointer]:
+                  - generic [ref=f14617e381]: "6.1"
+                  - generic "Matthijs de Ligt" [ref=f14617e384]:
+                    - generic [ref=f14617e385]: "4."
+                    - generic [ref=f14617e386]: Ligt
+                - generic [ref=f14617e389] [cursor=pointer]:
+                  - generic [ref=f14617e390]: "6.9"
+                  - generic "Alejandro Garnacho" [ref=f14617e393]:
+                    - generic [ref=f14617e394]: "17."
+                    - generic [ref=f14617e395]: Garnacho
+                - generic "Antony" [ref=f14617e403] [cursor=pointer]:
+                  - generic [ref=f14617e404]: "21."
+                  - text: Antony
+                - generic "Christian Eriksen" [ref=f14617e409] [cursor=pointer]:
+                  - generic [ref=f14617e410]: "14."
+                  - text: Eriksen
+                - generic "Altay Bayindir" [ref=f14617e415] [cursor=pointer]:
+                  - generic [ref=f14617e416]: "1."
+                  - text: Bayindir
+                - generic "Toby Collyer" [ref=f14617e421] [cursor=pointer]:
+                  - generic [ref=f14617e422]: "43."
+                  - text: Collyer
+              - text: "Formation: y/o"
+            - generic [ref=f14617e423]:
+              - generic [ref=f14617e424]:
+                - generic "Old Trafford" [ref=f14617e425]
+                - generic "73297" [ref=f14617e428]: 73,297
+                - generic "Robert Jones" [ref=f14617e431]:
+                  - link "R. Jones" [ref=f14617e432] [cursor=pointer]:
+                    - /url: /referees/998/show/robert-jones
+              - generic [ref=f14617e435]:
+                - generic [ref=f14617e436]:
+                  - generic [ref=f14617e437] [cursor=pointer]:
+                    - generic [ref=f14617e438]: "7.1"
+                    - generic "André Onana" [ref=f14617e441]:
+                      - generic [ref=f14617e442]: "24."
+                      - text: Onana
+                  - generic [ref=f14617e443] [cursor=pointer]:
+                    - generic [ref=f14617e444]: "7.4"
+                    - generic "Noussair Mazraoui" [ref=f14617e447]:
+                      - generic [ref=f14617e448]: "3."
+                      - text: Mazraoui
+                  - generic [ref=f14617e451] [cursor=pointer]:
+                    - generic [ref=f14617e452]: "7.3"
+                    - generic "Lisandro Martínez" [ref=f14617e455]:
+                      - generic [ref=f14617e456]: "6."
+                      - text: Martínez
+                  - generic [ref=f14617e457] [cursor=pointer]:
+                    - generic [ref=f14617e458]: "7.4"
+                    - generic "Harry Maguire" [ref=f14617e461]:
+                      - generic [ref=f14617e462]: "5."
+                      - text: Maguire
+                  - generic [ref=f14617e466] [cursor=pointer]:
+                    - generic [ref=f14617e467]: "7.3"
+                    - generic "Diogo Dalot" [ref=f14617e470]:
+                      - generic [ref=f14617e471]: "20."
+                      - text: Dalot
+                  - generic [ref=f14617e472] [cursor=pointer]:
+                    - generic [ref=f14617e473]: "7.9"
+                    - generic "Casemiro" [ref=f14617e476]:
+                      - generic [ref=f14617e477]: "18."
+                      - text: Casemiro
+                  - generic [ref=f14617e478] [cursor=pointer]:
+                    - generic [ref=f14617e479]: "7.9"
+                    - generic "Kobbie Mainoo" [ref=f14617e482]:
+                      - generic [ref=f14617e483]: "37."
+                      - text: Mainoo
+                  - generic [ref=f14617e486] [cursor=pointer]:
+                    - generic [ref=f14617e487]: "6.7"
+                    - generic "Amad Diallo" [ref=f14617e490]:
+                      - generic [ref=f14617e491]: "16."
+                      - text: Diallo
+                  - generic [ref=f14617e494] [cursor=pointer]:
+                    - generic [ref=f14617e495]: "6.4"
+                    - generic "Mason Mount" [ref=f14617e498]:
+                      - generic [ref=f14617e499]: "7."
+                      - text: Mount
+                  - generic [ref=f14617e503] [cursor=pointer]:
+                    - generic [ref=f14617e504]: "6.5"
+                    - generic "Marcus Rashford" [ref=f14617e507]:
+                      - generic [ref=f14617e508]: "10."
+                      - text: Rashford
+                  - generic [ref=f14617e509] [cursor=pointer]:
+                    - generic [ref=f14617e510]: "6.8"
+                    - generic "Bruno Fernandes" [ref=f14617e513]:
+                      - generic [ref=f14617e514]: "8."
+                      - text: Fernandes
+                - generic [ref=f14617e515]:
+                  - generic [ref=f14617e516] [cursor=pointer]:
+                    - generic [ref=f14617e517]: "6.4"
+                    - generic "Bernd Leno" [ref=f14617e520]:
+                      - generic [ref=f14617e521]: "1."
+                      - text: Leno
+                  - generic [ref=f14617e522] [cursor=pointer]:
+                    - generic [ref=f14617e523]: "6.4"
+                    - generic "Kenny Tete" [ref=f14617e526]:
+                      - generic [ref=f14617e527]: "2."
+                      - text: Tete
+                  - generic [ref=f14617e528] [cursor=pointer]:
+                    - generic [ref=f14617e529]: "6.7"
+                    - generic "Issa Diop" [ref=f14617e532]:
+                      - generic [ref=f14617e533]: "31."
+                      - text: Diop
+                  - generic [ref=f14617e534] [cursor=pointer]:
+                    - generic [ref=f14617e535]: "5.8"
+                    - generic "Calvin Bassey" [ref=f14617e538]:
+                      - generic [ref=f14617e539]: "3."
+                      - text: Bassey
+                  - generic [ref=f14617e542] [cursor=pointer]:
+                    - generic [ref=f14617e543]: "7.4"
+                    - generic "Antonee Robinson" [ref=f14617e546]:
+                      - generic [ref=f14617e547]: "33."
+                      - text: Robinson
+                  - generic [ref=f14617e548] [cursor=pointer]:
+                    - generic [ref=f14617e549]: "6.7"
+                    - generic "Andreas Pereira" [ref=f14617e552]:
+                      - generic [ref=f14617e553]: "18."
+                      - text: Pereira
+                  - generic [ref=f14617e557] [cursor=pointer]:
+                    - generic [ref=f14617e558]: "6.4"
+                    - generic "Sasa Lukic" [ref=f14617e561]:
+                      - generic [ref=f14617e562]: "20."
+                      - text: Lukic
+                  - generic [ref=f14617e565] [cursor=pointer]:
+                    - generic [ref=f14617e566]: "6.9"
+                    - generic "Adama Traoré" [ref=f14617e569]:
+                      - generic [ref=f14617e570]: "11."
+                      - text: Traoré
+                  - generic [ref=f14617e573] [cursor=pointer]:
+                    - generic [ref=f14617e574]: "6.5"
+                    - generic "Emile Smith Rowe" [ref=f14617e577]:
+                      - generic [ref=f14617e578]: "32."
+                      - text: Rowe
+                  - generic [ref=f14617e581] [cursor=pointer]:
+                    - generic [ref=f14617e582]: "6.4"
+                    - generic "Alex Iwobi" [ref=f14617e585]:
+                      - generic [ref=f14617e586]: "17."
+                      - text: Iwobi
+                  - generic [ref=f14617e587] [cursor=pointer]:
+                    - generic [ref=f14617e588]: "6.8"
+                    - generic "Rodrigo Muniz" [ref=f14617e591]:
+                      - generic [ref=f14617e592]: "9."
+                      - text: Muniz
+            - generic [ref=f14617e595]:
+              - generic [ref=f14617e600]:
+                - generic [ref=f14617e601] [cursor=pointer]:
+                  - generic [ref=f14617e602]: "6.0"
+                  - generic "Harry Wilson" [ref=f14617e605]:
+                    - generic [ref=f14617e606]: "8."
+                    - generic [ref=f14617e607]: Wilson
+                - generic [ref=f14617e610] [cursor=pointer]:
+                  - generic [ref=f14617e611]: "6.2"
+                  - generic "Tom Cairney" [ref=f14617e614]:
+                    - generic [ref=f14617e615]: "10."
+                    - generic [ref=f14617e616]: Cairney
+                - generic [ref=f14617e620] [cursor=pointer]:
+                  - generic [ref=f14617e621]: "6.1"
+                  - generic "Harrison Reed" [ref=f14617e624]:
+                    - generic [ref=f14617e625]: "6."
+                    - generic [ref=f14617e626]: Reed
+                - generic [ref=f14617e629] [cursor=pointer]:
+                  - generic [ref=f14617e630]: "6.0"
+                  - generic "Jay Stansfield" [ref=f14617e633]:
+                    - generic [ref=f14617e634]: "28."
+                    - generic [ref=f14617e635]: Stansfield
+                - generic [ref=f14617e638] [cursor=pointer]:
+                  - generic [ref=f14617e639]: "5.9"
+                  - generic "Raúl Jiménez" [ref=f14617e642]:
+                    - generic [ref=f14617e643]: "7."
+                    - generic [ref=f14617e644]: Jiménez
+                - generic "Timothy Castagne" [ref=f14617e651] [cursor=pointer]:
+                  - generic [ref=f14617e652]: "21."
+                  - text: Castagne
+                - generic "Steven Benda" [ref=f14617e657] [cursor=pointer]:
+                  - generic [ref=f14617e658]: "23."
+                  - text: Benda
+                - generic "Jorge Cuenca" [ref=f14617e663] [cursor=pointer]:
+                  - generic [ref=f14617e664]: "15."
+                  - text: Cuenca
+                - generic "Josh King" [ref=f14617e669] [cursor=pointer]:
+                  - generic [ref=f14617e670]: "24."
+                  - text: King
+              - text: "Formation: y/o"
+          - generic: cm kg cm kg
+        - generic [ref=f14617e672]:
+          - list [ref=f14617e673]:
+            - listitem [ref=f14617e674] [cursor=pointer]:
+              - heading "Ratings" [level=4] [ref=f14617e675]
+              - generic [ref=f14617e676]:
+                - generic [ref=f14617e677]: "6.95"
+                - generic [ref=f14617e678]: "-"
+                - generic [ref=f14617e679]: "6.40"
+              - generic [ref=f14617e680]: More
+            - listitem [ref=f14617e682] [cursor=pointer]:
+              - heading "Total Shots" [level=4] [ref=f14617e683]
+              - generic [ref=f14617e684]:
+                - generic [ref=f14617e685]: "14"
+                - generic [ref=f14617e686]: "-"
+                - generic [ref=f14617e687]: "10"
+              - generic [ref=f14617e688]: More
+            - listitem [ref=f14617e690] [cursor=pointer]:
+              - heading "Possession%" [level=4] [ref=f14617e691]
+              - generic [ref=f14617e692]:
+                - generic [ref=f14617e693]: "55.4"
+                - generic [ref=f14617e694]: "-"
+                - generic [ref=f14617e695]: "44.6"
+              - generic [ref=f14617e696]: More
+            - listitem [ref=f14617e698] [cursor=pointer]:
+              - heading "Pass Success%" [level=4] [ref=f14617e699]
+              - generic [ref=f14617e700]:
+                - generic [ref=f14617e701]: "85"
+                - generic [ref=f14617e702]: "-"
+                - generic [ref=f14617e703]: "80"
+              - generic [ref=f14617e704]: More
+            - listitem [ref=f14617e706] [cursor=pointer]:
+              - heading "Dribbles" [level=4] [ref=f14617e707]
+              - generic [ref=f14617e708]:
+                - generic [ref=f14617e709]: "8"
+                - generic [ref=f14617e710]: "-"
+                - generic [ref=f14617e711]: "8"
+              - generic [ref=f14617e712]: More
+            - listitem [ref=f14617e714] [cursor=pointer]:
+              - heading "Aerials Won" [level=4] [ref=f14617e715]
+              - generic [ref=f14617e716]:
+                - generic [ref=f14617e717]: "19"
+                - generic [ref=f14617e718]: "-"
+                - generic [ref=f14617e719]: "16"
+              - generic [ref=f14617e720]: More
+            - listitem [ref=f14617e722] [cursor=pointer]:
+              - heading "Tackles" [level=4] [ref=f14617e723]
+              - generic [ref=f14617e724]:
+                - generic [ref=f14617e725]: "21"
+                - generic [ref=f14617e726]: "-"
+                - generic [ref=f14617e727]: "24"
+              - generic [ref=f14617e728]: More
+            - listitem [ref=f14617e730] [cursor=pointer]:
+              - heading "Corners" [level=4] [ref=f14617e731]
+              - generic [ref=f14617e732]:
+                - generic [ref=f14617e733]: "7"
+                - generic [ref=f14617e734]: "-"
+                - generic [ref=f14617e735]: "8"
+              - generic [ref=f14617e736]: More
+            - listitem [ref=f14617e738] [cursor=pointer]:
+              - heading "Dispossessed" [level=4] [ref=f14617e739]
+              - generic [ref=f14617e740]:
+                - generic [ref=f14617e741]: "13"
+                - generic [ref=f14617e742]: "-"
+                - generic [ref=f14617e743]: "9"
+              - generic [ref=f14617e744]: More
+          - list
+        - generic [ref=f14617e747]:
+          - generic [ref=f14617e748]:
+            - generic [ref=f14617e758]: HT
+            - generic [ref=f14617e768]: FT
+          - generic [ref=f14617e770]:
+            - slider [ref=f14617e773]
+            - slider [ref=f14617e775]
+          - generic: Follow live
+          - generic [ref=f14617e777]:
+            - generic [ref=f14617e778]:
+              - generic [ref=f14617e779]: "'"
+              - generic [ref=f14617e780]: "'"
+              - generic [ref=f14617e781]: "'"
+              - text: "'"
+              - generic [ref=f14617e782]: "'"
+              - text: "'"
+              - generic [ref=f14617e783]: "'"
+              - generic [ref=f14617e784]: "'"
+              - text: "'"
+              - generic [ref=f14617e785]: "'"
+              - text: "'"
+              - generic [ref=f14617e786]: "'"
+              - generic [ref=f14617e787]: "'"
+              - text: "'"
+              - generic [ref=f14617e788]: "'"
+              - text: "'"
+              - generic [ref=f14617e789]: "'"
+            - generic [ref=f14617e890]:
+              - generic [ref=f14617e891]: "'"
+              - generic [ref=f14617e892]: "'"
+              - text: "'"
+              - generic [ref=f14617e893]: "'"
+              - generic [ref=f14617e894]: "'"
+              - generic [ref=f14617e895]: "'"
+              - text: "'"
+              - generic [ref=f14617e896]: "'"
+              - text: "'"
+              - generic [ref=f14617e897]: "'"
+              - generic [ref=f14617e898]: "'"
+              - text: "'"
+              - generic [ref=f14617e899]: "'"
+              - text: "'"
+              - generic [ref=f14617e900]: "'"
+              - generic [ref=f14617e901]: "'"
+        - text: Loading..
+      - text: Loading.. ▼ ▼ ' Loading.. ▼ ▼ Loading.. Loading..
+    - generic [ref=f14617e920]:
+      - generic [ref=f14617e921]: Man of the match
+      - generic [ref=f14617e924]: Goal
+      - generic [ref=f14617e927]: Own goal
+      - generic [ref=f14617e930]: Assist
+      - generic [ref=f14617e933]: Last man tackle
+      - generic [ref=f14617e936]: Error lead to goal
+      - generic [ref=f14617e939]: Penalty scored
+      - generic [ref=f14617e942]: Penalty missed
+      - generic [ref=f14617e945]: Clearance off the line
+      - generic [ref=f14617e948]: Penalty Saved
+      - generic [ref=f14617e951]: Shot on post
+      - generic [ref=f14617e954]: Sub out
+      - generic [ref=f14617e957]: Sub in
+      - generic [ref=f14617e960]: Yellow Card
+      - generic [ref=f14617e963]: Second Yellow Card
+      - generic [ref=f14617e966]: Red Card
+      - generic [ref=f14617e969]: Formation change
+      - generic [ref=f14617e972]: Last updated at 2024-08-17 06:10:28
+    - link "Please contact us with any feedback" [ref=f14617e974] [cursor=pointer]:
+      - /url: /contactus
+    - generic [ref=f14617e979]:
+      - heading "Comments (20)" [level=2] [ref=f14617e980]
+      - generic [ref=f14617e982]:
+        - term [ref=f14617e983]
+        - definition [ref=f14617e984]:
+          - link "Most Recent" [ref=f14617e985] [cursor=pointer]:
+            - /url: "?sortBy=Date"
+        - definition [ref=f14617e986]:
+          - link "Most Liked" [ref=f14617e987] [cursor=pointer]:
+            - /url: "?sortBy=Rating"
+      - generic [ref=f14617e989]:
+        - generic [ref=f14617e990]:
+          - generic [ref=f14617e991]:
+            - link "Sign In" [ref=f14617e992] [cursor=pointer]:
+              - /url: /accounts/login?originalUrl=http://www.whoscored.com/matches/1821049/live
+            - text: or
+            - link "Join Us" [ref=f14617e993] [cursor=pointer]:
+              - /url: /accounts/register?originalUrl=http://www.whoscored.com/matches/1821049/live
+            - text: to post your comment!
+          - button "Post" [ref=f14617e995] [cursor=pointer]
+        - list [ref=f14617e996]:
+          - listitem [ref=f14617e997]:
+            - generic [ref=f14617e998]:
+              - generic [ref=f14617e999]:
+                - text: "[ - ]"
+                - link "Byakuya" [ref=f14617e1001] [cursor=pointer]:
+                  - /url: /users/Byakuya
+                - text: "- member since 14-Dec-16"
+              - paragraph [ref=f14617e1003]: Welcome back PL, welcome back Ten Hag's useless tactics. This is second time in a row now that he took Diallo off instead of Rashford, starting without a natural striker was a horrible idea. Mount is nowhere near the kid we saw 3 years ago, hopefully the new signings will settle in quickly like Zirkzee.
+              - generic [ref=f14617e1004]:
+                - text: 1 year ago
+                - generic [ref=f14617e1005]:
+                  - generic [ref=f14617e1006]:
+                    - link "Like" [ref=f14617e1007] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1008]: Reply
+                  - link "Report" [ref=f14617e1010] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1011]:
+            - generic [ref=f14617e1012]:
+              - generic [ref=f14617e1013]:
+                - text: "[ - ]"
+                - link "koziol.mutant" [ref=f14617e1015] [cursor=pointer]:
+                  - /url: /users/koziol.mutant
+                - text: "- member since 03-Oct-14"
+              - paragraph [ref=f14617e1017]: Rashford 2nd worst on the pitch, loan him to conference
+              - generic [ref=f14617e1018]:
+                - text: 1 year ago
+                - generic [ref=f14617e1019]:
+                  - link "Like" [ref=f14617e1021] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1022]: Reply
+                  - link "Report" [ref=f14617e1024] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1025]:
+            - generic [ref=f14617e1026]:
+              - generic [ref=f14617e1027]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=f14617e1029] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=f14617e1031]: Bruno F. To Score/Assist Anytime -105
+              - generic [ref=f14617e1032]:
+                - text: 1 year ago
+                - generic [ref=f14617e1033]:
+                  - generic [ref=f14617e1034]:
+                    - link "Like" [ref=f14617e1035] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1036]: Reply
+                  - link "Report" [ref=f14617e1038] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1039]:
+            - generic [ref=f14617e1040]:
+              - generic [ref=f14617e1041]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1043] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1045]: Summer signings Matthijs de Ligt and Joshua Zirkzee are on the Manchester United bench.
+              - generic [ref=f14617e1046]:
+                - text: 1 year ago
+                - generic [ref=f14617e1047]:
+                  - generic [ref=f14617e1048]:
+                    - link "Like" [ref=f14617e1049] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1050]: Reply
+                  - link "Report" [ref=f14617e1052] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1053]:
+            - generic [ref=f14617e1055]:
+              - generic [ref=f14617e1056]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=f14617e1058] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=f14617e1060]: "@Marbella How about Sancho ?"
+              - generic [ref=f14617e1061]:
+                - text: 1 year ago
+                - generic [ref=f14617e1062]:
+                  - link "Like" [ref=f14617e1064] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1065]: Reply
+                  - link "Report" [ref=f14617e1067] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1068]:
+            - generic [ref=f14617e1069]:
+              - generic [ref=f14617e1070]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1072] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1074]: MAN UTD Onana; Dalot, Maguire, Martinez, Mazraoui; Casemiro, Mainoo; Diallo, Fernandes, Mount; Rashford.
+              - generic [ref=f14617e1075]:
+                - text: 1 year ago
+                - generic [ref=f14617e1076]:
+                  - generic [ref=f14617e1077]:
+                    - link "Like" [ref=f14617e1078] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=f14617e1079]: Reply
+                  - link "Report" [ref=f14617e1081] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1082]:
+            - generic [ref=f14617e1083]:
+              - generic [ref=f14617e1084]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1086] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1088]: FULHAM Leno; Tete, Diop, Bassey, Robinson; Lukic, Adama; Iwobi, Pereira, Smith Rowe; Muniz.
+              - generic [ref=f14617e1089]:
+                - text: 1 year ago
+                - generic [ref=f14617e1090]:
+                  - generic [ref=f14617e1091]:
+                    - link "Like" [ref=f14617e1092] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1093]: Reply
+                  - link "Report" [ref=f14617e1095] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1096]:
+            - generic [ref=f14617e1097]:
+              - generic [ref=f14617e1098]:
+                - text: "[ - ]"
+                - link "Otondi" [ref=f14617e1100] [cursor=pointer]:
+                  - /url: /users/Otondi
+                - text: "- member since 26-Jun-23"
+              - paragraph [ref=f14617e1102]: 1X
+              - generic [ref=f14617e1103]:
+                - text: 1 year ago
+                - generic [ref=f14617e1104]:
+                  - link "Like" [ref=f14617e1106] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1107]: Reply
+                  - link "Report" [ref=f14617e1109] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1110]:
+            - generic [ref=f14617e1111]:
+              - generic [ref=f14617e1112]:
+                - text: "[ - ]"
+                - link "P.Y" [ref=f14617e1114] [cursor=pointer]:
+                  - /url: /users/P.Y
+                - text: "- member since 17-Dec-13"
+              - paragraph [ref=f14617e1116]: will be a big progress if Utd manage a convincing victory and CS. nothing short of that is progress. nothing matters more than an all important clean sheet to begin the season especially at Old Trafford.
+              - generic [ref=f14617e1117]:
+                - text: 1 year ago
+                - generic [ref=f14617e1118]:
+                  - generic [ref=f14617e1119]:
+                    - link "Like" [ref=f14617e1120] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=f14617e1121]: Reply
+                  - link "Report" [ref=f14617e1123] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1124]:
+            - generic [ref=f14617e1125]:
+              - generic [ref=f14617e1126]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1128] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1130]: I hope Joshua Zirkzee plays some part in the game.His physical presence at 6foot 4 inches tall and well built will cause EPL teams problems.
+              - generic [ref=f14617e1131]:
+                - text: 1 year ago
+                - generic [ref=f14617e1132]:
+                  - generic [ref=f14617e1133]:
+                    - link "Like" [ref=f14617e1134] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=f14617e1135]: Reply
+                  - link "Report" [ref=f14617e1137] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1138]:
+            - generic [ref=f14617e1140]:
+              - generic [ref=f14617e1141]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1143] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1145]: "@Marbella Looks a great player"
+              - generic [ref=f14617e1146]:
+                - text: 1 year ago
+                - generic [ref=f14617e1147]:
+                  - generic [ref=f14617e1148]:
+                    - link "Like" [ref=f14617e1149] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1150]: Reply
+                  - link "Report" [ref=f14617e1152] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1153]:
+            - generic [ref=f14617e1154]:
+              - generic [ref=f14617e1155]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1157] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1159]: ETH said Rashford has worked well pre-season and is 'back to his best'.
+              - generic [ref=f14617e1160]:
+                - text: 1 year ago
+                - generic [ref=f14617e1161]:
+                  - link "Like" [ref=f14617e1163] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1164]: Reply
+                  - link "Report" [ref=f14617e1166] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1167]:
+            - generic [ref=f14617e1169]:
+              - generic [ref=f14617e1170]:
+                - text: "[ - ]"
+                - link "koziol.mutant" [ref=f14617e1172] [cursor=pointer]:
+                  - /url: /users/koziol.mutant
+                - text: "- member since 03-Oct-14"
+              - paragraph [ref=f14617e1174]: "@Marbella lol"
+              - generic [ref=f14617e1175]:
+                - text: 1 year ago
+                - generic [ref=f14617e1176]:
+                  - link "Like" [ref=f14617e1178] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1179]: Reply
+                  - link "Report" [ref=f14617e1181] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1182]:
+            - generic [ref=f14617e1183]:
+              - generic [ref=f14617e1184]:
+                - text: "[ - ]"
+                - link "doubleH1209" [ref=f14617e1186] [cursor=pointer]:
+                  - /url: /users/doubleH1209
+                - text: "- member since 02-Dec-23"
+              - paragraph [ref=f14617e1188]: United 2-0 Rashy to score 1 goal
+              - generic [ref=f14617e1189]:
+                - text: 1 year ago
+                - generic [ref=f14617e1190]:
+                  - link "Like" [ref=f14617e1192] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1193]: Reply
+                  - link "Report" [ref=f14617e1195] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1196]:
+            - generic [ref=f14617e1197]:
+              - generic [ref=f14617e1198]:
+                - text: "[ - ]"
+                - link "GoonerRSA" [ref=f14617e1200] [cursor=pointer]:
+                  - /url: /users/GoonerRSA
+                - text: "- member since 07-Oct-22"
+              - paragraph [ref=f14617e1202]: Fulham could drop points here.. maybe not all 3..
+              - generic [ref=f14617e1203]:
+                - text: 1 year ago
+                - generic [ref=f14617e1204]:
+                  - link "Like" [ref=f14617e1206] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1207]: Reply
+                  - link "Report" [ref=f14617e1209] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1210]:
+            - generic [ref=f14617e1211]:
+              - generic [ref=f14617e1212]:
+                - text: "[ - ]"
+                - link "futureman" [ref=f14617e1214] [cursor=pointer]:
+                  - /url: /users/futureman
+                - text: "- member since 15-Aug-24"
+              - paragraph [ref=f14617e1216]: Fulham win
+              - generic [ref=f14617e1217]:
+                - text: 1 year ago
+                - generic [ref=f14617e1218]:
+                  - generic [ref=f14617e1219]:
+                    - link "Like" [ref=f14617e1220] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1221]: Reply
+                  - link "Report" [ref=f14617e1223] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1224]:
+            - generic [ref=f14617e1225]:
+              - generic [ref=f14617e1226]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1228] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1230]: Fulham Won only 4 EPL away matches last season.
+              - generic [ref=f14617e1231]:
+                - text: 1 year ago
+                - generic [ref=f14617e1232]:
+                  - link "Like" [ref=f14617e1234] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=f14617e1235]: Reply
+                  - link "Report" [ref=f14617e1237] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1238]:
+            - generic [ref=f14617e1240]:
+              - generic [ref=f14617e1241]:
+                - text: "[ - ]"
+                - link "futureman" [ref=f14617e1243] [cursor=pointer]:
+                  - /url: /users/futureman
+                - text: "- member since 15-Aug-24"
+              - paragraph [ref=f14617e1245]: "@Marbella man utd is one of them and the first round against everton is the second one but man utd will win it tonight"
+              - generic [ref=f14617e1246]:
+                - text: 1 year ago
+                - generic [ref=f14617e1247]:
+                  - generic [ref=f14617e1248]:
+                    - link "Like" [ref=f14617e1249] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=f14617e1250]: Reply
+                  - link "Report" [ref=f14617e1252] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1253]:
+            - generic [ref=f14617e1254]:
+              - generic [ref=f14617e1255]:
+                - text: "[ - ]"
+                - link "FF2021" [ref=f14617e1257] [cursor=pointer]:
+                  - /url: /users/FF2021
+                - text: "- member since 25-Nov-20"
+              - paragraph [ref=f14617e1259]: 4-0 united de ligt to score a header and garnacho to score
+              - generic [ref=f14617e1260]:
+                - text: 1 year ago
+                - generic [ref=f14617e1261]:
+                  - generic [ref=f14617e1262]:
+                    - link "Like" [ref=f14617e1263] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=f14617e1264]: Reply
+                  - link "Report" [ref=f14617e1266] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=f14617e1267]:
+            - generic [ref=f14617e1268]:
+              - generic [ref=f14617e1269]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=f14617e1271] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=f14617e1273]: MU 2-0
+              - generic [ref=f14617e1274]:
+                - text: 1 year ago
+                - generic [ref=f14617e1275]:
+                  - generic [ref=f14617e1276]:
+                    - link "Like" [ref=f14617e1277] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=f14617e1278]: Reply
+                  - link "Report" [ref=f14617e1280] [cursor=pointer]:
+                    - /url: "#"
+  - generic [ref=f14617e1286]:
+    - generic [ref=f14617e1287]:
+      - generic [ref=f14617e1288]:
+        - link "About Us" [ref=f14617e1290] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=f14617e1292] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=f14617e1294] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=f14617e1296] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=f14617e1298] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=f14617e1300] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=f14617e1302] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=f14617e1304] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=f14617e1306] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=f14617e1307]:
+        - link "Best Betting Sites & Bookmakers" [ref=f14617e1309] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=f14617e1311] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=f14617e1313] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=f14617e1315] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=f14617e1317] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=f14617e1318]:
+      - link [ref=f14617e1319] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=f14617e1321] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=f14617e1323] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=f14617e1327]
+    - generic [ref=f14617e1328]:
+      - link [ref=f14617e1329] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=f14617e1331] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=f14617e1333]: Copyright © 2026 WhoScored.com
+    - generic [ref=f14617e1335]:
+      - link "Safer Gambling" [ref=f14617e1336] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=f14617e1337]:
+        - link "GamStop" [ref=f14617e1338] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=f14617e1341] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=f14617e1343] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=f14617e1345] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo

@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>xT Terreno — Touchline</title>
+<style>
+  :root {
+    --surface: #1a1a19;
+    --ink: #f2f1ee;
+    --ink-muted: #9a9894;
+    --home: #3987e5;
+    --away: #e66767;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #0c0c0b;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--ink);
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #escenario {
+    position: relative;
+    width: min(100vw, 56.25vh);
+    aspect-ratio: 9 / 16;
+    background: var(--surface);
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  #lienzo3d {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  /* Marcador */
+  #marcador {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 0 6%;
+  }
+  .equipo { display: flex; flex-direction: column; align-items: center; gap: 6px; width: 26%; }
+  .equipo img { width: 42px; height: 42px; object-fit: contain; filter: drop-shadow(0 1px 3px rgba(0,0,0,.5)); }
+  .equipo .abrev { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--ink-muted); }
+  #marcador-numeros {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  #marcador-numeros .gol { font-size: 44px; font-weight: 800; line-height: 1; }
+  #gol-home { color: var(--home); }
+  #gol-away { color: var(--away); }
+  #marcador-numeros .sep { font-size: 22px; color: var(--ink-muted); }
+  #minuto {
+    position: absolute;
+    top: 15.5%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: var(--ink-muted);
+  }
+
+  /* Linea de tiempo de eventos */
+  #timeline-eventos {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    right: 8%;
+    height: 20px;
+    z-index: 3;
+  }
+  #timeline-eventos .riel {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255,255,255,.15);
+  }
+  .punto-evento {
+    position: absolute;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .punto-evento.home { background: var(--home); box-shadow: 0 0 6px var(--home); }
+  .punto-evento.away { background: var(--away); box-shadow: 0 0 6px var(--away); }
+
+  /* Grafica de area xT */
+  #panel-inferior {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 10px 5% 16px;
+    background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
+  }
+  #cabecera-grafica {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+  #titulo-grafica {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+  }
+  #valores-xt {
+    font-size: 12px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  #valores-xt .v-home { color: var(--home); }
+  #valores-xt .v-away { color: var(--away); }
+  #valores-xt .sep-xt { color: var(--ink-muted); font-weight: 400; margin: 0 3px; }
+  #svg-xt { width: 100%; height: 70px; display: block; }
+
+  #controles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  #btn-play {
+    width: 28px; height: 28px; border-radius: 50%;
+    border: none; background: var(--ink); color: #111;
+    font-size: 12px; cursor: pointer; flex: none;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #barra-scrub {
+    flex: 1;
+    accent-color: var(--ink);
+  }
+</style>
+</head>
+<body>
+  <div id="escenario">
+    <canvas id="lienzo3d"></canvas>
+
+    <div id="marcador">
+      <div class="equipo">
+        <img id="escudo-home" alt="" />
+        <div class="abrev" id="abrev-home"></div>
+      </div>
+      <div id="marcador-numeros">
+        <span class="gol" id="gol-home">0</span>
+        <span class="sep">–</span>
+        <span class="gol" id="gol-away">0</span>
+      </div>
+      <div class="equipo">
+        <img id="escudo-away" alt="" />
+        <div class="abrev" id="abrev-away"></div>
+      </div>
+    </div>
+    <div id="minuto">0'</div>
+
+    <div id="timeline-eventos">
+      <div class="riel"></div>
+    </div>
+
+    <div id="panel-inferior">
+      <div id="cabecera-grafica">
+        <div id="titulo-grafica">xT acumulado</div>
+        <div id="valores-xt"><span class="v-home" id="xt-home">0.00</span><span class="sep-xt">–</span><span class="v-away" id="xt-away">0.00</span></div>
+      </div>
+      <svg id="svg-xt" viewBox="0 0 300 70" preserveAspectRatio="none"></svg>
+      <div id="controles">
+        <button id="btn-play">▶</button>
+        <input id="barra-scrub" type="range" min="0" max="100" value="0" />
+      </div>
+    </div>
+  </div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.169.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from "three";
+
+const params = new URLSearchParams(location.search);
+const partido = params.get("partido") || "France_vs_Spain";
+
+const MS_POR_MINUTO = 220; // velocidad de reproduccion
+
+const respuesta = await fetch(`../data_xt/${partido}.json`);
+if (!respuesta.ok) {
+  document.body.innerHTML = `<p style="padding:2rem;color:#eee;">No se encontro data_xt/${partido}.json. Corre primero calcular_xt_timeline.py.</p>`;
+  throw new Error("json no encontrado");
+}
+const datos = await respuesta.json();
+
+const minutos = datos.home.xt_por_minuto.length;
+const escudoHome = document.getElementById("escudo-home");
+const escudoAway = document.getElementById("escudo-away");
+escudoHome.src = `../escudos/${datos.home.equipo}.png`;
+escudoAway.src = `../escudos/${datos.away.equipo}.png`;
+document.getElementById("abrev-home").textContent = datos.home.equipo;
+document.getElementById("abrev-away").textContent = datos.away.equipo;
+
+const [golesHomeFinal, golesAwayFinal] = datos.marcador_final.split("-").map(Number);
+
+// --- Puntos de eventos en la linea de tiempo ---
+const rielContenedor = document.getElementById("timeline-eventos");
+for (const ev of datos.eventos) {
+  if (ev.tipo !== "Goal") continue;
+  const punto = document.createElement("div");
+  punto.className = `punto-evento ${ev.equipo}`;
+  punto.style.left = `${(ev.minuto / (minutos - 1)) * 100}%`;
+  punto.title = `${ev.minuto}' ${ev.jugador}`;
+  rielContenedor.appendChild(punto);
+}
+
+// --- Grafica de area de xT (diferencia acumulada home-away) ---
+const svg = document.getElementById("svg-xt");
+const diffAcumulado = datos.home.xt_acumulado.map((v, i) => v - datos.away.xt_acumulado[i]);
+const maxAbs = Math.max(0.01, ...diffAcumulado.map(Math.abs));
+const anchoSvg = 300, altoSvg = 70, medioY = altoSvg / 2;
+
+function yDe(valor) {
+  return medioY - (valor / maxAbs) * (medioY - 4);
+}
+function xDe(i) {
+  return (i / (minutos - 1)) * anchoSvg;
+}
+
+let dArriba = `M0,${medioY}`;
+let dAbajo = `M0,${medioY}`;
+diffAcumulado.forEach((v, i) => {
+  const x = xDe(i);
+  const y = yDe(v);
+  dArriba += ` L${x},${v >= 0 ? y : medioY}`;
+  dAbajo += ` L${x},${v < 0 ? y : medioY}`;
+});
+dArriba += ` L${anchoSvg},${medioY} Z`;
+dAbajo += ` L${anchoSvg},${medioY} Z`;
+
+svg.innerHTML = `
+  <path d="${dArriba}" fill="var(--home)" opacity="0.55"></path>
+  <path d="${dAbajo}" fill="var(--away)" opacity="0.55"></path>
+  <line x1="0" y1="${medioY}" x2="${anchoSvg}" y2="${medioY}" stroke="rgba(255,255,255,.2)" stroke-width="1"></line>
+  <line id="aguja" x1="0" y1="0" x2="0" y2="${altoSvg}" stroke="#fff" stroke-width="1.5"></line>
+`;
+const aguja = document.getElementById("aguja");
+
+// --- Escena 3D: mesh tipo tela que se inclina/colorea segun momentum de xT ---
+const lienzo = document.getElementById("lienzo3d");
+const escenarioEl = document.getElementById("escenario");
+
+const escena = new THREE.Scene();
+const camara = new THREE.PerspectiveCamera(60, 1, 0.1, 100);
+camara.position.set(0, 7.6, 9.2);
+camara.lookAt(0, -0.6, -0.6);
+
+const renderer = new THREE.WebGLRenderer({ canvas: lienzo, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+
+const luz1 = new THREE.DirectionalLight(0xffffff, 1.6);
+luz1.position.set(4, 7, 5);
+escena.add(luz1);
+escena.add(new THREE.AmbientLight(0xffffff, 0.5));
+
+// --- Textura de lineas de cancha, dibujada sobre un canvas 2D ---
+const ANCHO_MESH = 6.6; // eje X: linea de gol a linea de gol
+const PROFUNDIDAD_MESH = 4.6; // eje Z: banda a banda
+
+function crearTexturaCancha() {
+  const cv = document.createElement("canvas");
+  cv.width = 1024;
+  cv.height = Math.round(1024 * (PROFUNDIDAD_MESH / ANCHO_MESH));
+  const ctx = cv.getContext("2d");
+  ctx.fillStyle = "#9a9a96";
+  ctx.fillRect(0, 0, cv.width, cv.height);
+
+  const margen = cv.width * 0.035;
+  const x0 = margen, x1 = cv.width - margen;
+  const y0 = margen * (cv.width / cv.height) * (PROFUNDIDAD_MESH / ANCHO_MESH), y1 = cv.height - y0;
+  ctx.strokeStyle = "#ffffff";
+  ctx.lineWidth = cv.width * 0.006;
+  ctx.globalAlpha = 0.85;
+
+  // borde de la cancha
+  ctx.strokeRect(x0, y0, x1 - x0, y1 - y0);
+  // linea media
+  const xMedio = (x0 + x1) / 2;
+  ctx.beginPath();
+  ctx.moveTo(xMedio, y0);
+  ctx.lineTo(xMedio, y1);
+  ctx.stroke();
+  // circulo central
+  const radioCentral = (y1 - y0) * 0.16;
+  ctx.beginPath();
+  ctx.arc(xMedio, (y0 + y1) / 2, radioCentral, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(xMedio, (y0 + y1) / 2, cv.width * 0.004, 0, Math.PI * 2);
+  ctx.fillStyle = "#ffffff";
+  ctx.fill();
+
+  // areas y punto penal, un lado por equipo
+  const altoArea = (y1 - y0) * 0.62;
+  const yAreaTop = (y0 + y1) / 2 - altoArea / 2;
+  const anchoAreaGrande = (x1 - x0) * 0.16;
+  const anchoAreaChica = (x1 - x0) * 0.07;
+  const altoAreaChica = (y1 - y0) * 0.34;
+  const yChicaTop = (y0 + y1) / 2 - altoAreaChica / 2;
+
+  for (const lado of [0, 1]) {
+    const signo = lado === 0 ? 1 : -1;
+    const xLinea = lado === 0 ? x0 : x1;
+    ctx.strokeRect(xLinea, yAreaTop, signo * anchoAreaGrande, altoArea);
+    ctx.strokeRect(xLinea, yChicaTop, signo * anchoAreaChica, altoAreaChica);
+    const xPenal = xLinea + signo * anchoAreaGrande * 0.62;
+    ctx.beginPath();
+    ctx.arc(xPenal, (y0 + y1) / 2, cv.width * 0.004, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(xPenal, (y0 + y1) / 2, radioCentral, 0.78 * Math.PI * (lado === 0 ? 1 : -1), 1.22 * Math.PI * (lado === 0 ? 1 : -1), lado !== 0);
+    ctx.stroke();
+  }
+
+  const textura = new THREE.CanvasTexture(cv);
+  textura.colorSpace = THREE.SRGBColorSpace;
+  return textura;
+}
+
+const SEGS = 90;
+const geometria = new THREE.PlaneGeometry(ANCHO_MESH, PROFUNDIDAD_MESH, SEGS, SEGS);
+geometria.rotateX(-Math.PI / 2);
+const colores = new Float32Array(geometria.attributes.position.count * 3);
+geometria.setAttribute("color", new THREE.BufferAttribute(colores, 3));
+
+const material = new THREE.MeshStandardMaterial({
+  vertexColors: true,
+  map: crearTexturaCancha(),
+  roughness: 0.4,
+  metalness: 0.1,
+  side: THREE.DoubleSide,
+  flatShading: false,
+});
+const mesh = new THREE.Mesh(geometria, material);
+mesh.position.y = -0.3;
+escena.add(mesh);
+
+const colorHome = new THREE.Color(getComputedStyle(document.documentElement).getPropertyValue("--home"));
+const colorAway = new THREE.Color(getComputedStyle(document.documentElement).getPropertyValue("--away"));
+const posBase = geometria.attributes.position.array.slice();
+
+// --- Retrato fijo del partido completo: el terreno NO cambia minuto a
+// minuto. Se calcula una sola vez sumando una "campana" suave (gaussiana)
+// por cada evento con xT, ubicada en su posicion real de la cancha
+// (eventos_xt) — no una grilla con escalones, sino una densidad continua,
+// para que el terreno ondule como dunas y no como picos de sierra. Lo
+// unico que se anima despues es la camara y el HUD por encima de este
+// retrato fijo — igual que el video de referencia, donde la forma del
+// terreno es identica en el minuto 4 y en el minuto 90. ---
+const SIGMA_X = ANCHO_MESH * 0.06;
+const SIGMA_Z = PROFUNDIDAD_MESH * 0.08;
+const ALTURA_MAXIMA = 2.3;
+const SATURACION = 8; // que tan rapido se acerca una zona "caliente" al tope, sin aplanarse del todo
+
+function construirTerreno() {
+  const eventosXt = datos.eventos_xt || [];
+  // pre-convierte cada evento a coordenadas de mundo (x,z) y su peso
+  const puntosHome = [];
+  const puntosAway = [];
+  for (const ev of eventosXt) {
+    const peso = Math.abs(ev.xt);
+    if (peso < 1e-4) continue;
+    const wx = (ev.x / 100 - 0.5) * ANCHO_MESH;
+    const wz = (ev.y / 100 - 0.5) * PROFUNDIDAD_MESH;
+    (ev.equipo === "home" ? puntosHome : puntosAway).push([wx, wz, peso]);
+  }
+
+  function densidadEn(puntos, bx, bz) {
+    let total = 0;
+    for (let k = 0; k < puntos.length; k++) {
+      const dx = bx - puntos[k][0];
+      const dz = bz - puntos[k][1];
+      const d2 = (dx * dx) / (2 * SIGMA_X * SIGMA_X) + (dz * dz) / (2 * SIGMA_Z * SIGMA_Z);
+      if (d2 > 9) continue; // fuera del alcance util de la gaussiana
+      total += Math.exp(-d2) * puntos[k][2];
+    }
+    return total;
+  }
+
+  const pos = geometria.attributes.position;
+  const col = geometria.attributes.color;
+  for (let i = 0; i < pos.count; i++) {
+    const bx = posBase[i * 3];
+    const bz = posBase[i * 3 + 2];
+
+    const h = densidadEn(puntosHome, bx, bz);
+    const a = densidadEn(puntosAway, bx, bz);
+    const altura = ALTURA_MAXIMA * (1 - Math.exp(-(h + a) * SATURACION));
+    pos.setY(i, altura);
+
+    const total = h + a;
+    const mezcla = total > 1e-5 ? h / total : 0.5; // 1 = todo home, 0 = todo away
+    const c = colorAway.clone().lerp(colorHome, mezcla);
+    col.setXYZ(i, c.r, c.g, c.b);
+  }
+  pos.needsUpdate = true;
+  col.needsUpdate = true;
+  geometria.computeVertexNormals();
+}
+construirTerreno();
+
+// --- Fondo que cambia de tono segun quien domina el xT acumulado hasta
+// el minuto actual (navy neutral -> tinte del color del equipo que va
+// adelante), igual que el video de referencia. ---
+const FONDO_BASE = new THREE.Color("#0a0d1a");
+function actualizarFondo(minuto) {
+  const diff = datos.home.xt_acumulado[minuto] - datos.away.xt_acumulado[minuto];
+  const intensidad = Math.min(1, Math.abs(diff) * 12);
+  const tinte = diff >= 0 ? colorHome : colorAway;
+  const c = FONDO_BASE.clone().lerp(tinte.clone().multiplyScalar(0.35), intensidad * 0.6);
+  escenarioEl.style.background = `#${c.getHexString()}`;
+}
+
+// --- Camara: orbita lento alrededor del terreno fijo, como en el video. ---
+const ORBITA_RADIO = 7.4;
+const ORBITA_ALTURA = 4.6;
+const ORBITA_VELOCIDAD = 0.05; // radianes por segundo
+function actualizarCamara(tiempoAnim) {
+  const angulo = tiempoAnim * ORBITA_VELOCIDAD;
+  camara.position.set(Math.sin(angulo) * ORBITA_RADIO * 0.4, ORBITA_ALTURA, Math.cos(angulo) * 0.5 + ORBITA_RADIO * 0.9);
+  camara.lookAt(0, 0.2, -0.3);
+}
+
+function redimensionar() {
+  const rect = escenarioEl.getBoundingClientRect();
+  renderer.setSize(rect.width, rect.height, false);
+  camara.aspect = rect.width / rect.height;
+  camara.updateProjectionMatrix();
+}
+new ResizeObserver(redimensionar).observe(escenarioEl);
+redimensionar();
+
+// --- Reproduccion ---
+const barraScrub = document.getElementById("barra-scrub");
+const btnPlay = document.getElementById("btn-play");
+barraScrub.max = String(minutos - 1);
+
+let minutoActual = 0;
+let reproduciendo = true;
+let ultimoTick = performance.now();
+let acumMs = 0;
+
+function pintarMinuto(minuto) {
+  minutoActual = minuto;
+  document.getElementById("minuto").textContent = `${minuto}'`;
+  barraScrub.value = String(minuto);
+
+  let gh = 0, ga = 0;
+  for (const ev of datos.eventos) {
+    if (ev.tipo === "Goal" && ev.minuto <= minuto) {
+      if (ev.equipo === "home") gh++; else ga++;
+    }
+  }
+  document.getElementById("gol-home").textContent = gh;
+  document.getElementById("gol-away").textContent = ga;
+
+  document.getElementById("xt-home").textContent = datos.home.xt_acumulado[minuto].toFixed(2);
+  document.getElementById("xt-away").textContent = datos.away.xt_acumulado[minuto].toFixed(2);
+
+  aguja.setAttribute("x1", xDe(minuto));
+  aguja.setAttribute("x2", xDe(minuto));
+
+  actualizarFondo(minuto);
+}
+
+function animar(ahora) {
+  const dt = ahora - ultimoTick;
+  ultimoTick = ahora;
+
+  if (reproduciendo) {
+    acumMs += dt;
+    if (acumMs >= MS_POR_MINUTO) {
+      acumMs = 0;
+      minutoActual = (minutoActual + 1) % minutos;
+      pintarMinuto(minutoActual);
+    }
+  }
+
+  actualizarCamara(ahora / 1000);
+  renderer.render(escena, camara);
+  requestAnimationFrame(animar);
+}
+
+btnPlay.addEventListener("click", () => {
+  reproduciendo = !reproduciendo;
+  btnPlay.textContent = reproduciendo ? "❚❚" : "▶";
+});
+barraScrub.addEventListener("input", () => {
+  reproduciendo = false;
+  btnPlay.textContent = "▶";
+  pintarMinuto(Number(barraScrub.value));
+});
+
+pintarMinuto(0);
+requestAnimationFrame(animar);
+</script>
+</body>
+</html>

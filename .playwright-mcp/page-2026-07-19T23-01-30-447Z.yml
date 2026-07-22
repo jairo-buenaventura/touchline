@@ -1,0 +1,3899 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "ws_logo" [ref=e12]
+        - combobox [ref=e13]:
+          - option "EN" [selected]
+          - option "ES"
+          - option "TR"
+          - option "IT"
+          - option "FR"
+          - option "AR"
+          - option "RU"
+          - option "PT"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]:
+            - img "search" [ref=e18]
+          - textbox "Search" [ref=e19]
+      - iframe [ref=e22]:
+        - generic [ref=f1e2]:
+          - link "Sign In" [ref=f1e3] [cursor=pointer]:
+            - /url: /accounts/login
+          - text: "|"
+          - link "Sign Up" [ref=f1e4] [cursor=pointer]:
+            - /url: /accounts/register
+    - generic [ref=e24]:
+      - navigation [ref=e25]:
+        - link "Live Scores" [ref=e27] [cursor=pointer]:
+          - /url: /livescores
+        - link "Statistics" [ref=e29] [cursor=pointer]:
+          - /url: /statistics
+        - link "Previews" [ref=e31] [cursor=pointer]:
+          - /url: /previews
+        - link "News" [ref=e33] [cursor=pointer]:
+          - /url: /editorial
+        - link "Top Facts" [ref=e35] [cursor=pointer]:
+          - /url: /betting/facts
+        - link "Free Bets" [ref=e37] [cursor=pointer]:
+          - /url: /free-bets
+        - generic [ref=e38]:
+          - img "ws+_logo" [ref=e39]
+          - link "WHOSCORED+" [ref=e40] [cursor=pointer]:
+            - /url: /plus/value-bets
+        - link "TEAMMATE" [ref=e42] [cursor=pointer]:
+          - /url: /teammate
+      - button [ref=e44] [cursor=pointer]:
+        - text: Odds
+        - img "chevron-down" [ref=e48]
+    - generic [ref=e52]:
+      - button "Top Tournaments" [ref=e53] [cursor=pointer]
+      - button "Favourites" [ref=e57] [cursor=pointer]
+      - button "All Tournaments" [ref=e61] [cursor=pointer]
+  - generic [ref=e65]:
+    - generic [ref=e67]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - img "teammate-stars-logo" [ref=e75]
+            - generic [ref=e79]: TEAMMATE
+          - generic [ref=e80]:
+            - button "refresh-button" [ref=e81] [cursor=pointer]:
+              - img "refresh-chatbot-session" [ref=e82]
+            - button "expand-button" [ref=e84] [cursor=pointer]:
+              - img "expand-chatbot" [ref=e85]
+        - textbox "Ask me anything..." [ref=e91]
+        - list "chips-list" [ref=e93]:
+          - listitem "chips-list-item" [ref=e94] [cursor=pointer]: Live Player Ratings
+          - listitem "chips-list-item" [ref=e95] [cursor=pointer]: Latest Stats Summary
+          - listitem "chips-list-item" [ref=e96] [cursor=pointer]: Latest Odds
+      - generic [ref=e98]:
+        - generic [ref=e99]: International
+        - generic [ref=e101]: »
+        - link "FIFA World Cup - 2026 - World Cup Final Stage" [ref=e102] [cursor=pointer]:
+          - /url: /Regions/247/Tournaments/36/Seasons/10498/Stages/23752/Show/international-fifa-world-cup-2026
+        - generic [ref=e103]: »
+        - combobox [ref=e104]:
+          - option "France-Spain" [selected]
+          - option "England-Argentina"
+          - option "France-England"
+          - option "Spain-Argentina"
+      - table [ref=e106]:
+        - rowgroup [ref=e107]:
+          - row [ref=e108]:
+            - cell [ref=e109]:
+              - link "France" [ref=e110] [cursor=pointer]:
+                - /url: /teams/341/show/france-france
+            - 'cell "0 : 2" [ref=e111]'
+            - cell [ref=e112]:
+              - link "Spain" [ref=e113] [cursor=pointer]:
+                - /url: /teams/338/show/spain-spain
+          - row [ref=e114]:
+            - cell [ref=e115]
+            - 'cell "Elapsed: FT Half time: 0 : 1 Full time: 0 : 2 Kick off: 20:00 Date: Tue, 14-Jul-26" [ref=e118]':
+              - generic:
+                - generic:
+                  - term [ref=e119]: "Elapsed:"
+                  - definition [ref=e120]:
+                    - generic [ref=e121]: FT
+              - generic:
+                - generic:
+                  - term [ref=e122]: "Half time:"
+                  - definition [ref=e123]: "0 : 1"
+                  - term [ref=e124]: "Full time:"
+                  - definition [ref=e125]: "0 : 2"
+              - generic:
+                - generic:
+                  - term [ref=e126]: "Kick off:"
+                  - definition [ref=e127]: 20:00
+                  - term [ref=e128]: "Date:"
+                  - definition [ref=e129]: Tue, 14-Jul-26
+            - cell [ref=e130]
+      - list [ref=e134]:
+        - listitem [ref=e135]:
+          - link "Preview" [ref=e136] [cursor=pointer]:
+            - /url: /matches/2002449/preview/international-fifa-world-cup-2026-france-spain
+        - listitem [ref=e137]:
+          - link "Head to Head" [ref=e138] [cursor=pointer]:
+            - /url: /matches/2002449/show/international-fifa-world-cup-2026-france-spain
+        - listitem
+        - listitem [ref=e139]:
+          - link "Betting" [ref=e140] [cursor=pointer]:
+            - /url: /matches/2002449/betting/international-fifa-world-cup-2026-france-spain
+        - listitem [ref=e141]:
+          - link "Match Centre" [ref=e142] [cursor=pointer]:
+            - /url: /matches/2002449/live/international-fifa-world-cup-2026-france-spain
+        - listitem [ref=e143]:
+          - link "Match Report" [ref=e144] [cursor=pointer]:
+            - /url: /matches/2002449/matchreport/international-fifa-world-cup-2026-france-spain
+        - listitem
+      - list [ref=e146]:
+        - listitem [ref=e147]:
+          - link "Summary" [ref=e148] [cursor=pointer]:
+            - /url: /matches/2002449/live/international-fifa-world-cup-2026-france-spain
+        - listitem [ref=e149]:
+          - link "Player Statistics" [ref=e150] [cursor=pointer]:
+            - /url: /matches/2002449/livestatistics/international-fifa-world-cup-2026-france-spain
+      - heading "Timeline" [level=2] [ref=e151]
+      - table [ref=e154]:
+        - rowgroup [ref=e155]:
+          - row [ref=e156]:
+            - cell [ref=e157]:
+              - generic "Adrien Rabiot recieves a yellow card" [ref=e158]:
+                - link "Adrien Rabiot" [ref=e159] [cursor=pointer]:
+                  - /url: /players/116609/show/adrien-rabiot
+            - cell "9'" [ref=e161]
+            - cell [ref=e163]
+          - row [ref=e164]:
+            - cell [ref=e165]
+            - cell "22'" [ref=e166]
+            - cell "(0-1) Mikel Oyarzabal" [ref=e168]:
+              - generic "GOAL! Mikel Oyarzabal scores (High to the right, 18-yard box, Penalty, Big Chance, Left footed)" [ref=e169]:
+                - generic [ref=e171]: (0-1)
+                - link "Mikel Oyarzabal" [ref=e172] [cursor=pointer]:
+                  - /url: /players/298839/show/mikel-oyarzabal
+          - row [ref=e173]:
+            - cell [ref=e174]:
+              - generic "William Saliba is substituted off" [ref=e175]:
+                - link "William Saliba" [ref=e176] [cursor=pointer]:
+                  - /url: /players/361822/show/william-saliba
+              - generic "Maxence Lacroix is substituted on" [ref=e178]:
+                - link "Maxence Lacroix" [ref=e179] [cursor=pointer]:
+                  - /url: /players/401130/show/maxence-lacroix
+            - cell "30'" [ref=e181]
+            - cell [ref=e183]
+          - row [ref=e184]:
+            - cell [ref=e185]
+            - cell "31'" [ref=e186]
+            - cell [ref=e188]:
+              - generic "Marc Cucurella recieves a yellow card" [ref=e189]:
+                - link "Marc Cucurella" [ref=e191] [cursor=pointer]:
+                  - /url: /players/363496/show/marc-cucurella
+          - row [ref=e192]:
+            - cell [ref=e193]:
+              - generic "Adrien Rabiot is substituted off" [ref=e194]:
+                - link "Adrien Rabiot" [ref=e195] [cursor=pointer]:
+                  - /url: /players/116609/show/adrien-rabiot
+              - generic "Manu Koné is substituted on" [ref=e197]:
+                - link "Manu Koné" [ref=e198] [cursor=pointer]:
+                  - /url: /players/369570/show/manu-koné
+            - cell "46'" [ref=e200]
+            - cell [ref=e202]
+          - row [ref=e203]:
+            - cell [ref=e204]:
+              - generic "Bradley Barcola is substituted off" [ref=e205]:
+                - link "Bradley Barcola" [ref=e206] [cursor=pointer]:
+                  - /url: /players/425366/show/bradley-barcola
+              - generic "Désiré Doué is substituted on" [ref=e208]:
+                - link "Désiré Doué" [ref=e209] [cursor=pointer]:
+                  - /url: /players/433183/show/désiré-doué
+            - cell "57'" [ref=e211]
+            - cell [ref=e213]
+          - row [ref=e214]:
+            - cell [ref=e215]
+            - cell "58'" [ref=e216]
+            - cell "Dani Olmo (0-2) Pedro Porro" [ref=e218]:
+              - generic "Dani Olmo assists a goal (Key pass, Open play)" [ref=e219]:
+                - link "Dani Olmo" [ref=e221] [cursor=pointer]:
+                  - /url: /players/261212/show/dani-olmo
+              - generic "GOAL! Pedro Porro scores , Assisted by Dani Olmo (Low to the right, 18-yard box, Big Chance, Right footed, Open play)" [ref=e222]:
+                - generic [ref=e224]: (0-2)
+                - link "Pedro Porro" [ref=e225] [cursor=pointer]:
+                  - /url: /players/362352/show/pedro-porro
+          - row [ref=e226]:
+            - cell [ref=e227]:
+              - generic "Lucas Digne is substituted off" [ref=e228]:
+                - link "Lucas Digne" [ref=e229] [cursor=pointer]:
+                  - /url: /players/89925/show/lucas-digne
+              - generic "Théo Hernández is substituted on" [ref=e231]:
+                - link "Théo Hernández" [ref=e232] [cursor=pointer]:
+                  - /url: /players/303115/show/théo-hernández
+            - cell "72'" [ref=e234]
+            - cell [ref=e236]
+          - row [ref=e237]:
+            - cell [ref=e238]:
+              - generic "Michael Olise is substituted off" [ref=e239]:
+                - link "Michael Olise" [ref=e240] [cursor=pointer]:
+                  - /url: /players/371281/show/michael-olise
+              - generic "Rayan Cherki is substituted on" [ref=e242]:
+                - link "Rayan Cherki" [ref=e243] [cursor=pointer]:
+                  - /url: /players/386153/show/rayan-cherki
+            - cell "73'" [ref=e245]
+            - cell [ref=e247]
+          - row [ref=e248]:
+            - cell [ref=e249]
+            - cell "74'" [ref=e250]
+            - cell [ref=e252]:
+              - generic "Mikel Oyarzabal is substituted off" [ref=e253]:
+                - link "Mikel Oyarzabal" [ref=e255] [cursor=pointer]:
+                  - /url: /players/298839/show/mikel-oyarzabal
+              - generic "Ferran Torres is substituted on" [ref=e256]:
+                - link "Ferran Torres" [ref=e258] [cursor=pointer]:
+                  - /url: /players/349760/show/ferran-torres
+          - row [ref=e259]:
+            - cell [ref=e260]
+            - cell "78'" [ref=e261]
+            - cell [ref=e263]:
+              - generic "Dani Olmo is substituted off" [ref=e264]:
+                - link "Dani Olmo" [ref=e266] [cursor=pointer]:
+                  - /url: /players/261212/show/dani-olmo
+              - generic "Mikel Merino is substituted on" [ref=e267]:
+                - link "Mikel Merino" [ref=e269] [cursor=pointer]:
+                  - /url: /players/238916/show/mikel-merino
+              - generic "Fabián Ruiz is substituted off" [ref=e270]:
+                - link "Fabián Ruiz" [ref=e272] [cursor=pointer]:
+                  - /url: /players/294193/show/fabián-ruiz
+              - generic "Pedri is substituted on" [ref=e273]:
+                - link "Pedri" [ref=e275] [cursor=pointer]:
+                  - /url: /players/402197/show/pedri
+          - row [ref=e276]:
+            - cell [ref=e277]
+            - cell "84'" [ref=e278]
+            - cell [ref=e280]:
+              - generic "Pedro Porro is substituted off" [ref=e281]:
+                - link "Pedro Porro" [ref=e283] [cursor=pointer]:
+                  - /url: /players/362352/show/pedro-porro
+              - generic "Marcos Llorente is substituted on" [ref=e284]:
+                - link "Marcos Llorente" [ref=e286] [cursor=pointer]:
+                  - /url: /players/254582/show/marcos-llorente
+              - generic "Álex Baena is substituted off" [ref=e287]:
+                - link "Álex Baena" [ref=e289] [cursor=pointer]:
+                  - /url: /players/395242/show/álex-baena
+              - generic "Nico Williams is substituted on" [ref=e290]:
+                - link "Nico Williams" [ref=e292] [cursor=pointer]:
+                  - /url: /players/408449/show/nico-williams
+          - row [ref=e293]:
+            - cell [ref=e294]:
+              - generic "Kylian Mbappé recieves a yellow card" [ref=e295]:
+                - link "Kylian Mbappé" [ref=e296] [cursor=pointer]:
+                  - /url: /players/300713/show/kylian-mbappé
+            - cell "86'" [ref=e298]
+            - cell [ref=e300]
+    - list [ref=e303]:
+      - listitem [ref=e304] [cursor=pointer]:
+        - link "Match Centre" [ref=e305]:
+          - /url: "#match-centre"
+      - listitem [ref=e307] [cursor=pointer]:
+        - link "Match Commentary" [ref=e308]:
+          - /url: "#match-commentary"
+      - listitem [ref=e310] [cursor=pointer]:
+        - link "Chalkboard" [ref=e311]:
+          - /url: "#chalkboard"
+      - listitem [ref=e313] [cursor=pointer]:
+        - link "Heatmaps" [ref=e314]:
+          - /url: "#heatmaps"
+      - listitem [ref=e316] [cursor=pointer]:
+        - link "Live Stream" [ref=e317]:
+          - /url: "#livestream"
+    - generic [ref=e319]:
+      - generic [ref=e320]:
+        - generic [ref=e324]:
+          - generic [ref=e325]: "6.10"
+          - link "France" [ref=e326] [cursor=pointer]:
+            - /url: /teams/341/show/france-france
+          - generic [ref=e327]: Didier Deschamps
+          - generic [ref=e329]: 4-2-3-1
+        - generic [ref=e331]:
+          - generic [ref=e332]: "0 : 2"
+          - generic [ref=e333]: FT
+        - generic [ref=e338]:
+          - generic [ref=e339]: "6.88"
+          - link "Spain" [ref=e340] [cursor=pointer]:
+            - /url: /teams/338/show/spain-spain
+          - generic [ref=e341]: Luis de la Fuente
+          - generic [ref=e343]: 4-2-3-1
+      - generic [ref=e344]:
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e352]:
+                - generic [ref=e353] [cursor=pointer]:
+                  - generic [ref=e354]: "6.6"
+                  - generic "Désiré Doué" [ref=e357]:
+                    - generic [ref=e358]: "20."
+                    - generic [ref=e359]: Doué
+                - generic [ref=e362] [cursor=pointer]:
+                  - generic [ref=e363]: "6.5"
+                  - generic "Maxence Lacroix" [ref=e366]:
+                    - generic [ref=e367]: "26."
+                    - generic [ref=e368]: Lacroix
+                - generic [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]: "6.5"
+                  - generic "Rayan Cherki" [ref=e375]:
+                    - generic [ref=e376]: "24."
+                    - generic [ref=e377]: Cherki
+                - generic [ref=e380] [cursor=pointer]:
+                  - generic [ref=e381]: "5.8"
+                  - generic "Manu Koné" [ref=e384]:
+                    - generic [ref=e385]: "6."
+                    - generic [ref=e386]: Koné
+                - generic [ref=e389] [cursor=pointer]:
+                  - generic [ref=e390]: "6.1"
+                  - generic "Théo Hernández" [ref=e393]:
+                    - generic [ref=e394]: "19."
+                    - generic [ref=e395]: Hernández
+                - generic "Brice Samba" [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: "1."
+                  - text: Samba
+                - generic "N'Golo Kanté" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]: "13."
+                  - text: Kanté
+                - generic "Lucas Hernández" [ref=e414] [cursor=pointer]:
+                  - generic [ref=e415]: "21."
+                  - text: Hernández
+                - generic "Marcus Thuram" [ref=e420] [cursor=pointer]:
+                  - generic [ref=e421]: "9."
+                  - text: Thuram
+                - generic "Jean-Philippe Mateta" [ref=e426] [cursor=pointer]:
+                  - generic [ref=e427]: "22."
+                  - text: Mateta
+                - generic "Ibrahima Konaté" [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433]: "15."
+                  - text: Konaté
+                - generic "Malo Gusto" [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439]: "2."
+                  - text: Gusto
+                - generic "Maghnes Akliouche" [ref=e444] [cursor=pointer]:
+                  - generic [ref=e445]: "25."
+                  - text: Akliouche
+                - generic "Robin Risser" [ref=e450] [cursor=pointer]:
+                  - generic [ref=e451]: "23."
+                  - text: Risser
+                - generic "Warren Zaïre-Emery" [ref=e456] [cursor=pointer]:
+                  - generic [ref=e457]: "18."
+                  - text: Zaïre-Emery
+              - text: "Formation: y/o"
+            - generic [ref=e458]:
+              - generic [ref=e459]:
+                - generic "Dallas Stadium" [ref=e460]
+                - generic "70176" [ref=e463]: 70,176
+                - generic "Iván Barton" [ref=e466]:
+                  - link "I. Barton" [ref=e467] [cursor=pointer]:
+                    - /url: /referees/5488/show/iván-barton
+              - generic [ref=e470]:
+                - generic [ref=e471]:
+                  - generic [ref=e472] [cursor=pointer]:
+                    - generic [ref=e473]: "5.2"
+                    - generic "Mike Maignan" [ref=e476]:
+                      - generic [ref=e477]: "16."
+                      - text: Maignan
+                  - generic [ref=e478] [cursor=pointer]:
+                    - generic [ref=e479]: "6.2"
+                    - generic "Jules Koundé" [ref=e482]:
+                      - generic [ref=e483]: "5."
+                      - text: Koundé
+                  - generic [ref=e484] [cursor=pointer]:
+                    - generic [ref=e485]: "5.8"
+                    - generic "Dayot Upamecano" [ref=e488]:
+                      - generic [ref=e489]: "4."
+                      - text: Upamecano
+                  - generic [ref=e490] [cursor=pointer]:
+                    - generic [ref=e491]: "5.8"
+                    - generic "William Saliba" [ref=e494]:
+                      - generic [ref=e495]: "17."
+                      - text: Saliba
+                  - generic [ref=e498] [cursor=pointer]:
+                    - generic [ref=e499]: "5.4"
+                    - generic "Lucas Digne" [ref=e502]:
+                      - generic [ref=e503]: "3."
+                      - text: Digne
+                  - generic [ref=e506] [cursor=pointer]:
+                    - generic [ref=e507]: "6.6"
+                    - generic "Adrien Rabiot" [ref=e510]:
+                      - generic [ref=e511]: "14."
+                      - text: Rabiot
+                  - generic [ref=e515] [cursor=pointer]:
+                    - generic [ref=e516]: "6.4"
+                    - generic "Aurélien Tchouaméni" [ref=e519]:
+                      - generic [ref=e520]: "8."
+                      - text: Tchouaméni
+                  - generic [ref=e521] [cursor=pointer]:
+                    - generic [ref=e522]: "6.4"
+                    - generic "Ousmane Dembélé" [ref=e525]:
+                      - generic [ref=e526]: "7."
+                      - text: Dembélé
+                  - generic [ref=e527] [cursor=pointer]:
+                    - generic [ref=e528]: "6.2"
+                    - generic "Michael Olise" [ref=e531]:
+                      - generic [ref=e532]: "11."
+                      - text: Olise
+                  - generic [ref=e535] [cursor=pointer]:
+                    - generic [ref=e536]: "6.0"
+                    - generic "Bradley Barcola" [ref=e539]:
+                      - generic [ref=e540]: "12."
+                      - text: Barcola
+                  - generic [ref=e543] [cursor=pointer]:
+                    - generic [ref=e544]: "6.2"
+                    - generic "Kylian Mbappé" [ref=e547]:
+                      - generic [ref=e548]: "10."
+                      - text: Mbappé
+                - generic [ref=e551]:
+                  - generic [ref=e552] [cursor=pointer]:
+                    - generic [ref=e553]: "7.4"
+                    - generic "Unai Simón" [ref=e556]:
+                      - generic [ref=e557]: "23."
+                      - text: Simón
+                  - generic [ref=e558] [cursor=pointer]:
+                    - generic [ref=e559]: "7.8"
+                    - generic "Pedro Porro" [ref=e562]:
+                      - generic [ref=e563]: "12."
+                      - text: Porro
+                  - generic [ref=e567] [cursor=pointer]:
+                    - generic [ref=e568]: "7.0"
+                    - generic "Aymeric Laporte" [ref=e571]:
+                      - generic [ref=e572]: "14."
+                      - text: Laporte
+                  - generic [ref=e573] [cursor=pointer]:
+                    - generic [ref=e574]: "7.4"
+                    - generic "Pau Cubarsí" [ref=e577]:
+                      - generic [ref=e578]: "22."
+                      - text: Cubarsí
+                  - generic [ref=e581] [cursor=pointer]:
+                    - generic [ref=e582]: "7.2"
+                    - generic "Marc Cucurella" [ref=e585]:
+                      - generic [ref=e586]: "24."
+                      - text: Cucurella
+                  - generic [ref=e590] [cursor=pointer]:
+                    - generic [ref=e591]: "7.3"
+                    - generic "Fabián Ruiz" [ref=e594]:
+                      - generic [ref=e595]: "8."
+                      - text: Ruiz
+                  - generic [ref=e598] [cursor=pointer]:
+                    - generic [ref=e599]: "7.3"
+                    - generic "Rodri" [ref=e602]:
+                      - generic [ref=e603]: "16."
+                      - text: Rodri
+                  - generic [ref=e604] [cursor=pointer]:
+                    - generic [ref=e605]: "6.6"
+                    - generic "Lamine Yamal" [ref=e608]:
+                      - generic [ref=e609]: "19."
+                      - text: Yamal
+                  - generic [ref=e610] [cursor=pointer]:
+                    - generic [ref=e611]: "7.0"
+                    - generic "Dani Olmo" [ref=e614]:
+                      - generic [ref=e615]: "10."
+                      - text: Olmo
+                  - generic [ref=e619] [cursor=pointer]:
+                    - generic [ref=e620]: "6.5"
+                    - generic "Álex Baena" [ref=e623]:
+                      - generic [ref=e624]: "15."
+                      - text: Baena
+                  - generic [ref=e627] [cursor=pointer]:
+                    - generic [ref=e628]: "7.2"
+                    - generic "Mikel Oyarzabal" [ref=e631]:
+                      - generic [ref=e632]: "21."
+                      - text: Oyarzabal
+            - generic [ref=e636]:
+              - generic [ref=e641]:
+                - generic [ref=e642] [cursor=pointer]:
+                  - generic [ref=e643]: "6.2"
+                  - generic "Nico Williams" [ref=e646]:
+                    - generic [ref=e647]: "17."
+                    - generic [ref=e648]: Williams
+                - generic [ref=e651] [cursor=pointer]:
+                  - generic [ref=e652]: "6.2"
+                  - generic "Pedri" [ref=e655]: "20."
+                - generic [ref=e660] [cursor=pointer]:
+                  - generic [ref=e661]: "6.3"
+                  - generic "Ferran Torres" [ref=e664]:
+                    - generic [ref=e665]: "7."
+                    - generic [ref=e666]: Torres
+                - generic [ref=e669] [cursor=pointer]:
+                  - generic [ref=e670]: "6.2"
+                  - generic "Marcos Llorente" [ref=e673]:
+                    - generic [ref=e674]: "5."
+                    - generic [ref=e675]: Llorente
+                - generic [ref=e678] [cursor=pointer]:
+                  - generic [ref=e679]: "6.5"
+                  - generic "Mikel Merino" [ref=e682]:
+                    - generic [ref=e683]: "6."
+                    - generic [ref=e684]: Merino
+                - generic "Alejandro Grimaldo" [ref=e691] [cursor=pointer]:
+                  - generic [ref=e692]: "3."
+                  - text: Grimaldo
+                - generic "Borja Iglesias" [ref=e697] [cursor=pointer]:
+                  - generic [ref=e698]: "26."
+                  - text: Iglesias
+                - generic "David Raya" [ref=e703] [cursor=pointer]:
+                  - generic [ref=e704]: "1."
+                  - text: Raya
+                - generic "Eric García" [ref=e709] [cursor=pointer]:
+                  - generic [ref=e710]: "4."
+                  - text: García
+                - generic "Martín Zubimendi" [ref=e715] [cursor=pointer]:
+                  - generic [ref=e716]: "18."
+                  - text: Zubimendi
+                - generic "Yéremy Pino" [ref=e721] [cursor=pointer]:
+                  - generic [ref=e722]: "11."
+                  - text: Pino
+                - generic "Joan García" [ref=e727] [cursor=pointer]:
+                  - generic [ref=e728]: "13."
+                  - text: García
+                - generic "Gavi" [ref=e733] [cursor=pointer]:
+                  - generic [ref=e734]: "9."
+                  - text: Gavi
+                - generic "Marc Pubill" [ref=e739] [cursor=pointer]:
+                  - generic [ref=e740]: "2."
+                  - text: Pubill
+                - generic "Víctor Muñoz" [ref=e745] [cursor=pointer]:
+                  - generic [ref=e746]: "25."
+                  - text: Muñoz
+              - text: "Formation: y/o"
+          - generic: cm kg cm kg
+        - generic [ref=e748]:
+          - list [ref=e749]:
+            - listitem [ref=e750] [cursor=pointer]:
+              - heading "Ratings" [level=4] [ref=e751]
+              - generic [ref=e752]:
+                - generic [ref=e753]: "6.10"
+                - generic [ref=e754]: "-"
+                - generic [ref=e755]: "6.88"
+              - generic [ref=e756]: More
+            - listitem [ref=e758] [cursor=pointer]:
+              - heading "Total Shots" [level=4] [ref=e759]
+              - generic [ref=e760]:
+                - generic [ref=e761]: "10"
+                - generic [ref=e762]: "-"
+                - generic [ref=e763]: "10"
+              - generic [ref=e764]: More
+            - listitem [ref=e766] [cursor=pointer]:
+              - heading "Possession%" [level=4] [ref=e767]
+              - generic [ref=e768]:
+                - generic [ref=e769]: "49.1"
+                - generic [ref=e770]: "-"
+                - generic [ref=e771]: "50.9"
+              - generic [ref=e772]: More
+            - listitem [ref=e774] [cursor=pointer]:
+              - heading "Pass Success%" [level=4] [ref=e775]
+              - generic [ref=e776]:
+                - generic [ref=e777]: "84"
+                - generic [ref=e778]: "-"
+                - generic [ref=e779]: "85"
+              - generic [ref=e780]: More
+            - listitem [ref=e782] [cursor=pointer]:
+              - heading "Dribbles" [level=4] [ref=e783]
+              - generic [ref=e784]:
+                - generic [ref=e785]: "11"
+                - generic [ref=e786]: "-"
+                - generic [ref=e787]: "2"
+              - generic [ref=e788]: More
+            - listitem [ref=e790] [cursor=pointer]:
+              - heading "Aerials Won" [level=4] [ref=e791]
+              - generic [ref=e792]:
+                - generic [ref=e793]: "8"
+                - generic [ref=e794]: "-"
+                - generic [ref=e795]: "17"
+              - generic [ref=e796]: More
+            - listitem [ref=e798] [cursor=pointer]:
+              - heading "Tackles" [level=4] [ref=e799]
+              - generic [ref=e800]:
+                - generic [ref=e801]: "13"
+                - generic [ref=e802]: "-"
+                - generic [ref=e803]: "22"
+              - generic [ref=e804]: More
+            - listitem [ref=e806] [cursor=pointer]:
+              - heading "Corners" [level=4] [ref=e807]
+              - generic [ref=e808]:
+                - generic [ref=e809]: "7"
+                - generic [ref=e810]: "-"
+                - generic [ref=e811]: "1"
+              - generic [ref=e812]: More
+            - listitem [ref=e814] [cursor=pointer]:
+              - heading "Dispossessed" [level=4] [ref=e815]
+              - generic [ref=e816]:
+                - generic [ref=e817]: "9"
+                - generic [ref=e818]: "-"
+                - generic [ref=e819]: "10"
+              - generic [ref=e820]: More
+          - list
+        - generic [ref=e823]:
+          - generic [ref=e824]:
+            - generic [ref=e835]: HT
+            - generic [ref=e845]: FT
+          - generic [ref=e847]:
+            - slider [ref=e850]
+            - slider [ref=e852]
+          - generic: Follow live
+          - generic [ref=e854]:
+            - generic [ref=e855]:
+              - generic [ref=e856]: "'"
+              - generic [ref=e857]: "'"
+              - text: "'"
+              - generic [ref=e858]: "'"
+              - text: "'"
+              - generic [ref=e859]: "'"
+              - text: "'"
+              - generic [ref=e860]: "'"
+              - text: "'"
+              - generic [ref=e861]: "'"
+              - text: "'"
+              - generic [ref=e862]: "'"
+              - generic [ref=e863]: "'"
+            - generic [ref=e965]:
+              - generic [ref=e966]: "'"
+              - generic [ref=e967]: "'"
+              - generic [ref=e968]: "'"
+              - generic [ref=e969]: "'"
+              - text: "'"
+              - generic [ref=e970]: "'"
+              - text: "'"
+              - generic [ref=e971]: "'"
+              - text: "'"
+              - generic [ref=e972]: "'"
+              - text: "'"
+              - generic [ref=e973]: "'"
+              - text: "'"
+              - generic [ref=e974]: "'"
+              - text: "'"
+              - generic [ref=e975]: "'"
+              - generic [ref=e976]: "'"
+        - text: Loading..
+      - text: Loading.. ▼ ▼ ' Loading.. ▼ ▼ Loading.. Loading..
+    - generic [ref=e995]:
+      - generic [ref=e996]: Man of the match
+      - generic [ref=e999]: Goal
+      - generic [ref=e1002]: Own goal
+      - generic [ref=e1005]: Assist
+      - generic [ref=e1008]: Last man tackle
+      - generic [ref=e1011]: Error lead to goal
+      - generic [ref=e1014]: Penalty scored
+      - generic [ref=e1017]: Penalty missed
+      - generic [ref=e1020]: Clearance off the line
+      - generic [ref=e1023]: Penalty Saved
+      - generic [ref=e1026]: Shot on post
+      - generic [ref=e1029]: Sub out
+      - generic [ref=e1032]: Sub in
+      - generic [ref=e1035]: Yellow Card
+      - generic [ref=e1038]: Second Yellow Card
+      - generic [ref=e1041]: Red Card
+      - generic [ref=e1044]: Formation change
+      - generic [ref=e1047]: Last updated at 2026-07-15 02:59:21
+    - link "Please contact us with any feedback" [ref=e1049] [cursor=pointer]:
+      - /url: /contactus
+    - generic [ref=e1054]:
+      - heading "Comments (184)" [level=2] [ref=e1055]
+      - generic [ref=e1057]:
+        - term [ref=e1058]
+        - definition [ref=e1059]:
+          - link "Most Recent" [ref=e1060] [cursor=pointer]:
+            - /url: /matches/2002449/live/international-fifa-world-cup-2026-france-spain?sortBy=Date
+        - definition [ref=e1061]:
+          - link "Most Liked" [ref=e1062] [cursor=pointer]:
+            - /url: /matches/2002449/live/international-fifa-world-cup-2026-france-spain?sortBy=Rating
+      - generic [ref=e1064]:
+        - generic [ref=e1065]:
+          - generic [ref=e1066]:
+            - link "Sign In" [ref=e1067] [cursor=pointer]:
+              - /url: /accounts/login?originalUrl=http://www.whoscored.com/matches/2002449/live/international-fifa-world-cup-2026-france-spain
+            - text: or
+            - link "Join Us" [ref=e1068] [cursor=pointer]:
+              - /url: /accounts/register?originalUrl=http://www.whoscored.com/matches/2002449/live/international-fifa-world-cup-2026-france-spain
+            - text: to post your comment!
+          - button "Post" [ref=e1070] [cursor=pointer]
+        - list [ref=e1071]:
+          - listitem [ref=e1072]:
+            - generic [ref=e1073]:
+              - generic [ref=e1074]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e1076] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e1078]: Cubarsin should be named the young player of the tournament, having conceded just one goal in the entire World Cup while playing against Mbappé, Ronaldo, and Lukaku. etc.
+              - generic [ref=e1079]:
+                - text: 4 days ago
+                - generic [ref=e1080]:
+                  - generic [ref=e1081]:
+                    - link "Like" [ref=e1082] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1083]: Reply
+                  - link "Report" [ref=e1085] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1086]:
+            - generic [ref=e1087]:
+              - generic [ref=e1088]:
+                - text: "[ - ]"
+                - link "gincka" [ref=e1090] [cursor=pointer]:
+                  - /url: /users/gincka
+                - text: "- member since 28-May-22"
+              - paragraph [ref=e1092]: Ok hear me out. What if France lose on purpose to fight against Argentina since Argentina also likely to lose against England
+              - generic [ref=e1093]:
+                - text: 4 days ago
+                - generic [ref=e1094]:
+                  - link "Like" [ref=e1096] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1097]: Reply
+                  - link "Report" [ref=e1099] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1100]:
+            - generic [ref=e1102]:
+              - generic [ref=e1103]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e1105] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e1107]: "@gincka Ok hear me out. France is sure to win the World Cup bronze after already taking gold and silver; they also have the Nations League gold and the European Championship silver. If Deschamps wins another European Championship gold, he’ll get the Infinity Stones and, with a snap of his fingers, take out all of Spain—his greatest nemesis."
+              - generic [ref=e1108]:
+                - text: 4 days ago
+                - generic [ref=e1109]:
+                  - link "Like" [ref=e1111] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1112]: Reply
+                  - link "Report" [ref=e1114] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1115]:
+            - generic [ref=e1117]:
+              - generic [ref=e1118]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1120] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1122]: "@Aron66666 They don't have the Nations League gold. They did not win that trophy fairly, so it doesn't count."
+              - generic [ref=e1123]:
+                - text: 4 days ago
+                - generic [ref=e1124]:
+                  - link "Like" [ref=e1126] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1127]: Reply
+                  - link "Report" [ref=e1129] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1130]:
+            - generic [ref=e1132]:
+              - generic [ref=e1133]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1135] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1137]: "@gincka France will unleash all their wrath on Argentina in the small final. It will be ugly."
+              - generic [ref=e1138]:
+                - text: 4 days ago
+                - generic [ref=e1139]:
+                  - link "Like" [ref=e1141] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1142]: Reply
+                  - link "Report" [ref=e1144] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1145]:
+            - generic [ref=e1147]:
+              - generic [ref=e1148]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1150] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1152]: "@agunchev You better hope I don't unleash my wrath on you, cockroach! It will be much uglier."
+              - generic [ref=e1153]:
+                - text: 4 days ago
+                - generic [ref=e1154]:
+                  - link "Like" [ref=e1156] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1157]: Reply
+                  - link "Report" [ref=e1159] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1160]:
+            - generic [ref=e1162]:
+              - generic [ref=e1163]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1165] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1167]: "@gincka OK, hear me out. Argentina will not lose to England."
+              - generic [ref=e1168]:
+                - text: 4 days ago
+                - generic [ref=e1169]:
+                  - link "Like" [ref=e1171] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1172]: Reply
+                  - link "Report" [ref=e1174] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1175]:
+            - generic [ref=e1176]:
+              - generic [ref=e1177]:
+                - text: "[ - ]"
+                - link "Triumphant8" [ref=e1179] [cursor=pointer]:
+                  - /url: /users/Triumphant8
+                - text: "- member since 29-Nov-25"
+              - paragraph [ref=e1181]: If you are interested in sports predictions message me on telegram �� @predictiontipsbet
+              - generic [ref=e1182]:
+                - text: 5 days ago
+                - generic [ref=e1183]:
+                  - link "Like" [ref=e1185] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1186]: Reply
+                  - link "Report" [ref=e1188] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1189]:
+            - generic [ref=e1190]:
+              - generic [ref=e1191]:
+                - text: "[ - ]"
+                - link "Genie908" [ref=e1193] [cursor=pointer]:
+                  - /url: /users/Genie908
+                - text: "- member since 28-Aug-16"
+              - paragraph [ref=e1195]: Neither England nor Argentina will be able to compete with Spain, France today looked worst than Cabo Verde.
+              - generic [ref=e1196]:
+                - text: 5 days ago
+                - generic [ref=e1197]:
+                  - generic [ref=e1198]:
+                    - link "Like" [ref=e1199] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+5"
+                  - generic [ref=e1200]: Reply
+                  - link "Report" [ref=e1202] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1203]:
+            - generic [ref=e1205]:
+              - generic [ref=e1206]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1208] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1210]: "@Genie908 Cabo Verde are a better team than France."
+              - generic [ref=e1211]:
+                - text: 5 days ago
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]:
+                    - link "Like" [ref=e1214] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e1215]: Reply
+                  - link "Report" [ref=e1217] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1218]:
+            - generic [ref=e1220]:
+              - generic [ref=e1221]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1223] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1225]: "@Genie908 England can compete, Argentina - not. Spain's only weakness is defending against high crosses and headers. Argentina can't deliver that, but England can. Spain would wipe the floor with Argentina as they are literally a much better version of them. England may trouble them with physicality and height, although they are a heavy underdog too."
+              - generic [ref=e1226]:
+                - text: 5 days ago
+                - generic [ref=e1227]:
+                  - link "Like" [ref=e1229] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1230]: Reply
+                  - link "Report" [ref=e1232] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1233]:
+            - generic [ref=e1235]:
+              - generic [ref=e1236]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1238] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1240]: "@Genie908 Argentina can’t Messi CAN!!"
+              - generic [ref=e1241]:
+                - text: 5 days ago
+                - generic [ref=e1242]:
+                  - generic [ref=e1243]:
+                    - link "Like" [ref=e1244] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1245]: Reply
+                  - link "Report" [ref=e1247] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1248]:
+            - generic [ref=e1250]:
+              - generic [ref=e1251]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1253] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1255]: "@CrazyBarcaFan00 Messi is 39 bro. I will always root for him, but let's be realistic. It's a miracle that Argentina reached this far in the tournament. They had the easisest path and barely scraped by third tier teams."
+              - generic [ref=e1256]:
+                - text: 5 days ago
+                - generic [ref=e1257]:
+                  - link "Like" [ref=e1259] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1260]: Reply
+                  - link "Report" [ref=e1262] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1263]:
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1268] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1270]: "@agunchev Yawn you get your answer tomorrow and next Sunday.."
+              - generic [ref=e1271]:
+                - text: 5 days ago
+                - generic [ref=e1272]:
+                  - generic [ref=e1273]:
+                    - link "Like" [ref=e1274] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1275]: Reply
+                  - link "Report" [ref=e1277] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1278]:
+            - generic [ref=e1280]:
+              - generic [ref=e1281]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1283] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1285]: "@CrazyBarcaFan00 Dude, in the knockouts Spain faced Austria, Portugal, Belgium and France ranked by FIFA 24, 5, 9 and 1 - average rank 9.7 and they were never in trouble. At the same time Argentina faced Cabo Verde, Egypt and Switzerland ranked 67, 29 and 19 - avergae rank 38.3 and they were in trouble in every game."
+              - generic [ref=e1286]:
+                - text: 5 days ago
+                - generic [ref=e1287]:
+                  - link "Like" [ref=e1289] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1290]: Reply
+                  - link "Report" [ref=e1292] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1293]:
+            - generic [ref=e1295]:
+              - generic [ref=e1296]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1298] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1300]: "@agunchev it means nothing in one game… ranking is BS Cabo verde is much better than Austria, Portugal, and Belgium"
+              - generic [ref=e1301]:
+                - text: 5 days ago
+                - generic [ref=e1302]:
+                  - generic [ref=e1303]:
+                    - link "Like" [ref=e1304] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1305]: Reply
+                  - link "Report" [ref=e1307] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1308]:
+            - generic [ref=e1310]:
+              - generic [ref=e1311]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1313] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1315]: "@CrazyBarcaFan00 No, they are not and ranking isn't BS. It means a lot. Spain totally outplayed Cabo Verde and had a ton of chances against them, but had no luck finishing. So much ridiculous misses. Torrest hit the crossbar on an open goal. Argentina on the other hand made Cabo Verde look good."
+              - generic [ref=e1316]:
+                - text: 5 days ago
+                - generic [ref=e1317]:
+                  - link "Like" [ref=e1319] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1320]: Reply
+                  - link "Report" [ref=e1322] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1323]:
+            - generic [ref=e1325]:
+              - generic [ref=e1326]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1328] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1330]: "@agunchev STOP TRYING TO CONTRADICT THE TRUTH YOU FUCKING MORON!!! JUST FUCKING CUT YOUR VEINS ALREADY AND RID US OF YOUR DISGUSTING PRESENCE!!!!"
+              - generic [ref=e1331]:
+                - text: 5 days ago
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]:
+                    - link "Like" [ref=e1334] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1335]: Reply
+                  - link "Report" [ref=e1337] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1338]:
+            - generic [ref=e1340]:
+              - generic [ref=e1341]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1343] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1345]: "@agunchev I will come back to you tomorrow and on Sunday when Messi lifts his second World Cup…"
+              - generic [ref=e1346]:
+                - text: 5 days ago
+                - generic [ref=e1347]:
+                  - generic [ref=e1348]:
+                    - link "Like" [ref=e1349] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1350]: Reply
+                  - link "Report" [ref=e1352] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1353]:
+            - generic [ref=e1355]:
+              - generic [ref=e1356]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1358] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1360]: "@CrazyBarcaFan00 You are welcome to do so. I will be happy to be wrong, as I support first Messi (Argentina by association) and second Spain. Being realistic is another thing though. Messi is 39 and he doesn't press at all. Argentina play every game a man down off the ball and this is the main reason they struggle agaisnt these third tier teams. So far they managed to advance with a lot of luck, but this can not continue forever. England is literally their first test, while Spain already beat a few of these heavyweights and they looked very comfortable against them."
+              - generic [ref=e1361]:
+                - text: 5 days ago
+                - generic [ref=e1362]:
+                  - generic [ref=e1363]:
+                    - link "Like" [ref=e1364] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1365]: Reply
+                  - link "Report" [ref=e1367] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1368]:
+            - generic [ref=e1370]:
+              - generic [ref=e1371]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1373] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1375]: "@agunchev I will come again on Sunday and in four years. Promise."
+              - generic [ref=e1376]:
+                - text: 4 days ago
+                - generic [ref=e1377]:
+                  - link "Like" [ref=e1379] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1380]: Reply
+                  - link "Report" [ref=e1382] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1383]:
+            - generic [ref=e1385]:
+              - generic [ref=e1386]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1388] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1390]: "@agunchev I will also come back in four years when he wins his third World Cup in a row…"
+              - generic [ref=e1391]:
+                - text: 4 days ago
+                - generic [ref=e1392]:
+                  - link "Like" [ref=e1394] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1395]: Reply
+                  - link "Report" [ref=e1397] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1398]:
+            - generic [ref=e1400]:
+              - generic [ref=e1401]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1403] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1405]: "@CrazyBarcaFan00 Well, even as one of Messi's biggest fans, he will probably not participate in 2030. But even so, after he wins the Golden Ball in this one, individually speaking 3 Golden Balls in World Cups are much, much better than one (Pele). He has already long surpassed CR7 and that drug addict guy. If anyone argues that Messi is not the best player in football history, he needs a slap in the face. Fullstop."
+              - generic [ref=e1406]:
+                - text: 4 days ago
+                - generic [ref=e1407]:
+                  - link "Like" [ref=e1409] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1410]: Reply
+                  - link "Report" [ref=e1412] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1413]:
+            - generic [ref=e1414]:
+              - generic [ref=e1415]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1417] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1419]: This game was "offence wins games, defence wins championships" personified. Congrats to Spain for their second WC title. Fully deserved.
+              - generic [ref=e1420]:
+                - text: 5 days ago
+                - generic [ref=e1421]:
+                  - generic [ref=e1422]:
+                    - link "Like" [ref=e1423] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+7"
+                  - generic [ref=e1424]: Reply
+                  - link "Report" [ref=e1426] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1427]:
+            - generic [ref=e1429]:
+              - generic [ref=e1430]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1432] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1434]: "@agunchev FUCK YOU!!! JUST FUCK YOU, YOU FUCKING IDIOT, ALL RIGHT??? YOU CAN'T CONGRATULATE A TEAM BEFORE THE FINAL HAS BEEN PLAYED! GO THROW YOURSELF FROM A BRIDGE BECAUSE YOU DON'T UNDERSTAND FOOTBALL AT ALL!!!"
+              - generic [ref=e1435]:
+                - text: 5 days ago
+                - generic [ref=e1436]:
+                  - generic [ref=e1437]:
+                    - link "Like" [ref=e1438] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1439]: Reply
+                  - link "Report" [ref=e1441] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1442]:
+            - generic [ref=e1444]:
+              - generic [ref=e1445]:
+                - text: "[ - ]"
+                - link "sailorripley" [ref=e1447] [cursor=pointer]:
+                  - /url: /users/sailorripley
+                - text: "- member since 03-Feb-13"
+              - paragraph [ref=e1449]: "@Sputnik Goodness, man, are you in therapy for your mental problems? Maybe your clinic should limit your TV and online time, it clearly destabalizes you...."
+              - generic [ref=e1450]:
+                - text: 3 days ago
+                - generic [ref=e1451]:
+                  - link "Like" [ref=e1453] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1454]: Reply
+                  - link "Report" [ref=e1456] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1457]:
+            - generic [ref=e1458]:
+              - generic [ref=e1459]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1461] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1463]: Spain vs Argentina final Spain will win unless Messi has another say but he has to play the most complete game in history to stand a chance…
+              - generic [ref=e1464]:
+                - text: 5 days ago
+                - generic [ref=e1465]:
+                  - generic [ref=e1466]:
+                    - link "Like" [ref=e1467] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e1468]: Reply
+                  - link "Report" [ref=e1470] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1471]:
+            - generic [ref=e1473]:
+              - generic [ref=e1474]:
+                - text: "[ - ]"
+                - link "Genie908" [ref=e1476] [cursor=pointer]:
+                  - /url: /users/Genie908
+                - text: "- member since 28-Aug-16"
+              - paragraph [ref=e1478]: "@CrazyBarcaFan00 Unfortunately for Messi I don't think he'll be in the final with this poor Argentina team."
+              - generic [ref=e1479]:
+                - text: 5 days ago
+                - generic [ref=e1480]:
+                  - generic [ref=e1481]:
+                    - link "Like" [ref=e1482] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1483]: Reply
+                  - link "Report" [ref=e1485] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1486]:
+            - generic [ref=e1488]:
+              - generic [ref=e1489]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1491] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1493]: "@Genie908 the final is Spain vs Argentina"
+              - generic [ref=e1494]:
+                - text: 5 days ago
+                - generic [ref=e1495]:
+                  - generic [ref=e1496]:
+                    - link "Like" [ref=e1497] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1498]: Reply
+                  - link "Report" [ref=e1500] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1501]:
+            - generic [ref=e1503]:
+              - generic [ref=e1504]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1506] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1508]: "@Genie908 he will 1,000,000%"
+              - generic [ref=e1509]:
+                - text: 5 days ago
+                - generic [ref=e1510]:
+                  - generic [ref=e1511]:
+                    - link "Like" [ref=e1512] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1513]: Reply
+                  - link "Report" [ref=e1515] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1516]:
+            - generic [ref=e1517]:
+              - generic [ref=e1518]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e1520] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e1522]: Doue was embarrassing as he couldn't score in an empty goal.
+              - generic [ref=e1523]:
+                - text: 5 days ago
+                - generic [ref=e1524]:
+                  - generic [ref=e1525]:
+                    - link "Like" [ref=e1526] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1527]: Reply
+                  - link "Report" [ref=e1529] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1530]:
+            - generic [ref=e1531]:
+              - generic [ref=e1532]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e1534] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e1536]: It was already clear after 25 minutes that France wouldn't score tonight. They could have played for 4 more hours and still wouldn't have been able to score.
+              - generic [ref=e1537]:
+                - text: 5 days ago
+                - generic [ref=e1538]:
+                  - generic [ref=e1539]:
+                    - link "Like" [ref=e1540] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e1541]: Reply
+                  - link "Report" [ref=e1543] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1544]:
+            - generic [ref=e1546]:
+              - generic [ref=e1547]:
+                - text: "[ - ]"
+                - link "GioMonaldo" [ref=e1549] [cursor=pointer]:
+                  - /url: /users/GioMonaldo
+                - text: "- member since 26-Sep-18"
+              - paragraph [ref=e1551]: "@neumi17 nah, we saw Dembele wake up and start shooting in injury time, and the shots were on target."
+              - generic [ref=e1552]:
+                - text: 5 days ago
+                - generic [ref=e1553]:
+                  - link "Like" [ref=e1555] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1556]: Reply
+                  - link "Report" [ref=e1558] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1559]:
+            - generic [ref=e1561]:
+              - generic [ref=e1562]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e1564] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e1566]: "@GioMonaldo Those weren't shots , more \" Rückgaben \" ... ;-)"
+              - generic [ref=e1567]:
+                - text: 5 days ago
+                - generic [ref=e1568]:
+                  - link "Like" [ref=e1570] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1571]: Reply
+                  - link "Report" [ref=e1573] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1574]:
+            - generic [ref=e1575]:
+              - generic [ref=e1576]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=e1578] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=e1580]: Congratulations to Spain for reaching the finals fully deserved
+              - generic [ref=e1581]:
+                - text: 5 days ago
+                - generic [ref=e1582]:
+                  - generic [ref=e1583]:
+                    - link "Like" [ref=e1584] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+9"
+                  - generic [ref=e1585]: Reply
+                  - link "Report" [ref=e1587] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1588]:
+            - generic [ref=e1589]:
+              - generic [ref=e1590]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e1592] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e1594]: First good game of Spain at this WC and France's first bad performance during the tournament. Bad timing for France ... And Spain wasn't even very good, they just stood solid in defense and had more space up front than usual.
+              - generic [ref=e1595]:
+                - text: 5 days ago
+                - generic [ref=e1596]:
+                  - generic [ref=e1597]:
+                    - link "Like" [ref=e1598] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1599]: Reply
+                  - link "Report" [ref=e1601] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1602]:
+            - generic [ref=e1604]:
+              - generic [ref=e1605]:
+                - text: "[ - ]"
+                - link "GioMonaldo" [ref=e1607] [cursor=pointer]:
+                  - /url: /users/GioMonaldo
+                - text: "- member since 26-Sep-18"
+              - paragraph [ref=e1609]: "@neumi17 that defense is incredible tho"
+              - generic [ref=e1610]:
+                - text: 5 days ago
+                - generic [ref=e1611]:
+                  - generic [ref=e1612]:
+                    - link "Like" [ref=e1613] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e1614]: Reply
+                  - link "Report" [ref=e1616] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1617]:
+            - generic [ref=e1618]:
+              - generic [ref=e1619]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e1621] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e1623]: France looked like they had never played together before, Mbappe was dogshit. Well played, Spain!
+              - generic [ref=e1624]:
+                - text: 5 days ago
+                - generic [ref=e1625]:
+                  - generic [ref=e1626]:
+                    - link "Like" [ref=e1627] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+6"
+                  - generic [ref=e1628]: Reply
+                  - link "Report" [ref=e1630] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1631]:
+            - generic [ref=e1632]:
+              - generic [ref=e1633]:
+                - text: "[ - ]"
+                - link "MrNemobody" [ref=e1635] [cursor=pointer]:
+                  - /url: /users/MrNemobody
+                - text: "- member since 05-Dec-15"
+              - paragraph [ref=e1637]: Mbappé attempting 6 dribbles and only 1 successful...
+              - generic [ref=e1638]:
+                - text: 5 days ago
+                - generic [ref=e1639]:
+                  - generic [ref=e1640]:
+                    - link "Like" [ref=e1641] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1642]: Reply
+                  - link "Report" [ref=e1644] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1645]:
+            - generic [ref=e1646]:
+              - generic [ref=e1647]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1649] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1651]: Where are all those idiots now, who were claiming that France are "unbeatable"????????????
+              - generic [ref=e1652]:
+                - text: 5 days ago
+                - generic [ref=e1653]:
+                  - generic [ref=e1654]:
+                    - link "Like" [ref=e1655] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+9"
+                  - generic [ref=e1656]: Reply
+                  - link "Report" [ref=e1658] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1659]:
+            - generic [ref=e1661]:
+              - generic [ref=e1662]:
+                - text: "[ - ]"
+                - link "tinyclaw" [ref=e1664] [cursor=pointer]:
+                  - /url: /users/tinyclaw
+                - text: "- member since 02-Mar-18"
+              - paragraph [ref=e1666]: "@Sputnik People were just content to look at the long-range curling shots that France were given space to take and imagine a good team would allow that. France is not a joined-up team; their midfield and full-backs do not combine with the forwards. You can't win a World Cup curling in long-range shots all the time."
+              - generic [ref=e1667]:
+                - text: 5 days ago
+                - generic [ref=e1668]:
+                  - generic [ref=e1669]:
+                    - link "Like" [ref=e1670] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1671]: Reply
+                  - link "Report" [ref=e1673] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1674]:
+            - generic [ref=e1676]:
+              - generic [ref=e1677]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1679] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1681]: "@tinyclaw It's easy to talk after the fact. France were by far the most impressive team up to this game. We knew that Spain will control the midfield, but we didn't expect them to be this spectacular in the back. They sacrificed their usual 60+% of possession in order to achieve this and Pedri was on the bench, again. Luis de la Fuente is one very smart man."
+              - generic [ref=e1682]:
+                - text: 5 days ago
+                - generic [ref=e1683]:
+                  - generic [ref=e1684]:
+                    - link "Like" [ref=e1685] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+5"
+                  - generic [ref=e1686]: Reply
+                  - link "Report" [ref=e1688] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1689]:
+            - generic [ref=e1691]:
+              - generic [ref=e1692]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1694] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1696]: "@agunchev YOU'RE REPLYING TO A COMMENT TO MY OWN BUT NOT TO MY COMMENT? JUST GO TO HELL AND DIE ALREADY, YOU FUCKING PUSSY!!! YOU ARE THE DEFINITION OF BETA MALE CUCK, YOU ARE A DISGRACE TO THE MALE GENDER!!! \"MEN\" LIKE YOU SHOULD BE PUT DOWN OR AT LEAST GELDED! DO YOU UNDERSTAND?"
+              - generic [ref=e1697]:
+                - text: 5 days ago
+                - generic [ref=e1698]:
+                  - link "Like" [ref=e1700] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1701]: Reply
+                  - link "Report" [ref=e1703] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1704]:
+            - generic [ref=e1705]:
+              - generic [ref=e1706]:
+                - text: "[ - ]"
+                - link "MEHJones" [ref=e1708] [cursor=pointer]:
+                  - /url: /users/MEHJones
+                - text: "- member since 02-Nov-16"
+              - paragraph [ref=e1710]: Congratulations Pedro Porro!
+              - generic [ref=e1711]:
+                - text: 5 days ago
+                - generic [ref=e1712]:
+                  - generic [ref=e1713]:
+                    - link "Like" [ref=e1714] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1715]: Reply
+                  - link "Report" [ref=e1717] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1718]:
+            - generic [ref=e1719]:
+              - generic [ref=e1720]:
+                - text: "[ - ]"
+                - link "Davisson" [ref=e1722] [cursor=pointer]:
+                  - /url: /users/Davisson
+                - text: "- member since 30-May-17"
+              - paragraph [ref=e1724]: LMAOOOOOOOOOOOOOOOO
+              - generic [ref=e1725]:
+                - text: 5 days ago
+                - generic [ref=e1726]:
+                  - generic [ref=e1727]:
+                    - link "Like" [ref=e1728] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1729]: Reply
+                  - link "Report" [ref=e1731] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1732]:
+            - generic [ref=e1733]:
+              - generic [ref=e1734]:
+                - text: "[ - ]"
+                - link "King_Bookah_Bets" [ref=e1736] [cursor=pointer]:
+                  - /url: /users/King_Bookah_Bets
+                - text: "- member since 18-Aug-25"
+              - paragraph [ref=e1738]: Spain was just too strong, unlucky for the French. Doué should have started not barcola
+              - generic [ref=e1739]:
+                - text: 5 days ago
+                - generic [ref=e1740]:
+                  - generic [ref=e1741]:
+                    - link "Like" [ref=e1742] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1743]: Reply
+                  - link "Report" [ref=e1745] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1746]:
+            - generic [ref=e1747]:
+              - generic [ref=e1748]:
+                - text: "[ - ]"
+                - link "GioMonaldo" [ref=e1750] [cursor=pointer]:
+                  - /url: /users/GioMonaldo
+                - text: "- member since 26-Sep-18"
+              - paragraph [ref=e1752]: This was the real final right here. Congrats to Spain, this is one of the most dominant sides I've ever seen in football.
+              - generic [ref=e1753]:
+                - text: 5 days ago
+                - generic [ref=e1754]:
+                  - generic [ref=e1755]:
+                    - link "Like" [ref=e1756] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1757]: Reply
+                  - link "Report" [ref=e1759] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1760]:
+            - generic [ref=e1762]:
+              - generic [ref=e1763]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1765] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1767]: "@GioMonaldo Don't call yourself an Argentina supporter ever again. Argentina are one of those teams - you are either with them or against them. If you're not with them..."
+              - generic [ref=e1768]:
+                - text: 5 days ago
+                - generic [ref=e1769]:
+                  - link "Like" [ref=e1771] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1772]: Reply
+                  - link "Report" [ref=e1774] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1775]:
+            - generic [ref=e1777]:
+              - generic [ref=e1778]:
+                - text: "[ - ]"
+                - link "GioMonaldo" [ref=e1780] [cursor=pointer]:
+                  - /url: /users/GioMonaldo
+                - text: "- member since 26-Sep-18"
+              - paragraph [ref=e1782]: "@Sputnik I am with Argentina until the end but I can't ignore reality."
+              - generic [ref=e1783]:
+                - text: 4 days ago
+                - generic [ref=e1784]:
+                  - generic [ref=e1785]:
+                    - link "Like" [ref=e1786] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1787]: Reply
+                  - link "Report" [ref=e1789] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1790]:
+            - generic [ref=e1792]:
+              - generic [ref=e1793]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1795] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1797]: "@GioMonaldo All right then, just wait. :)"
+              - generic [ref=e1798]:
+                - text: 4 days ago
+                - generic [ref=e1799]:
+                  - link "Like" [ref=e1801] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1802]: Reply
+                  - link "Report" [ref=e1804] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1805]:
+            - generic [ref=e1807]:
+              - generic [ref=e1808]:
+                - text: "[ - ]"
+                - link "Davisson" [ref=e1810] [cursor=pointer]:
+                  - /url: /users/Davisson
+                - text: "- member since 30-May-17"
+              - paragraph [ref=e1812]: "@GioMonaldo if England qualifies against Argentina, I agree"
+              - generic [ref=e1813]:
+                - text: 5 days ago
+                - generic [ref=e1814]:
+                  - generic [ref=e1815]:
+                    - link "Like" [ref=e1816] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e1817]: Reply
+                  - link "Report" [ref=e1819] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1820]:
+            - generic [ref=e1822]:
+              - generic [ref=e1823]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e1825] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e1827]: "@Davisson England have a much better chance of beating Spain than Argentina. Spain are so organized in the back. They just won't allow clear chances. Only crosses and headers could be a problem for them. Argentina can't deliver than, but England can."
+              - generic [ref=e1828]:
+                - text: 5 days ago
+                - generic [ref=e1829]:
+                  - link "Like" [ref=e1831] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1832]: Reply
+                  - link "Report" [ref=e1834] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1835]:
+            - generic [ref=e1837]:
+              - generic [ref=e1838]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1840] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1842]: "@agunchev You have a much better chance of dying of AIDS than of getting stabbed by a mugger on the street. Oh, wait..."
+              - generic [ref=e1843]:
+                - text: 5 days ago
+                - generic [ref=e1844]:
+                  - link "Like" [ref=e1846] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1847]: Reply
+                  - link "Report" [ref=e1849] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1850]:
+            - generic [ref=e1852]:
+              - generic [ref=e1853]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1855] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1857]: "@Davisson Exactly."
+              - generic [ref=e1858]:
+                - text: 5 days ago
+                - generic [ref=e1859]:
+                  - link "Like" [ref=e1861] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1862]: Reply
+                  - link "Report" [ref=e1864] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1865]:
+            - generic [ref=e1866]:
+              - generic [ref=e1867]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e1869] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e1871]: Spain should have scored more anyways that was enough for today…
+              - generic [ref=e1872]:
+                - text: 5 days ago
+                - generic [ref=e1873]:
+                  - generic [ref=e1874]:
+                    - link "Like" [ref=e1875] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1876]: Reply
+                  - link "Report" [ref=e1878] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1879]:
+            - generic [ref=e1880]:
+              - generic [ref=e1881]:
+                - text: "[ - ]"
+                - link "Yassine_1" [ref=e1883] [cursor=pointer]:
+                  - /url: /users/Yassine_1
+                - text: "- member since 18-Oct-17"
+              - paragraph [ref=e1885]: Spain is just a complete mismatch for France.
+              - generic [ref=e1886]:
+                - text: 5 days ago
+                - generic [ref=e1887]:
+                  - generic [ref=e1888]:
+                    - link "Like" [ref=e1889] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e1890]: Reply
+                  - link "Report" [ref=e1892] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1893]:
+            - generic [ref=e1895]:
+              - generic [ref=e1896]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e1898] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e1900]: "@Yassine_1 Because France is so bad, not because Spain was so great."
+              - generic [ref=e1901]:
+                - text: 5 days ago
+                - generic [ref=e1902]:
+                  - link "Like" [ref=e1904] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1905]: Reply
+                  - link "Report" [ref=e1907] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1908]:
+            - generic [ref=e1910]:
+              - generic [ref=e1911]:
+                - text: "[ - ]"
+                - link "Yassine_1" [ref=e1913] [cursor=pointer]:
+                  - /url: /users/Yassine_1
+                - text: "- member since 18-Oct-17"
+              - paragraph [ref=e1915]: "@neumi17 France is amazing."
+              - generic [ref=e1916]:
+                - text: 5 days ago
+                - generic [ref=e1917]:
+                  - link "Like" [ref=e1919] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1920]: Reply
+                  - link "Report" [ref=e1922] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1923]:
+            - generic [ref=e1925]:
+              - generic [ref=e1926]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1928] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1930]: "@Yassine_1 You are an idiot."
+              - generic [ref=e1931]:
+                - text: 5 days ago
+                - generic [ref=e1932]:
+                  - link "Like" [ref=e1934] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1935]: Reply
+                  - link "Report" [ref=e1937] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1938]:
+            - generic [ref=e1940]:
+              - generic [ref=e1941]:
+                - text: "[ - ]"
+                - link "Davisson" [ref=e1943] [cursor=pointer]:
+                  - /url: /users/Davisson
+                - text: "- member since 30-May-17"
+              - paragraph [ref=e1945]: "@neumi17 France was \"so bad\" because Spain was \"so great\"."
+              - generic [ref=e1946]:
+                - text: 5 days ago
+                - generic [ref=e1947]:
+                  - generic [ref=e1948]:
+                    - link "Like" [ref=e1949] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+6"
+                  - generic [ref=e1950]: Reply
+                  - link "Report" [ref=e1952] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1953]:
+            - generic [ref=e1955]:
+              - generic [ref=e1956]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e1958] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e1960]: "@Davisson Good, but not great."
+              - generic [ref=e1961]:
+                - text: 4 days ago
+                - generic [ref=e1962]:
+                  - link "Like" [ref=e1964] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e1965]: Reply
+                  - link "Report" [ref=e1967] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1968]:
+            - generic [ref=e1969]:
+              - generic [ref=e1970]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e1972] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e1974]: France look unrecognisable in this match, fair play to Spain and everyone who backed them on here.
+              - generic [ref=e1975]:
+                - text: 5 days ago
+                - generic [ref=e1976]:
+                  - generic [ref=e1977]:
+                    - link "Like" [ref=e1978] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e1979]: Reply
+                  - link "Report" [ref=e1981] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1982]:
+            - generic [ref=e1983]:
+              - generic [ref=e1984]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e1986] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e1988]: Whatever the final result, I just can't see France playing like this in the second half.
+              - generic [ref=e1989]:
+                - text: 5 days ago
+                - generic [ref=e1990]:
+                  - generic [ref=e1991]:
+                    - link "Like" [ref=e1992] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e1993]: Reply
+                  - link "Report" [ref=e1995] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e1996]:
+            - generic [ref=e1998]:
+              - generic [ref=e1999]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2001] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2003]: "@RichieRochdale spain control what france can play"
+              - generic [ref=e2004]:
+                - text: 5 days ago
+                - generic [ref=e2005]:
+                  - generic [ref=e2006]:
+                    - link "Like" [ref=e2007] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+6"
+                  - generic [ref=e2008]: Reply
+                  - link "Report" [ref=e2010] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2011]:
+            - generic [ref=e2013]:
+              - generic [ref=e2014]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e2016] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e2018]: "@wawa That was certainly the case in the first half."
+              - generic [ref=e2019]:
+                - text: 5 days ago
+                - generic [ref=e2020]:
+                  - link "Like" [ref=e2022] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2023]: Reply
+                  - link "Report" [ref=e2025] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2026]:
+            - generic [ref=e2027]:
+              - generic [ref=e2028]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2030] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2032]: Africa no chance
+              - generic [ref=e2033]:
+                - text: 5 days ago
+                - generic [ref=e2034]:
+                  - generic [ref=e2035]:
+                    - link "Like" [ref=e2036] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e2037]: Reply
+                  - link "Report" [ref=e2039] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2040]:
+            - generic [ref=e2042]:
+              - generic [ref=e2043]:
+                - text: "[ - ]"
+                - link "sailorripley" [ref=e2045] [cursor=pointer]:
+                  - /url: /users/sailorripley
+                - text: "- member since 03-Feb-13"
+              - paragraph [ref=e2047]: "@wawa racist..."
+              - generic [ref=e2048]:
+                - text: 5 days ago
+                - generic [ref=e2049]:
+                  - generic [ref=e2050]:
+                    - link "Like" [ref=e2051] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+5"
+                  - generic [ref=e2052]: Reply
+                  - link "Report" [ref=e2054] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2055]:
+            - generic [ref=e2057]:
+              - generic [ref=e2058]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2060] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2062]: "@sailorripley STFU"
+              - generic [ref=e2063]:
+                - text: 5 days ago
+                - generic [ref=e2064]:
+                  - link "Like" [ref=e2066] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2067]: Reply
+                  - link "Report" [ref=e2069] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2070]:
+            - generic [ref=e2071]:
+              - generic [ref=e2072]:
+                - text: "[ - ]"
+                - link "mandrake4444" [ref=e2074] [cursor=pointer]:
+                  - /url: /users/mandrake4444
+                - text: "- member since 18-Mar-18"
+              - paragraph [ref=e2076]: France to win 2nd half
+              - generic [ref=e2077]:
+                - text: 5 days ago
+                - generic [ref=e2078]:
+                  - link "Like" [ref=e2080] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2081]: Reply
+                  - link "Report" [ref=e2083] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2084]:
+            - generic [ref=e2085]:
+              - generic [ref=e2086]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=e2088] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=e2090]: PSG with a great pickup in Digne LOOOOL
+              - generic [ref=e2091]:
+                - text: 5 days ago
+                - generic [ref=e2092]:
+                  - generic [ref=e2093]:
+                    - link "Like" [ref=e2094] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e2095]: Reply
+                  - link "Report" [ref=e2097] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2098]:
+            - generic [ref=e2100]:
+              - generic [ref=e2101]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e2103] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e2105]: "@KingKeno I remember him being a backup for Alba at Barca. He was good defensively, but nothing special as a whole. The penalty was one of these unfortunate incidents, but him against Yamal was a huge mismatch anyway."
+              - generic [ref=e2106]:
+                - text: 4 days ago
+                - generic [ref=e2107]:
+                  - link "Like" [ref=e2109] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2110]: Reply
+                  - link "Report" [ref=e2112] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2113]:
+            - generic [ref=e2115]:
+              - generic [ref=e2116]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2118] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2120]: "@KingKeno phahahahaha"
+              - generic [ref=e2121]:
+                - text: 5 days ago
+                - generic [ref=e2122]:
+                  - link "Like" [ref=e2124] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2125]: Reply
+                  - link "Report" [ref=e2127] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2128]:
+            - generic [ref=e2129]:
+              - generic [ref=e2130]:
+                - text: "[ - ]"
+                - link "Im_Lying" [ref=e2132] [cursor=pointer]:
+                  - /url: /users/Im_Lying
+                - text: "- member since 09-Jul-26"
+              - paragraph [ref=e2134]: France win 3-1
+              - generic [ref=e2135]:
+                - text: 5 days ago
+                - generic [ref=e2136]:
+                  - link "Like" [ref=e2138] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2139]: Reply
+                  - link "Report" [ref=e2141] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2142]:
+            - generic [ref=e2143]:
+              - generic [ref=e2144]:
+                - text: "[ - ]"
+                - link "mandrake4444" [ref=e2146] [cursor=pointer]:
+                  - /url: /users/mandrake4444
+                - text: "- member since 18-Mar-18"
+              - paragraph [ref=e2148]: 1X
+              - generic [ref=e2149]:
+                - text: 5 days ago
+                - generic [ref=e2150]:
+                  - link "Like" [ref=e2152] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2153]: Reply
+                  - link "Report" [ref=e2155] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2156]:
+            - generic [ref=e2157]:
+              - generic [ref=e2158]:
+                - text: "[ - ]"
+                - link "MickeyClark" [ref=e2160] [cursor=pointer]:
+                  - /url: /users/MickeyClark
+                - text: "- member since 08-Aug-20"
+              - paragraph [ref=e2162]: I think it's going to be high scoring game over3.5 and 4.5 is my go to bet today. What do you guys think?
+              - generic [ref=e2163]:
+                - text: 5 days ago
+                - generic [ref=e2164]:
+                  - link "Like" [ref=e2166] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2167]: Reply
+                  - link "Report" [ref=e2169] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2170]:
+            - generic [ref=e2172]:
+              - generic [ref=e2173]:
+                - text: "[ - ]"
+                - link "King_Bookah_Bets" [ref=e2175] [cursor=pointer]:
+                  - /url: /users/King_Bookah_Bets
+                - text: "- member since 18-Aug-25"
+              - paragraph [ref=e2177]: "@MickeyClark in a semi final? Unless u wanna lose money go for it"
+              - generic [ref=e2178]:
+                - text: 5 days ago
+                - generic [ref=e2179]:
+                  - link "Like" [ref=e2181] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2182]: Reply
+                  - link "Report" [ref=e2184] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2185]:
+            - generic [ref=e2187]:
+              - generic [ref=e2188]:
+                - text: "[ - ]"
+                - link "Im_Lying" [ref=e2190] [cursor=pointer]:
+                  - /url: /users/Im_Lying
+                - text: "- member since 09-Jul-26"
+              - paragraph [ref=e2192]: "@MickeyClark Hope you didn't bet much"
+              - generic [ref=e2193]:
+                - text: 5 days ago
+                - generic [ref=e2194]:
+                  - generic [ref=e2195]:
+                    - link "Like" [ref=e2196] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2197]: Reply
+                  - link "Report" [ref=e2199] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2200]:
+            - generic [ref=e2201]:
+              - generic [ref=e2202]:
+                - text: "[ - ]"
+                - link "Antpower" [ref=e2204] [cursor=pointer]:
+                  - /url: /users/Antpower
+                - text: "- member since 18-Nov-24"
+              - paragraph [ref=e2206]: Victory for Spain + red card for France
+              - generic [ref=e2207]:
+                - text: 5 days ago
+                - generic [ref=e2208]:
+                  - generic [ref=e2209]:
+                    - link "Like" [ref=e2210] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2211]: Reply
+                  - link "Report" [ref=e2213] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2214]:
+            - generic [ref=e2216]:
+              - generic [ref=e2217]:
+                - text: "[ - ]"
+                - link "MickeyClark" [ref=e2219] [cursor=pointer]:
+                  - /url: /users/MickeyClark
+                - text: "- member since 08-Aug-20"
+              - paragraph [ref=e2221]: "@Antpower lemme guess upamecano��"
+              - generic [ref=e2222]:
+                - text: 5 days ago
+                - generic [ref=e2223]:
+                  - link "Like" [ref=e2225] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2226]: Reply
+                  - link "Report" [ref=e2228] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2229]:
+            - generic [ref=e2230]:
+              - generic [ref=e2231]:
+                - text: "[ - ]"
+                - link "B47" [ref=e2233] [cursor=pointer]:
+                  - /url: /users/B47
+                - text: "- member since 06-Mar-24"
+              - paragraph [ref=e2235]: "1st goalscorer: Mbappe @4.20 odds currently"
+              - generic [ref=e2236]:
+                - text: 5 days ago
+                - generic [ref=e2237]:
+                  - link "Like" [ref=e2239] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2240]: Reply
+                  - link "Report" [ref=e2242] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2243]:
+            - generic [ref=e2245]:
+              - generic [ref=e2246]:
+                - text: "[ - ]"
+                - link "MickeyClark" [ref=e2248] [cursor=pointer]:
+                  - /url: /users/MickeyClark
+                - text: "- member since 08-Aug-20"
+              - paragraph [ref=e2250]: "@B47 too risky brother"
+              - generic [ref=e2251]:
+                - text: 5 days ago
+                - generic [ref=e2252]:
+                  - link "Like" [ref=e2254] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2255]: Reply
+                  - link "Report" [ref=e2257] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2258]:
+            - generic [ref=e2259]:
+              - generic [ref=e2260]:
+                - text: "[ - ]"
+                - link "tatoluis" [ref=e2262] [cursor=pointer]:
+                  - /url: /users/tatoluis
+                - text: "- member since 15-Feb-22"
+              - paragraph [ref=e2264]: France to advance
+              - generic [ref=e2265]:
+                - text: 5 days ago
+                - generic [ref=e2266]:
+                  - link "Like" [ref=e2268] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2269]: Reply
+                  - link "Report" [ref=e2271] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2272]:
+            - generic [ref=e2273]:
+              - generic [ref=e2274]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e2276] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e2278]: "La Liga 2025/26 goalkeeper stats: Save percentage - Joan Garcia with 77.9% (#1). Unai Simon with 64.9% (#17). Goals prevented (xG faced - goals conceded) - Joan Garcia with +10.2 (#1). Unai Simon with -3.0 (#18) Spain need the best goalkeeper against the best attack in the world. They'd have a chance with Joan Garcia, but it's too late. The switch should've been made before the tournament. This will probably cost them the place in the final."
+              - generic [ref=e2279]:
+                - text: 5 days ago
+                - generic [ref=e2280]:
+                  - generic [ref=e2281]:
+                    - link "Like" [ref=e2282] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e2283]: Reply
+                  - link "Report" [ref=e2285] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2286]:
+            - generic [ref=e2288]:
+              - generic [ref=e2289]:
+                - text: "[ - ]"
+                - link "sailorripley" [ref=e2291] [cursor=pointer]:
+                  - /url: /users/sailorripley
+                - text: "- member since 03-Feb-13"
+              - paragraph [ref=e2293]: "@agunchev You were saying?"
+              - generic [ref=e2294]:
+                - text: 5 days ago
+                - generic [ref=e2295]:
+                  - generic [ref=e2296]:
+                    - link "Like" [ref=e2297] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2298]: Reply
+                  - link "Report" [ref=e2300] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2301]:
+            - generic [ref=e2303]:
+              - generic [ref=e2304]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e2306] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e2308]: "@sailorripley Simon faced zero shots on goal, so he had no saves. He fucked up big one time, but thankfully it didn't lead to a goal. Spain with a defensive masterclass, which was totally unexpected against this opponent."
+              - generic [ref=e2309]:
+                - text: 5 days ago
+                - generic [ref=e2310]:
+                  - link "Like" [ref=e2312] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2313]: Reply
+                  - link "Report" [ref=e2315] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2316]:
+            - generic [ref=e2318]:
+              - generic [ref=e2319]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2321] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2323]: "@agunchev You also haven't faced any blows to your head by a barbed wire bat... yet."
+              - generic [ref=e2324]:
+                - text: 4 days ago
+                - generic [ref=e2325]:
+                  - link "Like" [ref=e2327] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2328]: Reply
+                  - link "Report" [ref=e2330] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2331]:
+            - generic [ref=e2333]:
+              - generic [ref=e2334]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2336] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2338]: "@sailorripley Don't even pay attention to what he says, he is a braindead Barcelona fan."
+              - generic [ref=e2339]:
+                - text: 5 days ago
+                - generic [ref=e2340]:
+                  - generic [ref=e2341]:
+                    - link "Like" [ref=e2342] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2343]: Reply
+                  - link "Report" [ref=e2345] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2346]:
+            - generic [ref=e2348]:
+              - generic [ref=e2349]:
+                - text: "[ - ]"
+                - link "sailorripley" [ref=e2351] [cursor=pointer]:
+                  - /url: /users/sailorripley
+                - text: "- member since 03-Feb-13"
+              - paragraph [ref=e2353]: "@Sputnik Moron: Earlier you agreed with him and said he was right, have you already forgotton?"
+              - generic [ref=e2354]:
+                - text: 5 days ago
+                - generic [ref=e2355]:
+                  - generic [ref=e2356]:
+                    - link "Like" [ref=e2357] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2358]: Reply
+                  - link "Report" [ref=e2360] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2361]:
+            - generic [ref=e2363]:
+              - generic [ref=e2364]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2366] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2368]: "@sailorripley You conveniently missed out the part where I said \"for once in his life\". It was also a jibe, but let's twist my words to further your own argument, sure."
+              - generic [ref=e2369]:
+                - text: 5 days ago
+                - generic [ref=e2370]:
+                  - link "Like" [ref=e2372] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2373]: Reply
+                  - link "Report" [ref=e2375] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2376]:
+            - generic [ref=e2378]:
+              - generic [ref=e2379]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2381] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2383]: "@agunchev For once in your life, you are right. They need their best goalkeeper in this game - David Raya."
+              - generic [ref=e2384]:
+                - text: 5 days ago
+                - generic [ref=e2385]:
+                  - generic [ref=e2386]:
+                    - link "Like" [ref=e2387] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2388]: Reply
+                  - link "Report" [ref=e2390] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2391]:
+            - generic [ref=e2393]:
+              - generic [ref=e2394]:
+                - text: "[ - ]"
+                - link "sailorripley" [ref=e2396] [cursor=pointer]:
+                  - /url: /users/sailorripley
+                - text: "- member since 03-Feb-13"
+              - paragraph [ref=e2398]: "@Sputnik Yeah, terrible goalie, one goal conceded in six games...."
+              - generic [ref=e2399]:
+                - text: 5 days ago
+                - generic [ref=e2400]:
+                  - link "Like" [ref=e2402] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2403]: Reply
+                  - link "Report" [ref=e2405] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2406]:
+            - generic [ref=e2408]:
+              - generic [ref=e2409]:
+                - text: "[ - ]"
+                - link "agunchev" [ref=e2411] [cursor=pointer]:
+                  - /url: /users/agunchev
+                - text: "- member since 27-May-16"
+              - paragraph [ref=e2413]: "@sailorripley This is Spain's defence, not Simon. France had no shots on target. Look at the stats I quoted. Simon is literally one fo the worst in La Liga."
+              - generic [ref=e2414]:
+                - text: 5 days ago
+                - generic [ref=e2415]:
+                  - link "Like" [ref=e2417] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2418]: Reply
+                  - link "Report" [ref=e2420] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2421]:
+            - generic [ref=e2423]:
+              - generic [ref=e2424]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2426] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2428]: "@agunchev You are literally one of the worst creatures on the planet. Cockroaches shit on you. Seriously, DIE!!!"
+              - generic [ref=e2429]:
+                - text: 5 days ago
+                - generic [ref=e2430]:
+                  - link "Like" [ref=e2432] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2433]: Reply
+                  - link "Report" [ref=e2435] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2436]:
+            - generic [ref=e2438]:
+              - generic [ref=e2439]:
+                - text: "[ - ]"
+                - link "King_Bookah_Bets" [ref=e2441] [cursor=pointer]:
+                  - /url: /users/King_Bookah_Bets
+                - text: "- member since 18-Aug-25"
+              - paragraph [ref=e2443]: "@Sputnik he hasn’t got tournament experience which is why he so on the bench, not sure where you’re getting the information of him being the best man for the job lol"
+              - generic [ref=e2444]:
+                - text: 5 days ago
+                - generic [ref=e2445]:
+                  - link "Like" [ref=e2447] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2448]: Reply
+                  - link "Report" [ref=e2450] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2451]:
+            - generic [ref=e2453]:
+              - generic [ref=e2454]:
+                - text: "[ - ]"
+                - link "Zilch" [ref=e2456] [cursor=pointer]:
+                  - /url: /users/Zilch
+                - text: "- member since 25-Sep-13"
+              - paragraph [ref=e2458]: "@King_Bookah_Bets what do you think the Champions League is? It's a higher quality tournament going against the worlds best clubs than the worlda best cobbled together countrymen."
+              - generic [ref=e2459]:
+                - text: 5 days ago
+                - generic [ref=e2460]:
+                  - generic [ref=e2461]:
+                    - link "Like" [ref=e2462] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2463]: Reply
+                  - link "Report" [ref=e2465] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2466]:
+            - generic [ref=e2468]:
+              - generic [ref=e2469]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2471] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2473]: "@Sputnik Joan Garcia"
+              - generic [ref=e2474]:
+                - text: 5 days ago
+                - generic [ref=e2475]:
+                  - generic [ref=e2476]:
+                    - link "Like" [ref=e2477] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2478]: Reply
+                  - link "Report" [ref=e2480] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2481]:
+            - generic [ref=e2483]:
+              - generic [ref=e2484]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2486] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2488]: "@wawa No, David Raya."
+              - generic [ref=e2489]:
+                - text: 5 days ago
+                - generic [ref=e2490]:
+                  - link "Like" [ref=e2492] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2493]: Reply
+                  - link "Report" [ref=e2495] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2496]:
+            - generic [ref=e2498]:
+              - generic [ref=e2499]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2501] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2503]: "@Sputnik after 40 min spain could play without keeper"
+              - generic [ref=e2504]:
+                - text: 5 days ago
+                - generic [ref=e2505]:
+                  - generic [ref=e2506]:
+                    - link "Like" [ref=e2507] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2508]: Reply
+                  - link "Report" [ref=e2510] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2511]:
+            - generic [ref=e2513]:
+              - generic [ref=e2514]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2516] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2518]: "@wawa That's easy to say after the first half. I'm France's biggest hater, yet even I didn't expect them to be this impotent in attack."
+              - generic [ref=e2519]:
+                - text: 5 days ago
+                - generic [ref=e2520]:
+                  - generic [ref=e2521]:
+                    - link "Like" [ref=e2522] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2523]: Reply
+                  - link "Report" [ref=e2525] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2526]:
+            - generic [ref=e2528]:
+              - generic [ref=e2529]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2531] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2533]: "@Sputnik i thought they can beat spain this time too"
+              - generic [ref=e2534]:
+                - text: 5 days ago
+                - generic [ref=e2535]:
+                  - link "Like" [ref=e2537] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2538]: Reply
+                  - link "Report" [ref=e2540] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2541]:
+            - generic [ref=e2542]:
+              - generic [ref=e2543]:
+                - text: "[ - ]"
+                - link "FF2021" [ref=e2545] [cursor=pointer]:
+                  - /url: /users/FF2021
+                - text: "- member since 25-Nov-20"
+              - paragraph [ref=e2547]: 1-1
+              - generic [ref=e2548]:
+                - text: 5 days ago
+                - generic [ref=e2549]:
+                  - link "Like" [ref=e2551] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2552]: Reply
+                  - link "Report" [ref=e2554] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2555]:
+            - generic [ref=e2556]:
+              - generic [ref=e2557]:
+                - text: "[ - ]"
+                - link "Stormcorner" [ref=e2559] [cursor=pointer]:
+                  - /url: /users/Stormcorner
+                - text: "- member since 18-Oct-21"
+              - paragraph [ref=e2561]: France win 3,5 goal under
+              - generic [ref=e2562]:
+                - text: 5 days ago
+                - generic [ref=e2563]:
+                  - link "Like" [ref=e2565] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2566]: Reply
+                  - link "Report" [ref=e2568] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2569]:
+            - generic [ref=e2570]:
+              - generic [ref=e2571]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e2573] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e2575]: Easiest game in history of the Spanish men’s football team. France is a joke for me will be utterly crushed..
+              - generic [ref=e2576]:
+                - text: 5 days ago
+                - generic [ref=e2577]:
+                  - generic [ref=e2578]:
+                    - link "Like" [ref=e2579] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e2580]: Reply
+                  - link "Report" [ref=e2582] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2583]:
+            - generic [ref=e2585]:
+              - generic [ref=e2586]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2588] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2590]: "@CrazyBarcaFan00 then bet all ypur money"
+              - generic [ref=e2591]:
+                - text: 5 days ago
+                - generic [ref=e2592]:
+                  - link "Like" [ref=e2594] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2595]: Reply
+                  - link "Report" [ref=e2597] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2598]:
+            - generic [ref=e2600]:
+              - generic [ref=e2601]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2603] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2605]: "@CrazyBarcaFan00 I'm not sure about that, but let's hope so. This France team is the James Bond villain of football."
+              - generic [ref=e2606]:
+                - text: 5 days ago
+                - generic [ref=e2607]:
+                  - generic [ref=e2608]:
+                    - link "Like" [ref=e2609] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2610]: Reply
+                  - link "Report" [ref=e2612] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2613]:
+            - generic [ref=e2615]:
+              - generic [ref=e2616]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e2618] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e2620]: "@Sputnik it’s a joke team with zero midfield I don’t understand how people thought they stood a chance to win the WC?"
+              - generic [ref=e2621]:
+                - text: 5 days ago
+                - generic [ref=e2622]:
+                  - generic [ref=e2623]:
+                    - link "Like" [ref=e2624] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2625]: Reply
+                  - link "Report" [ref=e2627] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2628]:
+            - generic [ref=e2629]:
+              - generic [ref=e2630]:
+                - text: "[ - ]"
+                - link "B47" [ref=e2632] [cursor=pointer]:
+                  - /url: /users/B47
+                - text: "- member since 06-Mar-24"
+              - paragraph [ref=e2634]: "1st goalscorer: Kylian Mbappe @4.00 odds"
+              - generic [ref=e2635]:
+                - text: 5 days ago
+                - generic [ref=e2636]:
+                  - link "Like" [ref=e2638] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2639]: Reply
+                  - link "Report" [ref=e2641] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2642]:
+            - generic [ref=e2643]:
+              - generic [ref=e2644]:
+                - text: "[ - ]"
+                - link "B47" [ref=e2646] [cursor=pointer]:
+                  - /url: /users/B47
+                - text: "- member since 06-Mar-24"
+              - paragraph [ref=e2648]: Michael Olise assists (@3.30 odds) Kylian Mbappe (TSA @1.94 odds) / France advance @1.63 odds
+              - generic [ref=e2649]:
+                - text: 5 days ago
+                - generic [ref=e2650]:
+                  - link "Like" [ref=e2652] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2653]: Reply
+                  - link "Report" [ref=e2655] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2656]:
+            - generic [ref=e2657]:
+              - generic [ref=e2658]:
+                - text: "[ - ]"
+                - link "kimsky1" [ref=e2660] [cursor=pointer]:
+                  - /url: /users/kimsky1
+                - text: "- member since 06-Jun-26"
+              - paragraph [ref=e2662]: m.site.naver.com/23Bud <- login after accessing SNS, can get $20 immediately
+              - generic [ref=e2663]:
+                - text: 5 days ago
+                - generic [ref=e2664]:
+                  - link "Like" [ref=e2666] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2667]: Reply
+                  - link "Report" [ref=e2669] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2670]:
+            - generic [ref=e2671]:
+              - generic [ref=e2672]:
+                - text: "[ - ]"
+                - link "kimsky1" [ref=e2674] [cursor=pointer]:
+                  - /url: /users/kimsky1
+                - text: "- member since 06-Jun-26"
+              - paragraph [ref=e2676]: m.site.naver.com/23Bud <- login after accessing SNS, can get $20 immediately
+              - generic [ref=e2677]:
+                - text: 5 days ago
+                - generic [ref=e2678]:
+                  - link "Like" [ref=e2680] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2681]: Reply
+                  - link "Report" [ref=e2683] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2684]:
+            - generic [ref=e2685]:
+              - generic [ref=e2686]:
+                - text: "[ - ]"
+                - link "kimsky1" [ref=e2688] [cursor=pointer]:
+                  - /url: /users/kimsky1
+                - text: "- member since 06-Jun-26"
+              - paragraph [ref=e2690]: m.site.naver.com/23Bud <- login after accessing SNS, can get $20 immediately
+              - generic [ref=e2691]:
+                - text: 5 days ago
+                - generic [ref=e2692]:
+                  - link "Like" [ref=e2694] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2695]: Reply
+                  - link "Report" [ref=e2697] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2698]:
+            - generic [ref=e2699]:
+              - generic [ref=e2700]:
+                - text: "[ - ]"
+                - link "Zoltan" [ref=e2702] [cursor=pointer]:
+                  - /url: /users/Zoltan
+                - text: "- member since 15-Feb-20"
+              - paragraph [ref=e2704]: The greatest weakness of France is its coach, Deschamps. He will hold back a clearly better team and thereby will hand Spain the opportunity to stay in the game. That's exactly why the market considers this game a 50-50. I was wondering who is the relative of Deschamps in the French Football Association to allow him to coach despite of his total inability to lead this team. Aime Jacquette would be a great coach, but I cannot fathom why he did not get the job.
+              - generic [ref=e2705]:
+                - text: 5 days ago
+                - generic [ref=e2706]:
+                  - generic [ref=e2707]:
+                    - link "Like" [ref=e2708] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2709]: Reply
+                  - link "Report" [ref=e2711] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2712]:
+            - generic [ref=e2714]:
+              - generic [ref=e2715]:
+                - text: "[ - ]"
+                - link "Dobbo25" [ref=e2717] [cursor=pointer]:
+                  - /url: /users/Dobbo25
+                - text: "- member since 19-Apr-22"
+              - paragraph [ref=e2719]: "@Zoltan greatest international manager of all time"
+              - generic [ref=e2720]:
+                - text: 5 days ago
+                - generic [ref=e2721]:
+                  - link "Like" [ref=e2723] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2724]: Reply
+                  - link "Report" [ref=e2726] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2727]:
+            - generic [ref=e2729]:
+              - generic [ref=e2730]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2732] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2734]: "@Dobbo25 ... is Lionel Scaloni 100%."
+              - generic [ref=e2735]:
+                - text: 5 days ago
+                - generic [ref=e2736]:
+                  - generic [ref=e2737]:
+                    - link "Like" [ref=e2738] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2739]: Reply
+                  - link "Report" [ref=e2741] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2742]:
+            - generic [ref=e2744]:
+              - generic [ref=e2745]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e2747] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e2749]: "@Zoltan Is this a joke?"
+              - generic [ref=e2750]:
+                - text: 5 days ago
+                - generic [ref=e2751]:
+                  - link "Like" [ref=e2753] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2754]: Reply
+                  - link "Report" [ref=e2756] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2757]:
+            - generic [ref=e2758]:
+              - generic [ref=e2759]:
+                - text: "[ - ]"
+                - link "Players" [ref=e2761] [cursor=pointer]:
+                  - /url: /users/Players
+                - text: "- member since 13-Jul-26"
+              - paragraph [ref=e2763]: Full time correct scores= 0-0
+              - generic [ref=e2764]:
+                - text: 5 days ago
+                - generic [ref=e2765]:
+                  - link "Like" [ref=e2767] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2768]: Reply
+                  - link "Report" [ref=e2770] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2771]:
+            - generic [ref=e2772]:
+              - generic [ref=e2773]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2775] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2777]: Africa vs Spain
+              - generic [ref=e2778]:
+                - text: 5 days ago
+                - generic [ref=e2779]:
+                  - generic [ref=e2780]:
+                    - link "Like" [ref=e2781] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e2782]: Reply
+                  - link "Report" [ref=e2784] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2785]:
+            - generic [ref=e2786]:
+              - generic [ref=e2787]:
+                - text: "[ - ]"
+                - link "wawa" [ref=e2789] [cursor=pointer]:
+                  - /url: /users/wawa
+                - text: "- member since 11-Feb-12"
+              - paragraph [ref=e2791]: France 2:0
+              - generic [ref=e2792]:
+                - text: 5 days ago
+                - generic [ref=e2793]:
+                  - link "Like" [ref=e2795] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2796]: Reply
+                  - link "Report" [ref=e2798] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2799]:
+            - generic [ref=e2800]:
+              - generic [ref=e2801]:
+                - text: "[ - ]"
+                - link "kosai2531" [ref=e2803] [cursor=pointer]:
+                  - /url: /users/kosai2531
+                - text: "- member since 30-Jun-26"
+              - paragraph [ref=e2805]: Spain win
+              - generic [ref=e2806]:
+                - text: 5 days ago
+                - generic [ref=e2807]:
+                  - generic [ref=e2808]:
+                    - link "Like" [ref=e2809] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e2810]: Reply
+                  - link "Report" [ref=e2812] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2813]:
+            - generic [ref=e2814]:
+              - generic [ref=e2815]:
+                - text: "[ - ]"
+                - link "mathebek" [ref=e2817] [cursor=pointer]:
+                  - /url: /users/mathebek
+                - text: "- member since 15-Jul-13"
+              - paragraph [ref=e2819]: free soccer tips telegram @Diskistats WAFA WAFA
+              - generic [ref=e2820]:
+                - text: 5 days ago
+                - generic [ref=e2821]:
+                  - link "Like" [ref=e2823] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2824]: Reply
+                  - link "Report" [ref=e2826] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2827]:
+            - generic [ref=e2828]:
+              - generic [ref=e2829]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e2831] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e2833]: 23,5+ foults - 1,46 odds
+              - generic [ref=e2834]:
+                - text: 5 days ago
+                - generic [ref=e2835]:
+                  - generic [ref=e2836]:
+                    - link "Like" [ref=e2837] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2838]: Reply
+                  - link "Report" [ref=e2840] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2841]:
+            - generic [ref=e2843]:
+              - generic [ref=e2844]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e2846] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e2848]: "@Aron66666 23 fouls? Jesus! :("
+              - generic [ref=e2849]:
+                - text: 5 days ago
+                - generic [ref=e2850]:
+                  - link "Like" [ref=e2852] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2853]: Reply
+                  - link "Report" [ref=e2855] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2856]:
+            - generic [ref=e2858]:
+              - generic [ref=e2859]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e2861] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e2863]: "@Aron66666 Did this bet come in, please?"
+              - generic [ref=e2864]:
+                - text: 5 days ago
+                - generic [ref=e2865]:
+                  - link "Like" [ref=e2867] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2868]: Reply
+                  - link "Report" [ref=e2870] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2871]:
+            - generic [ref=e2873]:
+              - generic [ref=e2874]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e2876] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e2878]: "@RichieRochdale Sad, but yes 23 fouls Something must have gotten into the referee; he only called two fouls in the last 10 minutes (not to mention the red cards for Olise and Rabiot or the yellow card for Yamal)"
+              - generic [ref=e2879]:
+                - text: 4 days ago
+                - generic [ref=e2880]:
+                  - generic [ref=e2881]:
+                    - link "Like" [ref=e2882] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2883]: Reply
+                  - link "Report" [ref=e2885] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2886]:
+            - generic [ref=e2888]:
+              - generic [ref=e2889]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e2891] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e2893]: "@Aron66666 I haven't ever bet on fouls exclusively so I am following your strategy with interest. You were only one foul away from winning, :("
+              - generic [ref=e2894]:
+                - text: 4 days ago
+                - generic [ref=e2895]:
+                  - link "Like" [ref=e2897] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2898]: Reply
+                  - link "Report" [ref=e2900] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2901]:
+            - generic [ref=e2903]:
+              - generic [ref=e2904]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e2906] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e2908]: "@Aron66666 Last 3 FRA-SPA matches: 14+17=31; 14+9=21; 14+11=25 foults, Iván Barton the match referee has in 3 games in this WC 34 fouls pg; 15 fouls pg/team \"all time\""
+              - generic [ref=e2909]:
+                - text: 5 days ago
+                - generic [ref=e2910]:
+                  - generic [ref=e2911]:
+                    - link "Like" [ref=e2912] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2913]: Reply
+                  - link "Report" [ref=e2915] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2916]:
+            - generic [ref=e2917]:
+              - generic [ref=e2918]:
+                - text: "[ - ]"
+                - link "Triumphant8" [ref=e2920] [cursor=pointer]:
+                  - /url: /users/Triumphant8
+                - text: "- member since 29-Nov-25"
+              - paragraph [ref=e2922]: If you are interested in sports predictions message me on telegram �� @predictiontipsbet
+              - generic [ref=e2923]:
+                - text: 5 days ago
+                - generic [ref=e2924]:
+                  - link "Like" [ref=e2926] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2927]: Reply
+                  - link "Report" [ref=e2929] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2930]:
+            - generic [ref=e2931]:
+              - generic [ref=e2932]:
+                - text: "[ - ]"
+                - link "kimsky1" [ref=e2934] [cursor=pointer]:
+                  - /url: /users/kimsky1
+                - text: "- member since 06-Jun-26"
+              - paragraph [ref=e2936]: m.site.naver.com/23Bud <- login after accessing SNS, can get $20 immediately
+              - generic [ref=e2937]:
+                - text: 5 days ago
+                - generic [ref=e2938]:
+                  - link "Like" [ref=e2940] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2941]: Reply
+                  - link "Report" [ref=e2943] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2944]:
+            - generic [ref=e2945]:
+              - generic [ref=e2946]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e2948] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e2950]: If Spain want to progress, they need to field as few Barcelona players as possible. If any.
+              - generic [ref=e2951]:
+                - text: 6 days ago
+                - generic [ref=e2952]:
+                  - link "Like" [ref=e2954] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2955]: Reply
+                  - link "Report" [ref=e2957] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2958]:
+            - generic [ref=e2959]:
+              - generic [ref=e2960]:
+                - text: "[ - ]"
+                - link "Players" [ref=e2962] [cursor=pointer]:
+                  - /url: /users/Players
+                - text: "- member since 13-Jul-26"
+              - paragraph [ref=e2964]: Or. FT draw by 0-0
+              - generic [ref=e2965]:
+                - text: 6 days ago
+                - generic [ref=e2966]:
+                  - generic [ref=e2967]:
+                    - link "Like" [ref=e2968] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e2969]: Reply
+                  - link "Report" [ref=e2971] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2972]:
+            - generic [ref=e2973]:
+              - generic [ref=e2974]:
+                - text: "[ - ]"
+                - link "Players" [ref=e2976] [cursor=pointer]:
+                  - /url: /users/Players
+                - text: "- member since 13-Jul-26"
+              - paragraph [ref=e2978]: France win by 3-2 full time score
+              - generic [ref=e2979]:
+                - text: 6 days ago
+                - generic [ref=e2980]:
+                  - link "Like" [ref=e2982] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e2983]: Reply
+                  - link "Report" [ref=e2985] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e2986]:
+            - generic [ref=e2987]:
+              - generic [ref=e2988]:
+                - text: "[ - ]"
+                - link "GreywolfChelsea" [ref=e2990] [cursor=pointer]:
+                  - /url: /users/GreywolfChelsea
+                - text: "- member since 28-Oct-22"
+              - paragraph [ref=e2992]: Spain to win 2-1
+              - generic [ref=e2993]:
+                - text: 6 days ago
+                - generic [ref=e2994]:
+                  - generic [ref=e2995]:
+                    - link "Like" [ref=e2996] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e2997]: Reply
+                  - link "Report" [ref=e2999] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3000]:
+            - generic [ref=e3001]:
+              - generic [ref=e3002]:
+                - text: "[ - ]"
+                - link "gincka" [ref=e3004] [cursor=pointer]:
+                  - /url: /users/gincka
+                - text: "- member since 28-May-22"
+              - paragraph [ref=e3006]: France 4-1
+              - generic [ref=e3007]:
+                - text: 6 days ago
+                - generic [ref=e3008]:
+                  - generic [ref=e3009]:
+                    - link "Like" [ref=e3010] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3011]: Reply
+                  - link "Report" [ref=e3013] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3014]:
+            - generic [ref=e3015]:
+              - generic [ref=e3016]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3018] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3020]: Fuck knows who's going to win this match, go for another betting angle.
+              - generic [ref=e3021]:
+                - text: 6 days ago
+                - generic [ref=e3022]:
+                  - generic [ref=e3023]:
+                    - link "Like" [ref=e3024] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e3025]: Reply
+                  - link "Report" [ref=e3027] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3028]:
+            - generic [ref=e3030]:
+              - generic [ref=e3031]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3033] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3035]: "@RichieRochdale Lots of fouls looks promising with the high pace game and Iván Barton as referee"
+              - generic [ref=e3036]:
+                - text: 5 days ago
+                - generic [ref=e3037]:
+                  - generic [ref=e3038]:
+                    - link "Like" [ref=e3039] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3040]: Reply
+                  - link "Report" [ref=e3042] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3043]:
+            - generic [ref=e3045]:
+              - generic [ref=e3046]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3048] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3050]: "@Aron66666 That's a great angle to look at, Aron6666, exactly the kind of thinking that you need to apply in a 50/50 match like this. Thank you for this contribution, :)"
+              - generic [ref=e3051]:
+                - text: 5 days ago
+                - generic [ref=e3052]:
+                  - generic [ref=e3053]:
+                    - link "Like" [ref=e3054] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3055]: Reply
+                  - link "Report" [ref=e3057] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3058]:
+            - generic [ref=e3060]:
+              - generic [ref=e3061]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=e3063] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=e3065]: "@RichieRochdale it's one of those that could definitely go either way."
+              - generic [ref=e3066]:
+                - text: 6 days ago
+                - generic [ref=e3067]:
+                  - generic [ref=e3068]:
+                    - link "Like" [ref=e3069] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e3070]: Reply
+                  - link "Report" [ref=e3072] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3073]:
+            - generic [ref=e3075]:
+              - generic [ref=e3076]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3078] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3080]: "@KingKeno If I was forced to make a prediction, I would say, \"France\" (sorry, Marbella), but I don't think there is any Value in pursuing the Win Market, here. I went for Mbappe to Score/Assist, instead."
+              - generic [ref=e3081]:
+                - text: 6 days ago
+                - generic [ref=e3082]:
+                  - link "Like" [ref=e3084] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3085]: Reply
+                  - link "Report" [ref=e3087] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3088]:
+            - generic [ref=e3089]:
+              - generic [ref=e3090]:
+                - text: "[ - ]"
+                - link "Easyanalyses" [ref=e3092] [cursor=pointer]:
+                  - /url: /users/Easyanalyses
+                - text: "- member since 22-Aug-22"
+              - paragraph [ref=e3094]: All you guys tryna scam on this website be careful...
+              - generic [ref=e3095]:
+                - text: 6 days ago
+                - generic [ref=e3096]:
+                  - link "Like" [ref=e3098] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3099]: Reply
+                  - link "Report" [ref=e3101] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3102]:
+            - generic [ref=e3103]:
+              - generic [ref=e3104]:
+                - text: "[ - ]"
+                - link "Edwinallister" [ref=e3106] [cursor=pointer]:
+                  - /url: /users/Edwinallister
+                - text: "- member since 19-Dec-25"
+              - paragraph [ref=e3108]: Never engage in all kind of betting , not all odds are reliable Today’s picks is available let smash the bookies together @search_for_more_odds
+              - generic [ref=e3109]:
+                - text: 6 days ago
+                - generic [ref=e3110]:
+                  - link "Like" [ref=e3112] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3113]: Reply
+                  - link "Report" [ref=e3115] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3116]:
+            - generic [ref=e3117]:
+              - generic [ref=e3118]:
+                - text: "[ - ]"
+                - link "Edwinallister" [ref=e3120] [cursor=pointer]:
+                  - /url: /users/Edwinallister
+                - text: "- member since 19-Dec-25"
+              - paragraph [ref=e3122]: Never engage in all kind of betting , not all odds are reliable Today’s picks is available let smash the bookies together @search_for_more_odds
+              - generic [ref=e3123]:
+                - text: 6 days ago
+                - generic [ref=e3124]:
+                  - link "Like" [ref=e3126] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3127]: Reply
+                  - link "Report" [ref=e3129] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3130]:
+            - generic [ref=e3131]:
+              - generic [ref=e3132]:
+                - text: "[ - ]"
+                - link "Edwinallister" [ref=e3134] [cursor=pointer]:
+                  - /url: /users/Edwinallister
+                - text: "- member since 19-Dec-25"
+              - paragraph [ref=e3136]: Never engage in all kind of betting , not all odds are reliable Today’s picks is available let smash the bookies together @search_for_more_odds
+              - generic [ref=e3137]:
+                - text: 6 days ago
+                - generic [ref=e3138]:
+                  - link "Like" [ref=e3140] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3141]: Reply
+                  - link "Report" [ref=e3143] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3144]:
+            - generic [ref=e3145]:
+              - generic [ref=e3146]:
+                - text: "[ - ]"
+                - link "Blessed2021" [ref=e3148] [cursor=pointer]:
+                  - /url: /users/Blessed2021
+                - text: "- member since 09-Feb-21"
+              - paragraph [ref=e3150]: "Efficiency vs. Solidity: France's attack is extremely clinical; Spain's defense is vulnerable to balls played behind the defense during defensive transitions. Historically, in World Cup semi-final stages, caution tends to prevail. Spain will likely control possession (territory), while France will look for mistakes during transitions. The technical parity suggests a game decided by details or very small margins. National team games at this level are highly unpredictable and often decided by moments of individual brilliance or player mistakes or referee/disciplinary mistakes."
+              - generic [ref=e3151]:
+                - text: 6 days ago
+                - generic [ref=e3152]:
+                  - generic [ref=e3153]:
+                    - link "Like" [ref=e3154] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e3155]: Reply
+                  - link "Report" [ref=e3157] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3158]:
+            - generic [ref=e3160]:
+              - generic [ref=e3161]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e3163] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e3165]: "@Blessed2021 I don't see a technical parity, France has clearly the more skilled players in offence, quality and quantity wise."
+              - generic [ref=e3166]:
+                - text: 6 days ago
+                - generic [ref=e3167]:
+                  - link "Like" [ref=e3169] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3170]: Reply
+                  - link "Report" [ref=e3172] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3173]:
+            - generic [ref=e3175]:
+              - generic [ref=e3176]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3178] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3180]: "@Blessed2021 That's true, but the French have a much better chance of pulling off brilliant individual plays: Mbappé, Dembélé, Olise, Barcola, Doué, Cherki vs. Yamal, Torres, Baena, Olmo, Merino, Oyarzabal, Williams (and Cubarsi doesn't have much experience at this level—see Barca's Champions League red card)"
+              - generic [ref=e3181]:
+                - text: 6 days ago
+                - generic [ref=e3182]:
+                  - generic [ref=e3183]:
+                    - link "Like" [ref=e3184] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3185]: Reply
+                  - link "Report" [ref=e3187] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3188]:
+            - generic [ref=e3189]:
+              - generic [ref=e3190]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=e3192] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=e3194]: France Win / Advance
+              - generic [ref=e3195]:
+                - text: 6 days ago
+                - generic [ref=e3196]:
+                  - generic [ref=e3197]:
+                    - link "Like" [ref=e3198] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3199]: Reply
+                  - link "Report" [ref=e3201] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3202]:
+            - generic [ref=e3203]:
+              - generic [ref=e3204]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e3206] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e3208]: Any other winner than France would be a big surprise. They are by far the best team, with the best players and finally play accordingly to their abilities. Spain is suffocating in their sterile passing game with no room progress or surprising elements, only Yamal can offer something special, whereas France has 5 or 6 players for magic moments. 3-1 France
+              - generic [ref=e3209]:
+                - text: 6 days ago
+                - generic [ref=e3210]:
+                  - generic [ref=e3211]:
+                    - link "Like" [ref=e3212] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+4"
+                  - generic [ref=e3213]: Reply
+                  - link "Report" [ref=e3215] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3216]:
+            - generic [ref=e3218]:
+              - generic [ref=e3219]:
+                - text: "[ - ]"
+                - link "KingKeno" [ref=e3221] [cursor=pointer]:
+                  - /url: /users/KingKeno
+                - text: "- member since 12-Jun-21"
+              - paragraph [ref=e3223]: "@neumi17 completely agree but if there's one team who can take down France it's definitely Spain"
+              - generic [ref=e3224]:
+                - text: 6 days ago
+                - generic [ref=e3225]:
+                  - generic [ref=e3226]:
+                    - link "Like" [ref=e3227] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3228]: Reply
+                  - link "Report" [ref=e3230] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3231]:
+            - generic [ref=e3233]:
+              - generic [ref=e3234]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3236] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3238]: "@KingKeno True, but they dont have wingers at the moment, except for Yamal who is not 100% in form /fit"
+              - generic [ref=e3239]:
+                - text: 6 days ago
+                - generic [ref=e3240]:
+                  - generic [ref=e3241]:
+                    - link "Like" [ref=e3242] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3243]: Reply
+                  - link "Report" [ref=e3245] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3246]:
+            - generic [ref=e3247]:
+              - generic [ref=e3248]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3250] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3252]: France advances , France (+1)
+              - generic [ref=e3253]:
+                - text: 6 days ago
+                - generic [ref=e3254]:
+                  - generic [ref=e3255]:
+                    - link "Like" [ref=e3256] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3257]: Reply
+                  - link "Report" [ref=e3259] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3260]:
+            - generic [ref=e3262]:
+              - generic [ref=e3263]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3265] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3267]: "@Aron66666 Spain are stronger only in midfield and in ball possession, but they don't have any fit wingers (Yamal is getting better, but he's not 100%); the French forwards are too fast and dangerous. 2-0 / 2-1 / 3-1"
+              - generic [ref=e3268]:
+                - text: 6 days ago
+                - generic [ref=e3269]:
+                  - generic [ref=e3270]:
+                    - link "Like" [ref=e3271] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e3272]: Reply
+                  - link "Report" [ref=e3274] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3275]:
+            - generic [ref=e3276]:
+              - generic [ref=e3277]:
+                - text: "[ - ]"
+                - link "B47" [ref=e3279] [cursor=pointer]:
+                  - /url: /users/B47
+                - text: "- member since 06-Mar-24"
+              - paragraph [ref=e3281]: France advance @1.63 odds
+              - generic [ref=e3282]:
+                - text: 6 days ago
+                - generic [ref=e3283]:
+                  - generic [ref=e3284]:
+                    - link "Like" [ref=e3285] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3286]: Reply
+                  - link "Report" [ref=e3288] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3289]:
+            - generic [ref=e3290]:
+              - generic [ref=e3291]:
+                - text: "[ - ]"
+                - link "Triumphant8" [ref=e3293] [cursor=pointer]:
+                  - /url: /users/Triumphant8
+                - text: "- member since 29-Nov-25"
+              - paragraph [ref=e3295]: If you are interested in sports predictions payment after winning message me on telegram �� @predictiontipsbet
+              - generic [ref=e3296]:
+                - text: 6 days ago
+                - generic [ref=e3297]:
+                  - link "Like" [ref=e3299] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3300]: Reply
+                  - link "Report" [ref=e3302] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3303]:
+            - generic [ref=e3304]:
+              - generic [ref=e3305]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3307] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3309]: Mbappe To Score Or Assist, High Stake at odds of 1.75 on Betfair Exchange.
+              - generic [ref=e3310]:
+                - text: 6 days ago
+                - generic [ref=e3311]:
+                  - generic [ref=e3312]:
+                    - link "Like" [ref=e3313] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3314]: Reply
+                  - link "Report" [ref=e3316] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3317]:
+            - generic [ref=e3319]:
+              - generic [ref=e3320]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3322] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3324]: "@RichieRochdale My stake here is £50"
+              - generic [ref=e3325]:
+                - text: 6 days ago
+                - generic [ref=e3326]:
+                  - generic [ref=e3327]:
+                    - link "Like" [ref=e3328] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3329]: Reply
+                  - link "Report" [ref=e3331] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3332]:
+            - generic [ref=e3333]:
+              - generic [ref=e3334]:
+                - text: "[ - ]"
+                - link "bziller" [ref=e3336] [cursor=pointer]:
+                  - /url: /users/bziller
+                - text: "- member since 07-Feb-24"
+              - paragraph [ref=e3338]: I see this match ending in draw a 1-1 on regular time.. and France taking the win on extra time or penalties... A good bet would be BTTS or Double Chance France/draw & over 1.5 If you have watch most of their matches (spain/france) .. you know France is superior.
+              - generic [ref=e3339]:
+                - text: 6 days ago
+                - generic [ref=e3340]:
+                  - generic [ref=e3341]:
+                    - link "Like" [ref=e3342] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3343]: Reply
+                  - link "Report" [ref=e3345] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3346]:
+            - generic [ref=e3347]:
+              - generic [ref=e3348]:
+                - text: "[ - ]"
+                - link "Viktoreze" [ref=e3350] [cursor=pointer]:
+                  - /url: /users/Viktoreze
+                - text: "- member since 09-Jul-26"
+              - paragraph [ref=e3352]: There is no way for France to lose this match especially on the 14th of July - The French National Day. You can bet even your wife on it!
+              - generic [ref=e3353]:
+                - text: 1 week ago
+                - generic [ref=e3354]:
+                  - generic [ref=e3355]:
+                    - link "Like" [ref=e3356] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e3357]: Reply
+                  - link "Report" [ref=e3359] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3360]:
+            - generic [ref=e3362]:
+              - generic [ref=e3363]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e3365] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e3367]: "@Viktoreze These exact football players don't care about the French national holiday."
+              - generic [ref=e3368]:
+                - text: 6 days ago
+                - generic [ref=e3369]:
+                  - generic [ref=e3370]:
+                    - link "Like" [ref=e3371] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+5"
+                  - generic [ref=e3372]: Reply
+                  - link "Report" [ref=e3374] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3375]:
+            - generic [ref=e3376]:
+              - generic [ref=e3377]:
+                - text: "[ - ]"
+                - link "Davisson" [ref=e3379] [cursor=pointer]:
+                  - /url: /users/Davisson
+                - text: "- member since 30-May-17"
+              - paragraph [ref=e3381]: Yamal is France's daddy. 1-2 / 2-3 / 3-4.
+              - generic [ref=e3382]:
+                - text: 1 week ago
+                - generic [ref=e3383]:
+                  - generic [ref=e3384]:
+                    - link "Like" [ref=e3385] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3386]: Reply
+                  - link "Report" [ref=e3388] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3389]:
+            - generic [ref=e3390]:
+              - generic [ref=e3391]:
+                - text: "[ - ]"
+                - link "Ghost77" [ref=e3393] [cursor=pointer]:
+                  - /url: /users/Ghost77
+                - text: "- member since 11-Jan-23"
+              - paragraph [ref=e3395]: There will be goals! over 2.5 goals expected
+              - generic [ref=e3396]:
+                - text: 1 week ago
+                - generic [ref=e3397]:
+                  - link "Like" [ref=e3399] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3400]: Reply
+                  - link "Report" [ref=e3402] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3403]:
+            - generic [ref=e3404]:
+              - generic [ref=e3405]:
+                - text: "[ - ]"
+                - link "Nanami" [ref=e3407] [cursor=pointer]:
+                  - /url: /users/Nanami
+                - text: "- member since 16-Dec-17"
+              - paragraph [ref=e3409]: 3-2 for France
+              - generic [ref=e3410]:
+                - text: 1 week ago
+                - generic [ref=e3411]:
+                  - generic [ref=e3412]:
+                    - link "Like" [ref=e3413] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3414]: Reply
+                  - link "Report" [ref=e3416] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3417]:
+            - generic [ref=e3419]:
+              - generic [ref=e3420]:
+                - text: "[ - ]"
+                - link "Easyanalyses" [ref=e3422] [cursor=pointer]:
+                  - /url: /users/Easyanalyses
+                - text: "- member since 22-Aug-22"
+              - paragraph [ref=e3424]: "@Nanami fair take"
+              - generic [ref=e3425]:
+                - text: 6 days ago
+                - generic [ref=e3426]:
+                  - link "Like" [ref=e3428] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3429]: Reply
+                  - link "Report" [ref=e3431] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3432]:
+            - generic [ref=e3433]:
+              - generic [ref=e3434]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e3436] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e3438]: Easy win for Spain I say something like 1-7 similar to Brazil/Germany match
+              - generic [ref=e3439]:
+                - text: 1 week ago
+                - generic [ref=e3440]:
+                  - generic [ref=e3441]:
+                    - link "Like" [ref=e3442] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3443]: Reply
+                  - link "Report" [ref=e3445] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3446]:
+            - generic [ref=e3448]:
+              - generic [ref=e3449]:
+                - text: "[ - ]"
+                - link "justsoso" [ref=e3451] [cursor=pointer]:
+                  - /url: /users/justsoso
+                - text: "- member since 05-Oct-25"
+              - paragraph [ref=e3453]: "@CrazyBarcaFan00 That's crazy.��"
+              - generic [ref=e3454]:
+                - text: 5 days ago
+                - generic [ref=e3455]:
+                  - generic [ref=e3456]:
+                    - link "Like" [ref=e3457] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3458]: Reply
+                  - link "Report" [ref=e3460] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3461]:
+            - generic [ref=e3463]:
+              - generic [ref=e3464]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3466] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3468]: "@CrazyBarcaFan00 Ferran Torres will score all 7, then in the final 8. He will get the golden ball then the ballon dor and will be signed by PSG for 150m"
+              - generic [ref=e3469]:
+                - text: 6 days ago
+                - generic [ref=e3470]:
+                  - generic [ref=e3471]:
+                    - link "Like" [ref=e3472] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3473]: Reply
+                  - link "Report" [ref=e3475] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3476]:
+            - generic [ref=e3478]:
+              - generic [ref=e3479]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e3481] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e3483]: "@Aron66666 if all goals assisted by Pedri it will be fine with me for Ferran to score them all"
+              - generic [ref=e3484]:
+                - text: 5 days ago
+                - generic [ref=e3485]:
+                  - generic [ref=e3486]:
+                    - link "Like" [ref=e3487] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3488]: Reply
+                  - link "Report" [ref=e3490] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3491]:
+            - generic [ref=e3493]:
+              - generic [ref=e3494]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e3496] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e3498]: "@CrazyBarcaFan00 I admire you knowledge if football"
+              - generic [ref=e3499]:
+                - text: 6 days ago
+                - generic [ref=e3500]:
+                  - generic [ref=e3501]:
+                    - link "Like" [ref=e3502] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3503]: Reply
+                  - link "Report" [ref=e3505] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3506]:
+            - generic [ref=e3508]:
+              - generic [ref=e3509]:
+                - text: "[ - ]"
+                - link "CrazyBarcaFan00" [ref=e3511] [cursor=pointer]:
+                  - /url: /users/CrazyBarcaFan00
+                - text: "- member since 04-May-19"
+              - paragraph [ref=e3513]: "@neumi17 thanks"
+              - generic [ref=e3514]:
+                - text: 5 days ago
+                - generic [ref=e3515]:
+                  - generic [ref=e3516]:
+                    - link "Like" [ref=e3517] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3518]: Reply
+                  - link "Report" [ref=e3520] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3521]:
+            - generic [ref=e3522]:
+              - generic [ref=e3523]:
+                - text: "[ - ]"
+                - link "IanWright" [ref=e3525] [cursor=pointer]:
+                  - /url: /users/IanWright
+                - text: "- member since 01-Oct-24"
+              - paragraph [ref=e3527]: France to win in 90 min
+              - generic [ref=e3528]:
+                - text: 1 week ago
+                - generic [ref=e3529]:
+                  - generic [ref=e3530]:
+                    - link "Like" [ref=e3531] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3532]: Reply
+                  - link "Report" [ref=e3534] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3535]:
+            - generic [ref=e3536]:
+              - generic [ref=e3537]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=e3539] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=e3541]: Spain DNB @ currently 2.35 Odds (Betfair).
+              - generic [ref=e3542]:
+                - text: 1 week ago
+                - generic [ref=e3543]:
+                  - generic [ref=e3544]:
+                    - link "Like" [ref=e3545] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e3546]: Reply
+                  - link "Report" [ref=e3548] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3549]:
+            - generic [ref=e3550]:
+              - generic [ref=e3551]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=e3553] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=e3555]: 1-2 Spain
+              - generic [ref=e3556]:
+                - text: 1 week ago
+                - generic [ref=e3557]:
+                  - generic [ref=e3558]:
+                    - link "Like" [ref=e3559] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+8"
+                  - generic [ref=e3560]: Reply
+                  - link "Report" [ref=e3562] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3563]:
+            - generic [ref=e3565]:
+              - generic [ref=e3566]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3568] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3570]: "@Marbella How could I doubt Marbella---? :( :( :("
+              - generic [ref=e3571]:
+                - text: 4 days ago
+                - generic [ref=e3572]:
+                  - link "Like" [ref=e3574] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3575]: Reply
+                  - link "Report" [ref=e3577] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3578]:
+            - generic [ref=e3580]:
+              - generic [ref=e3581]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e3583] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e3585]: "@Marbella Congratulations on your win! But watch out for those crazy Argies in the final ;-)"
+              - generic [ref=e3586]:
+                - text: 4 days ago
+                - generic [ref=e3587]:
+                  - link "Like" [ref=e3589] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3590]: Reply
+                  - link "Report" [ref=e3592] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3593]:
+            - generic [ref=e3595]:
+              - generic [ref=e3596]:
+                - text: "[ - ]"
+                - link "mandrake4444" [ref=e3598] [cursor=pointer]:
+                  - /url: /users/mandrake4444
+                - text: "- member since 18-Mar-18"
+              - paragraph [ref=e3600]: "@Marbella Thumbs up Take a bow"
+              - generic [ref=e3601]:
+                - text: 5 days ago
+                - generic [ref=e3602]:
+                  - link "Like" [ref=e3604] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3605]: Reply
+                  - link "Report" [ref=e3607] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3608]:
+            - generic [ref=e3610]:
+              - generic [ref=e3611]:
+                - text: "[ - ]"
+                - link "neumi17" [ref=e3613] [cursor=pointer]:
+                  - /url: /users/neumi17
+                - text: "- member since 06-Apr-13"
+              - paragraph [ref=e3615]: "@Marbella How would that be possible ?"
+              - generic [ref=e3616]:
+                - text: 6 days ago
+                - generic [ref=e3617]:
+                  - link "Like" [ref=e3619] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3620]: Reply
+                  - link "Report" [ref=e3622] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3623]:
+            - generic [ref=e3625]:
+              - generic [ref=e3626]:
+                - text: "[ - ]"
+                - link "Davisson" [ref=e3628] [cursor=pointer]:
+                  - /url: /users/Davisson
+                - text: "- member since 30-May-17"
+              - paragraph [ref=e3630]: "@neumi17 with Spain scoring 2 goals and France 1"
+              - generic [ref=e3631]:
+                - text: 6 days ago
+                - generic [ref=e3632]:
+                  - generic [ref=e3633]:
+                    - link "Like" [ref=e3634] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+3"
+                  - generic [ref=e3635]: Reply
+                  - link "Report" [ref=e3637] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3638]:
+            - generic [ref=e3639]:
+              - generic [ref=e3640]:
+                - text: "[ - ]"
+                - link "Marbella" [ref=e3642] [cursor=pointer]:
+                  - /url: /users/Marbella
+                - text: "- member since 27-Feb-22"
+              - paragraph [ref=e3644]: Mikel Merino has been on fire as a 'super sub'.I hope they start with him instead of Mikel Oyarzabal.Spain will dominate possession and Yamal is getting better with every game.
+              - generic [ref=e3645]:
+                - text: 1 week ago
+                - generic [ref=e3646]:
+                  - generic [ref=e3647]:
+                    - link "Like" [ref=e3648] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3649]: Reply
+                  - link "Report" [ref=e3651] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3652]:
+            - generic [ref=e3654]:
+              - generic [ref=e3655]:
+                - text: "[ - ]"
+                - link "grapefruit" [ref=e3657] [cursor=pointer]:
+                  - /url: /users/grapefruit
+                - text: "- member since 15-Nov-23"
+              - paragraph [ref=e3659]: "@Marbella super subs tend not to perform well as starters. See Undav as a recent example."
+              - generic [ref=e3660]:
+                - text: 5 days ago
+                - generic [ref=e3661]:
+                  - generic [ref=e3662]:
+                    - link "Like" [ref=e3663] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3664]: Reply
+                  - link "Report" [ref=e3666] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3667]:
+            - generic [ref=e3669]:
+              - generic [ref=e3670]:
+                - text: "[ - ]"
+                - link "Aron66666" [ref=e3672] [cursor=pointer]:
+                  - /url: /users/Aron66666
+                - text: "- member since 25-Jun-26"
+              - paragraph [ref=e3674]: "@Marbella Possession is meaningless if the team lacks width (Munoz and Pino are injured, and Williams and Yamal aren’t at 100%) nor do they have a top-class finisher; Fermin, Olmo and Yamal could be good for long-range shots, but Fermin isn’t available, and more defenders will be marking Yamal). The French, meanwhile, are very fast and dangerous on the counterattack"
+              - generic [ref=e3675]:
+                - text: 6 days ago
+                - generic [ref=e3676]:
+                  - link "Like" [ref=e3678] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3679]: Reply
+                  - link "Report" [ref=e3681] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3682]:
+            - generic [ref=e3683]:
+              - generic [ref=e3684]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e3686] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e3688]: "FUN FACT: France haven't beaten Spain fairly since 2014. Before anyone asks what I mean, France's win over Spain in the 2021 UEFA Nations League final was unfair, since the referees helped them. 12 years of misery against Spain, may it continue!!!"
+              - generic [ref=e3689]:
+                - text: 1 week ago
+                - generic [ref=e3690]:
+                  - generic [ref=e3691]:
+                    - link "Like" [ref=e3692] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+2"
+                  - generic [ref=e3693]: Reply
+                  - link "Report" [ref=e3695] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3696]:
+            - generic [ref=e3698]:
+              - generic [ref=e3699]:
+                - text: "[ - ]"
+                - link "eastend1" [ref=e3701] [cursor=pointer]:
+                  - /url: /users/eastend1
+                - text: "- member since 15-Jan-16"
+              - paragraph [ref=e3703]: "@Sputnik 2021 France last one"
+              - generic [ref=e3704]:
+                - text: 5 days ago
+                - generic [ref=e3705]:
+                  - link "Like" [ref=e3707] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3708]: Reply
+                  - link "Report" [ref=e3710] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3711]:
+            - generic [ref=e3713]:
+              - generic [ref=e3714]:
+                - text: "[ - ]"
+                - link "Sputnik" [ref=e3716] [cursor=pointer]:
+                  - /url: /users/Sputnik
+                - text: "- member since 22-Nov-22"
+              - paragraph [ref=e3718]: "@eastend1 Didn't you learn reading comprehension in school?"
+              - generic [ref=e3719]:
+                - text: 5 days ago
+                - generic [ref=e3720]:
+                  - generic [ref=e3721]:
+                    - link "Like" [ref=e3722] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3723]: Reply
+                  - link "Report" [ref=e3725] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3726]:
+            - generic [ref=e3728]:
+              - generic [ref=e3729]:
+                - text: "[ - ]"
+                - link "Blessed2021" [ref=e3731] [cursor=pointer]:
+                  - /url: /users/Blessed2021
+                - text: "- member since 09-Feb-21"
+              - paragraph [ref=e3733]: "@Sputnik FINAL RESULT (1X2): Prediction: X (Draw) Confidence: Medium TOTAL GOALS (Over/Under): Prediction: Under 2.5 Justification: The knockout nature of the match and the cautious defensive tactics of both teams suggest a low-scoring game."
+              - generic [ref=e3734]:
+                - text: 6 days ago
+                - generic [ref=e3735]:
+                  - generic [ref=e3736]:
+                    - link "Like" [ref=e3737] [cursor=pointer]:
+                      - /url: "#"
+                    - text: "+1"
+                  - generic [ref=e3738]: Reply
+                  - link "Report" [ref=e3740] [cursor=pointer]:
+                    - /url: "#"
+          - listitem [ref=e3741]:
+            - generic [ref=e3743]:
+              - generic [ref=e3744]:
+                - text: "[ - ]"
+                - link "RichieRochdale" [ref=e3746] [cursor=pointer]:
+                  - /url: /users/RichieRochdale
+                - text: "- member since 17-Mar-16"
+              - paragraph [ref=e3748]: "@Blessed2021 Have you got anything for England V Argentina, please,?"
+              - generic [ref=e3749]:
+                - text: 4 days ago
+                - generic [ref=e3750]:
+                  - link "Like" [ref=e3752] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e3753]: Reply
+                  - link "Report" [ref=e3755] [cursor=pointer]:
+                    - /url: "#"
+  - generic [ref=e3761]:
+    - generic [ref=e3762]:
+      - generic [ref=e3763]:
+        - link "About Us" [ref=e3765] [cursor=pointer]:
+          - /url: /aboutus
+        - link "Terms of Use" [ref=e3767] [cursor=pointer]:
+          - /url: /termsofuse
+        - link "Advertise" [ref=e3769] [cursor=pointer]:
+          - /url: /contactus?subjectid=2
+        - link "Jobs" [ref=e3771] [cursor=pointer]:
+          - /url: /jobs
+        - link "Privacy Policy" [ref=e3773] [cursor=pointer]:
+          - /url: /privacy
+        - link "Contact Us" [ref=e3775] [cursor=pointer]:
+          - /url: /contactus
+        - link "Glossary" [ref=e3777] [cursor=pointer]:
+          - /url: /glossary
+        - link "Ratings Explained" [ref=e3779] [cursor=pointer]:
+          - /url: /explanations
+        - link "WhoScored Ratings Feed" [ref=e3781] [cursor=pointer]:
+          - /url: /feeds/ratings
+      - generic [ref=e3782]:
+        - link "Best Betting Sites & Bookmakers" [ref=e3784] [cursor=pointer]:
+          - /url: /bookmakers
+        - link "Best Irish Betting Sites & Bookmakers" [ref=e3786] [cursor=pointer]:
+          - /url: /bookmakers/ireland-betting-sites
+        - link "Best Accumulator Betting Sites" [ref=e3788] [cursor=pointer]:
+          - /url: /bookmakers/best-accas
+        - link "Best Betting Sites for Live Streaming" [ref=e3790] [cursor=pointer]:
+          - /url: /bookmakers/live-streaming
+        - link "Best Betting Apps for Football Betting" [ref=e3792] [cursor=pointer]:
+          - /url: /betting-apps
+    - generic [ref=e3793]:
+      - link [ref=e3794] [cursor=pointer]:
+        - /url: https://twitter.com/WhoScored
+      - link [ref=e3796] [cursor=pointer]:
+        - /url: https://www.instagram.com/officialwhoscored/
+      - link [ref=e3798] [cursor=pointer]:
+        - /url: https://www.youtube.com/whoscored
+    - img "footer_wsLogo" [ref=e3802]
+    - generic [ref=e3803]:
+      - link [ref=e3804] [cursor=pointer]:
+        - /url: https://geo.itunes.apple.com/us/app/whoscored-football-app/id940048063?mt=8
+      - link [ref=e3806] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.whoscored
+    - generic [ref=e3808]: Copyright © 2026 WhoScored.com
+    - generic [ref=e3810]:
+      - link "Safer Gambling" [ref=e3811] [cursor=pointer]:
+        - /url: /SaferGambling
+      - generic [ref=e3812]:
+        - link "GamStop" [ref=e3813] [cursor=pointer]:
+          - /url: https://www.gamstop.co.uk/
+        - link "GambleAware" [ref=e3816] [cursor=pointer]:
+          - /url: https://www.gambleaware.org/
+        - link "Raig" [ref=e3818] [cursor=pointer]:
+          - /url: https://www.raig.org/
+        - link "Gambling Therapy" [ref=e3820] [cursor=pointer]:
+          - /url: https://www.gamblingtherapy.org/en
+  - contentinfo
+  - generic [ref=e3823]:
+    - img "Logo"

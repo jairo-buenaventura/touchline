@@ -1,0 +1,578 @@
+- generic [active] [ref=f14530e1]:
+  - generic [ref=f14530e2]:
+    - link "Skip to main content" [ref=f14530e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14530e4]:
+      - generic [ref=f14530e6]:
+        - generic [ref=f14530e7]:
+          - link "Link to Home" [ref=f14530e8] [cursor=pointer]:
+            - /url: /
+          - textbox "Search input" [ref=f14530e19]:
+            - /placeholder: Search
+        - generic [ref=f14530e20]:
+          - generic [ref=f14530e21]:
+            - link "News" [ref=f14530e23] [cursor=pointer]:
+              - /url: /news
+            - link "Transfers" [ref=f14530e25] [cursor=pointer]:
+              - /url: /transfers
+            - link "TV schedules" [ref=f14530e28] [cursor=pointer]:
+              - /url: /tv-guide
+            - button "Settings" [ref=f14530e30] [cursor=pointer]
+          - generic [ref=f14530e34]:
+            - link "Download FotMob from Apple Store" [ref=f14530e35] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/apple-store/id488575683?pt=338473&ct=fotmobdotcomheader&mt=8
+            - link "Download FotMob from Google App Store" [ref=f14530e43] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010&referrer=utm_source%3Dfotmob.com%26utm_medium%3Dweb%26utm_campaign%3Dfotmobdotcomheader
+    - main [ref=f14530e51]:
+      - complementary
+      - main [ref=f14530e52]:
+        - link [ref=f14530e54] [cursor=pointer]:
+          - /url: https://newsletter.fotmob.com/
+        - generic [ref=f14530e57]:
+          - generic [ref=f14530e59]:
+            - generic [ref=f14530e60]:
+              - generic [ref=f14530e61]:
+                - button "View league logo" [ref=f14530e62] [cursor=pointer]
+                - generic [ref=f14530e63]:
+                  - heading "Premier League" [level=1] [ref=f14530e64]
+                  - link "England" [ref=f14530e65] [cursor=pointer]:
+                    - /url: /teams/8491/overview/england
+              - generic [ref=f14530e66]:
+                - link "Sync to calendar" [ref=f14530e68] [cursor=pointer]:
+                  - /url: /leagues/47/synccalendar/premier-league
+                - generic [ref=f14530e73]:
+                  - 'combobox "Selected: 2026/2027" [ref=f14530e76] [cursor=pointer]':
+                    - option "2026/2027" [selected]
+                    - option "2025/2026"
+                    - option "2024/2025"
+                    - option "2023/2024"
+                    - option "2022/2023"
+                    - option "2021/2022"
+                    - option "2020/2021"
+                    - option "2019/2020"
+                    - option "2018/2019"
+                    - option "2017/2018"
+                    - option "2016/2017"
+                    - option "2015/2016"
+                    - option "2014/2015"
+                    - option "2013/2014"
+                    - option "2012/2013"
+                    - option "2011/2012"
+                    - option "2010/2011"
+                  - button "Follow" [ref=f14530e77] [cursor=pointer]
+            - navigation [ref=f14530e78]:
+              - link "Overview" [ref=f14530e79] [cursor=pointer]:
+                - /url: /leagues/47/overview/premier-league
+              - link "Table" [ref=f14530e80] [cursor=pointer]:
+                - /url: /leagues/47/table/premier-league
+              - link "Fixtures" [ref=f14530e81] [cursor=pointer]:
+                - /url: /leagues/47/fixtures/premier-league
+              - link "Player stats" [ref=f14530e82] [cursor=pointer]:
+                - /url: /leagues/47/stats/premier-league/players
+              - link "Team stats" [ref=f14530e83] [cursor=pointer]:
+                - /url: /leagues/47/stats/premier-league/teams
+              - link "Transfers" [ref=f14530e84] [cursor=pointer]:
+                - /url: /leagues/47/transfers/premier-league
+              - link "Seasons" [ref=f14530e85] [cursor=pointer]:
+                - /url: /leagues/47/seasons/premier-league
+              - link "News" [ref=f14530e86] [cursor=pointer]:
+                - /url: /leagues/47/news/premier-league
+          - generic [ref=f14530e90]:
+            - generic [ref=f14530e91]:
+              - article [ref=f14530e95]:
+                - generic [ref=f14530e98]:
+                  - generic [ref=f14530e99]:
+                    - generic [ref=f14530e100]: "#"
+                    - generic [ref=f14530e101]: PL
+                    - generic [ref=f14530e102]: +/-
+                    - generic [ref=f14530e103]: GD
+                    - generic [ref=f14530e104]: PTS
+                  - generic [ref=f14530e105]:
+                    - generic [ref=f14530e107]:
+                      - generic [ref=f14530e108]: "1"
+                      - link "AFC Bournemouth" [ref=f14530e111] [cursor=pointer]:
+                        - /url: /teams/8678/overview/afc-bournemouth
+                      - generic [ref=f14530e113]: "0"
+                      - generic [ref=f14530e114]:
+                        - generic [ref=f14530e115]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e116]: "0"
+                      - generic [ref=f14530e117]: "0"
+                      - generic [ref=f14530e119]: "0"
+                    - generic [ref=f14530e121]:
+                      - generic [ref=f14530e122]: "2"
+                      - link "Arsenal" [ref=f14530e125] [cursor=pointer]:
+                        - /url: /teams/9825/overview/arsenal
+                      - generic [ref=f14530e127]: "0"
+                      - generic [ref=f14530e128]:
+                        - generic [ref=f14530e129]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e130]: "0"
+                      - generic [ref=f14530e131]: "0"
+                      - generic [ref=f14530e133]: "0"
+                    - generic [ref=f14530e135]:
+                      - generic [ref=f14530e136]: "3"
+                      - link "Aston Villa" [ref=f14530e139] [cursor=pointer]:
+                        - /url: /teams/10252/overview/aston-villa
+                      - generic [ref=f14530e141]: "0"
+                      - generic [ref=f14530e142]:
+                        - generic [ref=f14530e143]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e144]: "0"
+                      - generic [ref=f14530e145]: "0"
+                      - generic [ref=f14530e147]: "0"
+                    - generic [ref=f14530e149]:
+                      - generic [ref=f14530e150]: "4"
+                      - link "Brentford" [ref=f14530e153] [cursor=pointer]:
+                        - /url: /teams/9937/overview/brentford
+                      - generic [ref=f14530e155]: "0"
+                      - generic [ref=f14530e156]:
+                        - generic [ref=f14530e157]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e158]: "0"
+                      - generic [ref=f14530e159]: "0"
+                      - generic [ref=f14530e161]: "0"
+                    - generic [ref=f14530e163]:
+                      - generic [ref=f14530e164]: "5"
+                      - link "Brighton & Hove Albion" [ref=f14530e167] [cursor=pointer]:
+                        - /url: /teams/10204/overview/brighton-hove-albion
+                      - generic [ref=f14530e169]: "0"
+                      - generic [ref=f14530e170]:
+                        - generic [ref=f14530e171]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e172]: "0"
+                      - generic [ref=f14530e173]: "0"
+                      - generic [ref=f14530e175]: "0"
+                    - generic [ref=f14530e177]:
+                      - generic [ref=f14530e178]: "6"
+                      - link "Chelsea" [ref=f14530e181] [cursor=pointer]:
+                        - /url: /teams/8455/overview/chelsea
+                      - generic [ref=f14530e183]: "0"
+                      - generic [ref=f14530e184]:
+                        - generic [ref=f14530e185]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e186]: "0"
+                      - generic [ref=f14530e187]: "0"
+                      - generic [ref=f14530e189]: "0"
+                    - generic [ref=f14530e191]:
+                      - generic [ref=f14530e192]: "7"
+                      - link "Coventry City" [ref=f14530e195] [cursor=pointer]:
+                        - /url: /teams/8669/overview/coventry-city
+                      - generic [ref=f14530e197]: "0"
+                      - generic [ref=f14530e198]:
+                        - generic [ref=f14530e199]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e200]: "0"
+                      - generic [ref=f14530e201]: "0"
+                      - generic [ref=f14530e203]: "0"
+                    - generic [ref=f14530e205]:
+                      - generic [ref=f14530e206]: "8"
+                      - link "Crystal Palace" [ref=f14530e209] [cursor=pointer]:
+                        - /url: /teams/9826/overview/crystal-palace
+                      - generic [ref=f14530e211]: "0"
+                      - generic [ref=f14530e212]:
+                        - generic [ref=f14530e213]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e214]: "0"
+                      - generic [ref=f14530e215]: "0"
+                      - generic [ref=f14530e217]: "0"
+                    - generic [ref=f14530e219]:
+                      - generic [ref=f14530e220]: "9"
+                      - link "Everton" [ref=f14530e223] [cursor=pointer]:
+                        - /url: /teams/8668/overview/everton
+                      - generic [ref=f14530e225]: "0"
+                      - generic [ref=f14530e226]:
+                        - generic [ref=f14530e227]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e228]: "0"
+                      - generic [ref=f14530e229]: "0"
+                      - generic [ref=f14530e231]: "0"
+                    - generic [ref=f14530e233]:
+                      - generic [ref=f14530e234]: "10"
+                      - link "Fulham" [ref=f14530e237] [cursor=pointer]:
+                        - /url: /teams/9879/overview/fulham
+                      - generic [ref=f14530e239]: "0"
+                      - generic [ref=f14530e240]:
+                        - generic [ref=f14530e241]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e242]: "0"
+                      - generic [ref=f14530e243]: "0"
+                      - generic [ref=f14530e245]: "0"
+                    - generic [ref=f14530e247]:
+                      - generic [ref=f14530e248]: "11"
+                      - link "Hull City" [ref=f14530e251] [cursor=pointer]:
+                        - /url: /teams/8667/overview/hull-city
+                      - generic [ref=f14530e253]: "0"
+                      - generic [ref=f14530e254]:
+                        - generic [ref=f14530e255]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e256]: "0"
+                      - generic [ref=f14530e257]: "0"
+                      - generic [ref=f14530e259]: "0"
+                    - generic [ref=f14530e261]:
+                      - generic [ref=f14530e262]: "12"
+                      - link "Ipswich Town" [ref=f14530e265] [cursor=pointer]:
+                        - /url: /teams/9902/overview/ipswich-town
+                      - generic [ref=f14530e267]: "0"
+                      - generic [ref=f14530e268]:
+                        - generic [ref=f14530e269]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e270]: "0"
+                      - generic [ref=f14530e271]: "0"
+                      - generic [ref=f14530e273]: "0"
+                    - generic [ref=f14530e275]:
+                      - generic [ref=f14530e276]: "13"
+                      - link "Leeds United" [ref=f14530e279] [cursor=pointer]:
+                        - /url: /teams/8463/overview/leeds-united
+                      - generic [ref=f14530e281]: "0"
+                      - generic [ref=f14530e282]:
+                        - generic [ref=f14530e283]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e284]: "0"
+                      - generic [ref=f14530e285]: "0"
+                      - generic [ref=f14530e287]: "0"
+                    - generic [ref=f14530e289]:
+                      - generic [ref=f14530e290]: "14"
+                      - link "Liverpool" [ref=f14530e293] [cursor=pointer]:
+                        - /url: /teams/8650/overview/liverpool
+                      - generic [ref=f14530e295]: "0"
+                      - generic [ref=f14530e296]:
+                        - generic [ref=f14530e297]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e298]: "0"
+                      - generic [ref=f14530e299]: "0"
+                      - generic [ref=f14530e301]: "0"
+                    - generic [ref=f14530e303]:
+                      - generic [ref=f14530e304]: "15"
+                      - link "Manchester City" [ref=f14530e307] [cursor=pointer]:
+                        - /url: /teams/8456/overview/manchester-city
+                      - generic [ref=f14530e309]: "0"
+                      - generic [ref=f14530e310]:
+                        - generic [ref=f14530e311]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e312]: "0"
+                      - generic [ref=f14530e313]: "0"
+                      - generic [ref=f14530e315]: "0"
+                    - generic [ref=f14530e317]:
+                      - generic [ref=f14530e318]: "16"
+                      - link "Manchester United" [ref=f14530e321] [cursor=pointer]:
+                        - /url: /teams/10260/overview/manchester-united
+                      - generic [ref=f14530e323]: "0"
+                      - generic [ref=f14530e324]:
+                        - generic [ref=f14530e325]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e326]: "0"
+                      - generic [ref=f14530e327]: "0"
+                      - generic [ref=f14530e329]: "0"
+                    - generic [ref=f14530e331]:
+                      - generic [ref=f14530e332]: "17"
+                      - link "Newcastle United" [ref=f14530e335] [cursor=pointer]:
+                        - /url: /teams/10261/overview/newcastle-united
+                      - generic [ref=f14530e337]: "0"
+                      - generic [ref=f14530e338]:
+                        - generic [ref=f14530e339]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e340]: "0"
+                      - generic [ref=f14530e341]: "0"
+                      - generic [ref=f14530e343]: "0"
+                    - generic [ref=f14530e345]:
+                      - generic [ref=f14530e346]: "18"
+                      - link "Nottingham Forest" [ref=f14530e349] [cursor=pointer]:
+                        - /url: /teams/10203/overview/nottingham-forest
+                      - generic [ref=f14530e351]: "0"
+                      - generic [ref=f14530e352]:
+                        - generic [ref=f14530e353]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e354]: "0"
+                      - generic [ref=f14530e355]: "0"
+                      - generic [ref=f14530e357]: "0"
+                    - generic [ref=f14530e359]:
+                      - generic [ref=f14530e360]: "19"
+                      - link "Sunderland" [ref=f14530e363] [cursor=pointer]:
+                        - /url: /teams/8472/overview/sunderland
+                      - generic [ref=f14530e365]: "0"
+                      - generic [ref=f14530e366]:
+                        - generic [ref=f14530e367]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e368]: "0"
+                      - generic [ref=f14530e369]: "0"
+                      - generic [ref=f14530e371]: "0"
+                    - generic [ref=f14530e373]:
+                      - generic [ref=f14530e374]: "20"
+                      - link "Tottenham Hotspur" [ref=f14530e377] [cursor=pointer]:
+                        - /url: /teams/8586/overview/tottenham-hotspur
+                      - generic [ref=f14530e379]: "0"
+                      - generic [ref=f14530e380]:
+                        - generic [ref=f14530e381]: "0"
+                        - text: "-"
+                        - generic [ref=f14530e382]: "0"
+                      - generic [ref=f14530e383]: "0"
+                      - generic [ref=f14530e385]: "0"
+                - list [ref=f14530e386]:
+                  - listitem [ref=f14530e387]: Champions League
+                  - listitem [ref=f14530e389]: Europa League
+                  - listitem [ref=f14530e391]: Relegation
+              - generic [ref=f14530e394]:
+                - heading "News" [level=3] [ref=f14530e395]
+                - generic [ref=f14530e396]:
+                  - link "Ipswich Town finalising move for Celtic and World Cup star in £10m deal talkSPORT · 26 minutes ago" [ref=f14530e398] [cursor=pointer]:
+                    - /url: https://talksport.com/football/4449654/ipswich-town-daizen-maeda-transfer-fee-celtic-rumour/
+                    - generic [ref=f14530e399]:
+                      - generic [ref=f14530e400]: Ipswich Town finalising move for Celtic and World Cup star in £10m deal
+                      - generic [ref=f14530e401]:
+                        - generic [ref=f14530e402]: talkSPORT
+                        - generic [ref=f14530e403]: · 26 minutes ago
+                  - link "Alvaro Arbeloa ‘Pursues’ Real Madrid Star As First Major Move at Fulham SI · 40 minutes ago" [ref=f14530e407] [cursor=pointer]:
+                    - /url: /embed/news/01ky55a9b14w/alvaro-arbeloa-pursues-real-madrid-star-first-major-move-at-fulham
+                    - generic [ref=f14530e408]:
+                      - generic [ref=f14530e409]: Alvaro Arbeloa ‘Pursues’ Real Madrid Star As First Major Move at Fulham
+                      - generic [ref=f14530e410]:
+                        - generic [ref=f14530e411]: SI
+                        - generic [ref=f14530e412]: · 40 minutes ago
+                  - link "Leeds defender Wober has contract terminated by mutual consent FotMob · 1 hour ago" [ref=f14530e416] [cursor=pointer]:
+                    - /url: /news/zd146puxnf3j1ey1rdpb6eusu-leeds-defender-wober-has-contract-terminated-mutual-consent
+                    - generic [ref=f14530e417]:
+                      - generic [ref=f14530e418]: Leeds defender Wober has contract terminated by mutual consent
+                      - generic [ref=f14530e419]:
+                        - generic [ref=f14530e420]: FotMob
+                        - generic [ref=f14530e421]: · 1 hour ago
+                  - link "A big summer for... Arsenal! Listen to our special podcast on the Gunners Sky Sports · 1 hour ago" [ref=f14530e425] [cursor=pointer]:
+                    - /url: https://www.skysports.com/football/live-blog/11661/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts
+                    - generic [ref=f14530e426]:
+                      - generic [ref=f14530e427]: A big summer for... Arsenal! Listen to our special podcast on the Gunners
+                      - generic [ref=f14530e428]:
+                        - generic [ref=f14530e429]: Sky Sports
+                        - generic [ref=f14530e430]: · 1 hour ago
+                  - link "Man City confident of reaching deal for World Cup sensation Ayyoub Bouaddi talkSPORT · 2 hours ago" [ref=f14530e434] [cursor=pointer]:
+                    - /url: https://talksport.com/football/4449490/man-city-ayyoub-bouaddi-deal-transfer-news/
+                    - generic [ref=f14530e435]:
+                      - generic [ref=f14530e436]: Man City confident of reaching deal for World Cup sensation Ayyoub Bouaddi
+                      - generic [ref=f14530e437]:
+                        - generic [ref=f14530e438]: talkSPORT
+                        - generic [ref=f14530e439]: · 2 hours ago
+                  - link "Axel Disasi offered Chelsea escape route as Champions League club expresses interest talkSPORT · 2 hours ago" [ref=f14530e443] [cursor=pointer]:
+                    - /url: https://talksport.com/football/4449362/alex-disasi-chelsea-roma-ac-milan-west-ham-transfer-news/
+                    - generic [ref=f14530e444]:
+                      - generic [ref=f14530e445]: Axel Disasi offered Chelsea escape route as Champions League club expresses interest
+                      - generic [ref=f14530e446]:
+                        - generic [ref=f14530e447]: talkSPORT
+                        - generic [ref=f14530e448]: · 2 hours ago
+                  - link "Why Garnacho could trump Rashford as Emery's best Aston Villa resurrection act yet talkSPORT · 2 hours ago" [ref=f14530e452] [cursor=pointer]:
+                    - /url: https://talksport.com/football/4448962/unai-emery-aston-villa-alejandro-garnacho-marcus-rashford/
+                    - generic [ref=f14530e453]:
+                      - generic [ref=f14530e454]: Why Garnacho could trump Rashford as Emery's best Aston Villa resurrection act yet
+                      - generic [ref=f14530e455]:
+                        - generic [ref=f14530e456]: talkSPORT
+                        - generic [ref=f14530e457]: · 2 hours ago
+                  - link "Tottenham's summer spending 'not finished yet', De Zerbi reveals FotMob · 2 hours ago" [ref=f14530e461] [cursor=pointer]:
+                    - /url: /news/x37bzv1m04w914chtkrizvvfu-tottenhams-summer-spending-not-finished-yet-de-zerbi-reveals
+                    - generic [ref=f14530e462]:
+                      - generic [ref=f14530e463]: Tottenham's summer spending 'not finished yet', De Zerbi reveals
+                      - generic [ref=f14530e464]:
+                        - generic [ref=f14530e465]: FotMob
+                        - generic [ref=f14530e466]: · 2 hours ago
+                - link "See more" [ref=f14530e470] [cursor=pointer]:
+                  - /url: /leagues/47/news/premier-league
+            - generic [ref=f14530e473]:
+              - generic [ref=f14530e474]:
+                - button [disabled] [ref=f14530e475]
+                - generic [ref=f14530e484]:
+                  - log [ref=f14530e486]
+                  - generic [ref=f14530e488] [cursor=pointer]:
+                    - generic [ref=f14530e489]: Round 1
+                    - combobox [ref=f14530e490]
+                - button [ref=f14530e495] [cursor=pointer]
+              - generic [ref=f14530e503]:
+                - heading "Friday, August 21" [level=3] [ref=f14530e504]
+                - link "Arsenal 2:00 PM Coventry City" [ref=f14530e505] [cursor=pointer]:
+                  - /url: /matches/coventry-city-vs-arsenal/2tttz6#5795363
+                  - generic [ref=f14530e506]: Arsenal
+                  - generic [ref=f14530e512]:
+                    - text: 2:00
+                    - generic [ref=f14530e513]: PM
+                  - generic [ref=f14530e514]:
+                    - generic [ref=f14530e515]: Coventry City
+                    - button "Follow" [ref=f14530e519]
+              - generic [ref=f14530e524]:
+                - heading "Saturday, August 22" [level=3] [ref=f14530e525]
+                - link "Hull City 6:30 AM Manchester United" [ref=f14530e526] [cursor=pointer]:
+                  - /url: /matches/hull-city-vs-manchester-united/2yngir#5795364
+                  - generic [ref=f14530e527]: Hull City
+                  - generic [ref=f14530e533]:
+                    - text: 6:30
+                    - generic [ref=f14530e534]: AM
+                  - generic [ref=f14530e535]:
+                    - generic [ref=f14530e536]: Manchester United
+                    - button "Follow" [ref=f14530e540]
+                - link "Everton 9:00 AM Crystal Palace" [ref=f14530e545] [cursor=pointer]:
+                  - /url: /matches/everton-vs-crystal-palace/2tttz7#5795365
+                  - generic [ref=f14530e546]: Everton
+                  - generic [ref=f14530e552]:
+                    - text: 9:00
+                    - generic [ref=f14530e553]: AM
+                  - generic [ref=f14530e554]:
+                    - generic [ref=f14530e555]: Crystal Palace
+                    - button "Follow" [ref=f14530e559]
+                - link "Ipswich Town 9:00 AM Sunderland" [ref=f14530e564] [cursor=pointer]:
+                  - /url: /matches/sunderland-vs-ipswich-town/2sif4z#5795366
+                  - generic [ref=f14530e565]: Ipswich Town
+                  - generic [ref=f14530e571]:
+                    - text: 9:00
+                    - generic [ref=f14530e572]: AM
+                  - generic [ref=f14530e573]:
+                    - generic [ref=f14530e574]: Sunderland
+                    - button "Follow" [ref=f14530e578]
+                - link "Nottingham Forest 9:00 AM Leeds United" [ref=f14530e583] [cursor=pointer]:
+                  - /url: /matches/leeds-united-vs-nottingham-forest/2vqauu#5795367
+                  - generic [ref=f14530e584]: Nottingham Forest
+                  - generic [ref=f14530e590]:
+                    - text: 9:00
+                    - generic [ref=f14530e591]: AM
+                  - generic [ref=f14530e592]:
+                    - generic [ref=f14530e593]: Leeds United
+                    - button "Follow" [ref=f14530e597]
+                - link "Brentford 11:30 AM Tottenham Hotspur" [ref=f14530e602] [cursor=pointer]:
+                  - /url: /matches/tottenham-hotspur-vs-brentford/2u5c8b#5795368
+                  - generic [ref=f14530e603]: Brentford
+                  - generic [ref=f14530e609]:
+                    - text: 11:30
+                    - generic [ref=f14530e610]: AM
+                  - generic [ref=f14530e611]:
+                    - generic [ref=f14530e612]: Tottenham Hotspur
+                    - button "Follow" [ref=f14530e616]
+              - generic [ref=f14530e621]:
+                - heading "Sunday, August 23" [level=3] [ref=f14530e622]
+                - link "Brighton & Hove Albion 8:00 AM Aston Villa" [ref=f14530e623] [cursor=pointer]:
+                  - /url: /matches/brighton-hove-albion-vs-aston-villa/3gku1s#5795369
+                  - generic [ref=f14530e624]: Brighton & Hove Albion
+                  - generic [ref=f14530e630]:
+                    - text: 8:00
+                    - generic [ref=f14530e631]: AM
+                  - generic [ref=f14530e632]:
+                    - generic [ref=f14530e633]: Aston Villa
+                    - button "Follow" [ref=f14530e637]
+                - link "Manchester City 8:00 AM AFC Bournemouth" [ref=f14530e642] [cursor=pointer]:
+                  - /url: /matches/manchester-city-vs-afc-bournemouth/2feiv3#5795370
+                  - generic [ref=f14530e643]: Manchester City
+                  - generic [ref=f14530e649]:
+                    - text: 8:00
+                    - generic [ref=f14530e650]: AM
+                  - generic [ref=f14530e651]:
+                    - generic [ref=f14530e652]: AFC Bournemouth
+                    - button "Follow" [ref=f14530e656]
+                - link "Newcastle United 10:30 AM Liverpool" [ref=f14530e661] [cursor=pointer]:
+                  - /url: /matches/liverpool-vs-newcastle-united/2ygyxm#5795371
+                  - generic [ref=f14530e662]: Newcastle United
+                  - generic [ref=f14530e668]:
+                    - text: 10:30
+                    - generic [ref=f14530e669]: AM
+                  - generic [ref=f14530e670]:
+                    - generic [ref=f14530e671]: Liverpool
+                    - button "Follow" [ref=f14530e675]
+              - generic [ref=f14530e680]:
+                - heading "Monday, August 24" [level=3] [ref=f14530e681]
+                - link "Fulham 2:00 PM Chelsea" [ref=f14530e682] [cursor=pointer]:
+                  - /url: /matches/chelsea-vs-fulham/2s2omg#5795372
+                  - generic [ref=f14530e683]: Fulham
+                  - generic [ref=f14530e689]:
+                    - text: 2:00
+                    - generic [ref=f14530e690]: PM
+                  - generic [ref=f14530e691]:
+                    - generic [ref=f14530e692]: Chelsea
+                    - button "Follow" [ref=f14530e696]
+      - complementary
+    - contentinfo [ref=f14530e701]:
+      - generic [ref=f14530e704]:
+        - heading "FotMob is the essential football app." [level=3] [ref=f14530e709]
+        - navigation [ref=f14530e710]:
+          - list [ref=f14530e711]:
+            - listitem [ref=f14530e712]:
+              - link "Matches" [ref=f14530e713] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f14530e714]:
+              - link "News" [ref=f14530e715] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=f14530e716]:
+              - link "Transfer Center" [ref=f14530e717] [cursor=pointer]:
+                - /url: /transfers
+            - listitem [ref=f14530e718]:
+              - link "Rumors" [ref=f14530e719] [cursor=pointer]:
+                - /url: /rumours
+            - listitem [ref=f14530e720]:
+              - link "TV schedules" [ref=f14530e721] [cursor=pointer]:
+                - /url: /tv-guide
+            - listitem [ref=f14530e722]:
+              - link "About" [ref=f14530e723] [cursor=pointer]:
+                - /url: /aboutUs/company
+            - listitem [ref=f14530e724]:
+              - link "Careers" [ref=f14530e725] [cursor=pointer]:
+                - /url: /aboutUs/careers
+            - listitem [ref=f14530e726]:
+              - link "Advertise with us" [ref=f14530e727] [cursor=pointer]:
+                - /url: /aboutUs/advertise
+            - listitem [ref=f14530e728]:
+              - link "Lineup Builder" [ref=f14530e729] [cursor=pointer]:
+                - /url: /lineup-builder
+            - listitem [ref=f14530e730]:
+              - link "FAQ" [ref=f14530e731] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=f14530e732]:
+              - link "FIFA Rankings Men" [ref=f14530e733] [cursor=pointer]:
+                - /url: /fifaranking?gender=men
+            - listitem [ref=f14530e734]:
+              - link "FIFA Rankings Women" [ref=f14530e735] [cursor=pointer]:
+                - /url: /fifaranking?gender=women
+            - listitem [ref=f14530e736]:
+              - link "Predictor" [ref=f14530e737] [cursor=pointer]:
+                - /url: https://predict.fotmob.com
+            - listitem [ref=f14530e738]:
+              - link "Newsletter" [ref=f14530e739] [cursor=pointer]:
+                - /url: https://newsletter.fotmob.com/subscribe/?utm_source=webfooter
+        - generic [ref=f14530e740]:
+          - heading "Get the app" [level=2] [ref=f14530e741]
+          - list [ref=f14530e742]:
+            - listitem [ref=f14530e743]:
+              - link "Download FotMob from Apple Store" [ref=f14530e744] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/apple-store/id488575683?pt=338473&ct=fotmobdotcomfooter&mt=8
+            - listitem [ref=f14530e752]:
+              - link "Download FotMob from Google App Store" [ref=f14530e753] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010&referrer=utm_source%3Dfotmob.com%26utm_medium%3Dweb%26utm_campaign%3Dfotmobdotcomfooter
+      - generic [ref=f14530e762]:
+        - generic [ref=f14530e763]:
+          - paragraph [ref=f14530e765]:
+            - generic [ref=f14530e766]: © Copyright 2026 FotMob
+          - generic [ref=f14530e767]:
+            - generic [ref=f14530e768]:
+              - link "Terms of use" [ref=f14530e769] [cursor=pointer]:
+                - /url: https://www.fotmob.com/tos.txt
+              - generic [ref=f14530e770]: •
+              - link "Cookie policy" [ref=f14530e771] [cursor=pointer]:
+                - /url: /cookiepolicy
+              - generic [ref=f14530e772]: •
+              - link "Privacy policy" [ref=f14530e773] [cursor=pointer]:
+                - /url: https://www.fotmob.com/privacy_fotmob.html
+              - generic [ref=f14530e774]: •
+              - link "Transparency act statement" [ref=f14530e775] [cursor=pointer]:
+                - /url: https://www.fotmob.com/transparency-act-statement.pdf
+            - generic [ref=f14530e776]: The use of automatic services (robots, crawler, indexing etc.) as well as other methods for systematic or regular use is not permitted.
+          - generic [ref=f14530e777]:
+            - generic [ref=f14530e778]: Follow us
+            - navigation [ref=f14530e779]:
+              - list [ref=f14530e780]:
+                - listitem [ref=f14530e781]:
+                  - link "Follow us on TikTok" [ref=f14530e782] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@fotmobapp
+                - listitem [ref=f14530e785]:
+                  - link "Follow us on Instagram" [ref=f14530e786] [cursor=pointer]:
+                    - /url: https://www.instagram.com/fotmobapp/
+                - listitem [ref=f14530e790]:
+                  - link "Follow us on Facebook" [ref=f14530e791] [cursor=pointer]:
+                    - /url: https://www.facebook.com/fotmob/
+                - listitem [ref=f14530e796]:
+                  - link "Follow us on LinkedIn" [ref=f14530e797] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/norapps/
+                - listitem [ref=f14530e800]:
+                  - link "Follow us on Twitter/X" [ref=f14530e801] [cursor=pointer]:
+                    - /url: https://twitter.com/FotMob
+        - generic [ref=f14530e805]: production:5b19489c0854cb9af88586ab7a26647c0c7a0fe6
+  - alert [ref=f14530e806]: Premier League matches, tables and news 2026/2027

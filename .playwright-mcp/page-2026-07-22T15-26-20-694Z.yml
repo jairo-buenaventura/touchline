@@ -1,0 +1,583 @@
+- generic [active] [ref=f1607e1]:
+  - generic [ref=f1607e2]:
+    - link "Skip to main content" [ref=f1607e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f1607e4]:
+      - generic [ref=f1607e6]:
+        - generic [ref=f1607e7]:
+          - link "Link to Home" [ref=f1607e8] [cursor=pointer]:
+            - /url: /
+          - textbox "Search input" [ref=f1607e19]:
+            - /placeholder: Search
+        - generic [ref=f1607e20]:
+          - generic [ref=f1607e21]:
+            - link "News" [ref=f1607e23] [cursor=pointer]:
+              - /url: /news
+            - link "Transfers" [ref=f1607e25] [cursor=pointer]:
+              - /url: /transfers
+            - link "TV schedules" [ref=f1607e28] [cursor=pointer]:
+              - /url: /tv-guide
+            - button "Settings" [ref=f1607e30] [cursor=pointer]
+          - generic [ref=f1607e34]:
+            - link "Download FotMob from Apple Store" [ref=f1607e35] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/apple-store/id488575683?pt=338473&ct=fotmobdotcomheader&mt=8
+            - link "Download FotMob from Google App Store" [ref=f1607e43] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010&referrer=utm_source%3Dfotmob.com%26utm_medium%3Dweb%26utm_campaign%3Dfotmobdotcomheader
+    - main [ref=f1607e51]:
+      - complementary
+      - main [ref=f1607e52]:
+        - generic [ref=f1607e55]:
+          - generic [ref=f1607e57]:
+            - generic [ref=f1607e58]:
+              - generic [ref=f1607e59]:
+                - button "View league logo" [ref=f1607e60] [cursor=pointer]
+                - generic [ref=f1607e61]:
+                  - heading "LaLiga" [level=1] [ref=f1607e62]
+                  - link "Spain" [ref=f1607e63] [cursor=pointer]:
+                    - /url: /teams/6720/overview/spain
+              - generic [ref=f1607e64]:
+                - link "Sync to calendar" [ref=f1607e66] [cursor=pointer]:
+                  - /url: /leagues/87/synccalendar/laliga
+                - generic [ref=f1607e71]:
+                  - 'combobox "Selected: 2026/2027" [ref=f1607e74] [cursor=pointer]':
+                    - option "2026/2027" [selected]
+                    - option "2025/2026"
+                    - option "2024/2025"
+                    - option "2023/2024"
+                    - option "2022/2023"
+                    - option "2021/2022"
+                    - option "2020/2021"
+                    - option "2019/2020"
+                    - option "2018/2019"
+                    - option "2017/2018"
+                    - option "2016/2017"
+                    - option "2015/2016"
+                    - option "2014/2015"
+                    - option "2013/2014"
+                    - option "2012/2013"
+                    - option "2011/2012"
+                    - option "2010/2011"
+                  - button "Follow" [ref=f1607e75] [cursor=pointer]
+            - navigation [ref=f1607e76]:
+              - link "Overview" [ref=f1607e77] [cursor=pointer]:
+                - /url: /leagues/87/overview/laliga
+              - link "Table" [ref=f1607e78] [cursor=pointer]:
+                - /url: /leagues/87/table/laliga
+              - link "Fixtures" [ref=f1607e79] [cursor=pointer]:
+                - /url: /leagues/87/fixtures/laliga
+              - link "Player stats" [ref=f1607e80] [cursor=pointer]:
+                - /url: /leagues/87/stats/laliga/players
+              - link "Team stats" [ref=f1607e81] [cursor=pointer]:
+                - /url: /leagues/87/stats/laliga/teams
+              - link "Transfers" [ref=f1607e82] [cursor=pointer]:
+                - /url: /leagues/87/transfers/laliga
+              - link "Seasons" [ref=f1607e83] [cursor=pointer]:
+                - /url: /leagues/87/seasons/laliga
+              - link "News" [ref=f1607e84] [cursor=pointer]:
+                - /url: /leagues/87/news/laliga
+          - generic [ref=f1607e88]:
+            - generic [ref=f1607e89]:
+              - article [ref=f1607e93]:
+                - generic [ref=f1607e96]:
+                  - generic [ref=f1607e97]:
+                    - generic [ref=f1607e98]: "#"
+                    - generic [ref=f1607e99]: PL
+                    - generic [ref=f1607e100]: +/-
+                    - generic [ref=f1607e101]: GD
+                    - generic [ref=f1607e102]: PTS
+                  - generic [ref=f1607e103]:
+                    - generic [ref=f1607e105]:
+                      - generic [ref=f1607e106]: "1"
+                      - link "Athletic Club" [ref=f1607e109] [cursor=pointer]:
+                        - /url: /teams/8315/overview/athletic-club
+                      - generic [ref=f1607e111]: "0"
+                      - generic [ref=f1607e112]:
+                        - generic [ref=f1607e113]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e114]: "0"
+                      - generic [ref=f1607e115]: "0"
+                      - generic [ref=f1607e117]: "0"
+                    - generic [ref=f1607e119]:
+                      - generic [ref=f1607e120]: "2"
+                      - link "Atletico Madrid" [ref=f1607e123] [cursor=pointer]:
+                        - /url: /teams/9906/overview/atletico-madrid
+                      - generic [ref=f1607e125]: "0"
+                      - generic [ref=f1607e126]:
+                        - generic [ref=f1607e127]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e128]: "0"
+                      - generic [ref=f1607e129]: "0"
+                      - generic [ref=f1607e131]: "0"
+                    - generic [ref=f1607e133]:
+                      - generic [ref=f1607e134]: "3"
+                      - link "Barcelona" [ref=f1607e137] [cursor=pointer]:
+                        - /url: /teams/8634/overview/barcelona
+                      - generic [ref=f1607e139]: "0"
+                      - generic [ref=f1607e140]:
+                        - generic [ref=f1607e141]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e142]: "0"
+                      - generic [ref=f1607e143]: "0"
+                      - generic [ref=f1607e145]: "0"
+                    - generic [ref=f1607e147]:
+                      - generic [ref=f1607e148]: "4"
+                      - link "Celta Vigo" [ref=f1607e151] [cursor=pointer]:
+                        - /url: /teams/9910/overview/celta-vigo
+                      - generic [ref=f1607e153]: "0"
+                      - generic [ref=f1607e154]:
+                        - generic [ref=f1607e155]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e156]: "0"
+                      - generic [ref=f1607e157]: "0"
+                      - generic [ref=f1607e159]: "0"
+                    - generic [ref=f1607e161]:
+                      - generic [ref=f1607e162]: "5"
+                      - link "Deportivo A Coruña" [ref=f1607e165] [cursor=pointer]:
+                        - /url: /teams/9783/overview/deportivo-coruna
+                      - generic [ref=f1607e167]: "0"
+                      - generic [ref=f1607e168]:
+                        - generic [ref=f1607e169]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e170]: "0"
+                      - generic [ref=f1607e171]: "0"
+                      - generic [ref=f1607e173]: "0"
+                    - generic [ref=f1607e175]:
+                      - generic [ref=f1607e176]: "6"
+                      - link "Deportivo Alaves" [ref=f1607e179] [cursor=pointer]:
+                        - /url: /teams/9866/overview/deportivo-alaves
+                      - generic [ref=f1607e181]: "0"
+                      - generic [ref=f1607e182]:
+                        - generic [ref=f1607e183]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e184]: "0"
+                      - generic [ref=f1607e185]: "0"
+                      - generic [ref=f1607e187]: "0"
+                    - generic [ref=f1607e189]:
+                      - generic [ref=f1607e190]: "7"
+                      - link "Elche" [ref=f1607e193] [cursor=pointer]:
+                        - /url: /teams/10268/overview/elche
+                      - generic [ref=f1607e195]: "0"
+                      - generic [ref=f1607e196]:
+                        - generic [ref=f1607e197]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e198]: "0"
+                      - generic [ref=f1607e199]: "0"
+                      - generic [ref=f1607e201]: "0"
+                    - generic [ref=f1607e203]:
+                      - generic [ref=f1607e204]: "8"
+                      - link "Espanyol" [ref=f1607e207] [cursor=pointer]:
+                        - /url: /teams/8558/overview/espanyol
+                      - generic [ref=f1607e209]: "0"
+                      - generic [ref=f1607e210]:
+                        - generic [ref=f1607e211]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e212]: "0"
+                      - generic [ref=f1607e213]: "0"
+                      - generic [ref=f1607e215]: "0"
+                    - generic [ref=f1607e217]:
+                      - generic [ref=f1607e218]: "9"
+                      - link "Getafe" [ref=f1607e221] [cursor=pointer]:
+                        - /url: /teams/8305/overview/getafe
+                      - generic [ref=f1607e223]: "0"
+                      - generic [ref=f1607e224]:
+                        - generic [ref=f1607e225]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e226]: "0"
+                      - generic [ref=f1607e227]: "0"
+                      - generic [ref=f1607e229]: "0"
+                    - generic [ref=f1607e231]:
+                      - generic [ref=f1607e232]: "10"
+                      - link "Levante" [ref=f1607e235] [cursor=pointer]:
+                        - /url: /teams/8581/overview/levante
+                      - generic [ref=f1607e237]: "0"
+                      - generic [ref=f1607e238]:
+                        - generic [ref=f1607e239]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e240]: "0"
+                      - generic [ref=f1607e241]: "0"
+                      - generic [ref=f1607e243]: "0"
+                    - generic [ref=f1607e245]:
+                      - generic [ref=f1607e246]: "11"
+                      - link "Malaga" [ref=f1607e249] [cursor=pointer]:
+                        - /url: /teams/9864/overview/malaga
+                      - generic [ref=f1607e251]: "0"
+                      - generic [ref=f1607e252]:
+                        - generic [ref=f1607e253]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e254]: "0"
+                      - generic [ref=f1607e255]: "0"
+                      - generic [ref=f1607e257]: "0"
+                    - generic [ref=f1607e259]:
+                      - generic [ref=f1607e260]: "12"
+                      - link "Osasuna" [ref=f1607e263] [cursor=pointer]:
+                        - /url: /teams/8371/overview/osasuna
+                      - generic [ref=f1607e265]: "0"
+                      - generic [ref=f1607e266]:
+                        - generic [ref=f1607e267]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e268]: "0"
+                      - generic [ref=f1607e269]: "0"
+                      - generic [ref=f1607e271]: "0"
+                    - generic [ref=f1607e273]:
+                      - generic [ref=f1607e274]: "13"
+                      - link "Racing Santander" [ref=f1607e277] [cursor=pointer]:
+                        - /url: /teams/8696/overview/racing-santander
+                      - generic [ref=f1607e279]: "0"
+                      - generic [ref=f1607e280]:
+                        - generic [ref=f1607e281]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e282]: "0"
+                      - generic [ref=f1607e283]: "0"
+                      - generic [ref=f1607e285]: "0"
+                    - generic [ref=f1607e287]:
+                      - generic [ref=f1607e288]: "14"
+                      - link "Rayo Vallecano" [ref=f1607e291] [cursor=pointer]:
+                        - /url: /teams/8370/overview/rayo-vallecano
+                      - generic [ref=f1607e293]: "0"
+                      - generic [ref=f1607e294]:
+                        - generic [ref=f1607e295]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e296]: "0"
+                      - generic [ref=f1607e297]: "0"
+                      - generic [ref=f1607e299]: "0"
+                    - generic [ref=f1607e301]:
+                      - generic [ref=f1607e302]: "15"
+                      - link "Real Betis" [ref=f1607e305] [cursor=pointer]:
+                        - /url: /teams/8603/overview/real-betis
+                      - generic [ref=f1607e307]: "0"
+                      - generic [ref=f1607e308]:
+                        - generic [ref=f1607e309]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e310]: "0"
+                      - generic [ref=f1607e311]: "0"
+                      - generic [ref=f1607e313]: "0"
+                    - generic [ref=f1607e315]:
+                      - generic [ref=f1607e316]: "16"
+                      - link "Real Madrid" [ref=f1607e319] [cursor=pointer]:
+                        - /url: /teams/8633/overview/real-madrid
+                      - generic [ref=f1607e321]: "0"
+                      - generic [ref=f1607e322]:
+                        - generic [ref=f1607e323]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e324]: "0"
+                      - generic [ref=f1607e325]: "0"
+                      - generic [ref=f1607e327]: "0"
+                    - generic [ref=f1607e329]:
+                      - generic [ref=f1607e330]: "17"
+                      - link "Real Sociedad" [ref=f1607e333] [cursor=pointer]:
+                        - /url: /teams/8560/overview/real-sociedad
+                      - generic [ref=f1607e335]: "0"
+                      - generic [ref=f1607e336]:
+                        - generic [ref=f1607e337]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e338]: "0"
+                      - generic [ref=f1607e339]: "0"
+                      - generic [ref=f1607e341]: "0"
+                    - generic [ref=f1607e343]:
+                      - generic [ref=f1607e344]: "18"
+                      - link "Sevilla" [ref=f1607e347] [cursor=pointer]:
+                        - /url: /teams/8302/overview/sevilla
+                      - generic [ref=f1607e349]: "0"
+                      - generic [ref=f1607e350]:
+                        - generic [ref=f1607e351]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e352]: "0"
+                      - generic [ref=f1607e353]: "0"
+                      - generic [ref=f1607e355]: "0"
+                    - generic [ref=f1607e357]:
+                      - generic [ref=f1607e358]: "19"
+                      - link "Valencia" [ref=f1607e361] [cursor=pointer]:
+                        - /url: /teams/10267/overview/valencia
+                      - generic [ref=f1607e363]: "0"
+                      - generic [ref=f1607e364]:
+                        - generic [ref=f1607e365]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e366]: "0"
+                      - generic [ref=f1607e367]: "0"
+                      - generic [ref=f1607e369]: "0"
+                    - generic [ref=f1607e371]:
+                      - generic [ref=f1607e372]: "20"
+                      - link "Villarreal" [ref=f1607e375] [cursor=pointer]:
+                        - /url: /teams/10205/overview/villarreal
+                      - generic [ref=f1607e377]: "0"
+                      - generic [ref=f1607e378]:
+                        - generic [ref=f1607e379]: "0"
+                        - text: "-"
+                        - generic [ref=f1607e380]: "0"
+                      - generic [ref=f1607e381]: "0"
+                      - generic [ref=f1607e383]: "0"
+                - list [ref=f1607e384]:
+                  - listitem [ref=f1607e385]: Champions League
+                  - listitem [ref=f1607e387]: Europa League
+                  - listitem [ref=f1607e389]: Conference League qualification
+                  - listitem [ref=f1607e391]: Relegation
+              - generic [ref=f1607e394]:
+                - heading "News" [level=3] [ref=f1607e395]
+                - generic [ref=f1607e396]:
+                  - 'link "Transfer Rumors: Barcelona Join Rodri Race; Man Utd Eye Champions League Winner SI · 16 hours ago" [ref=f1607e398] [cursor=pointer]':
+                    - /url: /embed/news/01ky2gsqmket/transfer-rumors-barcelona-join-rodri-race-man-utd-eye-champions-league-winner
+                    - generic [ref=f1607e399]:
+                      - generic [ref=f1607e400]: "Transfer Rumors: Barcelona Join Rodri Race; Man Utd Eye Champions League Winner"
+                      - generic [ref=f1607e401]:
+                        - generic [ref=f1607e402]: SI
+                        - generic [ref=f1607e403]: · 16 hours ago
+                  - link "How Can Real Madrid Break Into World Cup-Winning Spain Team Again? SI · 17 hours ago" [ref=f1607e407] [cursor=pointer]:
+                    - /url: /embed/news/01ky22kyxsct/how-can-real-madrid-break-into-world-cup-winning-spain-team-again
+                    - generic [ref=f1607e408]:
+                      - generic [ref=f1607e409]: How Can Real Madrid Break Into World Cup-Winning Spain Team Again?
+                      - generic [ref=f1607e410]:
+                        - generic [ref=f1607e411]: SI
+                        - generic [ref=f1607e412]: · 17 hours ago
+                  - link "Celta Vigo dealt pre-season injury blow Get Spanish Football News · 18 hours ago" [ref=f1607e416] [cursor=pointer]:
+                    - /url: https://getfootballnewsspain.com/celta-vigo-dealt-pre-season-injury-blow/
+                    - generic [ref=f1607e417]:
+                      - generic [ref=f1607e418]: Celta Vigo dealt pre-season injury blow
+                      - generic [ref=f1607e419]:
+                        - generic [ref=f1607e420]: Get Spanish Football News
+                        - generic [ref=f1607e421]: · 18 hours ago
+                  - 'link "Barcelona star: Leandro Paredes shouldn’t be suspended for post-World Cup final chaos Get Spanish Football News · 18 hours ago" [ref=f1607e425] [cursor=pointer]':
+                    - /url: https://getfootballnewsspain.com/barcelona-star-leandro-paredes-shouldnt-be-suspended-for-post-world-cup-final-chaos/
+                    - generic [ref=f1607e426]:
+                      - generic [ref=f1607e427]: "Barcelona star: Leandro Paredes shouldn’t be suspended for post-World Cup final chaos"
+                      - generic [ref=f1607e428]:
+                        - generic [ref=f1607e429]: Get Spanish Football News
+                        - generic [ref=f1607e430]: · 18 hours ago
+                  - link "Real Madrid ‘reconsidering’ Rodri transfer stance Get Spanish Football News · 18 hours ago" [ref=f1607e434] [cursor=pointer]:
+                    - /url: https://getfootballnewsspain.com/real-madrid-reconsidering-rodri-transfer-stance/
+                    - generic [ref=f1607e435]:
+                      - generic [ref=f1607e436]: Real Madrid ‘reconsidering’ Rodri transfer stance
+                      - generic [ref=f1607e437]:
+                        - generic [ref=f1607e438]: Get Spanish Football News
+                        - generic [ref=f1607e439]: · 18 hours ago
+                  - link "Real Madrid pair send messages to Man City star Erling Haaland Get Spanish Football News · 19 hours ago" [ref=f1607e443] [cursor=pointer]:
+                    - /url: https://getfootballnewsspain.com/real-madrid-pair-send-messages-to-man-city-star-erling-haaland/
+                    - generic [ref=f1607e444]:
+                      - generic [ref=f1607e445]: Real Madrid pair send messages to Man City star Erling Haaland
+                      - generic [ref=f1607e446]:
+                        - generic [ref=f1607e447]: Get Spanish Football News
+                        - generic [ref=f1607e448]: · 19 hours ago
+                  - link "Colorado not entertaining interest in Liverpool, Man Utd and Barcelona target Herrington FotMob · 19 hours ago" [ref=f1607e452] [cursor=pointer]:
+                    - /url: /news/1m46yigdb9s6c12ywxp6kinjdd-colorado-not-entertaining-interest-liverpool-man-utd-barcelona-target-herrington
+                    - generic [ref=f1607e453]:
+                      - generic [ref=f1607e454]: Colorado not entertaining interest in Liverpool, Man Utd and Barcelona target Herrington
+                      - generic [ref=f1607e455]:
+                        - generic [ref=f1607e456]: FotMob
+                        - generic [ref=f1607e457]: · 19 hours ago
+                  - link "Barcelona planning talks with agent of Spanish World Cup star Get Spanish Football News · 19 hours ago" [ref=f1607e461] [cursor=pointer]:
+                    - /url: https://getfootballnewsspain.com/barcelona-planning-talks-with-agent-of-spanish-world-cup-star/
+                    - generic [ref=f1607e462]:
+                      - generic [ref=f1607e463]: Barcelona planning talks with agent of Spanish World Cup star
+                      - generic [ref=f1607e464]:
+                        - generic [ref=f1607e465]: Get Spanish Football News
+                        - generic [ref=f1607e466]: · 19 hours ago
+                - link "See more" [ref=f1607e470] [cursor=pointer]:
+                  - /url: /leagues/87/news/laliga
+            - generic [ref=f1607e473]:
+              - generic [ref=f1607e474]:
+                - button [disabled] [ref=f1607e475]
+                - generic [ref=f1607e484]:
+                  - log [ref=f1607e486]
+                  - generic [ref=f1607e488] [cursor=pointer]:
+                    - generic [ref=f1607e489]: Round 1
+                    - combobox [ref=f1607e490]
+                - button [ref=f1607e495] [cursor=pointer]
+              - generic [ref=f1607e503]:
+                - heading "Saturday, August 15" [level=3] [ref=f1607e504]
+                - link "Deportivo Alaves 12:30 PM Getafe" [ref=f1607e505] [cursor=pointer]:
+                  - /url: /matches/getafe-vs-deportivo-alaves/2qawwk#5868011
+                  - generic [ref=f1607e506]: Deportivo Alaves
+                  - generic [ref=f1607e512]:
+                    - text: 12:30
+                    - generic [ref=f1607e513]: PM
+                  - generic [ref=f1607e514]:
+                    - generic [ref=f1607e515]: Getafe
+                    - button "Follow" [ref=f1607e519]
+                - link "Sevilla 2:30 PM Rayo Vallecano" [ref=f1607e524] [cursor=pointer]:
+                  - /url: /matches/sevilla-vs-rayo-vallecano/2ar4ua#5868019
+                  - generic [ref=f1607e525]: Sevilla
+                  - generic [ref=f1607e531]:
+                    - text: 2:30
+                    - generic [ref=f1607e532]: PM
+                  - generic [ref=f1607e533]:
+                    - generic [ref=f1607e534]: Rayo Vallecano
+                    - button "Follow" [ref=f1607e538]
+              - generic [ref=f1607e543]:
+                - heading "Sunday, August 16" [level=3] [ref=f1607e544]
+                - link "Racing Santander 10:00 AM Villarreal" [ref=f1607e545] [cursor=pointer]:
+                  - /url: /matches/racing-santander-vs-villarreal/2ycx33#5868017
+                  - generic [ref=f1607e546]: Racing Santander
+                  - generic [ref=f1607e552]:
+                    - text: 10:00
+                    - generic [ref=f1607e553]: AM
+                  - generic [ref=f1607e554]:
+                    - generic [ref=f1607e555]: Villarreal
+                    - button "Follow" [ref=f1607e559]
+                - link "Espanyol 12:00 PM Levante" [ref=f1607e564] [cursor=pointer]:
+                  - /url: /matches/espanyol-vs-levante/2fgcwj#5868015
+                  - generic [ref=f1607e565]: Espanyol
+                  - generic [ref=f1607e571]:
+                    - text: 12:00
+                    - generic [ref=f1607e572]: PM
+                  - generic [ref=f1607e573]:
+                    - generic [ref=f1607e574]: Levante
+                    - button "Follow" [ref=f1607e578]
+                - link "Celta Vigo 2:30 PM Osasuna" [ref=f1607e583] [cursor=pointer]:
+                  - /url: /matches/osasuna-vs-celta-vigo/2rhvxv#5868013
+                  - generic [ref=f1607e584]: Celta Vigo
+                  - generic [ref=f1607e590]:
+                    - text: 2:30
+                    - generic [ref=f1607e591]: PM
+                  - generic [ref=f1607e592]:
+                    - generic [ref=f1607e593]: Osasuna
+                    - button "Follow" [ref=f1607e597]
+              - generic [ref=f1607e602]:
+                - heading "Monday, August 17" [level=3] [ref=f1607e603]
+                - link "Deportivo A Coruña 2:00 PM Elche" [ref=f1607e604] [cursor=pointer]:
+                  - /url: /matches/deportivo-coruna-vs-elche/3bp0b9#5868014
+                  - generic [ref=f1607e605]: Deportivo A Coruña
+                  - generic [ref=f1607e611]:
+                    - text: 2:00
+                    - generic [ref=f1607e612]: PM
+                  - generic [ref=f1607e613]:
+                    - generic [ref=f1607e614]: Elche
+                    - button "Follow" [ref=f1607e618]
+              - generic [ref=f1607e623]:
+                - heading "Wednesday, August 19" [level=3] [ref=f1607e624]
+                - link "Atletico Madrid 2:00 PM Malaga" [ref=f1607e625] [cursor=pointer]:
+                  - /url: /matches/malaga-vs-atletico-madrid/38d3a9#5868012
+                  - generic [ref=f1607e626]: Atletico Madrid
+                  - generic [ref=f1607e632]:
+                    - text: 2:00
+                    - generic [ref=f1607e633]: PM
+                  - generic [ref=f1607e634]:
+                    - generic [ref=f1607e635]: Malaga
+                    - button "Follow" [ref=f1607e639]
+              - generic [ref=f1607e644]:
+                - heading "Tuesday, August 25" [level=3] [ref=f1607e645]
+                - link "Valencia 2:00 PM Real Betis" [ref=f1607e646] [cursor=pointer]:
+                  - /url: /matches/real-betis-vs-valencia/2y0d9k#5868020
+                  - generic [ref=f1607e647]: Valencia
+                  - generic [ref=f1607e653]:
+                    - text: 2:00
+                    - generic [ref=f1607e654]: PM
+                  - generic [ref=f1607e655]:
+                    - generic [ref=f1607e656]: Real Betis
+                    - button "Follow" [ref=f1607e660]
+              - generic [ref=f1607e665]:
+                - heading "Wednesday, August 26" [level=3] [ref=f1607e666]
+                - link "Real Madrid 2:00 PM Real Sociedad" [ref=f1607e667] [cursor=pointer]:
+                  - /url: /matches/real-sociedad-vs-real-madrid/2g087q#5868018
+                  - generic [ref=f1607e668]: Real Madrid
+                  - generic [ref=f1607e674]:
+                    - text: 2:00
+                    - generic [ref=f1607e675]: PM
+                  - generic [ref=f1607e676]:
+                    - generic [ref=f1607e677]: Real Sociedad
+                    - button "Follow" [ref=f1607e681]
+              - generic [ref=f1607e686]:
+                - heading "Thursday, August 27" [level=3] [ref=f1607e687]
+                - link "Barcelona 2:00 PM Athletic Club" [ref=f1607e688] [cursor=pointer]:
+                  - /url: /matches/athletic-club-vs-barcelona/2diy4x#5868016
+                  - generic [ref=f1607e689]: Barcelona
+                  - generic [ref=f1607e695]:
+                    - text: 2:00
+                    - generic [ref=f1607e696]: PM
+                  - generic [ref=f1607e697]:
+                    - generic [ref=f1607e698]: Athletic Club
+                    - button "Follow" [ref=f1607e702]
+      - complementary
+    - contentinfo [ref=f1607e707]:
+      - generic [ref=f1607e710]:
+        - heading "FotMob is the essential football app." [level=3] [ref=f1607e715]
+        - navigation [ref=f1607e716]:
+          - list [ref=f1607e717]:
+            - listitem [ref=f1607e718]:
+              - link "Matches" [ref=f1607e719] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1607e720]:
+              - link "News" [ref=f1607e721] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=f1607e722]:
+              - link "Transfer Center" [ref=f1607e723] [cursor=pointer]:
+                - /url: /transfers
+            - listitem [ref=f1607e724]:
+              - link "Rumors" [ref=f1607e725] [cursor=pointer]:
+                - /url: /rumours
+            - listitem [ref=f1607e726]:
+              - link "TV schedules" [ref=f1607e727] [cursor=pointer]:
+                - /url: /tv-guide
+            - listitem [ref=f1607e728]:
+              - link "About" [ref=f1607e729] [cursor=pointer]:
+                - /url: /aboutUs/company
+            - listitem [ref=f1607e730]:
+              - link "Careers" [ref=f1607e731] [cursor=pointer]:
+                - /url: /aboutUs/careers
+            - listitem [ref=f1607e732]:
+              - link "Advertise with us" [ref=f1607e733] [cursor=pointer]:
+                - /url: /aboutUs/advertise
+            - listitem [ref=f1607e734]:
+              - link "Lineup Builder" [ref=f1607e735] [cursor=pointer]:
+                - /url: /lineup-builder
+            - listitem [ref=f1607e736]:
+              - link "FAQ" [ref=f1607e737] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=f1607e738]:
+              - link "FIFA Rankings Men" [ref=f1607e739] [cursor=pointer]:
+                - /url: /fifaranking?gender=men
+            - listitem [ref=f1607e740]:
+              - link "FIFA Rankings Women" [ref=f1607e741] [cursor=pointer]:
+                - /url: /fifaranking?gender=women
+            - listitem [ref=f1607e742]:
+              - link "Predictor" [ref=f1607e743] [cursor=pointer]:
+                - /url: https://predict.fotmob.com
+            - listitem [ref=f1607e744]:
+              - link "Newsletter" [ref=f1607e745] [cursor=pointer]:
+                - /url: https://newsletter.fotmob.com/subscribe/?utm_source=webfooter
+        - generic [ref=f1607e746]:
+          - heading "Get the app" [level=2] [ref=f1607e747]
+          - list [ref=f1607e748]:
+            - listitem [ref=f1607e749]:
+              - link "Download FotMob from Apple Store" [ref=f1607e750] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/apple-store/id488575683?pt=338473&ct=fotmobdotcomfooter&mt=8
+            - listitem [ref=f1607e758]:
+              - link "Download FotMob from Google App Store" [ref=f1607e759] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010&referrer=utm_source%3Dfotmob.com%26utm_medium%3Dweb%26utm_campaign%3Dfotmobdotcomfooter
+      - generic [ref=f1607e768]:
+        - generic [ref=f1607e769]:
+          - paragraph [ref=f1607e771]:
+            - generic [ref=f1607e772]: © Copyright 2026 FotMob
+          - generic [ref=f1607e773]:
+            - generic [ref=f1607e774]:
+              - link "Terms of use" [ref=f1607e775] [cursor=pointer]:
+                - /url: https://www.fotmob.com/tos.txt
+              - generic [ref=f1607e776]: •
+              - link "Cookie policy" [ref=f1607e777] [cursor=pointer]:
+                - /url: /cookiepolicy
+              - generic [ref=f1607e778]: •
+              - link "Privacy policy" [ref=f1607e779] [cursor=pointer]:
+                - /url: https://www.fotmob.com/privacy_fotmob.html
+              - generic [ref=f1607e780]: •
+              - link "Transparency act statement" [ref=f1607e781] [cursor=pointer]:
+                - /url: https://www.fotmob.com/transparency-act-statement.pdf
+            - generic [ref=f1607e782]: The use of automatic services (robots, crawler, indexing etc.) as well as other methods for systematic or regular use is not permitted.
+          - generic [ref=f1607e783]:
+            - generic [ref=f1607e784]: Follow us
+            - navigation [ref=f1607e785]:
+              - list [ref=f1607e786]:
+                - listitem [ref=f1607e787]:
+                  - link "Follow us on TikTok" [ref=f1607e788] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@fotmobapp
+                - listitem [ref=f1607e791]:
+                  - link "Follow us on Instagram" [ref=f1607e792] [cursor=pointer]:
+                    - /url: https://www.instagram.com/fotmobapp/
+                - listitem [ref=f1607e796]:
+                  - link "Follow us on Facebook" [ref=f1607e797] [cursor=pointer]:
+                    - /url: https://www.facebook.com/fotmob/
+                - listitem [ref=f1607e802]:
+                  - link "Follow us on LinkedIn" [ref=f1607e803] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/norapps/
+                - listitem [ref=f1607e806]:
+                  - link "Follow us on Twitter/X" [ref=f1607e807] [cursor=pointer]:
+                    - /url: https://twitter.com/FotMob
+        - generic [ref=f1607e811]: production:5b19489c0854cb9af88586ab7a26647c0c7a0fe6
+  - alert [ref=f1607e812]: LaLiga matches, tables and news 2026/2027
