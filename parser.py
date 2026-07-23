@@ -61,33 +61,12 @@ def extraer_match_data(ruta_html):
     return json.loads(bloque_json)
 
 
-# Las 48 selecciones nacionales que clasificaron al Mundial 2026,
-# extraidas de los 96 partidos de "World Cup Grp" ya verificados.
-# Se usa como lista blanca para no confundir partidos de Mundial de
-# Clubes (Man City vs Napoli, etc.) con partidos de selecciones,
-# ya que ambos comparten el mismo texto "FIFA World Cup" en el menu
-# de navegacion de WhoScored (aparece en TODAS las paginas del sitio).
-SELECCIONES_MUNDIAL_2026 = {
-    "Algeria", "Argentina", "Australia", "Austria", "Belgium",
-    "Bosnia and Herzegovina", "Brazil", "Cabo Verde", "Canada",
-    "Colombia", "Croatia", "Curacao", "Czechia", "DR Congo", "Ecuador",
-    "Egypt", "England", "France", "Germany", "Ghana", "Haiti", "Iran",
-    "Iraq", "Ivory Coast", "Japan", "Jordan", "Mexico", "Morocco",
-    "Netherlands", "New Zealand", "Norway", "Panama", "Paraguay",
-    "Portugal", "Qatar", "Republic of Korea", "South Korea",
-    "Saudi Arabia", "Scotland", "Senegal", "South Africa", "Spain",
-    "Sweden", "Switzerland", "Tunisia", "Turkiye", "USA", "Uruguay",
-    "Uzbekistan",
-}
-
-
 def extraer_competicion(ruta_html, data=None):
     """
-    data: el dict ya parseado de matchCentreData (opcional). Si se
-    provee, se usa para distinguir Mundial de Selecciones de Mundial
-    de Clubes de forma confiable (comparando el nombre del equipo
-    contra la lista blanca de selecciones). Si no se provee, se
-    intenta parsear aqui mismo.
+    data: el dict ya parseado de matchCentreData (opcional). Ya no se
+    usa para distinguir Mundial de Selecciones de Mundial de Clubes
+    (ver comentario mas abajo sobre el link canonical), se mantiene
+    el parametro por compatibilidad con los llamadores existentes.
     """
     contenido = Path(ruta_html).read_text(encoding="utf-8")
     if re.search(r"LaLiga\s+\d{4}", contenido):
@@ -106,27 +85,25 @@ def extraer_competicion(ruta_html, data=None):
     # Nota: el texto "FIFA World Cup" / "FIFA Club World Cup" aparece
     # en el menu de navegacion de CUALQUIER pagina de WhoScored, no
     # solo en partidos de esa competicion. Por eso, si llegamos hasta
-    # aqui, hay que confirmar con los datos del partido (no solo con
+    # aqui, hay que confirmar con datos del PARTIDO especifico (no
     # texto suelto del HTML) si de verdad es un partido de Mundial.
+    #
+    # La senal confiable es el link <link rel="canonical" href="...">,
+    # que trae el slug exacto de la competicion de ESE partido, ej.
+    # ".../matches/1953892/live/internacional-fifa-world-cup-2026-argentina-algeria"
+    # (selecciones) vs algo con "club" en el slug (Mundial de Clubes).
+    # A diferencia de una lista blanca de equipos por edicion, esto
+    # funciona para cualquier año de Mundial sin mantenimiento.
     if "World Cup Grp" in contenido or "FIFA World Cup" in contenido:
-        if data is None:
-            try:
-                data = extraer_match_data(ruta_html)
-            except Exception:
-                data = None
-
-        if data is not None:
-            home_nombre = data.get("home", {}).get("name")
-            away_nombre = data.get("away", {}).get("name")
-            es_seleccion = (
-                home_nombre in SELECCIONES_MUNDIAL_2026
-                or away_nombre in SELECCIONES_MUNDIAL_2026
-            )
-            if es_seleccion:
+        m_canonical = re.search(r'canonical"\s+href="[^"]*/matches/\d+/live/([^"?#]+)"', contenido)
+        if m_canonical:
+            slug = m_canonical.group(1).lower()
+            if "club" in slug:
+                return "club_world_cup"
+            if re.search(r"fifa-world-cup-\d{4}", slug):
                 return "world_cup"
-            return "club_world_cup"
 
-        # Si no se pudo parsear matchCentreData, mejor no adivinar.
+        # Si no se pudo leer el canonical, mejor no adivinar.
         return "world_cup"
 
     return "otro"
