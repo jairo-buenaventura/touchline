@@ -733,11 +733,22 @@ def construir_indice_jugadores(carpeta_salida, resumenes):
             equipo_data = partido.get(lado) or {}
             equipo_nombre = equipo_data.get("equipo")
             alineacion = equipo_data.get("alineacion") or {}
+            # Un suplente que quedo en la banca pero nunca entro a la
+            # cancha no deberia aparecer en el historial de partidos del
+            # jugador (no tendria sentido ir a ver un partido en el que
+            # no jugo ni 1'). "acciones"/"recepcion_pases" solo traen
+            # jugadores con datos reales de juego (a diferencia de
+            # "jugadores", que es SIEMPRE el 11 titular sin importar
+            # cambios, y no sirve para esto).
+            ids_con_datos = {j.get("id") for j in (equipo_data.get("acciones") or [])} | \
+                {j.get("id") for j in (equipo_data.get("recepcion_pases") or [])}
             for grupo_nombre, es_titular in (("titulares", True), ("banca", False)):
                 for j in alineacion.get(grupo_nombre) or []:
                     jid = j.get("id")
                     nombre = j.get("nombre")
                     if not jid or not nombre:
+                        continue
+                    if not es_titular and jid not in ids_con_datos:
                         continue
                     jid = str(jid)
                     entrada = jugadores.setdefault(jid, {"nombre": nombre, "apariciones": []})
