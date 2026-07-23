@@ -41,13 +41,35 @@
     margin-bottom: 1.75rem;
     padding-left: 0.4rem;
   }
+  .sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+  }
+  .sidebar-brand-icono {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    background: #1a1a1a;
+    color: white;
+    font-size: 13px;
+  }
   .sidebar-item {
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 9px 10px;
     border-radius: 7px;
-    font-size: 16px;
+    font-size: 14px;
     color: #6b6b6b;
     cursor: pointer;
     margin-bottom: 2px;
@@ -274,18 +296,59 @@
   .tarjeta-partido:hover {
     border-color: #ccc;
   }
+  .resultado-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0.6rem 0.4rem;
+    border-bottom: 1px solid #f0f0ee;
+    cursor: pointer;
+  }
+  .resultado-item:last-child {
+    border-bottom: none;
+  }
+  .resultado-item:hover {
+    background: #f7f6f3;
+  }
+  .resultado-vacio {
+    font-size: 12px;
+    color: #999;
+    padding: 0.5rem 0;
+  }
+  #btn-guardar-partido.activo {
+    background: #1a1a1a;
+    color: white;
+    border-color: #1a1a1a;
+  }
+  .nav-inline-wrap {
+    margin-bottom: 2px;
+  }
+  .nav-inline-body {
+    padding: 4px 2px 10px;
+  }
+  .nav-inline-lista.custom-select-list {
+    position: static;
+    display: block;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 8px;
+    margin-top: 6px;
+  }
+  #nav-saved-label.activo {
+    background: white;
+    color: #1a1a1a;
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  }
+  .nav-inline-body .resultado-item,
+  .nav-inline-lista .resultado-item {
+    padding: 0.5rem 0.4rem;
+  }
   .tarjeta-partido-grupo {
     font-size: 10px;
     text-transform: uppercase;
     color: #999;
-  }
-  .vista-placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 60vh;
-    color: #999;
-    font-size: 14px;
   }
   .layout {
     display: flex;
@@ -596,6 +659,7 @@
       height: 100vh;
       max-width: 85vw;
       z-index: 300;
+      overflow-y: auto;
       transform: translateX(-100%);
       transition: transform 0.25s ease;
       box-shadow: 2px 0 16px rgba(0,0,0,0.18);
@@ -673,10 +737,37 @@
     <button class="btn-hamburguesa" id="btn-hamburguesa" onclick="expandirSidebar()" aria-label="Abrir menu">&#9776;</button>
     <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="colapsarSidebar()"></div>
     <div class="sidebar-nav" id="sidebar-nav">
-      <div style="display:flex; justify-content:flex-end; margin-bottom:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.75rem;">
+        <div class="sidebar-brand">
+          <span class="sidebar-brand-icono">&#9678;</span>Reporte de Partidos
+        </div>
         <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:28px; color:#bbb; padding:4px 8px; line-height:1;">«</button>
       </div>
-      <div class="sidebar-item activo" id="nav-matches" style="margin-bottom:2rem; white-space:nowrap;">📋 Reporte de Partidos</div>
+      <div class="sidebar-item activo" id="nav-matches" onclick="cerrarNavInline()">Partidos</div>
+
+      <div class="nav-inline-wrap">
+        <div class="sidebar-item" id="nav-search-label" onclick="toggleNavInline('search')">Search</div>
+        <div class="nav-inline-body" id="nav-search-body" style="display:none;">
+          <input type="text" id="sidebar-search-input" class="custom-select-btn" placeholder="Buscar equipo..." autocomplete="off" oninput="poblarResultadosSearch()">
+          <div class="custom-select-list nav-inline-lista" id="sidebar-search-resultados"></div>
+        </div>
+      </div>
+
+      <div class="nav-inline-wrap">
+        <div class="sidebar-item" id="nav-players-label" onclick="toggleNavInline('players')">Players</div>
+        <div class="nav-inline-body" id="nav-players-body" style="display:none;">
+          <input type="text" id="sidebar-players-input" class="custom-select-btn" placeholder="Buscar jugador..." autocomplete="off" oninput="poblarResultadosPlayers()">
+          <div id="sidebar-players-estado" style="font-size:11px; color:#999; margin:4px 2px;"></div>
+          <div class="custom-select-list nav-inline-lista" id="sidebar-players-resultados"></div>
+          <div id="sidebar-players-apariciones"></div>
+        </div>
+      </div>
+
+      <div class="nav-inline-wrap">
+        <div class="sidebar-item" id="nav-saved-label" onclick="toggleNavInline('saved')">Saved</div>
+        <div class="custom-select-list nav-inline-lista" id="sidebar-saved-resultados" style="display:none;"></div>
+      </div>
+
       <hr style="border:none; border-top:1px solid #e5e5e3; margin:1.5rem 0;">
       <div class="sidebar-seccion-titulo">Liga</div>
       <div class="custom-select" id="cs-liga">
@@ -788,6 +879,7 @@
           <div style="font-size:11px; color:#999; margin-top:2px;">All data via WhoScored & FotMob</div>
         </div>
         <div style="text-align:right;">
+          <button id="btn-guardar-partido" onclick="alternarGuardado()" style="background:none; border:1px solid #ddd; border-radius:6px; padding:4px 10px; font-size:11px; font-weight:600; color:#1a1a1a; cursor:pointer; margin-bottom:4px;">☆ Guardar</button>
           <div id="last-updated" style="font-size:11px; color:#999;">Last Updated: <span id="fecha-actualizacion"></span></div>
           <div id="disclaimer-toggle" onclick="toggleDisclaimer()" style="font-size:11px; color:#1a1a1a; cursor:pointer; margin-top:2px;">ℹ Disclaimer & Info ▾</div>
         </div>
@@ -856,9 +948,6 @@
   </div>
         </div>
       </div>
-      <div id="vista-search" class="vista-placeholder" style="display:none;">Search - Proximamente</div>
-      <div id="vista-players" class="vista-placeholder" style="display:none;">Players - Proximamente</div>
-      <div id="vista-saved" class="vista-placeholder" style="display:none;">Saved - Proximamente</div>
     </div>
   </div>
 
@@ -866,6 +955,271 @@
     function mostrarNivelMatches(nivel) {
       ['torneos', 'jornadas', 'detalle'].forEach(n => {
         document.getElementById('nivel-' + n).style.display = (n === nivel) ? 'block' : 'none';
+      });
+    }
+
+    const NOMBRES_LIGA = {
+      world_cup: 'World Cup',
+      premier_league: 'Premier League',
+      la_liga: 'La Liga',
+      bundesliga: 'Bundesliga',
+      serie_a: 'Serie A',
+      ligue_1: 'Ligue 1',
+      eredivisie: 'Eredivisie',
+    };
+
+    function normalizarTexto(s) {
+      return (s || '').toString().trim().toLowerCase()
+        .normalize('NFD').replace(/[̀-ͯ]/g, '');
+    }
+
+    // Search y Players se abren como un buscador inline en el sidebar
+    // (el texto "Search"/"Players" se oculta y en su lugar aparece un
+    // input + una lista de resultados en dropdown, sin cambiar el panel
+    // principal). Saved abre un dropdown con los partidos guardados.
+    // Solo uno puede estar abierto a la vez.
+    let navInlineAbierto = null;
+
+    function cerrarNavInline() {
+      ['search', 'players'].forEach(t => {
+        document.getElementById('nav-' + t + '-label').style.display = 'flex';
+        document.getElementById('nav-' + t + '-body').style.display = 'none';
+      });
+      document.getElementById('sidebar-saved-resultados').style.display = 'none';
+      document.getElementById('nav-saved-label').classList.remove('activo');
+      navInlineAbierto = null;
+    }
+
+    function toggleNavInline(tipo) {
+      const yaAbierto = navInlineAbierto === tipo;
+      cerrarNavInline();
+      document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
+      if (yaAbierto) return;
+      navInlineAbierto = tipo;
+      if (tipo === 'search') {
+        document.getElementById('nav-search-label').style.display = 'none';
+        document.getElementById('nav-search-body').style.display = 'block';
+        const input = document.getElementById('sidebar-search-input');
+        input.value = '';
+        poblarResultadosSearch();
+        setTimeout(() => input.focus(), 0);
+      } else if (tipo === 'players') {
+        document.getElementById('nav-players-label').style.display = 'none';
+        document.getElementById('nav-players-body').style.display = 'block';
+        const input = document.getElementById('sidebar-players-input');
+        input.value = '';
+        document.getElementById('sidebar-players-apariciones').innerHTML = '';
+        iniciarVistaPlayers();
+        setTimeout(() => input.focus(), 0);
+      } else if (tipo === 'saved') {
+        document.getElementById('nav-saved-label').classList.add('activo');
+        document.getElementById('sidebar-saved-resultados').style.display = 'block';
+        poblarVistaSaved();
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      if (navInlineAbierto && !e.target.closest('.nav-inline-wrap')) {
+        cerrarNavInline();
+      }
+    });
+
+    // Salta a un partido especifico (usado por Search, Players y Saved),
+    // dejando el sidebar de Liga/Temporada/Equipo/Partido en el estado
+    // correcto para ese partido en vez de solo cargar el JSON a ciegas.
+    function irAPartido(archivo, liga, temporada, equipoPreferido) {
+      cerrarNavInline();
+      if (esMobile()) colapsarSidebar();
+      if (liga && liga !== ligaActual) {
+        ligaActual = liga;
+        document.getElementById('cs-liga-btn').textContent = NOMBRES_LIGA[liga] || liga;
+        document.querySelectorAll('#cs-liga-list .custom-select-option').forEach(o => {
+          o.classList.toggle('seleccionado', o.dataset.value === liga);
+        });
+      }
+      actualizarTemporadas(temporada, equipoPreferido, archivo);
+    }
+
+    // ===== Search: buscador de equipos =====
+    function poblarResultadosSearch() {
+      const input = document.getElementById('sidebar-search-input');
+      const contenedor = document.getElementById('sidebar-search-resultados');
+      const query = normalizarTexto(input.value);
+      if (!query) {
+        contenedor.innerHTML = '<div class="resultado-vacio">Escribe el nombre de un equipo.</div>';
+        return;
+      }
+      const porEquipo = new Map();
+      listaCompleta.forEach(p => {
+        [p.home, p.away].forEach(nombre => {
+          if (!nombre || !normalizarTexto(nombre).includes(query)) return;
+          const actual = porEquipo.get(nombre) || { count: 0, masReciente: null };
+          actual.count++;
+          if (!actual.masReciente || (p.fecha || '') > (actual.masReciente.fecha || '')) {
+            actual.masReciente = p;
+          }
+          porEquipo.set(nombre, actual);
+        });
+      });
+      const resultados = [...porEquipo.entries()].sort((a, b) => a[0].localeCompare(b[0])).slice(0, 30);
+      if (resultados.length === 0) {
+        contenedor.innerHTML = '<div class="resultado-vacio">Sin resultados.</div>';
+        return;
+      }
+      contenedor.innerHTML = resultados.map(([nombre, info]) => `
+        <div class="resultado-item" data-equipo="${nombre}">
+          <div style="display:flex; align-items:center; gap:8px; min-width:0;">
+            <img src="escudos/${nombre}.png" style="width:20px; height:20px; object-fit:contain; flex-shrink:0;" onerror="this.style.display='none'">
+            <span style="font-weight:600; font-size:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${nombre}</span>
+          </div>
+          <span style="font-size:11px; color:#999; flex-shrink:0;">${info.count} partido${info.count === 1 ? '' : 's'}</span>
+        </div>
+      `).join('');
+      contenedor.querySelectorAll('.resultado-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const nombre = el.dataset.equipo;
+          const p = porEquipo.get(nombre).masReciente;
+          irAPartido(p.archivo, p.competicion, p.temporada, nombre);
+        });
+      });
+    }
+
+    // ===== Players: buscador de jugadores =====
+    let jugadoresIndice = null;
+    let jugadoresCargando = false;
+
+    async function iniciarVistaPlayers() {
+      const estado = document.getElementById('sidebar-players-estado');
+      if (jugadoresIndice) {
+        estado.textContent = `${jugadoresIndice.length} jugadores indexados.`;
+        return;
+      }
+      if (jugadoresCargando) return;
+      jugadoresCargando = true;
+      estado.textContent = 'Cargando indice de jugadores...';
+      try {
+        const res = await fetch('data/jugadores.json?v=' + Date.now());
+        jugadoresIndice = await res.json();
+        estado.textContent = `${jugadoresIndice.length} jugadores indexados.`;
+        poblarResultadosPlayers();
+      } catch (e) {
+        estado.textContent = 'No se pudo cargar el indice de jugadores.';
+      }
+      jugadoresCargando = false;
+    }
+
+    function poblarResultadosPlayers() {
+      const input = document.getElementById('sidebar-players-input');
+      const contenedor = document.getElementById('sidebar-players-resultados');
+      const aparicionesDiv = document.getElementById('sidebar-players-apariciones');
+      aparicionesDiv.innerHTML = '';
+      if (!jugadoresIndice) return;
+      const query = normalizarTexto(input.value);
+      if (!query) {
+        contenedor.innerHTML = '<div class="resultado-vacio">Escribe el nombre de un jugador.</div>';
+        return;
+      }
+      const resultados = jugadoresIndice.filter(j => normalizarTexto(j.nombre).includes(query)).slice(0, 30);
+      if (resultados.length === 0) {
+        contenedor.innerHTML = '<div class="resultado-vacio">Sin resultados.</div>';
+        return;
+      }
+      contenedor.innerHTML = resultados.map(j => {
+        const ultima = j.apariciones[0];
+        const subt = ultima ? `${ultima.equipo} · ${NOMBRES_LIGA[ultima.liga] || ultima.liga || ''} ${ultima.temporada || ''}` : '';
+        return `<div class="resultado-item" data-id="${j.id}">
+          <span style="font-weight:600; font-size:13px;">${j.nombre}</span>
+          <span style="font-size:11px; color:#999;">${subt}</span>
+        </div>`;
+      }).join('');
+      contenedor.querySelectorAll('.resultado-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const jugador = jugadoresIndice.find(j => j.id === el.dataset.id);
+          poblarAparicionesJugador(jugador);
+        });
+      });
+    }
+
+    function poblarAparicionesJugador(jugador) {
+      const cont = document.getElementById('sidebar-players-apariciones');
+      cont.innerHTML = `<div style="font-weight:700; font-size:13px; margin:0.25rem 0 0.5rem; border-top:1px solid #eee; padding-top:0.75rem;">${jugador.nombre} — ${jugador.apariciones.length} partido${jugador.apariciones.length === 1 ? '' : 's'}</div>` +
+        jugador.apariciones.map((a, i) => {
+          const partido = listaCompleta.find(p => p.archivo === a.archivo);
+          const texto = partido ? `${partido.home} ${partido.marcador} ${partido.away}` : a.equipo;
+          return `
+          <div class="resultado-item" data-idx="${i}">
+            <span style="font-size:13px;">${texto}${a.titular ? '' : ' <span style="color:#bbb;">(banca)</span>'}</span>
+            <span style="font-size:11px; color:#999;">${NOMBRES_LIGA[a.liga] || a.liga || ''} ${a.temporada || ''}</span>
+          </div>
+        `;
+        }).join('');
+      cont.querySelectorAll('.resultado-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const a = jugador.apariciones[parseInt(el.dataset.idx, 10)];
+          irAPartido(a.archivo, a.liga, a.temporada, a.equipo);
+        });
+      });
+    }
+
+    // ===== Saved: partidos guardados (localStorage) =====
+    function obtenerGuardados() {
+      try {
+        return JSON.parse(localStorage.getItem('touchline_guardados') || '[]');
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function estaGuardado(archivo) {
+      return obtenerGuardados().some(g => g.archivo === archivo);
+    }
+
+    function alternarGuardado() {
+      if (!datosPartidoActual || !partidoSeleccionadoActual) return;
+      let guardados = obtenerGuardados();
+      const yaEsta = guardados.some(g => g.archivo === partidoSeleccionadoActual);
+      if (yaEsta) {
+        guardados = guardados.filter(g => g.archivo !== partidoSeleccionadoActual);
+      } else {
+        const p = listaCompleta.find(x => x.archivo === partidoSeleccionadoActual);
+        guardados.unshift({
+          archivo: partidoSeleccionadoActual,
+          liga: p ? p.competicion : ligaActual,
+          temporada: p ? p.temporada : temporadaActual,
+          home: datosPartidoActual.home.equipo,
+          away: datosPartidoActual.away.equipo,
+          marcador: datosPartidoActual.marcador,
+        });
+      }
+      localStorage.setItem('touchline_guardados', JSON.stringify(guardados));
+      actualizarBotonGuardar();
+    }
+
+    function actualizarBotonGuardar() {
+      const btn = document.getElementById('btn-guardar-partido');
+      if (!btn || !partidoSeleccionadoActual) return;
+      const guardado = estaGuardado(partidoSeleccionadoActual);
+      btn.textContent = guardado ? '★ Guardado' : '☆ Guardar';
+      btn.classList.toggle('activo', guardado);
+    }
+
+    function poblarVistaSaved() {
+      const cont = document.getElementById('sidebar-saved-resultados');
+      const guardados = obtenerGuardados();
+      if (guardados.length === 0) {
+        cont.innerHTML = '<div class="resultado-vacio">No has guardado ningun partido todavia. Abre un partido y toca "Guardar".</div>';
+        return;
+      }
+      cont.innerHTML = guardados.map(g => `
+        <div class="resultado-item" data-archivo="${g.archivo}" data-liga="${g.liga}" data-temporada="${g.temporada}" data-equipo="${g.home}">
+          <span style="font-size:13px;">${g.home} ${g.marcador} ${g.away}</span>
+          <span style="font-size:11px; color:#999;">${NOMBRES_LIGA[g.liga] || g.liga || ''} ${g.temporada || ''}</span>
+        </div>
+      `).join('');
+      cont.querySelectorAll('.resultado-item').forEach(el => {
+        el.addEventListener('click', () => {
+          irAPartido(el.dataset.archivo, el.dataset.liga, el.dataset.temporada, el.dataset.equipo);
+        });
       });
     }
 
@@ -923,7 +1277,7 @@
       document.addEventListener('click', () => list.classList.remove('abierto'));
     }
 
-    function actualizarTemporadas() {
+    function actualizarTemporadas(temporadaPreferida, equipoPreferido, archivoPreferido) {
       const list = document.getElementById('cs-temporada-list');
       const btn = document.getElementById('cs-temporada-btn');
       const temporadas = [...new Set(listaCompleta
@@ -931,11 +1285,12 @@
         .map(p => p.temporada)
         .filter(Boolean)
       )].sort().reverse();
-      list.innerHTML = temporadas.map((t, i) =>
-        `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${t}">${t}</div>`
+      const seleccionada = temporadas.includes(temporadaPreferida) ? temporadaPreferida : temporadas[0];
+      list.innerHTML = temporadas.map((t) =>
+        `<div class="custom-select-option${t === seleccionada ? ' seleccionado' : ''}" data-value="${t}">${t}</div>`
       ).join('');
-      temporadaActual = temporadas[0] || '';
-      if (temporadas.length > 0) btn.textContent = temporadas[0];
+      temporadaActual = seleccionada || '';
+      if (temporadas.length > 0) btn.textContent = seleccionada;
       list.querySelectorAll('.custom-select-option').forEach(opt => {
         opt.addEventListener('click', () => {
           list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
@@ -946,6 +1301,7 @@
           poblarCustomSelectEquipo();
         });
       });
+      poblarCustomSelectEquipo(equipoPreferido, archivoPreferido);
     }
 
     function listaFiltrada() {
@@ -955,14 +1311,15 @@
       );
     }
 
-    function poblarCustomSelectEquipo() {
+    function poblarCustomSelectEquipo(equipoPreferido, archivoPreferido) {
       const list = document.getElementById('cs-equipo-list');
       const btn = document.getElementById('cs-equipo-btn');
       const equipos = [...new Set(listaFiltrada().flatMap(p => [p.home, p.away]))].sort();
-      list.innerHTML = equipos.map((e, i) =>
-        `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${e}">${e}</div>`
+      const seleccionado = equipos.includes(equipoPreferido) ? equipoPreferido : equipos[0];
+      list.innerHTML = equipos.map((e) =>
+        `<div class="custom-select-option${e === seleccionado ? ' seleccionado' : ''}" data-value="${e}">${e}</div>`
       ).join('');
-      if (equipos.length > 0) btn.textContent = equipos[0];
+      if (equipos.length > 0) btn.textContent = seleccionado;
       list.querySelectorAll('.custom-select-option').forEach(opt => {
         opt.addEventListener('click', () => {
           list.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('seleccionado'));
@@ -979,25 +1336,25 @@
         document.querySelectorAll('.custom-select-list.abierto').forEach(l => l.classList.remove('abierto'));
         if (!estaAbierto) list.classList.add('abierto');
       };
-      if (equipos.length > 0) onEquipoChange(equipos[0]);
+      if (equipos.length > 0) onEquipoChange(seleccionado, archivoPreferido);
     }
 
-    function poblarCustomSelectPartidos(equipo) {
+    function poblarCustomSelectPartidos(equipo, archivoPreferido) {
       const list = document.getElementById('cs-partido-list');
       const btn = document.getElementById('cs-partido-btn');
       const partidos = listaFiltrada().filter(p => p.home === equipo || p.away === equipo)
         .sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
-      list.innerHTML = partidos.map((p, i) => {
+      const elegido = partidos.find(p => p.archivo === archivoPreferido) || partidos[0];
+      list.innerHTML = partidos.map((p) => {
         const esLocal = p.home === equipo;
         const rival = esLocal ? p.away : p.home;
         const texto = `${esLocal ? equipo : rival} ${p.marcador} ${esLocal ? rival : equipo}`;
-        return `<div class="custom-select-option${i === 0 ? ' seleccionado' : ''}" data-value="${p.archivo}" data-lado="${esLocal ? 'home' : 'away'}">${texto}</div>`;
+        return `<div class="custom-select-option${p === elegido ? ' seleccionado' : ''}" data-value="${p.archivo}" data-lado="${esLocal ? 'home' : 'away'}">${texto}</div>`;
       }).join('');
-      if (partidos.length > 0) {
-        const p0 = partidos[0];
-        const esLocal = p0.home === equipo;
-        const rival = esLocal ? p0.away : p0.home;
-        btn.textContent = `${esLocal ? equipo : rival} ${p0.marcador} ${esLocal ? rival : equipo}`;
+      if (elegido) {
+        const esLocal = elegido.home === equipo;
+        const rival = esLocal ? elegido.away : elegido.home;
+        btn.textContent = `${esLocal ? equipo : rival} ${elegido.marcador} ${esLocal ? rival : equipo}`;
       }
       list.querySelectorAll('.custom-select-option').forEach(opt => {
         opt.addEventListener('click', () => {
@@ -1018,21 +1375,21 @@
         if (!estaAbierto) list.classList.add('abierto');
       };
       document.addEventListener('click', () => list.classList.remove('abierto'));
-      if (partidos.length > 0) {
-        // Debe coincidir con partidos[0], que es el que se muestra como
-        // "seleccionado" en la lista y en el texto del boton (arriba). Antes
-        // cargaba partidos[partidos.length-1] (el mas antiguo) mientras el
-        // boton/lista mostraban el mas reciente como elegido: el usuario
-        // veia un partido marcado como activo distinto al que en realidad
-        // se estaba mostrando en el reporte.
-        document.getElementById('selector-equipo').value = partidos[0].home === equipo ? 'home' : 'away';
+      if (elegido) {
+        // Debe coincidir con "elegido" (por defecto partidos[0], el mas
+        // reciente), que es el que se muestra como "seleccionado" en la
+        // lista y en el texto del boton (arriba). Antes cargaba siempre el
+        // mas antiguo mientras el boton/lista mostraban el mas reciente
+        // como elegido: el usuario veia un partido marcado como activo
+        // distinto al que en realidad se estaba mostrando en el reporte.
+        document.getElementById('selector-equipo').value = elegido.home === equipo ? 'home' : 'away';
         mostrarNivelMatches('detalle');
-        cargarPartido(partidos[0].archivo);
+        cargarPartido(elegido.archivo);
       }
     }
 
-    function onEquipoChange(equipo) {
-      poblarCustomSelectPartidos(equipo);
+    function onEquipoChange(equipo, archivoPreferido) {
+      poblarCustomSelectPartidos(equipo, archivoPreferido);
       poblarSidebarPartidos(equipo);
     }
 
@@ -1080,7 +1437,6 @@
       iniciarCustomSelect('cs-liga-btn', 'cs-liga-list', (valor) => {
         ligaActual = valor;
         actualizarTemporadas();
-        poblarCustomSelectEquipo();
       });
       iniciarCustomSelect('cs-temporada-btn', 'cs-temporada-list', (valor) => {
         poblarCustomSelectEquipo();
@@ -1089,7 +1445,6 @@
         cambiarModoPartidos(valor);
       });
       actualizarTemporadas();
-      poblarCustomSelectEquipo();
     }
 
     function poblarSidebarPartidos(equipo) {
@@ -1495,6 +1850,7 @@
       datosPartidoActual = datos;
       const ladoElegido = document.getElementById('selector-equipo').value;
       actualizarTodo(datos, ladoElegido);
+      actualizarBotonGuardar();
     }
 
     function actualizarTodo(datos, lado) {
@@ -1755,18 +2111,35 @@
 
     function actualizarGoles(datos) {
       const bloque = document.getElementById('bloque-goles');
-      const golesHome = datos.home.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.home.equipo, esHome: true}));
-      const golesAway = datos.away.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.away.equipo, esHome: false}));
-      const todos = golesHome.concat(golesAway).sort((a, b) => a.minuto - b.minuto);
+      const golesHome = datos.home.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.home.equipo, esHome: true}))
+        .sort((a, b) => a.minuto - b.minuto);
+      const golesAway = datos.away.estadisticas.goles.map(g => Object.assign({}, g, {equipo: datos.away.equipo, esHome: false}))
+        .sort((a, b) => a.minuto - b.minuto);
 
-      if (todos.length === 0) {
+      if (golesHome.length + golesAway.length === 0) {
         bloque.innerHTML = '<div class="gol-item">Sin goles en este partido</div>';
         return;
       }
 
       const esPenales = datos.marcador && datos.marcador.includes('*');
-      const normales = esPenales ? todos.filter(g => g.minuto <= 120) : todos;
-      const penales = esPenales ? todos.filter(g => g.minuto > 120) : [];
+      let normales, penales;
+      if (esPenales) {
+        // El marcador (ej. "*3 : 3") trae el resultado real de tiempo
+        // reglamentario + prorroga, ANTES de la tanda de penales. Se usa
+        // como fuente de verdad para separar goles reales de goles de la
+        // tanda, en vez de cortar por minuto ("minuto > 120"): WhoScored a
+        // veces etiqueta el primer gol de la tanda con minuto 120, el mismo
+        // limite de la prorroga, lo que hacia pasar un penal de la tanda
+        // como si fuera un gol de tiempo reglamentario (bug real detectado
+        // en Argentina 3-3 Francia, Final del Mundial 2022: el segundo "gol"
+        // de Messi al 120' y el de Mbappe al 120' eran en realidad penales).
+        const [realHome, realAway] = datos.marcador.replace('*', '').split(':').map(s => parseInt(s.trim(), 10));
+        normales = golesHome.slice(0, realHome).concat(golesAway.slice(0, realAway)).sort((a, b) => a.minuto - b.minuto);
+        penales = golesHome.slice(realHome).concat(golesAway.slice(realAway)).sort((a, b) => a.minuto - b.minuto);
+      } else {
+        normales = golesHome.concat(golesAway).sort((a, b) => a.minuto - b.minuto);
+        penales = [];
+      }
 
       function renderGol(g) {
         const color = g.esHome ? '#1a1a1a' : '#ccc';

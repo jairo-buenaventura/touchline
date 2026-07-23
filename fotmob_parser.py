@@ -323,20 +323,36 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
     return None
 
 
-def main():
-    carpeta_fotmob = Path("partidos_fotmob")
-    carpeta_data = Path("data")
+def actualizar_fotmob(carpeta_fotmob=None, carpeta_data=None, silencioso=False):
+    """
+    Recorre partidos_fotmob/ e inyecta xG/xGOT/corners/etc. en los JSON
+    de data/ ya generados por parser.py. Devuelve (actualizados, total).
+
+    Se llama automaticamente al final de `parser.py` (ver su main()):
+    parser.py reescribe los JSON de partido desde cero a partir del
+    HTML de WhoScored en CADA corrida, sin conservar el bloque "fotmob"
+    que ya hubiera quedado inyectado antes. Si esta funcion no corriera
+    justo despues, cualquier corrida de `python3 parser.py` (por
+    ejemplo, solo para regenerar data/jugadores.json) borraria en
+    silencio el xG/corners de los 4000+ partidos ya existentes (bug
+    real que paso: se corrio parser.py solo, sin fotmob_parser.py
+    despues, y esos datos desaparecieron del sitio hasta notarlo).
+    """
+    carpeta_fotmob = carpeta_fotmob or Path("partidos_fotmob")
+    carpeta_data = carpeta_data or Path("data")
 
     if not carpeta_fotmob.exists():
-        print(f"No existe la carpeta '{carpeta_fotmob}'.")
-        return
+        if not silencioso:
+            print(f"No existe la carpeta '{carpeta_fotmob}'.")
+        return 0, 0
 
     archivos_html = sorted(carpeta_fotmob.glob("*.html"))
     archivos_json = sorted(carpeta_fotmob.glob("*.json"))
     archivos = archivos_html + archivos_json
     if not archivos:
-        print(f"No hay archivos .html ni .json en '{carpeta_fotmob}'.")
-        return
+        if not silencioso:
+            print(f"No hay archivos .html ni .json en '{carpeta_fotmob}'.")
+        return 0, 0
 
     actualizados = 0
     for archivo in archivos:
@@ -346,14 +362,16 @@ def main():
             else:
                 datos_fotmob = extraer_datos_fotmob(archivo)
         except Exception as e:
-            print(f"  [ERROR] {archivo.name}: {e}")
+            if not silencioso:
+                print(f"  [ERROR] {archivo.name}: {e}")
             continue
 
         ruta_json = encontrar_archivo_json(
             datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data, archivo.stem
         )
         if ruta_json is None:
-            print(f"  [SIN MATCH] {archivo.name} ({datos_fotmob['home_nombre']} vs {datos_fotmob['away_nombre']}) - no se encontro JSON correspondiente")
+            if not silencioso:
+                print(f"  [SIN MATCH] {archivo.name} ({datos_fotmob['home_nombre']} vs {datos_fotmob['away_nombre']}) - no se encontro JSON correspondiente")
             continue
 
         partido_json = json.loads(ruta_json.read_text(encoding="utf-8"))
@@ -363,10 +381,16 @@ def main():
         partido_json["away"]["fotmob"]["field_tilt"] = datos_fotmob["field_tilt_away"]
         ruta_json.write_text(json.dumps(partido_json, ensure_ascii=False, indent=2), encoding="utf-8")
 
-        print(f"  [OK] {archivo.name} -> {ruta_json.name}")
+        if not silencioso:
+            print(f"  [OK] {archivo.name} -> {ruta_json.name}")
         actualizados += 1
 
-    print(f"\nListo: {actualizados}/{len(archivos)} partidos actualizados con datos de FotMob.")
+    return actualizados, len(archivos)
+
+
+def main():
+    actualizados, total = actualizar_fotmob()
+    print(f"\nListo: {actualizados}/{total} partidos actualizados con datos de FotMob.")
 
 
 if __name__ == "__main__":

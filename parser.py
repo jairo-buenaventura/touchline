@@ -25,6 +25,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from capacidades_estadios import CAPACIDADES
+import fotmob_parser
 
 # WhoScored a veces usa nombres cortos internos que no coinciden con el
 # archivo de escudo en escudos/ (que usa el nombre completo del club).
@@ -687,9 +688,85 @@ def main():
         encoding="utf-8",
     )
 
+    ruta_jugadores = construir_indice_jugadores(carpeta_salida, resumenes)
+
+    # IMPORTANTE: procesar_un_archivo() reescribe cada JSON de partido
+    # desde cero a partir del HTML de WhoScored, sin conservar el
+    # bloque "fotmob" (xG, xGOT, corners, etc.) que ya hubiera quedado
+    # inyectado en una corrida anterior. Por eso esto SIEMPRE se corre
+    # aqui, automaticamente, al final de cada `python3 parser.py`: para
+    # que sea imposible dejar el sitio con el xG/corners vacios por
+    # olvidarse de correr `fotmob_parser.py` como paso aparte (bug real
+    # que ya paso una vez).
+    actualizados_fotmob, total_fotmob = fotmob_parser.actualizar_fotmob(silencioso=True)
+
     print(f"\nListo: {len(resumenes)}/{len(archivos_html)} partidos procesados correctamente.")
     print(f"Los JSON quedaron guardados en la carpeta '{carpeta_salida}'.")
     print(f"Lista de partidos actualizada en '{ruta_lista}'.")
+    print(f"Indice de jugadores actualizado en '{ruta_jugadores}'.")
+    print(f"Datos de FotMob (xG/corners/etc.) reinyectados en {actualizados_fotmob}/{total_fotmob} archivos de partidos_fotmob/.")
+
+
+def construir_indice_jugadores(carpeta_salida, resumenes):
+    """
+    Recorre los JSON de partido ya escritos (alineacion.titulares +
+    alineacion.banca de cada lado) y arma un indice jugador -> lista de
+    partidos en los que aparecio, para la vista "Players" de la pagina
+    (no se puede armar esto en el navegador sin descargar los ~4000+
+    JSON de partido uno por uno, asi que se precalcula aqui).
+
+    Se identifica a cada jugador por su id de WhoScored (mas confiable
+    que el nombre, que puede repetirse entre jugadores distintos).
+    """
+    fecha_por_archivo = {r["archivo"]: r.get("fecha") for r in resumenes if r.get("archivo")}
+
+    jugadores = {}
+    for ruta_json in sorted(carpeta_salida.glob("*.json")):
+        if ruta_json.name in ("lista.json", "jugadores.json"):
+            continue
+        try:
+            partido = json.loads(ruta_json.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        for lado in ("home", "away"):
+            equipo_data = partido.get(lado) or {}
+            equipo_nombre = equipo_data.get("equipo")
+            alineacion = equipo_data.get("alineacion") or {}
+            for grupo_nombre, es_titular in (("titulares", True), ("banca", False)):
+                for j in alineacion.get(grupo_nombre) or []:
+                    jid = j.get("id")
+                    nombre = j.get("nombre")
+                    if not jid or not nombre:
+                        continue
+                    jid = str(jid)
+                    entrada = jugadores.setdefault(jid, {"nombre": nombre, "apariciones": []})
+                    entrada["apariciones"].append({
+                        "archivo": ruta_json.name,
+                        "equipo": equipo_nombre,
+                        "liga": partido.get("competicion"),
+                        "temporada": partido.get("temporada"),
+                        "dorsal": j.get("dorsal"),
+                        "titular": es_titular,
+                        "fecha": fecha_por_archivo.get(ruta_json.name),
+                    })
+
+    lista_jugadores = []
+    for jid, datos in jugadores.items():
+        apariciones = sorted(
+            datos["apariciones"],
+            key=lambda a: a.get("fecha") or "",
+            reverse=True,
+        )
+        lista_jugadores.append({"id": jid, "nombre": datos["nombre"], "apariciones": apariciones})
+    lista_jugadores.sort(key=lambda x: x["nombre"] or "")
+
+    ruta_jugadores = carpeta_salida / "jugadores.json"
+    ruta_jugadores.write_text(
+        json.dumps(lista_jugadores, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    return ruta_jugadores
 
 
 if __name__ == "__main__":
