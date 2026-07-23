@@ -117,7 +117,13 @@ def extraer_temporada(ruta_html):
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
     if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
-        return "2026"
+        # No asumir el año: leer el mismo link canonical que usa
+        # extraer_competicion() para distinguir ediciones del Mundial
+        # (ej. "...fifa-world-cup-2022-argentina-france").
+        m = re.search(r'canonical"\s+href="[^"]*/matches/\d+/live/[^"?#]*fifa-world-cup-(\d{4})', contenido)
+        if m:
+            return m.group(1)
+        return None
     return None
 
 def extraer_grupo(ruta_html):

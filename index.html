@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Touchline</title>
 <style>
   * {
@@ -184,6 +185,7 @@
   }
   .contenido-principal {
     flex: 1;
+    min-width: 0;
     padding: 1.5rem;
     background: #f5f5f3;
     min-height: 100vh;
@@ -540,10 +542,136 @@
     fill: white;
     font-weight: 500;
   }
+
+  /* ===== Responsive (tablet / mobile) ===== */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .btn-hamburguesa {
+    display: none;
+  }
+  .sidebar-backdrop {
+    display: none;
+  }
+  @media (max-width: 1024px) {
+    .layout {
+      flex-direction: column;
+    }
+    .col-izquierda,
+    .col-central {
+      width: 100%;
+      min-width: 0;
+    }
+  }
+  @media (max-width: 900px) {
+    .btn-hamburguesa {
+      display: flex;
+      position: fixed;
+      top: 0.9rem;
+      left: 0.9rem;
+      z-index: 260;
+      width: 42px;
+      height: 42px;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border: 1px solid #e5e5e3;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    }
+    #btn-expandir-sidebar {
+      display: none !important;
+    }
+    .sidebar-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      max-width: 85vw;
+      z-index: 300;
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      box-shadow: 2px 0 16px rgba(0,0,0,0.18);
+    }
+    .sidebar-nav.abierta {
+      transform: translateX(0);
+    }
+    .sidebar-backdrop.visible {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.35);
+      z-index: 250;
+    }
+    .contenido-principal {
+      padding: 4.75rem 1rem 1.5rem;
+    }
+  }
+  @media (max-width: 900px) {
+    .fila-stats-pitch {
+      flex-direction: column;
+    }
+    .panel-stats {
+      flex-basis: auto !important;
+      width: 100%;
+    }
+  }
+  @media (max-width: 560px) {
+    .contenido-principal {
+      padding: 4.75rem 0.6rem 1rem;
+    }
+    .col-izquierda, .col-central {
+      padding: 1rem 0.85rem;
+    }
+    .layout {
+      gap: 0.75rem;
+    }
+    svg {
+      max-width: 100%;
+    }
+    .marcador-equipos #escudo-home,
+    .marcador-equipos #escudo-away {
+      width: 48px !important;
+      height: 48px !important;
+    }
+    .marcador-equipos .nombre {
+      font-size: 16px;
+      max-width: 110px;
+    }
+    .marcador-equipos .numero {
+      font-size: 34px;
+    }
+  }
+  /* Objetivos tactiles mas grandes en pantallas touch (movil/tablet) */
+  @media (hover: none) and (pointer: coarse) {
+    .custom-select-btn {
+      padding: 13px 32px 13px 10px;
+      font-size: 15px;
+    }
+    .custom-select-option {
+      padding: 12px 10px;
+      font-size: 15px;
+    }
+    .tab {
+      padding: 10px 12px;
+    }
+    .sidebar-item {
+      padding: 12px 10px;
+    }
+  }
 </style>
 </head>
 <body>
   <div class="app-shell">
+    <button class="btn-hamburguesa" id="btn-hamburguesa" onclick="expandirSidebar()" aria-label="Abrir menu">&#9776;</button>
+    <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="colapsarSidebar()"></div>
     <div class="sidebar-nav" id="sidebar-nav">
       <div style="display:flex; justify-content:flex-end; margin-bottom:2rem;">
         <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:28px; color:#bbb; padding:4px 8px; line-height:1;">«</button>
@@ -561,7 +689,6 @@
           <div class="custom-select-option" data-value="serie_a">Serie A</div>
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
-          <div class="custom-select-option" data-value="liga_argentina">Liga Argentina</div>
         </div>
       </div>
 
@@ -696,8 +823,8 @@
       </div>
       <div class="estadio-linea" id="estadio-linea" style="display:none;">-</div>
 
-      <div style="display:flex; gap:1.5rem; margin-top:1rem; align-items:flex-start;">
-        <div style="flex:0 0 220px; min-width:0;">
+      <div class="fila-stats-pitch" style="display:flex; gap:1.5rem; margin-top:1rem; align-items:flex-start;">
+        <div class="panel-stats" style="flex:0 0 220px; min-width:0;">
           <div id="match-stats-titulo" style="font-weight:700; font-size:14px; margin-top:1.25rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:8px;"></div>
           <div id="bloque-estadisticas"></div>
           <div class="goles-lista" id="bloque-goles"></div>
@@ -881,6 +1008,7 @@
           document.getElementById('selector-equipo').value = opt.dataset.lado;
           mostrarNivelMatches('detalle');
           cargarPartido(opt.dataset.value);
+          if (esMobile()) colapsarSidebar();
         });
       });
       document.getElementById('cs-partido-btn').onclick = (e) => {
@@ -891,9 +1019,15 @@
       };
       document.addEventListener('click', () => list.classList.remove('abierto'));
       if (partidos.length > 0) {
-        document.getElementById('selector-equipo').value = partidos[partidos.length-1].home === equipo ? 'home' : 'away';
+        // Debe coincidir con partidos[0], que es el que se muestra como
+        // "seleccionado" en la lista y en el texto del boton (arriba). Antes
+        // cargaba partidos[partidos.length-1] (el mas antiguo) mientras el
+        // boton/lista mostraban el mas reciente como elegido: el usuario
+        // veia un partido marcado como activo distinto al que en realidad
+        // se estaba mostrando en el reporte.
+        document.getElementById('selector-equipo').value = partidos[0].home === equipo ? 'home' : 'away';
         mostrarNivelMatches('detalle');
-        cargarPartido(partidos[partidos.length-1].archivo);
+        cargarPartido(partidos[0].archivo);
       }
     }
 
@@ -902,12 +1036,26 @@
       poblarSidebarPartidos(equipo);
     }
 
+    function esMobile() {
+      return window.matchMedia('(max-width: 900px)').matches;
+    }
+
     function colapsarSidebar() {
+      if (esMobile()) {
+        document.getElementById('sidebar-nav').classList.remove('abierta');
+        document.getElementById('sidebar-backdrop').classList.remove('visible');
+        return;
+      }
       document.getElementById('sidebar-nav').style.display = 'none';
       document.getElementById('btn-expandir-sidebar').style.display = 'block';
     }
 
     function expandirSidebar() {
+      if (esMobile()) {
+        document.getElementById('sidebar-nav').classList.add('abierta');
+        document.getElementById('sidebar-backdrop').classList.add('visible');
+        return;
+      }
       document.getElementById('sidebar-nav').style.display = 'flex';
       document.getElementById('btn-expandir-sidebar').style.display = 'none';
     }
@@ -970,6 +1118,7 @@
           document.getElementById('selector-equipo').value = item.dataset.lado;
           mostrarNivelMatches('detalle');
           cargarPartido(item.dataset.archivo);
+          if (esMobile()) colapsarSidebar();
         });
       });
     }
@@ -1324,13 +1473,16 @@
         }
       });
 
-      if (jornadas.length > 0) {
-        const ultimaJornada = String(jornadas[jornadas.length - 1]);
-        selectorJornada.value = ultimaJornada;
-        poblarSelectorPartido(ultimaJornada);
-      } else if (lista.length > 0) {
-        poblarSelectorPartido('eliminatoria');
-      } else {
+      // NOTA: este selector de "Jornada" (selectorJornada / dropdown-partido-*)
+      // es un selector legado que quedo oculto (display:none) al construir
+      // el sidebar nuevo de Liga/Temporada/Equipo/Partido. Se deja poblado
+      // por si algo mas lo referencia, pero YA NO se auto-carga un partido
+      // desde aqui: eso pisaba el partido por defecto que ya eligio
+      // poblarSidebarRecientes() (linea de arriba), con un criterio de
+      // "jornada" distinto (mezclaba competiciones/temporadas), causando
+      // que el sidebar mostrara un equipo/partido y el panel principal
+      // mostrara otro completamente distinto al cargar la pagina.
+      if (lista.length === 0) {
         document.getElementById('info').textContent = 'No hay partidos en data/lista.json todavia.';
       }
     }
