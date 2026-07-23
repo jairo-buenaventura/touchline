@@ -227,6 +227,28 @@ def normalizar(nombre):
     return base
 
 
+def _temporada_de(nombre):
+    """
+    Extrae el token de temporada tipo '2024_2025' de un nombre de
+    archivo, sin importar si usa guion o guion bajo ('2024-2025' o
+    '2024_2025'). Devuelve None si el nombre no trae temporada (ej.
+    partidos de Mundial en español, que no tienen año en el nombre).
+    """
+    m = re.search(r"(20\d\d)[-_](20\d\d)", nombre)
+    return f"{m.group(1)}_{m.group(2)}" if m else None
+
+
+_LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie"]
+
+
+def _liga_de(nombre):
+    """Devuelve el nombre de liga conocido presente en el string, o None."""
+    for liga in _LIGAS_CONOCIDAS:
+        if liga in nombre:
+            return liga
+    return None
+
+
 def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None):
     candidatos = list(carpeta_data.glob("*.json"))
     candidatos = [c for c in candidatos if c.name != "lista.json"]
@@ -259,11 +281,24 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             ]
             h = normalizar(home_fotmob)
             a = normalizar(away_fotmob)
+            temporada_origen = _temporada_de(nombre_html_stem)
+            liga_origen = _liga_de(nombre_html_stem)
             for c in candidatos:
                 nombre = normalizar(c.stem)
                 pos_h = nombre.find(h)
                 pos_a = nombre.find(a)
                 if pos_h == -1 or pos_a == -1 or pos_h >= pos_a:
+                    continue
+                # Sin esto, el mismo par de equipos en OTRA temporada
+                # (ej. "Chelsea 1-1 Arsenal" en 2024/25 y en 2025/26)
+                # podia fusionarse con el archivo de la temporada
+                # equivocada con el mismo marcador (bug real detectado
+                # al procesar 6 ligas con 2 temporadas cada una).
+                temporada_candidato = _temporada_de(c.stem)
+                if temporada_origen and temporada_candidato and temporada_origen != temporada_candidato:
+                    continue
+                liga_candidato = _liga_de(c.stem)
+                if liga_origen and liga_candidato and liga_origen != liga_candidato:
                     continue
                 for variante in marcador_variantes:
                     # \b evita que "1-0" matchee dentro de "11-0"
