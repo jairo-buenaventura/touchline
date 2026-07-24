@@ -224,6 +224,8 @@ def normalizar(nombre):
     base = base.replace("tsg hoffenheim", "hoffenheim")
     base = base.replace("vfl wolfsburg", "wolfsburg")
     base = base.replace("wolverhampton wanderers", "wolves")
+    # Igual, pero para la MLS.
+    base = base.replace("new york red bulls", "red bull new york")
     return base
 
 

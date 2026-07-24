@@ -37,6 +37,23 @@ NOMBRES_EQUIPO = {
     "Hamburg": "Hamburger SV",
     "Stuttgart": "VfB Stuttgart",
     "PSG": "Paris Saint-Germain",
+    # WhoScored usa nombres cortos internos para varios equipos de la MLS.
+    "Chicago": "Chicago Fire FC",
+    "Colorado": "Colorado Rapids",
+    "Columbus": "Columbus Crew",
+    "Houston": "Houston Dynamo FC",
+    "Kansas City": "Sporting Kansas City",
+    "L.A. Galaxy": "LA Galaxy",
+    "Montreal": "CF Montreal",
+    "New England": "New England Revolution",
+    "New York": "Red Bull New York",
+    "Philadelphia": "Philadelphia Union",
+    "Portland": "Portland Timbers",
+    "Salt Lake": "Real Salt Lake",
+    "San Jose": "San Jose Earthquakes",
+    "Seattle": "Seattle Sounders FC",
+    "Toronto": "Toronto FC",
+    "Vancouver": "Vancouver Whitecaps",
 }
 
 
@@ -82,6 +99,8 @@ def extraer_competicion(ruta_html, data=None):
         return "serie_a"
     if re.search(r"Eredivisie \d{4}/\d{4}", contenido):
         return "eredivisie"
+    if re.search(r"Major League Soccer \d{4}", contenido):
+        return "mls"
 
     # Nota: el texto "FIFA World Cup" / "FIFA Club World Cup" aparece
     # en el menu de navegacion de CUALQUIER pagina de WhoScored, no
@@ -117,6 +136,9 @@ def extraer_temporada(ruta_html):
     m = re.search(r"(?:Premier League|Bundesliga|Ligue 1|Serie A|Eredivisie) (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
+    m = re.search(r"Major League Soccer (\d{4})", contenido)
+    if m:
+        return m.group(1)
     if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
         # No asumir el año: leer el mismo link canonical que usa
         # extraer_competicion() para distinguir ediciones del Mundial

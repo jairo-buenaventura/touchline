@@ -834,6 +834,7 @@
           <div class="custom-select-option" data-value="serie_a">Serie A</div>
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
+          <div class="custom-select-option" data-value="mls">MLS</div>
         </div>
       </div>
 
@@ -1020,6 +1021,7 @@
       serie_a: 'Serie A',
       ligue_1: 'Ligue 1',
       eredivisie: 'Eredivisie',
+      mls: 'MLS',
     };
 
     function normalizarTexto(s) {
@@ -2136,6 +2138,9 @@
         'premier_league': 'Premier League',
         'ligue_1': 'Ligue 1',
         'bundesliga': 'Bundesliga',
+        'serie_a': 'Serie A',
+        'eredivisie': 'Eredivisie',
+        'mls': 'MLS',
       };
       const competicion = partidoActual?.competicion || 'world_cup';
       const temporada = partidoActual?.temporada || '2026';
