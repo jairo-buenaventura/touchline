@@ -618,6 +618,10 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         print(f"  [ERROR] {ruta_html.name}: {e}")
         return None
 
+    if not isinstance(data, dict):
+        print(f"  [ERROR] {ruta_html.name}: matchCentreData vino vacio (WhoScored no tiene datos detallados de este partido)")
+        return None
+
     home_datos = calcular_posiciones_y_pases(data, lado="home")
     away_datos = calcular_posiciones_y_pases(data, lado="away")
     home_datos["estadisticas"] = calcular_estadisticas(data, lado="home")

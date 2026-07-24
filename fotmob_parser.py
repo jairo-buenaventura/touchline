@@ -215,15 +215,25 @@ def normalizar(nombre):
     base = base.replace("1. fsv mainz 05", "mainz 05")
     base = base.replace("bayer 04 leverkusen", "bayer leverkusen")
     base = base.replace("borussia monchengladbach", "borussia m.gladbach")
+    base = base.replace("borussia m'gladbach", "borussia m.gladbach")
     base = base.replace("fc augsburg", "augsburg")
     base = base.replace("fc bayern munchen", "bayern munich")
     base = base.replace("bayern munchen", "bayern munich")
     base = base.replace("fc st. pauli", "st. pauli")
     base = base.replace("sport-club freiburg", "freiburg")
+    base = base.replace("sc freiburg", "freiburg")
     base = base.replace("sv werder bremen", "werder bremen")
     base = base.replace("tsg hoffenheim", "hoffenheim")
     base = base.replace("vfl wolfsburg", "wolfsburg")
     base = base.replace("wolverhampton wanderers", "wolves")
+    base = base.replace("vfl bochum", "bochum")
+    base = base.replace("sv darmstadt", "darmstadt")
+    # Igual, pero para la Premier League 2023/24 (Luton, ascendido esa temporada).
+    base = base.replace("luton town", "luton")
+    # Igual, pero para la Serie A (Verona juega como "Hellas Verona").
+    base = base.replace("hellas verona", "verona")
+    # Igual, pero para la Eredivisie (Twente juega como "FC Twente").
+    base = base.replace("fc twente", "twente")
     # Igual, pero para la MLS.
     base = base.replace("new york red bulls", "red bull new york")
     return base
