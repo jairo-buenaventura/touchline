@@ -214,7 +214,7 @@
     box-sizing: border-box;
   }
   .nivel-matches {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   .breadcrumb-matches {
@@ -401,7 +401,7 @@
   .layout {
     display: flex;
     gap: 1rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
@@ -638,7 +638,7 @@
     background: #f7f6f3;
     border-radius: 8px;
     width: 100%;
-    max-width: 420px;
+    max-width: 560px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -778,6 +778,122 @@
       padding: 12px 10px;
     }
   }
+
+  /* ---- Perfil de jugador (drawer sobre Leaders) ---- */
+  .perfil-scrim {
+    position: fixed;
+    inset: 0;
+    background: rgba(20,18,14,0.28);
+    z-index: 300;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+  .perfil-scrim.abierto {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .perfil-drawer {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: min(420px, 92vw);
+    background: white;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    z-index: 301;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.24s cubic-bezier(.2,.7,.3,1);
+  }
+  .perfil-drawer.abierto {
+    transform: translateX(0);
+  }
+  .perfil-drawer-scroll {
+    overflow-y: auto;
+    padding: 22px 22px 32px;
+    flex: 1;
+  }
+  .perfil-cerrar {
+    position: absolute;
+    top: 16px; right: 16px;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #f0f0ee;
+    color: #6b6b6b;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .perfil-cerrar:hover { background: #ececea; color: #1a1a1a; }
+  .perfil-header {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    padding-right: 34px;
+  }
+  .perfil-avatar {
+    width: 54px; height: 54px; border-radius: 50%;
+    background: #dedede; color: #555;
+    font-size: 18px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .perfil-nombre { font-size: 19px; font-weight: 700; line-height: 1.2; }
+  .perfil-sub { font-size: 12.5px; color: #6b6b6b; margin-top: 2px; }
+  .perfil-sub .punto { color: #999; margin: 0 5px; }
+  .perfil-seccion-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999;
+    font-weight: 600;
+    margin: 26px 0 10px;
+  }
+  .perfil-vm-card {
+    margin-top: 20px;
+    background: #f5f5f3;
+    border-radius: 8px;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .perfil-vm-label { font-size: 11.5px; color: #6b6b6b; }
+  .perfil-vm-cifra { font-size: 22px; font-weight: 700; }
+  .perfil-vm-contrato { text-align: right; font-size: 11.5px; color: #6b6b6b; }
+  .perfil-vm-contrato b { color: #1a1a1a; font-weight: 600; }
+  .perfil-datos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 18px;
+  }
+  .perfil-dato-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; color: #999; margin-bottom: 2px; }
+  .perfil-dato-valor { font-size: 14px; font-weight: 600; }
+  .perfil-lesion-resumen { display: flex; gap: 22px; margin-bottom: 14px; }
+  .perfil-lesion-resumen-item .n { font-size: 20px; font-weight: 700; }
+  .perfil-lesion-resumen-item .n.accent { color: #b5793a; }
+  .perfil-lesion-resumen-item .l { font-size: 11px; color: #6b6b6b; margin-top: 1px; }
+  .perfil-lesion-fila { padding: 9px 0; border-bottom: 1px solid #f0f0ee; }
+  .perfil-lesion-fila:last-child { border-bottom: none; }
+  .perfil-lesion-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 5px; }
+  .perfil-lesion-tipo { font-size: 13.5px; font-weight: 600; display: block; }
+  .perfil-lesion-tipo-en { font-size: 10.5px; color: #999; display: block; text-transform: capitalize; }
+  .perfil-lesion-dias { font-size: 12px; color: #6b6b6b; flex-shrink: 0; }
+  .perfil-lesion-fechas { font-size: 11.5px; color: #999; margin-bottom: 5px; }
+  .perfil-lesion-barra-track { height: 4px; border-radius: 2px; background: #eeece7; overflow: hidden; }
+  .perfil-lesion-barra-fill { height: 100%; background: #b5793a; border-radius: 2px; }
+  .perfil-fuente-nota {
+    margin-top: 22px;
+    padding-top: 14px;
+    border-top: 1px solid #f0f0ee;
+    font-size: 11px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .perfil-fuente-nota a { color: #999; }
 </style>
 </head>
 <body>
@@ -791,7 +907,8 @@
         </div>
         <button onclick="colapsarSidebar()" style="background:none; border:none; cursor:pointer; font-size:28px; color:#bbb; padding:4px 8px; line-height:1;">«</button>
       </div>
-      <div class="sidebar-item activo" id="nav-matches" onclick="cerrarNavInline()">Partidos</div>
+      <div class="sidebar-item activo" id="nav-matches" onclick="mostrarVistaPrincipal('matches')">Partidos</div>
+      <div class="sidebar-item" id="nav-leaders" onclick="mostrarVistaPrincipal('leaders')">Leaders</div>
 
       <div class="nav-inline-wrap">
         <div class="sidebar-item" id="nav-search-label" onclick="toggleNavInline('search')">Search</div>
@@ -835,6 +952,7 @@
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
           <div class="custom-select-option" data-value="mls">MLS</div>
+          <div class="custom-select-option" data-value="champions_league">Champions League</div>
         </div>
       </div>
 
@@ -977,24 +1095,37 @@
           <div class="goles-lista" id="bloque-goles"></div>
         </div>
         <div style="flex:1; min-width:0;">
-          <div style="width:100%; max-width:420px; margin:0 auto; box-sizing:border-box;">
+          <div style="width:100%; max-width:560px; margin:0 auto; box-sizing:border-box;">
             <div style="font-weight:700; font-size:14px; margin-top:1.25rem; margin-bottom:0.5rem;">Pitch view</div>
             <div class="tabs">
               <div class="tab activo" id="tab-passing" onclick="cambiarVista('passing')">Passing network</div>
               <div class="tab" id="tab-shots" onclick="cambiarVista('shots')">Shots map</div>
               <div class="tab" id="tab-action" onclick="cambiarVista('action')">Action map</div>
               <div class="tab" id="tab-recepcion" onclick="cambiarVista('recepcion')">Pass receiving</div>
+              <div class="tab" id="tab-corners" onclick="cambiarVista('corners')">Corners</div>
             </div>
             <div id="selector-jugador-contenedor" class="dropdown-personalizado" style="display:none; margin-bottom:0.75rem;">
               <button type="button" class="dropdown-boton" id="dropdown-jugador-boton">Selecciona un jugador</button>
               <div class="dropdown-lista" id="dropdown-jugador-lista"></div>
               <select id="selector-jugador" style="display:none;"></select>
             </div>
+            <div id="corners-modo-contenedor" style="display:none; margin-bottom:0.75rem;">
+              <div style="display:flex; border:1px solid #e5e5e3; border-radius:8px; overflow:hidden; width:fit-content;">
+                <div id="corners-modo-partido" class="tab activo" style="padding:5px 10px; margin:0; border:none;" onclick="cambiarModoCorners('partido')">Este partido</div>
+                <div id="corners-modo-temporada" class="tab" style="padding:5px 10px; margin:0; border-left:1px solid #e5e5e3;" onclick="cambiarModoCorners('temporada')">Temporada</div>
+              </div>
+            </div>
             <p id="info">Cargando...</p>
             <div id="leyenda-acciones" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:0.5rem;"></div>
           </div>
           <svg id="cancha" viewBox="0 0 380 520"></svg>
           <div id="leyenda-fija-cancha" style="text-align:center; font-size:10px; color:#999; margin-top:0.5rem;"></div>
+
+          <div id="panel-centralidad" style="display:none; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;">
+            <div style="font-size:10px; color:#999; text-transform:uppercase; letter-spacing:.04em; margin-bottom:0.4rem;">Centralidad de la red de pases (este partido) &middot; clic en un jugador para ver el detalle</div>
+            <div id="centralidad-top" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:space-around;"></div>
+            <div id="centralidad-detalle" style="display:none; margin-top:0.5rem; padding-top:0.5rem; border-top:1px dashed #eee; font-size:11px; color:#555;"></div>
+          </div>
 
           <div id="stats-recepcion" style="display:none; justify-content:space-around; margin-top:0.75rem; font-size:11px; color:#888; border-top:1px solid #eee; padding-top:0.6rem;"></div>
         </div>
@@ -1003,6 +1134,44 @@
   </div>
         </div>
       </div>
+
+    <div id="vista-leaders" class="nivel-matches" style="display:none;">
+      <div style="max-width:700px; margin:0; background:white; border:1px solid #e5e5e3; border-radius:10px; padding:1.5rem;">
+        <div style="font-weight:700; font-size:18px; margin-bottom:0.25rem;">Leaders</div>
+        <div style="font-size:12px; color:#999; margin-bottom:1.25rem;">Ranking de jugadores por categoria, dentro de su misma liga y temporada</div>
+
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-bottom:1.25rem;">
+          <div class="dropdown-personalizado" style="flex:1; min-width:160px;">
+            <button type="button" class="dropdown-boton" id="leaders-liga-boton">Liga</button>
+            <div class="dropdown-lista" id="leaders-liga-lista"></div>
+          </div>
+          <div class="dropdown-personalizado" style="flex:1; min-width:120px;">
+            <button type="button" class="dropdown-boton" id="leaders-temporada-boton">Temporada</button>
+            <div class="dropdown-lista" id="leaders-temporada-lista"></div>
+          </div>
+          <div class="dropdown-personalizado" style="flex:2; min-width:220px;">
+            <button type="button" class="dropdown-boton" id="leaders-categoria-boton">Categoria</button>
+            <div class="dropdown-lista" id="leaders-categoria-lista"></div>
+          </div>
+        </div>
+
+        <div class="tabs" style="border-bottom:1px solid #eee; margin-bottom:1rem;">
+          <div class="tab activo" id="leaders-tab-total" onclick="cambiarModoLeaders('total')">Totales de temporada</div>
+          <div class="tab" id="leaders-tab-por90" onclick="cambiarModoLeaders('por90')">Por 90 minutos</div>
+        </div>
+        <div id="leaders-info" style="font-size:11px; color:#999; margin-bottom:0.75rem;"></div>
+
+        <div id="leaders-lista"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="perfil-scrim" id="perfil-scrim" onclick="cerrarPerfilJugador()"></div>
+  <div class="perfil-drawer" id="perfil-drawer">
+    <div class="perfil-drawer-scroll">
+      <button type="button" class="perfil-cerrar" id="perfil-cerrar" onclick="cerrarPerfilJugador()" aria-label="Cerrar perfil">✕</button>
+      <div id="perfil-contenido"></div>
     </div>
   </div>
 
@@ -1022,6 +1191,7 @@
       ligue_1: 'Ligue 1',
       eredivisie: 'Eredivisie',
       mls: 'MLS',
+      champions_league: 'Champions League',
     };
 
     function normalizarTexto(s) {
@@ -1235,7 +1405,14 @@
       renderAparicionesJugador();
     }
 
-    function cambiarFiltroApariciones(filtro) {
+    function cambiarFiltroApariciones(event, filtro) {
+      // Este handler re-renderiza (innerHTML) el contenedor que tiene al
+      // propio boton clickeado, lo que lo desconecta del DOM a mitad del
+      // evento. Si el click sigue burbujeando, el listener global de
+      // "click afuera cierra el panel" (mas abajo, sobre .nav-inline-wrap)
+      // ya no encuentra el ancestro del boton (quedo huerfano) y cierra
+      // todo el panel de Players por error. stopPropagation lo evita.
+      event.stopPropagation();
       filtroAparicionesActual = filtro;
       renderAparicionesJugador();
     }
@@ -1250,8 +1427,8 @@
       if (tieneSeleccion && tieneClub) {
         filtroHtml = `
           <div class="nav-filtro-tipo">
-            <button type="button" class="nav-filtro-opcion${filtroAparicionesActual === 'seleccion' ? ' activo' : ''}" onclick="cambiarFiltroApariciones('seleccion')">Selección Nacional</button>
-            <button type="button" class="nav-filtro-opcion${filtroAparicionesActual === 'club' ? ' activo' : ''}" onclick="cambiarFiltroApariciones('club')">Club</button>
+            <button type="button" class="nav-filtro-opcion${filtroAparicionesActual === 'seleccion' ? ' activo' : ''}" onclick="cambiarFiltroApariciones(event, 'seleccion')">Selección Nacional</button>
+            <button type="button" class="nav-filtro-opcion${filtroAparicionesActual === 'club' ? ' activo' : ''}" onclick="cambiarFiltroApariciones(event, 'club')">Club</button>
           </div>`;
       }
 
@@ -1749,20 +1926,53 @@
     let datosPartidoActual = null;
     let vistaActual = 'passing';
 
+    let modoCorners = 'partido';
+    let datosCornersTemporada = null;
+
     function cambiarVista(vista) {
       vistaActual = vista;
       document.getElementById('tab-passing').classList.toggle('activo', vista === 'passing');
       document.getElementById('tab-shots').classList.toggle('activo', vista === 'shots');
       document.getElementById('tab-action').classList.toggle('activo', vista === 'action');
       document.getElementById('tab-recepcion').classList.toggle('activo', vista === 'recepcion');
+      document.getElementById('tab-corners').classList.toggle('activo', vista === 'corners');
       document.getElementById('selector-jugador-contenedor').style.display = 'none';
       document.getElementById('stats-recepcion').style.display = vista === 'recepcion' ? 'flex' : 'none';
+      document.getElementById('corners-modo-contenedor').style.display = vista === 'corners' ? 'block' : 'none';
+      document.getElementById('cancha').setAttribute('viewBox', '0 0 380 520');
       if (datosPartidoActual) {
         const lado = document.getElementById('selector-equipo').value;
         if (vista === 'action') poblarSelectorJugador(datosPartidoActual, lado);
         if (vista === 'recepcion') poblarSelectorJugadorRecepcion(datosPartidoActual, lado);
+        if (vista === 'corners') { modoCorners = 'partido'; datosCornersTemporada = null; zonasVisiblesCorner = new Set(ORDEN_ZONAS_CORNER); actualizarTabsModoCorners(); }
         dibujarVistaActual(datosPartidoActual, lado);
       }
+    }
+
+    function actualizarTabsModoCorners() {
+      document.getElementById('corners-modo-partido').classList.toggle('activo', modoCorners === 'partido');
+      document.getElementById('corners-modo-temporada').classList.toggle('activo', modoCorners === 'temporada');
+    }
+
+    async function cambiarModoCorners(modo) {
+      modoCorners = modo;
+      actualizarTabsModoCorners();
+      const lado = document.getElementById('selector-equipo').value;
+      if (modo === 'temporada' && datosPartidoActual) {
+        const partidoActual = listaCompleta.find(p => p.archivo === partidoSeleccionadoActual);
+        const competicion = partidoActual?.competicion;
+        const temporada = partidoActual?.temporada;
+        if (competicion && temporada) {
+          const archivo = `${competicion}_${temporada.replace('/', '-')}.json`;
+          try {
+            const res = await fetch('data/corners/' + archivo, { cache: 'no-store' });
+            datosCornersTemporada = res.ok ? await res.json() : null;
+          } catch (e) {
+            datosCornersTemporada = null;
+          }
+        }
+      }
+      dibujarVistaActual(datosPartidoActual, lado);
     }
 
     function poblarDropdownJugador(listaJugadores) {
@@ -1820,7 +2030,6 @@
       const equipo = datos[lado];
       poblarDropdownJugador(equipo.recepcion_pases || []);
     }
-
     function dibujarVistaActual(datos, lado) {
       if (vistaActual === 'passing') {
         dibujarCancha(datos, lado);
@@ -1828,9 +2037,89 @@
         dibujarShotsMap(datos, lado);
       } else if (vistaActual === 'recepcion') {
         dibujarRecepcionPases(datos, lado);
+      } else if (vistaActual === 'corners') {
+        dibujarCorners(datos, lado);
       } else {
         dibujarActionMap(datos, lado);
       }
+    }
+
+    const NOMBRE_ZONA_CORNER = { primer_palo: 'Primer palo', centro: 'Centro', segundo_palo: 'Segundo palo', corto: 'Corto', sin_peligro: 'Sin peligro' };
+    const COLOR_ZONA_CORNER = { primer_palo: '#1a1a1a', centro: '#d9534f', segundo_palo: '#4a90d9', corto: '#aaaaaa', sin_peligro: '#e0a030' };
+    const ORDEN_ZONAS_CORNER = ['primer_palo', 'centro', 'segundo_palo', 'corto', 'sin_peligro'];
+    let zonasVisiblesCorner = new Set(ORDEN_ZONAS_CORNER);
+
+    function dibujarLeyendaZonasCorner(conteosPorZona, total) {
+      const leyenda = document.getElementById('leyenda-acciones');
+      leyenda.innerHTML = ORDEN_ZONAS_CORNER.filter(z => conteosPorZona[z] > 0).map(z => {
+        const cant = conteosPorZona[z];
+        const pct = total ? Math.round(100 * cant / total) : 0;
+        const activa = zonasVisiblesCorner.has(z);
+        return `<div class="leyenda-zona-corner" data-zona="${z}" style="display:flex; align-items:center; gap:6px; font-size:11px; color:${activa ? '#555' : '#bbb'}; cursor:pointer; user-select:none;">
+          <span style="width:10px; height:10px; border-radius:50%; background:${activa ? COLOR_ZONA_CORNER[z] : '#ddd'}; display:inline-block;"></span>
+          ${NOMBRE_ZONA_CORNER[z]}: ${cant} (${pct}%)
+        </div>`;
+      }).join('');
+      leyenda.querySelectorAll('.leyenda-zona-corner').forEach(item => {
+        item.onclick = () => {
+          const z = item.dataset.zona;
+          if (zonasVisiblesCorner.has(z)) zonasVisiblesCorner.delete(z);
+          else zonasVisiblesCorner.add(z);
+          dibujarVistaActual(datosPartidoActual, document.getElementById('selector-equipo').value);
+        };
+      });
+    }
+
+    function dibujarPuntosCorner(svg, listaCorners) {
+      let html = dibujarLineasCancha();
+      listaCorners.forEach(c => {
+        if (c.endX == null || c.endYNorm == null) return;
+        if (!zonasVisiblesCorner.has(c.zona)) return;
+        const [cx, cy] = aCancha(c.endX, 100 - c.endYNorm);
+        const color = COLOR_ZONA_CORNER[c.zona] || '#999';
+        const titulo = c.jugador ? `${c.jugador} — min ${c.minuto} — ${NOMBRE_ZONA_CORNER[c.zona] || c.zona}` : (NOMBRE_ZONA_CORNER[c.zona] || c.zona);
+        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="5" fill="${color}" stroke="white" stroke-width="1" opacity="0.85"><title>${titulo}</title></circle>`;
+      });
+      svg.innerHTML = html;
+      agregarCredito(svg);
+      svg.setAttribute('viewBox', '0 0 380 280');
+    }
+
+    function dibujarCorners(datos, lado) {
+      const equipo = datos[lado];
+      const svg = document.getElementById('cancha');
+      document.getElementById('leyenda-fija-cancha').textContent = '';
+      document.getElementById('panel-centralidad').style.display = 'none';
+
+      if (modoCorners === 'temporada') {
+        const fila = datosCornersTemporada ? datosCornersTemporada[equipo.equipo] : null;
+        document.getElementById('info').textContent = fila
+          ? `${equipo.equipo} — ${fila.total_corners} corner(es) en ${fila.partidos} partido(s) de la temporada`
+          : `${equipo.equipo} — sin datos de corners de temporada todavia`;
+
+        if (fila) {
+          dibujarPuntosCorner(svg, fila.detalle || []);
+          const conteos = {};
+          ORDEN_ZONAS_CORNER.forEach(z => conteos[z] = fila[z] || 0);
+          dibujarLeyendaZonasCorner(conteos, fila.total_corners);
+        } else {
+          svg.innerHTML = dibujarLineasCancha();
+          agregarCredito(svg);
+          svg.setAttribute('viewBox', '0 0 380 280');
+          document.getElementById('leyenda-acciones').innerHTML = '';
+        }
+        return;
+      }
+
+      const corners = equipo.corners || [];
+      document.getElementById('info').textContent = `${equipo.equipo} — ${corners.length} corner(es) de este partido`;
+
+      dibujarPuntosCorner(svg, corners);
+
+      const conteos = {};
+      ORDEN_ZONAS_CORNER.forEach(z => conteos[z] = 0);
+      corners.forEach(c => { if (conteos[c.zona] !== undefined) conteos[c.zona]++; });
+      dibujarLeyendaZonasCorner(conteos, corners.length);
     }
 
     let listaCompleta = [];
@@ -2141,6 +2430,7 @@
         'serie_a': 'Serie A',
         'eredivisie': 'Eredivisie',
         'mls': 'MLS',
+        'champions_league': 'Champions League',
       };
       const competicion = partidoActual?.competicion || 'world_cup';
       const temporada = partidoActual?.temporada || '2026';
@@ -2289,6 +2579,217 @@
       svg.innerHTML += '<g transform="translate(8, 8)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#1a1a1a" transform="scale(0.55)"/></g><text x="22" y="18" font-size="11" fill="#1a1a1a" font-family="sans-serif" font-weight="bold">@jairobuena</text>';
     }
 
+    // --- Centralidad de la red de pases (Betweenness, Eigenvector, PageRank,
+    // Clustering) — prototipo inspirado en rodmoioliveira/football-graphs,
+    // portado a JS puro para no depender de ninguna libreria de grafos.
+    // Se calcula por partido (no acumulado en temporada): el rol estructural
+    // de un jugador en la red cambia segun rival/sistema partido a partido.
+
+    function construirGrafoPases(equipo) {
+      const nodos = equipo.jugadores.map(j => j.id);
+      const dirigido = new Map(nodos.map(id => [id, new Map()])); // id -> Map(vecino -> veces)
+      const noDirigido = new Map(nodos.map(id => [id, new Map()]));
+      (equipo.pases || []).forEach(p => {
+        if (!dirigido.has(p.de) || !dirigido.has(p.a)) return;
+        dirigido.get(p.de).set(p.a, (dirigido.get(p.de).get(p.a) || 0) + p.veces);
+        noDirigido.get(p.de).set(p.a, (noDirigido.get(p.de).get(p.a) || 0) + p.veces);
+        noDirigido.get(p.a).set(p.de, (noDirigido.get(p.a).get(p.de) || 0) + p.veces);
+      });
+      return { nodos, dirigido, noDirigido };
+    }
+
+    function maxPesoDirigido(nodos, dirigido) {
+      let maxPeso = 0;
+      for (const i of nodos) for (const [, veces] of dirigido.get(i)) if (veces > maxPeso) maxPeso = veces;
+      return maxPeso || 1;
+    }
+
+    function betweennessPonderado(nodos, dirigido) {
+      // Brandes (1 fuente por iteracion, Dijkstra con distancia = maxPeso/veces:
+      // mas pases entre dos jugadores = "mas cerca" en la red. Se normaliza
+      // por el peso maximo -- no por 1/veces directo -- para que la distancia
+      // minima sea 1 y las sumas de distancias no queden en una escala
+      // arbitrariamente chica segun cuantos pases se dieron en el partido.
+      const maxPeso = maxPesoDirigido(nodos, dirigido);
+      const CB = new Map(nodos.map(n => [n, 0]));
+      for (const s of nodos) {
+        const S = [];
+        const P = new Map(nodos.map(n => [n, []]));
+        const sigma = new Map(nodos.map(n => [n, 0])); sigma.set(s, 1);
+        const d = new Map(nodos.map(n => [n, Infinity])); d.set(s, 0);
+        const visitado = new Set();
+        while (visitado.size < nodos.length) {
+          let u = null, mejorD = Infinity;
+          for (const n of nodos) {
+            if (!visitado.has(n) && d.get(n) < mejorD) { mejorD = d.get(n); u = n; }
+          }
+          if (u === null) break;
+          visitado.add(u);
+          S.push(u);
+          for (const [v, veces] of dirigido.get(u)) {
+            if (veces <= 0) continue;
+            const dv = d.get(u) + maxPeso / veces;
+            if (dv < d.get(v) - 1e-12) {
+              d.set(v, dv);
+              sigma.set(v, sigma.get(u));
+              P.set(v, [u]);
+            } else if (Math.abs(dv - d.get(v)) < 1e-9) {
+              sigma.set(v, sigma.get(v) + sigma.get(u));
+              P.get(v).push(u);
+            }
+          }
+        }
+        const delta = new Map(nodos.map(n => [n, 0]));
+        while (S.length) {
+          const w = S.pop();
+          for (const v of P.get(w)) {
+            delta.set(v, delta.get(v) + (sigma.get(v) / sigma.get(w)) * (1 + delta.get(w)));
+          }
+          if (w !== s) CB.set(w, CB.get(w) + delta.get(w));
+        }
+      }
+      // normalizar a [0,1] (igual que hace networkx para grafos dirigidos):
+      // sin esto, betweenness queda en una escala de conteo crudo distinta
+      // a las otras 3 metricas, que si estan acotadas entre 0 y 1.
+      const n = nodos.length;
+      const factor = n > 2 ? 1 / ((n - 1) * (n - 2)) : 0;
+      const CBNormalizado = new Map();
+      CB.forEach((valor, nodo) => CBNormalizado.set(nodo, valor * factor));
+      return CBNormalizado;
+    }
+
+    function closenessPonderado(nodos, dirigido) {
+      // Centralidad de Cercania (CC), la misma que en la tesis de maestria:
+      // que tan pocos pases en promedio le toma al balon llegar desde ese
+      // jugador a cualquier otro (Dijkstra, distancia = maxPeso/veces, igual
+      // criterio que betweennessPonderado). Formula de Wasserman-Faust (la
+      // que usa tambien networkx por defecto): normaliza por la fraccion de
+      // la red que es alcanzable.
+      const n = nodos.length;
+      const maxPeso = maxPesoDirigido(nodos, dirigido);
+      const resultado = new Map();
+      for (const s of nodos) {
+        const d = new Map(nodos.map(x => [x, Infinity])); d.set(s, 0);
+        const visitado = new Set();
+        while (visitado.size < nodos.length) {
+          let u = null, mejorD = Infinity;
+          for (const x of nodos) {
+            if (!visitado.has(x) && d.get(x) < mejorD) { mejorD = d.get(x); u = x; }
+          }
+          if (u === null) break;
+          visitado.add(u);
+          for (const [v, veces] of dirigido.get(u)) {
+            if (veces <= 0) continue;
+            const dv = d.get(u) + maxPeso / veces;
+            if (dv < d.get(v)) d.set(v, dv);
+          }
+        }
+        let sumaDist = 0, alcanzables = 0;
+        for (const v of nodos) {
+          if (v === s) continue;
+          if (d.get(v) < Infinity) { sumaDist += d.get(v); alcanzables++; }
+        }
+        const cercania = sumaDist > 0 ? (alcanzables / sumaDist) * (alcanzables / (n - 1)) : 0;
+        resultado.set(s, cercania);
+      }
+      return resultado;
+    }
+
+    function clusteringPonderado(nodos, noDirigido) {
+      let maxPeso = 0;
+      for (const i of nodos) for (const [, veces] of noDirigido.get(i)) if (veces > maxPeso) maxPeso = veces;
+      const resultado = new Map();
+      for (const i of nodos) {
+        const vecinos = [...noDirigido.get(i).keys()];
+        const k = vecinos.length;
+        if (k < 2 || maxPeso === 0) { resultado.set(i, 0); continue; }
+        let suma = 0;
+        for (let a = 0; a < vecinos.length; a++) {
+          for (let b = a + 1; b < vecinos.length; b++) {
+            const j = vecinos[a], l = vecinos[b];
+            const wij = (noDirigido.get(i).get(j) || 0) / maxPeso;
+            const wil = (noDirigido.get(i).get(l) || 0) / maxPeso;
+            const wjl = (noDirigido.get(j).get(l) || 0) / maxPeso;
+            if (wjl > 0) suma += Math.cbrt(wij * wil * wjl);
+          }
+        }
+        resultado.set(i, (2 * suma) / (k * (k - 1)));
+      }
+      return resultado;
+    }
+
+    // Mismas 3 metricas de la tesis de maestria del usuario (Universidade do
+    // Porto, 2016): Centralidad de Intermediacion, Centralidad de Cercania y
+    // Coeficiente Local de Agrupamiento — no Eigenvector/PageRank (esas eran
+    // del prototipo inspirado en GitHub, se descartaron por menos estables).
+    const METRICAS_RED = [
+      { clave: 'betweenness', etiqueta: 'Betweenness Centrality', ayuda: 'regula la comunicacion entre pares de companeros' },
+      { clave: 'cercania', etiqueta: 'Closeness Centrality', ayuda: 'mas cerca de todos: mejor opcion de recibir y rotar posiciones' },
+      { clave: 'clustering', etiqueta: 'Clustering Coefficient', ayuda: 'su grupo cercano tambien coopera y se coordina entre si' },
+    ];
+
+    let centralidadActual = null; // Map(id -> {betweenness, cercania, clustering, nombre})
+
+    function calcularCentralidadRed(equipo) {
+      const { nodos, dirigido, noDirigido } = construirGrafoPases(equipo);
+      const betweenness = betweennessPonderado(nodos, dirigido);
+      const cercania = closenessPonderado(nodos, dirigido);
+      const clustering = clusteringPonderado(nodos, noDirigido);
+      const nombrePorId = {};
+      equipo.jugadores.forEach(j => { nombrePorId[j.id] = j.nombre; });
+
+      const porJugador = new Map();
+      nodos.forEach(id => {
+        porJugador.set(id, {
+          nombre: nombrePorId[id],
+          betweenness: betweenness.get(id) || 0,
+          cercania: cercania.get(id) || 0,
+          clustering: clustering.get(id) || 0,
+        });
+      });
+      return porJugador;
+    }
+
+    function mostrarPanelCentralidad(equipo) {
+      const panel = document.getElementById('panel-centralidad');
+      if (!equipo.pases || equipo.pases.length === 0) {
+        panel.style.display = 'none';
+        return;
+      }
+      centralidadActual = calcularCentralidadRed(equipo);
+      panel.style.display = 'block';
+
+      const topDiv = document.getElementById('centralidad-top');
+      topDiv.innerHTML = METRICAS_RED.map(m => {
+        let mejorId = null, mejorValor = -Infinity;
+        centralidadActual.forEach((valores, id) => {
+          if (valores[m.clave] > mejorValor) { mejorValor = valores[m.clave]; mejorId = id; }
+        });
+        const nombre = mejorId != null ? apellido(centralidadActual.get(mejorId).nombre) : '—';
+        return `<div style="text-align:center; min-width:110px;">
+          <div style="font-weight:700; color:#333;">${m.etiqueta}</div>
+          <div style="font-size:10px; color:#aaa;">${m.ayuda}</div>
+          <div style="margin-top:2px;">${nombre} <span style="color:#aaa;">(${(mejorValor * 100).toFixed(1)}%)</span></div>
+        </div>`;
+      }).join('');
+
+      const detalleDiv = document.getElementById('centralidad-detalle');
+      detalleDiv.style.display = 'none';
+
+      document.querySelectorAll('#cancha .nodo-jugador, #cancha .nombre-jugador').forEach(el => {
+        el.style.cursor = 'pointer';
+        el.onclick = () => {
+          const id = Number(el.dataset.id);
+          const valores = centralidadActual.get(id);
+          if (!valores) return;
+          detalleDiv.style.display = 'block';
+          detalleDiv.innerHTML = `<strong>${valores.nombre}</strong> &mdash; ` + METRICAS_RED.map(m =>
+            `${m.etiqueta}: ${(valores[m.clave] * 100).toFixed(1)}%`
+          ).join(' &middot; ');
+        };
+      });
+    }
+
     function dibujarCancha(datos, lado) {
       const equipo = datos[lado];
       document.getElementById('info').textContent = `${equipo.equipo} — red de pases`;
@@ -2365,12 +2866,14 @@
 
       posiciones.forEach(p => {
         const cx = p.cx, cy = p.cy, radio = p.radio, j = p.jugador;
-        html += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#1a1a1a" stroke="white" stroke-width="1.5"/>`;
-        html += `<text class="nombre-jugador" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
+        html += `<circle class="nodo-jugador" data-id="${j.id}" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${radio.toFixed(1)}" fill="#1a1a1a" stroke="white" stroke-width="1.5"/>`;
+        html += `<text class="nombre-jugador" data-id="${j.id}" x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central">${apellido(j.nombre)}</text>`;
       });
 
       svg.innerHTML = html;
       agregarCredito(svg);
+
+      mostrarPanelCentralidad(equipo);
     }
 
     function dibujarShotsMap(datos, lado) {
@@ -2378,6 +2881,7 @@
       const tiros = equipo.tiros || [];
       document.getElementById('info').textContent = `${equipo.equipo} — ${tiros.length} tiro(s)`;
       document.getElementById('leyenda-fija-cancha').textContent = '';
+      document.getElementById('panel-centralidad').style.display = 'none';
 
       const ordenResultados = ['Goal','SavedShot','ShotOnPost','MissedShots'];
       const etiquetaResultado = {
@@ -2424,6 +2928,7 @@
       const pidElegido = selector.value;
       const jugador = acciones.find(j => String(j.id) === pidElegido) || acciones[0];
       document.getElementById('leyenda-fija-cancha').textContent = '';
+      document.getElementById('panel-centralidad').style.display = 'none';
 
       const svg = document.getElementById('cancha');
       let html = dibujarLineasCancha();
@@ -2527,6 +3032,7 @@
       const pidElegido = selector.value;
       const jugador = jugadores.find(j => String(j.id) === pidElegido) || jugadores[0];
       document.getElementById('leyenda-fija-cancha').textContent = '';
+      document.getElementById('panel-centralidad').style.display = 'none';
 
       const svg = document.getElementById('cancha');
       const statsDiv = document.getElementById('stats-recepcion');
@@ -2591,6 +3097,261 @@
     actualizarFechaActualizacion();
     cargarLista().catch(err => {
       document.getElementById('info').textContent = 'Error cargando los datos: ' + err.message;
+    });
+
+    // ===================== Leaders =====================
+
+    const NOMBRES_CATEGORIA_LEADERS = {
+      goles: 'Goles',
+      asistencias: 'Asistencias',
+      tiros: 'Tiros',
+      tiros_al_arco: 'Tiros al arco',
+      regates_exitosos: 'Regates exitosos',
+      chances_creadas: 'Chances creadas',
+      big_chances_creadas: 'Big chances creadas',
+      chances_open_play: 'Chances de open play',
+      cruces_exitosos: 'Cruces exitosos',
+      through_balls_exitosos: 'Pases filtrados exitosos',
+      layoffs_exitosos: 'Paredes exitosas',
+      corners_sacados: 'Corners sacados',
+      toques_area_rival: 'Toques en area rival',
+    };
+    const MAP_TITULO_TORNEO_LEADERS = {
+      world_cup: 'World Cup', la_liga: 'La Liga', premier_league: 'Premier League',
+      ligue_1: 'Ligue 1', bundesliga: 'Bundesliga', serie_a: 'Serie A',
+      eredivisie: 'Eredivisie', mls: 'MLS', champions_league: 'Champions League',
+    };
+    // Mismo orden jerarquico que el dropdown de Liga en Partidos (ver lineas ~947-955).
+    const ORDEN_LIGAS_LEADERS = ['world_cup', 'premier_league', 'la_liga', 'bundesliga', 'serie_a', 'ligue_1', 'eredivisie', 'mls', 'champions_league'];
+
+    let indiceLeaders = [];
+    let leadersInicializado = false;
+    let leadersLiga = null, leadersTemporada = null, leadersCategoria = 'goles', leadersModo = 'total';
+    let datosLeadersActual = [];
+    let perfilesJugadores = {};
+
+    function mostrarVistaPrincipal(vista) {
+      cerrarNavInline();
+      document.getElementById('vista-matches').style.display = vista === 'matches' ? 'block' : 'none';
+      document.getElementById('vista-leaders').style.display = vista === 'leaders' ? 'block' : 'none';
+      document.getElementById('nav-matches').classList.toggle('activo', vista === 'matches');
+      document.getElementById('nav-leaders').classList.toggle('activo', vista === 'leaders');
+      if (vista === 'leaders' && !leadersInicializado) {
+        leadersInicializado = true;
+        inicializarLeaders();
+      }
+    }
+
+    function dropdownGenerico(idBoton, idLista, opciones, valorInicial, onSeleccionar) {
+      const boton = document.getElementById(idBoton);
+      const lista = document.getElementById(idLista);
+      function render(seleccionado) {
+        lista.innerHTML = opciones.map(o =>
+          `<div class="dropdown-item${o.value === seleccionado ? ' seleccionado' : ''}" data-value="${o.value}">${o.label}</div>`
+        ).join('');
+        const actual = opciones.find(o => o.value === seleccionado);
+        boton.textContent = actual ? actual.label : opciones[0].label;
+        lista.querySelectorAll('.dropdown-item').forEach(item => {
+          item.onclick = () => {
+            lista.classList.remove('abierto');
+            boton.textContent = item.textContent;
+            lista.querySelectorAll('.dropdown-item').forEach(o => o.classList.toggle('seleccionado', o === item));
+            onSeleccionar(item.dataset.value);
+          };
+        });
+      }
+      boton.onclick = (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('.dropdown-lista.abierto').forEach(l => { if (l !== lista) l.classList.remove('abierto'); });
+        lista.classList.toggle('abierto');
+      };
+      render(valorInicial);
+      return render;
+    }
+
+    async function inicializarLeaders() {
+      fetch('data/perfiles_jugadores.json', { cache: 'no-store' })
+        .then(r => r.ok ? r.json() : {})
+        .then(d => { perfilesJugadores = d; renderLeadersLista(); })
+        .catch(() => {});
+
+      const res = await fetch('data/leaders/indice.json', { cache: 'no-store' }).catch(() => null);
+      if (!res || !res.ok) {
+        document.getElementById('leaders-lista').innerHTML = '<div style="color:#999; font-size:13px;">Todavia no hay datos de leaders generados (data/leaders/indice.json no existe).</div>';
+        return;
+      }
+      indiceLeaders = await res.json();
+
+      const ligasPresentes = new Set(indiceLeaders.map(r => r.competicion));
+      const ligas = [
+        ...ORDEN_LIGAS_LEADERS.filter(l => ligasPresentes.has(l)),
+        ...[...ligasPresentes].filter(l => !ORDEN_LIGAS_LEADERS.includes(l)).sort(),
+      ];
+      leadersLiga = ligas[0];
+      const opcionesLiga = ligas.map(l => ({ value: l, label: MAP_TITULO_TORNEO_LEADERS[l] || l }));
+      dropdownGenerico('leaders-liga-boton', 'leaders-liga-lista', opcionesLiga, leadersLiga, (v) => {
+        leadersLiga = v;
+        poblarTemporadasLeaders();
+      });
+
+      const opcionesCategoria = Object.entries(NOMBRES_CATEGORIA_LEADERS).map(([value, label]) => ({ value, label }));
+      dropdownGenerico('leaders-categoria-boton', 'leaders-categoria-lista', opcionesCategoria, leadersCategoria, (v) => {
+        leadersCategoria = v;
+        cargarDatosLeaders();
+      });
+
+      poblarTemporadasLeaders();
+    }
+
+    function poblarTemporadasLeaders() {
+      const temporadas = indiceLeaders.filter(r => r.competicion === leadersLiga).map(r => r.temporada).sort().reverse();
+      leadersTemporada = temporadas[0];
+      const opciones = temporadas.map(t => ({ value: t, label: t }));
+      dropdownGenerico('leaders-temporada-boton', 'leaders-temporada-lista', opciones, leadersTemporada, (v) => {
+        leadersTemporada = v;
+        cargarDatosLeaders();
+      });
+      cargarDatosLeaders();
+    }
+
+    function cambiarModoLeaders(modo) {
+      leadersModo = modo;
+      document.getElementById('leaders-tab-total').classList.toggle('activo', modo === 'total');
+      document.getElementById('leaders-tab-por90').classList.toggle('activo', modo === 'por90');
+      renderLeadersLista();
+    }
+
+    async function cargarDatosLeaders() {
+      const entrada = indiceLeaders.find(r => r.competicion === leadersLiga && r.temporada === leadersTemporada);
+      if (!entrada) {
+        datosLeadersActual = [];
+        renderLeadersLista();
+        return;
+      }
+      document.getElementById('leaders-lista').innerHTML = '<div style="color:#999; font-size:13px;">Cargando...</div>';
+      const res = await fetch('data/leaders/' + entrada.archivo, { cache: 'no-store' });
+      datosLeadersActual = await res.json();
+      renderLeadersLista();
+    }
+
+    function renderLeadersLista() {
+      const cont = document.getElementById('leaders-lista');
+      const cat = leadersCategoria;
+      const campoValor = leadersModo === 'total' ? cat : `${cat}_por90`;
+      const campoPercentil = leadersModo === 'total' ? `${cat}_percentil` : `${cat}_por90_percentil`;
+
+      let filas = datosLeadersActual.filter(j => j[campoValor] !== undefined && j[campoValor] !== null);
+      filas.sort((a, b) => b[campoValor] - a[campoValor]);
+      filas = filas.slice(0, 50);
+
+      const infoDiv = document.getElementById('leaders-info');
+      infoDiv.textContent = leadersModo === 'por90'
+        ? `Tasa por 90 minutos — solo jugadores con 450+ minutos jugados en la temporada`
+        : `Totales de la temporada completa`;
+
+      if (!filas.length) {
+        cont.innerHTML = '<div style="color:#999; font-size:13px; padding:1rem 0;">Sin datos para esta combinacion.</div>';
+        return;
+      }
+
+      cont.innerHTML = filas.map((j, i) => {
+        const valor = leadersModo === 'por90' ? j[campoValor].toFixed(2) : j[campoValor];
+        const percentil = j[campoPercentil];
+        const topPct = percentil != null ? Math.max(1, Math.round(100 - percentil)) : null;
+        const tienePerfil = !!perfilesJugadores[j.id];
+        const clickAttr = tienePerfil ? ` onclick="abrirPerfilJugador(${j.id})"` : '';
+        return `
+          <div class="resultado-item" style="cursor:${tienePerfil ? 'pointer' : 'default'};"${clickAttr}>
+            <div style="display:flex; align-items:center; gap:10px; min-width:0;">
+              <span style="width:22px; text-align:right; font-size:12px; color:#999; flex-shrink:0;">${i + 1}</span>
+              <span style="width:26px; height:26px; border-radius:50%; background:#dedede; color:#555; font-size:10px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;">${iniciales(j.nombre)}</span>
+              <div style="min-width:0;">
+                <div style="font-size:14px; font-weight:600; color:#1a1a1a; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${j.nombre}</div>
+                <div style="font-size:11px; color:#999;">${j.equipo || ''}</div>
+              </div>
+            </div>
+            <div style="text-align:right; flex-shrink:0;">
+              <div style="font-size:16px; font-weight:700; color:#1a1a1a;">${valor}</div>
+              ${topPct != null ? `<div style="font-size:10px; color:#999;">Top ${topPct}%</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function abrirPerfilJugador(jugadorId) {
+      const perfil = perfilesJugadores[jugadorId];
+      const j = datosLeadersActual.find(x => x.id === jugadorId);
+      if (!perfil || !j) return;
+
+      const lesiones = perfil.lesiones_detalle || [];
+      const maxDias = Math.max(1, ...lesiones.map(l => l.dias_baja || 0));
+      const lesionesHtml = lesiones.map(l => `
+        <div class="perfil-lesion-fila">
+          <div class="perfil-lesion-top">
+            <span>
+              <span class="perfil-lesion-tipo">${l.tipo_lesion_es || l.tipo_lesion || ''}</span>
+              ${l.tipo_lesion_es ? `<span class="perfil-lesion-tipo-en">${l.tipo_lesion}</span>` : ''}
+            </span>
+            <span class="perfil-lesion-dias">${l.dias_baja} días${l.partidos_perdidos && l.partidos_perdidos !== '-' ? ' · ' + l.partidos_perdidos + ' partidos' : ''}</span>
+          </div>
+          <div class="perfil-lesion-fechas">${l.desde || ''} — ${l.hasta || ''}</div>
+          <div class="perfil-lesion-barra-track"><div class="perfil-lesion-barra-fill" style="width:${Math.round(100 * (l.dias_baja || 0) / maxDias)}%"></div></div>
+        </div>
+      `).join('');
+
+      document.getElementById('perfil-contenido').innerHTML = `
+        <div class="perfil-header">
+          <div class="perfil-avatar">${iniciales(j.nombre)}</div>
+          <div>
+            <div class="perfil-nombre">${j.nombre}</div>
+            <div class="perfil-sub">${j.equipo || ''}${perfil.edad != null ? `<span class="punto">·</span>${perfil.edad} años` : ''}${perfil.nacionalidad ? `<span class="punto">·</span>${perfil.nacionalidad}` : ''}</div>
+          </div>
+        </div>
+
+        ${perfil.valor_mercado_texto || perfil.fin_contrato ? `
+        <div class="perfil-vm-card">
+          <div>
+            <div class="perfil-vm-label">Valor de mercado</div>
+            <div class="perfil-vm-cifra">${perfil.valor_mercado_texto || '—'}</div>
+          </div>
+          ${perfil.fin_contrato ? `<div class="perfil-vm-contrato">Contrato hasta<br><b>${perfil.fin_contrato}</b></div>` : ''}
+        </div>` : ''}
+
+        <div class="perfil-seccion-label">Perfil</div>
+        <div class="perfil-datos-grid">
+          ${perfil.fecha_nacimiento ? `<div><div class="perfil-dato-label">Nacimiento</div><div class="perfil-dato-valor">${perfil.fecha_nacimiento}</div></div>` : ''}
+          ${perfil.altura ? `<div><div class="perfil-dato-label">Altura</div><div class="perfil-dato-valor">${perfil.altura}</div></div>` : ''}
+          ${perfil.agente ? `<div><div class="perfil-dato-label">Agente</div><div class="perfil-dato-valor">${perfil.agente}</div></div>` : ''}
+          ${perfil.fecha_llegada_club_actual ? `<div><div class="perfil-dato-label">En el club desde</div><div class="perfil-dato-valor">${perfil.fecha_llegada_club_actual}</div></div>` : ''}
+        </div>
+
+        ${lesiones.length ? `
+        <div class="perfil-seccion-label">Historial de lesiones</div>
+        <div class="perfil-lesion-resumen">
+          <div class="perfil-lesion-resumen-item"><div class="n accent">${perfil.lesiones_registradas ?? lesiones.length}</div><div class="l">lesiones registradas</div></div>
+          <div class="perfil-lesion-resumen-item"><div class="n">${perfil.dias_baja_totales ?? ''}</div><div class="l">días de baja</div></div>
+        </div>
+        ${lesionesHtml}` : ''}
+
+        ${perfil.transfermarkt_url ? `
+        <div class="perfil-fuente-nota">
+          <span>Fuente: Transfermarkt · verificado por equipo</span>
+          <a href="${perfil.transfermarkt_url}" target="_blank" rel="noopener">ver perfil ↗</a>
+        </div>` : ''}
+      `;
+
+      document.getElementById('perfil-scrim').classList.add('abierto');
+      document.getElementById('perfil-drawer').classList.add('abierto');
+    }
+
+    function cerrarPerfilJugador() {
+      document.getElementById('perfil-scrim').classList.remove('abierto');
+      document.getElementById('perfil-drawer').classList.remove('abierto');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') cerrarPerfilJugador();
     });
   </script>
 

@@ -102,6 +102,15 @@ def extraer_competicion(ruta_html, data=None):
     if re.search(r"Major League Soccer \d{4}", contenido):
         return "mls"
 
+    # La Champions League usa el link canonical (slug estable por partido)
+    # en vez de buscar el texto "Champions League" suelto, porque ese texto
+    # tambien aparece en el menu de navegacion de cualquier pagina de
+    # WhoScored (igual que con el Mundial mas abajo) y ademas colisionaria
+    # con la Women's Champions League.
+    m_canonical_cl = re.search(r'canonical"\s+href="[^"]*/matches/\d+/live/([^"?#]+)"', contenido)
+    if m_canonical_cl and re.match(r"europe-champions-league-\d{4}-\d{4}-", m_canonical_cl.group(1).lower()):
+        return "champions_league"
+
     # Nota: el texto "FIFA World Cup" / "FIFA Club World Cup" aparece
     # en el menu de navegacion de CUALQUIER pagina de WhoScored, no
     # solo en partidos de esa competicion. Por eso, si llegamos hasta
@@ -139,6 +148,9 @@ def extraer_temporada(ruta_html):
     m = re.search(r"Major League Soccer (\d{4})", contenido)
     if m:
         return m.group(1)
+    m = re.search(r'canonical"\s+href="[^"]*/matches/\d+/live/europe-champions-league-(\d{4})-(\d{4})-', contenido)
+    if m:
+        return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
     if "World Cup Grp" in contenido or re.search(r"FIFA World Cup 20\d\d", contenido):
         # No asumir el año: leer el mismo link canonical que usa
         # extraer_competicion() para distinguir ediciones del Mundial
@@ -460,6 +472,98 @@ def calcular_tiros(data, lado="home"):
     return tiros_salida
 
 
+DISTANCIA_CORNER_CORTO = 20.0  # distancia recorrida (en unidades de cancha 0-100) por debajo de la cual se considera un corner jugado "en corto" a un companero cercano, no un centro
+ZONA_CAJA_X = 83.0  # borde real del area rival (mismo valor que ZONA_AREA_RIVAL_X en calcular_stats_avanzadas) -- si el balon no cruza esto, no llego al area y no cuenta como centro a un palo
+
+
+def clasificar_zona_corner(x_origen, y_origen, end_x, end_y):
+    """
+    Clasifica el destino de un corner en una de 5 zonas.
+
+    "Corto" = un corner jugado en corto a un companero cercano: poca
+    distancia recorrida desde el banderin (pase tactico real, se queda
+    cerca de donde se pateo).
+
+    "Sin peligro" = viajo una distancia normal (no fue un pase corto)
+    pero NUNCA cruzo la linea del area rival -- ej. un cambio de
+    orientacion largo hacia el lado contrario, o un centro que un
+    defensor corto bien lejos del arco. Distinto de "corto" porque no es
+    un pase tactico cercano, es un balon que se perdio en el camino.
+
+    "Primer palo"/"Centro"/"Segundo palo" solo aplican a corners que SI
+    cruzaron la linea del area, clasificados por el costado de destino
+    (relativo al lado desde donde se pateo, para distinguir primer palo
+    de segundo palo sin importar de que lado vino el corner).
+    """
+    if end_x is None or end_y is None:
+        return "corto"
+
+    if x_origen is not None and y_origen is not None:
+        distancia = ((end_x - x_origen) ** 2 + (end_y - y_origen) ** 2) ** 0.5
+        if distancia < DISTANCIA_CORNER_CORTO:
+            return "corto"
+
+    if end_x < ZONA_CAJA_X:
+        return "sin_peligro"
+
+    lado_corner_derecha = (y_origen or 0) > 50
+    distancia_lado_propio = end_y if lado_corner_derecha else (100 - end_y)
+
+    if distancia_lado_propio > 60:
+        return "primer_palo"
+    if distancia_lado_propio < 40:
+        return "segundo_palo"
+    return "centro"
+
+
+def calcular_corners(data, lado="home"):
+    """
+    Extrae cada corner pateado por el equipo (evento Pass con qualifier
+    "CornerTaken"), con su jugador, minuto, coordenada de destino, y la
+    zona clasificada (primer palo / centro / segundo palo / corto), para
+    poder mostrar hacia donde apunta cada equipo con sus corners.
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+
+    corners_salida = []
+    for ev in eventos:
+        if ev.get("teamId") != team_id:
+            continue
+        if ev["type"]["displayName"] != "Pass":
+            continue
+        qualifiers = {q["type"]["displayName"] for q in ev.get("qualifiers", [])}
+        if "CornerTaken" not in qualifiers:
+            continue
+
+        end_x, end_y = ev.get("endX"), ev.get("endY")
+        x_origen, y_origen = ev.get("x"), ev.get("y")
+        # endY_norm: coordenada de destino "espejada" para que TODOS los
+        # corners se vean como si se hubieran pateado desde el mismo lado
+        # (la derecha). Sin esto, dos corners con la misma zona relativa
+        # (ej. "segundo palo") pero pateados de lados opuestos terminan
+        # dibujados en costados contrarios de la cancha, lo cual es
+        # tecnicamente correcto pero confunde visualmente al lector.
+        lado_derecha = (y_origen or 0) > 50
+        end_y_norm = end_y if (lado_derecha or end_y is None) else (100 - end_y)
+        corners_salida.append({
+            "minuto": ev.get("minute", 0),
+            "jugador": nombres.get(str(ev.get("playerId")), "?"),
+            "x": x_origen,
+            "y": y_origen,
+            "endX": end_x,
+            "endY": end_y,
+            "endYNorm": end_y_norm,
+            "exitoso": ev.get("outcomeType", {}).get("displayName") == "Successful",
+            "zona": clasificar_zona_corner(ev.get("x"), ev.get("y"), end_x, end_y),
+        })
+
+    corners_salida.sort(key=lambda c: c["minuto"])
+    return corners_salida
+
+
 def calcular_recepcion_pases(data, lado="home", solo_titulares=True):
     """
     Para cada jugador, calcula todos los puntos donde recibio un pase
@@ -607,6 +711,171 @@ def calcular_acciones(data, lado="home", solo_titulares=True):
     return list(acciones_por_jugador.values())
 
 
+def calcular_minutos_jugados(data, lado="home"):
+    """
+    Minutos jugados por cada jugador de un equipo, usando isFirstEleven
+    (arranca en el minuto 0) + eventos SubstitutionOn/SubstitutionOff + el
+    minuto del ultimo evento de juego real (excluyendo la tanda de penales,
+    que no es tiempo jugado en cancha) como limite para los que no salieron.
+
+    No se usa data["maxMinute"] directo porque en partidos que van a
+    penales ese valor puede incluir el minuto del ultimo tiro de la tanda,
+    inflando levemente los minutos jugados de quienes siguieron en cancha.
+    """
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+    eventos_juego_real = [
+        ev for ev in data["events"]
+        if ev.get("period", {}).get("displayName") != "PenaltyShootout"
+    ]
+    fin_partido = max(
+        (ev.get("minute", 0) for ev in eventos_juego_real),
+        default=data.get("maxMinute", 90),
+    )
+
+    entra = {}
+    sale = {}
+    for ev in data["events"]:
+        if ev.get("teamId") != team_id:
+            continue
+        tipo = ev["type"]["displayName"]
+        pid = ev.get("playerId")
+        if pid is None:
+            continue
+        if tipo == "SubstitutionOn":
+            entra[pid] = ev.get("minute", 0)
+        elif tipo == "SubstitutionOff":
+            sale[pid] = ev.get("minute", 0)
+
+    minutos = {}
+    for p in equipo["players"]:
+        pid = p["playerId"]
+        inicio = 0 if p.get("isFirstEleven") else entra.get(pid)
+        if inicio is None:
+            minutos[pid] = 0
+            continue
+        fin = sale.get(pid, fin_partido)
+        minutos[pid] = max(0, fin - inicio)
+    return minutos
+
+
+def calcular_stats_avanzadas(data, lado="home", solo_titulares=False):
+    """
+    Extrae, por jugador, las metricas necesarias para el ranking/percentil
+    entre jugadores de un mismo torneo+temporada: goles, asistencias, tiros,
+    tiros al arco, regates exitosos, chances creadas (key passes), big
+    chances creadas, chances de open play, cruces exitosos, pases filtrados
+    (through balls) exitosos, paredes/lay-offs exitosos, corners sacados,
+    toques en el area rival, rating final, MOTM y minutos jugados (para
+    poder calcular tasas por 90 despues).
+
+    Nota sobre "fouls won": el playerId de un evento Foul en WhoScored es
+    quien LA COMETE, no quien la sufre -- por eso no se incluye faltas
+    recibidas aca (quedaria invertido). Se puede sumar mas adelante si se
+    confirma con un caso de prueba especifico.
+    """
+    eventos = data["events"]
+    nombres = data["playerIdNameDictionary"]
+    equipo = data[lado]
+    team_id = equipo["teamId"]
+    minutos_por_jugador = calcular_minutos_jugados(data, lado=lado)
+
+    if solo_titulares:
+        jugadores_validos = {p["playerId"]: p for p in equipo["players"] if p.get("isFirstEleven")}
+    else:
+        jugadores_validos = {p["playerId"]: p for p in equipo["players"]}
+
+    ZONA_AREA_RIVAL_X = 83.0
+    ZONA_AREA_RIVAL_Y_MIN = 21.1
+    ZONA_AREA_RIVAL_Y_MAX = 78.9
+
+    stats = {}
+    for pid, info in jugadores_validos.items():
+        stats[pid] = {
+            "id": pid,
+            "nombre": nombres.get(str(pid), info.get("name", "?")),
+            "goles": 0,
+            "asistencias": 0,
+            "tiros": 0,
+            "tiros_al_arco": 0,
+            "regates_exitosos": 0,
+            "chances_creadas": 0,
+            "big_chances_creadas": 0,
+            "chances_open_play": 0,
+            "cruces_exitosos": 0,
+            "through_balls_exitosos": 0,
+            "layoffs_exitosos": 0,
+            "corners_sacados": 0,
+            "toques_area_rival": 0,
+            "rating": None,
+            "motm": bool(info.get("isManOfTheMatch")),
+            "minutos_jugados": minutos_por_jugador.get(pid, 0),
+        }
+
+    tipos_tiro = {"MissedShots", "SavedShot", "ShotOnPost", "Goal"}
+    tipos_al_arco = {"SavedShot", "Goal"}
+
+    for ev in eventos:
+        if ev.get("teamId") != team_id:
+            continue
+        if ev.get("period", {}).get("displayName") == "PenaltyShootout":
+            # Los tiros de la tanda de penales no son estadisticas reales
+            # de partido (goles, tiros, etc.) -- por eso se excluyen aca,
+            # igual que ya excluye el resto del pipeline (ver comentario
+            # de "esPenales" en index.html).
+            continue
+        pid = ev.get("playerId")
+        if pid not in stats:
+            continue
+        tipo = ev["type"]["displayName"]
+        exitoso = ev.get("outcomeType", {}).get("displayName") == "Successful"
+        qualifiers = {q["type"]["displayName"] for q in ev.get("qualifiers", [])}
+
+        if tipo in tipos_tiro:
+            stats[pid]["tiros"] += 1
+        if tipo in tipos_al_arco:
+            stats[pid]["tiros_al_arco"] += 1
+        if tipo == "Goal":
+            stats[pid]["goles"] += 1
+            related_pid = ev.get("relatedPlayerId")
+            if related_pid in stats and ("Assisted" in qualifiers or "IntentionalAssist" in qualifiers):
+                stats[related_pid]["asistencias"] += 1
+        if tipo == "TakeOn" and exitoso:
+            stats[pid]["regates_exitosos"] += 1
+        if tipo == "Pass":
+            if "KeyPass" in qualifiers:
+                stats[pid]["chances_creadas"] += 1
+                if "SetPiece" not in qualifiers and "FromCorner" not in qualifiers and "FreekickTaken" not in qualifiers:
+                    stats[pid]["chances_open_play"] += 1
+            if "BigChanceCreated" in qualifiers:
+                stats[pid]["big_chances_creadas"] += 1
+            if "Cross" in qualifiers and exitoso:
+                stats[pid]["cruces_exitosos"] += 1
+            if "Throughball" in qualifiers and exitoso:
+                stats[pid]["through_balls_exitosos"] += 1
+            if "LayOff" in qualifiers and exitoso:
+                stats[pid]["layoffs_exitosos"] += 1
+            if "CornerTaken" in qualifiers:
+                stats[pid]["corners_sacados"] += 1
+        if ev.get("isTouch") and "x" in ev and "y" in ev:
+            if ev["x"] >= ZONA_AREA_RIVAL_X and ZONA_AREA_RIVAL_Y_MIN <= ev["y"] <= ZONA_AREA_RIVAL_Y_MAX:
+                stats[pid]["toques_area_rival"] += 1
+
+    for p in equipo["players"]:
+        pid = p["playerId"]
+        if pid not in stats:
+            continue
+        ratings = ((p.get("stats") or {}).get("ratings")) or {}
+        if ratings:
+            ultimo_minuto = max(ratings.keys(), key=lambda k: float(k))
+            try:
+                stats[pid]["rating"] = round(float(ratings[ultimo_minuto]), 2)
+            except (TypeError, ValueError):
+                pass
+
+    return list(stats.values())
+
+
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
@@ -628,12 +897,16 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
     away_datos["estadisticas"] = calcular_estadisticas(data, lado="away")
     home_datos["tiros"] = calcular_tiros(data, lado="home")
     away_datos["tiros"] = calcular_tiros(data, lado="away")
+    home_datos["corners"] = calcular_corners(data, lado="home")
+    away_datos["corners"] = calcular_corners(data, lado="away")
     home_datos["acciones"] = calcular_acciones(data, lado="home", solo_titulares=False)
     away_datos["acciones"] = calcular_acciones(data, lado="away", solo_titulares=False)
     home_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="home", solo_titulares=False)
     away_datos["recepcion_pases"] = calcular_recepcion_pases(data, lado="away", solo_titulares=False)
     home_datos["alineacion"] = calcular_alineacion(data, lado="home")
     away_datos["alineacion"] = calcular_alineacion(data, lado="away")
+    home_datos["stats_avanzadas"] = calcular_stats_avanzadas(data, lado="home")
+    away_datos["stats_avanzadas"] = calcular_stats_avanzadas(data, lado="away")
 
     nombre_estadio = data.get("venueName")
     resultado = {

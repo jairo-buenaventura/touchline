@@ -1543,8 +1543,14 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
     Momentumdf['average_xT'].fillna(0, inplace=True)
 
     def plot_Momentum(ax):
-      # Establecer colores basados en valores positivos o negativos
-      colors = [hcol if x > 0 else acol for x in Momentumdf['average_xT']]
+      # Rellenar minutos sin eventos con 0 y suavizar con una media movil
+      # corta, para que el momentum se vea como una onda continua en vez
+      # de barras sueltas por minuto (estilo "Game Control Index").
+      minuto_max = int(Momentumdf['minute'].max())
+      serie = Momentumdf.set_index('minute')['average_xT'].reindex(range(0, minuto_max + 1), fill_value=0)
+      suave = serie.rolling(3, center=True, min_periods=1).mean()
+      minutos_plot = suave.index.to_numpy()
+      valores_plot = suave.to_numpy()
 
       # hacer una lista de los minutos en los que se marcan los goles
       hgoal_list = homedf[(homedf['type'] == 'Goal') & (~homedf['qualifiers'].astype(str).str.contains('OwnGoal'))]['minute'].tolist()
@@ -1553,8 +1559,8 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
       aog_list = awaydf[(awaydf['type'] == 'Goal') & (awaydf['qualifiers'].astype(str).str.contains('OwnGoal'))]['minute'].tolist()
 
       # trazar dibujo de balón cuando se marcan goles
-      highest_xT = Momentumdf['average_xT'].max()
-      lowest_xT = Momentumdf['average_xT'].min()
+      highest_xT = valores_plot.max()
+      lowest_xT = valores_plot.min()
       highest_minute = Momentumdf['minute'].max()
       hscatter_y = [highest_xT]*len(hgoal_list)
       ascatter_y = [lowest_xT]*len(agoal_list)
@@ -1566,8 +1572,10 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
       ax.scatter(hog_list, aogscatter_y, s=250, c='None', edgecolor='orange', hatch='////', marker='o')
       ax.scatter(aog_list, hogscatter_y, s=250, c='None', edgecolor='orange', hatch='////', marker='o')
 
-      # Creando el diagrama de barras
-      ax.bar(Momentumdf['minute'], Momentumdf['average_xT'], color=colors)
+      # area continua en vez de barras: relleno arriba/abajo del cero
+      ax.fill_between(minutos_plot, valores_plot, 0, where=(valores_plot >= 0), color=hcol, interpolate=True, alpha=0.85)
+      ax.fill_between(minutos_plot, valores_plot, 0, where=(valores_plot <= 0), color=acol, interpolate=True, alpha=0.85)
+      ax.plot(minutos_plot, valores_plot, color=line_color, linewidth=1, alpha=0.6)
       ax.axvline(45, color='gray', linewidth=2, linestyle='dashed')
       ax.set_facecolor(bg_color)
       # Ocultar espinas

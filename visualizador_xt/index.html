@@ -253,20 +253,34 @@ function xDe(i) {
   return (i / (minutos - 1)) * anchoSvg;
 }
 
-let dArriba = `M0,${medioY}`;
-let dAbajo = `M0,${medioY}`;
-diffAcumulado.forEach((v, i) => {
-  const x = xDe(i);
-  const y = yDe(v);
-  dArriba += ` L${x},${v >= 0 ? y : medioY}`;
-  dAbajo += ` L${x},${v < 0 ? y : medioY}`;
-});
-dArriba += ` L${anchoSvg},${medioY} Z`;
-dAbajo += ` L${anchoSvg},${medioY} Z`;
+// Curva suave (Catmull-Rom -> Bezier) por los mismos puntos, en vez de
+// segmentos rectos, para que el xT se vea como una onda continua.
+const puntos = diffAcumulado.map((v, i) => [xDe(i), yDe(v)]);
+function segmentosSuaves(pts) {
+  let seg = "";
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i === 0 ? 0 : i - 1];
+    const p1 = pts[i];
+    const p2 = pts[i + 1];
+    const p3 = pts[i + 2 < pts.length ? i + 2 : i + 1];
+    const c1x = p1[0] + (p2[0] - p0[0]) / 6;
+    const c1y = p1[1] + (p2[1] - p0[1]) / 6;
+    const c2x = p2[0] - (p3[0] - p1[0]) / 6;
+    const c2y = p2[1] - (p3[1] - p1[1]) / 6;
+    seg += ` C${c1x},${c1y} ${c2x},${c2y} ${p2[0]},${p2[1]}`;
+  }
+  return seg;
+}
+const segmentos = segmentosSuaves(puntos);
+const curva = `M${puntos[0][0]},${puntos[0][1]}${segmentos}`;
+const area = `M0,${medioY} L${puntos[0][0]},${puntos[0][1]}${segmentos} L${anchoSvg},${medioY} Z`;
 
 svg.innerHTML = `
-  <path d="${dArriba}" fill="var(--home)" opacity="0.55"></path>
-  <path d="${dAbajo}" fill="var(--away)" opacity="0.55"></path>
+  <clipPath id="clip-arriba"><rect x="0" y="0" width="${anchoSvg}" height="${medioY}"></rect></clipPath>
+  <clipPath id="clip-abajo"><rect x="0" y="${medioY}" width="${anchoSvg}" height="${altoSvg - medioY}"></rect></clipPath>
+  <path d="${area}" fill="var(--home)" opacity="0.55" clip-path="url(#clip-arriba)"></path>
+  <path d="${area}" fill="var(--away)" opacity="0.55" clip-path="url(#clip-abajo)"></path>
+  <path d="${curva}" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"></path>
   <line x1="0" y1="${medioY}" x2="${anchoSvg}" y2="${medioY}" stroke="rgba(255,255,255,.2)" stroke-width="1"></line>
   <line id="aguja" x1="0" y1="0" x2="0" y2="${altoSvg}" stroke="#fff" stroke-width="1.5"></line>
 `;
