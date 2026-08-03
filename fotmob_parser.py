@@ -203,6 +203,7 @@ def normalizar(nombre):
     base = base.replace("brighton & hove albion", "brighton")
     base = base.replace("brighton and hove albion", "brighton")
     base = base.replace("leeds united", "leeds")
+    base = base.replace("leicester city", "leicester")
     base = base.replace("manchester city", "man city")
     base = base.replace("manchester united", "man utd")
     base = base.replace("newcastle united", "newcastle")
@@ -228,6 +229,7 @@ def normalizar(nombre):
     base = base.replace("wolverhampton wanderers", "wolves")
     base = base.replace("vfl bochum", "bochum")
     base = base.replace("sv darmstadt", "darmstadt")
+    base = base.replace("hertha bsc", "hertha berlin")
     # Igual, pero para la Premier League 2023/24 (Luton, ascendido esa temporada).
     base = base.replace("luton town", "luton")
     # Igual, pero para la Serie A (Verona juega como "Hellas Verona").
