@@ -1054,11 +1054,13 @@
         <div style="text-align:right;">
           <button id="btn-guardar-partido" onclick="alternarGuardado()" style="background:none; border:1px solid #ddd; border-radius:6px; padding:4px 10px; font-size:11px; font-weight:600; color:#1a1a1a; cursor:pointer; margin-bottom:4px;">☆ Guardar</button>
           <div id="last-updated" style="font-size:11px; color:#999;">Last Updated: <span id="fecha-actualizacion"></span></div>
-          <div id="disclaimer-toggle" onclick="toggleDisclaimer()" style="font-size:11px; color:#1a1a1a; cursor:pointer; margin-top:2px;">ℹ Disclaimer & Info ▾</div>
+          <div id="disclaimer-toggle" onclick="toggleDisclaimer()" style="font-size:11px; color:#1a1a1a; cursor:pointer; margin-top:2px; display:flex; align-items:center; justify-content:flex-end; gap:4px;"><span style="font-size:18px; line-height:1;">ℹ</span><span>Disclaimer & Info <span id="disclaimer-arrow">▾</span></span></div>
         </div>
       </div>
       <div id="disclaimer-box" style="display:none; background:#f5f5f3; border-radius:8px; padding:0.75rem 1rem; font-size:12px; color:#555; margin-bottom:1rem; line-height:1.6;">
         All data comes from WhoScored & FotMob. You are allowed to share images from this app on your socials, websites, videos, etc. Please give credit and do not remove watermarks. Thank you!
+        <br><br>
+        A few matches are missing detailed event data straight from the source (WhoScored), so Passing network, Action map, Pass receiving and Corners aren't available for those specific games. Everything else still shows up fine, filled in from another source.
       </div>
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
         <div id="encabezado-partido" style="font-size:12px; color:#999;"></div>
@@ -1853,13 +1855,13 @@
 
     function toggleDisclaimer() {
       const box = document.getElementById('disclaimer-box');
-      const toggle = document.getElementById('disclaimer-toggle');
+      const arrow = document.getElementById('disclaimer-arrow');
       if (box.style.display === 'none') {
         box.style.display = 'block';
-        toggle.textContent = 'ℹ Disclaimer & Info ▴';
+        arrow.textContent = '▴';
       } else {
         box.style.display = 'none';
-        toggle.textContent = 'ℹ Disclaimer & Info ▾';
+        arrow.textContent = '▾';
       }
     }
 

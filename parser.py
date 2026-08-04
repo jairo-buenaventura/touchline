@@ -26,6 +26,7 @@ from pathlib import Path
 
 from capacidades_estadios import CAPACIDADES
 import fotmob_parser
+import sofascore_parser
 
 # WhoScored a veces usa nombres cortos internos que no coinciden con el
 # archivo de escudo en escudos/ (que usa el nombre completo del club).
@@ -888,8 +889,8 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
         return None
 
     if not isinstance(data, dict):
-        print(f"  [ERROR] {ruta_html.name}: matchCentreData vino vacio (WhoScored no tiene datos detallados de este partido)")
-        return None
+        print(f"  [SIN DATOS] {ruta_html.name}: matchCentreData vino vacio (WhoScored no tiene datos detallados de este partido) -- se intentara rescatar con Sofascore")
+        return "SIN_DATOS"
 
     home_datos = calcular_posiciones_y_pases(data, lado="home")
     away_datos = calcular_posiciones_y_pases(data, lado="away")
@@ -967,10 +968,30 @@ def main():
     print(f"Procesando {len(archivos_html)} archivo(s) de '{carpeta_html}'...\n")
 
     resumenes = []
+    candidatos_sofascore = []
     for ruta_html in archivos_html:
         resumen = procesar_un_archivo(ruta_html, carpeta_salida)
-        if resumen is not None:
+        if resumen == "SIN_DATOS":
+            candidatos_sofascore.append({
+                "ruta_html": ruta_html,
+                "liga": extraer_competicion(ruta_html),
+                "temporada": extraer_temporada(ruta_html),
+            })
+        elif resumen is not None:
             resumenes.append(resumen)
+
+    if candidatos_sofascore:
+        print(f"\nIntentando rescatar {len(candidatos_sofascore)} partido(s) sin datos de WhoScored via Sofascore...\n")
+        try:
+            resumenes_rescatados = sofascore_parser.rescatar_partidos(candidatos_sofascore, carpeta_salida)
+        except Exception as e:
+            # El rescate con Sofascore es un complemento, no puede
+            # dejar sin correr lo que sigue (lista.json, indice de
+            # jugadores, fusion de FotMob) si falla por lo que sea.
+            print(f"[Sofascore] [ERROR GENERAL] {e}")
+            resumenes_rescatados = []
+        resumenes.extend(resumenes_rescatados)
+        print(f"\nRescatados {len(resumenes_rescatados)}/{len(candidatos_sofascore)} partido(s) via Sofascore.")
 
     por_grupo = defaultdict(list)
     for r in resumenes:
