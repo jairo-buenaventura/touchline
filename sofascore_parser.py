@@ -57,6 +57,8 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
+import fotmob_parser
+
 DEMORA_ENTRE_PARTIDOS = 1.5
 
 
@@ -568,8 +570,11 @@ def _rescatar_con_pagina(page, candidatos, carpeta_salida, silencioso):
             time.sleep(DEMORA_ENTRE_PARTIDOS)
             continue
 
-        ruta_salida = carpeta_salida / resumen["archivo"]
+        subcarpeta = carpeta_salida / fotmob_parser.carpeta_liga(resumen["competicion"]) / fotmob_parser.carpeta_temporada(resumen["temporada"])
+        subcarpeta.mkdir(parents=True, exist_ok=True)
+        ruta_salida = subcarpeta / resumen["archivo"]
         ruta_salida.write_text(json.dumps(resultado, ensure_ascii=False, indent=2), encoding="utf-8")
+        resumen["archivo"] = str(ruta_salida.relative_to(carpeta_salida))
         resumenes.append(resumen)
         if not silencioso:
             print(f"{etiqueta} -> [OK] rescatado ({resultado['marcador']})")

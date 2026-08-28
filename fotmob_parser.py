@@ -14,6 +14,42 @@ import re
 from pathlib import Path
 
 
+# Mapeo slug de competicion (el que devuelve parser.extraer_competicion) ->
+# nombre de carpeta dentro de data/. Vive aca (no en parser.py) para que
+# tanto parser.py como sofascore_parser.py lo puedan importar sin import
+# circular (parser.py ya importa este modulo).
+CARPETA_POR_LIGA = {
+    "la_liga": "LaLiga",
+    "premier_league": "Premier League",
+    "bundesliga": "Bundesliga",
+    "ligue_1": "Ligue 1",
+    "serie_a": "Serie A",
+    "eredivisie": "Eredivisie",
+    "mls": "MLS",
+    "champions_league": "Champions League",
+    "world_cup": "FIFA World Cup",
+    "club_world_cup": "FIFA Club World Cup",
+}
+
+
+def carpeta_liga(competicion):
+    return CARPETA_POR_LIGA.get(competicion, "Otro")
+
+
+def carpeta_temporada(temporada):
+    """
+    "23/24" (formato corto que usa parser.extraer_temporada) -> "2023-2024"
+    (formato de carpeta ya usado en data/). Las competiciones de un solo
+    año (MLS, Mundial) ya vienen en el formato final, se devuelven tal cual.
+    """
+    if not temporada:
+        return "sin_temporada"
+    m = re.match(r"^(\d{2})/(\d{2})$", temporada)
+    if m:
+        return f"20{m.group(1)}-20{m.group(2)}"
+    return temporada
+
+
 def extraer_datos_fotmob(ruta_html):
     """
     Lee un HTML guardado desde el navegador (con Cmd+S) y extrae los
@@ -263,9 +299,29 @@ def _liga_de(nombre):
     return None
 
 
+# Archivos de indices/metadata que viven dentro de data/ pero NO son
+# partidos (ver CLAUDE.md) -- data/ ahora tiene ademas subcarpetas por
+# liga/temporada (ej. data/Serie A/2022-2023/*.json), asi que la busqueda
+# de candidatos tiene que ser recursiva y filtrar tanto estos nombres
+# como las subcarpetas corners/ y leaders/ (agregados por otros scripts,
+# no son partidos tampoco).
+_ARCHIVOS_NO_PARTIDO = {"lista.json", "jugadores.json", "perfiles_jugadores.json"}
+_CARPETAS_NO_PARTIDO = {"corners", "leaders"}
+
+
+def listar_jsons_de_partidos(carpeta_data):
+    candidatos = []
+    for c in carpeta_data.rglob("*.json"):
+        if c.name in _ARCHIVOS_NO_PARTIDO:
+            continue
+        if set(p.name for p in c.relative_to(carpeta_data).parents) & _CARPETAS_NO_PARTIDO:
+            continue
+        candidatos.append(c)
+    return candidatos
+
+
 def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None):
-    candidatos = list(carpeta_data.glob("*.json"))
-    candidatos = [c for c in candidatos if c.name != "lista.json"]
+    candidatos = listar_jsons_de_partidos(carpeta_data)
 
     # Estrategia 1: coincidencia EXACTA quitando el sufijo _FotMob.
     if nombre_html_stem:

@@ -23,6 +23,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+import fotmob_parser
+
 DATA_DIR = Path("data")
 SALIDA_DIR = DATA_DIR / "leaders"
 UMBRAL_MINUTOS_POR90 = 450  # ~5 partidos completos, estandar tipo FBref
@@ -36,9 +38,7 @@ CATEGORIAS = [
 
 
 def cargar_partidos():
-    for f in DATA_DIR.glob("*.json"):
-        if f.name in ("lista.json", "jugadores.json"):
-            continue
+    for f in fotmob_parser.listar_jsons_de_partidos(DATA_DIR):
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
         except Exception:

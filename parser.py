@@ -923,18 +923,21 @@ def procesar_un_archivo(ruta_html, carpeta_salida):
 
     nombre_base = ruta_html.stem
     nombre_json = f"{nombre_base}.json"
-    ruta_salida = carpeta_salida / nombre_json
+    subcarpeta = carpeta_salida / fotmob_parser.carpeta_liga(resultado["competicion"]) / fotmob_parser.carpeta_temporada(resultado["temporada"])
+    subcarpeta.mkdir(parents=True, exist_ok=True)
+    ruta_salida = subcarpeta / nombre_json
+    archivo_relativo = str(ruta_salida.relative_to(carpeta_salida))
 
     ruta_salida.write_text(
         json.dumps(resultado, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    print(f"  [OK] {ruta_html.name} -> {ruta_salida.name}")
+    print(f"  [OK] {ruta_html.name} -> {archivo_relativo}")
     print(f"       {resultado['home']['equipo']} {resultado['marcador']} {resultado['away']['equipo']}")
 
     return {
-        "archivo": nombre_json,
+        "archivo": archivo_relativo,
         "home": resultado["home"]["equipo"],
         "away": resultado["away"]["equipo"],
         "marcador": resultado["marcador"],
@@ -960,9 +963,15 @@ def main():
         print(f"No existe la carpeta '{carpeta_html}'. Creala y pon ahi tus archivos HTML.")
         sys.exit(1)
 
-    archivos_html = sorted(carpeta_html.glob("*.html"))
+    # El HTML crudo de temporadas historicas vive plano en partidos_html/,
+    # pero desde la reorganizacion de data/ en subcarpetas por liga/temporada,
+    # el HTML de partidos nuevos se guarda junto a su JSON dentro de data/
+    # (ver CLAUDE.md). Hay que barrer ambos lugares o esos partidos dejarian
+    # de reprocesarse en cada corrida y se caerian de lista.json/jugadores.json
+    # (bug real: paso la primera vez que se movio HTML nuevo a data/).
+    archivos_html = sorted(carpeta_html.glob("*.html")) + sorted(carpeta_salida.rglob("*.html"))
     if not archivos_html:
-        print(f"No hay archivos .html dentro de '{carpeta_html}'.")
+        print(f"No hay archivos .html dentro de '{carpeta_html}' ni de '{carpeta_salida}'.")
         sys.exit(1)
 
     print(f"Procesando {len(archivos_html)} archivo(s) de '{carpeta_html}'...\n")
@@ -1041,9 +1050,7 @@ def construir_indice_jugadores(carpeta_salida, resumenes):
     fecha_por_archivo = {r["archivo"]: r.get("fecha") for r in resumenes if r.get("archivo")}
 
     jugadores = {}
-    for ruta_json in sorted(carpeta_salida.glob("*.json")):
-        if ruta_json.name in ("lista.json", "jugadores.json"):
-            continue
+    for ruta_json in sorted(fotmob_parser.listar_jsons_de_partidos(carpeta_salida)):
         try:
             partido = json.loads(ruta_json.read_text(encoding="utf-8"))
         except Exception:
@@ -1071,15 +1078,16 @@ def construir_indice_jugadores(carpeta_salida, resumenes):
                     if not es_titular and jid not in ids_con_datos:
                         continue
                     jid = str(jid)
+                    archivo_relativo = str(ruta_json.relative_to(carpeta_salida))
                     entrada = jugadores.setdefault(jid, {"nombre": nombre, "apariciones": []})
                     entrada["apariciones"].append({
-                        "archivo": ruta_json.name,
+                        "archivo": archivo_relativo,
                         "equipo": equipo_nombre,
                         "liga": partido.get("competicion"),
                         "temporada": partido.get("temporada"),
                         "dorsal": j.get("dorsal"),
                         "titular": es_titular,
-                        "fecha": fecha_por_archivo.get(ruta_json.name),
+                        "fecha": fecha_por_archivo.get(archivo_relativo),
                     })
 
     lista_jugadores = []
