@@ -1,18 +1,18 @@
 {
   "Le Mans": {
     "equipo": "Le Mans",
-    "partidos": 1,
-    "total_corners": 1,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 1,
-    "centro_pct": 100.0,
+    "partidos": 5,
+    "total_corners": 13,
+    "primer_palo": 2,
+    "primer_palo_pct": 15.4,
+    "centro": 8,
+    "centro_pct": 61.5,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "corto": 2,
+    "corto_pct": 15.4,
+    "sin_peligro": 1,
+    "sin_peligro_pct": 7.7,
     "detalle": [
       {
         "endX": 91.0,
@@ -20,21 +20,105 @@
         "zona": "centro",
         "jugador": "Billal Brahimi",
         "minuto": 72
+      },
+      {
+        "endX": 80.9,
+        "endYNorm": 50.1,
+        "zona": "sin_peligro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 8
+      },
+      {
+        "endX": 91.9,
+        "endYNorm": 51.9,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 41
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 51.7,
+        "zona": "centro",
+        "jugador": "Lucas Bretelle",
+        "minuto": 56
+      },
+      {
+        "endX": 88.8,
+        "endYNorm": 52.8,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 9
+      },
+      {
+        "endX": 89.0,
+        "endYNorm": 93.1,
+        "zona": "corto",
+        "jugador": "Lucas Calodat",
+        "minuto": 15
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 57.7,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 31
+      },
+      {
+        "endX": 89.7,
+        "endYNorm": 53.2,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 49
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 57.7,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 50
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 50.2,
+        "zona": "centro",
+        "jugador": "Alexandre Lauray",
+        "minuto": 66
+      },
+      {
+        "endX": 94.2,
+        "endYNorm": 63.1,
+        "zona": "primer_palo",
+        "jugador": "Lucas Bretelle",
+        "minuto": 20
+      },
+      {
+        "endX": 91.6,
+        "endYNorm": 61.9,
+        "zona": "primer_palo",
+        "jugador": "Jean Vercruysse",
+        "minuto": 27
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 95.2,
+        "zona": "corto",
+        "jugador": "Lucas Calodat",
+        "minuto": 74
       }
     ]
   },
   "Brest": {
     "equipo": "Brest",
-    "partidos": 1,
-    "total_corners": 10,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 10,
-    "centro_pct": 100.0,
+    "partidos": 5,
+    "total_corners": 28,
+    "primer_palo": 5,
+    "primer_palo_pct": 17.9,
+    "centro": 22,
+    "centro_pct": 78.6,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
+    "corto": 1,
+    "corto_pct": 3.6,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -107,23 +191,519 @@
         "zona": "centro",
         "jugador": "Joris Chotard",
         "minuto": 96
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 51.7,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 19
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 52.0,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 41
+      },
+      {
+        "endX": 88.7,
+        "endYNorm": 45.0,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 65
+      },
+      {
+        "endX": 89.9,
+        "endYNorm": 44.2,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 80
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 96.5,
+        "zona": "corto",
+        "jugador": "Joris Chotard",
+        "minuto": 93
+      },
+      {
+        "endX": 94.2,
+        "endYNorm": 57.3,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 15
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 51.2,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 17
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 61.1,
+        "zona": "primer_palo",
+        "jugador": "Joris Chotard",
+        "minuto": 43
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 64.6,
+        "zona": "primer_palo",
+        "jugador": "Joris Chotard",
+        "minuto": 71
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 43.2,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 74
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 40.6,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 83
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 51.5,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 90
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 60.4,
+        "zona": "primer_palo",
+        "jugador": "Joris Chotard",
+        "minuto": 7
+      },
+      {
+        "endX": 90.3,
+        "endYNorm": 66.4,
+        "zona": "primer_palo",
+        "jugador": "Giovani Versini",
+        "minuto": 16
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 53.4,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 62
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 54.4,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 37
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Joris Chotard",
+        "minuto": 61
+      },
+      {
+        "endX": 92.2,
+        "endYNorm": 63.0,
+        "zona": "primer_palo",
+        "jugador": "Joseph Nonge",
+        "minuto": 87
+      }
+    ]
+  },
+  "Rennes": {
+    "equipo": "Rennes",
+    "partidos": 5,
+    "total_corners": 25,
+    "primer_palo": 3,
+    "primer_palo_pct": 12.0,
+    "centro": 18,
+    "centro_pct": 72.0,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 12.0,
+    "corto": 0,
+    "corto_pct": 0.0,
+    "sin_peligro": 1,
+    "sin_peligro_pct": 4.0,
+    "detalle": [
+      {
+        "endX": 92.4,
+        "endYNorm": 63.4,
+        "zona": "primer_palo",
+        "jugador": "Adrien Thomasson",
+        "minuto": 0
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 50.7,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 40
+      },
+      {
+        "endX": 88.0,
+        "endYNorm": 39.1,
+        "zona": "segundo_palo",
+        "jugador": "Adrien Thomasson",
+        "minuto": 62
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 47.6,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 3
+      },
+      {
+        "endX": 93.9,
+        "endYNorm": 56.9,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 8
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 44.6,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 14
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 7.4,
+        "zona": "segundo_palo",
+        "jugador": "Adrien Thomasson",
+        "minuto": 24
+      },
+      {
+        "endX": 87.3,
+        "endYNorm": 42.8,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 46
+      },
+      {
+        "endX": 78.3,
+        "endYNorm": 86.5,
+        "zona": "sin_peligro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 69
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 46.6,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 70
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 61.1,
+        "zona": "primer_palo",
+        "jugador": "Adrien Thomasson",
+        "minuto": 91
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 56.9,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 8
+      },
+      {
+        "endX": 90.4,
+        "endYNorm": 48.2,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 10
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 49.5,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 34
+      },
+      {
+        "endX": 91.5,
+        "endYNorm": 54.0,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 38
+      },
+      {
+        "endX": 90.0,
+        "endYNorm": 57.8,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 44
+      },
+      {
+        "endX": 89.5,
+        "endYNorm": 58.8,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 45
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 47.7,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 58
+      },
+      {
+        "endX": 90.0,
+        "endYNorm": 57.6,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 63
+      },
+      {
+        "endX": 83.5,
+        "endYNorm": 25.6,
+        "zona": "segundo_palo",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 51
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 58.2,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 53
+      },
+      {
+        "endX": 89.7,
+        "endYNorm": 47.5,
+        "zona": "centro",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 56
+      },
+      {
+        "endX": 87.5,
+        "endYNorm": 62.4,
+        "zona": "primer_palo",
+        "jugador": "Sebastian Szymanski",
+        "minuto": 60
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 52.9,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 80
+      },
+      {
+        "endX": 91.5,
+        "endYNorm": 51.5,
+        "zona": "centro",
+        "jugador": "Adrien Thomasson",
+        "minuto": 86
+      }
+    ]
+  },
+  "Marseille": {
+    "equipo": "Marseille",
+    "partidos": 5,
+    "total_corners": 23,
+    "primer_palo": 3,
+    "primer_palo_pct": 13.0,
+    "centro": 14,
+    "centro_pct": 60.9,
+    "segundo_palo": 2,
+    "segundo_palo_pct": 8.7,
+    "corto": 1,
+    "corto_pct": 4.3,
+    "sin_peligro": 3,
+    "sin_peligro_pct": 13.0,
+    "detalle": [
+      {
+        "endX": 90.6,
+        "endYNorm": 55.5,
+        "zona": "centro",
+        "jugador": "Igor Paixão",
+        "minuto": 31
+      },
+      {
+        "endX": 91.4,
+        "endYNorm": 41.3,
+        "zona": "centro",
+        "jugador": "Emerson",
+        "minuto": 31
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Amine Harit",
+        "minuto": 72
+      },
+      {
+        "endX": 84.3,
+        "endYNorm": 38.8,
+        "zona": "segundo_palo",
+        "jugador": "Emerson",
+        "minuto": 80
+      },
+      {
+        "endX": 90.3,
+        "endYNorm": 47.2,
+        "zona": "centro",
+        "jugador": "Amine Harit",
+        "minuto": 92
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 52.0,
+        "zona": "centro",
+        "jugador": "Emerson",
+        "minuto": 33
+      },
+      {
+        "endX": 76.6,
+        "endYNorm": 85.1,
+        "zona": "sin_peligro",
+        "jugador": "Igor Paixão",
+        "minuto": 42
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 52.9,
+        "zona": "centro",
+        "jugador": "Angel Gomes",
+        "minuto": 42
+      },
+      {
+        "endX": 78.2,
+        "endYNorm": 72.7,
+        "zona": "sin_peligro",
+        "jugador": "Igor Paixão",
+        "minuto": 9
+      },
+      {
+        "endX": 80.8,
+        "endYNorm": 77.6,
+        "zona": "sin_peligro",
+        "jugador": "Igor Paixão",
+        "minuto": 9
+      },
+      {
+        "endX": 85.9,
+        "endYNorm": 93.4,
+        "zona": "corto",
+        "jugador": "Angel Gomes",
+        "minuto": 29
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 58.4,
+        "zona": "centro",
+        "jugador": "Igor Paixão",
+        "minuto": 70
+      },
+      {
+        "endX": 91.8,
+        "endYNorm": 44.7,
+        "zona": "centro",
+        "jugador": "Keyliane Abdallah",
+        "minuto": 76
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 37.8,
+        "zona": "segundo_palo",
+        "jugador": "Angel Gomes",
+        "minuto": 32
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 57.5,
+        "zona": "centro",
+        "jugador": "Keyliane Abdallah",
+        "minuto": 77
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 51.2,
+        "zona": "centro",
+        "jugador": "Emerson",
+        "minuto": 86
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Amine Harit",
+        "minuto": 89
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 47.7,
+        "zona": "centro",
+        "jugador": "Amine Harit",
+        "minuto": 89
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 63.1,
+        "zona": "primer_palo",
+        "jugador": "Amine Harit",
+        "minuto": 93
+      },
+      {
+        "endX": 93.7,
+        "endYNorm": 43.7,
+        "zona": "centro",
+        "jugador": "Amine Harit",
+        "minuto": 95
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 54.1,
+        "zona": "centro",
+        "jugador": "Angel Gomes",
+        "minuto": 49
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 43.2,
+        "zona": "centro",
+        "jugador": "Keyliane Abdallah",
+        "minuto": 67
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 60.9,
+        "zona": "primer_palo",
+        "jugador": "Keyliane Abdallah",
+        "minuto": 91
       }
     ]
   },
   "Lens": {
     "equipo": "Lens",
-    "partidos": 1,
-    "total_corners": 4,
-    "primer_palo": 1,
-    "primer_palo_pct": 25.0,
-    "centro": 1,
-    "centro_pct": 25.0,
-    "segundo_palo": 1,
-    "segundo_palo_pct": 25.0,
-    "corto": 1,
-    "corto_pct": 25.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "partidos": 5,
+    "total_corners": 35,
+    "primer_palo": 2,
+    "primer_palo_pct": 5.7,
+    "centro": 23,
+    "centro_pct": 65.7,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 8.6,
+    "corto": 3,
+    "corto_pct": 8.6,
+    "sin_peligro": 4,
+    "sin_peligro_pct": 11.4,
     "detalle": [
       {
         "endX": 86.4,
@@ -152,23 +732,240 @@
         "zona": "corto",
         "jugador": "Florian Thauvin",
         "minuto": 94
+      },
+      {
+        "endX": 89.0,
+        "endYNorm": 55.1,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 11
+      },
+      {
+        "endX": 91.6,
+        "endYNorm": 58.1,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 34
+      },
+      {
+        "endX": 89.0,
+        "endYNorm": 50.7,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 36
+      },
+      {
+        "endX": 90.6,
+        "endYNorm": 43.3,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 36
+      },
+      {
+        "endX": 90.5,
+        "endYNorm": 50.3,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 38
+      },
+      {
+        "endX": 87.9,
+        "endYNorm": 54.2,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 60
+      },
+      {
+        "endX": 79.8,
+        "endYNorm": 73.3,
+        "zona": "sin_peligro",
+        "jugador": "Florian Thauvin",
+        "minuto": 76
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 52.1,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 84
+      },
+      {
+        "endX": 78.7,
+        "endYNorm": 30.9,
+        "zona": "sin_peligro",
+        "jugador": "Florian Thauvin",
+        "minuto": 20
+      },
+      {
+        "endX": 97.7,
+        "endYNorm": 31.599999999999994,
+        "zona": "segundo_palo",
+        "jugador": "Florian Thauvin",
+        "minuto": 52
+      },
+      {
+        "endX": 89.9,
+        "endYNorm": 45.3,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 66
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 55.5,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 76
+      },
+      {
+        "endX": 90.5,
+        "endYNorm": 50.7,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 88
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 23.2,
+        "zona": "segundo_palo",
+        "jugador": "Andrija Bulatovic",
+        "minuto": 97
+      },
+      {
+        "endX": 92.0,
+        "endYNorm": 57.9,
+        "zona": "centro",
+        "jugador": "Andrija Bulatovic",
+        "minuto": 0
+      },
+      {
+        "endX": 90.4,
+        "endYNorm": 62.4,
+        "zona": "primer_palo",
+        "jugador": "Andrija Bulatovic",
+        "minuto": 11
+      },
+      {
+        "endX": 89.6,
+        "endYNorm": 46.0,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 12
+      },
+      {
+        "endX": 90.3,
+        "endYNorm": 90.1,
+        "zona": "corto",
+        "jugador": "Florian Thauvin",
+        "minuto": 33
+      },
+      {
+        "endX": 75.1,
+        "endYNorm": 0.0,
+        "zona": "sin_peligro",
+        "jugador": "Andrija Bulatovic",
+        "minuto": 34
+      },
+      {
+        "endX": 89.2,
+        "endYNorm": 55.6,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 57
+      },
+      {
+        "endX": 81.3,
+        "endYNorm": 85.8,
+        "zona": "sin_peligro",
+        "jugador": "Mezian Mesloub",
+        "minuto": 68
+      },
+      {
+        "endX": 91.3,
+        "endYNorm": 48.7,
+        "zona": "centro",
+        "jugador": "Andrija Bulatovic",
+        "minuto": 80
+      },
+      {
+        "endX": 89.6,
+        "endYNorm": 59.1,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 93
+      },
+      {
+        "endX": 88.3,
+        "endYNorm": 89.7,
+        "zona": "corto",
+        "jugador": "Florian Thauvin",
+        "minuto": 3
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 41.4,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 45
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 52.6,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 56
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 48.7,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 74
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 55.0,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 75
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 57.6,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 86
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 47.7,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 86
+      },
+      {
+        "endX": 97.7,
+        "endYNorm": 50.2,
+        "zona": "centro",
+        "jugador": "Florian Thauvin",
+        "minuto": 91
       }
     ]
   },
   "Auxerre": {
     "equipo": "Auxerre",
-    "partidos": 1,
-    "total_corners": 7,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 4,
-    "centro_pct": 57.1,
-    "segundo_palo": 1,
-    "segundo_palo_pct": 14.3,
-    "corto": 2,
-    "corto_pct": 28.6,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "partidos": 5,
+    "total_corners": 30,
+    "primer_palo": 3,
+    "primer_palo_pct": 10.0,
+    "centro": 17,
+    "centro_pct": 56.7,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 10.0,
+    "corto": 5,
+    "corto_pct": 16.7,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 6.7,
     "detalle": [
       {
         "endX": 89.4,
@@ -218,197 +1015,454 @@
         "zona": "corto",
         "jugador": "Romain Faivre",
         "minuto": 51
-      }
-    ]
-  },
-  "Marseille": {
-    "equipo": "Marseille",
-    "partidos": 1,
-    "total_corners": 3,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 2,
-    "centro_pct": 66.7,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 1,
-    "sin_peligro_pct": 33.3,
-    "detalle": [
-      {
-        "endX": 90.7,
-        "endYNorm": 52.0,
-        "zona": "centro",
-        "jugador": "Emerson",
-        "minuto": 33
       },
       {
-        "endX": 76.6,
-        "endYNorm": 85.1,
+        "endX": 92.3,
+        "endYNorm": 45.3,
+        "zona": "centro",
+        "jugador": "Kévin Danois",
+        "minuto": 13
+      },
+      {
+        "endX": 84.4,
+        "endYNorm": 76.6,
+        "zona": "primer_palo",
+        "jugador": "Kévin Danois",
+        "minuto": 48
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 41.5,
+        "zona": "centro",
+        "jugador": "Romain Faivre",
+        "minuto": 81
+      },
+      {
+        "endX": 94.2,
+        "endYNorm": 58.3,
+        "zona": "centro",
+        "jugador": "Kévin Danois",
+        "minuto": 4
+      },
+      {
+        "endX": 88.8,
+        "endYNorm": 44.1,
+        "zona": "centro",
+        "jugador": "Kévin Danois",
+        "minuto": 35
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 45.1,
+        "zona": "centro",
+        "jugador": "Romain Faivre",
+        "minuto": 53
+      },
+      {
+        "endX": 87.0,
+        "endYNorm": 42.4,
+        "zona": "centro",
+        "jugador": "Romain Faivre",
+        "minuto": 55
+      },
+      {
+        "endX": 93.7,
+        "endYNorm": 11.799999999999997,
+        "zona": "segundo_palo",
+        "jugador": "Romain Faivre",
+        "minuto": 57
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 54.2,
+        "zona": "centro",
+        "jugador": "Kévin Danois",
+        "minuto": 66
+      },
+      {
+        "endX": 86.1,
+        "endYNorm": 90.8,
+        "zona": "corto",
+        "jugador": "Romain Faivre",
+        "minuto": 80
+      },
+      {
+        "endX": 74.7,
+        "endYNorm": 86.1,
         "zona": "sin_peligro",
-        "jugador": "Igor Paixão",
-        "minuto": 42
+        "jugador": "Romain Faivre",
+        "minuto": 92
       },
       {
-        "endX": 95.2,
-        "endYNorm": 52.9,
+        "endX": 90.1,
+        "endYNorm": 81.4,
+        "zona": "primer_palo",
+        "jugador": "Arthur Piedfort",
+        "minuto": 6
+      },
+      {
+        "endX": 89.7,
+        "endYNorm": 57.8,
         "zona": "centro",
-        "jugador": "Angel Gomes",
-        "minuto": 42
-      }
-    ]
-  },
-  "Strasbourg": {
-    "equipo": "Strasbourg",
-    "partidos": 1,
-    "total_corners": 4,
-    "primer_palo": 2,
-    "primer_palo_pct": 50.0,
-    "centro": 2,
-    "centro_pct": 50.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
-    "detalle": [
+        "jugador": "Arthur Piedfort",
+        "minuto": 16
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 49.6,
+        "zona": "centro",
+        "jugador": "Romain Faivre",
+        "minuto": 19
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 38.0,
+        "zona": "segundo_palo",
+        "jugador": "Romain Faivre",
+        "minuto": 41
+      },
       {
         "endX": 96.1,
-        "endYNorm": 59.5,
+        "endYNorm": 53.7,
         "zona": "centro",
-        "jugador": "Samir El Mourabet",
-        "minuto": 1
-      },
-      {
-        "endX": 91.0,
-        "endYNorm": 60.6,
-        "zona": "primer_palo",
-        "jugador": "Sebastian Nanasi",
-        "minuto": 7
-      },
-      {
-        "endX": 92.1,
-        "endYNorm": 40.8,
-        "zona": "centro",
-        "jugador": "Samir El Mourabet",
-        "minuto": 10
-      },
-      {
-        "endX": 88.1,
-        "endYNorm": 76.3,
-        "zona": "primer_palo",
-        "jugador": "Samir El Mourabet",
-        "minuto": 11
-      }
-    ]
-  },
-  "Troyes": {
-    "equipo": "Troyes",
-    "partidos": 1,
-    "total_corners": 6,
-    "primer_palo": 1,
-    "primer_palo_pct": 16.7,
-    "centro": 3,
-    "centro_pct": 50.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 2,
-    "corto_pct": 33.3,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
-    "detalle": [
-      {
-        "endX": 86.3,
-        "endYNorm": 94.4,
-        "zona": "corto",
-        "jugador": "Kandet Diawara",
-        "minuto": 1
-      },
-      {
-        "endX": 91.1,
-        "endYNorm": 94.4,
-        "zona": "corto",
-        "jugador": "Merwan Ifnaoui",
-        "minuto": 14
+        "jugador": "Romain Faivre",
+        "minuto": 54
       },
       {
         "endX": 88.9,
-        "endYNorm": 51.8,
-        "zona": "centro",
-        "jugador": "Kandet Diawara",
-        "minuto": 18
+        "endYNorm": 84.1,
+        "zona": "corto",
+        "jugador": "Aristide Zossou",
+        "minuto": 88
       },
       {
-        "endX": 96.2,
-        "endYNorm": 52.1,
+        "endX": 95.6,
+        "endYNorm": 46.4,
         "zona": "centro",
-        "jugador": "Kandet Diawara",
-        "minuto": 42
+        "jugador": "Aristide Zossou",
+        "minuto": 97
       },
       {
         "endX": 95.4,
-        "endYNorm": 55.3,
-        "zona": "centro",
-        "jugador": "Kandet Diawara",
-        "minuto": 58
+        "endYNorm": 75.8,
+        "zona": "primer_palo",
+        "jugador": "Arthur Piedfort",
+        "minuto": 11
       },
       {
-        "endX": 95.0,
-        "endYNorm": 68.3,
-        "zona": "primer_palo",
-        "jugador": "Hugo Picard",
-        "minuto": 85
+        "endX": 92.7,
+        "endYNorm": 57.4,
+        "zona": "centro",
+        "jugador": "Arthur Piedfort",
+        "minuto": 38
+      },
+      {
+        "endX": 88.0,
+        "endYNorm": 53.8,
+        "zona": "centro",
+        "jugador": "Arthur Piedfort",
+        "minuto": 55
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 86.4,
+        "zona": "corto",
+        "jugador": "Naouirou Ahamada",
+        "minuto": 56
+      },
+      {
+        "endX": 81.6,
+        "endYNorm": 90.3,
+        "zona": "sin_peligro",
+        "jugador": "Lamfia Dioubaté",
+        "minuto": 94
       }
     ]
   },
-  "Paris FC": {
-    "equipo": "Paris FC",
-    "partidos": 1,
-    "total_corners": 2,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 1,
-    "centro_pct": 50.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
+  "Le Havre": {
+    "equipo": "Le Havre",
+    "partidos": 5,
+    "total_corners": 28,
+    "primer_palo": 5,
+    "primer_palo_pct": 17.9,
+    "centro": 21,
+    "centro_pct": 75.0,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 3.6,
     "corto": 0,
     "corto_pct": 0.0,
     "sin_peligro": 1,
-    "sin_peligro_pct": 50.0,
+    "sin_peligro_pct": 3.6,
     "detalle": [
       {
-        "endX": 94.3,
-        "endYNorm": 54.6,
+        "endX": 93.1,
+        "endYNorm": 51.9,
         "zona": "centro",
-        "jugador": "Ilan Kebbal",
-        "minuto": 70
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 33
       },
       {
-        "endX": 78.3,
-        "endYNorm": 87.4,
+        "endX": 95.1,
+        "endYNorm": 63.0,
+        "zona": "primer_palo",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 43
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 27.400000000000006,
+        "zona": "segundo_palo",
+        "jugador": "Elias Jelert",
+        "minuto": 44
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 46.1,
+        "zona": "centro",
+        "jugador": "Elias Jelert",
+        "minuto": 76
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 54.2,
+        "zona": "centro",
+        "jugador": "Sota Nakamura",
+        "minuto": 82
+      },
+      {
+        "endX": 91.9,
+        "endYNorm": 55.6,
+        "zona": "centro",
+        "jugador": "Kaito Mizuta",
+        "minuto": 0
+      },
+      {
+        "endX": 92.0,
+        "endYNorm": 55.6,
+        "zona": "centro",
+        "jugador": "Kaito Mizuta",
+        "minuto": 37
+      },
+      {
+        "endX": 91.3,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Ismaïl Bouneb",
+        "minuto": 87
+      },
+      {
+        "endX": 76.0,
+        "endYNorm": 14.400000000000006,
         "zona": "sin_peligro",
-        "jugador": "Ilan Kebbal",
+        "jugador": "Ismaïl Bouneb",
+        "minuto": 93
+      },
+      {
+        "endX": 90.5,
+        "endYNorm": 50.3,
+        "zona": "centro",
+        "jugador": "Djibril Ouziad",
+        "minuto": 13
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 50.7,
+        "zona": "centro",
+        "jugador": "Djibril Ouziad",
+        "minuto": 14
+      },
+      {
+        "endX": 90.4,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Djibril Ouziad",
+        "minuto": 21
+      },
+      {
+        "endX": 91.5,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Djibril Ouziad",
+        "minuto": 31
+      },
+      {
+        "endX": 87.5,
+        "endYNorm": 41.0,
+        "zona": "centro",
+        "jugador": "Djibril Ouziad",
+        "minuto": 32
+      },
+      {
+        "endX": 94.3,
+        "endYNorm": 52.9,
+        "zona": "centro",
+        "jugador": "Elias Jelert",
+        "minuto": 92
+      },
+      {
+        "endX": 92.4,
+        "endYNorm": 54.8,
+        "zona": "centro",
+        "jugador": "Elias Jelert",
+        "minuto": 95
+      },
+      {
+        "endX": 92.4,
+        "endYNorm": 47.0,
+        "zona": "centro",
+        "jugador": "Yanis Zouaoui",
+        "minuto": 18
+      },
+      {
+        "endX": 94.2,
+        "endYNorm": 54.9,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 42
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 49.7,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 54
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 55.7,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 60
+      },
+      {
+        "endX": 95.3,
+        "endYNorm": 63.6,
+        "zona": "primer_palo",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 64
+      },
+      {
+        "endX": 94.3,
+        "endYNorm": 42.8,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 84
+      },
+      {
+        "endX": 96.2,
+        "endYNorm": 62.7,
+        "zona": "primer_palo",
+        "jugador": "Kaito Mizuta",
         "minuto": 90
+      },
+      {
+        "endX": 94.1,
+        "endYNorm": 66.0,
+        "zona": "primer_palo",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 6
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 51.1,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 26
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 56.7,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 26
+      },
+      {
+        "endX": 96.5,
+        "endYNorm": 58.6,
+        "zona": "centro",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 27
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 64.2,
+        "zona": "primer_palo",
+        "jugador": "Rassoul Ndiaye",
+        "minuto": 51
       }
     ]
   },
   "Angers": {
     "equipo": "Angers",
-    "partidos": 1,
-    "total_corners": 8,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 8,
-    "centro_pct": 100.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
+    "partidos": 5,
+    "total_corners": 38,
+    "primer_palo": 2,
+    "primer_palo_pct": 5.3,
+    "centro": 34,
+    "centro_pct": 89.5,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 2.6,
+    "corto": 1,
+    "corto_pct": 2.6,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
+      {
+        "endX": 95.0,
+        "endYNorm": 56.5,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 62
+      },
+      {
+        "endX": 87.9,
+        "endYNorm": 49.4,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 84
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 44.2,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 10
+      },
+      {
+        "endX": 91.9,
+        "endYNorm": 44.8,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 12
+      },
+      {
+        "endX": 87.1,
+        "endYNorm": 93.9,
+        "zona": "corto",
+        "jugador": "Branco van den Boomen",
+        "minuto": 30
+      },
+      {
+        "endX": 86.3,
+        "endYNorm": 52.0,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 50
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 45.6,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 70
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 59.8,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 75
+      },
       {
         "endX": 96.5,
         "endYNorm": 45.8,
@@ -464,55 +1518,768 @@
         "zona": "centro",
         "jugador": "Amine Sbaï",
         "minuto": 94
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 57.5,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 23
+      },
+      {
+        "endX": 90.3,
+        "endYNorm": 56.0,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 26
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 55.0,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 36
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 50.5,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 39
+      },
+      {
+        "endX": 89.9,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 53
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 47.2,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 56
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 53.5,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 60
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 51.3,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 68
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 60.8,
+        "zona": "primer_palo",
+        "jugador": "Branco van den Boomen",
+        "minuto": 69
+      },
+      {
+        "endX": 87.2,
+        "endYNorm": 39.2,
+        "zona": "segundo_palo",
+        "jugador": "Branco van den Boomen",
+        "minuto": 77
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 51.5,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 2
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 59.4,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 11
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 48.8,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 17
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 49.1,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 28
+      },
+      {
+        "endX": 92.2,
+        "endYNorm": 53.9,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 33
+      },
+      {
+        "endX": 91.1,
+        "endYNorm": 47.4,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 34
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 57.2,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 46
+      },
+      {
+        "endX": 94.0,
+        "endYNorm": 57.8,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 54
+      },
+      {
+        "endX": 92.7,
+        "endYNorm": 44.9,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 55
+      },
+      {
+        "endX": 96.5,
+        "endYNorm": 60.5,
+        "zona": "primer_palo",
+        "jugador": "Branco van den Boomen",
+        "minuto": 61
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 51.9,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 87
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 42.8,
+        "zona": "centro",
+        "jugador": "Branco van den Boomen",
+        "minuto": 92
       }
     ]
   },
-  "Lille": {
-    "equipo": "Lille",
-    "partidos": 1,
-    "total_corners": 3,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 1,
-    "centro_pct": 33.3,
-    "segundo_palo": 1,
-    "segundo_palo_pct": 33.3,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 1,
-    "sin_peligro_pct": 33.3,
+  "Troyes": {
+    "equipo": "Troyes",
+    "partidos": 5,
+    "total_corners": 38,
+    "primer_palo": 9,
+    "primer_palo_pct": 23.7,
+    "centro": 19,
+    "centro_pct": 50.0,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 7.9,
+    "corto": 5,
+    "corto_pct": 13.2,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 5.3,
     "detalle": [
       {
-        "endX": 93.1,
-        "endYNorm": 19.5,
-        "zona": "segundo_palo",
-        "jugador": "Basar Önal",
+        "endX": 88.0,
+        "endYNorm": 73.5,
+        "zona": "primer_palo",
+        "jugador": "Antoine Mille",
         "minuto": 1
       },
       {
-        "endX": 89.2,
-        "endYNorm": 52.7,
+        "endX": 96.3,
+        "endYNorm": 57.6,
         "zona": "centro",
-        "jugador": "Ethan Mbappé",
-        "minuto": 6
+        "jugador": "Antoine Mille",
+        "minuto": 9
       },
       {
-        "endX": 81.7,
-        "endYNorm": 27.0,
+        "endX": 93.3,
+        "endYNorm": 52.9,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 13
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 58.3,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 16
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 54.6,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 16
+      },
+      {
+        "endX": 97.9,
+        "endYNorm": 59.2,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 17
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 61.3,
+        "zona": "primer_palo",
+        "jugador": "Antoine Mille",
+        "minuto": 18
+      },
+      {
+        "endX": 97.2,
+        "endYNorm": 60.0,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 38
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 46.6,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 81
+      },
+      {
+        "endX": 94.2,
+        "endYNorm": 6.1,
+        "zona": "segundo_palo",
+        "jugador": "Hugo Picard",
+        "minuto": 93
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 43.6,
+        "zona": "centro",
+        "jugador": "Antoine Mille",
+        "minuto": 96
+      },
+      {
+        "endX": 86.3,
+        "endYNorm": 94.4,
+        "zona": "corto",
+        "jugador": "Kandet Diawara",
+        "minuto": 1
+      },
+      {
+        "endX": 91.1,
+        "endYNorm": 94.4,
+        "zona": "corto",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 14
+      },
+      {
+        "endX": 88.9,
+        "endYNorm": 51.8,
+        "zona": "centro",
+        "jugador": "Kandet Diawara",
+        "minuto": 18
+      },
+      {
+        "endX": 96.2,
+        "endYNorm": 52.1,
+        "zona": "centro",
+        "jugador": "Kandet Diawara",
+        "minuto": 42
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 55.3,
+        "zona": "centro",
+        "jugador": "Kandet Diawara",
+        "minuto": 58
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 68.3,
+        "zona": "primer_palo",
+        "jugador": "Hugo Picard",
+        "minuto": 85
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 45.7,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 23
+      },
+      {
+        "endX": 92.4,
+        "endYNorm": 37.6,
+        "zona": "segundo_palo",
+        "jugador": "Hugo Picard",
+        "minuto": 29
+      },
+      {
+        "endX": 89.5,
+        "endYNorm": 38.8,
+        "zona": "segundo_palo",
+        "jugador": "Hugo Picard",
+        "minuto": 36
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 59.3,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 50
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 66.3,
+        "zona": "primer_palo",
+        "jugador": "Antoine Mille",
+        "minuto": 54
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 86.0,
+        "zona": "corto",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 19
+      },
+      {
+        "endX": 92.4,
+        "endYNorm": 54.9,
+        "zona": "centro",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 19
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 44.9,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 30
+      },
+      {
+        "endX": 88.3,
+        "endYNorm": 58.7,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 31
+      },
+      {
+        "endX": 81.5,
+        "endYNorm": 33.3,
         "zona": "sin_peligro",
-        "jugador": "Ethan Mbappé",
-        "minuto": 47
+        "jugador": "Hugo Picard",
+        "minuto": 32
+      },
+      {
+        "endX": 89.7,
+        "endYNorm": 92.6,
+        "zona": "corto",
+        "jugador": "Hugo Picard",
+        "minuto": 33
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 46.7,
+        "zona": "centro",
+        "jugador": "Hugo Picard",
+        "minuto": 43
+      },
+      {
+        "endX": 91.5,
+        "endYNorm": 60.8,
+        "zona": "primer_palo",
+        "jugador": "Kandet Diawara",
+        "minuto": 59
+      },
+      {
+        "endX": 87.7,
+        "endYNorm": 65.1,
+        "zona": "primer_palo",
+        "jugador": "Kandet Diawara",
+        "minuto": 61
+      },
+      {
+        "endX": 88.1,
+        "endYNorm": 63.0,
+        "zona": "primer_palo",
+        "jugador": "Kandet Diawara",
+        "minuto": 72
+      },
+      {
+        "endX": 73.6,
+        "endYNorm": 87.2,
+        "zona": "sin_peligro",
+        "jugador": "Kandet Diawara",
+        "minuto": 80
+      },
+      {
+        "endX": 93.1,
+        "endYNorm": 60.4,
+        "zona": "primer_palo",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 24
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 64.4,
+        "zona": "primer_palo",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 61
+      },
+      {
+        "endX": 88.4,
+        "endYNorm": 91.5,
+        "zona": "corto",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 61
+      },
+      {
+        "endX": 89.2,
+        "endYNorm": 57.1,
+        "zona": "centro",
+        "jugador": "Kandet Diawara",
+        "minuto": 79
+      },
+      {
+        "endX": 89.6,
+        "endYNorm": 46.4,
+        "zona": "centro",
+        "jugador": "Merwan Ifnaoui",
+        "minuto": 87
       }
     ]
   },
-  "Nice": {
-    "equipo": "Nice",
-    "partidos": 1,
-    "total_corners": 9,
+  "Paris FC": {
+    "equipo": "Paris FC",
+    "partidos": 5,
+    "total_corners": 15,
     "primer_palo": 1,
-    "primer_palo_pct": 11.1,
-    "centro": 6,
-    "centro_pct": 66.7,
+    "primer_palo_pct": 6.7,
+    "centro": 11,
+    "centro_pct": 73.3,
+    "segundo_palo": 0,
+    "segundo_palo_pct": 0.0,
+    "corto": 1,
+    "corto_pct": 6.7,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 13.3,
+    "detalle": [
+      {
+        "endX": 98.5,
+        "endYNorm": 48.5,
+        "zona": "centro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 19
+      },
+      {
+        "endX": 93.9,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Ilan Kebbal",
+        "minuto": 49
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 54.0,
+        "zona": "centro",
+        "jugador": "Pablo Pagis",
+        "minuto": 53
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 50.5,
+        "zona": "centro",
+        "jugador": "Pablo Pagis",
+        "minuto": 63
+      },
+      {
+        "endX": 94.3,
+        "endYNorm": 54.6,
+        "zona": "centro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 70
+      },
+      {
+        "endX": 78.3,
+        "endYNorm": 87.4,
+        "zona": "sin_peligro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 90
+      },
+      {
+        "endX": 85.6,
+        "endYNorm": 85.5,
+        "zona": "corto",
+        "jugador": "Pablo Pagis",
+        "minuto": 18
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 51.3,
+        "zona": "centro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 25
+      },
+      {
+        "endX": 98.2,
+        "endYNorm": 48.3,
+        "zona": "centro",
+        "jugador": "Pablo Pagis",
+        "minuto": 33
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 54.0,
+        "zona": "centro",
+        "jugador": "Pablo Pagis",
+        "minuto": 41
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 57.9,
+        "zona": "centro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 71
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 53.7,
+        "zona": "centro",
+        "jugador": "Maxime Lopez",
+        "minuto": 88
+      },
+      {
+        "endX": 87.2,
+        "endYNorm": 48.1,
+        "zona": "centro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 15
+      },
+      {
+        "endX": 90.1,
+        "endYNorm": 53.5,
+        "zona": "centro",
+        "jugador": "Pablo Pagis",
+        "minuto": 47
+      },
+      {
+        "endX": 77.8,
+        "endYNorm": 80.2,
+        "zona": "sin_peligro",
+        "jugador": "Ilan Kebbal",
+        "minuto": 63
+      }
+    ]
+  },
+  "Lyon": {
+    "equipo": "Lyon",
+    "partidos": 5,
+    "total_corners": 25,
+    "primer_palo": 8,
+    "primer_palo_pct": 32.0,
+    "centro": 16,
+    "centro_pct": 64.0,
+    "segundo_palo": 0,
+    "segundo_palo_pct": 0.0,
+    "corto": 1,
+    "corto_pct": 4.0,
+    "sin_peligro": 0,
+    "sin_peligro_pct": 0.0,
+    "detalle": [
+      {
+        "endX": 95.3,
+        "endYNorm": 48.6,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 72
+      },
+      {
+        "endX": 95.3,
+        "endYNorm": 55.9,
+        "zona": "centro",
+        "jugador": "Kaïl Boudache",
+        "minuto": 91
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Kaïl Boudache",
+        "minuto": 91
+      },
+      {
+        "endX": 97.3,
+        "endYNorm": 58.6,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 20
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 65.5,
+        "zona": "primer_palo",
+        "jugador": "Ernest Nuamah",
+        "minuto": 20
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 54.9,
+        "zona": "centro",
+        "jugador": "Tyler Morton",
+        "minuto": 27
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 51.1,
+        "zona": "centro",
+        "jugador": "Julien Duranville",
+        "minuto": 2
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 40.9,
+        "zona": "centro",
+        "jugador": "Kaïl Boudache",
+        "minuto": 13
+      },
+      {
+        "endX": 93.1,
+        "endYNorm": 56.1,
+        "zona": "centro",
+        "jugador": "Kaïl Boudache",
+        "minuto": 28
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 50.1,
+        "zona": "centro",
+        "jugador": "Kaïl Boudache",
+        "minuto": 59
+      },
+      {
+        "endX": 92.7,
+        "endYNorm": 56.3,
+        "zona": "centro",
+        "jugador": "Tyler Morton",
+        "minuto": 87
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 66.7,
+        "zona": "primer_palo",
+        "jugador": "Tyler Morton",
+        "minuto": 2
+      },
+      {
+        "endX": 95.3,
+        "endYNorm": 66.1,
+        "zona": "primer_palo",
+        "jugador": "Tyler Morton",
+        "minuto": 2
+      },
+      {
+        "endX": 98.4,
+        "endYNorm": 55.8,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 5
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 62.0,
+        "zona": "primer_palo",
+        "jugador": "Ernest Nuamah",
+        "minuto": 26
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 54.3,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 27
+      },
+      {
+        "endX": 97.7,
+        "endYNorm": 48.6,
+        "zona": "centro",
+        "jugador": "Tyler Morton",
+        "minuto": 34
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 83.6,
+        "zona": "corto",
+        "jugador": "Tyler Morton",
+        "minuto": 37
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 48.3,
+        "zona": "centro",
+        "jugador": "Tyler Morton",
+        "minuto": 48
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 66.2,
+        "zona": "primer_palo",
+        "jugador": "Tyler Morton",
+        "minuto": 82
+      },
+      {
+        "endX": 94.5,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Zachary Athekame",
+        "minuto": 8
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 59.4,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 36
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 50.1,
+        "zona": "centro",
+        "jugador": "Ernest Nuamah",
+        "minuto": 52
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 60.6,
+        "zona": "primer_palo",
+        "jugador": "Ernest Nuamah",
+        "minuto": 70
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 66.9,
+        "zona": "primer_palo",
+        "jugador": "Abner Vinícius",
+        "minuto": 86
+      }
+    ]
+  },
+  "Strasbourg": {
+    "equipo": "Strasbourg",
+    "partidos": 5,
+    "total_corners": 9,
+    "primer_palo": 4,
+    "primer_palo_pct": 44.4,
+    "centro": 3,
+    "centro_pct": 33.3,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 1,
@@ -520,6 +2287,163 @@
     "sin_peligro": 1,
     "sin_peligro_pct": 11.1,
     "detalle": [
+      {
+        "endX": 96.1,
+        "endYNorm": 59.5,
+        "zona": "centro",
+        "jugador": "Samir El Mourabet",
+        "minuto": 1
+      },
+      {
+        "endX": 91.0,
+        "endYNorm": 60.6,
+        "zona": "primer_palo",
+        "jugador": "Sebastian Nanasi",
+        "minuto": 7
+      },
+      {
+        "endX": 92.1,
+        "endYNorm": 40.8,
+        "zona": "centro",
+        "jugador": "Samir El Mourabet",
+        "minuto": 10
+      },
+      {
+        "endX": 88.1,
+        "endYNorm": 76.3,
+        "zona": "primer_palo",
+        "jugador": "Samir El Mourabet",
+        "minuto": 11
+      },
+      {
+        "endX": 95.3,
+        "endYNorm": 50.5,
+        "zona": "centro",
+        "jugador": "Oso",
+        "minuto": 12
+      },
+      {
+        "endX": 98.5,
+        "endYNorm": 79.6,
+        "zona": "corto",
+        "jugador": "Sebastian Nanasi",
+        "minuto": 43
+      },
+      {
+        "endX": 78.1,
+        "endYNorm": 19.599999999999994,
+        "zona": "sin_peligro",
+        "jugador": "Diogo Sousa",
+        "minuto": 45
+      },
+      {
+        "endX": 87.9,
+        "endYNorm": 81.3,
+        "zona": "primer_palo",
+        "jugador": "Diogo Sousa",
+        "minuto": 62
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 63.2,
+        "zona": "primer_palo",
+        "jugador": "Diogo Sousa",
+        "minuto": 90
+      }
+    ]
+  },
+  "Nice": {
+    "equipo": "Nice",
+    "partidos": 5,
+    "total_corners": 29,
+    "primer_palo": 1,
+    "primer_palo_pct": 3.4,
+    "centro": 22,
+    "centro_pct": 75.9,
+    "segundo_palo": 0,
+    "segundo_palo_pct": 0.0,
+    "corto": 3,
+    "corto_pct": 10.3,
+    "sin_peligro": 3,
+    "sin_peligro_pct": 10.3,
+    "detalle": [
+      {
+        "endX": 96.7,
+        "endYNorm": 58.9,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 46
+      },
+      {
+        "endX": 98.3,
+        "endYNorm": 45.7,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 49
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 60
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 58.0,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 61
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 94.8,
+        "zona": "corto",
+        "jugador": "Jonathan Clauss",
+        "minuto": 71
+      },
+      {
+        "endX": 93.1,
+        "endYNorm": 55.2,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 77
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 82
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 53.5,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 84
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 46.7,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 7
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 42.8,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 60
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 41.2,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 65
+      },
       {
         "endX": 90.6,
         "endYNorm": 87.9,
@@ -582,21 +2506,199 @@
         "zona": "centro",
         "jugador": "Gauthier Hein",
         "minuto": 83
+      },
+      {
+        "endX": 88.1,
+        "endYNorm": 84.1,
+        "zona": "corto",
+        "jugador": "Niels Nkounkou",
+        "minuto": 28
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 46.5,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 32
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 49.9,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 66
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 48.9,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 73
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 46.9,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 78
+      },
+      {
+        "endX": 79.6,
+        "endYNorm": 88.1,
+        "zona": "sin_peligro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 65
+      },
+      {
+        "endX": 72.5,
+        "endYNorm": 5.700000000000003,
+        "zona": "sin_peligro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 67
+      },
+      {
+        "endX": 90.2,
+        "endYNorm": 55.2,
+        "zona": "centro",
+        "jugador": "Jonathan Clauss",
+        "minuto": 79
+      },
+      {
+        "endX": 91.4,
+        "endYNorm": 47.9,
+        "zona": "centro",
+        "jugador": "Gauthier Hein",
+        "minuto": 84
+      }
+    ]
+  },
+  "Lille": {
+    "equipo": "Lille",
+    "partidos": 5,
+    "total_corners": 14,
+    "primer_palo": 0,
+    "primer_palo_pct": 0.0,
+    "centro": 9,
+    "centro_pct": 64.3,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 21.4,
+    "corto": 1,
+    "corto_pct": 7.1,
+    "sin_peligro": 1,
+    "sin_peligro_pct": 7.1,
+    "detalle": [
+      {
+        "endX": 87.1,
+        "endYNorm": 54.8,
+        "zona": "centro",
+        "jugador": "Hákon Haraldsson",
+        "minuto": 11
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 38.7,
+        "zona": "segundo_palo",
+        "jugador": "Basar Önal",
+        "minuto": 34
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 84.7,
+        "zona": "corto",
+        "jugador": "Basar Önal",
+        "minuto": 47
+      },
+      {
+        "endX": 86.2,
+        "endYNorm": 44.7,
+        "zona": "centro",
+        "jugador": "Hákon Haraldsson",
+        "minuto": 47
+      },
+      {
+        "endX": 84.8,
+        "endYNorm": 47.5,
+        "zona": "centro",
+        "jugador": "Hákon Haraldsson",
+        "minuto": 52
+      },
+      {
+        "endX": 88.0,
+        "endYNorm": 58.3,
+        "zona": "centro",
+        "jugador": "Romain Perraud",
+        "minuto": 64
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 48.9,
+        "zona": "centro",
+        "jugador": "Dilane Bakwa",
+        "minuto": 83
+      },
+      {
+        "endX": 93.1,
+        "endYNorm": 19.5,
+        "zona": "segundo_palo",
+        "jugador": "Basar Önal",
+        "minuto": 1
+      },
+      {
+        "endX": 89.2,
+        "endYNorm": 52.7,
+        "zona": "centro",
+        "jugador": "Ethan Mbappé",
+        "minuto": 6
+      },
+      {
+        "endX": 81.7,
+        "endYNorm": 27.0,
+        "zona": "sin_peligro",
+        "jugador": "Ethan Mbappé",
+        "minuto": 47
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 22.299999999999997,
+        "zona": "segundo_palo",
+        "jugador": "Ethan Mbappé",
+        "minuto": 46
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Hákon Haraldsson",
+        "minuto": 78
+      },
+      {
+        "endX": 91.4,
+        "endYNorm": 53.2,
+        "zona": "centro",
+        "jugador": "Dilane Bakwa",
+        "minuto": 12
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 51.9,
+        "zona": "centro",
+        "jugador": "Dilane Bakwa",
+        "minuto": 48
       }
     ]
   },
   "Lorient": {
     "equipo": "Lorient",
-    "partidos": 1,
-    "total_corners": 3,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 1,
-    "centro_pct": 33.3,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
+    "partidos": 5,
+    "total_corners": 12,
+    "primer_palo": 3,
+    "primer_palo_pct": 25.0,
+    "centro": 6,
+    "centro_pct": 50.0,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 8.3,
     "corto": 2,
-    "corto_pct": 66.7,
+    "corto_pct": 16.7,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -620,23 +2722,86 @@
         "zona": "centro",
         "jugador": "Arthur Avom",
         "minuto": 90
+      },
+      {
+        "endX": 89.2,
+        "endYNorm": 46.8,
+        "zona": "centro",
+        "jugador": "Arsène Kouassi",
+        "minuto": 16
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 46.5,
+        "zona": "centro",
+        "jugador": "Isak Jensen",
+        "minuto": 71
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 49.1,
+        "zona": "centro",
+        "jugador": "Isak Jensen",
+        "minuto": 74
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 61.1,
+        "zona": "primer_palo",
+        "jugador": "Isak Jensen",
+        "minuto": 79
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 23.200000000000003,
+        "zona": "segundo_palo",
+        "jugador": "Gabin Bernardeau",
+        "minuto": 53
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 62.8,
+        "zona": "primer_palo",
+        "jugador": "Isak Jensen",
+        "minuto": 75
+      },
+      {
+        "endX": 93.9,
+        "endYNorm": 52.1,
+        "zona": "centro",
+        "jugador": "Isak Jensen",
+        "minuto": 77
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Gabin Bernardeau",
+        "minuto": 1
+      },
+      {
+        "endX": 91.6,
+        "endYNorm": 62.2,
+        "zona": "primer_palo",
+        "jugador": "Gabin Bernardeau",
+        "minuto": 52
       }
     ]
   },
   "Toulouse": {
     "equipo": "Toulouse",
-    "partidos": 1,
-    "total_corners": 6,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 3,
-    "centro_pct": 50.0,
+    "partidos": 5,
+    "total_corners": 23,
+    "primer_palo": 2,
+    "primer_palo_pct": 8.7,
+    "centro": 10,
+    "centro_pct": 43.5,
     "segundo_palo": 1,
-    "segundo_palo_pct": 16.7,
-    "corto": 2,
-    "corto_pct": 33.3,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "segundo_palo_pct": 4.3,
+    "corto": 7,
+    "corto_pct": 30.4,
+    "sin_peligro": 3,
+    "sin_peligro_pct": 13.0,
     "detalle": [
       {
         "endX": 91.7,
@@ -679,142 +2844,454 @@
         "zona": "corto",
         "jugador": "Cristian Cásseres",
         "minuto": 52
-      }
-    ]
-  },
-  "Lyon": {
-    "equipo": "Lyon",
-    "partidos": 1,
-    "total_corners": 5,
-    "primer_palo": 0,
-    "primer_palo_pct": 0.0,
-    "centro": 5,
-    "centro_pct": 100.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
-    "detalle": [
-      {
-        "endX": 95.0,
-        "endYNorm": 51.1,
-        "zona": "centro",
-        "jugador": "Julien Duranville",
-        "minuto": 2
       },
       {
-        "endX": 96.6,
-        "endYNorm": 40.9,
-        "zona": "centro",
-        "jugador": "Kaïl Boudache",
-        "minuto": 13
+        "endX": 72.6,
+        "endYNorm": 70.8,
+        "zona": "sin_peligro",
+        "jugador": "Thomas Jørgensen",
+        "minuto": 53
       },
       {
-        "endX": 93.1,
-        "endYNorm": 56.1,
+        "endX": 84.5,
+        "endYNorm": 89.4,
+        "zona": "corto",
+        "jugador": "Cristian Cásseres",
+        "minuto": 65
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 61.0,
+        "zona": "primer_palo",
+        "jugador": "Thomas Jørgensen",
+        "minuto": 12
+      },
+      {
+        "endX": 79.8,
+        "endYNorm": 94.3,
+        "zona": "sin_peligro",
+        "jugador": "Thomas Jørgensen",
+        "minuto": 44
+      },
+      {
+        "endX": 87.0,
+        "endYNorm": 89.2,
+        "zona": "corto",
+        "jugador": "Cristian Cásseres",
+        "minuto": 46
+      },
+      {
+        "endX": 88.2,
+        "endYNorm": 53.5,
         "zona": "centro",
-        "jugador": "Kaïl Boudache",
-        "minuto": 28
+        "jugador": "Cristian Cásseres",
+        "minuto": 38
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 96.0,
+        "zona": "corto",
+        "jugador": "Cristian Cásseres",
+        "minuto": 55
       },
       {
         "endX": 90.7,
-        "endYNorm": 50.1,
+        "endYNorm": 53.5,
         "zona": "centro",
-        "jugador": "Kaïl Boudache",
-        "minuto": 59
+        "jugador": "Thomas Jørgensen",
+        "minuto": 56
       },
       {
-        "endX": 92.7,
-        "endYNorm": 56.3,
+        "endX": 94.0,
+        "endYNorm": 60.7,
+        "zona": "primer_palo",
+        "jugador": "Cristian Cásseres",
+        "minuto": 57
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 57.7,
         "zona": "centro",
-        "jugador": "Tyler Morton",
-        "minuto": 87
+        "jugador": "Cristian Cásseres",
+        "minuto": 63
+      },
+      {
+        "endX": 80.0,
+        "endYNorm": 91.5,
+        "zona": "sin_peligro",
+        "jugador": "Cristian Cásseres",
+        "minuto": 90
+      },
+      {
+        "endX": 90.9,
+        "endYNorm": 56.6,
+        "zona": "centro",
+        "jugador": "Thomas Jørgensen",
+        "minuto": 9
+      },
+      {
+        "endX": 87.0,
+        "endYNorm": 90.4,
+        "zona": "corto",
+        "jugador": "Thomas Jørgensen",
+        "minuto": 10
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 59.2,
+        "zona": "centro",
+        "jugador": "Cristian Cásseres",
+        "minuto": 38
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 96.3,
+        "zona": "corto",
+        "jugador": "Cristian Cásseres",
+        "minuto": 39
+      },
+      {
+        "endX": 87.9,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Cristian Cásseres",
+        "minuto": 40
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 47.9,
+        "zona": "centro",
+        "jugador": "Cristian Cásseres",
+        "minuto": 65
       }
     ]
   },
-  "Le Havre": {
-    "equipo": "Le Havre",
-    "partidos": 1,
-    "total_corners": 7,
-    "primer_palo": 2,
-    "primer_palo_pct": 28.6,
-    "centro": 5,
-    "centro_pct": 71.4,
+  "Paris Saint-Germain": {
+    "equipo": "Paris Saint-Germain",
+    "partidos": 5,
+    "total_corners": 30,
+    "primer_palo": 8,
+    "primer_palo_pct": 26.7,
+    "centro": 11,
+    "centro_pct": 36.7,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "corto": 4,
+    "corto_pct": 13.3,
+    "sin_peligro": 7,
+    "sin_peligro_pct": 23.3,
     "detalle": [
       {
-        "endX": 92.4,
-        "endYNorm": 47.0,
-        "zona": "centro",
-        "jugador": "Yanis Zouaoui",
-        "minuto": 18
-      },
-      {
-        "endX": 94.2,
-        "endYNorm": 54.9,
-        "zona": "centro",
-        "jugador": "Rassoul Ndiaye",
-        "minuto": 42
-      },
-      {
-        "endX": 93.6,
-        "endYNorm": 49.7,
-        "zona": "centro",
-        "jugador": "Rassoul Ndiaye",
-        "minuto": 54
-      },
-      {
-        "endX": 95.2,
-        "endYNorm": 55.7,
-        "zona": "centro",
-        "jugador": "Rassoul Ndiaye",
-        "minuto": 60
-      },
-      {
-        "endX": 95.3,
-        "endYNorm": 63.6,
+        "endX": 92.5,
+        "endYNorm": 69.3,
         "zona": "primer_palo",
-        "jugador": "Rassoul Ndiaye",
-        "minuto": 64
+        "jugador": "Ousmane Dembélé",
+        "minuto": 7
+      },
+      {
+        "endX": 88.1,
+        "endYNorm": 42.2,
+        "zona": "centro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 12
+      },
+      {
+        "endX": 92.7,
+        "endYNorm": 59.7,
+        "zona": "centro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 16
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 46.0,
+        "zona": "centro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 19
+      },
+      {
+        "endX": 91.1,
+        "endYNorm": 59.1,
+        "zona": "centro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 27
+      },
+      {
+        "endX": 73.8,
+        "endYNorm": 80.9,
+        "zona": "sin_peligro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 28
+      },
+      {
+        "endX": 88.4,
+        "endYNorm": 92.4,
+        "zona": "corto",
+        "jugador": "Achraf Hakimi",
+        "minuto": 35
+      },
+      {
+        "endX": 94.5,
+        "endYNorm": 58.2,
+        "zona": "centro",
+        "jugador": "Mika Godts",
+        "minuto": 46
+      },
+      {
+        "endX": 77.3,
+        "endYNorm": 85.4,
+        "zona": "sin_peligro",
+        "jugador": "Mika Godts",
+        "minuto": 62
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 44.9,
+        "zona": "centro",
+        "jugador": "Mika Godts",
+        "minuto": 69
       },
       {
         "endX": 94.3,
-        "endYNorm": 42.8,
-        "zona": "centro",
-        "jugador": "Rassoul Ndiaye",
-        "minuto": 84
+        "endYNorm": 64.1,
+        "zona": "primer_palo",
+        "jugador": "Désiré Doué",
+        "minuto": 30
       },
       {
-        "endX": 96.2,
-        "endYNorm": 62.7,
+        "endX": 97.2,
+        "endYNorm": 81.4,
+        "zona": "corto",
+        "jugador": "Désiré Doué",
+        "minuto": 54
+      },
+      {
+        "endX": 97.4,
+        "endYNorm": 86.5,
+        "zona": "corto",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 63
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 72.4,
         "zona": "primer_palo",
-        "jugador": "Kaito Mizuta",
-        "minuto": 90
+        "jugador": "Ousmane Dembélé",
+        "minuto": 78
+      },
+      {
+        "endX": 78.6,
+        "endYNorm": 86.7,
+        "zona": "sin_peligro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 78
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 53.1,
+        "zona": "centro",
+        "jugador": "Vitinha",
+        "minuto": 95
+      },
+      {
+        "endX": 93.9,
+        "endYNorm": 57.8,
+        "zona": "centro",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 65
+      },
+      {
+        "endX": 89.6,
+        "endYNorm": 57.8,
+        "zona": "centro",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 75
+      },
+      {
+        "endX": 88.9,
+        "endYNorm": 61.4,
+        "zona": "primer_palo",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 77
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 90.0,
+        "zona": "corto",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 82
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 41.0,
+        "zona": "centro",
+        "jugador": "Khvicha Kvaratskhelia",
+        "minuto": 93
+      },
+      {
+        "endX": 84.9,
+        "endYNorm": 83.6,
+        "zona": "primer_palo",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 18
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 74.7,
+        "zona": "primer_palo",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 54
+      },
+      {
+        "endX": 69.7,
+        "endYNorm": 68.7,
+        "zona": "sin_peligro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 68
+      },
+      {
+        "endX": 98.0,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 73
+      },
+      {
+        "endX": 77.5,
+        "endYNorm": 80.5,
+        "zona": "sin_peligro",
+        "jugador": "Mika Godts",
+        "minuto": 81
+      },
+      {
+        "endX": 96.0,
+        "endYNorm": 65.2,
+        "zona": "primer_palo",
+        "jugador": "Mika Godts",
+        "minuto": 81
+      },
+      {
+        "endX": 71.7,
+        "endYNorm": 83.1,
+        "zona": "sin_peligro",
+        "jugador": "Mika Godts",
+        "minuto": 83
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 75.2,
+        "zona": "primer_palo",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 3
+      },
+      {
+        "endX": 77.4,
+        "endYNorm": 85.0,
+        "zona": "sin_peligro",
+        "jugador": "Ousmane Dembélé",
+        "minuto": 22
       }
     ]
   },
   "Monaco": {
     "equipo": "Monaco",
-    "partidos": 1,
-    "total_corners": 4,
-    "primer_palo": 1,
-    "primer_palo_pct": 25.0,
-    "centro": 3,
-    "centro_pct": 75.0,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 0,
-    "corto_pct": 0.0,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
+    "partidos": 5,
+    "total_corners": 18,
+    "primer_palo": 2,
+    "primer_palo_pct": 11.1,
+    "centro": 12,
+    "centro_pct": 66.7,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 5.6,
+    "corto": 2,
+    "corto_pct": 11.1,
+    "sin_peligro": 1,
+    "sin_peligro_pct": 5.6,
     "detalle": [
+      {
+        "endX": 84.7,
+        "endYNorm": 92.5,
+        "zona": "corto",
+        "jugador": "Lamine Camara",
+        "minuto": 8
+      },
+      {
+        "endX": 96.0,
+        "endYNorm": 61.2,
+        "zona": "primer_palo",
+        "jugador": "Lamine Camara",
+        "minuto": 30
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 18.7,
+        "zona": "segundo_palo",
+        "jugador": "Lamine Camara",
+        "minuto": 50
+      },
+      {
+        "endX": 84.1,
+        "endYNorm": 88.5,
+        "zona": "corto",
+        "jugador": "Lamine Camara",
+        "minuto": 67
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 58.9,
+        "zona": "centro",
+        "jugador": "Lamine Camara",
+        "minuto": 73
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 44.2,
+        "zona": "centro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 15
+      },
+      {
+        "endX": 99.6,
+        "endYNorm": 44.5,
+        "zona": "centro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 48
+      },
+      {
+        "endX": 76.0,
+        "endYNorm": 72.7,
+        "zona": "sin_peligro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 53
+      },
+      {
+        "endX": 91.6,
+        "endYNorm": 43.8,
+        "zona": "centro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 61
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 47.1,
+        "zona": "centro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 83
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 54.7,
+        "zona": "centro",
+        "jugador": "Flávio Nazinho",
+        "minuto": 85
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 55.0,
+        "zona": "centro",
+        "jugador": "Aleksandr Golovin",
+        "minuto": 86
+      },
       {
         "endX": 95.8,
         "endYNorm": 55.0,
@@ -842,6 +3319,20 @@
         "zona": "centro",
         "jugador": "Flávio Nazinho",
         "minuto": 73
+      },
+      {
+        "endX": 91.4,
+        "endYNorm": 41.0,
+        "zona": "centro",
+        "jugador": "Flávio Nazinho",
+        "minuto": 6
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 48.1,
+        "zona": "centro",
+        "jugador": "Flávio Nazinho",
+        "minuto": 38
       }
     ]
   }
