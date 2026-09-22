@@ -279,13 +279,26 @@ def normalizar(nombre):
 
 def _temporada_de(nombre):
     """
-    Extrae el token de temporada tipo '2024_2025' de un nombre de
-    archivo, sin importar si usa guion o guion bajo ('2024-2025' o
-    '2024_2025'). Devuelve None si el nombre no trae temporada (ej.
-    partidos de Mundial en español, que no tienen año en el nombre).
+    Extrae el token de temporada de un nombre de archivo: primero intenta
+    el rango de dos años tipo '2024_2025' (sin importar si usa guion o
+    guion bajo, '2024-2025' o '2024_2025'); si no hay rango, cae a un solo
+    año de 4 digitos tipo 'MLS 2026' o 'FIFA World Cup 2026' (competiciones
+    de una sola temporada calendario). Devuelve None si el nombre no trae
+    ningun año (ej. partidos de Mundial en español, que no tienen año en
+    el nombre).
+
+    El fallback de un solo año es necesario porque sin el, dos partidos
+    con el mismo marcador entre los mismos equipos en temporadas MLS
+    distintas (ej. "CF Montreal 0-2 Chicago Fire FC" en MLS 2025 y en MLS
+    2026) no se distinguen por temporada y el fotmob de una se puede
+    inyectar por error en el partido de la otra (bug real, detectado el
+    2026-09-21 al agregar la segunda temporada de MLS).
     """
     m = re.search(r"(20\d\d)[-_](20\d\d)", nombre)
-    return f"{m.group(1)}_{m.group(2)}" if m else None
+    if m:
+        return f"{m.group(1)}_{m.group(2)}"
+    m = re.search(r"(?<!\d)(20\d\d)(?!\d)", nombre)
+    return m.group(1) if m else None
 
 
 _LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie"]
