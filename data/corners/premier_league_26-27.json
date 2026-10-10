@@ -392,16 +392,16 @@
   },
   "Fulham": {
     "equipo": "Fulham",
-    "partidos": 5,
-    "total_corners": 28,
-    "primer_palo": 4,
-    "primer_palo_pct": 14.3,
-    "centro": 19,
-    "centro_pct": 67.9,
+    "partidos": 6,
+    "total_corners": 33,
+    "primer_palo": 5,
+    "primer_palo_pct": 15.2,
+    "centro": 23,
+    "centro_pct": 69.7,
     "segundo_palo": 3,
-    "segundo_palo_pct": 10.7,
+    "segundo_palo_pct": 9.1,
     "corto": 2,
-    "corto_pct": 7.1,
+    "corto_pct": 6.1,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -481,6 +481,41 @@
         "zona": "centro",
         "jugador": "Ryan Sessegnon",
         "minuto": 90
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 78.4,
+        "zona": "primer_palo",
+        "jugador": "Alex Iwobi",
+        "minuto": 20
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 51.3,
+        "zona": "centro",
+        "jugador": "Oscar Bobb",
+        "minuto": 30
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 49.0,
+        "zona": "centro",
+        "jugador": "Oscar Bobb",
+        "minuto": 53
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 44.5,
+        "zona": "centro",
+        "jugador": "Oscar Bobb",
+        "minuto": 54
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 52.5,
+        "zona": "centro",
+        "jugador": "Alex Iwobi",
+        "minuto": 54
       },
       {
         "endX": 95.9,
@@ -706,16 +741,16 @@
   },
   "Ipswich": {
     "equipo": "Ipswich",
-    "partidos": 5,
-    "total_corners": 18,
+    "partidos": 6,
+    "total_corners": 20,
     "primer_palo": 2,
-    "primer_palo_pct": 11.1,
-    "centro": 14,
-    "centro_pct": 77.8,
+    "primer_palo_pct": 10.0,
+    "centro": 15,
+    "centro_pct": 75.0,
     "segundo_palo": 2,
-    "segundo_palo_pct": 11.1,
-    "corto": 0,
-    "corto_pct": 0.0,
+    "segundo_palo_pct": 10.0,
+    "corto": 1,
+    "corto_pct": 5.0,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -802,6 +837,20 @@
         "zona": "centro",
         "jugador": "Sasa Lukic",
         "minuto": 71
+      },
+      {
+        "endX": 97.8,
+        "endYNorm": 55.4,
+        "zona": "centro",
+        "jugador": "Sasa Lukic",
+        "minuto": 11
+      },
+      {
+        "endX": 87.7,
+        "endYNorm": 91.6,
+        "zona": "corto",
+        "jugador": "Jaden Philogene",
+        "minuto": 12
       },
       {
         "endX": 85.1,
@@ -1142,18 +1191,18 @@
   },
   "Tottenham": {
     "equipo": "Tottenham",
-    "partidos": 5,
-    "total_corners": 38,
+    "partidos": 6,
+    "total_corners": 42,
     "primer_palo": 5,
-    "primer_palo_pct": 13.2,
-    "centro": 18,
-    "centro_pct": 47.4,
-    "segundo_palo": 4,
-    "segundo_palo_pct": 10.5,
-    "corto": 7,
-    "corto_pct": 18.4,
+    "primer_palo_pct": 11.9,
+    "centro": 20,
+    "centro_pct": 47.6,
+    "segundo_palo": 5,
+    "segundo_palo_pct": 11.9,
+    "corto": 8,
+    "corto_pct": 19.0,
     "sin_peligro": 4,
-    "sin_peligro_pct": 10.5,
+    "sin_peligro_pct": 9.5,
     "detalle": [
       {
         "endX": 98.4,
@@ -1420,23 +1469,51 @@
         "zona": "centro",
         "jugador": "Mateus Fernandes",
         "minuto": 84
+      },
+      {
+        "endX": 97.3,
+        "endYNorm": 57.6,
+        "zona": "centro",
+        "jugador": "Sávio",
+        "minuto": 33
+      },
+      {
+        "endX": 98.4,
+        "endYNorm": 39.8,
+        "zona": "segundo_palo",
+        "jugador": "Sandro Tonali",
+        "minuto": 57
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 46.8,
+        "zona": "centro",
+        "jugador": "Sandro Tonali",
+        "minuto": 58
+      },
+      {
+        "endX": 86.8,
+        "endYNorm": 88.1,
+        "zona": "corto",
+        "jugador": "Sandro Tonali",
+        "minuto": 68
       }
     ]
   },
   "Man Utd": {
     "equipo": "Man Utd",
-    "partidos": 5,
-    "total_corners": 36,
-    "primer_palo": 6,
-    "primer_palo_pct": 16.7,
-    "centro": 19,
-    "centro_pct": 52.8,
+    "partidos": 6,
+    "total_corners": 40,
+    "primer_palo": 7,
+    "primer_palo_pct": 17.5,
+    "centro": 22,
+    "centro_pct": 55.0,
     "segundo_palo": 3,
-    "segundo_palo_pct": 8.3,
+    "segundo_palo_pct": 7.5,
     "corto": 4,
-    "corto_pct": 11.1,
+    "corto_pct": 10.0,
     "sin_peligro": 4,
-    "sin_peligro_pct": 11.1,
+    "sin_peligro_pct": 10.0,
     "detalle": [
       {
         "endX": 91.8,
@@ -1689,6 +1766,502 @@
         "zona": "primer_palo",
         "jugador": "Bruno Fernandes",
         "minuto": 88
+      },
+      {
+        "endX": 95.3,
+        "endYNorm": 50.1,
+        "zona": "centro",
+        "jugador": "Bruno Fernandes",
+        "minuto": 47
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 57.3,
+        "zona": "centro",
+        "jugador": "Bruno Fernandes",
+        "minuto": 54
+      },
+      {
+        "endX": 96.5,
+        "endYNorm": 63.7,
+        "zona": "primer_palo",
+        "jugador": "Bruno Fernandes",
+        "minuto": 61
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 51.9,
+        "zona": "centro",
+        "jugador": "Bruno Fernandes",
+        "minuto": 85
+      }
+    ]
+  },
+  "Chelsea": {
+    "equipo": "Chelsea",
+    "partidos": 6,
+    "total_corners": 34,
+    "primer_palo": 3,
+    "primer_palo_pct": 8.8,
+    "centro": 19,
+    "centro_pct": 55.9,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 2.9,
+    "corto": 8,
+    "corto_pct": 23.5,
+    "sin_peligro": 3,
+    "sin_peligro_pct": 8.8,
+    "detalle": [
+      {
+        "endX": 98.2,
+        "endYNorm": 50.5,
+        "zona": "centro",
+        "jugador": "Pedro Neto",
+        "minuto": 11
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 58.8,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 12
+      },
+      {
+        "endX": 94.0,
+        "endYNorm": 72.4,
+        "zona": "primer_palo",
+        "jugador": "Reece James",
+        "minuto": 22
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Pedro Neto",
+        "minuto": 25
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 51.2,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 39
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 47.6,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 46
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 53.6,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 47
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 49.9,
+        "zona": "centro",
+        "jugador": "Pedro Neto",
+        "minuto": 49
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 48.2,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 53
+      },
+      {
+        "endX": 92.8,
+        "endYNorm": 61.1,
+        "zona": "primer_palo",
+        "jugador": "Reece James",
+        "minuto": 55
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 92.9,
+        "zona": "corto",
+        "jugador": "Pedro Neto",
+        "minuto": 70
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 51.1,
+        "zona": "centro",
+        "jugador": "Pedro Neto",
+        "minuto": 74
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 45.4,
+        "zona": "centro",
+        "jugador": "Malo Gusto",
+        "minuto": 79
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 51.6,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 88
+      },
+      {
+        "endX": 87.2,
+        "endYNorm": 89.7,
+        "zona": "corto",
+        "jugador": "Cole Palmer",
+        "minuto": 3
+      },
+      {
+        "endX": 77.1,
+        "endYNorm": 74.1,
+        "zona": "sin_peligro",
+        "jugador": "Morgan Rogers",
+        "minuto": 34
+      },
+      {
+        "endX": 97.4,
+        "endYNorm": 47.4,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 35
+      },
+      {
+        "endX": 91.3,
+        "endYNorm": 96.4,
+        "zona": "corto",
+        "jugador": "Estêvão",
+        "minuto": 89
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 55.3,
+        "zona": "centro",
+        "jugador": "Pedro Neto",
+        "minuto": 3
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Malo Gusto",
+        "minuto": 34
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 50.0,
+        "zona": "centro",
+        "jugador": "Malo Gusto",
+        "minuto": 50
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 54.2,
+        "zona": "centro",
+        "jugador": "Reece James",
+        "minuto": 72
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 51.1,
+        "zona": "centro",
+        "jugador": "Jordan Henderson",
+        "minuto": 12
+      },
+      {
+        "endX": 91.8,
+        "endYNorm": 96.8,
+        "zona": "corto",
+        "jugador": "Pedro Neto",
+        "minuto": 27
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 47.7,
+        "zona": "centro",
+        "jugador": "Jordan Henderson",
+        "minuto": 41
+      },
+      {
+        "endX": 81.1,
+        "endYNorm": 84.0,
+        "zona": "sin_peligro",
+        "jugador": "Jordan Henderson",
+        "minuto": 47
+      },
+      {
+        "endX": 88.6,
+        "endYNorm": 94.7,
+        "zona": "corto",
+        "jugador": "Pedro Neto",
+        "minuto": 51
+      },
+      {
+        "endX": 80.7,
+        "endYNorm": 87.7,
+        "zona": "sin_peligro",
+        "jugador": "Jordan Henderson",
+        "minuto": 67
+      },
+      {
+        "endX": 97.3,
+        "endYNorm": 47.1,
+        "zona": "centro",
+        "jugador": "Jordan Henderson",
+        "minuto": 67
+      },
+      {
+        "endX": 88.7,
+        "endYNorm": 92.1,
+        "zona": "corto",
+        "jugador": "Pedro Neto",
+        "minuto": 75
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 48.8,
+        "zona": "centro",
+        "jugador": "Jordan Henderson",
+        "minuto": 78
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 91.8,
+        "zona": "corto",
+        "jugador": "Pedro Neto",
+        "minuto": 78
+      },
+      {
+        "endX": 82.7,
+        "endYNorm": 89.0,
+        "zona": "corto",
+        "jugador": "Jordan Henderson",
+        "minuto": 79
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 34.7,
+        "zona": "segundo_palo",
+        "jugador": "Estêvão",
+        "minuto": 96
+      }
+    ]
+  },
+  "Bournemouth": {
+    "equipo": "Bournemouth",
+    "partidos": 6,
+    "total_corners": 28,
+    "primer_palo": 5,
+    "primer_palo_pct": 17.9,
+    "centro": 18,
+    "centro_pct": 64.3,
+    "segundo_palo": 1,
+    "segundo_palo_pct": 3.6,
+    "corto": 3,
+    "corto_pct": 10.7,
+    "sin_peligro": 1,
+    "sin_peligro_pct": 3.6,
+    "detalle": [
+      {
+        "endX": 96.2,
+        "endYNorm": 65.2,
+        "zona": "primer_palo",
+        "jugador": "Marcus Tavernier",
+        "minuto": 20
+      },
+      {
+        "endX": 90.8,
+        "endYNorm": 39.5,
+        "zona": "segundo_palo",
+        "jugador": "Marcus Tavernier",
+        "minuto": 34
+      },
+      {
+        "endX": 77.8,
+        "endYNorm": 76.9,
+        "zona": "sin_peligro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 46
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 68.8,
+        "zona": "primer_palo",
+        "jugador": "Marcus Tavernier",
+        "minuto": 50
+      },
+      {
+        "endX": 97.3,
+        "endYNorm": 52.2,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 54
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 46.9,
+        "zona": "centro",
+        "jugador": "Lewis Cook",
+        "minuto": 78
+      },
+      {
+        "endX": 93.7,
+        "endYNorm": 49.1,
+        "zona": "centro",
+        "jugador": "Lewis Cook",
+        "minuto": 88
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 47.9,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 21
+      },
+      {
+        "endX": 97.9,
+        "endYNorm": 49.7,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 48
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 53.1,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 12
+      },
+      {
+        "endX": 98.1,
+        "endYNorm": 52.4,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 14
+      },
+      {
+        "endX": 96.2,
+        "endYNorm": 50.7,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 31
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 50.9,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 58
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 54.0,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 60
+      },
+      {
+        "endX": 97.6,
+        "endYNorm": 53.9,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 71
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 42.7,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 75
+      },
+      {
+        "endX": 86.8,
+        "endYNorm": 90.2,
+        "zona": "corto",
+        "jugador": "Marcus Tavernier",
+        "minuto": 79
+      },
+      {
+        "endX": 96.2,
+        "endYNorm": 57.5,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 79
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 56.9,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 85
+      },
+      {
+        "endX": 88.0,
+        "endYNorm": 93.9,
+        "zona": "corto",
+        "jugador": "Alex Scott",
+        "minuto": 6
+      },
+      {
+        "endX": 95.9,
+        "endYNorm": 68.2,
+        "zona": "primer_palo",
+        "jugador": "Alex Scott",
+        "minuto": 18
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 49.6,
+        "zona": "centro",
+        "jugador": "David Brooks",
+        "minuto": 92
+      },
+      {
+        "endX": 98.0,
+        "endYNorm": 65.5,
+        "zona": "primer_palo",
+        "jugador": "Alex Scott",
+        "minuto": 14
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 52.7,
+        "zona": "centro",
+        "jugador": "Alex Scott",
+        "minuto": 78
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 59.1,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 80
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 59.1,
+        "zona": "centro",
+        "jugador": "Marcus Tavernier",
+        "minuto": 31
+      },
+      {
+        "endX": 84.4,
+        "endYNorm": 81.1,
+        "zona": "primer_palo",
+        "jugador": "Marcus Tavernier",
+        "minuto": 32
+      },
+      {
+        "endX": 89.0,
+        "endYNorm": 91.1,
+        "zona": "corto",
+        "jugador": "Alex Scott",
+        "minuto": 54
       }
     ]
   },
@@ -1886,18 +2459,18 @@
   },
   "Brentford": {
     "equipo": "Brentford",
-    "partidos": 5,
-    "total_corners": 22,
+    "partidos": 6,
+    "total_corners": 24,
     "primer_palo": 1,
-    "primer_palo_pct": 4.5,
-    "centro": 14,
-    "centro_pct": 63.6,
-    "segundo_palo": 4,
-    "segundo_palo_pct": 18.2,
+    "primer_palo_pct": 4.2,
+    "centro": 15,
+    "centro_pct": 62.5,
+    "segundo_palo": 5,
+    "segundo_palo_pct": 20.8,
     "corto": 1,
-    "corto_pct": 4.5,
+    "corto_pct": 4.2,
     "sin_peligro": 2,
-    "sin_peligro_pct": 9.1,
+    "sin_peligro_pct": 8.3,
     "detalle": [
       {
         "endX": 81.1,
@@ -1984,6 +2557,20 @@
         "minuto": 90
       },
       {
+        "endX": 93.5,
+        "endYNorm": 52.9,
+        "zona": "centro",
+        "jugador": "Jaidon Anthony",
+        "minuto": 21
+      },
+      {
+        "endX": 90.0,
+        "endYNorm": 28.0,
+        "zona": "segundo_palo",
+        "jugador": "Vitaly Janelt",
+        "minuto": 63
+      },
+      {
         "endX": 95.5,
         "endYNorm": 41.1,
         "zona": "centro",
@@ -2057,16 +2644,16 @@
   },
   "Leeds": {
     "equipo": "Leeds",
-    "partidos": 5,
-    "total_corners": 22,
-    "primer_palo": 3,
-    "primer_palo_pct": 13.6,
-    "centro": 18,
-    "centro_pct": 81.8,
+    "partidos": 6,
+    "total_corners": 26,
+    "primer_palo": 4,
+    "primer_palo_pct": 15.4,
+    "centro": 21,
+    "centro_pct": 80.8,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 1,
-    "corto_pct": 4.5,
+    "corto_pct": 3.8,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -2118,6 +2705,34 @@
         "zona": "centro",
         "jugador": "Anton Stach",
         "minuto": 69
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 52.5,
+        "zona": "centro",
+        "jugador": "Anton Stach",
+        "minuto": 8
+      },
+      {
+        "endX": 94.1,
+        "endYNorm": 49.9,
+        "zona": "centro",
+        "jugador": "Anton Stach",
+        "minuto": 26
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 71.5,
+        "zona": "primer_palo",
+        "jugador": "Anton Stach",
+        "minuto": 52
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 46.8,
+        "zona": "centro",
+        "jugador": "Anton Stach",
+        "minuto": 57
       },
       {
         "endX": 93.5,
@@ -2399,18 +3014,18 @@
   },
   "Sunderland": {
     "equipo": "Sunderland",
-    "partidos": 5,
-    "total_corners": 20,
+    "partidos": 6,
+    "total_corners": 27,
     "primer_palo": 2,
-    "primer_palo_pct": 10.0,
-    "centro": 12,
-    "centro_pct": 60.0,
+    "primer_palo_pct": 7.4,
+    "centro": 17,
+    "centro_pct": 63.0,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
-    "corto": 2,
-    "corto_pct": 10.0,
-    "sin_peligro": 4,
-    "sin_peligro_pct": 20.0,
+    "corto": 3,
+    "corto_pct": 11.1,
+    "sin_peligro": 5,
+    "sin_peligro_pct": 18.5,
     "detalle": [
       {
         "endX": 85.1,
@@ -2518,6 +3133,55 @@
         "minuto": 83
       },
       {
+        "endX": 95.7,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Enzo Le Fée",
+        "minuto": 6
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Enzo Le Fée",
+        "minuto": 21
+      },
+      {
+        "endX": 98.4,
+        "endYNorm": 54.4,
+        "zona": "centro",
+        "jugador": "Granit Xhaka",
+        "minuto": 37
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 54.3,
+        "zona": "centro",
+        "jugador": "Granit Xhaka",
+        "minuto": 68
+      },
+      {
+        "endX": 78.9,
+        "endYNorm": 27.0,
+        "zona": "sin_peligro",
+        "jugador": "Granit Xhaka",
+        "minuto": 80
+      },
+      {
+        "endX": 92.4,
+        "endYNorm": 51.7,
+        "zona": "centro",
+        "jugador": "Trai Hume",
+        "minuto": 84
+      },
+      {
+        "endX": 88.7,
+        "endYNorm": 95.7,
+        "zona": "corto",
+        "jugador": "Granit Xhaka",
+        "minuto": 91
+      },
+      {
         "endX": 95.6,
         "endYNorm": 62.5,
         "zona": "primer_palo",
@@ -2551,418 +3215,6 @@
         "zona": "centro",
         "jugador": "Granit Xhaka",
         "minuto": 85
-      }
-    ]
-  },
-  "Bournemouth": {
-    "equipo": "Bournemouth",
-    "partidos": 5,
-    "total_corners": 21,
-    "primer_palo": 3,
-    "primer_palo_pct": 14.3,
-    "centro": 15,
-    "centro_pct": 71.4,
-    "segundo_palo": 0,
-    "segundo_palo_pct": 0.0,
-    "corto": 3,
-    "corto_pct": 14.3,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
-    "detalle": [
-      {
-        "endX": 100.0,
-        "endYNorm": 47.9,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 21
-      },
-      {
-        "endX": 97.9,
-        "endYNorm": 49.7,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 48
-      },
-      {
-        "endX": 97.1,
-        "endYNorm": 53.1,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 12
-      },
-      {
-        "endX": 98.1,
-        "endYNorm": 52.4,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 14
-      },
-      {
-        "endX": 96.2,
-        "endYNorm": 50.7,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 31
-      },
-      {
-        "endX": 96.7,
-        "endYNorm": 50.9,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 58
-      },
-      {
-        "endX": 95.8,
-        "endYNorm": 54.0,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 60
-      },
-      {
-        "endX": 97.6,
-        "endYNorm": 53.9,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 71
-      },
-      {
-        "endX": 96.7,
-        "endYNorm": 42.7,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 75
-      },
-      {
-        "endX": 86.8,
-        "endYNorm": 90.2,
-        "zona": "corto",
-        "jugador": "Marcus Tavernier",
-        "minuto": 79
-      },
-      {
-        "endX": 96.2,
-        "endYNorm": 57.5,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 79
-      },
-      {
-        "endX": 97.0,
-        "endYNorm": 56.9,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 85
-      },
-      {
-        "endX": 88.0,
-        "endYNorm": 93.9,
-        "zona": "corto",
-        "jugador": "Alex Scott",
-        "minuto": 6
-      },
-      {
-        "endX": 95.9,
-        "endYNorm": 68.2,
-        "zona": "primer_palo",
-        "jugador": "Alex Scott",
-        "minuto": 18
-      },
-      {
-        "endX": 96.4,
-        "endYNorm": 49.6,
-        "zona": "centro",
-        "jugador": "David Brooks",
-        "minuto": 92
-      },
-      {
-        "endX": 98.0,
-        "endYNorm": 65.5,
-        "zona": "primer_palo",
-        "jugador": "Alex Scott",
-        "minuto": 14
-      },
-      {
-        "endX": 97.1,
-        "endYNorm": 52.7,
-        "zona": "centro",
-        "jugador": "Alex Scott",
-        "minuto": 78
-      },
-      {
-        "endX": 96.9,
-        "endYNorm": 59.1,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 80
-      },
-      {
-        "endX": 97.0,
-        "endYNorm": 59.1,
-        "zona": "centro",
-        "jugador": "Marcus Tavernier",
-        "minuto": 31
-      },
-      {
-        "endX": 84.4,
-        "endYNorm": 81.1,
-        "zona": "primer_palo",
-        "jugador": "Marcus Tavernier",
-        "minuto": 32
-      },
-      {
-        "endX": 89.0,
-        "endYNorm": 91.1,
-        "zona": "corto",
-        "jugador": "Alex Scott",
-        "minuto": 54
-      }
-    ]
-  },
-  "Chelsea": {
-    "equipo": "Chelsea",
-    "partidos": 5,
-    "total_corners": 33,
-    "primer_palo": 3,
-    "primer_palo_pct": 9.1,
-    "centro": 18,
-    "centro_pct": 54.5,
-    "segundo_palo": 1,
-    "segundo_palo_pct": 3.0,
-    "corto": 8,
-    "corto_pct": 24.2,
-    "sin_peligro": 3,
-    "sin_peligro_pct": 9.1,
-    "detalle": [
-      {
-        "endX": 95.5,
-        "endYNorm": 58.8,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 12
-      },
-      {
-        "endX": 94.0,
-        "endYNorm": 72.4,
-        "zona": "primer_palo",
-        "jugador": "Reece James",
-        "minuto": 22
-      },
-      {
-        "endX": 94.4,
-        "endYNorm": 60.3,
-        "zona": "primer_palo",
-        "jugador": "Pedro Neto",
-        "minuto": 25
-      },
-      {
-        "endX": 92.8,
-        "endYNorm": 51.2,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 39
-      },
-      {
-        "endX": 96.7,
-        "endYNorm": 47.6,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 46
-      },
-      {
-        "endX": 96.1,
-        "endYNorm": 53.6,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 47
-      },
-      {
-        "endX": 94.4,
-        "endYNorm": 49.9,
-        "zona": "centro",
-        "jugador": "Pedro Neto",
-        "minuto": 49
-      },
-      {
-        "endX": 96.8,
-        "endYNorm": 48.2,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 53
-      },
-      {
-        "endX": 92.8,
-        "endYNorm": 61.1,
-        "zona": "primer_palo",
-        "jugador": "Reece James",
-        "minuto": 55
-      },
-      {
-        "endX": 90.7,
-        "endYNorm": 92.9,
-        "zona": "corto",
-        "jugador": "Pedro Neto",
-        "minuto": 70
-      },
-      {
-        "endX": 93.2,
-        "endYNorm": 51.1,
-        "zona": "centro",
-        "jugador": "Pedro Neto",
-        "minuto": 74
-      },
-      {
-        "endX": 97.5,
-        "endYNorm": 45.4,
-        "zona": "centro",
-        "jugador": "Malo Gusto",
-        "minuto": 79
-      },
-      {
-        "endX": 94.8,
-        "endYNorm": 51.6,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 88
-      },
-      {
-        "endX": 87.2,
-        "endYNorm": 89.7,
-        "zona": "corto",
-        "jugador": "Cole Palmer",
-        "minuto": 3
-      },
-      {
-        "endX": 77.1,
-        "endYNorm": 74.1,
-        "zona": "sin_peligro",
-        "jugador": "Morgan Rogers",
-        "minuto": 34
-      },
-      {
-        "endX": 97.4,
-        "endYNorm": 47.4,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 35
-      },
-      {
-        "endX": 91.3,
-        "endYNorm": 96.4,
-        "zona": "corto",
-        "jugador": "Estêvão",
-        "minuto": 89
-      },
-      {
-        "endX": 97.0,
-        "endYNorm": 55.3,
-        "zona": "centro",
-        "jugador": "Pedro Neto",
-        "minuto": 3
-      },
-      {
-        "endX": 95.1,
-        "endYNorm": 56.4,
-        "zona": "centro",
-        "jugador": "Malo Gusto",
-        "minuto": 34
-      },
-      {
-        "endX": 96.7,
-        "endYNorm": 50.0,
-        "zona": "centro",
-        "jugador": "Malo Gusto",
-        "minuto": 50
-      },
-      {
-        "endX": 95.9,
-        "endYNorm": 54.2,
-        "zona": "centro",
-        "jugador": "Reece James",
-        "minuto": 72
-      },
-      {
-        "endX": 89.1,
-        "endYNorm": 51.1,
-        "zona": "centro",
-        "jugador": "Jordan Henderson",
-        "minuto": 12
-      },
-      {
-        "endX": 91.8,
-        "endYNorm": 96.8,
-        "zona": "corto",
-        "jugador": "Pedro Neto",
-        "minuto": 27
-      },
-      {
-        "endX": 97.0,
-        "endYNorm": 47.7,
-        "zona": "centro",
-        "jugador": "Jordan Henderson",
-        "minuto": 41
-      },
-      {
-        "endX": 81.1,
-        "endYNorm": 84.0,
-        "zona": "sin_peligro",
-        "jugador": "Jordan Henderson",
-        "minuto": 47
-      },
-      {
-        "endX": 88.6,
-        "endYNorm": 94.7,
-        "zona": "corto",
-        "jugador": "Pedro Neto",
-        "minuto": 51
-      },
-      {
-        "endX": 80.7,
-        "endYNorm": 87.7,
-        "zona": "sin_peligro",
-        "jugador": "Jordan Henderson",
-        "minuto": 67
-      },
-      {
-        "endX": 97.3,
-        "endYNorm": 47.1,
-        "zona": "centro",
-        "jugador": "Jordan Henderson",
-        "minuto": 67
-      },
-      {
-        "endX": 88.7,
-        "endYNorm": 92.1,
-        "zona": "corto",
-        "jugador": "Pedro Neto",
-        "minuto": 75
-      },
-      {
-        "endX": 94.8,
-        "endYNorm": 48.8,
-        "zona": "centro",
-        "jugador": "Jordan Henderson",
-        "minuto": 78
-      },
-      {
-        "endX": 90.8,
-        "endYNorm": 91.8,
-        "zona": "corto",
-        "jugador": "Pedro Neto",
-        "minuto": 78
-      },
-      {
-        "endX": 82.7,
-        "endYNorm": 89.0,
-        "zona": "corto",
-        "jugador": "Jordan Henderson",
-        "minuto": 79
-      },
-      {
-        "endX": 100.0,
-        "endYNorm": 34.7,
-        "zona": "segundo_palo",
-        "jugador": "Estêvão",
-        "minuto": 96
       }
     ]
   },
@@ -3104,16 +3356,16 @@
   },
   "Arsenal": {
     "equipo": "Arsenal",
-    "partidos": 5,
-    "total_corners": 25,
+    "partidos": 6,
+    "total_corners": 27,
     "primer_palo": 3,
-    "primer_palo_pct": 12.0,
-    "centro": 16,
-    "centro_pct": 64.0,
+    "primer_palo_pct": 11.1,
+    "centro": 18,
+    "centro_pct": 66.7,
     "segundo_palo": 3,
-    "segundo_palo_pct": 12.0,
+    "segundo_palo_pct": 11.1,
     "corto": 3,
-    "corto_pct": 12.0,
+    "corto_pct": 11.1,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -3151,6 +3403,20 @@
         "zona": "centro",
         "jugador": "Bukayo Saka",
         "minuto": 71
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 47.9,
+        "zona": "centro",
+        "jugador": "Declan Rice",
+        "minuto": 65
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 51.2,
+        "zona": "centro",
+        "jugador": "Bukayo Saka",
+        "minuto": 66
       },
       {
         "endX": 96.6,
@@ -3296,16 +3562,16 @@
   },
   "Brighton": {
     "equipo": "Brighton",
-    "partidos": 5,
-    "total_corners": 27,
-    "primer_palo": 1,
-    "primer_palo_pct": 3.7,
-    "centro": 17,
-    "centro_pct": 63.0,
+    "partidos": 6,
+    "total_corners": 32,
+    "primer_palo": 2,
+    "primer_palo_pct": 6.2,
+    "centro": 20,
+    "centro_pct": 62.5,
     "segundo_palo": 8,
-    "segundo_palo_pct": 29.6,
-    "corto": 1,
-    "corto_pct": 3.7,
+    "segundo_palo_pct": 25.0,
+    "corto": 2,
+    "corto_pct": 6.2,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -3357,6 +3623,41 @@
         "zona": "primer_palo",
         "jugador": "Pascal Groß",
         "minuto": 79
+      },
+      {
+        "endX": 98.1,
+        "endYNorm": 49.7,
+        "zona": "centro",
+        "jugador": "Maxim De Cuyper",
+        "minuto": 8
+      },
+      {
+        "endX": 97.5,
+        "endYNorm": 55.8,
+        "zona": "centro",
+        "jugador": "Pascal Groß",
+        "minuto": 9
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 62.6,
+        "zona": "primer_palo",
+        "jugador": "Pascal Groß",
+        "minuto": 34
+      },
+      {
+        "endX": 87.0,
+        "endYNorm": 54.8,
+        "zona": "centro",
+        "jugador": "Pascal Groß",
+        "minuto": 75
+      },
+      {
+        "endX": 90.4,
+        "endYNorm": 92.9,
+        "zona": "corto",
+        "jugador": "Pascal Groß",
+        "minuto": 97
       },
       {
         "endX": 96.4,
@@ -3502,16 +3803,16 @@
   },
   "Aston Villa": {
     "equipo": "Aston Villa",
-    "partidos": 5,
-    "total_corners": 15,
-    "primer_palo": 3,
-    "primer_palo_pct": 20.0,
+    "partidos": 6,
+    "total_corners": 17,
+    "primer_palo": 4,
+    "primer_palo_pct": 23.5,
     "centro": 7,
-    "centro_pct": 46.7,
+    "centro_pct": 41.2,
     "segundo_palo": 1,
-    "segundo_palo_pct": 6.7,
-    "corto": 4,
-    "corto_pct": 26.7,
+    "segundo_palo_pct": 5.9,
+    "corto": 5,
+    "corto_pct": 29.4,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -3521,6 +3822,20 @@
         "zona": "centro",
         "jugador": "John McGinn",
         "minuto": 40
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 92.4,
+        "zona": "corto",
+        "jugador": "John McGinn",
+        "minuto": 61
+      },
+      {
+        "endX": 92.7,
+        "endYNorm": 72.4,
+        "zona": "primer_palo",
+        "jugador": "Ibrahim Mbaye",
+        "minuto": 95
       },
       {
         "endX": 94.7,
