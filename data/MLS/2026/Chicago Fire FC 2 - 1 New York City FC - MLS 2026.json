@@ -1,5 +1,5 @@
 {
-  "marcador": "1 : 1",
+  "marcador": "2 : 1",
   "estadio": "Soldier Field",
   "capacidad_estadio": null,
   "asistencia": 0,
@@ -12,25 +12,25 @@
         "id": 471104,
         "nombre": "Jonathan Dean",
         "dorsal": 24,
-        "x": 53.5,
-        "y": 11.5,
-        "toques": 61
+        "x": 53.7,
+        "y": 11.3,
+        "toques": 63
       },
       {
         "id": 241019,
         "nombre": "Jonathan Bamba",
         "dorsal": 19,
         "x": 62.9,
-        "y": 75.8,
+        "y": 75.9,
         "toques": 26
       },
       {
         "id": 334728,
         "nombre": "Jack Elliott",
         "dorsal": 3,
-        "x": 38.4,
-        "y": 35.2,
-        "toques": 72
+        "x": 38.3,
+        "y": 34.7,
+        "toques": 82
       },
       {
         "id": 557469,
@@ -45,32 +45,32 @@
         "nombre": "Philip Zinckernagel",
         "dorsal": 11,
         "x": 68.8,
-        "y": 28.6,
+        "y": 28.7,
         "toques": 47
       },
       {
         "id": 364227,
         "nombre": "Maren Haile-Selassie",
         "dorsal": 7,
-        "x": 68.7,
-        "y": 60.9,
-        "toques": 39
+        "x": 69.3,
+        "y": 61.4,
+        "toques": 46
       },
       {
         "id": 414483,
         "nombre": "Chris Brady",
         "dorsal": 1,
-        "x": 12.6,
-        "y": 48.0,
-        "toques": 45
+        "x": 11.9,
+        "y": 47.5,
+        "toques": 55
       },
       {
         "id": 563880,
         "nombre": "Mbekezeli Mbokazi",
         "dorsal": 4,
-        "x": 41.5,
-        "y": 67.3,
-        "toques": 78
+        "x": 40.6,
+        "y": 67.8,
+        "toques": 86
       },
       {
         "id": 29400,
@@ -84,16 +84,16 @@
         "id": 135544,
         "nombre": "Anton Salétros",
         "dorsal": 6,
-        "x": 61.0,
-        "y": 38.6,
-        "toques": 50
+        "x": 60.6,
+        "y": 38.4,
+        "toques": 52
       },
       {
         "id": 551860,
         "nombre": "Leonardo Barroso",
         "dorsal": 2,
-        "x": 50.6,
-        "y": 83.2,
+        "x": 50.7,
+        "y": 83.0,
         "toques": 43
       }
     ],
@@ -111,7 +111,7 @@
       {
         "de": 334728,
         "a": 414483,
-        "veces": 17
+        "veces": 21
       },
       {
         "de": 414483,
@@ -121,7 +121,7 @@
       {
         "de": 364227,
         "a": 563880,
-        "veces": 7
+        "veces": 8
       },
       {
         "de": 334728,
@@ -151,7 +151,7 @@
       {
         "de": 135544,
         "a": 471104,
-        "veces": 13
+        "veces": 14
       },
       {
         "de": 355450,
@@ -316,7 +316,7 @@
       {
         "de": 334728,
         "a": 364227,
-        "veces": 2
+        "veces": 3
       },
       {
         "de": 334728,
@@ -350,19 +350,24 @@
       }
     ],
     "estadisticas": {
-      "tiros": 12,
-      "tiros_al_arco": 7,
-      "pases_totales": 405,
-      "precision_pases": 79.0,
-      "posesion": 50.5,
+      "tiros": 14,
+      "tiros_al_arco": 8,
+      "pases_totales": 423,
+      "precision_pases": 77.8,
+      "posesion": 48.9,
       "goles": [
         {
           "minuto": 54,
           "jugador": "Anton Salétros",
           "penal": false
+        },
+        {
+          "minuto": 86,
+          "jugador": "Maren Haile-Selassie",
+          "penal": false
         }
       ],
-      "ppda": 8.53
+      "ppda": 9.11
     },
     "tiros": [
       {
@@ -470,8 +475,26 @@
         "resultado": "SavedShot",
         "x": 87.2,
         "y": 33.6,
-        "arco_y": null,
-        "arco_z": null
+        "arco_y": 54.1,
+        "arco_z": 5.1
+      },
+      {
+        "minuto": 86,
+        "jugador": "Jack Elliott",
+        "resultado": "MissedShots",
+        "x": 97.6,
+        "y": 46.4,
+        "arco_y": 47.1,
+        "arco_z": 58.3
+      },
+      {
+        "minuto": 86,
+        "jugador": "Maren Haile-Selassie",
+        "resultado": "Goal",
+        "x": 93.3,
+        "y": 61.5,
+        "arco_y": 53.8,
+        "arco_z": 2.5
       }
     ],
     "corners": [
@@ -507,6 +530,17 @@
         "endYNorm": 59.5,
         "exitoso": false,
         "zona": "centro"
+      },
+      {
+        "minuto": 86,
+        "jugador": "Maren Haile-Selassie",
+        "x": 99.5,
+        "y": 99.5,
+        "endX": 97.6,
+        "endY": 46.4,
+        "endYNorm": 46.4,
+        "exitoso": true,
+        "zona": "centro"
       }
     ],
     "acciones": [
@@ -528,8 +562,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 61.2,
-            "y": 89.1,
+            "x": 60.3,
+            "y": 91.8,
             "exitoso": true
           },
           {
@@ -606,8 +640,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 58.4,
-            "y": 74.1,
+            "x": 59.5,
+            "y": 76.3,
             "exitoso": true
           },
           {
@@ -618,8 +652,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 39.6,
-            "y": 9.1,
+            "x": 42.0,
+            "y": 8.3,
             "exitoso": true
           },
           {
@@ -630,20 +664,20 @@
           },
           {
             "tipo": "Interception",
-            "x": 68.3,
-            "y": 7.9,
+            "x": 75.2,
+            "y": 7.8,
             "exitoso": true
           },
           {
             "tipo": "Aerial",
-            "x": 37.7,
-            "y": 80.4,
+            "x": 38.6,
+            "y": 77.7,
             "exitoso": true
           },
           {
             "tipo": "Clearance",
-            "x": 36.1,
-            "y": 84.2,
+            "x": 38.6,
+            "y": 77.7,
             "exitoso": true
           },
           {
@@ -660,8 +694,32 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 44.7,
-            "y": 47.9,
+            "x": 45.1,
+            "y": 50.7,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 97.6,
+            "y": 46.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 35.8,
+            "y": 12.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 18.0,
+            "y": 50.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 6.2,
+            "y": 56.1,
             "exitoso": true
           }
         ]
@@ -762,8 +820,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 26.8,
-            "y": 44.1,
+            "x": 28.4,
+            "y": 46.1,
             "exitoso": true
           },
           {
@@ -882,8 +940,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 64.5,
-            "y": 15.1,
+            "x": 53.5,
+            "y": 13.6,
             "exitoso": true
           },
           {
@@ -894,8 +952,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 38.7,
-            "y": 4.8,
+            "x": 40.8,
+            "y": 7.3,
             "exitoso": true
           },
           {
@@ -912,9 +970,15 @@
           },
           {
             "tipo": "Aerial",
-            "x": 52.6,
-            "y": 52.0,
+            "x": 53.6,
+            "y": 52.8,
             "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 61.2,
+            "y": 10.8,
+            "exitoso": false
           }
         ]
       },
@@ -948,8 +1012,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 32.8,
-            "y": 90.3,
+            "x": 38.3,
+            "y": 85.2,
             "exitoso": true
           },
           {
@@ -1026,8 +1090,8 @@
           },
           {
             "tipo": "Aerial",
-            "x": 90.5,
-            "y": 57.7,
+            "x": 91.2,
+            "y": 56.4,
             "exitoso": false
           },
           {
@@ -1056,8 +1120,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 57.7,
-            "y": 90.6,
+            "x": 57.6,
+            "y": 89.4,
             "exitoso": true
           },
           {
@@ -1088,6 +1152,36 @@
             "tipo": "TakeOn",
             "x": 77.6,
             "y": 38.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 14.0,
+            "y": 41.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 19.6,
+            "y": 93.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 63.3,
+            "y": 84.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 29.5,
+            "y": 87.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 29.5,
+            "y": 87.5,
             "exitoso": true
           }
         ]
@@ -1146,8 +1240,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 59.3,
-            "y": 51.5,
+            "x": 67.4,
+            "y": 44.2,
             "exitoso": true
           },
           {
@@ -1158,14 +1252,32 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 19.1,
-            "y": 77.8,
+            "x": 21.3,
+            "y": 84.8,
             "exitoso": true
           },
           {
             "tipo": "Foul",
             "x": 13.2,
             "y": 88.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Interception",
+            "x": 91.1,
+            "y": 59.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 53.8,
+            "y": 50.0,
+            "exitoso": false
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 74.8,
+            "y": 94.6,
             "exitoso": true
           }
         ]
@@ -1254,14 +1366,20 @@
           },
           {
             "tipo": "Aerial",
-            "x": 90.0,
-            "y": 43.3,
+            "x": 89.4,
+            "y": 49.2,
             "exitoso": true
           },
           {
             "tipo": "Interception",
+            "x": 11.7,
+            "y": 56.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
             "x": 13.2,
-            "y": 58.2,
+            "y": 61.2,
             "exitoso": true
           }
         ]
@@ -1311,6 +1429,18 @@
             "x": 68.4,
             "y": 90.8,
             "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 30.2,
+            "y": 76.0,
+            "exitoso": false
+          },
+          {
+            "tipo": "Clearance",
+            "x": 12.9,
+            "y": 58.8,
+            "exitoso": true
           }
         ]
       },
@@ -1326,14 +1456,20 @@
           },
           {
             "tipo": "Aerial",
-            "x": 70.6,
-            "y": 91.1,
+            "x": 70.1,
+            "y": 91.7,
             "exitoso": false
           },
           {
             "tipo": "BallRecovery",
             "x": 29.5,
             "y": 36.7,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 66.5,
+            "y": 31.5,
             "exitoso": true
           }
         ]
@@ -1344,8 +1480,8 @@
         "acciones": [
           {
             "tipo": "Aerial",
-            "x": 3.9,
-            "y": 51.0,
+            "x": 3.3,
+            "y": 50.9,
             "exitoso": false
           },
           {
@@ -1362,8 +1498,8 @@
         "acciones": [
           {
             "tipo": "Aerial",
-            "x": 68.6,
-            "y": 61.0,
+            "x": 67.8,
+            "y": 67.0,
             "exitoso": false
           }
         ]
@@ -1383,6 +1519,42 @@
             "x": 64.4,
             "y": 88.2,
             "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 7.4,
+            "y": 73.3,
+            "exitoso": false
+          },
+          {
+            "tipo": "Challenge",
+            "x": 34.4,
+            "y": 92.4,
+            "exitoso": false
+          },
+          {
+            "tipo": "Tackle",
+            "x": 26.6,
+            "y": 90.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 27.4,
+            "y": 90.6,
+            "exitoso": false
+          }
+        ]
+      },
+      {
+        "id": 320749,
+        "nombre": "Andreas Hanche-Olsen",
+        "acciones": [
+          {
+            "tipo": "Foul",
+            "x": 24.4,
+            "y": 27.9,
+            "exitoso": false
           }
         ]
       }
@@ -1665,6 +1837,10 @@
           {
             "x": 36.6,
             "y": 33.7
+          },
+          {
+            "x": 84.2,
+            "y": 86.2
           }
         ],
         "pases_clave_recibidos": [],
@@ -1676,13 +1852,13 @@
             "y_inicio": 72.6
           },
           {
-            "x": 89.4,
-            "y": 53.3,
+            "x": 90.6,
+            "y": 56.1,
             "x_inicio": 92.8,
             "y_inicio": 73.5
           }
         ],
-        "en_tercio_final": 17,
+        "en_tercio_final": 18,
         "en_area_rival": 5,
         "cruces_recibidos": 1
       },
@@ -1777,6 +1953,14 @@
           {
             "x": 15.1,
             "y": 44.3
+          },
+          {
+            "x": 14.1,
+            "y": 34.2
+          },
+          {
+            "x": 8.8,
+            "y": 38.9
           }
         ],
         "pases_clave_recibidos": [],
@@ -2107,6 +2291,14 @@
           {
             "x": 13.8,
             "y": 17.0
+          },
+          {
+            "x": 23.9,
+            "y": 10.3
+          },
+          {
+            "x": 12.6,
+            "y": 16.8
           }
         ],
         "pases_clave_recibidos": [],
@@ -2116,11 +2308,17 @@
             "y": 38.3,
             "x_inicio": 99.8,
             "y_inicio": 99.3
+          },
+          {
+            "x": 97.6,
+            "y": 46.4,
+            "x_inicio": 99.5,
+            "y_inicio": 99.5
           }
         ],
-        "en_tercio_final": 3,
-        "en_area_rival": 1,
-        "cruces_recibidos": 1
+        "en_tercio_final": 4,
+        "en_area_rival": 2,
+        "cruces_recibidos": 2
       },
       {
         "id": 471104,
@@ -2368,6 +2566,10 @@
           {
             "x": 57.2,
             "y": 52.8
+          },
+          {
+            "x": 91.9,
+            "y": 10.3
           }
         ],
         "pases_clave_recibidos": [],
@@ -2379,13 +2581,13 @@
             "y_inicio": 69.1
           },
           {
-            "x": 90.4,
-            "y": 45.1,
+            "x": 89.4,
+            "y": 49.2,
             "x_inicio": 93.0,
             "y_inicio": 79.9
           }
         ],
-        "en_tercio_final": 15,
+        "en_tercio_final": 16,
         "en_area_rival": 4,
         "cruces_recibidos": 1
       },
@@ -2790,6 +2992,10 @@
           {
             "x": 12.0,
             "y": 16.1
+          },
+          {
+            "x": 33.0,
+            "y": 16.4
           }
         ],
         "pases_clave_recibidos": [],
@@ -2813,6 +3019,10 @@
           {
             "x": 63.0,
             "y": 71.7
+          },
+          {
+            "x": 66.5,
+            "y": 31.5
           }
         ],
         "pases_clave_recibidos": [],
@@ -2843,14 +3053,16 @@
       {
         "id": 498788,
         "nombre": "Puso Dithejane",
-        "recepciones": [
+        "recepciones": [],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [
           {
             "x": 86.9,
-            "y": 29.4
+            "y": 29.4,
+            "x_inicio": 78.7,
+            "y_inicio": 37.0
           }
         ],
-        "pases_clave_recibidos": [],
-        "asistencias_recibidas": [],
         "en_tercio_final": 1,
         "en_area_rival": 1,
         "cruces_recibidos": 0
@@ -2962,15 +3174,15 @@
       ],
       "banca": [
         {
-          "id": 498788,
-          "nombre": "Puso Dithejane",
-          "dorsal": 12,
+          "id": 320749,
+          "nombre": "Andreas Hanche-Olsen",
+          "dorsal": 21,
           "posicion": "Sub"
         },
         {
-          "id": 393139,
-          "nombre": "Mauricio Pineda",
-          "dorsal": 22,
+          "id": 498788,
+          "nombre": "Puso Dithejane",
+          "dorsal": 12,
           "posicion": "Sub"
         },
         {
@@ -2980,21 +3192,15 @@
           "posicion": "Sub"
         },
         {
+          "id": 393139,
+          "nombre": "Mauricio Pineda",
+          "dorsal": 22,
+          "posicion": "Sub"
+        },
+        {
           "id": 486771,
           "nombre": "Johan Gómez",
           "dorsal": 18,
-          "posicion": "Sub"
-        },
-        {
-          "id": 320749,
-          "nombre": "Andreas Hanche-Olsen",
-          "dorsal": 21,
-          "posicion": "Sub"
-        },
-        {
-          "id": 380692,
-          "nombre": "Andrew Gutman",
-          "dorsal": 15,
           "posicion": "Sub"
         },
         {
@@ -3004,15 +3210,21 @@
           "posicion": "Sub"
         },
         {
-          "id": 436485,
-          "nombre": "Sergio Oregel Jr.",
-          "dorsal": 35,
+          "id": 380692,
+          "nombre": "Andrew Gutman",
+          "dorsal": 15,
           "posicion": "Sub"
         },
         {
           "id": 482181,
           "nombre": "Dawid Poreba",
           "dorsal": 29,
+          "posicion": "Sub"
+        },
+        {
+          "id": 436485,
+          "nombre": "Sergio Oregel Jr.",
+          "dorsal": 35,
           "posicion": "Sub"
         }
       ]
@@ -3034,9 +3246,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.69,
+        "rating": 7.01,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 471104,
@@ -3054,9 +3266,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 3,
-        "rating": 6.31,
+        "rating": 6.48,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 563880,
@@ -3065,25 +3277,25 @@
         "asistencias": 0,
         "tiros": 1,
         "tiros_al_arco": 0,
-        "regates_exitosos": 3,
-        "chances_creadas": 2,
+        "regates_exitosos": 4,
+        "chances_creadas": 3,
         "big_chances_creadas": 0,
-        "chances_open_play": 2,
+        "chances_open_play": 3,
         "cruces_exitosos": 0,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.74,
+        "rating": 7.32,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 334728,
         "nombre": "Jack Elliott",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 1,
+        "tiros": 2,
         "tiros_al_arco": 0,
         "regates_exitosos": 1,
         "chances_creadas": 0,
@@ -3093,10 +3305,10 @@
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 1,
-        "rating": 6.7,
+        "toques_area_rival": 2,
+        "rating": 6.86,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 551860,
@@ -3154,9 +3366,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 4,
-        "rating": 7.4,
+        "rating": 7.56,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 557469,
@@ -3176,7 +3388,7 @@
         "toques_area_rival": 0,
         "rating": 4.49,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 241019,
@@ -3221,22 +3433,42 @@
       {
         "id": 364227,
         "nombre": "Maren Haile-Selassie",
-        "goles": 0,
+        "goles": 1,
         "asistencias": 1,
-        "tiros": 2,
-        "tiros_al_arco": 2,
+        "tiros": 3,
+        "tiros_al_arco": 3,
         "regates_exitosos": 0,
-        "chances_creadas": 2,
+        "chances_creadas": 3,
+        "big_chances_creadas": 1,
+        "chances_open_play": 3,
+        "cruces_exitosos": 2,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 1,
+        "toques_area_rival": 8,
+        "rating": 8.38,
+        "motm": true,
+        "minutos_jugados": 94
+      },
+      {
+        "id": 320749,
+        "nombre": "Andreas Hanche-Olsen",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 0,
+        "chances_creadas": 0,
         "big_chances_creadas": 0,
-        "chances_open_play": 2,
-        "cruces_exitosos": 1,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 6,
-        "rating": 7.07,
+        "toques_area_rival": 0,
+        "rating": 5.98,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 5
       },
       {
         "id": 498788,
@@ -3254,29 +3486,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.15,
+        "rating": 6.22,
         "motm": false,
-        "minutos_jugados": 15
-      },
-      {
-        "id": 393139,
-        "nombre": "Mauricio Pineda",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 1,
-        "big_chances_creadas": 0,
-        "chances_open_play": 1,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": 6.26,
-        "motm": false,
-        "minutos_jugados": 40
+        "minutos_jugados": 29
       },
       {
         "id": 433513,
@@ -3294,9 +3506,29 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.07,
+        "rating": 6.22,
         "motm": false,
-        "minutos_jugados": 15
+        "minutos_jugados": 29
+      },
+      {
+        "id": 393139,
+        "nombre": "Mauricio Pineda",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 0,
+        "chances_creadas": 1,
+        "big_chances_creadas": 0,
+        "chances_open_play": 1,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 0,
+        "rating": 6.29,
+        "motm": false,
+        "minutos_jugados": 54
       },
       {
         "id": 486771,
@@ -3314,13 +3546,13 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.11,
+        "rating": 6.29,
         "motm": false,
-        "minutos_jugados": 15
+        "minutos_jugados": 29
       },
       {
-        "id": 320749,
-        "nombre": "Andreas Hanche-Olsen",
+        "id": 401540,
+        "nombre": "Josh Cohen",
         "goles": 0,
         "asistencias": 0,
         "tiros": 0,
@@ -3359,8 +3591,8 @@
         "minutos_jugados": 0
       },
       {
-        "id": 401540,
-        "nombre": "Josh Cohen",
+        "id": 482181,
+        "nombre": "Dawid Poreba",
         "goles": 0,
         "asistencias": 0,
         "tiros": 0,
@@ -3397,28 +3629,28 @@
         "rating": null,
         "motm": false,
         "minutos_jugados": 0
-      },
-      {
-        "id": 482181,
-        "nombre": "Dawid Poreba",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": null,
-        "motm": false,
-        "minutos_jugados": 0
       }
-    ]
+    ],
+    "fotmob": {
+      "posesion": 47,
+      "xg": 1.38,
+      "xgot": 1.7,
+      "xg_por_tiro": 0.1,
+      "tiros": 14,
+      "tiros_al_arco": 4,
+      "pases": 377,
+      "pases_mitad_propia": 146,
+      "pases_mitad_opuesta": 151,
+      "cruces_exitosos": 5.0,
+      "cruces_totales": 16,
+      "corners": 4,
+      "faltas": 18,
+      "big_chances": 2,
+      "big_chances_perdidas": 1,
+      "tiros_dentro_area": 9,
+      "tiros_fuera_area": 5,
+      "field_tilt": 54.7
+    }
   },
   "away": {
     "equipo": "New York City FC",
@@ -3435,25 +3667,25 @@
         "id": 323097,
         "nombre": "Aiden O'Neill",
         "dorsal": 21,
-        "x": 42.8,
-        "y": 57.1,
-        "toques": 62
+        "x": 41.9,
+        "y": 57.9,
+        "toques": 67
       },
       {
         "id": 202106,
         "nombre": "Thiago Martins",
         "dorsal": 13,
-        "x": 25.9,
-        "y": 37.6,
-        "toques": 62
+        "x": 29.7,
+        "y": 39.5,
+        "toques": 78
       },
       {
         "id": 405634,
         "nombre": "Nicolás Fernández Mercau",
         "dorsal": 7,
-        "x": 59.6,
-        "y": 47.5,
-        "toques": 54
+        "x": 61.4,
+        "y": 47.9,
+        "toques": 65
       },
       {
         "id": 434381,
@@ -3467,31 +3699,31 @@
         "id": 396066,
         "nombre": "Tayvon Gray",
         "dorsal": 24,
-        "x": 29.7,
-        "y": 18.3,
-        "toques": 70
+        "x": 31.3,
+        "y": 18.0,
+        "toques": 77
       },
       {
         "id": 371610,
         "nombre": "Matt Freese",
         "dorsal": 49,
-        "x": 7.2,
-        "y": 49.9,
-        "toques": 29
+        "x": 7.7,
+        "y": 50.2,
+        "toques": 34
       },
       {
         "id": 345160,
         "nombre": "James Sands",
         "dorsal": 6,
         "x": 27.5,
-        "y": 64.8,
+        "y": 64.7,
         "toques": 62
       },
       {
         "id": 393099,
         "nombre": "Andrés Perea",
         "dorsal": 8,
-        "x": 40.3,
+        "x": 40.4,
         "y": 72.3,
         "toques": 36
       },
@@ -3508,7 +3740,7 @@
         "nombre": "Hannes Wolf",
         "dorsal": 17,
         "x": 54.7,
-        "y": 73.3,
+        "y": 73.1,
         "toques": 35
       }
     ],
@@ -3521,7 +3753,7 @@
       {
         "de": 202106,
         "a": 323097,
-        "veces": 7
+        "veces": 9
       },
       {
         "de": 323097,
@@ -3531,12 +3763,12 @@
       {
         "de": 202106,
         "a": 396066,
-        "veces": 23
+        "veces": 30
       },
       {
         "de": 202106,
         "a": 371610,
-        "veces": 13
+        "veces": 16
       },
       {
         "de": 202106,
@@ -3566,7 +3798,7 @@
       {
         "de": 323097,
         "a": 405634,
-        "veces": 11
+        "veces": 13
       },
       {
         "de": 393099,
@@ -3706,7 +3938,7 @@
       {
         "de": 202106,
         "a": 405634,
-        "veces": 7
+        "veces": 11
       },
       {
         "de": 202106,
@@ -3742,14 +3974,19 @@
         "de": 202106,
         "a": 331459,
         "veces": 1
+      },
+      {
+        "de": 371610,
+        "a": 405634,
+        "veces": 1
       }
     ],
     "estadisticas": {
-      "tiros": 9,
-      "tiros_al_arco": 5,
-      "pases_totales": 388,
-      "precision_pases": 79.4,
-      "posesion": 49.5,
+      "tiros": 12,
+      "tiros_al_arco": 8,
+      "pases_totales": 455,
+      "precision_pases": 79.3,
+      "posesion": 51.1,
       "goles": [
         {
           "minuto": 18,
@@ -3757,7 +3994,7 @@
           "penal": false
         }
       ],
-      "ppda": 13.0
+      "ppda": 11.26
     },
     "tiros": [
       {
@@ -3840,6 +4077,33 @@
         "y": 49.1,
         "arco_y": 41.8,
         "arco_z": 44.4
+      },
+      {
+        "minuto": 91,
+        "jugador": "Luighi",
+        "resultado": "SavedShot",
+        "x": 98.2,
+        "y": 58.4,
+        "arco_y": 54.2,
+        "arco_z": 13.9
+      },
+      {
+        "minuto": 94,
+        "jugador": "Nicolás Fernández Mercau",
+        "resultado": "SavedShot",
+        "x": 70.2,
+        "y": 31.8,
+        "arco_y": 49.0,
+        "arco_z": 12.7
+      },
+      {
+        "minuto": 96,
+        "jugador": "Jonathan Shore",
+        "resultado": "SavedShot",
+        "x": 77.2,
+        "y": 39.0,
+        "arco_y": 51.8,
+        "arco_z": 19.0
       }
     ],
     "corners": [
@@ -4156,6 +4420,18 @@
             "x": 29.0,
             "y": 43.4,
             "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 8.8,
+            "y": 92.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 36.8,
+            "y": 15.2,
+            "exitoso": false
           }
         ]
       },
@@ -4207,8 +4483,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 36.9,
-            "y": 82.0,
+            "x": 39.4,
+            "y": 81.7,
             "exitoso": true
           },
           {
@@ -4285,8 +4561,8 @@
           },
           {
             "tipo": "Foul",
-            "x": 27.6,
-            "y": 27.6,
+            "x": 27.7,
+            "y": 27.5,
             "exitoso": true
           },
           {
@@ -4300,6 +4576,24 @@
             "x": 7.7,
             "y": 92.2,
             "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 80.4,
+            "y": 6.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "Foul",
+            "x": 69.8,
+            "y": 24.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 70.5,
+            "y": 12.5,
+            "exitoso": false
           }
         ]
       },
@@ -4345,8 +4639,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 27.3,
-            "y": 89.7,
+            "x": 26.6,
+            "y": 80.7,
             "exitoso": true
           },
           {
@@ -4435,14 +4729,14 @@
           },
           {
             "tipo": "Aerial",
-            "x": 9.6,
-            "y": 42.2,
+            "x": 8.8,
+            "y": 43.6,
             "exitoso": true
           },
           {
             "tipo": "Clearance",
-            "x": 10.6,
-            "y": 40.4,
+            "x": 8.8,
+            "y": 43.6,
             "exitoso": true
           },
           {
@@ -4459,14 +4753,14 @@
           },
           {
             "tipo": "Aerial",
-            "x": 29.4,
-            "y": 8.9,
+            "x": 29.9,
+            "y": 8.3,
             "exitoso": true
           },
           {
             "tipo": "Clearance",
-            "x": 27.1,
-            "y": 12.4,
+            "x": 29.9,
+            "y": 8.3,
             "exitoso": true
           },
           {
@@ -4539,6 +4833,24 @@
             "tipo": "Clearance",
             "x": 13.9,
             "y": 41.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 46.2,
+            "y": 50.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 57.4,
+            "y": 32.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 29.7,
+            "y": 63.8,
             "exitoso": true
           }
         ]
@@ -4663,8 +4975,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 24.8,
-            "y": 90.3,
+            "x": 29.3,
+            "y": 91.6,
             "exitoso": true
           },
           {
@@ -4681,8 +4993,8 @@
           },
           {
             "tipo": "Interception",
-            "x": 58.7,
-            "y": 19.0,
+            "x": 56.8,
+            "y": 16.0,
             "exitoso": true
           },
           {
@@ -4717,8 +5029,8 @@
           },
           {
             "tipo": "Aerial",
-            "x": 10.0,
-            "y": 56.8,
+            "x": 10.6,
+            "y": 50.8,
             "exitoso": false
           },
           {
@@ -4735,8 +5047,8 @@
         "acciones": [
           {
             "tipo": "BlockedPass",
-            "x": 36.3,
-            "y": 92.2,
+            "x": 45.5,
+            "y": 87.9,
             "exitoso": true
           },
           {
@@ -4753,8 +5065,8 @@
           },
           {
             "tipo": "Aerial",
-            "x": 62.3,
-            "y": 19.6,
+            "x": 61.4,
+            "y": 22.3,
             "exitoso": false
           },
           {
@@ -4767,6 +5079,12 @@
             "tipo": "Challenge",
             "x": 21.3,
             "y": 73.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "Aerial",
+            "x": 2.4,
+            "y": 53.6,
             "exitoso": false
           }
         ]
@@ -4801,20 +5119,32 @@
           },
           {
             "tipo": "Aerial",
-            "x": 95.8,
-            "y": 48.9,
+            "x": 96.7,
+            "y": 49.1,
             "exitoso": true
           },
           {
             "tipo": "Aerial",
-            "x": 31.4,
-            "y": 39.0,
+            "x": 32.2,
+            "y": 33.0,
             "exitoso": true
           },
           {
             "tipo": "BallRecovery",
             "x": 46.9,
             "y": 59.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 33.5,
+            "y": 68.5,
+            "exitoso": false
+          },
+          {
+            "tipo": "Clearance",
+            "x": 9.1,
+            "y": 29.5,
             "exitoso": true
           }
         ]
@@ -4837,8 +5167,8 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 66.2,
-            "y": 70.7,
+            "x": 69.5,
+            "y": 59.1,
             "exitoso": true
           }
         ]
@@ -4849,14 +5179,32 @@
         "acciones": [
           {
             "tipo": "Aerial",
-            "x": 47.4,
-            "y": 48.0,
+            "x": 46.4,
+            "y": 47.2,
             "exitoso": false
           },
           {
             "tipo": "BallRecovery",
             "x": 48.0,
             "y": 47.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 42.2,
+            "y": 77.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 38.8,
+            "y": 89.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 75.7,
+            "y": 72.2,
             "exitoso": true
           }
         ]
@@ -4870,138 +5218,47 @@
             "x": 35.6,
             "y": 11.8,
             "exitoso": false
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 92.4,
+            "y": 26.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 64.9,
+            "y": 6.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 73.4,
+            "y": 9.8,
+            "exitoso": false
+          },
+          {
+            "tipo": "Foul",
+            "x": 72.6,
+            "y": 9.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 27.3,
+            "y": 8.7,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 25.2,
+            "y": 5.4,
+            "exitoso": true
           }
         ]
       }
     ],
     "recepcion_pases": [
-      {
-        "id": 323097,
-        "nombre": "Aiden O'Neill",
-        "recepciones": [
-          {
-            "x": 33.3,
-            "y": 45.8
-          },
-          {
-            "x": 55.9,
-            "y": 73.6
-          },
-          {
-            "x": 72.8,
-            "y": 89.7
-          },
-          {
-            "x": 70.2,
-            "y": 87.8
-          },
-          {
-            "x": 28.3,
-            "y": 26.2
-          },
-          {
-            "x": 31.5,
-            "y": 75.4
-          },
-          {
-            "x": 8.9,
-            "y": 8.9
-          },
-          {
-            "x": 10.3,
-            "y": 53.9
-          },
-          {
-            "x": 23.4,
-            "y": 38.4
-          },
-          {
-            "x": 31.9,
-            "y": 17.4
-          },
-          {
-            "x": 27.1,
-            "y": 22.3
-          },
-          {
-            "x": 9.0,
-            "y": 9.0
-          },
-          {
-            "x": 36.4,
-            "y": 50.9
-          },
-          {
-            "x": 64.7,
-            "y": 67.2
-          },
-          {
-            "x": 63.9,
-            "y": 81.7
-          },
-          {
-            "x": 68.3,
-            "y": 78.7
-          },
-          {
-            "x": 67.3,
-            "y": 75.4
-          },
-          {
-            "x": 47.1,
-            "y": 66.3
-          },
-          {
-            "x": 13.4,
-            "y": 65.1
-          },
-          {
-            "x": 5.5,
-            "y": 83.6
-          },
-          {
-            "x": 27.3,
-            "y": 80.3
-          },
-          {
-            "x": 46.2,
-            "y": 93.6
-          },
-          {
-            "x": 32.0,
-            "y": 25.8
-          },
-          {
-            "x": 65.0,
-            "y": 13.4
-          },
-          {
-            "x": 81.2,
-            "y": 48.6
-          },
-          {
-            "x": 38.5,
-            "y": 37.2
-          },
-          {
-            "x": 55.1,
-            "y": 93.9
-          },
-          {
-            "x": 42.2,
-            "y": 54.2
-          },
-          {
-            "x": 53.2,
-            "y": 53.3
-          }
-        ],
-        "pases_clave_recibidos": [],
-        "asistencias_recibidas": [],
-        "en_tercio_final": 5,
-        "en_area_rival": 0,
-        "cruces_recibidos": 0
-      },
       {
         "id": 202106,
         "nombre": "Thiago Martins",
@@ -5141,6 +5398,38 @@
           {
             "x": 18.5,
             "y": 93.8
+          },
+          {
+            "x": 47.3,
+            "y": 50.2
+          },
+          {
+            "x": 40.0,
+            "y": 36.3
+          },
+          {
+            "x": 45.5,
+            "y": 43.5
+          },
+          {
+            "x": 61.8,
+            "y": 76.8
+          },
+          {
+            "x": 49.6,
+            "y": 52.1
+          },
+          {
+            "x": 52.9,
+            "y": 45.4
+          },
+          {
+            "x": 32.3,
+            "y": 27.2
+          },
+          {
+            "x": 45.1,
+            "y": 49.3
           }
         ],
         "pases_clave_recibidos": [],
@@ -5298,6 +5587,18 @@
           {
             "x": 3.6,
             "y": 47.5
+          },
+          {
+            "x": 3.3,
+            "y": 46.5
+          },
+          {
+            "x": 18.4,
+            "y": 53.5
+          },
+          {
+            "x": 20.0,
+            "y": 49.6
           }
         ],
         "pases_clave_recibidos": [],
@@ -5548,6 +5849,137 @@
         "cruces_recibidos": 1
       },
       {
+        "id": 323097,
+        "nombre": "Aiden O'Neill",
+        "recepciones": [
+          {
+            "x": 55.9,
+            "y": 73.6
+          },
+          {
+            "x": 72.8,
+            "y": 89.7
+          },
+          {
+            "x": 70.2,
+            "y": 87.8
+          },
+          {
+            "x": 28.3,
+            "y": 26.2
+          },
+          {
+            "x": 31.5,
+            "y": 75.4
+          },
+          {
+            "x": 8.9,
+            "y": 8.9
+          },
+          {
+            "x": 10.3,
+            "y": 53.9
+          },
+          {
+            "x": 23.4,
+            "y": 38.4
+          },
+          {
+            "x": 31.9,
+            "y": 17.4
+          },
+          {
+            "x": 27.1,
+            "y": 22.3
+          },
+          {
+            "x": 9.0,
+            "y": 9.0
+          },
+          {
+            "x": 36.4,
+            "y": 50.9
+          },
+          {
+            "x": 64.7,
+            "y": 67.2
+          },
+          {
+            "x": 63.9,
+            "y": 81.7
+          },
+          {
+            "x": 68.3,
+            "y": 78.7
+          },
+          {
+            "x": 67.3,
+            "y": 75.4
+          },
+          {
+            "x": 47.1,
+            "y": 66.3
+          },
+          {
+            "x": 13.4,
+            "y": 65.1
+          },
+          {
+            "x": 5.5,
+            "y": 83.6
+          },
+          {
+            "x": 27.3,
+            "y": 80.3
+          },
+          {
+            "x": 46.2,
+            "y": 93.6
+          },
+          {
+            "x": 32.0,
+            "y": 25.8
+          },
+          {
+            "x": 65.0,
+            "y": 13.4
+          },
+          {
+            "x": 81.2,
+            "y": 48.6
+          },
+          {
+            "x": 38.5,
+            "y": 37.2
+          },
+          {
+            "x": 55.1,
+            "y": 93.9
+          },
+          {
+            "x": 42.2,
+            "y": 54.2
+          },
+          {
+            "x": 53.2,
+            "y": 53.3
+          },
+          {
+            "x": 39.7,
+            "y": 72.9
+          },
+          {
+            "x": 58.1,
+            "y": 64.0
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 5,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
         "id": 405634,
         "nombre": "Nicolás Fernández Mercau",
         "recepciones": [
@@ -5666,6 +6098,26 @@
           {
             "x": 84.0,
             "y": 94.1
+          },
+          {
+            "x": 89.4,
+            "y": 91.3
+          },
+          {
+            "x": 95.2,
+            "y": 85.5
+          },
+          {
+            "x": 58.0,
+            "y": 71.9
+          },
+          {
+            "x": 62.2,
+            "y": 31.1
+          },
+          {
+            "x": 58.1,
+            "y": 92.5
           }
         ],
         "pases_clave_recibidos": [
@@ -5677,9 +6129,9 @@
           }
         ],
         "asistencias_recibidas": [],
-        "en_tercio_final": 14,
+        "en_tercio_final": 16,
         "en_area_rival": 2,
-        "cruces_recibidos": 0
+        "cruces_recibidos": 1
       },
       {
         "id": 393099,
@@ -5875,6 +6327,26 @@
           {
             "x": 55.2,
             "y": 10.6
+          },
+          {
+            "x": 59.6,
+            "y": 18.8
+          },
+          {
+            "x": 28.6,
+            "y": 26.4
+          },
+          {
+            "x": 31.1,
+            "y": 19.4
+          },
+          {
+            "x": 43.8,
+            "y": 12.4
+          },
+          {
+            "x": 61.1,
+            "y": 20.6
           }
         ],
         "pases_clave_recibidos": [
@@ -6125,11 +6597,35 @@
           {
             "x": 61.7,
             "y": 73.1
+          },
+          {
+            "x": 85.0,
+            "y": 96.6
+          },
+          {
+            "x": 68.0,
+            "y": 95.3
+          },
+          {
+            "x": 64.5,
+            "y": 86.1
+          },
+          {
+            "x": 55.9,
+            "y": 78.9
+          },
+          {
+            "x": 56.5,
+            "y": 81.5
+          },
+          {
+            "x": 57.1,
+            "y": 88.9
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 7,
+        "en_tercio_final": 9,
         "en_area_rival": 0,
         "cruces_recibidos": 0
       },
@@ -6172,6 +6668,46 @@
           {
             "x": 16.1,
             "y": 91.0
+          },
+          {
+            "x": 62.9,
+            "y": 89.6
+          },
+          {
+            "x": 43.3,
+            "y": 63.1
+          },
+          {
+            "x": 53.7,
+            "y": 58.8
+          },
+          {
+            "x": 46.2,
+            "y": 40.0
+          },
+          {
+            "x": 51.9,
+            "y": 43.2
+          },
+          {
+            "x": 47.6,
+            "y": 34.4
+          },
+          {
+            "x": 55.3,
+            "y": 64.0
+          },
+          {
+            "x": 39.2,
+            "y": 73.5
+          },
+          {
+            "x": 52.0,
+            "y": 81.9
+          },
+          {
+            "x": 65.8,
+            "y": 71.0
           }
         ],
         "pases_clave_recibidos": [],
@@ -6210,13 +6746,28 @@
           {
             "x": 64.7,
             "y": 95.3
+          },
+          {
+            "x": 73.4,
+            "y": 48.8
+          },
+          {
+            "x": 90.0,
+            "y": 35.1
           }
         ],
         "pases_clave_recibidos": [],
-        "asistencias_recibidas": [],
-        "en_tercio_final": 2,
-        "en_area_rival": 0,
-        "cruces_recibidos": 0
+        "asistencias_recibidas": [
+          {
+            "x": 98.6,
+            "y": 57.0,
+            "x_inicio": 61.1,
+            "y_inicio": 8.0
+          }
+        ],
+        "en_tercio_final": 5,
+        "en_area_rival": 2,
+        "cruces_recibidos": 1
       },
       {
         "id": 485367,
@@ -6241,11 +6792,35 @@
           {
             "x": 69.2,
             "y": 70.0
+          },
+          {
+            "x": 62.8,
+            "y": 95.7
+          },
+          {
+            "x": 94.3,
+            "y": 94.3
+          },
+          {
+            "x": 33.3,
+            "y": 64.0
+          },
+          {
+            "x": 37.7,
+            "y": 93.8
+          },
+          {
+            "x": 71.3,
+            "y": 92.4
+          },
+          {
+            "x": 73.9,
+            "y": 70.5
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 3,
+        "en_tercio_final": 6,
         "en_area_rival": 0,
         "cruces_recibidos": 0
       },
@@ -6276,6 +6851,14 @@
           {
             "x": 68.3,
             "y": 35.3
+          },
+          {
+            "x": 61.8,
+            "y": 26.4
+          },
+          {
+            "x": 32.1,
+            "y": 46.3
           }
         ],
         "pases_clave_recibidos": [],
@@ -6295,11 +6878,23 @@
           {
             "x": 78.4,
             "y": 14.8
+          },
+          {
+            "x": 80.1,
+            "y": 11.5
+          },
+          {
+            "x": 67.0,
+            "y": 9.0
+          },
+          {
+            "x": 47.7,
+            "y": 5.0
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 2,
+        "en_tercio_final": 4,
         "en_area_rival": 0,
         "cruces_recibidos": 0
       }
@@ -6434,15 +7029,15 @@
           "posicion": "Sub"
         },
         {
-          "id": 406274,
-          "nombre": "Raul Gustavo",
-          "dorsal": 34,
-          "posicion": "Sub"
-        },
-        {
           "id": 515806,
           "nombre": "Luighi",
           "dorsal": 20,
+          "posicion": "Sub"
+        },
+        {
+          "id": 406274,
+          "nombre": "Raul Gustavo",
+          "dorsal": 34,
           "posicion": "Sub"
         },
         {
@@ -6482,9 +7077,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.2,
+        "rating": 5.19,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 396066,
@@ -6502,9 +7097,9 @@
         "layoffs_exitosos": 1,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.96,
+        "rating": 6.78,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 202106,
@@ -6522,9 +7117,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.68,
+        "rating": 6.59,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 345160,
@@ -6582,9 +7177,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 7.3,
+        "rating": 7.12,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 393099,
@@ -6631,20 +7226,20 @@
         "nombre": "Nicolás Fernández Mercau",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 2,
-        "tiros_al_arco": 1,
+        "tiros": 3,
+        "tiros_al_arco": 2,
         "regates_exitosos": 0,
-        "chances_creadas": 3,
-        "big_chances_creadas": 3,
+        "chances_creadas": 4,
+        "big_chances_creadas": 4,
         "chances_open_play": 3,
-        "cruces_exitosos": 2,
+        "cruces_exitosos": 3,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 1,
         "corners_sacados": 3,
         "toques_area_rival": 2,
-        "rating": 6.94,
+        "rating": 7.26,
         "motm": false,
-        "minutos_jugados": 85
+        "minutos_jugados": 99
       },
       {
         "id": 331459,
@@ -6693,18 +7288,18 @@
         "asistencias": 0,
         "tiros": 0,
         "tiros_al_arco": 0,
-        "regates_exitosos": 0,
+        "regates_exitosos": 2,
         "chances_creadas": 0,
         "big_chances_creadas": 0,
         "chances_open_play": 0,
-        "cruces_exitosos": 0,
+        "cruces_exitosos": 1,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 1,
-        "rating": 5.96,
+        "toques_area_rival": 3,
+        "rating": 6.39,
         "motm": false,
-        "minutos_jugados": 4
+        "minutos_jugados": 18
       },
       {
         "id": 434214,
@@ -6722,17 +7317,17 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 5.87,
+        "rating": 5.78,
         "motm": false,
-        "minutos_jugados": 40
+        "minutos_jugados": 54
       },
       {
         "id": 473819,
         "nombre": "Jonathan Shore",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
+        "tiros": 1,
+        "tiros_al_arco": 1,
         "regates_exitosos": 0,
         "chances_creadas": 0,
         "big_chances_creadas": 0,
@@ -6742,9 +7337,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 5.97,
+        "rating": 5.88,
         "motm": false,
-        "minutos_jugados": 10
+        "minutos_jugados": 24
       },
       {
         "id": 485367,
@@ -6762,9 +7357,29 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 5.94,
+        "rating": 5.84,
         "motm": false,
-        "minutos_jugados": 11
+        "minutos_jugados": 25
+      },
+      {
+        "id": 515806,
+        "nombre": "Luighi",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 1,
+        "tiros_al_arco": 1,
+        "regates_exitosos": 0,
+        "chances_creadas": 0,
+        "big_chances_creadas": 0,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 2,
+        "rating": 5.88,
+        "motm": false,
+        "minutos_jugados": 40
       },
       {
         "id": 406274,
@@ -6782,29 +7397,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.2,
+        "rating": 6.15,
         "motm": false,
-        "minutos_jugados": 26
-      },
-      {
-        "id": 515806,
-        "nombre": "Luighi",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": 5.97,
-        "motm": false,
-        "minutos_jugados": 26
+        "minutos_jugados": 40
       },
       {
         "id": 413718,
@@ -6866,6 +7461,26 @@
         "motm": false,
         "minutos_jugados": 0
       }
-    ]
+    ],
+    "fotmob": {
+      "posesion": 53,
+      "xg": 1.4,
+      "xgot": 1.38,
+      "xg_por_tiro": 0.12,
+      "tiros": 12,
+      "tiros_al_arco": 6,
+      "pases": 418,
+      "pases_mitad_propia": 211,
+      "pases_mitad_opuesta": 125,
+      "cruces_exitosos": 6.0,
+      "cruces_totales": 17,
+      "corners": 4,
+      "faltas": 10,
+      "big_chances": 4,
+      "big_chances_perdidas": 4,
+      "tiros_dentro_area": 6,
+      "tiros_fuera_area": 6,
+      "field_tilt": 45.3
+    }
   }
 }

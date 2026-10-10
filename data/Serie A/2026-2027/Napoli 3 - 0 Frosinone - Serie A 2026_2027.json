@@ -1,5 +1,5 @@
 {
-  "marcador": "2 : 0",
+  "marcador": "3 : 0",
   "estadio": "Diego Armando Maradona",
   "capacidad_estadio": null,
   "asistencia": 0,
@@ -12,9 +12,9 @@
         "id": 73084,
         "nombre": "Kevin De Bruyne",
         "dorsal": 11,
-        "x": 57.0,
-        "y": 46.6,
-        "toques": 74
+        "x": 57.5,
+        "y": 49.3,
+        "toques": 82
       },
       {
         "id": 92329,
@@ -44,25 +44,25 @@
         "id": 365406,
         "nombre": "Benoît Badiashile",
         "dorsal": 5,
-        "x": 36.2,
-        "y": 76.2,
-        "toques": 53
+        "x": 36.5,
+        "y": 74.1,
+        "toques": 63
       },
       {
         "id": 295358,
         "nombre": "Amir Rrahmani",
         "dorsal": 13,
-        "x": 27.5,
-        "y": 42.0,
-        "toques": 60
+        "x": 28.3,
+        "y": 41.7,
+        "toques": 69
       },
       {
         "id": 430301,
         "nombre": "Rafa Marín",
         "dorsal": 16,
-        "x": 29.0,
-        "y": 27.9,
-        "toques": 47
+        "x": 30.1,
+        "y": 26.4,
+        "toques": 54
       },
       {
         "id": 439584,
@@ -84,17 +84,17 @@
         "id": 122469,
         "nombre": "Giovanni Di Lorenzo",
         "dorsal": 22,
-        "x": 52.0,
-        "y": 17.4,
-        "toques": 71
+        "x": 52.1,
+        "y": 29.4,
+        "toques": 85
       },
       {
         "id": 241022,
         "nombre": "Alex Meret",
         "dorsal": 1,
-        "x": 7.7,
-        "y": 52.0,
-        "toques": 60
+        "x": 8.3,
+        "y": 52.4,
+        "toques": 63
       }
     ],
     "pases": [
@@ -116,12 +116,12 @@
       {
         "de": 295358,
         "a": 365406,
-        "veces": 6
+        "veces": 8
       },
       {
         "de": 295358,
         "a": 430301,
-        "veces": 11
+        "veces": 15
       },
       {
         "de": 430301,
@@ -151,12 +151,12 @@
       {
         "de": 73084,
         "a": 122469,
-        "veces": 13
+        "veces": 18
       },
       {
         "de": 73084,
         "a": 365406,
-        "veces": 11
+        "veces": 13
       },
       {
         "de": 73084,
@@ -181,12 +181,12 @@
       {
         "de": 365406,
         "a": 430301,
-        "veces": 2
+        "veces": 3
       },
       {
         "de": 122469,
         "a": 430301,
-        "veces": 10
+        "veces": 12
       },
       {
         "de": 241022,
@@ -201,7 +201,7 @@
       {
         "de": 241022,
         "a": 365406,
-        "veces": 10
+        "veces": 12
       },
       {
         "de": 295358,
@@ -231,7 +231,7 @@
       {
         "de": 241022,
         "a": 295358,
-        "veces": 14
+        "veces": 15
       },
       {
         "de": 111892,
@@ -246,7 +246,7 @@
       {
         "de": 73084,
         "a": 430301,
-        "veces": 4
+        "veces": 5
       },
       {
         "de": 73084,
@@ -266,7 +266,7 @@
       {
         "de": 122469,
         "a": 295358,
-        "veces": 7
+        "veces": 10
       },
       {
         "de": 241022,
@@ -291,7 +291,7 @@
       {
         "de": 73084,
         "a": 295358,
-        "veces": 3
+        "veces": 5
       },
       {
         "de": 92329,
@@ -351,15 +351,15 @@
       {
         "de": 122469,
         "a": 365406,
-        "veces": 1
+        "veces": 8
       }
     ],
     "estadisticas": {
-      "tiros": 16,
-      "tiros_al_arco": 8,
-      "pases_totales": 414,
-      "precision_pases": 78.3,
-      "posesion": 49.4,
+      "tiros": 19,
+      "tiros_al_arco": 10,
+      "pases_totales": 492,
+      "precision_pases": 79.5,
+      "posesion": 50.5,
       "goles": [
         {
           "minuto": 28,
@@ -370,9 +370,14 @@
           "minuto": 31,
           "jugador": "Noa Lang",
           "penal": false
+        },
+        {
+          "minuto": 93,
+          "jugador": "Kevin De Bruyne",
+          "penal": false
         }
       ],
-      "ppda": 19.54
+      "ppda": 16.65
     },
     "tiros": [
       {
@@ -518,6 +523,33 @@
         "y": 28.6,
         "arco_y": 47.5,
         "arco_z": 24.7
+      },
+      {
+        "minuto": 86,
+        "jugador": "Billy Gilmour",
+        "resultado": "MissedShots",
+        "x": 73.4,
+        "y": 48.4,
+        "arco_y": 61.0,
+        "arco_z": 4.2
+      },
+      {
+        "minuto": 87,
+        "jugador": "Matteo Politano",
+        "resultado": "SavedShot",
+        "x": 76.8,
+        "y": 36.3,
+        "arco_y": 50.1,
+        "arco_z": 15.2
+      },
+      {
+        "minuto": 93,
+        "jugador": "Kevin De Bruyne",
+        "resultado": "Goal",
+        "x": 95.8,
+        "y": 52.8,
+        "arco_y": 49.2,
+        "arco_z": 1.9
       }
     ],
     "corners": [
@@ -856,6 +888,12 @@
             "x": 13.7,
             "y": 64.0,
             "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 62.7,
+            "y": 77.7,
+            "exitoso": true
           }
         ]
       },
@@ -931,9 +969,15 @@
           },
           {
             "tipo": "BlockedPass",
-            "x": 4.8,
-            "y": 66.0,
+            "x": 2.1,
+            "y": 71.2,
             "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 43.0,
+            "y": 46.4,
+            "exitoso": false
           }
         ]
       },
@@ -1132,6 +1176,18 @@
             "x": 38.1,
             "y": 9.1,
             "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 37.2,
+            "y": 86.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 28.1,
+            "y": 89.4,
+            "exitoso": true
           }
         ]
       },
@@ -1258,6 +1314,18 @@
             "x": 13.3,
             "y": 57.9,
             "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 8.4,
+            "y": 46.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 37.7,
+            "y": 47.5,
+            "exitoso": true
           }
         ]
       },
@@ -1363,9 +1431,15 @@
           },
           {
             "tipo": "Interception",
-            "x": 26.3,
-            "y": 8.8,
+            "x": 39.3,
+            "y": 1.9,
             "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 11.8,
+            "y": 30.2,
+            "exitoso": false
           }
         ]
       },
@@ -1522,6 +1596,24 @@
             "x": 52.7,
             "y": 30.1,
             "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 83.2,
+            "y": 34.2,
+            "exitoso": false
+          },
+          {
+            "tipo": "Clearance",
+            "x": 11.2,
+            "y": 45.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 60.1,
+            "y": 18.0,
+            "exitoso": true
           }
         ]
       },
@@ -1551,6 +1643,36 @@
             "tipo": "TakeOn",
             "x": 80.0,
             "y": 58.0,
+            "exitoso": false
+          },
+          {
+            "tipo": "Aerial",
+            "x": 47.3,
+            "y": 24.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 63.6,
+            "y": 37.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 8.4,
+            "y": 84.9,
+            "exitoso": false
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 3.1,
+            "y": 90.3,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 69.8,
+            "y": 75.9,
             "exitoso": false
           }
         ]
@@ -1594,6 +1716,54 @@
             "x": 55.8,
             "y": 30.7,
             "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 28.1,
+            "y": 26.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 40.0,
+            "y": 4.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 60.0,
+            "y": 4.5,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 52.4,
+            "y": 73.9,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 122683,
+        "nombre": "Matteo Politano",
+        "acciones": [
+          {
+            "tipo": "TakeOn",
+            "x": 94.2,
+            "y": 4.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 93.6,
+            "y": 6.4,
+            "exitoso": false
+          },
+          {
+            "tipo": "Foul",
+            "x": 70.2,
+            "y": 55.8,
+            "exitoso": false
           }
         ]
       }
@@ -1954,6 +2124,34 @@
           {
             "x": 54.0,
             "y": 80.4
+          },
+          {
+            "x": 35.9,
+            "y": 82.3
+          },
+          {
+            "x": 44.3,
+            "y": 78.1
+          },
+          {
+            "x": 53.7,
+            "y": 89.7
+          },
+          {
+            "x": 61.4,
+            "y": 65.7
+          },
+          {
+            "x": 57.2,
+            "y": 73.6
+          },
+          {
+            "x": 33.7,
+            "y": 85.3
+          },
+          {
+            "x": 34.3,
+            "y": 56.5
           }
         ],
         "pases_clave_recibidos": [],
@@ -2053,6 +2251,30 @@
           {
             "x": 13.8,
             "y": 25.0
+          },
+          {
+            "x": 23.8,
+            "y": 28.6
+          },
+          {
+            "x": 37.7,
+            "y": 44.1
+          },
+          {
+            "x": 42.8,
+            "y": 43.5
+          },
+          {
+            "x": 42.8,
+            "y": 43.5
+          },
+          {
+            "x": 32.8,
+            "y": 33.4
+          },
+          {
+            "x": 33.7,
+            "y": 23.2
           }
         ],
         "pases_clave_recibidos": [
@@ -2162,6 +2384,30 @@
           {
             "x": 40.2,
             "y": 13.0
+          },
+          {
+            "x": 25.9,
+            "y": 9.9
+          },
+          {
+            "x": 42.0,
+            "y": 32.8
+          },
+          {
+            "x": 41.3,
+            "y": 21.6
+          },
+          {
+            "x": 42.5,
+            "y": 10.8
+          },
+          {
+            "x": 40.0,
+            "y": 8.5
+          },
+          {
+            "x": 47.3,
+            "y": 8.4
           }
         ],
         "pases_clave_recibidos": [],
@@ -2527,6 +2773,38 @@
           {
             "x": 42.8,
             "y": 4.5
+          },
+          {
+            "x": 44.9,
+            "y": 94.0
+          },
+          {
+            "x": 62.0,
+            "y": 65.4
+          },
+          {
+            "x": 73.6,
+            "y": 91.0
+          },
+          {
+            "x": 75.7,
+            "y": 89.2
+          },
+          {
+            "x": 69.5,
+            "y": 85.8
+          },
+          {
+            "x": 67.4,
+            "y": 91.3
+          },
+          {
+            "x": 45.5,
+            "y": 94.8
+          },
+          {
+            "x": 13.5,
+            "y": 85.9
           }
         ],
         "pases_clave_recibidos": [],
@@ -2544,7 +2822,7 @@
             "y_inicio": 13.3
           }
         ],
-        "en_tercio_final": 7,
+        "en_tercio_final": 11,
         "en_area_rival": 3,
         "cruces_recibidos": 2
       },
@@ -2719,12 +2997,43 @@
           {
             "x": 62.4,
             "y": 81.0
+          },
+          {
+            "x": 65.8,
+            "y": 91.9
+          },
+          {
+            "x": 48.4,
+            "y": 91.3
+          },
+          {
+            "x": 53.1,
+            "y": 50.4
+          },
+          {
+            "x": 69.8,
+            "y": 84.3
+          },
+          {
+            "x": 62.7,
+            "y": 77.7
+          },
+          {
+            "x": 59.9,
+            "y": 72.7
           }
         ],
         "pases_clave_recibidos": [],
-        "asistencias_recibidas": [],
-        "en_tercio_final": 15,
-        "en_area_rival": 0,
+        "asistencias_recibidas": [
+          {
+            "x": 95.8,
+            "y": 52.8,
+            "x_inicio": 91.0,
+            "y_inicio": 79.5
+          }
+        ],
+        "en_tercio_final": 17,
+        "en_area_rival": 1,
         "cruces_recibidos": 0
       },
       {
@@ -2921,6 +3230,10 @@
           {
             "x": 8.3,
             "y": 50.7
+          },
+          {
+            "x": 24.7,
+            "y": 46.6
           }
         ],
         "pases_clave_recibidos": [],
@@ -2956,6 +3269,22 @@
           {
             "x": 77.5,
             "y": 64.8
+          },
+          {
+            "x": 47.3,
+            "y": 24.6
+          },
+          {
+            "x": 55.7,
+            "y": 17.8
+          },
+          {
+            "x": 63.6,
+            "y": 37.8
+          },
+          {
+            "x": 23.3,
+            "y": 86.1
           }
         ],
         "pases_clave_recibidos": [],
@@ -2999,6 +3328,14 @@
           {
             "x": 52.7,
             "y": 30.1
+          },
+          {
+            "x": 42.1,
+            "y": 21.6
+          },
+          {
+            "x": 59.0,
+            "y": 18.9
           }
         ],
         "pases_clave_recibidos": [
@@ -3053,6 +3390,54 @@
           {
             "x": 30.4,
             "y": 49.0
+          },
+          {
+            "x": 39.5,
+            "y": 42.1
+          },
+          {
+            "x": 43.8,
+            "y": 80.1
+          },
+          {
+            "x": 46.1,
+            "y": 61.8
+          },
+          {
+            "x": 54.2,
+            "y": 72.3
+          },
+          {
+            "x": 51.4,
+            "y": 41.7
+          },
+          {
+            "x": 65.1,
+            "y": 72.7
+          },
+          {
+            "x": 63.6,
+            "y": 83.5
+          },
+          {
+            "x": 18.9,
+            "y": 80.1
+          },
+          {
+            "x": 58.2,
+            "y": 63.9
+          },
+          {
+            "x": 56.1,
+            "y": 66.7
+          },
+          {
+            "x": 55.7,
+            "y": 67.8
+          },
+          {
+            "x": 53.6,
+            "y": 70.3
           }
         ],
         "pases_clave_recibidos": [],
@@ -3084,12 +3469,82 @@
           {
             "x": 41.8,
             "y": 47.5
+          },
+          {
+            "x": 94.0,
+            "y": 13.2
+          },
+          {
+            "x": 71.9,
+            "y": 54.6
+          },
+          {
+            "x": 81.8,
+            "y": 97.8
+          },
+          {
+            "x": 52.4,
+            "y": 73.9
+          },
+          {
+            "x": 61.4,
+            "y": 79.0
+          },
+          {
+            "x": 59.7,
+            "y": 73.2
+          },
+          {
+            "x": 60.8,
+            "y": 73.9
+          },
+          {
+            "x": 85.9,
+            "y": 69.4
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
+        "en_tercio_final": 6,
+        "en_area_rival": 2,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 122683,
+        "nombre": "Matteo Politano",
+        "recepciones": [
+          {
+            "x": 31.5,
+            "y": 10.6
+          },
+          {
+            "x": 63.2,
+            "y": 4.2
+          },
+          {
+            "x": 85.5,
+            "y": 6.0
+          },
+          {
+            "x": 66.7,
+            "y": 7.6
+          },
+          {
+            "x": 47.3,
+            "y": 4.3
+          }
+        ],
+        "pases_clave_recibidos": [
+          {
+            "x": 60.1,
+            "y": 25.3,
+            "x_inicio": 56.2,
+            "y_inicio": 20.8
+          }
+        ],
+        "asistencias_recibidas": [],
         "en_tercio_final": 2,
-        "en_area_rival": 1,
+        "en_area_rival": 0,
         "cruces_recibidos": 0
       }
     ],
@@ -3211,15 +3666,15 @@
           "posicion": "Sub"
         },
         {
-          "id": 381255,
-          "nombre": "Billy Gilmour",
-          "dorsal": 6,
-          "posicion": "Sub"
-        },
-        {
           "id": 336915,
           "nombre": "Scott McTominay",
           "dorsal": 8,
+          "posicion": "Sub"
+        },
+        {
+          "id": 381255,
+          "nombre": "Billy Gilmour",
+          "dorsal": 6,
           "posicion": "Sub"
         },
         {
@@ -3277,9 +3732,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.89,
+        "rating": 6.95,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 365406,
@@ -3297,9 +3752,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.91,
+        "rating": 6.95,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 430301,
@@ -3317,9 +3772,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 7.26,
+        "rating": 7.3,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 295358,
@@ -3337,9 +3792,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.98,
+        "rating": 7.19,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 122469,
@@ -3357,9 +3812,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 6,
-        "rating": 7.41,
+        "rating": 7.58,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 92329,
@@ -3384,10 +3839,10 @@
       {
         "id": 73084,
         "nombre": "Kevin De Bruyne",
-        "goles": 1,
+        "goles": 2,
         "asistencias": 0,
-        "tiros": 1,
-        "tiros_al_arco": 1,
+        "tiros": 2,
+        "tiros_al_arco": 2,
         "regates_exitosos": 0,
         "chances_creadas": 2,
         "big_chances_creadas": 0,
@@ -3396,10 +3851,10 @@
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 2,
         "corners_sacados": 4,
-        "toques_area_rival": 2,
-        "rating": 7.63,
-        "motm": false,
-        "minutos_jugados": 81
+        "toques_area_rival": 3,
+        "rating": 8.55,
+        "motm": true,
+        "minutos_jugados": 94
       },
       {
         "id": 111892,
@@ -3494,56 +3949,16 @@
         "chances_open_play": 0,
         "cruces_exitosos": 0,
         "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
+        "layoffs_exitosos": 2,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.08,
+        "rating": 6.41,
         "motm": false,
-        "minutos_jugados": 21
+        "minutos_jugados": 34
       },
       {
         "id": 122683,
         "nombre": "Matteo Politano",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": 6.03,
-        "motm": false,
-        "minutos_jugados": 1
-      },
-      {
-        "id": 381255,
-        "nombre": "Billy Gilmour",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": 6.02,
-        "motm": false,
-        "minutos_jugados": 11
-      },
-      {
-        "id": 336915,
-        "nombre": "Scott McTominay",
         "goles": 0,
         "asistencias": 0,
         "tiros": 1,
@@ -3556,30 +3971,70 @@
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 3,
-        "rating": 6.51,
+        "toques_area_rival": 0,
+        "rating": 6.42,
         "motm": false,
-        "minutos_jugados": 21
+        "minutos_jugados": 14
       },
       {
-        "id": 436627,
-        "nombre": "Giovane",
+        "id": 336915,
+        "nombre": "Scott McTominay",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
+        "tiros": 1,
+        "tiros_al_arco": 1,
+        "regates_exitosos": 1,
         "chances_creadas": 1,
         "big_chances_creadas": 0,
         "chances_open_play": 1,
         "cruces_exitosos": 0,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 3,
+        "rating": 6.72,
+        "motm": false,
+        "minutos_jugados": 34
+      },
+      {
+        "id": 381255,
+        "nombre": "Billy Gilmour",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 1,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 0,
+        "chances_creadas": 0,
+        "big_chances_creadas": 0,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 0,
+        "rating": 6.14,
+        "motm": false,
+        "minutos_jugados": 24
+      },
+      {
+        "id": 436627,
+        "nombre": "Giovane",
+        "goles": 0,
+        "asistencias": 1,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 1,
+        "chances_creadas": 2,
+        "big_chances_creadas": 1,
+        "chances_open_play": 2,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
         "corners_sacados": 1,
         "toques_area_rival": 0,
-        "rating": 6.09,
+        "rating": 7.08,
         "motm": false,
-        "minutos_jugados": 10
+        "minutos_jugados": 23
       },
       {
         "id": 497110,
@@ -3681,7 +4136,27 @@
         "motm": false,
         "minutos_jugados": 0
       }
-    ]
+    ],
+    "fotmob": {
+      "posesion": 51,
+      "xg": 2.76,
+      "xgot": 3.02,
+      "xg_por_tiro": 0.15,
+      "tiros": 19,
+      "tiros_al_arco": 8,
+      "pases": 453,
+      "pases_mitad_propia": 174,
+      "pases_mitad_opuesta": 187,
+      "cruces_exitosos": 5.0,
+      "cruces_totales": 9,
+      "corners": 6,
+      "faltas": 8,
+      "big_chances": 4,
+      "big_chances_perdidas": 1,
+      "tiros_dentro_area": 13,
+      "tiros_fuera_area": 6,
+      "field_tilt": 47.9
+    }
   },
   "away": {
     "equipo": "Frosinone",
@@ -3698,25 +4173,25 @@
         "id": 460562,
         "nombre": "Gabriele Calvani",
         "dorsal": 3,
-        "x": 42.7,
-        "y": 33.4,
-        "toques": 61
+        "x": 41.8,
+        "y": 34.1,
+        "toques": 65
       },
       {
         "id": 383847,
         "nombre": "Romano Schmid",
         "dorsal": 10,
-        "x": 58.6,
-        "y": 54.1,
-        "toques": 69
+        "x": 57.8,
+        "y": 53.3,
+        "toques": 70
       },
       {
         "id": 477060,
         "nombre": "Giorgi Kvernadze",
         "dorsal": 17,
         "x": 64.4,
-        "y": 78.1,
-        "toques": 46
+        "y": 72.7,
+        "toques": 54
       },
       {
         "id": 415892,
@@ -3730,9 +4205,9 @@
         "id": 430899,
         "nombre": "Giorgio Cittadini",
         "dorsal": 2,
-        "x": 35.5,
-        "y": 61.1,
-        "toques": 76
+        "x": 33.8,
+        "y": 57.0,
+        "toques": 93
       },
       {
         "id": 447442,
@@ -3746,17 +4221,17 @@
         "id": 447439,
         "nombre": "Lorenzo Palmisani",
         "dorsal": 22,
-        "x": 10.7,
-        "y": 50.8,
-        "toques": 41
+        "x": 10.3,
+        "y": 50.3,
+        "toques": 47
       },
       {
         "id": 316947,
         "nombre": "Giacomo Calò",
         "dorsal": 14,
         "x": 53.3,
-        "y": 44.6,
-        "toques": 84
+        "y": 43.8,
+        "toques": 90
       },
       {
         "id": 447452,
@@ -3770,9 +4245,9 @@
         "id": 431032,
         "nombre": "Anthony Oyono",
         "dorsal": 20,
-        "x": 48.1,
-        "y": 20.9,
-        "toques": 54
+        "x": 48.6,
+        "y": 20.4,
+        "toques": 61
       }
     ],
     "pases": [
@@ -3789,7 +4264,7 @@
       {
         "de": 316947,
         "a": 477060,
-        "veces": 9
+        "veces": 10
       },
       {
         "de": 415892,
@@ -3819,22 +4294,22 @@
       {
         "de": 316947,
         "a": 431032,
-        "veces": 19
+        "veces": 23
       },
       {
         "de": 430899,
         "a": 447439,
-        "veces": 14
+        "veces": 15
       },
       {
         "de": 430899,
         "a": 431032,
-        "veces": 4
+        "veces": 5
       },
       {
         "de": 431032,
         "a": 460562,
-        "veces": 10
+        "veces": 11
       },
       {
         "de": 415892,
@@ -3899,7 +4374,7 @@
       {
         "de": 316947,
         "a": 430899,
-        "veces": 12
+        "veces": 14
       },
       {
         "de": 447452,
@@ -3944,12 +4419,12 @@
       {
         "de": 431032,
         "a": 447439,
-        "veces": 3
+        "veces": 4
       },
       {
         "de": 430899,
         "a": 460562,
-        "veces": 2
+        "veces": 3
       },
       {
         "de": 415892,
@@ -3974,7 +4449,7 @@
       {
         "de": 316947,
         "a": 447439,
-        "veces": 4
+        "veces": 5
       },
       {
         "de": 383847,
@@ -4014,15 +4489,20 @@
       {
         "de": 447439,
         "a": 460562,
-        "veces": 3
+        "veces": 5
+      },
+      {
+        "de": 431032,
+        "a": 477060,
+        "veces": 4
       }
     ],
     "estadisticas": {
-      "tiros": 15,
-      "tiros_al_arco": 2,
-      "pases_totales": 418,
-      "precision_pases": 80.4,
-      "posesion": 50.6,
+      "tiros": 17,
+      "tiros_al_arco": 3,
+      "pases_totales": 461,
+      "precision_pases": 80.3,
+      "posesion": 49.5,
       "goles": [],
       "ppda": 13.24
     },
@@ -4161,6 +4641,24 @@
         "y": 53.1,
         "arco_y": 52.6,
         "arco_z": 68.1
+      },
+      {
+        "minuto": 83,
+        "jugador": "Giorgi Kvernadze",
+        "resultado": "SavedShot",
+        "x": 73.9,
+        "y": 44.8,
+        "arco_y": 49.8,
+        "arco_z": 19.0
+      },
+      {
+        "minuto": 84,
+        "jugador": "Tomás Bobcek",
+        "resultado": "MissedShots",
+        "x": 88.7,
+        "y": 58.4,
+        "arco_y": 61.8,
+        "arco_z": 4.2
       }
     ],
     "corners": [
@@ -4351,6 +4849,30 @@
             "x": 84.9,
             "y": 77.4,
             "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 60.4,
+            "y": 94.2,
+            "exitoso": false
+          },
+          {
+            "tipo": "Foul",
+            "x": 40.0,
+            "y": 95.6,
+            "exitoso": false
+          },
+          {
+            "tipo": "Dispossessed",
+            "x": 91.6,
+            "y": 15.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 71.9,
+            "y": 10.6,
+            "exitoso": false
           }
         ]
       },
@@ -4626,6 +5148,72 @@
             "tipo": "Interception",
             "x": 32.6,
             "y": 34.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Tackle",
+            "x": 8.2,
+            "y": 92.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 2.9,
+            "y": 95.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 36.4,
+            "y": 62.2,
+            "exitoso": false
+          },
+          {
+            "tipo": "Clearance",
+            "x": 33.3,
+            "y": 46.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 47.6,
+            "y": 26.1,
+            "exitoso": false
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 22.6,
+            "y": 5.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 19.7,
+            "y": 27.4,
+            "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 30.2,
+            "y": 24.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 30.2,
+            "y": 24.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Interception",
+            "x": 32.2,
+            "y": 6.9,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 23.0,
+            "y": 5.5,
             "exitoso": true
           }
         ]
@@ -4951,6 +5539,12 @@
             "x": 26.4,
             "y": 36.9,
             "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 52.7,
+            "y": 75.4,
+            "exitoso": false
           }
         ]
       },
@@ -5185,6 +5779,18 @@
             "x": 60.5,
             "y": 38.2,
             "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 57.0,
+            "y": 53.6,
+            "exitoso": true
+          },
+          {
+            "tipo": "Foul",
+            "x": 29.8,
+            "y": 44.2,
+            "exitoso": true
           }
         ]
       },
@@ -5263,6 +5869,36 @@
             "x": 15.8,
             "y": 55.6,
             "exitoso": true
+          },
+          {
+            "tipo": "BlockedPass",
+            "x": 10.5,
+            "y": 95.1,
+            "exitoso": true
+          },
+          {
+            "tipo": "Challenge",
+            "x": 5.8,
+            "y": 95.8,
+            "exitoso": false
+          },
+          {
+            "tipo": "BlockedPass",
+            "x": 21.4,
+            "y": 46.2,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 19.1,
+            "y": 52.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "TakeOn",
+            "x": 18.9,
+            "y": 66.1,
+            "exitoso": true
           }
         ]
       },
@@ -5292,6 +5928,12 @@
             "tipo": "TakeOn",
             "x": 85.1,
             "y": 13.8,
+            "exitoso": true
+          },
+          {
+            "tipo": "BallRecovery",
+            "x": 44.5,
+            "y": 10.6,
             "exitoso": true
           }
         ]
@@ -5329,6 +5971,12 @@
             "x": 54.5,
             "y": 65.1,
             "exitoso": true
+          },
+          {
+            "tipo": "Aerial",
+            "x": 62.3,
+            "y": 52.5,
+            "exitoso": false
           }
         ]
       },
@@ -5346,6 +5994,24 @@
             "tipo": "BallRecovery",
             "x": 31.0,
             "y": 96.0,
+            "exitoso": true
+          },
+          {
+            "tipo": "Clearance",
+            "x": 25.8,
+            "y": 83.5,
+            "exitoso": true
+          }
+        ]
+      },
+      {
+        "id": 338762,
+        "nombre": "Alessio Zerbin",
+        "acciones": [
+          {
+            "tipo": "TakeOn",
+            "x": 87.7,
+            "y": 68.9,
             "exitoso": true
           }
         ]
@@ -5813,6 +6479,30 @@
           {
             "x": 97.9,
             "y": 27.9
+          },
+          {
+            "x": 58.1,
+            "y": 66.9
+          },
+          {
+            "x": 71.5,
+            "y": 19.8
+          },
+          {
+            "x": 48.8,
+            "y": 44.5
+          },
+          {
+            "x": 74.1,
+            "y": 31.9
+          },
+          {
+            "x": 20.2,
+            "y": 31.5
+          },
+          {
+            "x": 26.2,
+            "y": 50.4
           }
         ],
         "pases_clave_recibidos": [
@@ -5831,7 +6521,7 @@
             "y_inicio": 6.6
           }
         ],
-        "en_tercio_final": 11,
+        "en_tercio_final": 13,
         "en_area_rival": 2,
         "cruces_recibidos": 1
       },
@@ -6018,6 +6708,18 @@
           {
             "x": 75.6,
             "y": 96.3
+          },
+          {
+            "x": 73.9,
+            "y": 17.7
+          },
+          {
+            "x": 53.0,
+            "y": 8.4
+          },
+          {
+            "x": 69.0,
+            "y": 7.9
           }
         ],
         "pases_clave_recibidos": [
@@ -6038,10 +6740,16 @@
             "y": 55.5,
             "x_inicio": 78.7,
             "y_inicio": 26.8
+          },
+          {
+            "x": 72.0,
+            "y": 47.4,
+            "x_inicio": 58.1,
+            "y_inicio": 64.0
           }
         ],
         "asistencias_recibidas": [],
-        "en_tercio_final": 18,
+        "en_tercio_final": 21,
         "en_area_rival": 1,
         "cruces_recibidos": 0
       },
@@ -6184,6 +6892,26 @@
           {
             "x": 29.8,
             "y": 4.2
+          },
+          {
+            "x": 81.2,
+            "y": 3.7
+          },
+          {
+            "x": 76.8,
+            "y": 12.4
+          },
+          {
+            "x": 26.1,
+            "y": 10.6
+          },
+          {
+            "x": 30.3,
+            "y": 7.6
+          },
+          {
+            "x": 54.8,
+            "y": 8.7
           }
         ],
         "pases_clave_recibidos": [
@@ -6195,7 +6923,7 @@
           }
         ],
         "asistencias_recibidas": [],
-        "en_tercio_final": 10,
+        "en_tercio_final": 12,
         "en_area_rival": 0,
         "cruces_recibidos": 0
       },
@@ -6377,6 +7105,14 @@
           {
             "x": 24.1,
             "y": 97.5
+          },
+          {
+            "x": 58.1,
+            "y": 78.3
+          },
+          {
+            "x": 24.9,
+            "y": 35.8
           }
         ],
         "pases_clave_recibidos": [],
@@ -6450,14 +7186,18 @@
             "y": 40.2
           },
           {
-            "x": 87.8,
-            "y": 44.8
+            "x": 9.2,
+            "y": 25.8
+          },
+          {
+            "x": 19.5,
+            "y": 23.8
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 4,
-        "en_area_rival": 1,
+        "en_tercio_final": 3,
+        "en_area_rival": 0,
         "cruces_recibidos": 0
       },
       {
@@ -6519,6 +7259,14 @@
           {
             "x": 8.1,
             "y": 55.9
+          },
+          {
+            "x": 8.2,
+            "y": 47.1
+          },
+          {
+            "x": 6.1,
+            "y": 42.7
           }
         ],
         "pases_clave_recibidos": [],
@@ -6788,13 +7536,29 @@
           {
             "x": 71.6,
             "y": 76.6
+          },
+          {
+            "x": 28.9,
+            "y": 98.1
+          },
+          {
+            "x": 69.2,
+            "y": 92.2
+          },
+          {
+            "x": 92.4,
+            "y": 76.8
+          },
+          {
+            "x": 24.1,
+            "y": 73.0
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 12,
-        "en_area_rival": 1,
-        "cruces_recibidos": 0
+        "en_tercio_final": 14,
+        "en_area_rival": 2,
+        "cruces_recibidos": 1
       },
       {
         "id": 449840,
@@ -6827,11 +7591,19 @@
           {
             "x": 87.8,
             "y": 19.2
+          },
+          {
+            "x": 77.4,
+            "y": 3.7
+          },
+          {
+            "x": 62.1,
+            "y": 11.4
           }
         ],
         "pases_clave_recibidos": [],
         "asistencias_recibidas": [],
-        "en_tercio_final": 3,
+        "en_tercio_final": 4,
         "en_area_rival": 0,
         "cruces_recibidos": 0
       },
@@ -6858,6 +7630,10 @@
           {
             "x": 64.5,
             "y": 35.5
+          },
+          {
+            "x": 31.8,
+            "y": 96.4
           }
         ],
         "pases_clave_recibidos": [],
@@ -6867,11 +7643,59 @@
             "y": 53.1,
             "x_inicio": 99.5,
             "y_inicio": 99.5
+          },
+          {
+            "x": 90.4,
+            "y": 60.6,
+            "x_inicio": 94.0,
+            "y_inicio": 77.1
           }
         ],
-        "en_tercio_final": 3,
-        "en_area_rival": 1,
+        "en_tercio_final": 4,
+        "en_area_rival": 2,
         "cruces_recibidos": 1
+      },
+      {
+        "id": 536355,
+        "nombre": "Matteo Cichella",
+        "recepciones": [
+          {
+            "x": 46.9,
+            "y": 94.2
+          },
+          {
+            "x": 71.6,
+            "y": 93.3
+          },
+          {
+            "x": 27.0,
+            "y": 56.2
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 1,
+        "en_area_rival": 0,
+        "cruces_recibidos": 0
+      },
+      {
+        "id": 338762,
+        "nombre": "Alessio Zerbin",
+        "recepciones": [
+          {
+            "x": 60.6,
+            "y": 95.1
+          },
+          {
+            "x": 85.9,
+            "y": 75.0
+          }
+        ],
+        "pases_clave_recibidos": [],
+        "asistencias_recibidas": [],
+        "en_tercio_final": 1,
+        "en_area_rival": 1,
+        "cruces_recibidos": 0
       }
     ],
     "alineacion": {
@@ -6986,6 +7810,12 @@
           "posicion": "Sub"
         },
         {
+          "id": 338762,
+          "nombre": "Alessio Zerbin",
+          "dorsal": 24,
+          "posicion": "Sub"
+        },
+        {
           "id": 377261,
           "nombre": "Aleksa Terzic",
           "dorsal": 71,
@@ -7016,15 +7846,9 @@
           "posicion": "Sub"
         },
         {
-          "id": 338762,
-          "nombre": "Alessio Zerbin",
-          "dorsal": 24,
-          "posicion": "Sub"
-        },
-        {
-          "id": 389124,
-          "nombre": "Ilario Monterisi",
-          "dorsal": 30,
+          "id": 426772,
+          "nombre": "Sebastiano Desplanches",
+          "dorsal": 91,
           "posicion": "Sub"
         },
         {
@@ -7034,21 +7858,21 @@
           "posicion": "Sub"
         },
         {
-          "id": 426772,
-          "nombre": "Sebastiano Desplanches",
-          "dorsal": 91,
+          "id": 450288,
+          "nombre": "Luis Hasa",
+          "dorsal": 70,
+          "posicion": "Sub"
+        },
+        {
+          "id": 389124,
+          "nombre": "Ilario Monterisi",
+          "dorsal": 30,
           "posicion": "Sub"
         },
         {
           "id": 122632,
           "nombre": "Matteo Pisseri",
           "dorsal": 12,
-          "posicion": "Sub"
-        },
-        {
-          "id": 450288,
-          "nombre": "Luis Hasa",
-          "dorsal": 70,
           "posicion": "Sub"
         },
         {
@@ -7076,9 +7900,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.62,
+        "rating": 6.45,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 431032,
@@ -7096,29 +7920,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.07,
+        "rating": 5.9,
         "motm": false,
-        "minutos_jugados": 81
-      },
-      {
-        "id": 430899,
-        "nombre": "Giorgio Cittadini",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": 7.23,
-        "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 460562,
@@ -7136,9 +7940,29 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 1,
-        "rating": 6.51,
+        "rating": 6.26,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
+      },
+      {
+        "id": 430899,
+        "nombre": "Giorgio Cittadini",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 0,
+        "chances_creadas": 0,
+        "big_chances_creadas": 0,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 0,
+        "rating": 7.47,
+        "motm": false,
+        "minutos_jugados": 94
       },
       {
         "id": 447442,
@@ -7168,17 +7992,17 @@
         "tiros": 2,
         "tiros_al_arco": 0,
         "regates_exitosos": 0,
-        "chances_creadas": 2,
+        "chances_creadas": 3,
         "big_chances_creadas": 0,
-        "chances_open_play": 2,
-        "cruces_exitosos": 2,
+        "chances_open_play": 3,
+        "cruces_exitosos": 3,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 4,
         "toques_area_rival": 2,
-        "rating": 6.27,
+        "rating": 6.34,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 447452,
@@ -7238,15 +8062,15 @@
         "toques_area_rival": 1,
         "rating": 6.64,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 82
       },
       {
         "id": 477060,
         "nombre": "Giorgi Kvernadze",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 3,
-        "tiros_al_arco": 1,
+        "tiros": 4,
+        "tiros_al_arco": 2,
         "regates_exitosos": 2,
         "chances_creadas": 1,
         "big_chances_creadas": 0,
@@ -7256,9 +8080,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 11,
-        "rating": 6.51,
+        "rating": 6.31,
         "motm": false,
-        "minutos_jugados": 81
+        "minutos_jugados": 94
       },
       {
         "id": 415892,
@@ -7296,9 +8120,29 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 0,
-        "rating": 6.0,
+        "rating": 5.91,
         "motm": false,
-        "minutos_jugados": 6
+        "minutos_jugados": 19
+      },
+      {
+        "id": 338762,
+        "nombre": "Alessio Zerbin",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 1,
+        "chances_creadas": 0,
+        "big_chances_creadas": 0,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 2,
+        "rating": 6.06,
+        "motm": false,
+        "minutos_jugados": 12
       },
       {
         "id": 377261,
@@ -7307,25 +8151,25 @@
         "asistencias": 0,
         "tiros": 1,
         "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 2,
+        "regates_exitosos": 1,
+        "chances_creadas": 3,
         "big_chances_creadas": 0,
-        "chances_open_play": 2,
+        "chances_open_play": 3,
         "cruces_exitosos": 2,
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 1,
-        "rating": 6.38,
+        "toques_area_rival": 2,
+        "rating": 6.52,
         "motm": false,
-        "minutos_jugados": 36
+        "minutos_jugados": 49
       },
       {
         "id": 435053,
         "nombre": "Tomás Bobcek",
         "goles": 0,
         "asistencias": 0,
-        "tiros": 2,
+        "tiros": 3,
         "tiros_al_arco": 0,
         "regates_exitosos": 0,
         "chances_creadas": 0,
@@ -7335,10 +8179,10 @@
         "through_balls_exitosos": 0,
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
-        "toques_area_rival": 1,
-        "rating": 6.0,
+        "toques_area_rival": 2,
+        "rating": 5.85,
         "motm": false,
-        "minutos_jugados": 19
+        "minutos_jugados": 32
       },
       {
         "id": 449840,
@@ -7356,9 +8200,9 @@
         "layoffs_exitosos": 0,
         "corners_sacados": 0,
         "toques_area_rival": 3,
-        "rating": 6.27,
+        "rating": 6.17,
         "motm": false,
-        "minutos_jugados": 19
+        "minutos_jugados": 32
       },
       {
         "id": 432104,
@@ -7401,28 +8245,8 @@
         "minutos_jugados": 0
       },
       {
-        "id": 338762,
-        "nombre": "Alessio Zerbin",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": null,
-        "motm": false,
-        "minutos_jugados": 0
-      },
-      {
-        "id": 389124,
-        "nombre": "Ilario Monterisi",
+        "id": 426772,
+        "nombre": "Sebastiano Desplanches",
         "goles": 0,
         "asistencias": 0,
         "tiros": 0,
@@ -7461,8 +8285,28 @@
         "minutos_jugados": 0
       },
       {
-        "id": 426772,
-        "nombre": "Sebastiano Desplanches",
+        "id": 450288,
+        "nombre": "Luis Hasa",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros": 0,
+        "tiros_al_arco": 0,
+        "regates_exitosos": 0,
+        "chances_creadas": 0,
+        "big_chances_creadas": 0,
+        "chances_open_play": 0,
+        "cruces_exitosos": 0,
+        "through_balls_exitosos": 0,
+        "layoffs_exitosos": 0,
+        "corners_sacados": 0,
+        "toques_area_rival": 0,
+        "rating": null,
+        "motm": false,
+        "minutos_jugados": 0
+      },
+      {
+        "id": 389124,
+        "nombre": "Ilario Monterisi",
         "goles": 0,
         "asistencias": 0,
         "tiros": 0,
@@ -7501,26 +8345,6 @@
         "minutos_jugados": 0
       },
       {
-        "id": 450288,
-        "nombre": "Luis Hasa",
-        "goles": 0,
-        "asistencias": 0,
-        "tiros": 0,
-        "tiros_al_arco": 0,
-        "regates_exitosos": 0,
-        "chances_creadas": 0,
-        "big_chances_creadas": 0,
-        "chances_open_play": 0,
-        "cruces_exitosos": 0,
-        "through_balls_exitosos": 0,
-        "layoffs_exitosos": 0,
-        "corners_sacados": 0,
-        "toques_area_rival": 0,
-        "rating": null,
-        "motm": false,
-        "minutos_jugados": 0
-      },
-      {
         "id": 497572,
         "nombre": "Omar Fayed",
         "goles": 0,
@@ -7540,6 +8364,26 @@
         "motm": false,
         "minutos_jugados": 0
       }
-    ]
+    ],
+    "fotmob": {
+      "posesion": 49,
+      "xg": 1.01,
+      "xgot": 0.58,
+      "xg_por_tiro": 0.06,
+      "tiros": 17,
+      "tiros_al_arco": 1,
+      "pases": 423,
+      "pases_mitad_propia": 151,
+      "pases_mitad_opuesta": 203,
+      "cruces_exitosos": 7.0,
+      "cruces_totales": 26,
+      "corners": 4,
+      "faltas": 12,
+      "big_chances": 0,
+      "big_chances_perdidas": 0,
+      "tiros_dentro_area": 9,
+      "tiros_fuera_area": 8,
+      "field_tilt": 52.1
+    }
   }
 }

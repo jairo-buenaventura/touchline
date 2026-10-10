@@ -5,6 +5,17 @@ description: Descarga el HTML completo (match center) de todos los partidos de u
 
 SOP para descargar en bloque el HTML de partidos de WhoScored (match center "live") para una liga y temporada dadas, evitando el bloqueo de Cloudflare y sin agotar el contexto de la conversación.
 
+## ⚠️ Regla obligatoria: WhoScored + FotMob, siempre juntos
+
+Ningún partido queda "completo" con solo el HTML de WhoScored. **Todo partido que se descarga tiene que quedar respaldado por las dos fuentes: WhoScored (eventos, posiciones, red de pases) Y FotMob (xG/xGOT, corners, field tilt, big chances)** — sin excepción, y sin que el usuario tenga que pedirlo cada vez.
+
+Esto aplica tanto a descargas de liga/temporada completa (Pasos 1-5) como al flujo de un solo partido (Paso 6). Al terminar cualquier descarga de WhoScored:
+
+1. Bajar el FotMob correspondiente de inmediato, en la misma tarea (no dejarlo para "después" ni asumir que el usuario lo va a pedir aparte) — usar `descargar_fotmob_generico.py` con el `--league-id`/`--ccode3` de la liga (ver Paso 3.1 más abajo para la tabla de IDs ya confirmados) y un `--fixtures` consolidado de los mismos partidos que se acaban de bajar.
+2. Si algún partido queda sin match en FotMob (`[SIN MATCH ID]`), probar con un `--alias-json` para el/los equipo(s) cuyo nombre no coincide por substring entre WhoScored y FotMob (ver Paso 3.1) antes de darlo por perdido.
+3. Correr `parser.py` y la reinyección de FotMob (`fotmob_parser.actualizar_fotmob` ya se llama automático al final de `parser.py`) y confirmar con un chequeo rápido que el partido tiene el bloque `"fotmob"` lleno en su JSON final, no solo que el archivo de FotMob existe en `partidos_fotmob/`.
+4. Si por lo que sea FotMob no tiene datos para un partido puntual (no jugado, liga no cubierta, etc.), decirlo explícitamente en el reporte final — no dar la descarga por "terminada" en silencio sin FotMob.
+
 ## Por qué este método
 
 WhoScored está protegido por Cloudflare: peticiones simples con `urllib`/`requests` devuelven la pantalla de bloqueo (ver `revisar_bloqueo_whoscored.py`). Una sesión de navegador real controlada por Playwright (vía el MCP `mcp__playwright__*`) sí pasa el check de Cloudflare sin necesidad de ninguna técnica de evasión: basta con navegar normalmente. Una vez la sesión está "autorizada", incluso peticiones `fetch()` hechas *desde dentro* de esa página (mismo origen, con las cookies ya puestas) devuelven el HTML completo sin bloqueo.
@@ -41,7 +52,11 @@ async () => {
 
 Guardar el resultado con el parámetro `filename` del evaluate (NUNCA dejar que se devuelva inline — el JSON de una temporada completa pesa cientos de KB y satura el límite de tokens de la respuesta de la tool).
 
-Luego, con un script Python (Bash tool), parsear ese JSON: cada mes tiene `tournaments[0].matches[]`, con `id`, `homeTeamName`, `awayTeamName`, `homeScore`, `awayScore`, `startTime`. Deduplicar por `id` (los meses solapan) y ordenar por `startTime`. Verificar que el total de partidos únicos coincide con lo esperado (p.ej. 306 para una liga de 18 equipos a doble vuelta, 380 para 20 equipos). Guardar esta lista consolidada en un JSON en el scratchpad — este archivo es el que consume el paso 3.
+Luego, con un script Python (Bash tool), parsear ese JSON: cada mes tiene `tournaments[0].matches[]`, con `id`, `homeTeamName`, `awayTeamName`, `homeScore`, `awayScore`, `startTime`, `status`, `elapsed`. Deduplicar por `id` (los meses solapan) y ordenar por `startTime`. Verificar que el total de partidos únicos coincide con lo esperado (p.ej. 306 para una liga de 18 equipos a doble vuelta, 380 para 20 equipos). Guardar esta lista consolidada en un JSON en el scratchpad — este archivo es el que consume el paso 3.
+
+**⚠️ Nunca filtrar "partidos jugados" solo con `homeScore is not None`/`awayScore is not None`.** Un partido EN VIVO también tiene `homeScore`/`awayScore` (el marcador parcial del momento), así que ese filtro solo no distingue un partido que ya terminó de uno que va por el minuto 60. Filtrar por `status == 6` (equivalente a `elapsed == "FT"`) para quedarse solo con partidos realmente finalizados. Esto importa sobre todo cuando se descarga "la fecha más reciente" el mismo día en que se está jugando: si se captura un partido en vivo, tanto el HTML de WhoScored como el de FotMob quedan con datos a medias y el marcador que se usa para el nombre del archivo queda MAL (bug real, detectado el 2026-10-10: "Real Madrid 0-0 Villarreal" se descargó a mitad de partido y terminó 1-0; "Napoli 2-0 Frosinone" terminó 3-0; "Chicago Fire 1-1 New York City FC" terminó 2-1 — los tres quedaron con marcador y HTML incompletos hasta que se re-descargaron después de que el partido realmente terminara).
+
+Un `status` que no es ni 6 (FT) ni "en vivo" (3) puede ser un partido abandonado/suspendido (`elapsed: "Abd"`, status 5) — esos sí pueden quedar con pocos eventos (un abandono a los 10-15 minutos, por ejemplo) de forma legítima; no es un bug, pero conviene avisarle al usuario que ese partido específico es un caso especial (no un partido completo) en vez de darlo por sentado en silencio.
 
 Nota: si por algún motivo el endpoint de datos no existe para esa competición, hay un plan B más lento: en la página de "Fixtures" existe un botón `#dayChangeBtn-prev` que retrocede un mes en la vista; se puede hacer click con `document.getElementById('dayChangeBtn-prev').click()` (vía evaluate, para evitar que un pop-up de notificaciones intercepte el click real) y extraer los links de partido visibles con `document.querySelectorAll('a[href*="/matches/"][href*="/live/"]')`, repitiendo hasta cubrir toda la temporada.
 
@@ -101,6 +116,44 @@ print(f"Reparados: {reparados}")
 ```
 
 Si `reparados` da 0, no hubo bug esta vez. Si da más de 0, quedó arreglado in-place; no hace falta re-descargar nada.
+
+## Paso 3.1 — Descargar FotMob para el mismo lote (obligatorio, ver regla del principio)
+
+Terminado el HTML de WhoScored de un lote, bajar el FotMob correspondiente ANTES de pasar al Paso 4/5 — no es un paso aparte que se pueda dejar para otra sesión. Se hace con `descargar_fotmob_generico.py` (no necesita el navegador Playwright MCP, es un script Python standalone con su propio Playwright headless — se puede correr en paralelo sin pisar la sesión del MCP):
+
+```bash
+python3 descargar_fotmob_generico.py --league-id <ID> --season "<YYYY/YYYY o YYYY>" --ccode3 <CCODE> \
+  --fixtures <ruta al JSON consolidado del Paso 2, con homeScore/awayScore reales> \
+  --liga-label "<Liga>" --temporada-label "<temporada>" \
+  [--alias-json <ruta a un JSON de alias si hace falta>]
+```
+
+IDs de liga y ccode3 ya confirmados (verificados contra la API real de FotMob, no adivinados):
+
+| Liga | `--league-id` | `--ccode3` |
+|---|---|---|
+| Premier League | 47 | ENG |
+| LaLiga | 87 | ESP |
+| Bundesliga | 54 | GER |
+| Ligue 1 | 53 | FRA |
+| Serie A | 55 | ITA |
+| MLS | 130 | USA |
+
+`--temporada-label` normalmente en formato con guion (`2026-2027`) salvo para ligas de un solo año tipo MLS (`2026`, igual que `--season`).
+
+Es idempotente (salta lo que ya está en `partidos_fotmob/`), así que correrlo de nuevo sobre el mismo `--fixtures` no duplica nada — conviene reintentar una vez automáticamente si queda algo pendiente por timeout de red antes de darlo por fallido.
+
+**Alias de equipos ya confirmados** (el nombre de WhoScored no es substring del nombre de FotMob tras normalizar, así que sin alias el partido queda `[SIN MATCH ID]`):
+
+```json
+{
+  "Deportivo de A Coruna": "Deportivo A Coruna",
+  "Bayern Munich": "Bayern Munchen",
+  "Borussia M.Gladbach": "Borussia Monchengladbach"
+}
+```
+
+(separar en un `alias_laliga.json` y un `alias_bundesliga.json`, o uno combinado — da igual, el script solo usa las claves que coincidan con los equipos del `--fixtures` que se le pasó). Si aparece un `[SIN MATCH ID]` nuevo de un equipo no listado acá, el patrón para resolverlo es: consultar `https://www.fotmob.com/api/data/leagues?id=<ID>&season=<season>&ccode3=<CCODE>` y comparar los nombres de equipo reales de FotMob contra el de WhoScored para armar el alias — y agregarlo a esta tabla para la próxima vez.
 
 ## Paso 4 — Delegar el volumen a un agente en background
 
