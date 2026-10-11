@@ -945,14 +945,14 @@
         <button class="custom-select-btn" id="cs-liga-btn">World Cup</button>
         <div class="custom-select-list" id="cs-liga-list">
           <div class="custom-select-option seleccionado" data-value="world_cup">World Cup</div>
+          <div class="custom-select-option" data-value="champions_league">Champions League</div>
           <div class="custom-select-option" data-value="premier_league">Premier League</div>
           <div class="custom-select-option" data-value="la_liga">La Liga</div>
-          <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
           <div class="custom-select-option" data-value="serie_a">Serie A</div>
+          <div class="custom-select-option" data-value="bundesliga">Bundesliga</div>
           <div class="custom-select-option" data-value="ligue_1">Ligue 1</div>
           <div class="custom-select-option" data-value="eredivisie">Eredivisie</div>
           <div class="custom-select-option" data-value="mls">MLS</div>
-          <div class="custom-select-option" data-value="champions_league">Champions League</div>
         </div>
       </div>
 
@@ -2494,8 +2494,84 @@
       'Tunisia': 'TUN', 'Turkiye': 'TUR', 'USA': 'USA', 'Uruguay': 'URU', 'Uzbekistan': 'UZB',
     };
 
+    // Codigos de 3 letras para equipos de club (Premier League, LaLiga, Bundesliga,
+    // Serie A, Ligue 1, Eredivisie, MLS y los visitantes extra de Champions League) --
+    // sin esto, codigoFifa() caia al fallback generico de "primeras 3 letras del
+    // nombre", que da resultados raros para nombres compuestos (ej. "Real Madrid"
+    // -> "REA" en vez de "MAD").
+    const CODIGOS_CLUB = {
+      // Premier League
+      'Arsenal': 'ARS', 'Aston Villa': 'AVL', 'Bournemouth': 'BOU', 'Brentford': 'BRE',
+      'Brighton': 'BHA', 'Burnley': 'BUR', 'Chelsea': 'CHE', 'Coventry': 'COV',
+      'Crystal Palace': 'CRY', 'Everton': 'EVE', 'Fulham': 'FUL', 'Hull': 'HUL',
+      'Ipswich': 'IPS', 'Leeds': 'LEE', 'Leicester': 'LEI', 'Liverpool': 'LIV',
+      'Luton': 'LUT', 'Man City': 'MCI', 'Man Utd': 'MUN', 'Newcastle': 'NEW',
+      'Nottingham Forest': 'NFO', 'Sheff Utd': 'SHU', 'Southampton': 'SOU',
+      'Sunderland': 'SUN', 'Tottenham': 'TOT', 'West Ham': 'WHU', 'Wolves': 'WOL',
+      // LaLiga
+      'Almeria': 'ALM', 'Athletic Club': 'ATH', 'Atletico': 'ATM', 'Barcelona': 'BAR',
+      'Cadiz': 'CAD', 'Celta Vigo': 'CEL', 'Deportivo': 'DEP', 'Deportivo Alaves': 'ALA',
+      'Deportivo de A Coruna': 'DEP', 'Elche': 'ELC', 'Espanyol': 'ESP', 'Getafe': 'GET',
+      'Girona': 'GIR', 'Granada': 'GRA', 'Las Palmas': 'LPA', 'Leganes': 'LEG',
+      'Levante': 'LEV', 'Malaga': 'MAL', 'Mallorca': 'MLL', 'Osasuna': 'OSA',
+      'Racing Santander': 'RAC', 'Rayo Vallecano': 'RAY', 'Real Betis': 'BET',
+      'Real Madrid': 'MAD', 'Real Oviedo': 'OVI', 'Real Sociedad': 'RSO',
+      'Real Valladolid': 'VLL', 'Sevilla': 'SEV', 'Valencia': 'VAL', 'Villarreal': 'VIL',
+      // Bundesliga
+      'Augsburg': 'FCA', 'Bayer Leverkusen': 'B04', 'Bayern Munchen': 'FCB',
+      'Bayern Munich': 'FCB', 'Bochum': 'BOC', 'Borussia Dortmund': 'BVB',
+      'Borussia M.Gladbach': 'BMG', 'Darmstadt': 'D98', 'Eintracht Frankfurt': 'SGE',
+      'Elversberg': 'ELV', 'FC Heidenheim': 'FCH', 'FC Koln': 'KOE', 'Freiburg': 'SCF',
+      'Hamburger SV': 'HSV', 'Hertha Berlin': 'BSC', 'Hoffenheim': 'TSG',
+      'Holstein Kiel': 'KIE', 'Mainz 05': 'M05', 'Paderborn': 'SCP', 'RB Leipzig': 'RBL',
+      'Schalke': 'S04', 'St. Pauli': 'STP', 'Union Berlin': 'FCU', 'VfB Stuttgart': 'VFB',
+      'Werder Bremen': 'SVW', 'Wolfsburg': 'WOB',
+      // Serie A
+      'AC Milan': 'MIL', 'Atalanta': 'ATA', 'Bologna': 'BOL', 'Cagliari': 'CAG',
+      'Como': 'COM', 'Cremonese': 'CRE', 'Empoli': 'EMP', 'Fiorentina': 'FIO',
+      'Frosinone': 'FRO', 'Genoa': 'GEN', 'Inter': 'INT', 'Juventus': 'JUV',
+      'Lazio': 'LAZ', 'Lecce': 'LEC', 'Monza': 'MON', 'Napoli': 'NAP',
+      'Parma Calcio 1913': 'PAR', 'Pisa': 'PIS', 'Roma': 'ROM', 'Salernitana': 'SAL',
+      'Sampdoria': 'SAM', 'Sassuolo': 'SAS', 'Spezia': 'SPE', 'Torino': 'TOR',
+      'Udinese': 'UDI', 'Venezia': 'VEN', 'Verona': 'VER',
+      // Ligue 1
+      'AC Ajaccio': 'ACA', 'Angers': 'ANG', 'Auxerre': 'AUX', 'Brest': 'BRE',
+      'Clermont Foot': 'CF6', 'Le Havre': 'LEH', 'Le Mans': 'LEM', 'Lens': 'LEN',
+      'Lille': 'LIL', 'Lorient': 'LOR', 'Lyon': 'LYO', 'Marseille': 'MAR',
+      'Metz': 'MET', 'Monaco': 'ASM', 'Montpellier': 'MTP', 'Nantes': 'NAN',
+      'Nice': 'NIC', 'Paris FC': 'PFC', 'Paris Saint-Germain': 'PSG', 'Reims': 'REI',
+      'Rennes': 'REN', 'Saint-Etienne': 'STE', 'Strasbourg': 'STR', 'Toulouse': 'TFC',
+      'Troyes': 'TRO',
+      // Eredivisie
+      'AZ Alkmaar': 'AZA', 'Ajax': 'AJA', 'Almere City FC': 'ALC', 'Cambuur': 'CAM',
+      'Excelsior': 'EXC', 'FC Emmen': 'EMM', 'FC Groningen': 'GRO', 'FC Utrecht': 'UTR',
+      'FC Volendam': 'VOL', 'Feyenoord': 'FEY', 'Fortuna Sittard': 'FOR',
+      'Go Ahead Eagles': 'GAE', 'Heracles': 'HER', 'NAC Breda': 'NAC',
+      'NEC Nijmegen': 'NEC', 'PEC Zwolle': 'PEC', 'PSV Eindhoven': 'PSV',
+      'RKC Waalwijk': 'RKC', 'SC Heerenveen': 'HEE', 'Sparta Rotterdam': 'SPA',
+      'Telstar': 'TEL', 'Twente': 'TWE', 'Vitesse': 'VIT', 'Willem II': 'WII',
+      // MLS
+      'Atlanta United': 'ATL', 'Austin FC': 'AUS', 'CF Montreal': 'MTL',
+      'Charlotte FC': 'CLT', 'Chicago Fire FC': 'CHI', 'Colorado Rapids': 'COL',
+      'Columbus Crew': 'CLB', 'DC United': 'DCU', 'FC Cincinnati': 'CIN',
+      'FC Dallas': 'DAL', 'Houston Dynamo FC': 'HOU', 'Inter Miami CF': 'MIA',
+      'LA Galaxy': 'LAG', 'Los Angeles FC': 'LAF', 'Minnesota United': 'MIN',
+      'Nashville SC': 'NSH', 'New England Revolution': 'NER', 'New York City FC': 'NYC',
+      'Orlando City': 'ORL', 'Philadelphia Union': 'PHI', 'Portland Timbers': 'POR',
+      'Real Salt Lake': 'RSL', 'Red Bull New York': 'RBN', 'San Diego FC': 'SDG',
+      'San Jose Earthquakes': 'SJE', 'Seattle Sounders FC': 'SEA',
+      'Sporting Kansas City': 'SKC', 'St. Louis City': 'STL', 'Toronto FC': 'TOR',
+      'Vancouver Whitecaps': 'VAN',
+      // Visitantes extra de Champions League (no estan en ninguna de las ligas de arriba)
+      'Benfica': 'BEN', 'Bodoe/Glimt': 'BOD', 'Bodoe-Glimt': 'BOD', 'Club Brugge': 'CLU',
+      'Copenhagen': 'COP', 'FC Copenhagen': 'COP', 'Galatasaray': 'GAL',
+      'Kairat Almaty': 'KAI', 'Olympiacos': 'OLY', 'Pafos FC': 'PAF',
+      'Qarabag FK': 'QAR', 'Slavia Prague': 'SLA', 'Sporting': 'SCP',
+      'Sporting CP': 'SCP', 'Union St.Gilloise': 'USG',
+    };
+
     function codigoFifa(nombreEquipo) {
-      return CODIGOS_FIFA[nombreEquipo] || nombreEquipo.slice(0, 3).toUpperCase();
+      return CODIGOS_FIFA[nombreEquipo] || CODIGOS_CLUB[nombreEquipo] || nombreEquipo.slice(0, 3).toUpperCase();
     }
 
     function actualizarEstadisticas(datos) {
@@ -3124,7 +3200,7 @@
       eredivisie: 'Eredivisie', mls: 'MLS', champions_league: 'Champions League',
     };
     // Mismo orden jerarquico que el dropdown de Liga en Partidos (ver lineas ~947-955).
-    const ORDEN_LIGAS_LEADERS = ['world_cup', 'premier_league', 'la_liga', 'bundesliga', 'serie_a', 'ligue_1', 'eredivisie', 'mls', 'champions_league'];
+    const ORDEN_LIGAS_LEADERS = ['world_cup', 'champions_league', 'premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1', 'eredivisie', 'mls'];
 
     let indiceLeaders = [];
     let leadersInicializado = false;

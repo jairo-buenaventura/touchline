@@ -333,7 +333,30 @@ def listar_jsons_de_partidos(carpeta_data):
     return candidatos
 
 
+# Nombres de equipo donde FotMob usa el nombre largo/oficial y WhoScored (y por lo
+# tanto el nombre de archivo de cada partido) usa uno corto -- sin este alias, la
+# busqueda de substring de la Estrategia 2 no encuentra el candidato aunque el
+# partido exista, y ese partido queda sin su bloque "fotmob" en silencio (bug real,
+# detectado el 2026-10-10: 15 partidos de Premier League 2026/27 con Coventry, Hull
+# o Ipswich se quedaron sin FotMob inyectado por esto). Mismo problema que los alias
+# de --alias-json en descargar_fotmob_generico.py, pero ahi solo ayudan al MOMENTO DE
+# DESCARGAR -- este diccionario aplica en la reinyeccion (encontrar_archivo_json),
+# que corre siempre, automatico, dentro de cada `python3 parser.py`.
+_ALIAS_FOTMOB_A_WHOSCORED = {
+    "Coventry City": "Coventry",
+    "Hull City": "Hull",
+    "Ipswich Town": "Ipswich",
+    "Deportivo A Coruna": "Deportivo de A Coruna",
+    "Bayern Munchen": "Bayern Munich",
+    "Borussia Monchengladbach": "Borussia M.Gladbach",
+    "Bodø/Glimt": "Bodoe-Glimt",
+    "FC København": "FC Copenhagen",
+}
+
+
 def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None):
+    home_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(home_fotmob, home_fotmob)
+    away_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(away_fotmob, away_fotmob)
     candidatos = listar_jsons_de_partidos(carpeta_data)
 
     # Estrategia 1: coincidencia EXACTA quitando el sufijo _FotMob.
@@ -355,12 +378,19 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
         m_score = re.search(r"(\d+)\s*-\s*(\d+)", nombre_html_stem)
         if m_score:
             g1, g2 = m_score.group(1), m_score.group(2)
-            # Se generan variantes con y sin espacios alrededor del guion,
-            # porque los archivos de Premier League usan "3 - 1" y los de
-            # LaLiga usan "3-1".
+            # Variantes con y sin espacios alrededor del guion (los archivos
+            # de Premier League usan "3 - 1" y los de LaLiga usan "3-1").
+            # NO se incluye la variante invertida (g2-g1): el orden
+            # home/away ya quedo fijado arriba por posicion en el nombre
+            # (pos_h < pos_a), asi que el marcador tiene que venir en ESE
+            # mismo orden. Permitir el invertido causaba que dos partidos
+            # REALES y distintos entre los mismos equipos (ej. Champions
+            # League liga unica: "Olympiacos 0-2 Bayer Leverkusen" del 18/02
+            # y "Olympiacos 2-0 Bayer Leverkusen" del 20/01, dos fechas
+            # distintas del mismo cruce) se cruzaran entre si (bug real,
+            # detectado el 2026-10-10).
             marcador_variantes = [
-                f"{g1}-{g2}", f"{g2}-{g1}",
-                f"{g1} - {g2}", f"{g2} - {g1}",
+                f"{g1}-{g2}", f"{g1} - {g2}",
             ]
             h = normalizar(home_fotmob)
             a = normalizar(away_fotmob)
