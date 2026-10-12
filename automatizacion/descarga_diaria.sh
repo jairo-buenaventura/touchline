@@ -6,6 +6,15 @@
 
 set -uo pipefail
 
+# launchd arranca con un PATH minimo, asi que "python3"/"node"/"vercel" resuelven
+# al binario del sistema (sin playwright instalado) en vez del de Homebrew. Pasó
+# de verdad el 2026-10-11: actualizar_todo.py fallo con codigo 1 porque
+# sofascore_parser.py no encontraba "playwright" al importar, y despues "vercel"
+# tampoco estaba en el PATH para el deploy. El agente lo resolvio a mano esa vez
+# agregando /opt/homebrew/bin al PATH -- esto lo deja fijo para que no dependa de
+# que lo descubra cada corrida.
+export PATH="/opt/homebrew/bin:$PATH"
+
 REPO="/Users/jairobuenaventura/Desktop/touchline"
 LOGDIR="$REPO/automatizacion/logs"
 mkdir -p "$LOGDIR"
