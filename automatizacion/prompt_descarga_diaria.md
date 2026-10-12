@@ -37,18 +37,24 @@ de tratarlo como un partido normal.
 
 ## Después de descargar
 
-1. `python3 parser.py` (reprocesa todo, incluye el rescate de Sofascore automático).
-2. Confirmar 0 líneas `[ERROR]` en la salida. Si hay alguna, no sigas al commit — dejá todo
-   tal cual está y escribí el error completo al final del log para que se revise a mano.
-3. `python3 agregar_corners_equipo.py` y `python3 agregar_ranking_jugador.py`.
-4. Si no hubo NINGÚN partido nuevo en ninguna liga, no hagas commit vacío — solo dejá
+1. `python3 actualizar_todo.py` (NO corras `parser.py` suelto — este script encadena
+   parser.py + reinyección de FotMob + verificación dura de que ningún partido quedó sin
+   FotMob + corners/leaders, todo en un solo paso atómico). Si la sesión se corta entre
+   `parser.py` y la reinyección de FotMob corriéndolos por separado, TODO `data/` queda sin
+   FotMob en silencio (pasó de verdad el 2026-10-11) — por eso este script existe y por eso
+   es obligatorio usarlo en vez de los pasos sueltos.
+2. Confirmar que `actualizar_todo.py` terminó con exit code 0. Si terminó con código
+   distinto de 0 (ya sea por `[ERROR]` de parser.py o por la verificación de FotMob
+   fallida), NO sigas al commit — dejá todo tal cual está y escribí el error completo al
+   final del log para que se revise a mano.
+3. Si no hubo NINGÚN partido nuevo en ninguna liga, no hagas commit vacío — solo dejá
    constancia en el log de que se revisó y no había nada nuevo, y terminá ahí.
-5. Si hubo partidos nuevos y todo salió limpio: `git add` solo lo relevante (nunca
+4. Si hubo partidos nuevos y todo salió limpio: `git add` solo lo relevante (nunca
    `git add -A` — `data/`, `partidos_fotmob/`, y cualquier script que hayas tenido que tocar),
    commit con mensaje descriptivo (qué ligas, cuántos partidos, terminando con
    `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`), `git push origin main`.
-6. `vercel --prod --yes` desde la raíz del repo para desplegar.
-7. Verificar en vivo con un `curl` a `https://touchline-woad.vercel.app/data/lista.json` que
+5. `vercel --prod --yes` desde la raíz del repo para desplegar.
+6. Verificar en vivo con un `curl` a `https://touchline-woad.vercel.app/data/lista.json` que
    el total de partidos subió respecto a antes de la corrida.
 
 ## Log

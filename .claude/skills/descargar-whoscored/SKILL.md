@@ -13,8 +13,23 @@ Esto aplica tanto a descargas de liga/temporada completa (Pasos 1-5) como al flu
 
 1. Bajar el FotMob correspondiente de inmediato, en la misma tarea (no dejarlo para "después" ni asumir que el usuario lo va a pedir aparte) — usar `descargar_fotmob_generico.py` con el `--league-id`/`--ccode3` de la liga (ver Paso 3.1 más abajo para la tabla de IDs ya confirmados) y un `--fixtures` consolidado de los mismos partidos que se acaban de bajar.
 2. Si algún partido queda sin match en FotMob (`[SIN MATCH ID]`), probar con un `--alias-json` para el/los equipo(s) cuyo nombre no coincide por substring entre WhoScored y FotMob (ver Paso 3.1) antes de darlo por perdido.
-3. Correr `parser.py` y la reinyección de FotMob (`fotmob_parser.actualizar_fotmob` ya se llama automático al final de `parser.py`) y confirmar con un chequeo rápido que el partido tiene el bloque `"fotmob"` lleno en su JSON final, no solo que el archivo de FotMob existe en `partidos_fotmob/`.
+3. Correr **`python3 actualizar_todo.py`** (NO `parser.py` suelto) para procesar todo de
+   punta a punta: parser.py -> reinyección de FotMob -> verificación dura de que ningún
+   partido quedó sin FotMob -> corners/leaders. Si la verificación falla, el script termina
+   con exit code 1 y lista los partidos afectados — no seguir al commit en ese caso.
 4. Si por lo que sea FotMob no tiene datos para un partido puntual (no jugado, liga no cubierta, etc.), decirlo explícitamente en el reporte final — no dar la descarga por "terminada" en silencio sin FotMob.
+
+**⚠️ Nunca correr `parser.py` suelto y asumir que ya terminó.** `parser.py` reescribe
+cada JSON de partido desde cero SIN el bloque `"fotmob"` (lo elimina en cada corrida) y
+depende de un paso SEPARADO (`fotmob_parser.actualizar_fotmob`) para reponerlo. Si algo
+corta el proceso entre esos dos pasos — la sesión se reinicia, se mata el proceso, se corre
+uno sin el otro a mano — **TODO `data/` queda sin FotMob en silencio**, no solo los
+partidos nuevos (bug real, detectado el 2026-10-11: una corrida de `parser.py` se cortó a
+mitad de camino por un reinicio de sesión y dejó 8706/9870 partidos — prácticamente la base
+de datos entera — sin FotMob, sin que nada lo avisara hasta que alguien lo revisó a mano).
+`actualizar_todo.py` existe exactamente para que esto sea un solo paso atómico con
+verificación obligatoria al final, en vez de una secuencia de pasos que se puede cortar a
+medias.
 
 ## Por qué este método
 

@@ -397,6 +397,22 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             temporada_origen = _temporada_de(nombre_html_stem)
             liga_origen = _liga_de(nombre_html_stem)
             for c in candidatos:
+                # Los archivos con sufijo "(YYYY-MM-DD)" existen para
+                # desambiguar dos partidos REALES distintos entre los mismos
+                # equipos con el mismo marcador (ej. liga unica de Champions
+                # League: "Galatasaray 1-0 Liverpool" paso dos veces, 30/09 y
+                # 10/03). Sin este skip, cualquier fuente de FotMob de ESE
+                # cruce (sin importar a cual de los dos partidos pertenece)
+                # podia terminar siempre en el candidato con sufijo por orden
+                # de iteracion, dejando al otro partido sin FotMob (bug real,
+                # reaparecio el 2026-10-11 tras una corrida de
+                # fotmob_parser.actualizar_fotmob). Esta funcion no tiene
+                # forma de saber la fecha real del partido fuente, asi que
+                # Estrategia 2 nunca elige el candidato con sufijo -- a ese
+                # solo se llega por coincidencia EXACTA de nombre
+                # (Estrategia 1, mas arriba).
+                if re.search(r"\(\d{4}-\d{2}-\d{2}\)$", c.stem):
+                    continue
                 nombre = normalizar(c.stem)
                 pos_h = nombre.find(h)
                 pos_a = nombre.find(a)
