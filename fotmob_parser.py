@@ -354,10 +354,22 @@ _ALIAS_FOTMOB_A_WHOSCORED = {
 }
 
 
-def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None):
+def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None, candidatos=None):
+    """
+    `candidatos`: lista ya calculada de listar_jsons_de_partidos(carpeta_data),
+    para que quien llame esta funcion en un loop (ej. actualizar_fotmob) la
+    calcule UNA sola vez en vez de volver a recorrer todo data/ con rglob en
+    cada llamada -- con ~9900 archivos de FotMob y ~9900 partidos en data/,
+    recalcularla por cada uno es un rglob completo repetido ~9900 veces
+    (bug de rendimiento real, detectado el 2026-10-11: una corrida que
+    deberia tardar un par de minutos tardaba mas de una hora sin terminar).
+    Si no se pasa, se calcula aca (comportamiento anterior, para quien use
+    esta funcion suelta fuera de un loop).
+    """
     home_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(home_fotmob, home_fotmob)
     away_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(away_fotmob, away_fotmob)
-    candidatos = listar_jsons_de_partidos(carpeta_data)
+    if candidatos is None:
+        candidatos = listar_jsons_de_partidos(carpeta_data)
 
     # Estrategia 1: coincidencia EXACTA quitando el sufijo _FotMob.
     if nombre_html_stem:
@@ -483,6 +495,11 @@ def actualizar_fotmob(carpeta_fotmob=None, carpeta_data=None, silencioso=False):
             print(f"No hay archivos .html ni .json en '{carpeta_fotmob}'.")
         return 0, 0
 
+    # Se calcula UNA sola vez para todo el loop (ver docstring de
+    # encontrar_archivo_json) -- con ~9900 archivos esto es la diferencia
+    # entre segundos y mas de una hora.
+    candidatos = listar_jsons_de_partidos(carpeta_data)
+
     actualizados = 0
     for archivo in archivos:
         try:
@@ -496,7 +513,8 @@ def actualizar_fotmob(carpeta_fotmob=None, carpeta_data=None, silencioso=False):
             continue
 
         ruta_json = encontrar_archivo_json(
-            datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data, archivo.stem
+            datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data, archivo.stem,
+            candidatos=candidatos,
         )
         if ruta_json is None:
             if not silencioso:
