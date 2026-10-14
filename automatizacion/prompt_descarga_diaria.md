@@ -53,9 +53,16 @@ de tratarlo como un partido normal.
    `git add -A` — `data/`, `partidos_fotmob/`, y cualquier script que hayas tenido que tocar),
    commit con mensaje descriptivo (qué ligas, cuántos partidos, terminando con
    `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`), `git push origin main`.
-5. `vercel --prod --yes` desde la raíz del repo para desplegar.
-6. Verificar en vivo con un `curl` a `https://touchline-woad.vercel.app/data/lista.json` que
-   el total de partidos subió respecto a antes de la corrida.
+5. **NO corras `vercel --prod`.** El usuario pidió explícitamente (2026-10-14) dejar de
+   desplegar a Vercel en cada corrida -- el deploy se volvió pesado (~97MB subidos por
+   corrida, sobre todo por `data/jugadores.json` que se reescribe completo cada vez) y por
+   ahora no hace falta: lo que importa es que `data/` y el localhost queden al día, no el
+   sitio en producción. El deploy manual se retoma más adelante si el usuario lo pide.
+6. Verificar con un `curl` a `http://localhost:8000/data/lista.json` que el total de
+   partidos subió respecto a antes de la corrida. Si el local no responde (puerto 8000
+   caído), relanzarlo: `cd "$REPO" && python3 -m http.server 8000 > /tmp/touchline_server.log 2>&1 &`
+   (también lo cubre el LaunchAgent de `com.touchline.localhost.plist`, pero conviene
+   confirmar que esté vivo en vez de asumirlo).
 
 ## Log
 
