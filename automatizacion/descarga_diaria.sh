@@ -34,5 +34,10 @@ PROMPT="$(cat "$REPO/automatizacion/prompt_descarga_diaria.md")"
   --strict-mcp-config \
   > "$LOGFILE" 2>&1
 
+# ── Dashboards (4 PNG) de los partidos nuevos ────────────────────────────────────
+# Corre DESPUES de la descarga/commit/deploy y no bloquea nada: si falla, queda en el log.
+echo "--- dashboards ---" >> "$LOGFILE"
+bash "$REPO/automatizacion/generar_dashboards.sh" >> "$LOGFILE" 2>&1 || true
+
 echo "---" >> "$LOGFILE"
 echo "Terminado: $(date)" >> "$LOGFILE"

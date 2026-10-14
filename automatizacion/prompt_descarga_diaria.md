@@ -62,3 +62,9 @@ de tratarlo como un partido normal.
 Escribí un resumen al final (partidos nuevos por liga, errores si los hubo, si se hizo
 commit/push/deploy o no, y por qué) — esto se redirige a un archivo de log por quien llama
 este prompt, no hace falta que lo guardes vos en otro lado.
+
+## Dashboards (NO los generes vos)
+
+Los dashboards (4 PNG por partido) los genera `descarga_diaria.sh` por su cuenta, con
+`automatizacion/generar_dashboards.sh`, DESPUÉS de que termines vos. No hace falta que los
+generes, ni que los commitees: `dashboards/` está en `.gitignore` y `.vercelignore`.

@@ -134,6 +134,28 @@ Ver `PLAN_MEJORAS_CALIDAD_DATOS.md` para el diagnóstico completo y el
 `.claude/agents/representante-mal-genio.md` para el agente que audita el
 proyecto con esa misma vara.
 
+## Dashboards automáticos (PostMatch)
+
+Al final de cada corrida de `automatizacion/descarga_diaria.sh` (6am, 5pm y 11pm) corre
+`automatizacion/generar_dashboards.sh`, que llama a **`generar_dashboards_nuevos.py`**:
+para cada partido nuevo de `data/<Liga>/<Temporada>/*.html` sin dashboard genera los 4 PNG
+(`Dashboard`, `Player_Dashboard`, `KPI_Summary`, `Tactical_Insights`) con
+`mundial_dashboard.generar_reporte()` y los deja en
+`dashboards/<Liga>/<Temporada>/<partido>/` (ignorado por git y vercel). Resumen de la última
+corrida en `dashboards/ULTIMA_CORRIDA.md`; estado por partido en `dashboards/_registro.json`.
+
+- **No bloquea la tarea diaria**: si falla, queda en el log (`automatizacion/logs/`) y sale con 0.
+- **FotMob**: en `partidos_fotmob/` el dato es JSON crudo y `generar_reporte` solo lee HTML con
+  `__NEXT_DATA__`; el script lo envuelve. Si FotMob no trae xG, el partido NO se publica con
+  xG=0: queda como `error` y se reintenta (máx. 3 veces).
+- **Colores**: un color casi blanco o dos colores que se confunden se reemplazan por el color
+  alterno del equipo. Los equipos que no estén en `TEAM_COLORS` salen en el reporte; se pueden
+  agregar en `colores_equipos.json` (`{"Equipo": {"home": "#RRGGBB", "away": "#RRGGBB"}}`).
+- **Jornada**: se calcula contando los partidos del local en esa temporada según `data/lista.json`.
+- **Manual**: `python3 generar_dashboards_nuevos.py --dry-run` (ver pendientes) o
+  `--solo "Real Madrid 4-1" --forzar` (regenerar uno). `--marcar-existentes` solo se usa en la instalación inicial.
+- No cubre aún Champions League ni Mundial en la descarga diaria (ver `prompt_descarga_diaria.md`).
+
 ## Tests
 
 `tests/` trae validaciones de solo lectura sobre `data/` (esquema, filtrado

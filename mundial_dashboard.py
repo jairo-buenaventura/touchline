@@ -549,6 +549,8 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
             league = title_match.group(1).split('-')[-1].strip() if title_match else "—"
         # Acortar año: "LaLiga 2025/2026" → "LaLiga 25/26"
         league = re.sub(r'(\d{2})(\d{2})/(\d{2})(\d{2})', r'\2/\4', league)
+        # El <title> de WhoScored termina en "Live" ("LaLiga 2026/2027 Live"): no es parte del nombre
+        league = re.sub(r'\s+Live$', '', league).strip()
     except:
         league = "—"
 

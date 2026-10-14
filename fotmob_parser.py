@@ -348,6 +348,7 @@ _ALIAS_FOTMOB_A_WHOSCORED = {
     "Ipswich Town": "Ipswich",
     "Deportivo A Coruna": "Deportivo de A Coruna",
     "Bayern Munchen": "Bayern Munich",
+    "Bayern München": "Bayern Munich",
     "Borussia Monchengladbach": "Borussia M.Gladbach",
     "Bodø/Glimt": "Bodoe-Glimt",
     "FC København": "FC Copenhagen",
