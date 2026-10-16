@@ -644,7 +644,7 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
     col1 = hcol  # alias para compatibilidad
     col2 = acol  # alias para compatibilidad
 
-    file_header = f"{hteamName}_vs_{ateamName}".replace(" ", "_")
+    file_header = f"{hteamName}_vs_{ateamName}".replace(" ", "_").replace("/", "-")
 
     # ── Guardar CSV ───────────────────────────────────────────────────────────────
     df.to_csv(os.path.join(output_dir, f'{file_header}.csv'), index=False)
