@@ -301,7 +301,7 @@ def _temporada_de(nombre):
     return m.group(1) if m else None
 
 
-_LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie"]
+_LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie", "Champions League"]
 
 
 def _liga_de(nombre):
