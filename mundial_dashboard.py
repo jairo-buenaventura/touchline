@@ -406,8 +406,22 @@ def _get_team_color(team_name: str, side: str, fallback: str) -> str:
 
 
 
-def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_imagenes=True):
+def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_imagenes=True,
+                     jugador_home=None, jugador_away=None):
     """Genera el CSV de eventos y (opcionalmente) los 4 PNG del dashboard para un partido.
+
+    jugador_home/jugador_away: si se pasan, fuerzan que el Player_Dashboard
+    (y el resto de las vistas que usan PLAYER_HOME/PLAYER_AWAY) se arme
+    sobre ESE jugador en vez del de mejor rating de WhoScored -- por
+    default el dashboard siempre elige automaticamente al mejor calificado
+    de cada lado, lo que no sirve si lo que se quiere es analizar a un
+    jugador puntual que no fue el mejor calificado de su equipo en ese
+    partido (ej. "quiero ver a Pedri" cuando el mejor calificado del
+    Barcelona fue Lamine Yamal). Acepta nombre completo o parcial, sin
+    distinguir mayusculas/acentos exactos (busca por substring en
+    minusculas); si no encuentra a nadie con ese nombre en ese lado, cae
+    de vuelta al auto-pick de siempre y lo avisa por consola (nunca falla
+    en silencio ni inventa un jugador).
 
     Devuelve un dict resumen con marcador, PLAYER_HOME/PLAYER_AWAY elegidos, xG/xGOT y si
     se usaron datos de FotMob o el fallback 0.0.
@@ -538,8 +552,30 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
                     return p.get("name")
         return best_name
 
-    PLAYER_HOME = _pick_top_rated_player(data["matchCentreData"]["home"]["players"])
-    PLAYER_AWAY = _pick_top_rated_player(data["matchCentreData"]["away"]["players"])
+    def _buscar_jugador_por_nombre(players_list, nombre_buscado):
+        if not nombre_buscado:
+            return None
+        objetivo = nombre_buscado.strip().lower()
+        for p in players_list:
+            nombre = (p.get("name") or "").lower()
+            if objetivo == nombre or objetivo in nombre:
+                return p.get("name")
+        return None
+
+    home_players = data["matchCentreData"]["home"]["players"]
+    away_players = data["matchCentreData"]["away"]["players"]
+
+    PLAYER_HOME = _buscar_jugador_por_nombre(home_players, jugador_home)
+    if jugador_home and PLAYER_HOME is None:
+        print(f"⚠️  No se encontro a '{jugador_home}' en el equipo local; se usa el de mejor rating en su lugar.")
+    if PLAYER_HOME is None:
+        PLAYER_HOME = _pick_top_rated_player(home_players)
+
+    PLAYER_AWAY = _buscar_jugador_por_nombre(away_players, jugador_away)
+    if jugador_away and PLAYER_AWAY is None:
+        print(f"⚠️  No se encontro a '{jugador_away}' en el equipo visitante; se usa el de mejor rating en su lugar.")
+    if PLAYER_AWAY is None:
+        PLAYER_AWAY = _pick_top_rated_player(away_players)
 
     # ── Liga, jornada y fecha (automático desde el HTML) ─────────────────────────
     try:

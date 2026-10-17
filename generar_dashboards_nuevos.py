@@ -272,7 +272,8 @@ def worker(args):
     md.TEAM_COLORS[home] = {**md.TEAM_COLORS.get(home, {}), "home": hc}
     md.TEAM_COLORS[away] = {**md.TEAM_COLORS.get(away, {}), "away": ac}
 
-    resumen = md.generar_reporte(args.ws, args.fm, args.gw, args.outdir, generar_imagenes=True)
+    resumen = md.generar_reporte(args.ws, args.fm, args.gw, args.outdir, generar_imagenes=True,
+                                  jugador_home=args.jugador_home, jugador_away=args.jugador_away)
     resumen["colores"] = {"home": hc, "away": ac}
     resumen["notas_color"] = notas
     resumen["equipos_sin_color"] = sin_color
@@ -292,7 +293,7 @@ def _borrar(ruta):
         pass
 
 
-def procesar(p, fm_json, gw, salida):
+def procesar(p, fm_json, gw, salida, jugador_home=None, jugador_away=None):
     outdir = salida / p["liga"] / p["temp"] / p["stem"]
     outdir.mkdir(parents=True, exist_ok=True)
     m = PAT.match(p["stem"])
@@ -302,6 +303,10 @@ def procesar(p, fm_json, gw, salida):
         cmd = [sys.executable, str(Path(__file__).resolve()), "--worker",
                "--ws", str(p["ws"]), "--fm", str(fm_html), "--gw", gw, "--outdir", str(outdir),
                "--home", m["h"], "--away", m["a"], "--salida", str(salida)]
+        if jugador_home:
+            cmd += ["--jugador-home", jugador_home]
+        if jugador_away:
+            cmd += ["--jugador-away", jugador_away]
         t0 = time.time()
         try:
             r = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT_PARTIDO, cwd=str(REPO))
@@ -348,6 +353,8 @@ def main():
     ap.add_argument("--marcar-existentes", action="store_true")
     ap.add_argument("--excepto-ultimos-dias", type=float, default=0)
     ap.add_argument("--worker", action="store_true")
+    ap.add_argument("--jugador-home", dest="jugador_home", help="forzar este jugador (en vez del de mejor rating) en el Player_Dashboard del lado local; usar junto con --solo")
+    ap.add_argument("--jugador-away", dest="jugador_away", help="forzar este jugador (en vez del de mejor rating) en el Player_Dashboard del lado visitante; usar junto con --solo")
     for a in ("ws", "fm", "gw", "outdir", "home", "away"):
         ap.add_argument(f"--{a}")
     args = ap.parse_args()
@@ -403,7 +410,7 @@ def main():
     for p, fm in pend[:args.limite]:
         gw = jornada_de(p, por_archivo, fechas)
         print(f"→ {p['stem']} (jornada {gw})", flush=True)
-        ok, msg, res = procesar(p, fm, gw, salida)
+        ok, msg, res = procesar(p, fm, gw, salida, jugador_home=args.jugador_home, jugador_away=args.jugador_away)
         prev = reg.get(p["rel"], {})
         if ok:
             reg[p["rel"]] = {"estado": "ok", "fecha": datetime.now().isoformat(timespec="seconds"),
