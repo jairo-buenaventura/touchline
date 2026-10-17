@@ -171,6 +171,12 @@ corrida en `dashboards/ULTIMA_CORRIDA.md`; estado por partido en `dashboards/_re
 - **Jornada**: se calcula contando los partidos del local en esa temporada según `data/lista.json`.
 - **Manual**: `python3 generar_dashboards_nuevos.py --dry-run` (ver pendientes) o
   `--solo "Real Madrid 4-1" --forzar` (regenerar uno). `--marcar-existentes` solo se usa en la instalación inicial.
+- **Jugador destacado del Player_Dashboard**: por default se autoselecciona al de mejor rating
+  de WhoScored de cada lado, lo que no sirve si se quiere ver a un jugador puntual que no fue el
+  mejor calificado (ej. Pedri cuando el mejor del Barcelona fue Lamine Yamal). Para forzarlo:
+  `--solo "..." --forzar --jugador-home "Pedri" --jugador-away "Nico Williams"` (busca por nombre
+  completo o parcial; si no lo encuentra en el roster de ese lado, cae de vuelta al auto-pick y lo
+  avisa por consola). No tiene sentido combinarlo con un lote de varios partidos a la vez.
 - No cubre aún Champions League ni Mundial en la descarga diaria (ver `prompt_descarga_diaria.md`).
 
 ## Tests
