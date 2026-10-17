@@ -58,7 +58,24 @@ en `validar_cobertura.py`).
 Ver `.claude/skills/descargar-whoscored/SKILL.md` para el SOP completo.
 En resumen: `parser.py` procesa el HTML de WhoScored en `partidos_html/` y
 escribe a `data/`; `fotmob_parser.py` hace lo mismo con el HTML de FotMob en
-`partidos_fotmob/`. `descargar_fotmob_generico.py` es la versión
+`partidos_fotmob/`.
+
+**Desde 2026-10-17, `parser.py` ya no reprocesa partidos sin cambios:** si
+el JSON de un partido ya existe y no cambió desde la última vez (mtime del
+JSON >= mtime del HTML), se reusa ese JSON en vez de recalcular
+xT/stats_avanzadas/etc. desde cero (`procesar_un_archivo_o_cache`). Esto
+importa si se edita `calcular_*` en `parser.py`: un cambio en esas
+funciones NO se va a reflejar en partidos ya procesados hasta que se
+borre o se "toque" (actualizar mtime) su JSON o su HTML — para forzar un
+reproceso completo de todo `data/`, borrar los JSON afectados antes de
+correr `parser.py`. `fotmob_parser.actualizar_fotmob()` también indexa sus
+candidatos por stem exacto y por (liga, temporada) en vez de recorrer
+todo `data/` por cada archivo de FotMob — bajó `actualizar_todo.py` de
+~17-25 min a ~10 min sobre los ~12000 partidos actuales. El cuello de
+botella que queda es esa reinyección de FotMob (sigue siendo O(n) total,
+no incremental).
+
+`descargar_fotmob_generico.py` es la versión
 parametrizable (por `--league-id`/`--season`/etc.) que reemplaza en la
 práctica a los scripts específicos por liga (`descargar_fotmob_premier.py`,
 `_bundesliga.py`, `_ligue1.py`, `_mls.py`) — esos siguen en el repo mas no
