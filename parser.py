@@ -80,14 +80,19 @@ def extraer_match_data(ruta_html):
     return json.loads(bloque_json)
 
 
-def extraer_competicion(ruta_html, data=None):
+def extraer_competicion(ruta_html, data=None, contenido=None):
     """
     data: el dict ya parseado de matchCentreData (opcional). Ya no se
     usa para distinguir Mundial de Selecciones de Mundial de Clubes
     (ver comentario mas abajo sobre el link canonical), se mantiene
     el parametro por compatibilidad con los llamadores existentes.
+    contenido: el texto del HTML ya leido (opcional) -- evita releer el
+    archivo cuando el llamador ya lo leyo (ver procesar_un_archivo_o_cache,
+    que necesita competicion/temporada/grupo/fecha del mismo HTML y antes
+    leia el archivo 4 veces para cada partido que ya estaba cacheado).
     """
-    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    if contenido is None:
+        contenido = Path(ruta_html).read_text(encoding="utf-8")
     if re.search(r"LaLiga\s+\d{4}", contenido):
         return "la_liga"
     if re.search(r"Premier League \d{4}/\d{4}", contenido):
@@ -138,8 +143,9 @@ def extraer_competicion(ruta_html, data=None):
 
     return "otro"
 
-def extraer_temporada(ruta_html):
-    contenido = Path(ruta_html).read_text(encoding="utf-8")
+def extraer_temporada(ruta_html, contenido=None):
+    if contenido is None:
+        contenido = Path(ruta_html).read_text(encoding="utf-8")
     m = re.search(r"LaLiga (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
@@ -162,24 +168,26 @@ def extraer_temporada(ruta_html):
         return None
     return None
 
-def extraer_grupo(ruta_html):
+def extraer_grupo(ruta_html, contenido=None):
     """
     Busca en el HTML crudo el texto 'World Cup Grp. X' para identificar
     a que grupo de la fase de grupos pertenece el partido.
     Devuelve None si no lo encuentra (por ejemplo, en fases eliminatorias).
     """
-    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    if contenido is None:
+        contenido = Path(ruta_html).read_text(encoding="utf-8")
     m = re.search(r"World Cup Grp\.\s*([A-Z])", contenido)
     return m.group(1) if m else None
 
 
-def extraer_fecha(ruta_html):
+def extraer_fecha(ruta_html, contenido=None):
     """
     Busca en el HTML crudo el campo 'startDate' para saber en que fecha
     se jugo el partido. Se usa para calcular la jornada dentro del grupo.
     Devuelve None si no lo encuentra.
     """
-    contenido = Path(ruta_html).read_text(encoding="utf-8")
+    if contenido is None:
+        contenido = Path(ruta_html).read_text(encoding="utf-8")
     m = re.search(r'"startDate":"([\d-]+)T', contenido)
     return m.group(1) if m else None
 
@@ -877,6 +885,56 @@ def calcular_stats_avanzadas(data, lado="home", solo_titulares=False):
     return list(stats.values())
 
 
+def procesar_un_archivo_o_cache(ruta_html, carpeta_salida):
+    """
+    Si el JSON de este partido ya existe y no cambio desde la ultima vez
+    que se proceso (mtime del JSON >= mtime del HTML), reusa ese JSON en
+    vez de volver a correr todo el calculo pesado de procesar_un_archivo
+    (xT, stats_avanzadas, etc.) -- eso es lo que hace que actualizar_todo.py
+    tarde cada vez mas a medida que crece data/, ya que hasta ahora
+    reprocesaba los ~12000 partidos completos en cada corrida, no solo
+    los nuevos.
+
+    El HTML se lee UNA sola vez aca (no 4 veces, una por cada
+    extraer_competicion/temporada/grupo/fecha) -- con miles de partidos
+    cacheados, leer el mismo archivo de ~1-1.5MB cuatro veces por nada
+    es buena parte del tiempo que tarda esto incluso sin reprocesar nada.
+
+    Devuelve el mismo resumen que procesar_un_archivo (o "SIN_DATOS"/None).
+    Cualquier duda (JSON cacheado corrupto o incompleto) cae de vuelta al
+    reproceso completo -- nunca se asume que el cache es valido sin poder
+    leerlo.
+    """
+    try:
+        contenido = ruta_html.read_text(encoding="utf-8")
+    except Exception:
+        return procesar_un_archivo(ruta_html, carpeta_salida)
+
+    competicion = extraer_competicion(ruta_html, contenido=contenido)
+    temporada = extraer_temporada(ruta_html, contenido=contenido)
+    subcarpeta = carpeta_salida / fotmob_parser.carpeta_liga(competicion) / fotmob_parser.carpeta_temporada(temporada)
+    ruta_json = subcarpeta / f"{ruta_html.stem}.json"
+
+    if ruta_json.exists() and ruta_json.stat().st_mtime >= ruta_html.stat().st_mtime:
+        try:
+            resultado = json.loads(ruta_json.read_text(encoding="utf-8"))
+            return {
+                "archivo": str(ruta_json.relative_to(carpeta_salida)),
+                "home": resultado["home"]["equipo"],
+                "away": resultado["away"]["equipo"],
+                "marcador": resultado["marcador"],
+                "estadio": resultado["estadio"],
+                "grupo": extraer_grupo(ruta_html, contenido=contenido),
+                "fecha": extraer_fecha(ruta_html, contenido=contenido),
+                "competicion": competicion,
+                "temporada": temporada,
+            }
+        except Exception:
+            pass  # JSON cacheado corrupto/incompleto: reprocesar como si fuera nuevo.
+
+    return procesar_un_archivo(ruta_html, carpeta_salida)
+
+
 def procesar_un_archivo(ruta_html, carpeta_salida):
     """
     Procesa un solo archivo HTML y guarda su JSON correspondiente.
@@ -979,7 +1037,7 @@ def main():
     resumenes = []
     candidatos_sofascore = []
     for ruta_html in archivos_html:
-        resumen = procesar_un_archivo(ruta_html, carpeta_salida)
+        resumen = procesar_un_archivo_o_cache(ruta_html, carpeta_salida)
         if resumen == "SIN_DATOS":
             candidatos_sofascore.append({
                 "ruta_html": ruta_html,

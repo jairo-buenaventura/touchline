@@ -355,7 +355,43 @@ _ALIAS_FOTMOB_A_WHOSCORED = {
 }
 
 
-def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None, candidatos=None):
+def _indexar_candidatos(candidatos):
+    """
+    Agrupa los candidatos de data/ para que encontrar_archivo_json no
+    tenga que recorrer TODOS los ~12000 partidos por cada archivo de
+    FotMob (bug de rendimiento real, detectado el 2026-10-17: incluso con
+    `candidatos` calculado una sola vez, el recorrido lineal de la
+    Estrategia 2 por cada uno de los ~12000 archivos de FotMob son del
+    orden de cientos de millones de comparaciones, ~7 minutos de los
+    ~9 que tardaba actualizar_fotmob incluso sin reprocesar nada nuevo).
+
+    Devuelve (indice_por_stem, indice_por_liga_temporada):
+    - indice_por_stem: stem -> Path, para la Estrategia 1 (coincidencia
+      exacta de nombre), que antes recorria todos los candidatos para
+      comparar `c.stem == stem_limpio` uno por uno.
+    - indice_por_liga_temporada: (liga, temporada) -> lista de Paths,
+      para que la Estrategia 2 solo recorra los candidatos de la MISMA
+      liga+temporada que el archivo de FotMob que se esta buscando
+      (que de por si ya exigia esa coincidencia, solo que la chequeaba
+      recien adentro del loop en vez de usarla para filtrar antes).
+    """
+    indice_por_stem = {}
+    indice_por_liga_temporada = {}
+    for c in candidatos:
+        indice_por_stem[c.stem] = c
+        clave = (_liga_de(c.stem), _temporada_de(c.stem))
+        # Se guarda (candidato, nombre_normalizado) para no tener que
+        # llamar normalizar(c.stem) de nuevo por cada archivo de FotMob
+        # que cae en este mismo grupo (liga, temporada) -- sin esto, un
+        # grupo de ~500 partidos (ej. una temporada de MLS) terminaba
+        # normalizando el mismo stem cientos de veces (una por cada
+        # archivo de FotMob de esa liga+temporada), en vez de una sola.
+        indice_por_liga_temporada.setdefault(clave, []).append((c, normalizar(c.stem)))
+    return indice_por_stem, indice_por_liga_temporada
+
+
+def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_stem=None, candidatos=None,
+                            indice_stem=None, indice_liga_temporada=None):
     """
     `candidatos`: lista ya calculada de listar_jsons_de_partidos(carpeta_data),
     para que quien llame esta funcion en un loop (ej. actualizar_fotmob) la
@@ -366,20 +402,28 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
     deberia tardar un par de minutos tardaba mas de una hora sin terminar).
     Si no se pasa, se calcula aca (comportamiento anterior, para quien use
     esta funcion suelta fuera de un loop).
+
+    `indice_stem`/`indice_liga_temporada`: salida de _indexar_candidatos(candidatos),
+    para evitar recorrer TODOS los candidatos en cada llamada (ver esa
+    funcion). Si no se pasan, se calculan aca a partir de `candidatos`
+    (mas lento si se llama en un loop sin pasarlos, pero sigue siendo
+    correcto).
     """
     home_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(home_fotmob, home_fotmob)
     away_fotmob = _ALIAS_FOTMOB_A_WHOSCORED.get(away_fotmob, away_fotmob)
     if candidatos is None:
         candidatos = listar_jsons_de_partidos(carpeta_data)
+    if indice_stem is None or indice_liga_temporada is None:
+        indice_stem, indice_liga_temporada = _indexar_candidatos(candidatos)
 
     # Estrategia 1: coincidencia EXACTA quitando el sufijo _FotMob.
     if nombre_html_stem:
         stem_limpio = nombre_html_stem
         if stem_limpio.endswith("_FotMob"):
             stem_limpio = stem_limpio[: -len("_FotMob")]
-        for c in candidatos:
-            if c.stem == stem_limpio:
-                return c
+        c = indice_stem.get(stem_limpio)
+        if c is not None:
+            return c
 
     # Estrategia 2 (segura): requiere AMBOS equipos, EN ORDEN
     # (local antes que visitante, como en "Athletic Club 2-1 Elche")
@@ -409,7 +453,20 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
             a = normalizar(away_fotmob)
             temporada_origen = _temporada_de(nombre_html_stem)
             liga_origen = _liga_de(nombre_html_stem)
-            for c in candidatos:
+            # Antes esto recorria TODOS los candidatos (~12000) y recien
+            # adentro del loop chequeaba si la liga/temporada coincidian.
+            # Si ambas se pudieron determinar del nombre de origen, alcanza
+            # con mirar el subconjunto que ya comparte esa liga+temporada
+            # (indexado en _indexar_candidatos) -- normalmente unos pocos
+            # cientos de partidos en vez de la base entera. Si alguna de
+            # las dos no se pudo determinar (ej. partidos de Mundial sin
+            # liga reconocida), se cae al comportamiento anterior sobre
+            # todos los candidatos, para no perder ningun match real.
+            if liga_origen and temporada_origen:
+                candidatos_relevantes = indice_liga_temporada.get((liga_origen, temporada_origen), [])
+            else:
+                candidatos_relevantes = [(c, normalizar(c.stem)) for c in candidatos]
+            for c, nombre in candidatos_relevantes:
                 # Los archivos con sufijo "(YYYY-MM-DD)" existen para
                 # desambiguar dos partidos REALES distintos entre los mismos
                 # equipos con el mismo marcador (ej. liga unica de Champions
@@ -426,7 +483,6 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
                 # (Estrategia 1, mas arriba).
                 if re.search(r"\(\d{4}-\d{2}-\d{2}\)$", c.stem):
                     continue
-                nombre = normalizar(c.stem)
                 pos_h = nombre.find(h)
                 pos_a = nombre.find(a)
                 if pos_h == -1 or pos_a == -1 or pos_h >= pos_a:
@@ -435,7 +491,9 @@ def encontrar_archivo_json(home_fotmob, away_fotmob, carpeta_data, nombre_html_s
                 # (ej. "Chelsea 1-1 Arsenal" en 2024/25 y en 2025/26)
                 # podia fusionarse con el archivo de la temporada
                 # equivocada con el mismo marcador (bug real detectado
-                # al procesar 6 ligas con 2 temporadas cada una).
+                # al procesar 6 ligas con 2 temporadas cada una). Se deja
+                # el chequeo igual aca por si candidatos_relevantes vino
+                # sin filtrar (liga/temporada de origen desconocida).
                 temporada_candidato = _temporada_de(c.stem)
                 if temporada_origen and temporada_candidato and temporada_origen != temporada_candidato:
                     continue
@@ -498,8 +556,14 @@ def actualizar_fotmob(carpeta_fotmob=None, carpeta_data=None, silencioso=False):
 
     # Se calcula UNA sola vez para todo el loop (ver docstring de
     # encontrar_archivo_json) -- con ~9900 archivos esto es la diferencia
-    # entre segundos y mas de una hora.
+    # entre segundos y mas de una hora. indice_stem/indice_liga_temporada
+    # tambien se calculan una sola vez aca por el mismo motivo: evitan que
+    # cada llamada a encontrar_archivo_json recorra los ~12000 candidatos
+    # completos (bug de rendimiento real, detectado el 2026-10-17: esto
+    # explicaba ~7 de los ~9 minutos que tardaba actualizar_fotmob incluso
+    # sin inyectar nada nuevo).
     candidatos = listar_jsons_de_partidos(carpeta_data)
+    indice_stem, indice_liga_temporada = _indexar_candidatos(candidatos)
 
     actualizados = 0
     for archivo in archivos:
@@ -516,6 +580,7 @@ def actualizar_fotmob(carpeta_fotmob=None, carpeta_data=None, silencioso=False):
         ruta_json = encontrar_archivo_json(
             datos_fotmob["home_nombre"], datos_fotmob["away_nombre"], carpeta_data, archivo.stem,
             candidatos=candidatos,
+            indice_stem=indice_stem, indice_liga_temporada=indice_liga_temporada,
         )
         if ruta_json is None:
             if not silencioso:
