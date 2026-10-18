@@ -619,7 +619,16 @@ def calcular_recepcion_pases(data, lado="home", solo_titulares=True):
         nombres_qualifiers = {q["type"]["displayName"] for q in actual.get("qualifiers", [])}
         es_cruce = "Cross" in nombres_qualifiers
         es_pase_clave = "KeyPass" in nombres_qualifiers
-        es_asistencia = "IntentionalGoalAssist" in nombres_qualifiers or "IntentionalAssist" in nombres_qualifiers
+        # "IntentionalAssist"/"ShotAssist" marca un pase que genero un TIRO
+        # (sea gol, atajado o desviado) -- no es lo mismo que una asistencia
+        # real. Solo "IntentionalGoalAssist" marca un pase que termino en GOL,
+        # que es la unica que cuenta como asistencia de verdad. Contar
+        # "IntentionalAssist" como asistencia (bug real, detectado el
+        # 2026-10-18: Morgan Rogers aparecia con 2 "asistencias recibidas"
+        # en un partido donde no anoto ningun gol -- eran dos pases que
+        # generaron tiro atajado/desviado, no gol) inflaba
+        # asistencias_recibidas con cualquier pase-a-tiro fallido.
+        es_asistencia = "IntentionalGoalAssist" in nombres_qualifiers
 
         end_x = actual.get("endX")
         end_y = actual.get("endY")
