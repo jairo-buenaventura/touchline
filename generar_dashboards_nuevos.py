@@ -56,11 +56,16 @@ SALIDA_DEFECTO = REPO / "dashboards"
 COLORES_EXTRA = REPO / "colores_equipos.json"   # opcional: {"Equipo": {"home": "#...", "away": "#..."}}
 LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League"]
 
-# Ligas donde el dashboard se organiza en una subcarpeta "Jornada N/" (todas
-# menos Champions League, que tiene fase de liga unica / grupos en vez de
-# jornadas clasicas de local-visitante -- se deja con su estructura plana
-# de siempre hasta que se decida como numerarla).
-LIGAS_CON_JORNADA = [l for l in LIGAS if l != "Champions League"]
+# Ligas donde el dashboard se organiza en una subcarpeta "Jornada N/".
+# jornada_de() cuenta, para el equipo LOCAL de cada partido, cuantas
+# fechas jugo antes (como local O visitante) en esa competicion+temporada
+# -- esto funciona igual de bien para Champions League (fase de liga
+# unica, sin ida/vuelta clasico) que para una liga domestica: verificado
+# con Barcelona de local en la jornada 1 (vs Feyenoord) y de visitante en
+# la jornada 2 (vs Galatasaray) -- da 1 y 2 correctamente, porque no
+# depende de que el partido sea ida/vuelta, solo de cuantas fechas jugo
+# cada equipo hasta ese momento.
+LIGAS_CON_JORNADA = list(LIGAS)
 MAX_INTENTOS = 3
 TIMEOUT_PARTIDO = 900  # segundos por partido
 PNGS = ["Dashboard", "Player_Dashboard", "KPI_Summary", "Tactical_Insights"]

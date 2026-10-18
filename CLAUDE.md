@@ -159,12 +159,14 @@ para cada partido nuevo de `data/<Liga>/<Temporada>/*.html` sin dashboard genera
 (`Dashboard`, `Player_Dashboard`, `KPI_Summary`, `Tactical_Insights`) con
 `mundial_dashboard.generar_reporte()` y los deja en
 `dashboards/<Liga>/<Temporada>/Jornada N/<partido>/` (ignorado por git y vercel) -- la
-subcarpeta por jornada (`LIGAS_CON_JORNADA` en `generar_dashboards_nuevos.py`) aplica a todas
-las ligas domésticas + MLS; **Champions League queda con su estructura plana de siempre**
-(`dashboards/Champions League/<Temporada>/<partido>/`, sin jornada) porque tiene fase de
-liga única/grupos en vez de jornadas clásicas de local-visitante. Resumen de la última
-corrida en `dashboards/ULTIMA_CORRIDA.md`; estado por partido en `dashboards/_registro.json`
-(el campo `carpeta` de cada entrada ya incluye la subcarpeta de jornada cuando aplica).
+subcarpeta por jornada (`LIGAS_CON_JORNADA` en `generar_dashboards_nuevos.py`) aplica a
+**todas** las ligas, incluida Champions League: `jornada_de()` cuenta cuantas fechas jugó
+el equipo LOCAL de cada partido (como local o visitante) en esa competición+temporada, lo
+que da el número de jornada correcto aunque el partido no sea ida/vuelta clásico (verificado
+con Barcelona: jornada 1 de local vs Feyenoord, jornada 2 de visitante vs Galatasaray — da 1
+y 2 bien). Resumen de la última corrida en `dashboards/ULTIMA_CORRIDA.md`; estado por partido
+en `dashboards/_registro.json` (el campo `carpeta` de cada entrada ya incluye la subcarpeta
+de jornada).
 
 - **No bloquea la tarea diaria**: si falla, queda en el log (`automatizacion/logs/`) y sale con 0.
 - **FotMob**: en `partidos_fotmob/` el dato es JSON crudo y `generar_reporte` solo lee HTML con
