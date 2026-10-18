@@ -55,6 +55,12 @@ FOTMOB = REPO / "partidos_fotmob"
 SALIDA_DEFECTO = REPO / "dashboards"
 COLORES_EXTRA = REPO / "colores_equipos.json"   # opcional: {"Equipo": {"home": "#...", "away": "#..."}}
 LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League"]
+
+# Ligas donde el dashboard se organiza en una subcarpeta "Jornada N/" (todas
+# menos Champions League, que tiene fase de liga unica / grupos en vez de
+# jornadas clasicas de local-visitante -- se deja con su estructura plana
+# de siempre hasta que se decida como numerarla).
+LIGAS_CON_JORNADA = [l for l in LIGAS if l != "Champions League"]
 MAX_INTENTOS = 3
 TIMEOUT_PARTIDO = 900  # segundos por partido
 PNGS = ["Dashboard", "Player_Dashboard", "KPI_Summary", "Tactical_Insights"]
@@ -294,7 +300,10 @@ def _borrar(ruta):
 
 
 def procesar(p, fm_json, gw, salida, jugador_home=None, jugador_away=None):
-    outdir = salida / p["liga"] / p["temp"] / p["stem"]
+    if p["liga"] in LIGAS_CON_JORNADA and gw not in (None, "—"):
+        outdir = salida / p["liga"] / p["temp"] / f"Jornada {gw}" / p["stem"]
+    else:
+        outdir = salida / p["liga"] / p["temp"] / p["stem"]
     outdir.mkdir(parents=True, exist_ok=True)
     m = PAT.match(p["stem"])
     with tempfile.TemporaryDirectory() as tmp:
