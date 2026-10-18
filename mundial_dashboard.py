@@ -1971,9 +1971,15 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
     ** Jugador Estadísticas
     """
 
-    # Get unique players
-    home_unique_players = homedf['name'].unique()
-    away_unique_players = awaydf['name'].unique()
+    # Get unique players. dropna() antes del unique(): algunos eventos
+    # (ej. ciertos cambios de formacion) no traen playerId, asi que 'name'
+    # queda NaN (float) para esa fila -- sin filtrarlo, ese NaN termina
+    # como una "categoria" mas en el eje Y de los graficos de barras de
+    # pases/tiros/defensa, y matplotlib rompe con TypeError porque esas
+    # categorias tienen que ser str (bug real, detectado el 2026-10-17
+    # en "Rayo Vallecano 0-0 Athletic Club" LaLiga 2026/27).
+    home_unique_players = homedf['name'].dropna().unique()
+    away_unique_players = awaydf['name'].dropna().unique()
 
     # Initialize an empty dictionary to store home players different type of shot sequence counts
     home_shot_seq_counts = {'name': home_unique_players, 'Shots': [], 'Shot Assist': [], 'Buildup to shot': []}
@@ -2072,7 +2078,8 @@ def generar_reporte(whoscored_html, fotmob_html, gw_label, output_dir, generar_i
     away_defender_df['shortName'] = away_defender_df['name'].apply(get_short_name)
 
     # Get unique players (same things as before, but this time both home and away teams combined)
-    unique_players = df['name'].unique()
+    # dropna() por el mismo motivo que arriba (ver comentario en home_unique_players).
+    unique_players = df['name'].dropna().unique()
 
 
     # Initialize an empty dictionary to store players different type of shot sequence counts
