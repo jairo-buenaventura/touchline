@@ -40,6 +40,7 @@ import bisect
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -54,7 +55,7 @@ DATA = REPO / "data"
 FOTMOB = REPO / "partidos_fotmob"
 SALIDA_DEFECTO = REPO / "dashboards"
 COLORES_EXTRA = REPO / "colores_equipos.json"   # opcional: {"Equipo": {"home": "#...", "away": "#..."}}
-LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League"]
+LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League", "Eredivisie"]
 
 # Ligas donde el dashboard se organiza en una subcarpeta "Jornada N/".
 # jornada_de() cuenta, para el equipo LOCAL de cada partido, cuantas
@@ -130,6 +131,16 @@ def listar_partidos():
 def indexar_fotmob():
     idx = {}
     if FOTMOB.is_dir():
+        # Algunos partidos (sobre todo historicos) quedaron guardados como
+        # "..._FotMob.html" (pagina cruda con __NEXT_DATA__, el formato que
+        # usa Cmd+S/MCP) en vez de "..._FotMob.json" (respuesta cruda de la
+        # API) -- se indexan los dos, prefiriendo el .json si existen ambos
+        # para el mismo partido.
+        for f in os.listdir(FOTMOB):
+            if f.endswith("_FotMob.html"):
+                k = clave(f[:-5])
+                if k:
+                    idx[k] = FOTMOB / f
         for f in os.listdir(FOTMOB):
             if f.endswith("_FotMob.json"):
                 k = clave(f[:-5])
@@ -313,7 +324,11 @@ def procesar(p, fm_json, gw, salida, jugador_home=None, jugador_away=None):
     m = PAT.match(p["stem"])
     with tempfile.TemporaryDirectory() as tmp:
         fm_html = Path(tmp) / "fotmob.html"
-        fotmob_json_a_html(fm_json, fm_html)
+        if str(fm_json).endswith(".html"):
+            # Ya es una pagina con __NEXT_DATA__ (Cmd+S/MCP) -- usar tal cual.
+            shutil.copy2(fm_json, fm_html)
+        else:
+            fotmob_json_a_html(fm_json, fm_html)
         cmd = [sys.executable, str(Path(__file__).resolve()), "--worker",
                "--ws", str(p["ws"]), "--fm", str(fm_html), "--gw", gw, "--outdir", str(outdir),
                "--home", m["h"], "--away", m["a"], "--salida", str(salida)]

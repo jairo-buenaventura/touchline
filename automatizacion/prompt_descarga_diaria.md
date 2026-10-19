@@ -6,7 +6,7 @@ a nadie.
 
 ## Qué hacer
 
-Para cada una de estas 6 ligas, en su temporada en curso, descargar los partidos que ya
+Para cada una de estas 7 ligas, en su temporada en curso, descargar los partidos que ya
 terminaron (`status == 6` / `elapsed == "FT"` en el endpoint de datos de WhoScored — ver
 `.claude/skills/descargar-whoscored/SKILL.md`, que ya documenta el SOP completo, la regla
 obligatoria de WhoScored+FotMob juntos, y por qué nunca hay que confiar solo en que
@@ -20,6 +20,7 @@ obligatoria de WhoScored+FotMob juntos, y por qué nunca hay que confiar solo en
 | Ligue 1 | 25554 | 53 | FRA |
 | Serie A | 25518 | 55 | ITA |
 | MLS | 24960 | 130 | USA |
+| Eredivisie | 25537 | 57 | NED |
 
 (URLs de fixtures / temporada completa: ver el skill, Paso 1 — si alguna de estas ligas ya
 pasó a la temporada 2027/2028 o MLS a 2027, hay que re-detectar el `stageId`/season nuevo
