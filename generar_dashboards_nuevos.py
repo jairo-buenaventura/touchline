@@ -72,7 +72,7 @@ PNGS = ["Dashboard", "Player_Dashboard", "KPI_Summary", "Tactical_Insights"]
 
 PAT = re.compile(
     r'^(?P<h>.+?) (?P<gh>\d+)\s*-\s*(?P<ga>\d+) (?P<a>.+?) - (?P<liga>.+?) '
-    r'(?P<t>\d{4}(?:[-_]\d{4})?)(?:_FotMob)?$'
+    r'(?P<t>\d{4}(?:[-_]\d{4})?(?: \(\d{4}-\d{2}-\d{2}\))?)(?:_FotMob)?$'
 )
 
 

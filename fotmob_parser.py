@@ -142,6 +142,25 @@ def _procesar_datos_fotmob(data):
     posesion = buscar("Top stats", "Ball possession")
     xg = buscar("Expected goals (xG)", "Expected goals (xG)")
     xgot = buscar("Expected goals (xG)", "xG on target (xGOT)")
+
+    if xg is None:
+        # Algunos partidos (sobre todo historicos) no traen el bloque agregado
+        # "Expected goals (xG)" en el widget de estadisticas, pero FotMob si
+        # trae el xG por tiro en el shotmap -- lo sumamos por equipo como
+        # respaldo en vez de dejar el partido sin xG utilizable.
+        shots = ((data.get("content") or {}).get("shotmap") or {}).get("shots") or []
+        home_id = general["homeTeam"]["id"]
+        away_id = general["awayTeam"]["id"]
+        suma = {home_id: 0.0, away_id: 0.0}
+        tiene_datos = False
+        for s in shots:
+            eg = s.get("expectedGoals")
+            tid = s.get("teamId")
+            if eg is not None and tid in suma:
+                suma[tid] += eg
+                tiene_datos = True
+        if tiene_datos:
+            xg = [round(suma[home_id], 2), round(suma[away_id], 2)]
     tiros = buscar("Shots", "Total shots")
     tiros_arco = buscar("Shots", "Shots on target")
     pases = buscar("Passes", "Passes")
