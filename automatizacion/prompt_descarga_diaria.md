@@ -6,7 +6,7 @@ a nadie.
 
 ## Qué hacer
 
-Para cada una de estas 7 ligas, en su temporada en curso, descargar los partidos que ya
+Para cada una de estas 8 ligas, en su temporada en curso, descargar los partidos que ya
 terminaron (`status == 6` / `elapsed == "FT"` en el endpoint de datos de WhoScored — ver
 `.claude/skills/descargar-whoscored/SKILL.md`, que ya documenta el SOP completo, la regla
 obligatoria de WhoScored+FotMob juntos, y por qué nunca hay que confiar solo en que
@@ -21,6 +21,17 @@ obligatoria de WhoScored+FotMob juntos, y por qué nunca hay que confiar solo en
 | Serie A | 25518 | 55 | ITA |
 | MLS | 24960 | 130 | USA |
 | Eredivisie | 25537 | 57 | NED |
+| Champions League | 25800 | 42 | INT |
+
+**Champions League** juega entre semana (martes/miércoles), así que una corrida diaria
+cualquiera (6am/5pm/11pm) la agarra igual que a las demás -- no hace falta tratarla distinto
+por el calendario. Dos cosas puntuales de esta liga:
+- El equipo noruego Bodø/Glimt tiene un alias propio: en WhoScored/nuestros archivos se
+  llama "Bodoe-Glimt" (con dash, nunca con la barra "/" original -- rompe el nombre del
+  archivo), y en FotMob aparece como "Bodø/Glimt" (con la ó especial) -- usar
+  `--alias-json` con `{"Bodoe-Glimt": "Bodø/Glimt"}` si un partido suyo da `[SIN MATCH ID]`.
+- `season` para `descargar_fotmob_generico.py` va en formato `"2026/2027"` (con barra), no
+  `"2026-2027"` como en las demás ligas.
 
 (URLs de fixtures / temporada completa: ver el skill, Paso 1 — si alguna de estas ligas ya
 pasó a la temporada 2027/2028 o MLS a 2027, hay que re-detectar el `stageId`/season nuevo

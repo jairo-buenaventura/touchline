@@ -184,7 +184,9 @@ de jornada).
   `--solo "..." --forzar --jugador-home "Pedri" --jugador-away "Nico Williams"` (busca por nombre
   completo o parcial; si no lo encuentra en el roster de ese lado, cae de vuelta al auto-pick y lo
   avisa por consola). No tiene sentido combinarlo con un lote de varios partidos a la vez.
-- No cubre aún Champions League ni Mundial en la descarga diaria (ver `prompt_descarga_diaria.md`).
+- Desde 2026-10-20 la descarga diaria también cubre Champions League (stageId 25800, FotMob
+  league-id 42, ccode3 INT) y Eredivisie, además de las 5 ligas domésticas y MLS -- 8 en
+  total. Sigue sin cubrir el Mundial (ver `prompt_descarga_diaria.md`).
 
 ## Tests
 
