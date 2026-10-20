@@ -1036,7 +1036,13 @@ def main():
     # (ver CLAUDE.md). Hay que barrer ambos lugares o esos partidos dejarian
     # de reprocesarse en cada corrida y se caerian de lista.json/jugadores.json
     # (bug real: paso la primera vez que se movio HTML nuevo a data/).
-    archivos_html = sorted(carpeta_html.glob("*.html")) + sorted(carpeta_salida.rglob("*.html"))
+    # Si el mismo HTML existe en los dos lugares (p.ej. Eredivisie historica,
+    # copiada a data/ para los dashboards sin borrar el original), se procesa
+    # una sola vez -- prioridad a la copia de data/ -- o el partido sale
+    # duplicado en lista.json (bug real: 1224 entradas dobles el 2026-10-19).
+    en_data = sorted(carpeta_salida.rglob("*.html"))
+    nombres_en_data = {p.name for p in en_data}
+    archivos_html = [p for p in sorted(carpeta_html.glob("*.html")) if p.name not in nombres_en_data] + en_data
     if not archivos_html:
         print(f"No hay archivos .html dentro de '{carpeta_html}' ni de '{carpeta_salida}'.")
         sys.exit(1)
