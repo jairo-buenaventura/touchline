@@ -1,16 +1,16 @@
 {
   "Elversberg": {
     "equipo": "Elversberg",
-    "partidos": 6,
-    "total_corners": 22,
+    "partidos": 7,
+    "total_corners": 28,
     "primer_palo": 2,
-    "primer_palo_pct": 9.1,
-    "centro": 12,
-    "centro_pct": 54.5,
+    "primer_palo_pct": 7.1,
+    "centro": 17,
+    "centro_pct": 60.7,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
-    "corto": 8,
-    "corto_pct": 36.4,
+    "corto": 9,
+    "corto_pct": 32.1,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -148,6 +148,48 @@
         "minuto": 76
       },
       {
+        "endX": 94.3,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Felix Keidel",
+        "minuto": 8
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 96.3,
+        "zona": "corto",
+        "jugador": "Lukas Petkov",
+        "minuto": 21
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 56.6,
+        "zona": "centro",
+        "jugador": "Felix Keidel",
+        "minuto": 37
+      },
+      {
+        "endX": 95.2,
+        "endYNorm": 47.5,
+        "zona": "centro",
+        "jugador": "Felix Keidel",
+        "minuto": 39
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 50.4,
+        "zona": "centro",
+        "jugador": "Felix Keidel",
+        "minuto": 43
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 47.8,
+        "zona": "centro",
+        "jugador": "Felix Keidel",
+        "minuto": 56
+      },
+      {
         "endX": 94.7,
         "endYNorm": 96.3,
         "zona": "corto",
@@ -172,18 +214,18 @@
   },
   "Bayern Munchen": {
     "equipo": "Bayern Munchen",
-    "partidos": 6,
-    "total_corners": 58,
+    "partidos": 7,
+    "total_corners": 64,
     "primer_palo": 5,
-    "primer_palo_pct": 8.6,
-    "centro": 34,
-    "centro_pct": 58.6,
+    "primer_palo_pct": 7.8,
+    "centro": 39,
+    "centro_pct": 60.9,
     "segundo_palo": 2,
-    "segundo_palo_pct": 3.4,
+    "segundo_palo_pct": 3.1,
     "corto": 16,
-    "corto_pct": 27.6,
-    "sin_peligro": 1,
-    "sin_peligro_pct": 1.7,
+    "corto_pct": 25.0,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 3.1,
     "detalle": [
       {
         "endX": 82.3,
@@ -590,19 +632,620 @@
         "zona": "centro",
         "jugador": "Joshua Kimmich",
         "minuto": 86
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 56.6,
+        "zona": "centro",
+        "jugador": "Serge Gnabry",
+        "minuto": 33
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 56.3,
+        "zona": "centro",
+        "jugador": "Serge Gnabry",
+        "minuto": 38
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 47.0,
+        "zona": "centro",
+        "jugador": "Michael Olise",
+        "minuto": 51
+      },
+      {
+        "endX": 97.4,
+        "endYNorm": 46.0,
+        "zona": "centro",
+        "jugador": "Michael Olise",
+        "minuto": 62
+      },
+      {
+        "endX": 76.9,
+        "endYNorm": 40.7,
+        "zona": "sin_peligro",
+        "jugador": "Tom Bischof",
+        "minuto": 62
+      },
+      {
+        "endX": 96.0,
+        "endYNorm": 46.1,
+        "zona": "centro",
+        "jugador": "Michael Olise",
+        "minuto": 75
+      }
+    ]
+  },
+  "Borussia Dortmund": {
+    "equipo": "Borussia Dortmund",
+    "partidos": 7,
+    "total_corners": 42,
+    "primer_palo": 6,
+    "primer_palo_pct": 14.3,
+    "centro": 32,
+    "centro_pct": 76.2,
+    "segundo_palo": 2,
+    "segundo_palo_pct": 4.8,
+    "corto": 2,
+    "corto_pct": 4.8,
+    "sin_peligro": 0,
+    "sin_peligro_pct": 0.0,
+    "detalle": [
+      {
+        "endX": 97.9,
+        "endYNorm": 59.2,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 8
+      },
+      {
+        "endX": 97.2,
+        "endYNorm": 56.2,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 11
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 59.6,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 15
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 51.2,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 15
+      },
+      {
+        "endX": 96.8,
+        "endYNorm": 55.9,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 27
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 48.6,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 30
+      },
+      {
+        "endX": 96.2,
+        "endYNorm": 77.1,
+        "zona": "primer_palo",
+        "jugador": "Julian Ryerson",
+        "minuto": 44
+      },
+      {
+        "endX": 94.7,
+        "endYNorm": 50.3,
+        "zona": "centro",
+        "jugador": "Julian Ryerson",
+        "minuto": 45
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 53.3,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 52
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 57.4,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 65
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 51.4,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 66
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 50.8,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 69
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 50.2,
+        "zona": "centro",
+        "jugador": "Ethan Nwaneri",
+        "minuto": 74
+      },
+      {
+        "endX": 92.7,
+        "endYNorm": 53.2,
+        "zona": "centro",
+        "jugador": "Ethan Nwaneri",
+        "minuto": 40
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 41.5,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 46
+      },
+      {
+        "endX": 95.8,
+        "endYNorm": 93.6,
+        "zona": "corto",
+        "jugador": "Ethan Nwaneri",
+        "minuto": 55
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 49.2,
+        "zona": "centro",
+        "jugador": "Ethan Nwaneri",
+        "minuto": 58
+      },
+      {
+        "endX": 96.0,
+        "endYNorm": 53.5,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 62
+      },
+      {
+        "endX": 96.1,
+        "endYNorm": 36.5,
+        "zona": "segundo_palo",
+        "jugador": "Daniel Svensson",
+        "minuto": 74
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 66.4,
+        "zona": "primer_palo",
+        "jugador": "Marcel Sabitzer",
+        "minuto": 74
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 20.900000000000006,
+        "zona": "segundo_palo",
+        "jugador": "Daniel Svensson",
+        "minuto": 10
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 60.2,
+        "zona": "primer_palo",
+        "jugador": "Marcel Sabitzer",
+        "minuto": 32
+      },
+      {
+        "endX": 95.1,
+        "endYNorm": 50.9,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 45
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 50.9,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 48
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 50.6,
+        "zona": "centro",
+        "jugador": "Marcel Sabitzer",
+        "minuto": 61
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 60.2,
+        "zona": "primer_palo",
+        "jugador": "Marcel Sabitzer",
+        "minuto": 65
+      },
+      {
+        "endX": 92.9,
+        "endYNorm": 59.9,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 69
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 44.2,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 84
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Joey Veerman",
+        "minuto": 97
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 47.2,
+        "zona": "centro",
+        "jugador": "Joey Veerman",
+        "minuto": 17
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Ethan Nwaneri",
+        "minuto": 26
+      },
+      {
+        "endX": 98.1,
+        "endYNorm": 46.6,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 10
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 45.4,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 29
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 43.0,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 50
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 56.6,
+        "zona": "centro",
+        "jugador": "Julian Ryerson",
+        "minuto": 86
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 52.2,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 95
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 54.3,
+        "zona": "centro",
+        "jugador": "Julian Ryerson",
+        "minuto": 6
+      },
+      {
+        "endX": 97.8,
+        "endYNorm": 49.3,
+        "zona": "centro",
+        "jugador": "Julian Ryerson",
+        "minuto": 23
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 59.4,
+        "zona": "centro",
+        "jugador": "Julian Ryerson",
+        "minuto": 50
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 90.6,
+        "zona": "corto",
+        "jugador": "Julian Ryerson",
+        "minuto": 17
+      },
+      {
+        "endX": 95.0,
+        "endYNorm": 63.6,
+        "zona": "primer_palo",
+        "jugador": "Konstantinos Karetsas",
+        "minuto": 32
+      },
+      {
+        "endX": 90.5,
+        "endYNorm": 50.1,
+        "zona": "centro",
+        "jugador": "Daniel Svensson",
+        "minuto": 82
+      }
+    ]
+  },
+  "Eintracht Frankfurt": {
+    "equipo": "Eintracht Frankfurt",
+    "partidos": 7,
+    "total_corners": 33,
+    "primer_palo": 4,
+    "primer_palo_pct": 12.1,
+    "centro": 22,
+    "centro_pct": 66.7,
+    "segundo_palo": 2,
+    "segundo_palo_pct": 6.1,
+    "corto": 3,
+    "corto_pct": 9.1,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 6.1,
+    "detalle": [
+      {
+        "endX": 79.4,
+        "endYNorm": 79.0,
+        "zona": "sin_peligro",
+        "jugador": "Noël Aséko",
+        "minuto": 47
+      },
+      {
+        "endX": 90.1,
+        "endYNorm": 36.0,
+        "zona": "segundo_palo",
+        "jugador": "Farès Chaïbi",
+        "minuto": 9
+      },
+      {
+        "endX": 87.1,
+        "endYNorm": 44.4,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 88
+      },
+      {
+        "endX": 88.0,
+        "endYNorm": 45.4,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 35
+      },
+      {
+        "endX": 90.1,
+        "endYNorm": 60.3,
+        "zona": "primer_palo",
+        "jugador": "Can Uzun",
+        "minuto": 51
+      },
+      {
+        "endX": 88.4,
+        "endYNorm": 92.1,
+        "zona": "corto",
+        "jugador": "Can Uzun",
+        "minuto": 51
+      },
+      {
+        "endX": 82.5,
+        "endYNorm": 88.1,
+        "zona": "sin_peligro",
+        "jugador": "Ansgar Knauff",
+        "minuto": 28
+      },
+      {
+        "endX": 89.8,
+        "endYNorm": 54.2,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 31
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 49.1,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 37
+      },
+      {
+        "endX": 85.9,
+        "endYNorm": 38.3,
+        "zona": "segundo_palo",
+        "jugador": "Can Uzun",
+        "minuto": 38
+      },
+      {
+        "endX": 93.5,
+        "endYNorm": 48.8,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 52
+      },
+      {
+        "endX": 87.2,
+        "endYNorm": 75.0,
+        "zona": "primer_palo",
+        "jugador": "Can Uzun",
+        "minuto": 52
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 53.0,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 8
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 49.0,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 29
+      },
+      {
+        "endX": 89.8,
+        "endYNorm": 55.8,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 51
+      },
+      {
+        "endX": 86.5,
+        "endYNorm": 43.4,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 54
+      },
+      {
+        "endX": 91.8,
+        "endYNorm": 44.9,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 54
+      },
+      {
+        "endX": 91.3,
+        "endYNorm": 45.5,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 64
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 47.9,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 73
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 46.0,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 7
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 45.7,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 22
+      },
+      {
+        "endX": 92.2,
+        "endYNorm": 47.5,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 27
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 44.1,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 39
+      },
+      {
+        "endX": 90.0,
+        "endYNorm": 44.0,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 56
+      },
+      {
+        "endX": 92.0,
+        "endYNorm": 49.3,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 60
+      },
+      {
+        "endX": 90.5,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 62
+      },
+      {
+        "endX": 86.9,
+        "endYNorm": 82.9,
+        "zona": "primer_palo",
+        "jugador": "Can Uzun",
+        "minuto": 67
+      },
+      {
+        "endX": 90.9,
+        "endYNorm": 57.3,
+        "zona": "centro",
+        "jugador": "Farès Chaïbi",
+        "minuto": 70
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 61.9,
+        "zona": "primer_palo",
+        "jugador": "Can Uzun",
+        "minuto": 6
+      },
+      {
+        "endX": 85.7,
+        "endYNorm": 90.3,
+        "zona": "corto",
+        "jugador": "Can Uzun",
+        "minuto": 14
+      },
+      {
+        "endX": 87.9,
+        "endYNorm": 91.2,
+        "zona": "corto",
+        "jugador": "Can Uzun",
+        "minuto": 29
+      },
+      {
+        "endX": 92.3,
+        "endYNorm": 55.6,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 40
+      },
+      {
+        "endX": 91.5,
+        "endYNorm": 49.2,
+        "zona": "centro",
+        "jugador": "Can Uzun",
+        "minuto": 79
       }
     ]
   },
   "Union Berlin": {
     "equipo": "Union Berlin",
-    "partidos": 6,
-    "total_corners": 24,
+    "partidos": 7,
+    "total_corners": 25,
     "primer_palo": 2,
-    "primer_palo_pct": 8.3,
-    "centro": 21,
-    "centro_pct": 87.5,
+    "primer_palo_pct": 8.0,
+    "centro": 22,
+    "centro_pct": 88.0,
     "segundo_palo": 1,
-    "segundo_palo_pct": 4.2,
+    "segundo_palo_pct": 4.0,
     "corto": 0,
     "corto_pct": 0.0,
     "sin_peligro": 0,
@@ -684,6 +1327,13 @@
         "zona": "centro",
         "jugador": "Josip Juranovic",
         "minuto": 78
+      },
+      {
+        "endX": 90.6,
+        "endYNorm": 49.2,
+        "zona": "centro",
+        "jugador": "Michel Aebischer",
+        "minuto": 83
       },
       {
         "endX": 92.8,
@@ -780,12 +1430,12 @@
   },
   "Schalke": {
     "equipo": "Schalke",
-    "partidos": 6,
-    "total_corners": 18,
+    "partidos": 7,
+    "total_corners": 23,
     "primer_palo": 4,
-    "primer_palo_pct": 22.2,
-    "centro": 14,
-    "centro_pct": 77.8,
+    "primer_palo_pct": 17.4,
+    "centro": 19,
+    "centro_pct": 82.6,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 0,
@@ -899,6 +1549,41 @@
         "minuto": 55
       },
       {
+        "endX": 92.1,
+        "endYNorm": 45.6,
+        "zona": "centro",
+        "jugador": "Robin Gosens",
+        "minuto": 15
+      },
+      {
+        "endX": 93.3,
+        "endYNorm": 45.3,
+        "zona": "centro",
+        "jugador": "Robin Gosens",
+        "minuto": 30
+      },
+      {
+        "endX": 97.6,
+        "endYNorm": 59.6,
+        "zona": "centro",
+        "jugador": "Adil Aouchiche",
+        "minuto": 48
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 49.8,
+        "zona": "centro",
+        "jugador": "Adil Aouchiche",
+        "minuto": 68
+      },
+      {
+        "endX": 97.3,
+        "endYNorm": 47.4,
+        "zona": "centro",
+        "jugador": "Adil Aouchiche",
+        "minuto": 70
+      },
+      {
         "endX": 89.8,
         "endYNorm": 50.0,
         "zona": "centro",
@@ -923,18 +1608,18 @@
   },
   "Werder Bremen": {
     "equipo": "Werder Bremen",
-    "partidos": 6,
-    "total_corners": 22,
+    "partidos": 7,
+    "total_corners": 28,
     "primer_palo": 3,
-    "primer_palo_pct": 13.6,
-    "centro": 16,
-    "centro_pct": 72.7,
+    "primer_palo_pct": 10.7,
+    "centro": 20,
+    "centro_pct": 71.4,
     "segundo_palo": 1,
-    "segundo_palo_pct": 4.5,
-    "corto": 1,
-    "corto_pct": 4.5,
+    "segundo_palo_pct": 3.6,
+    "corto": 3,
+    "corto_pct": 10.7,
     "sin_peligro": 1,
-    "sin_peligro_pct": 4.5,
+    "sin_peligro_pct": 3.6,
     "detalle": [
       {
         "endX": 86.6,
@@ -1056,6 +1741,48 @@
         "minuto": 81
       },
       {
+        "endX": 92.2,
+        "endYNorm": 51.9,
+        "zona": "centro",
+        "jugador": "Chuki",
+        "minuto": 31
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 48.1,
+        "zona": "centro",
+        "jugador": "Marco Grüll",
+        "minuto": 57
+      },
+      {
+        "endX": 89.1,
+        "endYNorm": 54.3,
+        "zona": "centro",
+        "jugador": "Marco Grüll",
+        "minuto": 57
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 58.5,
+        "zona": "centro",
+        "jugador": "Marco Grüll",
+        "minuto": 83
+      },
+      {
+        "endX": 97.6,
+        "endYNorm": 96.4,
+        "zona": "corto",
+        "jugador": "Marco Grüll",
+        "minuto": 94
+      },
+      {
+        "endX": 96.6,
+        "endYNorm": 95.3,
+        "zona": "corto",
+        "jugador": "Marco Grüll",
+        "minuto": 94
+      },
+      {
         "endX": 89.5,
         "endYNorm": 45.1,
         "zona": "centro",
@@ -1094,18 +1821,18 @@
   },
   "RB Leipzig": {
     "equipo": "RB Leipzig",
-    "partidos": 6,
-    "total_corners": 33,
-    "primer_palo": 3,
-    "primer_palo_pct": 9.1,
-    "centro": 24,
-    "centro_pct": 72.7,
+    "partidos": 7,
+    "total_corners": 37,
+    "primer_palo": 4,
+    "primer_palo_pct": 10.8,
+    "centro": 27,
+    "centro_pct": 73.0,
     "segundo_palo": 1,
-    "segundo_palo_pct": 3.0,
+    "segundo_palo_pct": 2.7,
     "corto": 3,
-    "corto_pct": 9.1,
+    "corto_pct": 8.1,
     "sin_peligro": 2,
-    "sin_peligro_pct": 6.1,
+    "sin_peligro_pct": 5.4,
     "detalle": [
       {
         "endX": 92.2,
@@ -1290,6 +2017,34 @@
         "minuto": 92
       },
       {
+        "endX": 95.2,
+        "endYNorm": 52.8,
+        "zona": "centro",
+        "jugador": "Andrija Maksimovic",
+        "minuto": 26
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 48.7,
+        "zona": "centro",
+        "jugador": "Rocco Reitz",
+        "minuto": 46
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 60.5,
+        "zona": "primer_palo",
+        "jugador": "Rocco Reitz",
+        "minuto": 58
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 57.3,
+        "zona": "centro",
+        "jugador": "Brajan Gruda",
+        "minuto": 83
+      },
+      {
         "endX": 90.9,
         "endYNorm": 56.7,
         "zona": "centro",
@@ -1342,16 +2097,16 @@
   },
   "Augsburg": {
     "equipo": "Augsburg",
-    "partidos": 6,
-    "total_corners": 36,
-    "primer_palo": 8,
-    "primer_palo_pct": 22.2,
-    "centro": 22,
-    "centro_pct": 61.1,
-    "segundo_palo": 3,
-    "segundo_palo_pct": 8.3,
+    "partidos": 7,
+    "total_corners": 41,
+    "primer_palo": 9,
+    "primer_palo_pct": 22.0,
+    "centro": 25,
+    "centro_pct": 61.0,
+    "segundo_palo": 4,
+    "segundo_palo_pct": 9.8,
     "corto": 3,
-    "corto_pct": 8.3,
+    "corto_pct": 7.3,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -1466,6 +2221,41 @@
         "zona": "centro",
         "jugador": "Mert Kömür",
         "minuto": 84
+      },
+      {
+        "endX": 91.4,
+        "endYNorm": 59.3,
+        "zona": "centro",
+        "jugador": "Fabian Rieder",
+        "minuto": 6
+      },
+      {
+        "endX": 96.3,
+        "endYNorm": 52.7,
+        "zona": "centro",
+        "jugador": "Fabian Rieder",
+        "minuto": 38
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 55.8,
+        "zona": "centro",
+        "jugador": "Fabian Rieder",
+        "minuto": 43
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 75.9,
+        "zona": "primer_palo",
+        "jugador": "Arijon Ibrahimovic",
+        "minuto": 51
+      },
+      {
+        "endX": 100.0,
+        "endYNorm": 19.400000000000006,
+        "zona": "segundo_palo",
+        "jugador": "Fabian Rieder",
+        "minuto": 57
       },
       {
         "endX": 95.2,
@@ -1611,18 +2401,18 @@
   },
   "Bayer Leverkusen": {
     "equipo": "Bayer Leverkusen",
-    "partidos": 6,
-    "total_corners": 44,
+    "partidos": 7,
+    "total_corners": 47,
     "primer_palo": 6,
-    "primer_palo_pct": 13.6,
-    "centro": 23,
-    "centro_pct": 52.3,
+    "primer_palo_pct": 12.8,
+    "centro": 26,
+    "centro_pct": 55.3,
     "segundo_palo": 2,
-    "segundo_palo_pct": 4.5,
+    "segundo_palo_pct": 4.3,
     "corto": 11,
-    "corto_pct": 25.0,
+    "corto_pct": 23.4,
     "sin_peligro": 2,
-    "sin_peligro_pct": 4.5,
+    "sin_peligro_pct": 4.3,
     "detalle": [
       {
         "endX": 92.7,
@@ -1931,17 +2721,38 @@
         "zona": "corto",
         "jugador": "Jonas Hofmann",
         "minuto": 95
+      },
+      {
+        "endX": 94.3,
+        "endYNorm": 41.1,
+        "zona": "centro",
+        "jugador": "Aleix García",
+        "minuto": 4
+      },
+      {
+        "endX": 92.2,
+        "endYNorm": 46.2,
+        "zona": "centro",
+        "jugador": "Aleix García",
+        "minuto": 97
+      },
+      {
+        "endX": 95.4,
+        "endYNorm": 47.1,
+        "zona": "centro",
+        "jugador": "Aleix García",
+        "minuto": 98
       }
     ]
   },
   "Paderborn": {
     "equipo": "Paderborn",
-    "partidos": 6,
-    "total_corners": 26,
+    "partidos": 7,
+    "total_corners": 32,
     "primer_palo": 4,
-    "primer_palo_pct": 15.4,
-    "centro": 22,
-    "centro_pct": 84.6,
+    "primer_palo_pct": 12.5,
+    "centro": 28,
+    "centro_pct": 87.5,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 0,
@@ -2018,6 +2829,48 @@
         "zona": "centro",
         "jugador": "Raphael Obermair",
         "minuto": 86
+      },
+      {
+        "endX": 94.8,
+        "endYNorm": 53.5,
+        "zona": "centro",
+        "jugador": "Raphael Obermair",
+        "minuto": 20
+      },
+      {
+        "endX": 94.1,
+        "endYNorm": 49.0,
+        "zona": "centro",
+        "jugador": "Raphael Obermair",
+        "minuto": 20
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 59.8,
+        "zona": "centro",
+        "jugador": "Raphael Obermair",
+        "minuto": 30
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 56.4,
+        "zona": "centro",
+        "jugador": "Raphael Obermair",
+        "minuto": 30
+      },
+      {
+        "endX": 93.9,
+        "endYNorm": 52.8,
+        "zona": "centro",
+        "jugador": "Raphael Obermair",
+        "minuto": 71
+      },
+      {
+        "endX": 94.4,
+        "endYNorm": 43.3,
+        "zona": "centro",
+        "jugador": "Rayan Philippe",
+        "minuto": 72
       },
       {
         "endX": 93.2,
@@ -2135,18 +2988,18 @@
   },
   "VfB Stuttgart": {
     "equipo": "VfB Stuttgart",
-    "partidos": 6,
-    "total_corners": 40,
-    "primer_palo": 6,
-    "primer_palo_pct": 15.0,
-    "centro": 30,
-    "centro_pct": 75.0,
+    "partidos": 7,
+    "total_corners": 46,
+    "primer_palo": 7,
+    "primer_palo_pct": 15.2,
+    "centro": 35,
+    "centro_pct": 76.1,
     "segundo_palo": 2,
-    "segundo_palo_pct": 5.0,
+    "segundo_palo_pct": 4.3,
     "corto": 1,
-    "corto_pct": 2.5,
+    "corto_pct": 2.2,
     "sin_peligro": 1,
-    "sin_peligro_pct": 2.5,
+    "sin_peligro_pct": 2.2,
     "detalle": [
       {
         "endX": 96.2,
@@ -2182,6 +3035,48 @@
         "zona": "centro",
         "jugador": "Chris Führich",
         "minuto": 75
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 53.2,
+        "zona": "centro",
+        "jugador": "Chris Führich",
+        "minuto": 2
+      },
+      {
+        "endX": 83.9,
+        "endYNorm": 85.2,
+        "zona": "primer_palo",
+        "jugador": "Chris Führich",
+        "minuto": 16
+      },
+      {
+        "endX": 91.2,
+        "endYNorm": 46.4,
+        "zona": "centro",
+        "jugador": "Chris Führich",
+        "minuto": 17
+      },
+      {
+        "endX": 92.5,
+        "endYNorm": 50.2,
+        "zona": "centro",
+        "jugador": "Maximilian Mittelstädt",
+        "minuto": 82
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 43.3,
+        "zona": "centro",
+        "jugador": "Maximilian Mittelstädt",
+        "minuto": 90
+      },
+      {
+        "endX": 91.7,
+        "endYNorm": 48.6,
+        "zona": "centro",
+        "jugador": "Chris Führich",
+        "minuto": 91
       },
       {
         "endX": 93.3,
@@ -2432,14 +3327,14 @@
   },
   "Freiburg": {
     "equipo": "Freiburg",
-    "partidos": 6,
-    "total_corners": 31,
-    "primer_palo": 1,
-    "primer_palo_pct": 3.2,
-    "centro": 29,
-    "centro_pct": 93.5,
+    "partidos": 7,
+    "total_corners": 36,
+    "primer_palo": 2,
+    "primer_palo_pct": 5.6,
+    "centro": 33,
+    "centro_pct": 91.7,
     "segundo_palo": 1,
-    "segundo_palo_pct": 3.2,
+    "segundo_palo_pct": 2.8,
     "corto": 0,
     "corto_pct": 0.0,
     "sin_peligro": 0,
@@ -2661,23 +3556,58 @@
         "zona": "centro",
         "jugador": "Niklas Beste",
         "minuto": 72
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 44.7,
+        "zona": "centro",
+        "jugador": "Niklas Beste",
+        "minuto": 12
+      },
+      {
+        "endX": 93.2,
+        "endYNorm": 51.7,
+        "zona": "centro",
+        "jugador": "Derry Scherhant",
+        "minuto": 52
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 62.0,
+        "zona": "primer_palo",
+        "jugador": "Vincenzo Grifo",
+        "minuto": 90
+      },
+      {
+        "endX": 90.7,
+        "endYNorm": 45.3,
+        "zona": "centro",
+        "jugador": "Vincenzo Grifo",
+        "minuto": 90
+      },
+      {
+        "endX": 94.6,
+        "endYNorm": 51.3,
+        "zona": "centro",
+        "jugador": "Vincenzo Grifo",
+        "minuto": 91
       }
     ]
   },
   "FC Koln": {
     "equipo": "FC Koln",
-    "partidos": 6,
-    "total_corners": 36,
-    "primer_palo": 1,
-    "primer_palo_pct": 2.8,
-    "centro": 34,
-    "centro_pct": 94.4,
+    "partidos": 7,
+    "total_corners": 42,
+    "primer_palo": 2,
+    "primer_palo_pct": 4.8,
+    "centro": 38,
+    "centro_pct": 90.5,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 0,
     "corto_pct": 0.0,
-    "sin_peligro": 1,
-    "sin_peligro_pct": 2.8,
+    "sin_peligro": 2,
+    "sin_peligro_pct": 4.8,
     "detalle": [
       {
         "endX": 88.3,
@@ -2720,6 +3650,48 @@
         "zona": "centro",
         "jugador": "Ísak Jóhannesson",
         "minuto": 81
+      },
+      {
+        "endX": 95.5,
+        "endYNorm": 50.3,
+        "zona": "centro",
+        "jugador": "Borna Sosa",
+        "minuto": 5
+      },
+      {
+        "endX": 96.4,
+        "endYNorm": 56.1,
+        "zona": "centro",
+        "jugador": "Linton Maina",
+        "minuto": 11
+      },
+      {
+        "endX": 95.6,
+        "endYNorm": 61.5,
+        "zona": "primer_palo",
+        "jugador": "Linton Maina",
+        "minuto": 12
+      },
+      {
+        "endX": 99.1,
+        "endYNorm": 52.4,
+        "zona": "centro",
+        "jugador": "Borna Sosa",
+        "minuto": 28
+      },
+      {
+        "endX": 74.7,
+        "endYNorm": 89.6,
+        "zona": "sin_peligro",
+        "jugador": "Linton Maina",
+        "minuto": 46
+      },
+      {
+        "endX": 96.9,
+        "endYNorm": 50.0,
+        "zona": "centro",
+        "jugador": "Borna Sosa",
+        "minuto": 61
       },
       {
         "endX": 95.5,
@@ -2935,18 +3907,18 @@
   },
   "Hoffenheim": {
     "equipo": "Hoffenheim",
-    "partidos": 6,
-    "total_corners": 40,
-    "primer_palo": 8,
-    "primer_palo_pct": 20.0,
-    "centro": 28,
-    "centro_pct": 70.0,
+    "partidos": 7,
+    "total_corners": 45,
+    "primer_palo": 10,
+    "primer_palo_pct": 22.2,
+    "centro": 31,
+    "centro_pct": 68.9,
     "segundo_palo": 0,
     "segundo_palo_pct": 0.0,
     "corto": 1,
-    "corto_pct": 2.5,
+    "corto_pct": 2.2,
     "sin_peligro": 3,
-    "sin_peligro_pct": 7.5,
+    "sin_peligro_pct": 6.7,
     "detalle": [
       {
         "endX": 80.5,
@@ -3080,6 +4052,41 @@
         "zona": "centro",
         "jugador": "Vladimír Coufal",
         "minuto": 72
+      },
+      {
+        "endX": 97.0,
+        "endYNorm": 64.9,
+        "zona": "primer_palo",
+        "jugador": "Vladimír Coufal",
+        "minuto": 14
+      },
+      {
+        "endX": 97.2,
+        "endYNorm": 52.0,
+        "zona": "centro",
+        "jugador": "Mats Rots",
+        "minuto": 15
+      },
+      {
+        "endX": 93.0,
+        "endYNorm": 56.0,
+        "zona": "centro",
+        "jugador": "Mats Rots",
+        "minuto": 27
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 55.2,
+        "zona": "centro",
+        "jugador": "Vladimír Coufal",
+        "minuto": 47
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 64.5,
+        "zona": "primer_palo",
+        "jugador": "Vladimír Coufal",
+        "minuto": 85
       },
       {
         "endX": 97.7,
@@ -3232,16 +4239,16 @@
   },
   "Borussia M.Gladbach": {
     "equipo": "Borussia M.Gladbach",
-    "partidos": 6,
-    "total_corners": 36,
+    "partidos": 7,
+    "total_corners": 41,
     "primer_palo": 4,
-    "primer_palo_pct": 11.1,
-    "centro": 23,
-    "centro_pct": 63.9,
+    "primer_palo_pct": 9.8,
+    "centro": 28,
+    "centro_pct": 68.3,
     "segundo_palo": 7,
-    "segundo_palo_pct": 19.4,
+    "segundo_palo_pct": 17.1,
     "corto": 2,
-    "corto_pct": 5.6,
+    "corto_pct": 4.9,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -3335,6 +4342,41 @@
         "zona": "centro",
         "jugador": "Mathieu Nguefack",
         "minuto": 94
+      },
+      {
+        "endX": 94.9,
+        "endYNorm": 55.8,
+        "zona": "centro",
+        "jugador": "Hugo Bolin",
+        "minuto": 4
+      },
+      {
+        "endX": 94.3,
+        "endYNorm": 55.2,
+        "zona": "centro",
+        "jugador": "Hugo Bolin",
+        "minuto": 49
+      },
+      {
+        "endX": 96.0,
+        "endYNorm": 49.8,
+        "zona": "centro",
+        "jugador": "Robin Hack",
+        "minuto": 71
+      },
+      {
+        "endX": 95.7,
+        "endYNorm": 58.7,
+        "zona": "centro",
+        "jugador": "Robin Hack",
+        "minuto": 85
+      },
+      {
+        "endX": 88.6,
+        "endYNorm": 51.1,
+        "zona": "centro",
+        "jugador": "Robin Hack",
+        "minuto": 88
       },
       {
         "endX": 96.1,
@@ -3499,261 +4541,20 @@
       }
     ]
   },
-  "Eintracht Frankfurt": {
-    "equipo": "Eintracht Frankfurt",
-    "partidos": 6,
-    "total_corners": 32,
-    "primer_palo": 4,
-    "primer_palo_pct": 12.5,
-    "centro": 22,
-    "centro_pct": 68.8,
-    "segundo_palo": 2,
-    "segundo_palo_pct": 6.2,
-    "corto": 3,
-    "corto_pct": 9.4,
-    "sin_peligro": 1,
-    "sin_peligro_pct": 3.1,
-    "detalle": [
-      {
-        "endX": 90.1,
-        "endYNorm": 36.0,
-        "zona": "segundo_palo",
-        "jugador": "Farès Chaïbi",
-        "minuto": 9
-      },
-      {
-        "endX": 87.1,
-        "endYNorm": 44.4,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 88
-      },
-      {
-        "endX": 88.0,
-        "endYNorm": 45.4,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 35
-      },
-      {
-        "endX": 90.1,
-        "endYNorm": 60.3,
-        "zona": "primer_palo",
-        "jugador": "Can Uzun",
-        "minuto": 51
-      },
-      {
-        "endX": 88.4,
-        "endYNorm": 92.1,
-        "zona": "corto",
-        "jugador": "Can Uzun",
-        "minuto": 51
-      },
-      {
-        "endX": 82.5,
-        "endYNorm": 88.1,
-        "zona": "sin_peligro",
-        "jugador": "Ansgar Knauff",
-        "minuto": 28
-      },
-      {
-        "endX": 89.8,
-        "endYNorm": 54.2,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 31
-      },
-      {
-        "endX": 93.3,
-        "endYNorm": 49.1,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 37
-      },
-      {
-        "endX": 85.9,
-        "endYNorm": 38.3,
-        "zona": "segundo_palo",
-        "jugador": "Can Uzun",
-        "minuto": 38
-      },
-      {
-        "endX": 93.5,
-        "endYNorm": 48.8,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 52
-      },
-      {
-        "endX": 87.2,
-        "endYNorm": 75.0,
-        "zona": "primer_palo",
-        "jugador": "Can Uzun",
-        "minuto": 52
-      },
-      {
-        "endX": 90.7,
-        "endYNorm": 53.0,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 8
-      },
-      {
-        "endX": 95.6,
-        "endYNorm": 49.0,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 29
-      },
-      {
-        "endX": 89.8,
-        "endYNorm": 55.8,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 51
-      },
-      {
-        "endX": 86.5,
-        "endYNorm": 43.4,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 54
-      },
-      {
-        "endX": 91.8,
-        "endYNorm": 44.9,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 54
-      },
-      {
-        "endX": 91.3,
-        "endYNorm": 45.5,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 64
-      },
-      {
-        "endX": 90.7,
-        "endYNorm": 47.9,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 73
-      },
-      {
-        "endX": 91.7,
-        "endYNorm": 46.0,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 7
-      },
-      {
-        "endX": 95.6,
-        "endYNorm": 45.7,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 22
-      },
-      {
-        "endX": 92.2,
-        "endYNorm": 47.5,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 27
-      },
-      {
-        "endX": 92.3,
-        "endYNorm": 44.1,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 39
-      },
-      {
-        "endX": 90.0,
-        "endYNorm": 44.0,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 56
-      },
-      {
-        "endX": 92.0,
-        "endYNorm": 49.3,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 60
-      },
-      {
-        "endX": 90.5,
-        "endYNorm": 46.2,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 62
-      },
-      {
-        "endX": 86.9,
-        "endYNorm": 82.9,
-        "zona": "primer_palo",
-        "jugador": "Can Uzun",
-        "minuto": 67
-      },
-      {
-        "endX": 90.9,
-        "endYNorm": 57.3,
-        "zona": "centro",
-        "jugador": "Farès Chaïbi",
-        "minuto": 70
-      },
-      {
-        "endX": 92.6,
-        "endYNorm": 61.9,
-        "zona": "primer_palo",
-        "jugador": "Can Uzun",
-        "minuto": 6
-      },
-      {
-        "endX": 85.7,
-        "endYNorm": 90.3,
-        "zona": "corto",
-        "jugador": "Can Uzun",
-        "minuto": 14
-      },
-      {
-        "endX": 87.9,
-        "endYNorm": 91.2,
-        "zona": "corto",
-        "jugador": "Can Uzun",
-        "minuto": 29
-      },
-      {
-        "endX": 92.3,
-        "endYNorm": 55.6,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 40
-      },
-      {
-        "endX": 91.5,
-        "endYNorm": 49.2,
-        "zona": "centro",
-        "jugador": "Can Uzun",
-        "minuto": 79
-      }
-    ]
-  },
   "Mainz 05": {
     "equipo": "Mainz 05",
-    "partidos": 6,
-    "total_corners": 29,
-    "primer_palo": 6,
-    "primer_palo_pct": 20.7,
-    "centro": 15,
-    "centro_pct": 51.7,
-    "segundo_palo": 2,
-    "segundo_palo_pct": 6.9,
+    "partidos": 7,
+    "total_corners": 35,
+    "primer_palo": 8,
+    "primer_palo_pct": 22.9,
+    "centro": 16,
+    "centro_pct": 45.7,
+    "segundo_palo": 3,
+    "segundo_palo_pct": 8.6,
     "corto": 4,
-    "corto_pct": 13.8,
-    "sin_peligro": 2,
-    "sin_peligro_pct": 6.9,
+    "corto_pct": 11.4,
+    "sin_peligro": 4,
+    "sin_peligro_pct": 11.4,
     "detalle": [
       {
         "endX": 94.7,
@@ -3852,6 +4653,48 @@
         "zona": "corto",
         "jugador": "Nadiem Amiri",
         "minuto": 44
+      },
+      {
+        "endX": 76.4,
+        "endYNorm": 81.8,
+        "zona": "sin_peligro",
+        "jugador": "Nadiem Amiri",
+        "minuto": 17
+      },
+      {
+        "endX": 93.6,
+        "endYNorm": 71.8,
+        "zona": "primer_palo",
+        "jugador": "Nadiem Amiri",
+        "minuto": 44
+      },
+      {
+        "endX": 97.1,
+        "endYNorm": 44.5,
+        "zona": "centro",
+        "jugador": "Nadiem Amiri",
+        "minuto": 67
+      },
+      {
+        "endX": 98.7,
+        "endYNorm": 61.2,
+        "zona": "primer_palo",
+        "jugador": "Nadiem Amiri",
+        "minuto": 67
+      },
+      {
+        "endX": 77.6,
+        "endYNorm": 76.4,
+        "zona": "sin_peligro",
+        "jugador": "Nadiem Amiri",
+        "minuto": 73
+      },
+      {
+        "endX": 91.9,
+        "endYNorm": 33.9,
+        "zona": "segundo_palo",
+        "jugador": "Nadiem Amiri",
+        "minuto": 93
       },
       {
         "endX": 90.2,
@@ -3960,238 +4803,18 @@
       }
     ]
   },
-  "Borussia Dortmund": {
-    "equipo": "Borussia Dortmund",
-    "partidos": 6,
-    "total_corners": 29,
-    "primer_palo": 5,
-    "primer_palo_pct": 17.2,
-    "centro": 20,
-    "centro_pct": 69.0,
-    "segundo_palo": 2,
-    "segundo_palo_pct": 6.9,
-    "corto": 2,
-    "corto_pct": 6.9,
-    "sin_peligro": 0,
-    "sin_peligro_pct": 0.0,
-    "detalle": [
-      {
-        "endX": 92.7,
-        "endYNorm": 53.2,
-        "zona": "centro",
-        "jugador": "Ethan Nwaneri",
-        "minuto": 40
-      },
-      {
-        "endX": 96.6,
-        "endYNorm": 41.5,
-        "zona": "centro",
-        "jugador": "Joey Veerman",
-        "minuto": 46
-      },
-      {
-        "endX": 95.8,
-        "endYNorm": 93.6,
-        "zona": "corto",
-        "jugador": "Ethan Nwaneri",
-        "minuto": 55
-      },
-      {
-        "endX": 95.7,
-        "endYNorm": 49.2,
-        "zona": "centro",
-        "jugador": "Ethan Nwaneri",
-        "minuto": 58
-      },
-      {
-        "endX": 96.0,
-        "endYNorm": 53.5,
-        "zona": "centro",
-        "jugador": "Joey Veerman",
-        "minuto": 62
-      },
-      {
-        "endX": 96.1,
-        "endYNorm": 36.5,
-        "zona": "segundo_palo",
-        "jugador": "Daniel Svensson",
-        "minuto": 74
-      },
-      {
-        "endX": 95.5,
-        "endYNorm": 66.4,
-        "zona": "primer_palo",
-        "jugador": "Marcel Sabitzer",
-        "minuto": 74
-      },
-      {
-        "endX": 100.0,
-        "endYNorm": 20.900000000000006,
-        "zona": "segundo_palo",
-        "jugador": "Daniel Svensson",
-        "minuto": 10
-      },
-      {
-        "endX": 91.2,
-        "endYNorm": 60.2,
-        "zona": "primer_palo",
-        "jugador": "Marcel Sabitzer",
-        "minuto": 32
-      },
-      {
-        "endX": 95.1,
-        "endYNorm": 50.9,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 45
-      },
-      {
-        "endX": 94.4,
-        "endYNorm": 50.9,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 48
-      },
-      {
-        "endX": 95.4,
-        "endYNorm": 50.6,
-        "zona": "centro",
-        "jugador": "Marcel Sabitzer",
-        "minuto": 61
-      },
-      {
-        "endX": 97.1,
-        "endYNorm": 60.2,
-        "zona": "primer_palo",
-        "jugador": "Marcel Sabitzer",
-        "minuto": 65
-      },
-      {
-        "endX": 92.9,
-        "endYNorm": 59.9,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 69
-      },
-      {
-        "endX": 96.7,
-        "endYNorm": 44.2,
-        "zona": "centro",
-        "jugador": "Joey Veerman",
-        "minuto": 84
-      },
-      {
-        "endX": 93.6,
-        "endYNorm": 60.3,
-        "zona": "primer_palo",
-        "jugador": "Joey Veerman",
-        "minuto": 97
-      },
-      {
-        "endX": 93.3,
-        "endYNorm": 47.2,
-        "zona": "centro",
-        "jugador": "Joey Veerman",
-        "minuto": 17
-      },
-      {
-        "endX": 93.2,
-        "endYNorm": 46.2,
-        "zona": "centro",
-        "jugador": "Ethan Nwaneri",
-        "minuto": 26
-      },
-      {
-        "endX": 98.1,
-        "endYNorm": 46.6,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 10
-      },
-      {
-        "endX": 96.6,
-        "endYNorm": 45.4,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 29
-      },
-      {
-        "endX": 96.9,
-        "endYNorm": 43.0,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 50
-      },
-      {
-        "endX": 95.4,
-        "endYNorm": 56.6,
-        "zona": "centro",
-        "jugador": "Julian Ryerson",
-        "minuto": 86
-      },
-      {
-        "endX": 96.6,
-        "endYNorm": 52.2,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 95
-      },
-      {
-        "endX": 94.8,
-        "endYNorm": 54.3,
-        "zona": "centro",
-        "jugador": "Julian Ryerson",
-        "minuto": 6
-      },
-      {
-        "endX": 97.8,
-        "endYNorm": 49.3,
-        "zona": "centro",
-        "jugador": "Julian Ryerson",
-        "minuto": 23
-      },
-      {
-        "endX": 92.5,
-        "endYNorm": 59.4,
-        "zona": "centro",
-        "jugador": "Julian Ryerson",
-        "minuto": 50
-      },
-      {
-        "endX": 90.7,
-        "endYNorm": 90.6,
-        "zona": "corto",
-        "jugador": "Julian Ryerson",
-        "minuto": 17
-      },
-      {
-        "endX": 95.0,
-        "endYNorm": 63.6,
-        "zona": "primer_palo",
-        "jugador": "Konstantinos Karetsas",
-        "minuto": 32
-      },
-      {
-        "endX": 90.5,
-        "endYNorm": 50.1,
-        "zona": "centro",
-        "jugador": "Daniel Svensson",
-        "minuto": 82
-      }
-    ]
-  },
   "Hamburger SV": {
     "equipo": "Hamburger SV",
-    "partidos": 6,
-    "total_corners": 23,
+    "partidos": 7,
+    "total_corners": 26,
     "primer_palo": 3,
-    "primer_palo_pct": 13.0,
-    "centro": 16,
-    "centro_pct": 69.6,
+    "primer_palo_pct": 11.5,
+    "centro": 19,
+    "centro_pct": 73.1,
     "segundo_palo": 1,
-    "segundo_palo_pct": 4.3,
+    "segundo_palo_pct": 3.8,
     "corto": 3,
-    "corto_pct": 13.0,
+    "corto_pct": 11.5,
     "sin_peligro": 0,
     "sin_peligro_pct": 0.0,
     "detalle": [
@@ -4222,6 +4845,27 @@
         "zona": "centro",
         "jugador": "Fábio Vieira",
         "minuto": 86
+      },
+      {
+        "endX": 91.1,
+        "endYNorm": 48.1,
+        "zona": "centro",
+        "jugador": "Miro Muheim",
+        "minuto": 36
+      },
+      {
+        "endX": 96.7,
+        "endYNorm": 49.9,
+        "zona": "centro",
+        "jugador": "Albert Grønbæk",
+        "minuto": 85
+      },
+      {
+        "endX": 92.6,
+        "endYNorm": 44.8,
+        "zona": "centro",
+        "jugador": "Albert Grønbæk",
+        "minuto": 91
       },
       {
         "endX": 93.0,
