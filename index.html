@@ -946,6 +946,7 @@
         <div class="custom-select-list" id="cs-liga-list">
           <div class="custom-select-option seleccionado" data-value="world_cup">World Cup</div>
           <div class="custom-select-option" data-value="champions_league">Champions League</div>
+          <div class="custom-select-option" data-value="europa_league">Europa League</div>
           <div class="custom-select-option" data-value="premier_league">Premier League</div>
           <div class="custom-select-option" data-value="la_liga">La Liga</div>
           <div class="custom-select-option" data-value="serie_a">Serie A</div>
@@ -1194,6 +1195,7 @@
       eredivisie: 'Eredivisie',
       mls: 'MLS',
       champions_league: 'Champions League',
+      europa_league: 'Europa League',
     };
 
     function normalizarTexto(s) {
@@ -2433,6 +2435,7 @@
         'eredivisie': 'Eredivisie',
         'mls': 'MLS',
         'champions_league': 'Champions League',
+        'europa_league': 'Europa League',
       };
       const competicion = partidoActual?.competicion || 'world_cup';
       const temporada = partidoActual?.temporada || '2026';
@@ -3198,9 +3201,10 @@
       world_cup: 'World Cup', la_liga: 'La Liga', premier_league: 'Premier League',
       ligue_1: 'Ligue 1', bundesliga: 'Bundesliga', serie_a: 'Serie A',
       eredivisie: 'Eredivisie', mls: 'MLS', champions_league: 'Champions League',
+      europa_league: 'Europa League',
     };
     // Mismo orden jerarquico que el dropdown de Liga en Partidos (ver lineas ~947-955).
-    const ORDEN_LIGAS_LEADERS = ['world_cup', 'champions_league', 'premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1', 'eredivisie', 'mls'];
+    const ORDEN_LIGAS_LEADERS = ['world_cup', 'champions_league', 'europa_league', 'premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1', 'eredivisie', 'mls'];
 
     let indiceLeaders = [];
     let leadersInicializado = false;
