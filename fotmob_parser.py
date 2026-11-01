@@ -27,6 +27,7 @@ CARPETA_POR_LIGA = {
     "eredivisie": "Eredivisie",
     "mls": "MLS",
     "champions_league": "Champions League",
+    "europa_league": "Europa League",
     "world_cup": "FIFA World Cup",
     "club_world_cup": "FIFA Club World Cup",
 }
@@ -320,7 +321,7 @@ def _temporada_de(nombre):
     return m.group(1) if m else None
 
 
-_LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie", "Champions League"]
+_LIGAS_CONOCIDAS = ["LaLiga", "Premier League", "Bundesliga", "Ligue 1", "Serie A", "Eredivisie", "Champions League", "Europa League"]
 
 
 def _liga_de(nombre):

@@ -55,7 +55,7 @@ DATA = REPO / "data"
 FOTMOB = REPO / "partidos_fotmob"
 SALIDA_DEFECTO = REPO / "dashboards"
 COLORES_EXTRA = REPO / "colores_equipos.json"   # opcional: {"Equipo": {"home": "#...", "away": "#..."}}
-LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League", "Eredivisie"]
+LIGAS = ["Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Serie A", "MLS", "Champions League", "Eredivisie", "Europa League"]
 
 # Ligas donde el dashboard se organiza en una subcarpeta "Jornada N/".
 # jornada_de() cuenta, para el equipo LOCAL de cada partido, cuantas

@@ -105,6 +105,8 @@ def extraer_competicion(ruta_html, data=None, contenido=None):
         return "serie_a"
     if re.search(r"Eredivisie \d{4}/\d{4}", contenido):
         return "eredivisie"
+    if re.search(r"Europa League \d{4}/\d{4}", contenido):
+        return "europa_league"
     if re.search(r"Major League Soccer \d{4}", contenido):
         return "mls"
 
@@ -149,7 +151,7 @@ def extraer_temporada(ruta_html, contenido=None):
     m = re.search(r"LaLiga (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
-    m = re.search(r"(?:Premier League|Bundesliga|Ligue 1|Serie A|Eredivisie) (\d{4})/(\d{4})", contenido)
+    m = re.search(r"(?:Premier League|Bundesliga|Ligue 1|Serie A|Eredivisie|Europa League) (\d{4})/(\d{4})", contenido)
     if m:
         return f"{m.group(1)[2:]}/{m.group(2)[2:]}"
     m = re.search(r"Major League Soccer (\d{4})", contenido)
