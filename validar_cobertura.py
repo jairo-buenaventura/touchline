@@ -104,12 +104,20 @@ def cargar_fixtures_calendario_json(path):
 
 
 def archivos_data_liga(liga, temporada):
-    """Devuelve {(home_canon, away_canon): (marcador, nombre_archivo)} para una liga/temporada."""
+    """Devuelve {(home_canon, away_canon): (marcador, nombre_archivo)} para una liga/temporada.
+
+    Los partidos viven en data/<liga>/<temporada con guion>/ desde la
+    reorganizacion por liga/temporada (el nombre del archivo en si sigue
+    usando guion bajo, ej. "... - Premier League 2025_2026.json").
+    """
     patron = re.compile(
         r"^(.+?) (\d+)\s*-\s*(\d+) (.+?) - " + re.escape(liga) + r" " + re.escape(temporada) + r"\.json$"
     )
+    carpeta = os.path.join(DATA_DIR, liga, temporada.replace("_", "-"))
     resultado = {}
-    for fn in os.listdir(DATA_DIR):
+    if not os.path.isdir(carpeta):
+        return resultado
+    for fn in os.listdir(carpeta):
         m = patron.match(fn)
         if not m:
             continue

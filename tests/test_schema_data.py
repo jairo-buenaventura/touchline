@@ -1,6 +1,5 @@
 """Validaciones de solo lectura sobre data/. No modifica ningun archivo."""
 import json
-import os
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -14,11 +13,25 @@ CAMPOS_LADO_ESPERADOS = {
 }
 
 
+CARPETAS_NO_PARTIDO = {"corners", "leaders"}
+
+
 def listar_archivos_partido():
-    return [
-        f for f in os.listdir(DATA_DIR)
-        if f.endswith(".json") and f not in ARCHIVOS_NO_PARTIDO
-    ]
+    """
+    Los partidos viven en subcarpetas data/<Liga>/<Temporada>/*.json desde
+    la reorganizacion por liga/temporada -- ya no estan sueltos en data/.
+    Devuelve rutas relativas a DATA_DIR (ej. "LaLiga/2026-2027/X.json"),
+    compatibles con DATA_DIR / nombre tal como lo usa el resto del archivo.
+    """
+    archivos = []
+    for p in DATA_DIR.rglob("*.json"):
+        if p.name in ARCHIVOS_NO_PARTIDO:
+            continue
+        rel = p.relative_to(DATA_DIR)
+        if rel.parts[0] in CARPETAS_NO_PARTIDO:
+            continue
+        archivos.append(str(rel))
+    return archivos
 
 
 def test_data_dir_existe_y_tiene_partidos():
