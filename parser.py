@@ -447,12 +447,87 @@ def calcular_estadisticas(data, lado="home"):
     }
 
 
+# Eventos que marcan el arranque de una posesion -- si la secuencia de un gol
+# llega hasta uno de estos retrocediendo, se corta ahi (ese jugador "gano" el
+# balon, no tiene sentido seguir mas atras buscando quien se lo perdio).
+_TIPOS_INICIO_POSESION = {
+    "BallRecovery", "Interception", "Tackle", "Clearance", "Save", "Claim",
+    "KeeperPickup", "BlockedPass", "Aerial",
+}
+# Eventos que no son "acciones con el balon" del jugador (cambios de
+# formacion, tarjetas, offside dado, etc.) -- se saltan sin cortar la
+# secuencia ni contar como parte de ella.
+_TIPOS_IGNORAR_SECUENCIA = {
+    "Start", "End", "FormationSet", "FormationChange", "SubstitutionOn",
+    "SubstitutionOff", "Card", "OffsideGiven", "OffsideProvoked",
+}
+MAX_EVENTOS_SECUENCIA_GOL = 25  # tope para no arrastrar posesiones gigantes (ej. tiki-taka largo) a un dato que se guarda por partido
+UMBRAL_CONDUCCION = 3.0  # distancia minima (0-100) entre donde un jugador recibe y desde donde sale su siguiente accion para contarla como conduccion, no ruido de medicion
+
+
+def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
+    """
+    Reconstruye la secuencia de eventos del mismo equipo que llevo al gol en
+    el indice idx_gol, caminando hacia atras en la lista de eventos del
+    partido hasta un cambio de equipo o un evento de "inicio de posesion"
+    (recuperacion, intercepcion, etc.). Infiere tramos de conduccion cuando
+    un mismo jugador recibe el balon en un punto y su siguiente accion sale
+    desde un punto distinto (WhoScored no trae un evento de "Carry" propio,
+    a diferencia de StatsBomb).
+    """
+    crudos = []
+    i = idx_gol - 1
+    while i >= 0 and len(crudos) < MAX_EVENTOS_SECUENCIA_GOL:
+        ev = eventos[i]
+        tipo = ev["type"]["displayName"]
+        if tipo in _TIPOS_IGNORAR_SECUENCIA:
+            i -= 1
+            continue
+        if ev.get("teamId") != team_id:
+            break
+        crudos.append(ev)
+        if tipo in _TIPOS_INICIO_POSESION:
+            break
+        i -= 1
+    crudos.reverse()
+
+    secuencia = []
+    anterior = None
+    for ev in crudos:
+        jugador = nombres.get(str(ev.get("playerId")), "?")
+        x, y = ev.get("x"), ev.get("y")
+        if anterior and anterior.get("endX") is not None and x is not None:
+            dx, dy = x - anterior["endX"], y - anterior["endY"]
+            if (dx * dx + dy * dy) ** 0.5 > UMBRAL_CONDUCCION:
+                secuencia.append({
+                    "jugador": jugador, "tipo": "Carry",
+                    "minuto": ev.get("minute", 0), "segundo": ev.get("second", 0),
+                    "x": anterior["endX"], "y": anterior["endY"],
+                    "endX": x, "endY": y, "exitoso": True,
+                })
+        segmento = {
+            "jugador": jugador,
+            "tipo": ev["type"]["displayName"],
+            "minuto": ev.get("minute", 0),
+            "segundo": ev.get("second", 0),
+            "x": x, "y": y,
+            "endX": ev.get("endX"), "endY": ev.get("endY"),
+            "exitoso": ev.get("outcomeType", {}).get("displayName") == "Successful",
+        }
+        secuencia.append(segmento)
+        anterior = segmento
+    return secuencia
+
+
 def calcular_tiros(data, lado="home"):
     """
     Extrae la lista de tiros de un equipo, con su posicion de origen en la
     cancha (x, y) y, cuando esta disponible, hacia donde apuntaba el tiro
     dentro del arco (goal_mouth_y, goal_mouth_z), para poder dibujar tanto
-    un mapa de tiros sobre la cancha como un mini-marco de portico.
+    un mapa de tiros sobre la cancha como un mini-marco de portico. Los
+    goles ademas traen "secuencia_gol": la cadena de pases/conducciones que
+    llevo a ese gol (ver calcular_secuencia_gol), para la vista de "como se
+    gesto este gol" al hacer click en el goleador.
     """
     eventos = data["events"]
     nombres = data["playerIdNameDictionary"]
@@ -462,14 +537,14 @@ def calcular_tiros(data, lado="home"):
     tipos_tiro = {"MissedShots", "SavedShot", "ShotOnPost", "Goal"}
 
     tiros_salida = []
-    for ev in eventos:
+    for idx, ev in enumerate(eventos):
         if ev.get("teamId") != team_id:
             continue
         tipo = ev["type"]["displayName"]
         if tipo not in tipos_tiro:
             continue
 
-        tiros_salida.append({
+        tiro = {
             "minuto": ev.get("minute", 0),
             "jugador": nombres.get(str(ev.get("playerId")), "?"),
             "resultado": tipo,
@@ -477,7 +552,10 @@ def calcular_tiros(data, lado="home"):
             "y": ev.get("y"),
             "arco_y": ev.get("goalMouthY"),
             "arco_z": ev.get("goalMouthZ"),
-        })
+        }
+        if tipo == "Goal":
+            tiro["secuencia_gol"] = calcular_secuencia_gol(eventos, nombres, idx, team_id)
+        tiros_salida.append(tiro)
 
     tiros_salida.sort(key=lambda t: t["minuto"])
     return tiros_salida

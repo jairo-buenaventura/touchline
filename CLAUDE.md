@@ -28,13 +28,30 @@ Por cada lado (`home`/`away`):
 | `jugadores`        | `id`, `nombre`, `dorsal`, `x`/`y` (posición promedio), `toques`             |
 | `pases`            | red de pases: `de`, `a`, `veces` (conteo de pases entre ese par)            |
 | `estadisticas`     | tiros, posesión, precisión de pase, goles (con minuto), `ppda`              |
-| `tiros`            | por tiro: minuto, jugador, `resultado` (Goal/SavedShot/MissedShots/...), x/y, coords de arco |
+| `tiros`            | por tiro: minuto, jugador, `resultado` (Goal/SavedShot/MissedShots/...), x/y, coords de arco; si `resultado == "Goal"`, trae además `secuencia_gol` (ver abajo) |
 | `acciones`         | por jugador: lista de acciones (`tipo`, x/y, `exitoso`) — Aerial, TakeOn, BallRecovery, Interception, Foul, Dispossessed, BlockedPass, Tackle, Clearance, Challenge |
 | `recepcion_pases`  | por jugador: `recepciones` (x/y), `pases_clave_recibidos`, `asistencias_recibidas`, `en_tercio_final`, `en_area_rival`, `cruces_recibidos` |
 | `alineacion`       | `formacion`, `entrenador`, `titulares`/`banca` (con `posicion` nominal)     |
 | `fotmob`           | xg, xgot, posesión, field_tilt, big_chances, corners, faltas, cruces        |
 | `stats_avanzadas`  | por jugador: `minutos_jugados`, goles, asistencias, tiros, regates, chances creadas, corners sacados, toques en área rival, rating, motm — excluye eventos de `PenaltyShootout` |
 | `corners`          | por corner: `minuto`, `jugador`, `x`/`y` (origen), `endX`/`endY` (destino), `endYNorm` (mirror para comparar ambos lados), `zona` (`primer_palo`/`centro`/`segundo_palo`/`corto`/`sin_peligro`) |
+
+**`tiros[].secuencia_gol`** (desde 2026-11-02, solo en goles): la cadena de
+pases/conducciones del mismo equipo que llevó a ese gol, reconstruida
+caminando hacia atrás desde el evento `Goal` en los eventos crudos de
+WhoScored hasta un cambio de equipo o un evento de "inicio de posesión"
+(`BallRecovery`, `Interception`, `Tackle`, etc. — ver
+`_TIPOS_INICIO_POSESION` en `parser.py`), con un tope de 25 eventos
+(`MAX_EVENTOS_SECUENCIA_GOL`) para no arrastrar una posesión gigante entera.
+Cada elemento trae `jugador`, `tipo` (`Pass`, `Carry`, u otro tipo de evento
+de WhoScored), `minuto`/`segundo`, `x`/`y` de origen y `endX`/`endY` de
+destino, y `exitoso`. WhoScored no tiene un evento de "conducción" propio
+(a diferencia de StatsBomb) — `Carry` se infiere comparando dónde terminó
+el pase anterior (`endX`/`endY`) contra dónde arranca la siguiente acción
+del jugador que la recibió; si la distancia supera `UMBRAL_CONDUCCION`
+(3.0 en la escala 0-100 de cancha), se cuenta como tramo de conducción.
+Pensado para la vista "cómo se gestó este gol" al hacer click en el
+goleador.
 
 **Ojo:** `data/jugadores.json` y `data/lista.json` viven en la misma carpeta
 `data/` pero NO son partidos — son índices/metadata que arma `parser.py`.
