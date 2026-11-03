@@ -441,7 +441,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.1,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 33,
@@ -4690,7 +4691,20 @@
         "x": 95.5,
         "y": 49.9,
         "arco_y": 48.5,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": [
+          {
+            "jugador": "João Klauss",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 9,
+            "x": 90.6,
+            "y": 39.0,
+            "endX": 95.5,
+            "endY": 49.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 18,
@@ -4699,7 +4713,20 @@
         "x": 81.2,
         "y": 54.7,
         "arco_y": 46.7,
-        "arco_z": 30.4
+        "arco_z": 30.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Brendan McSorley",
+            "tipo": "BallTouch",
+            "minuto": 18,
+            "segundo": 30,
+            "x": 81.1,
+            "y": 46.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 26,
@@ -4753,7 +4780,75 @@
         "x": 94.3,
         "y": 57.3,
         "arco_y": 53.6,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Célio Pompeu",
+            "tipo": "TakeOn",
+            "minuto": 43,
+            "segundo": 45,
+            "x": 75.8,
+            "y": 77.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Célio Pompeu",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 46,
+            "x": 74.7,
+            "y": 71.8,
+            "endX": 70.5,
+            "endY": 56.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 48,
+            "x": 69.4,
+            "y": 55.2,
+            "endX": 84.6,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Conrad Wallem",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 58,
+            "x": 84.6,
+            "y": 17.4,
+            "endX": 89.5,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Conrad Wallem",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 58,
+            "x": 89.5,
+            "y": 22.5,
+            "endX": 81.4,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcel Hartel",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 0,
+            "x": 79.8,
+            "y": 30.5,
+            "endX": 95.0,
+            "endY": 57.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,

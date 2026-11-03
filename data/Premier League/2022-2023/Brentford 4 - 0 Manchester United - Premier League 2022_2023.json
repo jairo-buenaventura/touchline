@@ -381,7 +381,8 @@
         "x": 78.0,
         "y": 34.6,
         "arco_y": 45.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 13,
@@ -408,7 +409,20 @@
         "x": 86.7,
         "y": 51.0,
         "arco_y": 53.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 11,
+            "x": 87.7,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 29,
@@ -417,7 +431,20 @@
         "x": 97.8,
         "y": 46.1,
         "arco_y": 46.7,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Ivan Toney",
+            "tipo": "BallTouch",
+            "minuto": 29,
+            "segundo": 54,
+            "x": 96.9,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,
@@ -426,7 +453,42 @@
         "x": 86.4,
         "y": 48.8,
         "arco_y": 53.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 7,
+            "x": 10.6,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 10,
+            "x": 8.5,
+            "y": 75.9,
+            "endX": 63.5,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Toney",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 15,
+            "x": 64.0,
+            "y": 87.3,
+            "endX": 81.5,
+            "endY": 44.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,

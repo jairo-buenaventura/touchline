@@ -414,7 +414,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.4,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 55,
@@ -423,7 +424,31 @@
         "x": 84.2,
         "y": 66.0,
         "arco_y": 51.9,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Dave Kwakman",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 54,
+            "x": 64.8,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dave Kwakman",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 54,
+            "x": 64.8,
+            "y": 37.9,
+            "endX": 75.1,
+            "endY": 80.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,
@@ -486,7 +511,42 @@
         "x": 96.4,
         "y": 52.3,
         "arco_y": 46.2,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Alex Plat",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 53,
+            "x": 77.9,
+            "y": 37.7,
+            "endX": 85.6,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Precious Ugwu",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 54,
+            "x": 85.6,
+            "y": 27.3,
+            "endX": 89.8,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Precious Ugwu",
+            "tipo": "ShotOnPost",
+            "minuto": 95,
+            "segundo": 54,
+            "x": 89.8,
+            "y": 30.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4174,7 +4234,20 @@
         "x": 94.9,
         "y": 50.3,
         "arco_y": 48.1,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Younes Taha",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 6,
+            "x": 85.2,
+            "y": 87.7,
+            "endX": 95.3,
+            "endY": 50.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 27,
@@ -4327,7 +4400,42 @@
         "x": 98.3,
         "y": 44.4,
         "arco_y": 48.9,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Wouter Prins",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 79.9,
+            "y": 100.0,
+            "endX": 66.4,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 66.4,
+            "y": 89.8,
+            "endX": 67.0,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 67.0,
+            "y": 81.8,
+            "endX": 98.2,
+            "endY": 44.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

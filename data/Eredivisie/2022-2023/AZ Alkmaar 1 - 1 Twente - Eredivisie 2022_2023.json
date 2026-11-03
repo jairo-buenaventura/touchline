@@ -443,7 +443,8 @@
         "x": 86.6,
         "y": 64.7,
         "arco_y": 45.9,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -4628,7 +4629,31 @@
         "x": 86.9,
         "y": 55.5,
         "arco_y": 52.6,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Joshua Brenet",
+            "tipo": "TakeOn",
+            "minuto": 80,
+            "segundo": 25,
+            "x": 86.5,
+            "y": 66.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Brenet",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 26,
+            "x": 84.9,
+            "y": 68.9,
+            "endX": 88.0,
+            "endY": 61.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

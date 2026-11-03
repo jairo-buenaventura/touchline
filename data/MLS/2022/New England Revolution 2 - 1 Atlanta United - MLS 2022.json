@@ -436,7 +436,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.5,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -517,7 +518,31 @@
         "x": 91.2,
         "y": 62.5,
         "arco_y": 47.8,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Carles Gil",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 20,
+            "x": 74.1,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 22,
+            "x": 77.4,
+            "y": 49.5,
+            "endX": 90.3,
+            "endY": 63.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4235,7 +4260,75 @@
         "x": 90.6,
         "y": 57.9,
         "arco_y": 52.4,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Andrew Gutman",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 54.0,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Gutman",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 54.0,
+            "y": 55.4,
+            "endX": 64.4,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 18,
+            "x": 64.4,
+            "y": 71.1,
+            "endX": 72.4,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 18,
+            "x": 72.4,
+            "y": 61.8,
+            "endX": 73.6,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelino Moreno",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 21,
+            "x": 73.8,
+            "y": 35.7,
+            "endX": 93.0,
+            "endY": 19.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brooks Lennon",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 23,
+            "x": 93.0,
+            "y": 19.8,
+            "endX": 90.6,
+            "endY": 57.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,

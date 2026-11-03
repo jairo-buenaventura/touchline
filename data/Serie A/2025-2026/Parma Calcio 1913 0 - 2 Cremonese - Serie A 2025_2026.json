@@ -4146,7 +4146,8 @@
         "x": 72.8,
         "y": 57.7,
         "arco_y": 46.8,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 67,
@@ -4155,7 +4156,53 @@
         "x": 88.1,
         "y": 55.3,
         "arco_y": 46.8,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Martín Payero",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 11,
+            "x": 40.1,
+            "y": 72.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Payero",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 12,
+            "x": 41.0,
+            "y": 74.5,
+            "endX": 64.0,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 14,
+            "x": 64.0,
+            "y": 86.6,
+            "endX": 70.2,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 14,
+            "x": 70.2,
+            "y": 86.8,
+            "endX": 75.3,
+            "endY": 57.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 76,

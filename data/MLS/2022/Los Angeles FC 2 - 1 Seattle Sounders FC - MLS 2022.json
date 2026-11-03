@@ -401,7 +401,8 @@
         "x": 6.7,
         "y": 44.0,
         "arco_y": 50.6,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 15,
@@ -446,7 +447,20 @@
         "x": 80.4,
         "y": 63.4,
         "arco_y": 46.3,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Mahala Opoku",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 50,
+            "x": 73.4,
+            "y": 61.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 37,
@@ -500,7 +514,42 @@
         "x": 90.9,
         "y": 48.0,
         "arco_y": 49.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Palacios",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 47,
+            "x": 63.6,
+            "y": 54.5,
+            "endX": 81.5,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 54,
+            "x": 81.5,
+            "y": 87.7,
+            "endX": 77.4,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 54,
+            "x": 77.4,
+            "y": 82.6,
+            "endX": 89.0,
+            "endY": 48.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 46,

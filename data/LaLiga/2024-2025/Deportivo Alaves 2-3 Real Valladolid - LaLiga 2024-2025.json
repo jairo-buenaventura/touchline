@@ -401,7 +401,20 @@
         "x": 73.4,
         "y": 62.9,
         "arco_y": 54.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Toni Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 10,
+            "x": 70.8,
+            "y": 72.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 10,
@@ -473,7 +486,20 @@
         "x": 84.0,
         "y": 67.8,
         "arco_y": 45.9,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Abdel Abqar",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 17,
+            "x": 62.5,
+            "y": 27.9,
+            "endX": 86.6,
+            "endY": 69.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4237,7 +4263,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -4300,7 +4327,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 49.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,
@@ -4309,7 +4337,53 @@
         "x": 91.2,
         "y": 40.3,
         "arco_y": 53.0,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Víctor Meseguer",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 30,
+            "x": 43.3,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Víctor Meseguer",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 30,
+            "x": 44.4,
+            "y": 88.3,
+            "endX": 67.9,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sylla",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 67.9,
+            "y": 75.9,
+            "endX": 81.3,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sylla",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 81.3,
+            "y": 69.0,
+            "endX": 89.0,
+            "endY": 37.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,

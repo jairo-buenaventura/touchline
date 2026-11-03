@@ -550,7 +550,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.1,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 77,
@@ -622,7 +623,64 @@
         "x": 87.6,
         "y": 42.1,
         "arco_y": 47.0,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Joël Matip",
+            "tipo": "BallRecovery",
+            "minuto": 96,
+            "segundo": 40,
+            "x": 17.0,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joël Matip",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 40,
+            "x": 17.0,
+            "y": 31.9,
+            "endX": 24.2,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 41,
+            "x": 24.2,
+            "y": 29.4,
+            "endX": 41.3,
+            "endY": 41.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darwin Núñez",
+            "tipo": "Carry",
+            "minuto": 96,
+            "segundo": 48,
+            "x": 41.3,
+            "y": 41.5,
+            "endX": 79.2,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darwin Núñez",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 48,
+            "x": 79.2,
+            "y": 56.1,
+            "endX": 88.0,
+            "endY": 42.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

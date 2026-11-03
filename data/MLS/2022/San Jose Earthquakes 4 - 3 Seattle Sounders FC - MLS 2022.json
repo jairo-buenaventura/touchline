@@ -506,7 +506,8 @@
         "x": 93.6,
         "y": 49.4,
         "arco_y": 48.4,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -551,7 +552,8 @@
         "x": 88.9,
         "y": 14.1,
         "arco_y": 48.2,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -560,7 +562,53 @@
         "x": 92.1,
         "y": 50.3,
         "arco_y": 52.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 17,
+            "x": 80.4,
+            "y": 33.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 19,
+            "x": 78.2,
+            "y": 35.5,
+            "endX": 88.0,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 20,
+            "x": 88.6,
+            "y": 32.4,
+            "endX": 86.2,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 21,
+            "x": 85.5,
+            "y": 41.7,
+            "endX": 91.7,
+            "endY": 50.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 69,
@@ -605,7 +653,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.4,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -5043,7 +5092,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 49.3,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -5052,7 +5102,20 @@
         "x": 90.7,
         "y": 55.5,
         "arco_y": 53.9,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolás Lodeiro",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 2,
+            "x": 75.2,
+            "y": 95.2,
+            "endX": 90.5,
+            "endY": 55.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 26,
@@ -5097,7 +5160,42 @@
         "x": 96.9,
         "y": 48.2,
         "arco_y": 49.4,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Raúl Ruidíaz",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 28,
+            "x": 70.7,
+            "y": 43.3,
+            "endX": 86.4,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Lodeiro",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 32,
+            "x": 86.4,
+            "y": 79.6,
+            "endX": 88.8,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Lodeiro",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 32,
+            "x": 88.8,
+            "y": 76.9,
+            "endX": 96.3,
+            "endY": 47.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,

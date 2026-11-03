@@ -65,6 +65,10 @@ de tratarlo como un partido normal.
    `git add -A` — `data/`, `partidos_fotmob/`, y cualquier script que hayas tenido que tocar),
    commit con mensaje descriptivo (qué ligas, cuántos partidos, terminando con
    `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`), `git push origin main`.
+   **`data/jugadores.json` ya NO se commitea** (está en `.gitignore` desde 2026-11-02, pasó
+   los 100MB duros de GitHub y rompía el push) — se sigue regenerando local en cada corrida
+   para que `index.html` vía localhost y los scripts de perfiles/Transfermarkt lo sigan
+   usando, simplemente ya no viaja a GitHub. No uses `git add -f` para forzarlo.
 5. **NO corras `vercel --prod`.** El usuario pidió explícitamente (2026-10-14) dejar de
    desplegar a Vercel en cada corrida -- el deploy se volvió pesado (~97MB subidos por
    corrida, sobre todo por `data/jugadores.json` que se reescribe completo cada vez) y por

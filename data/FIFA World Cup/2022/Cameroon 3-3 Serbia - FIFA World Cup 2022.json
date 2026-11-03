@@ -428,7 +428,8 @@
         "x": 99.0,
         "y": 46.6,
         "arco_y": 47.5,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -473,7 +474,8 @@
         "x": 85.7,
         "y": 34.8,
         "arco_y": 51.0,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -482,7 +484,53 @@
         "x": 92.0,
         "y": 54.4,
         "arco_y": 54.2,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Collins Fai",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 15,
+            "x": 28.1,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Collins Fai",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 18,
+            "x": 36.4,
+            "y": 30.4,
+            "endX": 74.3,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vincent Aboubakar",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 23,
+            "x": 74.3,
+            "y": 24.3,
+            "endX": 91.3,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vincent Aboubakar",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 23,
+            "x": 91.3,
+            "y": 32.4,
+            "endX": 92.0,
+            "endY": 54.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,
@@ -4174,7 +4222,20 @@
         "x": 90.2,
         "y": 45.8,
         "arco_y": 54.4,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Dusan Tadic",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 20,
+            "x": 68.7,
+            "y": 60.6,
+            "endX": 92.0,
+            "endY": 47.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,
@@ -4183,7 +4244,53 @@
         "x": 80.8,
         "y": 42.3,
         "arco_y": 45.6,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Sergej Milinkovic-Savic",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 46,
+            "x": 72.8,
+            "y": 44.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergej Milinkovic-Savic",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 47,
+            "x": 72.4,
+            "y": 44.3,
+            "endX": 78.6,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrija Zivkovic",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 50,
+            "x": 78.6,
+            "y": 28.5,
+            "endX": 84.0,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrija Zivkovic",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 50,
+            "x": 84.0,
+            "y": 33.1,
+            "endX": 80.9,
+            "endY": 38.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -4210,7 +4317,86 @@
         "x": 93.2,
         "y": 52.2,
         "arco_y": 51.8,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Aleksandar Mitrovic",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 15,
+            "x": 66.1,
+            "y": 75.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Mitrovic",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 19,
+            "x": 77.8,
+            "y": 63.6,
+            "endX": 87.8,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 20,
+            "x": 87.8,
+            "y": 73.9,
+            "endX": 90.6,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 20,
+            "x": 90.6,
+            "y": 70.8,
+            "endX": 82.9,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergej Milinkovic-Savic",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 22,
+            "x": 82.9,
+            "y": 51.5,
+            "endX": 91.8,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrija Zivkovic",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 91.8,
+            "y": 32.1,
+            "endX": 90.5,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrija Zivkovic",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 90.5,
+            "y": 37.9,
+            "endX": 93.9,
+            "endY": 51.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,

@@ -476,7 +476,8 @@
         "x": 74.5,
         "y": 57.5,
         "arco_y": 46.1,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 93,
@@ -485,7 +486,20 @@
         "x": 91.9,
         "y": 64.8,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Patrik Wålemark",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 37,
+            "x": 86.8,
+            "y": 62.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4569,7 +4583,8 @@
         "x": 96.0,
         "y": 47.2,
         "arco_y": 50.1,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 44,
@@ -4605,7 +4620,31 @@
         "x": 89.1,
         "y": 34.0,
         "arco_y": 53.9,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Isac Lidberg",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 87.5,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isac Lidberg",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 82.3,
+            "y": 42.1,
+            "endX": 88.5,
+            "endY": 34.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 54,
@@ -4659,7 +4698,53 @@
         "x": 94.6,
         "y": 29.0,
         "arco_y": 52.6,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Toornstra",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 30,
+            "x": 26.0,
+            "y": 72.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Toornstra",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 34,
+            "x": 33.0,
+            "y": 62.8,
+            "endX": 34.8,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 38,
+            "x": 34.8,
+            "y": 32.5,
+            "endX": 45.7,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 38,
+            "x": 45.7,
+            "y": 21.9,
+            "endX": 75.9,
+            "endY": 8.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 85,

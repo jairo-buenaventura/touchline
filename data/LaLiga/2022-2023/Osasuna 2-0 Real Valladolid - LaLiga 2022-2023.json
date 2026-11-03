@@ -372,7 +372,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 18,
@@ -381,7 +382,31 @@
         "x": 90.2,
         "y": 35.0,
         "arco_y": 48.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Ante Budimir",
+            "tipo": "BallTouch",
+            "minuto": 18,
+            "segundo": 37,
+            "x": 89.1,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aimar Oroz",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 41,
+            "x": 92.8,
+            "y": 21.0,
+            "endX": 90.1,
+            "endY": 30.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 31,

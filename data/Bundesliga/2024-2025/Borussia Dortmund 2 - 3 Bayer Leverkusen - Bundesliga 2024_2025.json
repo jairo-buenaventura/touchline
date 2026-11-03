@@ -401,7 +401,8 @@
         "x": 98.4,
         "y": 58.9,
         "arco_y": 51.9,
-        "arco_z": 32.9
+        "arco_z": 32.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -482,7 +483,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 92,
@@ -5307,7 +5309,20 @@
         "x": 84.7,
         "y": 70.3,
         "arco_y": 53.8,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Nathan Tella",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 24,
+            "x": 84.7,
+            "y": 70.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 7,
@@ -5316,7 +5331,97 @@
         "x": 94.0,
         "y": 44.1,
         "arco_y": 47.8,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 8,
+            "x": 39.6,
+            "y": 31.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 9,
+            "x": 39.6,
+            "y": 31.5,
+            "endX": 43.7,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 9,
+            "x": 43.8,
+            "y": 40.0,
+            "endX": 31.5,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 11,
+            "x": 31.2,
+            "y": 47.9,
+            "endX": 29.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 15,
+            "x": 29.2,
+            "y": 69.3,
+            "endX": 34.6,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 15,
+            "x": 34.6,
+            "y": 71.1,
+            "endX": 72.2,
+            "endY": 95.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 20,
+            "x": 72.2,
+            "y": 95.3,
+            "endX": 90.8,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 20,
+            "x": 90.8,
+            "y": 76.9,
+            "endX": 95.3,
+            "endY": 46.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 18,
@@ -5325,7 +5430,119 @@
         "x": 93.3,
         "y": 53.8,
         "arco_y": 53.2,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 9,
+            "x": 36.7,
+            "y": 0.0,
+            "endX": 19.4,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 11,
+            "x": 19.4,
+            "y": 7.6,
+            "endX": 6.7,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 14,
+            "x": 6.7,
+            "y": 35.4,
+            "endX": 4.6,
+            "endY": 45.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 14,
+            "x": 4.6,
+            "y": 45.1,
+            "endX": 9.8,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 22,
+            "x": 9.8,
+            "y": 69.3,
+            "endX": 35.4,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 22,
+            "x": 35.4,
+            "y": 87.2,
+            "endX": 53.6,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 25,
+            "x": 53.6,
+            "y": 60.0,
+            "endX": 63.9,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 25,
+            "x": 63.9,
+            "y": 53.1,
+            "endX": 78.4,
+            "endY": 17.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 29,
+            "x": 78.4,
+            "y": 17.3,
+            "endX": 85.6,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 29,
+            "x": 85.6,
+            "y": 18.0,
+            "endX": 93.7,
+            "endY": 54.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 30,

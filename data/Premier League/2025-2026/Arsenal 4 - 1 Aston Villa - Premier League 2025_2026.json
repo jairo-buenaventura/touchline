@@ -440,7 +440,8 @@
         "x": 97.4,
         "y": 51.5,
         "arco_y": 51.3,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -449,7 +450,31 @@
         "x": 90.2,
         "y": 48.9,
         "arco_y": 46.1,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 50,
+            "x": 64.7,
+            "y": 60.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 53,
+            "x": 74.1,
+            "y": 50.1,
+            "endX": 90.2,
+            "endY": 48.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 60,
@@ -494,7 +519,20 @@
         "x": 81.2,
         "y": 46.6,
         "arco_y": 46.2,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Jurriën Timber",
+            "tipo": "BallTouch",
+            "minuto": 68,
+            "segundo": 10,
+            "x": 81.2,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 77,
@@ -503,7 +541,152 @@
         "x": 82.3,
         "y": 53.4,
         "arco_y": 46.4,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "David Raya",
+            "tipo": "KeeperPickup",
+            "minuto": 77,
+            "segundo": 0,
+            "x": 9.6,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raya",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 11,
+            "x": 9.3,
+            "y": 51.9,
+            "endX": 17.3,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Saliba",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 13,
+            "x": 17.4,
+            "y": 11.2,
+            "endX": 7.3,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raya",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 7.9,
+            "y": 44.8,
+            "endX": 6.5,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 6.5,
+            "y": 76.0,
+            "endX": 11.2,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myles Lewis-Skelly",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 21,
+            "x": 11.2,
+            "y": 95.1,
+            "endX": 3.0,
+            "endY": 78.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 24,
+            "x": 3.0,
+            "y": 78.3,
+            "endX": 25.3,
+            "endY": 64.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 27,
+            "x": 25.3,
+            "y": 64.9,
+            "endX": 25.4,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 27,
+            "x": 25.4,
+            "y": 68.1,
+            "endX": 36.4,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Zubimendi",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 33,
+            "x": 36.4,
+            "y": 92.8,
+            "endX": 61.2,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Zubimendi",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 33,
+            "x": 61.2,
+            "y": 86.7,
+            "endX": 71.9,
+            "endY": 81.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 35,
+            "x": 71.9,
+            "y": 81.7,
+            "endX": 79.0,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 35,
+            "x": 79.0,
+            "y": 74.2,
+            "endX": 80.3,
+            "endY": 52.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -4091,7 +4274,20 @@
         "x": 98.3,
         "y": 49.3,
         "arco_y": 49.9,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Donyell Malen",
+            "tipo": "ShotOnPost",
+            "minuto": 93,
+            "segundo": 32,
+            "x": 99.2,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 97,

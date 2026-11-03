@@ -471,7 +471,8 @@
         "x": 1.4,
         "y": 50.1,
         "arco_y": 50.2,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 86,
@@ -4617,7 +4618,20 @@
         "x": 2.6,
         "y": 52.5,
         "arco_y": 45.6,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Pickford",
+            "tipo": "Save",
+            "minuto": 17,
+            "segundo": 10,
+            "x": 1.6,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 28,
@@ -4734,7 +4748,31 @@
         "x": 91.2,
         "y": 55.1,
         "arco_y": 47.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Vitalii Mykolenko",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 55,
+            "x": 89.9,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitalii Mykolenko",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 55,
+            "x": 93.8,
+            "y": 76.3,
+            "endX": 91.2,
+            "endY": 55.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,

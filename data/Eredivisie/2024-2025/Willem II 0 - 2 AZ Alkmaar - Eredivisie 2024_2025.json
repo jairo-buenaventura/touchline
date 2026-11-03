@@ -4401,7 +4401,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.3,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -4437,7 +4438,31 @@
         "x": 91.5,
         "y": 55.8,
         "arco_y": 48.9,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Mayckel Lahdo",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 23,
+            "x": 86.3,
+            "y": 77.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mayckel Lahdo",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 25,
+            "x": 94.9,
+            "y": 73.9,
+            "endX": 91.5,
+            "endY": 55.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,

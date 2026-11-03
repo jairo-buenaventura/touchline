@@ -434,7 +434,8 @@
         "x": 99.2,
         "y": 48.1,
         "arco_y": 48.1,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -461,7 +462,20 @@
         "x": 94.4,
         "y": 48.6,
         "arco_y": 45.8,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Fafà Picault",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 40,
+            "x": 95.9,
+            "y": 28.7,
+            "endX": 94.7,
+            "endY": 48.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 60,
@@ -479,7 +493,108 @@
         "x": 98.5,
         "y": 49.0,
         "arco_y": 50.3,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Berhalter",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 12,
+            "x": 11.6,
+            "y": 33.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Berhalter",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 14,
+            "x": 19.1,
+            "y": 33.7,
+            "endX": 57.4,
+            "endY": 11.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 19,
+            "x": 57.4,
+            "y": 11.9,
+            "endX": 54.2,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 19,
+            "x": 54.2,
+            "y": 9.2,
+            "endX": 43.6,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 20,
+            "x": 44.5,
+            "y": 25.0,
+            "endX": 47.6,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Schöpf",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 24,
+            "x": 47.6,
+            "y": 55.5,
+            "endX": 60.4,
+            "endY": 58.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Schöpf",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 24,
+            "x": 60.4,
+            "y": 58.1,
+            "endX": 82.4,
+            "endY": 84.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Adekugbe",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 28,
+            "x": 82.4,
+            "y": 84.4,
+            "endX": 91.0,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Adekugbe",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 28,
+            "x": 91.0,
+            "y": 76.7,
+            "endX": 98.5,
+            "endY": 49.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 98,
@@ -4136,7 +4251,86 @@
         "x": 85.9,
         "y": 57.7,
         "arco_y": 46.8,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Franco Escobar",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 55,
+            "x": 59.6,
+            "y": 100.0,
+            "endX": 54.0,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 1,
+            "x": 54.0,
+            "y": 94.7,
+            "endX": 56.5,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 1,
+            "x": 56.5,
+            "y": 89.3,
+            "endX": 62.1,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Escobar",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 3,
+            "x": 62.1,
+            "y": 95.7,
+            "endX": 66.1,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Escobar",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 3,
+            "x": 66.1,
+            "y": 95.4,
+            "endX": 82.4,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Aliyu",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 11,
+            "x": 82.4,
+            "y": 95.7,
+            "endX": 91.8,
+            "endY": 78.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Aliyu",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 11,
+            "x": 91.8,
+            "y": 78.5,
+            "endX": 84.8,
+            "endY": 59.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 35,
@@ -4145,7 +4339,8 @@
         "x": 80.9,
         "y": 41.3,
         "arco_y": 54.2,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 43,
@@ -4208,7 +4403,75 @@
         "x": 81.5,
         "y": 71.0,
         "arco_y": 45.8,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Griffin Dorsey",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 10,
+            "x": 17.5,
+            "y": 0.0,
+            "endX": 26.4,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 15,
+            "x": 26.4,
+            "y": 10.4,
+            "endX": 28.6,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 15,
+            "x": 28.6,
+            "y": 15.2,
+            "endX": 43.8,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Kowalczyk",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 43.8,
+            "y": 28.2,
+            "endX": 47.7,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Kowalczyk",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 47.7,
+            "y": 31.2,
+            "endX": 43.5,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Ferreira",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 18,
+            "x": 42.6,
+            "y": 48.5,
+            "endX": 60.0,
+            "endY": 72.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -4253,7 +4516,8 @@
         "x": 84.9,
         "y": 38.6,
         "arco_y": 52.1,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": []
       }
     ],
     "corners": [

@@ -381,7 +381,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.7,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -390,7 +391,8 @@
         "x": 94.6,
         "y": 52.6,
         "arco_y": 53.2,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 40,
@@ -435,7 +437,42 @@
         "x": 93.7,
         "y": 43.9,
         "arco_y": 50.2,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "TakeOn",
+            "minuto": 68,
+            "segundo": 38,
+            "x": 81.5,
+            "y": 17.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "TakeOn",
+            "minuto": 68,
+            "segundo": 43,
+            "x": 94.3,
+            "y": 19.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 46,
+            "x": 99.0,
+            "y": 32.4,
+            "endX": 93.2,
+            "endY": 45.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,

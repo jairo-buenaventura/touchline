@@ -452,7 +452,8 @@
         "x": 4.2,
         "y": 47.9,
         "arco_y": 46.4,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 35,
@@ -524,7 +525,20 @@
         "x": 76.8,
         "y": 55.1,
         "arco_y": 54.2,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Ronald Donkor",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 19,
+            "x": 85.8,
+            "y": 50.0,
+            "endX": 75.7,
+            "endY": 54.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 60,
@@ -542,7 +556,42 @@
         "x": 91.4,
         "y": 57.0,
         "arco_y": 53.3,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Mohammed Sofo",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 56,
+            "x": 84.9,
+            "y": 14.6,
+            "endX": 73.8,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ronald Donkor",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 59,
+            "x": 73.7,
+            "y": 32.8,
+            "endX": 77.1,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 0,
+            "x": 79.2,
+            "y": 56.6,
+            "endX": 88.8,
+            "endY": 57.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -551,7 +600,141 @@
         "x": 80.7,
         "y": 50.2,
         "arco_y": 54.3,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Noah Eile",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 8,
+            "x": 25.9,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noah Eile",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 9,
+            "x": 25.0,
+            "y": 12.0,
+            "endX": 28.3,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Nealis",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 28.3,
+            "y": 48.5,
+            "endX": 43.3,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Nealis",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 43.3,
+            "y": 65.8,
+            "endX": 54.5,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Hack",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 54.5,
+            "y": 92.1,
+            "endX": 57.5,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Hack",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 57.5,
+            "y": 93.6,
+            "endX": 69.5,
+            "endY": 97.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 69.6,
+            "y": 97.1,
+            "endX": 68.2,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Hack",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 21,
+            "x": 68.2,
+            "y": 92.6,
+            "endX": 79.5,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Hack",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 21,
+            "x": 79.5,
+            "y": 88.6,
+            "endX": 85.0,
+            "endY": 19.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Hall",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 26,
+            "x": 84.9,
+            "y": 19.4,
+            "endX": 80.9,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Gjengaar",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 28,
+            "x": 80.9,
+            "y": 28.0,
+            "endX": 83.9,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Gjengaar",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 28,
+            "x": 83.9,
+            "y": 27.6,
+            "endX": 80.5,
+            "endY": 39.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -578,7 +761,20 @@
         "x": 85.9,
         "y": 48.2,
         "arco_y": 53.3,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Ronald Donkor",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 40,
+            "x": 91.9,
+            "y": 24.0,
+            "endX": 86.1,
+            "endY": 45.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 87,
@@ -587,7 +783,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 88,
@@ -4817,7 +5014,8 @@
         "x": 82.4,
         "y": 51.7,
         "arco_y": 52.1,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 10,
@@ -4907,7 +5105,8 @@
         "x": 92.6,
         "y": 52.1,
         "arco_y": 46.7,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 96,

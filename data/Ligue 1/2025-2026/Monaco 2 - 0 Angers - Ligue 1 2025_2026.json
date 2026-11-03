@@ -440,7 +440,8 @@
         "x": 98.3,
         "y": 53.2,
         "arco_y": 54.0,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -449,7 +450,31 @@
         "x": 81.8,
         "y": 67.2,
         "arco_y": 46.4,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 3,
+            "x": 73.2,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 3,
+            "x": 73.2,
+            "y": 62.6,
+            "endX": 84.0,
+            "endY": 75.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 73,

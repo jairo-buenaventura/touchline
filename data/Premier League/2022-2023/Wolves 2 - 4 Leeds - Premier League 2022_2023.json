@@ -499,7 +499,8 @@
         "x": 63.6,
         "y": 71.7,
         "arco_y": 50.6,
-        "arco_z": 29.7
+        "arco_z": 29.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 69,
@@ -535,7 +536,8 @@
         "x": 84.0,
         "y": 35.7,
         "arco_y": 47.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 76,
@@ -5220,7 +5222,8 @@
         "x": 89.5,
         "y": 49.9,
         "arco_y": 47.7,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -5265,7 +5268,20 @@
         "x": 97.2,
         "y": 55.2,
         "arco_y": 51.0,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 54,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.3,
+            "endY": 55.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 58,
@@ -5292,7 +5308,8 @@
         "x": 95.6,
         "y": 32.6,
         "arco_y": 50.0,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 96,
@@ -5301,7 +5318,31 @@
         "x": 91.7,
         "y": 64.7,
         "arco_y": 52.9,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "BallRecovery",
+            "minuto": 95,
+            "segundo": 57,
+            "x": 68.0,
+            "y": 93.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 59,
+            "x": 71.9,
+            "y": 94.4,
+            "endX": 75.6,
+            "endY": 67.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

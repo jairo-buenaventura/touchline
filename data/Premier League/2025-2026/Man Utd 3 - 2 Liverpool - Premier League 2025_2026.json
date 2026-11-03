@@ -395,7 +395,8 @@
         "x": 84.7,
         "y": 54.3,
         "arco_y": 47.7,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 13,
@@ -413,7 +414,8 @@
         "x": 97.1,
         "y": 50.1,
         "arco_y": 48.2,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -494,7 +496,8 @@
         "x": 81.2,
         "y": 50.2,
         "arco_y": 52.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 85,
@@ -4138,7 +4141,20 @@
         "x": 87.0,
         "y": 57.9,
         "arco_y": 47.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 50,
+            "x": 51.4,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 54,
@@ -4156,7 +4172,31 @@
         "x": 88.4,
         "y": 56.0,
         "arco_y": 51.8,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 18,
+            "x": 88.2,
+            "y": 48.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 18,
+            "x": 88.5,
+            "y": 48.5,
+            "endX": 87.8,
+            "endY": 55.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,

@@ -478,7 +478,8 @@
         "x": 90.5,
         "y": 37.1,
         "arco_y": 50.1,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 95,
@@ -4805,7 +4806,42 @@
         "x": 74.1,
         "y": 3.0,
         "arco_y": 53.9,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Zé Pedro",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 52,
+            "x": 44.3,
+            "y": 31.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zé Pedro",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 53,
+            "x": 38.0,
+            "y": 32.3,
+            "endX": 45.2,
+            "endY": 44.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiano Esposito",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 54,
+            "x": 46.1,
+            "y": 42.3,
+            "endX": 71.1,
+            "endY": 8.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

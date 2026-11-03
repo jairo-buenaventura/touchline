@@ -5127,7 +5127,8 @@
         "x": 92.7,
         "y": 41.1,
         "arco_y": 50.5,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -5199,7 +5200,31 @@
         "x": 84.5,
         "y": 37.3,
         "arco_y": 50.5,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Lewis Cook",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 14,
+            "x": 32.5,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Cook",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 14,
+            "x": 32.5,
+            "y": 52.4,
+            "endX": 64.7,
+            "endY": 7.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -418,7 +418,8 @@
         "x": 94.5,
         "y": 48.4,
         "arco_y": 51.3,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 69,
@@ -463,7 +464,8 @@
         "x": 15.3,
         "y": 61.7,
         "arco_y": 46.4,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 96,
@@ -4619,7 +4621,31 @@
         "x": 96.0,
         "y": 53.0,
         "arco_y": 52.6,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 33,
+            "x": 91.9,
+            "y": 58.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorge Herrando",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 34,
+            "x": 90.5,
+            "y": 54.2,
+            "endX": 96.0,
+            "endY": 53.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 33,
@@ -4700,7 +4726,31 @@
         "x": 71.3,
         "y": 45.8,
         "arco_y": 49.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 38,
+            "x": 56.4,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 39,
+            "x": 56.6,
+            "y": 43.9,
+            "endX": 71.3,
+            "endY": 45.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

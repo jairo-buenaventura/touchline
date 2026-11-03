@@ -529,7 +529,31 @@
         "x": 89.9,
         "y": 47.4,
         "arco_y": 50.0,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Cameron Harper",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 3,
+            "x": 87.4,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Harper",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 4,
+            "x": 90.5,
+            "y": 34.2,
+            "endX": 89.9,
+            "endY": 47.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4122,7 +4146,8 @@
         "x": 2.9,
         "y": 54.4,
         "arco_y": 52.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 22,

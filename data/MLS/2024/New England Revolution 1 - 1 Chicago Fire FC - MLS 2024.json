@@ -441,7 +441,8 @@
         "x": 96.5,
         "y": 52.6,
         "arco_y": 52.7,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 56,
@@ -5013,7 +5014,53 @@
         "x": 91.7,
         "y": 54.2,
         "arco_y": 48.9,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 17,
+            "x": 62.8,
+            "y": 12.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 17,
+            "x": 64.1,
+            "y": 18.6,
+            "endX": 77.6,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Herbers",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 77.6,
+            "y": 25.6,
+            "endX": 86.5,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Herbers",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 86.5,
+            "y": 24.4,
+            "endX": 91.5,
+            "endY": 55.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 21,

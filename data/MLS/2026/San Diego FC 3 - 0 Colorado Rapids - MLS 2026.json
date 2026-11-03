@@ -387,7 +387,8 @@
         "x": 89.9,
         "y": 57.9,
         "arco_y": 53.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -414,7 +415,8 @@
         "x": 90.3,
         "y": 47.2,
         "arco_y": 46.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 63,
@@ -432,7 +434,86 @@
         "x": 86.1,
         "y": 45.8,
         "arco_y": 46.6,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 32,
+            "x": 32.8,
+            "y": 26.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 34,
+            "x": 30.0,
+            "y": 22.4,
+            "endX": 40.9,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 35,
+            "x": 40.9,
+            "y": 9.2,
+            "endX": 44.2,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pirani",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 42,
+            "x": 44.2,
+            "y": 44.6,
+            "endX": 69.7,
+            "endY": 35.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pirani",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 42,
+            "x": 69.7,
+            "y": 35.5,
+            "endX": 81.0,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Ingvartsen",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 44,
+            "x": 81.0,
+            "y": 26.8,
+            "endX": 88.1,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Ingvartsen",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 44,
+            "x": 88.1,
+            "y": 31.0,
+            "endX": 86.8,
+            "endY": 45.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -4422,7 +4422,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 25,
@@ -4467,7 +4468,53 @@
         "x": 89.3,
         "y": 38.9,
         "arco_y": 52.0,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 23,
+            "x": 37.2,
+            "y": 26.1,
+            "endX": 45.3,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 26,
+            "x": 45.3,
+            "y": 18.3,
+            "endX": 61.3,
+            "endY": 19.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 26,
+            "x": 61.3,
+            "y": 19.5,
+            "endX": 70.1,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 27,
+            "x": 70.1,
+            "y": 28.3,
+            "endX": 77.3,
+            "endY": 34.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,

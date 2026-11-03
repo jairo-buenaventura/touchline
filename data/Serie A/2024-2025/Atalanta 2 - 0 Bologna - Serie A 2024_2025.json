@@ -367,7 +367,8 @@
         "x": 95.9,
         "y": 45.3,
         "arco_y": 46.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 20,
@@ -376,7 +377,31 @@
         "x": 92.4,
         "y": 49.3,
         "arco_y": 53.0,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Mateo Retegui",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 37,
+            "x": 82.9,
+            "y": 5.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mateo Retegui",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 39,
+            "x": 99.1,
+            "y": 9.5,
+            "endX": 93.8,
+            "endY": 50.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 28,

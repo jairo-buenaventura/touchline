@@ -443,7 +443,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -452,7 +453,31 @@
         "x": 94.6,
         "y": 58.5,
         "arco_y": 51.2,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Abel Bretones",
+            "tipo": "CornerAwarded",
+            "minuto": 44,
+            "segundo": 41,
+            "x": 97.0,
+            "y": 71.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén García",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.6,
+            "endY": 58.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,
@@ -4743,7 +4768,53 @@
         "x": 75.5,
         "y": 44.7,
         "arco_y": 45.8,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Borja Iglesias",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 50,
+            "x": 35.8,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Borja Iglesias",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 50,
+            "x": 36.3,
+            "y": 50.8,
+            "endX": 65.6,
+            "endY": 44.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Jutglà",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 52,
+            "x": 65.6,
+            "y": 44.4,
+            "endX": 72.4,
+            "endY": 45.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Jutglà",
+            "tipo": "GoodSkill",
+            "minuto": 25,
+            "segundo": 52,
+            "x": 72.4,
+            "y": 45.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 29,
@@ -4779,7 +4850,8 @@
         "x": 96.6,
         "y": 50.0,
         "arco_y": 50.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 69,
@@ -4806,7 +4878,75 @@
         "x": 90.9,
         "y": 58.0,
         "arco_y": 51.6,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Ilaix Moriba",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 46,
+            "x": 34.7,
+            "y": 94.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilaix Moriba",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 50,
+            "x": 44.6,
+            "y": 86.1,
+            "endX": 38.1,
+            "endY": 56.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 38.1,
+            "y": 56.2,
+            "endX": 39.5,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 39.5,
+            "y": 62.0,
+            "endX": 55.7,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 55.7,
+            "y": 50.3,
+            "endX": 52.9,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 52.9,
+            "y": 60.6,
+            "endX": 75.2,
+            "endY": 72.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -367,7 +367,8 @@
         "x": 93.5,
         "y": 55.5,
         "arco_y": 54.2,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 10,
@@ -376,7 +377,8 @@
         "x": 93.6,
         "y": 50.9,
         "arco_y": 51.6,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 20,
@@ -394,7 +396,20 @@
         "x": 97.0,
         "y": 43.9,
         "arco_y": 46.3,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Danilo Veiga",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 56,
+            "x": 93.3,
+            "y": 15.4,
+            "endX": 97.0,
+            "endY": 43.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,
@@ -4267,7 +4282,174 @@
         "x": 96.5,
         "y": 54.8,
         "arco_y": 52.2,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Eddy Kouadio",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 35,
+            "x": 38.0,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eddy Kouadio",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 35,
+            "x": 38.0,
+            "y": 41.2,
+            "endX": 47.0,
+            "endY": 62.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ebenezer Akinsanmiro",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 40,
+            "x": 47.0,
+            "y": 62.2,
+            "endX": 54.0,
+            "endY": 59.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ebenezer Akinsanmiro",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 40,
+            "x": 54.0,
+            "y": 59.4,
+            "endX": 47.9,
+            "endY": 42.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Folorunsho",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 42,
+            "x": 47.6,
+            "y": 41.2,
+            "endX": 57.5,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuele Birindelli",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 45,
+            "x": 60.2,
+            "y": 8.2,
+            "endX": 44.7,
+            "endY": 12.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eddy Kouadio",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 48,
+            "x": 44.7,
+            "y": 12.0,
+            "endX": 37.2,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Lucchesi",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 51,
+            "x": 37.2,
+            "y": 41.4,
+            "endX": 38.0,
+            "endY": 48.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Lucchesi",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 51,
+            "x": 38.0,
+            "y": 48.0,
+            "endX": 48.0,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ebenezer Akinsanmiro",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 58,
+            "x": 48.0,
+            "y": 69.3,
+            "endX": 68.6,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ebenezer Akinsanmiro",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 58,
+            "x": 68.6,
+            "y": 84.9,
+            "endX": 75.0,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Mangas",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 59,
+            "x": 75.0,
+            "y": 85.9,
+            "endX": 71.5,
+            "endY": 78.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jay Robinson",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 2,
+            "x": 71.5,
+            "y": 78.0,
+            "endX": 72.7,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jay Robinson",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 2,
+            "x": 72.7,
+            "y": 70.3,
+            "endX": 90.3,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuele Birindelli",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 5,
+            "x": 90.7,
+            "y": 25.0,
+            "endX": 96.5,
+            "endY": 54.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 24,
@@ -4366,7 +4548,8 @@
         "x": 83.0,
         "y": 83.0,
         "arco_y": 53.1,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 91,

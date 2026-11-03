@@ -362,7 +362,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 31,
@@ -4337,7 +4338,8 @@
         "x": 83.2,
         "y": 49.7,
         "arco_y": 46.4,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -4364,7 +4366,53 @@
         "x": 86.7,
         "y": 34.4,
         "arco_y": 51.4,
-        "arco_z": 34.2
+        "arco_z": 34.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 56,
+            "x": 53.0,
+            "y": 28.4,
+            "endX": 59.1,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Politano",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 58,
+            "x": 57.7,
+            "y": 4.7,
+            "endX": 88.2,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 4,
+            "x": 88.2,
+            "y": 16.0,
+            "endX": 95.5,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 4,
+            "x": 95.5,
+            "y": 24.7,
+            "endX": 87.2,
+            "endY": 38.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 43,
@@ -4454,7 +4502,163 @@
         "x": 85.2,
         "y": 44.3,
         "arco_y": 46.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 38.2,
+            "y": 2.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 44,
+            "x": 37.7,
+            "y": 3.4,
+            "endX": 42.0,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 45,
+            "x": 42.0,
+            "y": 16.0,
+            "endX": 34.8,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 48,
+            "x": 34.8,
+            "y": 8.8,
+            "endX": 37.4,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 48,
+            "x": 37.4,
+            "y": 11.3,
+            "endX": 43.7,
+            "endY": 28.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 51,
+            "x": 43.7,
+            "y": 28.4,
+            "endX": 29.7,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Jesus",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 55,
+            "x": 29.7,
+            "y": 50.9,
+            "endX": 31.4,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Jesus",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 55,
+            "x": 31.4,
+            "y": 69.0,
+            "endX": 35.2,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mário Rui",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 57,
+            "x": 35.8,
+            "y": 94.5,
+            "endX": 39.2,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 59,
+            "x": 39.2,
+            "y": 84.9,
+            "endX": 37.9,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 59,
+            "x": 37.9,
+            "y": 77.3,
+            "endX": 34.1,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amir Rrahmani",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 3,
+            "x": 34.1,
+            "y": 35.2,
+            "endX": 42.9,
+            "endY": 26.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amir Rrahmani",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 3,
+            "x": 42.9,
+            "y": 26.6,
+            "endX": 64.9,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 5,
+            "x": 64.8,
+            "y": 29.5,
+            "endX": 85.9,
+            "endY": 44.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,

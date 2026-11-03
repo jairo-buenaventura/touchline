@@ -386,7 +386,8 @@
         "x": 88.8,
         "y": 47.4,
         "arco_y": 49.4,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -5170,7 +5171,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.3,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 48,
@@ -5197,7 +5199,20 @@
         "x": 89.4,
         "y": 51.2,
         "arco_y": 48.1,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Mauro Júnior",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 20,
+            "x": 70.1,
+            "y": 76.3,
+            "endX": 89.4,
+            "endY": 51.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 58,
@@ -5233,7 +5248,8 @@
         "x": 92.1,
         "y": 61.5,
         "arco_y": 47.3,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 90,
@@ -5242,7 +5258,75 @@
         "x": 85.1,
         "y": 52.6,
         "arco_y": 46.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 37,
+            "x": 22.5,
+            "y": 41.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 40,
+            "x": 26.0,
+            "y": 30.4,
+            "endX": 44.6,
+            "endY": 8.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 46,
+            "x": 44.6,
+            "y": 8.7,
+            "endX": 60.0,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 46,
+            "x": 60.0,
+            "y": 7.9,
+            "endX": 90.7,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergiño Dest",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 50,
+            "x": 90.7,
+            "y": 23.8,
+            "endX": 95.4,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergiño Dest",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 50,
+            "x": 95.4,
+            "y": 31.0,
+            "endX": 85.1,
+            "endY": 52.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

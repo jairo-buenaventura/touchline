@@ -430,7 +430,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -475,7 +476,42 @@
         "x": 91.2,
         "y": 34.8,
         "arco_y": 53.4,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "James Hill",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 44.7,
+            "y": 30.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Hill",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 44.7,
+            "y": 30.4,
+            "endX": 64.7,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Brooks",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 23,
+            "x": 67.2,
+            "y": 31.9,
+            "endX": 91.2,
+            "endY": 34.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -4538,7 +4574,20 @@
         "x": 2.0,
         "y": 53.2,
         "arco_y": 48.4,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Jefferson Lerma",
+            "tipo": "Error",
+            "minuto": 9,
+            "segundo": 32,
+            "x": 2.6,
+            "y": 55.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 45,

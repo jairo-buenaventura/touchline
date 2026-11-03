@@ -400,7 +400,8 @@
         "x": 97.3,
         "y": 53.4,
         "arco_y": 53.3,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -526,7 +527,53 @@
         "x": 95.8,
         "y": 46.2,
         "arco_y": 52.7,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 48,
+            "x": 67.9,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 48,
+            "x": 68.4,
+            "y": 44.6,
+            "endX": 91.0,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 55,
+            "x": 91.0,
+            "y": 16.0,
+            "endX": 95.7,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 55,
+            "x": 95.7,
+            "y": 23.2,
+            "endX": 96.4,
+            "endY": 43.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

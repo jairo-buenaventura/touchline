@@ -413,7 +413,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -431,7 +432,8 @@
         "x": 85.3,
         "y": 35.8,
         "arco_y": 46.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -4105,7 +4107,20 @@
         "x": 87.9,
         "y": 63.8,
         "arco_y": 53.9,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "BallRecovery",
+            "minuto": 24,
+            "segundo": 30,
+            "x": 52.3,
+            "y": 76.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 33,
@@ -4150,7 +4165,8 @@
         "x": 92.1,
         "y": 49.0,
         "arco_y": 50.3,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -4231,7 +4247,8 @@
         "x": 89.9,
         "y": 64.0,
         "arco_y": 52.7,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 73,
@@ -4240,7 +4257,75 @@
         "x": 92.5,
         "y": 45.7,
         "arco_y": 50.6,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Farès Chaïbi",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 1,
+            "x": 65.6,
+            "y": 46.3,
+            "endX": 61.6,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 2,
+            "x": 60.9,
+            "y": 57.2,
+            "endX": 55.3,
+            "endY": 42.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 5,
+            "x": 55.3,
+            "y": 42.9,
+            "endX": 54.4,
+            "endY": 39.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 5,
+            "x": 54.4,
+            "y": 39.6,
+            "endX": 91.7,
+            "endY": 24.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 10,
+            "x": 91.7,
+            "y": 24.8,
+            "endX": 91.7,
+            "endY": 32.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 10,
+            "x": 91.7,
+            "y": 32.3,
+            "endX": 91.0,
+            "endY": 43.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

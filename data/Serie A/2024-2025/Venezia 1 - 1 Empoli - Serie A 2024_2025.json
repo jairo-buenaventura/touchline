@@ -357,7 +357,8 @@
         "x": 91.5,
         "y": 52.8,
         "arco_y": 50.1,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -4546,7 +4547,31 @@
         "x": 88.8,
         "y": 57.2,
         "arco_y": 54.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Lorenzo Colombo",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 59,
+            "x": 84.2,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Colombo",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 1,
+            "x": 85.6,
+            "y": 41.2,
+            "endX": 88.8,
+            "endY": 57.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,

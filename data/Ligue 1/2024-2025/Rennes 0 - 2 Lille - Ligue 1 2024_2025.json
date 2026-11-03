@@ -4041,7 +4041,8 @@
         "x": 97.9,
         "y": 43.3,
         "arco_y": 50.6,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 82,
@@ -4059,7 +4060,42 @@
         "x": 88.6,
         "y": 60.5,
         "arco_y": 49.0,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Benjamin André",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 31,
+            "x": 64.7,
+            "y": 43.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 32,
+            "x": 64.7,
+            "y": 43.7,
+            "endX": 79.7,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchel Bakker",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 35,
+            "x": 79.7,
+            "y": 61.4,
+            "endX": 92.3,
+            "endY": 64.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,

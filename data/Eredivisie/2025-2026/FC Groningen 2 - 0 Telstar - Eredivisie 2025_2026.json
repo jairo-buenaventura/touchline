@@ -410,7 +410,8 @@
         "x": 72.5,
         "y": 75.4,
         "arco_y": 48.5,
-        "arco_z": 26.6
+        "arco_z": 26.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -518,7 +519,31 @@
         "x": 92.7,
         "y": 53.8,
         "arco_y": 48.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Wouter Prins",
+            "tipo": "TakeOn",
+            "minuto": 87,
+            "segundo": 30,
+            "x": 90.0,
+            "y": 88.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wouter Prins",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 36,
+            "x": 93.6,
+            "y": 82.0,
+            "endX": 92.7,
+            "endY": 53.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 92,

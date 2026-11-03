@@ -413,7 +413,8 @@
         "x": 99.0,
         "y": 51.6,
         "arco_y": 49.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 85,
@@ -449,7 +450,8 @@
         "x": 93.0,
         "y": 41.3,
         "arco_y": 48.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 94,
@@ -458,7 +460,31 @@
         "x": 90.5,
         "y": 59.9,
         "arco_y": 51.4,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Magnus Mattsson",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 3,
+            "x": 72.5,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Magnus Mattsson",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 5,
+            "x": 77.7,
+            "y": 75.1,
+            "endX": 89.2,
+            "endY": 64.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 96,

@@ -419,7 +419,8 @@
         "x": 2.0,
         "y": 52.4,
         "arco_y": 45.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -455,7 +456,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -473,7 +475,64 @@
         "x": 94.2,
         "y": 46.2,
         "arco_y": 46.6,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "José Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 52,
+            "x": 54.9,
+            "y": 37.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Martínez",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 53,
+            "x": 55.3,
+            "y": 37.1,
+            "endX": 64.9,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 64.9,
+            "y": 46.1,
+            "endX": 71.2,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 71.2,
+            "y": 48.4,
+            "endX": 91.5,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Bedoya",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 0,
+            "x": 90.9,
+            "y": 26.0,
+            "endX": 93.5,
+            "endY": 46.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,
@@ -500,7 +559,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 77,
@@ -518,7 +578,20 @@
         "x": 88.9,
         "y": 39.4,
         "arco_y": 52.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Joaquín Torres",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 2,
+            "x": 66.1,
+            "y": 51.5,
+            "endX": 84.7,
+            "endY": 41.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

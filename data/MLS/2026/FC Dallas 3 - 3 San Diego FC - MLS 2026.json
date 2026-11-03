@@ -441,7 +441,8 @@
         "x": 95.4,
         "y": 51.0,
         "arco_y": 46.7,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -450,7 +451,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.3,
-        "arco_z": 32.9
+        "arco_z": 32.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 57,
@@ -486,7 +488,20 @@
         "x": 91.4,
         "y": 52.8,
         "arco_y": 52.5,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Bernard Kamungo",
+            "tipo": "BallTouch",
+            "minuto": 94,
+            "segundo": 7,
+            "x": 91.6,
+            "y": 67.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 95,
@@ -4170,7 +4185,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -4179,7 +4195,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.3,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4188,7 +4205,31 @@
         "x": 90.9,
         "y": 53.5,
         "arco_y": 52.8,
-        "arco_z": 34.8
+        "arco_z": 34.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Alex Mighten",
+            "tipo": "TakeOn",
+            "minuto": 50,
+            "segundo": 39,
+            "x": 89.0,
+            "y": 84.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Mighten",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 40,
+            "x": 96.9,
+            "y": 75.6,
+            "endX": 90.9,
+            "endY": 53.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 98,

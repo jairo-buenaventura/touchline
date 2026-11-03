@@ -385,7 +385,8 @@
         "x": 72.2,
         "y": 31.2,
         "arco_y": 54.2,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -475,7 +476,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.1,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4396,7 +4398,64 @@
         "x": 91.3,
         "y": 52.4,
         "arco_y": 46.5,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Peter Stroud",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 24,
+            "x": 46.8,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Stroud",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 46.8,
+            "y": 61.4,
+            "endX": 60.2,
+            "endY": 73.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 30,
+            "x": 60.2,
+            "y": 73.4,
+            "endX": 79.6,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 30,
+            "x": 79.6,
+            "y": 60.9,
+            "endX": 80.7,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Stroud",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 31,
+            "x": 80.7,
+            "y": 51.9,
+            "endX": 91.1,
+            "endY": 52.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,

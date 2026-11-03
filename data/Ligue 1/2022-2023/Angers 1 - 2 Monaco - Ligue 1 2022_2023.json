@@ -388,7 +388,8 @@
         "x": 88.6,
         "y": 54.4,
         "arco_y": 54.3,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -5195,7 +5196,20 @@
         "x": 78.6,
         "y": 54.3,
         "arco_y": 46.8,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Vanderson",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 24,
+            "x": 80.8,
+            "y": 39.4,
+            "endX": 78.0,
+            "endY": 45.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 59,
@@ -5204,7 +5218,31 @@
         "x": 87.3,
         "y": 53.0,
         "arco_y": 52.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 38,
+            "x": 48.7,
+            "y": 24.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 42,
+            "x": 75.6,
+            "y": 34.9,
+            "endX": 85.7,
+            "endY": 53.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,

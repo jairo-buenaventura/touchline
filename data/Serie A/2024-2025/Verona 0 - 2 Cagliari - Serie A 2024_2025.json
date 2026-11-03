@@ -4482,7 +4482,8 @@
         "x": 95.7,
         "y": 56.0,
         "arco_y": 51.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -4500,7 +4501,53 @@
         "x": 95.1,
         "y": 52.6,
         "arco_y": 51.3,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Michel Adopo",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 7,
+            "x": 38.0,
+            "y": 35.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Adopo",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 40.2,
+            "y": 31.5,
+            "endX": 60.8,
+            "endY": 13.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Gaetano",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 60.8,
+            "y": 13.0,
+            "endX": 88.8,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Gaetano",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 88.8,
+            "y": 32.1,
+            "endX": 95.6,
+            "endY": 54.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

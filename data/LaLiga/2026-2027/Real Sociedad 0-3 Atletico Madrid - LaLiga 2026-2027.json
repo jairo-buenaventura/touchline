@@ -4885,7 +4885,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 51.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 89,
@@ -4894,7 +4895,8 @@
         "x": 86.4,
         "y": 46.8,
         "arco_y": 52.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 94,
@@ -4903,7 +4905,31 @@
         "x": 85.9,
         "y": 47.6,
         "arco_y": 50.6,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 25,
+            "x": 31.6,
+            "y": 86.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 27,
+            "x": 32.3,
+            "y": 88.6,
+            "endX": 57.1,
+            "endY": 48.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

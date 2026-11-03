@@ -432,7 +432,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.8,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -504,7 +505,53 @@
         "x": 93.3,
         "y": 38.3,
         "arco_y": 48.2,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Timon Wellenreuther",
+            "tipo": "Claim",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 2.8,
+            "y": 44.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timon Wellenreuther",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 7,
+            "x": 15.5,
+            "y": 52.8,
+            "endX": 54.7,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 11,
+            "x": 54.7,
+            "y": 71.8,
+            "endX": 55.2,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 11,
+            "x": 55.2,
+            "y": 65.2,
+            "endX": 69.7,
+            "endY": 23.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,
@@ -531,7 +578,108 @@
         "x": 71.8,
         "y": 51.6,
         "arco_y": 53.4,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Thomas Beelen",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 2,
+            "x": 18.7,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Beelen",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 32.2,
+            "y": 81.2,
+            "endX": 34.0,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 8,
+            "x": 34.0,
+            "y": 95.7,
+            "endX": 29.3,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 8,
+            "x": 29.3,
+            "y": 92.6,
+            "endX": 19.1,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Bueno",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 12,
+            "x": 21.1,
+            "y": 82.1,
+            "endX": 42.6,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Beelen",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 15,
+            "x": 42.6,
+            "y": 91.8,
+            "endX": 37.8,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Beelen",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 15,
+            "x": 37.8,
+            "y": 93.6,
+            "endX": 31.3,
+            "endY": 97.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 16,
+            "x": 31.3,
+            "y": 97.4,
+            "endX": 32.3,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Beelen",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 17,
+            "x": 32.3,
+            "y": 88.3,
+            "endX": 44.1,
+            "endY": 96.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

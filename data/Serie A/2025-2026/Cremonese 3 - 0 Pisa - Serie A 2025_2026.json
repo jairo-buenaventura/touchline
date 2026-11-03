@@ -396,7 +396,8 @@
         "x": 82.2,
         "y": 60.3,
         "arco_y": 46.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 40,
@@ -441,7 +442,53 @@
         "x": 87.7,
         "y": 45.2,
         "arco_y": 52.9,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 19,
+            "x": 39.4,
+            "y": 38.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 20,
+            "x": 41.5,
+            "y": 39.7,
+            "endX": 70.5,
+            "endY": 61.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jari Vandeputte",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 24,
+            "x": 70.5,
+            "y": 61.7,
+            "endX": 75.6,
+            "endY": 59.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jari Vandeputte",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 24,
+            "x": 75.6,
+            "y": 59.3,
+            "endX": 83.8,
+            "endY": 46.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -468,7 +515,20 @@
         "x": 96.7,
         "y": 67.7,
         "arco_y": 47.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "David Okereke",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 56,
+            "x": 94.4,
+            "y": 82.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

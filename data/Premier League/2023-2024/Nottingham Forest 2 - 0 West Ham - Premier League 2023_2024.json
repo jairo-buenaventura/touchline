@@ -440,7 +440,20 @@
         "x": 90.6,
         "y": 52.7,
         "arco_y": 49.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolás Domínguez",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 72.9,
+            "y": 51.9,
+            "endX": 89.1,
+            "endY": 51.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -539,7 +552,42 @@
         "x": 92.4,
         "y": 57.8,
         "arco_y": 53.2,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Neco Williams",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 96.4,
+            "y": 30.1,
+            "endX": 96.2,
+            "endY": 49.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anthony Elanga",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 96.2,
+            "y": 49.9,
+            "endX": 96.7,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Elanga",
+            "tipo": "BallTouch",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 96.7,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -401,7 +401,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -518,7 +519,20 @@
         "x": 6.9,
         "y": 49.7,
         "arco_y": 45.7,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Clearance",
+            "minuto": 79,
+            "segundo": 27,
+            "x": 8.5,
+            "y": 59.3,
+            "endX": 7.3,
+            "endY": 52.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,
@@ -554,7 +568,97 @@
         "x": 94.3,
         "y": 44.7,
         "arco_y": 49.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 13,
+            "x": 62.4,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 14,
+            "x": 66.7,
+            "y": 74.5,
+            "endX": 66.8,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rominigue Kouamé",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 17,
+            "x": 66.8,
+            "y": 60.9,
+            "endX": 66.8,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rominigue Kouamé",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 17,
+            "x": 66.8,
+            "y": 56.6,
+            "endX": 71.3,
+            "endY": 19.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 20,
+            "x": 71.3,
+            "y": 19.8,
+            "endX": 75.8,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 20,
+            "x": 75.8,
+            "y": 25.5,
+            "endX": 91.2,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omari Glasgow",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 22,
+            "x": 91.2,
+            "y": 28.6,
+            "endX": 96.3,
+            "endY": 31.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omari Glasgow",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 22,
+            "x": 96.3,
+            "y": 31.3,
+            "endX": 94.0,
+            "endY": 44.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

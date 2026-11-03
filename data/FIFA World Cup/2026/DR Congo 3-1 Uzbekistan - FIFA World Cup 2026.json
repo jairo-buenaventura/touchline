@@ -457,7 +457,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.0,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 74,
@@ -484,7 +485,8 @@
         "x": 95.7,
         "y": 54.7,
         "arco_y": 54.2,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 87,
@@ -511,7 +513,53 @@
         "x": 80.2,
         "y": 69.0,
         "arco_y": 45.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Aaron Wan-Bissaka",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 1,
+            "x": 60.8,
+            "y": 9.9,
+            "endX": 85.7,
+            "endY": 27.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fiston Mayele",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 5,
+            "x": 85.7,
+            "y": 27.7,
+            "endX": 90.3,
+            "endY": 27.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fiston Mayele",
+            "tipo": "MissedShots",
+            "minuto": 90,
+            "segundo": 5,
+            "x": 90.3,
+            "y": 27.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Meschack Elia",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 95.1,
+            "y": 87.2,
+            "endX": 84.9,
+            "endY": 72.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 94,
@@ -5015,7 +5063,53 @@
         "x": 92.0,
         "y": 73.5,
         "arco_y": 46.7,
-        "arco_z": 24.0
+        "arco_z": 24.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Abdukodir Khusanov",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 13,
+            "x": 44.6,
+            "y": 95.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdukodir Khusanov",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 15,
+            "x": 44.5,
+            "y": 92.5,
+            "endX": 60.1,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akmal Mozgovoy",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 17,
+            "x": 60.1,
+            "y": 75.6,
+            "endX": 59.8,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akmal Mozgovoy",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 17,
+            "x": 59.8,
+            "y": 72.0,
+            "endX": 92.0,
+            "endY": 73.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,

@@ -372,7 +372,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 51.9,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 6,
@@ -381,7 +382,8 @@
         "x": 92.7,
         "y": 46.2,
         "arco_y": 48.3,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -462,7 +464,8 @@
         "x": 95.2,
         "y": 39.5,
         "arco_y": 53.9,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4511,7 +4514,8 @@
         "x": 92.3,
         "y": 51.1,
         "arco_y": 53.1,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 20,
@@ -4520,7 +4524,31 @@
         "x": 74.1,
         "y": 46.0,
         "arco_y": 53.9,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Rudy Camacho",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 5,
+            "x": 53.0,
+            "y": 73.8,
+            "endX": 47.7,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Wanyama",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 6,
+            "x": 47.0,
+            "y": 51.5,
+            "endX": 67.5,
+            "endY": 46.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 28,
@@ -4547,7 +4575,20 @@
         "x": 96.3,
         "y": 35.5,
         "arco_y": 46.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 32,
+            "x": 87.8,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -4565,7 +4606,185 @@
         "x": 95.4,
         "y": 54.5,
         "arco_y": 46.4,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 0,
+            "x": 31.6,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 4,
+            "x": 31.6,
+            "y": 41.5,
+            "endX": 32.5,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Piette",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 6,
+            "x": 32.5,
+            "y": 60.3,
+            "endX": 33.2,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Piette",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 6,
+            "x": 33.2,
+            "y": 64.5,
+            "endX": 39.6,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathieu Choinière",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 9,
+            "x": 39.6,
+            "y": 93.2,
+            "endX": 37.2,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathieu Choinière",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 9,
+            "x": 37.2,
+            "y": 90.0,
+            "endX": 37.9,
+            "endY": 78.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Piette",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 10,
+            "x": 37.9,
+            "y": 78.2,
+            "endX": 21.4,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamal Miller",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 13,
+            "x": 21.4,
+            "y": 82.1,
+            "endX": 14.4,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamal Miller",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 13,
+            "x": 14.4,
+            "y": 83.0,
+            "endX": 7.2,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Pantemis",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 15,
+            "x": 7.2,
+            "y": 55.8,
+            "endX": 34.1,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Wanyama",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 19,
+            "x": 34.1,
+            "y": 43.3,
+            "endX": 36.4,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Wanyama",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 19,
+            "x": 36.4,
+            "y": 55.4,
+            "endX": 54.2,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 21,
+            "x": 54.5,
+            "y": 53.4,
+            "endX": 87.5,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romell Quioto",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 27,
+            "x": 87.5,
+            "y": 85.5,
+            "endX": 91.9,
+            "endY": 84.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romell Quioto",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 27,
+            "x": 91.9,
+            "y": 84.6,
+            "endX": 90.1,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 29,
+            "x": 90.1,
+            "y": 37.7,
+            "endX": 95.4,
+            "endY": 54.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 77,

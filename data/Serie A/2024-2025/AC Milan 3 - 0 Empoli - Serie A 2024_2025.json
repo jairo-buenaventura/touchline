@@ -447,7 +447,8 @@
         "x": 90.3,
         "y": 55.6,
         "arco_y": 53.2,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -510,7 +511,20 @@
         "x": 84.8,
         "y": 48.6,
         "arco_y": 53.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Pulisic",
+            "tipo": "BallTouch",
+            "minuto": 43,
+            "segundo": 14,
+            "x": 85.6,
+            "y": 48.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,
@@ -519,7 +533,31 @@
         "x": 81.1,
         "y": 52.4,
         "arco_y": 52.5,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 26,
+            "x": 21.5,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 31,
+            "x": 42.3,
+            "y": 44.6,
+            "endX": 65.4,
+            "endY": 71.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,

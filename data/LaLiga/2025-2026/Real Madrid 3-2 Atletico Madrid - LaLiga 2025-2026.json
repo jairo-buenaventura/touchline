@@ -487,7 +487,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.7,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -505,7 +506,8 @@
         "x": 90.3,
         "y": 39.9,
         "arco_y": 52.1,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -523,7 +525,185 @@
         "x": 82.5,
         "y": 65.0,
         "arco_y": 46.8,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 47,
+            "x": 30.9,
+            "y": 100.0,
+            "endX": 4.8,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 48,
+            "x": 4.8,
+            "y": 79.8,
+            "endX": 7.5,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 48,
+            "x": 7.5,
+            "y": 83.0,
+            "endX": 6.1,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrii Lunin",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 49,
+            "x": 6.1,
+            "y": 50.5,
+            "endX": 4.9,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrii Lunin",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 49,
+            "x": 4.9,
+            "y": 46.8,
+            "endX": 10.0,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 50,
+            "x": 10.0,
+            "y": 24.1,
+            "endX": 16.5,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 51,
+            "x": 16.5,
+            "y": 29.8,
+            "endX": 24.5,
+            "endY": 6.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 55,
+            "x": 24.5,
+            "y": 6.6,
+            "endX": 24.2,
+            "endY": 18.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 55,
+            "x": 24.2,
+            "y": 18.4,
+            "endX": 23.1,
+            "endY": 61.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 23.1,
+            "y": 61.5,
+            "endX": 23.5,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 23.5,
+            "y": 71.1,
+            "endX": 32.5,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 32.5,
+            "y": 92.1,
+            "endX": 30.4,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 30.4,
+            "y": 56.7,
+            "endX": 26.7,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 26.7,
+            "y": 31.5,
+            "endX": 43.8,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 43.8,
+            "y": 4.6,
+            "endX": 71.6,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 71.6,
+            "y": 37.5,
+            "endX": 80.7,
+            "endY": 77.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,
@@ -4845,7 +5025,152 @@
         "x": 93.1,
         "y": 53.8,
         "arco_y": 48.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Juan Musso",
+            "tipo": "KeeperPickup",
+            "minuto": 31,
+            "segundo": 57,
+            "x": 3.8,
+            "y": 47.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Musso",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 10,
+            "x": 13.1,
+            "y": 45.5,
+            "endX": 16.1,
+            "endY": 27.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 12,
+            "x": 16.1,
+            "y": 27.7,
+            "endX": 21.3,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 13,
+            "x": 21.3,
+            "y": 10.4,
+            "endX": 29.0,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 14,
+            "x": 29.0,
+            "y": 11.2,
+            "endX": 34.4,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 15,
+            "x": 34.4,
+            "y": 25.9,
+            "endX": 27.1,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 19,
+            "x": 27.1,
+            "y": 10.0,
+            "endX": 32.9,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 22,
+            "x": 32.9,
+            "y": 19.4,
+            "endX": 35.8,
+            "endY": 21.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 22,
+            "x": 35.8,
+            "y": 21.7,
+            "endX": 66.6,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ademola Lookman",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 30,
+            "x": 66.6,
+            "y": 70.8,
+            "endX": 77.6,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ademola Lookman",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 30,
+            "x": 77.6,
+            "y": 69.6,
+            "endX": 89.2,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Ruggeri",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 32,
+            "x": 89.2,
+            "y": 74.4,
+            "endX": 90.7,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giuliano Simeone",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 34,
+            "x": 92.3,
+            "y": 55.8,
+            "endX": 91.3,
+            "endY": 51.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 59,
@@ -4872,7 +5197,86 @@
         "x": 76.7,
         "y": 28.6,
         "arco_y": 53.2,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Matteo Ruggeri",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 44,
+            "x": 78.9,
+            "y": 100.0,
+            "endX": 66.5,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 47,
+            "x": 64.9,
+            "y": 86.4,
+            "endX": 71.8,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 49,
+            "x": 71.8,
+            "y": 75.9,
+            "endX": 66.7,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 52,
+            "x": 66.7,
+            "y": 82.4,
+            "endX": 70.3,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 52,
+            "x": 70.3,
+            "y": 84.1,
+            "endX": 66.1,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 66.1,
+            "y": 71.2,
+            "endX": 73.0,
+            "endY": 54.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 73.0,
+            "y": 54.1,
+            "endX": 76.2,
+            "endY": 27.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,

@@ -437,7 +437,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.7,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -446,7 +447,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.2,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -4409,7 +4411,53 @@
         "x": 85.5,
         "y": 27.0,
         "arco_y": 54.2,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Himad Abdelli",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 34,
+            "x": 39.1,
+            "y": 3.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Himad Abdelli",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 35,
+            "x": 37.4,
+            "y": 2.6,
+            "endX": 37.3,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nabil Bentaleb",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 37,
+            "x": 37.3,
+            "y": 28.5,
+            "endX": 37.5,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nabil Bentaleb",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 37,
+            "x": 37.5,
+            "y": 21.5,
+            "endX": 87.8,
+            "endY": 25.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 42,

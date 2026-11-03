@@ -387,7 +387,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.3,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 16,
@@ -405,7 +406,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -432,7 +434,8 @@
         "x": 87.0,
         "y": 46.6,
         "arco_y": 45.8,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 44,
@@ -450,7 +453,31 @@
         "x": 85.3,
         "y": 46.6,
         "arco_y": 45.8,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Fermín López",
+            "tipo": "TakeOn",
+            "minuto": 50,
+            "segundo": 24,
+            "x": 67.2,
+            "y": 71.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fermín López",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 28,
+            "x": 73.5,
+            "y": 57.6,
+            "endX": 86.0,
+            "endY": 37.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 59,
@@ -459,7 +486,20 @@
         "x": 93.0,
         "y": 58.7,
         "arco_y": 45.9,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "João Cancelo",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 48,
+            "x": 87.0,
+            "y": 70.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,
@@ -5178,7 +5218,119 @@
         "x": 90.4,
         "y": 57.3,
         "arco_y": 45.9,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 33,
+            "x": 86.4,
+            "y": 82.2,
+            "endX": 71.6,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Suazo",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 36,
+            "x": 71.6,
+            "y": 85.2,
+            "endX": 73.4,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Suazo",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 36,
+            "x": 73.4,
+            "y": 88.3,
+            "endX": 47.4,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 41,
+            "x": 47.4,
+            "y": 64.5,
+            "endX": 52.4,
+            "endY": 54.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 41,
+            "x": 52.4,
+            "y": 54.9,
+            "endX": 52.9,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanguy Nianzou",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 43,
+            "x": 52.6,
+            "y": 30.3,
+            "endX": 63.6,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 45,
+            "x": 63.7,
+            "y": 4.6,
+            "endX": 61.3,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 46,
+            "x": 61.3,
+            "y": 8.5,
+            "endX": 92.3,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 51,
+            "x": 92.3,
+            "y": 5.2,
+            "endX": 97.1,
+            "endY": 8.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 51,
+            "x": 97.1,
+            "y": 8.7,
+            "endX": 90.4,
+            "endY": 57.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,
@@ -5205,7 +5357,262 @@
         "x": 92.6,
         "y": 46.0,
         "arco_y": 49.4,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Chidera Ejuke",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 46,
+            "x": 3.9,
+            "y": 14.1,
+            "endX": 5.8,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 52,
+            "x": 5.8,
+            "y": 60.9,
+            "endX": 14.2,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 52,
+            "x": 14.2,
+            "y": 69.0,
+            "endX": 26.9,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Bueno",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 59,
+            "x": 26.9,
+            "y": 74.8,
+            "endX": 43.3,
+            "endY": 77.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Bueno",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 59,
+            "x": 43.3,
+            "y": 77.4,
+            "endX": 35.8,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 0,
+            "x": 35.8,
+            "y": 64.3,
+            "endX": 42.0,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 7,
+            "x": 42.0,
+            "y": 93.4,
+            "endX": 37.3,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 7,
+            "x": 37.3,
+            "y": 92.7,
+            "endX": 36.9,
+            "endY": 78.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 8,
+            "x": 36.2,
+            "y": 78.4,
+            "endX": 47.0,
+            "endY": 94.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 9,
+            "x": 47.9,
+            "y": 95.1,
+            "endX": 39.5,
+            "endY": 95.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 11,
+            "x": 37.8,
+            "y": 95.1,
+            "endX": 40.9,
+            "endY": 82.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 12,
+            "x": 40.9,
+            "y": 82.2,
+            "endX": 37.4,
+            "endY": 95.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 13,
+            "x": 36.9,
+            "y": 95.8,
+            "endX": 22.8,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 16,
+            "x": 20.5,
+            "y": 84.0,
+            "endX": 5.1,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Odysseas Vlachodimos",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 19,
+            "x": 5.2,
+            "y": 48.0,
+            "endX": 21.4,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Castrín",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 21.4,
+            "y": 25.6,
+            "endX": 26.4,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Castrín",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 26.4,
+            "y": 25.9,
+            "endX": 37.5,
+            "endY": 50.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neal Maupay",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 37.5,
+            "y": 50.8,
+            "endX": 34.2,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neal Maupay",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 34.2,
+            "y": 52.5,
+            "endX": 52.4,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 52.4,
+            "y": 77.2,
+            "endX": 73.9,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 73.9,
+            "y": 70.2,
+            "endX": 87.8,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 87.8,
+            "y": 85.9,
+            "endX": 92.2,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 92.2,
+            "y": 87.9,
+            "endX": 92.6,
+            "endY": 46.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

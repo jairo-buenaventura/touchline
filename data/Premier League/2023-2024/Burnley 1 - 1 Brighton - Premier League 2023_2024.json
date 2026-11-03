@@ -449,7 +449,8 @@
         "x": 85.0,
         "y": 52.2,
         "arco_y": 52.3,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 78,
@@ -458,7 +459,75 @@
         "x": 6.8,
         "y": 47.0,
         "arco_y": 50.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Charlie Taylor",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 59,
+            "x": 34.6,
+            "y": 92.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charlie Taylor",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 59,
+            "x": 34.3,
+            "y": 92.1,
+            "endX": 14.9,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijanet Muric",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 2,
+            "x": 14.9,
+            "y": 68.0,
+            "endX": 20.9,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sander Berge",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 8,
+            "x": 19.7,
+            "y": 25.9,
+            "endX": 6.6,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijanet Muric",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 10,
+            "x": 6.6,
+            "y": 43.1,
+            "endX": 6.6,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijanet Muric",
+            "tipo": "Error",
+            "minuto": 78,
+            "segundo": 10,
+            "x": 6.6,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,

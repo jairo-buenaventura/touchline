@@ -397,7 +397,8 @@
         "x": 96.5,
         "y": 45.2,
         "arco_y": 49.3,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 14,
@@ -406,7 +407,42 @@
         "x": 90.3,
         "y": 55.2,
         "arco_y": 49.0,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Savinho",
+            "tipo": "TakeOn",
+            "minuto": 14,
+            "segundo": 25,
+            "x": 46.4,
+            "y": 91.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Savinho",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 30,
+            "x": 78.9,
+            "y": 82.1,
+            "endX": 92.1,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Portu",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 31,
+            "x": 92.1,
+            "y": 64.2,
+            "endX": 91.4,
+            "endY": 51.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 18,
@@ -415,7 +451,53 @@
         "x": 81.7,
         "y": 37.0,
         "arco_y": 46.2,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "KeeperPickup",
+            "minuto": 18,
+            "segundo": 41,
+            "x": 12.8,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 44,
+            "x": 13.2,
+            "y": 48.7,
+            "endX": 22.2,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 50,
+            "x": 22.2,
+            "y": 21.9,
+            "endX": 31.8,
+            "endY": 12.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 50,
+            "x": 31.8,
+            "y": 12.8,
+            "endX": 62.8,
+            "endY": 16.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 31,
@@ -460,7 +542,141 @@
         "x": 91.3,
         "y": 48.4,
         "arco_y": 52.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 56,
+            "x": 37.1,
+            "y": 24.9,
+            "endX": 42.7,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 58,
+            "x": 42.8,
+            "y": 53.1,
+            "endX": 31.7,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 30.4,
+            "y": 71.2,
+            "endX": 24.8,
+            "endY": 48.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antal Yaakobishvili",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 24.8,
+            "y": 48.2,
+            "endX": 23.4,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antal Yaakobishvili",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 23.4,
+            "y": 44.2,
+            "endX": 24.4,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 24.4,
+            "y": 21.2,
+            "endX": 32.7,
+            "endY": 44.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Martín",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 32.7,
+            "y": 44.7,
+            "endX": 42.6,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 15,
+            "x": 42.6,
+            "y": 78.7,
+            "endX": 55.3,
+            "endY": 90.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 15,
+            "x": 55.3,
+            "y": 90.5,
+            "endX": 55.0,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 16,
+            "x": 55.0,
+            "y": 70.9,
+            "endX": 60.8,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 19,
+            "x": 60.8,
+            "y": 82.4,
+            "endX": 81.8,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Savinho",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 21,
+            "x": 81.8,
+            "y": 81.4,
+            "endX": 91.3,
+            "endY": 48.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 66,
@@ -496,7 +712,273 @@
         "x": 93.0,
         "y": 44.2,
         "arco_y": 51.1,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "KeeperPickup",
+            "minuto": 86,
+            "segundo": 45,
+            "x": 2.4,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 3,
+            "x": 13.7,
+            "y": 46.5,
+            "endX": 19.1,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Martín",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 13,
+            "x": 19.1,
+            "y": 52.8,
+            "endX": 28.4,
+            "endY": 64.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Martín",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 13,
+            "x": 28.4,
+            "y": 64.1,
+            "endX": 52.7,
+            "endY": 83.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 17,
+            "x": 54.4,
+            "y": 84.2,
+            "endX": 73.3,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 23,
+            "x": 73.3,
+            "y": 91.2,
+            "endX": 69.8,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 23,
+            "x": 69.8,
+            "y": 83.1,
+            "endX": 75.0,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 26,
+            "x": 75.0,
+            "y": 94.1,
+            "endX": 73.9,
+            "endY": 91.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 26,
+            "x": 73.9,
+            "y": 91.3,
+            "endX": 60.5,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 30,
+            "x": 58.1,
+            "y": 93.4,
+            "endX": 25.8,
+            "endY": 73.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 35,
+            "x": 25.8,
+            "y": 73.4,
+            "endX": 26.9,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antal Yaakobishvili",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 38,
+            "x": 26.2,
+            "y": 41.1,
+            "endX": 28.3,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 42,
+            "x": 28.3,
+            "y": 10.9,
+            "endX": 30.1,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 42,
+            "x": 30.1,
+            "y": 23.7,
+            "endX": 27.8,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Martín",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 46,
+            "x": 27.8,
+            "y": 45.2,
+            "endX": 28.3,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Martín",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 46,
+            "x": 28.3,
+            "y": 56.7,
+            "endX": 43.9,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 49,
+            "x": 43.9,
+            "y": 88.3,
+            "endX": 63.4,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 57,
+            "x": 63.4,
+            "y": 94.7,
+            "endX": 85.8,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 57,
+            "x": 85.8,
+            "y": 86.9,
+            "endX": 74.5,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 59,
+            "x": 74.5,
+            "y": 91.0,
+            "endX": 74.3,
+            "endY": 83.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 59,
+            "x": 74.3,
+            "y": 83.4,
+            "endX": 68.4,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 2,
+            "x": 68.4,
+            "y": 62.6,
+            "endX": 69.1,
+            "endY": 58.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 2,
+            "x": 69.1,
+            "y": 58.9,
+            "endX": 92.2,
+            "endY": 61.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 4,
+            "x": 92.3,
+            "y": 61.7,
+            "endX": 92.5,
+            "endY": 44.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -5081,7 +5563,218 @@
         "x": 89.2,
         "y": 53.2,
         "arco_y": 54.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 57,
+            "x": 47.9,
+            "y": 33.5,
+            "endX": 41.9,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Navas",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 58,
+            "x": 41.9,
+            "y": 18.0,
+            "endX": 41.1,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Navas",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 58,
+            "x": 41.1,
+            "y": 20.9,
+            "endX": 33.5,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 1,
+            "x": 35.9,
+            "y": 42.1,
+            "endX": 39.1,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 5,
+            "x": 39.1,
+            "y": 89.3,
+            "endX": 38.0,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 5,
+            "x": 38.0,
+            "y": 85.7,
+            "endX": 36.6,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 8,
+            "x": 35.3,
+            "y": 49.4,
+            "endX": 35.3,
+            "endY": 28.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanguy Nianzou",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 12,
+            "x": 35.3,
+            "y": 28.8,
+            "endX": 39.9,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanguy Nianzou",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 12,
+            "x": 39.9,
+            "y": 29.7,
+            "endX": 35.6,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 15,
+            "x": 38.3,
+            "y": 48.4,
+            "endX": 40.2,
+            "endY": 82.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïc Badé",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 18,
+            "x": 40.2,
+            "y": 82.2,
+            "endX": 60.5,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Ocampos",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 23,
+            "x": 60.5,
+            "y": 95.9,
+            "endX": 69.5,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Ocampos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 23,
+            "x": 69.5,
+            "y": 91.5,
+            "endX": 66.4,
+            "endY": 78.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 26,
+            "x": 66.4,
+            "y": 78.6,
+            "endX": 71.1,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 26,
+            "x": 71.1,
+            "y": 81.1,
+            "endX": 83.0,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Ocampos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 28,
+            "x": 83.0,
+            "y": 93.0,
+            "endX": 82.7,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 33,
+            "x": 82.7,
+            "y": 82.0,
+            "endX": 80.0,
+            "endY": 78.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 33,
+            "x": 80.0,
+            "y": 78.0,
+            "endX": 89.6,
+            "endY": 78.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 35,
+            "x": 90.9,
+            "y": 78.1,
+            "endX": 89.2,
+            "endY": 53.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 45,

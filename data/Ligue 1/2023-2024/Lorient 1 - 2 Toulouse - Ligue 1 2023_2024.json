@@ -385,7 +385,8 @@
         "x": 98.7,
         "y": 51.4,
         "arco_y": 52.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -4379,7 +4380,31 @@
         "x": 98.2,
         "y": 51.9,
         "arco_y": 50.8,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Niklas Schmidt",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 33,
+            "x": 79.1,
+            "y": 65.4,
+            "endX": 92.5,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijs Dallinga",
+            "tipo": "ShotOnPost",
+            "minuto": 58,
+            "segundo": 35,
+            "x": 92.6,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,
@@ -4433,7 +4458,42 @@
         "x": 88.1,
         "y": 59.5,
         "arco_y": 46.8,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Thijs Dallinga",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 27,
+            "x": 85.1,
+            "y": 26.2,
+            "endX": 86.9,
+            "endY": 43.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Schmidt",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 28,
+            "x": 86.9,
+            "y": 43.7,
+            "endX": 84.5,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Schmidt",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 28,
+            "x": 84.5,
+            "y": 41.3,
+            "endX": 89.6,
+            "endY": 56.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,

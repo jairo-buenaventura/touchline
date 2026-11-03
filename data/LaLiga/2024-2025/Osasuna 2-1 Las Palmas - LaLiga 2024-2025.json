@@ -398,7 +398,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 43,
@@ -416,7 +417,31 @@
         "x": 85.6,
         "y": 62.5,
         "arco_y": 46.7,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Rubén García",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 50,
+            "x": 66.6,
+            "y": 13.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén García",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 53,
+            "x": 64.4,
+            "y": 31.8,
+            "endX": 77.9,
+            "endY": 62.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,
@@ -4025,7 +4050,64 @@
         "x": 98.1,
         "y": 41.9,
         "arco_y": 47.1,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Javi Muñoz",
+            "tipo": "CornerAwarded",
+            "minuto": 40,
+            "segundo": 33,
+            "x": 99.3,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Ramírez",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 53,
+            "x": 99.7,
+            "y": 99.3,
+            "endX": 79.7,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kirian Rodríguez",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 55,
+            "x": 81.2,
+            "y": 79.7,
+            "endX": 90.7,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Ramírez",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 57,
+            "x": 90.7,
+            "y": 87.2,
+            "endX": 85.8,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Ramírez",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 57,
+            "x": 85.8,
+            "y": 84.2,
+            "endX": 97.2,
+            "endY": 41.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,

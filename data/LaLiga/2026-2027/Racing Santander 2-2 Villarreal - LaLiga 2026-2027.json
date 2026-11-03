@@ -392,7 +392,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.7,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 32,
@@ -428,7 +429,8 @@
         "x": 77.2,
         "y": 51.9,
         "arco_y": 47.2,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4502,7 +4504,20 @@
         "x": 78.1,
         "y": 66.4,
         "arco_y": 45.7,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Alberto Moleiro",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 27,
+            "x": 81.2,
+            "y": 74.5,
+            "endX": 76.2,
+            "endY": 68.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 45,
@@ -4511,7 +4526,53 @@
         "x": 85.6,
         "y": 30.5,
         "arco_y": 53.9,
-        "arco_z": 24.0
+        "arco_z": 24.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "BallTouch",
+            "minuto": 45,
+            "segundo": 29,
+            "x": 84.3,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Pepe",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 31,
+            "x": 80.6,
+            "y": 37.4,
+            "endX": 84.9,
+            "endY": 30.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 84.9,
+            "y": 30.9,
+            "endX": 84.2,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 84.2,
+            "y": 36.9,
+            "endX": 85.6,
+            "endY": 29.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 48,

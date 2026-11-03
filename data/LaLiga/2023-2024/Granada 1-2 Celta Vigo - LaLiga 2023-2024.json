@@ -449,7 +449,8 @@
         "x": 89.9,
         "y": 25.0,
         "arco_y": 48.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 86,
@@ -4474,7 +4475,64 @@
         "x": 97.1,
         "y": 47.4,
         "arco_y": 49.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 28,
+            "x": 83.1,
+            "y": 0.0,
+            "endX": 77.4,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 79.4,
+            "y": 26.4,
+            "endX": 80.6,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 80.6,
+            "y": 37.0,
+            "endX": 93.1,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 34,
+            "x": 93.1,
+            "y": 28.2,
+            "endX": 97.4,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 34,
+            "x": 97.4,
+            "y": 27.3,
+            "endX": 97.4,
+            "endY": 47.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,
@@ -4483,7 +4541,42 @@
         "x": 92.5,
         "y": 46.4,
         "arco_y": 49.0,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 49,
+            "x": 66.2,
+            "y": 29.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 50,
+            "x": 69.1,
+            "y": 23.0,
+            "endX": 97.3,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jørgen Strand Larsen",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 54,
+            "x": 97.4,
+            "y": 21.5,
+            "endX": 92.5,
+            "endY": 46.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

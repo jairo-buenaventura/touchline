@@ -558,7 +558,8 @@
         "x": 98.7,
         "y": 47.0,
         "arco_y": 46.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 92,
@@ -5395,7 +5396,8 @@
         "x": 92.2,
         "y": 52.7,
         "arco_y": 50.8,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 22,
@@ -5458,7 +5460,75 @@
         "x": 88.2,
         "y": 56.7,
         "arco_y": 50.2,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Max",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 35.9,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 39,
+            "x": 34.6,
+            "y": 36.5,
+            "endX": 47.9,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Connor Ronan",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 42,
+            "x": 47.9,
+            "y": 57.0,
+            "endX": 53.3,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Connor Ronan",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 42,
+            "x": 53.3,
+            "y": 48.1,
+            "endX": 73.0,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 46,
+            "x": 73.0,
+            "y": 38.8,
+            "endX": 86.5,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 46,
+            "x": 86.5,
+            "y": 39.7,
+            "endX": 89.9,
+            "endY": 60.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,
@@ -5467,7 +5537,196 @@
         "x": 93.9,
         "y": 65.1,
         "arco_y": 47.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Keegan Rosenberry",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 52.1,
+            "y": 20.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keegan Rosenberry",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 14,
+            "x": 52.9,
+            "y": 19.9,
+            "endX": 51.3,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Leyva",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 15,
+            "x": 51.3,
+            "y": 26.3,
+            "endX": 52.8,
+            "endY": 10.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 16,
+            "x": 52.8,
+            "y": 10.6,
+            "endX": 55.7,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Leyva",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 19,
+            "x": 55.7,
+            "y": 22.1,
+            "endX": 60.9,
+            "endY": 14.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Leyva",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 19,
+            "x": 60.9,
+            "y": 14.2,
+            "endX": 55.6,
+            "endY": 8.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keegan Rosenberry",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 20,
+            "x": 55.6,
+            "y": 8.0,
+            "endX": 40.6,
+            "endY": 18.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lalas Abubakar",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 23,
+            "x": 41.4,
+            "y": 20.0,
+            "endX": 48.8,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keegan Rosenberry",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 27,
+            "x": 48.3,
+            "y": 4.3,
+            "endX": 36.3,
+            "endY": 14.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lalas Abubakar",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 30,
+            "x": 36.3,
+            "y": 14.2,
+            "endX": 14.4,
+            "endY": 34.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Yarbrough",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 33,
+            "x": 14.4,
+            "y": 34.1,
+            "endX": 20.1,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Wilson",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 39,
+            "x": 20.1,
+            "y": 83.1,
+            "endX": 23.8,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Wilson",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 39,
+            "x": 23.8,
+            "y": 87.8,
+            "endX": 74.9,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Lewis",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 44,
+            "x": 74.9,
+            "y": 46.9,
+            "endX": 71.6,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Lewis",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 44,
+            "x": 71.6,
+            "y": 52.5,
+            "endX": 69.4,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Connor Ronan",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 47,
+            "x": 69.4,
+            "y": 64.7,
+            "endX": 75.1,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Connor Ronan",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 47,
+            "x": 75.1,
+            "y": 66.5,
+            "endX": 90.9,
+            "endY": 63.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,

@@ -58,6 +58,20 @@ goleador.
 Cualquier script que recorra `data/*.json` como si todos fueran partidos
 debe filtrarlos explícitamente (ver `agregar_temporada_jugador.py`).
 
+**`data/jugadores.json` ya no se commitea a git (desde 2026-11-02).** Es una
+lista plana de todos los jugadores únicos, con un arreglo `apariciones` por
+jugador (una entrada por cada partido en el que jugó) — crece sin techo con
+cada partido nuevo que se agrega, y pasó los 100MB duros de GitHub (quedó en
+~104.6MB). En vez de partirlo o moverlo a Git LFS (la automatización corre
+3x/día y reescribe el archivo completo en cada corrida, lo que haría LFS caro
+en banda ancha rápido), se decidió sacarlo del control de versiones
+(`.gitignore`) y seguir regenerándolo solo local — `index.html` vía
+localhost y los scripts de perfiles (`agregar_perfiles_jugador.py`,
+`enriquecer_transfermarkt_completo.py`) lo siguen usando igual, solo que ya
+no viaja a GitHub. Si en algún momento se retoma el deploy a Vercel u otro
+hosting que lea directo del repo, la búsqueda/perfil de jugadores ahí se va
+a quedar sin este archivo hasta que se resuelva de otra forma.
+
 **Ya no es limitación:** `stats_avanzadas` trae `minutos_jugados` por jugador
 (calculado desde `isFirstEleven` + eventos `SubstitutionOn`/`Off`, excluyendo
 minutos de tanda de penales), así que las métricas por-90 en `data/leaders/`

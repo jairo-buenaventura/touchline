@@ -423,7 +423,8 @@
         "x": 87.5,
         "y": 43.1,
         "arco_y": 52.7,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -432,7 +433,8 @@
         "x": 86.3,
         "y": 62.7,
         "arco_y": 53.9,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 46,
@@ -504,7 +506,20 @@
         "x": 91.0,
         "y": 54.9,
         "arco_y": 53.8,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Tidiam Gomis",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 10,
+            "x": 85.8,
+            "y": 45.6,
+            "endX": 91.2,
+            "endY": 56.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,
@@ -5012,7 +5027,31 @@
         "x": 76.1,
         "y": 30.8,
         "arco_y": 53.3,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Bazoumana Touré",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 9,
+            "x": 78.6,
+            "y": 23.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bazoumana Touré",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 10,
+            "x": 78.8,
+            "y": 23.1,
+            "endX": 77.1,
+            "endY": 28.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 33,

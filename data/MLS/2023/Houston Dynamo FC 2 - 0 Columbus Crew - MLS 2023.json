@@ -414,7 +414,8 @@
         "x": 97.3,
         "y": 54.0,
         "arco_y": 52.6,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 17,
@@ -477,7 +478,31 @@
         "x": 93.5,
         "y": 68.2,
         "arco_y": 50.3,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 31,
+            "x": 26.6,
+            "y": 82.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 29.3,
+            "y": 76.0,
+            "endX": 60.5,
+            "endY": 75.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

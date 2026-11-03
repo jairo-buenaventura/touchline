@@ -396,7 +396,8 @@
         "x": 93.3,
         "y": 52.6,
         "arco_y": 52.7,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 16,
@@ -432,7 +433,8 @@
         "x": 86.5,
         "y": 39.0,
         "arco_y": 53.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -495,7 +497,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -522,7 +525,20 @@
         "x": 95.0,
         "y": 48.2,
         "arco_y": 51.8,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Keisuke Kurokawa",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 0,
+            "x": 99.8,
+            "y": 0.7,
+            "endX": 95.0,
+            "endY": 48.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 97,
@@ -4092,7 +4108,20 @@
         "x": 88.0,
         "y": 63.2,
         "arco_y": 49.4,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 31,
+            "x": 72.5,
+            "y": 71.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,
@@ -4119,7 +4148,75 @@
         "x": 87.8,
         "y": 60.9,
         "arco_y": 46.6,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Dagur Thórhallsson",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 4,
+            "x": 24.6,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dagur Thórhallsson",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 4,
+            "x": 24.6,
+            "y": 49.9,
+            "endX": 22.3,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Loturi",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 5,
+            "x": 22.3,
+            "y": 58.8,
+            "endX": 28.0,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Petrasso",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 7,
+            "x": 28.0,
+            "y": 57.4,
+            "endX": 36.9,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wiki Carmona",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 36.9,
+            "y": 18.3,
+            "endX": 43.3,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wiki Carmona",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 43.3,
+            "y": 23.7,
+            "endX": 77.4,
+            "endY": 60.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,
@@ -4236,7 +4333,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.2,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 95,
@@ -4245,7 +4343,31 @@
         "x": 96.0,
         "y": 45.0,
         "arco_y": 50.2,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "TakeOn",
+            "minuto": 95,
+            "segundo": 25,
+            "x": 95.6,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 26,
+            "x": 99.4,
+            "y": 60.5,
+            "endX": 96.0,
+            "endY": 45.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

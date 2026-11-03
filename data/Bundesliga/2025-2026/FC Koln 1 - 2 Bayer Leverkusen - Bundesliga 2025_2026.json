@@ -539,7 +539,8 @@
         "x": 92.1,
         "y": 59.7,
         "arco_y": 48.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 80,
@@ -4562,7 +4563,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.8,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -4571,7 +4573,42 @@
         "x": 90.9,
         "y": 50.2,
         "arco_y": 45.8,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Aleix García",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 0,
+            "x": 26.7,
+            "y": 81.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 43.8,
+            "y": 77.6,
+            "endX": 76.2,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Tella",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 77.3,
+            "y": 75.9,
+            "endX": 90.9,
+            "endY": 50.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,

@@ -414,7 +414,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.2,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -441,7 +442,8 @@
         "x": 79.6,
         "y": 50.0,
         "arco_y": 49.0,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 81,
@@ -4504,7 +4506,31 @@
         "x": 89.5,
         "y": 65.7,
         "arco_y": 47.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 52,
+            "x": 34.7,
+            "y": 80.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 56,
+            "x": 52.8,
+            "y": 67.7,
+            "endX": 68.1,
+            "endY": 62.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,
@@ -4540,7 +4566,8 @@
         "x": 96.5,
         "y": 54.2,
         "arco_y": 51.4,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 84,
@@ -4549,7 +4576,53 @@
         "x": 88.7,
         "y": 32.8,
         "arco_y": 52.5,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Pedri",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 40.1,
+            "y": 28.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 28,
+            "x": 57.5,
+            "y": 35.9,
+            "endX": 70.1,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 70.1,
+            "y": 15.1,
+            "endX": 69.4,
+            "endY": 20.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 69.4,
+            "y": 20.6,
+            "endX": 85.7,
+            "endY": 31.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -419,7 +419,8 @@
         "x": 88.6,
         "y": 55.9,
         "arco_y": 46.0,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 22,
@@ -428,7 +429,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 25,
@@ -482,7 +484,8 @@
         "x": 95.7,
         "y": 52.4,
         "arco_y": 53.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -536,7 +539,64 @@
         "x": 87.6,
         "y": 34.0,
         "arco_y": 52.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Willi Orbán",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 17,
+            "x": 22.9,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willi Orbán",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 20,
+            "x": 18.4,
+            "y": 38.6,
+            "endX": 34.2,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 23,
+            "x": 35.2,
+            "y": 39.7,
+            "endX": 47.7,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 47.7,
+            "y": 59.0,
+            "endX": 55.0,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 55.0,
+            "y": 56.1,
+            "endX": 75.2,
+            "endY": 36.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

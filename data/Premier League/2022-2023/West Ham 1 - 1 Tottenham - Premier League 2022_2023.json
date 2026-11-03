@@ -398,7 +398,8 @@
         "x": 1.8,
         "y": 50.3,
         "arco_y": 50.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 35,
@@ -434,7 +435,42 @@
         "x": 94.9,
         "y": 40.3,
         "arco_y": 47.0,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Vladimír Coufal",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 21,
+            "x": 77.0,
+            "y": 0.0,
+            "endX": 86.5,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 24,
+            "x": 86.5,
+            "y": 24.7,
+            "endX": 85.8,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 24,
+            "x": 85.8,
+            "y": 29.7,
+            "endX": 89.6,
+            "endY": 39.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 56,

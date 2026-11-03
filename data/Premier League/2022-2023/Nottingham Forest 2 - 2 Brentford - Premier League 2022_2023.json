@@ -403,7 +403,8 @@
         "x": 81.8,
         "y": 53.1,
         "arco_y": 45.6,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 31,
@@ -4307,7 +4308,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.3,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 55,
@@ -4325,7 +4327,64 @@
         "x": 81.9,
         "y": 50.1,
         "arco_y": 52.2,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 53,
+            "x": 40.7,
+            "y": 89.4,
+            "endX": 35.3,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Mee",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 59,
+            "x": 35.3,
+            "y": 62.0,
+            "endX": 37.2,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Mee",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 59,
+            "x": 37.2,
+            "y": 52.3,
+            "endX": 37.6,
+            "endY": 37.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mads Roerslev",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 37.9,
+            "y": 38.4,
+            "endX": 46.4,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 4,
+            "x": 46.4,
+            "y": 53.4,
+            "endX": 83.6,
+            "endY": 51.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,
@@ -4343,7 +4402,20 @@
         "x": 3.5,
         "y": 49.0,
         "arco_y": 53.9,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Ben Mee",
+            "tipo": "Save",
+            "minuto": 95,
+            "segundo": 5,
+            "x": 2.3,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

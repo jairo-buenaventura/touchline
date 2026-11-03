@@ -481,7 +481,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -5544,7 +5545,53 @@
         "x": 83.7,
         "y": 50.6,
         "arco_y": 47.1,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin Volland",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 17,
+            "x": 44.6,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Volland",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 18,
+            "x": 46.2,
+            "y": 31.9,
+            "endX": 47.2,
+            "endY": 42.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 47.2,
+            "y": 42.3,
+            "endX": 52.0,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 52.0,
+            "y": 39.4,
+            "endX": 65.4,
+            "endY": 36.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 25,

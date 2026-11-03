@@ -401,7 +401,8 @@
         "x": 85.2,
         "y": 50.3,
         "arco_y": 53.9,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 20,
@@ -428,7 +429,8 @@
         "x": 95.5,
         "y": 47.2,
         "arco_y": 48.9,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -491,7 +493,20 @@
         "x": 85.4,
         "y": 49.6,
         "arco_y": 53.6,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 29,
+            "x": 48.6,
+            "y": 38.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 84,
@@ -518,7 +533,31 @@
         "x": 93.0,
         "y": 41.5,
         "arco_y": 53.9,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Levonte Johnson",
+            "tipo": "CornerAwarded",
+            "minuto": 87,
+            "segundo": 29,
+            "x": 94.2,
+            "y": 11.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Raposo",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 2,
+            "x": 99.6,
+            "y": 0.8,
+            "endX": 92.4,
+            "endY": 37.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 92,

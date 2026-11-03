@@ -407,7 +407,8 @@
         "x": 91.7,
         "y": 43.9,
         "arco_y": 54.3,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 58,
@@ -434,7 +435,8 @@
         "x": 97.0,
         "y": 50.4,
         "arco_y": 47.1,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -4199,7 +4201,42 @@
         "x": 91.5,
         "y": 40.6,
         "arco_y": 49.0,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 48,
+            "x": 77.8,
+            "y": 70.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 48,
+            "x": 77.8,
+            "y": 70.4,
+            "endX": 79.3,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 50,
+            "x": 79.9,
+            "y": 57.5,
+            "endX": 89.4,
+            "endY": 37.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,
@@ -4262,7 +4299,185 @@
         "x": 91.3,
         "y": 46.6,
         "arco_y": 46.3,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "David López",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 4,
+            "x": 34.7,
+            "y": 0.0,
+            "endX": 18.5,
+            "endY": 29.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Gazzaniga",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 7,
+            "x": 18.5,
+            "y": 29.6,
+            "endX": 30.0,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 12,
+            "x": 32.5,
+            "y": 71.2,
+            "endX": 42.5,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 18,
+            "x": 42.5,
+            "y": 67.0,
+            "endX": 54.3,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 18,
+            "x": 54.3,
+            "y": 77.2,
+            "endX": 61.3,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samu Sáiz",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 19,
+            "x": 61.3,
+            "y": 76.7,
+            "endX": 54.3,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 21,
+            "x": 54.3,
+            "y": 75.0,
+            "endX": 53.9,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 21,
+            "x": 53.9,
+            "y": 70.2,
+            "endX": 47.3,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Bueno",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 26,
+            "x": 47.3,
+            "y": 37.0,
+            "endX": 62.1,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Bueno",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 26,
+            "x": 62.1,
+            "y": 22.7,
+            "endX": 71.9,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 29,
+            "x": 71.9,
+            "y": 6.0,
+            "endX": 67.8,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 29,
+            "x": 67.8,
+            "y": 9.4,
+            "endX": 63.2,
+            "endY": 18.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Bueno",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 31,
+            "x": 63.2,
+            "y": 18.6,
+            "endX": 65.1,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 32,
+            "x": 65.1,
+            "y": 29.8,
+            "endX": 70.0,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 36,
+            "x": 70.0,
+            "y": 8.6,
+            "endX": 74.8,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 36,
+            "x": 74.8,
+            "y": 11.3,
+            "endX": 89.7,
+            "endY": 46.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

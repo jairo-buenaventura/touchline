@@ -568,7 +568,8 @@
         "x": 83.1,
         "y": 54.6,
         "arco_y": 52.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -5223,7 +5224,20 @@
         "x": 93.3,
         "y": 51.6,
         "arco_y": 50.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Jasper Dahlhaus",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 36,
+            "x": 98.0,
+            "y": 76.1,
+            "endX": 92.9,
+            "endY": 51.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 12,
@@ -5277,7 +5291,42 @@
         "x": 92.0,
         "y": 52.2,
         "arco_y": 53.5,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Ezequiel Bullaude",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 22,
+            "x": 36.1,
+            "y": 74.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ezequiel Bullaude",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 28,
+            "x": 75.2,
+            "y": 45.2,
+            "endX": 90.5,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 90.7,
+            "y": 34.0,
+            "endX": 92.2,
+            "endY": 52.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

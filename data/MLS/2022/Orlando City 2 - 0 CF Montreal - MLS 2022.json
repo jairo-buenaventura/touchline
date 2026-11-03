@@ -423,7 +423,8 @@
         "x": 96.4,
         "y": 54.8,
         "arco_y": 53.0,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -450,7 +451,42 @@
         "x": 89.8,
         "y": 57.5,
         "arco_y": 52.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Júnior Urso",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 31,
+            "x": 68.4,
+            "y": 24.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Júnior Urso",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 31,
+            "x": 76.1,
+            "y": 29.0,
+            "endX": 81.0,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio Pereyra",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 32,
+            "x": 80.6,
+            "y": 47.4,
+            "endX": 88.2,
+            "endY": 57.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

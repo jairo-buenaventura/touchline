@@ -4377,7 +4377,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.2,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 100,
@@ -4386,7 +4387,31 @@
         "x": 87.1,
         "y": 62.0,
         "arco_y": 53.6,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Matias Fernandez-Pardo",
+            "tipo": "BallRecovery",
+            "minuto": 100,
+            "segundo": 26,
+            "x": 30.3,
+            "y": 79.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matias Fernandez-Pardo",
+            "tipo": "Pass",
+            "minuto": 100,
+            "segundo": 28,
+            "x": 32.6,
+            "y": 78.4,
+            "endX": 59.0,
+            "endY": 80.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

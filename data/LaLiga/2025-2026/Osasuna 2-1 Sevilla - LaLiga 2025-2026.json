@@ -445,7 +445,8 @@
         "x": 83.3,
         "y": 49.9,
         "arco_y": 54.1,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 83,
@@ -508,7 +509,8 @@
         "x": 93.2,
         "y": 52.0,
         "arco_y": 53.2,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4859,7 +4861,75 @@
         "x": 92.0,
         "y": 49.8,
         "arco_y": 48.4,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 13,
+            "x": 65.2,
+            "y": 12.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 13,
+            "x": 65.2,
+            "y": 12.7,
+            "endX": 81.7,
+            "endY": 9.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 19,
+            "x": 81.7,
+            "y": 9.7,
+            "endX": 84.9,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 19,
+            "x": 84.9,
+            "y": 5.3,
+            "endX": 79.5,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 20,
+            "x": 79.5,
+            "y": 15.6,
+            "endX": 92.4,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 24,
+            "x": 92.9,
+            "y": 28.2,
+            "endX": 92.0,
+            "endY": 49.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,

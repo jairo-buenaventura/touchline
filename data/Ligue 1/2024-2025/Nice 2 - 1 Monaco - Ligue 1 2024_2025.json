@@ -399,7 +399,8 @@
         "x": 92.7,
         "y": 48.1,
         "arco_y": 46.8,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -507,7 +508,20 @@
         "x": 85.7,
         "y": 52.4,
         "arco_y": 46.7,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 59,
+            "x": 62.8,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,
@@ -4447,7 +4461,53 @@
         "x": 90.2,
         "y": 38.7,
         "arco_y": 50.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Lamine Camara",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 32,
+            "x": 37.4,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Camara",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 35,
+            "x": 37.9,
+            "y": 68.5,
+            "endX": 51.4,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 37,
+            "x": 51.4,
+            "y": 67.8,
+            "endX": 59.6,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 37,
+            "x": 59.6,
+            "y": 67.0,
+            "endX": 80.0,
+            "endY": 30.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,

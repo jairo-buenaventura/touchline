@@ -386,7 +386,8 @@
         "x": 89.8,
         "y": 51.8,
         "arco_y": 53.9,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 10,
@@ -431,7 +432,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 73,
@@ -4799,7 +4801,8 @@
         "x": 81.1,
         "y": 53.5,
         "arco_y": 47.8,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -4844,7 +4847,53 @@
         "x": 90.1,
         "y": 55.2,
         "arco_y": 52.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Marc Roca",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 30.5,
+            "y": 31.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 30.5,
+            "y": 31.3,
+            "endX": 64.2,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cédric Bakambu",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 9,
+            "x": 64.2,
+            "y": 38.5,
+            "endX": 85.8,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cédric Bakambu",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 9,
+            "x": 85.8,
+            "y": 40.9,
+            "endX": 90.1,
+            "endY": 55.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -4853,7 +4902,141 @@
         "x": 86.3,
         "y": 50.0,
         "arco_y": 47.0,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Marc Bartra",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 8,
+            "x": 32.5,
+            "y": 46.6,
+            "endX": 33.8,
+            "endY": 78.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 11,
+            "x": 33.8,
+            "y": 78.6,
+            "endX": 35.5,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 11,
+            "x": 35.5,
+            "y": 75.0,
+            "endX": 30.7,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Natan",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 15,
+            "x": 30.7,
+            "y": 60.9,
+            "endX": 32.1,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Natan",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 15,
+            "x": 32.1,
+            "y": 56.4,
+            "endX": 30.8,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Bartra",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 16,
+            "x": 30.3,
+            "y": 32.2,
+            "endX": 14.3,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Valles",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 21,
+            "x": 14.3,
+            "y": 54.3,
+            "endX": 17.7,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Valles",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 21,
+            "x": 17.7,
+            "y": 58.2,
+            "endX": 62.3,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 24,
+            "x": 62.3,
+            "y": 69.7,
+            "endX": 57.3,
+            "endY": 61.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 26,
+            "x": 57.3,
+            "y": 61.5,
+            "endX": 85.2,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 29,
+            "x": 85.2,
+            "y": 73.5,
+            "endX": 85.2,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 29,
+            "x": 85.2,
+            "y": 70.0,
+            "endX": 85.3,
+            "endY": 44.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

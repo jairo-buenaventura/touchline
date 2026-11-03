@@ -421,7 +421,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.4,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 74,
@@ -430,7 +431,86 @@
         "x": 88.9,
         "y": 59.3,
         "arco_y": 52.3,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Joe Rodon",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 36,
+            "x": 52.9,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Rodon",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 36,
+            "x": 53.2,
+            "y": 49.5,
+            "endX": 62.0,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 41,
+            "x": 62.0,
+            "y": 61.2,
+            "endX": 64.7,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 41,
+            "x": 64.7,
+            "y": 73.8,
+            "endX": 71.5,
+            "endY": 78.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wilfried Gnonto",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 42,
+            "x": 71.5,
+            "y": 78.4,
+            "endX": 67.9,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 67.9,
+            "y": 85.3,
+            "endX": 80.1,
+            "endY": 82.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 80.1,
+            "y": 82.2,
+            "endX": 88.8,
+            "endY": 67.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,
@@ -466,7 +546,8 @@
         "x": 96.3,
         "y": 42.9,
         "arco_y": 53.4,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4329,7 +4410,20 @@
         "x": 85.2,
         "y": 53.8,
         "arco_y": 53.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 25,
+            "x": 80.5,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,
@@ -4347,7 +4441,8 @@
         "x": 95.4,
         "y": 46.6,
         "arco_y": 51.9,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -4383,7 +4478,196 @@
         "x": 89.3,
         "y": 42.3,
         "arco_y": 53.5,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 3,
+            "x": 34.6,
+            "y": 86.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 7,
+            "x": 35.1,
+            "y": 92.1,
+            "endX": 35.0,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 9,
+            "x": 35.0,
+            "y": 75.3,
+            "endX": 34.6,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 9,
+            "x": 34.6,
+            "y": 79.8,
+            "endX": 26.4,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 12,
+            "x": 26.4,
+            "y": 85.5,
+            "endX": 28.5,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 12,
+            "x": 28.5,
+            "y": 80.1,
+            "endX": 15.9,
+            "endY": 51.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alisson Becker",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 15,
+            "x": 15.0,
+            "y": 49.8,
+            "endX": 22.2,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Konaté",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 20,
+            "x": 22.2,
+            "y": 30.4,
+            "endX": 26.5,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Konaté",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 20,
+            "x": 26.5,
+            "y": 27.1,
+            "endX": 26.1,
+            "endY": 53.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 26,
+            "x": 26.1,
+            "y": 53.5,
+            "endX": 34.8,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 26,
+            "x": 34.8,
+            "y": 76.3,
+            "endX": 34.6,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 30,
+            "x": 34.6,
+            "y": 87.7,
+            "endX": 35.1,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 30,
+            "x": 35.1,
+            "y": 83.5,
+            "endX": 34.1,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 32,
+            "x": 34.1,
+            "y": 70.2,
+            "endX": 37.1,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 32,
+            "x": 37.1,
+            "y": 71.7,
+            "endX": 56.3,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 33,
+            "x": 56.3,
+            "y": 73.9,
+            "endX": 64.1,
+            "endY": 68.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 33,
+            "x": 64.1,
+            "y": 68.9,
+            "endX": 81.2,
+            "endY": 41.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 97,

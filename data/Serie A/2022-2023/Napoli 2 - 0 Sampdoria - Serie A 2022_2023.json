@@ -485,7 +485,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.8,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -548,7 +549,75 @@
         "x": 73.5,
         "y": 56.3,
         "arco_y": 46.8,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 41.2,
+            "y": 69.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 40.9,
+            "y": 68.7,
+            "endX": 36.8,
+            "endY": 48.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Demme",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 3,
+            "x": 36.8,
+            "y": 48.2,
+            "endX": 39.0,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Demme",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 3,
+            "x": 39.0,
+            "y": 41.8,
+            "endX": 47.8,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 6,
+            "x": 47.8,
+            "y": 36.9,
+            "endX": 55.0,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 6,
+            "x": 55.0,
+            "y": 37.5,
+            "endX": 68.9,
+            "endY": 61.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,

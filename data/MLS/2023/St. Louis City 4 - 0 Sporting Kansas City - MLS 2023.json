@@ -413,7 +413,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.3,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -422,7 +423,8 @@
         "x": 87.8,
         "y": 59.7,
         "arco_y": 49.5,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 28,
@@ -476,7 +478,20 @@
         "x": 87.6,
         "y": 39.9,
         "arco_y": 50.2,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 33,
+            "x": 67.0,
+            "y": 37.0,
+            "endX": 72.2,
+            "endY": 41.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,
@@ -485,7 +500,31 @@
         "x": 90.9,
         "y": 33.3,
         "arco_y": 53.7,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Tomás Ostrák",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 56,
+            "x": 54.4,
+            "y": 16.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Ostrák",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 1,
+            "x": 78.8,
+            "y": 34.6,
+            "endX": 90.5,
+            "endY": 33.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,

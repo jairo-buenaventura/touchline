@@ -400,7 +400,8 @@
         "x": 91.6,
         "y": 57.5,
         "arco_y": 54.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 33,
@@ -454,7 +455,8 @@
         "x": 81.0,
         "y": 49.6,
         "arco_y": 52.9,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -4010,7 +4012,8 @@
         "x": 79.3,
         "y": 37.8,
         "arco_y": 46.7,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 29,
@@ -4046,7 +4049,8 @@
         "x": 9.4,
         "y": 44.1,
         "arco_y": 54.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 55,
@@ -4082,7 +4086,31 @@
         "x": 93.4,
         "y": 51.1,
         "arco_y": 51.5,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "TakeOn",
+            "minuto": 63,
+            "segundo": 0,
+            "x": 94.3,
+            "y": 28.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "ShotOnPost",
+            "minuto": 63,
+            "segundo": 2,
+            "x": 92.6,
+            "y": 35.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 69,
@@ -4100,7 +4128,97 @@
         "x": 88.5,
         "y": 33.8,
         "arco_y": 46.5,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 36,
+            "x": 28.3,
+            "y": 69.7,
+            "endX": 8.9,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josep Martínez",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 40,
+            "x": 8.8,
+            "y": 49.6,
+            "endX": 18.2,
+            "endY": 20.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Henrique",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 43,
+            "x": 18.2,
+            "y": 20.5,
+            "endX": 32.6,
+            "endY": 8.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 47,
+            "x": 33.9,
+            "y": 9.6,
+            "endX": 33.8,
+            "endY": 19.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 49,
+            "x": 33.8,
+            "y": 19.6,
+            "endX": 33.4,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 49,
+            "x": 33.4,
+            "y": 27.6,
+            "endX": 40.4,
+            "endY": 37.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Topalovic",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 40.4,
+            "y": 37.6,
+            "endX": 40.3,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Topalovic",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 40.3,
+            "y": 31.9,
+            "endX": 80.3,
+            "endY": 26.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -346,7 +346,8 @@
         "x": 92.0,
         "y": 54.0,
         "arco_y": 51.9,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -373,7 +374,20 @@
         "x": 95.7,
         "y": 44.9,
         "arco_y": 46.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Romain Faivre",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 2,
+            "x": 70.2,
+            "y": 75.2,
+            "endX": 95.7,
+            "endY": 44.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 69,
@@ -382,7 +396,64 @@
         "x": 80.9,
         "y": 50.3,
         "arco_y": 45.8,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Théo De Percin",
+            "tipo": "KeeperPickup",
+            "minuto": 68,
+            "segundo": 46,
+            "x": 7.1,
+            "y": 34.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Théo De Percin",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 57,
+            "x": 14.2,
+            "y": 40.6,
+            "endX": 73.1,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Namaso",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 2,
+            "x": 73.1,
+            "y": 80.5,
+            "endX": 63.4,
+            "endY": 80.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Danois",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 4,
+            "x": 63.3,
+            "y": 80.9,
+            "endX": 66.9,
+            "endY": 98.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gideon Mensah",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 5,
+            "x": 66.9,
+            "y": 98.2,
+            "endX": 73.1,
+            "endY": 85.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 77,

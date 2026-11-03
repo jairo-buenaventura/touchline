@@ -448,7 +448,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -466,7 +467,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 46,
@@ -511,7 +513,31 @@
         "x": 92.7,
         "y": 51.0,
         "arco_y": 50.1,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 59,
+            "x": 95.3,
+            "y": 28.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 59,
+            "x": 95.9,
+            "y": 28.7,
+            "endX": 92.9,
+            "endY": 50.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,
@@ -529,7 +555,8 @@
         "x": 89.9,
         "y": 47.8,
         "arco_y": 51.3,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4472,7 +4499,8 @@
         "x": 88.6,
         "y": 56.5,
         "arco_y": 52.0,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 9,
@@ -4481,7 +4509,42 @@
         "x": 88.0,
         "y": 37.3,
         "arco_y": 52.9,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Guido Rodríguez",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 32,
+            "x": 31.0,
+            "y": 69.6,
+            "endX": 90.2,
+            "endY": 17.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aitor Ruibal",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 40,
+            "x": 90.2,
+            "y": 17.7,
+            "endX": 93.5,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aitor Ruibal",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 40,
+            "x": 93.5,
+            "y": 23.3,
+            "endX": 87.5,
+            "endY": 37.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 21,

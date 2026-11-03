@@ -4207,7 +4207,8 @@
         "x": 10.7,
         "y": 63.2,
         "arco_y": 46.8,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -4243,7 +4244,8 @@
         "x": 76.8,
         "y": 28.6,
         "arco_y": 47.7,
-        "arco_z": 26.6
+        "arco_z": 26.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 89,
@@ -4252,7 +4254,75 @@
         "x": 73.6,
         "y": 43.3,
         "arco_y": 47.2,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 1,
+            "x": 80.4,
+            "y": 94.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 3,
+            "x": 76.4,
+            "y": 92.4,
+            "endX": 80.8,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Paredes",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 80.8,
+            "y": 95.9,
+            "endX": 77.2,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Paredes",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 77.2,
+            "y": 91.4,
+            "endX": 70.5,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 7,
+            "x": 70.5,
+            "y": 79.7,
+            "endX": 70.2,
+            "endY": 74.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 7,
+            "x": 70.2,
+            "y": 74.6,
+            "endX": 70.8,
+            "endY": 50.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

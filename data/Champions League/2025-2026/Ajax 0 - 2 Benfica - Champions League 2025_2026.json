@@ -5396,7 +5396,8 @@
         "x": 86.2,
         "y": 60.5,
         "arco_y": 46.1,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 14,
@@ -5468,7 +5469,42 @@
         "x": 87.6,
         "y": 60.9,
         "arco_y": 52.8,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 11,
+            "x": 54.6,
+            "y": 75.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 12,
+            "x": 62.0,
+            "y": 66.0,
+            "endX": 63.9,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fredrik Aursnes",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 64.6,
+            "y": 60.6,
+            "endX": 78.3,
+            "endY": 64.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

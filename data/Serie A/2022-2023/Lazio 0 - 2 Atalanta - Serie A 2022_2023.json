@@ -5511,7 +5511,8 @@
         "x": 85.0,
         "y": 67.8,
         "arco_y": 45.9,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -5592,7 +5593,53 @@
         "x": 96.3,
         "y": 50.7,
         "arco_y": 52.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "José Palomino",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 16,
+            "x": 45.9,
+            "y": 81.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Palomino",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 16,
+            "x": 46.0,
+            "y": 82.0,
+            "endX": 63.4,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ademola Lookman",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 22,
+            "x": 63.4,
+            "y": 82.0,
+            "endX": 88.9,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ademola Lookman",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 22,
+            "x": 88.9,
+            "y": 73.2,
+            "endX": 96.3,
+            "endY": 50.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,

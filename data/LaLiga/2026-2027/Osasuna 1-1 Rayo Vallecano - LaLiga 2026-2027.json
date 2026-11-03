@@ -385,7 +385,8 @@
         "x": 91.7,
         "y": 47.8,
         "arco_y": 47.9,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 17,
@@ -3791,7 +3792,75 @@
         "x": 92.1,
         "y": 57.7,
         "arco_y": 52.8,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Álvaro García",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 55,
+            "x": 77.1,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro García",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 55,
+            "x": 77.1,
+            "y": 88.6,
+            "endX": 72.3,
+            "endY": 74.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 56,
+            "x": 72.3,
+            "y": 74.9,
+            "endX": 73.5,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 56,
+            "x": 73.5,
+            "y": 70.5,
+            "endX": 89.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 57,
+            "x": 89.2,
+            "y": 72.6,
+            "endX": 95.7,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 57,
+            "x": 95.7,
+            "y": 71.8,
+            "endX": 92.1,
+            "endY": 57.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 52,

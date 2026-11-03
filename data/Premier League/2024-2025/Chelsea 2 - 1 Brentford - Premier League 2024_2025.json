@@ -505,7 +505,8 @@
         "x": 92.6,
         "y": 53.2,
         "arco_y": 51.9,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 44,
@@ -586,7 +587,53 @@
         "x": 85.3,
         "y": 37.5,
         "arco_y": 46.4,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 31.6,
+            "y": 73.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 31.7,
+            "y": 71.2,
+            "endX": 33.7,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Fernández",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 33.7,
+            "y": 56.0,
+            "endX": 34.6,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Fernández",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 34.6,
+            "y": 51.2,
+            "endX": 74.1,
+            "endY": 34.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,
@@ -5031,7 +5078,8 @@
         "x": 80.3,
         "y": 35.2,
         "arco_y": 52.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [

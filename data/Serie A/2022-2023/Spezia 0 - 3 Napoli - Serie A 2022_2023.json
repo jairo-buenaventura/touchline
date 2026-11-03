@@ -4077,7 +4077,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -4104,7 +4105,8 @@
         "x": 91.6,
         "y": 50.5,
         "arco_y": 49.4,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -4113,7 +4115,31 @@
         "x": 90.6,
         "y": 45.2,
         "arco_y": 46.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 58,
+            "x": 88.0,
+            "y": 62.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 88.9,
+            "y": 57.5,
+            "endX": 89.6,
+            "endY": 45.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -411,7 +411,8 @@
         "x": 95.6,
         "y": 46.6,
         "arco_y": 48.4,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -474,7 +475,31 @@
         "x": 89.0,
         "y": 34.0,
         "arco_y": 52.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Alex Muyl",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 74.0,
+            "y": 33.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Muyl",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 75.5,
+            "y": 27.9,
+            "endX": 81.5,
+            "endY": 35.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,
@@ -483,7 +508,53 @@
         "x": 91.8,
         "y": 54.9,
         "arco_y": 52.7,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Dax McCarty",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 54,
+            "x": 19.9,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dax McCarty",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 54,
+            "x": 20.1,
+            "y": 36.0,
+            "endX": 64.9,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 2,
+            "x": 64.9,
+            "y": 14.4,
+            "endX": 88.6,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 2,
+            "x": 88.6,
+            "y": 29.1,
+            "endX": 90.7,
+            "endY": 55.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

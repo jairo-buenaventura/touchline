@@ -4294,7 +4294,8 @@
         "x": 95.2,
         "y": 46.4,
         "arco_y": 54.1,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -4357,7 +4358,8 @@
         "x": 3.7,
         "y": 47.4,
         "arco_y": 50.2,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -4438,7 +4440,97 @@
         "x": 93.6,
         "y": 52.1,
         "arco_y": 51.0,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Thierno Barry",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 49,
+            "x": 72.9,
+            "y": 28.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thierno Barry",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 49,
+            "x": 73.5,
+            "y": 28.6,
+            "endX": 67.7,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Pépé",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 50,
+            "x": 68.7,
+            "y": 27.4,
+            "endX": 70.2,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Terrats",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 53,
+            "x": 70.2,
+            "y": 34.8,
+            "endX": 69.5,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Terrats",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 53,
+            "x": 69.5,
+            "y": 40.3,
+            "endX": 73.1,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Baena",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 54,
+            "x": 73.1,
+            "y": 52.1,
+            "endX": 75.0,
+            "endY": 58.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Baena",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 54,
+            "x": 75.0,
+            "y": 58.5,
+            "endX": 92.0,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yéremy Pino",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 56,
+            "x": 91.7,
+            "y": 63.2,
+            "endX": 93.6,
+            "endY": 51.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

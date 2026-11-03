@@ -4214,7 +4214,8 @@
         "x": 6.9,
         "y": 48.7,
         "arco_y": 53.8,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 91,
@@ -4223,7 +4224,75 @@
         "x": 87.8,
         "y": 61.1,
         "arco_y": 47.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 56,
+            "x": 14.9,
+            "y": 73.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 56,
+            "x": 14.9,
+            "y": 73.5,
+            "endX": 30.3,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 58,
+            "x": 29.1,
+            "y": 91.2,
+            "endX": 29.6,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 0,
+            "x": 31.3,
+            "y": 68.5,
+            "endX": 71.7,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoub Jabbari",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 71.7,
+            "y": 82.4,
+            "endX": 86.4,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoub Jabbari",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 86.4,
+            "y": 74.4,
+            "endX": 87.8,
+            "endY": 61.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

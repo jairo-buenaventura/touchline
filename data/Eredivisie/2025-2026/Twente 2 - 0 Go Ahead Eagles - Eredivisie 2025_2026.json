@@ -460,7 +460,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 32,
@@ -514,7 +515,31 @@
         "x": 94.6,
         "y": 48.1,
         "arco_y": 49.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Daan Rots",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 56,
+            "x": 65.5,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 0,
+            "x": 97.2,
+            "y": 22.7,
+            "endX": 95.5,
+            "endY": 48.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,

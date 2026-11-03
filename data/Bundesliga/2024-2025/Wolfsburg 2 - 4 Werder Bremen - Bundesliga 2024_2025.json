@@ -395,7 +395,8 @@
         "x": 98.9,
         "y": 50.4,
         "arco_y": 50.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -485,7 +486,8 @@
         "x": 80.9,
         "y": 49.8,
         "arco_y": 46.1,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 90,
@@ -4225,7 +4227,20 @@
         "x": 96.1,
         "y": 54.0,
         "arco_y": 53.0,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 23,
+            "x": 81.2,
+            "y": 86.3,
+            "endX": 95.0,
+            "endY": 51.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -4243,7 +4258,8 @@
         "x": 89.3,
         "y": 65.6,
         "arco_y": 53.6,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -4261,7 +4277,53 @@
         "x": 86.6,
         "y": 47.0,
         "arco_y": 54.2,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Julián Malatini",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 8,
+            "x": 36.0,
+            "y": 4.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Malatini",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 12,
+            "x": 52.0,
+            "y": 11.6,
+            "endX": 75.0,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 16,
+            "x": 75.0,
+            "y": 5.2,
+            "endX": 90.6,
+            "endY": 18.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 16,
+            "x": 90.6,
+            "y": 18.4,
+            "endX": 87.2,
+            "endY": 44.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -4270,7 +4332,75 @@
         "x": 89.0,
         "y": 35.0,
         "arco_y": 51.6,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Michael Zetterer",
+            "tipo": "Claim",
+            "minuto": 71,
+            "segundo": 28,
+            "x": 5.4,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Zetterer",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 33,
+            "x": 14.2,
+            "y": 59.9,
+            "endX": 48.5,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 37,
+            "x": 48.5,
+            "y": 92.8,
+            "endX": 62.2,
+            "endY": 89.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 37,
+            "x": 62.2,
+            "y": 89.2,
+            "endX": 73.0,
+            "endY": 77.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 40,
+            "x": 73.0,
+            "y": 77.8,
+            "endX": 77.5,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 40,
+            "x": 77.5,
+            "y": 80.5,
+            "endX": 82.2,
+            "endY": 42.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,

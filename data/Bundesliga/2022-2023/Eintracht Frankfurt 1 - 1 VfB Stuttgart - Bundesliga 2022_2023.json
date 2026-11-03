@@ -413,7 +413,8 @@
         "x": 91.8,
         "y": 31.3,
         "arco_y": 51.7,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 60,
@@ -4781,7 +4782,42 @@
         "x": 87.4,
         "y": 60.7,
         "arco_y": 46.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Wataru Endo",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 1,
+            "x": 35.9,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wataru Endo",
+            "tipo": "BallTouch",
+            "minuto": 74,
+            "segundo": 2,
+            "x": 36.0,
+            "y": 60.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Genki Haraguchi",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 8,
+            "x": 72.8,
+            "y": 44.8,
+            "endX": 82.7,
+            "endY": 67.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,

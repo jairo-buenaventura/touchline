@@ -415,7 +415,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.1,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 16,
@@ -424,7 +425,42 @@
         "x": 90.8,
         "y": 56.7,
         "arco_y": 53.4,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 17,
+            "x": 75.8,
+            "y": 54.4,
+            "endX": 84.5,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Carreras",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 18,
+            "x": 84.7,
+            "y": 63.4,
+            "endX": 89.2,
+            "endY": 55.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 19,
+            "x": 89.2,
+            "y": 55.3,
+            "endX": 90.8,
+            "endY": 56.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 24,
@@ -451,7 +487,163 @@
         "x": 84.9,
         "y": 52.6,
         "arco_y": 47.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 37,
+            "x": 52.3,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 37,
+            "x": 52.3,
+            "y": 51.9,
+            "endX": 35.1,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 44,
+            "x": 35.1,
+            "y": 45.4,
+            "endX": 29.6,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 44,
+            "x": 29.6,
+            "y": 50.4,
+            "endX": 32.7,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Carreras",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 49,
+            "x": 32.7,
+            "y": 79.8,
+            "endX": 32.0,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Carreras",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 49,
+            "x": 32.0,
+            "y": 76.2,
+            "endX": 24.6,
+            "endY": 54.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 53,
+            "x": 24.7,
+            "y": 54.7,
+            "endX": 29.9,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Carreras",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 55,
+            "x": 29.6,
+            "y": 72.1,
+            "endX": 38.2,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 58,
+            "x": 38.2,
+            "y": 64.0,
+            "endX": 39.8,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 58,
+            "x": 39.8,
+            "y": 72.7,
+            "endX": 55.6,
+            "endY": 97.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 0,
+            "x": 54.9,
+            "y": 97.9,
+            "endX": 57.4,
+            "endY": 85.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 1,
+            "x": 57.4,
+            "y": 85.8,
+            "endX": 71.5,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 6,
+            "x": 71.5,
+            "y": 96.3,
+            "endX": 88.6,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 6,
+            "x": 88.6,
+            "y": 77.3,
+            "endX": 84.8,
+            "endY": 52.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 36,
@@ -604,7 +796,42 @@
         "x": 86.9,
         "y": 33.7,
         "arco_y": 53.8,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Eduardo Camavinga",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 4,
+            "x": 23.3,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduardo Camavinga",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 10,
+            "x": 67.5,
+            "y": 76.6,
+            "endX": 68.6,
+            "endY": 51.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 68.6,
+            "y": 51.1,
+            "endX": 86.9,
+            "endY": 33.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -5175,7 +5402,20 @@
         "x": 89.5,
         "y": 36.8,
         "arco_y": 52.8,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 9,
+            "x": 89.0,
+            "y": 39.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,

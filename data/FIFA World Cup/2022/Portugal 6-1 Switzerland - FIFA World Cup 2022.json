@@ -397,7 +397,8 @@
         "x": 91.8,
         "y": 67.8,
         "arco_y": 54.0,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -424,7 +425,8 @@
         "x": 94.7,
         "y": 49.5,
         "arco_y": 52.6,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -460,7 +462,8 @@
         "x": 95.4,
         "y": 42.3,
         "arco_y": 45.8,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -487,7 +490,130 @@
         "x": 91.6,
         "y": 58.7,
         "arco_y": 48.5,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 40,
+            "x": 22.1,
+            "y": 88.8,
+            "endX": 29.1,
+            "endY": 97.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 43,
+            "x": 29.1,
+            "y": 97.4,
+            "endX": 31.8,
+            "endY": 87.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 43,
+            "x": 31.8,
+            "y": 87.0,
+            "endX": 22.8,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 44,
+            "x": 22.1,
+            "y": 85.3,
+            "endX": 35.9,
+            "endY": 98.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 46,
+            "x": 35.9,
+            "y": 98.4,
+            "endX": 38.9,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 46,
+            "x": 38.9,
+            "y": 96.0,
+            "endX": 52.9,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Otávio",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 48,
+            "x": 51.1,
+            "y": 92.7,
+            "endX": 51.0,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 50,
+            "x": 51.0,
+            "y": 85.3,
+            "endX": 57.4,
+            "endY": 73.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 50,
+            "x": 57.4,
+            "y": 73.7,
+            "endX": 70.6,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonçalo Ramos",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 52,
+            "x": 70.6,
+            "y": 57.2,
+            "endX": 74.0,
+            "endY": 54.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonçalo Ramos",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 52,
+            "x": 74.0,
+            "y": 54.6,
+            "endX": 85.5,
+            "endY": 66.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 66,
@@ -496,7 +622,42 @@
         "x": 92.2,
         "y": 42.3,
         "arco_y": 52.9,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "BallTouch",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 58.4,
+            "y": 17.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "BallTouch",
+            "minuto": 66,
+            "segundo": 7,
+            "x": 61.5,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 10,
+            "x": 77.0,
+            "y": 41.2,
+            "endX": 85.5,
+            "endY": 32.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 75,
@@ -514,7 +675,317 @@
         "x": 87.0,
         "y": 72.1,
         "arco_y": 47.4,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Diogo Costa",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 8.3,
+            "y": 57.7,
+            "endX": 6.2,
+            "endY": 29.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pepe",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 23,
+            "x": 6.6,
+            "y": 30.5,
+            "endX": 14.3,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Neves",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 27,
+            "x": 15.7,
+            "y": 42.9,
+            "endX": 16.2,
+            "endY": 78.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 16.2,
+            "y": 78.3,
+            "endX": 19.5,
+            "endY": 81.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 19.5,
+            "y": 81.7,
+            "endX": 27.4,
+            "endY": 97.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 32,
+            "x": 27.6,
+            "y": 95.8,
+            "endX": 39.2,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 35,
+            "x": 39.2,
+            "y": 96.8,
+            "endX": 33.2,
+            "endY": 97.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 35,
+            "x": 33.2,
+            "y": 97.9,
+            "endX": 19.8,
+            "endY": 69.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Neves",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 19.8,
+            "y": 69.5,
+            "endX": 17.3,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Neves",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 17.3,
+            "y": 62.7,
+            "endX": 20.2,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pepe",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 41,
+            "x": 20.2,
+            "y": 30.2,
+            "endX": 22.3,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pepe",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 41,
+            "x": 22.3,
+            "y": 24.0,
+            "endX": 32.2,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Dalot",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 44,
+            "x": 32.4,
+            "y": 2.6,
+            "endX": 22.1,
+            "endY": 11.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pepe",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 46,
+            "x": 22.1,
+            "y": 12.6,
+            "endX": 28.9,
+            "endY": 20.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 51,
+            "x": 28.9,
+            "y": 20.3,
+            "endX": 41.1,
+            "endY": 26.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 51,
+            "x": 41.1,
+            "y": 26.6,
+            "endX": 48.0,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristiano Ronaldo",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 53,
+            "x": 48.0,
+            "y": 8.3,
+            "endX": 37.9,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Dalot",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 56,
+            "x": 37.9,
+            "y": 14.0,
+            "endX": 38.8,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Dalot",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 56,
+            "x": 38.8,
+            "y": 18.9,
+            "endX": 32.8,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Neves",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 58,
+            "x": 32.8,
+            "y": 35.0,
+            "endX": 33.3,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Neves",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 58,
+            "x": 33.3,
+            "y": 40.0,
+            "endX": 32.8,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 3,
+            "x": 32.8,
+            "y": 80.1,
+            "endX": 39.6,
+            "endY": 79.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 3,
+            "x": 39.6,
+            "y": 79.1,
+            "endX": 52.0,
+            "endY": 97.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 5,
+            "x": 52.0,
+            "y": 97.8,
+            "endX": 52.3,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 5,
+            "x": 52.3,
+            "y": 94.1,
+            "endX": 62.0,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 7,
+            "x": 63.1,
+            "y": 94.9,
+            "endX": 64.2,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 8,
+            "x": 64.2,
+            "y": 89.1,
+            "endX": 66.8,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 8,
+            "x": 66.8,
+            "y": 85.7,
+            "endX": 82.9,
+            "endY": 79.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,
@@ -4454,7 +4925,8 @@
         "x": 97.6,
         "y": 58.0,
         "arco_y": 52.9,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,

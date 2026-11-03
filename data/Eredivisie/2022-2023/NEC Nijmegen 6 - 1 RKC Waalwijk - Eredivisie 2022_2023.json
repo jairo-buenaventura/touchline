@@ -457,7 +457,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 40,
@@ -529,7 +530,8 @@
         "x": 76.5,
         "y": 60.0,
         "arco_y": 46.4,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 58,
@@ -583,7 +585,8 @@
         "x": 93.1,
         "y": 48.8,
         "arco_y": 51.0,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 74,
@@ -601,7 +604,20 @@
         "x": 93.0,
         "y": 47.8,
         "arco_y": 51.0,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 13,
+            "x": 85.2,
+            "y": 44.7,
+            "endX": 91.9,
+            "endY": 46.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,
@@ -628,7 +644,53 @@
         "x": 83.4,
         "y": 41.7,
         "arco_y": 47.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jasper Cillessen",
+            "tipo": "Claim",
+            "minuto": 87,
+            "segundo": 28,
+            "x": 2.2,
+            "y": 53.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jasper Cillessen",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 30,
+            "x": 11.1,
+            "y": 54.6,
+            "endX": 37.0,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 33,
+            "x": 37.0,
+            "y": 82.6,
+            "endX": 37.3,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 33,
+            "x": 37.3,
+            "y": 86.3,
+            "endX": 70.1,
+            "endY": 34.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,
@@ -637,7 +699,97 @@
         "x": 94.5,
         "y": 50.8,
         "arco_y": 49.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Lasse Schöne",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 35,
+            "x": 34.1,
+            "y": 0.0,
+            "endX": 24.3,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Márquez",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 24.3,
+            "y": 23.1,
+            "endX": 31.3,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 31.3,
+            "y": 44.0,
+            "endX": 31.6,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 31.6,
+            "y": 47.8,
+            "endX": 37.1,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 45,
+            "x": 37.1,
+            "y": 55.7,
+            "endX": 40.1,
+            "endY": 58.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 45,
+            "x": 40.1,
+            "y": 58.7,
+            "endX": 81.6,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordy Bruijn",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 51,
+            "x": 81.6,
+            "y": 75.1,
+            "endX": 97.7,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordy Bruijn",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 51,
+            "x": 97.7,
+            "y": 71.7,
+            "endX": 96.3,
+            "endY": 49.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -5114,7 +5266,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 49.7,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 29,

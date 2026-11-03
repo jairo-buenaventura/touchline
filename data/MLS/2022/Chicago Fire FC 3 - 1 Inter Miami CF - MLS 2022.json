@@ -441,7 +441,8 @@
         "x": 92.6,
         "y": 47.6,
         "arco_y": 47.4,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 46,
@@ -468,7 +469,20 @@
         "x": 91.7,
         "y": 60.6,
         "arco_y": 52.5,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Chris Mueller",
+            "tipo": "BallTouch",
+            "minuto": 63,
+            "segundo": 13,
+            "x": 94.0,
+            "y": 55.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 72,
@@ -486,7 +500,31 @@
         "x": 89.0,
         "y": 59.5,
         "arco_y": 50.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 57,
+            "x": 26.9,
+            "y": 90.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 58,
+            "x": 31.8,
+            "y": 91.0,
+            "endX": 63.6,
+            "endY": 90.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4515,7 +4553,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [

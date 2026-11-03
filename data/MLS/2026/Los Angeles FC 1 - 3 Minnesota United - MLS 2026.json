@@ -539,7 +539,8 @@
         "x": 85.3,
         "y": 52.8,
         "arco_y": 46.4,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 93,
@@ -4674,7 +4675,8 @@
         "x": 87.5,
         "y": 48.2,
         "arco_y": 48.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 33,
@@ -4683,7 +4685,20 @@
         "x": 88.1,
         "y": 49.9,
         "arco_y": 50.0,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Kelvin Yeboah",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 19,
+            "x": 86.4,
+            "y": 58.2,
+            "endX": 88.1,
+            "endY": 49.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,
@@ -4719,7 +4734,42 @@
         "x": 79.7,
         "y": 67.6,
         "arco_y": 46.1,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 45,
+            "x": 59.0,
+            "y": 55.5,
+            "endX": 74.0,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio González",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 50,
+            "x": 74.0,
+            "y": 76.0,
+            "endX": 84.5,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio González",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 50,
+            "x": 84.5,
+            "y": 70.9,
+            "endX": 79.7,
+            "endY": 67.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

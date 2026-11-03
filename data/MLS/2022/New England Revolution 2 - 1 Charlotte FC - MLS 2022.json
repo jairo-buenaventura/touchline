@@ -372,7 +372,8 @@
         "x": 92.3,
         "y": 50.5,
         "arco_y": 47.9,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 11,
@@ -480,7 +481,8 @@
         "x": 94.9,
         "y": 52.6,
         "arco_y": 54.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4138,7 +4140,64 @@
         "x": 77.6,
         "y": 32.8,
         "arco_y": 53.6,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Fuchs",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 9,
+            "x": 30.2,
+            "y": 75.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Fuchs",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 12,
+            "x": 40.9,
+            "y": 75.1,
+            "endX": 89.4,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yordy Reyna",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 20,
+            "x": 89.4,
+            "y": 4.3,
+            "endX": 85.0,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yordy Reyna",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 20,
+            "x": 85.0,
+            "y": 5.0,
+            "endX": 74.4,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ruiz",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 22,
+            "x": 74.8,
+            "y": 24.3,
+            "endX": 78.3,
+            "endY": 30.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

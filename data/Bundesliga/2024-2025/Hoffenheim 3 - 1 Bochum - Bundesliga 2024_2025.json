@@ -401,7 +401,8 @@
         "x": 81.6,
         "y": 50.8,
         "arco_y": 53.0,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 13,
@@ -464,7 +465,42 @@
         "x": 88.1,
         "y": 38.5,
         "arco_y": 45.7,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 43,
+            "x": 47.1,
+            "y": 26.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 44,
+            "x": 47.1,
+            "y": 26.2,
+            "endX": 43.0,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 46,
+            "x": 43.0,
+            "y": 32.7,
+            "endX": 84.6,
+            "endY": 40.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 69,
@@ -491,7 +527,75 @@
         "x": 87.1,
         "y": 58.3,
         "arco_y": 46.1,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 44,
+            "x": 14.8,
+            "y": 8.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 44,
+            "x": 16.6,
+            "y": 9.2,
+            "endX": 23.8,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 48,
+            "x": 23.8,
+            "y": 10.1,
+            "endX": 29.8,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 48,
+            "x": 29.8,
+            "y": 22.1,
+            "endX": 70.1,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bruun Larsen",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 53,
+            "x": 70.1,
+            "y": 14.4,
+            "endX": 76.9,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bruun Larsen",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 53,
+            "x": 76.9,
+            "y": 16.4,
+            "endX": 86.7,
+            "endY": 53.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4382,7 +4486,53 @@
         "x": 88.0,
         "y": 27.4,
         "arco_y": 54.3,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Moritz-Broni Kwarteng",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 24,
+            "x": 77.5,
+            "y": 68.6,
+            "endX": 75.0,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Wittek",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 26,
+            "x": 75.3,
+            "y": 79.5,
+            "endX": 81.4,
+            "endY": 74.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Daschner",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 29,
+            "x": 81.4,
+            "y": 74.0,
+            "endX": 86.6,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Daschner",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 29,
+            "x": 86.6,
+            "y": 66.9,
+            "endX": 89.7,
+            "endY": 29.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,

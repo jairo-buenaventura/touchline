@@ -390,7 +390,8 @@
         "x": 88.2,
         "y": 57.1,
         "arco_y": 53.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 25,
@@ -417,7 +418,8 @@
         "x": 90.7,
         "y": 59.7,
         "arco_y": 52.6,
-        "arco_z": 30.4
+        "arco_z": 30.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4322,7 +4324,20 @@
         "x": 4.1,
         "y": 50.9,
         "arco_y": 48.0,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Radu Dragusin",
+            "tipo": "Clearance",
+            "minuto": 51,
+            "segundo": 58,
+            "x": 2.7,
+            "y": 50.0,
+            "endX": 4.1,
+            "endY": 50.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 72,
@@ -4349,7 +4364,8 @@
         "x": 86.4,
         "y": 31.9,
         "arco_y": 50.1,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 83,
@@ -4376,7 +4392,64 @@
         "x": 97.2,
         "y": 45.7,
         "arco_y": 46.2,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Mikey Moore",
+            "tipo": "CornerAwarded",
+            "minuto": 91,
+            "segundo": 13,
+            "x": 96.6,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikey Moore",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 21,
+            "x": 99.7,
+            "y": 99.5,
+            "endX": 94.4,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 23,
+            "x": 95.5,
+            "y": 93.2,
+            "endX": 90.6,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikey Moore",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 90.6,
+            "y": 92.0,
+            "endX": 85.8,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikey Moore",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 85.8,
+            "y": 88.1,
+            "endX": 97.4,
+            "endY": 45.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,

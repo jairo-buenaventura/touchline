@@ -450,7 +450,8 @@
         "x": 3.7,
         "y": 48.8,
         "arco_y": 52.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 69,
@@ -4764,7 +4765,53 @@
         "x": 96.1,
         "y": 31.8,
         "arco_y": 47.8,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 29,
+            "x": 44.2,
+            "y": 46.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 31,
+            "x": 54.2,
+            "y": 46.7,
+            "endX": 66.5,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timo Werner",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 36,
+            "x": 66.5,
+            "y": 72.0,
+            "endX": 89.9,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timo Werner",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 36,
+            "x": 89.9,
+            "y": 71.2,
+            "endX": 96.1,
+            "endY": 31.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -4773,7 +4820,20 @@
         "x": 89.7,
         "y": 54.5,
         "arco_y": 48.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Timo Werner",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 12,
+            "x": 86.7,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -4800,7 +4860,8 @@
         "x": 6.5,
         "y": 55.5,
         "arco_y": 46.6,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -4809,7 +4870,31 @@
         "x": 90.3,
         "y": 33.6,
         "arco_y": 47.2,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Skahan",
+            "tipo": "BlockedPass",
+            "minuto": 79,
+            "segundo": 15,
+            "x": 60.3,
+            "y": 75.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niko Tsakiris",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 21,
+            "x": 79.7,
+            "y": 50.9,
+            "endX": 87.8,
+            "endY": 30.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

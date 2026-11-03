@@ -4940,7 +4940,8 @@
         "x": 75.5,
         "y": 53.2,
         "arco_y": 46.2,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 100,
@@ -4949,7 +4950,31 @@
         "x": 87.2,
         "y": 43.5,
         "arco_y": 48.6,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Mehdi Taremi",
+            "tipo": "BallRecovery",
+            "minuto": 100,
+            "segundo": 27,
+            "x": 37.4,
+            "y": 87.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Taremi",
+            "tipo": "Pass",
+            "minuto": 100,
+            "segundo": 33,
+            "x": 73.9,
+            "y": 60.9,
+            "endX": 77.3,
+            "endY": 39.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

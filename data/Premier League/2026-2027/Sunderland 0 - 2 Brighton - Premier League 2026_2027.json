@@ -4647,7 +4647,8 @@
         "x": 88.0,
         "y": 62.0,
         "arco_y": 54.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -4692,7 +4693,53 @@
         "x": 92.9,
         "y": 66.9,
         "arco_y": 47.4,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 24,
+            "x": 48.8,
+            "y": 22.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 25,
+            "x": 56.1,
+            "y": 23.0,
+            "endX": 67.7,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georginio Rutter",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 67.7,
+            "y": 33.7,
+            "endX": 69.0,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georginio Rutter",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 69.0,
+            "y": 41.2,
+            "endX": 87.1,
+            "endY": 63.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

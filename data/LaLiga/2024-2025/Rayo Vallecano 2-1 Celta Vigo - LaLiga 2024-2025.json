@@ -382,7 +382,8 @@
         "x": 84.8,
         "y": 58.9,
         "arco_y": 49.9,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 14,
@@ -445,7 +446,31 @@
         "x": 90.8,
         "y": 29.8,
         "arco_y": 46.5,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 24,
+            "x": 72.2,
+            "y": 76.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 27,
+            "x": 72.7,
+            "y": 64.4,
+            "endX": 85.2,
+            "endY": 27.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4546,7 +4571,53 @@
         "x": 91.6,
         "y": 50.8,
         "arco_y": 48.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Marcos Alonso",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 37,
+            "x": 52.9,
+            "y": 90.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Alonso",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 38,
+            "x": 43.7,
+            "y": 87.8,
+            "endX": 52.5,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilaix Moriba",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 42,
+            "x": 54.3,
+            "y": 71.4,
+            "endX": 85.1,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Bamba",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 46,
+            "x": 85.4,
+            "y": 84.2,
+            "endX": 90.6,
+            "endY": 50.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 29,

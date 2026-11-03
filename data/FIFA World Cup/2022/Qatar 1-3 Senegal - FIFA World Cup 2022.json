@@ -441,7 +441,8 @@
         "x": 91.3,
         "y": 52.0,
         "arco_y": 53.7,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 88,
@@ -4399,7 +4400,8 @@
         "x": 89.2,
         "y": 58.5,
         "arco_y": 52.5,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 47,
@@ -4408,7 +4410,8 @@
         "x": 93.2,
         "y": 38.8,
         "arco_y": 52.9,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 56,
@@ -4453,7 +4456,75 @@
         "x": 89.6,
         "y": 44.7,
         "arco_y": 48.6,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Iliman Ndiaye",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 0,
+            "x": 67.4,
+            "y": 16.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iliman Ndiaye",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 73.9,
+            "y": 20.6,
+            "endX": 76.0,
+            "endY": 14.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Matar Sarr",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 76.0,
+            "y": 14.9,
+            "endX": 79.3,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Matar Sarr",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 79.3,
+            "y": 16.4,
+            "endX": 92.4,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iliman Ndiaye",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 5,
+            "x": 92.4,
+            "y": 24.4,
+            "endX": 93.2,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iliman Ndiaye",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 5,
+            "x": 93.2,
+            "y": 29.7,
+            "endX": 90.5,
+            "endY": 44.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

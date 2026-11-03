@@ -455,7 +455,8 @@
         "x": 90.4,
         "y": 55.1,
         "arco_y": 54.0,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -482,7 +483,20 @@
         "x": 95.2,
         "y": 32.2,
         "arco_y": 53.6,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Davide Zappacosta",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 31,
+            "x": 94.7,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 26,
@@ -5058,7 +5072,75 @@
         "x": 90.4,
         "y": 57.1,
         "arco_y": 46.6,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Giuseppe Pezzella",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 44,
+            "x": 59.6,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giuseppe Pezzella",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 45,
+            "x": 57.6,
+            "y": 86.1,
+            "endX": 72.7,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 47,
+            "x": 72.7,
+            "y": 79.9,
+            "endX": 64.1,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 47,
+            "x": 64.1,
+            "y": 83.0,
+            "endX": 66.2,
+            "endY": 96.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiano Luperto",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 52,
+            "x": 66.2,
+            "y": 96.1,
+            "endX": 77.8,
+            "endY": 96.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiano Luperto",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 52,
+            "x": 77.8,
+            "y": 96.1,
+            "endX": 86.8,
+            "endY": 55.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -396,7 +396,8 @@
         "x": 81.5,
         "y": 58.5,
         "arco_y": 54.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -405,7 +406,8 @@
         "x": 15.8,
         "y": 63.0,
         "arco_y": 52.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 60,
@@ -459,7 +461,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.6,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -5043,7 +5046,64 @@
         "x": 88.0,
         "y": 28.2,
         "arco_y": 52.6,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 5,
+            "x": 42.2,
+            "y": 14.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 6,
+            "x": 42.5,
+            "y": 13.8,
+            "endX": 88.5,
+            "endY": 2.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Cutrone",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 15,
+            "x": 87.0,
+            "y": 2.8,
+            "endX": 73.0,
+            "endY": 14.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ignace Van der Brempt",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 16,
+            "x": 72.9,
+            "y": 14.1,
+            "endX": 76.2,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergi Roberto",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 17,
+            "x": 76.4,
+            "y": 30.7,
+            "endX": 86.5,
+            "endY": 26.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,
@@ -5061,7 +5121,53 @@
         "x": 90.9,
         "y": 63.1,
         "arco_y": 48.5,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Alberto Moreno",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 59,
+            "x": 37.3,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alberto Moreno",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 0,
+            "x": 38.4,
+            "y": 67.3,
+            "endX": 38.9,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Paz",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 2,
+            "x": 38.9,
+            "y": 51.2,
+            "endX": 43.3,
+            "endY": 47.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Paz",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 2,
+            "x": 43.3,
+            "y": 47.7,
+            "endX": 76.4,
+            "endY": 73.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,

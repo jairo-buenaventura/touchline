@@ -377,7 +377,8 @@
         "x": 89.3,
         "y": 38.0,
         "arco_y": 52.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 18,
@@ -386,7 +387,31 @@
         "x": 89.5,
         "y": 31.3,
         "arco_y": 53.1,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Alexander Ring",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 8,
+            "x": 30.2,
+            "y": 13.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Ring",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 10,
+            "x": 31.4,
+            "y": 14.2,
+            "endX": 74.9,
+            "endY": 12.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 31,

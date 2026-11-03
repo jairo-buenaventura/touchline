@@ -470,7 +470,8 @@
         "x": 99.6,
         "y": 0.8,
         "arco_y": 51.5,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -3887,7 +3888,8 @@
         "x": 92.7,
         "y": 49.4,
         "arco_y": 50.3,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 29,
@@ -3941,7 +3943,31 @@
         "x": 95.4,
         "y": 52.2,
         "arco_y": 47.5,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Joe Willock",
+            "tipo": "TakeOn",
+            "minuto": 71,
+            "segundo": 10,
+            "x": 88.3,
+            "y": 83.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 97.8,
+            "y": 71.0,
+            "endX": 95.1,
+            "endY": 53.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,
@@ -3950,7 +3976,53 @@
         "x": 81.0,
         "y": 55.5,
         "arco_y": 45.8,
-        "arco_z": 29.7
+        "arco_z": 29.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 24,
+            "x": 27.8,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 24,
+            "x": 26.3,
+            "y": 44.3,
+            "endX": 39.5,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 32,
+            "x": 39.5,
+            "y": 40.4,
+            "endX": 73.2,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 32,
+            "x": 73.2,
+            "y": 38.3,
+            "endX": 79.7,
+            "endY": 59.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 76,
@@ -3977,7 +4049,8 @@
         "x": 98.0,
         "y": 46.4,
         "arco_y": 48.1,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 85,

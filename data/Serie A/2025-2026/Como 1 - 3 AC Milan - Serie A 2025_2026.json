@@ -391,7 +391,8 @@
         "x": 96.8,
         "y": 45.8,
         "arco_y": 49.1,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 12,
@@ -5470,7 +5471,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.3,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -5479,7 +5481,53 @@
         "x": 89.2,
         "y": 63.2,
         "arco_y": 47.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 21.1,
+            "y": 16.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 23,
+            "x": 27.5,
+            "y": 29.7,
+            "endX": 58.6,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 32,
+            "x": 58.6,
+            "y": 90.9,
+            "endX": 74.9,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 32,
+            "x": 74.9,
+            "y": 72.1,
+            "endX": 85.6,
+            "endY": 69.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,
@@ -5506,7 +5554,8 @@
         "x": 78.5,
         "y": 34.4,
         "arco_y": 47.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       }
     ],
     "corners": [

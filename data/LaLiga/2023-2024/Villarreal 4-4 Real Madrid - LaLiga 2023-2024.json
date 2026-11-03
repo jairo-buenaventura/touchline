@@ -474,7 +474,8 @@
         "x": 90.8,
         "y": 49.3,
         "arco_y": 53.2,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -492,7 +493,8 @@
         "x": 91.9,
         "y": 51.2,
         "arco_y": 53.8,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 48,
@@ -519,7 +521,8 @@
         "x": 90.6,
         "y": 44.5,
         "arco_y": 52.0,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -537,7 +540,75 @@
         "x": 89.8,
         "y": 55.9,
         "arco_y": 46.6,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Francis Coquelin",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 45,
+            "x": 31.6,
+            "y": 34.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francis Coquelin",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 35.2,
+            "y": 31.7,
+            "endX": 46.4,
+            "endY": 13.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerard Moreno",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 51,
+            "x": 46.4,
+            "y": 13.9,
+            "endX": 67.8,
+            "endY": 14.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerard Moreno",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 51,
+            "x": 67.8,
+            "y": 14.9,
+            "endX": 80.1,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonçalo Guedes",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 53,
+            "x": 80.1,
+            "y": 24.3,
+            "endX": 75.9,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerard Moreno",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 54,
+            "x": 75.9,
+            "y": 30.4,
+            "endX": 86.9,
+            "endY": 56.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -4932,7 +5003,152 @@
         "x": 87.4,
         "y": 54.9,
         "arco_y": 46.6,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 29,
+            "x": 67.3,
+            "y": 100.0,
+            "endX": 51.2,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 34,
+            "x": 51.2,
+            "y": 92.1,
+            "endX": 53.8,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 34,
+            "x": 53.8,
+            "y": 86.3,
+            "endX": 68.2,
+            "endY": 97.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 68.5,
+            "y": 96.7,
+            "endX": 62.8,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 41,
+            "x": 62.8,
+            "y": 91.6,
+            "endX": 61.4,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 41,
+            "x": 61.4,
+            "y": 86.6,
+            "endX": 45.4,
+            "endY": 90.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 44,
+            "x": 45.2,
+            "y": 90.2,
+            "endX": 52.9,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 46,
+            "x": 52.9,
+            "y": 95.5,
+            "endX": 53.0,
+            "endY": 88.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 46,
+            "x": 53.0,
+            "y": 88.2,
+            "endX": 68.7,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joselu",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 48,
+            "x": 68.7,
+            "y": 55.7,
+            "endX": 66.2,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joselu",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 48,
+            "x": 66.2,
+            "y": 60.5,
+            "endX": 69.5,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 50,
+            "x": 69.5,
+            "y": 75.0,
+            "endX": 73.4,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 50,
+            "x": 73.4,
+            "y": 65.5,
+            "endX": 82.2,
+            "endY": 52.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 17,
@@ -4950,7 +5166,295 @@
         "x": 95.8,
         "y": 42.9,
         "arco_y": 51.0,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 50,
+            "x": 45.7,
+            "y": 0.0,
+            "endX": 33.9,
+            "endY": 21.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 55,
+            "x": 33.9,
+            "y": 21.4,
+            "endX": 32.3,
+            "endY": 26.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 55,
+            "x": 32.3,
+            "y": 26.6,
+            "endX": 41.2,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 56,
+            "x": 41.2,
+            "y": 34.0,
+            "endX": 41.6,
+            "endY": 27.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 56,
+            "x": 41.6,
+            "y": 27.8,
+            "endX": 31.2,
+            "endY": 20.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 57,
+            "x": 31.2,
+            "y": 20.8,
+            "endX": 35.2,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 1,
+            "x": 35.2,
+            "y": 8.4,
+            "endX": 36.1,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 1,
+            "x": 36.1,
+            "y": 12.3,
+            "endX": 20.1,
+            "endY": 36.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 4,
+            "x": 20.1,
+            "y": 36.2,
+            "endX": 5.4,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrii Lunin",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 7,
+            "x": 5.8,
+            "y": 53.4,
+            "endX": 18.6,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 9,
+            "x": 18.5,
+            "y": 53.9,
+            "endX": 24.3,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 12,
+            "x": 24.3,
+            "y": 80.6,
+            "endX": 26.9,
+            "endY": 73.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 12,
+            "x": 26.9,
+            "y": 73.6,
+            "endX": 71.3,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 18,
+            "x": 71.3,
+            "y": 96.7,
+            "endX": 68.1,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 20,
+            "x": 67.8,
+            "y": 87.1,
+            "endX": 69.0,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 23,
+            "x": 66.6,
+            "y": 91.9,
+            "endX": 62.5,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 25,
+            "x": 62.0,
+            "y": 67.7,
+            "endX": 59.2,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 27,
+            "x": 59.3,
+            "y": 58.2,
+            "endX": 64.5,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 29,
+            "x": 66.8,
+            "y": 30.0,
+            "endX": 72.0,
+            "endY": 38.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 30,
+            "x": 72.0,
+            "y": 38.7,
+            "endX": 65.6,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 31,
+            "x": 65.6,
+            "y": 28.6,
+            "endX": 65.9,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 31,
+            "x": 65.9,
+            "y": 25.5,
+            "endX": 77.6,
+            "endY": 7.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 33,
+            "x": 77.6,
+            "y": 7.3,
+            "endX": 68.7,
+            "endY": 16.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 36,
+            "x": 70.6,
+            "y": 15.7,
+            "endX": 88.4,
+            "endY": 7.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 39,
+            "x": 88.4,
+            "y": 7.8,
+            "endX": 89.3,
+            "endY": 10.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 39,
+            "x": 89.3,
+            "y": 10.7,
+            "endX": 95.6,
+            "endY": 46.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 39,
@@ -4959,7 +5463,306 @@
         "x": 89.2,
         "y": 57.1,
         "arco_y": 47.4,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Joselu",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 58,
+            "x": 49.9,
+            "y": 50.2,
+            "endX": 23.6,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 3,
+            "x": 23.6,
+            "y": 27.6,
+            "endX": 30.5,
+            "endY": 8.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 5,
+            "x": 30.5,
+            "y": 8.7,
+            "endX": 21.2,
+            "endY": 28.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 7,
+            "x": 19.3,
+            "y": 29.5,
+            "endX": 7.1,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrii Lunin",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 10,
+            "x": 7.1,
+            "y": 53.1,
+            "endX": 13.3,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 13,
+            "x": 13.3,
+            "y": 77.9,
+            "endX": 14.0,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 13,
+            "x": 14.0,
+            "y": 81.4,
+            "endX": 25.5,
+            "endY": 97.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 15,
+            "x": 25.5,
+            "y": 97.2,
+            "endX": 26.9,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 19,
+            "x": 26.9,
+            "y": 83.1,
+            "endX": 22.2,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 19,
+            "x": 22.2,
+            "y": 89.1,
+            "endX": 12.2,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 22,
+            "x": 12.6,
+            "y": 84.1,
+            "endX": 49.2,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 29,
+            "x": 49.2,
+            "y": 95.6,
+            "endX": 61.8,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 29,
+            "x": 61.8,
+            "y": 89.4,
+            "endX": 58.7,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 30,
+            "x": 58.7,
+            "y": 75.0,
+            "endX": 58.8,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 33,
+            "x": 59.9,
+            "y": 83.7,
+            "endX": 59.6,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 34,
+            "x": 59.6,
+            "y": 75.8,
+            "endX": 64.2,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 36,
+            "x": 64.2,
+            "y": 82.9,
+            "endX": 62.9,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 37,
+            "x": 62.9,
+            "y": 76.9,
+            "endX": 72.2,
+            "endY": 96.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 39,
+            "x": 72.8,
+            "y": 97.0,
+            "endX": 66.9,
+            "endY": 91.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 43,
+            "x": 66.9,
+            "y": 91.3,
+            "endX": 65.7,
+            "endY": 76.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 43,
+            "x": 65.7,
+            "y": 76.1,
+            "endX": 60.4,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 46,
+            "x": 60.4,
+            "y": 84.1,
+            "endX": 66.2,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 46,
+            "x": 66.2,
+            "y": 86.3,
+            "endX": 83.8,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 83.8,
+            "y": 94.8,
+            "endX": 81.1,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 81.1,
+            "y": 91.6,
+            "endX": 74.4,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 50,
+            "x": 74.4,
+            "y": 70.6,
+            "endX": 78.2,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 51,
+            "x": 78.2,
+            "y": 69.9,
+            "endX": 87.9,
+            "endY": 61.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 43,
@@ -4977,7 +5780,328 @@
         "x": 94.4,
         "y": 35.8,
         "arco_y": 52.3,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 45,
+            "x": 19.4,
+            "y": 79.6,
+            "endX": 6.0,
+            "endY": 71.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrii Lunin",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 48,
+            "x": 7.4,
+            "y": 71.1,
+            "endX": 33.9,
+            "endY": 10.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 55,
+            "x": 31.2,
+            "y": 10.0,
+            "endX": 26.7,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 58,
+            "x": 27.0,
+            "y": 23.0,
+            "endX": 31.8,
+            "endY": 20.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 59,
+            "x": 31.3,
+            "y": 22.7,
+            "endX": 35.7,
+            "endY": 41.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 1,
+            "x": 35.7,
+            "y": 41.9,
+            "endX": 28.7,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 2,
+            "x": 28.7,
+            "y": 32.5,
+            "endX": 34.6,
+            "endY": 40.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 3,
+            "x": 34.6,
+            "y": 40.8,
+            "endX": 36.9,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 4,
+            "x": 38.3,
+            "y": 32.8,
+            "endX": 34.4,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 6,
+            "x": 34.4,
+            "y": 48.4,
+            "endX": 34.8,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 6,
+            "x": 34.8,
+            "y": 51.9,
+            "endX": 41.1,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 8,
+            "x": 43.2,
+            "y": 74.2,
+            "endX": 61.0,
+            "endY": 92.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joselu",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 12,
+            "x": 61.0,
+            "y": 92.2,
+            "endX": 55.7,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 13,
+            "x": 55.7,
+            "y": 80.6,
+            "endX": 61.9,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joselu",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 62.0,
+            "y": 79.0,
+            "endX": 60.8,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 60.8,
+            "y": 69.6,
+            "endX": 57.3,
+            "endY": 87.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 18,
+            "x": 57.3,
+            "y": 87.6,
+            "endX": 66.6,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 19,
+            "x": 66.6,
+            "y": 95.9,
+            "endX": 59.2,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 21,
+            "x": 60.7,
+            "y": 87.7,
+            "endX": 60.2,
+            "endY": 80.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 22,
+            "x": 60.0,
+            "y": 77.8,
+            "endX": 56.6,
+            "endY": 64.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 24,
+            "x": 56.0,
+            "y": 63.0,
+            "endX": 58.0,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 58.0,
+            "y": 39.1,
+            "endX": 58.8,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 58.8,
+            "y": 33.4,
+            "endX": 65.5,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "BallTouch",
+            "minuto": 46,
+            "segundo": 26,
+            "x": 65.5,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 29,
+            "x": 63.2,
+            "y": 47.4,
+            "endX": 60.1,
+            "endY": 30.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 33,
+            "x": 60.1,
+            "y": 30.0,
+            "endX": 65.0,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 33,
+            "x": 65.0,
+            "y": 27.3,
+            "endX": 76.0,
+            "endY": 4.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 36,
+            "x": 76.0,
+            "y": 4.2,
+            "endX": 79.0,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 36,
+            "x": 79.0,
+            "y": 4.5,
+            "endX": 90.8,
+            "endY": 30.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,

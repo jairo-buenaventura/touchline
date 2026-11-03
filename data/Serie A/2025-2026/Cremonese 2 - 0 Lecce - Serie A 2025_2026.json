@@ -441,7 +441,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -477,7 +478,42 @@
         "x": 94.9,
         "y": 51.4,
         "arco_y": 51.3,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 30,
+            "x": 92.8,
+            "y": 12.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 31,
+            "x": 92.9,
+            "y": 12.4,
+            "endX": 86.6,
+            "endY": 13.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessio Zerbin",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 32,
+            "x": 86.5,
+            "y": 13.6,
+            "endX": 94.9,
+            "endY": 51.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -445,7 +445,8 @@
         "x": 91.0,
         "y": 43.1,
         "arco_y": 52.8,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 32,
@@ -499,7 +500,8 @@
         "x": 94.9,
         "y": 31.8,
         "arco_y": 53.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 74,
@@ -526,7 +528,75 @@
         "x": 93.5,
         "y": 34.8,
         "arco_y": 51.9,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Francisco Portillo",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 6,
+            "x": 31.1,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Portillo",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 6,
+            "x": 31.7,
+            "y": 54.8,
+            "endX": 36.0,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Robertone",
+            "tipo": "BallTouch",
+            "minuto": 76,
+            "segundo": 8,
+            "x": 36.5,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Portillo",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 11,
+            "x": 50.3,
+            "y": 38.2,
+            "endX": 78.6,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Melero",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 17,
+            "x": 78.6,
+            "y": 73.9,
+            "endX": 81.6,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Melero",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 17,
+            "x": 81.6,
+            "y": 66.0,
+            "endX": 86.6,
+            "endY": 32.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 87,
@@ -4390,7 +4460,141 @@
         "x": 93.6,
         "y": 48.2,
         "arco_y": 48.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Rubén Sánchez",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 14,
+            "x": 40.4,
+            "y": 33.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Sánchez",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 14,
+            "x": 37.7,
+            "y": 34.7,
+            "endX": 16.6,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Fernández",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 20,
+            "x": 16.6,
+            "y": 40.1,
+            "endX": 25.1,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Fernández",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 20,
+            "x": 25.1,
+            "y": 38.0,
+            "endX": 36.9,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 26,
+            "x": 36.9,
+            "y": 32.5,
+            "endX": 42.0,
+            "endY": 32.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 26,
+            "x": 42.0,
+            "y": 32.3,
+            "endX": 41.1,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Cabrera",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 41.1,
+            "y": 64.7,
+            "endX": 45.2,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Oliván",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 33,
+            "x": 45.2,
+            "y": 90.8,
+            "endX": 54.0,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Oliván",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 33,
+            "x": 54.0,
+            "y": 75.3,
+            "endX": 47.5,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 36,
+            "x": 47.5,
+            "y": 53.9,
+            "endX": 48.4,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 36,
+            "x": 48.4,
+            "y": 46.0,
+            "endX": 95.2,
+            "endY": 28.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Sánchez",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 40,
+            "x": 94.7,
+            "y": 30.1,
+            "endX": 93.6,
+            "endY": 49.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

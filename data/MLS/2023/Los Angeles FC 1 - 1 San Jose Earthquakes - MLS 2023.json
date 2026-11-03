@@ -386,7 +386,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.2,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 40,
@@ -4741,7 +4742,31 @@
         "x": 84.3,
         "y": 46.0,
         "arco_y": 53.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Skahan",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 56,
+            "x": 28.6,
+            "y": 64.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Skahan",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 56,
+            "x": 28.6,
+            "y": 64.8,
+            "endX": 62.7,
+            "endY": 41.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,

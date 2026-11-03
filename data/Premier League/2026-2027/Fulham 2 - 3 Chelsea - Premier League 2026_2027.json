@@ -414,7 +414,8 @@
         "x": 88.9,
         "y": 29.0,
         "arco_y": 48.3,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -459,7 +460,8 @@
         "x": 95.5,
         "y": 48.4,
         "arco_y": 52.0,
-        "arco_z": 26.0
+        "arco_z": 26.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 71,
@@ -5224,7 +5226,31 @@
         "x": 87.2,
         "y": 39.7,
         "arco_y": 52.1,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 28,
+            "x": 68.7,
+            "y": 27.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 28,
+            "x": 64.5,
+            "y": 29.2,
+            "endX": 77.1,
+            "endY": 37.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 3,
@@ -5323,7 +5349,152 @@
         "x": 91.1,
         "y": 54.7,
         "arco_y": 49.5,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Levi Colwill",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 42,
+            "x": 60.3,
+            "y": 70.2,
+            "endX": 60.0,
+            "endY": 45.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 45,
+            "x": 60.6,
+            "y": 44.8,
+            "endX": 59.9,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Acheampong",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 47,
+            "x": 59.9,
+            "y": 24.3,
+            "endX": 69.5,
+            "endY": 7.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 69.5,
+            "y": 7.8,
+            "endX": 65.1,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 65.1,
+            "y": 12.6,
+            "endX": 46.8,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 54,
+            "x": 46.8,
+            "y": 36.1,
+            "endX": 59.3,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 54,
+            "x": 59.3,
+            "y": 27.0,
+            "endX": 61.9,
+            "endY": 6.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 57,
+            "x": 61.9,
+            "y": 6.7,
+            "endX": 60.4,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 57,
+            "x": 60.4,
+            "y": 30.3,
+            "endX": 66.0,
+            "endY": 37.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 59,
+            "x": 66.0,
+            "y": 37.2,
+            "endX": 70.6,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 59,
+            "x": 70.6,
+            "y": 43.8,
+            "endX": 85.7,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 3,
+            "x": 85.7,
+            "y": 32.7,
+            "endX": 98.4,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 3,
+            "x": 98.4,
+            "y": 34.0,
+            "endX": 91.1,
+            "endY": 54.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 43,
@@ -5359,7 +5530,108 @@
         "x": 96.9,
         "y": 65.0,
         "arco_y": 51.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Reece James",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 47.1,
+            "y": 35.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 47.1,
+            "y": 35.7,
+            "endX": 42.1,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Acheampong",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 27,
+            "x": 41.5,
+            "y": 25.5,
+            "endX": 29.7,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 30,
+            "x": 29.7,
+            "y": 26.2,
+            "endX": 25.4,
+            "endY": 27.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 30,
+            "x": 25.4,
+            "y": 27.9,
+            "endX": 7.5,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Sánchez",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 35,
+            "x": 7.5,
+            "y": 48.3,
+            "endX": 12.7,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Sánchez",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 35,
+            "x": 12.7,
+            "y": 53.8,
+            "endX": 63.5,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 43,
+            "x": 63.5,
+            "y": 59.1,
+            "endX": 85.3,
+            "endY": 61.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 43,
+            "x": 85.3,
+            "y": 61.9,
+            "endX": 96.9,
+            "endY": 65.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,

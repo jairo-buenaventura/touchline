@@ -372,7 +372,8 @@
         "x": 91.0,
         "y": 46.9,
         "arco_y": 47.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 3,
@@ -390,7 +391,8 @@
         "x": 89.5,
         "y": 37.7,
         "arco_y": 53.8,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 12,
@@ -417,7 +419,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.8,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -516,7 +519,75 @@
         "x": 92.4,
         "y": 46.8,
         "arco_y": 46.4,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Berhalter",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 53,
+            "x": 14.0,
+            "y": 29.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Berhalter",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 55,
+            "x": 10.5,
+            "y": 22.9,
+            "endX": 41.2,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Córdova",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 5,
+            "x": 41.2,
+            "y": 4.6,
+            "endX": 74.6,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Córdova",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 5,
+            "x": 74.6,
+            "y": 31.2,
+            "endX": 78.6,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Déiber Caicedo",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 8,
+            "x": 78.6,
+            "y": 60.3,
+            "endX": 82.0,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Déiber Caicedo",
+            "tipo": "ShotOnPost",
+            "minuto": 93,
+            "segundo": 8,
+            "x": 82.0,
+            "y": 56.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4744,7 +4815,20 @@
         "x": 80.9,
         "y": 53.9,
         "arco_y": 45.8,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 21,
+            "x": 99.6,
+            "y": 0.6,
+            "endX": 80.9,
+            "endY": 53.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,
@@ -4762,7 +4846,53 @@
         "x": 94.2,
         "y": 33.6,
         "arco_y": 48.8,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 30,
+            "x": 64.7,
+            "y": 62.0,
+            "endX": 62.6,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Brugman",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 31,
+            "x": 62.6,
+            "y": 72.3,
+            "endX": 74.0,
+            "endY": 74.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Preston Judd",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 34,
+            "x": 74.0,
+            "y": 74.1,
+            "endX": 73.7,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Preston Judd",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 34,
+            "x": 73.7,
+            "y": 69.9,
+            "endX": 92.8,
+            "endY": 35.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

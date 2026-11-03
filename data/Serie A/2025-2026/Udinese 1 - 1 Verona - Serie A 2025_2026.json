@@ -416,7 +416,8 @@
         "x": 95.4,
         "y": 49.9,
         "arco_y": 51.3,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 56,
@@ -4846,7 +4847,42 @@
         "x": 96.5,
         "y": 48.7,
         "arco_y": 50.0,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Martin Frese",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 28,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.1,
+            "endY": 57.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovane",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 29,
+            "x": 91.1,
+            "y": 57.1,
+            "endX": 92.0,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovane",
+            "tipo": "MissedShots",
+            "minuto": 72,
+            "segundo": 29,
+            "x": 92.0,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

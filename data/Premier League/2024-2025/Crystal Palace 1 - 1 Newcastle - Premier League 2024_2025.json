@@ -422,7 +422,8 @@
         "x": 0.8,
         "y": 51.8,
         "arco_y": 45.8,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 58,
@@ -521,7 +522,53 @@
         "x": 94.3,
         "y": 40.7,
         "arco_y": 46.4,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Justin Devenny",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 19,
+            "x": 74.5,
+            "y": 36.1,
+            "endX": 75.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 21,
+            "x": 75.3,
+            "y": 69.3,
+            "endX": 89.2,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Guéhi",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 24,
+            "x": 89.2,
+            "y": 84.2,
+            "endX": 81.8,
+            "endY": 82.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Guéhi",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 24,
+            "x": 81.8,
+            "y": 82.8,
+            "endX": 94.6,
+            "endY": 39.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

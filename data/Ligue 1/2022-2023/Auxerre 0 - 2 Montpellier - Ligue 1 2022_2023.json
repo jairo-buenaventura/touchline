@@ -4835,7 +4835,8 @@
         "x": 89.6,
         "y": 71.2,
         "arco_y": 49.7,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -4844,7 +4845,53 @@
         "x": 86.3,
         "y": 44.0,
         "arco_y": 50.6,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Léo Leroy",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 24.1,
+            "y": 38.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Léo Leroy",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 24.1,
+            "y": 38.6,
+            "endX": 32.9,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khalil Fayad",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 50,
+            "x": 32.9,
+            "y": 24.0,
+            "endX": 31.0,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khalil Fayad",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 50,
+            "x": 31.0,
+            "y": 32.7,
+            "endX": 66.7,
+            "endY": 25.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -413,7 +413,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -458,7 +459,8 @@
         "x": 3.0,
         "y": 52.2,
         "arco_y": 49.2,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 68,
@@ -476,7 +478,31 @@
         "x": 92.7,
         "y": 54.6,
         "arco_y": 45.8,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Danilo Soares",
+            "tipo": "CornerAwarded",
+            "minuto": 80,
+            "segundo": 38,
+            "x": 93.7,
+            "y": 70.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Stöger",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 23,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 93.0,
+            "endY": 53.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,
@@ -4525,7 +4551,53 @@
         "x": 80.8,
         "y": 48.2,
         "arco_y": 45.9,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Danny da Costa",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 31,
+            "x": 76.1,
+            "y": 45.0,
+            "endX": 79.9,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aymen Barkok",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 33,
+            "x": 79.9,
+            "y": 32.8,
+            "endX": 80.4,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aymen Barkok",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 33,
+            "x": 80.4,
+            "y": 28.5,
+            "endX": 88.1,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 34,
+            "x": 88.8,
+            "y": 40.6,
+            "endX": 81.8,
+            "endY": 46.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

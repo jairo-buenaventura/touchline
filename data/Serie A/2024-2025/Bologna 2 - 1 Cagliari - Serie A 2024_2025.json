@@ -453,7 +453,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.3,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -480,7 +481,42 @@
         "x": 97.7,
         "y": 45.7,
         "arco_y": 48.1,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Castro",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 55.2,
+            "y": 64.0,
+            "endX": 72.3,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Cambiaghi",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 72.3,
+            "y": 84.2,
+            "endX": 91.3,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Cambiaghi",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 91.3,
+            "y": 73.8,
+            "endX": 97.7,
+            "endY": 46.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,
@@ -4810,7 +4846,64 @@
         "x": 95.1,
         "y": 54.0,
         "arco_y": 51.5,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriele Zappa",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 31.5,
+            "y": 17.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriele Zappa",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 31.5,
+            "y": 17.0,
+            "endX": 57.6,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Piccoli",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 20,
+            "x": 57.6,
+            "y": 30.7,
+            "endX": 86.5,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Piccoli",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 20,
+            "x": 86.5,
+            "y": 65.1,
+            "endX": 92.7,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tommaso Augello",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 22,
+            "x": 92.7,
+            "y": 84.4,
+            "endX": 96.2,
+            "endY": 54.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,

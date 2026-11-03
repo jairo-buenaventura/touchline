@@ -445,7 +445,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.9,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -454,7 +455,8 @@
         "x": 95.5,
         "y": 49.7,
         "arco_y": 49.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 44,
@@ -499,7 +501,75 @@
         "x": 93.2,
         "y": 56.1,
         "arco_y": 45.9,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Gorka Guruzeta",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 58,
+            "x": 45.5,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gorka Guruzeta",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 59,
+            "x": 45.7,
+            "y": 50.6,
+            "endX": 57.1,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 2,
+            "x": 57.1,
+            "y": 10.3,
+            "endX": 61.4,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 2,
+            "x": 61.4,
+            "y": 12.3,
+            "endX": 95.0,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 6,
+            "x": 95.0,
+            "y": 28.9,
+            "endX": 97.9,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 6,
+            "x": 97.9,
+            "y": 30.7,
+            "endX": 93.0,
+            "endY": 58.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4189,7 +4259,108 @@
         "x": 74.9,
         "y": 34.0,
         "arco_y": 54.2,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Akor Adams",
+            "tipo": "TakeOn",
+            "minuto": 58,
+            "segundo": 59,
+            "x": 80.8,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 3,
+            "x": 77.3,
+            "y": 74.2,
+            "endX": 72.6,
+            "endY": 58.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidera Ejuke",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 7,
+            "x": 72.6,
+            "y": 58.9,
+            "endX": 72.2,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidera Ejuke",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 7,
+            "x": 72.2,
+            "y": 43.4,
+            "endX": 69.3,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 69.3,
+            "y": 23.0,
+            "endX": 80.5,
+            "endY": 13.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 17,
+            "x": 80.5,
+            "y": 13.6,
+            "endX": 76.8,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 17,
+            "x": 76.8,
+            "y": 24.7,
+            "endX": 71.5,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Gudelj",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 18,
+            "x": 72.1,
+            "y": 25.7,
+            "endX": 77.6,
+            "endY": 9.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 20,
+            "x": 78.0,
+            "y": 8.8,
+            "endX": 73.9,
+            "endY": 30.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 62,
@@ -4252,7 +4423,42 @@
         "x": 81.5,
         "y": 45.4,
         "arco_y": 54.2,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "TakeOn",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 88.9,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 6,
+            "x": 97.0,
+            "y": 23.7,
+            "endX": 86.5,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "BallTouch",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 85.4,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 95,

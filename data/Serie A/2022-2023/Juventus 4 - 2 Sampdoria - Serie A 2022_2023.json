@@ -420,7 +420,8 @@
         "x": 92.2,
         "y": 49.7,
         "arco_y": 52.2,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -438,7 +439,8 @@
         "x": 92.1,
         "y": 55.5,
         "arco_y": 47.2,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 46,
@@ -501,7 +503,20 @@
         "x": 86.3,
         "y": 58.1,
         "arco_y": 52.9,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Fagioli",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 52,
+            "x": 77.9,
+            "y": 56.3,
+            "endX": 85.0,
+            "endY": 59.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,
@@ -609,7 +624,8 @@
         "x": 97.2,
         "y": 55.0,
         "arco_y": 52.2,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -5039,7 +5055,8 @@
         "x": 89.7,
         "y": 57.3,
         "arco_y": 46.2,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 31,
@@ -5048,7 +5065,97 @@
         "x": 88.6,
         "y": 42.8,
         "arco_y": 52.0,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Koray Günter",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 4,
+            "x": 19.8,
+            "y": 38.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koray Günter",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 4,
+            "x": 19.8,
+            "y": 38.6,
+            "endX": 44.2,
+            "endY": 34.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manolo Gabbiadini",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 7,
+            "x": 43.9,
+            "y": 34.7,
+            "endX": 40.4,
+            "endY": 17.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Léris",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 9,
+            "x": 40.4,
+            "y": 17.8,
+            "endX": 43.8,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Léris",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 9,
+            "x": 43.8,
+            "y": 14.6,
+            "endX": 57.1,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 15,
+            "x": 57.1,
+            "y": 4.1,
+            "endX": 88.3,
+            "endY": 14.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "TakeOn",
+            "minuto": 31,
+            "segundo": 15,
+            "x": 88.3,
+            "y": 14.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 17,
+            "x": 91.3,
+            "y": 16.9,
+            "endX": 87.9,
+            "endY": 42.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 60,

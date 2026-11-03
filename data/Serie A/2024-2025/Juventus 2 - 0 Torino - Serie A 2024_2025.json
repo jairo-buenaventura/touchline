@@ -386,7 +386,8 @@
         "x": 95.4,
         "y": 43.6,
         "arco_y": 48.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -485,7 +486,42 @@
         "x": 96.7,
         "y": 56.8,
         "arco_y": 48.3,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 45,
+            "x": 41.1,
+            "y": 13.7,
+            "endX": 86.5,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Conceição",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 53,
+            "x": 86.5,
+            "y": 11.7,
+            "endX": 90.1,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Conceição",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 53,
+            "x": 90.1,
+            "y": 23.6,
+            "endX": 97.1,
+            "endY": 57.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

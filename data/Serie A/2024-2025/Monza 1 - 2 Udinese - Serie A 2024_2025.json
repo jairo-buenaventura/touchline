@@ -520,7 +520,8 @@
         "x": 94.5,
         "y": 66.0,
         "arco_y": 52.2,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -5172,7 +5173,8 @@
         "x": 94.5,
         "y": 49.6,
         "arco_y": 48.2,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -5235,7 +5237,53 @@
         "x": 88.4,
         "y": 35.8,
         "arco_y": 53.7,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Florian Thauvin",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 53,
+            "x": 27.0,
+            "y": 14.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Thauvin",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 57,
+            "x": 29.3,
+            "y": 13.2,
+            "endX": 48.4,
+            "endY": 66.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 1,
+            "x": 48.4,
+            "y": 66.3,
+            "endX": 55.6,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 1,
+            "x": 55.6,
+            "y": 66.9,
+            "endX": 76.5,
+            "endY": 37.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,

@@ -414,7 +414,8 @@
         "x": 91.4,
         "y": 61.7,
         "arco_y": 47.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -450,7 +451,31 @@
         "x": 85.9,
         "y": 41.5,
         "arco_y": 53.6,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 36,
+            "x": 65.8,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 65.8,
+            "y": 45.4,
+            "endX": 84.1,
+            "endY": 40.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,

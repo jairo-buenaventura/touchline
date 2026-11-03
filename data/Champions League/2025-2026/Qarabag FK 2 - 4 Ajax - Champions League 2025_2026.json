@@ -370,7 +370,8 @@
         "x": 84.5,
         "y": 68.0,
         "arco_y": 51.9,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 12,
@@ -424,7 +425,8 @@
         "x": 85.8,
         "y": 38.3,
         "arco_y": 52.5,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4255,7 +4257,20 @@
         "x": 74.6,
         "y": 60.1,
         "arco_y": 53.9,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Kasper Dolberg",
+            "tipo": "TakeOn",
+            "minuto": 38,
+            "segundo": 49,
+            "x": 73.3,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 44,
@@ -4345,7 +4360,20 @@
         "x": 81.3,
         "y": 39.8,
         "arco_y": 46.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "TakeOn",
+            "minuto": 78,
+            "segundo": 35,
+            "x": 75.0,
+            "y": 37.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,
@@ -4354,7 +4382,75 @@
         "x": 89.5,
         "y": 35.8,
         "arco_y": 52.8,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Jorthy Mokio",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 22.0,
+            "y": 80.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorthy Mokio",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 24.0,
+            "y": 83.4,
+            "endX": 35.6,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 57,
+            "x": 35.6,
+            "y": 91.7,
+            "endX": 60.3,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 57,
+            "x": 60.3,
+            "y": 62.1,
+            "endX": 72.8,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Don-Angelo Konadu",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 58,
+            "x": 72.8,
+            "y": 46.8,
+            "endX": 77.7,
+            "endY": 44.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Don-Angelo Konadu",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 58,
+            "x": 77.7,
+            "y": 44.1,
+            "endX": 89.5,
+            "endY": 35.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,
@@ -4363,7 +4459,31 @@
         "x": 90.7,
         "y": 63.4,
         "arco_y": 47.9,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Mika Godts",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 40.8,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mika Godts",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 13,
+            "x": 77.2,
+            "y": 62.4,
+            "endX": 87.5,
+            "endY": 70.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

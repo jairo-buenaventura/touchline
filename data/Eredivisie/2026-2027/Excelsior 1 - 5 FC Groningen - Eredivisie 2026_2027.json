@@ -407,7 +407,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 37,
@@ -416,7 +417,8 @@
         "x": 1.4,
         "y": 49.3,
         "arco_y": 49.7,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 41,
@@ -4356,7 +4358,20 @@
         "x": 88.0,
         "y": 58.1,
         "arco_y": 53.8,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Marco Rente",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 37,
+            "x": 84.5,
+            "y": 61.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 15,
@@ -4428,7 +4443,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 49.2,
-        "arco_z": 24.0
+        "arco_z": 24.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -4437,7 +4453,42 @@
         "x": 90.0,
         "y": 60.1,
         "arco_y": 49.5,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Brynjólfur Willumsson",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 18,
+            "x": 83.2,
+            "y": 96.0,
+            "endX": 90.3,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pelle Clement",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 90.3,
+            "y": 74.2,
+            "endX": 94.1,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pelle Clement",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 94.1,
+            "y": 71.2,
+            "endX": 89.0,
+            "endY": 66.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 94,
@@ -4464,7 +4515,8 @@
         "x": 94.2,
         "y": 57.9,
         "arco_y": 52.7,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       }
     ],
     "corners": [

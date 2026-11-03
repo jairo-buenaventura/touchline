@@ -405,7 +405,8 @@
         "x": 97.7,
         "y": 46.6,
         "arco_y": 49.1,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -468,7 +469,20 @@
         "x": 88.6,
         "y": 37.4,
         "arco_y": 52.8,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jacob Trenskow",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 41,
+            "x": 75.7,
+            "y": 51.2,
+            "endX": 88.3,
+            "endY": 34.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,
@@ -477,7 +491,8 @@
         "x": 88.8,
         "y": 44.9,
         "arco_y": 46.5,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 85,
@@ -3855,7 +3870,31 @@
         "x": 94.5,
         "y": 50.5,
         "arco_y": 50.3,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Basar Önal",
+            "tipo": "CornerAwarded",
+            "minuto": 63,
+            "segundo": 51,
+            "x": 97.0,
+            "y": 70.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Ouwejan",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.9,
+            "endY": 50.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -3873,7 +3912,42 @@
         "x": 85.2,
         "y": 44.0,
         "arco_y": 47.0,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Sami Ouaissa",
+            "tipo": "TakeOn",
+            "minuto": 82,
+            "segundo": 40,
+            "x": 75.8,
+            "y": 19.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sami Ouaissa",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 42,
+            "x": 78.5,
+            "y": 26.0,
+            "endX": 88.6,
+            "endY": 41.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koki Ogawa",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 43,
+            "x": 90.2,
+            "y": 41.1,
+            "endX": 85.9,
+            "endY": 40.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,

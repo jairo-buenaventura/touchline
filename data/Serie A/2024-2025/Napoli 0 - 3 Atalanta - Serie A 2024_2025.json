@@ -4731,7 +4731,8 @@
         "x": 94.7,
         "y": 61.7,
         "arco_y": 51.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -4749,7 +4750,53 @@
         "x": 75.8,
         "y": 56.3,
         "arco_y": 45.7,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Isak Hien",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 3,
+            "x": 25.9,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isak Hien",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 4,
+            "x": 25.9,
+            "y": 40.9,
+            "endX": 36.2,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles De Ketelaere",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 12,
+            "x": 36.2,
+            "y": 23.3,
+            "endX": 65.8,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles De Ketelaere",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 12,
+            "x": 65.8,
+            "y": 26.2,
+            "endX": 71.2,
+            "endY": 67.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 32,
@@ -4830,7 +4877,42 @@
         "x": 86.0,
         "y": 57.3,
         "arco_y": 46.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 47,
+            "x": 79.9,
+            "y": 34.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 50,
+            "x": 80.7,
+            "y": 34.1,
+            "endX": 90.5,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raoul Bellanova",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 52,
+            "x": 90.5,
+            "y": 21.2,
+            "endX": 86.0,
+            "endY": 57.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

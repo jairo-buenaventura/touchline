@@ -539,7 +539,8 @@
         "x": 94.7,
         "y": 53.6,
         "arco_y": 52.5,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 84,
@@ -548,7 +549,42 @@
         "x": 92.1,
         "y": 58.8,
         "arco_y": 53.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Njabulo Blom",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 16,
+            "x": 62.7,
+            "y": 16.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Njabulo Blom",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 16,
+            "x": 62.7,
+            "y": 16.6,
+            "endX": 74.0,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 19,
+            "x": 75.9,
+            "y": 8.6,
+            "endX": 92.1,
+            "endY": 58.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,
@@ -4712,7 +4748,8 @@
         "x": 94.3,
         "y": 53.2,
         "arco_y": 51.6,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       }
     ],
     "corners": [

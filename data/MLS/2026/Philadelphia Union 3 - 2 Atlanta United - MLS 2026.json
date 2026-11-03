@@ -544,7 +544,8 @@
         "x": 92.4,
         "y": 59.7,
         "arco_y": 53.2,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,
@@ -634,7 +635,8 @@
         "x": 91.5,
         "y": 52.6,
         "arco_y": 53.6,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 96,
@@ -643,7 +645,53 @@
         "x": 85.8,
         "y": 48.9,
         "arco_y": 53.3,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Agustín Anello",
+            "tipo": "BallRecovery",
+            "minuto": 96,
+            "segundo": 18,
+            "x": 68.3,
+            "y": 91.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Agustín Anello",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 21,
+            "x": 73.2,
+            "y": 85.5,
+            "endX": 86.3,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Bueno",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 23,
+            "x": 86.3,
+            "y": 93.9,
+            "endX": 69.1,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kai Wagner",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 25,
+            "x": 69.9,
+            "y": 88.7,
+            "endX": 85.8,
+            "endY": 48.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4962,7 +5010,8 @@
         "x": 93.3,
         "y": 52.8,
         "arco_y": 53.0,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -4971,7 +5020,64 @@
         "x": 77.2,
         "y": 60.1,
         "arco_y": 45.9,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Elías Báez",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 16,
+            "x": 71.3,
+            "y": 85.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elías Báez",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 16,
+            "x": 70.8,
+            "y": 88.2,
+            "endX": 65.8,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Muyumba",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 16,
+            "x": 65.8,
+            "y": 84.2,
+            "endX": 73.3,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Júnior Alonso",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 17,
+            "x": 73.3,
+            "y": 94.4,
+            "endX": 74.2,
+            "endY": 88.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 19,
+            "x": 74.3,
+            "y": 88.5,
+            "endX": 72.1,
+            "endY": 84.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,

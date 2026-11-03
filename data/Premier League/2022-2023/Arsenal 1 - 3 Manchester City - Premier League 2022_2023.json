@@ -436,7 +436,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 82,
@@ -4533,7 +4534,20 @@
         "x": 79.2,
         "y": 71.7,
         "arco_y": 53.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 44,
+            "x": 78.9,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 44,
@@ -4596,7 +4610,53 @@
         "x": 85.0,
         "y": 65.1,
         "arco_y": 49.2,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 13,
+            "x": 60.0,
+            "y": 18.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 60.4,
+            "y": 26.2,
+            "endX": 80.4,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 81.7,
+            "y": 33.0,
+            "endX": 82.7,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 82.7,
+            "y": 46.4,
+            "endX": 85.6,
+            "endY": 67.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,
@@ -4605,7 +4665,86 @@
         "x": 90.7,
         "y": 43.7,
         "arco_y": 52.0,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 0,
+            "x": 71.9,
+            "y": 6.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 0,
+            "x": 70.7,
+            "y": 5.9,
+            "endX": 64.2,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 4,
+            "x": 64.2,
+            "y": 17.6,
+            "endX": 65.3,
+            "endY": 30.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 4,
+            "x": 65.3,
+            "y": 30.9,
+            "endX": 73.0,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 7,
+            "x": 73.0,
+            "y": 37.3,
+            "endX": 75.5,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 7,
+            "x": 75.5,
+            "y": 33.7,
+            "endX": 92.2,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 91.9,
+            "y": 33.3,
+            "endX": 87.1,
+            "endY": 47.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

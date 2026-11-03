@@ -392,7 +392,8 @@
         "x": 92.0,
         "y": 35.6,
         "arco_y": 51.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 31,
@@ -419,7 +420,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.8,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -473,7 +475,108 @@
         "x": 75.8,
         "y": 43.9,
         "arco_y": 54.0,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 4,
+            "x": 46.5,
+            "y": 44.9,
+            "endX": 42.9,
+            "endY": 31.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 6,
+            "x": 44.9,
+            "y": 30.1,
+            "endX": 42.9,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 42.9,
+            "y": 43.4,
+            "endX": 43.6,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 43.6,
+            "y": 47.9,
+            "endX": 45.3,
+            "endY": 84.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aymeric Laporte",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 11,
+            "x": 45.3,
+            "y": 84.6,
+            "endX": 59.1,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 13,
+            "x": 59.1,
+            "y": 95.6,
+            "endX": 56.4,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 13,
+            "x": 56.4,
+            "y": 93.5,
+            "endX": 57.4,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 19,
+            "x": 57.4,
+            "y": 81.5,
+            "endX": 79.2,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 19,
+            "x": 79.2,
+            "y": 75.3,
+            "endX": 75.7,
+            "endY": 43.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4247,7 +4350,42 @@
         "x": 84.0,
         "y": 69.2,
         "arco_y": 54.3,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 4,
+            "x": 64.0,
+            "y": 86.1,
+            "endX": 80.1,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Solly March",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 7,
+            "x": 80.1,
+            "y": 93.6,
+            "endX": 89.4,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Solly March",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 7,
+            "x": 89.4,
+            "y": 93.2,
+            "endX": 78.9,
+            "endY": 80.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 66,

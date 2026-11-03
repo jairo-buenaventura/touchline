@@ -413,7 +413,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -449,7 +450,8 @@
         "x": 79.0,
         "y": 48.7,
         "arco_y": 54.2,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 39,
@@ -521,7 +523,42 @@
         "x": 95.2,
         "y": 50.6,
         "arco_y": 52.8,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Louis Leroux",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 30,
+            "x": 87.9,
+            "y": 92.0,
+            "endX": 81.9,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moses Simon",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 35,
+            "x": 81.9,
+            "y": 88.3,
+            "endX": 97.0,
+            "endY": 82.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moses Simon",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 35,
+            "x": 97.0,
+            "y": 82.8,
+            "endX": 91.9,
+            "endY": 53.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 88,

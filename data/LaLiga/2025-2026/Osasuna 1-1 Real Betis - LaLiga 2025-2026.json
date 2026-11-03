@@ -422,7 +422,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.7,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -4564,7 +4565,53 @@
         "x": 79.6,
         "y": 48.3,
         "arco_y": 54.0,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Antony",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 28,
+            "x": 14.4,
+            "y": 23.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 28,
+            "x": 14.4,
+            "y": 23.3,
+            "endX": 14.4,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Bellerín",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 32,
+            "x": 14.4,
+            "y": 29.8,
+            "endX": 35.6,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Bellerín",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 32,
+            "x": 35.6,
+            "y": 40.3,
+            "endX": 60.8,
+            "endY": 56.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 22,

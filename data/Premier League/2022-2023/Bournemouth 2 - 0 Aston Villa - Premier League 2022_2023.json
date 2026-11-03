@@ -352,7 +352,8 @@
         "x": 91.9,
         "y": 43.1,
         "arco_y": 47.3,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 8,
@@ -406,7 +407,42 @@
         "x": 90.3,
         "y": 57.3,
         "arco_y": 46.2,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 41,
+            "x": 63.7,
+            "y": 73.5,
+            "endX": 85.2,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Billing",
+            "tipo": "MissedShots",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 85.9,
+            "y": 39.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lloyd Kelly",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 47,
+            "x": 95.7,
+            "y": 14.0,
+            "endX": 92.3,
+            "endY": 56.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

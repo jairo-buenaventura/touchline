@@ -468,7 +468,8 @@
         "x": 91.5,
         "y": 65.1,
         "arco_y": 47.6,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -5421,7 +5422,42 @@
         "x": 91.3,
         "y": 48.4,
         "arco_y": 52.0,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Pablo Galdames",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 52,
+            "x": 77.3,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Galdames",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 52,
+            "x": 77.3,
+            "y": 32.7,
+            "endX": 92.1,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michele Castagnetti",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 54,
+            "x": 92.1,
+            "y": 40.1,
+            "endX": 90.8,
+            "endY": 47.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

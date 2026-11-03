@@ -429,7 +429,8 @@
         "x": 95.0,
         "y": 45.3,
         "arco_y": 50.9,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -438,7 +439,31 @@
         "x": 90.5,
         "y": 49.8,
         "arco_y": 52.8,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "TakeOn",
+            "minuto": 23,
+            "segundo": 14,
+            "x": 70.3,
+            "y": 90.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 18,
+            "x": 87.7,
+            "y": 83.5,
+            "endX": 90.5,
+            "endY": 49.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 27,
@@ -456,7 +481,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 43,
@@ -483,7 +509,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.7,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -510,7 +537,75 @@
         "x": 83.5,
         "y": 33.2,
         "arco_y": 54.2,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 14,
+            "x": 54.4,
+            "y": 85.1,
+            "endX": 70.6,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 18,
+            "x": 70.6,
+            "y": 95.5,
+            "endX": 74.9,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 18,
+            "x": 74.9,
+            "y": 89.8,
+            "endX": 70.8,
+            "endY": 78.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Cubas",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 20,
+            "x": 69.8,
+            "y": 78.3,
+            "endX": 66.7,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Berhalter",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 22,
+            "x": 66.7,
+            "y": 65.5,
+            "endX": 76.0,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 24,
+            "x": 76.4,
+            "y": 45.1,
+            "endX": 83.5,
+            "endY": 33.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,
@@ -537,7 +632,8 @@
         "x": 91.2,
         "y": 46.6,
         "arco_y": 53.2,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 83,
@@ -564,7 +660,42 @@
         "x": 96.9,
         "y": 52.4,
         "arco_y": 47.9,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jayden Nelson",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 35,
+            "x": 92.0,
+            "y": 81.0,
+            "endX": 91.6,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giuseppe Bovalina",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 37,
+            "x": 91.6,
+            "y": 43.1,
+            "endX": 90.3,
+            "endY": 39.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giuseppe Bovalina",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 37,
+            "x": 90.3,
+            "y": 39.9,
+            "endX": 96.9,
+            "endY": 52.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

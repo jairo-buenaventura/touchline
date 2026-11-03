@@ -389,7 +389,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.2,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -461,7 +462,31 @@
         "x": 90.5,
         "y": 44.1,
         "arco_y": 46.4,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Arnaud Nordin",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 26,
+            "x": 31.3,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnaud Nordin",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 79.7,
+            "y": 51.1,
+            "endX": 88.5,
+            "endY": 39.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

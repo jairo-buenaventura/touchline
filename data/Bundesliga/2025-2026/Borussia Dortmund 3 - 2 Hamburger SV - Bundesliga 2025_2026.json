@@ -526,7 +526,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 51.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 77,
@@ -544,7 +545,8 @@
         "x": 96.0,
         "y": 52.8,
         "arco_y": 51.1,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -580,7 +582,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 92,
@@ -4942,7 +4945,20 @@
         "x": 95.5,
         "y": 52.8,
         "arco_y": 48.2,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "William Mikelbrencis",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 23,
+            "x": 98.6,
+            "y": 27.1,
+            "endX": 95.5,
+            "endY": 52.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 23,
@@ -4969,7 +4985,31 @@
         "x": 90.0,
         "y": 54.3,
         "arco_y": 51.6,
-        "arco_z": 32.9
+        "arco_z": 32.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Fábio Vieira",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 7,
+            "x": 73.3,
+            "y": 38.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Vieira",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 7,
+            "x": 73.8,
+            "y": 38.9,
+            "endX": 90.9,
+            "endY": 54.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

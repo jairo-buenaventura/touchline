@@ -441,7 +441,8 @@
         "x": 97.7,
         "y": 46.6,
         "arco_y": 48.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -450,7 +451,8 @@
         "x": 96.9,
         "y": 45.8,
         "arco_y": 48.4,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 71,
@@ -468,7 +470,64 @@
         "x": 87.0,
         "y": 44.1,
         "arco_y": 53.4,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "David Schnegg",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 10,
+            "x": 29.3,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Schnegg",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 11,
+            "x": 29.3,
+            "y": 69.3,
+            "endX": 45.7,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pep Biel",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 13,
+            "x": 45.7,
+            "y": 38.9,
+            "endX": 65.1,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Liel Abada",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 18,
+            "x": 65.1,
+            "y": 13.2,
+            "endX": 80.9,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Liel Abada",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 18,
+            "x": 80.9,
+            "y": 25.6,
+            "endX": 80.7,
+            "endY": 42.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,
@@ -4492,7 +4551,31 @@
         "x": 84.5,
         "y": 67.1,
         "arco_y": 46.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Matti Peltola",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 19,
+            "x": 61.5,
+            "y": 19.1,
+            "endX": 91.9,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peglow",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 22,
+            "x": 91.9,
+            "y": 74.4,
+            "endX": 84.4,
+            "endY": 67.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 64,

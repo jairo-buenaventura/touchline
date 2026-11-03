@@ -414,7 +414,8 @@
         "x": 91.6,
         "y": 31.8,
         "arco_y": 54.1,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 32,
@@ -522,7 +523,53 @@
         "x": 86.6,
         "y": 56.3,
         "arco_y": 54.0,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Kenny Tete",
+            "tipo": "TakeOn",
+            "minuto": 86,
+            "segundo": 58,
+            "x": 66.2,
+            "y": 6.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenny Tete",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 1,
+            "x": 75.9,
+            "y": 11.0,
+            "endX": 74.9,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Pereira",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 3,
+            "x": 74.9,
+            "y": 45.0,
+            "endX": 79.5,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Pereira",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 3,
+            "x": 79.5,
+            "y": 38.6,
+            "endX": 86.0,
+            "endY": 60.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

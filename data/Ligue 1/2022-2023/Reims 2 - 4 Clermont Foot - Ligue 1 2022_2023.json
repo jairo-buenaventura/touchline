@@ -376,7 +376,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.8,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 23,
@@ -394,7 +395,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.8,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 34,
@@ -3841,7 +3843,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 51.6,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -3859,7 +3862,42 @@
         "x": 97.2,
         "y": 48.1,
         "arco_y": 46.1,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Johan Gastien",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 60.6,
+            "y": 49.8,
+            "endX": 94.8,
+            "endY": 67.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florent Ogier",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 41,
+            "x": 94.8,
+            "y": 67.4,
+            "endX": 91.5,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florent Ogier",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 41,
+            "x": 91.5,
+            "y": 72.5,
+            "endX": 95.4,
+            "endY": 47.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 64,
@@ -3886,7 +3924,20 @@
         "x": 81.4,
         "y": 66.0,
         "arco_y": 47.1,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Johan Gastien",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 97.9,
+            "y": 85.2,
+            "endX": 81.4,
+            "endY": 68.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 76,
@@ -3895,7 +3946,97 @@
         "x": 82.6,
         "y": 57.9,
         "arco_y": 47.7,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Johan Gastien",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 28,
+            "x": 18.4,
+            "y": 17.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johan Gastien",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 30,
+            "x": 23.5,
+            "y": 19.4,
+            "endX": 67.0,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Grejohn Kyei",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 37,
+            "x": 67.0,
+            "y": 2.6,
+            "endX": 63.4,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Grejohn Kyei",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 37,
+            "x": 63.4,
+            "y": 8.3,
+            "endX": 61.1,
+            "endY": 3.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yohann Magnin",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 38,
+            "x": 61.1,
+            "y": 3.5,
+            "endX": 55.5,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yohann Magnin",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 38,
+            "x": 55.5,
+            "y": 8.3,
+            "endX": 79.8,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saîf-Eddine Khaoui",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 42,
+            "x": 79.8,
+            "y": 4.3,
+            "endX": 84.4,
+            "endY": 19.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saîf-Eddine Khaoui",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 42,
+            "x": 84.4,
+            "y": 19.6,
+            "endX": 82.2,
+            "endY": 56.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

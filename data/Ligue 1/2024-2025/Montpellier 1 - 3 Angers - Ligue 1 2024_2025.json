@@ -441,7 +441,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.0,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -4614,7 +4615,20 @@
         "x": 95.6,
         "y": 50.6,
         "arco_y": 49.7,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 55,
+            "x": 91.7,
+            "y": 26.1,
+            "endX": 95.5,
+            "endY": 50.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -4641,7 +4655,8 @@
         "x": 87.2,
         "y": 59.7,
         "arco_y": 47.1,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 76,
@@ -4722,7 +4737,31 @@
         "x": 79.4,
         "y": 36.0,
         "arco_y": 51.1,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Haris Belkebla",
+            "tipo": "BallRecovery",
+            "minuto": 98,
+            "segundo": 9,
+            "x": 26.8,
+            "y": 79.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Haris Belkebla",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 9,
+            "x": 26.2,
+            "y": 80.6,
+            "endX": 53.2,
+            "endY": 57.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -388,7 +388,8 @@
         "x": 91.1,
         "y": 36.4,
         "arco_y": 53.9,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 24,
@@ -415,7 +416,8 @@
         "x": 96.7,
         "y": 43.5,
         "arco_y": 48.7,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -424,7 +426,75 @@
         "x": 92.1,
         "y": 28.4,
         "arco_y": 49.2,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 37,
+            "x": 39.6,
+            "y": 65.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 38,
+            "x": 39.8,
+            "y": 61.9,
+            "endX": 52.5,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 43,
+            "x": 52.5,
+            "y": 41.4,
+            "endX": 66.7,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 43,
+            "x": 66.7,
+            "y": 23.7,
+            "endX": 68.5,
+            "endY": 5.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 46,
+            "x": 68.5,
+            "y": 5.9,
+            "endX": 74.9,
+            "endY": 2.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 46,
+            "x": 74.9,
+            "y": 2.7,
+            "endX": 93.5,
+            "endY": 29.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,
@@ -451,7 +521,53 @@
         "x": 78.0,
         "y": 42.2,
         "arco_y": 46.5,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 21,
+            "x": 71.6,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Schär",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 22,
+            "x": 73.6,
+            "y": 70.8,
+            "endX": 70.0,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 70.0,
+            "y": 51.0,
+            "endX": 74.9,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 74.9,
+            "y": 54.2,
+            "endX": 77.7,
+            "endY": 39.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -3512,7 +3628,207 @@
         "x": 92.2,
         "y": 53.4,
         "arco_y": 46.3,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 36.9,
+            "y": 11.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 37.5,
+            "y": 12.8,
+            "endX": 41.8,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 42.5,
+            "y": 7.7,
+            "endX": 34.5,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Ugarte",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 10,
+            "x": 36.6,
+            "y": 27.6,
+            "endX": 35.9,
+            "endY": 46.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 13,
+            "x": 35.9,
+            "y": 46.4,
+            "endX": 42.7,
+            "endY": 51.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 13,
+            "x": 42.7,
+            "y": 51.6,
+            "endX": 55.4,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 19,
+            "x": 55.4,
+            "y": 87.9,
+            "endX": 67.8,
+            "endY": 97.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 19,
+            "x": 67.8,
+            "y": 97.9,
+            "endX": 53.0,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Skriniar",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 22,
+            "x": 53.3,
+            "y": 73.5,
+            "endX": 57.2,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 24,
+            "x": 57.8,
+            "y": 74.7,
+            "endX": 69.2,
+            "endY": 77.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 33,
+            "x": 69.2,
+            "y": 77.5,
+            "endX": 77.3,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 33,
+            "x": 77.3,
+            "y": 95.0,
+            "endX": 71.3,
+            "endY": 71.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 71.3,
+            "y": 71.6,
+            "endX": 73.0,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 73.0,
+            "y": 67.6,
+            "endX": 80.1,
+            "endY": 11.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 43,
+            "x": 80.1,
+            "y": 11.8,
+            "endX": 79.9,
+            "endY": 20.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 43,
+            "x": 79.9,
+            "y": 20.0,
+            "endX": 73.5,
+            "endY": 54.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 73.5,
+            "y": 54.9,
+            "endX": 74.6,
+            "endY": 58.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 74.6,
+            "y": 58.9,
+            "endX": 94.4,
+            "endY": 54.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 58,

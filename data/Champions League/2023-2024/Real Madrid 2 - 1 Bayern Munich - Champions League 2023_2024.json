@@ -531,7 +531,8 @@
         "x": 97.5,
         "y": 54.2,
         "arco_y": 52.6,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 89,
@@ -549,7 +550,31 @@
         "x": 95.1,
         "y": 50.0,
         "arco_y": 48.8,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Nacho",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 0,
+            "x": 87.2,
+            "y": 62.0,
+            "endX": 93.7,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 1,
+            "x": 93.6,
+            "y": 72.2,
+            "endX": 94.6,
+            "endY": 50.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -5288,7 +5313,53 @@
         "x": 86.2,
         "y": 66.2,
         "arco_y": 46.1,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 10,
+            "x": 21.2,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 14,
+            "x": 31.7,
+            "y": 62.4,
+            "endX": 36.1,
+            "endY": 42.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 16,
+            "x": 36.1,
+            "y": 42.0,
+            "endX": 42.7,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 16,
+            "x": 42.7,
+            "y": 40.9,
+            "endX": 82.0,
+            "endY": 89.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 75,

@@ -417,7 +417,8 @@
         "x": 82.1,
         "y": 46.2,
         "arco_y": 53.9,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -462,7 +463,20 @@
         "x": 91.9,
         "y": 46.2,
         "arco_y": 53.8,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Szymanski",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.9,
+            "endY": 46.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -480,7 +494,75 @@
         "x": 96.8,
         "y": 52.8,
         "arco_y": 49.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Breel Embolo",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 24,
+            "x": 37.7,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Breel Embolo",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 26,
+            "x": 51.1,
+            "y": 68.5,
+            "endX": 57.3,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djaoui Cissé",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 31,
+            "x": 57.3,
+            "y": 84.9,
+            "endX": 73.1,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djaoui Cissé",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 31,
+            "x": 73.1,
+            "y": 61.8,
+            "endX": 90.8,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Blas",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 34,
+            "x": 90.8,
+            "y": 68.5,
+            "endX": 95.8,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Blas",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 34,
+            "x": 95.8,
+            "y": 66.5,
+            "endX": 96.8,
+            "endY": 52.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -3908,7 +3990,8 @@
         "x": 95.7,
         "y": 45.9,
         "arco_y": 51.8,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 76,

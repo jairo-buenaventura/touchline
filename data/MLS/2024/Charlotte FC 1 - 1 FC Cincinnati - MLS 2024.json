@@ -458,7 +458,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.0,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -4121,7 +4122,75 @@
         "x": 92.0,
         "y": 52.8,
         "arco_y": 49.2,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Gerardo Valenzuela",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 30,
+            "x": 37.8,
+            "y": 75.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerardo Valenzuela",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 61.5,
+            "y": 83.6,
+            "endX": 86.9,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 86.9,
+            "y": 71.4,
+            "endX": 95.1,
+            "endY": 74.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 95.1,
+            "y": 74.0,
+            "endX": 94.7,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 94.7,
+            "y": 59.9,
+            "endX": 96.7,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 96.7,
+            "y": 55.6,
+            "endX": 90.6,
+            "endY": 53.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

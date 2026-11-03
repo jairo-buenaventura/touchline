@@ -371,7 +371,8 @@
         "x": 86.5,
         "y": 33.1,
         "arco_y": 46.5,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -497,7 +498,8 @@
         "x": 94.2,
         "y": 46.8,
         "arco_y": 52.8,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4374,7 +4376,8 @@
         "x": 85.5,
         "y": 53.8,
         "arco_y": 54.1,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 6,
@@ -4473,7 +4476,20 @@
         "x": 93.7,
         "y": 42.7,
         "arco_y": 50.3,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Petar Musa",
+            "tipo": "TakeOn",
+            "minuto": 48,
+            "segundo": 51,
+            "x": 83.0,
+            "y": 43.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,
@@ -4509,7 +4525,42 @@
         "x": 84.4,
         "y": 46.4,
         "arco_y": 53.2,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Osaze Urhoghide",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 50,
+            "x": 45.3,
+            "y": 60.0,
+            "endX": 64.1,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaick",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 50,
+            "x": 64.1,
+            "y": 57.2,
+            "endX": 58.3,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaick",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 50,
+            "x": 58.3,
+            "y": 61.1,
+            "endX": 84.4,
+            "endY": 46.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

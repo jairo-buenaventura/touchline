@@ -366,7 +366,8 @@
         "x": 98.7,
         "y": 50.3,
         "arco_y": 50.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -384,7 +385,8 @@
         "x": 89.2,
         "y": 62.9,
         "arco_y": 48.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -402,7 +404,8 @@
         "x": 98.9,
         "y": 51.8,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -429,7 +432,8 @@
         "x": 96.2,
         "y": 58.5,
         "arco_y": 51.1,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 81,
@@ -3605,7 +3609,163 @@
         "x": 91.2,
         "y": 48.7,
         "arco_y": 51.7,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Lorenzo Pirola",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 25.1,
+            "y": 95.4,
+            "endX": 33.1,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 14,
+            "x": 33.1,
+            "y": 67.6,
+            "endX": 38.3,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 14,
+            "x": 38.3,
+            "y": 57.6,
+            "endX": 54.9,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 17,
+            "x": 54.9,
+            "y": 58.3,
+            "endX": 55.9,
+            "endY": 61.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 17,
+            "x": 55.9,
+            "y": 61.7,
+            "endX": 72.5,
+            "endY": 94.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 24,
+            "x": 72.5,
+            "y": 94.6,
+            "endX": 77.1,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 24,
+            "x": 77.1,
+            "y": 74.2,
+            "endX": 66.6,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 25,
+            "x": 66.6,
+            "y": 72.5,
+            "endX": 62.6,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 28,
+            "x": 62.6,
+            "y": 50.0,
+            "endX": 61.4,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 28,
+            "x": 61.4,
+            "y": 43.8,
+            "endX": 63.0,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 30,
+            "x": 63.0,
+            "y": 24.3,
+            "endX": 65.6,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 30,
+            "x": 65.6,
+            "y": 16.9,
+            "endX": 77.3,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 77.3,
+            "y": 5.4,
+            "endX": 92.9,
+            "endY": 17.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 92.9,
+            "y": 17.2,
+            "endX": 91.2,
+            "endY": 49.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -3614,7 +3774,31 @@
         "x": 95.4,
         "y": 40.9,
         "arco_y": 47.7,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Alessandro Zanoli",
+            "tipo": "CornerAwarded",
+            "minuto": 57,
+            "segundo": 5,
+            "x": 93.6,
+            "y": 21.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.5,
+            "endY": 39.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,

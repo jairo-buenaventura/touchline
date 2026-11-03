@@ -350,7 +350,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.7,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 37,
@@ -3347,7 +3348,20 @@
         "x": 81.2,
         "y": 44.7,
         "arco_y": 54.2,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Stage",
+            "tipo": "BallTouch",
+            "minuto": 30,
+            "segundo": 21,
+            "x": 82.4,
+            "y": 45.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,
@@ -3356,7 +3370,31 @@
         "x": 92.1,
         "y": 44.1,
         "arco_y": 47.6,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Olivier Deman",
+            "tipo": "CornerAwarded",
+            "minuto": 34,
+            "segundo": 8,
+            "x": 97.8,
+            "y": 44.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Puertas",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 36,
+            "x": 99.5,
+            "y": 0.4,
+            "endX": 92.1,
+            "endY": 44.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 43,
@@ -3401,7 +3439,20 @@
         "x": 96.3,
         "y": 51.0,
         "arco_y": 53.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 96.4,
+            "y": 60.6,
+            "endX": 96.3,
+            "endY": 51.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,
@@ -3437,7 +3488,240 @@
         "x": 92.7,
         "y": 53.0,
         "arco_y": 52.6,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Cameron Puertas",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 56,
+            "x": 53.1,
+            "y": 85.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Puertas",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 57,
+            "x": 53.1,
+            "y": 85.5,
+            "endX": 47.9,
+            "endY": 94.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Olivier Deman",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 57,
+            "x": 47.9,
+            "y": 94.6,
+            "endX": 46.6,
+            "endY": 79.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrice Covic",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 58,
+            "x": 46.6,
+            "y": 79.0,
+            "endX": 43.6,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrice Covic",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 58,
+            "x": 43.6,
+            "y": 75.2,
+            "endX": 35.8,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Senne Lynen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 37.1,
+            "y": 28.5,
+            "endX": 57.8,
+            "endY": 20.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 3,
+            "x": 57.8,
+            "y": 20.4,
+            "endX": 61.2,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 3,
+            "x": 61.2,
+            "y": 18.2,
+            "endX": 67.5,
+            "endY": 3.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isaac Schmidt",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 67.5,
+            "y": 3.0,
+            "endX": 62.3,
+            "endY": 6.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isaac Schmidt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 62.3,
+            "y": 6.6,
+            "endX": 55.0,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Senne Lynen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 5,
+            "x": 55.0,
+            "y": 4.5,
+            "endX": 61.3,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 6,
+            "x": 64.1,
+            "y": 22.6,
+            "endX": 80.7,
+            "endY": 32.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Justin Njinmah",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 11,
+            "x": 80.5,
+            "y": 32.0,
+            "endX": 94.7,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 12,
+            "x": 94.7,
+            "y": 15.3,
+            "endX": 93.0,
+            "endY": 12.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 12,
+            "x": 93.0,
+            "y": 12.7,
+            "endX": 74.6,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Senne Lynen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 13,
+            "x": 74.2,
+            "y": 5.7,
+            "endX": 78.0,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 14,
+            "x": 77.0,
+            "y": 3.2,
+            "endX": 71.7,
+            "endY": 3.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Senne Lynen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 15,
+            "x": 71.7,
+            "y": 3.6,
+            "endX": 91.0,
+            "endY": 3.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 91.0,
+            "y": 3.9,
+            "endX": 97.3,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 97.3,
+            "y": 25.0,
+            "endX": 92.8,
+            "endY": 32.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 17,
+            "x": 92.5,
+            "y": 32.7,
+            "endX": 92.7,
+            "endY": 53.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -476,7 +476,8 @@
         "x": 98.2,
         "y": 53.2,
         "arco_y": 52.6,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 73,
@@ -521,7 +522,20 @@
         "x": 91.3,
         "y": 45.1,
         "arco_y": 46.2,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Mateo Retegui",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 97.7,
+            "y": 41.8,
+            "endX": 91.0,
+            "endY": 45.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -4322,7 +4336,31 @@
         "x": 77.5,
         "y": 34.0,
         "arco_y": 54.0,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Valentin Gendrey",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 29,
+            "x": 65.8,
+            "y": 20.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentin Gendrey",
+            "tipo": "BallTouch",
+            "minuto": 30,
+            "segundo": 31,
+            "x": 69.0,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,

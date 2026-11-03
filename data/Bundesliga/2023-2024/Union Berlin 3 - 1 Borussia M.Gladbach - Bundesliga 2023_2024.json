@@ -401,7 +401,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.9,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 35,
@@ -455,7 +456,8 @@
         "x": 78.7,
         "y": 66.0,
         "arco_y": 53.6,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 51,
@@ -509,7 +511,8 @@
         "x": 81.3,
         "y": 49.4,
         "arco_y": 47.1,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 79,
@@ -4391,7 +4394,53 @@
         "x": 91.8,
         "y": 47.4,
         "arco_y": 46.3,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Herrmann",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 3,
+            "x": 61.3,
+            "y": 20.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Herrmann",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 3,
+            "x": 62.8,
+            "y": 17.4,
+            "endX": 71.3,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franck Honorat",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 7,
+            "x": 71.3,
+            "y": 11.0,
+            "endX": 83.9,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franck Honorat",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 7,
+            "x": 83.9,
+            "y": 8.6,
+            "endX": 92.0,
+            "endY": 48.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,

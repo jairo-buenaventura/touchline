@@ -351,7 +351,8 @@
         "x": 96.2,
         "y": 49.1,
         "arco_y": 52.4,
-        "arco_z": 30.4
+        "arco_z": 30.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -4048,7 +4049,8 @@
         "x": 3.9,
         "y": 50.5,
         "arco_y": 51.2,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -4057,7 +4059,20 @@
         "x": 78.4,
         "y": 40.1,
         "arco_y": 53.9,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Milos Veljkovic",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 76.4,
+            "y": 29.1,
+            "endX": 78.2,
+            "endY": 39.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,
@@ -4084,7 +4099,42 @@
         "x": 91.4,
         "y": 54.0,
         "arco_y": 53.2,
-        "arco_z": 10.8
+        "arco_z": 10.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 52,
+            "x": 88.0,
+            "y": 69.1,
+            "endX": 81.6,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 55,
+            "x": 81.6,
+            "y": 55.2,
+            "endX": 80.1,
+            "endY": 51.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 55,
+            "x": 80.1,
+            "y": 51.1,
+            "endX": 87.9,
+            "endY": 55.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,

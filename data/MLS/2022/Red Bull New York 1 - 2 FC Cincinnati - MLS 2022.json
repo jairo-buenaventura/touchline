@@ -416,7 +416,8 @@
         "x": 75.9,
         "y": 32.2,
         "arco_y": 53.9,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -3958,7 +3959,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.9,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 78,
@@ -3985,7 +3987,53 @@
         "x": 90.5,
         "y": 51.8,
         "arco_y": 48.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Obinna Nwobodo",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 21,
+            "x": 39.0,
+            "y": 95.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Obinna Nwobodo",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 21,
+            "x": 39.0,
+            "y": 95.6,
+            "endX": 78.1,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 26,
+            "x": 78.1,
+            "y": 91.4,
+            "endX": 84.6,
+            "endY": 87.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 26,
+            "x": 84.6,
+            "y": 87.0,
+            "endX": 90.7,
+            "endY": 53.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 89,

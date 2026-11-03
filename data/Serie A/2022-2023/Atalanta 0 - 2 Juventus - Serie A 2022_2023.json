@@ -5284,7 +5284,8 @@
         "x": 94.4,
         "y": 54.0,
         "arco_y": 51.8,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 67,
@@ -5320,7 +5321,31 @@
         "x": 81.9,
         "y": 43.4,
         "arco_y": 46.4,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Chiesa",
+            "tipo": "BallRecovery",
+            "minuto": 97,
+            "segundo": 37,
+            "x": 35.3,
+            "y": 58.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Chiesa",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 41,
+            "x": 74.8,
+            "y": 58.3,
+            "endX": 77.4,
+            "endY": 36.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -377,7 +377,8 @@
         "x": 92.0,
         "y": 52.4,
         "arco_y": 45.8,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -4406,7 +4407,8 @@
         "x": 97.1,
         "y": 42.8,
         "arco_y": 47.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 14,
@@ -4415,7 +4417,20 @@
         "x": 86.3,
         "y": 52.2,
         "arco_y": 53.7,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Galeno",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 18,
+            "x": 87.5,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 17,
@@ -4433,7 +4448,31 @@
         "x": 91.3,
         "y": 53.6,
         "arco_y": 46.7,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Galeno",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 10,
+            "x": 73.6,
+            "y": 96.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Galeno",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 88.8,
+            "y": 84.9,
+            "endX": 90.7,
+            "endY": 54.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 37,

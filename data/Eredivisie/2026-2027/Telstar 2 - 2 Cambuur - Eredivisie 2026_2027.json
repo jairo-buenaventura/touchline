@@ -389,7 +389,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -452,7 +453,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.8,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -3930,7 +3932,20 @@
         "x": 86.2,
         "y": 51.9,
         "arco_y": 53.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolas Binder",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 57,
+            "x": 87.3,
+            "y": 63.3,
+            "endX": 87.3,
+            "endY": 48.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 59,
@@ -3939,7 +3954,75 @@
         "x": 86.8,
         "y": 51.7,
         "arco_y": 54.5,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Sami Bouhoudane",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 38,
+            "x": 42.6,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sami Bouhoudane",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 38,
+            "x": 45.8,
+            "y": 18.7,
+            "endX": 68.6,
+            "endY": 36.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Binder",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 41,
+            "x": 68.6,
+            "y": 36.5,
+            "endX": 75.3,
+            "endY": 39.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Binder",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 41,
+            "x": 75.3,
+            "y": 39.9,
+            "endX": 77.2,
+            "endY": 67.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilyès Hamache",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 43,
+            "x": 77.2,
+            "y": 67.7,
+            "endX": 80.7,
+            "endY": 65.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilyès Hamache",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 43,
+            "x": 80.7,
+            "y": 65.7,
+            "endX": 87.4,
+            "endY": 51.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,

@@ -454,7 +454,8 @@
         "x": 87.8,
         "y": 65.8,
         "arco_y": 50.0,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 70,
@@ -4277,7 +4278,20 @@
         "x": 90.7,
         "y": 47.2,
         "arco_y": 46.2,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 33,
+            "x": 72.5,
+            "y": 48.1,
+            "endX": 85.7,
+            "endY": 49.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 7,
@@ -4286,7 +4300,31 @@
         "x": 81.5,
         "y": 48.5,
         "arco_y": 46.5,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 46,
+            "x": 76.6,
+            "y": 25.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 47,
+            "x": 77.3,
+            "y": 25.5,
+            "endX": 80.1,
+            "endY": 46.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 25,

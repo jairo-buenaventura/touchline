@@ -463,7 +463,8 @@
         "x": 97.3,
         "y": 44.0,
         "arco_y": 47.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 76,
@@ -481,7 +482,42 @@
         "x": 86.7,
         "y": 39.1,
         "arco_y": 53.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 38,
+            "x": 62.7,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 38,
+            "x": 62.7,
+            "y": 56.0,
+            "endX": 62.7,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Paquetá",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 39,
+            "x": 63.2,
+            "y": 43.9,
+            "endX": 81.0,
+            "endY": 51.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

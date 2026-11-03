@@ -498,7 +498,31 @@
         "x": 85.8,
         "y": 50.1,
         "arco_y": 53.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Ramiro Enrique",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 40,
+            "x": 98.7,
+            "y": 62.3,
+            "endX": 91.9,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Ojeda",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 41,
+            "x": 91.9,
+            "y": 61.2,
+            "endX": 90.1,
+            "endY": 49.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 96,
@@ -4968,7 +4992,8 @@
         "x": 69.5,
         "y": 25.0,
         "arco_y": 46.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 63,
@@ -5004,7 +5029,75 @@
         "x": 86.7,
         "y": 58.1,
         "arco_y": 47.4,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 53,
+            "x": 29.9,
+            "y": 15.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 53,
+            "x": 30.1,
+            "y": 13.1,
+            "endX": 34.2,
+            "endY": 13.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 54,
+            "x": 34.2,
+            "y": 13.9,
+            "endX": 30.1,
+            "endY": 14.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 56,
+            "x": 30.4,
+            "y": 14.8,
+            "endX": 54.4,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Denkey",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 0,
+            "x": 54.4,
+            "y": 26.7,
+            "endX": 75.3,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Denkey",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 0,
+            "x": 75.3,
+            "y": 34.8,
+            "endX": 82.3,
+            "endY": 62.4,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

@@ -397,7 +397,8 @@
         "x": 95.8,
         "y": 52.8,
         "arco_y": 48.9,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 64,
@@ -406,7 +407,31 @@
         "x": 88.0,
         "y": 38.7,
         "arco_y": 52.2,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Wilfried Zaha",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 13,
+            "x": 57.2,
+            "y": 77.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wilfried Zaha",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 15,
+            "x": 63.0,
+            "y": 68.0,
+            "endX": 71.4,
+            "endY": 30.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,

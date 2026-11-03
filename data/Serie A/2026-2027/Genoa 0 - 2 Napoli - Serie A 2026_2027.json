@@ -4488,7 +4488,8 @@
         "x": 91.1,
         "y": 44.9,
         "arco_y": 48.0,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 86,
@@ -4497,7 +4498,42 @@
         "x": 89.3,
         "y": 66.8,
         "arco_y": 51.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Antonio Vergara",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 27,
+            "x": 46.2,
+            "y": 50.1,
+            "endX": 75.5,
+            "endY": 4.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 31,
+            "x": 75.5,
+            "y": 4.8,
+            "endX": 81.7,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 31,
+            "x": 81.7,
+            "y": 9.4,
+            "endX": 89.3,
+            "endY": 66.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

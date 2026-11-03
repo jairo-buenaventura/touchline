@@ -540,7 +540,8 @@
         "x": 84.3,
         "y": 48.2,
         "arco_y": 47.4,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 87,
@@ -5481,7 +5482,20 @@
         "x": 70.8,
         "y": 40.5,
         "arco_y": 54.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Assan Ceesay",
+            "tipo": "TakeOn",
+            "minuto": 3,
+            "segundo": 21,
+            "x": 70.6,
+            "y": 30.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 14,
@@ -5499,7 +5513,42 @@
         "x": 93.2,
         "y": 50.2,
         "arco_y": 47.6,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Rémi Oudin",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 91.3,
+            "endY": 3.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 11,
+            "x": 91.3,
+            "y": 3.5,
+            "endX": 97.4,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 11,
+            "x": 97.4,
+            "y": 5.6,
+            "endX": 95.6,
+            "endY": 50.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 96,

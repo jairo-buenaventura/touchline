@@ -4982,7 +4982,8 @@
         "x": 81.8,
         "y": 58.1,
         "arco_y": 53.8,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -5000,7 +5001,42 @@
         "x": 79.3,
         "y": 72.1,
         "arco_y": 45.5,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 6,
+            "x": 72.1,
+            "y": 76.4,
+            "endX": 77.3,
+            "endY": 65.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 9,
+            "x": 77.3,
+            "y": 65.9,
+            "endX": 79.3,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 9,
+            "x": 79.3,
+            "y": 63.1,
+            "endX": 79.3,
+            "endY": 73.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

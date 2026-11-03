@@ -399,7 +399,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.8,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -408,7 +409,8 @@
         "x": 76.9,
         "y": 56.9,
         "arco_y": 46.3,
-        "arco_z": 29.7
+        "arco_z": 29.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 47,
@@ -444,7 +446,8 @@
         "x": 76.0,
         "y": 52.5,
         "arco_y": 53.1,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -462,7 +465,8 @@
         "x": 89.2,
         "y": 59.6,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 90,
@@ -471,7 +475,20 @@
         "x": 86.6,
         "y": 41.8,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Yoane Wissa",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 49,
+            "x": 76.8,
+            "y": 44.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 92,
@@ -3828,7 +3845,20 @@
         "x": 78.9,
         "y": 51.9,
         "arco_y": 53.3,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Luis Sinisterra",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 41,
+            "x": 75.1,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 48,
@@ -3891,7 +3921,53 @@
         "x": 92.3,
         "y": 44.5,
         "arco_y": 51.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Mateusz Klich",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 6,
+            "x": 84.7,
+            "y": 18.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Klich",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 9,
+            "x": 84.4,
+            "y": 32.2,
+            "endX": 79.8,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 14,
+            "x": 78.6,
+            "y": 14.4,
+            "endX": 91.8,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luke Ayling",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 15,
+            "x": 92.9,
+            "y": 20.4,
+            "endX": 92.2,
+            "endY": 45.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,

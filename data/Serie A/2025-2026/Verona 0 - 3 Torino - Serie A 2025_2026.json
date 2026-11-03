@@ -4540,7 +4540,8 @@
         "x": 86.5,
         "y": 52.6,
         "arco_y": 46.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 16,
@@ -4666,7 +4667,75 @@
         "x": 81.2,
         "y": 52.1,
         "arco_y": 45.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Valentino Lazaro",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 27,
+            "x": 26.7,
+            "y": 95.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentino Lazaro",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 28,
+            "x": 26.6,
+            "y": 95.9,
+            "endX": 29.6,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cesare Casadei",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 33,
+            "x": 29.6,
+            "y": 83.6,
+            "endX": 47.7,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cesare Casadei",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 33,
+            "x": 47.7,
+            "y": 63.4,
+            "endX": 65.9,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alieu Njie",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 38,
+            "x": 65.9,
+            "y": 84.1,
+            "endX": 78.9,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alieu Njie",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 38,
+            "x": 78.9,
+            "y": 70.9,
+            "endX": 77.6,
+            "endY": 56.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,
@@ -4675,7 +4744,42 @@
         "x": 79.6,
         "y": 34.4,
         "arco_y": 51.0,
-        "arco_z": 26.6
+        "arco_z": 26.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Adrien Tamèze",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 22,
+            "x": 29.3,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Tamèze",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 23,
+            "x": 29.3,
+            "y": 43.9,
+            "endX": 27.4,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ardian Ismajli",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 25,
+            "x": 27.1,
+            "y": 34.8,
+            "endX": 70.8,
+            "endY": 25.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

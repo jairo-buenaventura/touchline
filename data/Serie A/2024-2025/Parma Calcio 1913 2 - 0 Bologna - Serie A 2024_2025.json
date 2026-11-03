@@ -291,7 +291,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 78,
@@ -300,7 +301,31 @@
         "x": 87.6,
         "y": 65.2,
         "arco_y": 46.6,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Dennis Man",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 52,
+            "x": 44.6,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Man",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 57,
+            "x": 68.9,
+            "y": 39.2,
+            "endX": 72.2,
+            "endY": 60.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,

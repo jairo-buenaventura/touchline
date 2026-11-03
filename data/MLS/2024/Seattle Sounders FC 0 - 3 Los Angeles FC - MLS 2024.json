@@ -5420,7 +5420,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 49.2,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 18,
@@ -5438,7 +5439,8 @@
         "x": 78.4,
         "y": 40.5,
         "arco_y": 53.4,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 68,
@@ -5456,7 +5458,42 @@
         "x": 89.1,
         "y": 44.3,
         "arco_y": 50.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 15,
+            "x": 35.4,
+            "y": 47.2,
+            "endX": 51.2,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 17,
+            "x": 51.2,
+            "y": 58.3,
+            "endX": 55.4,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 17,
+            "x": 55.4,
+            "y": 53.1,
+            "endX": 76.5,
+            "endY": 36.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,

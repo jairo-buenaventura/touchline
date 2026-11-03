@@ -3747,7 +3747,8 @@
         "x": 95.0,
         "y": 47.0,
         "arco_y": 48.3,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -3864,7 +3865,31 @@
         "x": 91.1,
         "y": 55.1,
         "arco_y": 47.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Antony",
+            "tipo": "TakeOn",
+            "minuto": 75,
+            "segundo": 52,
+            "x": 76.7,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 53,
+            "x": 74.9,
+            "y": 48.8,
+            "endX": 87.4,
+            "endY": 55.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,

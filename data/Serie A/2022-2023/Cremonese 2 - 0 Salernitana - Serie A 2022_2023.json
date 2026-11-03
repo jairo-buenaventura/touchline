@@ -360,7 +360,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.2,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -423,7 +424,42 @@
         "x": 87.2,
         "y": 31.4,
         "arco_y": 52.7,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Frank Tsadjout",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 21,
+            "x": 77.8,
+            "y": 16.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Tsadjout",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 22,
+            "x": 77.8,
+            "y": 16.0,
+            "endX": 71.3,
+            "endY": 19.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Soualiho Meïté",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 23,
+            "x": 71.3,
+            "y": 19.6,
+            "endX": 88.5,
+            "endY": 16.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,

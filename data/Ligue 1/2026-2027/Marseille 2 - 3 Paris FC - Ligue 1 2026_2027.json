@@ -397,7 +397,8 @@
         "x": 91.8,
         "y": 60.7,
         "arco_y": 46.1,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 8,
@@ -478,7 +479,8 @@
         "x": 95.7,
         "y": 39.7,
         "arco_y": 53.5,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,
@@ -5350,7 +5352,20 @@
         "x": 92.5,
         "y": 46.4,
         "arco_y": 48.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Luca Koleosho",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 22,
+            "x": 90.3,
+            "y": 63.2,
+            "endX": 92.5,
+            "endY": 46.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 18,
@@ -5377,7 +5392,64 @@
         "x": 93.8,
         "y": 50.4,
         "arco_y": 45.8,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "CornerAwarded",
+            "minuto": 18,
+            "segundo": 12,
+            "x": 88.6,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 43,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 85.6,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilan Kebbal",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 45,
+            "x": 85.6,
+            "y": 85.0,
+            "endX": 89.0,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 46,
+            "x": 89.0,
+            "y": 86.2,
+            "endX": 86.5,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 46,
+            "x": 86.5,
+            "y": 81.8,
+            "endX": 93.8,
+            "endY": 50.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 33,
@@ -5494,7 +5566,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 89,

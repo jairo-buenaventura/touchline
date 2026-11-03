@@ -463,7 +463,8 @@
         "x": 89.5,
         "y": 44.7,
         "arco_y": 50.3,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 55,
@@ -526,7 +527,42 @@
         "x": 90.7,
         "y": 49.3,
         "arco_y": 48.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 31,
+            "x": 69.4,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 33,
+            "x": 71.5,
+            "y": 73.3,
+            "endX": 79.1,
+            "endY": 38.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Vela",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 36,
+            "x": 78.8,
+            "y": 38.6,
+            "endX": 85.2,
+            "endY": 50.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 70,

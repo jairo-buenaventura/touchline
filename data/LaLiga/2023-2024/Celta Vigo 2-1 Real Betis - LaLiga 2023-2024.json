@@ -372,7 +372,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.2,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 16,
@@ -534,7 +535,8 @@
         "x": 93.1,
         "y": 40.4,
         "arco_y": 47.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4365,7 +4367,42 @@
         "x": 92.1,
         "y": 41.9,
         "arco_y": 54.3,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Aitor Ruibal",
+            "tipo": "TakeOn",
+            "minuto": 5,
+            "segundo": 2,
+            "x": 67.7,
+            "y": 28.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aitor Ruibal",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 5,
+            "x": 75.4,
+            "y": 21.2,
+            "endX": 75.5,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 5,
+            "x": 75.5,
+            "y": 33.7,
+            "endX": 88.1,
+            "endY": 33.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 28,

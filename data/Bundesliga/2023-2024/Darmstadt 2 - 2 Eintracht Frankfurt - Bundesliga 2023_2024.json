@@ -421,7 +421,8 @@
         "x": 87.3,
         "y": 50.6,
         "arco_y": 52.9,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 77,
@@ -466,7 +467,53 @@
         "x": 90.3,
         "y": 48.1,
         "arco_y": 52.4,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Andreas Müller",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 2,
+            "x": 60.9,
+            "y": 87.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Müller",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 3,
+            "x": 60.9,
+            "y": 87.7,
+            "endX": 73.6,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tobias Kempe",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 7,
+            "x": 73.6,
+            "y": 87.7,
+            "endX": 87.6,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tobias Kempe",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 7,
+            "x": 87.6,
+            "y": 82.4,
+            "endX": 89.9,
+            "endY": 47.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4685,7 +4732,240 @@
         "x": 90.5,
         "y": 56.9,
         "arco_y": 48.4,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin Trapp",
+            "tipo": "KeeperPickup",
+            "minuto": 31,
+            "segundo": 52,
+            "x": 2.5,
+            "y": 53.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Trapp",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 57,
+            "x": 13.1,
+            "y": 60.6,
+            "endX": 26.9,
+            "endY": 8.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 7,
+            "x": 26.9,
+            "y": 8.9,
+            "endX": 46.3,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 7,
+            "x": 46.3,
+            "y": 6.8,
+            "endX": 36.8,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 11,
+            "x": 36.8,
+            "y": 21.0,
+            "endX": 37.6,
+            "endY": 28.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 11,
+            "x": 37.6,
+            "y": 28.4,
+            "endX": 39.0,
+            "endY": 73.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 16,
+            "x": 39.0,
+            "y": 73.4,
+            "endX": 41.2,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 16,
+            "x": 41.2,
+            "y": 77.3,
+            "endX": 37.1,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 19,
+            "x": 37.3,
+            "y": 54.0,
+            "endX": 39.4,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 21,
+            "x": 39.2,
+            "y": 28.3,
+            "endX": 44.7,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donny van de Beek",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 23,
+            "x": 45.4,
+            "y": 15.2,
+            "endX": 38.0,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 26,
+            "x": 38.0,
+            "y": 27.4,
+            "endX": 36.5,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 33,
+            "x": 36.5,
+            "y": 60.5,
+            "endX": 39.5,
+            "endY": 60.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 33,
+            "x": 39.5,
+            "y": 60.8,
+            "endX": 37.3,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 38,
+            "x": 37.3,
+            "y": 33.7,
+            "endX": 37.4,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 38,
+            "x": 37.4,
+            "y": 29.1,
+            "endX": 40.4,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 40,
+            "x": 39.4,
+            "y": 8.3,
+            "endX": 46.1,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sasa Kalajdzic",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 43,
+            "x": 46.1,
+            "y": 25.0,
+            "endX": 42.5,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sasa Kalajdzic",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 43,
+            "x": 42.5,
+            "y": 19.4,
+            "endX": 81.8,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 49,
+            "x": 81.8,
+            "y": 12.5,
+            "endX": 91.5,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 49,
+            "x": 91.5,
+            "y": 26.2,
+            "endX": 87.5,
+            "endY": 61.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 38,
@@ -4712,7 +4992,196 @@
         "x": 95.5,
         "y": 55.5,
         "arco_y": 52.4,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 1,
+            "x": 53.8,
+            "y": 23.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 54.9,
+            "y": 27.9,
+            "endX": 37.1,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 6,
+            "x": 37.4,
+            "y": 52.5,
+            "endX": 40.9,
+            "endY": 79.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niels Nkounkou",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 11,
+            "x": 40.9,
+            "y": 79.4,
+            "endX": 44.9,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niels Nkounkou",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 11,
+            "x": 44.9,
+            "y": 75.6,
+            "endX": 48.7,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 13,
+            "x": 48.7,
+            "y": 64.8,
+            "endX": 45.6,
+            "endY": 69.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 13,
+            "x": 45.6,
+            "y": 69.1,
+            "endX": 37.6,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 37.6,
+            "y": 65.2,
+            "endX": 41.9,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 41.9,
+            "y": 63.1,
+            "endX": 45.1,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 45.1,
+            "y": 75.3,
+            "endX": 49.1,
+            "endY": 79.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 49.1,
+            "y": 79.1,
+            "endX": 51.9,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sasa Kalajdzic",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 25,
+            "x": 52.6,
+            "y": 66.6,
+            "endX": 46.1,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 27,
+            "x": 46.7,
+            "y": 41.3,
+            "endX": 64.6,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donny van de Beek",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 29,
+            "x": 64.6,
+            "y": 26.7,
+            "endX": 66.1,
+            "endY": 21.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donny van de Beek",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 29,
+            "x": 66.1,
+            "y": 21.3,
+            "endX": 88.5,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 90.0,
+            "y": 27.1,
+            "endX": 84.2,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sasa Kalajdzic",
+            "tipo": "MissedShots",
+            "minuto": 50,
+            "segundo": 32,
+            "x": 84.3,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,

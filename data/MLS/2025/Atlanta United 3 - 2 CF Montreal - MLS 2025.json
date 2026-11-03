@@ -435,7 +435,8 @@
         "x": 95.8,
         "y": 49.6,
         "arco_y": 46.0,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 43,
@@ -462,7 +463,8 @@
         "x": 92.1,
         "y": 48.8,
         "arco_y": 53.9,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -489,7 +491,75 @@
         "x": 86.1,
         "y": 67.0,
         "arco_y": 46.6,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Matt Edwards",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 13,
+            "x": 35.1,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Edwards",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 14,
+            "x": 38.3,
+            "y": 6.0,
+            "endX": 39.7,
+            "endY": 19.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 18,
+            "x": 39.7,
+            "y": 19.5,
+            "endX": 55.3,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 18,
+            "x": 55.3,
+            "y": 14.0,
+            "endX": 63.6,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emmanuel Latte Lath",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 19,
+            "x": 63.6,
+            "y": 54.0,
+            "endX": 64.1,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 20,
+            "x": 64.1,
+            "y": 37.4,
+            "endX": 79.1,
+            "endY": 80.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4403,7 +4473,31 @@
         "x": 95.7,
         "y": 46.8,
         "arco_y": 49.4,
-        "arco_z": 11.4
+        "arco_z": 11.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "TakeOn",
+            "minuto": 46,
+            "segundo": 48,
+            "x": 89.5,
+            "y": 76.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 50,
+            "x": 97.7,
+            "y": 73.2,
+            "endX": 96.6,
+            "endY": 47.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 48,
@@ -4466,7 +4560,31 @@
         "x": 97.4,
         "y": 47.8,
         "arco_y": 49.1,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Tom Pearce",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 2,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.4,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "George Campbell",
+            "tipo": "MissedShots",
+            "minuto": 70,
+            "segundo": 6,
+            "x": 95.8,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 75,

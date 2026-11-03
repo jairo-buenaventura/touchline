@@ -502,7 +502,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 28,
@@ -574,7 +575,20 @@
         "x": 86.0,
         "y": 35.7,
         "arco_y": 53.0,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Kane",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 53,
+            "x": 87.4,
+            "y": 35.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -583,7 +597,75 @@
         "x": 89.9,
         "y": 37.7,
         "arco_y": 52.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Deniz Ofli",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 45,
+            "x": 80.1,
+            "y": 86.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deniz Ofli",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 82.0,
+            "y": 87.4,
+            "endX": 84.0,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 47,
+            "x": 84.0,
+            "y": 72.3,
+            "endX": 80.5,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 47,
+            "x": 80.5,
+            "y": 70.5,
+            "endX": 81.9,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 50,
+            "x": 81.9,
+            "y": 55.5,
+            "endX": 87.3,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 50,
+            "x": 87.3,
+            "y": 48.4,
+            "endX": 89.9,
+            "endY": 37.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -601,7 +683,31 @@
         "x": 86.3,
         "y": 42.1,
         "arco_y": 47.6,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Lennart Karl",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 7,
+            "x": 30.3,
+            "y": 33.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lennart Karl",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 9,
+            "x": 31.8,
+            "y": 35.7,
+            "endX": 68.0,
+            "endY": 59.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -6146,7 +6252,42 @@
         "x": 97.4,
         "y": 44.3,
         "arco_y": 46.3,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 37,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.0,
+            "endY": 60.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 39,
+            "x": 90.0,
+            "y": 60.8,
+            "endX": 92.3,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 39,
+            "x": 92.3,
+            "y": 63.6,
+            "endX": 97.4,
+            "endY": 44.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,

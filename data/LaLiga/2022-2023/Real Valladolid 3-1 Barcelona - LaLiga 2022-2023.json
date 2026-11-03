@@ -365,7 +365,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.0,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -392,7 +393,75 @@
         "x": 92.4,
         "y": 59.9,
         "arco_y": 53.5,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Sergio Escudero",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 22,
+            "x": 31.6,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Escudero",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 25,
+            "x": 32.5,
+            "y": 70.9,
+            "endX": 33.8,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Sánchez",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 28,
+            "x": 33.8,
+            "y": 43.3,
+            "endX": 38.6,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Sánchez",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 28,
+            "x": 38.6,
+            "y": 43.4,
+            "endX": 67.1,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyle Larin",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 33,
+            "x": 67.1,
+            "y": 25.0,
+            "endX": 77.4,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyle Larin",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 33,
+            "x": 77.4,
+            "y": 24.3,
+            "endX": 92.4,
+            "endY": 58.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 77,
@@ -3592,7 +3661,8 @@
         "x": 6.4,
         "y": 48.6,
         "arco_y": 50.3,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 8,
@@ -3736,7 +3806,20 @@
         "x": 93.7,
         "y": 70.8,
         "arco_y": 49.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 34,
+            "x": 91.2,
+            "y": 65.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

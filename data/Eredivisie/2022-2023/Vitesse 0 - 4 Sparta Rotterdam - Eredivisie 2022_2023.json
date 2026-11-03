@@ -4522,7 +4522,8 @@
         "x": 93.7,
         "y": 66.4,
         "arco_y": 45.8,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 71,
@@ -4531,7 +4532,20 @@
         "x": 75.9,
         "y": 42.1,
         "arco_y": 45.8,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Arno Verschueren",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 3,
+            "x": 76.5,
+            "y": 32.1,
+            "endX": 75.9,
+            "endY": 41.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -4549,7 +4563,42 @@
         "x": 84.8,
         "y": 42.7,
         "arco_y": 53.9,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Tobias Lauritsen",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 58,
+            "x": 63.6,
+            "y": 24.6,
+            "endX": 82.5,
+            "endY": 24.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arno Verschueren",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 2,
+            "x": 82.5,
+            "y": 24.9,
+            "endX": 86.7,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arno Verschueren",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 2,
+            "x": 86.7,
+            "y": 24.4,
+            "endX": 83.5,
+            "endY": 41.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,
@@ -4558,7 +4607,141 @@
         "x": 87.3,
         "y": 47.2,
         "arco_y": 52.7,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Jason Lokilo",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 64.0,
+            "y": 59.4,
+            "endX": 54.9,
+            "endY": 86.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Pinto",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 16,
+            "x": 54.9,
+            "y": 86.5,
+            "endX": 73.4,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jason Lokilo",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 72.5,
+            "y": 94.2,
+            "endX": 57.8,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Pinto",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 57.8,
+            "y": 90.9,
+            "endX": 61.1,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Pinto",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 61.1,
+            "y": 76.4,
+            "endX": 52.7,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremy van Mullem",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 28,
+            "x": 52.7,
+            "y": 75.1,
+            "endX": 36.0,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremy van Mullem",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 28,
+            "x": 36.0,
+            "y": 71.5,
+            "endX": 36.1,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Eerdhuijzen",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 36.1,
+            "y": 57.6,
+            "endX": 38.3,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Eerdhuijzen",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 38.3,
+            "y": 60.2,
+            "endX": 87.6,
+            "endY": 67.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Engels",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 35,
+            "x": 87.6,
+            "y": 67.5,
+            "endX": 90.2,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Engels",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 35,
+            "x": 90.2,
+            "y": 63.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mario Engels",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 37,
+            "x": 88.5,
+            "y": 57.3,
+            "endX": 87.2,
+            "endY": 47.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

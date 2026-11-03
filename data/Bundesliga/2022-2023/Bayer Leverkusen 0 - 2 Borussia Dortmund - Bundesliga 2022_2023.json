@@ -472,7 +472,8 @@
         "x": 7.4,
         "y": 48.8,
         "arco_y": 48.6,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 56,
@@ -5225,7 +5226,53 @@
         "x": 88.7,
         "y": 55.7,
         "arco_y": 47.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 17,
+            "x": 78.1,
+            "y": 9.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 18,
+            "x": 79.4,
+            "y": 15.4,
+            "endX": 78.9,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 19,
+            "x": 78.9,
+            "y": 29.2,
+            "endX": 88.6,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 21,
+            "x": 88.6,
+            "y": 28.5,
+            "endX": 89.3,
+            "endY": 58.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,

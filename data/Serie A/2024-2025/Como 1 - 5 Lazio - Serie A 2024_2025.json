@@ -422,7 +422,8 @@
         "x": 94.0,
         "y": 64.2,
         "arco_y": 45.6,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -4481,7 +4482,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 29,
@@ -4499,7 +4501,8 @@
         "x": 88.1,
         "y": 62.0,
         "arco_y": 52.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 43,
@@ -4553,7 +4556,20 @@
         "x": 98.5,
         "y": 47.4,
         "arco_y": 45.8,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Boulaye Dia",
+            "tipo": "MissedShots",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 96.1,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,
@@ -4562,7 +4578,8 @@
         "x": 86.2,
         "y": 55.3,
         "arco_y": 50.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 94,
@@ -4571,7 +4588,75 @@
         "x": 84.9,
         "y": 52.5,
         "arco_y": 48.6,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Mario Gila",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 36,
+            "x": 19.4,
+            "y": 75.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Gila",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 38,
+            "x": 21.4,
+            "y": 81.4,
+            "endX": 33.2,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Vecino",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 42,
+            "x": 33.2,
+            "y": 64.8,
+            "endX": 44.2,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Vecino",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 42,
+            "x": 44.2,
+            "y": 56.4,
+            "endX": 62.0,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Lazzari",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 45,
+            "x": 62.0,
+            "y": 32.5,
+            "endX": 68.9,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Lazzari",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 45,
+            "x": 68.9,
+            "y": 31.0,
+            "endX": 76.7,
+            "endY": 52.1,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

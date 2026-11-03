@@ -424,7 +424,8 @@
         "x": 92.1,
         "y": 54.5,
         "arco_y": 54.3,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -469,7 +470,8 @@
         "x": 80.8,
         "y": 54.2,
         "arco_y": 51.4,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -496,7 +498,8 @@
         "x": 85.2,
         "y": 53.0,
         "arco_y": 48.5,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 82,
@@ -505,7 +508,31 @@
         "x": 92.7,
         "y": 40.8,
         "arco_y": 51.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Dejan Kulusevski",
+            "tipo": "TakeOn",
+            "minuto": 82,
+            "segundo": 35,
+            "x": 93.4,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Kulusevski",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 36,
+            "x": 97.4,
+            "y": 39.4,
+            "endX": 92.6,
+            "endY": 42.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 84,
@@ -4748,7 +4775,20 @@
         "x": 90.6,
         "y": 58.5,
         "arco_y": 54.0,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 23,
+            "x": 68.3,
+            "y": 41.3,
+            "endX": 79.6,
+            "endY": 54.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 19,
@@ -4784,7 +4824,31 @@
         "x": 85.3,
         "y": 52.0,
         "arco_y": 46.4,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Liam Cooper",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 16,
+            "x": 69.7,
+            "y": 45.2,
+            "endX": 76.1,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 18,
+            "x": 76.4,
+            "y": 59.0,
+            "endX": 87.6,
+            "endY": 51.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,
@@ -4847,7 +4911,42 @@
         "x": 88.5,
         "y": 68.0,
         "arco_y": 45.8,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Liam Cooper",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 52.6,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Liam Cooper",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 52.6,
+            "y": 51.9,
+            "endX": 62.5,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 44,
+            "x": 62.5,
+            "y": 43.6,
+            "endX": 80.4,
+            "endY": 71.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

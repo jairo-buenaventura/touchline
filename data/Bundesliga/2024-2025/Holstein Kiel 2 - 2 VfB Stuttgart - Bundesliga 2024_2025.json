@@ -418,7 +418,8 @@
         "x": 89.8,
         "y": 56.1,
         "arco_y": 53.4,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -454,7 +455,8 @@
         "x": 81.0,
         "y": 29.6,
         "arco_y": 51.1,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 53,
@@ -4309,7 +4311,20 @@
         "x": 92.6,
         "y": 27.3,
         "arco_y": 52.5,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 54,
+            "x": 71.2,
+            "y": 34.9,
+            "endX": 89.3,
+            "endY": 25.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 24,
@@ -4336,7 +4351,31 @@
         "x": 91.9,
         "y": 44.1,
         "arco_y": 53.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "TakeOn",
+            "minuto": 54,
+            "segundo": 36,
+            "x": 94.8,
+            "y": 29.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 37,
+            "x": 95.3,
+            "y": 30.6,
+            "endX": 91.2,
+            "endY": 45.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,

@@ -399,7 +399,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.2,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -417,7 +418,20 @@
         "x": 87.4,
         "y": 59.1,
         "arco_y": 51.3,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Rico Henry",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 49,
+            "x": 96.3,
+            "y": 79.1,
+            "endX": 88.8,
+            "endY": 63.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 54,
@@ -4045,7 +4059,20 @@
         "x": 95.7,
         "y": 50.4,
         "arco_y": 48.4,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": [
+          {
+            "jugador": "James Maddison",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 6,
+            "x": 84.3,
+            "y": 81.2,
+            "endX": 96.3,
+            "endY": 48.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 27,
@@ -4099,7 +4126,53 @@
         "x": 77.8,
         "y": 55.7,
         "arco_y": 53.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Richarlison",
+            "tipo": "BallTouch",
+            "minuto": 48,
+            "segundo": 51,
+            "x": 78.9,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Destiny Udogie",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 53,
+            "x": 70.2,
+            "y": 58.4,
+            "endX": 74.4,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Maddison",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 56,
+            "x": 74.4,
+            "y": 73.0,
+            "endX": 80.6,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Maddison",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 56,
+            "x": 80.6,
+            "y": 67.8,
+            "endX": 80.9,
+            "endY": 55.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 51,

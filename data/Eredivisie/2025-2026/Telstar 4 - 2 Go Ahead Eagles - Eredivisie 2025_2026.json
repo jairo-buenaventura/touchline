@@ -405,7 +405,8 @@
         "x": 97.7,
         "y": 45.0,
         "arco_y": 48.3,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 7,
@@ -486,7 +487,8 @@
         "x": 96.4,
         "y": 50.1,
         "arco_y": 50.6,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 47,
@@ -540,7 +542,20 @@
         "x": 83.0,
         "y": 58.3,
         "arco_y": 47.1,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Milan Zonneveld",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 23,
+            "x": 92.4,
+            "y": 34.0,
+            "endX": 87.2,
+            "endY": 62.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,
@@ -558,7 +573,20 @@
         "x": 81.5,
         "y": 45.8,
         "arco_y": 54.0,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Soufiane Hetli",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 20,
+            "x": 47.2,
+            "y": 22.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -3914,7 +3942,20 @@
         "x": 92.0,
         "y": 44.8,
         "arco_y": 46.1,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 29,
+            "x": 85.2,
+            "y": 8.0,
+            "endX": 91.6,
+            "endY": 39.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,
@@ -3959,7 +4000,31 @@
         "x": 92.5,
         "y": 48.4,
         "arco_y": 53.2,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Mathis Suray",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 28,
+            "x": 78.1,
+            "y": 22.5,
+            "endX": 90.5,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Deijl",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 29,
+            "x": 90.6,
+            "y": 15.9,
+            "endX": 92.5,
+            "endY": 48.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,

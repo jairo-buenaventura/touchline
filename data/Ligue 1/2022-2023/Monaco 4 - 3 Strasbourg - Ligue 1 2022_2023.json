@@ -438,7 +438,20 @@
         "x": 88.2,
         "y": 41.8,
         "arco_y": 52.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Vanderson",
+            "tipo": "TakeOn",
+            "minuto": 17,
+            "segundo": 59,
+            "x": 85.4,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 40,
@@ -447,7 +460,8 @@
         "x": 8.5,
         "y": 56.1,
         "arco_y": 49.5,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -465,7 +479,8 @@
         "x": 89.6,
         "y": 53.8,
         "arco_y": 52.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 57,
@@ -474,7 +489,31 @@
         "x": 85.2,
         "y": 42.1,
         "arco_y": 46.8,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "TakeOn",
+            "minuto": 57,
+            "segundo": 11,
+            "x": 24.9,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 73.2,
+            "y": 64.5,
+            "endX": 86.1,
+            "endY": 43.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 64,
@@ -483,7 +522,53 @@
         "x": 82.5,
         "y": 40.2,
         "arco_y": 54.2,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 48,
+            "x": 55.5,
+            "y": 29.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 49,
+            "x": 59.0,
+            "y": 36.6,
+            "endX": 66.2,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Volland",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 66.2,
+            "y": 37.7,
+            "endX": 66.1,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Volland",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 66.1,
+            "y": 43.8,
+            "endX": 67.5,
+            "endY": 28.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4536,7 +4621,8 @@
         "x": 91.9,
         "y": 52.2,
         "arco_y": 47.6,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 48,
@@ -4608,7 +4694,284 @@
         "x": 98.3,
         "y": 46.8,
         "arco_y": 46.8,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Ismaël Doukouré",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 31.5,
+            "y": 0.0,
+            "endX": 22.4,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerzino Nyamsi",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 22.4,
+            "y": 12.5,
+            "endX": 19.6,
+            "endY": 16.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerzino Nyamsi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 19.6,
+            "y": 16.6,
+            "endX": 30.3,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 30,
+            "x": 30.3,
+            "y": 55.4,
+            "endX": 24.7,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 30,
+            "x": 24.7,
+            "y": 52.5,
+            "endX": 42.1,
+            "endY": 70.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sanjin Prcic",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 35,
+            "x": 42.1,
+            "y": 70.7,
+            "endX": 48.4,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sanjin Prcic",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 35,
+            "x": 48.4,
+            "y": 76.3,
+            "endX": 72.1,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 72.1,
+            "y": 92.9,
+            "endX": 75.4,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 75.4,
+            "y": 91.0,
+            "endX": 76.0,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 76.0,
+            "y": 84.8,
+            "endX": 81.4,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 81.4,
+            "y": 83.3,
+            "endX": 71.3,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 71.3,
+            "y": 89.0,
+            "endX": 80.1,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 80.1,
+            "y": 75.2,
+            "endX": 71.8,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 71.8,
+            "y": 87.8,
+            "endX": 67.4,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 67.4,
+            "y": 89.4,
+            "endX": 72.7,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 72.7,
+            "y": 93.2,
+            "endX": 70.0,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Sobol",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 70.0,
+            "y": 79.8,
+            "endX": 57.6,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 57.6,
+            "y": 55.4,
+            "endX": 60.7,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 60.7,
+            "y": 53.9,
+            "endX": 61.8,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 61.8,
+            "y": 41.3,
+            "endX": 65.5,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 65.5,
+            "y": 39.4,
+            "endX": 75.1,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Habib Diarra",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 2,
+            "x": 75.1,
+            "y": 3.2,
+            "endX": 78.6,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Habib Diarra",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 2,
+            "x": 78.6,
+            "y": 15.9,
+            "endX": 92.9,
+            "endY": 61.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 92.9,
+            "y": 61.6,
+            "endX": 97.5,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordine Kandil",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 97.5,
+            "y": 62.8,
+            "endX": 97.0,
+            "endY": 46.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,

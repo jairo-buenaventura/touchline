@@ -439,7 +439,8 @@
         "x": 79.9,
         "y": 35.8,
         "arco_y": 52.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 38,
@@ -5129,7 +5130,20 @@
         "x": 96.6,
         "y": 42.9,
         "arco_y": 46.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Felipe Anderson",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 36,
+            "x": 96.6,
+            "y": 25.2,
+            "endX": 96.1,
+            "endY": 43.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 35,
@@ -5147,7 +5161,31 @@
         "x": 87.7,
         "y": 65.2,
         "arco_y": 46.5,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Felipe Anderson",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 6,
+            "x": 53.7,
+            "y": 11.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Anderson",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 12,
+            "x": 77.9,
+            "y": 22.3,
+            "endX": 74.9,
+            "endY": 60.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 63,

@@ -482,7 +482,8 @@
         "x": 93.1,
         "y": 45.6,
         "arco_y": 45.9,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 60,
@@ -500,7 +501,8 @@
         "x": 89.3,
         "y": 56.2,
         "arco_y": 46.7,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -509,7 +511,108 @@
         "x": 88.9,
         "y": 56.0,
         "arco_y": 53.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 33,
+            "x": 29.4,
+            "y": 75.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 34,
+            "x": 29.4,
+            "y": 75.9,
+            "endX": 40.2,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 36,
+            "x": 38.6,
+            "y": 89.2,
+            "endX": 43.3,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 38,
+            "x": 43.3,
+            "y": 69.6,
+            "endX": 41.8,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 38,
+            "x": 41.8,
+            "y": 73.2,
+            "endX": 27.4,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djé D'Avilla",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 40,
+            "x": 26.3,
+            "y": 67.0,
+            "endX": 33.2,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 40,
+            "x": 33.2,
+            "y": 46.0,
+            "endX": 77.6,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Zinckernagel",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 44,
+            "x": 77.6,
+            "y": 23.1,
+            "endX": 91.1,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Zinckernagel",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 44,
+            "x": 91.1,
+            "y": 23.8,
+            "endX": 88.9,
+            "endY": 56.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -518,7 +621,20 @@
         "x": 93.3,
         "y": 55.6,
         "arco_y": 50.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "TakeOn",
+            "minuto": 78,
+            "segundo": 22,
+            "x": 77.6,
+            "y": 61.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 95,
@@ -536,7 +652,42 @@
         "x": 96.5,
         "y": 50.5,
         "arco_y": 52.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "CornerAwarded",
+            "minuto": 96,
+            "segundo": 39,
+            "x": 95.5,
+            "y": 80.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 99.6,
+            "endX": 96.8,
+            "endY": 42.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 12,
+            "x": 96.6,
+            "y": 40.1,
+            "endX": 96.5,
+            "endY": 50.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

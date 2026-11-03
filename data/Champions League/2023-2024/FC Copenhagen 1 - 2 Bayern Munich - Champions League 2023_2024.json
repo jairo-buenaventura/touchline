@@ -417,7 +417,8 @@
         "x": 85.9,
         "y": 46.4,
         "arco_y": 54.1,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 73,
@@ -4609,7 +4610,20 @@
         "x": 84.0,
         "y": 54.0,
         "arco_y": 45.5,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "TakeOn",
+            "minuto": 66,
+            "segundo": 24,
+            "x": 80.4,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -4654,7 +4668,42 @@
         "x": 90.5,
         "y": 61.0,
         "arco_y": 49.6,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 55,
+            "x": 53.7,
+            "y": 52.4,
+            "endX": 68.9,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 2,
+            "x": 68.9,
+            "y": 49.1,
+            "endX": 88.8,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 2,
+            "x": 88.8,
+            "y": 46.8,
+            "endX": 89.4,
+            "endY": 59.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

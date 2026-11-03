@@ -446,7 +446,8 @@
         "x": 95.7,
         "y": 45.8,
         "arco_y": 47.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -554,7 +555,20 @@
         "x": 89.3,
         "y": 37.8,
         "arco_y": 54.1,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan David",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 29,
+            "x": 82.2,
+            "y": 47.7,
+            "endX": 87.5,
+            "endY": 39.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,
@@ -572,7 +586,8 @@
         "x": 92.6,
         "y": 69.5,
         "arco_y": 45.9,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -617,7 +632,42 @@
         "x": 86.9,
         "y": 46.2,
         "arco_y": 46.4,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Giuliano Simeone",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 13,
+            "x": 62.0,
+            "y": 0.0,
+            "endX": 57.8,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 57.8,
+            "y": 31.9,
+            "endX": 64.2,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 64.2,
+            "y": 25.2,
+            "endX": 86.9,
+            "endY": 46.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

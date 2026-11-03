@@ -371,7 +371,8 @@
         "x": 96.8,
         "y": 45.8,
         "arco_y": 51.0,
-        "arco_z": 26.6
+        "arco_z": 26.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -425,7 +426,53 @@
         "x": 81.7,
         "y": 52.7,
         "arco_y": 53.1,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Torró",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 50,
+            "x": 28.4,
+            "y": 65.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Torró",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 51,
+            "x": 27.1,
+            "y": 65.2,
+            "endX": 30.8,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 52,
+            "x": 30.8,
+            "y": 53.9,
+            "endX": 33.6,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 52,
+            "x": 33.6,
+            "y": 52.1,
+            "endX": 63.4,
+            "endY": 45.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 91,

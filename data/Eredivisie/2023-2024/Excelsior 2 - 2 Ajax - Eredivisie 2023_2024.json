@@ -436,7 +436,8 @@
         "x": 87.0,
         "y": 41.9,
         "arco_y": 46.2,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 47,
@@ -445,7 +446,20 @@
         "x": 94.4,
         "y": 54.2,
         "arco_y": 53.8,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Nikolas Agrafiotis",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 3,
+            "x": 92.0,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -3961,7 +3975,20 @@
         "x": 85.5,
         "y": 49.0,
         "arco_y": 47.3,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Brian Brobbey",
+            "tipo": "BallRecovery",
+            "minuto": 24,
+            "segundo": 9,
+            "x": 79.9,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 38,
@@ -4015,7 +4042,185 @@
         "x": 93.9,
         "y": 44.3,
         "arco_y": 52.5,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Benjamin Tahirovic",
+            "tipo": "BlockedPass",
+            "minuto": 70,
+            "segundo": 45,
+            "x": 29.2,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Tahirovic",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 52,
+            "x": 27.3,
+            "y": 54.2,
+            "endX": 41.4,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenneth Taylor",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 55,
+            "x": 41.4,
+            "y": 68.1,
+            "endX": 27.3,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorrel Hato",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 27.3,
+            "y": 73.2,
+            "endX": 32.2,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorrel Hato",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 32.2,
+            "y": 69.7,
+            "endX": 37.0,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakov Medic",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 3,
+            "x": 34.2,
+            "y": 38.3,
+            "endX": 41.0,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorrel Hato",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 41.0,
+            "y": 66.1,
+            "endX": 46.8,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorrel Hato",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 46.8,
+            "y": 67.0,
+            "endX": 68.3,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Owen Wijndal",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 68.5,
+            "y": 91.2,
+            "endX": 71.0,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 71.0,
+            "y": 67.6,
+            "endX": 69.9,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 69.9,
+            "y": 62.6,
+            "endX": 61.6,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Tahirovic",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 61.6,
+            "y": 58.8,
+            "endX": 69.6,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 17,
+            "x": 69.6,
+            "y": 42.4,
+            "endX": 79.3,
+            "endY": 18.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 17,
+            "x": 79.3,
+            "y": 18.5,
+            "endX": 85.7,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 20,
+            "x": 85.7,
+            "y": 7.7,
+            "endX": 83.1,
+            "endY": 12.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 20,
+            "x": 83.1,
+            "y": 12.8,
+            "endX": 94.0,
+            "endY": 44.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,

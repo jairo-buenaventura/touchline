@@ -418,7 +418,8 @@
         "x": 93.4,
         "y": 49.5,
         "arco_y": 48.8,
-        "arco_z": 30.4
+        "arco_z": 30.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 44,
@@ -4269,7 +4270,53 @@
         "x": 86.6,
         "y": 61.0,
         "arco_y": 53.2,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Marc Roca",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 51,
+            "x": 70.3,
+            "y": 72.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 53,
+            "x": 70.4,
+            "y": 69.8,
+            "endX": 66.7,
+            "endY": 47.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Borja Iglesias",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 54,
+            "x": 66.7,
+            "y": 47.4,
+            "endX": 70.1,
+            "endY": 66.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Borja Iglesias",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 54,
+            "x": 70.1,
+            "y": 66.2,
+            "endX": 85.2,
+            "endY": 74.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 21,

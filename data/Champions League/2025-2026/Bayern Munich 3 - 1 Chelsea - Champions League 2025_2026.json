@@ -428,7 +428,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.3,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 37,
@@ -500,7 +501,20 @@
         "x": 87.5,
         "y": 64.6,
         "arco_y": 46.3,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Kane",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 30,
+            "x": 85.2,
+            "y": 65.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 67,
@@ -4823,7 +4837,8 @@
         "x": 3.2,
         "y": 46.8,
         "arco_y": 53.9,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 28,
@@ -4832,7 +4847,64 @@
         "x": 86.2,
         "y": 47.2,
         "arco_y": 53.2,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 53,
+            "x": 30.6,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 53,
+            "x": 31.0,
+            "y": 42.1,
+            "endX": 38.1,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 59,
+            "x": 38.1,
+            "y": 31.2,
+            "endX": 77.2,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 59,
+            "x": 77.2,
+            "y": 38.8,
+            "endX": 88.9,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malo Gusto",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 0,
+            "x": 88.9,
+            "y": 29.2,
+            "endX": 86.2,
+            "endY": 47.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 33,

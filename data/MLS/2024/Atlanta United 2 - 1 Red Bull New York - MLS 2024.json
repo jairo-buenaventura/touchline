@@ -494,7 +494,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 78,
@@ -539,7 +540,53 @@
         "x": 86.6,
         "y": 51.8,
         "arco_y": 46.0,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "BallRecovery",
+            "minuto": 96,
+            "segundo": 17,
+            "x": 43.0,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 17,
+            "x": 43.0,
+            "y": 32.7,
+            "endX": 35.2,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Carry",
+            "minuto": 96,
+            "segundo": 19,
+            "x": 35.2,
+            "y": 37.0,
+            "endX": 34.4,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 19,
+            "x": 34.4,
+            "y": 40.6,
+            "endX": 73.6,
+            "endY": 57.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4818,7 +4865,42 @@
         "x": 87.9,
         "y": 65.0,
         "arco_y": 54.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Elias Manoel",
+            "tipo": "Pass",
+            "minuto": 102,
+            "segundo": 53,
+            "x": 91.0,
+            "y": 73.0,
+            "endX": 80.6,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Pass",
+            "minuto": 102,
+            "segundo": 55,
+            "x": 80.6,
+            "y": 88.0,
+            "endX": 74.1,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Stroud",
+            "tipo": "Pass",
+            "minuto": 102,
+            "segundo": 57,
+            "x": 74.1,
+            "y": 79.3,
+            "endX": 86.2,
+            "endY": 70.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

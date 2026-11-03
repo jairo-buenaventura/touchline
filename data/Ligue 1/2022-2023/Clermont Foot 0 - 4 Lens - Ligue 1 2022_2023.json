@@ -4382,7 +4382,8 @@
         "x": 96.4,
         "y": 65.9,
         "arco_y": 50.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 33,
@@ -4391,7 +4392,31 @@
         "x": 87.8,
         "y": 51.3,
         "arco_y": 47.8,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 21,
+            "x": 69.0,
+            "y": 29.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 23,
+            "x": 84.0,
+            "y": 38.3,
+            "endX": 89.3,
+            "endY": 53.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,
@@ -4400,7 +4425,8 @@
         "x": 95.3,
         "y": 63.8,
         "arco_y": 48.9,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4454,7 +4480,53 @@
         "x": 86.4,
         "y": 29.5,
         "arco_y": 52.4,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 22,
+            "x": 63.6,
+            "y": 1.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 22,
+            "x": 63.9,
+            "y": 1.9,
+            "endX": 95.5,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 27,
+            "x": 95.5,
+            "y": 16.8,
+            "endX": 99.7,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 27,
+            "x": 99.7,
+            "y": 23.1,
+            "endX": 91.7,
+            "endY": 34.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

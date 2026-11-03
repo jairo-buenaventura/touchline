@@ -492,7 +492,8 @@
         "x": 98.8,
         "y": 47.0,
         "arco_y": 47.3,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,
@@ -4628,7 +4629,53 @@
         "x": 87.3,
         "y": 58.5,
         "arco_y": 52.6,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Harbor Tarczynski-Miller",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 5,
+            "x": 34.2,
+            "y": 25.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harbor Tarczynski-Miller",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 6,
+            "x": 56.6,
+            "y": 29.1,
+            "endX": 60.5,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 8,
+            "x": 60.5,
+            "y": 41.3,
+            "endX": 71.0,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 8,
+            "x": 71.0,
+            "y": 43.4,
+            "endX": 87.3,
+            "endY": 58.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 56,

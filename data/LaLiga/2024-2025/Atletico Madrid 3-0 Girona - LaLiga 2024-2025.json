@@ -417,7 +417,8 @@
         "x": 80.9,
         "y": 44.3,
         "arco_y": 53.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 41,
@@ -435,7 +436,42 @@
         "x": 79.2,
         "y": 31.6,
         "arco_y": 50.3,
-        "arco_z": 32.3
+        "arco_z": 32.3,
+        "secuencia_gol": [
+          {
+            "jugador": "José María Giménez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 22.2,
+            "y": 73.9,
+            "endX": 40.2,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 40,
+            "x": 40.2,
+            "y": 65.6,
+            "endX": 37.2,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 41,
+            "x": 37.2,
+            "y": 52.1,
+            "endX": 40.5,
+            "endY": 21.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 86,
@@ -462,7 +498,86 @@
         "x": 93.1,
         "y": 49.6,
         "arco_y": 51.1,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 18,
+            "x": 22.4,
+            "y": 32.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 19,
+            "x": 22.4,
+            "y": 32.4,
+            "endX": 46.0,
+            "endY": 29.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Barrios",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 26,
+            "x": 46.0,
+            "y": 29.0,
+            "endX": 84.9,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Barrios",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 26,
+            "x": 84.9,
+            "y": 34.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pablo Barrios",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 28,
+            "x": 87.5,
+            "y": 38.6,
+            "endX": 86.6,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 86.6,
+            "y": 35.7,
+            "endX": 94.3,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 94.3,
+            "y": 35.1,
+            "endX": 95.7,
+            "endY": 50.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

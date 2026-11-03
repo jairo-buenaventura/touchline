@@ -436,7 +436,8 @@
         "x": 85.9,
         "y": 80.7,
         "arco_y": 45.8,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 40,
@@ -463,7 +464,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.9,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 70,
@@ -481,7 +483,53 @@
         "x": 84.3,
         "y": 47.4,
         "arco_y": 45.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 11,
+            "x": 68.2,
+            "y": 67.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Herrera",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 12,
+            "x": 69.3,
+            "y": 69.8,
+            "endX": 86.9,
+            "endY": 87.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corey Baird",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 19,
+            "x": 86.9,
+            "y": 87.4,
+            "endX": 95.5,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corey Baird",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 19,
+            "x": 95.5,
+            "y": 73.2,
+            "endX": 86.4,
+            "endY": 43.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 92,

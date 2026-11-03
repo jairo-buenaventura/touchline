@@ -382,7 +382,31 @@
         "x": 91.2,
         "y": 33.2,
         "arco_y": 53.7,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "TakeOn",
+            "minuto": 1,
+            "segundo": 22,
+            "x": 71.6,
+            "y": 27.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 25,
+            "x": 78.9,
+            "y": 33.4,
+            "endX": 91.6,
+            "endY": 31.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 17,
@@ -427,7 +451,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -445,7 +470,8 @@
         "x": 85.5,
         "y": 49.7,
         "arco_y": 48.7,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 81,
@@ -463,7 +489,152 @@
         "x": 94.7,
         "y": 42.3,
         "arco_y": 45.6,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 59,
+            "x": 47.3,
+            "y": 41.2,
+            "endX": 41.8,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Pacheco",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 3,
+            "x": 41.8,
+            "y": 67.0,
+            "endX": 46.1,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aihen Muñoz",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 5,
+            "x": 46.1,
+            "y": 88.9,
+            "endX": 39.5,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Pacheco",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 7,
+            "x": 39.5,
+            "y": 66.1,
+            "endX": 42.0,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 10,
+            "x": 42.0,
+            "y": 33.6,
+            "endX": 43.5,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 10,
+            "x": 43.5,
+            "y": 29.5,
+            "endX": 63.0,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takefusa Kubo",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 19,
+            "x": 63.0,
+            "y": 4.6,
+            "endX": 87.0,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takefusa Kubo",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 19,
+            "x": 87.0,
+            "y": 10.9,
+            "endX": 72.6,
+            "endY": 4.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 20,
+            "x": 72.6,
+            "y": 4.0,
+            "endX": 68.6,
+            "endY": 20.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 22,
+            "x": 68.6,
+            "y": 20.3,
+            "endX": 67.9,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 22,
+            "x": 67.9,
+            "y": 25.5,
+            "endX": 86.9,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Merino",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 24,
+            "x": 86.9,
+            "y": 52.1,
+            "endX": 89.7,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Merino",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 24,
+            "x": 89.7,
+            "y": 49.9,
+            "endX": 92.0,
+            "endY": 41.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4825,7 +4996,8 @@
         "x": 95.6,
         "y": 48.0,
         "arco_y": 46.4,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 49,
@@ -4834,7 +5006,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.8,
-        "arco_z": 31.0
+        "arco_z": 31.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 63,
@@ -4879,7 +5052,8 @@
         "x": 90.9,
         "y": 48.7,
         "arco_y": 54.4,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 98,

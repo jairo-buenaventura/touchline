@@ -458,7 +458,8 @@
         "x": 96.0,
         "y": 49.5,
         "arco_y": 51.3,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -4539,7 +4540,31 @@
         "x": 0.4,
         "y": 50.2,
         "arco_y": 52.6,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Héctor Bellerín",
+            "tipo": "Clearance",
+            "minuto": 7,
+            "segundo": 9,
+            "x": 1.3,
+            "y": 48.2,
+            "endX": 3.6,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Germán Pezzella",
+            "tipo": "BallTouch",
+            "minuto": 7,
+            "segundo": 9,
+            "x": 4.5,
+            "y": 50.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 20,
@@ -4602,7 +4627,31 @@
         "x": 74.9,
         "y": 56.9,
         "arco_y": 47.5,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 57,
+            "x": 70.6,
+            "y": 85.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 58,
+            "x": 71.3,
+            "y": 83.0,
+            "endX": 72.4,
+            "endY": 63.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 76,

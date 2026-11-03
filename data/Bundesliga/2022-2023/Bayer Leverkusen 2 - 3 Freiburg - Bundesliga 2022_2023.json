@@ -372,7 +372,8 @@
         "x": 97.6,
         "y": 47.0,
         "arco_y": 48.2,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 18,
@@ -453,7 +454,8 @@
         "x": 91.9,
         "y": 44.8,
         "arco_y": 53.1,
-        "arco_z": 8.2
+        "arco_z": 8.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 65,
@@ -4170,7 +4172,8 @@
         "x": 94.2,
         "y": 48.5,
         "arco_y": 54.5,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 50,
@@ -4179,7 +4182,31 @@
         "x": 98.2,
         "y": 54.2,
         "arco_y": 51.4,
-        "arco_z": 18.4
+        "arco_z": 18.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Woo-yeong Jeong",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 88.6,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Woo-yeong Jeong",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 4,
+            "x": 95.4,
+            "y": 38.8,
+            "endX": 98.1,
+            "endY": 55.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -4197,7 +4224,20 @@
         "x": 99.0,
         "y": 53.4,
         "arco_y": 52.0,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolas Höfler",
+            "tipo": "SavedShot",
+            "minuto": 71,
+            "segundo": 3,
+            "x": 96.7,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

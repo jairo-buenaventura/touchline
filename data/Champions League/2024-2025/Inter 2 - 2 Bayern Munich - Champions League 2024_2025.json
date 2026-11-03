@@ -458,7 +458,8 @@
         "x": 92.6,
         "y": 52.5,
         "arco_y": 52.5,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 60,
@@ -485,7 +486,8 @@
         "x": 94.8,
         "y": 50.0,
         "arco_y": 50.3,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -4068,7 +4070,20 @@
         "x": 92.3,
         "y": 34.8,
         "arco_y": 52.6,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 20,
+            "x": 75.1,
+            "y": 38.2,
+            "endX": 88.8,
+            "endY": 32.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -4113,7 +4128,42 @@
         "x": 98.1,
         "y": 57.5,
         "arco_y": 45.8,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Michael Olise",
+            "tipo": "CornerAwarded",
+            "minuto": 74,
+            "segundo": 48,
+            "x": 94.0,
+            "y": 39.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 21,
+            "x": 99.6,
+            "y": 0.7,
+            "endX": 78.8,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Serge Gnabry",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 22,
+            "x": 77.6,
+            "y": 28.2,
+            "endX": 96.4,
+            "endY": 56.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,

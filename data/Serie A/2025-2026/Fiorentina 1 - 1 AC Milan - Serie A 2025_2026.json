@@ -480,7 +480,8 @@
         "x": 95.7,
         "y": 50.9,
         "arco_y": 45.9,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 72,
@@ -4594,7 +4595,53 @@
         "x": 91.5,
         "y": 41.3,
         "arco_y": 47.1,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "Tackle",
+            "minuto": 89,
+            "segundo": 12,
+            "x": 57.2,
+            "y": 12.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 16,
+            "x": 70.2,
+            "y": 12.8,
+            "endX": 74.3,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 18,
+            "x": 74.3,
+            "y": 35.2,
+            "endX": 75.1,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Fofana",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 18,
+            "x": 75.1,
+            "y": 39.1,
+            "endX": 91.5,
+            "endY": 41.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

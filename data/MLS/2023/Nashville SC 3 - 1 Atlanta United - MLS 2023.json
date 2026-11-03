@@ -418,7 +418,31 @@
         "x": 98.3,
         "y": 46.6,
         "arco_y": 49.0,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 99.1,
+            "endY": 59.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Walker Zimmerman",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 46,
+            "x": 97.8,
+            "y": 60.6,
+            "endX": 97.1,
+            "endY": 46.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 39,
@@ -454,7 +478,8 @@
         "x": 93.6,
         "y": 50.3,
         "arco_y": 51.1,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 90,
@@ -463,7 +488,53 @@
         "x": 91.0,
         "y": 38.6,
         "arco_y": 46.3,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Ján Gregus",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 31,
+            "x": 9.3,
+            "y": 7.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ján Gregus",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 32,
+            "x": 9.3,
+            "y": 7.0,
+            "endX": 40.1,
+            "endY": 20.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 40.1,
+            "y": 20.7,
+            "endX": 60.0,
+            "endY": 22.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 60.0,
+            "y": 22.2,
+            "endX": 75.1,
+            "endY": 30.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 94,
@@ -3788,7 +3859,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.4,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,

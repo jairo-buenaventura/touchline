@@ -419,7 +419,8 @@
         "x": 91.1,
         "y": 43.2,
         "arco_y": 46.2,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 19,
@@ -428,7 +429,31 @@
         "x": 89.2,
         "y": 52.4,
         "arco_y": 47.7,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 47,
+            "x": 79.8,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 48,
+            "x": 86.9,
+            "y": 69.7,
+            "endX": 90.2,
+            "endY": 53.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 44,
@@ -446,7 +471,20 @@
         "x": 90.5,
         "y": 46.8,
         "arco_y": 46.1,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 11,
+            "x": 80.2,
+            "y": 51.1,
+            "endX": 90.3,
+            "endY": 45.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,
@@ -455,7 +493,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.5,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -500,7 +539,75 @@
         "x": 82.1,
         "y": 47.8,
         "arco_y": 51.6,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Reinildo Mandava",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 22,
+            "x": 53.5,
+            "y": 94.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reinildo Mandava",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 26,
+            "x": 62.8,
+            "y": 95.5,
+            "endX": 62.1,
+            "endY": 83.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 28,
+            "x": 62.1,
+            "y": 83.4,
+            "endX": 65.4,
+            "endY": 84.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 28,
+            "x": 65.4,
+            "y": 84.7,
+            "endX": 60.4,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Riquelme",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 30,
+            "x": 60.4,
+            "y": 72.9,
+            "endX": 69.5,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Riquelme",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 30,
+            "x": 69.5,
+            "y": 62.4,
+            "endX": 75.8,
+            "endY": 48.3,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

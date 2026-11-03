@@ -421,7 +421,8 @@
         "x": 96.7,
         "y": 52.2,
         "arco_y": 52.8,
-        "arco_z": 15.2
+        "arco_z": 15.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 54,
@@ -4395,7 +4396,53 @@
         "x": 92.1,
         "y": 68.5,
         "arco_y": 51.1,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Thórir Helgason",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 22,
+            "x": 72.2,
+            "y": 14.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thórir Helgason",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 23,
+            "x": 72.2,
+            "y": 14.1,
+            "endX": 78.2,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 27,
+            "x": 78.2,
+            "y": 13.4,
+            "endX": 90.2,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 27,
+            "x": 90.2,
+            "y": 40.0,
+            "endX": 92.1,
+            "endY": 68.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 10,
@@ -4404,7 +4451,20 @@
         "x": 90.3,
         "y": 72.6,
         "arco_y": 53.5,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Tete Morente",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 7,
+            "x": 76.5,
+            "y": 100.0,
+            "endX": 87.9,
+            "endY": 71.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 13,
@@ -4512,7 +4572,42 @@
         "x": 84.3,
         "y": 37.6,
         "arco_y": 52.5,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Ylber Ramadani",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 53.0,
+            "y": 40.6,
+            "endX": 83.2,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Dorgu",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 83.2,
+            "y": 14.0,
+            "endX": 86.4,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Dorgu",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 86.4,
+            "y": 26.2,
+            "endX": 82.4,
+            "endY": 34.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

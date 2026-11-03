@@ -534,7 +534,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 48.1,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 66,
@@ -4340,7 +4341,8 @@
         "x": 93.3,
         "y": 49.1,
         "arco_y": 51.8,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 56,
@@ -4349,7 +4351,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -4376,7 +4379,64 @@
         "x": 90.9,
         "y": 31.9,
         "arco_y": 52.7,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 11,
+            "x": 33.5,
+            "y": 100.0,
+            "endX": 34.2,
+            "endY": 89.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 15,
+            "x": 34.2,
+            "y": 89.7,
+            "endX": 36.3,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 15,
+            "x": 36.3,
+            "y": 85.3,
+            "endX": 44.1,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Pasher",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 19,
+            "x": 44.1,
+            "y": 63.9,
+            "endX": 62.4,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Pasher",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 19,
+            "x": 62.4,
+            "y": 48.4,
+            "endX": 78.1,
+            "endY": 28.2,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

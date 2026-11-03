@@ -535,7 +535,8 @@
         "x": 92.0,
         "y": 52.2,
         "arco_y": 46.4,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 74,
@@ -562,7 +563,8 @@
         "x": 97.0,
         "y": 50.3,
         "arco_y": 49.4,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 95,
@@ -571,7 +573,31 @@
         "x": 92.0,
         "y": 32.2,
         "arco_y": 48.1,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Levin Öztunali",
+            "tipo": "BallRecovery",
+            "minuto": 95,
+            "segundo": 19,
+            "x": 34.0,
+            "y": 36.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Levin Öztunali",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 26,
+            "x": 69.8,
+            "y": 25.3,
+            "endX": 85.6,
+            "endY": 27.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -4544,7 +4570,86 @@
         "x": 85.9,
         "y": 39.1,
         "arco_y": 46.5,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Angeliño",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 45,
+            "x": 6.2,
+            "y": 79.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angeliño",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 46,
+            "x": 6.0,
+            "y": 79.0,
+            "endX": 21.4,
+            "endY": 80.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 49,
+            "x": 21.4,
+            "y": 80.0,
+            "endX": 26.4,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 49,
+            "x": 26.4,
+            "y": 79.6,
+            "endX": 45.3,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Geiger",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 51,
+            "x": 46.0,
+            "y": 47.0,
+            "endX": 60.1,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Skov",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 56,
+            "x": 60.1,
+            "y": 37.3,
+            "endX": 77.4,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Skov",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 56,
+            "x": 77.4,
+            "y": 30.1,
+            "endX": 87.7,
+            "endY": 39.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 81,

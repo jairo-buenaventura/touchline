@@ -3705,7 +3705,8 @@
         "x": 90.2,
         "y": 61.1,
         "arco_y": 46.8,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -3741,7 +3742,8 @@
         "x": 93.3,
         "y": 44.1,
         "arco_y": 46.7,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 91,
@@ -3759,7 +3761,97 @@
         "x": 95.5,
         "y": 32.0,
         "arco_y": 52.7,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Wesley Saïd",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 40,
+            "x": 36.3,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wesley Saïd",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 40,
+            "x": 36.3,
+            "y": 45.9,
+            "endX": 31.5,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Bermont",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 44,
+            "x": 31.5,
+            "y": 23.2,
+            "endX": 40.2,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Bermont",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 44,
+            "x": 40.2,
+            "y": 23.9,
+            "endX": 51.9,
+            "endY": 11.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaëlo Ganiou",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 48,
+            "x": 51.9,
+            "y": 11.8,
+            "endX": 61.3,
+            "endY": 17.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaëlo Ganiou",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 48,
+            "x": 61.3,
+            "y": 17.7,
+            "endX": 69.1,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 51,
+            "x": 69.1,
+            "y": 29.4,
+            "endX": 72.7,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 51,
+            "x": 72.7,
+            "y": 28.0,
+            "endX": 90.9,
+            "endY": 25.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

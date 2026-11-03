@@ -381,7 +381,20 @@
         "x": 96.4,
         "y": 34.3,
         "arco_y": 48.8,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 27,
+            "x": 96.8,
+            "y": 67.2,
+            "endX": 96.4,
+            "endY": 34.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 14,
@@ -471,7 +484,8 @@
         "x": 14.8,
         "y": 58.5,
         "arco_y": 45.4,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4368,7 +4382,31 @@
         "x": 97.6,
         "y": 52.8,
         "arco_y": 51.9,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 19,
+            "x": 85.6,
+            "y": 46.9,
+            "endX": 91.9,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 92.1,
+            "y": 37.7,
+            "endX": 98.0,
+            "endY": 55.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 57,
@@ -4431,7 +4469,53 @@
         "x": 93.5,
         "y": 43.3,
         "arco_y": 46.8,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 32,
+            "x": 61.5,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 34,
+            "x": 69.8,
+            "y": 37.9,
+            "endX": 82.0,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 38,
+            "x": 82.0,
+            "y": 16.9,
+            "endX": 89.7,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 38,
+            "x": 89.7,
+            "y": 23.0,
+            "endX": 95.9,
+            "endY": 44.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 90,

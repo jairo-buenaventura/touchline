@@ -373,7 +373,8 @@
         "x": 92.6,
         "y": 47.2,
         "arco_y": 54.1,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 52,
@@ -3738,7 +3739,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.4,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -3855,7 +3857,20 @@
         "x": 97.7,
         "y": 41.7,
         "arco_y": 47.4,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Mário Rui",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 36,
+            "x": 82.9,
+            "y": 88.4,
+            "endX": 98.2,
+            "endY": 42.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,
@@ -3873,7 +3888,97 @@
         "x": 91.9,
         "y": 47.8,
         "arco_y": 51.6,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 4,
+            "x": 28.1,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 4,
+            "x": 27.9,
+            "y": 57.3,
+            "endX": 30.9,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "BallTouch",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 30.9,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 8,
+            "x": 40.2,
+            "y": 40.6,
+            "endX": 48.4,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 48.4,
+            "y": 44.5,
+            "endX": 51.4,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 51.4,
+            "y": 38.2,
+            "endX": 69.7,
+            "endY": 63.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 15,
+            "x": 69.7,
+            "y": 63.5,
+            "endX": 89.3,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 15,
+            "x": 89.3,
+            "y": 62.7,
+            "endX": 92.5,
+            "endY": 47.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,
@@ -3891,7 +3996,75 @@
         "x": 96.3,
         "y": 48.6,
         "arco_y": 48.6,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "CornerAwarded",
+            "minuto": 93,
+            "segundo": 58,
+            "x": 93.6,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 42,
+            "x": 99.7,
+            "y": 0.5,
+            "endX": 92.4,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 44,
+            "x": 92.1,
+            "y": 2.6,
+            "endX": 68.9,
+            "endY": 20.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 48,
+            "x": 68.9,
+            "y": 20.6,
+            "endX": 84.6,
+            "endY": 17.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 49,
+            "x": 84.6,
+            "y": 17.9,
+            "endX": 85.8,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 51,
+            "x": 86.8,
+            "y": 11.9,
+            "endX": 96.1,
+            "endY": 49.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

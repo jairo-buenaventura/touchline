@@ -431,7 +431,8 @@
         "x": 82.1,
         "y": 55.5,
         "arco_y": 54.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 75,
@@ -440,7 +441,53 @@
         "x": 95.5,
         "y": 54.6,
         "arco_y": 52.9,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 55,
+            "x": 94.2,
+            "y": 89.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 55,
+            "x": 93.0,
+            "y": 89.1,
+            "endX": 93.2,
+            "endY": 73.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Maatsen",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 58,
+            "x": 93.2,
+            "y": 73.6,
+            "endX": 97.1,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Maatsen",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 58,
+            "x": 97.1,
+            "y": 69.6,
+            "endX": 96.4,
+            "endY": 56.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,
@@ -5044,7 +5091,8 @@
         "x": 96.7,
         "y": 58.3,
         "arco_y": 51.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       }
     ],
     "corners": [

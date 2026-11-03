@@ -4566,7 +4566,8 @@
         "x": 95.7,
         "y": 59.7,
         "arco_y": 47.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 13,
@@ -4602,7 +4603,53 @@
         "x": 91.5,
         "y": 49.9,
         "arco_y": 46.5,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Giorgos Masouras",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 25,
+            "x": 30.2,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgos Masouras",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 25,
+            "x": 27.9,
+            "y": 72.5,
+            "endX": 57.9,
+            "endY": 19.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Passlack",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 34,
+            "x": 57.9,
+            "y": 19.5,
+            "endX": 79.0,
+            "endY": 30.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Passlack",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 34,
+            "x": 79.0,
+            "y": 30.9,
+            "endX": 91.3,
+            "endY": 50.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,

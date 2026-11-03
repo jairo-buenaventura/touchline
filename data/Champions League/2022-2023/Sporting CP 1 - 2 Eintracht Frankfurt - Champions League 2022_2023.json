@@ -399,7 +399,8 @@
         "x": 92.2,
         "y": 57.1,
         "arco_y": 50.0,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": []
       },
       {
         "minuto": 93,
@@ -4706,7 +4707,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.2,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 67,
@@ -4733,7 +4735,42 @@
         "x": 95.4,
         "y": 37.7,
         "arco_y": 54.3,
-        "arco_z": 16.5
+        "arco_z": 16.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Evan Ndicka",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 44,
+            "x": 64.0,
+            "y": 67.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ndicka",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 44,
+            "x": 64.0,
+            "y": 67.7,
+            "endX": 68.5,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 48,
+            "x": 68.9,
+            "y": 23.9,
+            "endX": 88.9,
+            "endY": 34.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 74,

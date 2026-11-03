@@ -4413,7 +4413,8 @@
         "x": 88.1,
         "y": 65.8,
         "arco_y": 53.6,
-        "arco_z": 17.7
+        "arco_z": 17.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -4449,7 +4450,42 @@
         "x": 89.9,
         "y": 61.2,
         "arco_y": 51.3,
-        "arco_z": 7.6
+        "arco_z": 7.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Kristoffer Askildsen",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 24,
+            "x": 36.3,
+            "y": 62.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristoffer Askildsen",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 25,
+            "x": 37.3,
+            "y": 66.2,
+            "endX": 75.9,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Colombo",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 29,
+            "x": 77.1,
+            "y": 81.4,
+            "endX": 85.6,
+            "endY": 67.8,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [],

@@ -400,7 +400,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.8,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 28,
@@ -454,7 +455,42 @@
         "x": 92.4,
         "y": 37.2,
         "arco_y": 48.9,
-        "arco_z": 33.5
+        "arco_z": 33.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Bret Halsey",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 21,
+            "x": 76.5,
+            "y": 36.0,
+            "endX": 80.6,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 80.6,
+            "y": 41.1,
+            "endX": 80.5,
+            "endY": 36.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 80.5,
+            "y": 36.8,
+            "endX": 92.9,
+            "endY": 36.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 53,
@@ -463,7 +499,75 @@
         "x": 23.1,
         "y": 53.4,
         "arco_y": 50.0,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 3,
+            "x": 41.1,
+            "y": 53.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 3,
+            "x": 41.2,
+            "y": 53.0,
+            "endX": 25.9,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Murphy",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 4,
+            "x": 26.2,
+            "y": 69.0,
+            "endX": 10.5,
+            "endY": 53.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 10.5,
+            "y": 53.3,
+            "endX": 8.5,
+            "endY": 50.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 8.5,
+            "y": 50.6,
+            "endX": 24.3,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Error",
+            "minuto": 53,
+            "segundo": 8,
+            "x": 23.2,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,
@@ -517,7 +621,31 @@
         "x": 98.1,
         "y": 47.4,
         "arco_y": 49.2,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 19,
+            "x": 90.8,
+            "y": 82.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 21,
+            "x": 95.0,
+            "y": 71.4,
+            "endX": 97.0,
+            "endY": 47.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

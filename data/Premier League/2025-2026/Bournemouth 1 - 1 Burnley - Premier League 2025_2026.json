@@ -461,7 +461,8 @@
         "x": 82.1,
         "y": 66.2,
         "arco_y": 46.0,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 70,
@@ -4700,7 +4701,42 @@
         "x": 94.4,
         "y": 52.6,
         "arco_y": 54.0,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Pires",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 84.9,
+            "endY": 7.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Edwards",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 36,
+            "x": 84.9,
+            "y": 7.8,
+            "endX": 83.8,
+            "endY": 15.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Edwards",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 36,
+            "x": 83.8,
+            "y": 15.7,
+            "endX": 94.4,
+            "endY": 52.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

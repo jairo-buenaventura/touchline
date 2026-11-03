@@ -381,7 +381,8 @@
         "x": 91.4,
         "y": 57.2,
         "arco_y": 54.1,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 15,
@@ -543,7 +544,31 @@
         "x": 87.9,
         "y": 40.3,
         "arco_y": 53.2,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Flavien Tait",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 47,
+            "x": 81.2,
+            "y": 80.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Flavien Tait",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 48,
+            "x": 82.9,
+            "y": 68.6,
+            "endX": 87.6,
+            "endY": 41.0,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -5319,7 +5344,42 @@
         "x": 77.9,
         "y": 31.5,
         "arco_y": 46.3,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolas Pépé",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 92.7,
+            "y": 0.0,
+            "endX": 76.8,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Lotomba",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 76.8,
+            "y": 4.9,
+            "endX": 80.8,
+            "endY": 6.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Lotomba",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 80.8,
+            "y": 6.7,
+            "endX": 74.7,
+            "endY": 33.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,

@@ -418,7 +418,8 @@
         "x": 91.3,
         "y": 51.5,
         "arco_y": 53.2,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 26,
@@ -454,7 +455,8 @@
         "x": 84.2,
         "y": 18.8,
         "arco_y": 46.1,
-        "arco_z": 10.1
+        "arco_z": 10.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 47,
@@ -4078,7 +4080,53 @@
         "x": 81.5,
         "y": 52.2,
         "arco_y": 50.2,
-        "arco_z": 29.1
+        "arco_z": 29.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Mohamed Bouchouari",
+            "tipo": "TakeOn",
+            "minuto": 67,
+            "segundo": 42,
+            "x": 71.8,
+            "y": 95.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Bouchouari",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 47,
+            "x": 89.8,
+            "y": 96.2,
+            "endX": 89.9,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rui Mendes",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 89.9,
+            "y": 56.6,
+            "endX": 85.1,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rui Mendes",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 85.1,
+            "y": 53.1,
+            "endX": 80.2,
+            "endY": 53.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 83,

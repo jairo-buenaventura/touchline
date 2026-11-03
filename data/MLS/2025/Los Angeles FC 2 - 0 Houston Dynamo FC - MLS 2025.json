@@ -406,7 +406,8 @@
         "x": 99.1,
         "y": 46.6,
         "arco_y": 46.6,
-        "arco_z": 6.3
+        "arco_z": 6.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 22,
@@ -532,7 +533,53 @@
         "x": 80.9,
         "y": 49.5,
         "arco_y": 48.0,
-        "arco_z": 3.8
+        "arco_z": 3.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 7,
+            "x": 17.0,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 8,
+            "x": 18.5,
+            "y": 53.6,
+            "endX": 47.7,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 14,
+            "x": 47.7,
+            "y": 64.6,
+            "endX": 73.7,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 14,
+            "x": 73.7,
+            "y": 58.2,
+            "endX": 76.0,
+            "endY": 46.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 82,

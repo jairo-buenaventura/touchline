@@ -362,7 +362,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 50.7,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 27,
@@ -4281,7 +4282,31 @@
         "x": 89.8,
         "y": 39.3,
         "arco_y": 50.8,
-        "arco_z": 14.6
+        "arco_z": 14.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 89.0,
+            "y": 27.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 42,
+            "x": 92.1,
+            "y": 22.5,
+            "endX": 88.3,
+            "endY": 47.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 50,
@@ -4299,7 +4324,42 @@
         "x": 81.6,
         "y": 34.2,
         "arco_y": 54.5,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 8,
+            "x": 39.9,
+            "y": 69.3,
+            "endX": 38.8,
+            "endY": 45.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 14,
+            "x": 38.8,
+            "y": 45.7,
+            "endX": 61.0,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 14,
+            "x": 61.0,
+            "y": 33.7,
+            "endX": 71.7,
+            "endY": 10.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 70,

@@ -445,7 +445,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 54.0,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -472,7 +473,20 @@
         "x": 87.2,
         "y": 38.0,
         "arco_y": 45.9,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 14,
+            "x": 90.7,
+            "y": 57.7,
+            "endX": 86.2,
+            "endY": 42.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -4897,7 +4911,20 @@
         "x": 96.8,
         "y": 45.3,
         "arco_y": 47.7,
-        "arco_z": 15.8
+        "arco_z": 15.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 40,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.8,
+            "endY": 46.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -4933,7 +4960,64 @@
         "x": 95.2,
         "y": 54.2,
         "arco_y": 47.6,
-        "arco_z": 19.6
+        "arco_z": 19.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 43.7,
+            "y": 93.6,
+            "endX": 60.0,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 60.0,
+            "y": 92.4,
+            "endX": 46.8,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 46.8,
+            "y": 70.5,
+            "endX": 83.7,
+            "endY": 15.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Antman",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 35,
+            "x": 83.7,
+            "y": 15.7,
+            "endX": 88.8,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Antman",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 35,
+            "x": 88.8,
+            "y": 19.7,
+            "endX": 95.7,
+            "endY": 52.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 95,

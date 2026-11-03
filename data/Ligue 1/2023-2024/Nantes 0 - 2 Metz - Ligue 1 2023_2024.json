@@ -4300,7 +4300,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 45.9,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -4309,7 +4310,53 @@
         "x": 85.9,
         "y": 58.3,
         "arco_y": 53.5,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Danley Jean Jacques",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 30,
+            "x": 45.0,
+            "y": 43.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danley Jean Jacques",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 33,
+            "x": 63.0,
+            "y": 31.4,
+            "endX": 81.1,
+            "endY": 13.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 36,
+            "x": 81.1,
+            "y": 13.3,
+            "endX": 83.6,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 36,
+            "x": 83.6,
+            "y": 22.5,
+            "endX": 87.8,
+            "endY": 59.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 85,

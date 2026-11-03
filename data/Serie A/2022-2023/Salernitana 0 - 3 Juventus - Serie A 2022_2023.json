@@ -4809,7 +4809,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.0,
-        "arco_z": 19.0
+        "arco_z": 19.0,
+        "secuencia_gol": []
       },
       {
         "minuto": 32,
@@ -4845,7 +4846,20 @@
         "x": 95.2,
         "y": 54.2,
         "arco_y": 49.5,
-        "arco_z": 4.4
+        "arco_z": 4.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "MissedShots",
+            "minuto": 44,
+            "segundo": 3,
+            "x": 85.3,
+            "y": 47.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 46,
@@ -4854,7 +4868,31 @@
         "x": 83.7,
         "y": 57.9,
         "arco_y": 46.9,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Fagioli",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 62.3,
+            "y": 69.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Fagioli",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 18,
+            "x": 67.1,
+            "y": 69.7,
+            "endX": 83.1,
+            "endY": 58.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,

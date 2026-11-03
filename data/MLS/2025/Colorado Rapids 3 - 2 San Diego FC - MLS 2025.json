@@ -482,7 +482,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 51.5,
-        "arco_z": 13.9
+        "arco_z": 13.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 45,
@@ -518,7 +519,20 @@
         "x": 96.4,
         "y": 46.4,
         "arco_y": 51.3,
-        "arco_z": 7.0
+        "arco_z": 7.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Chidozie Awaziem",
+            "tipo": "BallTouch",
+            "minuto": 52,
+            "segundo": 41,
+            "x": 96.5,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 59,
@@ -527,7 +541,174 @@
         "x": 88.3,
         "y": 54.2,
         "arco_y": 46.1,
-        "arco_z": 25.9
+        "arco_z": 25.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 22.9,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 14.7,
+            "y": 25.6,
+            "endX": 26.2,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 55,
+            "x": 26.2,
+            "y": 23.0,
+            "endX": 13.3,
+            "endY": 14.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 56,
+            "x": 13.3,
+            "y": 14.9,
+            "endX": 31.5,
+            "endY": 6.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 58,
+            "x": 31.5,
+            "y": 6.4,
+            "endX": 46.3,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darren Yapi",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 59,
+            "x": 46.3,
+            "y": 37.0,
+            "endX": 42.5,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 4,
+            "x": 42.5,
+            "y": 47.6,
+            "endX": 63.6,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 4,
+            "x": 63.6,
+            "y": 49.9,
+            "endX": 72.2,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darren Yapi",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 6,
+            "x": 72.2,
+            "y": 64.3,
+            "endX": 72.8,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darren Yapi",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 6,
+            "x": 72.8,
+            "y": 70.6,
+            "endX": 62.0,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 62.0,
+            "y": 65.8,
+            "endX": 63.6,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 63.6,
+            "y": 62.1,
+            "endX": 77.9,
+            "endY": 37.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 10,
+            "x": 79.5,
+            "y": 37.7,
+            "endX": 88.4,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 14,
+            "x": 88.4,
+            "y": 30.6,
+            "endX": 90.8,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 14,
+            "x": 90.8,
+            "y": 35.2,
+            "endX": 88.8,
+            "endY": 52.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 71,
@@ -4321,7 +4502,86 @@
         "x": 84.2,
         "y": 57.7,
         "arco_y": 45.8,
-        "arco_z": 32.9
+        "arco_z": 32.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Onni Valakari",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 42,
+            "x": 66.0,
+            "y": 17.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Onni Valakari",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 44,
+            "x": 75.9,
+            "y": 16.4,
+            "endX": 74.8,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 74.8,
+            "y": 11.0,
+            "endX": 67.2,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 67.2,
+            "y": 12.5,
+            "endX": 64.8,
+            "endY": 78.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamady Diop",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 51,
+            "x": 66.0,
+            "y": 77.5,
+            "endX": 73.4,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 55,
+            "x": 73.4,
+            "y": 88.9,
+            "endX": 80.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 55,
+            "x": 80.2,
+            "y": 72.6,
+            "endX": 83.5,
+            "endY": 60.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 55,
@@ -4384,7 +4644,20 @@
         "x": 85.9,
         "y": 63.4,
         "arco_y": 45.8,
-        "arco_z": 12.0
+        "arco_z": 12.0,
+        "secuencia_gol": [
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 29,
+            "x": 85.7,
+            "y": 54.2,
+            "endX": 84.4,
+            "endY": 65.4,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 94,

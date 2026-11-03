@@ -395,7 +395,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 53.9,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 6,
@@ -449,7 +450,20 @@
         "x": 85.8,
         "y": 73.8,
         "arco_y": 46.4,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Cristiano Biraghi",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 52,
+            "x": 89.5,
+            "y": 100.0,
+            "endX": 86.0,
+            "endY": 74.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 21,
@@ -539,7 +553,53 @@
         "x": 91.3,
         "y": 44.5,
         "arco_y": 49.2,
-        "arco_z": 17.1
+        "arco_z": 17.1,
+        "secuencia_gol": [
+          {
+            "jugador": "Alfred Duncan",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 69.9,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfred Duncan",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 74.4,
+            "y": 48.2,
+            "endX": 87.7,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 87.7,
+            "y": 62.1,
+            "endX": 93.7,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 93.7,
+            "y": 64.5,
+            "endX": 92.0,
+            "endY": 42.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 77,

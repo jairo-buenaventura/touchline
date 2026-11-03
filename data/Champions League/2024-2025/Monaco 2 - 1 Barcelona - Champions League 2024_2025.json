@@ -404,7 +404,8 @@
         "x": 86.1,
         "y": 39.3,
         "arco_y": 45.8,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 20,
@@ -503,7 +504,31 @@
         "x": 87.5,
         "y": 60.3,
         "arco_y": 51.9,
-        "arco_z": 20.9
+        "arco_z": 20.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Vanderson",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 43,
+            "x": 29.4,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vanderson",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 44,
+            "x": 28.7,
+            "y": 61.4,
+            "endX": 73.4,
+            "endY": 60.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 79,
@@ -4381,7 +4406,64 @@
         "x": 81.2,
         "y": 38.5,
         "arco_y": 46.8,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 3,
+            "x": 73.0,
+            "y": 21.6,
+            "endX": 45.5,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 9,
+            "x": 45.5,
+            "y": 16.2,
+            "endX": 33.6,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 9,
+            "x": 33.6,
+            "y": 11.1,
+            "endX": 45.1,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 13,
+            "x": 45.1,
+            "y": 28.0,
+            "endX": 44.6,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 13,
+            "x": 44.6,
+            "y": 23.9,
+            "endX": 78.1,
+            "endY": 20.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 30,

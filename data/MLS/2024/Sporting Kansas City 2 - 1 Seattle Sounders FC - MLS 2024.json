@@ -385,7 +385,8 @@
         "x": 75.1,
         "y": 35.2,
         "arco_y": 54.0,
-        "arco_z": 5.7
+        "arco_z": 5.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -502,7 +503,8 @@
         "x": 97.8,
         "y": 29.0,
         "arco_y": 46.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4823,7 +4825,42 @@
         "x": 84.2,
         "y": 41.5,
         "arco_y": 54.2,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Obed Vargas",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 44,
+            "x": 48.2,
+            "y": 28.9,
+            "endX": 55.3,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Paulo",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 48,
+            "x": 55.3,
+            "y": 43.9,
+            "endX": 65.9,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Paulo",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 48,
+            "x": 65.9,
+            "y": 40.1,
+            "endX": 84.0,
+            "endY": 38.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 22,

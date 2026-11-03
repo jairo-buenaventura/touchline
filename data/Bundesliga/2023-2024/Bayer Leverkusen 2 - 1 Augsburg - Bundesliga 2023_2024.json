@@ -372,7 +372,8 @@
         "x": 91.4,
         "y": 47.8,
         "arco_y": 49.8,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 15,
@@ -408,7 +409,8 @@
         "x": 94.8,
         "y": 49.3,
         "arco_y": 50.2,
-        "arco_z": 5.1
+        "arco_z": 5.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 42,
@@ -5615,7 +5617,31 @@
         "x": 84.7,
         "y": 55.5,
         "arco_y": 46.4,
-        "arco_z": 23.4
+        "arco_z": 23.4,
+        "secuencia_gol": [
+          {
+            "jugador": "Arne Maier",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 15,
+            "x": 65.8,
+            "y": 60.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Maier",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 16,
+            "x": 65.8,
+            "y": 60.8,
+            "endX": 77.4,
+            "endY": 56.8,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 78,

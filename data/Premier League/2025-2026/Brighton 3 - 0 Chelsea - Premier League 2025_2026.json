@@ -401,7 +401,8 @@
         "x": 91.2,
         "y": 41.3,
         "arco_y": 50.6,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 10,
@@ -464,7 +465,31 @@
         "x": 87.4,
         "y": 54.5,
         "arco_y": 52.3,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Georginio Rutter",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 61.4,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georginio Rutter",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 75.4,
+            "y": 43.6,
+            "endX": 87.4,
+            "endY": 54.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 61,
@@ -518,7 +543,20 @@
         "x": 91.3,
         "y": 58.7,
         "arco_y": 47.4,
-        "arco_z": 22.8
+        "arco_z": 22.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Maxim De Cuyper",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 5,
+            "x": 95.9,
+            "y": 82.0,
+            "endX": 91.3,
+            "endY": 58.7,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

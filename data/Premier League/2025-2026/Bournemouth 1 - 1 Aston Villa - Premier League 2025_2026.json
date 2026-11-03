@@ -504,7 +504,8 @@
         "x": 89.6,
         "y": 36.4,
         "arco_y": 45.8,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 58,
@@ -4459,7 +4460,31 @@
         "x": 93.6,
         "y": 33.3,
         "arco_y": 47.1,
-        "arco_z": 29.7
+        "arco_z": 29.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Jadon Sancho",
+            "tipo": "TakeOn",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 85.2,
+            "y": 21.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jadon Sancho",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 29,
+            "x": 82.8,
+            "y": 25.6,
+            "endX": 93.9,
+            "endY": 33.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 34,

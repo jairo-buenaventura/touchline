@@ -382,7 +382,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 52.9,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 36,
@@ -445,7 +446,8 @@
         "x": 78.1,
         "y": 35.0,
         "arco_y": 54.5,
-        "arco_z": 21.5
+        "arco_z": 21.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 62,
@@ -472,7 +474,8 @@
         "x": 94.6,
         "y": 44.7,
         "arco_y": 51.3,
-        "arco_z": 9.5
+        "arco_z": 9.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 70,
@@ -526,7 +529,31 @@
         "x": 89.4,
         "y": 49.4,
         "arco_y": 54.1,
-        "arco_z": 13.3
+        "arco_z": 13.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Wilfried Gnonto",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 54,
+            "x": 31.8,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wilfried Gnonto",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 72.9,
+            "y": 56.7,
+            "endX": 89.7,
+            "endY": 50.1,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 93,
@@ -4701,7 +4728,8 @@
         "x": 90.6,
         "y": 57.9,
         "arco_y": 48.7,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 11,
@@ -4746,7 +4774,20 @@
         "x": 86.2,
         "y": 55.3,
         "arco_y": 53.0,
-        "arco_z": 26.6
+        "arco_z": 26.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 49,
+            "x": 92.5,
+            "y": 73.6,
+            "endX": 85.9,
+            "endY": 54.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 27,
@@ -4764,7 +4805,64 @@
         "x": 93.2,
         "y": 52.2,
         "arco_y": 48.1,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jefferson Lerma",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 27.2,
+            "y": 74.2,
+            "endX": 34.3,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Billing",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 25,
+            "x": 34.3,
+            "y": 88.0,
+            "endX": 34.9,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Billing",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 25,
+            "x": 34.9,
+            "y": 91.1,
+            "endX": 58.0,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 58.0,
+            "y": 90.9,
+            "endX": 89.3,
+            "endY": 74.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 89.3,
+            "y": 74.0,
+            "endX": 91.5,
+            "endY": 51.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 72,

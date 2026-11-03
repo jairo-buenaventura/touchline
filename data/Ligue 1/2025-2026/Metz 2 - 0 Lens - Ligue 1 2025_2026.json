@@ -508,7 +508,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 47.3,
-        "arco_z": 24.1
+        "arco_z": 24.1,
+        "secuencia_gol": []
       },
       {
         "minuto": 90,
@@ -517,7 +518,53 @@
         "x": 98.2,
         "y": 56.6,
         "arco_y": 52.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Habib Diallo",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 44.4,
+            "y": 91.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Habib Diallo",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 62.8,
+            "y": 80.8,
+            "endX": 85.9,
+            "endY": 32.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibou Sané",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 21,
+            "x": 85.9,
+            "y": 32.3,
+            "endX": 88.4,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibou Sané",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 21,
+            "x": 88.4,
+            "y": 35.4,
+            "endX": 98.1,
+            "endY": 57.6,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

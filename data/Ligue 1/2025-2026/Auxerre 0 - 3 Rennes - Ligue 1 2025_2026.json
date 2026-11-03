@@ -4196,7 +4196,8 @@
         "x": 88.6,
         "y": 46.8,
         "arco_y": 53.2,
-        "arco_z": 27.2
+        "arco_z": 27.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 21,
@@ -4205,7 +4206,20 @@
         "x": 85.6,
         "y": 53.2,
         "arco_y": 51.0,
-        "arco_z": 28.5
+        "arco_z": 28.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Szymanski",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 31,
+            "x": 63.4,
+            "y": 28.2,
+            "endX": 83.4,
+            "endY": 53.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 37,
@@ -4241,7 +4255,31 @@
         "x": 82.7,
         "y": 46.2,
         "arco_y": 45.8,
-        "arco_z": 25.3
+        "arco_z": 25.3,
+        "secuencia_gol": [
+          {
+            "jugador": "Mousa Al Tamari",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 22,
+            "x": 66.1,
+            "y": 30.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mousa Al Tamari",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 25,
+            "x": 81.6,
+            "y": 30.7,
+            "endX": 82.7,
+            "endY": 46.2,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 68,

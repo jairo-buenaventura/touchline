@@ -395,7 +395,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.1,
-        "arco_z": 0.6
+        "arco_z": 0.6,
+        "secuencia_gol": []
       },
       {
         "minuto": 29,
@@ -422,7 +423,8 @@
         "x": 87.2,
         "y": 39.2,
         "arco_y": 48.1,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": []
       },
       {
         "minuto": 61,
@@ -476,7 +478,130 @@
         "x": 91.6,
         "y": 54.9,
         "arco_y": 52.7,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Coronel",
+            "tipo": "KeeperPickup",
+            "minuto": 89,
+            "segundo": 55,
+            "x": 3.8,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Coronel",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 56,
+            "x": 10.2,
+            "y": 54.3,
+            "endX": 27.6,
+            "endY": 48.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 4,
+            "x": 27.6,
+            "y": 48.6,
+            "endX": 52.1,
+            "endY": 53.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 4,
+            "x": 52.1,
+            "y": 53.2,
+            "endX": 46.4,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 7,
+            "x": 46.4,
+            "y": 53.1,
+            "endX": 51.5,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 7,
+            "x": 51.5,
+            "y": 55.5,
+            "endX": 70.7,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jason Pendant",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 69.8,
+            "y": 93.4,
+            "endX": 64.5,
+            "endY": 87.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 64.5,
+            "y": 87.4,
+            "endX": 67.4,
+            "endY": 81.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 67.4,
+            "y": 81.9,
+            "endX": 72.6,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 16,
+            "x": 73.3,
+            "y": 69.7,
+            "endX": 93.8,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omir Fernandez",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 18,
+            "x": 95.6,
+            "y": 67.6,
+            "endX": 91.6,
+            "endY": 54.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [
@@ -3969,7 +4094,75 @@
         "x": 94.6,
         "y": 33.8,
         "arco_y": 47.7,
-        "arco_z": 31.6
+        "arco_z": 31.6,
+        "secuencia_gol": [
+          {
+            "jugador": "Jhon Durán",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 17,
+            "x": 58.4,
+            "y": 61.7,
+            "endX": 64.1,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xherdan Shaqiri",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 18,
+            "x": 64.5,
+            "y": 64.1,
+            "endX": 87.9,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Mueller",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 25,
+            "x": 87.9,
+            "y": 34.9,
+            "endX": 85.9,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Mueller",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 25,
+            "x": 85.9,
+            "y": 30.6,
+            "endX": 88.0,
+            "endY": 36.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 26,
+            "x": 88.0,
+            "y": 36.7,
+            "endX": 90.3,
+            "endY": 40.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 26,
+            "x": 90.3,
+            "y": 40.2,
+            "endX": 94.7,
+            "endY": 34.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,
@@ -3987,7 +4180,42 @@
         "x": 98.3,
         "y": 47.0,
         "arco_y": 48.9,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "CornerAwarded",
+            "minuto": 47,
+            "segundo": 57,
+            "x": 96.4,
+            "y": 83.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xherdan Shaqiri",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 22,
+            "x": 99.6,
+            "y": 99.1,
+            "endX": 97.6,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jhon Durán",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 23,
+            "x": 96.6,
+            "y": 65.8,
+            "endX": 98.6,
+            "endY": 48.0,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 49,
@@ -4023,7 +4251,8 @@
         "x": 86.0,
         "y": 55.3,
         "arco_y": 53.6,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 89,

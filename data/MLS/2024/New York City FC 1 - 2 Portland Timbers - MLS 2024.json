@@ -394,7 +394,8 @@
         "x": 90.5,
         "y": 31.7,
         "arco_y": 54.1,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": []
       },
       {
         "minuto": 15,
@@ -4484,7 +4485,31 @@
         "x": 90.8,
         "y": 49.0,
         "arco_y": 48.2,
-        "arco_z": 27.8
+        "arco_z": 27.8,
+        "secuencia_gol": [
+          {
+            "jugador": "Juan Mosquera",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 59,
+            "x": 89.6,
+            "y": 21.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Mosquera",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 96.7,
+            "y": 25.6,
+            "endX": 90.8,
+            "endY": 49.7,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 96,
@@ -4493,7 +4518,42 @@
         "x": 73.8,
         "y": 75.9,
         "arco_y": 46.6,
-        "arco_z": 24.7
+        "arco_z": 24.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Evander",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 32,
+            "x": 61.2,
+            "y": 93.9,
+            "endX": 84.8,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 96,
+            "segundo": 38,
+            "x": 84.8,
+            "y": 71.1,
+            "endX": 86.5,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 38,
+            "x": 86.5,
+            "y": 87.7,
+            "endX": 72.1,
+            "endY": 79.9,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

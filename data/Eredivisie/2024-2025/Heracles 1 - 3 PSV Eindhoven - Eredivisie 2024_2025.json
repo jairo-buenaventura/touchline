@@ -342,7 +342,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.6,
-        "arco_z": 22.2
+        "arco_z": 22.2,
+        "secuencia_gol": []
       },
       {
         "minuto": 30,
@@ -369,7 +370,20 @@
         "x": 11.6,
         "y": 58.7,
         "arco_y": 45.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Ivan Mesík",
+            "tipo": "Tackle",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 13.7,
+            "y": 58.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ]
       },
       {
         "minuto": 56,
@@ -3827,7 +3841,20 @@
         "x": 86.1,
         "y": 41.9,
         "arco_y": 47.6,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Luuk de Jong",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 27,
+            "x": 74.0,
+            "y": 36.9,
+            "endX": 70.6,
+            "endY": 15.3,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 73,
@@ -3881,7 +3908,75 @@
         "x": 92.1,
         "y": 65.2,
         "arco_y": 53.1,
-        "arco_z": 34.2
+        "arco_z": 34.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Teze",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 27,
+            "x": 12.2,
+            "y": 0.0,
+            "endX": 6.0,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Flamingo",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 28,
+            "x": 5.9,
+            "y": 10.3,
+            "endX": 47.5,
+            "endY": 10.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luuk de Jong",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 30,
+            "x": 47.5,
+            "y": 10.7,
+            "endX": 49.2,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luuk de Jong",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 30,
+            "x": 49.2,
+            "y": 19.2,
+            "endX": 57.1,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guus Til",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 34,
+            "x": 57.1,
+            "y": 34.6,
+            "endX": 70.9,
+            "endY": 45.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guus Til",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 34,
+            "x": 70.9,
+            "y": 45.1,
+            "endX": 75.3,
+            "endY": 64.5,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 95,

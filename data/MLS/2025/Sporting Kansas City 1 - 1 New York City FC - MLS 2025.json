@@ -467,7 +467,8 @@
         "x": 88.4,
         "y": 42.7,
         "arco_y": 48.4,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       }
     ],
     "corners": [
@@ -4007,7 +4008,53 @@
         "x": 80.7,
         "y": 45.8,
         "arco_y": 53.7,
-        "arco_z": 2.5
+        "arco_z": 2.5,
+        "secuencia_gol": [
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 29.1,
+            "y": 28.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 6,
+            "x": 32.0,
+            "y": 34.4,
+            "endX": 53.9,
+            "endY": 30.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 8,
+            "x": 53.9,
+            "y": 30.8,
+            "endX": 57.1,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 8,
+            "x": 57.1,
+            "y": 30.3,
+            "endX": 72.1,
+            "endY": 49.9,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 47,

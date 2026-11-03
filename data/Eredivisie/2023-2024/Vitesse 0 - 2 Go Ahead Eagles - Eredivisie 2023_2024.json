@@ -4702,7 +4702,8 @@
         "x": 96.3,
         "y": 34.2,
         "arco_y": 48.4,
-        "arco_z": 1.3
+        "arco_z": 1.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 39,
@@ -4810,7 +4811,31 @@
         "x": 86.8,
         "y": 56.1,
         "arco_y": 47.1,
-        "arco_z": 12.7
+        "arco_z": 12.7,
+        "secuencia_gol": [
+          {
+            "jugador": "Thibo Baeten",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 20,
+            "x": 55.8,
+            "y": 39.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thibo Baeten",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 22,
+            "x": 61.8,
+            "y": 40.7,
+            "endX": 72.7,
+            "endY": 57.5,
+            "exitoso": true
+          }
+        ]
       }
     ],
     "corners": [

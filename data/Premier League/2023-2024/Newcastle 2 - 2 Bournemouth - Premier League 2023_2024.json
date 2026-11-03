@@ -458,7 +458,8 @@
         "x": 88.5,
         "y": 50.0,
         "arco_y": 46.4,
-        "arco_z": 1.9
+        "arco_z": 1.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 60,
@@ -503,7 +504,8 @@
         "x": 98.3,
         "y": 49.0,
         "arco_y": 48.0,
-        "arco_z": 20.3
+        "arco_z": 20.3,
+        "secuencia_gol": []
       },
       {
         "minuto": 92,
@@ -4726,7 +4728,8 @@
         "x": 96.7,
         "y": 48.5,
         "arco_y": 50.8,
-        "arco_z": 8.9
+        "arco_z": 8.9,
+        "secuencia_gol": []
       },
       {
         "minuto": 59,
@@ -4753,7 +4756,75 @@
         "x": 83.6,
         "y": 32.9,
         "arco_y": 51.3,
-        "arco_z": 3.2
+        "arco_z": 3.2,
+        "secuencia_gol": [
+          {
+            "jugador": "Lewis Cook",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 0,
+            "x": 30.3,
+            "y": 92.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Cook",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 0,
+            "x": 30.3,
+            "y": 92.4,
+            "endX": 32.0,
+            "endY": 79.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Senesi",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 32.0,
+            "y": 79.2,
+            "endX": 32.1,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Senesi",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 32.1,
+            "y": 71.4,
+            "endX": 54.1,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominic Solanke",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 5,
+            "x": 54.1,
+            "y": 56.6,
+            "endX": 49.6,
+            "endY": 47.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominic Solanke",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 5,
+            "x": 49.6,
+            "y": 47.7,
+            "endX": 67.7,
+            "endY": 26.6,
+            "exitoso": true
+          }
+        ]
       },
       {
         "minuto": 80,
