@@ -3620,13 +3620,18 @@
       // modal nunca se queda sin mostrar nada, siempre se ve donde y quien
       // remato.
       const [xg, yg] = aCancha(tiro.x, 100 - tiro.y);
-      if (consolidada.length === 0) {
-        const nombreCorto = apellido(g.jugador);
-        const etiquetaArriba = yg > 40;
-        html += `<text x="${xg.toFixed(1)}" y="${(etiquetaArriba ? yg - 18 : yg + 25).toFixed(1)}" fill="#555" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
-      }
+      // El nombre del goleador va siempre en dorado junto al punto del gol
+      // -- el ultimo punto de la secuencia (si la hay) es de quien dio el
+      // PASE final, no de quien remato, asi que el nombre del que anota no
+      // sale en ningun otro lado del grafico salvo el titulo del modal.
+      // "GOL" siempre arriba de la estrella y el nombre del goleador
+      // siempre abajo -- nunca compiten por el mismo lado, asi no se
+      // amontonan con la etiqueta del ultimo punto de la secuencia (que
+      // suele caer muy cerca del remate, ej. el pase final del asistente).
+      const nombreGoleador = apellido(g.jugador);
       html += `<path transform="translate(${xg.toFixed(1)},${yg.toFixed(1)})" d="M0,-8 L2.3,-2.5 L8,-2.5 L3.5,1.2 L5.2,7.5 L0,4 L-5.2,7.5 L-3.5,1.2 L-8,-2.5 L-2.3,-2.5 Z" fill="#ffc400" stroke="#1a1a1a" stroke-width="0.6"/>`;
       html += `<text x="${xg.toFixed(1)}" y="${(yg - 13).toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
+      html += `<text x="${xg.toFixed(1)}" y="${(yg + 17).toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${nombreGoleador}</text>`;
 
       svg.innerHTML = `<defs><marker id="flecha-secuencia-gol" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">` +
         `<path d="M0,0 L10,5 L0,10 Z" fill="#e53935"/></marker></defs>` + html;
