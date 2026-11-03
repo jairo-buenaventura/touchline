@@ -3543,19 +3543,18 @@
 
       titulo.textContent = `${g.jugador} — gol, ${g.minuto}'`;
 
-      if (!secuencia || secuencia.length === 0) {
-        subtitulo.textContent = nombreEquipo;
-        svg.innerHTML = `<rect x="0" y="0" width="380" height="520" fill="#1a1a1a"/>` +
-          `<text x="190" y="260" fill="#999" font-size="13" text-anchor="middle" font-family="sans-serif">No hay datos de la jugada previa a este gol.</text>`;
-        document.getElementById('modal-secuencia-fondo').classList.add('activo');
-        return;
+      // Sin secuencia (penal cobrado, o rebote/rechace que no se pudo
+      // reconstruir): igual se muestra el punto del remate que termino en
+      // gol -- nunca se deja el modal sin nada que dibujar.
+      if (secuencia && secuencia.length > 0) {
+        const pases = secuencia.filter(s => s.tipo === 'Pass').length;
+        const inicio = secuencia[0], fin = secuencia[secuencia.length - 1];
+        const segundosTotales = (fin.minuto * 60 + fin.segundo) - (inicio.minuto * 60 + inicio.segundo);
+        const jugadoresUnicos = new Set(secuencia.map(s => s.jugador)).size;
+        subtitulo.textContent = `${nombreEquipo} · ${segundosTotales}s · ${pases} pase${pases === 1 ? '' : 's'} · ${jugadoresUnicos} jugador${jugadoresUnicos === 1 ? '' : 'es'}`;
+      } else {
+        subtitulo.textContent = `${nombreEquipo} · sin jugada previa registrada`;
       }
-
-      const pases = secuencia.filter(s => s.tipo === 'Pass').length;
-      const inicio = secuencia[0], fin = secuencia[secuencia.length - 1];
-      const segundosTotales = (fin.minuto * 60 + fin.segundo) - (inicio.minuto * 60 + inicio.segundo);
-      const jugadoresUnicos = new Set(secuencia.map(s => s.jugador)).size;
-      subtitulo.textContent = `${nombreEquipo} · ${segundosTotales}s · ${pases} pase${pases === 1 ? '' : 's'} · ${jugadoresUnicos} jugador${jugadoresUnicos === 1 ? '' : 'es'}`;
 
       let html = `<rect x="0" y="0" width="380" height="520" fill="#1a1a1a"/>`;
       // dibujarLineasCancha() devuelve class="linea-cancha", pero esa clase
@@ -3601,8 +3600,17 @@
         html += `<text x="${x1.toFixed(1)}" y="${(etiquetaArriba ? y1 - 13 : y1 + 20).toFixed(1)}" fill="#ddd" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
       });
 
-      // Punto final: desde donde salio el tiro que termino en gol.
+      // Punto final: desde donde salio el tiro que termino en gol. Si no
+      // hay secuencia previa (penal, o rebote/rechace que no se pudo
+      // reconstruir), este punto queda solo en el grafico -- pero el
+      // modal nunca se queda sin mostrar nada, siempre se ve donde y quien
+      // remato.
       const [xg, yg] = aCancha(tiro.x, tiro.y);
+      if (consolidada.length === 0) {
+        const nombreCorto = apellido(g.jugador);
+        const etiquetaArriba = yg > 40;
+        html += `<text x="${xg.toFixed(1)}" y="${(etiquetaArriba ? yg - 18 : yg + 25).toFixed(1)}" fill="#ddd" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
+      }
       html += `<path transform="translate(${xg.toFixed(1)},${yg.toFixed(1)})" d="M0,-8 L2.3,-2.5 L8,-2.5 L3.5,1.2 L5.2,7.5 L0,4 L-5.2,7.5 L-3.5,1.2 L-8,-2.5 L-2.3,-2.5 Z" fill="#ffd54a" stroke="#1a1a1a" stroke-width="0.6"/>`;
       html += `<text x="${xg.toFixed(1)}" y="${(yg - 13).toFixed(1)}" fill="#ffd54a" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
 
