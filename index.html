@@ -3592,10 +3592,16 @@
         }
       });
 
+      // Misma convencion que el resto de las vistas de cancha (Shots map,
+      // Action map, Pass receiving, Corners): la Y de WhoScored se espeja
+      // con 100 - y para que la posicion quede correcta de izquierda a
+      // derecha -- sin esto, la jugada sale reflejada al reves en el eje
+      // horizontal (visible en secuencias largas con cambios de lado, ej.
+      // Ferran Torres vs Argentina, Mundial 2026).
       consolidada.forEach((seg, i) => {
-        const [x1, y1] = aCancha(seg.x, seg.y);
+        const [x1, y1] = aCancha(seg.x, 100 - seg.y);
         if (seg.endX != null && seg.endY != null) {
-          const [x2, y2] = aCancha(seg.endX, seg.endY);
+          const [x2, y2] = aCancha(seg.endX, 100 - seg.endY);
           const esConduccion = seg.tipo === 'Carry';
           html += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" ` +
             `stroke="#e53935" stroke-width="2" marker-end="url(#flecha-secuencia-gol)" ` +
@@ -3613,7 +3619,7 @@
       // reconstruir), este punto queda solo en el grafico -- pero el
       // modal nunca se queda sin mostrar nada, siempre se ve donde y quien
       // remato.
-      const [xg, yg] = aCancha(tiro.x, tiro.y);
+      const [xg, yg] = aCancha(tiro.x, 100 - tiro.y);
       if (consolidada.length === 0) {
         const nombreCorto = apellido(g.jugador);
         const etiquetaArriba = yg > 40;
