@@ -464,6 +464,39 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Diogo Leite",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 2,
+            "x": 39.9,
+            "y": 70.6,
+            "endX": 45.4,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aljoscha Kemlein",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 4,
+            "x": 46.8,
+            "y": 67.2,
+            "endX": 47.4,
+            "endY": 68.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tom Rothe",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 8,
+            "x": 47.4,
+            "y": 68.1,
+            "endX": 52.6,
+            "endY": 97.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Tom Rothe",
             "tipo": "Pass",
             "minuto": 41,
@@ -518,7 +551,12 @@
             "endY": 65.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Yannik Keitel",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -633,7 +671,68 @@
         "y": 51.1,
         "arco_y": 49.0,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 2,
+            "x": 15.5,
+            "y": 26.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 48.4,
+            "y": 6.6,
+            "endX": 77.6,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Skarke",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 12,
+            "x": 79.3,
+            "y": 56.5,
+            "endX": 92.3,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dmytro Bogdanov",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 92.3,
+            "y": 69.6,
+            "endX": 91.2,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dmytro Bogdanov",
+            "tipo": "SavedShot",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 91.2,
+            "y": 66.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Noahkai Banks",
+          "portero": true
+        }
       },
       {
         "minuto": 92,

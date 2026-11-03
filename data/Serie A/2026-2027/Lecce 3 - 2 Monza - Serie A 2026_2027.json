@@ -368,7 +368,24 @@
         "y": 55.5,
         "arco_y": 54.2,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Aerial",
+            "minuto": 2,
+            "segundo": 49,
+            "x": 93.5,
+            "y": 55.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Samuele Birindelli",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -378,7 +395,24 @@
         "y": 50.9,
         "arco_y": 51.6,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tiago Gabriel",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 58,
+            "x": 93.6,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eddy Kouadio",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -399,6 +433,39 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Nikola Stulic",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 51,
+            "x": 89.6,
+            "y": 42.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Konan N’Dri",
+            "tipo": "BallTouch",
+            "minuto": 20,
+            "segundo": 53,
+            "x": 88.0,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Veiga",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 55,
+            "x": 83.8,
+            "y": 13.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Danilo Veiga",
             "tipo": "Pass",
             "minuto": 20,
@@ -409,7 +476,12 @@
             "endY": 43.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jay Robinson",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

@@ -390,6 +390,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Théo Le Bris",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 38,
+            "x": 73.9,
+            "y": 74.4,
+            "endX": 67.2,
+            "endY": 66.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Faivre",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 40,
+            "x": 67.2,
+            "y": 66.6,
+            "endX": 73.3,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Romain Faivre",
             "tipo": "TakeOn",
             "minuto": 9,
@@ -477,7 +499,12 @@
             "endY": 30.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Frédéric Guilbert",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

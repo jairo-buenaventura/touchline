@@ -624,6 +624,39 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Tochukwu Nnadi",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 80.6,
+            "y": 24.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tochukwu Nnadi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 59,
+            "x": 80.3,
+            "y": 24.1,
+            "endX": 89.6,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Gouiri",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 0,
+            "x": 89.6,
+            "y": 32.4,
+            "endX": 89.4,
+            "endY": 36.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Amine Gouiri",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -645,7 +678,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Koffi Kouao",
+          "portero": false
+        }
       }
     ],
     "corners": [

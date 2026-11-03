@@ -5487,6 +5487,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Cole Bassett",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 51,
+            "x": 67.8,
+            "y": 62.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 67.8,
+            "y": 62.1,
+            "endX": 81.7,
+            "endY": 48.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Calvin Harris",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 56,
+            "x": 81.7,
+            "y": 48.2,
+            "endX": 85.6,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Calvin Harris",
             "tipo": "Pass",
             "minuto": 85,
@@ -5497,7 +5530,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kevin O'Toole",
+          "portero": false
+        }
       }
     ],
     "corners": [

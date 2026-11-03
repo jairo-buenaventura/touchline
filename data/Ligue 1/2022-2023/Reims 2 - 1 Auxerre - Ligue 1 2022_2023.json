@@ -619,7 +619,24 @@
         "y": 42.9,
         "arco_y": 46.2,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mitchell van Bergen",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 6,
+            "x": 89.0,
+            "y": 78.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Benoît Costil",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4826,6 +4843,94 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Paul Joly",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 9,
+            "x": 25.4,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Joly",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 14,
+            "x": 39.5,
+            "y": 58.7,
+            "endX": 44.5,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 20,
+            "x": 44.5,
+            "y": 35.1,
+            "endX": 59.1,
+            "endY": 31.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 20,
+            "x": 59.1,
+            "y": 31.1,
+            "endX": 69.0,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamza Sakhi",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 23,
+            "x": 69.9,
+            "y": 13.3,
+            "endX": 90.4,
+            "endY": 24.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 26,
+            "x": 90.4,
+            "y": 24.9,
+            "endX": 92.5,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 26,
+            "x": 92.5,
+            "y": 22.3,
+            "endX": 90.4,
+            "endY": 29.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hamza Sakhi",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 29,
+            "x": 90.4,
+            "y": 29.8,
+            "endX": 77.1,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Hamza Sakhi",
             "tipo": "Pass",
             "minuto": 32,
@@ -4836,7 +4941,12 @@
             "endY": 55.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dion Lopy",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

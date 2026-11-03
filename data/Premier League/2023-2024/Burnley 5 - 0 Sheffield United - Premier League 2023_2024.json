@@ -621,6 +621,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Charlie Taylor",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 10,
+            "x": 70.9,
+            "y": 68.1,
+            "endX": 79.9,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Beyer",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 13,
+            "x": 79.9,
+            "y": 71.4,
+            "endX": 77.9,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Beyer",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 13,
+            "x": 77.9,
+            "y": 75.8,
+            "endX": 78.9,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeki Amdouni",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 15,
+            "x": 78.9,
+            "y": 62.5,
+            "endX": 85.0,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Zeki Amdouni",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -631,7 +675,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Anel Ahmedhodzic",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -661,6 +710,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Vitinho",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 58,
+            "x": 64.2,
+            "y": 26.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinho",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 2,
+            "x": 65.6,
+            "y": 27.1,
+            "endX": 81.6,
+            "endY": 37.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeki Amdouni",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 4,
+            "x": 82.3,
+            "y": 36.5,
+            "endX": 84.2,
+            "endY": 39.4,
+            "exitoso": false
+          },
+          {
             "jugador": "Zeki Amdouni",
             "tipo": "Pass",
             "minuto": 74,
@@ -671,7 +753,12 @@
             "endY": 60.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Anel Ahmedhodzic",
+          "portero": false
+        }
       },
       {
         "minuto": 77,
@@ -690,7 +777,68 @@
         "y": 55.9,
         "arco_y": 46.2,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Michael Obafemi",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 31,
+            "x": 70.7,
+            "y": 38.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Obafemi",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 32,
+            "x": 70.7,
+            "y": 38.3,
+            "endX": 72.2,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Trésor",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 72.2,
+            "y": 65.6,
+            "endX": 81.9,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Trésor",
+            "tipo": "BallTouch",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 81.9,
+            "y": 56.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Obafemi",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 37,
+            "x": 90.1,
+            "y": 55.7,
+            "endX": 88.6,
+            "endY": 50.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jayden Bogle",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

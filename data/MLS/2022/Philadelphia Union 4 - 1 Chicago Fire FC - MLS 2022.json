@@ -389,6 +389,83 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Jack McGlynn",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 58,
+            "x": 26.2,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 59,
+            "x": 27.5,
+            "y": 45.5,
+            "endX": 29.1,
+            "endY": 26.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Bedoya",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 0,
+            "x": 29.5,
+            "y": 26.5,
+            "endX": 53.1,
+            "endY": 21.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikael Uhre",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 4,
+            "x": 53.1,
+            "y": 21.3,
+            "endX": 47.3,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikael Uhre",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 4,
+            "x": 47.3,
+            "y": 20.9,
+            "endX": 69.1,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 8,
+            "x": 70.3,
+            "y": 74.7,
+            "endX": 86.5,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 10,
+            "x": 86.5,
+            "y": 39.4,
+            "endX": 85.1,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Dániel Gazdag",
             "tipo": "TakeOn",
             "minuto": 15,
@@ -399,7 +476,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Federico Navarro",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -464,7 +546,24 @@
         "y": 48.0,
         "arco_y": 51.0,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mikael Uhre",
+            "tipo": "SavedShot",
+            "minuto": 52,
+            "segundo": 40,
+            "x": 82.9,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gabriel Slonina",
+          "portero": true
+        }
       },
       {
         "minuto": 60,

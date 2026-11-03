@@ -4663,6 +4663,50 @@
         "secuencia_gol": [
           {
             "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 10,
+            "x": 36.0,
+            "y": 54.3,
+            "endX": 43.4,
+            "endY": 42.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 11,
+            "x": 43.4,
+            "y": 42.9,
+            "endX": 42.0,
+            "endY": 45.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 11,
+            "x": 42.0,
+            "y": 45.9,
+            "endX": 46.2,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 13,
+            "x": 46.2,
+            "y": 50.5,
+            "endX": 52.1,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
             "tipo": "TakeOn",
             "minuto": 52,
             "segundo": 13,
@@ -4694,7 +4738,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Quentin Merlin",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4704,7 +4753,57 @@
         "y": 49.6,
         "arco_y": 52.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 43,
+            "x": 20.6,
+            "y": 30.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 47,
+            "x": 45.7,
+            "y": 18.3,
+            "endX": 55.9,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Asensio",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 50,
+            "x": 55.9,
+            "y": 26.8,
+            "endX": 65.3,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Asensio",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 50,
+            "x": 65.3,
+            "y": 27.1,
+            "endX": 71.4,
+            "endY": 41.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Amine Harit",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -541,7 +541,24 @@
         "y": 54.2,
         "arco_y": 53.6,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 55,
+            "x": 92.8,
+            "y": 59.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Adam Marusic",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -5095,6 +5112,83 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Ivan Provedel",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 54,
+            "x": 3.8,
+            "y": 43.0,
+            "endX": 9.7,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patric",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 55,
+            "x": 9.7,
+            "y": 8.6,
+            "endX": 7.4,
+            "endY": 4.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patric",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 55,
+            "x": 7.4,
+            "y": 4.7,
+            "endX": 46.6,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 0,
+            "x": 46.6,
+            "y": 5.8,
+            "endX": 44.0,
+            "endY": 9.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 0,
+            "x": 44.0,
+            "y": 9.6,
+            "endX": 45.0,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 1,
+            "x": 45.0,
+            "y": 25.4,
+            "endX": 60.0,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "TakeOn",
+            "minuto": 31,
+            "segundo": 1,
+            "x": 60.0,
+            "y": 28.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Marusic",
             "tipo": "Pass",
             "minuto": 31,
@@ -5369,7 +5463,12 @@
             "endY": 40.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hakan Çalhanoglu",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

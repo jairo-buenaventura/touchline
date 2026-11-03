@@ -749,7 +749,24 @@
         "y": 52.0,
         "arco_y": 50.7,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 37,
+            "x": 93.4,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Gernot Trauner",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -5000,6 +5017,72 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Sebastian Szymanski",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 11,
+            "x": 67.0,
+            "y": 86.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Szymanski",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 15,
+            "x": 74.8,
+            "y": 90.3,
+            "endX": 93.6,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinten Timber",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 22,
+            "x": 93.6,
+            "y": 81.2,
+            "endX": 87.5,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinten Timber",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 22,
+            "x": 87.5,
+            "y": 77.3,
+            "endX": 73.8,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos López",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 23,
+            "x": 73.8,
+            "y": 84.8,
+            "endX": 71.3,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Orkun Kökçü",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 26,
+            "x": 71.3,
+            "y": 60.5,
+            "endX": 73.0,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Orkun Kökçü",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -5010,7 +5093,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Guus Til",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

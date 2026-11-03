@@ -4746,6 +4746,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Nicola Leali",
+            "tipo": "KeeperPickup",
+            "minuto": 66,
+            "segundo": 39,
+            "x": 9.9,
+            "y": 39.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicola Leali",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 49,
+            "x": 9.7,
+            "y": 32.7,
+            "endX": 16.2,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefano Sabelli",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 52,
+            "x": 16.5,
+            "y": 10.3,
+            "endX": 39.0,
+            "endY": 19.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Morten Thorsby",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 0,
+            "x": 39.0,
+            "y": 19.9,
+            "endX": 74.6,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Morten Thorsby",
             "tipo": "Pass",
             "minuto": 67,
@@ -4778,7 +4822,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alberto Grassi",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

@@ -4081,6 +4081,17 @@
         "secuencia_gol": [
           {
             "jugador": "Luca Bombino",
+            "tipo": "Aerial",
+            "minuto": 74,
+            "segundo": 42,
+            "x": 72.2,
+            "y": 87.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luca Bombino",
             "tipo": "Pass",
             "minuto": 74,
             "segundo": 43,
@@ -4156,7 +4167,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Robin Lod",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -4187,6 +4203,17 @@
         "secuencia_gol": [
           {
             "jugador": "Milan Iloski",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 27.3,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
             "tipo": "TakeOn",
             "minuto": 91,
             "segundo": 43,
@@ -4196,7 +4223,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jeong Ho-Yeon",
+          "portero": false
+        }
       }
     ],
     "corners": [

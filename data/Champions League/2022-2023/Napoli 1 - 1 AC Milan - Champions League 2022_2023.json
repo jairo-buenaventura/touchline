@@ -551,7 +551,24 @@
         "y": 53.0,
         "arco_y": 46.3,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Victor Osimhen",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 31,
+            "x": 90.8,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Junior Messias",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5446,6 +5463,39 @@
         "secuencia_gol": [
           {
             "jugador": "Rafael Leão",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 31,
+            "x": 29.7,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 36,
+            "x": 62.2,
+            "y": 77.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 40,
+            "x": 90.1,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
             "tipo": "Pass",
             "minuto": 42,
             "segundo": 41,
@@ -5455,7 +5505,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Amir Rrahmani",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

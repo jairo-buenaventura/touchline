@@ -462,6 +462,17 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Iván Angulo",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 37,
+            "x": 87.3,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Mauricio Pereyra",
             "tipo": "Pass",
             "minuto": 55,
@@ -472,7 +483,12 @@
             "endY": 39.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Connor Ronan",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -511,6 +527,50 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Rafael Santos",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 45,
+            "x": 21.0,
+            "y": 70.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Santos",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 45,
+            "x": 19.9,
+            "y": 70.3,
+            "endX": 7.0,
+            "endY": 60.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Gallese",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 46,
+            "x": 7.5,
+            "y": 61.0,
+            "endX": 38.3,
+            "endY": 77.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "César Araújo",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 2,
+            "x": 38.3,
+            "y": 77.7,
+            "endX": 77.6,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
             "jugador": "César Araújo",
             "tipo": "Pass",
             "minuto": 82,
@@ -543,7 +603,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ralph Priso",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

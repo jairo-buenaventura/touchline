@@ -439,7 +439,46 @@
         "y": 48.8,
         "arco_y": 48.0,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 12,
+            "x": 90.5,
+            "y": 11.6,
+            "endX": 95.8,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Harris",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 14,
+            "x": 95.8,
+            "y": 54.0,
+            "endX": 94.6,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Harris",
+            "tipo": "SavedShot",
+            "minuto": 27,
+            "segundo": 14,
+            "x": 94.6,
+            "y": 50.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonathan Sirois",
+          "portero": true
+        }
       },
       {
         "minuto": 44,
@@ -451,6 +490,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Lalas Abubakar",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 40,
+            "x": 40.2,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lalas Abubakar",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 41,
+            "x": 40.2,
+            "y": 32.7,
+            "endX": 55.5,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 42,
+            "x": 55.7,
+            "y": 52.1,
+            "endX": 65.7,
+            "endY": 41.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 44,
+            "x": 68.1,
+            "y": 41.3,
+            "endX": 65.7,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 46,
+            "x": 65.7,
+            "y": 47.2,
+            "endX": 71.9,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Djordje Mihailovic",
             "tipo": "Pass",
             "minuto": 44,
@@ -461,7 +555,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Bryce Duke",
+          "portero": false
+        }
       },
       {
         "minuto": 52,

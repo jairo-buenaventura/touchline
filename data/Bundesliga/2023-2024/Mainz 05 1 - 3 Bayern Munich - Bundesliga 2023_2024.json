@@ -4334,6 +4334,17 @@
         "secuencia_gol": [
           {
             "jugador": "Konrad Laimer",
+            "tipo": "Aerial",
+            "minuto": 15,
+            "segundo": 44,
+            "x": 91.4,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Konrad Laimer",
             "tipo": "BallTouch",
             "minuto": 15,
             "segundo": 44,
@@ -4354,7 +4365,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sepp van den Berg",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

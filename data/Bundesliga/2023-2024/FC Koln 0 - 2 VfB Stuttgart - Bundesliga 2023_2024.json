@@ -4417,6 +4417,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Angelo Stiller",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 8,
+            "x": 65.4,
+            "y": 58.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angelo Stiller",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 9,
+            "x": 65.4,
+            "y": 58.3,
+            "endX": 80.6,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Führich",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 10,
+            "x": 80.6,
+            "y": 75.1,
+            "endX": 91.3,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Chris Führich",
             "tipo": "TakeOn",
             "minuto": 67,
@@ -4438,7 +4471,12 @@
             "endY": 63.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Timo Hübers",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

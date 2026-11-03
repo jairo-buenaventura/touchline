@@ -455,6 +455,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ben Bender",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 12,
+            "x": 91.5,
+            "y": 39.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Bender",
             "tipo": "Pass",
             "minuto": 44,
             "segundo": 12,
@@ -464,7 +475,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Miguel Navarro",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4899,7 +4915,57 @@
         "y": 63.8,
         "arco_y": 53.8,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jairo Torres",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 25,
+            "x": 73.9,
+            "y": 67.6,
+            "endX": 65.7,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 28,
+            "x": 66.8,
+            "y": 73.9,
+            "endX": 61.4,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Giménez",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 31,
+            "x": 61.4,
+            "y": 59.9,
+            "endX": 73.4,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Giménez",
+            "tipo": "SavedShot",
+            "minuto": 20,
+            "segundo": 31,
+            "x": 73.4,
+            "y": 64.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kristijan Kahlina",
+          "portero": true
+        }
       },
       {
         "minuto": 22,

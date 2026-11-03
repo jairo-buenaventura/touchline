@@ -437,6 +437,61 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Exequiel Palacios",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 35,
+            "x": 46.9,
+            "y": 21.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Exequiel Palacios",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 35,
+            "x": 46.9,
+            "y": 21.8,
+            "endX": 59.0,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Maza",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 59.8,
+            "y": 20.7,
+            "endX": 70.2,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrik Schick",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 40,
+            "x": 70.2,
+            "y": 37.3,
+            "endX": 87.2,
+            "endY": 54.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrik Schick",
+            "tipo": "SavedShot",
+            "minuto": 13,
+            "segundo": 40,
+            "x": 87.2,
+            "y": 54.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Vázquez",
             "tipo": "Pass",
             "minuto": 13,
@@ -447,7 +502,12 @@
             "endY": 57.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nikola Vasilj",
+          "portero": true
+        }
       },
       {
         "minuto": 30,
@@ -466,7 +526,24 @@
         "y": 45.3,
         "arco_y": 54.2,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 40,
+            "x": 96.8,
+            "y": 45.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Arkadiusz Pyrka",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -504,6 +581,17 @@
         "arco_y": 46.0,
         "arco_z": 16.5,
         "secuencia_gol": [
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 35,
+            "x": 90.6,
+            "y": 41.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Ernest Poku",
             "tipo": "Pass",
@@ -570,7 +658,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mathias Rasmussen",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

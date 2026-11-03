@@ -3688,6 +3688,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Amine Gouiri",
+            "tipo": "Clearance",
+            "minuto": 41,
+            "segundo": 53,
+            "x": 3.9,
+            "y": 45.9,
+            "endX": 11.0,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steve Mandanda",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 9,
+            "x": 11.0,
+            "y": 37.4,
+            "endX": 5.3,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Steve Mandanda",
             "tipo": "Pass",
             "minuto": 42,
@@ -3907,7 +3929,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Batista Mendy",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

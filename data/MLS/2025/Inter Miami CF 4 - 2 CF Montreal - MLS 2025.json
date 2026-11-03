@@ -418,6 +418,39 @@
         "secuencia_gol": [
           {
             "jugador": "Sergio Busquets",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 57,
+            "x": 60.4,
+            "y": 30.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 0,
+            "x": 62.4,
+            "y": 36.0,
+            "endX": 65.1,
+            "endY": 35.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 2,
+            "x": 65.1,
+            "y": 35.0,
+            "endX": 71.2,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
             "tipo": "Pass",
             "minuto": 26,
             "segundo": 2,
@@ -427,7 +460,12 @@
             "endY": 33.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Nathan Saliba",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

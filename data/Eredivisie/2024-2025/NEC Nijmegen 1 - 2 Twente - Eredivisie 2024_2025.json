@@ -4512,6 +4512,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sayfallah Ltaief",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 16,
+            "x": 43.4,
+            "y": 86.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sayfallah Ltaief",
             "tipo": "TakeOn",
             "minuto": 7,
             "segundo": 17,
@@ -4532,7 +4543,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bart van Rooij",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

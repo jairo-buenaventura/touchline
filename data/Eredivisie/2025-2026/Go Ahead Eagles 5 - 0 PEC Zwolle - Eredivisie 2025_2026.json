@@ -378,7 +378,24 @@
         "y": 48.4,
         "arco_y": 48.1,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stefán Sigurdarson",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 93.1,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sherel Floranus",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -391,6 +408,17 @@
         "secuencia_gol": [
           {
             "jugador": "Søren Tengstedt",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 35,
+            "x": 27.2,
+            "y": 3.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Søren Tengstedt",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 35,
@@ -400,7 +428,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sherel Floranus",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -605,6 +638,94 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Stefán Sigurdarson",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 59,
+            "x": 33.0,
+            "y": 71.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefán Sigurdarson",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 34.5,
+            "y": 77.4,
+            "endX": 28.9,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 3,
+            "x": 28.9,
+            "y": 89.0,
+            "endX": 37.5,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 37.5,
+            "y": 94.1,
+            "endX": 37.7,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 37.7,
+            "y": 90.2,
+            "endX": 43.8,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 12,
+            "x": 43.8,
+            "y": 93.2,
+            "endX": 39.6,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 12,
+            "x": 39.6,
+            "y": 90.3,
+            "endX": 32.6,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 16,
+            "x": 34.4,
+            "y": 93.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jakob Breum",
             "tipo": "Pass",
             "minuto": 55,
@@ -615,7 +736,12 @@
             "endY": 74.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Younes Namli",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

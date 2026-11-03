@@ -4183,6 +4183,83 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Bernardo Silva",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 6,
+            "x": 30.3,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 13,
+            "x": 44.6,
+            "y": 57.6,
+            "endX": 67.2,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 17,
+            "x": 67.2,
+            "y": 24.2,
+            "endX": 75.8,
+            "endY": 29.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 17,
+            "x": 75.8,
+            "y": 29.0,
+            "endX": 90.4,
+            "endY": 24.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 90.4,
+            "y": 24.8,
+            "endX": 89.0,
+            "endY": 27.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 89.0,
+            "y": 27.7,
+            "endX": 86.3,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 21,
+            "x": 86.3,
+            "y": 41.6,
+            "endX": 85.6,
+            "endY": 44.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Phil Foden",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -4193,7 +4270,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nemanja Gudelj",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -4221,7 +4303,101 @@
         "y": 46.2,
         "arco_y": 47.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Clearance",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 19.6,
+            "y": 27.8,
+            "endX": 21.1,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 21.1,
+            "y": 22.3,
+            "endX": 16.1,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 16.1,
+            "y": 0.0,
+            "endX": 35.4,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 23,
+            "x": 35.2,
+            "y": 4.6,
+            "endX": 42.7,
+            "endY": 26.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 29,
+            "x": 42.7,
+            "y": 26.6,
+            "endX": 68.1,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 29,
+            "x": 68.1,
+            "y": 51.0,
+            "endX": 72.5,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 33,
+            "x": 72.5,
+            "y": 62.3,
+            "endX": 84.2,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "SavedShot",
+            "minuto": 66,
+            "segundo": 33,
+            "x": 84.2,
+            "y": 62.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yassine Bounou",
+          "portero": true
+        }
       },
       {
         "minuto": 71,

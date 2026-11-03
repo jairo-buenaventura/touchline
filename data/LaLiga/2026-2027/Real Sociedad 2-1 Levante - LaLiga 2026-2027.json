@@ -382,7 +382,156 @@
         "y": 51.7,
         "arco_y": 46.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jon Martín",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 32,
+            "x": 33.3,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 38,
+            "x": 33.8,
+            "y": 26.5,
+            "endX": 33.0,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sarr",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 40,
+            "x": 33.0,
+            "y": 50.1,
+            "endX": 33.6,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sarr",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 40,
+            "x": 33.6,
+            "y": 54.3,
+            "endX": 34.4,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Gómez",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 47,
+            "x": 33.9,
+            "y": 73.8,
+            "endX": 37.1,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 37.1,
+            "y": 90.0,
+            "endX": 34.4,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 34.4,
+            "y": 80.6,
+            "endX": 27.6,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 55,
+            "x": 27.6,
+            "y": 44.8,
+            "endX": 32.3,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gorrotxategi",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 2,
+            "x": 32.3,
+            "y": 62.6,
+            "endX": 36.0,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gorrotxategi",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 2,
+            "x": 36.0,
+            "y": 57.3,
+            "endX": 42.0,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 5,
+            "x": 42.1,
+            "y": 34.8,
+            "endX": 87.8,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Fort",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 8,
+            "x": 88.1,
+            "y": 14.0,
+            "endX": 92.0,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Orri Óskarsson",
+            "tipo": "SavedShot",
+            "minuto": 5,
+            "segundo": 9,
+            "x": 92.0,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nacho Pérez",
+          "portero": true
+        }
       },
       {
         "minuto": 23,
@@ -5029,6 +5178,50 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Jon Ander Olasagasti",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 48,
+            "x": 61.9,
+            "y": 61.1,
+            "endX": 67.7,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Romero",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 52,
+            "x": 67.7,
+            "y": 43.3,
+            "endX": 70.5,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Romero",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 52,
+            "x": 70.5,
+            "y": 38.2,
+            "endX": 81.5,
+            "endY": 53.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dani Requena",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 54,
+            "x": 81.5,
+            "y": 53.1,
+            "endX": 73.8,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Dani Requena",
             "tipo": "Pass",
             "minuto": 21,
@@ -5061,7 +5254,12 @@
             "endY": 40.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jon Martín",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

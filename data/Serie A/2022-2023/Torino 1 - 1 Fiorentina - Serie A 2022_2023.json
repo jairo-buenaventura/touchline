@@ -4910,6 +4910,28 @@
         "secuencia_gol": [
           {
             "jugador": "Rolando Mandragora",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 2,
+            "x": 46.4,
+            "y": 64.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
+            "tipo": "TakeOn",
+            "minuto": 47,
+            "segundo": 3,
+            "x": 46.1,
+            "y": 67.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
             "tipo": "Pass",
             "minuto": 47,
             "segundo": 7,
@@ -4941,7 +4963,12 @@
             "endY": 52.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nikola Vlasic",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

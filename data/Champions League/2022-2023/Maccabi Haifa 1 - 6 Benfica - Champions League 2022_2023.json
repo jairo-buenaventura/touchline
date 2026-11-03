@@ -4717,7 +4717,24 @@
         "y": 43.9,
         "arco_y": 45.7,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Petar Musa",
+            "tipo": "Aerial",
+            "minuto": 58,
+            "segundo": 23,
+            "x": 93.2,
+            "y": 44.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Abdoulaye Seck",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4844,6 +4861,17 @@
         "secuencia_gol": [
           {
             "jugador": "Chiquinho",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 47,
+            "x": 62.0,
+            "y": 68.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chiquinho",
             "tipo": "TakeOn",
             "minuto": 91,
             "segundo": 48,
@@ -4864,7 +4892,12 @@
             "endY": 50.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tjaronn Chery",
+          "portero": false
+        }
       }
     ],
     "corners": [

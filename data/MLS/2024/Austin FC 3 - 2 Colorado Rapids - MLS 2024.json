@@ -505,6 +505,39 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Ethan Finlay",
+            "tipo": "BallTouch",
+            "minuto": 89,
+            "segundo": 46,
+            "x": 70.3,
+            "y": 18.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 84.8,
+            "y": 12.9,
+            "endX": 90.1,
+            "endY": 38.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jon Gallagher",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 57,
+            "x": 90.1,
+            "y": 38.9,
+            "endX": 72.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jon Gallagher",
             "tipo": "Pass",
             "minuto": 89,
@@ -581,7 +614,12 @@
             "endY": 44.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Keegan Rosenberry",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -600,7 +638,24 @@
         "y": 51.9,
         "arco_y": 51.8,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brendan Hines-Ike",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 51,
+            "x": 92.4,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andreas Maxsø",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

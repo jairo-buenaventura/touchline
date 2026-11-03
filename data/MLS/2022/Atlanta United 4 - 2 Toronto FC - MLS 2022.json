@@ -491,7 +491,24 @@
         "y": 53.4,
         "arco_y": 47.1,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Juan Purata",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 92.3,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lukas MacNaughton",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -528,7 +545,24 @@
         "y": 49.5,
         "arco_y": 47.4,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Juan Purata",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 30,
+            "x": 95.6,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jesús Jiménez",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -568,6 +602,17 @@
         "secuencia_gol": [
           {
             "jugador": "Thiago Almada",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 11,
+            "x": 77.2,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
             "tipo": "TakeOn",
             "minuto": 73,
             "segundo": 13,
@@ -577,7 +622,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Michael Bradley",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4653,7 +4703,46 @@
         "y": 40.0,
         "arco_y": 52.6,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Michael Bradley",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 59,
+            "x": 43.7,
+            "y": 57.5,
+            "endX": 66.1,
+            "endY": 36.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Jiménez",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 2,
+            "x": 67.3,
+            "y": 34.7,
+            "endX": 88.4,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayo Akinola",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 3,
+            "x": 86.8,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Juan Purata",
+          "portero": true
+        }
       },
       {
         "minuto": 56,

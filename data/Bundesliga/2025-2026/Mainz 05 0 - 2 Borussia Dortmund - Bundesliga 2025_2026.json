@@ -4218,6 +4218,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Yan Couto",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 26,
+            "x": 23.2,
+            "y": 11.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 26,
+            "x": 23.2,
+            "y": 11.7,
+            "endX": 42.5,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Karim Adeyemi",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -4261,7 +4283,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Danny da Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

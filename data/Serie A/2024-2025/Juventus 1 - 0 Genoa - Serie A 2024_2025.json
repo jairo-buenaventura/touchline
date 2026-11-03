@@ -398,6 +398,28 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Teun Koopmeiners",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 44,
+            "x": 37.8,
+            "y": 0.0,
+            "endX": 64.2,
+            "endY": 6.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "BallTouch",
+            "minuto": 24,
+            "segundo": 45,
+            "x": 64.2,
+            "y": 6.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kenan Yildiz",
             "tipo": "TakeOn",
             "minuto": 24,
@@ -408,7 +430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Koni De Winter",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

@@ -4683,6 +4683,50 @@
             "jugador": "Jorg Schreuders",
             "tipo": "Pass",
             "minuto": 29,
+            "segundo": 14,
+            "x": 90.5,
+            "y": 2.4,
+            "endX": 92.3,
+            "endY": 56.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wouter Prins",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 18,
+            "x": 92.3,
+            "y": 56.7,
+            "endX": 81.7,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wouter Prins",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 18,
+            "x": 81.7,
+            "y": 52.0,
+            "endX": 89.3,
+            "endY": 61.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 40,
+            "x": 89.3,
+            "y": 61.6,
+            "endX": 55.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Pass",
+            "minuto": 29,
             "segundo": 40,
             "x": 55.8,
             "y": 0.0,
@@ -4734,7 +4778,12 @@
             "endY": 76.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Milan Hokke",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4915,6 +4964,28 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Márk Csinger",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 46,
+            "x": 77.3,
+            "y": 66.1,
+            "endX": 78.4,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tygo Land",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 48,
+            "x": 77.9,
+            "y": 41.8,
+            "endX": 78.7,
+            "endY": 43.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Tygo Land",
             "tipo": "Pass",
             "minuto": 80,
@@ -4969,7 +5040,12 @@
             "endY": 57.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Evan Rottier",
+          "portero": false
+        }
       }
     ],
     "corners": [

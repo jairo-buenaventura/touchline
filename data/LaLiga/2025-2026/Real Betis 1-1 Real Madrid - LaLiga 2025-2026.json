@@ -527,6 +527,50 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 57,
+            "x": 85.4,
+            "y": 23.7,
+            "endX": 86.0,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Bellerín",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 58,
+            "x": 86.0,
+            "y": 37.5,
+            "endX": 94.2,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 59,
+            "x": 95.2,
+            "y": 35.4,
+            "endX": 93.7,
+            "endY": 49.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giovani Lo Celso",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 1,
+            "x": 93.7,
+            "y": 49.6,
+            "endX": 94.7,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Giovani Lo Celso",
             "tipo": "BallTouch",
             "minuto": 93,
@@ -537,7 +581,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Antonio Rüdiger",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5090,7 +5139,35 @@
         "y": 57.7,
         "arco_y": 46.6,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 31,
+            "x": 66.5,
+            "y": 39.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "SavedShot",
+            "minuto": 16,
+            "segundo": 31,
+            "x": 69.8,
+            "y": 39.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Álvaro Valles",
+          "portero": true
+        }
       },
       {
         "minuto": 33,

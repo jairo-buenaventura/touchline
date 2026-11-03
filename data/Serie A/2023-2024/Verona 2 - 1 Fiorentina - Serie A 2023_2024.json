@@ -428,7 +428,57 @@
         "y": 53.2,
         "arco_y": 49.8,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Michael Folorunsho",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 5,
+            "x": 55.0,
+            "y": 27.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Folorunsho",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 7,
+            "x": 55.0,
+            "y": 27.1,
+            "endX": 68.7,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ondrej Duda",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 11,
+            "x": 68.7,
+            "y": 11.3,
+            "endX": 81.2,
+            "endY": 13.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ondrej Duda",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 11,
+            "x": 81.2,
+            "y": 13.5,
+            "endX": 93.3,
+            "endY": 52.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nikola Milenkovic",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -3872,6 +3922,17 @@
         "secuencia_gol": [
           {
             "jugador": "M'Bala Nzola",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 8,
+            "x": 76.4,
+            "y": 31.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "M'Bala Nzola",
             "tipo": "TakeOn",
             "minuto": 41,
             "segundo": 9,
@@ -3892,7 +3953,12 @@
             "endY": 61.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Diego Coppola",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

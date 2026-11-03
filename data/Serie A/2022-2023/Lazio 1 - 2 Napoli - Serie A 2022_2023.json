@@ -4255,7 +4255,24 @@
         "y": 54.6,
         "arco_y": 48.0,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Aerial",
+            "minuto": 37,
+            "segundo": 12,
+            "x": 94.8,
+            "y": 53.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Patric",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4348,6 +4365,39 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Victor Osimhen",
+            "tipo": "CornerAwarded",
+            "minuto": 60,
+            "segundo": 10,
+            "x": 93.8,
+            "y": 39.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 38,
+            "x": 99.4,
+            "y": 99.5,
+            "endX": 91.0,
+            "endY": 53.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 44,
+            "x": 91.0,
+            "y": 53.7,
+            "endX": 71.4,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Stanislav Lobotka",
             "tipo": "Pass",
             "minuto": 60,
@@ -4380,7 +4430,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Matías Vecino",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

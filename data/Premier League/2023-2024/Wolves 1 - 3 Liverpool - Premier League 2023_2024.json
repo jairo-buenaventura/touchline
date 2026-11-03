@@ -384,6 +384,50 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Matheus Cunha",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 13,
+            "x": 34.0,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Cunha",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 15,
+            "x": 31.5,
+            "y": 67.6,
+            "endX": 45.8,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 25,
+            "x": 45.8,
+            "y": 94.7,
+            "endX": 90.2,
+            "endY": 71.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 25,
+            "x": 90.2,
+            "y": 71.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Pedro Neto",
             "tipo": "Pass",
             "minuto": 6,
@@ -394,7 +438,12 @@
             "endY": 34.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joël Matip",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

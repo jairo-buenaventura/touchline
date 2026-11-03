@@ -417,6 +417,138 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Anthony Lopes",
+            "tipo": "KeeperPickup",
+            "minuto": 5,
+            "segundo": 18,
+            "x": 14.1,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Lopes",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 21,
+            "x": 14.3,
+            "y": 44.5,
+            "endX": 29.7,
+            "endY": 48.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johann Lepenant",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 26,
+            "x": 29.7,
+            "y": 48.0,
+            "endX": 28.1,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johann Lepenant",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 26,
+            "x": 28.1,
+            "y": 34.3,
+            "endX": 24.2,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidozie Awaziem",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 29,
+            "x": 24.2,
+            "y": 21.9,
+            "endX": 23.1,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidozie Awaziem",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 29,
+            "x": 23.1,
+            "y": 15.8,
+            "endX": 12.6,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Lopes",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 32,
+            "x": 12.6,
+            "y": 46.5,
+            "endX": 14.0,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tylel Tati",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 36,
+            "x": 14.0,
+            "y": 75.4,
+            "endX": 19.6,
+            "endY": 90.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tylel Tati",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 36,
+            "x": 19.6,
+            "y": 90.1,
+            "endX": 34.2,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Kaba",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 39,
+            "x": 34.2,
+            "y": 79.7,
+            "endX": 41.9,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Kaba",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 39,
+            "x": 41.9,
+            "y": 85.0,
+            "endX": 61.3,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthis Abline",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 42,
+            "x": 61.3,
+            "y": 91.6,
+            "endX": 69.2,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Matthis Abline",
             "tipo": "TakeOn",
             "minuto": 5,
@@ -438,7 +570,12 @@
             "endY": 32.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Guéla Doué",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -3842,6 +3979,50 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Sam Amo-Ameyaw",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 0,
+            "x": 91.2,
+            "y": 0.0,
+            "endX": 79.0,
+            "endY": 6.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 1,
+            "x": 76.8,
+            "y": 6.5,
+            "endX": 85.9,
+            "endY": 3.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Amo-Ameyaw",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 2,
+            "x": 85.9,
+            "y": 3.0,
+            "endX": 79.5,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Amo-Ameyaw",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 2,
+            "x": 79.5,
+            "y": 3.2,
+            "endX": 74.3,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Maxi Oyedele",
             "tipo": "TakeOn",
             "minuto": 46,
@@ -3863,7 +4044,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mohamed Kaba",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4008,7 +4194,35 @@
         "y": 50.9,
         "arco_y": 51.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Julio Enciso",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 10,
+            "x": 79.4,
+            "y": 68.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Nanasi",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 12,
+            "x": 97.1,
+            "y": 58.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Anthony Lopes",
+          "portero": true
+        }
       },
       {
         "minuto": 93,

@@ -415,7 +415,24 @@
         "y": 60.9,
         "arco_y": 54.2,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Jasinski",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 17,
+            "x": 88.0,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Timo Baumgartl",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -4841,6 +4858,28 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Timo Baumgartl",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 22,
+            "x": 36.2,
+            "y": 25.9,
+            "endX": 72.3,
+            "endY": 59.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tomas Totland",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 29,
+            "x": 72.3,
+            "y": 59.7,
+            "endX": 94.2,
+            "endY": 67.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Tomas Totland",
             "tipo": "Pass",
             "minuto": 54,
@@ -4851,7 +4890,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jack Jasinski",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

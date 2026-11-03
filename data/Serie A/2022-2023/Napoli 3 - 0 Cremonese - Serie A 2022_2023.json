@@ -405,7 +405,57 @@
         "y": 65.8,
         "arco_y": 48.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 42,
+            "x": 65.2,
+            "y": 34.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 42,
+            "x": 65.2,
+            "y": 34.3,
+            "endX": 75.4,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 49,
+            "x": 75.4,
+            "y": 5.3,
+            "endX": 85.9,
+            "endY": 13.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hirving Lozano",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 49,
+            "x": 85.9,
+            "y": 13.0,
+            "endX": 90.9,
+            "endY": 62.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leonardo Sernicola",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -489,6 +539,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Aerial",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 96.2,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 96.3,
+            "y": 40.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kim Min-Jae",
             "tipo": "SavedShot",
             "minuto": 64,
@@ -499,7 +571,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marco Carnesecchi",
+          "portero": true
+        }
       },
       {
         "minuto": 78,

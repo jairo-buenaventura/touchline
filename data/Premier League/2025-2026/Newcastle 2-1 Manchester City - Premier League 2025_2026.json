@@ -406,6 +406,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Nick Pope",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 45,
+            "x": 4.4,
+            "y": 58.3,
+            "endX": 53.7,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joelinton",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 54.8,
+            "y": 57.7,
+            "endX": 71.2,
+            "endY": 48.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joelinton",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 52,
+            "x": 71.2,
+            "y": 48.1,
+            "endX": 63.6,
+            "endY": 58.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Joelinton",
             "tipo": "Pass",
             "minuto": 62,
@@ -471,7 +504,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nico O'Reilly",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -511,6 +549,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bruno Guimarães",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 34,
+            "x": 97.9,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
             "tipo": "ShotOnPost",
             "minuto": 69,
             "segundo": 34,
@@ -520,7 +569,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Josko Gvardiol",
+          "portero": false
+        }
       }
     ],
     "corners": [

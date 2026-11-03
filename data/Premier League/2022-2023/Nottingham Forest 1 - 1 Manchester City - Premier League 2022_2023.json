@@ -3816,6 +3816,39 @@
         "secuencia_gol": [
           {
             "jugador": "Jack Grealish",
+            "tipo": "CornerAwarded",
+            "minuto": 40,
+            "segundo": 9,
+            "x": 99.9,
+            "y": 71.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 36,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.1,
+            "endY": 55.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 44,
+            "x": 90.1,
+            "y": 55.7,
+            "endX": 81.8,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
             "tipo": "Pass",
             "minuto": 40,
             "segundo": 44,
@@ -3825,7 +3858,12 @@
             "endY": 59.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jonjo Shelvey",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

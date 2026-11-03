@@ -399,6 +399,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Matai Akinmboni",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 27,
+            "x": 26.1,
+            "y": 89.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matai Akinmboni",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 28,
+            "x": 26.1,
+            "y": 89.7,
+            "endX": 30.0,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohanad Jeahze",
+            "tipo": "TakeOn",
+            "minuto": 12,
+            "segundo": 30,
+            "x": 32.6,
+            "y": 96.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohanad Jeahze",
             "tipo": "Pass",
             "minuto": 12,
@@ -431,7 +464,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mark-Anthony Kaye",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4399,7 +4437,24 @@
         "y": 54.0,
         "arco_y": 51.8,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Bernardeschi",
+            "tipo": "SavedShot",
+            "minuto": 82,
+            "segundo": 21,
+            "x": 74.1,
+            "y": 61.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Tyler Miller",
+          "portero": true
+        }
       }
     ],
     "corners": [

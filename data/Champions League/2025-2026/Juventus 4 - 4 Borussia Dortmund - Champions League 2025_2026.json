@@ -768,6 +768,72 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Khéphren Thuram",
+            "tipo": "BallRecovery",
+            "minuto": 95,
+            "segundo": 5,
+            "x": 23.5,
+            "y": 85.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khéphren Thuram",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 5,
+            "x": 23.5,
+            "y": 85.5,
+            "endX": 15.9,
+            "endY": 86.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilije Adzic",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 6,
+            "x": 15.9,
+            "y": 86.5,
+            "endX": 30.4,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 11,
+            "x": 30.4,
+            "y": 55.5,
+            "endX": 32.2,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 11,
+            "x": 32.2,
+            "y": 44.8,
+            "endX": 34.4,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 14,
+            "x": 34.4,
+            "y": 32.4,
+            "endX": 36.8,
+            "endY": 27.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Edon Zhegrova",
             "tipo": "TakeOn",
             "minuto": 95,
@@ -811,7 +877,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Waldemar Anton",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5152,6 +5223,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Maximilian Beier",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 60.4,
+            "y": 70.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Beier",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 60.4,
+            "y": 70.4,
+            "endX": 61.9,
+            "endY": 73.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Felix Nmecha",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 54,
+            "x": 61.9,
+            "y": 73.1,
+            "endX": 70.4,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Felix Nmecha",
             "tipo": "Pass",
             "minuto": 51,
@@ -5173,7 +5277,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Weston McKennie",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

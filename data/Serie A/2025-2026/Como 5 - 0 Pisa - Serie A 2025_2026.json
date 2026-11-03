@@ -647,6 +647,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Maxence Caqueret",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 57,
+            "x": 67.3,
+            "y": 53.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Caqueret",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 58,
+            "x": 69.6,
+            "y": 52.1,
+            "endX": 85.6,
+            "endY": 17.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Kühn",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 3,
+            "x": 85.6,
+            "y": 17.9,
+            "endX": 93.2,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Kühn",
             "tipo": "TakeOn",
             "minuto": 80,
@@ -668,7 +701,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Samuel Iling-Junior",
+          "portero": false
+        }
       }
     ],
     "corners": [

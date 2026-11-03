@@ -520,6 +520,28 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Alessandro Florenzi",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 30,
+            "x": 89.2,
+            "y": 84.3,
+            "endX": 96.6,
+            "endY": 49.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ismaël Bennacer",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 43,
+            "x": 96.6,
+            "y": 49.8,
+            "endX": 38.0,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Ismaël Bennacer",
             "tipo": "Pass",
             "minuto": 44,
@@ -596,7 +618,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Josep Martínez",
+          "portero": true
+        }
       },
       {
         "minuto": 57,
@@ -5146,7 +5173,24 @@
         "y": 48.3,
         "arco_y": 48.0,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Caleb Ekuban",
+            "tipo": "Aerial",
+            "minuto": 47,
+            "segundo": 42,
+            "x": 89.3,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Matteo Gabbia",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

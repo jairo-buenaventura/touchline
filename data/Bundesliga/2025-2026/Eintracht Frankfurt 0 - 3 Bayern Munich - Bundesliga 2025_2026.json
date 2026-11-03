@@ -4195,6 +4195,50 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 0,
+            "x": 50.0,
+            "y": 50.0,
+            "endX": 24.9,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 6,
+            "x": 24.9,
+            "y": 28.9,
+            "endX": 25.7,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 6,
+            "x": 25.7,
+            "y": 25.4,
+            "endX": 73.8,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 9,
+            "x": 73.8,
+            "y": 15.0,
+            "endX": 92.8,
+            "endY": 28.4,
+            "exitoso": false
+          },
+          {
             "jugador": "Serge Gnabry",
             "tipo": "Pass",
             "minuto": 0,
@@ -4205,7 +4249,12 @@
             "endY": 54.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4216,6 +4265,61 @@
         "arco_y": 54.2,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 56,
+            "x": 8.6,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 56,
+            "x": 8.1,
+            "y": 51.0,
+            "endX": 16.4,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 59,
+            "x": 15.9,
+            "y": 29.9,
+            "endX": 21.2,
+            "endY": 6.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sacha Boey",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 2,
+            "x": 22.2,
+            "y": 4.3,
+            "endX": 24.3,
+            "endY": 5.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sacha Boey",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 9,
+            "x": 24.3,
+            "y": 5.1,
+            "endX": 21.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Sacha Boey",
             "tipo": "Pass",
@@ -4447,7 +4551,12 @@
             "endY": 39.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jean-Mattéo Bahoya",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -4531,6 +4640,39 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 21,
+            "x": 33.9,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 27,
+            "x": 68.1,
+            "y": 52.2,
+            "endX": 79.0,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 31,
+            "x": 79.0,
+            "y": 69.6,
+            "endX": 92.2,
+            "endY": 66.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Díaz",
             "tipo": "TakeOn",
             "minuto": 83,
@@ -4541,7 +4683,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

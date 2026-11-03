@@ -637,6 +637,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Marshall Munetsi",
+            "tipo": "CornerAwarded",
+            "minuto": 52,
+            "segundo": 11,
+            "x": 99.2,
+            "y": 74.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Flips",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 50,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.0,
+            "endY": 53.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dion Lopy",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 55,
+            "x": 95.0,
+            "y": 53.9,
+            "endX": 69.8,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Dion Lopy",
             "tipo": "Pass",
             "minuto": 52,
@@ -713,7 +746,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ibrahima Niane",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -5096,6 +5134,28 @@
         "secuencia_gol": [
           {
             "jugador": "Sada Thioub",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 15,
+            "x": 67.3,
+            "y": 6.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sada Thioub",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 16,
+            "x": 69.6,
+            "y": 5.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sada Thioub",
             "tipo": "Pass",
             "minuto": 45,
             "segundo": 19,
@@ -5116,7 +5176,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thomas Foket",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

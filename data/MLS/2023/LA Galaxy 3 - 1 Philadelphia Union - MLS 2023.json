@@ -402,6 +402,50 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Raheem Edwards",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 39,
+            "x": 35.2,
+            "y": 84.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 42,
+            "x": 32.3,
+            "y": 85.0,
+            "endX": 6.2,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Klinsmann",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 48,
+            "x": 4.7,
+            "y": 71.7,
+            "endX": 6.0,
+            "endY": 69.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Chris Mavinga",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 6.0,
+            "y": 69.5,
+            "endX": 4.3,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Chris Mavinga",
             "tipo": "Pass",
             "minuto": 14,
@@ -522,7 +566,12 @@
             "endY": 43.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Julián Carranza",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4830,7 +4879,200 @@
         "y": 44.2,
         "arco_y": 46.5,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joe Bendik",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 36,
+            "x": 3.9,
+            "y": 42.5,
+            "endX": 11.0,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 44,
+            "x": 11.0,
+            "y": 26.2,
+            "endX": 22.6,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 44,
+            "x": 22.6,
+            "y": 19.4,
+            "endX": 23.8,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 48,
+            "x": 26.2,
+            "y": 68.3,
+            "endX": 40.5,
+            "endY": 77.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Flach",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 53,
+            "x": 40.5,
+            "y": 77.4,
+            "endX": 47.2,
+            "endY": 77.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Flach",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 53,
+            "x": 47.2,
+            "y": 77.5,
+            "endX": 50.9,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 55,
+            "x": 50.9,
+            "y": 68.4,
+            "endX": 53.6,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 55,
+            "x": 53.6,
+            "y": 65.1,
+            "endX": 75.6,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikael Uhre",
+            "tipo": "BallTouch",
+            "minuto": 34,
+            "segundo": 57,
+            "x": 75.8,
+            "y": 69.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matt Real",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 4,
+            "x": 72.8,
+            "y": 100.0,
+            "endX": 66.4,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 7,
+            "x": 66.4,
+            "y": 89.8,
+            "endX": 69.2,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 7,
+            "x": 69.2,
+            "y": 84.9,
+            "endX": 68.7,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 68.7,
+            "y": 72.3,
+            "endX": 71.2,
+            "endY": 69.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 71.2,
+            "y": 69.5,
+            "endX": 61.1,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Martínez",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 13,
+            "x": 61.3,
+            "y": 59.9,
+            "endX": 63.7,
+            "endY": 32.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 63.7,
+            "y": 32.3,
+            "endX": 74.8,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "SavedShot",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 74.8,
+            "y": 25.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Chris Mavinga",
+          "portero": true
+        }
       },
       {
         "minuto": 40,

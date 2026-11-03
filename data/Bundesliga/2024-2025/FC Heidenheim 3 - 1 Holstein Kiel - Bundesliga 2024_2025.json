@@ -434,7 +434,24 @@
         "y": 47.8,
         "arco_y": 47.0,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Pieringer",
+            "tipo": "Aerial",
+            "minuto": 32,
+            "segundo": 27,
+            "x": 91.2,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marco Komenda",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -471,7 +488,57 @@
         "y": 65.2,
         "arco_y": 47.5,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 58,
+            "x": 69.9,
+            "y": 41.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 58,
+            "x": 70.7,
+            "y": 41.9,
+            "endX": 71.8,
+            "endY": 44.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 0,
+            "x": 71.8,
+            "y": 44.0,
+            "endX": 76.5,
+            "endY": 48.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 0,
+            "x": 76.5,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "David Zec",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -520,6 +587,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sirlord Conteh",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 45,
+            "x": 57.4,
+            "y": 30.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sirlord Conteh",
             "tipo": "Pass",
             "minuto": 92,
             "segundo": 45,
@@ -551,7 +629,12 @@
             "endY": 43.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marco Komenda",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -5158,7 +5158,90 @@
         "y": 54.2,
         "arco_y": 53.1,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rani Khedira",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 51,
+            "x": 65.1,
+            "y": 35.4,
+            "endX": 66.5,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Skarke",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 54,
+            "x": 67.4,
+            "y": 27.3,
+            "endX": 69.9,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benedict Hollerbach",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 56,
+            "x": 69.9,
+            "y": 46.1,
+            "endX": 70.6,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benedict Hollerbach",
+            "tipo": "TakeOn",
+            "minuto": 22,
+            "segundo": 56,
+            "x": 70.6,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benedict Hollerbach",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 58,
+            "x": 73.3,
+            "y": 55.7,
+            "endX": 88.9,
+            "endY": 78.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Skov",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 0,
+            "x": 88.9,
+            "y": 78.5,
+            "endX": 91.8,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Skarke",
+            "tipo": "SavedShot",
+            "minuto": 23,
+            "segundo": 1,
+            "x": 91.2,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Luca Philipp",
+          "portero": true
+        }
       },
       {
         "minuto": 26,
@@ -5275,6 +5358,116 @@
         "arco_z": 34.2,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Tousart",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 34,
+            "x": 7.5,
+            "y": 22.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 34,
+            "x": 8.0,
+            "y": 23.4,
+            "endX": 15.0,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Woo-yeong Jeong",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 36,
+            "x": 15.0,
+            "y": 25.2,
+            "endX": 15.1,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Woo-yeong Jeong",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 36,
+            "x": 15.1,
+            "y": 20.9,
+            "endX": 10.1,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 38,
+            "x": 10.6,
+            "y": 10.9,
+            "endX": 42.3,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 45,
+            "x": 42.3,
+            "y": 12.3,
+            "endX": 56.7,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 45,
+            "x": 56.7,
+            "y": 8.8,
+            "endX": 87.9,
+            "endY": 27.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 30,
+            "x": 87.9,
+            "y": 27.1,
+            "endX": 90.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 30,
+            "x": 90.9,
+            "y": 0.0,
+            "endX": 92.4,
+            "endY": 43.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josip Juranovic",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 9,
+            "x": 92.4,
+            "y": 43.3,
+            "endX": 77.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Josip Juranovic",
             "tipo": "Pass",
             "minuto": 72,
@@ -5307,7 +5500,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

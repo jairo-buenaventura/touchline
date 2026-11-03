@@ -526,6 +526,28 @@
         "secuencia_gol": [
           {
             "jugador": "Mohamed Farsi",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 36.6,
+            "y": 12.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Farsi",
+            "tipo": "TakeOn",
+            "minuto": 57,
+            "segundo": 37,
+            "x": 54.5,
+            "y": 6.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Farsi",
             "tipo": "Pass",
             "minuto": 57,
             "segundo": 39,
@@ -568,7 +590,12 @@
             "endY": 64.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kevin O'Toole",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -589,6 +616,17 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Jacen Russell-Rowe",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 38,
+            "x": 94.9,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Alexandru Matan",
             "tipo": "Pass",
             "minuto": 92,
@@ -599,7 +637,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Birk Risa",
+          "portero": false
+        }
       },
       {
         "minuto": 98,
@@ -618,7 +661,24 @@
         "y": 47.6,
         "arco_y": 47.3,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Rossi",
+            "tipo": "SavedShot",
+            "minuto": 98,
+            "segundo": 54,
+            "x": 84.4,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Luis Barraza",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4590,7 +4650,57 @@
         "y": 31.6,
         "arco_y": 47.3,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 40,
+            "x": 38.8,
+            "y": 63.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 41,
+            "x": 39.6,
+            "y": 63.4,
+            "endX": 53.6,
+            "endY": 45.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Fernández",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 46,
+            "x": 53.6,
+            "y": 45.1,
+            "endX": 78.1,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Fernández",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 46,
+            "x": 78.1,
+            "y": 38.8,
+            "endX": 86.4,
+            "endY": 31.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mohamed Farsi",
+          "portero": false
+        }
       }
     ],
     "corners": [

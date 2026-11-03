@@ -485,6 +485,28 @@
         "secuencia_gol": [
           {
             "jugador": "Armando Obispo",
+            "tipo": "Aerial",
+            "minuto": 43,
+            "segundo": 42,
+            "x": 88.9,
+            "y": 39.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "SavedShot",
+            "minuto": 43,
+            "segundo": 43,
+            "x": 88.9,
+            "y": 39.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armando Obispo",
             "tipo": "BallTouch",
             "minuto": 43,
             "segundo": 44,
@@ -494,7 +516,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Finn Stam",
+          "portero": true
+        }
       },
       {
         "minuto": 49,
@@ -800,7 +827,24 @@
         "y": 49.9,
         "arco_y": 54.3,
         "arco_z": 24.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ricardo Pepi",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 52,
+            "x": 92.0,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mats Lemmens",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

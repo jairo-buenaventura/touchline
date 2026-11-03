@@ -394,6 +394,17 @@
         "secuencia_gol": [
           {
             "jugador": "Pep Biel",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 28,
+            "x": 48.0,
+            "y": 8.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pep Biel",
             "tipo": "TakeOn",
             "minuto": 18,
             "segundo": 28,
@@ -425,7 +436,12 @@
             "endY": 67.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jonathan Osorio",
+          "portero": false
+        }
       },
       {
         "minuto": 34,
@@ -437,6 +453,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Pep Biel",
+            "tipo": "BallTouch",
+            "minuto": 34,
+            "segundo": 1,
+            "x": 56.0,
+            "y": 31.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandt Bronico",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 2,
+            "x": 56.8,
+            "y": 43.0,
+            "endX": 85.1,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kerwin Vargas",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 5,
+            "x": 85.1,
+            "y": 4.9,
+            "endX": 84.2,
+            "endY": 13.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kerwin Vargas",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 5,
+            "x": 84.2,
+            "y": 13.5,
+            "endX": 93.3,
+            "endY": 49.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kerwin Vargas",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 15,
+            "x": 93.3,
+            "y": 49.5,
+            "endX": 79.6,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Kerwin Vargas",
             "tipo": "Pass",
             "minuto": 34,
@@ -447,7 +518,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Walker Zimmerman",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -4483,6 +4559,39 @@
         "arco_z": 36.1,
         "secuencia_gol": [
           {
+            "jugador": "Emilio Aristizábal",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 48,
+            "x": 63.9,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dániel Sallói",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 51,
+            "x": 64.9,
+            "y": 36.6,
+            "endX": 65.1,
+            "endY": 31.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Osorio",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 55,
+            "x": 65.1,
+            "y": 31.4,
+            "endX": 65.6,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Jonathan Osorio",
             "tipo": "Pass",
             "minuto": 20,
@@ -4493,7 +4602,12 @@
             "endY": 91.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ashley Westwood",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

@@ -443,6 +443,28 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Robin Lod",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 33,
+            "x": 89.5,
+            "y": 72.7,
+            "endX": 88.8,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "SavedShot",
+            "minuto": 13,
+            "segundo": 33,
+            "x": 91.2,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Maren Haile-Selassie",
             "tipo": "Pass",
             "minuto": 13,
@@ -453,7 +475,12 @@
             "endY": 48.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Finn Surman",
+          "portero": true
+        }
       },
       {
         "minuto": 36,
@@ -3974,6 +4001,17 @@
         "secuencia_gol": [
           {
             "jugador": "Brandon Bye",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 26,
+            "x": 90.0,
+            "y": 32.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandon Bye",
             "tipo": "Pass",
             "minuto": 84,
             "segundo": 26,
@@ -3983,7 +4021,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Bamba",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

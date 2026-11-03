@@ -462,6 +462,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jordan Siebatcheu",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 39,
+            "x": 95.6,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Siebatcheu",
             "tipo": "MissedShots",
             "minuto": 52,
             "segundo": 39,
@@ -482,7 +493,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Hrvoje Smolcic",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -519,7 +535,24 @@
         "y": 68.6,
         "arco_y": 48.1,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin Behrens",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 21,
+            "x": 77.4,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hrvoje Smolcic",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

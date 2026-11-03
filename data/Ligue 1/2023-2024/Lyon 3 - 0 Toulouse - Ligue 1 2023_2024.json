@@ -418,6 +418,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jake O'Brien",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 27,
+            "x": 93.2,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
             "tipo": "MissedShots",
             "minuto": 24,
             "segundo": 27,
@@ -427,7 +438,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Niklas Schmidt",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -448,6 +464,39 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Duje Caleta-Car",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 10,
+            "x": 94.2,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Duje Caleta-Car",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 10,
+            "x": 92.6,
+            "y": 59.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 11,
+            "x": 96.6,
+            "y": 60.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Corentin Tolisso",
             "tipo": "ShotOnPost",
             "minuto": 28,
@@ -458,7 +507,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Niklas Schmidt",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -531,7 +585,79 @@
         "y": 47.0,
         "arco_y": 46.4,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tino Kadewere",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 34,
+            "x": 95.4,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tino Kadewere",
+            "tipo": "MissedShots",
+            "minuto": 79,
+            "segundo": 34,
+            "x": 95.6,
+            "y": 37.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 40,
+            "x": 97.7,
+            "y": 95.2,
+            "endX": 81.8,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Tagliafico",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 80.2,
+            "y": 84.4,
+            "endX": 97.3,
+            "endY": 35.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tino Kadewere",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 97.0,
+            "y": 34.6,
+            "endX": 85.3,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mahamadou Diawara",
+            "tipo": "SavedShot",
+            "minuto": 79,
+            "segundo": 46,
+            "x": 86.4,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rasmus Nicolaisen",
+          "portero": true
+        }
       },
       {
         "minuto": 91,

@@ -3792,7 +3792,57 @@
         "y": 49.6,
         "arco_y": 46.7,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Boubacar Kamara",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 2,
+            "x": 45.2,
+            "y": 26.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boubacar Kamara",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 3,
+            "x": 45.2,
+            "y": 26.8,
+            "endX": 53.8,
+            "endY": 36.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 5,
+            "x": 55.4,
+            "y": 36.4,
+            "endX": 81.6,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ollie Watkins",
+            "tipo": "SavedShot",
+            "minuto": 11,
+            "segundo": 8,
+            "x": 81.1,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Wes Foderingham",
+          "portero": true
+        }
       },
       {
         "minuto": 15,
@@ -3871,6 +3921,17 @@
         "secuencia_gol": [
           {
             "jugador": "Youri Tielemans",
+            "tipo": "Aerial",
+            "minuto": 19,
+            "segundo": 38,
+            "x": 40.6,
+            "y": 65.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Tielemans",
             "tipo": "Pass",
             "minuto": 19,
             "segundo": 39,
@@ -3902,7 +3963,12 @@
             "endY": 33.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Auston Trusty",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -3930,7 +3996,35 @@
         "y": 41.9,
         "arco_y": 51.6,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Youri Tielemans",
+            "tipo": "CornerAwarded",
+            "minuto": 28,
+            "segundo": 36,
+            "x": 96.4,
+            "y": 42.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 1,
+            "x": 99.4,
+            "y": 99.5,
+            "endX": 97.2,
+            "endY": 60.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ben Brereton",
+          "portero": false
+        }
       },
       {
         "minuto": 31,

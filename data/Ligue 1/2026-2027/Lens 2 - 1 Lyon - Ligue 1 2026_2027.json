@@ -425,6 +425,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Robin Risser",
+            "tipo": "KeeperPickup",
+            "minuto": 35,
+            "segundo": 28,
+            "x": 9.4,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Risser",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 31,
+            "x": 23.7,
+            "y": 44.7,
+            "endX": 68.5,
+            "endY": 23.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ruben Aguilar",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 45,
+            "x": 68.5,
+            "y": 23.2,
+            "endX": 72.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ruben Aguilar",
             "tipo": "Pass",
             "minuto": 35,
@@ -457,7 +490,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ruben Kluivert",
+          "portero": false
+        }
       },
       {
         "minuto": 37,

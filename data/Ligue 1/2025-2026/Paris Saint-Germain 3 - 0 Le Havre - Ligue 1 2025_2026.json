@@ -454,6 +454,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Ibrahim Mbaye",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 50,
+            "x": 71.1,
+            "y": 88.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Mbaye",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 50,
+            "x": 71.1,
+            "y": 88.5,
+            "endX": 73.5,
+            "endY": 89.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 59,
+            "x": 73.5,
+            "y": 89.8,
+            "endX": 74.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nuno Mendes",
             "tipo": "Pass",
             "minuto": 27,
@@ -497,7 +530,12 @@
             "endY": 36.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Loïc Négo",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -615,7 +653,57 @@
         "y": 53.2,
         "arco_y": 46.6,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 17,
+            "x": 73.6,
+            "y": 28.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 17,
+            "x": 74.2,
+            "y": 31.3,
+            "endX": 85.5,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 20,
+            "x": 85.5,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 21,
+            "x": 92.0,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Simon Ebonog",
+          "portero": true
+        }
       },
       {
         "minuto": 66,

@@ -860,7 +860,24 @@
         "y": 60.9,
         "arco_y": 46.6,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 95.2,
+            "y": 58.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Hugo Duro",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -990,6 +1007,28 @@
         "secuencia_gol": [
           {
             "jugador": "Ronald Araujo",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 93.2,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ronald Araujo",
+            "tipo": "SavedShot",
+            "minuto": 81,
+            "segundo": 16,
+            "x": 95.1,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ronald Araujo",
             "tipo": "BallTouch",
             "minuto": 81,
             "segundo": 16,
@@ -999,7 +1038,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jaume Domènech",
+          "portero": true
+        }
       },
       {
         "minuto": 84,

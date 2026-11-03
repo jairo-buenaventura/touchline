@@ -442,6 +442,160 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Dayot Upamecano",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 4,
+            "x": 23.3,
+            "y": 88.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 5,
+            "x": 15.0,
+            "y": 84.8,
+            "endX": 6.3,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 9,
+            "x": 6.3,
+            "y": 57.3,
+            "endX": 6.8,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 9,
+            "x": 6.8,
+            "y": 51.5,
+            "endX": 13.0,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 12,
+            "x": 13.0,
+            "y": 25.6,
+            "endX": 14.7,
+            "endY": 22.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 12,
+            "x": 14.7,
+            "y": 22.4,
+            "endX": 47.5,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sadio Mané",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 14,
+            "x": 47.3,
+            "y": 16.4,
+            "endX": 39.3,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 16,
+            "x": 39.3,
+            "y": 23.0,
+            "endX": 40.6,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 16,
+            "x": 40.6,
+            "y": 27.3,
+            "endX": 37.4,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 21,
+            "x": 37.4,
+            "y": 38.0,
+            "endX": 55.3,
+            "endY": 61.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 21,
+            "x": 55.3,
+            "y": 61.7,
+            "endX": 66.8,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 24,
+            "x": 66.8,
+            "y": 68.4,
+            "endX": 69.6,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 24,
+            "x": 69.6,
+            "y": 59.9,
+            "endX": 71.3,
+            "endY": 59.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 29,
+            "x": 71.3,
+            "y": 59.3,
+            "endX": 46.3,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Matthijs de Ligt",
             "tipo": "Pass",
             "minuto": 14,
@@ -551,7 +705,12 @@
             "endY": 17.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Julian Baumgartlinger",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -572,6 +731,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 56,
+            "x": 92.9,
+            "y": 54.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "SavedShot",
+            "minuto": 17,
+            "segundo": 56,
+            "x": 94.7,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Sadio Mané",
             "tipo": "Pass",
             "minuto": 17,
@@ -582,7 +763,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Robert Gumny",
+          "portero": true
+        }
       },
       {
         "minuto": 29,
@@ -619,7 +805,35 @@
         "y": 41.0,
         "arco_y": 51.3,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 16,
+            "x": 89.7,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "SavedShot",
+            "minuto": 34,
+            "segundo": 16,
+            "x": 90.2,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dion Beljo",
+          "portero": true
+        }
       },
       {
         "minuto": 38,
@@ -5558,7 +5772,57 @@
         "y": 51.1,
         "arco_y": 49.5,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jeffrey Gouweleeuw",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 6,
+            "x": 38.5,
+            "y": 78.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeffrey Gouweleeuw",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 9,
+            "x": 62.5,
+            "y": 87.5,
+            "endX": 77.8,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 77.8,
+            "y": 89.4,
+            "endX": 98.3,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 98.3,
+            "y": 68.0,
+            "endX": 97.0,
+            "endY": 65.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dayot Upamecano",
+          "portero": false
+        }
       }
     ],
     "corners": [

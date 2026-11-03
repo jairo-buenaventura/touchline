@@ -608,6 +608,17 @@
         "secuencia_gol": [
           {
             "jugador": "Junya Ito",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 42,
+            "x": 31.0,
+            "y": 5.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junya Ito",
             "tipo": "TakeOn",
             "minuto": 49,
             "segundo": 46,
@@ -639,7 +650,12 @@
             "endY": 44.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucien Agoumé",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

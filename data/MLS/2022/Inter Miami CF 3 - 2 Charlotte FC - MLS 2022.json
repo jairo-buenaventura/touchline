@@ -475,6 +475,17 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Gregore",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 24,
+            "x": 74.6,
+            "y": 0.0,
+            "endX": 87.2,
+            "endY": 6.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Robert Taylor",
             "tipo": "TakeOn",
             "minuto": 58,
@@ -485,7 +496,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joseph Mora",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -5185,6 +5201,28 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Yordy Reyna",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 35,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.6,
+            "endY": 41.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergio Ruiz",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 40,
+            "x": 91.6,
+            "y": 41.2,
+            "endX": 69.3,
+            "endY": 52.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Sergio Ruiz",
             "tipo": "Pass",
             "minuto": 41,
@@ -5272,7 +5310,12 @@
             "endY": 75.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Christopher McVey",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

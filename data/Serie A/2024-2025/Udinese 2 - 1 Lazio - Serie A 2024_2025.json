@@ -383,6 +383,50 @@
             "jugador": "Kingsley Ehizibue",
             "tipo": "Pass",
             "minuto": 4,
+            "segundo": 26,
+            "x": 68.7,
+            "y": 0.0,
+            "endX": 60.3,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Payero",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 27,
+            "x": 60.3,
+            "y": 7.1,
+            "endX": 70.2,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Ehizibue",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 30,
+            "x": 70.1,
+            "y": 3.8,
+            "endX": 78.7,
+            "endY": 1.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kingsley Ehizibue",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 46,
+            "x": 78.7,
+            "y": 1.7,
+            "endX": 83.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Ehizibue",
+            "tipo": "Pass",
+            "minuto": 4,
             "segundo": 46,
             "x": 83.2,
             "y": 0.0,
@@ -456,7 +500,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matías Vecino",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -3915,7 +3964,145 @@
         "y": 43.4,
         "arco_y": 48.9,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 44,
+            "x": 59.6,
+            "y": 86.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 44,
+            "x": 59.6,
+            "y": 86.2,
+            "endX": 45.6,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Lazzari",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 48,
+            "x": 45.6,
+            "y": 55.2,
+            "endX": 51.9,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Lazzari",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 48,
+            "x": 51.9,
+            "y": 50.4,
+            "endX": 54.9,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patric",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 50,
+            "x": 54.9,
+            "y": 31.2,
+            "endX": 56.8,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patric",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 50,
+            "x": 56.8,
+            "y": 35.2,
+            "endX": 64.6,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 52,
+            "x": 64.6,
+            "y": 55.5,
+            "endX": 65.2,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 52,
+            "x": 65.2,
+            "y": 41.2,
+            "endX": 66.3,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattéo Guendouzi",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 55,
+            "x": 66.3,
+            "y": 10.4,
+            "endX": 72.8,
+            "endY": 14.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattéo Guendouzi",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 55,
+            "x": 72.8,
+            "y": 14.3,
+            "endX": 86.0,
+            "endY": 45.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 59,
+            "x": 86.0,
+            "y": 45.2,
+            "endX": 84.9,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 59,
+            "x": 84.9,
+            "y": 62.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maduka Okoye",
+          "portero": true
+        }
       }
     ],
     "corners": [

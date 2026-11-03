@@ -508,6 +508,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 10,
+            "x": 35.7,
+            "y": 70.6,
+            "endX": 51.8,
+            "endY": 57.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rômulo",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 12,
+            "x": 51.8,
+            "y": 57.4,
+            "endX": 44.5,
+            "endY": 52.5,
+            "exitoso": false
+          },
+          {
             "jugador": "Assan Ouédraogo",
             "tipo": "Pass",
             "minuto": 62,
@@ -562,7 +584,12 @@
             "endY": 40.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Diogo Leite",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

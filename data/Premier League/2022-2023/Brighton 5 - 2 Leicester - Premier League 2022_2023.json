@@ -404,6 +404,17 @@
         "secuencia_gol": [
           {
             "jugador": "Enock Mwepu",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 22,
+            "x": 47.2,
+            "y": 29.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enock Mwepu",
             "tipo": "TakeOn",
             "minuto": 14,
             "segundo": 24,
@@ -424,7 +435,12 @@
             "endY": 35.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "James Maddison",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

@@ -394,6 +394,39 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Stefan de Vrij",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 7,
+            "x": 25.7,
+            "y": 82.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan de Vrij",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 8,
+            "x": 25.7,
+            "y": 83.3,
+            "endX": 46.8,
+            "endY": 84.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 16,
+            "x": 46.8,
+            "y": 84.3,
+            "endX": 73.3,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexis Sánchez",
             "tipo": "Pass",
             "minuto": 18,
@@ -448,7 +481,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Oumar Solet",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

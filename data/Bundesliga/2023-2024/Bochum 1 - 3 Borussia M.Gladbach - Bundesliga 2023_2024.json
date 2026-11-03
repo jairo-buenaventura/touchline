@@ -443,6 +443,28 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Philipp Hofmann",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 34,
+            "x": 89.9,
+            "y": 88.6,
+            "endX": 89.2,
+            "endY": 58.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Philipp Förster",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 37,
+            "x": 89.2,
+            "y": 58.4,
+            "endX": 74.1,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Philipp Förster",
             "tipo": "Pass",
             "minuto": 67,
@@ -486,7 +508,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julian Weigl",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4611,6 +4638,28 @@
         "secuencia_gol": [
           {
             "jugador": "Luca Netz",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 59,
+            "x": 69.8,
+            "y": 85.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Netz",
+            "tipo": "TakeOn",
+            "minuto": 26,
+            "segundo": 0,
+            "x": 68.1,
+            "y": 78.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Netz",
             "tipo": "Pass",
             "minuto": 26,
             "segundo": 2,
@@ -4631,7 +4680,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Erhan Masovic",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -4653,6 +4707,17 @@
         "secuencia_gol": [
           {
             "jugador": "Max Wöber",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 3,
+            "x": 88.0,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Wöber",
             "tipo": "MissedShots",
             "minuto": 36,
             "segundo": 3,
@@ -4662,7 +4727,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Bernardo",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

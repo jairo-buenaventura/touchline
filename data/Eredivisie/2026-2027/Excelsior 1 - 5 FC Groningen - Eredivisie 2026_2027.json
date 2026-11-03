@@ -4456,6 +4456,61 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Hans Hateboer",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 36.4,
+            "y": 100.0,
+            "endX": 24.7,
+            "endY": 77.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Rente",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 7,
+            "x": 24.1,
+            "y": 78.1,
+            "endX": 10.0,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 10,
+            "x": 10.0,
+            "y": 56.7,
+            "endX": 14.4,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 10,
+            "x": 14.4,
+            "y": 53.1,
+            "endX": 77.2,
+            "endY": 65.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brynjólfur Willumsson",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 18,
+            "x": 77.2,
+            "y": 65.7,
+            "endX": 83.2,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Brynjólfur Willumsson",
             "tipo": "Pass",
             "minuto": 66,
@@ -4488,7 +4543,12 @@
             "endY": 66.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Casper Widell",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -4516,7 +4576,79 @@
         "y": 57.9,
         "arco_y": 52.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nils Eggens",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 34,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.6,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pelle Clement",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 36,
+            "x": 91.6,
+            "y": 93.0,
+            "endX": 84.9,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pelle Clement",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 36,
+            "x": 84.9,
+            "y": 90.6,
+            "endX": 78.5,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tygo Land",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 37,
+            "x": 78.5,
+            "y": 75.2,
+            "endX": 77.9,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tygo Land",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 37,
+            "x": 77.9,
+            "y": 72.0,
+            "endX": 89.2,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tika de Jonge",
+            "tipo": "MissedShots",
+            "minuto": 94,
+            "segundo": 39,
+            "x": 89.2,
+            "y": 56.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Rick Meissen",
+          "portero": false
+        }
       }
     ],
     "corners": [

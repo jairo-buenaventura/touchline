@@ -540,7 +540,24 @@
         "y": 45.7,
         "arco_y": 53.6,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "Aerial",
+            "minuto": 40,
+            "segundo": 8,
+            "x": 95.9,
+            "y": 45.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Samuele Angori",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -550,7 +567,24 @@
         "y": 53.4,
         "arco_y": 48.3,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 29,
+            "x": 94.9,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Simone Canestrelli",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -745,6 +779,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Federico Dimarco",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 36,
+            "x": 55.8,
+            "y": 67.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 36,
+            "x": 54.6,
+            "y": 64.5,
+            "endX": 75.6,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 40,
+            "x": 75.6,
+            "y": 53.8,
+            "endX": 84.7,
+            "endY": 61.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ange-Yoan Bonny",
             "tipo": "TakeOn",
             "minuto": 85,
@@ -755,7 +822,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Francesco Coppola",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -786,6 +858,17 @@
         "secuencia_gol": [
           {
             "jugador": "Yann Bisseck",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 32,
+            "x": 91.6,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Bisseck",
             "tipo": "SavedShot",
             "minuto": 92,
             "segundo": 32,
@@ -806,7 +889,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Idrissa Touré",
+          "portero": false
+        }
       }
     ],
     "corners": [

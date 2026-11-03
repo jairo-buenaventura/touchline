@@ -448,6 +448,61 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Borja Iglesias",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 50,
+            "x": 41.2,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Borja Iglesias",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 54,
+            "x": 62.4,
+            "y": 67.6,
+            "endX": 73.2,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 59,
+            "x": 73.2,
+            "y": 85.5,
+            "endX": 85.8,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 59,
+            "x": 85.8,
+            "y": 73.9,
+            "endX": 85.0,
+            "endY": 47.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Juan Miranda",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 5,
+            "x": 85.0,
+            "y": 47.0,
+            "endX": 58.3,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Juan Miranda",
             "tipo": "Pass",
             "minuto": 47,
@@ -700,7 +755,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jaume Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

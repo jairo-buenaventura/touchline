@@ -389,6 +389,83 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Rubén Alcaraz",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 7,
+            "x": 25.7,
+            "y": 23.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Alcaraz",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 7,
+            "x": 25.1,
+            "y": 24.9,
+            "endX": 18.5,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aiham Ousou",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 8,
+            "x": 19.4,
+            "y": 18.4,
+            "endX": 21.9,
+            "endY": 17.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Maxi Gómez",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 21.9,
+            "y": 17.0,
+            "endX": 42.9,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Gómez",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 42.9,
+            "y": 5.2,
+            "endX": 40.4,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Alcaraz",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 14,
+            "x": 40.9,
+            "y": 23.1,
+            "endX": 51.6,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Navarro",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 16,
+            "x": 51.6,
+            "y": 24.6,
+            "endX": 55.7,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Robert Navarro",
             "tipo": "TakeOn",
             "minuto": 23,
@@ -454,7 +531,12 @@
             "endY": 47.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rodrigo De Paul",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

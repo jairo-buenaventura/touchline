@@ -436,6 +436,28 @@
         "arco_z": 26.0,
         "secuencia_gol": [
           {
+            "jugador": "Elliot Stroud",
+            "tipo": "BlockedPass",
+            "minuto": 73,
+            "segundo": 15,
+            "x": 90.0,
+            "y": 88.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elliot Stroud",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 17,
+            "x": 91.2,
+            "y": 70.3,
+            "endX": 85.0,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Belloumi",
             "tipo": "TakeOn",
             "minuto": 73,
@@ -446,7 +468,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jarrad Branthwaite",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -3973,6 +4000,28 @@
         "secuencia_gol": [
           {
             "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 27,
+            "x": 62.9,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 28,
+            "x": 69.2,
+            "y": 39.1,
+            "endX": 70.3,
+            "endY": 40.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kiernan Dewsbury-Hall",
             "tipo": "BallTouch",
             "minuto": 67,
             "segundo": 28,
@@ -3982,7 +4031,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Semi Ajayi",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

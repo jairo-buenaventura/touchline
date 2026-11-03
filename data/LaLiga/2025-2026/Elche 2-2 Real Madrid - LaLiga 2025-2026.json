@@ -443,6 +443,17 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "André Silva",
+            "tipo": "BlockedPass",
+            "minuto": 51,
+            "segundo": 12,
+            "x": 90.1,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Victor Chust",
             "tipo": "Pass",
             "minuto": 51,
@@ -761,7 +772,12 @@
             "endY": 57.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -5090,6 +5106,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jude Bellingham",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 88.1,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jude Bellingham",
             "tipo": "BallTouch",
             "minuto": 77,
             "segundo": 21,
@@ -5099,7 +5126,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Affengruber",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -5129,6 +5161,39 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Dean Huijsen",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 21,
+            "x": 93.7,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 22,
+            "x": 93.7,
+            "y": 37.0,
+            "endX": 89.5,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 23,
+            "x": 89.5,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kylian Mbappé",
             "tipo": "Pass",
             "minuto": 86,
@@ -5139,7 +5204,12 @@
             "endY": 51.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Iñaki Peña",
+          "portero": true
+        }
       },
       {
         "minuto": 90,

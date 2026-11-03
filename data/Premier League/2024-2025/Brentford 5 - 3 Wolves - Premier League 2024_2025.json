@@ -405,6 +405,28 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Christian Nørgaard",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 32,
+            "x": 34.9,
+            "y": 72.5,
+            "endX": 61.8,
+            "endY": 93.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kristoffer Ajer",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 44,
+            "x": 61.8,
+            "y": 93.8,
+            "endX": 36.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Kristoffer Ajer",
             "tipo": "Pass",
             "minuto": 0,
@@ -547,7 +569,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nélson Semedo",
+          "portero": false
+        }
       },
       {
         "minuto": 2,
@@ -761,7 +788,79 @@
         "y": 47.6,
         "arco_y": 46.8,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yehor Yarmoliuk",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 42,
+            "x": 60.5,
+            "y": 38.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yehor Yarmoliuk",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 44,
+            "x": 60.5,
+            "y": 38.9,
+            "endX": 69.6,
+            "endY": 36.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 47,
+            "x": 69.6,
+            "y": 36.6,
+            "endX": 73.9,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 47,
+            "x": 73.9,
+            "y": 55.1,
+            "endX": 79.8,
+            "endY": 72.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keane Lewis-Potter",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 51,
+            "x": 79.8,
+            "y": 72.8,
+            "endX": 86.9,
+            "endY": 70.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keane Lewis-Potter",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 51,
+            "x": 86.9,
+            "y": 70.7,
+            "endX": 95.4,
+            "endY": 49.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sam Johnstone",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -4803,6 +4902,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mario Lemina",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 37,
+            "x": 93.8,
+            "y": 44.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Lemina",
             "tipo": "MissedShots",
             "minuto": 92,
             "segundo": 37,
@@ -4834,7 +4944,12 @@
             "endY": 80.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ethan Pinnock",
+          "portero": false
+        }
       }
     ],
     "corners": [

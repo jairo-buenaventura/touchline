@@ -431,6 +431,39 @@
         "secuencia_gol": [
           {
             "jugador": "Daniel Lovitz",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 20,
+            "x": 40.0,
+            "y": 77.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Lovitz",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 20,
+            "x": 38.2,
+            "y": 79.3,
+            "endX": 39.4,
+            "endY": 79.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daniel Lovitz",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 37,
+            "x": 39.4,
+            "y": 79.7,
+            "endX": 42.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Lovitz",
             "tipo": "Pass",
             "minuto": 52,
             "segundo": 37,
@@ -506,7 +539,12 @@
             "endY": 54.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sean Zawadzki",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -3890,7 +3928,24 @@
         "y": 43.9,
         "arco_y": 52.8,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marino Hinestroza",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 29,
+            "x": 96.2,
+            "y": 42.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Taylor Washington",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

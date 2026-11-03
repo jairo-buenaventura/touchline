@@ -434,7 +434,24 @@
         "y": 54.4,
         "arco_y": 53.4,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Xavier Mbuyamba",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 39,
+            "x": 94.2,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Érick Gutiérrez",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -444,7 +461,57 @@
         "y": 45.8,
         "arco_y": 52.7,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Derry John Murkin",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 48,
+            "x": 63.9,
+            "y": 100.0,
+            "endX": 79.7,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henk Veerman",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 50,
+            "x": 79.7,
+            "y": 86.2,
+            "endX": 75.4,
+            "endY": 64.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaetano Oristanio",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 53,
+            "x": 77.8,
+            "y": 63.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaetano Oristanio",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 53,
+            "x": 82.1,
+            "y": 55.9,
+            "endX": 82.5,
+            "endY": 52.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Patrick van Aanholt",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4844,6 +4911,17 @@
         "secuencia_gol": [
           {
             "jugador": "Érick Gutiérrez",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 29,
+            "x": 96.0,
+            "y": 38.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Érick Gutiérrez",
             "tipo": "Pass",
             "minuto": 57,
             "segundo": 30,
@@ -4853,7 +4931,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Derry John Murkin",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

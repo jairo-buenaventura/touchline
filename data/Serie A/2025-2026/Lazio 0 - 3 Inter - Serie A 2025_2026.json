@@ -4293,6 +4293,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marcus Thuram",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 40,
+            "x": 93.9,
+            "y": 38.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
             "tipo": "Pass",
             "minuto": 5,
             "segundo": 40,
@@ -4302,7 +4313,12 @@
             "endY": 48.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nicolò Rovella",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -4408,6 +4424,50 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Andy Diouf",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 88.5,
+            "y": 23.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 89.0,
+            "y": 32.6,
+            "endX": 90.6,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 46,
+            "x": 90.6,
+            "y": 46.8,
+            "endX": 91.0,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 46,
+            "x": 91.0,
+            "y": 41.1,
+            "endX": 86.5,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Henrikh Mkhitaryan",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -4418,7 +4478,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Adam Marusic",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

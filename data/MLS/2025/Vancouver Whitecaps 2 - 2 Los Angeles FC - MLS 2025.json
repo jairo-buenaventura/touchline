@@ -460,6 +460,72 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Andrés Cubas",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 32,
+            "x": 64.1,
+            "y": 20.1,
+            "endX": 70.1,
+            "endY": 13.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édier Ocampo",
+            "tipo": "BallTouch",
+            "minuto": 69,
+            "segundo": 33,
+            "x": 68.7,
+            "y": 13.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 36,
+            "x": 67.8,
+            "y": 16.2,
+            "endX": 78.0,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emmanuel Sabbi",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 41,
+            "x": 78.0,
+            "y": 86.9,
+            "endX": 79.9,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emmanuel Sabbi",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 41,
+            "x": 79.9,
+            "y": 70.9,
+            "endX": 89.7,
+            "endY": 59.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ali Ahmed",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 43,
+            "x": 89.7,
+            "y": 59.9,
+            "endX": 96.0,
+            "endY": 40.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Ali Ahmed",
             "tipo": "Pass",
             "minuto": 69,
@@ -470,7 +536,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Igor Jesus",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4643,7 +4714,57 @@
         "y": 58.7,
         "arco_y": 52.6,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Aerial",
+            "minuto": 7,
+            "segundo": 11,
+            "x": 95.4,
+            "y": 40.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 12,
+            "x": 96.1,
+            "y": 32.5,
+            "endX": 92.8,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eddie Segura",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 13,
+            "x": 92.8,
+            "y": 53.4,
+            "endX": 96.0,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eddie Segura",
+            "tipo": "SavedShot",
+            "minuto": 7,
+            "segundo": 13,
+            "x": 96.0,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yohei Takaoka",
+          "portero": true
+        }
       },
       {
         "minuto": 18,

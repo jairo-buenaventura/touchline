@@ -435,6 +435,39 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 7,
+            "x": 26.7,
+            "y": 7.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 9,
+            "x": 39.9,
+            "y": 5.0,
+            "endX": 68.9,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Boniface",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 12,
+            "x": 69.3,
+            "y": 14.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Victor Boniface",
             "tipo": "TakeOn",
             "minuto": 20,
@@ -445,7 +478,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christoph Zimmermann",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -1027,6 +1065,39 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Nathan Tella",
+            "tipo": "CornerAwarded",
+            "minuto": 81,
+            "segundo": 16,
+            "x": 96.3,
+            "y": 30.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Hofmann",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.5,
+            "endY": 49.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 94.5,
+            "y": 49.9,
+            "endX": 78.7,
+            "endY": 85.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Josip Stanisic",
             "tipo": "Pass",
             "minuto": 81,
@@ -1114,7 +1185,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fabian Holland",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -6304,7 +6380,24 @@
         "y": 43.9,
         "arco_y": 51.6,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Oscar Vilhelmsson",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 57,
+            "x": 98.3,
+            "y": 46.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Exequiel Palacios",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

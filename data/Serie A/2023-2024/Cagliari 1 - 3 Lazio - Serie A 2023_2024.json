@@ -4725,7 +4725,79 @@
         "y": 40.5,
         "arco_y": 47.1,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ciro Immobile",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 36,
+            "x": 64.6,
+            "y": 23.6,
+            "endX": 56.3,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 56.3,
+            "y": 52.8,
+            "endX": 69.4,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 69.4,
+            "y": 54.2,
+            "endX": 72.2,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Anderson",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 46,
+            "x": 72.2,
+            "y": 84.5,
+            "endX": 85.9,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Anderson",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 46,
+            "x": 85.9,
+            "y": 72.4,
+            "endX": 86.3,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustav Isaksen",
+            "tipo": "SavedShot",
+            "minuto": 48,
+            "segundo": 47,
+            "x": 85.7,
+            "y": 55.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Simone Scuffet",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -4754,6 +4826,50 @@
         "arco_y": 53.6,
         "arco_z": 15.8,
         "secuencia_gol": [
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 22,
+            "x": 39.0,
+            "y": 59.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 22,
+            "x": 39.0,
+            "y": 59.4,
+            "endX": 37.1,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Vecino",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 25,
+            "x": 37.1,
+            "y": 55.8,
+            "endX": 59.3,
+            "endY": 75.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 31,
+            "x": 59.3,
+            "y": 75.7,
+            "endX": 74.2,
+            "endY": 72.2,
+            "exitoso": true
+          },
           {
             "jugador": "Valentín Castellanos",
             "tipo": "TakeOn",
@@ -4787,7 +4903,12 @@
             "endY": 77.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alberto Dossena",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

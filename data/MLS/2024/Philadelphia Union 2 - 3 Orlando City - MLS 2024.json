@@ -409,6 +409,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Jack McGlynn",
+            "tipo": "CornerAwarded",
+            "minuto": 10,
+            "segundo": 11,
+            "x": 86.2,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kai Wagner",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 2,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.2,
+            "endY": 48.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 7,
+            "x": 95.2,
+            "y": 48.8,
+            "endX": 75.6,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Quinn Sullivan",
             "tipo": "Pass",
             "minuto": 11,
@@ -463,7 +496,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robin Jansson",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -4817,7 +4855,24 @@
         "y": 53.0,
         "arco_y": 49.0,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Duncan McGuire",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 17,
+            "x": 95.2,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Damion Lowe",
+          "portero": false
+        }
       },
       {
         "minuto": 37,

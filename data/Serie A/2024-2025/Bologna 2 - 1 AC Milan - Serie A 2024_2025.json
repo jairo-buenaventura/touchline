@@ -426,6 +426,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lorenzo De Silvestri",
+            "tipo": "Aerial",
+            "minuto": 47,
+            "segundo": 22,
+            "x": 91.8,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo De Silvestri",
             "tipo": "MissedShots",
             "minuto": 47,
             "segundo": 22,
@@ -446,7 +457,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Strahinja Pavlovic",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -4770,7 +4786,57 @@
         "y": 56.2,
         "arco_y": 51.6,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 64.2,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 62.1,
+            "y": 43.0,
+            "endX": 78.2,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 40,
+            "x": 78.2,
+            "y": 47.2,
+            "endX": 89.8,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 40,
+            "x": 89.8,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lukasz Skorupski",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

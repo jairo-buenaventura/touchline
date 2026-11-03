@@ -466,6 +466,28 @@
         "secuencia_gol": [
           {
             "jugador": "Victor Pálsson",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 39,
+            "x": 24.5,
+            "y": 1.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Pálsson",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 40,
+            "x": 23.8,
+            "y": 2.9,
+            "endX": 25.6,
+            "endY": 2.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Victor Pálsson",
             "tipo": "Pass",
             "minuto": 64,
             "segundo": 0,
@@ -552,7 +574,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Benjamín Cremaschi",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -572,6 +599,116 @@
         "arco_y": 51.3,
         "arco_z": 4.4,
         "secuencia_gol": [
+          {
+            "jugador": "Lewis O'Brien",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 4,
+            "x": 31.2,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis O'Brien",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 4,
+            "x": 31.6,
+            "y": 46.8,
+            "endX": 10.5,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Miller",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 13,
+            "x": 10.5,
+            "y": 46.0,
+            "endX": 22.2,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Miller",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 13,
+            "x": 22.2,
+            "y": 44.6,
+            "endX": 29.6,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Pálsson",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 16,
+            "x": 29.6,
+            "y": 18.0,
+            "endX": 32.0,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Pálsson",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 16,
+            "x": 32.0,
+            "y": 15.8,
+            "endX": 45.0,
+            "endY": 17.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yamil Asad",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 16,
+            "x": 45.0,
+            "y": 17.7,
+            "endX": 51.7,
+            "endY": 2.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Nájar",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 19,
+            "x": 51.7,
+            "y": 2.9,
+            "endX": 47.0,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yamil Asad",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 20,
+            "x": 47.0,
+            "y": 11.1,
+            "endX": 66.0,
+            "endY": 3.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Victor Pálsson",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 2,
+            "x": 66.0,
+            "y": 3.7,
+            "endX": 63.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Victor Pálsson",
             "tipo": "Pass",
@@ -616,7 +753,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Noah Allen",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

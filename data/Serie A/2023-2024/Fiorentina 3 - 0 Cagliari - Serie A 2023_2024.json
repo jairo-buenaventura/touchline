@@ -395,6 +395,28 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Nikola Milenkovic",
+            "tipo": "Aerial",
+            "minuto": 1,
+            "segundo": 59,
+            "x": 89.4,
+            "y": 31.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Milenkovic",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 59,
+            "x": 90.1,
+            "y": 31.2,
+            "endX": 96.1,
+            "endY": 47.8,
+            "exitoso": false
+          },
+          {
             "jugador": "Lucas Beltrán",
             "tipo": "BallTouch",
             "minuto": 2,
@@ -405,7 +427,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Boris Radunovic",
+          "portero": true
+        }
       },
       {
         "minuto": 7,

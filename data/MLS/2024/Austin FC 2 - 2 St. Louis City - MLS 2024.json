@@ -367,7 +367,24 @@
         "y": 42.7,
         "arco_y": 53.7,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matt Hedges",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 22,
+            "x": 95.4,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Samuel Adeniran",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -378,6 +395,50 @@
         "arco_y": 47.9,
         "arco_z": 22.8,
         "secuencia_gol": [
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 70.5,
+            "y": 23.0,
+            "endX": 76.3,
+            "endY": 16.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jon Gallagher",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 59,
+            "x": 76.3,
+            "y": 16.6,
+            "endX": 86.1,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gallagher",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 59,
+            "x": 86.1,
+            "y": 0.0,
+            "endX": 89.7,
+            "endY": 43.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jáder Obrian",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 89.7,
+            "y": 43.2,
+            "endX": 76.6,
+            "endY": 65.3,
+            "exitoso": true
+          },
           {
             "jugador": "Jáder Obrian",
             "tipo": "Pass",
@@ -400,7 +461,12 @@
             "endY": 48.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Joakim Nilsson",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

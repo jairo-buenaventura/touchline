@@ -455,6 +455,61 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Chancel Mbemba",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 44,
+            "x": 48.2,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chancel Mbemba",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 47,
+            "x": 48.5,
+            "y": 60.4,
+            "endX": 44.9,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 55,
+            "x": 44.9,
+            "y": 39.1,
+            "endX": 68.1,
+            "endY": 56.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 55,
+            "x": 68.1,
+            "y": 56.8,
+            "endX": 71.2,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osame Sahraoui",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 5,
+            "x": 71.2,
+            "y": 91.0,
+            "endX": 75.2,
+            "endY": 71.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Osame Sahraoui",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -498,7 +553,12 @@
             "endY": 54.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierre Lees-Melou",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -4630,7 +4690,145 @@
         "y": 56.1,
         "arco_y": 48.7,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Willem Geubbels",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 16,
+            "x": 86.1,
+            "y": 47.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willem Geubbels",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 16,
+            "x": 86.1,
+            "y": 47.1,
+            "endX": 86.3,
+            "endY": 57.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 20,
+            "x": 86.3,
+            "y": 57.6,
+            "endX": 61.5,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 20,
+            "x": 61.5,
+            "y": 29.2,
+            "endX": 72.4,
+            "endY": 8.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Camara",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 24,
+            "x": 72.1,
+            "y": 9.4,
+            "endX": 63.6,
+            "endY": 19.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 26,
+            "x": 63.6,
+            "y": 19.1,
+            "endX": 69.8,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 26,
+            "x": 69.8,
+            "y": 23.5,
+            "endX": 70.1,
+            "endY": 30.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vincent Marchetti",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 29,
+            "x": 70.1,
+            "y": 30.3,
+            "endX": 71.6,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vincent Marchetti",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 29,
+            "x": 71.6,
+            "y": 38.5,
+            "endX": 77.5,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 30,
+            "x": 76.7,
+            "y": 46.1,
+            "endX": 71.8,
+            "endY": 49.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vincent Marchetti",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 30,
+            "x": 71.8,
+            "y": 49.4,
+            "endX": 73.4,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vincent Marchetti",
+            "tipo": "SavedShot",
+            "minuto": 10,
+            "segundo": 30,
+            "x": 73.4,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Chancel Mbemba",
+          "portero": true
+        }
       },
       {
         "minuto": 46,
@@ -4668,6 +4866,138 @@
         "arco_y": 53.3,
         "arco_z": 5.1,
         "secuencia_gol": [
+          {
+            "jugador": "Thibault De Smet",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 53,
+            "x": 39.4,
+            "y": 97.3,
+            "endX": 33.0,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothée Kolodziejczak",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 55,
+            "x": 33.0,
+            "y": 72.3,
+            "endX": 33.2,
+            "endY": 69.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothée Kolodziejczak",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 55,
+            "x": 33.2,
+            "y": 69.1,
+            "endX": 33.5,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moustapha Mbow",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 33.5,
+            "y": 35.1,
+            "endX": 37.1,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moustapha Mbow",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 37.1,
+            "y": 46.1,
+            "endX": 34.9,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothée Kolodziejczak",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 5,
+            "x": 34.9,
+            "y": 75.0,
+            "endX": 41.5,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothée Kolodziejczak",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 5,
+            "x": 41.5,
+            "y": 92.3,
+            "endX": 65.8,
+            "endY": 98.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thibault De Smet",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 8,
+            "x": 65.8,
+            "y": 98.4,
+            "endX": 63.8,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thibault De Smet",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 8,
+            "x": 63.8,
+            "y": 89.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thibault De Smet",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 10,
+            "x": 57.6,
+            "y": 96.7,
+            "endX": 53.5,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Camara",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 13,
+            "x": 53.5,
+            "y": 80.8,
+            "endX": 52.9,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Camara",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 13,
+            "x": 52.9,
+            "y": 57.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Adama Camara",
             "tipo": "Pass",
@@ -4712,7 +5042,12 @@
             "endY": 45.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Olivier Giroud",
+          "portero": false
+        }
       }
     ],
     "corners": [

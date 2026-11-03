@@ -432,6 +432,72 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Carney Chukwuemeka",
+            "tipo": "BallRecovery",
+            "minuto": 43,
+            "segundo": 2,
+            "x": 66.7,
+            "y": 5.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carney Chukwuemeka",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 2,
+            "x": 66.7,
+            "y": 5.5,
+            "endX": 65.0,
+            "endY": 7.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 4,
+            "x": 64.9,
+            "y": 7.3,
+            "endX": 77.0,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 7,
+            "x": 77.0,
+            "y": 4.9,
+            "endX": 87.6,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 7,
+            "x": 87.6,
+            "y": 6.8,
+            "endX": 87.9,
+            "endY": 29.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Karim Adeyemi",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 8,
+            "x": 87.9,
+            "y": 29.3,
+            "endX": 86.2,
+            "endY": 39.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Karim Adeyemi",
             "tipo": "BallTouch",
             "minuto": 43,
@@ -442,7 +508,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nico Elvedi",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -461,7 +532,90 @@
         "y": 56.5,
         "arco_y": 46.8,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 44,
+            "x": 52.7,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 45,
+            "x": 52.7,
+            "y": 53.0,
+            "endX": 56.2,
+            "endY": 31.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Nmecha",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 56.2,
+            "y": 31.7,
+            "endX": 62.8,
+            "endY": 30.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Nmecha",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 62.8,
+            "y": 30.5,
+            "endX": 71.0,
+            "endY": 18.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carney Chukwuemeka",
+            "tipo": "TakeOn",
+            "minuto": 48,
+            "segundo": 52,
+            "x": 72.0,
+            "y": 20.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carney Chukwuemeka",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 56,
+            "x": 89.5,
+            "y": 24.5,
+            "endX": 87.5,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Serhou Guirassy",
+            "tipo": "SavedShot",
+            "minuto": 48,
+            "segundo": 57,
+            "x": 87.3,
+            "y": 46.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonas Omlin",
+          "portero": true
+        }
       },
       {
         "minuto": 59,

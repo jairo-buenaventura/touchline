@@ -514,6 +514,127 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Martin Dúbravka",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 31,
+            "x": 4.4,
+            "y": 48.1,
+            "endX": 5.8,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamaal Lascelles",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 40,
+            "x": 5.8,
+            "y": 38.5,
+            "endX": 27.2,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamaal Lascelles",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 40,
+            "x": 27.2,
+            "y": 28.9,
+            "endX": 29.6,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Krafth",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 28.0,
+            "y": 12.0,
+            "endX": 47.2,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 45,
+            "x": 46.2,
+            "y": 10.4,
+            "endX": 46.2,
+            "endY": 29.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 49,
+            "x": 47.4,
+            "y": 30.5,
+            "endX": 63.4,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tino Livramento",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 57,
+            "x": 63.4,
+            "y": 92.4,
+            "endX": 77.4,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tino Livramento",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 57,
+            "x": 77.4,
+            "y": 70.6,
+            "endX": 71.4,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 58,
+            "x": 69.4,
+            "y": 54.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "TakeOn",
+            "minuto": 56,
+            "segundo": 1,
+            "x": 73.9,
+            "y": 43.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 82.3,
+            "y": 39.8,
+            "endX": 85.3,
+            "endY": 39.5,
+            "exitoso": false
+          },
+          {
             "jugador": "Bruno Guimarães",
             "tipo": "BallTouch",
             "minuto": 56,
@@ -524,7 +645,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Antonee Robinson",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -594,7 +720,79 @@
         "y": 52.0,
         "arco_y": 52.6,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 55,
+            "x": 92.5,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "BallTouch",
+            "minuto": 80,
+            "segundo": 56,
+            "x": 91.0,
+            "y": 47.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Gordon",
+            "tipo": "BallTouch",
+            "minuto": 80,
+            "segundo": 56,
+            "x": 93.0,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "SavedShot",
+            "minuto": 80,
+            "segundo": 58,
+            "x": 87.8,
+            "y": 35.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 2,
+            "x": 89.0,
+            "y": 29.1,
+            "endX": 96.9,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "SavedShot",
+            "minuto": 81,
+            "segundo": 4,
+            "x": 96.7,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Bernd Leno",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

@@ -554,6 +554,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 19,
+            "x": 7.4,
+            "y": 0.0,
+            "endX": 4.0,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Rodríguez",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 20,
+            "x": 4.0,
+            "y": 5.6,
+            "endX": 31.0,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 21,
+            "x": 31.0,
+            "y": 16.9,
+            "endX": 26.0,
+            "endY": 10.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 21,
+            "x": 26.0,
+            "y": 10.8,
+            "endX": 30.4,
+            "endY": 9.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fran Beltrán",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 23,
+            "x": 30.4,
+            "y": 9.6,
+            "endX": 34.4,
+            "endY": 32.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Fran Beltrán",
             "tipo": "Pass",
             "minuto": 27,
@@ -586,7 +641,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jesús Vázquez",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -623,7 +683,35 @@
         "y": 58.5,
         "arco_y": 46.9,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Williot Swedberg",
+            "tipo": "CornerAwarded",
+            "minuto": 58,
+            "segundo": 47,
+            "x": 87.2,
+            "y": 37.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 26,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 92.2,
+            "endY": 44.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yarek Gasiorowski",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4804,6 +4892,17 @@
         "secuencia_gol": [
           {
             "jugador": "Yarek Gasiorowski",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 24,
+            "x": 86.0,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yarek Gasiorowski",
             "tipo": "Pass",
             "minuto": 13,
             "segundo": 24,
@@ -4835,7 +4934,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Damián Rodríguez",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

@@ -400,7 +400,46 @@
         "y": 55.7,
         "arco_y": 51.4,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 14,
+            "x": 64.6,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 15,
+            "x": 72.5,
+            "y": 23.0,
+            "endX": 87.1,
+            "endY": 21.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Barroso",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 16,
+            "x": 88.5,
+            "y": 22.3,
+            "endX": 97.7,
+            "endY": 44.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thomas Gillier",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -519,7 +558,68 @@
         "y": 55.3,
         "arco_y": 52.9,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maren Haile-Selassie",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 46,
+            "x": 36.0,
+            "y": 100.0,
+            "endX": 53.0,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "Carry",
+            "minuto": 98,
+            "segundo": 50,
+            "x": 53.0,
+            "y": 74.8,
+            "endX": 54.0,
+            "endY": 66.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "BallTouch",
+            "minuto": 98,
+            "segundo": 50,
+            "x": 54.0,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Barroso",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 56,
+            "x": 75.1,
+            "y": 56.0,
+            "endX": 92.0,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 58,
+            "x": 93.0,
+            "y": 26.5,
+            "endX": 94.5,
+            "endY": 29.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Noah Streit",
+          "portero": false
+        }
       }
     ],
     "corners": [

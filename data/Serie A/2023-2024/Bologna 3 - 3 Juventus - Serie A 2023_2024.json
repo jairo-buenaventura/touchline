@@ -412,7 +412,35 @@
         "y": 46.4,
         "arco_y": 53.4,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jhon Lucumí",
+            "tipo": "Aerial",
+            "minuto": 1,
+            "segundo": 25,
+            "x": 92.5,
+            "y": 43.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Santiago Castro",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 27,
+            "x": 97.0,
+            "y": 32.8,
+            "endX": 97.2,
+            "endY": 46.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Danilo",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -636,6 +664,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Kacper Urbanski",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 67.2,
+            "y": 67.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kacper Urbanski",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 65.4,
+            "y": 67.3,
+            "endX": 76.9,
+            "endY": 59.7,
+            "exitoso": false
+          },
+          {
             "jugador": "Santiago Castro",
             "tipo": "BallTouch",
             "minuto": 52,
@@ -646,7 +696,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Danilo",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

@@ -4753,6 +4753,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alfred Duncan",
+            "tipo": "Aerial",
+            "minuto": 18,
+            "segundo": 0,
+            "x": 55.4,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfred Duncan",
             "tipo": "Pass",
             "minuto": 18,
             "segundo": 0,
@@ -4806,7 +4817,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mario Pasalic",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4836,6 +4852,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Cristiano Biraghi",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 54,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.5,
+            "endY": 41.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas Beltrán",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 57,
+            "x": 97.5,
+            "y": 41.1,
+            "endX": 89.0,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Beltrán",
             "tipo": "SavedShot",
             "minuto": 45,
@@ -4857,7 +4895,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rafael Tolói",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

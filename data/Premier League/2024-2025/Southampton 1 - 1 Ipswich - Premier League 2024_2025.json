@@ -385,6 +385,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Cameron Archer",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 52,
+            "x": 90.4,
+            "y": 74.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Archer",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 52,
+            "x": 91.4,
+            "y": 74.1,
+            "endX": 85.4,
+            "endY": 75.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateus Fernandes",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 54,
+            "x": 85.3,
+            "y": 75.3,
+            "endX": 73.6,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lallana",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 56,
+            "x": 73.6,
+            "y": 61.4,
+            "endX": 71.7,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lallana",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 56,
+            "x": 71.7,
+            "y": 57.9,
+            "endX": 85.9,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Tyler Dibling",
             "tipo": "TakeOn",
             "minuto": 4,
@@ -395,7 +450,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jacob Greaves",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4772,7 +4832,24 @@
         "y": 51.8,
         "arco_y": 54.2,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leif Davis",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 13,
+            "x": 99.6,
+            "y": 0.2,
+            "endX": 95.8,
+            "endY": 48.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ben Brereton",
+          "portero": false
+        }
       }
     ],
     "corners": [

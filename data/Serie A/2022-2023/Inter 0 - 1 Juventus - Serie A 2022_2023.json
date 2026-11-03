@@ -5206,6 +5206,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Mattia De Sciglio",
+            "tipo": "BlockedPass",
+            "minuto": 21,
+            "segundo": 29,
+            "x": 3.4,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wojciech Szczesny",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 53,
+            "x": 4.7,
+            "y": 51.5,
+            "endX": 15.9,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 57,
+            "x": 17.9,
+            "y": 92.1,
+            "endX": 55.3,
+            "endY": 90.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Danilo",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 18,
+            "x": 55.3,
+            "y": 90.7,
+            "endX": 39.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Danilo",
             "tipo": "Pass",
             "minuto": 22,
@@ -5337,7 +5381,12 @@
             "endY": 70.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Stefan de Vrij",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

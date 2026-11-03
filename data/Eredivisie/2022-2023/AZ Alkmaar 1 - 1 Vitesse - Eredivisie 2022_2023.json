@@ -5273,6 +5273,50 @@
         "secuencia_gol": [
           {
             "jugador": "Sondre Tronstad",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 59,
+            "x": 71.2,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sondre Tronstad",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 1,
+            "x": 71.8,
+            "y": 34.1,
+            "endX": 79.4,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romaric Yapi",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 4,
+            "x": 78.7,
+            "y": 25.1,
+            "endX": 79.0,
+            "endY": 27.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sondre Tronstad",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 10,
+            "x": 79.0,
+            "y": 27.7,
+            "endX": 73.6,
+            "endY": 49.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sondre Tronstad",
             "tipo": "Pass",
             "minuto": 86,
             "segundo": 10,
@@ -5326,7 +5370,12 @@
             "endY": 51.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mees de Wit",
+          "portero": false
+        }
       }
     ],
     "corners": [

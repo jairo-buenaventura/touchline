@@ -389,6 +389,72 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Niko Tsakiris",
+            "tipo": "BallTouch",
+            "minuto": 20,
+            "segundo": 31,
+            "x": 95.4,
+            "y": 83.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 32,
+            "x": 93.2,
+            "y": 81.4,
+            "endX": 76.9,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Harkes",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 76.9,
+            "y": 72.1,
+            "endX": 75.3,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Harkes",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 75.3,
+            "y": 68.2,
+            "endX": 72.2,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigues",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 36,
+            "x": 72.2,
+            "y": 45.4,
+            "endX": 72.2,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigues",
+            "tipo": "SavedShot",
+            "minuto": 20,
+            "segundo": 36,
+            "x": 72.2,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristian Arango",
             "tipo": "Pass",
             "minuto": 20,
@@ -410,7 +476,12 @@
             "endY": 63.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Bernard Kamungo",
+          "portero": true
+        }
       },
       {
         "minuto": 42,
@@ -5084,6 +5155,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Maarten Paes",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 37,
+            "x": 2.9,
+            "y": 51.8,
+            "endX": 71.9,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Logan Farrington",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 46,
+            "x": 71.9,
+            "y": 95.7,
+            "endX": 76.3,
+            "endY": 87.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Logan Farrington",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 46,
+            "x": 76.3,
+            "y": 87.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Logan Farrington",
             "tipo": "Pass",
             "minuto": 83,
@@ -5204,7 +5308,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bruno Wilson",
+          "portero": false
+        }
       }
     ],
     "corners": [

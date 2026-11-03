@@ -4841,6 +4841,28 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Chimy Ávila",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 8,
+            "x": 55.4,
+            "y": 23.0,
+            "endX": 90.8,
+            "endY": 93.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Romain Perraud",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 30,
+            "x": 90.8,
+            "y": 93.5,
+            "endX": 91.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Romain Perraud",
             "tipo": "Pass",
             "minuto": 31,
@@ -4961,7 +4983,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kiko Femenía",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

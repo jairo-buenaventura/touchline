@@ -450,6 +450,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rafa Mir",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 52,
+            "x": 72.2,
+            "y": 52.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafa Mir",
             "tipo": "TakeOn",
             "minuto": 45,
             "segundo": 52,
@@ -459,7 +470,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Unai Elgezabal",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

@@ -517,7 +517,35 @@
         "y": 56.3,
         "arco_y": 48.4,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Corey Baird",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 36,
+            "x": 88.2,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corey Baird",
+            "tipo": "TakeOn",
+            "minuto": 68,
+            "segundo": 37,
+            "x": 80.7,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Denil Maldonado",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -537,6 +565,17 @@
         "arco_y": 47.3,
         "arco_z": 30.4,
         "secuencia_gol": [
+          {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Aerial",
+            "minuto": 88,
+            "segundo": 10,
+            "x": 61.6,
+            "y": 9.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Franco Escobar",
             "tipo": "Pass",
@@ -603,7 +642,12 @@
             "endY": 28.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Diego Palacios",
+          "portero": false
+        }
       }
     ],
     "corners": [

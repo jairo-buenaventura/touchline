@@ -820,6 +820,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rodrigo Guth",
+            "tipo": "Aerial",
+            "minuto": 33,
+            "segundo": 41,
+            "x": 89.4,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Guth",
             "tipo": "Pass",
             "minuto": 33,
             "segundo": 41,
@@ -829,7 +840,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Redouan El Yaakoubi",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -866,7 +882,24 @@
         "y": 52.0,
         "arco_y": 53.0,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rodrigo Guth",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 39,
+            "x": 94.9,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sven Nieuwpoort",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4837,6 +4870,83 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Lance Duijvestijn",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 39,
+            "x": 67.1,
+            "y": 88.7,
+            "endX": 70.1,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cisse Sandra",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 39,
+            "x": 70.1,
+            "y": 77.6,
+            "endX": 71.9,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lance Duijvestijn",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 71.9,
+            "y": 86.8,
+            "endX": 73.4,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lance Duijvestijn",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 73.4,
+            "y": 73.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lance Duijvestijn",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 41,
+            "x": 75.4,
+            "y": 78.2,
+            "endX": 74.7,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Richie Omorowa",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 42,
+            "x": 74.7,
+            "y": 72.9,
+            "endX": 72.9,
+            "endY": 66.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cisse Sandra",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 72.9,
+            "y": 66.9,
+            "endX": 68.7,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Cisse Sandra",
             "tipo": "Pass",
             "minuto": 81,
@@ -4869,7 +4979,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kristoffer Peterson",
+          "portero": false
+        }
       }
     ],
     "corners": [

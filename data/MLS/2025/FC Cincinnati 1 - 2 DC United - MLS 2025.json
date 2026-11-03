@@ -393,6 +393,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Roman Celentano",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 51,
+            "x": 7.6,
+            "y": 45.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 54,
+            "x": 7.7,
+            "y": 45.8,
+            "endX": 15.0,
+            "endY": 65.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 56,
+            "x": 15.0,
+            "y": 65.3,
+            "endX": 10.5,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 10.5,
+            "y": 38.9,
+            "endX": 10.3,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 10.3,
+            "y": 34.6,
+            "endX": 67.3,
+            "endY": 44.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 14,
+            "x": 67.3,
+            "y": 44.6,
+            "endX": 46.9,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Pavel Bucha",
             "tipo": "Pass",
             "minuto": 14,
@@ -535,7 +601,12 @@
             "endY": 58.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lucas Bartlett",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

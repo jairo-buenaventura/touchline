@@ -431,7 +431,24 @@
         "y": 49.6,
         "arco_y": 51.4,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Bernardeschi",
+            "tipo": "SavedShot",
+            "minuto": 47,
+            "segundo": 16,
+            "x": 88.5,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maarten Paes",
+          "portero": true
+        }
       },
       {
         "minuto": 51,
@@ -509,6 +526,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Osorio",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 31,
+            "x": 29.9,
+            "y": 94.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Osorio",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 33,
+            "x": 29.9,
+            "y": 94.5,
+            "endX": 34.4,
+            "endY": 76.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deybi Flores",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 34,
+            "x": 34.2,
+            "y": 76.1,
+            "endX": 53.7,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrese Spicer",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 38,
+            "x": 53.7,
+            "y": 95.6,
+            "endX": 69.2,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Tyrese Spicer",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -541,7 +602,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sebastien Ibeagha",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

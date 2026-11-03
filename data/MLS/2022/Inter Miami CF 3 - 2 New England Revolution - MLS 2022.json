@@ -392,6 +392,39 @@
             "jugador": "Christopher McVey",
             "tipo": "Pass",
             "minuto": 15,
+            "segundo": 47,
+            "x": 22.6,
+            "y": 100.0,
+            "endX": 24.5,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gregore",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 48,
+            "x": 24.5,
+            "y": 88.3,
+            "endX": 24.9,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher McVey",
+            "tipo": "TakeOn",
+            "minuto": 15,
+            "segundo": 49,
+            "x": 22.6,
+            "y": 94.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher McVey",
+            "tipo": "Pass",
+            "minuto": 15,
             "segundo": 51,
             "x": 25.9,
             "y": 88.4,
@@ -454,7 +487,12 @@
             "endY": 52.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Arnór Ingvi Traustason",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -3981,6 +4019,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Arnór Ingvi Traustason",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 16,
+            "x": 28.2,
+            "y": 5.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnór Ingvi Traustason",
+            "tipo": "TakeOn",
+            "minuto": 9,
+            "segundo": 17,
+            "x": 32.8,
+            "y": 6.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnór Ingvi Traustason",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 20,
+            "x": 40.4,
+            "y": 4.9,
+            "endX": 41.8,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 21,
+            "x": 41.8,
+            "y": 18.9,
+            "endX": 35.2,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Carles Gil",
             "tipo": "TakeOn",
             "minuto": 9,
@@ -4233,7 +4315,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gregore",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

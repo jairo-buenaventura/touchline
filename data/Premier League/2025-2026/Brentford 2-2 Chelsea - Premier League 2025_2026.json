@@ -465,6 +465,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kristoffer Ajer",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 55,
+            "x": 94.0,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristoffer Ajer",
             "tipo": "Pass",
             "minuto": 92,
             "segundo": 56,
@@ -474,7 +485,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marc Cucurella",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3791,6 +3807,17 @@
         "secuencia_gol": [
           {
             "jugador": "João Pedro",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 91.3,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "João Pedro",
             "tipo": "BallTouch",
             "minuto": 60,
             "segundo": 32,
@@ -3800,7 +3827,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sepp van den Berg",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -3855,7 +3887,112 @@
         "y": 50.3,
         "arco_y": 54.0,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Reece James",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 59,
+            "x": 38.4,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 38.5,
+            "y": 33.5,
+            "endX": 60.7,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 5,
+            "x": 60.7,
+            "y": 7.1,
+            "endX": 69.0,
+            "endY": 4.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 5,
+            "x": 69.0,
+            "y": 4.2,
+            "endX": 61.9,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 8,
+            "x": 61.9,
+            "y": 26.7,
+            "endX": 62.2,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 8,
+            "x": 62.2,
+            "y": 31.5,
+            "endX": 67.5,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 10,
+            "x": 67.9,
+            "y": 60.2,
+            "endX": 79.4,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Garnacho",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 16,
+            "x": 79.4,
+            "y": 89.1,
+            "endX": 92.0,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Garnacho",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 16,
+            "x": 92.0,
+            "y": 74.8,
+            "endX": 88.8,
+            "endY": 47.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Keane Lewis-Potter",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

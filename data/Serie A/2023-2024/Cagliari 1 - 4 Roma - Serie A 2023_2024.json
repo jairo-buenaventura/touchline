@@ -4829,6 +4829,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Leandro Paredes",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 0,
+            "x": 35.2,
+            "y": 26.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Paredes",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 39.2,
+            "y": 25.0,
+            "endX": 68.7,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrea Belotti",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 9,
+            "x": 68.7,
+            "y": 42.7,
+            "endX": 82.2,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrea Belotti",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -4839,7 +4872,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gabriele Zappa",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

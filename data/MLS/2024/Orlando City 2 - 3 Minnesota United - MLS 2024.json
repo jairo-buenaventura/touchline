@@ -534,6 +534,17 @@
         "secuencia_gol": [
           {
             "jugador": "Martín Ojeda",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 45,
+            "x": 62.3,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Ojeda",
             "tipo": "TakeOn",
             "minuto": 82,
             "segundo": 45,
@@ -554,7 +565,12 @@
             "endY": 35.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wil Trapp",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -4748,6 +4764,17 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Robin Lod",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 45,
+            "x": 85.2,
+            "y": 57.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Caden Clark",
             "tipo": "Pass",
             "minuto": 36,
@@ -4835,7 +4862,12 @@
             "endY": 68.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rodrigo Schlegel",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4902,6 +4934,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jordan Adebayo-Smith",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 49,
+            "x": 61.7,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Adebayo-Smith",
             "tipo": "Pass",
             "minuto": 94,
             "segundo": 49,
@@ -4933,7 +4976,12 @@
             "endY": 55.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Robin Jansson",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -567,6 +567,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ianis Hagi",
+            "tipo": "Aerial",
+            "minuto": 98,
+            "segundo": 35,
+            "x": 95.4,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ianis Hagi",
             "tipo": "BallTouch",
             "minuto": 98,
             "segundo": 35,
@@ -576,7 +587,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric García",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3907,7 +3923,24 @@
         "y": 57.3,
         "arco_y": 47.1,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Eric García",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 6,
+            "x": 91.6,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nahuel Tenaglia",
+          "portero": false
+        }
       },
       {
         "minuto": 8,

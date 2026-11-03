@@ -398,7 +398,57 @@
         "y": 37.4,
         "arco_y": 52.5,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 20,
+            "x": 42.7,
+            "y": 70.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 22,
+            "x": 53.0,
+            "y": 65.7,
+            "endX": 89.1,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 25,
+            "x": 89.1,
+            "y": 30.1,
+            "endX": 86.9,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "TakeOn",
+            "minuto": 0,
+            "segundo": 25,
+            "x": 86.9,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jefferson Díaz",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -774,6 +824,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "John Nelson",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 25.6,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Nelson",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 25.6,
+            "y": 64.3,
+            "endX": 18.3,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emiro Garcés",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 36,
+            "x": 18.4,
+            "y": 43.3,
+            "endX": 35.1,
+            "endY": 13.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 39,
+            "x": 35.1,
+            "y": 13.5,
+            "endX": 36.2,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 39,
+            "x": 36.2,
+            "y": 17.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Pec",
             "tipo": "TakeOn",
             "minuto": 49,
@@ -784,7 +889,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wil Trapp",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

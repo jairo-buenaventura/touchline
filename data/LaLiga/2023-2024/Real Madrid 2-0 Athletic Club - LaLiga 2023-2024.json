@@ -713,6 +713,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 23,
+            "x": 15.6,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 24,
+            "x": 15.6,
+            "y": 51.8,
+            "endX": 25.2,
+            "endY": 60.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Toni Kroos",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 25,
+            "x": 24.5,
+            "y": 61.1,
+            "endX": 38.7,
+            "endY": 52.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 31,
+            "x": 38.7,
+            "y": 52.6,
+            "endX": 64.0,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 31,
+            "x": 64.0,
+            "y": 43.6,
+            "endX": 81.1,
+            "endY": 70.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrygo",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 35,
+            "x": 81.1,
+            "y": 70.1,
+            "endX": 93.0,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Rodrygo",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -723,7 +789,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dani Vivian",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -509,6 +509,17 @@
         "secuencia_gol": [
           {
             "jugador": "Philippe Sandler",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 58,
+            "x": 87.8,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Sandler",
             "tipo": "MissedShots",
             "minuto": 56,
             "segundo": 58,
@@ -518,7 +529,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Carel Eiting",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -548,6 +564,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Dirk Proper",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 33,
+            "x": 33.5,
+            "y": 70.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dirk Proper",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 33,
+            "x": 32.2,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dirk Proper",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 35,
+            "x": 39.0,
+            "y": 66.8,
+            "endX": 50.6,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Landry Dimata",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 37,
+            "x": 50.6,
+            "y": 49.1,
+            "endX": 48.9,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 38,
+            "x": 48.9,
+            "y": 51.9,
+            "endX": 58.4,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Oussama Tannane",
             "tipo": "TakeOn",
             "minuto": 65,
@@ -569,7 +640,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Josh Flint",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

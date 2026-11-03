@@ -4209,6 +4209,39 @@
             "jugador": "Trent Alexander-Arnold",
             "tipo": "Pass",
             "minuto": 90,
+            "segundo": 6,
+            "x": 74.4,
+            "y": 28.3,
+            "endX": 79.2,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Elliott",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 79.6,
+            "y": 22.1,
+            "endX": 93.1,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 10,
+            "x": 93.1,
+            "y": 29.8,
+            "endX": 92.5,
+            "endY": 31.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 90,
             "segundo": 10,
             "x": 95.0,
             "y": 31.6,
@@ -4216,7 +4249,12 @@
             "endY": 46.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Yehor Yarmoliuk",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -4227,6 +4265,39 @@
         "arco_y": 49.9,
         "arco_z": 30.4,
         "secuencia_gol": [
+          {
+            "jugador": "Harvey Elliott",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 21.4,
+            "y": 9.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Elliott",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 58,
+            "x": 21.8,
+            "y": 9.7,
+            "endX": 48.4,
+            "endY": 10.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 3,
+            "x": 48.4,
+            "y": 10.7,
+            "endX": 39.0,
+            "endY": 24.6,
+            "exitoso": true
+          },
           {
             "jugador": "Mohamed Salah",
             "tipo": "Pass",
@@ -4282,7 +4353,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Keane Lewis-Potter",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -391,6 +391,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rubén Vargas",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 8,
+            "x": 76.6,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rubén Vargas",
             "tipo": "BallTouch",
             "minuto": 27,
             "segundo": 9,
@@ -400,7 +411,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Affengruber",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

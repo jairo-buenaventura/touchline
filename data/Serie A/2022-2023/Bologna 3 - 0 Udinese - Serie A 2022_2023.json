@@ -380,6 +380,72 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Nikola Moro",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 56,
+            "x": 54.0,
+            "y": 91.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Moro",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 1,
+            "x": 65.3,
+            "y": 96.5,
+            "endX": 88.2,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicola Sansone",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 6,
+            "x": 88.2,
+            "y": 79.6,
+            "endX": 94.5,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicola Sansone",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 6,
+            "x": 94.5,
+            "y": 95.4,
+            "endX": 87.3,
+            "endY": 97.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Moro",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 7,
+            "x": 87.3,
+            "y": 97.7,
+            "endX": 92.0,
+            "endY": 71.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Musa Barrow",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 14,
+            "x": 92.0,
+            "y": 71.7,
+            "endX": 70.5,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Musa Barrow",
             "tipo": "Pass",
             "minuto": 2,
@@ -390,7 +456,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kingsley Ehizibue",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -400,7 +471,57 @@
         "y": 60.1,
         "arco_y": 54.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Musa Barrow",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 24,
+            "x": 67.8,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Musa Barrow",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 24,
+            "x": 67.8,
+            "y": 48.8,
+            "endX": 65.6,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Moro",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 29,
+            "x": 65.6,
+            "y": 62.4,
+            "endX": 80.9,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Moro",
+            "tipo": "TakeOn",
+            "minuto": 11,
+            "segundo": 29,
+            "x": 80.9,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lazar Samardzic",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

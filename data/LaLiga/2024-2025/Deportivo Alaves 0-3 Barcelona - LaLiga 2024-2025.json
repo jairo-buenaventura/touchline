@@ -3539,7 +3539,24 @@
         "y": 51.5,
         "arco_y": 51.4,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "Aerial",
+            "minuto": 6,
+            "segundo": 41,
+            "x": 93.4,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Abdel Abqar",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -3550,6 +3567,39 @@
         "arco_y": 50.3,
         "arco_z": 3.8,
         "secuencia_gol": [
+          {
+            "jugador": "Pedri",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 21,
+            "x": 25.4,
+            "y": 87.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 21,
+            "x": 25.9,
+            "y": 88.9,
+            "endX": 34.7,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 22,
+            "x": 34.7,
+            "y": 93.5,
+            "endX": 38.7,
+            "endY": 94.1,
+            "exitoso": true
+          },
           {
             "jugador": "Raphinha",
             "tipo": "TakeOn",
@@ -3572,7 +3622,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Abdel Abqar",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

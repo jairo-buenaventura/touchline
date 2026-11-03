@@ -463,6 +463,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolas Höfler",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 42,
+            "x": 86.4,
+            "y": 20.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Höfler",
             "tipo": "Pass",
             "minuto": 46,
             "segundo": 42,
@@ -494,7 +505,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jesper Lindstrøm",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4481,7 +4497,101 @@
         "y": 45.4,
         "arco_y": 46.1,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 42,
+            "x": 60.0,
+            "y": 71.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 43,
+            "x": 60.5,
+            "y": 70.7,
+            "endX": 69.5,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesper Lindstrøm",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 45,
+            "x": 69.5,
+            "y": 46.9,
+            "endX": 68.8,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesper Lindstrøm",
+            "tipo": "TakeOn",
+            "minuto": 41,
+            "segundo": 45,
+            "x": 68.8,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesper Lindstrøm",
+            "tipo": "BallTouch",
+            "minuto": 41,
+            "segundo": 47,
+            "x": 71.1,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 50,
+            "x": 78.0,
+            "y": 37.3,
+            "endX": 88.7,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 52,
+            "x": 88.8,
+            "y": 16.3,
+            "endX": 85.4,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Götze",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 53,
+            "x": 87.2,
+            "y": 22.3,
+            "endX": 88.8,
+            "endY": 35.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nicolas Höfler",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

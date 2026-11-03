@@ -520,6 +520,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Gabriel Pirani",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 62.1,
+            "y": 44.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pirani",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 37,
+            "x": 65.0,
+            "y": 47.2,
+            "endX": 65.1,
+            "endY": 44.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yamil Asad",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 38,
+            "x": 65.1,
+            "y": 44.7,
+            "endX": 61.3,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Yamil Asad",
             "tipo": "Pass",
             "minuto": 79,
@@ -552,7 +585,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matheus Rossetto",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

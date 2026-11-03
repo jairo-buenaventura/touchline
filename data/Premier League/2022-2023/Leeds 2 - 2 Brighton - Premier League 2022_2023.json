@@ -418,7 +418,57 @@
         "y": 60.2,
         "arco_y": 51.4,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Harrison",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 55,
+            "x": 69.7,
+            "y": 95.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Harrison",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 55,
+            "x": 69.7,
+            "y": 95.4,
+            "endX": 77.6,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Bamford",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 56,
+            "x": 77.6,
+            "y": 70.8,
+            "endX": 75.8,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Bamford",
+            "tipo": "TakeOn",
+            "minuto": 39,
+            "segundo": 56,
+            "x": 75.8,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Moisés Caicedo",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -4453,6 +4503,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kaoru Mitoma",
+            "tipo": "Aerial",
+            "minuto": 32,
+            "segundo": 10,
+            "x": 95.5,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaoru Mitoma",
             "tipo": "Pass",
             "minuto": 32,
             "segundo": 10,
@@ -4462,7 +4523,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luke Ayling",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

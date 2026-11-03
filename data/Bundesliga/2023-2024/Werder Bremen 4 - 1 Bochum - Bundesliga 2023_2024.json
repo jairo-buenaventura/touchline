@@ -402,7 +402,35 @@
         "y": 48.5,
         "arco_y": 46.0,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "CornerAwarded",
+            "minuto": 5,
+            "segundo": 17,
+            "x": 90.9,
+            "y": 57.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 43,
+            "x": 99.5,
+            "y": 0.6,
+            "endX": 93.9,
+            "endY": 39.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Bernardo",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -560,7 +588,24 @@
         "y": 55.4,
         "arco_y": 45.8,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 13,
+            "x": 91.4,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Cristian Gamboa",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4757,6 +4802,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kevin Stöger",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 58,
+            "x": 77.8,
+            "y": 68.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Stöger",
             "tipo": "Pass",
             "minuto": 84,
             "segundo": 0,
@@ -4766,7 +4822,12 @@
             "endY": 65.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christian Groß",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

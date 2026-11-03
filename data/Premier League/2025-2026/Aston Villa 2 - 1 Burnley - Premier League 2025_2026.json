@@ -435,6 +435,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Matty Cash",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 58,
+            "x": 18.5,
+            "y": 0.0,
+            "endX": 3.2,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emiliano Martínez",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 0,
+            "x": 3.2,
+            "y": 44.8,
+            "endX": 11.7,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 4,
+            "x": 11.7,
+            "y": 78.7,
+            "endX": 7.9,
+            "endY": 94.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 4,
+            "x": 7.9,
+            "y": 94.6,
+            "endX": 10.7,
+            "endY": 93.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pau Torres",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 6,
+            "x": 10.7,
+            "y": 93.9,
+            "endX": 13.5,
+            "endY": 84.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Pau Torres",
             "tipo": "Pass",
             "minuto": 24,
@@ -500,7 +555,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Kyle Walker",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

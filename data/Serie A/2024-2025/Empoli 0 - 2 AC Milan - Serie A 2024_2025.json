@@ -4138,6 +4138,39 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Christian Pulisic",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 20,
+            "x": 66.5,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Pulisic",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 22,
+            "x": 69.0,
+            "y": 54.0,
+            "endX": 79.3,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 25,
+            "x": 79.3,
+            "y": 35.2,
+            "endX": 86.5,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Santiago Giménez",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -4148,7 +4181,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Saba Goglichidze",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

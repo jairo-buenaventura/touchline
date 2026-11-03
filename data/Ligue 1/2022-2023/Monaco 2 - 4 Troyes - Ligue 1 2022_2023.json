@@ -367,7 +367,24 @@
         "y": 42.2,
         "arco_y": 47.7,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Guillermo Maripán",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 56,
+            "x": 94.2,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Yoann Salmier",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -407,6 +424,17 @@
         "secuencia_gol": [
           {
             "jugador": "Axel Disasi",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 30,
+            "x": 89.9,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Disasi",
             "tipo": "Pass",
             "minuto": 62,
             "segundo": 30,
@@ -416,7 +444,12 @@
             "endY": 46.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Yoann Salmier",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4998,7 +5031,24 @@
         "y": 43.0,
         "arco_y": 46.4,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 74.9,
+            "y": 85.9,
+            "endX": 92.3,
+            "endY": 44.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Axel Disasi",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -5064,6 +5114,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Florian Tardieu",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 92.5,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rony Lopes",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 14,
+            "x": 92.4,
+            "y": 92.7,
+            "endX": 85.2,
+            "endY": 91.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 85.2,
+            "y": 91.3,
+            "endX": 84.7,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 84.7,
+            "y": 86.4,
+            "endX": 79.4,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yasser Larouci",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 79.4,
+            "y": 73.5,
+            "endX": 77.0,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yasser Larouci",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 77.0,
+            "y": 64.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Xavier Chavalerin",
             "tipo": "SavedShot",
             "minuto": 77,
@@ -5085,7 +5201,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Axel Disasi",
+          "portero": true
+        }
       },
       {
         "minuto": 85,

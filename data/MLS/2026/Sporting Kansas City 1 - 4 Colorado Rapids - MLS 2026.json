@@ -4345,6 +4345,17 @@
         "secuencia_gol": [
           {
             "jugador": "Wayne Frederick",
+            "tipo": "TakeOn",
+            "minuto": 11,
+            "segundo": 32,
+            "x": 31.1,
+            "y": 92.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wayne Frederick",
             "tipo": "Pass",
             "minuto": 11,
             "segundo": 34,
@@ -4398,7 +4409,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lasse Berg Johnsen",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4472,7 +4488,123 @@
         "y": 49.0,
         "arco_y": 51.2,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josh Atencio",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 18,
+            "x": 56.5,
+            "y": 31.2,
+            "endX": 37.8,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noah Cobb",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 20,
+            "x": 39.2,
+            "y": 25.9,
+            "endX": 48.2,
+            "endY": 44.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Atencio",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 22,
+            "x": 48.2,
+            "y": 44.1,
+            "endX": 48.4,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Atencio",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 22,
+            "x": 48.4,
+            "y": 47.8,
+            "endX": 80.0,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wayne Frederick",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 25,
+            "x": 80.0,
+            "y": 35.2,
+            "endX": 75.6,
+            "endY": 37.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wayne Frederick",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 25,
+            "x": 75.6,
+            "y": 37.2,
+            "endX": 79.1,
+            "endY": 38.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 27,
+            "x": 79.1,
+            "y": 38.4,
+            "endX": 72.8,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Navarro",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 27,
+            "x": 72.8,
+            "y": 43.8,
+            "endX": 90.2,
+            "endY": 87.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paxten Aaronson",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 30,
+            "x": 92.4,
+            "y": 86.5,
+            "endX": 97.7,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 31,
+            "x": 97.7,
+            "y": 72.9,
+            "endX": 96.9,
+            "endY": 50.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "John Pulskamp",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

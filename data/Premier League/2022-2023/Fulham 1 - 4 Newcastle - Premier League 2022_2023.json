@@ -300,6 +300,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Harrison Reed",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 51.7,
+            "y": 78.2,
+            "endX": 64.6,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Ream",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 57,
+            "x": 67.3,
+            "y": 90.8,
+            "endX": 68.8,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Cairney",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 0,
+            "x": 68.8,
+            "y": 69.3,
+            "endX": 65.4,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Cairney",
+            "tipo": "TakeOn",
+            "minuto": 87,
+            "segundo": 0,
+            "x": 65.4,
+            "y": 72.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Tom Cairney",
             "tipo": "Pass",
             "minuto": 87,
@@ -497,7 +541,12 @@
             "endY": 44.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sean Longstaff",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -3774,7 +3823,68 @@
         "y": 39.0,
         "arco_y": 49.6,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "CornerAwarded",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 92.2,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Longstaff",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 99.7,
+            "y": 0.4,
+            "endX": 95.2,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 46,
+            "x": 95.2,
+            "y": 3.4,
+            "endX": 99.0,
+            "endY": 3.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 46,
+            "x": 99.0,
+            "y": 3.6,
+            "endX": 91.0,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Botman",
+            "tipo": "SavedShot",
+            "minuto": 42,
+            "segundo": 48,
+            "x": 91.0,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Bernd Leno",
+          "portero": true
+        }
       },
       {
         "minuto": 48,

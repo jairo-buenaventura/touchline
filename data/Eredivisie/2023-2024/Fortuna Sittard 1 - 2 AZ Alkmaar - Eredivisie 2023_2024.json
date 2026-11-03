@@ -371,7 +371,35 @@
         "y": 60.6,
         "arco_y": 48.7,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Iñigo Córdoba",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 41,
+            "x": 66.7,
+            "y": 63.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñigo Córdoba",
+            "tipo": "TakeOn",
+            "minuto": 17,
+            "segundo": 44,
+            "x": 74.4,
+            "y": 60.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wouter Goes",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -3983,7 +4011,35 @@
         "y": 50.1,
         "arco_y": 52.3,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Myron van Brederode",
+            "tipo": "CornerAwarded",
+            "minuto": 62,
+            "segundo": 17,
+            "x": 99.2,
+            "y": 90.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yukinari Sugawara",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 50,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.5,
+            "endY": 50.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Michael Verrips",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4068,6 +4124,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lequincio Zeefuik",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 7,
+            "x": 87.5,
+            "y": 37.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lequincio Zeefuik",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 7,
@@ -4077,7 +4144,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Deroy Duarte",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -5668,6 +5668,39 @@
         "secuencia_gol": [
           {
             "jugador": "Darwin Núñez",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 25,
+            "x": 71.1,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darwin Núñez",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 25,
+            "x": 71.1,
+            "y": 60.8,
+            "endX": 72.6,
+            "endY": 60.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Darwin Núñez",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 28,
+            "x": 72.6,
+            "y": 60.2,
+            "endX": 79.6,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darwin Núñez",
             "tipo": "Pass",
             "minuto": 86,
             "segundo": 28,
@@ -5677,7 +5710,12 @@
             "endY": 37.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marquinhos",
+          "portero": false
+        }
       }
     ],
     "corners": [

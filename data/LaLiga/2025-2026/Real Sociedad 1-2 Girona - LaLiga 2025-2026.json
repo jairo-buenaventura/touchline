@@ -426,6 +426,17 @@
         "secuencia_gol": [
           {
             "jugador": "Igor Zubeldia",
+            "tipo": "Aerial",
+            "minuto": 33,
+            "segundo": 52,
+            "x": 30.6,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Zubeldia",
             "tipo": "Pass",
             "minuto": 33,
             "segundo": 56,
@@ -435,7 +446,12 @@
             "endY": 42.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Vladyslav Vanat",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -4909,6 +4925,28 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 52,
+            "x": 19.8,
+            "y": 25.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 55,
+            "x": 36.2,
+            "y": 35.1,
+            "endX": 70.0,
+            "endY": 78.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Azzedine Ounahi",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -4930,7 +4968,12 @@
             "endY": 40.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jon Gorrotxategi",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -4950,6 +4993,61 @@
         "arco_y": 53.6,
         "arco_z": 5.1,
         "secuencia_gol": [
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 60.9,
+            "y": 78.4,
+            "endX": 75.1,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Roca",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 7,
+            "x": 74.4,
+            "y": 95.8,
+            "endX": 66.2,
+            "endY": 78.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Azzedine Ounahi",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 10,
+            "x": 67.5,
+            "y": 79.2,
+            "endX": 88.8,
+            "endY": 96.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 15,
+            "x": 88.8,
+            "y": 96.4,
+            "endX": 87.2,
+            "endY": 90.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 15,
+            "x": 87.2,
+            "y": 90.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Álex Moreno",
             "tipo": "TakeOn",
@@ -4972,7 +5070,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Takefusa Kubo",
+          "portero": false
+        }
       }
     ],
     "corners": [

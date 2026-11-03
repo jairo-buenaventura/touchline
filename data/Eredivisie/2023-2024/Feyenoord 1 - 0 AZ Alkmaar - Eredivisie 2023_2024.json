@@ -400,6 +400,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mats Wieffer",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 23,
+            "x": 64.2,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Wieffer",
             "tipo": "Pass",
             "minuto": 23,
             "segundo": 23,
@@ -475,7 +486,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ruben van Bommel",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

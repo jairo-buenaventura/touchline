@@ -461,6 +461,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Mats Rots",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 59,
+            "x": 27.1,
+            "y": 76.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Rots",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 59,
+            "x": 27.1,
+            "y": 76.5,
+            "endX": 42.7,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas van den Belt",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 42.7,
+            "y": 72.7,
+            "endX": 48.1,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas van den Belt",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 48.1,
+            "y": 84.9,
+            "endX": 47.4,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sondre Ørjasæter",
+            "tipo": "BallTouch",
+            "minuto": 56,
+            "segundo": 4,
+            "x": 47.4,
+            "y": 94.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Sondre Ørjasæter",
             "tipo": "Pass",
             "minuto": 56,
@@ -526,7 +581,12 @@
             "endY": 35.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Philip Brittijn",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -566,6 +626,50 @@
         "secuencia_gol": [
           {
             "jugador": "Kristian Hlynsson",
+            "tipo": "Tackle",
+            "minuto": 76,
+            "segundo": 52,
+            "x": 59.6,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristian Hlynsson",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 53,
+            "x": 53.7,
+            "y": 25.5,
+            "endX": 31.3,
+            "endY": 15.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramiz Zerrouki",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 57,
+            "x": 30.9,
+            "y": 17.5,
+            "endX": 34.8,
+            "endY": 23.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kristian Hlynsson",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 59,
+            "x": 34.8,
+            "y": 23.2,
+            "endX": 37.5,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristian Hlynsson",
             "tipo": "Pass",
             "minuto": 76,
             "segundo": 59,
@@ -597,7 +701,12 @@
             "endY": 42.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ryan Fosso",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4827,6 +4936,94 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Mattijs Branderhorst",
+            "tipo": "KeeperPickup",
+            "minuto": 70,
+            "segundo": 44,
+            "x": 2.6,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattijs Branderhorst",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 48,
+            "x": 15.8,
+            "y": 46.2,
+            "endX": 59.0,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Gladon",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 54,
+            "x": 59.0,
+            "y": 43.0,
+            "endX": 61.6,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édouard Michut",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 61.6,
+            "y": 60.9,
+            "endX": 65.4,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édouard Michut",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 65.4,
+            "y": 64.6,
+            "endX": 77.6,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Makan Aiko",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 77.6,
+            "y": 85.5,
+            "endX": 86.4,
+            "endY": 86.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Makan Aiko",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 86.4,
+            "y": 86.1,
+            "endX": 91.6,
+            "endY": 54.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mohamed Ihattaren",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 6,
+            "x": 91.6,
+            "y": 54.7,
+            "endX": 74.7,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Ihattaren",
             "tipo": "Pass",
             "minuto": 71,
@@ -4859,7 +5056,12 @@
             "endY": 47.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Max Bruns",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -4887,7 +5089,68 @@
         "y": 70.0,
         "arco_y": 45.8,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mattijs Branderhorst",
+            "tipo": "KeeperPickup",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 3.6,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattijs Branderhorst",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 22,
+            "x": 13.9,
+            "y": 56.4,
+            "endX": 56.1,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Gladon",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 24,
+            "x": 57.1,
+            "y": 63.9,
+            "endX": 66.1,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Tunjic",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 26,
+            "x": 66.1,
+            "y": 71.2,
+            "endX": 74.3,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Tunjic",
+            "tipo": "TakeOn",
+            "minuto": 89,
+            "segundo": 26,
+            "x": 74.3,
+            "y": 74.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bart van Rooij",
+          "portero": false
+        }
       }
     ],
     "corners": [

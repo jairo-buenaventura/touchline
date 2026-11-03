@@ -508,6 +508,39 @@
         "secuencia_gol": [
           {
             "jugador": "Diogo Jota",
+            "tipo": "Tackle",
+            "minuto": 56,
+            "segundo": 32,
+            "x": 77.6,
+            "y": 69.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 33,
+            "x": 84.8,
+            "y": 67.0,
+            "endX": 83.5,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 34,
+            "x": 83.5,
+            "y": 62.0,
+            "endX": 84.6,
+            "endY": 57.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
             "tipo": "TakeOn",
             "minuto": 56,
             "segundo": 34,
@@ -517,7 +550,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Idrissa Gueye",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

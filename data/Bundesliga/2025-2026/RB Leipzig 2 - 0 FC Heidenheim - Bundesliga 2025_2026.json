@@ -623,6 +623,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Xaver Schlager",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 14,
+            "x": 33.6,
+            "y": 98.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 15,
+            "x": 33.2,
+            "y": 87.3,
+            "endX": 36.3,
+            "endY": 98.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 18,
+            "x": 35.9,
+            "y": 98.5,
+            "endX": 41.4,
+            "endY": 96.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 56,
+            "x": 41.4,
+            "y": 96.3,
+            "endX": 53.6,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "David Raum",
             "tipo": "Pass",
             "minuto": 76,
@@ -776,7 +820,12 @@
             "endY": 45.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Marnon Busch",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

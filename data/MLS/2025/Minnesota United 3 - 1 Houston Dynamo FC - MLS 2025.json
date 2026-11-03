@@ -418,7 +418,24 @@
         "y": 60.0,
         "arco_y": 50.3,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jefferson Díaz",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 54,
+            "x": 90.7,
+            "y": 64.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Griffin Dorsey",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -430,6 +447,50 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Wil Trapp",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 24,
+            "x": 64.2,
+            "y": 75.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wil Trapp",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 24,
+            "x": 64.2,
+            "y": 75.9,
+            "endX": 85.3,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Markanich",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 25,
+            "x": 85.3,
+            "y": 82.7,
+            "endX": 84.9,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Markanich",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 25,
+            "x": 84.9,
+            "y": 79.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Anthony Markanich",
             "tipo": "Pass",
             "minuto": 62,
@@ -440,7 +501,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Franco Escobar",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -3855,7 +3921,68 @@
         "y": 50.6,
         "arco_y": 53.9,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Felipe Andrade",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 23,
+            "x": 91.0,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brooklyn Raines",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 28,
+            "x": 62.5,
+            "y": 86.6,
+            "endX": 81.1,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Bassi",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 84.1,
+            "y": 94.8,
+            "endX": 93.3,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Griffin Dorsey",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 32,
+            "x": 94.0,
+            "y": 76.1,
+            "endX": 89.5,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Escobar",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 33,
+            "x": 88.4,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nicolás Romero",
+          "portero": true
+        }
       },
       {
         "minuto": 95,

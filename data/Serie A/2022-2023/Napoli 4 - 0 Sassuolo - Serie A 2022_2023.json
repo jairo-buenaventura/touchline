@@ -395,6 +395,17 @@
         "secuencia_gol": [
           {
             "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 93.0,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
             "tipo": "MissedShots",
             "minuto": 3,
             "segundo": 7,
@@ -404,7 +415,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jeremy Toljan",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -606,6 +622,39 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Mário Rui",
+            "tipo": "CornerAwarded",
+            "minuto": 34,
+            "segundo": 18,
+            "x": 97.2,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 48,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.6,
+            "endY": 47.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 55,
+            "x": 95.6,
+            "y": 47.5,
+            "endX": 70.5,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Frank Anguissa",
             "tipo": "Pass",
             "minuto": 34,
@@ -660,7 +709,12 @@
             "endY": 63.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Andrea Consigli",
+          "portero": true
+        }
       },
       {
         "minuto": 38,

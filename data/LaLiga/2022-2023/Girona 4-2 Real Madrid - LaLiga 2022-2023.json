@@ -496,6 +496,28 @@
           {
             "jugador": "Arnau Martínez",
             "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 51,
+            "x": 24.7,
+            "y": 4.6,
+            "endX": 26.2,
+            "endY": 4.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Arnau Martínez",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 9,
+            "x": 26.2,
+            "y": 4.6,
+            "endX": 26.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnau Martínez",
+            "tipo": "Pass",
             "minuto": 23,
             "segundo": 9,
             "x": 26.3,
@@ -526,7 +548,12 @@
             "endY": 35.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Rodrygo",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -722,7 +749,46 @@
         "y": 51.8,
         "arco_y": 49.3,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 77.5,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Riquelme",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 77.5,
+            "y": 23.3,
+            "endX": 73.6,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Riquelme",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 73.6,
+            "y": 26.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dani Carvajal",
+          "portero": true
+        }
       },
       {
         "minuto": 70,

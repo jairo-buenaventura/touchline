@@ -4109,6 +4109,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Stephan El Shaarawy",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 42,
+            "x": 47.5,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stephan El Shaarawy",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 43,
+            "x": 47.5,
+            "y": 81.2,
+            "endX": 66.6,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 46,
+            "x": 66.6,
+            "y": 47.6,
+            "endX": 84.8,
+            "endY": 40.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Paulo Dybala",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -4130,7 +4163,12 @@
             "endY": 33.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Domagoj Bradaric",
+          "portero": false
+        }
       }
     ],
     "corners": [

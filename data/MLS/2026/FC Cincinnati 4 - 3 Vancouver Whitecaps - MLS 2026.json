@@ -610,7 +610,167 @@
         "y": 52.1,
         "arco_y": 51.1,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 26,
+            "x": 4.6,
+            "y": 57.1,
+            "endX": 4.2,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 29,
+            "x": 6.3,
+            "y": 42.3,
+            "endX": 20.7,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miles Robinson",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 32,
+            "x": 20.7,
+            "y": 24.7,
+            "endX": 15.7,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 34,
+            "x": 15.7,
+            "y": 66.7,
+            "endX": 24.4,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 36,
+            "x": 23.7,
+            "y": 90.9,
+            "endX": 23.6,
+            "endY": 65.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerardo Valenzuela",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 42,
+            "x": 23.6,
+            "y": 65.9,
+            "endX": 36.9,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerardo Valenzuela",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 42,
+            "x": 36.9,
+            "y": 40.1,
+            "endX": 43.5,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenji Mboma Dem",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 46,
+            "x": 43.6,
+            "y": 6.0,
+            "endX": 37.1,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miles Robinson",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 49,
+            "x": 37.0,
+            "y": 31.0,
+            "endX": 35.5,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 53,
+            "x": 35.7,
+            "y": 53.3,
+            "endX": 39.6,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 55,
+            "x": 40.3,
+            "y": 88.1,
+            "endX": 72.2,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ender Echenique",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 3,
+            "x": 72.2,
+            "y": 97.5,
+            "endX": 87.3,
+            "endY": 78.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ender Echenique",
+            "tipo": "TakeOn",
+            "minuto": 27,
+            "segundo": 3,
+            "x": 87.3,
+            "y": 78.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ender Echenique",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 6,
+            "x": 98.9,
+            "y": 68.6,
+            "endX": 97.2,
+            "endY": 58.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tristan Blackmon",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -663,6 +823,28 @@
         "secuencia_gol": [
           {
             "jugador": "Evander",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 87.5,
+            "y": 62.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 89.1,
+            "y": 60.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
             "tipo": "Pass",
             "minuto": 55,
             "segundo": 36,
@@ -672,7 +854,12 @@
             "endY": 40.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Édier Ocampo",
+          "portero": true
+        }
       },
       {
         "minuto": 73,
@@ -4497,6 +4684,270 @@
         "secuencia_gol": [
           {
             "jugador": "Bruno Caicedo",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 41,
+            "x": 66.1,
+            "y": 87.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Caicedo",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 41,
+            "x": 65.6,
+            "y": 87.7,
+            "endX": 55.6,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 42,
+            "x": 55.6,
+            "y": 85.5,
+            "endX": 57.5,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 42,
+            "x": 57.5,
+            "y": 87.9,
+            "endX": 44.8,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 44,
+            "x": 44.5,
+            "y": 91.6,
+            "endX": 30.8,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 49,
+            "x": 30.8,
+            "y": 74.2,
+            "endX": 24.5,
+            "endY": 64.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 49,
+            "x": 24.5,
+            "y": 64.9,
+            "endX": 22.6,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 50,
+            "x": 23.1,
+            "y": 86.8,
+            "endX": 41.5,
+            "endY": 96.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 53,
+            "x": 41.5,
+            "y": 96.1,
+            "endX": 53.6,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 53,
+            "x": 53.6,
+            "y": 96.0,
+            "endX": 64.8,
+            "endY": 98.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Caicedo",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 57,
+            "x": 65.2,
+            "y": 98.1,
+            "endX": 47.3,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 1,
+            "x": 47.3,
+            "y": 93.4,
+            "endX": 51.9,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 1,
+            "x": 51.9,
+            "y": 87.1,
+            "endX": 38.7,
+            "endY": 52.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 4,
+            "x": 38.7,
+            "y": 52.6,
+            "endX": 39.6,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 6,
+            "x": 39.3,
+            "y": 29.4,
+            "endX": 48.0,
+            "endY": 1.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édier Ocampo",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 9,
+            "x": 48.0,
+            "y": 1.8,
+            "endX": 65.3,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 14,
+            "x": 65.3,
+            "y": 21.9,
+            "endX": 63.7,
+            "endY": 37.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 14,
+            "x": 63.7,
+            "y": 37.8,
+            "endX": 56.3,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Cubas",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 16,
+            "x": 56.3,
+            "y": 36.3,
+            "endX": 53.1,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Cubas",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 16,
+            "x": 53.1,
+            "y": 46.3,
+            "endX": 48.2,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 17,
+            "x": 48.1,
+            "y": 60.4,
+            "endX": 61.8,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 20,
+            "x": 61.6,
+            "y": 89.5,
+            "endX": 81.7,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Caicedo",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 22,
+            "x": 81.7,
+            "y": 95.4,
+            "endX": 82.5,
+            "endY": 90.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Caicedo",
+            "tipo": "TakeOn",
+            "minuto": 11,
+            "segundo": 22,
+            "x": 82.5,
+            "y": 90.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Caicedo",
             "tipo": "Pass",
             "minuto": 11,
             "segundo": 24,
@@ -4506,7 +4957,12 @@
             "endY": 55.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pavel Bucha",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -4554,6 +5010,193 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Ryan Gauld",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 39.8,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 39.8,
+            "y": 68.2,
+            "endX": 45.0,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeevan Badwal",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 25,
+            "x": 45.0,
+            "y": 53.1,
+            "endX": 53.3,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeevan Badwal",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 25,
+            "x": 53.3,
+            "y": 62.8,
+            "endX": 45.0,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 30,
+            "x": 45.0,
+            "y": 32.4,
+            "endX": 53.2,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 30,
+            "x": 53.2,
+            "y": 22.5,
+            "endX": 61.4,
+            "endY": 5.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édier Ocampo",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 61.4,
+            "y": 5.1,
+            "endX": 60.8,
+            "endY": 1.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Édier Ocampo",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 60.8,
+            "y": 1.5,
+            "endX": 44.2,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 36,
+            "x": 45.7,
+            "y": 12.4,
+            "endX": 32.6,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 39,
+            "x": 32.6,
+            "y": 52.0,
+            "endX": 34.3,
+            "endY": 56.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 39,
+            "x": 34.3,
+            "y": 56.8,
+            "endX": 40.6,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 40.6,
+            "y": 87.1,
+            "endX": 40.9,
+            "endY": 93.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 40.9,
+            "y": 93.1,
+            "endX": 65.1,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 46,
+            "x": 65.1,
+            "y": 70.9,
+            "endX": 69.8,
+            "endY": 61.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 46,
+            "x": 69.8,
+            "y": 61.0,
+            "endX": 81.6,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 50,
+            "x": 81.6,
+            "y": 66.9,
+            "endX": 86.6,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian White",
+            "tipo": "SavedShot",
+            "minuto": 23,
+            "segundo": 50,
+            "x": 86.6,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Édier Ocampo",
             "tipo": "Pass",
             "minuto": 23,
@@ -4586,7 +5229,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Matt Miazga",
+          "portero": true
+        }
       },
       {
         "minuto": 35,
@@ -4615,6 +5263,182 @@
         "arco_y": 46.4,
         "arco_z": 16.5,
         "secuencia_gol": [
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 57,
+            "x": 50.0,
+            "y": 50.3,
+            "endX": 35.2,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Cubas",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 0,
+            "x": 35.2,
+            "y": 57.3,
+            "endX": 33.3,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Cubas",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 0,
+            "x": 33.3,
+            "y": 62.5,
+            "endX": 44.4,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Larraz",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 2,
+            "x": 45.0,
+            "y": 45.7,
+            "endX": 45.8,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 7,
+            "x": 45.8,
+            "y": 18.9,
+            "endX": 52.8,
+            "endY": 12.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 7,
+            "x": 52.8,
+            "y": 12.1,
+            "endX": 55.2,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeevan Badwal",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 8,
+            "x": 55.4,
+            "y": 23.5,
+            "endX": 42.0,
+            "endY": 19.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Blackmon",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 10,
+            "x": 40.3,
+            "y": 19.3,
+            "endX": 33.1,
+            "endY": 44.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 13,
+            "x": 33.1,
+            "y": 44.7,
+            "endX": 37.9,
+            "endY": 54.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathías Laborda",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 13,
+            "x": 37.9,
+            "y": 54.4,
+            "endX": 44.1,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tate Johnson",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 15,
+            "x": 43.3,
+            "y": 71.8,
+            "endX": 53.3,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 17,
+            "x": 53.3,
+            "y": 76.3,
+            "endX": 54.6,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 17,
+            "x": 54.6,
+            "y": 83.2,
+            "endX": 63.4,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cheikh Sabaly",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 63.4,
+            "y": 95.5,
+            "endX": 60.2,
+            "endY": 93.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cheikh Sabaly",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 60.2,
+            "y": 93.7,
+            "endX": 58.2,
+            "endY": 90.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cheikh Sabaly",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 23,
+            "x": 58.2,
+            "y": 90.4,
+            "endX": 53.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Cheikh Sabaly",
             "tipo": "Pass",
@@ -4747,7 +5571,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Gerardo Valenzuela",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

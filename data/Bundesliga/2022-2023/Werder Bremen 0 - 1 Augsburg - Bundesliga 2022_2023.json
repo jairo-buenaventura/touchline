@@ -4777,6 +4777,28 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Mërgim Berisha",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 21,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 92.1,
+            "endY": 57.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Iago Borduchi",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 25,
+            "x": 92.1,
+            "y": 57.2,
+            "endX": 76.9,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Iago Borduchi",
             "tipo": "BallTouch",
             "minuto": 62,
@@ -4831,7 +4853,12 @@
             "endY": 47.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jens Stage",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

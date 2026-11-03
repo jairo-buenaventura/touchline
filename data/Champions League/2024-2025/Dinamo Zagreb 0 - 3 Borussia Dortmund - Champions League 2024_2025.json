@@ -3657,6 +3657,39 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Julian Brandt",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 48,
+            "x": 39.9,
+            "y": 57.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 48,
+            "x": 39.9,
+            "y": 57.2,
+            "endX": 61.6,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Gittens",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 53,
+            "x": 61.6,
+            "y": 80.1,
+            "endX": 74.0,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamie Gittens",
             "tipo": "TakeOn",
             "minuto": 40,
@@ -3667,7 +3700,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kévin Théophile-Catherine",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

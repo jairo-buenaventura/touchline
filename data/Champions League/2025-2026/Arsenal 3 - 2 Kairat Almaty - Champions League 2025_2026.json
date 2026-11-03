@@ -658,6 +658,17 @@
         "secuencia_gol": [
           {
             "jugador": "Riccardo Calafiori",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 40,
+            "x": 12.0,
+            "y": 3.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Calafiori",
             "tipo": "TakeOn",
             "minuto": 14,
             "segundo": 43,
@@ -744,7 +755,12 @@
             "endY": 25.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aleksandr Mrynskiy",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

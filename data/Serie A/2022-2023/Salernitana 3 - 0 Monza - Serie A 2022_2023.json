@@ -444,6 +444,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 50,
+            "x": 60.4,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 50,
+            "x": 60.4,
+            "y": 36.7,
+            "endX": 76.8,
+            "endY": 50.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Krzysztof Piatek",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 54,
+            "x": 76.8,
+            "y": 50.1,
+            "endX": 78.9,
+            "endY": 54.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Krzysztof Piatek",
             "tipo": "Pass",
             "minuto": 50,
@@ -476,7 +509,12 @@
             "endY": 75.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pablo Marí",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -486,7 +524,79 @@
         "y": 50.7,
         "arco_y": 47.3,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Grigoris Kastanos",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 43,
+            "x": 35.2,
+            "y": 14.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Grigoris Kastanos",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 44,
+            "x": 36.3,
+            "y": 20.6,
+            "endX": 43.5,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 45,
+            "x": 43.5,
+            "y": 37.4,
+            "endX": 35.2,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 46,
+            "x": 35.2,
+            "y": 39.7,
+            "endX": 61.5,
+            "endY": 72.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 61.5,
+            "y": 72.8,
+            "endX": 84.5,
+            "endY": 71.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 84.5,
+            "y": 71.9,
+            "endX": 87.0,
+            "endY": 66.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Pablo Marí",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -505,7 +615,46 @@
         "y": 50.7,
         "arco_y": 49.1,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Krzysztof Piatek",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 42,
+            "x": 60.9,
+            "y": 24.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krzysztof Piatek",
+            "tipo": "TakeOn",
+            "minuto": 70,
+            "segundo": 42,
+            "x": 60.8,
+            "y": 25.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krzysztof Piatek",
+            "tipo": "SavedShot",
+            "minuto": 70,
+            "segundo": 47,
+            "x": 76.5,
+            "y": 32.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alessio Cragno",
+          "portero": true
+        }
       },
       {
         "minuto": 83,

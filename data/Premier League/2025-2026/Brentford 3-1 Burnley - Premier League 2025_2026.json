@@ -467,7 +467,101 @@
         "y": 55.7,
         "arco_y": 53.6,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yehor Yarmoliuk",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 24,
+            "x": 70.9,
+            "y": 61.5,
+            "endX": 71.5,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 25,
+            "x": 71.5,
+            "y": 49.3,
+            "endX": 74.4,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 25,
+            "x": 74.4,
+            "y": 50.3,
+            "endX": 76.4,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Michael Kayode",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 28,
+            "x": 76.4,
+            "y": 47.2,
+            "endX": 72.1,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Kayode",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 28,
+            "x": 72.1,
+            "y": 16.2,
+            "endX": 68.4,
+            "endY": 22.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Henderson",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 30,
+            "x": 68.4,
+            "y": 22.4,
+            "endX": 71.1,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Henderson",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 30,
+            "x": 71.1,
+            "y": 23.9,
+            "endX": 92.5,
+            "endY": 56.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rico Henry",
+            "tipo": "BallTouch",
+            "minuto": 85,
+            "segundo": 31,
+            "x": 94.4,
+            "y": 54.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kyle Walker",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -479,6 +573,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Reiss Nelson",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 50,
+            "x": 57.6,
+            "y": 73.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reiss Nelson",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 51,
+            "x": 57.6,
+            "y": 73.7,
+            "endX": 64.1,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 64.1,
+            "y": 63.3,
+            "endX": 74.4,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Henderson",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 54,
+            "x": 74.4,
+            "y": 37.9,
+            "endX": 86.7,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dango Ouattara",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 86.7,
+            "y": 57.0,
+            "endX": 86.2,
+            "endY": 52.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Dango Ouattara",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -489,7 +638,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxime Estève",
+          "portero": false
+        }
       }
     ],
     "corners": [

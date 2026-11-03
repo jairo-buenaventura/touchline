@@ -387,7 +387,68 @@
         "y": 48.1,
         "arco_y": 49.2,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Álvaro García",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 5,
+            "x": 71.0,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro García",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 7,
+            "x": 74.6,
+            "y": 38.5,
+            "endX": 86.9,
+            "endY": 32.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 8,
+            "x": 86.9,
+            "y": 32.9,
+            "endX": 95.2,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 8,
+            "x": 95.2,
+            "y": 28.0,
+            "endX": 91.4,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Díaz",
+            "tipo": "SavedShot",
+            "minuto": 2,
+            "segundo": 9,
+            "x": 91.4,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Omar El Hilali",
+          "portero": true
+        }
       },
       {
         "minuto": 22,
@@ -407,6 +468,138 @@
         "arco_y": 48.4,
         "arco_z": 10.1,
         "secuencia_gol": [
+          {
+            "jugador": "Emil Audero",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 59,
+            "x": 3.7,
+            "y": 52.0,
+            "endX": 6.9,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mujaid Sadick",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 1,
+            "x": 6.9,
+            "y": 62.7,
+            "endX": 9.1,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mujaid Sadick",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 1,
+            "x": 9.1,
+            "y": 68.3,
+            "endX": 19.2,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pathé Ciss",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 2,
+            "x": 19.2,
+            "y": 68.6,
+            "endX": 19.5,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Lejeune",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 9,
+            "x": 19.5,
+            "y": 20.1,
+            "endX": 32.2,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Lejeune",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 9,
+            "x": 32.2,
+            "y": 19.2,
+            "endX": 53.7,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Tsitaishvili",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 12,
+            "x": 53.7,
+            "y": 29.1,
+            "endX": 45.3,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Tsitaishvili",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 12,
+            "x": 45.3,
+            "y": 27.6,
+            "endX": 37.8,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 16,
+            "x": 37.8,
+            "y": 27.1,
+            "endX": 51.7,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 16,
+            "x": 51.7,
+            "y": 22.3,
+            "endX": 82.1,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Tsitaishvili",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 23,
+            "x": 82.1,
+            "y": 13.8,
+            "endX": 93.4,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Tsitaishvili",
+            "tipo": "TakeOn",
+            "minuto": 25,
+            "segundo": 23,
+            "x": 93.4,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Adrià Pedrosa",
             "tipo": "Pass",
@@ -429,7 +622,12 @@
             "endY": 63.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Roger Hinojo",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4638,6 +4836,39 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Javi Hernández",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 17,
+            "x": 32.8,
+            "y": 76.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Hernández",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 19,
+            "x": 41.4,
+            "y": 87.0,
+            "endX": 73.9,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Fernández",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 24,
+            "x": 73.9,
+            "y": 73.5,
+            "endX": 91.8,
+            "endY": 71.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Roberto Fernández",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -4648,7 +4879,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mujaid Sadick",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

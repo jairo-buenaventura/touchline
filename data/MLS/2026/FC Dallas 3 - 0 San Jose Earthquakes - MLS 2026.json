@@ -488,6 +488,28 @@
         "arco_z": 20.2,
         "secuencia_gol": [
           {
+            "jugador": "Ramiro",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 44,
+            "x": 51.2,
+            "y": 51.8,
+            "endX": 38.0,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 50,
+            "x": 38.0,
+            "y": 79.3,
+            "endX": 31.4,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Shaq Moore",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -553,7 +575,12 @@
             "endY": 54.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Niko Tsakiris",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -576,6 +603,17 @@
         "secuencia_gol": [
           {
             "jugador": "Santiago Moreno",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 84.8,
+            "y": 21.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
             "tipo": "TakeOn",
             "minuto": 93,
             "segundo": 5,
@@ -585,7 +623,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Daniel Munie",
+          "portero": false
+        }
       }
     ],
     "corners": [

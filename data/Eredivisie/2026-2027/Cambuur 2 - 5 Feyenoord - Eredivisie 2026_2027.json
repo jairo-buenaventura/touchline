@@ -435,7 +435,57 @@
         "y": 48.2,
         "arco_y": 47.5,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Wiebe Kooistra",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 28,
+            "x": 41.9,
+            "y": 25.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wiebe Kooistra",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 30,
+            "x": 49.7,
+            "y": 26.4,
+            "endX": 85.8,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Binder",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 35,
+            "x": 85.8,
+            "y": 21.5,
+            "endX": 93.6,
+            "endY": 30.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Binder",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 35,
+            "x": 93.6,
+            "y": 30.0,
+            "endX": 95.3,
+            "endY": 44.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jeremiah St. Juste",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -4663,6 +4713,105 @@
         "arco_z": 29.8,
         "secuencia_gol": [
           {
+            "jugador": "Jeremiah St. Juste",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 3,
+            "x": 45.1,
+            "y": 25.2,
+            "endX": 42.3,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mika Mármol",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 4,
+            "x": 42.3,
+            "y": 57.9,
+            "endX": 43.2,
+            "endY": 53.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles Vanhoutte",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 6,
+            "x": 43.2,
+            "y": 53.2,
+            "endX": 50.2,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Targhalline",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 11,
+            "x": 50.2,
+            "y": 82.9,
+            "endX": 51.0,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Targhalline",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 11,
+            "x": 51.0,
+            "y": 87.9,
+            "endX": 58.3,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luciano Valente",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 13,
+            "x": 58.3,
+            "y": 96.7,
+            "endX": 59.1,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi López",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 14,
+            "x": 59.1,
+            "y": 86.8,
+            "endX": 54.7,
+            "endY": 90.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luciano Valente",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 15,
+            "x": 54.7,
+            "y": 90.1,
+            "endX": 63.6,
+            "endY": 77.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nacho Ferri",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 19,
+            "x": 63.6,
+            "y": 77.2,
+            "endX": 73.9,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Nacho Ferri",
             "tipo": "Pass",
             "minuto": 82,
@@ -4761,7 +4910,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ethan Apkakou",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

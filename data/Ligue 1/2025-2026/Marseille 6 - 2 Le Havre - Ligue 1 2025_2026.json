@@ -504,6 +504,28 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Nayef Aguerd",
+            "tipo": "Clearance",
+            "minuto": 66,
+            "segundo": 8,
+            "x": 10.5,
+            "y": 66.1,
+            "endX": 13.3,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amir Murillo",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 23,
+            "x": 13.3,
+            "y": 90.2,
+            "endX": 12.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Amir Murillo",
             "tipo": "Pass",
             "minuto": 66,
@@ -558,7 +580,12 @@
             "endY": 19.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Simon Ebonog",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -5991,6 +6018,17 @@
         "secuencia_gol": [
           {
             "jugador": "Younes Namli",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 36,
+            "x": 83.8,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 37,
@@ -6000,7 +6038,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Darryl Bakola",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -409,6 +409,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Giulio Maggiore",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 50,
+            "x": 61.0,
+            "y": 67.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 50,
+            "x": 64.1,
+            "y": 62.8,
+            "endX": 81.9,
+            "endY": 46.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 54,
+            "x": 81.9,
+            "y": 46.0,
+            "endX": 85.2,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Antonio Candreva",
             "tipo": "Pass",
             "minuto": 74,
@@ -419,7 +452,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Victor Kristiansen",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -4107,7 +4145,24 @@
         "y": 57.5,
         "arco_y": 47.6,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stefan Posch",
+            "tipo": "SavedShot",
+            "minuto": 8,
+            "segundo": 15,
+            "x": 73.1,
+            "y": 36.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Benoît Costil",
+          "portero": true
+        }
       },
       {
         "minuto": 13,
@@ -4138,6 +4193,17 @@
         "secuencia_gol": [
           {
             "jugador": "Joshua Zirkzee",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 88.2,
+            "y": 70.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Zirkzee",
             "tipo": "TakeOn",
             "minuto": 19,
             "segundo": 20,
@@ -4147,7 +4213,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Benoît Costil",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

@@ -4382,6 +4382,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Sergio Busquets",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 57,
+            "x": 33.8,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 57,
+            "x": 33.8,
+            "y": 41.9,
+            "endX": 74.9,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 3,
+            "x": 74.9,
+            "y": 38.0,
+            "endX": 91.4,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Lionel Messi",
             "tipo": "TakeOn",
             "minuto": 59,
@@ -4392,7 +4425,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Carlos Coronel",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

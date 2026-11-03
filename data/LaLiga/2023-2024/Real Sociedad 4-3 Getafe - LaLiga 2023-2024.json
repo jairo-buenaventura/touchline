@@ -386,6 +386,17 @@
         "secuencia_gol": [
           {
             "jugador": "Brais Méndez",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 20,
+            "x": 65.8,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
             "tipo": "TakeOn",
             "minuto": 1,
             "segundo": 22,
@@ -406,7 +417,12 @@
             "endY": 31.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Omar Alderete",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -4997,7 +5013,24 @@
         "y": 48.0,
         "arco_y": 46.4,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Carles Aleñá",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 57,
+            "x": 95.6,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Aihen Muñoz",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -5053,7 +5086,24 @@
         "y": 48.7,
         "arco_y": 54.4,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Juanmi Latasa",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 90.9,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jon Pacheco",
+          "portero": false
+        }
       },
       {
         "minuto": 98,

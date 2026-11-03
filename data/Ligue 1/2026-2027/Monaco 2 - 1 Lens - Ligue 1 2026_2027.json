@@ -399,6 +399,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Sadibou Sané",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 25,
+            "x": 6.2,
+            "y": 87.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sadibou Sané",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 26,
+            "x": 5.6,
+            "y": 88.6,
+            "endX": 10.8,
+            "endY": 89.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Eric Dier",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 48,
+            "x": 10.8,
+            "y": 89.1,
+            "endX": 3.1,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Eric Dier",
             "tipo": "Pass",
             "minuto": 31,
@@ -475,7 +508,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ruben Aguilar",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4905,7 +4943,24 @@
         "y": 47.4,
         "arco_y": 51.0,
         "arco_z": 24.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matthieu Udol",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 54,
+            "x": 96.8,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric Dier",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4951,7 +5006,24 @@
         "y": 49.5,
         "arco_y": 47.1,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan Gradit",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 40,
+            "x": 7.8,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Paris Brunner",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

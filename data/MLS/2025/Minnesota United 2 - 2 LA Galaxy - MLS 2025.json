@@ -4105,7 +4105,24 @@
         "y": 41.3,
         "arco_y": 52.2,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Ramirez",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 33,
+            "x": 94.8,
+            "y": 38.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Morris Duggan",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -4180,6 +4197,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Isaiah Parente",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 29,
+            "x": 84.6,
+            "y": 91.7,
+            "endX": 85.7,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zanka",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 30,
+            "x": 85.7,
+            "y": 59.6,
+            "endX": 87.4,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zanka",
+            "tipo": "MissedShots",
+            "minuto": 89,
+            "segundo": 30,
+            "x": 87.4,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Miguel Berry",
             "tipo": "Pass",
             "minuto": 89,
@@ -4190,7 +4240,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nicolás Romero",
+          "portero": false
+        }
       }
     ],
     "corners": [

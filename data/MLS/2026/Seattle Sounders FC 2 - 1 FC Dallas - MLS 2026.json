@@ -417,6 +417,28 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Jordan Morris",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 12,
+            "x": 89.4,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Morris",
+            "tipo": "BallTouch",
+            "minuto": 29,
+            "segundo": 13,
+            "x": 89.4,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Hassani Dotson",
             "tipo": "Pass",
             "minuto": 29,
@@ -482,7 +504,12 @@
             "endY": 31.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Louicius Deedson",
+          "portero": false
+        }
       },
       {
         "minuto": 34,
@@ -4936,7 +4963,24 @@
         "y": 60.1,
         "arco_y": 45.6,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nolan Norris",
+            "tipo": "Aerial",
+            "minuto": 39,
+            "segundo": 36,
+            "x": 95.2,
+            "y": 60.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Hassani Dotson",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

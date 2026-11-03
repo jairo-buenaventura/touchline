@@ -431,6 +431,17 @@
         "secuencia_gol": [
           {
             "jugador": "Iván Márquez",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 9,
+            "x": 88.2,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Márquez",
             "tipo": "MissedShots",
             "minuto": 36,
             "segundo": 9,
@@ -440,7 +451,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pawel Bochniewicz",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4500,6 +4516,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Thom Haye",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 30,
+            "x": 69.9,
+            "y": 85.7,
+            "endX": 84.5,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osame Sahraoui",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 35,
+            "x": 84.5,
+            "y": 92.6,
+            "endX": 93.2,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Osame Sahraoui",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -4521,7 +4559,12 @@
             "endY": 54.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bart van Rooij",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

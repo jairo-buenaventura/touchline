@@ -4529,6 +4529,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Victor Osimhen",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 33.6,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Osimhen",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 33.6,
+            "y": 66.6,
+            "endX": 36.9,
+            "endY": 79.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 32,
+            "x": 36.9,
+            "y": 79.2,
+            "endX": 85.4,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Khvicha Kvaratskhelia",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -4550,7 +4583,12 @@
             "endY": 43.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ylber Ramadani",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

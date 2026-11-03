@@ -531,6 +531,61 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Jamal Amofa",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 1,
+            "x": 36.4,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Amofa",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 2,
+            "x": 33.7,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Amofa",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 3,
+            "x": 43.5,
+            "y": 51.5,
+            "endX": 54.2,
+            "endY": 52.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sami Bouhoudane",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 4,
+            "x": 54.2,
+            "y": 52.9,
+            "endX": 66.2,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafik El Arguioui",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 7,
+            "x": 66.2,
+            "y": 84.2,
+            "endX": 70.7,
+            "endY": 79.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Rafik El Arguioui",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -596,7 +651,12 @@
             "endY": 27.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kevin Kers",
+          "portero": false
+        }
       }
     ],
     "corners": [

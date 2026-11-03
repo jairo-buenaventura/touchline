@@ -3674,6 +3674,83 @@
         "secuencia_gol": [
           {
             "jugador": "Joe Willock",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 12,
+            "x": 54.1,
+            "y": 16.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 12,
+            "x": 54.1,
+            "y": 16.0,
+            "endX": 62.3,
+            "endY": 14.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Allan Saint-Maximin",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 13,
+            "x": 62.3,
+            "y": 14.3,
+            "endX": 57.9,
+            "endY": 6.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 14,
+            "x": 57.9,
+            "y": 6.9,
+            "endX": 73.5,
+            "endY": 4.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Allan Saint-Maximin",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 73.5,
+            "y": 4.4,
+            "endX": 71.1,
+            "endY": 1.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Allan Saint-Maximin",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 71.1,
+            "y": 1.9,
+            "endX": 73.2,
+            "endY": 3.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 20,
+            "x": 73.2,
+            "y": 3.4,
+            "endX": 92.7,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
             "tipo": "Pass",
             "minuto": 46,
             "segundo": 20,
@@ -3683,7 +3760,12 @@
             "endY": 55.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Felipe",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

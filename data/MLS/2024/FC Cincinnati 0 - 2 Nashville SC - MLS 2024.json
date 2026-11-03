@@ -4879,6 +4879,28 @@
         "secuencia_gol": [
           {
             "jugador": "Hany Mukhtar",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 43,
+            "x": 66.4,
+            "y": 52.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 45,
+            "x": 72.6,
+            "y": 57.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
             "tipo": "Pass",
             "minuto": 28,
             "segundo": 47,
@@ -4888,7 +4910,12 @@
             "endY": 67.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matt Miazga",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

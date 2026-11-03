@@ -4362,7 +4362,57 @@
         "y": 47.4,
         "arco_y": 45.7,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Shavy Babicka",
+            "tipo": "CornerAwarded",
+            "minuto": 56,
+            "segundo": 16,
+            "x": 89.6,
+            "y": 77.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 54,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.8,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charlie Cresswell",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 55,
+            "x": 95.8,
+            "y": 52.3,
+            "endX": 93.9,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charlie Cresswell",
+            "tipo": "SavedShot",
+            "minuto": 56,
+            "segundo": 55,
+            "x": 93.9,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yahia Fofana",
+          "portero": true
+        }
       },
       {
         "minuto": 60,
@@ -4390,7 +4440,24 @@
         "y": 48.4,
         "arco_y": 53.6,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Charlie Cresswell",
+            "tipo": "Aerial",
+            "minuto": 70,
+            "segundo": 18,
+            "x": 90.7,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jordan Lefort",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -4419,6 +4486,17 @@
         "arco_y": 49.5,
         "arco_z": 29.7,
         "secuencia_gol": [
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 0,
+            "x": 24.6,
+            "y": 75.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Yann Gboho",
             "tipo": "TakeOn",
@@ -4474,7 +4552,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierrick Capelle",
+          "portero": false
+        }
       }
     ],
     "corners": [

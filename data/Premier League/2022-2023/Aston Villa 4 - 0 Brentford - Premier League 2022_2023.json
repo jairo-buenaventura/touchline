@@ -449,6 +449,17 @@
         "secuencia_gol": [
           {
             "jugador": "Leander Dendoncker",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 9,
+            "x": 34.9,
+            "y": 17.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leander Dendoncker",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 10,
@@ -601,7 +612,12 @@
             "endY": 52.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Frank Onyeka",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

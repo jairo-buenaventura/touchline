@@ -410,6 +410,17 @@
         "secuencia_gol": [
           {
             "jugador": "Benjamin Pavard",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 13,
+            "x": 86.6,
+            "y": 66.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin Pavard",
             "tipo": "BallTouch",
             "minuto": 9,
             "segundo": 13,
@@ -419,7 +430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mario Pasalic",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -484,7 +500,35 @@
         "y": 54.3,
         "arco_y": 47.3,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 33,
+            "x": 91.5,
+            "y": 41.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 33,
+            "x": 92.2,
+            "y": 39.5,
+            "endX": 92.2,
+            "endY": 46.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Berat Djimsiti",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

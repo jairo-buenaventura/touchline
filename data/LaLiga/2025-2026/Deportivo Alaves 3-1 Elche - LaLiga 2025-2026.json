@@ -597,6 +597,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lucas Boyé",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 11,
+            "x": 67.0,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Boyé",
             "tipo": "Pass",
             "minuto": 94,
             "segundo": 14,
@@ -628,7 +639,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Victor Chust",
+          "portero": false
+        }
       },
       {
         "minuto": 96,
@@ -4683,6 +4699,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Núñez",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 70.5,
+            "y": 43.2,
+            "endX": 69.1,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Bigas",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 21,
+            "x": 69.1,
+            "y": 62.6,
+            "endX": 74.4,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Bigas",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 21,
+            "x": 74.4,
+            "y": 68.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Germán Valera",
             "tipo": "Pass",
             "minuto": 92,
@@ -4770,7 +4819,12 @@
             "endY": 54.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonny",
+          "portero": true
+        }
       }
     ],
     "corners": [

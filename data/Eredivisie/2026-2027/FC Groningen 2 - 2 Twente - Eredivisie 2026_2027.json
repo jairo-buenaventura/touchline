@@ -409,6 +409,17 @@
         "secuencia_gol": [
           {
             "jugador": "Thom van Bergen",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 33,
+            "x": 61.8,
+            "y": 32.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thom van Bergen",
             "tipo": "Pass",
             "minuto": 17,
             "segundo": 34,
@@ -462,7 +473,12 @@
             "endY": 64.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Robin Pröpper",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -483,6 +499,105 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Márk Csinger",
+            "tipo": "Tackle",
+            "minuto": 27,
+            "segundo": 55,
+            "x": 64.2,
+            "y": 29.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Márk Csinger",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 57,
+            "x": 68.1,
+            "y": 33.6,
+            "endX": 71.7,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thom van Bergen",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 0,
+            "x": 70.3,
+            "y": 26.8,
+            "endX": 76.2,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "David van der Werff",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 5,
+            "x": 75.3,
+            "y": 9.4,
+            "endX": 65.9,
+            "endY": 17.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 8,
+            "x": 65.9,
+            "y": 17.1,
+            "endX": 60.4,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 8,
+            "x": 60.4,
+            "y": 23.5,
+            "endX": 55.0,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijmen Blokzijl",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 10,
+            "x": 55.0,
+            "y": 55.5,
+            "endX": 53.3,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijmen Blokzijl",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 10,
+            "x": 53.3,
+            "y": 70.9,
+            "endX": 63.8,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tygo Land",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 12,
+            "x": 63.8,
+            "y": 67.9,
+            "endX": 63.5,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Tygo Land",
             "tipo": "TakeOn",
             "minuto": 28,
@@ -493,7 +608,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Younes Taha",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -4592,6 +4712,138 @@
           {
             "jugador": "Bart van Rooij",
             "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 36,
+            "x": 33.3,
+            "y": 0.0,
+            "endX": 6.3,
+            "endY": 19.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Bruns",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 39,
+            "x": 6.3,
+            "y": 19.0,
+            "endX": 3.7,
+            "endY": 22.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Bruns",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 39,
+            "x": 3.7,
+            "y": 22.9,
+            "endX": 4.3,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lars Unnerstall",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 43,
+            "x": 4.3,
+            "y": 53.8,
+            "endX": 12.5,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lars Unnerstall",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 43,
+            "x": 12.5,
+            "y": 62.8,
+            "endX": 23.5,
+            "endY": 59.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daouda Weidmann",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 44,
+            "x": 23.5,
+            "y": 59.5,
+            "endX": 19.7,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Bruns",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 48,
+            "x": 19.7,
+            "y": 32.8,
+            "endX": 32.7,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Bruns",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 48,
+            "x": 32.7,
+            "y": 31.5,
+            "endX": 45.5,
+            "endY": 33.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 51,
+            "x": 45.5,
+            "y": 33.9,
+            "endX": 43.5,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 51,
+            "x": 43.5,
+            "y": 30.3,
+            "endX": 46.7,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 52,
+            "x": 46.7,
+            "y": 28.2,
+            "endX": 52.8,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "BallTouch",
+            "minuto": 38,
+            "segundo": 52,
+            "x": 52.8,
+            "y": 19.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Pass",
             "minuto": 39,
             "segundo": 7,
             "x": 47.5,
@@ -4732,7 +4984,12 @@
             "endY": 50.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wouter Prins",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

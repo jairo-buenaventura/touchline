@@ -4109,6 +4109,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Mathys Tel",
+            "tipo": "CornerAwarded",
+            "minuto": 80,
+            "segundo": 56,
+            "x": 97.4,
+            "y": 24.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Porro",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 26,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.3,
+            "endY": 49.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kevin Danso",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 29,
+            "x": 90.3,
+            "y": 49.9,
+            "endX": 89.5,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Kevin Danso",
             "tipo": "BallTouch",
             "minuto": 81,
@@ -4130,7 +4163,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Toti Gomes",
+          "portero": false
+        }
       }
     ],
     "corners": [

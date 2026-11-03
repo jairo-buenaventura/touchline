@@ -459,7 +459,24 @@
         "y": 50.4,
         "arco_y": 47.1,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonas Wind",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 53,
+            "x": 95.8,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -4684,6 +4701,39 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Leo Østigård",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 54,
+            "x": 71.4,
+            "y": 70.0,
+            "endX": 84.0,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Kaderábek",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 56,
+            "x": 84.0,
+            "y": 34.0,
+            "endX": 86.8,
+            "endY": 56.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anton Stach",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 59,
+            "x": 86.8,
+            "y": 56.0,
+            "endX": 73.3,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Anton Stach",
             "tipo": "Pass",
             "minuto": 32,
@@ -4705,7 +4755,12 @@
             "endY": 25.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Denis Vavro",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

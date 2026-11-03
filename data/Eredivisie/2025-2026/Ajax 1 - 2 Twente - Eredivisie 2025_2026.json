@@ -4802,6 +4802,39 @@
         "secuencia_gol": [
           {
             "jugador": "Bart van Rooij",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 54,
+            "x": 16.9,
+            "y": 18.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 27.7,
+            "y": 5.4,
+            "endX": 30.2,
+            "endY": 6.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 19,
+            "x": 30.2,
+            "y": 6.4,
+            "endX": 31.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
             "tipo": "Pass",
             "minuto": 17,
             "segundo": 19,
@@ -4888,7 +4921,12 @@
             "endY": 66.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Lucas Rosa",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

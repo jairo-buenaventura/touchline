@@ -409,7 +409,57 @@
         "y": 54.7,
         "arco_y": 52.4,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "C.J. Sapong",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 15,
+            "x": 54.6,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "C.J. Sapong",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 18,
+            "x": 69.2,
+            "y": 47.1,
+            "endX": 80.7,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 21,
+            "x": 80.7,
+            "y": 33.2,
+            "endX": 87.3,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 21,
+            "x": 87.3,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Tim Melia",
+          "portero": true
+        }
       },
       {
         "minuto": 75,
@@ -4677,6 +4727,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rémi Walter",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 74.6,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémi Walter",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 33,
@@ -4686,7 +4747,12 @@
             "endY": 26.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Aké Loba",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

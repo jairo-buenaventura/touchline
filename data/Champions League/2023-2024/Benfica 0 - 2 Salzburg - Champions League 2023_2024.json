@@ -5041,6 +5041,50 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Maurits Kjærgaard",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 21,
+            "x": 51.4,
+            "y": 90.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maurits Kjærgaard",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 22,
+            "x": 55.0,
+            "y": 84.8,
+            "endX": 67.1,
+            "endY": 61.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roko Simic",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 24,
+            "x": 68.0,
+            "y": 61.5,
+            "endX": 68.7,
+            "endY": 58.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Roko Simic",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 27,
+            "x": 68.7,
+            "y": 58.8,
+            "endX": 84.1,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Roko Simic",
             "tipo": "Pass",
             "minuto": 50,
@@ -5051,7 +5095,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Fredrik Aursnes",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

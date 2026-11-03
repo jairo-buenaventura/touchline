@@ -469,6 +469,50 @@
         "secuencia_gol": [
           {
             "jugador": "Álex Moreno",
+            "tipo": "CornerAwarded",
+            "minuto": 59,
+            "segundo": 7,
+            "x": 97.8,
+            "y": 68.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Canales",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 35,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 89.6,
+            "endY": 55.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 40,
+            "x": 89.6,
+            "y": 55.0,
+            "endX": 69.2,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "SavedShot",
+            "minuto": 59,
+            "segundo": 40,
+            "x": 69.2,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
             "tipo": "Pass",
             "minuto": 59,
             "segundo": 45,
@@ -577,7 +621,12 @@
             "endY": 56.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pau Torres",
+          "portero": true
+        }
       },
       {
         "minuto": 62,

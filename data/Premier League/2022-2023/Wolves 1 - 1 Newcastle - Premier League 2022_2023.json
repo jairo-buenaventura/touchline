@@ -386,6 +386,28 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Nathan Collins",
+            "tipo": "Aerial",
+            "minuto": 37,
+            "segundo": 33,
+            "x": 95.2,
+            "y": 67.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nathan Collins",
+            "tipo": "BallTouch",
+            "minuto": 37,
+            "segundo": 34,
+            "x": 94.2,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Rúben Neves",
             "tipo": "Pass",
             "minuto": 37,
@@ -440,7 +462,12 @@
             "endY": 61.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kieran Trippier",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

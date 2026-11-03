@@ -500,6 +500,17 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Mohamed Simakan",
+            "tipo": "BallTouch",
+            "minuto": 62,
+            "segundo": 2,
+            "x": 36.3,
+            "y": 39.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Xavi Simons",
             "tipo": "Pass",
             "minuto": 62,
@@ -697,7 +708,12 @@
             "endY": 42.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dan-Axel Zagadou",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -708,6 +724,17 @@
         "arco_y": 46.4,
         "arco_z": 25.3,
         "secuencia_gol": [
+          {
+            "jugador": "David Raum",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 30,
+            "x": 61.0,
+            "y": 91.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "David Raum",
             "tipo": "BallTouch",
@@ -752,7 +779,12 @@
             "endY": 46.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pascal Stenzel",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -835,7 +867,68 @@
         "y": 61.7,
         "arco_y": 49.0,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Xaver Schlager",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 36,
+            "x": 45.1,
+            "y": 63.3,
+            "endX": 56.0,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yussuf Poulsen",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 37,
+            "x": 56.0,
+            "y": 57.6,
+            "endX": 53.9,
+            "endY": 54.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 37,
+            "x": 53.6,
+            "y": 54.0,
+            "endX": 73.0,
+            "endY": 51.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 73.0,
+            "y": 51.8,
+            "endX": 87.2,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 87.2,
+            "y": 56.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alexander Nübel",
+          "portero": true
+        }
       },
       {
         "minuto": 82,
@@ -5048,6 +5141,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Atakan Karazor",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 43,
+            "x": 70.8,
+            "y": 28.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Atakan Karazor",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 43,
+            "x": 73.3,
+            "y": 28.2,
+            "endX": 79.5,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Serhou Guirassy",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 45,
+            "x": 79.5,
+            "y": 33.7,
+            "endX": 87.8,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Serhou Guirassy",
             "tipo": "TakeOn",
             "minuto": 34,
@@ -5058,7 +5184,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mohamed Simakan",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

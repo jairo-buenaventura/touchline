@@ -435,7 +435,145 @@
         "y": 48.1,
         "arco_y": 50.3,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marquinhos",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 7,
+            "x": 42.3,
+            "y": 21.6,
+            "endX": 45.5,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Skriniar",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 10,
+            "x": 44.4,
+            "y": 46.7,
+            "endX": 47.2,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 13,
+            "x": 48.7,
+            "y": 66.1,
+            "endX": 44.4,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Skriniar",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 44.4,
+            "y": 53.7,
+            "endX": 44.2,
+            "endY": 49.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Skriniar",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 44.2,
+            "y": 49.4,
+            "endX": 42.0,
+            "endY": 32.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marquinhos",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 20,
+            "x": 42.0,
+            "y": 32.9,
+            "endX": 46.7,
+            "endY": 43.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marquinhos",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 20,
+            "x": 46.7,
+            "y": 43.2,
+            "endX": 63.0,
+            "endY": 84.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 23,
+            "x": 61.0,
+            "y": 86.8,
+            "endX": 76.1,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 24,
+            "x": 76.1,
+            "y": 93.4,
+            "endX": 75.7,
+            "endY": 99.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "TakeOn",
+            "minuto": 36,
+            "segundo": 24,
+            "x": 75.7,
+            "y": 99.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 28,
+            "x": 78.7,
+            "y": 73.8,
+            "endX": 74.5,
+            "endY": 42.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "ShotOnPost",
+            "minuto": 36,
+            "segundo": 30,
+            "x": 75.5,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Pau López",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -729,6 +867,17 @@
         "secuencia_gol": [
           {
             "jugador": "Randal Kolo Muani",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 11,
+            "x": 26.0,
+            "y": 28.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randal Kolo Muani",
             "tipo": "TakeOn",
             "minuto": 88,
             "segundo": 13,
@@ -749,7 +898,12 @@
             "endY": 59.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jordan Veretout",
+          "portero": false
+        }
       }
     ],
     "corners": [

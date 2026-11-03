@@ -420,7 +420,178 @@
         "y": 40.7,
         "arco_y": 53.7,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rodri",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 20,
+            "x": 18.8,
+            "y": 42.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 22,
+            "x": 20.1,
+            "y": 42.5,
+            "endX": 40.5,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 27,
+            "x": 40.5,
+            "y": 65.6,
+            "endX": 63.6,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 27,
+            "x": 63.6,
+            "y": 75.0,
+            "endX": 71.6,
+            "endY": 98.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 31,
+            "x": 71.6,
+            "y": 98.0,
+            "endX": 73.8,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 31,
+            "x": 73.8,
+            "y": 92.7,
+            "endX": 68.0,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 33,
+            "x": 69.0,
+            "y": 69.6,
+            "endX": 72.4,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 35,
+            "x": 72.4,
+            "y": 43.0,
+            "endX": 73.2,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 35,
+            "x": 73.2,
+            "y": 39.8,
+            "endX": 83.7,
+            "endY": 17.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 44,
+            "x": 83.7,
+            "y": 17.3,
+            "endX": 91.4,
+            "endY": 17.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 44,
+            "x": 91.4,
+            "y": 17.9,
+            "endX": 71.5,
+            "endY": 16.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Stones",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 47,
+            "x": 71.1,
+            "y": 17.9,
+            "endX": 78.1,
+            "endY": 4.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 50,
+            "x": 76.6,
+            "y": 5.6,
+            "endX": 74.8,
+            "endY": 30.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 52,
+            "x": 74.8,
+            "y": 30.8,
+            "endX": 77.6,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "TakeOn",
+            "minuto": 26,
+            "segundo": 52,
+            "x": 77.6,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jamal Musiala",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -559,6 +730,17 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 75,
+            "segundo": 47,
+            "x": 96.2,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Bernardo Silva",
             "tipo": "Pass",
             "minuto": 75,
@@ -602,7 +784,12 @@
             "endY": 44.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Matthijs de Ligt",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mexx Meerdink",
+            "tipo": "Aerial",
+            "minuto": 7,
+            "segundo": 55,
+            "x": 51.3,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mexx Meerdink",
             "tipo": "Pass",
             "minuto": 7,
             "segundo": 56,
@@ -625,7 +636,12 @@
             "endY": 42.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Hjalmar Ekdal",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -707,7 +723,24 @@
         "y": 54.5,
         "arco_y": 52.8,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ernest Poku",
+            "tipo": "TakeOn",
+            "minuto": 29,
+            "segundo": 59,
+            "x": 89.0,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Etienne Vaessen",
+          "portero": false
+        }
       },
       {
         "minuto": 32,

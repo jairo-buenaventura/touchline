@@ -369,6 +369,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Adam Obert",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 19,
+            "x": 58.7,
+            "y": 79.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Obert",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 20,
+            "x": 56.9,
+            "y": 82.8,
+            "endX": 62.7,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Mendy",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 21,
+            "x": 62.7,
+            "y": 73.9,
+            "endX": 67.8,
+            "endY": 89.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Maldini",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 23,
+            "x": 67.8,
+            "y": 89.2,
+            "endX": 84.7,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Maldini",
+            "tipo": "SavedShot",
+            "minuto": 19,
+            "segundo": 23,
+            "x": 84.7,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Maldini",
+            "tipo": "BallTouch",
+            "minuto": 19,
+            "segundo": 25,
+            "x": 86.0,
+            "y": 67.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Paul Mendy",
             "tipo": "Pass",
             "minuto": 19,
@@ -379,7 +445,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Pierre Kalulu",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -4279,7 +4350,24 @@
         "y": 49.0,
         "arco_y": 46.0,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Randal Kolo Muani",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 25,
+            "x": 95.4,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Adam Obert",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

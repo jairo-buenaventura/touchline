@@ -401,6 +401,61 @@
         "secuencia_gol": [
           {
             "jugador": "Leroy Sané",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 7,
+            "x": 53.2,
+            "y": 36.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 8,
+            "x": 55.1,
+            "y": 35.2,
+            "endX": 67.0,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 10,
+            "x": 66.7,
+            "y": 35.7,
+            "endX": 69.4,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 12,
+            "x": 69.4,
+            "y": 28.2,
+            "endX": 74.6,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 12,
+            "x": 74.6,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 12,
@@ -410,7 +465,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lukás Kalvach",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -475,13 +535,29 @@
             "tipo": "TakeOn",
             "minuto": 20,
             "segundo": 5,
+            "x": 71.4,
+            "y": 84.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sadio Mané",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 5,
             "x": 85.4,
             "y": 67.4,
             "endX": null,
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lukás Kalvach",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

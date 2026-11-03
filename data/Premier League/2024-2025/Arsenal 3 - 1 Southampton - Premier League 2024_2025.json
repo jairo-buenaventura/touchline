@@ -589,6 +589,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Mikel Merino",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 22,
+            "x": 64.8,
+            "y": 91.2,
+            "endX": 65.8,
+            "endY": 89.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Riccardo Calafiori",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 33,
+            "x": 65.8,
+            "y": 89.3,
+            "endX": 60.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Riccardo Calafiori",
             "tipo": "Pass",
             "minuto": 67,
@@ -643,7 +665,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Flynn Downes",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

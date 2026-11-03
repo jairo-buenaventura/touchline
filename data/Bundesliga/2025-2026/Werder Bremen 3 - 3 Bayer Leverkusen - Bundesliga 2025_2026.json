@@ -467,6 +467,17 @@
         "secuencia_gol": [
           {
             "jugador": "Keke Topp",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 33,
+            "x": 93.6,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keke Topp",
             "tipo": "Pass",
             "minuto": 93,
             "segundo": 34,
@@ -498,7 +509,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Loïc Badé",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4387,7 +4403,189 @@
         "y": 47.2,
         "arco_y": 53.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 52,
+            "x": 16.5,
+            "y": 98.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 52,
+            "x": 16.7,
+            "y": 98.1,
+            "endX": 25.4,
+            "endY": 80.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malik Tillman",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 54,
+            "x": 25.4,
+            "y": 80.0,
+            "endX": 26.2,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malik Tillman",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 54,
+            "x": 26.2,
+            "y": 74.4,
+            "endX": 12.3,
+            "endY": 22.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Tape",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 0,
+            "x": 12.3,
+            "y": 22.2,
+            "endX": 13.7,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Tape",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 0,
+            "x": 13.7,
+            "y": 18.0,
+            "endX": 21.5,
+            "endY": 28.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 1,
+            "x": 21.5,
+            "y": 28.5,
+            "endX": 9.9,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarell Quansah",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 5,
+            "x": 9.9,
+            "y": 35.9,
+            "endX": 9.3,
+            "endY": 18.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarell Quansah",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 5,
+            "x": 9.3,
+            "y": 18.5,
+            "endX": 29.1,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Tape",
+            "tipo": "TakeOn",
+            "minuto": 34,
+            "segundo": 9,
+            "x": 27.6,
+            "y": 5.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Tape",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 14,
+            "x": 44.2,
+            "y": 12.1,
+            "endX": 42.4,
+            "endY": 34.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 16,
+            "x": 42.6,
+            "y": 36.0,
+            "endX": 59.7,
+            "endY": 64.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 21,
+            "x": 59.7,
+            "y": 64.1,
+            "endX": 76.6,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 21,
+            "x": 76.6,
+            "y": 62.5,
+            "endX": 81.0,
+            "endY": 58.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Christian Kofane",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 23,
+            "x": 81.0,
+            "y": 58.6,
+            "endX": 86.7,
+            "endY": 69.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kofane",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 23,
+            "x": 86.7,
+            "y": 69.2,
+            "endX": 88.8,
+            "endY": 52.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Senne Lynen",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

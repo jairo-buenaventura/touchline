@@ -385,6 +385,39 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Rodrigo",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 26,
+            "x": 62.4,
+            "y": 7.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 30,
+            "x": 58.2,
+            "y": 6.2,
+            "endX": 58.4,
+            "endY": 10.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luke Ayling",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 50,
+            "x": 58.4,
+            "y": 10.3,
+            "endX": 50.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Luke Ayling",
             "tipo": "Pass",
             "minuto": 26,
@@ -439,7 +472,12 @@
             "endY": 51.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tomás Soucek",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -496,6 +534,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Luke Ayling",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 24,
+            "x": 53.4,
+            "y": 0.0,
+            "endX": 51.7,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Adams",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 29,
+            "x": 51.7,
+            "y": 41.6,
+            "endX": 60.6,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Adams",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 29,
+            "x": 60.6,
+            "y": 56.3,
+            "endX": 74.7,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Harrison",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 30,
+            "x": 74.7,
+            "y": 56.1,
+            "endX": 71.7,
+            "endY": 43.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Jack Harrison",
             "tipo": "TakeOn",
             "minuto": 69,
@@ -517,7 +599,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Declan Rice",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

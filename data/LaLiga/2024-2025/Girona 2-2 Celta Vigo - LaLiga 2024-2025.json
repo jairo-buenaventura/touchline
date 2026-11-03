@@ -394,6 +394,28 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 46,
+            "x": 66.1,
+            "y": 49.4,
+            "endX": 90.0,
+            "endY": 23.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Arnau Martínez",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 58,
+            "x": 90.0,
+            "y": 23.3,
+            "endX": 94.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Arnau Martínez",
             "tipo": "Pass",
             "minuto": 19,
@@ -492,7 +514,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Óscar Mingueza",
+          "portero": false
+        }
       },
       {
         "minuto": 37,

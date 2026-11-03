@@ -416,6 +416,17 @@
         "secuencia_gol": [
           {
             "jugador": "Thiago Martins",
+            "tipo": "Tackle",
+            "minuto": 22,
+            "segundo": 10,
+            "x": 88.9,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thiago Martins",
             "tipo": "Pass",
             "minuto": 22,
             "segundo": 11,
@@ -436,7 +447,12 @@
             "endY": 45.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Elias Manoel",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

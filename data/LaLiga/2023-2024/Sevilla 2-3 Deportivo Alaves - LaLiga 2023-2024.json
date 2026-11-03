@@ -510,7 +510,101 @@
         "y": 55.2,
         "arco_y": 53.2,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rafa Mir",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 4,
+            "x": 44.7,
+            "y": 63.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafa Mir",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 4,
+            "x": 44.7,
+            "y": 63.9,
+            "endX": 42.8,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 6,
+            "x": 42.8,
+            "y": 31.9,
+            "endX": 34.8,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 7,
+            "x": 34.8,
+            "y": 35.7,
+            "endX": 45.4,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 15,
+            "x": 45.4,
+            "y": 11.7,
+            "endX": 65.0,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanlu Sánchez",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 15,
+            "x": 65.0,
+            "y": 14.6,
+            "endX": 72.3,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 20,
+            "x": 72.3,
+            "y": 5.3,
+            "endX": 79.8,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 20,
+            "x": 79.8,
+            "y": 7.0,
+            "endX": 92.6,
+            "endY": 50.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rafa Marín",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -5274,6 +5368,17 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Kike García",
+            "tipo": "Aerial",
+            "minuto": 39,
+            "segundo": 41,
+            "x": 86.8,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Carlos Vicente",
             "tipo": "Pass",
             "minuto": 39,
@@ -5284,7 +5389,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kike Salas",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -5369,6 +5479,17 @@
         "secuencia_gol": [
           {
             "jugador": "Samu Aghehowa",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 19,
+            "x": 90.3,
+            "y": 42.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samu Aghehowa",
             "tipo": "MissedShots",
             "minuto": 89,
             "segundo": 19,
@@ -5378,7 +5499,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sergio Ramos",
+          "portero": false
+        }
       }
     ],
     "corners": [

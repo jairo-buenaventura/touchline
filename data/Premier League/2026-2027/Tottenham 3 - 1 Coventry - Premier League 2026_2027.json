@@ -400,6 +400,28 @@
         "secuencia_gol": [
           {
             "jugador": "Mohammed Kudus",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 30,
+            "x": 66.8,
+            "y": 34.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "TakeOn",
+            "minuto": 13,
+            "segundo": 31,
+            "x": 75.6,
+            "y": 24.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
             "tipo": "Pass",
             "minuto": 13,
             "segundo": 33,
@@ -409,7 +431,12 @@
             "endY": 34.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jay Dasilva",
+          "portero": false
+        }
       },
       {
         "minuto": 15,

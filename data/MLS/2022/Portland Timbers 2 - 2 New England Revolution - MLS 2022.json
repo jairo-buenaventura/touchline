@@ -466,6 +466,72 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Bill Tuiloma",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 39,
+            "x": 27.2,
+            "y": 44.2,
+            "endX": 65.2,
+            "endY": 30.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 43,
+            "x": 65.3,
+            "y": 30.5,
+            "endX": 61.2,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaroslaw Niezgoda",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 44,
+            "x": 61.3,
+            "y": 34.9,
+            "endX": 62.9,
+            "endY": 27.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yimmi Chará",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 50,
+            "x": 62.9,
+            "y": 27.5,
+            "endX": 67.0,
+            "endY": 53.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yimmi Chará",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 50,
+            "x": 67.0,
+            "y": 53.3,
+            "endX": 78.8,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 52,
+            "x": 78.8,
+            "y": 63.9,
+            "endX": 77.8,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Santiago Moreno",
             "tipo": "TakeOn",
             "minuto": 59,
@@ -487,7 +553,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sebastian Lletget",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -542,7 +613,123 @@
         "y": 54.3,
         "arco_y": 46.1,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bill Tuiloma",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 10,
+            "x": 25.9,
+            "y": 74.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bill Tuiloma",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 13,
+            "x": 25.1,
+            "y": 69.3,
+            "endX": 33.4,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Chará",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 15,
+            "x": 33.5,
+            "y": 56.4,
+            "endX": 38.9,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Claudio Bravo",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 38.9,
+            "y": 82.7,
+            "endX": 44.6,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Claudio Bravo",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 44.6,
+            "y": 86.3,
+            "endX": 65.8,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 23,
+            "x": 65.8,
+            "y": 94.4,
+            "endX": 61.2,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 23,
+            "x": 61.2,
+            "y": 89.4,
+            "endX": 68.6,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dairon Asprilla",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 29,
+            "x": 68.4,
+            "y": 22.7,
+            "endX": 80.5,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josecarlos Van Rankin",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 33,
+            "x": 80.5,
+            "y": 9.1,
+            "endX": 76.5,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josecarlos Van Rankin",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 33,
+            "x": 76.5,
+            "y": 13.4,
+            "endX": 90.2,
+            "endY": 48.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Andrew Farrell",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -4746,7 +4933,24 @@
         "y": 41.9,
         "arco_y": 52.0,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brandon Bye",
+            "tipo": "Aerial",
+            "minuto": 40,
+            "segundo": 1,
+            "x": 93.7,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Claudio Bravo",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4775,6 +4979,28 @@
         "arco_y": 46.2,
         "arco_z": 13.9,
         "secuencia_gol": [
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 40.2,
+            "y": 100.0,
+            "endX": 58.2,
+            "endY": 97.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 53,
+            "x": 58.2,
+            "y": 97.8,
+            "endX": 61.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "DeJuan Jones",
             "tipo": "Pass",
@@ -4830,7 +5056,12 @@
             "endY": 61.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Josecarlos Van Rankin",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

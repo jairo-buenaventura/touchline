@@ -385,6 +385,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 44,
+            "x": 69.6,
+            "y": 23.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Strefezza",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 45,
+            "x": 69.6,
+            "y": 23.5,
+            "endX": 88.0,
+            "endY": 57.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Patrick Cutrone",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 50,
+            "x": 88.0,
+            "y": 57.2,
+            "endX": 75.1,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Patrick Cutrone",
             "tipo": "Pass",
             "minuto": 4,
@@ -428,7 +461,12 @@
             "endY": 34.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thomas Kristensen",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -486,6 +524,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alberto Dossena",
+            "tipo": "Aerial",
+            "minuto": 43,
+            "segundo": 11,
+            "x": 91.6,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alberto Dossena",
             "tipo": "Pass",
             "minuto": 43,
             "segundo": 11,
@@ -495,7 +544,12 @@
             "endY": 57.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Oumar Solet",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

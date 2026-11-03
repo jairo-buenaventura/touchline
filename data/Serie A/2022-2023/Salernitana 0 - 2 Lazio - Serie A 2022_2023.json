@@ -4227,6 +4227,83 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Nicolò Casale",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 12,
+            "x": 11.1,
+            "y": 12.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Casale",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 14,
+            "x": 9.9,
+            "y": 7.0,
+            "endX": 14.8,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "BallTouch",
+            "minuto": 58,
+            "segundo": 15,
+            "x": 14.8,
+            "y": 7.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Cataldi",
+            "tipo": "BallTouch",
+            "minuto": 58,
+            "segundo": 17,
+            "x": 20.2,
+            "y": 16.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 21,
+            "x": 19.9,
+            "y": 4.7,
+            "endX": 25.4,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Cataldi",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 22,
+            "x": 25.4,
+            "y": 11.6,
+            "endX": 26.7,
+            "endY": 12.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 26.7,
+            "y": 12.3,
+            "endX": 28.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Marusic",
             "tipo": "Pass",
             "minuto": 58,
@@ -4358,7 +4435,12 @@
             "endY": 56.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Diego Valencia",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

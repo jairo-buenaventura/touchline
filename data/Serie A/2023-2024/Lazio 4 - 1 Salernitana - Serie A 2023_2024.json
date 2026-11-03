@@ -433,6 +433,17 @@
         "secuencia_gol": [
           {
             "jugador": "Felipe Anderson",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 13,
+            "x": 69.9,
+            "y": 15.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Anderson",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 18,
@@ -442,7 +453,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lorenzo Pirola",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -479,7 +495,35 @@
         "y": 49.6,
         "arco_y": 52.3,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 24,
+            "x": 89.3,
+            "y": 57.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "MissedShots",
+            "minuto": 13,
+            "segundo": 24,
+            "x": 91.1,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Norbert Gyömbér",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -5404,7 +5448,24 @@
         "y": 46.0,
         "arco_y": 52.2,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Aerial",
+            "minuto": 15,
+            "segundo": 42,
+            "x": 92.6,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Manuel Lazzari",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

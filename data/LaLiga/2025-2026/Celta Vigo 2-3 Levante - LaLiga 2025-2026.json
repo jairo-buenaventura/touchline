@@ -384,6 +384,83 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Marcos Alonso",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 46,
+            "x": 44.3,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Alonso",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 46,
+            "x": 44.3,
+            "y": 49.2,
+            "endX": 48.2,
+            "endY": 45.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 54,
+            "x": 48.2,
+            "y": 45.3,
+            "endX": 62.9,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 54,
+            "x": 62.9,
+            "y": 72.9,
+            "endX": 69.4,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Jutglà",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 56,
+            "x": 69.4,
+            "y": 76.9,
+            "endX": 68.1,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 57,
+            "x": 68.1,
+            "y": 70.5,
+            "endX": 84.8,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Jutglà",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 58,
+            "x": 84.8,
+            "y": 71.1,
+            "endX": 86.2,
+            "endY": 64.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Ferran Jutglà",
             "tipo": "TakeOn",
             "minuto": 3,
@@ -394,7 +471,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kervin Arriaga",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -432,6 +514,116 @@
         "arco_y": 51.3,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Yoel Lago",
+            "tipo": "Clearance",
+            "minuto": 46,
+            "segundo": 3,
+            "x": 28.7,
+            "y": 55.3,
+            "endX": 37.7,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 5,
+            "x": 37.7,
+            "y": 51.3,
+            "endX": 32.2,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Sotelo",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 5,
+            "x": 32.2,
+            "y": 49.3,
+            "endX": 24.7,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Rodríguez",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 8,
+            "x": 24.7,
+            "y": 27.4,
+            "endX": 26.0,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Rodríguez",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 8,
+            "x": 26.0,
+            "y": 23.7,
+            "endX": 38.6,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fer López",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 14,
+            "x": 38.6,
+            "y": 20.1,
+            "endX": 62.1,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fer López",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 14,
+            "x": 62.1,
+            "y": 24.1,
+            "endX": 64.4,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 64.4,
+            "y": 30.6,
+            "endX": 64.3,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 64.3,
+            "y": 26.4,
+            "endX": 68.1,
+            "endY": 19.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Javi Rueda",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 22,
+            "x": 68.1,
+            "y": 19.6,
+            "endX": 74.7,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Javi Rueda",
             "tipo": "Pass",
@@ -685,7 +877,12 @@
             "endY": 54.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jon Olasagasti",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

@@ -423,7 +423,24 @@
         "y": 45.0,
         "arco_y": 46.4,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 42,
+            "x": 96.4,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Josko Gvardiol",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -462,6 +479,116 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Danilo",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 48,
+            "x": 22.5,
+            "y": 90.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 50,
+            "x": 28.5,
+            "y": 96.3,
+            "endX": 30.1,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 52,
+            "x": 30.1,
+            "y": 90.2,
+            "endX": 34.5,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 52,
+            "x": 34.5,
+            "y": 88.6,
+            "endX": 32.8,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 53,
+            "x": 32.8,
+            "y": 95.4,
+            "endX": 45.1,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weston McKennie",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 56,
+            "x": 45.1,
+            "y": 71.8,
+            "endX": 55.8,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weston McKennie",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 56,
+            "x": 55.8,
+            "y": 64.5,
+            "endX": 88.1,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Weah",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 1,
+            "x": 88.1,
+            "y": 27.0,
+            "endX": 91.7,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Weah",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 1,
+            "x": 91.7,
+            "y": 28.3,
+            "endX": 92.2,
+            "endY": 32.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Timothy Weah",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 92.2,
+            "y": 32.7,
+            "endX": 95.2,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Timothy Weah",
             "tipo": "Pass",
             "minuto": 74,
@@ -472,7 +599,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Rico Lewis",
+          "portero": false
+        }
       }
     ],
     "corners": [

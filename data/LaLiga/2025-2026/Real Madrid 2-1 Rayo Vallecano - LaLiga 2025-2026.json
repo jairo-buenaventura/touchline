@@ -5232,6 +5232,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Isi Palazón",
+            "tipo": "BlockedPass",
+            "minuto": 47,
+            "segundo": 44,
+            "x": 87.9,
+            "y": 47.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isi Palazón",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 47,
+            "x": 97.0,
+            "y": 28.3,
+            "endX": 96.5,
+            "endY": 30.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andrei Ratiu",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 57,
+            "x": 96.5,
+            "y": 30.4,
+            "endX": 92.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrei Ratiu",
             "tipo": "Pass",
             "minuto": 47,
@@ -5297,7 +5330,12 @@
             "endY": 55.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Dean Huijsen",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

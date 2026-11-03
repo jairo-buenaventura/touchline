@@ -463,7 +463,35 @@
         "y": 62.6,
         "arco_y": 48.1,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 18,
+            "x": 94.6,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 18,
+            "x": 92.9,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Peter Pekarík",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4379,6 +4407,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Marvin Plattenhardt",
+            "tipo": "BallRecovery",
+            "minuto": 29,
+            "segundo": 31,
+            "x": 62.0,
+            "y": 76.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Plattenhardt",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 33,
+            "x": 72.7,
+            "y": 77.8,
+            "endX": 91.0,
+            "endY": 54.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Chidera Ejuke",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 41,
+            "x": 91.0,
+            "y": 54.0,
+            "endX": 94.2,
+            "endY": 78.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Chidera Ejuke",
             "tipo": "Pass",
             "minuto": 29,
@@ -4389,7 +4450,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maxim Leitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

@@ -445,6 +445,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dame Gueye",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 36,
+            "x": 37.1,
+            "y": 92.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dame Gueye",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 37,
@@ -476,7 +487,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lucas Tousart",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4436,6 +4452,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Pathé Mboup",
+            "tipo": "Tackle",
+            "minuto": 29,
+            "segundo": 53,
+            "x": 45.8,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamory Doumbia",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 57,
+            "x": 43.8,
+            "y": 77.6,
+            "endX": 80.7,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Del Castillo",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 58,
+            "x": 80.7,
+            "y": 23.9,
+            "endX": 80.1,
+            "endY": 29.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Romain Del Castillo",
             "tipo": "TakeOn",
             "minuto": 29,
@@ -4446,7 +4495,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rayan Bamba",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4501,7 +4555,35 @@
         "y": 46.6,
         "arco_y": 48.8,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joris Chotard",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 11,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 93.6,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 13,
+            "x": 93.6,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nicolas Kocik",
+          "portero": true
+        }
       },
       {
         "minuto": 67,

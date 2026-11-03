@@ -431,7 +431,24 @@
         "y": 28.3,
         "arco_y": 54.3,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antonio Caracciolo",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 56,
+            "x": 92.9,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jamil Siebert",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4555,6 +4572,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Danilo Veiga",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 27,
+            "x": 18.2,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Veiga",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 27,
+            "x": 18.2,
+            "y": 10.1,
+            "endX": 31.1,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 31.1,
+            "y": 11.0,
+            "endX": 74.0,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
+            "tipo": "TakeOn",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 74.0,
+            "y": 41.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Santiago Pierotti",
             "tipo": "Pass",
             "minuto": 64,
@@ -4565,7 +4626,12 @@
             "endY": 32.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Antonio Caracciolo",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

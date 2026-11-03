@@ -563,7 +563,24 @@
         "y": 52.2,
         "arco_y": 53.2,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josko Gvardiol",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 16,
+            "x": 94.5,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Granit Xhaka",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -638,6 +655,61 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Erling Haaland",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 46,
+            "x": 44.3,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 63.0,
+            "y": 49.2,
+            "endX": 67.2,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 67.2,
+            "y": 29.4,
+            "endX": 68.9,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 68.9,
+            "y": 26.8,
+            "endX": 75.6,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Cherki",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 55,
+            "x": 75.6,
+            "y": 16.9,
+            "endX": 87.1,
+            "endY": 22.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rayan Cherki",
             "tipo": "TakeOn",
             "minuto": 64,
@@ -670,7 +742,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Trai Hume",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

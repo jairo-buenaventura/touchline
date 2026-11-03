@@ -4366,6 +4366,39 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Alessio Romagnoli",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 34,
+            "x": 93.7,
+            "y": 31.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessio Romagnoli",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 34,
+            "x": 94.4,
+            "y": 30.6,
+            "endX": 94.6,
+            "endY": 34.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 38,
+            "x": 94.6,
+            "y": 34.6,
+            "endX": 75.3,
+            "endY": 18.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Elseid Hysaj",
             "tipo": "Pass",
             "minuto": 65,
@@ -4464,7 +4497,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Djed Spence",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

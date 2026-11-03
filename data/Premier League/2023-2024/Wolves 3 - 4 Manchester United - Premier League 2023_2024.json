@@ -498,6 +498,39 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Pedro Neto",
+            "tipo": "CornerAwarded",
+            "minuto": 84,
+            "segundo": 10,
+            "x": 87.5,
+            "y": 37.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Sarabia",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.7,
+            "endY": 37.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Craig Dawson",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 33,
+            "x": 95.7,
+            "y": 37.0,
+            "endX": 88.5,
+            "endY": 63.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Craig Dawson",
             "tipo": "SavedShot",
             "minuto": 84,
@@ -519,7 +552,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bruno Fernandes",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -5253,7 +5291,57 @@
         "y": 64.8,
         "arco_y": 46.1,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Omari Forson",
+            "tipo": "Pass",
+            "minuto": 96,
+            "segundo": 20,
+            "x": 73.0,
+            "y": 79.7,
+            "endX": 70.1,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kobbie Mainoo",
+            "tipo": "Carry",
+            "minuto": 96,
+            "segundo": 21,
+            "x": 70.1,
+            "y": 84.1,
+            "endX": 72.5,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kobbie Mainoo",
+            "tipo": "TakeOn",
+            "minuto": 96,
+            "segundo": 21,
+            "x": 72.5,
+            "y": 81.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kobbie Mainoo",
+            "tipo": "TakeOn",
+            "minuto": 96,
+            "segundo": 22,
+            "x": 75.6,
+            "y": 79.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maximilian Kilman",
+          "portero": false
+        }
       }
     ],
     "corners": [

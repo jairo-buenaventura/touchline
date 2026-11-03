@@ -498,6 +498,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Yéremy Pino",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 28,
+            "x": 41.5,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yéremy Pino",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 33,
+            "x": 73.2,
+            "y": 66.8,
+            "endX": 91.0,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 38,
+            "x": 91.0,
+            "y": 73.9,
+            "endX": 90.3,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Jackson",
             "tipo": "TakeOn",
             "minuto": 80,
@@ -508,7 +541,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brais Méndez",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

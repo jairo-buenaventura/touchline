@@ -469,6 +469,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Mathieu Choinière",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 13,
+            "x": 99.3,
+            "y": 0.3,
+            "endX": 95.3,
+            "endY": 38.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Zachary Brault-Guillard",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 18,
+            "x": 95.3,
+            "y": 38.6,
+            "endX": 70.0,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zachary Brault-Guillard",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 18,
+            "x": 70.0,
+            "y": 38.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Zachary Brault-Guillard",
             "tipo": "Pass",
             "minuto": 85,
@@ -501,7 +534,12 @@
             "endY": 41.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Carles Gil",
+          "portero": false
+        }
       }
     ],
     "corners": [

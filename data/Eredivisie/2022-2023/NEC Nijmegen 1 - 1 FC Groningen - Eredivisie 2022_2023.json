@@ -515,6 +515,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Bart van Rooij",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 11,
+            "x": 34.0,
+            "y": 34.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 13,
+            "x": 37.7,
+            "y": 35.3,
+            "endX": 64.4,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Cissoko",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 21,
+            "x": 64.4,
+            "y": 86.3,
+            "endX": 92.0,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Cissoko",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 21,
+            "x": 92.0,
+            "y": 72.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mikkel Duelund",
             "tipo": "Pass",
             "minuto": 87,
@@ -657,7 +701,12 @@
             "endY": 72.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Neraysho Kasanwirjo",
+          "portero": true
+        }
       }
     ],
     "corners": [

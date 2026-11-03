@@ -383,7 +383,24 @@
         "y": 52.9,
         "arco_y": 54.0,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Davie Selke",
+            "tipo": "Aerial",
+            "minuto": 7,
+            "segundo": 1,
+            "x": 94.8,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Filip Uremovic",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -465,7 +482,24 @@
         "y": 54.8,
         "arco_y": 46.3,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Timo Hübers",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 96.5,
+            "y": 57.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lucas Tousart",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -660,6 +694,61 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Jonas Hector",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 23,
+            "x": 69.1,
+            "y": 88.9,
+            "endX": 72.4,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Kainz",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 27,
+            "x": 72.4,
+            "y": 92.3,
+            "endX": 73.8,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Kainz",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 27,
+            "x": 73.8,
+            "y": 83.1,
+            "endX": 93.3,
+            "endY": 77.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Linton Maina",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 29,
+            "x": 92.3,
+            "y": 77.8,
+            "endX": 93.0,
+            "endY": 73.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Linton Maina",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 33,
+            "x": 93.0,
+            "y": 73.0,
+            "endX": 93.0,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Linton Maina",
             "tipo": "Pass",
             "minuto": 68,
@@ -670,7 +759,12 @@
             "endY": 60.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Suat Serdar",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -716,7 +810,24 @@
         "y": 51.2,
         "arco_y": 53.2,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Steffen Tigges",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 26,
+            "x": 92.8,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Agustín Rogel",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -5353,6 +5464,72 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Marvin Plattenhardt",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 31,
+            "x": 26.4,
+            "y": 92.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Plattenhardt",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 31,
+            "x": 26.8,
+            "y": 90.9,
+            "endX": 28.9,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Márton Dárdai",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 34,
+            "x": 28.9,
+            "y": 70.3,
+            "endX": 35.7,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Márton Dárdai",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 34,
+            "x": 35.7,
+            "y": 63.9,
+            "endX": 79.9,
+            "endY": 26.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 40,
+            "x": 79.9,
+            "y": 26.5,
+            "endX": 90.6,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "TakeOn",
+            "minuto": 32,
+            "segundo": 40,
+            "x": 90.6,
+            "y": 31.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Dodi Lukébakio",
             "tipo": "Pass",
             "minuto": 32,
@@ -5363,7 +5540,12 @@
             "endY": 41.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jonas Hector",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

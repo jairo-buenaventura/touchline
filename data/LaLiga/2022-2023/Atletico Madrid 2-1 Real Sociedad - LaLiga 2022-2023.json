@@ -4710,6 +4710,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Aihen Muñoz",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 57,
+            "x": 13.7,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aihen Muñoz",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 59,
+            "x": 19.0,
+            "y": 66.5,
+            "endX": 23.7,
+            "endY": 88.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed-Ali Cho",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 2,
+            "x": 24.0,
+            "y": 90.3,
+            "endX": 29.5,
+            "endY": 85.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carlos Fernández",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 5,
+            "x": 29.5,
+            "y": 85.7,
+            "endX": 42.8,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Carlos Fernández",
             "tipo": "Pass",
             "minuto": 87,
@@ -4742,7 +4786,12 @@
             "endY": 37.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Pablo Barrios",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

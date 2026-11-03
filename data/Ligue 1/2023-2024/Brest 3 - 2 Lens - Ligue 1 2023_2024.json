@@ -456,7 +456,24 @@
         "y": 26.8,
         "arco_y": 46.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mathias Pereira Lage",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.1,
+            "endY": 53.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Massadio Haïdara",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -4473,6 +4490,28 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Kevin Danso",
+            "tipo": "Clearance",
+            "minuto": 21,
+            "segundo": 6,
+            "x": 11.1,
+            "y": 48.2,
+            "endX": 33.7,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Guilavogui",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 33.7,
+            "y": 70.5,
+            "endX": 36.2,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Morgan Guilavogui",
             "tipo": "Pass",
             "minuto": 21,
@@ -4549,7 +4588,12 @@
             "endY": 78.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Hugo Magnetti",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

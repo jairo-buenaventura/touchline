@@ -4386,6 +4386,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Jeremy Ebobisse",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 15,
+            "x": 82.6,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremy Ebobisse",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 16,
+            "x": 84.8,
+            "y": 61.4,
+            "endX": 85.2,
+            "endY": 61.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 17,
+            "x": 85.2,
+            "y": 61.6,
+            "endX": 90.2,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamiro Monteiro",
             "tipo": "Pass",
             "minuto": 15,
@@ -4396,7 +4429,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ilie Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

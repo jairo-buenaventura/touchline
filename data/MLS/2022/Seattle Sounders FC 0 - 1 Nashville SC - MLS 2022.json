@@ -4857,6 +4857,28 @@
         "secuencia_gol": [
           {
             "jugador": "Randall Leal",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 77.9,
+            "y": 19.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randall Leal",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 45,
+            "x": 77.3,
+            "y": 19.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randall Leal",
             "tipo": "Pass",
             "minuto": 79,
             "segundo": 47,
@@ -4866,7 +4888,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kelyn Rowe",
+          "portero": false
+        }
       }
     ],
     "corners": [

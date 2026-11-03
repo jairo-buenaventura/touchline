@@ -408,6 +408,39 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Yassine Bounou",
+            "tipo": "KeeperPickup",
+            "minuto": 42,
+            "segundo": 59,
+            "x": 3.3,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassine Bounou",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 11,
+            "x": 14.3,
+            "y": 49.7,
+            "endX": 82.5,
+            "endY": 10.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jesús Navas",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 21,
+            "x": 82.5,
+            "y": 10.0,
+            "endX": 77.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jesús Navas",
             "tipo": "Pass",
             "minuto": 43,
@@ -484,7 +517,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Diego Rico",
+          "portero": false
+        }
       },
       {
         "minuto": 77,
@@ -3759,7 +3797,134 @@
         "y": 64.6,
         "arco_y": 47.9,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Álex Sola",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 17,
+            "x": 54.4,
+            "y": 0.0,
+            "endX": 36.3,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 22,
+            "x": 36.3,
+            "y": 12.5,
+            "endX": 38.9,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 22,
+            "x": 38.9,
+            "y": 34.3,
+            "endX": 37.6,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Pacheco",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 32,
+            "x": 37.6,
+            "y": 72.3,
+            "endX": 45.3,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Pacheco",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 32,
+            "x": 45.3,
+            "y": 68.8,
+            "endX": 39.4,
+            "endY": 36.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 37,
+            "x": 39.4,
+            "y": 36.7,
+            "endX": 46.2,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 37,
+            "x": 46.2,
+            "y": 36.9,
+            "endX": 55.8,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Silva",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 37,
+            "x": 56.1,
+            "y": 43.4,
+            "endX": 46.6,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Zubimendi",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 40,
+            "x": 46.6,
+            "y": 59.1,
+            "endX": 54.9,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martín Zubimendi",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 40,
+            "x": 54.9,
+            "y": 67.0,
+            "endX": 74.4,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Merino",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 42,
+            "x": 74.8,
+            "y": 68.7,
+            "endX": 79.6,
+            "endY": 61.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tanguy Nianzou",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

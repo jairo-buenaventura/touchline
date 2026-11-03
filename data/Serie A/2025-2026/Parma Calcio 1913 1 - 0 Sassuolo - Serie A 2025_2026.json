@@ -507,6 +507,39 @@
         "secuencia_gol": [
           {
             "jugador": "Franco Carboni",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 16,
+            "x": 29.1,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Carboni",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 17,
+            "x": 28.2,
+            "y": 90.8,
+            "endX": 31.6,
+            "endY": 92.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Franco Carboni",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 30,
+            "x": 31.6,
+            "y": 92.0,
+            "endX": 35.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Carboni",
             "tipo": "Pass",
             "minuto": 78,
             "segundo": 30,
@@ -780,7 +813,12 @@
             "endY": 51.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Luca Lipani",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

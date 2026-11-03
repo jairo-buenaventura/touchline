@@ -413,6 +413,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dani Pereira",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 2,
+            "x": 86.0,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
             "tipo": "TakeOn",
             "minuto": 27,
             "segundo": 4,
@@ -433,7 +444,12 @@
             "endY": 40.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nemanja Radoja",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -553,6 +569,83 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Brad Stuver",
+            "tipo": "KeeperPickup",
+            "minuto": 45,
+            "segundo": 21,
+            "x": 13.2,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Stuver",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 21,
+            "x": 13.3,
+            "y": 52.1,
+            "endX": 21.2,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Väisänen",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 25,
+            "x": 22.1,
+            "y": 25.3,
+            "endX": 14.5,
+            "endY": 42.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Stuver",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 27,
+            "x": 14.5,
+            "y": 42.5,
+            "endX": 11.8,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Stuver",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 27,
+            "x": 11.8,
+            "y": 44.9,
+            "endX": 46.2,
+            "endY": 8.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gyasi Zardes",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 46.2,
+            "y": 8.3,
+            "endX": 68.2,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gyasi Zardes",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 68.2,
+            "y": 12.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gyasi Zardes",
             "tipo": "Pass",
             "minuto": 45,
@@ -563,7 +656,12 @@
             "endY": 56.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andreu Fontàs",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

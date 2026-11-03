@@ -397,7 +397,24 @@
         "y": 46.7,
         "arco_y": 48.1,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ritsu Doan",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 38,
+            "x": 95.6,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Danilo Soares",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4828,6 +4845,39 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Manuel Riemann",
+            "tipo": "KeeperPickup",
+            "minuto": 13,
+            "segundo": 50,
+            "x": 1.5,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Riemann",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 56,
+            "x": 11.5,
+            "y": 44.8,
+            "endX": 48.7,
+            "endY": 39.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Takuma Asano",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 2,
+            "x": 48.7,
+            "y": 39.7,
+            "endX": 57.8,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Takuma Asano",
             "tipo": "Pass",
             "minuto": 14,
@@ -4838,7 +4888,12 @@
             "endY": 71.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maximilian Eggestein",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

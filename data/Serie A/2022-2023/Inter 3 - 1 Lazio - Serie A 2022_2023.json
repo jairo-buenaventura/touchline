@@ -687,7 +687,35 @@
         "y": 53.0,
         "arco_y": 51.8,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 21,
+            "x": 77.6,
+            "y": 60.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "SavedShot",
+            "minuto": 89,
+            "segundo": 23,
+            "x": 87.9,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ivan Provedel",
+          "portero": true
+        }
       },
       {
         "minuto": 92,
@@ -5464,6 +5492,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Ciro Immobile",
+            "tipo": "BallRecovery",
+            "minuto": 29,
+            "segundo": 6,
+            "x": 81.0,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ciro Immobile",
+            "tipo": "BallTouch",
+            "minuto": 29,
+            "segundo": 6,
+            "x": 81.0,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Felipe Anderson",
             "tipo": "Pass",
             "minuto": 29,
@@ -5485,7 +5535,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Francesco Acerbi",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

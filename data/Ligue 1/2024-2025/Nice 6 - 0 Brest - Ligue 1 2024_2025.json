@@ -396,7 +396,57 @@
         "y": 46.2,
         "arco_y": 46.7,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 30,
+            "x": 40.7,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 34,
+            "x": 63.2,
+            "y": 70.2,
+            "endX": 73.7,
+            "endY": 67.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 36,
+            "x": 73.7,
+            "y": 67.3,
+            "endX": 73.0,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "TakeOn",
+            "minuto": 15,
+            "segundo": 36,
+            "x": 73.0,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Abdoulaye Ndiaye",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -407,6 +457,28 @@
         "arco_y": 50.3,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 57,
+            "x": 76.2,
+            "y": 18.3,
+            "endX": 79.2,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "BallTouch",
+            "minuto": 18,
+            "segundo": 0,
+            "x": 79.5,
+            "y": 48.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Melvin Bard",
             "tipo": "Pass",
@@ -429,7 +501,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Abdoulaye Ndiaye",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -633,7 +710,123 @@
         "y": 42.9,
         "arco_y": 51.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 5,
+            "x": 42.0,
+            "y": 81.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 9,
+            "x": 41.4,
+            "y": 71.1,
+            "endX": 30.1,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 14,
+            "x": 30.4,
+            "y": 69.4,
+            "endX": 37.2,
+            "endY": 58.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 16,
+            "x": 37.8,
+            "y": 58.1,
+            "endX": 45.7,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sofiane Diop",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 23,
+            "x": 45.7,
+            "y": 56.1,
+            "endX": 42.2,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sofiane Diop",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 23,
+            "x": 42.2,
+            "y": 70.5,
+            "endX": 43.2,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 24,
+            "x": 44.3,
+            "y": 51.5,
+            "endX": 52.2,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sofiane Diop",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 26,
+            "x": 52.5,
+            "y": 57.3,
+            "endX": 78.5,
+            "endY": 47.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 30,
+            "x": 78.5,
+            "y": 47.5,
+            "endX": 90.6,
+            "endY": 45.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 30,
+            "x": 90.6,
+            "y": 45.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marco Bizot",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -670,7 +863,266 @@
         "y": 52.1,
         "arco_y": 53.4,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ali Abdi",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 34,
+            "x": 70.5,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ali Abdi",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 36,
+            "x": 65.3,
+            "y": 76.0,
+            "endX": 64.2,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 38,
+            "x": 64.2,
+            "y": 62.6,
+            "endX": 64.1,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 38,
+            "x": 64.1,
+            "y": 52.5,
+            "endX": 71.3,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 40,
+            "x": 71.3,
+            "y": 38.6,
+            "endX": 71.2,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 40,
+            "x": 71.2,
+            "y": 30.6,
+            "endX": 71.4,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Mendy",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 44,
+            "x": 70.3,
+            "y": 8.0,
+            "endX": 57.8,
+            "endY": 16.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moïse Bombito",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 45,
+            "x": 57.6,
+            "y": 16.2,
+            "endX": 65.0,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 47,
+            "x": 62.7,
+            "y": 25.5,
+            "endX": 56.4,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moïse Bombito",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 49,
+            "x": 56.4,
+            "y": 15.6,
+            "endX": 45.3,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 51,
+            "x": 45.1,
+            "y": 32.1,
+            "endX": 43.1,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 55,
+            "x": 43.1,
+            "y": 55.1,
+            "endX": 48.1,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 55,
+            "x": 48.1,
+            "y": 60.2,
+            "endX": 55.5,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Louchet",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 56,
+            "x": 54.9,
+            "y": 54.5,
+            "endX": 46.9,
+            "endY": 59.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 59,
+            "x": 47.2,
+            "y": 58.8,
+            "endX": 46.1,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moïse Bombito",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 46.1,
+            "y": 29.8,
+            "endX": 55.3,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moïse Bombito",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 55.3,
+            "y": 28.6,
+            "endX": 70.0,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 6,
+            "x": 72.4,
+            "y": 26.7,
+            "endX": 86.0,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Mendy",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 9,
+            "x": 86.0,
+            "y": 19.4,
+            "endX": 89.6,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Mendy",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 9,
+            "x": 89.6,
+            "y": 28.6,
+            "endX": 90.0,
+            "endY": 33.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 10,
+            "x": 90.0,
+            "y": 33.0,
+            "endX": 93.3,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 10,
+            "x": 93.3,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 11,
+            "x": 96.8,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marco Bizot",
+          "portero": true
+        }
       }
     ],
     "corners": [

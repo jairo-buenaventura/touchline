@@ -4409,6 +4409,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Vedat Muriqi",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 34,
+            "x": 42.4,
+            "y": 81.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vedat Muriqi",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 37,
+            "x": 39.6,
+            "y": 75.9,
+            "endX": 77.1,
+            "endY": 22.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zito Luvumbo",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 45,
+            "x": 77.1,
+            "y": 22.6,
+            "endX": 83.9,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Zito Luvumbo",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -4430,7 +4463,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pedro Bigas",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

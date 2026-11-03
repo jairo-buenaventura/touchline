@@ -446,7 +446,79 @@
         "y": 35.1,
         "arco_y": 46.8,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bryan Mbeumo",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 36,
+            "x": 99.6,
+            "y": 0.4,
+            "endX": 84.9,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 38,
+            "x": 84.9,
+            "y": 17.9,
+            "endX": 77.9,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rico Henry",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 41,
+            "x": 78.2,
+            "y": 59.4,
+            "endX": 92.7,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Mbeumo",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 43,
+            "x": 92.7,
+            "y": 29.7,
+            "endX": 92.0,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Toney",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 43,
+            "x": 92.0,
+            "y": 46.6,
+            "endX": 93.9,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Toney",
+            "tipo": "BallTouch",
+            "minuto": 31,
+            "segundo": 43,
+            "x": 93.9,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kiernan Dewsbury-Hall",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4671,6 +4743,28 @@
         "secuencia_gol": [
           {
             "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 69.5,
+            "y": 94.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 53,
+            "x": 67.7,
+            "y": 85.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiernan Dewsbury-Hall",
             "tipo": "Pass",
             "minuto": 51,
             "segundo": 54,
@@ -4691,7 +4785,12 @@
             "endY": 62.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mikkel Damsgaard",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

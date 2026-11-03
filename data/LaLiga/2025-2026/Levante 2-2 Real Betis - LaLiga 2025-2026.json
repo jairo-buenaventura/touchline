@@ -381,7 +381,35 @@
         "y": 43.1,
         "arco_y": 46.0,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Karl Etta Eyong",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 18,
+            "x": 82.6,
+            "y": 60.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karl Etta Eyong",
+            "tipo": "TakeOn",
+            "minuto": 9,
+            "segundo": 19,
+            "x": 84.6,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Álvaro Valles",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -4016,6 +4044,94 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Valles",
+            "tipo": "KeeperPickup",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 3.6,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Valles",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 38,
+            "x": 14.1,
+            "y": 53.5,
+            "endX": 42.5,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 48,
+            "x": 42.5,
+            "y": 10.0,
+            "endX": 58.3,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 48,
+            "x": 58.3,
+            "y": 18.3,
+            "endX": 65.1,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Fornals",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 50,
+            "x": 65.1,
+            "y": 25.8,
+            "endX": 72.0,
+            "endY": 21.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 54,
+            "x": 72.0,
+            "y": 21.6,
+            "endX": 77.9,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 54,
+            "x": 77.9,
+            "y": 32.8,
+            "endX": 78.3,
+            "endY": 35.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 56,
+            "x": 78.3,
+            "y": 35.8,
+            "endX": 76.7,
+            "endY": 39.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Antony",
             "tipo": "Pass",
             "minuto": 45,
@@ -4070,7 +4186,12 @@
             "endY": 69.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Matías Moreno",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

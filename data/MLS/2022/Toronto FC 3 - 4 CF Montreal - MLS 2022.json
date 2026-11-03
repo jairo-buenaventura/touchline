@@ -4515,7 +4515,24 @@
         "y": 51.1,
         "arco_y": 53.1,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "SavedShot",
+            "minuto": 18,
+            "segundo": 3,
+            "x": 82.2,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alex Bono",
+          "portero": true
+        }
       },
       {
         "minuto": 20,
@@ -4578,6 +4595,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "James Pantemis",
+            "tipo": "KeeperPickup",
+            "minuto": 42,
+            "segundo": 16,
+            "x": 2.0,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Pantemis",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 20,
+            "x": 2.3,
+            "y": 60.2,
+            "endX": 6.8,
+            "endY": 28.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 24,
+            "x": 6.8,
+            "y": 28.1,
+            "endX": 21.0,
+            "endY": 24.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 24,
+            "x": 21.0,
+            "y": 24.5,
+            "endX": 59.6,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 30,
+            "x": 59.6,
+            "y": 16.3,
+            "endX": 81.8,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 30,
+            "x": 81.8,
+            "y": 17.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kei Kamara",
             "tipo": "TakeOn",
             "minuto": 42,
@@ -4588,7 +4671,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chris Mavinga",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

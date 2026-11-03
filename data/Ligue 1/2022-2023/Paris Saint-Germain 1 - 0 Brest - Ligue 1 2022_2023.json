@@ -406,6 +406,28 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 22,
+            "x": 67.5,
+            "y": 65.7,
+            "endX": 86.4,
+            "endY": 79.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Presnel Kimpembe",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 44,
+            "x": 86.4,
+            "y": 79.1,
+            "endX": 48.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Presnel Kimpembe",
             "tipo": "Pass",
             "minuto": 28,
@@ -537,7 +559,12 @@
             "endY": 65.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Noah Fadiga",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

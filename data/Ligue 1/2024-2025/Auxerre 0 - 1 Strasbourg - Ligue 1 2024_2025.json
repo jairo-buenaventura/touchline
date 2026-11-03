@@ -4430,6 +4430,61 @@
         "secuencia_gol": [
           {
             "jugador": "Félix Lemaréchal",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 50,
+            "x": 16.9,
+            "y": 74.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Félix Lemaréchal",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 52,
+            "x": 15.2,
+            "y": 93.2,
+            "endX": 18.5,
+            "endY": 93.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 18.5,
+            "y": 93.2,
+            "endX": 23.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 23.0,
+            "y": 100.0,
+            "endX": 27.5,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Félix Lemaréchal",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 16,
+            "x": 27.5,
+            "y": 95.0,
+            "endX": 28.8,
+            "endY": 78.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Félix Lemaréchal",
             "tipo": "TakeOn",
             "minuto": 46,
             "segundo": 16,
@@ -4516,7 +4571,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gaëtan Perrin",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

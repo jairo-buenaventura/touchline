@@ -5427,7 +5427,24 @@
         "y": 45.8,
         "arco_y": 48.8,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastián Ferreira",
+            "tipo": "TakeOn",
+            "minuto": 10,
+            "segundo": 29,
+            "x": 93.0,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jonathan Bond",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -5603,6 +5620,61 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Zeca",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 11,
+            "x": 27.5,
+            "y": 17.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeca",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 11,
+            "x": 27.5,
+            "y": 17.6,
+            "endX": 34.2,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Vera",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 13,
+            "x": 34.2,
+            "y": 24.7,
+            "endX": 60.1,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Ferreira",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 16,
+            "x": 60.1,
+            "y": 30.7,
+            "endX": 65.2,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Ferreira",
+            "tipo": "TakeOn",
+            "minuto": 61,
+            "segundo": 16,
+            "x": 65.2,
+            "y": 34.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Sebastián Ferreira",
             "tipo": "Pass",
             "minuto": 61,
@@ -5613,7 +5685,12 @@
             "endY": 72.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nick DePuy",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

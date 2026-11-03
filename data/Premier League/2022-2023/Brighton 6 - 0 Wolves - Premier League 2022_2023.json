@@ -705,6 +705,39 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Pascal Groß",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 13,
+            "x": 60.1,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 16,
+            "x": 63.1,
+            "y": 45.2,
+            "endX": 65.7,
+            "endY": 81.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julio Enciso",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 21,
+            "x": 65.7,
+            "y": 81.6,
+            "endX": 75.4,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Julio Enciso",
             "tipo": "TakeOn",
             "minuto": 25,
@@ -726,7 +759,12 @@
             "endY": 37.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pedro Neto",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -745,7 +783,24 @@
         "y": 44.1,
         "arco_y": 46.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Danny Welbeck",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 47,
+            "x": 94.8,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maximilian Kilman",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

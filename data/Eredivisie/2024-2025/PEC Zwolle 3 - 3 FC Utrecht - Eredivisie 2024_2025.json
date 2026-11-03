@@ -4602,6 +4602,39 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Paxten Aaronson",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 0,
+            "x": 36.0,
+            "y": 41.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paxten Aaronson",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 0,
+            "x": 35.8,
+            "y": 41.8,
+            "endX": 36.0,
+            "endY": 41.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oscar Fraulo",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 3,
+            "x": 36.0,
+            "y": 41.6,
+            "endX": 36.5,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Oscar Fraulo",
             "tipo": "Pass",
             "minuto": 54,
@@ -4656,7 +4689,12 @@
             "endY": 25.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Anouar El Azzouzi",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

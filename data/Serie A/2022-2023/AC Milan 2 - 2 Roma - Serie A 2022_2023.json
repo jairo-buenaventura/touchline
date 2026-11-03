@@ -474,6 +474,50 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Théo Hernández",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 58,
+            "x": 30.3,
+            "y": 71.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Théo Hernández",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 59,
+            "x": 35.7,
+            "y": 75.0,
+            "endX": 42.8,
+            "endY": 70.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aster Vranckx",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 1,
+            "x": 42.7,
+            "y": 70.1,
+            "endX": 46.7,
+            "endY": 78.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 5,
+            "x": 46.7,
+            "y": 78.3,
+            "endX": 75.9,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Rafael Leão",
             "tipo": "Pass",
             "minuto": 76,
@@ -484,7 +528,12 @@
             "endY": 42.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Zeki Çelik",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -4819,7 +4868,46 @@
         "y": 51.8,
         "arco_y": 51.3,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lorenzo Pellegrini",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 50,
+            "x": 82.8,
+            "y": 4.6,
+            "endX": 88.6,
+            "endY": 16.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nemanja Matic",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 52,
+            "x": 88.6,
+            "y": 16.3,
+            "endX": 92.2,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Matic",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 52,
+            "x": 92.2,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ciprian Tatarusanu",
+          "portero": true
+        }
       }
     ],
     "corners": [

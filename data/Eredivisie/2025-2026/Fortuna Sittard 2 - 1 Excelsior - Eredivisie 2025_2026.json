@@ -439,7 +439,24 @@
         "y": 44.4,
         "arco_y": 47.2,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 55,
+            "x": 98.3,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rick Meissen",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4237,6 +4254,17 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Miliano Jonathans",
+            "tipo": "BallTouch",
+            "minuto": 76,
+            "segundo": 50,
+            "x": 95.2,
+            "y": 17.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Lennard Hartjes",
             "tipo": "Pass",
             "minuto": 76,
@@ -4291,7 +4319,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kristoffer Peterson",
+          "portero": false
+        }
       }
     ],
     "corners": [

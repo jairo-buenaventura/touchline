@@ -766,6 +766,94 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "James Sands",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 30,
+            "x": 24.7,
+            "y": 27.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Sands",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 30,
+            "x": 24.7,
+            "y": 27.1,
+            "endX": 31.2,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keaton Parks",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 32,
+            "x": 30.9,
+            "y": 39.7,
+            "endX": 37.6,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin O'Toole",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 37.6,
+            "y": 84.8,
+            "endX": 46.3,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin O'Toole",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 46.3,
+            "y": 91.5,
+            "endX": 65.7,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Agustín Ojeda",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 40,
+            "x": 65.7,
+            "y": 92.7,
+            "endX": 74.5,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Agustín Ojeda",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 40,
+            "x": 74.5,
+            "y": 88.6,
+            "endX": 78.3,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hannes Wolf",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 41,
+            "x": 78.3,
+            "y": 78.7,
+            "endX": 84.4,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Hannes Wolf",
             "tipo": "TakeOn",
             "minuto": 55,
@@ -864,7 +952,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dagur Thórhallsson",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -903,6 +996,39 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "James Sands",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 17,
+            "x": 46.5,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Sands",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 20,
+            "x": 63.3,
+            "y": 88.7,
+            "endX": 81.9,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mounsef Bakrar",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 23,
+            "x": 81.9,
+            "y": 90.2,
+            "endX": 84.6,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Mounsef Bakrar",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -913,7 +1039,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "César Araújo",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5591,7 +5722,24 @@
         "y": 44.3,
         "arco_y": 53.9,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dagur Thórhallsson",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 42,
+            "x": 89.4,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kevin O'Toole",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -5646,7 +5794,24 @@
         "y": 55.7,
         "arco_y": 52.3,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luis Muriel",
+            "tipo": "SavedShot",
+            "minuto": 90,
+            "segundo": 54,
+            "x": 95.1,
+            "y": 55.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Matt Freese",
+          "portero": true
+        }
       }
     ],
     "corners": [

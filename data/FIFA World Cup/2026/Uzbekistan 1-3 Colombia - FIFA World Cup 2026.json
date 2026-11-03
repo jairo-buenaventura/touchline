@@ -3764,6 +3764,28 @@
         "arco_z": 24.0,
         "secuencia_gol": [
           {
+            "jugador": "Luis Suárez",
+            "tipo": "BallTouch",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 87.1,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Rodríguez",
+            "tipo": "SavedShot",
+            "minuto": 39,
+            "segundo": 50,
+            "x": 86.8,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jefferson Lerma",
             "tipo": "Pass",
             "minuto": 39,
@@ -3818,7 +3840,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rustam Ashurmatov",
+          "portero": true
+        }
       },
       {
         "minuto": 44,

@@ -475,6 +475,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gonzalo Higuaín",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 32,
+            "x": 69.7,
+            "y": 38.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Higuaín",
             "tipo": "TakeOn",
             "minuto": 81,
             "segundo": 34,
@@ -484,7 +495,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jakob Glesnes",
+          "portero": false
+        }
       }
     ],
     "corners": [

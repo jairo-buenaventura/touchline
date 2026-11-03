@@ -360,6 +360,17 @@
         "secuencia_gol": [
           {
             "jugador": "Iván Jaime",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 40,
+            "x": 79.8,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Jaime",
             "tipo": "TakeOn",
             "minuto": 22,
             "segundo": 41,
@@ -369,7 +380,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Olwethu Makhanya",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4125,6 +4141,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ezekiel Alladoh",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 52,
+            "x": 87.6,
+            "y": 18.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ezekiel Alladoh",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 53,
@@ -4134,7 +4161,12 @@
             "endY": 36.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Matty Longstaff",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

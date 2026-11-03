@@ -449,6 +449,17 @@
         "secuencia_gol": [
           {
             "jugador": "Christopher McVey",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 10,
+            "x": 32.2,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher McVey",
             "tipo": "TakeOn",
             "minuto": 59,
             "segundo": 10,
@@ -524,7 +535,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolás Dubersarsky",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -553,6 +569,50 @@
         "arco_y": 53.5,
         "arco_z": 3.2,
         "secuencia_gol": [
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 19,
+            "x": 42.1,
+            "y": 23.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 23,
+            "x": 67.0,
+            "y": 31.6,
+            "endX": 86.1,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 86.1,
+            "y": 22.8,
+            "endX": 87.3,
+            "endY": 41.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 30,
+            "x": 87.3,
+            "y": 41.6,
+            "endX": 88.5,
+            "endY": 19.4,
+            "exitoso": true
+          },
           {
             "jugador": "Milan Iloski",
             "tipo": "Pass",
@@ -608,7 +668,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Owen Wolff",
+          "portero": false
+        }
       }
     ],
     "corners": [

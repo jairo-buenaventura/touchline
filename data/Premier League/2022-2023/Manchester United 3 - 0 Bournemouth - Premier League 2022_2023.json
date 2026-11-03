@@ -686,6 +686,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Bruno Fernandes",
+            "tipo": "CornerAwarded",
+            "minuto": 84,
+            "segundo": 32,
+            "x": 96.2,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 4,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.5,
+            "endY": 40.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fred",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 11,
+            "x": 90.5,
+            "y": 40.4,
+            "endX": 67.0,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Fred",
             "tipo": "Pass",
             "minuto": 85,
@@ -729,7 +762,12 @@
             "endY": 55.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lewis Cook",
+          "portero": false
+        }
       }
     ],
     "corners": [

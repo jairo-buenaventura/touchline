@@ -409,7 +409,46 @@
         "y": 40.6,
         "arco_y": 47.2,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 4,
+            "x": 42.1,
+            "y": 60.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "TakeOn",
+            "minuto": 40,
+            "segundo": 4,
+            "x": 42.5,
+            "y": 60.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "TakeOn",
+            "minuto": 40,
+            "segundo": 10,
+            "x": 85.5,
+            "y": 49.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mory Diaw",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -4483,6 +4522,61 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Florent Ogier",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 21,
+            "x": 44.0,
+            "y": 61.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florent Ogier",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 23,
+            "x": 49.4,
+            "y": 57.9,
+            "endX": 80.1,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 27,
+            "x": 80.1,
+            "y": 73.8,
+            "endX": 90.9,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 27,
+            "x": 90.9,
+            "y": 73.5,
+            "endX": 92.7,
+            "endY": 53.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Komnen Andric",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 29,
+            "x": 92.7,
+            "y": 53.7,
+            "endX": 92.8,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Komnen Andric",
             "tipo": "Pass",
             "minuto": 61,
@@ -4493,7 +4587,12 @@
             "endY": 50.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Montassar Talbi",
+          "portero": false
+        }
       }
     ],
     "corners": [

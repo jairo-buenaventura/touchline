@@ -3983,6 +3983,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gabriel Martinelli",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 62.7,
+            "y": 59.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
             "tipo": "TakeOn",
             "minuto": 71,
             "segundo": 9,
@@ -3992,7 +4003,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andoni Gorosabel",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4012,6 +4028,61 @@
         "arco_y": 53.4,
         "arco_z": 27.2,
         "secuencia_gol": [
+          {
+            "jugador": "Martín Zubimendi",
+            "tipo": "BlockedPass",
+            "minuto": 86,
+            "segundo": 6,
+            "x": 50.6,
+            "y": 8.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Merino",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 12,
+            "x": 39.5,
+            "y": 18.8,
+            "endX": 51.6,
+            "endY": 57.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 13,
+            "x": 51.6,
+            "y": 57.7,
+            "endX": 54.6,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 13,
+            "x": 54.6,
+            "y": 64.8,
+            "endX": 63.2,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 20,
+            "x": 63.2,
+            "y": 92.7,
+            "endX": 89.4,
+            "endY": 82.0,
+            "exitoso": true
+          },
           {
             "jugador": "Gabriel Martinelli",
             "tipo": "TakeOn",
@@ -4034,7 +4105,12 @@
             "endY": 59.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andoni Gorosabel",
+          "portero": false
+        }
       }
     ],
     "corners": [

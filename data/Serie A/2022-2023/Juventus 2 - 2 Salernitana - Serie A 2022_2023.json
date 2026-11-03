@@ -459,6 +459,39 @@
         "secuencia_gol": [
           {
             "jugador": "Filip Kostic",
+            "tipo": "BallTouch",
+            "minuto": 50,
+            "segundo": 15,
+            "x": 78.2,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arkadiusz Milik",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 80.8,
+            "y": 77.9,
+            "endX": 80.4,
+            "endY": 80.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 80.4,
+            "y": 80.0,
+            "endX": 97.7,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 23,
@@ -468,7 +501,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lassana Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -586,7 +624,24 @@
         "y": 56.7,
         "arco_y": 50.1,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leonardo Bonucci",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 1,
+            "x": 88.5,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Luigi Sepe",
+          "portero": true
+        }
       },
       {
         "minuto": 93,

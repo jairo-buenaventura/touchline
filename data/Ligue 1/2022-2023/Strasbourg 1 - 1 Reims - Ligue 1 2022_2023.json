@@ -418,6 +418,17 @@
         "secuencia_gol": [
           {
             "jugador": "Adrien Thomasson",
+            "tipo": "Aerial",
+            "minuto": 47,
+            "segundo": 46,
+            "x": 96.2,
+            "y": 64.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
             "tipo": "MissedShots",
             "minuto": 47,
             "segundo": 46,
@@ -427,7 +438,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andreaw Gravillon",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4887,6 +4903,39 @@
         "secuencia_gol": [
           {
             "jugador": "Jens Cajuste",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 4,
+            "x": 42.0,
+            "y": 99.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Cajuste",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 4,
+            "x": 42.1,
+            "y": 99.9,
+            "endX": 41.0,
+            "endY": 93.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jens Cajuste",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 9,
+            "x": 41.0,
+            "y": 93.0,
+            "endX": 66.6,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Cajuste",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 9,
@@ -4929,7 +4978,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jean-Ricner Bellegarde",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

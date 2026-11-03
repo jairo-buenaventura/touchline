@@ -421,6 +421,28 @@
             "jugador": "Yukinari Sugawara",
             "tipo": "Pass",
             "minuto": 27,
+            "segundo": 14,
+            "x": 19.8,
+            "y": 32.4,
+            "endX": 43.4,
+            "endY": 8.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yukinari Sugawara",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 34,
+            "x": 43.4,
+            "y": 8.5,
+            "endX": 45.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yukinari Sugawara",
+            "tipo": "Pass",
+            "minuto": 27,
             "segundo": 34,
             "x": 45.0,
             "y": 0.0,
@@ -560,7 +582,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -5057,6 +5084,61 @@
         "secuencia_gol": [
           {
             "jugador": "Farès Chaïbi",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 33,
+            "x": 72.2,
+            "y": 24.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Farès Chaïbi",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 34,
+            "x": 69.8,
+            "y": 27.1,
+            "endX": 75.1,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnaud Kalimuendo",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 75.1,
+            "y": 25.3,
+            "endX": 76.0,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnaud Kalimuendo",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 35,
+            "x": 76.0,
+            "y": 34.6,
+            "endX": 66.8,
+            "endY": 29.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Farès Chaïbi",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 36,
+            "x": 66.8,
+            "y": 29.8,
+            "endX": 72.2,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Farès Chaïbi",
             "tipo": "Pass",
             "minuto": 55,
             "segundo": 36,
@@ -5066,7 +5148,12 @@
             "endY": 42.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Isaac Schmidt",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -5096,6 +5183,127 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Ellyes Skhiri",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 47,
+            "x": 64.1,
+            "y": 50.4,
+            "endX": 62.9,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Theate",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 50,
+            "x": 62.4,
+            "y": 63.1,
+            "endX": 72.4,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathaniel Brown",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 53,
+            "x": 72.4,
+            "y": 83.5,
+            "endX": 66.1,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathaniel Brown",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 53,
+            "x": 66.1,
+            "y": 79.3,
+            "endX": 56.4,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Theate",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 55,
+            "x": 54.3,
+            "y": 66.4,
+            "endX": 52.3,
+            "endY": 45.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ellyes Skhiri",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 57,
+            "x": 52.3,
+            "y": 42.9,
+            "endX": 61.2,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nnamdi Collins",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 59,
+            "x": 61.4,
+            "y": 22.9,
+            "endX": 75.7,
+            "endY": 3.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoube Amaimouni-Echghouyab",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 3,
+            "x": 76.8,
+            "y": 3.1,
+            "endX": 65.1,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nnamdi Collins",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 5,
+            "x": 65.2,
+            "y": 15.6,
+            "endX": 77.6,
+            "endY": 2.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoube Amaimouni-Echghouyab",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 10,
+            "x": 77.6,
+            "y": 2.7,
+            "endX": 92.9,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoube Amaimouni-Echghouyab",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 10,
+            "x": 92.9,
+            "y": 8.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ayoube Amaimouni-Echghouyab",
             "tipo": "Pass",
             "minuto": 93,
@@ -5106,7 +5314,12 @@
             "endY": 42.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Samuel Mbangula",
+          "portero": false
+        }
       }
     ],
     "corners": [

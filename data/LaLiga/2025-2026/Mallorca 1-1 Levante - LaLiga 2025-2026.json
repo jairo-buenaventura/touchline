@@ -530,6 +530,83 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Antonio Raíllo",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 36,
+            "x": 47.9,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Raíllo",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 36,
+            "x": 47.9,
+            "y": 69.4,
+            "endX": 53.4,
+            "endY": 81.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 38,
+            "x": 53.5,
+            "y": 84.1,
+            "endX": 66.6,
+            "endY": 73.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Joseph",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 40,
+            "x": 66.7,
+            "y": 73.3,
+            "endX": 67.9,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johan Mojica",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 67.9,
+            "y": 94.2,
+            "endX": 64.6,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johan Mojica",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 64.6,
+            "y": 95.1,
+            "endX": 69.2,
+            "endY": 94.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 46,
+            "x": 69.2,
+            "y": 94.7,
+            "endX": 69.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Pablo Torre",
             "tipo": "Pass",
             "minuto": 77,
@@ -573,7 +650,12 @@
             "endY": 24.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Adrián de la Fuente",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -5314,7 +5396,134 @@
         "y": 52.8,
         "arco_y": 46.5,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matías Moreno",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 48,
+            "x": 4.6,
+            "y": 57.6,
+            "endX": 4.7,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathew Ryan",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 51,
+            "x": 4.7,
+            "y": 46.6,
+            "endX": 6.8,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathew Ryan",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 51,
+            "x": 6.8,
+            "y": 49.9,
+            "endX": 22.5,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Moreno",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 54,
+            "x": 22.5,
+            "y": 75.4,
+            "endX": 35.5,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Moreno",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 54,
+            "x": 35.5,
+            "y": 76.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Moreno",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 58,
+            "x": 66.9,
+            "y": 56.7,
+            "endX": 79.4,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Goduine Koyalipou",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 59,
+            "x": 79.4,
+            "y": 65.1,
+            "endX": 90.1,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Goduine Koyalipou",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 59,
+            "x": 90.1,
+            "y": 68.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Goduine Koyalipou",
+            "tipo": "TakeOn",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 84.9,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Goduine Koyalipou",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 84.0,
+            "y": 59.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Moreno",
+            "tipo": "BallTouch",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 84.4,
+            "y": 58.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Samú Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

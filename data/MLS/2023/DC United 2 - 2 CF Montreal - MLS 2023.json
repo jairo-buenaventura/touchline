@@ -443,7 +443,24 @@
         "y": 46.8,
         "arco_y": 53.1,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Donovan Pines",
+            "tipo": "Aerial",
+            "minuto": 43,
+            "segundo": 40,
+            "x": 89.5,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "George Campbell",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -474,6 +491,28 @@
         "secuencia_gol": [
           {
             "jugador": "Christian Benteke",
+            "tipo": "Aerial",
+            "minuto": 58,
+            "segundo": 4,
+            "x": 88.0,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Benteke",
+            "tipo": "SavedShot",
+            "minuto": 58,
+            "segundo": 4,
+            "x": 88.9,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Benteke",
             "tipo": "BallTouch",
             "minuto": 58,
             "segundo": 4,
@@ -483,7 +522,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joel Waterman",
+          "portero": true
+        }
       },
       {
         "minuto": 86,
@@ -4848,6 +4892,83 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Sirois",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 54,
+            "x": 41.0,
+            "y": 28.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Sirois",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 54,
+            "x": 40.5,
+            "y": 28.3,
+            "endX": 46.2,
+            "endY": 29.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 58,
+            "x": 46.2,
+            "y": 29.0,
+            "endX": 43.7,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Waterman",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 58,
+            "x": 43.7,
+            "y": 34.0,
+            "endX": 28.0,
+            "endY": 44.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Sirois",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 2,
+            "x": 28.0,
+            "y": 44.1,
+            "endX": 30.9,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Sirois",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 2,
+            "x": 30.9,
+            "y": 39.5,
+            "endX": 68.5,
+            "endY": 72.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mathieu Choinière",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 68.5,
+            "y": 72.1,
+            "endX": 74.1,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Mathieu Choinière",
             "tipo": "Pass",
             "minuto": 79,
@@ -4902,7 +5023,12 @@
             "endY": 44.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jacob Greene",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

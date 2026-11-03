@@ -553,6 +553,28 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 7,
+            "x": 74.1,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 8,
+            "x": 76.8,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Badredine Bouanani",
             "tipo": "Pass",
             "minuto": 46,
@@ -596,7 +618,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jordan Lefort",
+          "portero": true
+        }
       },
       {
         "minuto": 51,

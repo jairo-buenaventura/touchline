@@ -391,7 +391,79 @@
         "y": 66.3,
         "arco_y": 45.9,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "BallTouch",
+            "minuto": 61,
+            "segundo": 29,
+            "x": 45.8,
+            "y": 68.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Han-Noah Massengo",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 30,
+            "x": 41.7,
+            "y": 46.6,
+            "endX": 48.0,
+            "endY": 47.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 34,
+            "x": 48.0,
+            "y": 47.0,
+            "endX": 58.9,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 34,
+            "x": 58.9,
+            "y": 40.0,
+            "endX": 79.8,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 79.8,
+            "y": 89.1,
+            "endX": 86.4,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "TakeOn",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 86.4,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Loïc Négo",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4059,6 +4131,28 @@
             "jugador": "Yanis Zouaoui",
             "tipo": "Pass",
             "minuto": 91,
+            "segundo": 44,
+            "x": 63.3,
+            "y": 81.7,
+            "endX": 87.6,
+            "endY": 57.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yanis Zouaoui",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 87.6,
+            "y": 57.2,
+            "endX": 79.7,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yanis Zouaoui",
+            "tipo": "Pass",
+            "minuto": 91,
             "segundo": 53,
             "x": 79.7,
             "y": 89.1,
@@ -4077,7 +4171,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rudy Matondo",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -4421,7 +4421,35 @@
         "y": 62.8,
         "arco_y": 47.5,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "TakeOn",
+            "minuto": 5,
+            "segundo": 36,
+            "x": 65.0,
+            "y": 33.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 38,
+            "x": 67.9,
+            "y": 43.7,
+            "endX": 80.1,
+            "endY": 60.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "James Bree",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -4514,6 +4542,50 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Sepp van den Berg",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 32,
+            "x": 4.9,
+            "y": 62.0,
+            "endX": 3.8,
+            "endY": 48.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 3.8,
+            "y": 48.2,
+            "endX": 12.1,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 12.1,
+            "y": 43.6,
+            "endX": 65.5,
+            "endY": 21.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bryan Mbeumo",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 45,
+            "x": 65.5,
+            "y": 21.9,
+            "endX": 66.2,
+            "endY": 45.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Bryan Mbeumo",
             "tipo": "Pass",
             "minuto": 61,
@@ -4546,7 +4618,12 @@
             "endY": 61.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Taylor Harwood-Bellis",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

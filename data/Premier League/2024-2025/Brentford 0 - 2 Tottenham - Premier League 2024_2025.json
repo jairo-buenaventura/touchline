@@ -4852,6 +4852,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Dane Scarlett",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 41,
+            "x": 33.6,
+            "y": 75.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dane Scarlett",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 44,
+            "x": 52.2,
+            "y": 56.7,
+            "endX": 53.4,
+            "endY": 51.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dejan Kulusevski",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 47,
+            "x": 53.4,
+            "y": 51.5,
+            "endX": 58.5,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Dejan Kulusevski",
             "tipo": "Pass",
             "minuto": 85,
@@ -5104,7 +5137,12 @@
             "endY": 65.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Keane Lewis-Potter",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -458,6 +458,39 @@
         "secuencia_gol": [
           {
             "jugador": "Tiago Santos",
+            "tipo": "CornerAwarded",
+            "minuto": 63,
+            "segundo": 5,
+            "x": 100.0,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.4,
+            "endY": 48.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tiago Santos",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 49,
+            "x": 91.4,
+            "y": 48.9,
+            "endX": 70.7,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tiago Santos",
             "tipo": "Pass",
             "minuto": 63,
             "segundo": 49,
@@ -544,7 +577,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Yvon Mvogo",
+          "portero": true
+        }
       },
       {
         "minuto": 69,
@@ -4787,6 +4825,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bamo Meïté",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 25,
+            "x": 89.2,
+            "y": 61.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bamo Meïté",
             "tipo": "BallTouch",
             "minuto": 92,
             "segundo": 25,
@@ -4796,7 +4845,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Noah Edjouma",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

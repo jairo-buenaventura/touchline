@@ -446,7 +446,35 @@
         "y": 46.8,
         "arco_y": 47.0,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Boulaye Dia",
+            "tipo": "CornerAwarded",
+            "minuto": 67,
+            "segundo": 0,
+            "x": 90.0,
+            "y": 86.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattia Zaccagni",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 21,
+            "x": 99.4,
+            "y": 99.5,
+            "endX": 95.4,
+            "endY": 61.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nikola Moro",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -457,6 +485,72 @@
         "arco_y": 45.6,
         "arco_z": 8.2,
         "secuencia_gol": [
+          {
+            "jugador": "Mario Gila",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 32,
+            "x": 20.8,
+            "y": 93.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Gila",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 36,
+            "x": 20.8,
+            "y": 93.2,
+            "endX": 25.7,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattéo Guendouzi",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 38,
+            "x": 26.0,
+            "y": 75.9,
+            "endX": 35.2,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Rovella",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 40,
+            "x": 35.2,
+            "y": 82.9,
+            "endX": 39.3,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Rovella",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 40,
+            "x": 39.3,
+            "y": 87.1,
+            "endX": 52.0,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Pellegrini",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 43,
+            "x": 52.0,
+            "y": 95.1,
+            "endX": 56.0,
+            "endY": 92.1,
+            "exitoso": true
+          },
           {
             "jugador": "Luca Pellegrini",
             "tipo": "TakeOn",
@@ -479,7 +573,12 @@
             "endY": 91.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lorenzo De Silvestri",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

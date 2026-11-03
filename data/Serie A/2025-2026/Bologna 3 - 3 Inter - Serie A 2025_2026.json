@@ -456,7 +456,46 @@
         "y": 49.6,
         "arco_y": 52.9,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lewis Ferguson",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 28,
+            "x": 59.3,
+            "y": 29.4,
+            "endX": 73.5,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Bernardeschi",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 30,
+            "x": 73.5,
+            "y": 12.6,
+            "endX": 69.9,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Bernardeschi",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 30,
+            "x": 69.9,
+            "y": 19.4,
+            "endX": 91.4,
+            "endY": 51.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Francesco Pio Esposito",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -4089,6 +4128,50 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 52,
+            "x": 58.4,
+            "y": 40.9,
+            "endX": 59.1,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Sucic",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 55,
+            "x": 59.1,
+            "y": 23.2,
+            "endX": 61.4,
+            "endY": 18.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Sucic",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 55,
+            "x": 61.4,
+            "y": 18.1,
+            "endX": 71.3,
+            "endY": 8.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 0,
+            "x": 71.3,
+            "y": 8.7,
+            "endX": 94.3,
+            "endY": 28.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Andy Diouf",
             "tipo": "TakeOn",
             "minuto": 63,
@@ -4110,7 +4193,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Juan Miranda",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

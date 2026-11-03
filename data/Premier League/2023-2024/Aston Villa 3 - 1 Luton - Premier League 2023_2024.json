@@ -429,6 +429,17 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 35,
+            "x": 93.2,
+            "y": 89.1,
+            "endX": 84.6,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
             "jugador": "John McGinn",
             "tipo": "TakeOn",
             "minuto": 16,
@@ -439,7 +450,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chiedozie Ogbene",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -515,6 +531,17 @@
         "secuencia_gol": [
           {
             "jugador": "Leon Bailey",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 31,
+            "x": 93.9,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Bailey",
             "tipo": "BallTouch",
             "minuto": 48,
             "segundo": 31,
@@ -524,7 +551,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Alfie Doughty",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

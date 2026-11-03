@@ -619,6 +619,39 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 14,
+            "x": 69.8,
+            "y": 37.6,
+            "endX": 91.6,
+            "endY": 2.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Elliott",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 91.6,
+            "y": 2.0,
+            "endX": 92.1,
+            "endY": 5.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Conor Bradley",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 53,
+            "x": 92.1,
+            "y": 5.5,
+            "endX": 96.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Conor Bradley",
             "tipo": "Pass",
             "minuto": 57,
@@ -651,7 +684,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alfie Doughty",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -5268,7 +5306,167 @@
         "y": 43.3,
         "arco_y": 46.7,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tahith Chong",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 11,
+            "x": 58.1,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tahith Chong",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 11,
+            "x": 58.1,
+            "y": 67.4,
+            "endX": 44.2,
+            "endY": 83.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amari'i Bell",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 17,
+            "x": 44.2,
+            "y": 83.4,
+            "endX": 40.0,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amari'i Bell",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 17,
+            "x": 40.0,
+            "y": 74.7,
+            "endX": 20.8,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kaminski",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 23,
+            "x": 20.8,
+            "y": 65.4,
+            "endX": 23.6,
+            "endY": 66.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kaminski",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 23,
+            "x": 23.6,
+            "y": 66.8,
+            "endX": 76.9,
+            "endY": 82.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alfie Doughty",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 38,
+            "x": 76.9,
+            "y": 82.4,
+            "endX": 77.6,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfie Doughty",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 38,
+            "x": 77.6,
+            "y": 100.0,
+            "endX": 82.9,
+            "endY": 88.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tahith Chong",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 40,
+            "x": 83.0,
+            "y": 90.0,
+            "endX": 81.7,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfie Doughty",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 41,
+            "x": 81.7,
+            "y": 95.0,
+            "endX": 90.7,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cauley Woodrow",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 43,
+            "x": 90.7,
+            "y": 74.4,
+            "endX": 94.1,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cauley Woodrow",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 43,
+            "x": 94.1,
+            "y": 73.8,
+            "endX": 88.1,
+            "endY": 74.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tahith Chong",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 45,
+            "x": 88.1,
+            "y": 74.3,
+            "endX": 92.3,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tahith Chong",
+            "tipo": "SavedShot",
+            "minuto": 11,
+            "segundo": 45,
+            "x": 92.3,
+            "y": 69.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Caoimhín Kelleher",
+          "portero": true
+        }
       },
       {
         "minuto": 20,

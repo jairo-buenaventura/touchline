@@ -4124,6 +4124,39 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Antonio Sanabria",
+            "tipo": "CornerAwarded",
+            "minuto": 30,
+            "segundo": 13,
+            "x": 96.5,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ilic",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 36,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.9,
+            "endY": 63.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mërgim Vojvoda",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 41,
+            "x": 94.9,
+            "y": 63.6,
+            "endX": 80.2,
+            "endY": 65.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Mërgim Vojvoda",
             "tipo": "Pass",
             "minuto": 30,
@@ -4156,7 +4189,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Manolo Gabbiadini",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -4222,6 +4260,28 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Mërgim Vojvoda",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 38,
+            "x": 33.9,
+            "y": 60.8,
+            "endX": 69.9,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pietro Pellegri",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 42,
+            "x": 69.9,
+            "y": 60.2,
+            "endX": 85.4,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Pietro Pellegri",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -4232,7 +4292,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicola Ravaglia",
+          "portero": false
+        }
       }
     ],
     "corners": [

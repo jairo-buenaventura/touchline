@@ -461,7 +461,24 @@
         "y": 49.6,
         "arco_y": 53.9,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Karol Swiderski",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 92.2,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -571,6 +588,17 @@
         "secuencia_gol": [
           {
             "jugador": "Andre Shinyashiki",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 42,
+            "x": 64.6,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andre Shinyashiki",
             "tipo": "TakeOn",
             "minuto": 90,
             "segundo": 43,
@@ -613,7 +641,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

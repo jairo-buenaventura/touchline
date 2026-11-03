@@ -437,6 +437,17 @@
         "secuencia_gol": [
           {
             "jugador": "Devin Padelford",
+            "tipo": "Aerial",
+            "minuto": 22,
+            "segundo": 41,
+            "x": 93.4,
+            "y": 63.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Devin Padelford",
             "tipo": "Pass",
             "minuto": 22,
             "segundo": 41,
@@ -446,7 +457,12 @@
             "endY": 62.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Pérez",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -540,6 +556,50 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Eduard Löwen",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 59,
+            "x": 82.2,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 59,
+            "x": 82.6,
+            "y": 47.0,
+            "endX": 89.3,
+            "endY": 61.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Becher",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 0,
+            "x": 89.3,
+            "y": 61.3,
+            "endX": 94.3,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Becher",
+            "tipo": "SavedShot",
+            "minuto": 65,
+            "segundo": 0,
+            "x": 94.3,
+            "y": 57.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Simon Becher",
             "tipo": "MissedShots",
             "minuto": 65,
@@ -550,7 +610,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joe Willis",
+          "portero": true
+        }
       },
       {
         "minuto": 97,

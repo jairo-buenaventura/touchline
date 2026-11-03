@@ -4605,6 +4605,17 @@
         "secuencia_gol": [
           {
             "jugador": "Vinícius Júnior",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 43,
+            "x": 91.5,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 44,
@@ -4614,7 +4625,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Angus Gunn",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

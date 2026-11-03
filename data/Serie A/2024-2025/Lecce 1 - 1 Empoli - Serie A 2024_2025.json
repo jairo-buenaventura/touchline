@@ -474,6 +474,17 @@
         "secuencia_gol": [
           {
             "jugador": "Santiago Pierotti",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 10,
+            "x": 55.8,
+            "y": 22.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
             "tipo": "TakeOn",
             "minuto": 76,
             "segundo": 12,
@@ -527,7 +538,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolas Haas",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4745,6 +4761,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Liam Henderson",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 22,
+            "x": 43.8,
+            "y": 45.2,
+            "endX": 37.8,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 27,
+            "x": 39.3,
+            "y": 65.0,
+            "endX": 56.1,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Liberato Cacace",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 34,
+            "x": 56.1,
+            "y": 96.5,
+            "endX": 70.9,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Liberato Cacace",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 34,
+            "x": 70.9,
+            "y": 90.8,
+            "endX": 71.3,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pietro Pellegri",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 35,
+            "x": 71.3,
+            "y": 69.3,
+            "endX": 75.2,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Pietro Pellegri",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -4755,7 +4826,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hamza Rafia",
+          "portero": false
+        }
       },
       {
         "minuto": 38,

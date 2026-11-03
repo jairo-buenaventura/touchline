@@ -510,7 +510,35 @@
         "y": 49.6,
         "arco_y": 52.2,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josué Casimir",
+            "tipo": "MissedShots",
+            "minuto": 87,
+            "segundo": 38,
+            "x": 90.2,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koka",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 40,
+            "x": 90.6,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Anthony Lopes",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4376,6 +4404,28 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Moses Simon",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 15,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.1,
+            "endY": 56.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolas Cozza",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 19,
+            "x": 96.1,
+            "y": 56.6,
+            "endX": 72.4,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Cozza",
             "tipo": "Pass",
             "minuto": 22,
@@ -4474,7 +4524,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "André Ayew",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

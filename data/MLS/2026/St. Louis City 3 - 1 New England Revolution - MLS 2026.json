@@ -422,6 +422,39 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Daniel Edelman",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 45,
+            "x": 64.8,
+            "y": 26.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Edelman",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 46,
+            "x": 70.4,
+            "y": 26.4,
+            "endX": 85.9,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Becher",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 49,
+            "x": 85.9,
+            "y": 43.8,
+            "endX": 88.9,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Simon Becher",
             "tipo": "TakeOn",
             "minuto": 28,
@@ -432,7 +465,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brayan Ceballos",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

@@ -395,6 +395,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Thomas Müller",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 16,
+            "x": 61.8,
+            "y": 23.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 16,
+            "x": 61.7,
+            "y": 24.4,
+            "endX": 82.5,
+            "endY": 26.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 19,
+            "x": 82.5,
+            "y": 26.0,
+            "endX": 86.2,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "TakeOn",
+            "minuto": 1,
+            "segundo": 19,
+            "x": 86.2,
+            "y": 26.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Leroy Sané",
             "tipo": "Pass",
             "minuto": 1,
@@ -405,7 +449,12 @@
             "endY": 49.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alexander Nübel",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -514,7 +563,24 @@
         "y": 52.3,
         "arco_y": 53.5,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 52,
+            "x": 94.0,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Atakan Karazor",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

@@ -526,6 +526,50 @@
         "secuencia_gol": [
           {
             "jugador": "Victor Edvardsen",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 71.3,
+            "y": 42.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Edvardsen",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 66.5,
+            "y": 37.5,
+            "endX": 62.5,
+            "endY": 40.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Søren Tengstedt",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 3,
+            "x": 64.3,
+            "y": 42.7,
+            "endX": 83.7,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Edvardsen",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 4,
+            "x": 83.7,
+            "y": 28.3,
+            "endX": 91.1,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Edvardsen",
             "tipo": "TakeOn",
             "minuto": 63,
             "segundo": 4,
@@ -535,7 +579,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sékou Sylla",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -4473,6 +4522,138 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Juho Kilo",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 30,
+            "x": 36.3,
+            "y": 71.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juho Kilo",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 30,
+            "x": 36.4,
+            "y": 71.2,
+            "endX": 59.2,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Rottier",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 33,
+            "x": 59.2,
+            "y": 71.1,
+            "endX": 70.0,
+            "endY": 67.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Rottier",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 33,
+            "x": 70.0,
+            "y": 67.3,
+            "endX": 70.9,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesse Bal",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 35,
+            "x": 70.9,
+            "y": 52.4,
+            "endX": 69.7,
+            "endY": 55.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesse Bal",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 35,
+            "x": 69.7,
+            "y": 55.3,
+            "endX": 62.9,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Finn de Bruin",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 39,
+            "x": 62.9,
+            "y": 45.8,
+            "endX": 66.3,
+            "endY": 47.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Finn de Bruin",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 39,
+            "x": 66.3,
+            "y": 47.1,
+            "endX": 72.1,
+            "endY": 65.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juho Kilo",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 41,
+            "x": 72.1,
+            "y": 65.9,
+            "endX": 73.0,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juho Kilo",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 41,
+            "x": 73.0,
+            "y": 59.2,
+            "endX": 86.1,
+            "endY": 42.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jalen Hawkins",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 45,
+            "x": 86.1,
+            "y": 42.9,
+            "endX": 85.7,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jalen Hawkins",
+            "tipo": "BallTouch",
+            "minuto": 76,
+            "segundo": 45,
+            "x": 85.7,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Othniël Raterink",
             "tipo": "Pass",
             "minuto": 76,
@@ -4593,7 +4774,12 @@
             "endY": 63.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Giovanni van Zwam",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

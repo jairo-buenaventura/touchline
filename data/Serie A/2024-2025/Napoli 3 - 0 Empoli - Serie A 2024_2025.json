@@ -503,6 +503,72 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 3,
+            "x": 53.3,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 53.3,
+            "y": 42.1,
+            "endX": 66.3,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Billy Gilmour",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 66.3,
+            "y": 43.1,
+            "endX": 73.9,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Billy Gilmour",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 73.9,
+            "y": 40.9,
+            "endX": 80.1,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romelu Lukaku",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 10,
+            "x": 80.1,
+            "y": 31.9,
+            "endX": 86.1,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romelu Lukaku",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 10,
+            "x": 86.1,
+            "y": 38.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Matteo Politano",
             "tipo": "Pass",
             "minuto": 55,
@@ -546,7 +612,12 @@
             "endY": 37.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mattia Viti",
+          "portero": true
+        }
       },
       {
         "minuto": 60,
@@ -556,7 +627,24 @@
         "y": 46.4,
         "arco_y": 47.9,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Scott McTominay",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 44,
+            "x": 92.4,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luca Marianucci",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nico Williams",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 32,
+            "x": 22.0,
+            "y": 93.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
             "tipo": "TakeOn",
             "minuto": 30,
             "segundo": 32,
@@ -537,7 +548,12 @@
             "endY": 51.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Luis Rioja",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

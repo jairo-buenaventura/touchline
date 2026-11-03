@@ -426,6 +426,116 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Daniele Ghilardi",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 43.9,
+            "y": 94.3,
+            "endX": 24.4,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mile Svilar",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 37,
+            "x": 24.4,
+            "y": 74.7,
+            "endX": 29.8,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mile Svilar",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 37,
+            "x": 29.8,
+            "y": 64.8,
+            "endX": 41.7,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 41.7,
+            "y": 24.4,
+            "endX": 46.2,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 46.2,
+            "y": 19.2,
+            "endX": 58.2,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Soulé",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 49,
+            "x": 58.2,
+            "y": 5.8,
+            "endX": 67.1,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Soulé",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 49,
+            "x": 67.1,
+            "y": 5.4,
+            "endX": 75.8,
+            "endY": 3.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 51,
+            "x": 75.8,
+            "y": 3.3,
+            "endX": 72.4,
+            "endY": 3.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 51,
+            "x": 72.4,
+            "y": 3.6,
+            "endX": 74.7,
+            "endY": 4.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Zeki Çelik",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 54,
+            "x": 74.7,
+            "y": 4.0,
+            "endX": 53.6,
+            "endY": 10.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Zeki Çelik",
             "tipo": "Pass",
             "minuto": 23,
@@ -524,7 +634,12 @@
             "endY": 35.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Juan Rodríguez",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -588,7 +703,57 @@
         "y": 47.8,
         "arco_y": 48.8,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matías Soulé",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 27,
+            "x": 68.7,
+            "y": 13.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Soulé",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 31,
+            "x": 89.7,
+            "y": 14.7,
+            "endX": 76.5,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeki Çelik",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 76.5,
+            "y": 5.5,
+            "endX": 96.0,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeki Çelik",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 36,
+            "x": 96.0,
+            "y": 28.0,
+            "endX": 96.4,
+            "endY": 48.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alberto Dossena",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

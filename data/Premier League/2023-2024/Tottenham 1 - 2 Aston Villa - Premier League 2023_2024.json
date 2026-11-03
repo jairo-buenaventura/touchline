@@ -5390,7 +5390,24 @@
         "y": 48.0,
         "arco_y": 46.0,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pau Torres",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 22,
+            "x": 91.4,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ben Davies",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -5419,6 +5436,83 @@
         "arco_y": 52.3,
         "arco_z": 3.2,
         "secuencia_gol": [
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 30.2,
+            "y": 82.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 30.0,
+            "y": 82.2,
+            "endX": 36.3,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McGinn",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 14,
+            "x": 36.8,
+            "y": 82.3,
+            "endX": 44.8,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 17,
+            "x": 44.8,
+            "y": 95.7,
+            "endX": 60.1,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 17,
+            "x": 60.1,
+            "y": 91.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 19,
+            "x": 56.7,
+            "y": 96.0,
+            "endX": 58.3,
+            "endY": 93.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 30,
+            "x": 58.3,
+            "y": 93.8,
+            "endX": 62.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Lucas Digne",
             "tipo": "Pass",
@@ -5540,7 +5634,12 @@
             "endY": 47.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Pierre-Emile Højbjerg",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

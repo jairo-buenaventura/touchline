@@ -380,6 +380,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Jackson Yueill",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 53,
+            "x": 57.2,
+            "y": 34.9,
+            "endX": 59.9,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hernán López",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 57,
+            "x": 59.9,
+            "y": 29.8,
+            "endX": 62.4,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hernán López",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 57,
+            "x": 62.4,
+            "y": 39.5,
+            "endX": 73.4,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amahl Pellegrino",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 58,
+            "x": 73.4,
+            "y": 59.1,
+            "endX": 68.4,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigues",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 0,
+            "x": 68.4,
+            "y": 72.5,
+            "endX": 77.1,
+            "endY": 66.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amahl Pellegrino",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 3,
+            "x": 77.1,
+            "y": 66.6,
+            "endX": 90.1,
+            "endY": 71.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Amahl Pellegrino",
             "tipo": "Pass",
             "minuto": 32,
@@ -390,7 +456,12 @@
             "endY": 56.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jefferson Díaz",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4573,6 +4644,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Hassani Dotson",
+            "tipo": "BlockedPass",
+            "minuto": 7,
+            "segundo": 57,
+            "x": 65.0,
+            "y": 31.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "TakeOn",
+            "minuto": 7,
+            "segundo": 59,
+            "x": 72.9,
+            "y": 26.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Robin Lod",
             "tipo": "Pass",
             "minuto": 8,
@@ -4583,7 +4676,12 @@
             "endY": 39.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Amahl Pellegrino",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -4656,7 +4754,46 @@
         "y": 51.9,
         "arco_y": 53.1,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jefferson Díaz",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 35,
+            "x": 94.4,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 36,
+            "x": 97.0,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 38,
+            "x": 98.3,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Vítor Costa",
+          "portero": true
+        }
       },
       {
         "minuto": 93,

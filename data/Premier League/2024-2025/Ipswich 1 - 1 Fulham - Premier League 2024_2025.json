@@ -404,6 +404,28 @@
         "secuencia_gol": [
           {
             "jugador": "Leif Davis",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 38,
+            "x": 37.8,
+            "y": 89.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leif Davis",
+            "tipo": "TakeOn",
+            "minuto": 14,
+            "segundo": 39,
+            "x": 36.6,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leif Davis",
             "tipo": "Pass",
             "minuto": 14,
             "segundo": 40,
@@ -413,7 +435,12 @@
             "endY": 66.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kenny Tete",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4366,6 +4393,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Adama Traoré",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 13,
+            "x": 70.6,
+            "y": 29.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Traoré",
+            "tipo": "BallTouch",
+            "minuto": 30,
+            "segundo": 15,
+            "x": 77.7,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Issa Diop",
             "tipo": "Pass",
             "minuto": 30,
@@ -4662,7 +4711,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jacob Greaves",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

@@ -407,6 +407,39 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Luka Gavran",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 4,
+            "x": 7.1,
+            "y": 50.9,
+            "endX": 54.3,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 11,
+            "x": 54.3,
+            "y": 76.0,
+            "endX": 73.1,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 11,
+            "x": 73.1,
+            "y": 77.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Djordje Mihailovic",
             "tipo": "Pass",
             "minuto": 42,
@@ -417,7 +450,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ronald Donkor",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -4018,7 +4056,46 @@
         "y": 56.0,
         "arco_y": 46.6,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Eric Choupo-Moting",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 55,
+            "x": 87.9,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Eric Choupo-Moting",
+            "tipo": "BallTouch",
+            "minuto": 96,
+            "segundo": 56,
+            "x": 90.3,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanner Rosborough",
+            "tipo": "SavedShot",
+            "minuto": 96,
+            "segundo": 57,
+            "x": 88.7,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Benjamín Kuscevic",
+          "portero": true
+        }
       }
     ],
     "corners": [

@@ -491,7 +491,24 @@
         "y": 52.3,
         "arco_y": 45.6,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 95.3,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lukas Klostermann",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4426,6 +4443,72 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Xavi Simons",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 32,
+            "x": 29.2,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 32,
+            "x": 29.2,
+            "y": 80.8,
+            "endX": 47.4,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 37,
+            "x": 47.4,
+            "y": 91.7,
+            "endX": 53.7,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 37,
+            "x": 53.7,
+            "y": 92.6,
+            "endX": 46.0,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 39,
+            "x": 46.0,
+            "y": 86.2,
+            "endX": 46.8,
+            "endY": 81.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolas Seiwald",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 43,
+            "x": 46.8,
+            "y": 81.5,
+            "endX": 58.2,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Seiwald",
             "tipo": "Pass",
             "minuto": 45,
@@ -4436,7 +4519,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ellyes Skhiri",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

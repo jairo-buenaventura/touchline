@@ -518,6 +518,72 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Jakub Kaminski",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 19,
+            "x": 71.4,
+            "y": 13.5,
+            "endX": 77.1,
+            "endY": 19.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Nmecha",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 22,
+            "x": 77.1,
+            "y": 19.3,
+            "endX": 75.3,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Nmecha",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 22,
+            "x": 75.3,
+            "y": 22.7,
+            "endX": 78.9,
+            "endY": 27.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lukas Nmecha",
+            "tipo": "BallTouch",
+            "minuto": 81,
+            "segundo": 22,
+            "x": 78.9,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 23,
+            "x": 78.3,
+            "y": 30.6,
+            "endX": 83.6,
+            "endY": 21.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Denis Vavro",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 26,
+            "x": 83.6,
+            "y": 21.0,
+            "endX": 64.7,
+            "endY": 19.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Denis Vavro",
             "tipo": "Pass",
             "minuto": 81,
@@ -616,7 +682,12 @@
             "endY": 58.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dimitrios Giannoulis",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5091,7 +5162,24 @@
         "y": 73.7,
         "arco_y": 51.3,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Phillip Tietz",
+            "tipo": "TakeOn",
+            "minuto": 33,
+            "segundo": 44,
+            "x": 87.1,
+            "y": 70.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kamil Grabara",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

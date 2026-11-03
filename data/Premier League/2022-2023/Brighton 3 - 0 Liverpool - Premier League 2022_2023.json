@@ -446,7 +446,68 @@
         "y": 49.0,
         "arco_y": 48.2,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 55,
+            "x": 70.4,
+            "y": 65.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 56,
+            "x": 70.6,
+            "y": 66.6,
+            "endX": 78.5,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lallana",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 58,
+            "x": 79.1,
+            "y": 60.2,
+            "endX": 88.6,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaoru Mitoma",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 59,
+            "x": 88.6,
+            "y": 68.6,
+            "endX": 86.3,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaoru Mitoma",
+            "tipo": "SavedShot",
+            "minuto": 45,
+            "segundo": 59,
+            "x": 86.3,
+            "y": 64.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": true
+        }
       },
       {
         "minuto": 52,
@@ -540,6 +601,94 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Solly March",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 18,
+            "x": 41.1,
+            "y": 12.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Solly March",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 19,
+            "x": 39.0,
+            "y": 12.9,
+            "endX": 40.2,
+            "endY": 17.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 20,
+            "x": 40.2,
+            "y": 17.7,
+            "endX": 41.1,
+            "endY": 6.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joël Veltman",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 23,
+            "x": 41.3,
+            "y": 6.8,
+            "endX": 59.7,
+            "endY": 2.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joël Veltman",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 50,
+            "x": 59.7,
+            "y": 2.9,
+            "endX": 73.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joël Veltman",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 50,
+            "x": 73.2,
+            "y": 0.0,
+            "endX": 84.1,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Solly March",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 52,
+            "x": 84.1,
+            "y": 11.5,
+            "endX": 91.6,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Welbeck",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 53,
+            "x": 91.6,
+            "y": 39.5,
+            "endX": 91.4,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Danny Welbeck",
             "tipo": "TakeOn",
             "minuto": 80,
@@ -550,7 +699,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joe Gomez",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

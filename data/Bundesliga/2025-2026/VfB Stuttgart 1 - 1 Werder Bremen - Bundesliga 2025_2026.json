@@ -500,7 +500,24 @@
         "y": 49.5,
         "arco_y": 47.2,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ermedin Demirovic",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 93.9,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Amos Pieper",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -5487,6 +5504,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Cameron Puertas",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 29,
+            "x": 63.7,
+            "y": 86.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Puertas",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 29,
+            "x": 62.5,
+            "y": 90.5,
+            "endX": 58.5,
+            "endY": 93.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Coulibaly",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 31,
+            "x": 58.5,
+            "y": 93.7,
+            "endX": 59.4,
+            "endY": 93.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Olivier Deman",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 48,
+            "x": 59.4,
+            "y": 93.7,
+            "endX": 60.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Olivier Deman",
             "tipo": "Pass",
             "minuto": 17,
@@ -5541,7 +5602,12 @@
             "endY": 36.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Bilal El Khannouss",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

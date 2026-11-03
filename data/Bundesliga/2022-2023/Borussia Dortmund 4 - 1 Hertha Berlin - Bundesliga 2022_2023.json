@@ -502,6 +502,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 46,
+            "x": 26.1,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 47,
+            "x": 26.1,
+            "y": 45.2,
+            "endX": 32.4,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 49,
+            "x": 32.8,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 50,
+            "x": 36.4,
+            "y": 44.3,
+            "endX": 46.6,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 51,
+            "x": 46.6,
+            "y": 59.3,
+            "endX": 64.8,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Adeyemi",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 55,
+            "x": 64.8,
+            "y": 73.8,
+            "endX": 75.9,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Karim Adeyemi",
             "tipo": "TakeOn",
             "minuto": 30,
@@ -523,7 +589,12 @@
             "endY": 43.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Filip Uremovic",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -582,6 +653,39 @@
         "secuencia_gol": [
           {
             "jugador": "Jamie Gittens",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 62.9,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Gittens",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 55,
+            "x": 64.8,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Gittens",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 56,
+            "x": 70.4,
+            "y": 58.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Gittens",
             "tipo": "TakeOn",
             "minuto": 88,
             "segundo": 59,
@@ -602,7 +706,12 @@
             "endY": 46.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucas Tousart",
+          "portero": false
+        }
       }
     ],
     "corners": [

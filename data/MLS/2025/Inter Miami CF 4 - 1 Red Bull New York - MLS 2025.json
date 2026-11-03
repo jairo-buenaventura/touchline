@@ -419,6 +419,17 @@
         "secuencia_gol": [
           {
             "jugador": "Luis Suárez",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 20,
+            "x": 89.8,
+            "y": 44.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
             "tipo": "MissedShots",
             "minuto": 8,
             "segundo": 20,
@@ -428,7 +439,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sean Nealis",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -447,7 +463,123 @@
         "y": 49.1,
         "arco_y": 52.5,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tadeo Allende",
+            "tipo": "CornerAwarded",
+            "minuto": 29,
+            "segundo": 14,
+            "x": 92.9,
+            "y": 29.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 38,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 85.6,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelo Weigandt",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 43,
+            "x": 85.6,
+            "y": 10.4,
+            "endX": 82.0,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelo Weigandt",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 43,
+            "x": 82.0,
+            "y": 11.7,
+            "endX": 71.0,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 45,
+            "x": 71.0,
+            "y": 35.1,
+            "endX": 72.8,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Bright",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 47,
+            "x": 73.6,
+            "y": 64.3,
+            "endX": 87.1,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fafà Picault",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 48,
+            "x": 87.1,
+            "y": 84.8,
+            "endX": 82.8,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fafà Picault",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 48,
+            "x": 82.8,
+            "y": 82.0,
+            "endX": 90.0,
+            "endY": 56.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcelo Weigandt",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 50,
+            "x": 90.0,
+            "y": 56.2,
+            "endX": 94.5,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelo Weigandt",
+            "tipo": "SavedShot",
+            "minuto": 29,
+            "segundo": 50,
+            "x": 94.5,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Carlos Coronel",
+          "portero": true
+        }
       },
       {
         "minuto": 38,
@@ -466,7 +598,145 @@
         "y": 54.6,
         "arco_y": 53.4,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Óscar Ustari",
+            "tipo": "KeeperPickup",
+            "minuto": 38,
+            "segundo": 1,
+            "x": 3.1,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Óscar Ustari",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 2.6,
+            "y": 47.0,
+            "endX": 5.0,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Luján",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 26,
+            "x": 6.2,
+            "y": 15.9,
+            "endX": 4.0,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Óscar Ustari",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 28,
+            "x": 4.0,
+            "y": 47.8,
+            "endX": 7.8,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noah Allen",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 32,
+            "x": 9.0,
+            "y": 90.9,
+            "endX": 34.9,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fafà Picault",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 35,
+            "x": 34.9,
+            "y": 86.2,
+            "endX": 42.3,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 37,
+            "x": 42.3,
+            "y": 76.7,
+            "endX": 45.8,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 40,
+            "x": 45.8,
+            "y": 43.4,
+            "endX": 53.3,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 40,
+            "x": 53.3,
+            "y": 32.5,
+            "endX": 75.8,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tadeo Allende",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 45,
+            "x": 75.8,
+            "y": 18.9,
+            "endX": 94.2,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tadeo Allende",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 45,
+            "x": 94.2,
+            "y": 25.3,
+            "endX": 84.8,
+            "endY": 53.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 46,
+            "x": 85.5,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kyle Duncan",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -486,6 +756,160 @@
         "arco_y": 51.0,
         "arco_z": 28.5,
         "secuencia_gol": [
+          {
+            "jugador": "Gonzalo Luján",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 26,
+            "x": 58.4,
+            "y": 10.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Luján",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 74.7,
+            "y": 3.8,
+            "endX": 68.6,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamín Cremaschi",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 33,
+            "x": 68.6,
+            "y": 9.4,
+            "endX": 53.8,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Bright",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 37,
+            "x": 53.8,
+            "y": 25.3,
+            "endX": 53.4,
+            "endY": 44.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Bright",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 37,
+            "x": 53.4,
+            "y": 44.3,
+            "endX": 51.2,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noah Allen",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 51.2,
+            "y": 68.1,
+            "endX": 54.3,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noah Allen",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 54.3,
+            "y": 72.0,
+            "endX": 67.5,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 42,
+            "x": 67.5,
+            "y": 95.4,
+            "endX": 70.5,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 42,
+            "x": 70.5,
+            "y": 94.7,
+            "endX": 69.5,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Telasco Segovia",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 43,
+            "x": 69.5,
+            "y": 75.1,
+            "endX": 69.4,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 44,
+            "x": 69.4,
+            "y": 94.7,
+            "endX": 70.7,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Telasco Segovia",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 45,
+            "x": 70.7,
+            "y": 84.2,
+            "endX": 66.6,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 46,
+            "x": 66.6,
+            "y": 93.9,
+            "endX": 68.6,
+            "endY": 93.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 68.6,
+            "y": 93.8,
+            "endX": 60.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Jordi Alba",
             "tipo": "Pass",
@@ -563,7 +987,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Dennis Gjengaar",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

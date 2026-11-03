@@ -377,7 +377,24 @@
         "y": 52.4,
         "arco_y": 47.7,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ante Budimir",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 23,
+            "x": 92.2,
+            "y": 46.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pau Cubarsí",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -405,7 +422,57 @@
         "y": 58.5,
         "arco_y": 51.0,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pablo Ibáñez",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 21,
+            "x": 50.4,
+            "y": 43.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Ibáñez",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 23,
+            "x": 52.7,
+            "y": 42.4,
+            "endX": 71.0,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Zaragoza",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 28,
+            "x": 71.0,
+            "y": 64.3,
+            "endX": 89.2,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Zaragoza",
+            "tipo": "TakeOn",
+            "minuto": 27,
+            "segundo": 28,
+            "x": 89.2,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Iñaki Peña",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -3685,6 +3752,94 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Pedri",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 59,
+            "x": 45.4,
+            "y": 41.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 3,
+            "x": 37.2,
+            "y": 50.0,
+            "endX": 34.8,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Balde",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 5,
+            "x": 34.8,
+            "y": 63.6,
+            "endX": 40.6,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric García",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 40.6,
+            "y": 27.0,
+            "endX": 44.7,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric García",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 44.7,
+            "y": 27.0,
+            "endX": 77.3,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 77.3,
+            "y": 3.2,
+            "endX": 77.5,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 77.5,
+            "y": 27.3,
+            "endX": 84.8,
+            "endY": 32.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 84.8,
+            "y": 32.8,
+            "endX": 47.2,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Pau Cubarsí",
             "tipo": "Pass",
             "minuto": 88,
@@ -3882,7 +4037,12 @@
             "endY": 35.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jorge Herrando",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

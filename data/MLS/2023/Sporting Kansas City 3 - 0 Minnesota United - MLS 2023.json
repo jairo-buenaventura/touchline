@@ -393,7 +393,24 @@
         "y": 48.9,
         "arco_y": 51.8,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dany Rosero",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 30,
+            "x": 92.6,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kervin Arriaga",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -422,6 +439,39 @@
         "arco_y": 46.7,
         "arco_z": 18.4,
         "secuencia_gol": [
+          {
+            "jugador": "Andreu Fontàs",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 28.5,
+            "y": 77.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreu Fontàs",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 28.5,
+            "y": 77.2,
+            "endX": 42.1,
+            "endY": 90.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Logan Ndenbe",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 48,
+            "x": 42.1,
+            "y": 90.7,
+            "endX": 48.8,
+            "endY": 80.9,
+            "exitoso": true
+          },
           {
             "jugador": "Alan Pulido",
             "tipo": "TakeOn",
@@ -466,7 +516,12 @@
             "endY": 72.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Lod",
+          "portero": false
+        }
       },
       {
         "minuto": 26,

@@ -406,7 +406,46 @@
         "y": 47.7,
         "arco_y": 45.9,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 45,
+            "x": 74.1,
+            "y": 80.4,
+            "endX": 92.8,
+            "endY": 42.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 49,
+            "x": 92.8,
+            "y": 42.8,
+            "endX": 82.0,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "TakeOn",
+            "minuto": 26,
+            "segundo": 49,
+            "x": 82.0,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gabriel Martinelli",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -4309,7 +4348,57 @@
         "y": 57.5,
         "arco_y": 50.8,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 41,
+            "x": 85.9,
+            "y": 76.5,
+            "endX": 85.2,
+            "endY": 67.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 85.2,
+            "y": 67.7,
+            "endX": 90.2,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 90.2,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "BallTouch",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 50.0,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lucas Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

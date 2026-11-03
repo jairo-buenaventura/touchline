@@ -474,6 +474,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Rani Khedira",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 22,
+            "x": 46.3,
+            "y": 47.0,
+            "endX": 72.8,
+            "endY": 37.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Siebatcheu",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 26,
+            "x": 72.8,
+            "y": 37.0,
+            "endX": 76.8,
+            "endY": 35.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordan Siebatcheu",
             "tipo": "Pass",
             "minuto": 80,
@@ -506,7 +528,12 @@
             "endY": 59.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Niklas Stark",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

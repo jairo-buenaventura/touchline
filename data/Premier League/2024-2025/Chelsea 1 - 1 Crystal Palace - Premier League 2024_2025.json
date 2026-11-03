@@ -407,6 +407,28 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Levi Colwill",
+            "tipo": "BallRecovery",
+            "minuto": 24,
+            "segundo": 41,
+            "x": 29.6,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Levi Colwill",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 42,
+            "x": 29.6,
+            "y": 35.6,
+            "endX": 42.0,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Noni Madueke",
             "tipo": "TakeOn",
             "minuto": 24,
@@ -439,7 +461,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Will Hughes",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -5036,7 +5063,90 @@
         "y": 57.3,
         "arco_y": 45.5,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 36,
+            "x": 72.4,
+            "y": 47.9,
+            "endX": 94.2,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Muñoz",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 37,
+            "x": 94.2,
+            "y": 29.7,
+            "endX": 96.5,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Richards",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 39,
+            "x": 95.4,
+            "y": 59.9,
+            "endX": 96.9,
+            "endY": 52.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adam Wharton",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 47,
+            "x": 96.9,
+            "y": 52.6,
+            "endX": 85.2,
+            "endY": 73.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Wharton",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 47,
+            "x": 85.2,
+            "y": 73.3,
+            "endX": 80.3,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cheick Doucouré",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 49,
+            "x": 80.3,
+            "y": 62.0,
+            "endX": 85.5,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cheick Doucouré",
+            "tipo": "SavedShot",
+            "minuto": 52,
+            "segundo": 49,
+            "x": 85.5,
+            "y": 64.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Wesley Fofana",
+          "portero": true
+        }
       },
       {
         "minuto": 76,

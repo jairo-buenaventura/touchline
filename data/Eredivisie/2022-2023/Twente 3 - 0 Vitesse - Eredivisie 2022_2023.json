@@ -434,6 +434,94 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Virgil Misidjan",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 56,
+            "x": 74.4,
+            "y": 80.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil Misidjan",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 0,
+            "x": 85.7,
+            "y": 84.8,
+            "endX": 82.8,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 2,
+            "x": 81.2,
+            "y": 73.9,
+            "endX": 71.3,
+            "endY": 73.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 3,
+            "x": 71.3,
+            "y": 73.7,
+            "endX": 73.4,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 3,
+            "x": 73.4,
+            "y": 71.1,
+            "endX": 72.8,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Brenet",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 6,
+            "x": 72.8,
+            "y": 42.1,
+            "endX": 72.1,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Brenet",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 6,
+            "x": 72.1,
+            "y": 37.5,
+            "endX": 76.2,
+            "endY": 36.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Václav Cerny",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 8,
+            "x": 76.2,
+            "y": 36.5,
+            "endX": 74.1,
+            "endY": 28.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Václav Cerny",
             "tipo": "Pass",
             "minuto": 36,
@@ -444,7 +532,12 @@
             "endY": 40.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Melle Meulensteen",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -590,7 +683,57 @@
         "y": 53.4,
         "arco_y": 54.3,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christos Tzolis",
+            "tipo": "CornerAwarded",
+            "minuto": 91,
+            "segundo": 49,
+            "x": 79.8,
+            "y": 39.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramiz Zerrouki",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 26,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.0,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christos Tzolis",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 95.0,
+            "y": 94.7,
+            "endX": 98.2,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christos Tzolis",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 98.2,
+            "y": 85.5,
+            "endX": 96.0,
+            "endY": 54.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Melle Meulensteen",
+          "portero": false
+        }
       }
     ],
     "corners": [

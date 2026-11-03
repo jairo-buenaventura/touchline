@@ -3844,6 +3844,83 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Declan Rice",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 24.5,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 21.2,
+            "y": 47.7,
+            "endX": 28.6,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 36,
+            "x": 28.6,
+            "y": 35.7,
+            "endX": 42.5,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 36,
+            "x": 42.5,
+            "y": 33.1,
+            "endX": 60.4,
+            "endY": 14.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 42,
+            "x": 60.4,
+            "y": 14.5,
+            "endX": 64.4,
+            "endY": 9.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 42,
+            "x": 64.4,
+            "y": 9.3,
+            "endX": 57.3,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben White",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 44,
+            "x": 56.9,
+            "y": 3.1,
+            "endX": 59.8,
+            "endY": 4.8,
+            "exitoso": false
+          },
+          {
             "jugador": "Ben White",
             "tipo": "BallTouch",
             "minuto": 57,
@@ -4074,7 +4151,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Emiliano Buendía",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

@@ -457,6 +457,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ansgar Knauff",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 16,
+            "x": 92.3,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 16,
@@ -466,7 +477,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Henri Koudossou",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -503,7 +519,24 @@
         "y": 69.1,
         "arco_y": 52.2,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 14,
+            "x": 60.8,
+            "y": 6.2,
+            "endX": 86.8,
+            "endY": 46.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Keven Schlotterbeck",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -5072,6 +5105,50 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Phillip Tietz",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 44,
+            "x": 92.4,
+            "y": 53.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillip Tietz",
+            "tipo": "MissedShots",
+            "minuto": 59,
+            "segundo": 44,
+            "x": 92.4,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elvis Rexhbeçaj",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 47,
+            "x": 98.0,
+            "y": 75.4,
+            "endX": 97.7,
+            "endY": 69.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Henri Koudossou",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 52,
+            "x": 97.7,
+            "y": 69.9,
+            "endX": 78.4,
+            "endY": 84.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Henri Koudossou",
             "tipo": "Pass",
             "minuto": 59,
@@ -5104,7 +5181,12 @@
             "endY": 66.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rasmus Kristensen",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

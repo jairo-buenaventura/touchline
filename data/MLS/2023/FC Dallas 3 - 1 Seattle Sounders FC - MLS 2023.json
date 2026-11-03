@@ -385,6 +385,39 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 40,
+            "x": 23.9,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 41,
+            "x": 25.5,
+            "y": 40.5,
+            "endX": 37.7,
+            "endY": 59.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paxton Pomykal",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 44,
+            "x": 37.7,
+            "y": 59.4,
+            "endX": 33.4,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Paxton Pomykal",
             "tipo": "TakeOn",
             "minuto": 4,
@@ -560,7 +593,12 @@
             "endY": 46.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Albert Rusnák",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

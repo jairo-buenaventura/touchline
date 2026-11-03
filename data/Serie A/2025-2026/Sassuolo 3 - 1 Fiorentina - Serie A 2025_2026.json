@@ -474,7 +474,24 @@
         "y": 49.7,
         "arco_y": 48.6,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tarik Muharemovic",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 44,
+            "x": 96.2,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rolando Mandragora",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -494,6 +511,28 @@
         "arco_y": 48.7,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Kristian Thorstvedt",
+            "tipo": "BlockedPass",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 45.9,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Walid Cheddira",
+            "tipo": "TakeOn",
+            "minuto": 63,
+            "segundo": 59,
+            "x": 44.8,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Walid Cheddira",
             "tipo": "Pass",
@@ -527,7 +566,12 @@
             "endY": 35.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cher Ndour",
+          "portero": false
+        }
       }
     ],
     "corners": [

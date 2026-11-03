@@ -523,6 +523,94 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Julian Weigl",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 48.3,
+            "y": 53.2,
+            "endX": 37.3,
+            "endY": 61.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Elvedi",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 2,
+            "x": 37.3,
+            "y": 61.9,
+            "endX": 46.2,
+            "endY": 66.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Koné",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 4,
+            "x": 46.0,
+            "y": 66.0,
+            "endX": 38.5,
+            "endY": 17.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Friedrich",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 8,
+            "x": 38.5,
+            "y": 17.2,
+            "endX": 38.4,
+            "endY": 12.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Friedrich",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 8,
+            "x": 38.4,
+            "y": 12.7,
+            "endX": 20.9,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 10,
+            "x": 21.2,
+            "y": 36.0,
+            "endX": 27.4,
+            "endY": 59.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Elvedi",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 14,
+            "x": 27.4,
+            "y": 59.5,
+            "endX": 31.4,
+            "endY": 61.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Elvedi",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 14,
+            "x": 31.4,
+            "y": 61.3,
+            "endX": 56.7,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Ramy Bensebaini",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -610,7 +698,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kingsley Schindler",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -5437,7 +5530,46 @@
         "y": 51.5,
         "arco_y": 52.7,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mark Uth",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 34,
+            "x": 76.2,
+            "y": 87.0,
+            "endX": 91.9,
+            "endY": 46.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kingsley Schindler",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 46,
+            "x": 91.9,
+            "y": 46.2,
+            "endX": 85.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Schindler",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 46,
+            "x": 85.9,
+            "y": 0.0,
+            "endX": 90.9,
+            "endY": 36.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nico Elvedi",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

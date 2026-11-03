@@ -394,6 +394,39 @@
         "secuencia_gol": [
           {
             "jugador": "David Møller Wolfe",
+            "tipo": "Aerial",
+            "minuto": 11,
+            "segundo": 46,
+            "x": 35.6,
+            "y": 88.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Møller Wolfe",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 46,
+            "x": 33.8,
+            "y": 84.3,
+            "endX": 35.9,
+            "endY": 84.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "David Møller Wolfe",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 4,
+            "x": 35.9,
+            "y": 84.3,
+            "endX": 38.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Møller Wolfe",
             "tipo": "Pass",
             "minuto": 12,
             "segundo": 4,
@@ -491,7 +524,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mario Engels",
+          "portero": false
+        }
       },
       {
         "minuto": 16,

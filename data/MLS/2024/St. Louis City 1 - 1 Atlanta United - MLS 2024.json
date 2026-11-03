@@ -415,6 +415,17 @@
         "secuencia_gol": [
           {
             "jugador": "João Klauss",
+            "tipo": "Aerial",
+            "minuto": 49,
+            "segundo": 35,
+            "x": 96.9,
+            "y": 36.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
             "tipo": "Pass",
             "minuto": 49,
             "segundo": 35,
@@ -424,7 +435,12 @@
             "endY": 32.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Noah Cobb",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -4151,7 +4167,24 @@
         "y": 48.7,
         "arco_y": 52.9,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "SavedShot",
+            "minuto": 70,
+            "segundo": 6,
+            "x": 88.5,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Roman Bürki",
+          "portero": true
+        }
       },
       {
         "minuto": 82,

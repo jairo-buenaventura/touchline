@@ -475,6 +475,17 @@
         "secuencia_gol": [
           {
             "jugador": "Robin Koch",
+            "tipo": "Aerial",
+            "minuto": 35,
+            "segundo": 33,
+            "x": 88.0,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
             "tipo": "MissedShots",
             "minuto": 35,
             "segundo": 34,
@@ -484,7 +495,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maximilian Eggestein",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4038,6 +4054,28 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Yannik Engelhardt",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 25,
+            "x": 46.0,
+            "y": 17.6,
+            "endX": 50.6,
+            "endY": 20.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordy Makengo",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 27,
+            "x": 50.6,
+            "y": 20.7,
+            "endX": 55.4,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordy Makengo",
             "tipo": "Pass",
             "minuto": 33,
@@ -4048,7 +4086,12 @@
             "endY": 66.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Raphael Onyedika",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -4105,6 +4148,149 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Jordy Makengo",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 44,
+            "x": 44.2,
+            "y": 94.6,
+            "endX": 33.0,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Lienhart",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 46,
+            "x": 33.0,
+            "y": 88.5,
+            "endX": 41.3,
+            "endY": 94.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordy Makengo",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 47,
+            "x": 41.3,
+            "y": 94.3,
+            "endX": 33.5,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Lienhart",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 56,
+            "x": 33.5,
+            "y": 83.0,
+            "endX": 36.1,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Lienhart",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 56,
+            "x": 36.1,
+            "y": 74.7,
+            "endX": 32.7,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Eggestein",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 58,
+            "x": 32.7,
+            "y": 55.6,
+            "endX": 32.2,
+            "endY": 58.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Eggestein",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 58,
+            "x": 32.2,
+            "y": 58.6,
+            "endX": 36.6,
+            "endY": 24.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthias Ginter",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 59,
+            "x": 36.9,
+            "y": 25.0,
+            "endX": 33.2,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Eggestein",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 2,
+            "x": 31.4,
+            "y": 38.9,
+            "endX": 10.9,
+            "endY": 51.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mio Backhaus",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 6,
+            "x": 10.9,
+            "y": 51.8,
+            "endX": 13.7,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mio Backhaus",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 6,
+            "x": 13.7,
+            "y": 65.0,
+            "endX": 26.5,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordy Makengo",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 8,
+            "x": 26.5,
+            "y": 94.4,
+            "endX": 53.2,
+            "endY": 93.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yannik Engelhardt",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 14,
+            "x": 53.2,
+            "y": 93.8,
+            "endX": 57.4,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Yannik Engelhardt",
             "tipo": "Pass",
             "minuto": 47,
@@ -4159,7 +4345,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Oscar Højlund",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

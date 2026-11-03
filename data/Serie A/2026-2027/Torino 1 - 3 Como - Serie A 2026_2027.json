@@ -393,7 +393,35 @@
         "y": 54.8,
         "arco_y": 51.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kian Fitz-Jim",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 41,
+            "x": 96.0,
+            "y": 74.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kian Fitz-Jim",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 41,
+            "x": 96.3,
+            "y": 66.5,
+            "endX": 91.5,
+            "endY": 57.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luis Milla",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -3930,6 +3958,28 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Martin Baturina",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 38,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.7,
+            "endY": 55.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas da Cunha",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 44,
+            "x": 90.7,
+            "y": 55.4,
+            "endX": 65.5,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas da Cunha",
             "tipo": "Pass",
             "minuto": 80,
@@ -3962,7 +4012,12 @@
             "endY": 57.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sandro Kulenovic",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -3990,7 +4045,24 @@
         "y": 46.2,
         "arco_y": 51.5,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nico Paz",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 53,
+            "x": 92.6,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ardian Ismajli",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

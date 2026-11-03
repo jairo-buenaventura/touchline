@@ -665,6 +665,17 @@
         "secuencia_gol": [
           {
             "jugador": "Caleb Okoli",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 13,
+            "x": 93.0,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Caleb Okoli",
             "tipo": "MissedShots",
             "minuto": 69,
             "segundo": 13,
@@ -674,7 +685,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nicolò Casale",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4923,7 +4939,24 @@
         "y": 42.8,
         "arco_y": 53.8,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 4,
+            "x": 93.5,
+            "y": 42.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nadir Zortea",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4978,7 +5011,24 @@
         "y": 53.6,
         "arco_y": 49.2,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Casale",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 90.3,
+            "y": 53.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Caleb Okoli",
+          "portero": true
+        }
       },
       {
         "minuto": 80,

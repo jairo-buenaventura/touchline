@@ -526,6 +526,50 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Alejandro Bedoya",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 15,
+            "x": 40.1,
+            "y": 27.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Bedoya",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 15,
+            "x": 40.2,
+            "y": 25.1,
+            "endX": 44.6,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 17,
+            "x": 44.6,
+            "y": 41.2,
+            "endX": 52.8,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 17,
+            "x": 52.8,
+            "y": 38.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Dániel Gazdag",
             "tipo": "Pass",
             "minuto": 42,
@@ -536,7 +580,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sigurd Rosted",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

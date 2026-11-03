@@ -497,6 +497,83 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 36,
+            "x": 74.0,
+            "y": 43.4,
+            "endX": 74.4,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myles Lewis-Skelly",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 74.4,
+            "y": 57.2,
+            "endX": 78.2,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myles Lewis-Skelly",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 78.2,
+            "y": 65.4,
+            "endX": 88.4,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 42,
+            "x": 88.4,
+            "y": 74.8,
+            "endX": 83.3,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 42,
+            "x": 83.3,
+            "y": 77.3,
+            "endX": 72.2,
+            "endY": 72.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Partey",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 71.3,
+            "y": 73.2,
+            "endX": 73.9,
+            "endY": 72.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gabriel Magalhães",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 48,
+            "x": 73.9,
+            "y": 72.3,
+            "endX": 78.8,
+            "endY": 92.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Magalhães",
             "tipo": "Pass",
             "minuto": 61,
@@ -518,7 +595,12 @@
             "endY": 73.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Omar Marmoush",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4595,7 +4677,24 @@
         "y": 53.2,
         "arco_y": 49.0,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 14,
+            "x": 94.4,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "William Saliba",
+          "portero": false
+        }
       }
     ],
     "corners": [

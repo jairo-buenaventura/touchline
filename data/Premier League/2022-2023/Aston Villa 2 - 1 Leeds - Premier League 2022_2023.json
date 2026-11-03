@@ -340,6 +340,39 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Ashley Young",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 2,
+            "x": 10.6,
+            "y": 25.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ashley Young",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 2,
+            "x": 10.6,
+            "y": 25.7,
+            "endX": 35.2,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boubacar Kamara",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 10,
+            "x": 35.2,
+            "y": 68.7,
+            "endX": 70.3,
+            "endY": 57.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Boubacar Kamara",
             "tipo": "TakeOn",
             "minuto": 2,
@@ -361,7 +394,12 @@
             "endY": 33.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brenden Aaronson",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -407,7 +445,101 @@
         "y": 43.1,
         "arco_y": 48.6,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emiliano Martínez",
+            "tipo": "KeeperPickup",
+            "minuto": 63,
+            "segundo": 26,
+            "x": 7.8,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emiliano Martínez",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 27,
+            "x": 12.1,
+            "y": 45.2,
+            "endX": 28.1,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 35,
+            "x": 28.1,
+            "y": 77.3,
+            "endX": 43.2,
+            "endY": 78.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 35,
+            "x": 43.2,
+            "y": 78.5,
+            "endX": 45.8,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 37,
+            "x": 45.8,
+            "y": 55.2,
+            "endX": 47.3,
+            "endY": 49.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 37,
+            "x": 47.3,
+            "y": 49.0,
+            "endX": 71.2,
+            "endY": 12.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Bailey",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 43,
+            "x": 71.2,
+            "y": 12.7,
+            "endX": 82.5,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Bailey",
+            "tipo": "SavedShot",
+            "minuto": 63,
+            "segundo": 43,
+            "x": 82.5,
+            "y": 35.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Illan Meslier",
+          "portero": true
+        }
       },
       {
         "minuto": 69,

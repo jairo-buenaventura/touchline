@@ -416,6 +416,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Emiro Garcés",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 41,
+            "x": 22.6,
+            "y": 82.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emiro Garcés",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 43,
+            "x": 22.6,
+            "y": 82.9,
+            "endX": 9.4,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Novak Micovic",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 45,
+            "x": 9.2,
+            "y": 62.7,
+            "endX": 53.9,
+            "endY": 52.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elijah Wynder",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 50,
+            "x": 53.9,
+            "y": 52.8,
+            "endX": 51.7,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Elijah Wynder",
             "tipo": "Pass",
             "minuto": 41,
@@ -448,7 +492,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Osaze Urhoghide",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -523,6 +572,127 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Mauricio Cuevas",
+            "tipo": "CornerAwarded",
+            "minuto": 85,
+            "segundo": 55,
+            "x": 100.0,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 18,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 96.3,
+            "endY": 44.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "John Nelson",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 24,
+            "x": 96.3,
+            "y": 44.8,
+            "endX": 75.7,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Nelson",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 24,
+            "x": 75.7,
+            "y": 51.0,
+            "endX": 75.3,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Fagúndez",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 29,
+            "x": 75.3,
+            "y": 62.8,
+            "endX": 70.7,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Fagúndez",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 29,
+            "x": 70.7,
+            "y": 81.8,
+            "endX": 67.4,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio Cuevas",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 35,
+            "x": 67.4,
+            "y": 27.6,
+            "endX": 71.1,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio Cuevas",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 35,
+            "x": 71.1,
+            "y": 24.0,
+            "endX": 93.7,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maya Yoshida",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 37,
+            "x": 93.7,
+            "y": 66.1,
+            "endX": 94.2,
+            "endY": 69.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maya Yoshida",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 37,
+            "x": 94.2,
+            "y": 69.5,
+            "endX": 93.7,
+            "endY": 65.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Emiro Garcés",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 41,
+            "x": 93.7,
+            "y": 65.8,
+            "endX": 87.3,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Emiro Garcés",
             "tipo": "Pass",
             "minuto": 86,
@@ -533,7 +703,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Shaq Moore",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5329,6 +5504,17 @@
         "secuencia_gol": [
           {
             "jugador": "Shaq Moore",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 59,
+            "x": 64.2,
+            "y": 8.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 59,
@@ -5349,7 +5535,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "John Nelson",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

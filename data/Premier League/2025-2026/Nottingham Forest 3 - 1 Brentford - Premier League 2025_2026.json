@@ -373,7 +373,24 @@
         "y": 41.5,
         "arco_y": 52.6,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Chris Wood",
+            "tipo": "Aerial",
+            "minuto": 4,
+            "segundo": 58,
+            "x": 91.8,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Igor Thiago",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -598,6 +615,17 @@
         "secuencia_gol": [
           {
             "jugador": "Chris Wood",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 57,
+            "x": 87.5,
+            "y": 59.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Wood",
             "tipo": "TakeOn",
             "minuto": 46,
             "segundo": 57,
@@ -607,7 +635,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Caoimhín Kelleher",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

@@ -571,6 +571,39 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Konstantinos Karetsas",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 20,
+            "x": 29.4,
+            "y": 70.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Konstantinos Karetsas",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 21,
+            "x": 31.3,
+            "y": 70.2,
+            "endX": 79.9,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Serhou Guirassy",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 27,
+            "x": 79.9,
+            "y": 18.0,
+            "endX": 86.5,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Serhou Guirassy",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -603,7 +636,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marco Friedl",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -613,7 +651,24 @@
         "y": 44.2,
         "arco_y": 46.4,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 12,
+            "x": 96.7,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mick Schmetgens",
+          "portero": false
+        }
       }
     ],
     "corners": [

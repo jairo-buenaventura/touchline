@@ -4160,7 +4160,24 @@
         "y": 48.1,
         "arco_y": 47.6,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 57,
+            "x": 91.5,
+            "y": 48.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Gabriel Magalhães",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -4171,6 +4188,17 @@
         "arco_y": 45.8,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 1,
+            "x": 70.5,
+            "y": 77.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Erling Haaland",
             "tipo": "Pass",
@@ -4204,7 +4232,12 @@
             "endY": 72.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Danilo",
+          "portero": false
+        }
       }
     ],
     "corners": [

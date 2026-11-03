@@ -428,7 +428,24 @@
         "y": 52.2,
         "arco_y": 46.1,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kai Havertz",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 41,
+            "x": 88.9,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "José Canale",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -6765,6 +6782,28 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Miguel Almirón",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 98.2,
+            "endY": 48.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Damián Bobadilla",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 13,
+            "x": 98.2,
+            "y": 48.5,
+            "endX": 65.8,
+            "endY": 48.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Damián Bobadilla",
             "tipo": "Pass",
             "minuto": 41,
@@ -6830,7 +6869,12 @@
             "endY": 49.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Manuel Neuer",
+          "portero": true
+        }
       },
       {
         "minuto": 49,

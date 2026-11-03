@@ -5128,6 +5128,28 @@
         "secuencia_gol": [
           {
             "jugador": "Kristian Thorstvedt",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 2,
+            "x": 54.2,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristian Thorstvedt",
+            "tipo": "TakeOn",
+            "minuto": 76,
+            "segundo": 2,
+            "x": 60.4,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristian Thorstvedt",
             "tipo": "Pass",
             "minuto": 76,
             "segundo": 4,
@@ -5170,7 +5192,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Raoul Bellanova",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

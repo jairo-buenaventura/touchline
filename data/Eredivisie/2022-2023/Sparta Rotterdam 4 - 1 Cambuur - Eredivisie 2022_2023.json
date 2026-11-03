@@ -443,7 +443,35 @@
         "y": 49.9,
         "arco_y": 47.1,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 13,
+            "x": 88.2,
+            "y": 0.0,
+            "endX": 91.7,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tobias Lauritsen",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 16,
+            "x": 91.7,
+            "y": 33.6,
+            "endX": 91.5,
+            "endY": 49.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marco Tol",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -607,6 +635,61 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Michael Pinto",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 30,
+            "x": 12.9,
+            "y": 100.0,
+            "endX": 14.1,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan de Guzmán",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 33,
+            "x": 14.1,
+            "y": 88.6,
+            "endX": 16.7,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dirk Abels",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 44,
+            "x": 16.7,
+            "y": 30.1,
+            "endX": 50.3,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dirk Abels",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 44,
+            "x": 50.3,
+            "y": 51.0,
+            "endX": 55.7,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 50,
+            "x": 55.7,
+            "y": 21.5,
+            "endX": 68.4,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Younes Namli",
             "tipo": "TakeOn",
             "minuto": 49,
@@ -617,7 +700,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ben Rienstra",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

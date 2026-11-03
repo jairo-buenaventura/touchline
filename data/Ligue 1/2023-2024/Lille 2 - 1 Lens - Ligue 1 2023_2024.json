@@ -620,7 +620,79 @@
         "y": 49.6,
         "arco_y": 49.7,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan David",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 6,
+            "x": 48.4,
+            "y": 67.9,
+            "endX": 47.1,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 47.1,
+            "y": 86.9,
+            "endX": 50.0,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 50.0,
+            "y": 79.7,
+            "endX": 71.6,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 9,
+            "x": 71.6,
+            "y": 88.0,
+            "endX": 66.6,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 9,
+            "x": 66.6,
+            "y": 92.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "SavedShot",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 88.2,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Brice Samba",
+          "portero": true
+        }
       },
       {
         "minuto": 64,
@@ -4733,6 +4805,39 @@
         "secuencia_gol": [
           {
             "jugador": "Facundo Medina",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 0,
+            "x": 50.3,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Medina",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 0,
+            "x": 50.5,
+            "y": 52.2,
+            "endX": 55.9,
+            "endY": 55.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Facundo Medina",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 2,
+            "x": 55.9,
+            "y": 55.8,
+            "endX": 61.5,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Medina",
             "tipo": "Pass",
             "minuto": 77,
             "segundo": 2,
@@ -4742,7 +4847,12 @@
             "endY": 57.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jonathan David",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

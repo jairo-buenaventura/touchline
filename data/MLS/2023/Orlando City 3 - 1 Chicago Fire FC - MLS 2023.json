@@ -517,6 +517,28 @@
         "secuencia_gol": [
           {
             "jugador": "Rafael Santos",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 34,
+            "x": 33.9,
+            "y": 89.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Santos",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 34,
+            "x": 39.8,
+            "y": 92.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Santos",
             "tipo": "Pass",
             "minuto": 74,
             "segundo": 37,
@@ -548,7 +570,12 @@
             "endY": 75.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maren Haile-Selassie",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

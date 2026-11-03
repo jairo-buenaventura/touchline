@@ -451,6 +451,28 @@
         "secuencia_gol": [
           {
             "jugador": "Sékou Bangoura",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 26.2,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sékou Bangoura",
+            "tipo": "TakeOn",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 29.0,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sékou Bangoura",
             "tipo": "Pass",
             "minuto": 23,
             "segundo": 14,
@@ -493,7 +515,12 @@
             "endY": 54.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Saba Lobjanidze",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

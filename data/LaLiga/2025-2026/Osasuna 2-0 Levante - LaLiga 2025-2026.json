@@ -417,6 +417,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rubén García",
+            "tipo": "Tackle",
+            "minuto": 11,
+            "segundo": 47,
+            "x": 74.5,
+            "y": 8.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rubén García",
             "tipo": "Pass",
             "minuto": 12,
             "segundo": 0,
@@ -459,7 +470,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Manu Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

@@ -459,6 +459,61 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Mickey van der Hart",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 20,
+            "x": 28.8,
+            "y": 59.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mickey van der Hart",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 28.8,
+            "y": 59.3,
+            "endX": 38.0,
+            "endY": 34.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michaël Heylen",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 23,
+            "x": 38.0,
+            "y": 34.5,
+            "endX": 40.9,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michaël Heylen",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 23,
+            "x": 40.9,
+            "y": 31.6,
+            "endX": 61.7,
+            "endY": 12.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mohamed Bouchouari",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 28,
+            "x": 61.7,
+            "y": 12.4,
+            "endX": 80.5,
+            "endY": 19.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Bouchouari",
             "tipo": "Pass",
             "minuto": 66,
@@ -480,7 +535,12 @@
             "endY": 47.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Robert Mühren",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4696,6 +4756,72 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Robert Mühren",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 56,
+            "x": 79.3,
+            "y": 100.0,
+            "endX": 77.8,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carel Eiting",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 56,
+            "x": 77.8,
+            "y": 92.3,
+            "endX": 79.8,
+            "endY": 95.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Mühren",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 57,
+            "x": 79.8,
+            "y": 95.3,
+            "endX": 76.8,
+            "endY": 86.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carel Eiting",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 59,
+            "x": 76.8,
+            "y": 86.0,
+            "endX": 78.0,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carel Eiting",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 59,
+            "x": 78.0,
+            "y": 81.4,
+            "endX": 77.4,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Walid Ould-Chikh",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 2,
+            "x": 77.4,
+            "y": 52.7,
+            "endX": 82.3,
+            "endY": 54.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Walid Ould-Chikh",
             "tipo": "TakeOn",
             "minuto": 63,
@@ -4706,7 +4832,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jari Vlak",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

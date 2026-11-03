@@ -396,7 +396,68 @@
         "y": 30.7,
         "arco_y": 46.1,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 35,
+            "x": 65.9,
+            "y": 6.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 35,
+            "x": 65.9,
+            "y": 6.7,
+            "endX": 65.3,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 39,
+            "x": 66.5,
+            "y": 40.0,
+            "endX": 71.5,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Morgan",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 41,
+            "x": 71.5,
+            "y": 54.0,
+            "endX": 73.3,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Morgan",
+            "tipo": "SavedShot",
+            "minuto": 7,
+            "segundo": 41,
+            "x": 73.3,
+            "y": 57.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pablo Sisniega",
+          "portero": true
+        }
       },
       {
         "minuto": 17,
@@ -436,6 +497,17 @@
         "secuencia_gol": [
           {
             "jugador": "Frankie Amaya",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 64.0,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Amaya",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 20,
@@ -445,7 +517,12 @@
             "endY": 68.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Karol Swiderski",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

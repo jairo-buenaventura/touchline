@@ -494,6 +494,83 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Lamare Bogarde",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 40.6,
+            "y": 46.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamare Bogarde",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 41.9,
+            "y": 40.3,
+            "endX": 53.0,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Rogers",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 34,
+            "x": 53.0,
+            "y": 47.2,
+            "endX": 51.3,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Rogers",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 34,
+            "x": 51.3,
+            "y": 50.1,
+            "endX": 59.2,
+            "endY": 82.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 38,
+            "x": 59.2,
+            "y": 82.8,
+            "endX": 75.9,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 38,
+            "x": 75.9,
+            "y": 79.3,
+            "endX": 97.7,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ollie Watkins",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 39,
+            "x": 97.2,
+            "y": 66.0,
+            "endX": 96.0,
+            "endY": 55.8,
+            "exitoso": false
+          },
+          {
             "jugador": "Morgan Rogers",
             "tipo": "BallTouch",
             "minuto": 50,
@@ -504,7 +581,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Calvin Bassey",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -4205,7 +4287,24 @@
         "y": 58.3,
         "arco_y": 45.6,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raúl Jiménez",
+            "tipo": "Aerial",
+            "minuto": 2,
+            "segundo": 41,
+            "x": 94.8,
+            "y": 58.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tyrone Mings",
+          "portero": false
+        }
       },
       {
         "minuto": 11,

@@ -474,6 +474,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Théo Hernández",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 4,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.1,
+            "endY": 53.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Olivier Giroud",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 6,
+            "x": 94.1,
+            "y": 53.3,
+            "endX": 87.6,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Olivier Giroud",
             "tipo": "SavedShot",
             "minuto": 45,
@@ -495,7 +517,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Leonardo Bonucci",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -514,7 +541,46 @@
         "y": 39.9,
         "arco_y": 47.6,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 28,
+            "x": 48.5,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 30,
+            "x": 62.8,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 32,
+            "x": 73.2,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Arkadiusz Milik",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

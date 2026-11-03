@@ -400,6 +400,39 @@
         "secuencia_gol": [
           {
             "jugador": "Hassane Kamara",
+            "tipo": "CornerAwarded",
+            "minuto": 14,
+            "segundo": 56,
+            "x": 85.4,
+            "y": 90.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Atta",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 87.1,
+            "endY": 55.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hassane Kamara",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 29,
+            "x": 87.1,
+            "y": 55.4,
+            "endX": 56.6,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassane Kamara",
             "tipo": "Pass",
             "minuto": 15,
             "segundo": 29,
@@ -420,7 +453,12 @@
             "endY": 65.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tete Morente",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -450,6 +488,61 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Hassane Kamara",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 12,
+            "x": 67.9,
+            "y": 100.0,
+            "endX": 77.0,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 14,
+            "x": 75.9,
+            "y": 95.1,
+            "endX": 79.2,
+            "endY": 92.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 79.2,
+            "y": 92.9,
+            "endX": 73.9,
+            "endY": 96.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 73.9,
+            "y": 96.6,
+            "endX": 86.9,
+            "endY": 99.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Atta",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 19,
+            "x": 86.9,
+            "y": 99.3,
+            "endX": 89.9,
+            "endY": 94.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Arthur Atta",
             "tipo": "TakeOn",
             "minuto": 36,
@@ -471,7 +564,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Danilo Veiga",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

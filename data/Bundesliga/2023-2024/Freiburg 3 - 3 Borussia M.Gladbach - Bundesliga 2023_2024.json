@@ -598,6 +598,28 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Maximilian Eggestein",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 48,
+            "x": 38.5,
+            "y": 46.2,
+            "endX": 74.9,
+            "endY": 26.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas Höler",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 54,
+            "x": 74.9,
+            "y": 26.2,
+            "endX": 82.3,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Höler",
             "tipo": "Pass",
             "minuto": 69,
@@ -608,7 +630,12 @@
             "endY": 33.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Max Wöber",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -5081,7 +5108,24 @@
         "y": 51.2,
         "arco_y": 47.1,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Siebatcheu",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 14,
+            "x": 96.2,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kiliann Sildillia",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -5093,6 +5137,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Julian Weigl",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 37,
+            "x": 32.2,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Weigl",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 39,
+            "x": 31.2,
+            "y": 67.2,
+            "endX": 47.9,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alassane Pléa",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 47,
+            "x": 47.9,
+            "y": 32.4,
+            "endX": 88.3,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Alassane Pléa",
             "tipo": "TakeOn",
             "minuto": 28,
@@ -5103,7 +5180,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Philipp Lienhart",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

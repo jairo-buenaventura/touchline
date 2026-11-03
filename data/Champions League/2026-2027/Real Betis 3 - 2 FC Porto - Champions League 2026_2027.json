@@ -802,6 +802,83 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 48,
+            "x": 41.2,
+            "y": 81.2,
+            "endX": 36.9,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Natan",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 49,
+            "x": 36.7,
+            "y": 81.5,
+            "endX": 38.9,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Ceballos",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 50,
+            "x": 39.3,
+            "y": 67.3,
+            "endX": 42.0,
+            "endY": 33.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 56,
+            "x": 43.4,
+            "y": 31.7,
+            "endX": 46.5,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Ortiz",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 1,
+            "x": 46.5,
+            "y": 7.7,
+            "endX": 55.0,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Ortiz",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 1,
+            "x": 55.0,
+            "y": 10.1,
+            "endX": 83.4,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 3,
+            "x": 83.4,
+            "y": 9.2,
+            "endX": 84.2,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Antony",
             "tipo": "TakeOn",
             "minuto": 73,
@@ -823,7 +900,12 @@
             "endY": 42.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Francisco Moura",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -5210,6 +5292,50 @@
             "jugador": "Francisco Moura",
             "tipo": "Pass",
             "minuto": 60,
+            "segundo": 8,
+            "x": 37.8,
+            "y": 100.0,
+            "endX": 38.0,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alan Varela",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 9,
+            "x": 38.1,
+            "y": 94.2,
+            "endX": 38.1,
+            "endY": 98.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Moura",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 10,
+            "x": 38.1,
+            "y": 98.1,
+            "endX": 52.9,
+            "endY": 97.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oskar Pietuszewski",
+            "tipo": "BallTouch",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 53.5,
+            "y": 98.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Moura",
+            "tipo": "Pass",
+            "minuto": 60,
             "segundo": 21,
             "x": 53.0,
             "y": 100.0,
@@ -5338,7 +5464,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ángel Ortiz",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

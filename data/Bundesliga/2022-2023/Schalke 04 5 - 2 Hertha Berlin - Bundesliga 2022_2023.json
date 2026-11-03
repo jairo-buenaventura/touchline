@@ -486,6 +486,28 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Moritz Jenz",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 49,
+            "x": 22.4,
+            "y": 32.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moritz Jenz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 51,
+            "x": 22.4,
+            "y": 32.5,
+            "endX": 48.1,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Kenan Karaman",
             "tipo": "TakeOn",
             "minuto": 46,
@@ -507,7 +529,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Márton Dárdai",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -4162,7 +4189,68 @@
         "y": 54.6,
         "arco_y": 52.4,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stevan Jovetic",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 50,
+            "x": 16.8,
+            "y": 32.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stevan Jovetic",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 51,
+            "x": 16.8,
+            "y": 32.4,
+            "endX": 30.8,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 59,
+            "x": 30.8,
+            "y": 16.4,
+            "endX": 69.6,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 59,
+            "x": 69.6,
+            "y": 30.6,
+            "endX": 88.4,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jessic Ngankam",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 0,
+            "x": 90.5,
+            "y": 31.4,
+            "endX": 91.3,
+            "endY": 39.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Moritz Jenz",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -5110,6 +5110,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Vitaly Janelt",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 60.5,
+            "y": 94.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitaly Janelt",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 59.4,
+            "y": 96.3,
+            "endX": 60.3,
+            "endY": 96.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rico Henry",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 40,
+            "x": 60.3,
+            "y": 96.5,
+            "endX": 56.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rico Henry",
             "tipo": "Pass",
             "minuto": 49,
@@ -5164,7 +5197,12 @@
             "endY": 31.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Dejan Kulusevski",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

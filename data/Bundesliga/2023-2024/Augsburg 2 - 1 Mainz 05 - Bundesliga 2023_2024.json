@@ -400,6 +400,17 @@
         "secuencia_gol": [
           {
             "jugador": "Patric Pfeiffer",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 3,
+            "x": 88.3,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patric Pfeiffer",
             "tipo": "Pass",
             "minuto": 44,
             "segundo": 3,
@@ -409,7 +420,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ludovic Ajorque",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4332,7 +4348,24 @@
         "y": 47.8,
         "arco_y": 46.9,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ludovic Ajorque",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 17,
+            "x": 90.1,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Felix Uduokhai",
+          "portero": false
+        }
       },
       {
         "minuto": 13,

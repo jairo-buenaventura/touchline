@@ -363,7 +363,57 @@
         "y": 62.3,
         "arco_y": 54.2,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marco Friedl",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 16,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.8,
+            "endY": 51.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 20,
+            "x": 90.8,
+            "y": 51.0,
+            "endX": 77.2,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 20,
+            "x": 77.2,
+            "y": 83.3,
+            "endX": 75.3,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 22,
+            "x": 76.5,
+            "y": 71.1,
+            "endX": 86.9,
+            "endY": 49.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Evan Ndicka",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -4482,6 +4532,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Sebastian Rode",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 39,
+            "x": 60.6,
+            "y": 89.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Rode",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 41,
+            "x": 61.5,
+            "y": 83.7,
+            "endX": 85.3,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randal Kolo Muani",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 44,
+            "x": 85.3,
+            "y": 85.3,
+            "endX": 95.8,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randal Kolo Muani",
+            "tipo": "TakeOn",
+            "minuto": 1,
+            "segundo": 44,
+            "x": 95.8,
+            "y": 86.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Randal Kolo Muani",
             "tipo": "Pass",
             "minuto": 1,
@@ -4492,7 +4586,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Milos Veljkovic",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

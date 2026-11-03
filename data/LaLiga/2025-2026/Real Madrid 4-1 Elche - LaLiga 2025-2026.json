@@ -445,7 +445,57 @@
         "y": 49.0,
         "arco_y": 52.3,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 32,
+            "x": 78.0,
+            "y": 71.8,
+            "endX": 76.3,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 33,
+            "x": 76.3,
+            "y": 60.9,
+            "endX": 75.6,
+            "endY": 64.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 33,
+            "x": 75.6,
+            "y": 64.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "BallTouch",
+            "minuto": 38,
+            "segundo": 35,
+            "x": 89.7,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Adrià Pedrosa",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -456,6 +506,105 @@
         "arco_y": 46.9,
         "arco_z": 32.3,
         "secuencia_gol": [
+          {
+            "jugador": "Aurélien Tchouaméni",
+            "tipo": "BallRecovery",
+            "minuto": 43,
+            "segundo": 36,
+            "x": 35.6,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aurélien Tchouaméni",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 38,
+            "x": 37.1,
+            "y": 67.7,
+            "endX": 24.9,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 40,
+            "x": 25.8,
+            "y": 59.7,
+            "endX": 28.1,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 41,
+            "x": 28.1,
+            "y": 50.9,
+            "endX": 32.2,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 41,
+            "x": 32.2,
+            "y": 51.5,
+            "endX": 22.9,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 47,
+            "x": 22.9,
+            "y": 39.5,
+            "endX": 25.9,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 47,
+            "x": 25.9,
+            "y": 29.2,
+            "endX": 36.3,
+            "endY": 36.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 48,
+            "x": 36.3,
+            "y": 36.7,
+            "endX": 46.7,
+            "endY": 32.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 50,
+            "x": 46.7,
+            "y": 32.3,
+            "endX": 61.4,
+            "endY": 31.5,
+            "exitoso": true
+          },
           {
             "jugador": "Brahim Díaz",
             "tipo": "Pass",
@@ -511,7 +660,12 @@
             "endY": 50.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Léo Pétrot",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -541,6 +695,28 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 37,
+            "x": 70.1,
+            "y": 66.4,
+            "endX": 88.2,
+            "endY": 42.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daniel Yáñez",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 46,
+            "x": 88.2,
+            "y": 42.4,
+            "endX": 78.9,
+            "endY": 18.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Daniel Yáñez",
             "tipo": "Pass",
             "minuto": 65,
@@ -551,7 +727,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "André Silva",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

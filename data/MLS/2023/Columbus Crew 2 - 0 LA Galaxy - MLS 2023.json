@@ -427,6 +427,61 @@
         "secuencia_gol": [
           {
             "jugador": "Lucas Zelarayán",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 56,
+            "x": 27.5,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Zelarayán",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 1,
+            "x": 32.6,
+            "y": 92.3,
+            "endX": 47.7,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 5,
+            "x": 48.5,
+            "y": 92.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 8,
+            "x": 53.8,
+            "y": 85.9,
+            "endX": 79.1,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Zelarayán",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 13,
+            "x": 79.1,
+            "y": 70.3,
+            "endX": 90.0,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Zelarayán",
             "tipo": "TakeOn",
             "minuto": 24,
             "segundo": 13,
@@ -436,7 +491,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jalen Neal",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -455,7 +515,24 @@
         "y": 54.0,
         "arco_y": 53.8,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Malte Amundsen",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 96.5,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Calegari",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

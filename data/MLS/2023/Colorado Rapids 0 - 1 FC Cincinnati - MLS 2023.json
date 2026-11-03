@@ -4363,6 +4363,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Barreal",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 44,
+            "x": 14.4,
+            "y": 70.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Barreal",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 45,
+            "x": 14.4,
+            "y": 70.1,
+            "endX": 29.0,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Obinna Nwobodo",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 47,
+            "x": 29.0,
+            "y": 75.4,
+            "endX": 34.7,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Obinna Nwobodo",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -4384,7 +4417,12 @@
             "endY": 73.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Connor Ronan",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

@@ -617,6 +617,83 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Joshua Kimmich",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 59,
+            "x": 55.9,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 0,
+            "x": 55.9,
+            "y": 92.0,
+            "endX": 45.1,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 3,
+            "x": 45.1,
+            "y": 91.8,
+            "endX": 44.6,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 3,
+            "x": 44.6,
+            "y": 84.5,
+            "endX": 55.3,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 8,
+            "x": 55.3,
+            "y": 49.9,
+            "endX": 69.2,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 8,
+            "x": 69.2,
+            "y": 42.4,
+            "endX": 74.6,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 10,
+            "x": 74.6,
+            "y": 55.1,
+            "endX": 79.8,
+            "endY": 54.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamal Musiala",
             "tipo": "TakeOn",
             "minuto": 69,
@@ -649,7 +726,12 @@
             "endY": 53.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Florian Grillitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -734,6 +816,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alphonso Davies",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 64.3,
+            "y": 94.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
             "tipo": "TakeOn",
             "minuto": 89,
             "segundo": 51,
@@ -776,7 +869,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pavel Kaderábek",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

@@ -426,6 +426,83 @@
         "secuencia_gol": [
           {
             "jugador": "Benjamin Sesko",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 46,
+            "x": 36.1,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "BallTouch",
+            "minuto": 16,
+            "segundo": 50,
+            "x": 49.8,
+            "y": 25.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 52,
+            "x": 55.3,
+            "y": 24.3,
+            "endX": 64.0,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 64.0,
+            "y": 63.7,
+            "endX": 67.5,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 67.5,
+            "y": 64.5,
+            "endX": 87.6,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 58,
+            "x": 87.6,
+            "y": 73.8,
+            "endX": 87.8,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "SavedShot",
+            "minuto": 16,
+            "segundo": 58,
+            "x": 87.8,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
             "tipo": "BallTouch",
             "minuto": 16,
             "segundo": 59,
@@ -435,7 +512,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gregor Kobel",
+          "portero": true
+        }
       },
       {
         "minuto": 27,

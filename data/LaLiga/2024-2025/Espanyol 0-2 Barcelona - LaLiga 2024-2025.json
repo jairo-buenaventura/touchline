@@ -3545,6 +3545,204 @@
         "secuencia_gol": [
           {
             "jugador": "Lamine Yamal",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 42,
+            "x": 32.1,
+            "y": 4.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 34.1,
+            "y": 20.9,
+            "endX": 33.8,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 50,
+            "x": 33.8,
+            "y": 29.5,
+            "endX": 26.2,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Christensen",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 51,
+            "x": 26.2,
+            "y": 43.9,
+            "endX": 35.3,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 54,
+            "x": 35.3,
+            "y": 70.3,
+            "endX": 39.9,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 54,
+            "x": 39.9,
+            "y": 70.5,
+            "endX": 49.3,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 55,
+            "x": 49.3,
+            "y": 73.5,
+            "endX": 39.2,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 1,
+            "x": 39.2,
+            "y": 72.4,
+            "endX": 54.6,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 1,
+            "x": 54.6,
+            "y": 71.7,
+            "endX": 61.4,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Balde",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 4,
+            "x": 61.0,
+            "y": 94.5,
+            "endX": 52.3,
+            "endY": 84.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 8,
+            "x": 52.3,
+            "y": 84.7,
+            "endX": 55.9,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 8,
+            "x": 55.9,
+            "y": 82.4,
+            "endX": 57.0,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 10,
+            "x": 57.0,
+            "y": 68.4,
+            "endX": 60.4,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 10,
+            "x": 60.4,
+            "y": 61.1,
+            "endX": 68.4,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 13,
+            "x": 70.3,
+            "y": 13.2,
+            "endX": 90.1,
+            "endY": 19.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 90.1,
+            "y": 19.8,
+            "endX": 89.4,
+            "endY": 9.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 89.4,
+            "y": 9.7,
+            "endX": 79.9,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 18,
+            "x": 79.9,
+            "y": 7.7,
+            "endX": 78.3,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
             "tipo": "TakeOn",
             "minuto": 52,
             "segundo": 18,
@@ -3554,7 +3752,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Carlos Romero",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

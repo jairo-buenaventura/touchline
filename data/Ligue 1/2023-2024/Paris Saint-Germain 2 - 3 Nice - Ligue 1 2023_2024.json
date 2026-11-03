@@ -5571,7 +5571,79 @@
         "y": 42.5,
         "arco_y": 47.1,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 56,
+            "x": 78.3,
+            "y": 16.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 57,
+            "x": 78.2,
+            "y": 19.4,
+            "endX": 83.0,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 83.0,
+            "y": 38.0,
+            "endX": 85.3,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 85.3,
+            "y": 40.4,
+            "endX": 78.1,
+            "endY": 45.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 78.1,
+            "y": 45.1,
+            "endX": 81.1,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "SavedShot",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 81.1,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Danilo Pereira",
+          "portero": true
+        }
       },
       {
         "minuto": 25,
@@ -5628,6 +5700,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Morgan Sanson",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 4,
+            "x": 22.7,
+            "y": 42.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 6,
+            "x": 26.9,
+            "y": 39.1,
+            "endX": 81.2,
+            "endY": 80.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 15,
+            "x": 81.2,
+            "y": 80.2,
+            "endX": 93.3,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "TakeOn",
+            "minuto": 52,
+            "segundo": 15,
+            "x": 93.3,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Terem Moffi",
             "tipo": "Pass",
             "minuto": 52,
@@ -5638,7 +5754,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Danilo Pereira",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -5658,6 +5779,61 @@
         "arco_y": 53.9,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Marcin Bulka",
+            "tipo": "KeeperPickup",
+            "minuto": 67,
+            "segundo": 33,
+            "x": 10.6,
+            "y": 30.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcin Bulka",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 42,
+            "x": 11.3,
+            "y": 41.3,
+            "endX": 15.5,
+            "endY": 35.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Ndayishimiye",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 45,
+            "x": 15.5,
+            "y": 35.8,
+            "endX": 21.1,
+            "endY": 34.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Ndayishimiye",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 45,
+            "x": 21.1,
+            "y": 34.4,
+            "endX": 21.1,
+            "endY": 30.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Terem Moffi",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 47,
+            "x": 21.1,
+            "y": 30.7,
+            "endX": 43.1,
+            "endY": 36.1,
+            "exitoso": true
+          },
           {
             "jugador": "Terem Moffi",
             "tipo": "Pass",
@@ -5691,7 +5867,12 @@
             "endY": 8.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Warren Zaïre-Emery",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

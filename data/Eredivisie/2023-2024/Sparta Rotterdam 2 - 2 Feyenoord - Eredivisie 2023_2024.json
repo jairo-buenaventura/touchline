@@ -391,6 +391,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Bart Vriends",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 3,
+            "x": 21.5,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart Vriends",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 5,
+            "x": 26.6,
+            "y": 49.5,
+            "endX": 35.2,
+            "endY": 87.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koki Saito",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 12,
+            "x": 35.2,
+            "y": 87.6,
+            "endX": 51.3,
+            "endY": 91.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koki Saito",
+            "tipo": "TakeOn",
+            "minuto": 39,
+            "segundo": 12,
+            "x": 51.3,
+            "y": 91.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Koki Saito",
             "tipo": "Pass",
             "minuto": 39,
@@ -500,7 +544,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Quinten Timber",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -519,7 +568,57 @@
         "y": 55.3,
         "arco_y": 46.4,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan de Guzmán",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 58,
+            "x": 25.1,
+            "y": 23.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan de Guzmán",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 0,
+            "x": 33.5,
+            "y": 22.5,
+            "endX": 65.5,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 65.5,
+            "y": 7.7,
+            "endX": 89.3,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 89.3,
+            "y": 27.0,
+            "endX": 87.9,
+            "endY": 53.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mats Wieffer",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4000,6 +4099,17 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Dávid Hancko",
+            "tipo": "Aerial",
+            "minuto": 75,
+            "segundo": 45,
+            "x": 96.2,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Lutsharel Geertruida",
             "tipo": "Pass",
             "minuto": 75,
@@ -4098,7 +4208,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bart Vriends",
+          "portero": false
+        }
       },
       {
         "minuto": 77,
@@ -4162,7 +4277,35 @@
         "y": 55.9,
         "arco_y": 52.5,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 88.3,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "BallTouch",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 86.9,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rick Meissen",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

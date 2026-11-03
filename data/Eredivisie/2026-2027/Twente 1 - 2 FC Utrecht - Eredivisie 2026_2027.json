@@ -434,6 +434,116 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Robin Pröpper",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 15,
+            "x": 32.2,
+            "y": 43.4,
+            "endX": 34.8,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruud Nijstad",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 17,
+            "x": 34.8,
+            "y": 77.6,
+            "endX": 38.8,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruud Nijstad",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 17,
+            "x": 38.8,
+            "y": 83.2,
+            "endX": 60.1,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sondre Ørjasæter",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 24,
+            "x": 60.1,
+            "y": 95.1,
+            "endX": 70.1,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sondre Ørjasæter",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 24,
+            "x": 70.1,
+            "y": 79.6,
+            "endX": 71.2,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 26,
+            "x": 71.6,
+            "y": 53.0,
+            "endX": 66.5,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramiz Zerrouki",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 27,
+            "x": 66.5,
+            "y": 62.4,
+            "endX": 68.9,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 29,
+            "x": 70.2,
+            "y": 23.6,
+            "endX": 94.7,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 30,
+            "x": 94.7,
+            "y": 17.4,
+            "endX": 94.4,
+            "endY": 67.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 39,
+            "x": 94.4,
+            "y": 67.2,
+            "endX": 84.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Aske Adelgaard",
             "tipo": "Pass",
             "minuto": 26,
@@ -697,7 +807,12 @@
             "endY": 72.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Niklas Vesterlund",
+          "portero": false
+        }
       },
       {
         "minuto": 34,
@@ -5626,6 +5741,17 @@
         "secuencia_gol": [
           {
             "jugador": "Arthur Zagré",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 43,
+            "x": 65.9,
+            "y": 89.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Zagré",
             "tipo": "TakeOn",
             "minuto": 46,
             "segundo": 44,
@@ -5701,7 +5827,12 @@
             "endY": 76.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marko Pjaca",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

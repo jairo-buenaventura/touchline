@@ -447,6 +447,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Koke",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 0,
+            "x": 13.4,
+            "y": 9.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 2,
+            "x": 15.0,
+            "y": 6.1,
+            "endX": 45.8,
+            "endY": 13.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 11,
+            "x": 45.8,
+            "y": 13.3,
+            "endX": 36.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rodrigo De Paul",
             "tipo": "Pass",
             "minuto": 49,
@@ -501,7 +534,12 @@
             "endY": 58.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dimitri Foulquier",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -520,7 +558,134 @@
         "y": 49.6,
         "arco_y": 48.3,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Memphis Depay",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 17,
+            "x": 47.2,
+            "y": 42.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Memphis Depay",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 17,
+            "x": 47.1,
+            "y": 43.3,
+            "endX": 34.4,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 19,
+            "x": 34.5,
+            "y": 47.5,
+            "endX": 46.3,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Barrios",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 23,
+            "x": 46.3,
+            "y": 64.4,
+            "endX": 62.5,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Barrios",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 23,
+            "x": 62.5,
+            "y": 80.1,
+            "endX": 72.4,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 27,
+            "x": 72.4,
+            "y": 88.1,
+            "endX": 80.6,
+            "endY": 86.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 27,
+            "x": 80.6,
+            "y": 86.1,
+            "endX": 87.8,
+            "endY": 54.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 31,
+            "x": 87.8,
+            "y": 54.0,
+            "endX": 71.5,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 31,
+            "x": 71.5,
+            "y": 69.9,
+            "endX": 88.8,
+            "endY": 27.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Molina",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 34,
+            "x": 88.8,
+            "y": 27.8,
+            "endX": 94.7,
+            "endY": 27.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Molina",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 34,
+            "x": 94.7,
+            "y": 27.8,
+            "endX": 94.7,
+            "endY": 30.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "José Gayà",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

@@ -390,6 +390,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 13,
+            "x": 78.1,
+            "y": 34.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 14,
+            "x": 77.7,
+            "y": 34.6,
+            "endX": 92.2,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arbnor Muja",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 16,
+            "x": 92.2,
+            "y": 29.2,
+            "endX": 89.0,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Arbnor Muja",
             "tipo": "TakeOn",
             "minuto": 2,
@@ -400,7 +433,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Irakli Azarovi",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -437,7 +475,57 @@
         "y": 67.2,
         "arco_y": 47.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jean Butez",
+            "tipo": "KeeperPickup",
+            "minuto": 32,
+            "segundo": 45,
+            "x": 3.4,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean Butez",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 50,
+            "x": 10.7,
+            "y": 49.1,
+            "endX": 25.4,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 56,
+            "x": 25.4,
+            "y": 49.1,
+            "endX": 49.6,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 56,
+            "x": 49.6,
+            "y": 55.7,
+            "endX": 80.6,
+            "endY": 66.0,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "KeeperSweeper",
+          "jugador": "Dmytro Riznyk",
+          "portero": true
+        }
       },
       {
         "minuto": 56,

@@ -4838,6 +4838,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Kellyn Acosta",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 37.2,
+            "y": 46.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kellyn Acosta",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 37.2,
+            "y": 46.1,
+            "endX": 32.8,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Giménez",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 6,
+            "x": 32.8,
+            "y": 62.3,
+            "endX": 32.9,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Giménez",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 6,
+            "x": 32.9,
+            "y": 75.1,
+            "endX": 67.8,
+            "endY": 90.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 13,
+            "x": 67.8,
+            "y": 90.2,
+            "endX": 69.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Cuypers",
             "tipo": "Pass",
             "minuto": 72,
@@ -4980,7 +5035,12 @@
             "endY": 72.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sergio Busquets",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

@@ -674,6 +674,17 @@
         "secuencia_gol": [
           {
             "jugador": "Yann Bisseck",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 96.0,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Bisseck",
             "tipo": "Pass",
             "minuto": 66,
             "segundo": 0,
@@ -683,7 +694,12 @@
             "endY": 57.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Enrico Delprato",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -720,7 +736,24 @@
         "y": 44.4,
         "arco_y": 47.6,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yann Bisseck",
+            "tipo": "BallTouch",
+            "minuto": 80,
+            "segundo": 31,
+            "x": 22.8,
+            "y": 62.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dennis Man",
+          "portero": false
+        }
       }
     ],
     "corners": [

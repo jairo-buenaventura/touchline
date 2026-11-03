@@ -378,6 +378,105 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Marco Verratti",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 42,
+            "x": 18.0,
+            "y": 39.1,
+            "endX": 19.2,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 43,
+            "x": 19.2,
+            "y": 23.3,
+            "endX": 18.9,
+            "endY": 29.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 43,
+            "x": 18.9,
+            "y": 29.6,
+            "endX": 18.9,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 48,
+            "x": 18.9,
+            "y": 39.7,
+            "endX": 34.5,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 48,
+            "x": 34.5,
+            "y": 69.3,
+            "endX": 45.8,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neymar",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 50,
+            "x": 47.0,
+            "y": 62.8,
+            "endX": 76.1,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 57,
+            "x": 76.1,
+            "y": 80.5,
+            "endX": 92.6,
+            "endY": 67.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "TakeOn",
+            "minuto": 10,
+            "segundo": 57,
+            "x": 92.6,
+            "y": 67.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "GoodSkill",
+            "minuto": 10,
+            "segundo": 57,
+            "x": 92.8,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kylian Mbappé",
             "tipo": "TakeOn",
             "minuto": 10,
@@ -388,7 +487,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bafodé Diakité",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -674,6 +778,94 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Danilo Pereira",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 53,
+            "x": 9.3,
+            "y": 16.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Pereira",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 53,
+            "x": 8.3,
+            "y": 16.8,
+            "endX": 9.0,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluigi Donnarumma",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 56,
+            "x": 10.7,
+            "y": 46.6,
+            "endX": 11.0,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 5,
+            "x": 11.0,
+            "y": 65.5,
+            "endX": 21.2,
+            "endY": 51.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 5,
+            "x": 21.2,
+            "y": 51.6,
+            "endX": 43.6,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 10,
+            "x": 43.6,
+            "y": 25.8,
+            "endX": 48.4,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 10,
+            "x": 48.4,
+            "y": 32.2,
+            "endX": 79.6,
+            "endY": 57.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 13,
+            "x": 79.6,
+            "y": 57.8,
+            "endX": 68.9,
+            "endY": 43.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Warren Zaïre-Emery",
             "tipo": "Pass",
             "minuto": 86,
@@ -750,7 +942,12 @@
             "endY": 57.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Timothy Weah",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

@@ -4166,6 +4166,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Danilo Pereira",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 70.0,
+            "y": 79.7,
+            "endX": 80.6,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 19,
+            "x": 81.6,
+            "y": 91.2,
+            "endX": 87.6,
+            "endY": 80.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 26,
+            "x": 87.6,
+            "y": 80.8,
+            "endX": 71.3,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Marco Verratti",
             "tipo": "Pass",
             "minuto": 36,
@@ -4198,7 +4231,12 @@
             "endY": 60.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mikkel Desler",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4228,6 +4266,72 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Gianluigi Donnarumma",
+            "tipo": "KeeperPickup",
+            "minuto": 49,
+            "segundo": 22,
+            "x": 13.7,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluigi Donnarumma",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 14.8,
+            "y": 51.1,
+            "endX": 27.5,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 28,
+            "x": 27.2,
+            "y": 76.3,
+            "endX": 32.4,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 32.4,
+            "y": 70.0,
+            "endX": 39.8,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 39.8,
+            "y": 70.3,
+            "endX": 75.8,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 38,
+            "x": 75.8,
+            "y": 77.9,
+            "endX": 93.8,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lionel Messi",
             "tipo": "TakeOn",
             "minuto": 49,
@@ -4249,7 +4353,12 @@
             "endY": 56.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mikkel Desler",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -4322,7 +4431,68 @@
         "y": 67.3,
         "arco_y": 47.2,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Danilo Pereira",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 48,
+            "x": 64.1,
+            "y": 20.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Pereira",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 49,
+            "x": 65.2,
+            "y": 23.0,
+            "endX": 69.0,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Renato Sanches",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 51,
+            "x": 68.7,
+            "y": 38.1,
+            "endX": 71.7,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 53,
+            "x": 71.7,
+            "y": 49.6,
+            "endX": 77.2,
+            "endY": 51.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "ShotOnPost",
+            "minuto": 89,
+            "segundo": 53,
+            "x": 77.2,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maxime Dupé",
+          "portero": false
+        }
       }
     ],
     "corners": [

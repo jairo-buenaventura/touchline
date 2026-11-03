@@ -472,6 +472,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Daniel Bielica",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 48,
+            "x": 4.3,
+            "y": 43.3,
+            "endX": 33.9,
+            "endY": 75.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Denis Odoi",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 55,
+            "x": 33.9,
+            "y": 75.1,
+            "endX": 32.5,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Denis Odoi",
             "tipo": "Pass",
             "minuto": 59,
@@ -526,7 +548,12 @@
             "endY": 36.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daan Rots",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -599,7 +626,24 @@
         "y": 42.5,
         "arco_y": 46.8,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Moussa Soumano",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 2,
+            "x": 89.9,
+            "y": 42.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ruud Nijstad",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

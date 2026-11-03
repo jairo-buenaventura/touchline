@@ -611,6 +611,39 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Marco Carnesecchi",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 13,
+            "x": 2.4,
+            "y": 46.8,
+            "endX": 52.5,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marten de Roon",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 16,
+            "x": 52.5,
+            "y": 35.4,
+            "endX": 64.4,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "BallTouch",
+            "minuto": 72,
+            "segundo": 18,
+            "x": 64.6,
+            "y": 24.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Nikola Krstovic",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -632,7 +665,12 @@
             "endY": 50.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mariano Troilo",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -687,7 +725,112 @@
         "y": 50.7,
         "arco_y": 53.9,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lorenzo Bernasconi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 99.4,
+            "y": 99.5,
+            "endX": 96.0,
+            "endY": 60.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 47,
+            "x": 96.0,
+            "y": 60.5,
+            "endX": 92.4,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "BallTouch",
+            "minuto": 91,
+            "segundo": 47,
+            "x": 92.4,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isak Hien",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 92.3,
+            "y": 67.6,
+            "endX": 80.1,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Bernasconi",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 80.1,
+            "y": 90.3,
+            "endX": 91.5,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Bernasconi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 91.5,
+            "y": 88.0,
+            "endX": 93.9,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 93.9,
+            "y": 50.7,
+            "endX": 94.7,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 94.7,
+            "y": 42.1,
+            "endX": 92.1,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Honest Ahanor",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 56,
+            "x": 92.1,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Edoardo Corvi",
+          "portero": true
+        }
       }
     ],
     "corners": [

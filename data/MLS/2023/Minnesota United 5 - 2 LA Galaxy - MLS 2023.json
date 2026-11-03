@@ -489,6 +489,83 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Bakaye Dibassy",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 10,
+            "x": 12.3,
+            "y": 92.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bakaye Dibassy",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 10,
+            "x": 12.3,
+            "y": 92.9,
+            "endX": 30.0,
+            "endY": 78.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 13,
+            "x": 30.9,
+            "y": 78.1,
+            "endX": 28.4,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 17,
+            "x": 28.4,
+            "y": 85.0,
+            "endX": 32.6,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "TakeOn",
+            "minuto": 32,
+            "segundo": 17,
+            "x": 32.6,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 19,
+            "x": 38.7,
+            "y": 75.1,
+            "endX": 45.7,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 21,
+            "x": 46.8,
+            "y": 80.8,
+            "endX": 60.2,
+            "endY": 36.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Teemu Pukki",
             "tipo": "Pass",
             "minuto": 32,
@@ -521,7 +598,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Raheem Edwards",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4982,7 +5064,24 @@
         "y": 53.8,
         "arco_y": 54.5,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Douglas Costa",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 99.0,
+            "endY": 53.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ján Gregus",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

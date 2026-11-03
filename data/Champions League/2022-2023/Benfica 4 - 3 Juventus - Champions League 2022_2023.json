@@ -425,7 +425,24 @@
         "y": 54.0,
         "arco_y": 52.8,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "António Silva",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 53,
+            "x": 93.4,
+            "y": 54.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Federico Gatti",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -4771,6 +4788,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Danilo",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 56,
+            "x": 88.8,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo",
+            "tipo": "MissedShots",
+            "minuto": 20,
+            "segundo": 56,
+            "x": 92.5,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dusan Vlahovic",
+            "tipo": "SavedShot",
+            "minuto": 20,
+            "segundo": 57,
+            "x": 97.3,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Dusan Vlahovic",
             "tipo": "SavedShot",
             "minuto": 20,
@@ -4781,7 +4831,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Odysseas Vlachodimos",
+          "portero": true
+        }
       },
       {
         "minuto": 33,

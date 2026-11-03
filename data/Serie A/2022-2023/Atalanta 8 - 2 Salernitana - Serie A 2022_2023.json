@@ -512,7 +512,24 @@
         "y": 47.8,
         "arco_y": 50.0,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Teun Koopmeiners",
+            "tipo": "SavedShot",
+            "minuto": 37,
+            "segundo": 25,
+            "x": 88.5,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Guillermo Ochoa",
+          "portero": true
+        }
       },
       {
         "minuto": 40,
@@ -5348,6 +5365,17 @@
         "secuencia_gol": [
           {
             "jugador": "Krzysztof Piatek",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 42,
+            "x": 68.4,
+            "y": 37.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krzysztof Piatek",
             "tipo": "Pass",
             "minuto": 9,
             "segundo": 42,
@@ -5357,7 +5385,12 @@
             "endY": 59.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "José Palomino",
+          "portero": false
+        }
       },
       {
         "minuto": 26,

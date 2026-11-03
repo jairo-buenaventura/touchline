@@ -533,7 +533,24 @@
         "y": 50.2,
         "arco_y": 46.5,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Samuel Essende",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 18,
+            "x": 95.2,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andreas Hanche-Olsen",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4887,7 +4904,57 @@
         "y": 52.2,
         "arco_y": 51.8,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 24,
+            "x": 85.1,
+            "y": 100.0,
+            "endX": 73.2,
+            "endY": 88.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 26,
+            "x": 73.0,
+            "y": 86.1,
+            "endX": 89.2,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 29,
+            "x": 89.2,
+            "y": 89.3,
+            "endX": 94.3,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 29,
+            "x": 94.3,
+            "y": 86.9,
+            "endX": 93.5,
+            "endY": 81.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Samuel Essende",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -5049,6 +5116,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 58,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.3,
+            "endY": 66.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 22,
+            "x": 94.3,
+            "y": 66.4,
+            "endX": 88.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 22,
+            "x": 88.7,
+            "y": 100.0,
+            "endX": 91.9,
+            "endY": 59.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hong Hyun-Seok",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 27,
+            "x": 91.9,
+            "y": 59.2,
+            "endX": 82.5,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Hong Hyun-Seok",
             "tipo": "Pass",
             "minuto": 48,
@@ -5103,7 +5214,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jeffrey Gouweleeuw",
+          "portero": false
+        }
       }
     ],
     "corners": [

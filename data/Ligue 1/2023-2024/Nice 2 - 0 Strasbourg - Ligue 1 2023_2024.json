@@ -453,6 +453,17 @@
         "secuencia_gol": [
           {
             "jugador": "Youssouf Ndayishimiye",
+            "tipo": "BallTouch",
+            "minuto": 45,
+            "segundo": 44,
+            "x": 65.5,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Youssouf Ndayishimiye",
             "tipo": "Pass",
             "minuto": 45,
             "segundo": 51,
@@ -473,7 +484,12 @@
             "endY": 10.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ibrahima Sissoko",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -521,6 +537,204 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Dante",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 21,
+            "x": 11.5,
+            "y": 79.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 21,
+            "x": 11.1,
+            "y": 79.3,
+            "endX": 16.0,
+            "endY": 97.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 23,
+            "x": 16.0,
+            "y": 97.2,
+            "endX": 12.2,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 23,
+            "x": 12.2,
+            "y": 96.7,
+            "endX": 15.0,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 25,
+            "x": 15.0,
+            "y": 84.2,
+            "endX": 17.3,
+            "endY": 78.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 25,
+            "x": 17.3,
+            "y": 78.3,
+            "endX": 29.0,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 26,
+            "x": 26.2,
+            "y": 70.3,
+            "endX": 13.8,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 28,
+            "x": 13.3,
+            "y": 53.8,
+            "endX": 16.3,
+            "endY": 29.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Lotomba",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 35,
+            "x": 16.3,
+            "y": 29.3,
+            "endX": 21.1,
+            "endY": 9.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Lotomba",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 35,
+            "x": 21.1,
+            "y": 9.0,
+            "endX": 8.3,
+            "endY": 12.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 8.3,
+            "y": 12.2,
+            "endX": 9.5,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 9.5,
+            "y": 4.5,
+            "endX": 2.6,
+            "endY": 32.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcin Bulka",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 40,
+            "x": 4.1,
+            "y": 29.6,
+            "endX": 20.8,
+            "endY": 87.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 44,
+            "x": 20.8,
+            "y": 87.0,
+            "endX": 22.1,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melvin Bard",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 44,
+            "x": 22.1,
+            "y": 92.4,
+            "endX": 37.7,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémie Boga",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 48,
+            "x": 37.7,
+            "y": 95.9,
+            "endX": 22.8,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémie Boga",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 48,
+            "x": 22.8,
+            "y": 89.0,
+            "endX": 29.3,
+            "endY": 71.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hicham Boudaoui",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 50,
+            "x": 29.3,
+            "y": 71.3,
+            "endX": 23.1,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Hicham Boudaoui",
             "tipo": "TakeOn",
             "minuto": 73,
@@ -564,7 +778,12 @@
             "endY": 30.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Frédéric Guilbert",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

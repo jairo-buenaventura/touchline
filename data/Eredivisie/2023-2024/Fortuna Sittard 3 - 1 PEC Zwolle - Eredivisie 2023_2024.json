@@ -428,7 +428,24 @@
         "y": 49.1,
         "arco_y": 46.2,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 42,
+            "x": 93.8,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Anselmo MacNulty",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4327,6 +4344,17 @@
         "secuencia_gol": [
           {
             "jugador": "Apostolos Vellios",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 6,
+            "x": 67.2,
+            "y": 44.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Apostolos Vellios",
             "tipo": "BallTouch",
             "minuto": 92,
             "segundo": 7,
@@ -4336,7 +4364,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dimitrios Siovas",
+          "portero": false
+        }
       }
     ],
     "corners": [

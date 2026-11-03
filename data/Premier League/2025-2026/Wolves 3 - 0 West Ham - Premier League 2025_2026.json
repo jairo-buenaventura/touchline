@@ -375,6 +375,50 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Ladislav Krejcí",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 40.9,
+            "y": 82.9,
+            "endX": 53.1,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateus Mané",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 8,
+            "x": 53.1,
+            "y": 96.7,
+            "endX": 58.3,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateus Mané",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 8,
+            "x": 58.3,
+            "y": 96.7,
+            "endX": 60.4,
+            "endY": 96.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Bueno",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 13,
+            "x": 60.4,
+            "y": 96.1,
+            "endX": 58.1,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Bueno",
             "tipo": "Pass",
             "minuto": 3,
@@ -517,7 +561,12 @@
             "endY": 51.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Soungoutou Magassa",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

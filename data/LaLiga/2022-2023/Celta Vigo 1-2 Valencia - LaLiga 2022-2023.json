@@ -432,7 +432,24 @@
         "y": 50.4,
         "arco_y": 53.8,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Haris Seferovic",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 91.1,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Javi Guerra",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4966,6 +4983,39 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Toni Lato",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 4,
+            "x": 55.6,
+            "y": 93.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Toni Lato",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 4,
+            "x": 53.8,
+            "y": 94.5,
+            "endX": 55.5,
+            "endY": 93.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Duro",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 7,
+            "x": 55.5,
+            "y": 93.0,
+            "endX": 58.1,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Duro",
             "tipo": "Pass",
             "minuto": 87,
@@ -5053,7 +5103,12 @@
             "endY": 42.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Hugo Mallo",
+          "portero": false
+        }
       }
     ],
     "corners": [

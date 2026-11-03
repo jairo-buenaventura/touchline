@@ -4391,6 +4391,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kian Fitz-Jim",
+            "tipo": "BlockedPass",
+            "minuto": 80,
+            "segundo": 34,
+            "x": 76.1,
+            "y": 79.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kian Fitz-Jim",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 34,
@@ -4411,7 +4422,12 @@
             "endY": 67.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Seiya Maikuma",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

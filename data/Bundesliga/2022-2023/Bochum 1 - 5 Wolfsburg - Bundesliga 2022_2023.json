@@ -480,7 +480,57 @@
         "y": 51.8,
         "arco_y": 50.9,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Moritz Broschinski",
+            "tipo": "CornerAwarded",
+            "minuto": 67,
+            "segundo": 29,
+            "x": 95.9,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Stöger",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 89.5,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Losilla",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 51,
+            "x": 89.5,
+            "y": 40.3,
+            "endX": 96.9,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ordets",
+            "tipo": "SavedShot",
+            "minuto": 67,
+            "segundo": 52,
+            "x": 96.3,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Koen Casteels",
+          "portero": true
+        }
       },
       {
         "minuto": 72,
@@ -4417,6 +4467,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Koen Casteels",
+            "tipo": "Claim",
+            "minuto": 8,
+            "segundo": 51,
+            "x": 5.7,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koen Casteels",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 55,
+            "x": 14.9,
+            "y": 43.1,
+            "endX": 63.7,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakub Kaminski",
+            "tipo": "TakeOn",
+            "minuto": 8,
+            "segundo": 58,
+            "x": 65.4,
+            "y": 78.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jakub Kaminski",
             "tipo": "Pass",
             "minuto": 9,
@@ -4449,7 +4532,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jordi Osei-Tutu",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -4469,6 +4557,28 @@
         "arco_y": 47.2,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 13,
+            "x": 57.8,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 13,
+            "x": 36.0,
+            "y": 12.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Patrick Wimmer",
             "tipo": "TakeOn",
@@ -4502,7 +4612,12 @@
             "endY": 61.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Patrick Osterhage",
+          "portero": false
+        }
       },
       {
         "minuto": 31,

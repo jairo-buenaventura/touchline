@@ -795,6 +795,39 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Dayot Upamecano",
+            "tipo": "BallRecovery",
+            "minuto": 95,
+            "segundo": 17,
+            "x": 39.7,
+            "y": 40.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 18,
+            "x": 54.6,
+            "y": 41.1,
+            "endX": 77.2,
+            "endY": 21.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 22,
+            "x": 77.2,
+            "y": 21.6,
+            "endX": 86.9,
+            "endY": 39.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Ousmane Dembélé",
             "tipo": "TakeOn",
             "minuto": 95,
@@ -805,7 +838,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Trevoh Chalobah",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5057,7 +5095,24 @@
         "y": 53.8,
         "arco_y": 45.6,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ezri Konsa",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 50,
+            "x": 92.7,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Adrien Rabiot",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -5096,6 +5151,72 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Bukayo Saka",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 58,
+            "x": 37.3,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 59,
+            "x": 38.1,
+            "y": 47.8,
+            "endX": 60.8,
+            "endY": 69.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Rashford",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 3,
+            "x": 60.8,
+            "y": 69.1,
+            "endX": 86.9,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Rashford",
+            "tipo": "SavedShot",
+            "minuto": 36,
+            "segundo": 3,
+            "x": 86.9,
+            "y": 66.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Rashford",
+            "tipo": "BallTouch",
+            "minuto": 36,
+            "segundo": 4,
+            "x": 84.8,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "SavedShot",
+            "minuto": 36,
+            "segundo": 6,
+            "x": 88.3,
+            "y": 64.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Marcus Rashford",
             "tipo": "Pass",
             "minuto": 36,
@@ -5106,7 +5227,12 @@
             "endY": 65.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maxence Lacroix",
+          "portero": true
+        }
       },
       {
         "minuto": 45,
@@ -5313,6 +5439,28 @@
         "secuencia_gol": [
           {
             "jugador": "Jude Bellingham",
+            "tipo": "BallRecovery",
+            "minuto": 97,
+            "segundo": 8,
+            "x": 44.7,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "TakeOn",
+            "minuto": 97,
+            "segundo": 9,
+            "x": 45.3,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
             "tipo": "TakeOn",
             "minuto": 97,
             "segundo": 14,
@@ -5322,7 +5470,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxence Lacroix",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -3690,6 +3690,39 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Manuel Neuer",
+            "tipo": "KeeperPickup",
+            "minuto": 49,
+            "segundo": 27,
+            "x": 1.1,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 3.4,
+            "y": 44.0,
+            "endX": 24.8,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 36,
+            "x": 24.8,
+            "y": 88.3,
+            "endX": 42.0,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Leon Goretzka",
             "tipo": "TakeOn",
             "minuto": 49,
@@ -3733,7 +3766,12 @@
             "endY": 42.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tom Krauß",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

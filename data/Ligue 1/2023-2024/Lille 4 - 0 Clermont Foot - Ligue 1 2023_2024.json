@@ -423,6 +423,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ismaily",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 56,
+            "x": 57.7,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaily",
             "tipo": "TakeOn",
             "minuto": 8,
             "segundo": 57,
@@ -608,7 +619,12 @@
             "endY": 40.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bilal Boutobba",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

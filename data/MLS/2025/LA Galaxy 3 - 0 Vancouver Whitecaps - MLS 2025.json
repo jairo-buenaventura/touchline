@@ -435,6 +435,94 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Miki Yamane",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 39.7,
+            "y": 21.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miki Yamane",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 39.7,
+            "y": 21.2,
+            "endX": 59.2,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nascimento",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 15,
+            "x": 59.2,
+            "y": 31.2,
+            "endX": 67.4,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nascimento",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 15,
+            "x": 67.4,
+            "y": 31.5,
+            "endX": 74.9,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 20,
+            "x": 74.9,
+            "y": 56.3,
+            "endX": 76.4,
+            "endY": 69.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 20,
+            "x": 76.4,
+            "y": 69.4,
+            "endX": 86.8,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Paintsil",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 26,
+            "x": 86.5,
+            "y": 97.5,
+            "endX": 73.8,
+            "endY": 98.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Julián Aude",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 73.8,
+            "y": 98.6,
+            "endX": 68.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Julián Aude",
             "tipo": "Pass",
             "minuto": 59,
@@ -533,7 +621,12 @@
             "endY": 62.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jayden Nelson",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

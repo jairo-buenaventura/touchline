@@ -430,7 +430,35 @@
         "y": 47.2,
         "arco_y": 50.3,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aaron Long",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 31,
+            "x": 94.8,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aaron Long",
+            "tipo": "SavedShot",
+            "minuto": 8,
+            "segundo": 31,
+            "x": 95.7,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Taylor Washington",
+          "portero": true
+        }
       },
       {
         "minuto": 15,
@@ -505,6 +533,72 @@
         "arco_y": 46.6,
         "arco_z": 11.4,
         "secuencia_gol": [
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 41.3,
+            "y": 6.1,
+            "endX": 37.0,
+            "endY": 20.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 18,
+            "x": 37.0,
+            "y": 20.4,
+            "endX": 37.7,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 18,
+            "x": 37.7,
+            "y": 23.7,
+            "endX": 45.4,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 21,
+            "x": 45.4,
+            "y": 91.5,
+            "endX": 56.4,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 21,
+            "x": 56.4,
+            "y": 88.9,
+            "endX": 58.9,
+            "endY": 78.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 58.9,
+            "y": 78.1,
+            "endX": 84.8,
+            "endY": 96.6,
+            "exitoso": true
+          },
           {
             "jugador": "Ryan Hollingshead",
             "tipo": "Pass",
@@ -692,7 +786,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alex Muyl",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -758,6 +857,127 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Ilie Sánchez",
+            "tipo": "BlockedPass",
+            "minuto": 73,
+            "segundo": 8,
+            "x": 29.3,
+            "y": 74.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 18,
+            "x": 30.9,
+            "y": 100.0,
+            "endX": 34.7,
+            "endY": 79.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Atuesta",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 20,
+            "x": 34.7,
+            "y": 79.4,
+            "endX": 43.3,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 25,
+            "x": 43.3,
+            "y": 63.9,
+            "endX": 49.6,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 25,
+            "x": 49.6,
+            "y": 46.1,
+            "endX": 59.4,
+            "endY": 21.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 29,
+            "x": 59.4,
+            "y": 21.3,
+            "endX": 66.5,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 29,
+            "x": 66.5,
+            "y": 23.1,
+            "endX": 88.1,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eddie Segura",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 31,
+            "x": 88.1,
+            "y": 23.3,
+            "endX": 77.6,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 36,
+            "x": 77.6,
+            "y": 32.2,
+            "endX": 79.9,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "SavedShot",
+            "minuto": 73,
+            "segundo": 36,
+            "x": 79.9,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Atuesta",
+            "tipo": "TakeOn",
+            "minuto": 73,
+            "segundo": 40,
+            "x": 76.5,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Eduard Atuesta",
             "tipo": "Pass",
             "minuto": 73,
@@ -801,7 +1021,12 @@
             "endY": 41.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tah Brian Anunga",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

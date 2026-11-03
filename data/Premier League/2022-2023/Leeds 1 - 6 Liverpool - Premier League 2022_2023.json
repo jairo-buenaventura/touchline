@@ -3889,6 +3889,17 @@
         "secuencia_gol": [
           {
             "jugador": "Diogo Jota",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 4,
+            "x": 34.5,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
             "tipo": "TakeOn",
             "minuto": 38,
             "segundo": 4,
@@ -3909,7 +3920,12 @@
             "endY": 64.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Weston McKennie",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -3929,6 +3945,28 @@
         "arco_y": 47.1,
         "arco_z": 13.9,
         "secuencia_gol": [
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 32,
+            "x": 34.2,
+            "y": 0.0,
+            "endX": 57.6,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 35,
+            "x": 57.6,
+            "y": 12.6,
+            "endX": 64.5,
+            "endY": 16.7,
+            "exitoso": true
+          },
           {
             "jugador": "Curtis Jones",
             "tipo": "TakeOn",
@@ -3951,7 +3989,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Junior Firpo",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -3962,6 +4005,83 @@
         "arco_y": 53.8,
         "arco_z": 13.3,
         "secuencia_gol": [
+          {
+            "jugador": "Fabinho",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 54,
+            "x": 21.4,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabinho",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 55,
+            "x": 21.4,
+            "y": 63.6,
+            "endX": 29.8,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 58,
+            "x": 29.8,
+            "y": 82.7,
+            "endX": 30.4,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 58,
+            "x": 30.4,
+            "y": 72.3,
+            "endX": 46.5,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 46.5,
+            "y": 92.1,
+            "endX": 56.0,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 56.0,
+            "y": 92.3,
+            "endX": 63.7,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 2,
+            "x": 63.7,
+            "y": 85.9,
+            "endX": 80.0,
+            "endY": 93.9,
+            "exitoso": true
+          },
           {
             "jugador": "Andy Robertson",
             "tipo": "TakeOn",
@@ -3995,7 +4115,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -4357,6 +4482,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Curtis Jones",
+            "tipo": "CornerAwarded",
+            "minuto": 87,
+            "segundo": 32,
+            "x": 98.2,
+            "y": 44.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 3,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.2,
+            "endY": 45.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 97.2,
+            "y": 45.5,
+            "endX": 98.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 98.2,
+            "y": 72.6,
+            "endX": 96.2,
+            "endY": 56.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 25,
+            "x": 96.2,
+            "y": 56.9,
+            "endX": 89.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andy Robertson",
             "tipo": "Pass",
             "minuto": 88,
@@ -4576,7 +4756,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

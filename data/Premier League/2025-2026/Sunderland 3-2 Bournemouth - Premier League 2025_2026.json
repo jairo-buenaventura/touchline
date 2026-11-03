@@ -434,6 +434,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Enzo Le Fée",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 34,
+            "x": 69.5,
+            "y": 6.7,
+            "endX": 87.7,
+            "endY": 33.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bertrand Traoré",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 43,
+            "x": 87.7,
+            "y": 33.6,
+            "endX": 92.6,
+            "endY": 13.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Bertrand Traoré",
             "tipo": "Pass",
             "minuto": 45,
@@ -477,7 +499,12 @@
             "endY": 25.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Adrien Truffert",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -505,7 +532,24 @@
         "y": 53.8,
         "arco_y": 53.2,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brian Brobbey",
+            "tipo": "Aerial",
+            "minuto": 68,
+            "segundo": 54,
+            "x": 92.0,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lewis Cook",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -4045,7 +4089,35 @@
         "y": 53.2,
         "arco_y": 53.2,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antoine Semenyo",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 18,
+            "x": 93.7,
+            "y": 80.8,
+            "endX": 95.2,
+            "endY": 48.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evanilson",
+            "tipo": "SavedShot",
+            "minuto": 6,
+            "segundo": 20,
+            "x": 95.2,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Robin Roefs",
+          "portero": true
+        }
       },
       {
         "minuto": 14,

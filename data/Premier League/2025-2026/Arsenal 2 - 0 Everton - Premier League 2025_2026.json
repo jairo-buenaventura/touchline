@@ -600,6 +600,17 @@
         "secuencia_gol": [
           {
             "jugador": "Max Dowman",
+            "tipo": "BallRecovery",
+            "minuto": 96,
+            "segundo": 30,
+            "x": 38.1,
+            "y": 79.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Dowman",
             "tipo": "TakeOn",
             "minuto": 96,
             "segundo": 31,
@@ -609,7 +620,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kiernan Dewsbury-Hall",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -476,7 +476,101 @@
         "y": 34.8,
         "arco_y": 47.0,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Fellhauer",
+            "tipo": "CornerAwarded",
+            "minuto": 81,
+            "segundo": 51,
+            "x": 96.8,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mert Kömür",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 55,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 96.5,
+            "endY": 10.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 57,
+            "x": 96.4,
+            "y": 10.6,
+            "endX": 84.1,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mert Kömür",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 0,
+            "x": 84.1,
+            "y": 19.4,
+            "endX": 78.6,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mert Kömür",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 0,
+            "x": 78.6,
+            "y": 24.2,
+            "endX": 92.6,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chrislain Matsima",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 4,
+            "x": 92.6,
+            "y": 44.6,
+            "endX": 95.3,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Essende",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 5,
+            "x": 95.3,
+            "y": 33.7,
+            "endX": 88.0,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Essende",
+            "tipo": "SavedShot",
+            "minuto": 82,
+            "segundo": 5,
+            "x": 88.0,
+            "y": 38.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Stefan Bell",
+          "portero": true
+        }
       },
       {
         "minuto": 84,
@@ -4858,6 +4952,28 @@
         "secuencia_gol": [
           {
             "jugador": "Kaishu Sano",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 12,
+            "x": 29.8,
+            "y": 14.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 34.6,
+            "y": 20.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
             "tipo": "Pass",
             "minuto": 59,
             "segundo": 19,
@@ -4867,7 +4983,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kristijan Jakic",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -4888,6 +5009,116 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Paul Nebel",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 44,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 91.6,
+            "endY": 51.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 51,
+            "x": 91.6,
+            "y": 51.5,
+            "endX": 63.0,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 51,
+            "x": 63.0,
+            "y": 39.7,
+            "endX": 93.1,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 55,
+            "x": 93.1,
+            "y": 4.1,
+            "endX": 96.7,
+            "endY": 6.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 55,
+            "x": 96.7,
+            "y": 6.7,
+            "endX": 84.2,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 57,
+            "x": 83.6,
+            "y": 5.5,
+            "endX": 85.1,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 0,
+            "x": 85.7,
+            "y": 26.7,
+            "endX": 88.0,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 88.0,
+            "y": 8.6,
+            "endX": 75.4,
+            "endY": 16.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 5,
+            "x": 75.4,
+            "y": 16.8,
+            "endX": 98.1,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 6,
+            "x": 98.1,
+            "y": 33.1,
+            "endX": 91.6,
+            "endY": 49.0,
+            "exitoso": false
+          },
+          {
             "jugador": "Andreas Hanche-Olsen",
             "tipo": "BallTouch",
             "minuto": 68,
@@ -4898,7 +5129,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Han-Noah Massengo",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

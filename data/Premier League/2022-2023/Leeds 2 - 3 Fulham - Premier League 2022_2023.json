@@ -410,7 +410,90 @@
         "y": 54.9,
         "arco_y": 52.9,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marc Roca",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 59,
+            "x": 33.6,
+            "y": 79.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 5,
+            "x": 61.2,
+            "y": 96.9,
+            "endX": 72.8,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Sinisterra",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 7,
+            "x": 72.8,
+            "y": 75.9,
+            "endX": 70.8,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 8,
+            "x": 70.8,
+            "y": 65.2,
+            "endX": 71.4,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 8,
+            "x": 71.4,
+            "y": 61.2,
+            "endX": 78.8,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Harrison",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 11,
+            "x": 78.8,
+            "y": 23.3,
+            "endX": 89.3,
+            "endY": 35.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Harrison",
+            "tipo": "SavedShot",
+            "minuto": 19,
+            "segundo": 11,
+            "x": 89.3,
+            "y": 35.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Tim Ream",
+          "portero": true
+        }
       },
       {
         "minuto": 29,
@@ -4673,7 +4756,24 @@
         "y": 57.8,
         "arco_y": 51.8,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aleksandar Mitrovic",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 25,
+            "x": 95.6,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luke Ayling",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -4739,6 +4839,28 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Andreas Pereira",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 16,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 91.8,
+            "endY": 37.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Harrison Reed",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 19,
+            "x": 91.8,
+            "y": 37.0,
+            "endX": 72.0,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Harrison Reed",
             "tipo": "Pass",
             "minuto": 73,
@@ -4771,7 +4893,12 @@
             "endY": 41.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jack Harrison",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -4782,6 +4909,17 @@
         "arco_y": 54.2,
         "arco_z": 5.1,
         "secuencia_gol": [
+          {
+            "jugador": "Harrison Reed",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 92.6,
+            "y": 24.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Harrison Reed",
             "tipo": "GoodSkill",
@@ -4804,7 +4942,12 @@
             "endY": 44.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

@@ -404,6 +404,17 @@
         "secuencia_gol": [
           {
             "jugador": "Matthias Ginter",
+            "tipo": "Aerial",
+            "minuto": 26,
+            "segundo": 5,
+            "x": 91.6,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthias Ginter",
             "tipo": "Pass",
             "minuto": 26,
             "segundo": 5,
@@ -413,7 +424,12 @@
             "endY": 44.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ellyes Skhiri",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -4275,7 +4291,24 @@
         "y": 43.1,
         "arco_y": 52.8,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "TakeOn",
+            "minuto": 48,
+            "segundo": 18,
+            "x": 87.4,
+            "y": 41.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Philipp Lienhart",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4338,6 +4371,28 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Farès Chaïbi",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 34,
+            "x": 71.6,
+            "y": 4.6,
+            "endX": 96.8,
+            "endY": 57.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 38,
+            "x": 96.8,
+            "y": 57.1,
+            "endX": 94.2,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Rasmus Kristensen",
             "tipo": "MissedShots",
             "minuto": 62,
@@ -4348,7 +4403,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Johan Manzambi",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

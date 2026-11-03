@@ -355,6 +355,39 @@
         "secuencia_gol": [
           {
             "jugador": "Irakli Yegoian",
+            "tipo": "CornerAwarded",
+            "minuto": 6,
+            "segundo": 59,
+            "x": 99.3,
+            "y": 5.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gyan de Regt",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 18,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 92.5,
+            "endY": 53.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Irakli Yegoian",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 20,
+            "x": 92.5,
+            "y": 53.8,
+            "endX": 75.9,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irakli Yegoian",
             "tipo": "SavedShot",
             "minuto": 7,
             "segundo": 20,
@@ -375,7 +408,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Luka Kulenovic",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -4087,7 +4125,24 @@
         "y": 57.0,
         "arco_y": 45.5,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luka Kulenovic",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 21,
+            "x": 94.8,
+            "y": 57.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Stan Henderikx",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -429,6 +429,17 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Tackle",
+            "minuto": 40,
+            "segundo": 16,
+            "x": 35.8,
+            "y": 2.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Ruben Aguilar",
             "tipo": "Pass",
             "minuto": 40,
@@ -461,7 +472,12 @@
             "endY": 37.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mahdi Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

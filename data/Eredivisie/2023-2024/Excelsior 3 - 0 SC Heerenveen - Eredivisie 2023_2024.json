@@ -538,6 +538,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Julian Baas",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.8,
+            "endY": 47.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kik Pierie",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 9,
+            "x": 90.8,
+            "y": 47.6,
+            "endX": 95.7,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Kik Pierie",
             "tipo": "BallTouch",
             "minuto": 62,
@@ -559,7 +581,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Andries Noppert",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

@@ -530,7 +530,79 @@
         "y": 40.5,
         "arco_y": 47.4,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ismaïla Sarr",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 26,
+            "x": 89.1,
+            "y": 4.2,
+            "endX": 82.2,
+            "endY": 3.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 26,
+            "x": 82.7,
+            "y": 1.7,
+            "endX": 81.2,
+            "endY": 5.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 47,
+            "x": 81.2,
+            "y": 5.5,
+            "endX": 83.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 47,
+            "x": 83.6,
+            "y": 0.0,
+            "endX": 94.3,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaïla Sarr",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 51,
+            "x": 96.5,
+            "y": 22.5,
+            "endX": 91.9,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vítinha",
+            "tipo": "TakeOn",
+            "minuto": 72,
+            "segundo": 52,
+            "x": 90.7,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yunis Abdelhamid",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -4195,6 +4267,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marshall Munetsi",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 21,
+            "x": 89.1,
+            "y": 57.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marshall Munetsi",
             "tipo": "Pass",
             "minuto": 9,
             "segundo": 22,
@@ -4204,7 +4287,12 @@
             "endY": 45.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Clauss",
+          "portero": false
+        }
       },
       {
         "minuto": 11,

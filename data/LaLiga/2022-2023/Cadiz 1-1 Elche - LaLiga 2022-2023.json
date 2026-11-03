@@ -373,7 +373,35 @@
         "y": 68.6,
         "arco_y": 45.7,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pacha Espino",
+            "tipo": "CornerAwarded",
+            "minuto": 5,
+            "segundo": 46,
+            "x": 100.0,
+            "y": 75.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Ocampo",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 17,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.9,
+            "endY": 54.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pere Milla",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -4361,6 +4389,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gerard Gumbau",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 21,
+            "x": 44.8,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerard Gumbau",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 21,
@@ -4414,7 +4453,12 @@
             "endY": 56.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Youba Diarra",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -537,7 +537,57 @@
         "y": 53.8,
         "arco_y": 52.1,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Juan Iglesias",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 49,
+            "x": 63.9,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Iglesias",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 49,
+            "x": 55.7,
+            "y": 41.1,
+            "endX": 72.4,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 55,
+            "x": 72.4,
+            "y": 23.7,
+            "endX": 91.7,
+            "endY": 36.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 55,
+            "x": 91.7,
+            "y": 36.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Vicente Guaita",
+          "portero": true
+        }
       },
       {
         "minuto": 81,
@@ -4331,6 +4381,17 @@
         "secuencia_gol": [
           {
             "jugador": "Renato Tapia",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 59,
+            "x": 74.0,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Renato Tapia",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 59,
@@ -4406,7 +4467,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luis Milla",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

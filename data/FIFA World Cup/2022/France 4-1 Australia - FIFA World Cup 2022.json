@@ -392,6 +392,39 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Antoine Griezmann",
+            "tipo": "CornerAwarded",
+            "minuto": 25,
+            "segundo": 33,
+            "x": 94.7,
+            "y": 31.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 52,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.3,
+            "endY": 45.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 57,
+            "x": 90.3,
+            "y": 45.5,
+            "endX": 66.5,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Dayot Upamecano",
             "tipo": "Pass",
             "minuto": 25,
@@ -413,7 +446,12 @@
             "endY": 46.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mathew Leckie",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -604,7 +642,24 @@
         "y": 49.3,
         "arco_y": 54.0,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 2,
+            "x": 94.8,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Harry Souttar",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -614,7 +669,24 @@
         "y": 48.9,
         "arco_y": 47.5,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Olivier Giroud",
+            "tipo": "Aerial",
+            "minuto": 70,
+            "segundo": 50,
+            "x": 93.0,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Aziz Behich",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -5793,7 +5865,112 @@
         "y": 60.8,
         "arco_y": 48.4,
         "arco_z": 34.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Craig Goodwin",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 6,
+            "x": 77.3,
+            "y": 100.0,
+            "endX": 63.3,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aziz Behich",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 9,
+            "x": 62.6,
+            "y": 91.8,
+            "endX": 57.0,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aaron Mooy",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 11,
+            "x": 57.0,
+            "y": 75.9,
+            "endX": 41.7,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kye Rowles",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 12,
+            "x": 41.7,
+            "y": 80.8,
+            "endX": 36.2,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Souttar",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 17,
+            "x": 36.2,
+            "y": 60.5,
+            "endX": 39.8,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Souttar",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 17,
+            "x": 39.8,
+            "y": 48.8,
+            "endX": 85.0,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathew Leckie",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 21,
+            "x": 85.0,
+            "y": 10.1,
+            "endX": 86.4,
+            "endY": 13.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathew Leckie",
+            "tipo": "TakeOn",
+            "minuto": 8,
+            "segundo": 21,
+            "x": 86.4,
+            "y": 13.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathew Leckie",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 23,
+            "x": 88.6,
+            "y": 23.1,
+            "endX": 88.6,
+            "endY": 25.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Adrien Rabiot",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

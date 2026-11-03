@@ -455,6 +455,50 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Linton Maina",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 25,
+            "x": 36.9,
+            "y": 13.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Linton Maina",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 30,
+            "x": 72.5,
+            "y": 36.1,
+            "endX": 79.6,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sargis Adamyan",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 33,
+            "x": 79.6,
+            "y": 48.4,
+            "endX": 87.0,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sargis Adamyan",
+            "tipo": "SavedShot",
+            "minuto": 70,
+            "segundo": 33,
+            "x": 87.0,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Sargis Adamyan",
             "tipo": "BallTouch",
             "minuto": 70,
@@ -465,7 +509,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kevin Trapp",
+          "portero": true
+        }
       },
       {
         "minuto": 78,

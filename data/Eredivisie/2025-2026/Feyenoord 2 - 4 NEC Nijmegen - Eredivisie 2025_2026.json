@@ -495,7 +495,24 @@
         "y": 52.6,
         "arco_y": 53.0,
         "arco_z": 34.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leo Sauer",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 13,
+            "x": 95.8,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eli Dasa",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -5105,7 +5122,35 @@
         "y": 46.8,
         "arco_y": 50.1,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kodai Sano",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 57.0,
+            "y": 28.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kodai Sano",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 9,
+            "x": 57.0,
+            "y": 28.5,
+            "endX": 61.3,
+            "endY": 33.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aymen Sliti",
+          "portero": false
+        }
       }
     ],
     "corners": [

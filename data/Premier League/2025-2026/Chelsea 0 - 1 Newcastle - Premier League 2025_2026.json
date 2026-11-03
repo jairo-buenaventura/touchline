@@ -5447,6 +5447,39 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Joe Willock",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 51,
+            "x": 66.9,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 52,
+            "x": 66.9,
+            "y": 56.8,
+            "endX": 71.4,
+            "endY": 56.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anthony Gordon",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 71.4,
+            "y": 56.0,
+            "endX": 75.7,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Anthony Gordon",
             "tipo": "Pass",
             "minuto": 16,
@@ -5732,7 +5765,12 @@
             "endY": 57.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Reece James",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

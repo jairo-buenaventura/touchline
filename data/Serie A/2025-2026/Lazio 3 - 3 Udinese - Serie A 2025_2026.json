@@ -395,7 +395,24 @@
         "y": 63.4,
         "arco_y": 46.4,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Toma Basic",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 14,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 96.4,
+            "endY": 34.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Hassane Kamara",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -548,6 +565,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alessio Romagnoli",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 37,
+            "x": 89.7,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessio Romagnoli",
             "tipo": "ShotOnPost",
             "minuto": 94,
             "segundo": 38,
@@ -568,7 +596,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thomas Kristensen",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4616,6 +4649,105 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Thomas Kristensen",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 33,
+            "x": 40.0,
+            "y": 21.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kristensen",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 33,
+            "x": 40.3,
+            "y": 21.6,
+            "endX": 67.0,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Zaniolo",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 40,
+            "x": 67.0,
+            "y": 12.6,
+            "endX": 85.0,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Zaniolo",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 40,
+            "x": 85.0,
+            "y": 24.1,
+            "endX": 93.3,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakub Piotrowski",
+            "tipo": "SavedShot",
+            "minuto": 16,
+            "segundo": 42,
+            "x": 93.1,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Ehizibue",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 50,
+            "x": 86.6,
+            "y": 4.5,
+            "endX": 70.4,
+            "endY": 9.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kristensen",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 53,
+            "x": 70.4,
+            "y": 9.6,
+            "endX": 74.9,
+            "endY": 6.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kristensen",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 53,
+            "x": 74.9,
+            "y": 6.4,
+            "endX": 86.7,
+            "endY": 39.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oumar Solet",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 56,
+            "x": 86.7,
+            "y": 39.0,
+            "endX": 76.0,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Oumar Solet",
             "tipo": "Pass",
             "minuto": 16,
@@ -4648,7 +4780,12 @@
             "endY": 26.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Patric",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4730,7 +4867,35 @@
         "y": 47.7,
         "arco_y": 49.7,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Vakoun Bayo",
+            "tipo": "Aerial",
+            "minuto": 85,
+            "segundo": 1,
+            "x": 92.9,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vakoun Bayo",
+            "tipo": "SavedShot",
+            "minuto": 85,
+            "segundo": 1,
+            "x": 92.9,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Edoardo Motta",
+          "portero": true
+        }
       },
       {
         "minuto": 90,

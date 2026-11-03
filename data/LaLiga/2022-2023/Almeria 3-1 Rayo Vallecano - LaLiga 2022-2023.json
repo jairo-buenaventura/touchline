@@ -424,7 +424,24 @@
         "y": 52.8,
         "arco_y": 48.7,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Srdjan Babic",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 1,
+            "x": 92.5,
+            "y": 51.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pathé Ciss",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -453,6 +470,28 @@
         "arco_y": 51.9,
         "arco_z": 32.9,
         "secuencia_gol": [
+          {
+            "jugador": "Adri Embarba",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 38,
+            "x": 99.4,
+            "y": 0.7,
+            "endX": 92.0,
+            "endY": 57.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "César de la Hoz",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 42,
+            "x": 92.0,
+            "y": 57.1,
+            "endX": 77.9,
+            "endY": 55.3,
+            "exitoso": true
+          },
           {
             "jugador": "César de la Hoz",
             "tipo": "Pass",
@@ -508,7 +547,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Óscar Trejo",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

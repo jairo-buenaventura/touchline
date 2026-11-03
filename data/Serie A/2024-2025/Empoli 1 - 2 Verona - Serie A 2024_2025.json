@@ -436,7 +436,35 @@
         "y": 53.0,
         "arco_y": 50.3,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastiano Esposito",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 29,
+            "x": 93.0,
+            "y": 59.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiano Esposito",
+            "tipo": "SavedShot",
+            "minuto": 42,
+            "segundo": 29,
+            "x": 94.8,
+            "y": 59.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Simone Perilli",
+          "portero": true
+        }
       },
       {
         "minuto": 47,
@@ -4655,6 +4683,39 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Suat Serdar",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 24,
+            "x": 63.2,
+            "y": 88.0,
+            "endX": 74.0,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dailon Livramento",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 25,
+            "x": 74.0,
+            "y": 74.4,
+            "endX": 74.6,
+            "endY": 72.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daniel Mosquera",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 27,
+            "x": 74.6,
+            "y": 72.7,
+            "endX": 79.1,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Daniel Mosquera",
             "tipo": "Pass",
             "minuto": 68,
@@ -4698,7 +4759,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ardian Ismajli",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

@@ -422,7 +422,24 @@
         "y": 52.2,
         "arco_y": 52.8,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Liberato Cacace",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 41,
+            "x": 96.0,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Federico Baschirotto",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -4454,6 +4471,28 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Gaby Jean",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 2,
+            "x": 42.2,
+            "y": 60.8,
+            "endX": 78.9,
+            "endY": 87.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tete Morente",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 7,
+            "x": 78.9,
+            "y": 87.8,
+            "endX": 76.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Tete Morente",
             "tipo": "Pass",
             "minuto": 10,
@@ -4464,7 +4503,12 @@
             "endY": 71.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ardian Ismajli",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -4575,6 +4619,39 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 6,
+            "x": 62.2,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 6,
+            "x": 51.5,
+            "y": 48.1,
+            "endX": 51.7,
+            "endY": 48.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ylber Ramadani",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 51.7,
+            "y": 48.2,
+            "endX": 53.0,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Ylber Ramadani",
             "tipo": "Pass",
             "minuto": 90,
@@ -4607,7 +4684,12 @@
             "endY": 34.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jacopo Fazzini",
+          "portero": false
+        }
       }
     ],
     "corners": [

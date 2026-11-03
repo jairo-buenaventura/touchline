@@ -415,6 +415,17 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Alexander Hack",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 12,
+            "x": 95.2,
+            "y": 43.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Felipe Carballo",
             "tipo": "Pass",
             "minuto": 56,
@@ -447,7 +458,12 @@
             "endY": 56.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Aarón Herrera",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -5013,7 +5029,46 @@
         "y": 35.1,
         "arco_y": 47.5,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Bartlett",
+            "tipo": "ShieldBallOpp",
+            "minuto": 33,
+            "segundo": 40,
+            "x": 2.1,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Barraza",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 15,
+            "x": 5.1,
+            "y": 39.8,
+            "endX": 76.0,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peglow",
+            "tipo": "TakeOn",
+            "minuto": 34,
+            "segundo": 21,
+            "x": 74.2,
+            "y": 38.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tim Parker",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

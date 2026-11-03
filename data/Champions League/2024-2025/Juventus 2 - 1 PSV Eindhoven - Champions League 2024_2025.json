@@ -421,6 +421,17 @@
         "secuencia_gol": [
           {
             "jugador": "Federico Gatti",
+            "tipo": "Aerial",
+            "minuto": 33,
+            "segundo": 5,
+            "x": 91.2,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Gatti",
             "tipo": "BallTouch",
             "minuto": 33,
             "segundo": 5,
@@ -430,7 +441,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mauro Júnior",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4560,7 +4576,90 @@
         "y": 34.2,
         "arco_y": 46.0,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 3,
+            "x": 46.9,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 3,
+            "x": 45.3,
+            "y": 71.1,
+            "endX": 57.8,
+            "endY": 72.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 57.8,
+            "y": 72.0,
+            "endX": 54.4,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 54.4,
+            "y": 75.0,
+            "endX": 65.4,
+            "endY": 77.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noa Lang",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 14,
+            "x": 65.4,
+            "y": 77.8,
+            "endX": 74.5,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noa Lang",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 14,
+            "x": 74.5,
+            "y": 72.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noa Lang",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 16,
+            "x": 74.9,
+            "y": 68.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Manuel Locatelli",
+          "portero": true
+        }
       },
       {
         "minuto": 75,

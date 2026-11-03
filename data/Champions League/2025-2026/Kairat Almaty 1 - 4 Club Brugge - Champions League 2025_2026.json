@@ -438,6 +438,61 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Ricardinho",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 72.8,
+            "y": 62.4,
+            "endX": 72.8,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mukhamedali Abish",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 30,
+            "x": 74.0,
+            "y": 73.9,
+            "endX": 86.6,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valeri Gromyko",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 33,
+            "x": 86.6,
+            "y": 87.8,
+            "endX": 88.9,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valeri Gromyko",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 33,
+            "x": 88.9,
+            "y": 91.8,
+            "endX": 90.9,
+            "endY": 41.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aleksandr Mrynskiy",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 90.9,
+            "y": 41.5,
+            "endX": 77.5,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Aleksandr Mrynskiy",
             "tipo": "Pass",
             "minuto": 91,
@@ -448,7 +503,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bjorn Meijer",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4655,7 +4715,46 @@
         "y": 51.4,
         "arco_y": 50.1,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Vetlesen",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 31,
+            "x": 77.8,
+            "y": 98.1,
+            "endX": 87.8,
+            "endY": 65.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Vetlesen",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 38,
+            "x": 87.8,
+            "y": 65.8,
+            "endX": 73.6,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Vetlesen",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 38,
+            "x": 73.6,
+            "y": 83.2,
+            "endX": 97.5,
+            "endY": 56.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Temirlan Anarbekov",
+          "portero": true
+        }
       },
       {
         "minuto": 37,
@@ -4897,7 +4996,145 @@
         "y": 49.7,
         "arco_y": 48.8,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hans Vanaken",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 32,
+            "x": 49.9,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hans Vanaken",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 33,
+            "x": 49.7,
+            "y": 48.6,
+            "endX": 50.4,
+            "endY": 37.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Stankovic",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 34,
+            "x": 50.4,
+            "y": 37.8,
+            "endX": 41.3,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Ordóñez",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 34,
+            "x": 41.3,
+            "y": 32.1,
+            "endX": 46.5,
+            "endY": 44.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hans Vanaken",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 46.5,
+            "y": 44.1,
+            "endX": 46.6,
+            "endY": 47.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hans Vanaken",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 46.6,
+            "y": 47.5,
+            "endX": 52.1,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Stankovic",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 39,
+            "x": 52.1,
+            "y": 42.4,
+            "endX": 53.0,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Stankovic",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 39,
+            "x": 53.0,
+            "y": 46.0,
+            "endX": 62.9,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquin Seys",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 41,
+            "x": 64.4,
+            "y": 71.5,
+            "endX": 73.6,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Diakhon",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 45,
+            "x": 73.6,
+            "y": 86.7,
+            "endX": 88.6,
+            "endY": 80.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Diakhon",
+            "tipo": "TakeOn",
+            "minuto": 73,
+            "segundo": 45,
+            "x": 88.6,
+            "y": 80.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Diakhon",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 46,
+            "x": 95.2,
+            "y": 71.4,
+            "endX": 94.3,
+            "endY": 70.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Erkin Tapalov",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -4917,6 +5154,61 @@
         "arco_y": 52.4,
         "arco_z": 9.5,
         "secuencia_gol": [
+          {
+            "jugador": "Bjorn Meijer",
+            "tipo": "CornerAwarded",
+            "minuto": 83,
+            "segundo": 6,
+            "x": 87.0,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Diakhon",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 37,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.4,
+            "endY": 97.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shandre Campbell",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 40,
+            "x": 94.4,
+            "y": 97.6,
+            "endX": 96.2,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shandre Campbell",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 40,
+            "x": 96.2,
+            "y": 76.9,
+            "endX": 95.8,
+            "endY": 57.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mamadou Diakhon",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 45,
+            "x": 95.8,
+            "y": 57.9,
+            "endX": 77.4,
+            "endY": 85.3,
+            "exitoso": true
+          },
           {
             "jugador": "Mamadou Diakhon",
             "tipo": "Pass",
@@ -4961,7 +5253,12 @@
             "endY": 51.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Egor Sorokin",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -441,6 +441,17 @@
         "secuencia_gol": [
           {
             "jugador": "Benjamin André",
+            "tipo": "BallRecovery",
+            "minuto": 36,
+            "segundo": 46,
+            "x": 31.0,
+            "y": 16.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
             "tipo": "TakeOn",
             "minuto": 36,
             "segundo": 47,
@@ -483,7 +494,12 @@
             "endY": 81.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Otar Kiteishvili",
+          "portero": false
+        }
       },
       {
         "minuto": 42,

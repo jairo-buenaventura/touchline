@@ -701,6 +701,72 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Brajan Gruda",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 53,
+            "x": 10.9,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brajan Gruda",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 53,
+            "x": 10.9,
+            "y": 61.5,
+            "endX": 15.7,
+            "endY": 70.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 1,
+            "x": 15.7,
+            "y": 70.4,
+            "endX": 60.9,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 1,
+            "x": 60.9,
+            "y": 43.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 73.6,
+            "y": 43.0,
+            "endX": 94.5,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillipp Mwene",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 7,
+            "x": 95.6,
+            "y": 33.3,
+            "endX": 95.7,
+            "endY": 53.5,
+            "exitoso": false
+          },
+          {
             "jugador": "Jonathan Burkardt",
             "tipo": "BallTouch",
             "minuto": 62,
@@ -711,7 +777,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Oliver Baumann",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4208,7 +4279,24 @@
         "y": 50.1,
         "arco_y": 51.6,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pavel Kaderábek",
+            "tipo": "Aerial",
+            "minuto": 18,
+            "segundo": 29,
+            "x": 91.2,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Robin Zentner",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

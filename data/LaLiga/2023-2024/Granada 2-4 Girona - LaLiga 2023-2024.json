@@ -407,6 +407,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ignasi Miquel",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 17,
+            "x": 91.6,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ignasi Miquel",
             "tipo": "MissedShots",
             "minuto": 62,
             "segundo": 17,
@@ -416,7 +427,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric García",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -438,6 +454,17 @@
         "secuencia_gol": [
           {
             "jugador": "Famara Diédhiou",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 89.9,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Famara Diédhiou",
             "tipo": "Pass",
             "minuto": 84,
             "segundo": 0,
@@ -447,7 +474,12 @@
             "endY": 44.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric García",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4400,6 +4432,28 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Savinho",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 38,
+            "x": 37.8,
+            "y": 75.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Savinho",
+            "tipo": "BallTouch",
+            "minuto": 87,
+            "segundo": 40,
+            "x": 38.0,
+            "y": 75.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Daley Blind",
             "tipo": "TakeOn",
             "minuto": 87,
@@ -4619,7 +4673,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucas Boyé",
+          "portero": false
+        }
       }
     ],
     "corners": [

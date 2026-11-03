@@ -476,6 +476,28 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Carel Eiting",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 28,
+            "x": 88.0,
+            "y": 86.6,
+            "endX": 98.0,
+            "endY": 43.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Florent Da Silva",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 34,
+            "x": 98.0,
+            "y": 43.6,
+            "endX": 86.6,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Florent Da Silva",
             "tipo": "Pass",
             "minuto": 54,
@@ -486,7 +508,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thijmen Blokzijl",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -523,7 +550,123 @@
         "y": 52.6,
         "arco_y": 53.9,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brian Plat",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 53,
+            "x": 43.3,
+            "y": 4.7,
+            "endX": 33.4,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavier Mbuyamba",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 55,
+            "x": 34.6,
+            "y": 14.9,
+            "endX": 43.9,
+            "endY": 4.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Damon Mirani",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 57,
+            "x": 43.9,
+            "y": 4.4,
+            "endX": 50.4,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Damon Mirani",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 57,
+            "x": 50.4,
+            "y": 3.7,
+            "endX": 56.5,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carel Eiting",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 58,
+            "x": 56.4,
+            "y": 21.0,
+            "endX": 41.0,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavier Mbuyamba",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 3,
+            "x": 41.0,
+            "y": 21.0,
+            "endX": 41.7,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavier Mbuyamba",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 3,
+            "x": 41.7,
+            "y": 16.8,
+            "endX": 62.8,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaetano Oristanio",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 9,
+            "x": 62.8,
+            "y": 14.6,
+            "endX": 76.9,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaetano Oristanio",
+            "tipo": "TakeOn",
+            "minuto": 77,
+            "segundo": 9,
+            "x": 76.9,
+            "y": 14.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gaetano Oristanio",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 11,
+            "x": 90.8,
+            "y": 16.2,
+            "endX": 91.8,
+            "endY": 21.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Isak Määttä",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4606,6 +4749,50 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Johan Hove",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 14,
+            "x": 17.5,
+            "y": 94.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johan Hove",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 14,
+            "x": 20.1,
+            "y": 95.7,
+            "endX": 40.4,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Pepi",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 17,
+            "x": 40.4,
+            "y": 96.3,
+            "endX": 42.3,
+            "endY": 96.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Isak Määttä",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 42.3,
+            "y": 96.5,
+            "endX": 58.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Isak Määttä",
             "tipo": "Pass",
             "minuto": 71,
@@ -4847,7 +5034,12 @@
             "endY": 37.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Brian Plat",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

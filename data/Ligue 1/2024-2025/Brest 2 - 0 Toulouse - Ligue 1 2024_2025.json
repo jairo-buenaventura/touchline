@@ -402,6 +402,28 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Luck Zogbé",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 9,
+            "x": 29.6,
+            "y": 23.9,
+            "endX": 35.1,
+            "endY": 20.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mama Baldé",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 11,
+            "x": 35.1,
+            "y": 20.3,
+            "endX": 44.9,
+            "endY": 25.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Mama Baldé",
             "tipo": "Pass",
             "minuto": 20,
@@ -434,7 +456,12 @@
             "endY": 25.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Vincent Sierro",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

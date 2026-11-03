@@ -485,7 +485,35 @@
         "y": 54.8,
         "arco_y": 53.4,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cenny Neumann",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 7,
+            "x": 89.3,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cenny Neumann",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 7,
+            "x": 89.3,
+            "y": 41.1,
+            "endX": 92.9,
+            "endY": 52.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Waldemar Anton",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4234,6 +4262,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Julian Ryerson",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.8,
+            "endY": 53.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Maximilian Beier",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 48,
+            "x": 90.8,
+            "y": 53.1,
+            "endX": 77.9,
+            "endY": 60.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Maximilian Beier",
             "tipo": "Pass",
             "minuto": 15,
@@ -4244,7 +4294,12 @@
             "endY": 50.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ragnar Ache",
+          "portero": false
+        }
       },
       {
         "minuto": 32,

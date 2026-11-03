@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Robert Lewandowski",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 55,
+            "x": 86.5,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
             "tipo": "TakeOn",
             "minuto": 3,
             "segundo": 56,
@@ -394,7 +405,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andoni Gorosabel",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -586,6 +602,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Joan García",
+            "tipo": "KeeperPickup",
+            "minuto": 88,
+            "segundo": 53,
+            "x": 12.1,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joan García",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 12.1,
+            "y": 61.2,
+            "endX": 33.3,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 33.3,
+            "y": 31.0,
+            "endX": 41.7,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 41.7,
+            "y": 26.2,
+            "endX": 44.7,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 4,
+            "x": 44.7,
+            "y": 30.4,
+            "endX": 43.9,
+            "endY": 39.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Lamine Yamal",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -607,7 +678,12 @@
             "endY": 56.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gorka Guruzeta",
+          "portero": false
+        }
       }
     ],
     "corners": [

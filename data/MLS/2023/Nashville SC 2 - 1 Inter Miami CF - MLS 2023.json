@@ -397,6 +397,72 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Lukas MacNaughton",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 53,
+            "x": 55.1,
+            "y": 6.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas MacNaughton",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 55,
+            "x": 55.1,
+            "y": 6.1,
+            "endX": 60.7,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 57,
+            "x": 60.7,
+            "y": 21.2,
+            "endX": 64.1,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Davis",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 0,
+            "x": 64.1,
+            "y": 32.5,
+            "endX": 70.8,
+            "endY": 20.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Muyl",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 2,
+            "x": 70.8,
+            "y": 20.6,
+            "endX": 56.7,
+            "endY": 22.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 4,
+            "x": 58.2,
+            "y": 23.0,
+            "endX": 89.7,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Hany Mukhtar",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -418,7 +484,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christopher McVey",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -447,6 +518,50 @@
         "arco_y": 51.6,
         "arco_z": 19.0,
         "secuencia_gol": [
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 49,
+            "x": 63.9,
+            "y": 73.0,
+            "endX": 71.0,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Lovitz",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 50,
+            "x": 71.0,
+            "y": 86.9,
+            "endX": 64.7,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 64.7,
+            "y": 53.4,
+            "endX": 69.2,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shaq Moore",
+            "tipo": "SavedShot",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 69.2,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Sean Davis",
             "tipo": "Pass",
@@ -480,7 +595,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Harvey Neville",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -4821,7 +4941,35 @@
         "y": 46.9,
         "arco_y": 47.6,
         "arco_z": 33.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josef Martínez",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 41,
+            "x": 93.0,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josef Martínez",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 42,
+            "x": 93.3,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joe Willis",
+          "portero": true
+        }
       }
     ],
     "corners": [

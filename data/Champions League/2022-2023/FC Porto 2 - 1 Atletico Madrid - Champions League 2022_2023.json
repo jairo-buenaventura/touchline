@@ -404,6 +404,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mehdi Taremi",
+            "tipo": "Aerial",
+            "minuto": 4,
+            "segundo": 38,
+            "x": 36.4,
+            "y": 64.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Taremi",
             "tipo": "Pass",
             "minuto": 4,
             "segundo": 38,
@@ -479,7 +490,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Axel Witsel",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -498,7 +514,123 @@
         "y": 51.1,
         "arco_y": 53.5,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diogo Costa",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 12,
+            "x": 9.5,
+            "y": 49.1,
+            "endX": 13.6,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Marcano",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 15,
+            "x": 13.6,
+            "y": 73.8,
+            "endX": 8.1,
+            "endY": 42.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Costa",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 19,
+            "x": 8.1,
+            "y": 41.3,
+            "endX": 16.4,
+            "endY": 11.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Cardoso",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 16.1,
+            "y": 11.6,
+            "endX": 3.7,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Costa",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 24,
+            "x": 4.0,
+            "y": 43.1,
+            "endX": 10.9,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Marcano",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 27,
+            "x": 10.9,
+            "y": 75.3,
+            "endX": 18.5,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Marcano",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 27,
+            "x": 18.5,
+            "y": 84.9,
+            "endX": 27.8,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zaidu Sanusi",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 29,
+            "x": 29.8,
+            "y": 96.5,
+            "endX": 70.0,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Galeno",
+            "tipo": "TakeOn",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 70.8,
+            "y": 86.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Galeno",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 37,
+            "x": 90.3,
+            "y": 71.5,
+            "endX": 89.6,
+            "endY": 69.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Stefan Savic",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

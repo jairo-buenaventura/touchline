@@ -487,6 +487,61 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Alphonso Davies",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 47,
+            "x": 42.6,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 47,
+            "x": 42.6,
+            "y": 45.4,
+            "endX": 54.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 49,
+            "x": 54.2,
+            "y": 69.3,
+            "endX": 56.2,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 49,
+            "x": 56.2,
+            "y": 72.9,
+            "endX": 68.4,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 54,
+            "x": 68.4,
+            "y": 92.7,
+            "endX": 82.9,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamal Musiala",
             "tipo": "TakeOn",
             "minuto": 30,
@@ -508,7 +563,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Finn Jeltsch",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -649,7 +709,79 @@
         "y": 48.8,
         "arco_y": 52.3,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "CornerAwarded",
+            "minuto": 50,
+            "segundo": 59,
+            "x": 99.4,
+            "y": 26.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 27,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.6,
+            "endY": 69.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 30,
+            "x": 97.7,
+            "y": 69.1,
+            "endX": 97.0,
+            "endY": 60.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 32,
+            "x": 97.0,
+            "y": 60.4,
+            "endX": 96.0,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 32,
+            "x": 96.0,
+            "y": 75.6,
+            "endX": 91.4,
+            "endY": 49.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 33,
+            "x": 91.4,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alexander Nübel",
+          "portero": true
+        }
       },
       {
         "minuto": 55,
@@ -5828,6 +5960,61 @@
         "arco_z": 35.4,
         "secuencia_gol": [
           {
+            "jugador": "Ramon Hendriks",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 38,
+            "x": 73.0,
+            "y": 87.0,
+            "endX": 82.4,
+            "endY": 95.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Mittelstädt",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 39,
+            "x": 83.9,
+            "y": 94.1,
+            "endX": 98.3,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bilal El Khannouss",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 42,
+            "x": 98.3,
+            "y": 71.5,
+            "endX": 94.9,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Hendriks",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 44,
+            "x": 94.9,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Badredine Bouanani",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 45,
+            "x": 89.8,
+            "y": 46.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Atakan Karazor",
             "tipo": "Pass",
             "minuto": 87,
@@ -5838,7 +6025,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joshua Kimmich",
+          "portero": true
+        }
       },
       {
         "minuto": 91,

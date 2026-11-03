@@ -360,6 +360,83 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Emiliano Buendía",
+            "tipo": "BlockedPass",
+            "minuto": 1,
+            "segundo": 44,
+            "x": 35.9,
+            "y": 37.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 45,
+            "x": 38.3,
+            "y": 53.1,
+            "endX": 35.9,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Onana",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 47,
+            "x": 35.9,
+            "y": 42.4,
+            "endX": 33.0,
+            "endY": 47.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Onana",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 47,
+            "x": 33.0,
+            "y": 47.1,
+            "endX": 52.3,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 50,
+            "x": 52.3,
+            "y": 55.6,
+            "endX": 61.4,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 50,
+            "x": 61.4,
+            "y": 55.8,
+            "endX": 75.6,
+            "endY": 51.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 52,
+            "x": 75.6,
+            "y": 51.3,
+            "endX": 67.9,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Douglas Luiz",
             "tipo": "Pass",
             "minuto": 1,
@@ -403,7 +480,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Trevoh Chalobah",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -4706,6 +4788,94 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Moisés Caicedo",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 33.9,
+            "y": 63.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 28,
+            "x": 33.8,
+            "y": 63.3,
+            "endX": 47.4,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 33,
+            "x": 47.4,
+            "y": 59.7,
+            "endX": 70.0,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 33,
+            "x": 70.0,
+            "y": 59.6,
+            "endX": 73.5,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cole Palmer",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 36,
+            "x": 74.8,
+            "y": 35.1,
+            "endX": 94.5,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 38,
+            "x": 94.5,
+            "y": 29.1,
+            "endX": 95.0,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece James",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 38,
+            "x": 95.0,
+            "y": 25.4,
+            "endX": 96.7,
+            "endY": 47.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 39,
+            "x": 96.7,
+            "y": 47.7,
+            "endX": 91.0,
+            "endY": 47.4,
+            "exitoso": true
+          },
+          {
             "jugador": "João Pedro",
             "tipo": "BallTouch",
             "minuto": 54,
@@ -4716,7 +4886,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Emiliano Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

@@ -425,7 +425,35 @@
         "y": 46.0,
         "arco_y": 51.2,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 57,
+            "x": 77.3,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "SavedShot",
+            "minuto": 40,
+            "segundo": 0,
+            "x": 88.7,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Thiago Martins",
+          "portero": true
+        }
       },
       {
         "minuto": 43,
@@ -454,6 +482,171 @@
         "arco_y": 45.9,
         "arco_z": 25.3,
         "secuencia_gol": [
+          {
+            "jugador": "Julián Aude",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 51,
+            "x": 35.1,
+            "y": 100.0,
+            "endX": 36.6,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 52,
+            "x": 36.3,
+            "y": 91.3,
+            "endX": 34.9,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Aude",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 53,
+            "x": 35.1,
+            "y": 97.0,
+            "endX": 19.1,
+            "endY": 93.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maya Yoshida",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 55,
+            "x": 18.8,
+            "y": 91.3,
+            "endX": 3.4,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McCarthy",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 0,
+            "x": 3.4,
+            "y": 67.1,
+            "endX": 3.3,
+            "endY": 61.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McCarthy",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 0,
+            "x": 3.3,
+            "y": 61.6,
+            "endX": 7.1,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jalen Neal",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 3,
+            "x": 7.1,
+            "y": 26.4,
+            "endX": 10.0,
+            "endY": 19.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jalen Neal",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 3,
+            "x": 10.0,
+            "y": 19.0,
+            "endX": 23.6,
+            "endY": 8.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 7,
+            "x": 23.6,
+            "y": 8.0,
+            "endX": 23.0,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 7,
+            "x": 23.0,
+            "y": 24.0,
+            "endX": 7.1,
+            "endY": 20.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jalen Neal",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 10,
+            "x": 7.6,
+            "y": 19.8,
+            "endX": 2.3,
+            "endY": 36.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McCarthy",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 13,
+            "x": 2.6,
+            "y": 34.1,
+            "endX": 24.6,
+            "endY": 8.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 16,
+            "x": 24.6,
+            "y": 8.1,
+            "endX": 23.8,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 16,
+            "x": 23.8,
+            "y": 23.3,
+            "endX": 48.0,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 22,
+            "x": 48.0,
+            "y": 10.4,
+            "endX": 72.2,
+            "endY": 20.0,
+            "exitoso": true
+          },
           {
             "jugador": "Gabriel Pec",
             "tipo": "TakeOn",
@@ -509,7 +702,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andrés Perea",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

@@ -5630,7 +5630,24 @@
         "y": 52.0,
         "arco_y": 48.4,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pablo Rosario",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 17,
+            "x": 93.8,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dylan Batubinsika",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -5723,6 +5740,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Baptiste Santamaría",
+            "tipo": "TakeOn",
+            "minuto": 68,
+            "segundo": 50,
+            "x": 88.8,
+            "y": 88.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Baptiste Santamaría",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 51,
+            "x": 85.1,
+            "y": 85.6,
+            "endX": 90.9,
+            "endY": 53.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 55,
+            "x": 90.9,
+            "y": 53.0,
+            "endX": 72.6,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Jonathan Clauss",
             "tipo": "Pass",
             "minuto": 68,
@@ -5744,7 +5794,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Léo Pétrot",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

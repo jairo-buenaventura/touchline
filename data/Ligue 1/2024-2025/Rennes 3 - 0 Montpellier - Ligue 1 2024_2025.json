@@ -427,7 +427,24 @@
         "y": 47.4,
         "arco_y": 46.1,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Arnaud Kalimuendo",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 21,
+            "x": 91.6,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Stefan Dzodic",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -457,6 +474,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Arnaud Kalimuendo",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 53,
+            "x": 80.4,
+            "y": 37.3,
+            "endX": 73.4,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Baptiste Santamaría",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 55,
+            "x": 73.4,
+            "y": 46.0,
+            "endX": 81.4,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Grønbæk",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 55,
+            "x": 81.4,
+            "y": 48.8,
+            "endX": 84.4,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Albert Grønbæk",
             "tipo": "TakeOn",
             "minuto": 59,
@@ -467,7 +517,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Stefan Dzodic",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

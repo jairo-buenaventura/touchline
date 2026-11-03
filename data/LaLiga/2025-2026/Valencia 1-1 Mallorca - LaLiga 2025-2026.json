@@ -480,6 +480,61 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Pepelu",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 61.7,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pepelu",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 63.7,
+            "y": 53.2,
+            "endX": 65.5,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Ugrinic",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 46,
+            "x": 65.6,
+            "y": 45.6,
+            "endX": 73.5,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Rioja",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 73.5,
+            "y": 33.4,
+            "endX": 76.5,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Rioja",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 76.5,
+            "y": 30.6,
+            "endX": 92.6,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Thierry Correia",
             "tipo": "TakeOn",
             "minuto": 51,
@@ -501,7 +556,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Johan Mojica",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -5181,6 +5241,17 @@
         "secuencia_gol": [
           {
             "jugador": "Antonio Raíllo",
+            "tipo": "Aerial",
+            "minuto": 22,
+            "segundo": 2,
+            "x": 84.9,
+            "y": 65.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Raíllo",
             "tipo": "Pass",
             "minuto": 22,
             "segundo": 3,
@@ -5190,7 +5261,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Filip Ugrinic",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

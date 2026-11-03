@@ -430,6 +430,50 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 52,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.7,
+            "endY": 51.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kieran Sargeant",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 57,
+            "x": 91.7,
+            "y": 51.3,
+            "endX": 70.5,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Sargeant",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 57,
+            "x": 70.5,
+            "y": 46.1,
+            "endX": 86.0,
+            "endY": 39.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Manu Duah",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 1,
+            "x": 86.0,
+            "y": 39.2,
+            "endX": 69.4,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Manu Duah",
             "tipo": "Pass",
             "minuto": 10,
@@ -484,7 +528,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julián Aude",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -628,7 +677,35 @@
         "y": 56.9,
         "arco_y": 47.5,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 14,
+            "x": 55.3,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 17,
+            "x": 72.8,
+            "y": 28.2,
+            "endX": 86.1,
+            "endY": 55.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Harbor Tarczynski-Miller",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

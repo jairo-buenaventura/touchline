@@ -375,6 +375,28 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Albert Grønbæk",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 46,
+            "x": 74.7,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Grønbæk",
+            "tipo": "BallTouch",
+            "minuto": 10,
+            "segundo": 47,
+            "x": 74.7,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Glen Kamara",
             "tipo": "Pass",
             "minuto": 10,
@@ -385,7 +407,12 @@
             "endY": 41.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Denis Zakaria",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -4993,7 +5020,24 @@
         "y": 47.2,
         "arco_y": 51.0,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thilo Kehrer",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 10,
+            "x": 95.8,
+            "y": 42.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -5003,7 +5047,299 @@
         "y": 64.8,
         "arco_y": 51.9,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 64.2,
+            "y": 24.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 64.2,
+            "y": 24.2,
+            "endX": 67.1,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 67.1,
+            "y": 44.9,
+            "endX": 58.0,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 58.0,
+            "y": 60.3,
+            "endX": 44.1,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 16,
+            "x": 44.1,
+            "y": 50.7,
+            "endX": 37.4,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 16,
+            "x": 37.4,
+            "y": 64.7,
+            "endX": 14.8,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Köhn",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 19,
+            "x": 14.8,
+            "y": 47.8,
+            "endX": 26.8,
+            "endY": 81.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 23,
+            "x": 27.9,
+            "y": 81.7,
+            "endX": 36.2,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 26,
+            "x": 36.2,
+            "y": 66.0,
+            "endX": 38.0,
+            "endY": 70.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 26,
+            "x": 38.0,
+            "y": 70.1,
+            "endX": 37.4,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 37.0,
+            "y": 86.7,
+            "endX": 38.0,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 33,
+            "x": 38.0,
+            "y": 68.8,
+            "endX": 43.4,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 33,
+            "x": 43.4,
+            "y": 66.0,
+            "endX": 45.5,
+            "endY": 86.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 37,
+            "x": 46.2,
+            "y": 89.0,
+            "endX": 43.2,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 39,
+            "x": 43.2,
+            "y": 74.2,
+            "endX": 42.2,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 39,
+            "x": 42.2,
+            "y": 68.6,
+            "endX": 39.1,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thilo Kehrer",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 42,
+            "x": 39.1,
+            "y": 41.3,
+            "endX": 41.9,
+            "endY": 42.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thilo Kehrer",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 42,
+            "x": 41.9,
+            "y": 42.9,
+            "endX": 59.0,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takumi Minamino",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 44,
+            "x": 60.5,
+            "y": 55.1,
+            "endX": 63.4,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 63.4,
+            "y": 68.3,
+            "endX": 65.6,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 65.6,
+            "y": 55.6,
+            "endX": 75.5,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vanderson",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 47,
+            "x": 75.5,
+            "y": 37.4,
+            "endX": 64.4,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 52,
+            "x": 64.4,
+            "y": 42.1,
+            "endX": 64.7,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 52,
+            "x": 64.7,
+            "y": 55.8,
+            "endX": 82.6,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Folarin Balogun",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 53,
+            "x": 82.6,
+            "y": 68.6,
+            "endX": 84.0,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Folarin Balogun",
+            "tipo": "TakeOn",
+            "minuto": 21,
+            "segundo": 53,
+            "x": 84.0,
+            "y": 60.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

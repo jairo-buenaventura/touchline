@@ -438,6 +438,28 @@
         "secuencia_gol": [
           {
             "jugador": "Çaglar Söyüncü",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 45,
+            "x": 50.7,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Çaglar Söyüncü",
+            "tipo": "TakeOn",
+            "minuto": 66,
+            "segundo": 45,
+            "x": 51.7,
+            "y": 57.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Çaglar Söyüncü",
             "tipo": "Pass",
             "minuto": 66,
             "segundo": 47,
@@ -469,7 +491,12 @@
             "endY": 67.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Myrto Uzuni",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

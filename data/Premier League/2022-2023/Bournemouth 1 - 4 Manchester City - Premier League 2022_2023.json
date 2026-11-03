@@ -497,7 +497,90 @@
         "y": 49.1,
         "arco_y": 50.7,
         "arco_z": 26.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 13,
+            "x": 58.6,
+            "y": 78.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "TakeOn",
+            "minuto": 82,
+            "segundo": 14,
+            "x": 57.2,
+            "y": 77.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 18,
+            "x": 69.2,
+            "y": 75.3,
+            "endX": 76.6,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaidon Anthony",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 21,
+            "x": 76.6,
+            "y": 82.4,
+            "endX": 85.1,
+            "endY": 76.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaidon Anthony",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 21,
+            "x": 85.1,
+            "y": 76.8,
+            "endX": 94.8,
+            "endY": 74.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 23,
+            "x": 97.0,
+            "y": 74.6,
+            "endX": 94.6,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominic Solanke",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 23,
+            "x": 94.2,
+            "y": 58.1,
+            "endX": 92.3,
+            "endY": 52.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rúben Dias",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -4351,7 +4434,35 @@
         "y": 53.4,
         "arco_y": 52.2,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Phil Foden",
+            "tipo": "BallTouch",
+            "minuto": 14,
+            "segundo": 29,
+            "x": 90.1,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "SavedShot",
+            "minuto": 14,
+            "segundo": 29,
+            "x": 90.7,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marcos Senesi",
+          "portero": true
+        }
       },
       {
         "minuto": 20,
@@ -4380,6 +4491,72 @@
         "arco_y": 52.4,
         "arco_z": 16.5,
         "secuencia_gol": [
+          {
+            "jugador": "Ederson",
+            "tipo": "KeeperPickup",
+            "minuto": 27,
+            "segundo": 44,
+            "x": 0.6,
+            "y": 43.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ederson",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 58,
+            "x": 13.2,
+            "y": 45.4,
+            "endX": 18.1,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 4,
+            "x": 18.1,
+            "y": 72.6,
+            "endX": 30.5,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 4,
+            "x": 30.5,
+            "y": 76.2,
+            "endX": 42.9,
+            "endY": 97.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 6,
+            "x": 44.3,
+            "y": 97.7,
+            "endX": 47.2,
+            "endY": 96.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 47.2,
+            "y": 96.2,
+            "endX": 40.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Nathan Aké",
             "tipo": "Pass",
@@ -4457,7 +4634,12 @@
             "endY": 54.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Dango Ouattara",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4479,6 +4661,17 @@
         "secuencia_gol": [
           {
             "jugador": "Phil Foden",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 24,
+            "x": 80.6,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
             "tipo": "TakeOn",
             "minuto": 44,
             "segundo": 25,
@@ -4488,7 +4681,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jack Stephens",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

@@ -420,6 +420,28 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Lee Kang-In",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 48,
+            "x": 84.1,
+            "y": 86.5,
+            "endX": 85.8,
+            "endY": 81.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Copete",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 53,
+            "x": 85.8,
+            "y": 81.7,
+            "endX": 57.5,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Copete",
             "tipo": "Pass",
             "minuto": 46,
@@ -540,7 +562,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Óscar Gil",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

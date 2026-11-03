@@ -444,6 +444,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "José Sá",
+            "tipo": "KeeperPickup",
+            "minuto": 38,
+            "segundo": 6,
+            "x": 1.8,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Sá",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 9,
+            "x": 15.6,
+            "y": 54.3,
+            "endX": 62.0,
+            "endY": 65.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matheus Cunha",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 19,
+            "x": 62.0,
+            "y": 65.7,
+            "endX": 63.0,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Matheus Cunha",
             "tipo": "Pass",
             "minuto": 38,
@@ -454,7 +487,12 @@
             "endY": 63.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Reece Burke",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -5341,6 +5379,17 @@
         "secuencia_gol": [
           {
             "jugador": "Reece Burke",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 90.7,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece Burke",
             "tipo": "Pass",
             "minuto": 79,
             "segundo": 44,
@@ -5350,7 +5399,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rayan Aït-Nouri",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

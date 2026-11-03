@@ -575,6 +575,17 @@
         "secuencia_gol": [
           {
             "jugador": "Álvaro García",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 28,
+            "x": 68.4,
+            "y": 82.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro García",
             "tipo": "TakeOn",
             "minuto": 79,
             "segundo": 28,
@@ -595,7 +606,12 @@
             "endY": 55.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jawad El Yamiq",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

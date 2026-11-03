@@ -4753,7 +4753,24 @@
         "y": 47.7,
         "arco_y": 47.0,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 58,
+            "x": 3.4,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tristan Blackmon",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4801,6 +4818,39 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Sergi Palencia",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 58,
+            "x": 28.5,
+            "y": 87.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 58,
+            "x": 24.4,
+            "y": 88.5,
+            "endX": 58.8,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Ordaz",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 9,
+            "x": 58.8,
+            "y": 87.9,
+            "endX": 91.2,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Nathan Ordaz",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -4844,7 +4894,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bjørn Utvik",
+          "portero": false
+        }
       }
     ],
     "corners": [

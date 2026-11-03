@@ -3701,6 +3701,28 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 50,
+            "x": 67.3,
+            "y": 75.9,
+            "endX": 89.5,
+            "endY": 44.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 54,
+            "x": 89.5,
+            "y": 44.6,
+            "endX": 81.2,
+            "endY": 19.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolò Barella",
             "tipo": "Pass",
             "minuto": 52,
@@ -3711,7 +3733,12 @@
             "endY": 60.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Michel Adopo",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

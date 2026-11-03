@@ -662,6 +662,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dango Ouattara",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 93.6,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dango Ouattara",
             "tipo": "Pass",
             "minuto": 90,
             "segundo": 38,
@@ -671,7 +682,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jack Robinson",
+          "portero": false
+        }
       },
       {
         "minuto": 95,
@@ -5560,7 +5576,79 @@
         "y": 44.5,
         "arco_y": 51.6,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gustavo Hamer",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 49,
+            "x": 57.3,
+            "y": 75.8,
+            "endX": 70.2,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver McBurnie",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 53,
+            "x": 70.2,
+            "y": 84.2,
+            "endX": 75.2,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver McBurnie",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 53,
+            "x": 75.2,
+            "y": 68.3,
+            "endX": 79.8,
+            "endY": 52.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustavo Hamer",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 55,
+            "x": 79.8,
+            "y": 52.6,
+            "endX": 79.8,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustavo Hamer",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 55,
+            "x": 79.8,
+            "y": 48.1,
+            "endX": 87.8,
+            "endY": 31.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jayden Bogle",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 57,
+            "x": 88.0,
+            "y": 32.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Neto",
+          "portero": true
+        }
       },
       {
         "minuto": 31,

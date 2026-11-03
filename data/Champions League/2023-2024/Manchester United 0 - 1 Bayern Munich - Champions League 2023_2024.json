@@ -4348,6 +4348,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Kingsley Coman",
+            "tipo": "BallTouch",
+            "minuto": 69,
+            "segundo": 53,
+            "x": 72.4,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 56,
+            "x": 71.1,
+            "y": 50.9,
+            "endX": 78.8,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 57,
+            "x": 78.1,
+            "y": 48.4,
+            "endX": 79.5,
+            "endY": 51.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 58,
+            "x": 79.5,
+            "y": 51.0,
+            "endX": 79.1,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Harry Kane",
             "tipo": "Pass",
             "minuto": 69,
@@ -4358,7 +4402,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jonny Evans",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

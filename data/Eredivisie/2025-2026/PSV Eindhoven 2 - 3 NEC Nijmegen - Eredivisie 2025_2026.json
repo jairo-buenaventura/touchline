@@ -515,6 +515,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Kiliann Sildillia",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 33,
+            "x": 11.3,
+            "y": 9.7,
+            "endX": 8.1,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matej Kovár",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 36,
+            "x": 8.1,
+            "y": 47.2,
+            "endX": 5.3,
+            "endY": 51.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matej Kovár",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 36,
+            "x": 5.3,
+            "y": 51.6,
+            "endX": 19.3,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anass Salah-Eddine",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 19.3,
+            "y": 89.0,
+            "endX": 17.0,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anass Salah-Eddine",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 17.0,
+            "y": 91.1,
+            "endX": 25.7,
+            "endY": 93.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anass Salah-Eddine",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 52,
+            "x": 25.7,
+            "y": 93.3,
+            "endX": 22.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Anass Salah-Eddine",
             "tipo": "Pass",
             "minuto": 91,
@@ -668,7 +734,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Youssef El Kachati",
+          "portero": false
+        }
       },
       {
         "minuto": 96,
@@ -5110,7 +5181,79 @@
         "y": 31.7,
         "arco_y": 47.2,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Deveron Fonville",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 51,
+            "x": 60.1,
+            "y": 82.6,
+            "endX": 71.2,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 54,
+            "x": 71.2,
+            "y": 90.9,
+            "endX": 73.4,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 54,
+            "x": 73.4,
+            "y": 87.7,
+            "endX": 79.8,
+            "endY": 55.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noé Lebreton",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 55,
+            "x": 81.5,
+            "y": 53.8,
+            "endX": 85.9,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Linssen",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 85.9,
+            "y": 56.4,
+            "endX": 87.0,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Linssen",
+            "tipo": "SavedShot",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 87.0,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Paul Wanner",
+          "portero": true
+        }
       },
       {
         "minuto": 70,

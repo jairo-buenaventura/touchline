@@ -4186,6 +4186,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Matteo Dams",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 29,
+            "x": 60.4,
+            "y": 89.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Dams",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 30,
+            "x": 60.4,
+            "y": 89.6,
+            "endX": 64.3,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noa Lang",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 30,
+            "x": 64.3,
+            "y": 93.8,
+            "endX": 71.9,
+            "endY": 92.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Noa Lang",
             "tipo": "TakeOn",
             "minuto": 68,
@@ -4383,7 +4416,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Siebe Horemans",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

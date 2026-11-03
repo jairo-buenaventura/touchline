@@ -5084,6 +5084,28 @@
         "secuencia_gol": [
           {
             "jugador": "Nico Williams",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 57,
+            "x": 56.2,
+            "y": 5.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 58,
+            "x": 63.2,
+            "y": 9.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 2,
@@ -5093,7 +5115,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Omar Alderete",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

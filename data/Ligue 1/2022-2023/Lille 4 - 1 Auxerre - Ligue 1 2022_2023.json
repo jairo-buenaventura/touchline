@@ -5560,6 +5560,50 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Youssouf M'Changama",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 51,
+            "x": 35.0,
+            "y": 82.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf M'Changama",
+            "tipo": "TakeOn",
+            "minuto": 66,
+            "segundo": 52,
+            "x": 39.1,
+            "y": 80.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf M'Changama",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 53.9,
+            "y": 98.7,
+            "endX": 49.2,
+            "endY": 93.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mathias Autret",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 7,
+            "x": 49.2,
+            "y": 93.0,
+            "endX": 45.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Mathias Autret",
             "tipo": "Pass",
             "minuto": 67,
@@ -5757,7 +5801,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Rémy Cabella",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

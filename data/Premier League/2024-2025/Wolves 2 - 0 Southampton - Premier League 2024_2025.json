@@ -385,6 +385,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Matheus Cunha",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 46,
+            "x": 74.7,
+            "y": 63.6,
+            "endX": 91.4,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Sarabia",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 48,
+            "x": 91.4,
+            "y": 55.1,
+            "endX": 91.6,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Pablo Sarabia",
             "tipo": "TakeOn",
             "minuto": 1,
@@ -395,7 +417,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aaron Ramsdale",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

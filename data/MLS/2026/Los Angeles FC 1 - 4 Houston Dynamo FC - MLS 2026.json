@@ -5580,7 +5580,79 @@
         "y": 38.3,
         "arco_y": 51.7,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Guilherme",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 34,
+            "x": 36.6,
+            "y": 75.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guilherme",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 39,
+            "x": 59.3,
+            "y": 75.0,
+            "endX": 64.4,
+            "endY": 38.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 42,
+            "x": 64.4,
+            "y": 38.7,
+            "endX": 73.2,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 42,
+            "x": 73.2,
+            "y": 30.6,
+            "endX": 85.9,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 45,
+            "x": 85.9,
+            "y": 24.4,
+            "endX": 89.5,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "SavedShot",
+            "minuto": 50,
+            "segundo": 45,
+            "x": 89.5,
+            "y": 30.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Hugo Lloris",
+          "portero": true
+        }
       },
       {
         "minuto": 54,
@@ -5591,6 +5663,72 @@
         "arco_y": 54.0,
         "arco_z": 7.6,
         "secuencia_gol": [
+          {
+            "jugador": "Lawrence Ennali",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 15,
+            "x": 24.5,
+            "y": 69.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lawrence Ennali",
+            "tipo": "BallTouch",
+            "minuto": 54,
+            "segundo": 15,
+            "x": 28.5,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diadié Samassékou",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 16,
+            "x": 28.0,
+            "y": 65.5,
+            "endX": 32.7,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 18,
+            "x": 32.3,
+            "y": 52.4,
+            "endX": 78.7,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guilherme",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 29,
+            "x": 78.7,
+            "y": 86.2,
+            "endX": 87.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guilherme",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 29,
+            "x": 87.2,
+            "y": 69.3,
+            "endX": 84.6,
+            "endY": 51.5,
+            "exitoso": true
+          },
           {
             "jugador": "Lawrence Ennali",
             "tipo": "TakeOn",
@@ -5613,7 +5751,12 @@
             "endY": 38.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jacob Shaffelburg",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

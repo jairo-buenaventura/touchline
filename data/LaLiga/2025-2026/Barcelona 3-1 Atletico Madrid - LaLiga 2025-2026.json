@@ -440,6 +440,50 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Pau Cubarsí",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 3,
+            "x": 34.3,
+            "y": 35.7,
+            "endX": 43.4,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 7,
+            "x": 43.4,
+            "y": 46.0,
+            "endX": 53.9,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 7,
+            "x": 53.9,
+            "y": 48.8,
+            "endX": 80.0,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 9,
+            "x": 80.0,
+            "y": 39.5,
+            "endX": 88.2,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Raphinha",
             "tipo": "TakeOn",
             "minuto": 25,
@@ -450,7 +494,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jan Oblak",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -572,6 +621,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dro Fernández",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 24,
+            "x": 61.3,
+            "y": 75.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dro Fernández",
             "tipo": "Pass",
             "minuto": 95,
             "segundo": 25,
@@ -658,7 +718,12 @@
             "endY": 55.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Conor Gallagher",
+          "portero": false
+        }
       }
     ],
     "corners": [

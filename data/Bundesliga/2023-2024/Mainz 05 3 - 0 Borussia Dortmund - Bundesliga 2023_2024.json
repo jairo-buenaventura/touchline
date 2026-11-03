@@ -495,6 +495,28 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 2,
+            "x": 64.7,
+            "y": 48.1,
+            "endX": 88.8,
+            "endY": 29.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Silvan Widmer",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 28,
+            "x": 88.8,
+            "y": 29.7,
+            "endX": 64.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Silvan Widmer",
             "tipo": "Pass",
             "minuto": 22,
@@ -560,7 +582,12 @@
             "endY": 42.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mateu Morey",
+          "portero": false
+        }
       },
       {
         "minuto": 32,

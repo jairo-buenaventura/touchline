@@ -731,6 +731,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tom Barlow",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 57,
+            "x": 42.7,
+            "y": 79.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Barlow",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 59,
@@ -817,7 +828,12 @@
             "endY": 28.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -5122,7 +5138,24 @@
         "y": 45.4,
         "arco_y": 47.2,
         "arco_z": 26.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Munie",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 5,
+            "x": 96.0,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kyle Smith",
+          "portero": false
+        }
       },
       {
         "minuto": 42,

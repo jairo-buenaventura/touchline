@@ -463,6 +463,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Isak Hien",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 12,
+            "x": 39.1,
+            "y": 65.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isak Hien",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 14,
+            "x": 39.1,
+            "y": 67.8,
+            "endX": 58.3,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Ademola Lookman",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -473,7 +495,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bartosz Bereszynski",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

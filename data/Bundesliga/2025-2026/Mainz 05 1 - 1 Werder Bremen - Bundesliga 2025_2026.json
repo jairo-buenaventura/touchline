@@ -424,6 +424,17 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Silvan Widmer",
+            "tipo": "SavedShot",
+            "minuto": 35,
+            "segundo": 36,
+            "x": 90.8,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Benedict Hollerbach",
             "tipo": "Pass",
             "minuto": 35,
@@ -434,7 +445,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mio Backhaus",
+          "portero": true
+        }
       },
       {
         "minuto": 39,
@@ -4205,7 +4221,46 @@
         "y": 64.9,
         "arco_y": 46.4,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Keke Topp",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 3,
+            "x": 88.1,
+            "y": 7.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keke Topp",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 5,
+            "x": 85.4,
+            "y": 7.9,
+            "endX": 72.7,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amos Pieper",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 7,
+            "x": 72.7,
+            "y": 11.7,
+            "endX": 93.1,
+            "endY": 50.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Andreas Hanche-Olsen",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

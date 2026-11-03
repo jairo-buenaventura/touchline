@@ -557,7 +557,145 @@
         "y": 60.2,
         "arco_y": 45.8,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Evert Linthorst",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 58,
+            "x": 71.7,
+            "y": 80.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evert Linthorst",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 59,
+            "x": 71.7,
+            "y": 80.0,
+            "endX": 60.4,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 1,
+            "x": 60.0,
+            "y": 84.3,
+            "endX": 62.0,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Deijl",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 7,
+            "x": 61.7,
+            "y": 37.1,
+            "endX": 39.3,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Amofa",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 9,
+            "x": 39.3,
+            "y": 48.5,
+            "endX": 41.4,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Amofa",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 9,
+            "x": 41.4,
+            "y": 46.1,
+            "endX": 45.6,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 13,
+            "x": 44.9,
+            "y": 72.1,
+            "endX": 47.6,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evert Linthorst",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 16,
+            "x": 47.6,
+            "y": 52.0,
+            "endX": 55.4,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evert Linthorst",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 16,
+            "x": 55.4,
+            "y": 43.4,
+            "endX": 81.3,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bas Kuipers",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 23,
+            "x": 81.3,
+            "y": 91.7,
+            "endX": 75.8,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bas Kuipers",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 23,
+            "x": 75.8,
+            "y": 91.1,
+            "endX": 68.6,
+            "endY": 74.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Rommens",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 25,
+            "x": 69.2,
+            "y": 76.9,
+            "endX": 87.8,
+            "endY": 55.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Brian Plat",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -577,6 +715,17 @@
         "arco_y": 45.6,
         "arco_z": 10.1,
         "secuencia_gol": [
+          {
+            "jugador": "Sylla Sow",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 4,
+            "x": 92.1,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Sylla Sow",
             "tipo": "Pass",
@@ -621,7 +770,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Calvin Twigt",
+          "portero": false
+        }
       },
       {
         "minuto": 98,
@@ -4257,6 +4411,17 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Daryl van Mieghem",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 35,
+            "x": 90.0,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Brian Plat",
             "tipo": "Pass",
             "minuto": 60,
@@ -4311,7 +4476,12 @@
             "endY": 42.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Joris Kramer",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

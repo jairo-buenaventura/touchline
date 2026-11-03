@@ -531,6 +531,50 @@
         "secuencia_gol": [
           {
             "jugador": "Adrien Rabiot",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 8,
+            "x": 72.3,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 9,
+            "x": 72.3,
+            "y": 81.2,
+            "endX": 74.7,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 10,
+            "x": 74.7,
+            "y": 88.1,
+            "endX": 92.9,
+            "endY": 47.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 14,
+            "x": 92.9,
+            "y": 47.1,
+            "endX": 68.9,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
             "tipo": "Pass",
             "minuto": 59,
             "segundo": 14,
@@ -551,7 +595,12 @@
             "endY": 67.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Noussair Mazraoui",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

@@ -5562,6 +5562,28 @@
         "secuencia_gol": [
           {
             "jugador": "Yassin Oukili",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 15,
+            "x": 31.5,
+            "y": 27.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 15,
+            "x": 37.3,
+            "y": 29.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
             "tipo": "Pass",
             "minuto": 85,
             "segundo": 17,
@@ -5593,7 +5615,12 @@
             "endY": 38.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kian Fitz-Jim",
+          "portero": false
+        }
       }
     ],
     "corners": [

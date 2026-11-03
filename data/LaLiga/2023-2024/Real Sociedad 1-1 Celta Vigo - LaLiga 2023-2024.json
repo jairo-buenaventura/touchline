@@ -392,6 +392,50 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Hamari Traoré",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 15,
+            "x": 55.8,
+            "y": 0.0,
+            "endX": 48.0,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 23,
+            "x": 48.0,
+            "y": 55.6,
+            "endX": 59.2,
+            "endY": 65.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 23,
+            "x": 59.2,
+            "y": 65.7,
+            "endX": 88.6,
+            "endY": 7.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takefusa Kubo",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 88.6,
+            "y": 7.8,
+            "endX": 94.0,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Takefusa Kubo",
             "tipo": "TakeOn",
             "minuto": 21,
@@ -413,7 +457,12 @@
             "endY": 60.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Manu Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4552,7 +4601,79 @@
         "y": 50.0,
         "arco_y": 47.4,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Franco Cervi",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 56,
+            "x": 99.6,
+            "y": 99.3,
+            "endX": 86.6,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 86.6,
+            "y": 33.2,
+            "endX": 95.1,
+            "endY": 27.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 95.1,
+            "y": 27.7,
+            "endX": 90.8,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Aidoo",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 3,
+            "x": 89.6,
+            "y": 30.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Aidoo",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 89.5,
+            "y": 31.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carl Starfelt",
+            "tipo": "BallTouch",
+            "minuto": 93,
+            "segundo": 5,
+            "x": 92.1,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Robin Le Normand",
+          "portero": false
+        }
       }
     ],
     "corners": [

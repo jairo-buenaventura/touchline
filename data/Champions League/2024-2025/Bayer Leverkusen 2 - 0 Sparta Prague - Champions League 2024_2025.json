@@ -472,6 +472,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nordi Mukiele",
+            "tipo": "Aerial",
+            "minuto": 30,
+            "segundo": 53,
+            "x": 28.1,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordi Mukiele",
             "tipo": "Pass",
             "minuto": 30,
             "segundo": 53,
@@ -503,7 +514,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jaroslav Zeleny",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -612,7 +628,24 @@
         "y": 57.9,
         "arco_y": 49.9,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "SavedShot",
+            "minuto": 63,
+            "segundo": 23,
+            "x": 77.3,
+            "y": 72.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Peter Vindahl",
+          "portero": true
+        }
       },
       {
         "minuto": 67,

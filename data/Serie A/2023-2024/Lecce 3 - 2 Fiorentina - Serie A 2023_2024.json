@@ -501,7 +501,24 @@
         "y": 45.5,
         "arco_y": 53.9,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Roberto Piccoli",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 57,
+            "x": 94.0,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andrea Belotti",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -520,7 +537,79 @@
         "y": 63.3,
         "arco_y": 46.0,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joan González",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 40,
+            "x": 50.4,
+            "y": 21.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joan González",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 43,
+            "x": 73.4,
+            "y": 28.0,
+            "endX": 83.0,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Piccoli",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 83.0,
+            "y": 15.2,
+            "endX": 88.2,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Piccoli",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 88.2,
+            "y": 15.8,
+            "endX": 88.2,
+            "endY": 21.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nikola Krstovic",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 88.2,
+            "y": 21.1,
+            "endX": 87.0,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 87.0,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pietro Terracciano",
+          "portero": true
+        }
       }
     ],
     "corners": [

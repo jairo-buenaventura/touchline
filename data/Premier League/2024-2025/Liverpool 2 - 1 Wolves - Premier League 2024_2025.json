@@ -391,7 +391,90 @@
         "y": 53.6,
         "arco_y": 49.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 19,
+            "x": 18.9,
+            "y": 82.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 23,
+            "x": 27.6,
+            "y": 80.2,
+            "endX": 47.4,
+            "endY": 80.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 25,
+            "x": 47.4,
+            "y": 80.0,
+            "endX": 51.3,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 25,
+            "x": 51.3,
+            "y": 82.0,
+            "endX": 61.5,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 30,
+            "x": 61.5,
+            "y": 95.5,
+            "endX": 77.2,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 30,
+            "x": 77.2,
+            "y": 68.5,
+            "endX": 87.9,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 32,
+            "x": 87.2,
+            "y": 36.0,
+            "endX": 89.6,
+            "endY": 41.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Toti Gomes",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -4415,6 +4498,72 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "André",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 1,
+            "x": 68.0,
+            "y": 25.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "André",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 3,
+            "x": 70.0,
+            "y": 25.6,
+            "endX": 76.3,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nélson Semedo",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 12,
+            "x": 76.3,
+            "y": 11.0,
+            "endX": 79.0,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nélson Semedo",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 12,
+            "x": 79.0,
+            "y": 9.5,
+            "endX": 75.6,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Ricner Bellegarde",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 14,
+            "x": 75.3,
+            "y": 19.4,
+            "endX": 73.6,
+            "endY": 31.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Cunha",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 16,
+            "x": 73.6,
+            "y": 31.3,
+            "endX": 77.7,
+            "endY": 30.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Matheus Cunha",
             "tipo": "TakeOn",
             "minuto": 66,
@@ -4425,7 +4574,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ryan Gravenberch",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

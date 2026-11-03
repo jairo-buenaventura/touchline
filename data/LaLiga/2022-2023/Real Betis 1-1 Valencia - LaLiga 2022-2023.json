@@ -370,6 +370,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Sergio Canales",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 29,
+            "x": 24.6,
+            "y": 4.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Canales",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 30,
+            "x": 24.6,
+            "y": 4.2,
+            "endX": 25.1,
+            "endY": 4.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Youssouf Sabaly",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 42,
+            "x": 25.1,
+            "y": 4.2,
+            "endX": 22.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Youssouf Sabaly",
             "tipo": "Pass",
             "minuto": 0,
@@ -446,7 +479,12 @@
             "endY": 68.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "André Almeida",
+          "portero": false
+        }
       },
       {
         "minuto": 13,

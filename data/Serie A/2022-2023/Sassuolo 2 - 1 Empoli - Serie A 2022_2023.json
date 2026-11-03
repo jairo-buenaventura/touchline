@@ -4752,6 +4752,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolò Cambiaghi",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 32,
+            "x": 40.9,
+            "y": 29.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Cambiaghi",
             "tipo": "TakeOn",
             "minuto": 10,
             "segundo": 39,
@@ -4761,7 +4772,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Martin Erlic",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

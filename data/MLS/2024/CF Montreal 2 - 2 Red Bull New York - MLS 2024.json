@@ -377,7 +377,57 @@
         "y": 52.0,
         "arco_y": 50.9,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 0,
+            "x": 94.1,
+            "y": 17.6,
+            "endX": 93.4,
+            "endY": 61.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriele Corbo",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 2,
+            "x": 93.0,
+            "y": 60.1,
+            "endX": 95.6,
+            "endY": 36.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Sosa",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 3,
+            "x": 95.6,
+            "y": 36.6,
+            "endX": 96.1,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Sosa",
+            "tipo": "SavedShot",
+            "minuto": 10,
+            "segundo": 3,
+            "x": 96.1,
+            "y": 44.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Daniel Edelman",
+          "portero": true
+        }
       },
       {
         "minuto": 14,
@@ -398,6 +448,72 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Sirois",
+            "tipo": "KeeperPickup",
+            "minuto": 38,
+            "segundo": 38,
+            "x": 1.6,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Sirois",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 56,
+            "x": 1.6,
+            "y": 48.4,
+            "endX": 15.6,
+            "endY": 64.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fernando Álvarez",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 59,
+            "x": 15.6,
+            "y": 64.1,
+            "endX": 21.1,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fernando Álvarez",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 59,
+            "x": 21.1,
+            "y": 66.1,
+            "endX": 30.6,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 1,
+            "x": 33.0,
+            "y": 91.8,
+            "endX": 84.1,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mahala Opoku",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 6,
+            "x": 84.1,
+            "y": 44.8,
+            "endX": 85.6,
+            "endY": 37.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Mahala Opoku",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -408,7 +524,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "John Tolkin",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4670,6 +4791,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sean Nealis",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 59,
+            "x": 92.6,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Nealis",
             "tipo": "Pass",
             "minuto": 86,
             "segundo": 59,
@@ -4690,7 +4822,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lassi Lappalainen",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

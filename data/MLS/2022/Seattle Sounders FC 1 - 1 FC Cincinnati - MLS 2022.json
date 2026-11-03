@@ -397,6 +397,50 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Yeimar Gómez",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 53,
+            "x": 56.1,
+            "y": 17.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeimar Gómez",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 54,
+            "x": 56.1,
+            "y": 17.9,
+            "endX": 60.6,
+            "endY": 29.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Rusnák",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 55,
+            "x": 60.6,
+            "y": 29.3,
+            "endX": 57.8,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Rusnák",
+            "tipo": "TakeOn",
+            "minuto": 56,
+            "segundo": 55,
+            "x": 57.8,
+            "y": 27.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Albert Rusnák",
             "tipo": "Pass",
             "minuto": 56,
@@ -429,7 +473,12 @@
             "endY": 34.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucho Acosta",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4796,7 +4845,123 @@
         "y": 60.6,
         "arco_y": 47.1,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "KeeperPickup",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 4.6,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 37,
+            "x": 10.3,
+            "y": 46.9,
+            "endX": 12.0,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Hagglund",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 38,
+            "x": 12.0,
+            "y": 25.3,
+            "endX": 8.4,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Hagglund",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 38,
+            "x": 8.4,
+            "y": 18.2,
+            "endX": 3.7,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 38,
+            "x": 3.3,
+            "y": 48.2,
+            "endX": 11.2,
+            "endY": 78.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 41,
+            "x": 11.2,
+            "y": 78.5,
+            "endX": 13.0,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 41,
+            "x": 13.0,
+            "y": 82.7,
+            "endX": 39.1,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 39.1,
+            "y": 81.8,
+            "endX": 48.3,
+            "endY": 86.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 44,
+            "x": 48.4,
+            "y": 85.8,
+            "endX": 40.3,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 46,
+            "x": 40.2,
+            "y": 75.6,
+            "endX": 61.8,
+            "endY": 67.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Abdoulaye Cissoko",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

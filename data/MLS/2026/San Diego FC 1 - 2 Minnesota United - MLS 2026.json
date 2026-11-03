@@ -393,6 +393,72 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Lewis Morgan",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 32,
+            "x": 71.9,
+            "y": 48.5,
+            "endX": 79.7,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Verhoeven",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 35,
+            "x": 79.7,
+            "y": 23.9,
+            "endX": 78.8,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Verhoeven",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 35,
+            "x": 78.8,
+            "y": 20.9,
+            "endX": 69.6,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 39,
+            "x": 69.6,
+            "y": 29.1,
+            "endX": 72.6,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "SavedShot",
+            "minuto": 6,
+            "segundo": 39,
+            "x": 72.6,
+            "y": 37.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Morgan",
+            "tipo": "SavedShot",
+            "minuto": 6,
+            "segundo": 42,
+            "x": 88.4,
+            "y": 33.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Oscar Verhoeven",
             "tipo": "Pass",
             "minuto": 6,
@@ -436,7 +502,12 @@
             "endY": 60.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nicolás Romero",
+          "portero": true
+        }
       },
       {
         "minuto": 10,
@@ -5581,7 +5652,24 @@
         "y": 45.6,
         "arco_y": 48.0,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kyle Duncan",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 3,
+            "x": 94.3,
+            "y": 44.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luca Bombino",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -5636,7 +5724,35 @@
         "y": 52.1,
         "arco_y": 53.5,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anthony Markanich",
+            "tipo": "Aerial",
+            "minuto": 39,
+            "segundo": 31,
+            "x": 93.0,
+            "y": 60.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Markanich",
+            "tipo": "MissedShots",
+            "minuto": 39,
+            "segundo": 31,
+            "x": 93.0,
+            "y": 63.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Osvald Søe",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

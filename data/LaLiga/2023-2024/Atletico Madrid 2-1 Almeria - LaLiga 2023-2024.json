@@ -383,6 +383,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Antoine Griezmann",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 45,
+            "x": 81.2,
+            "y": 95.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 46,
+            "x": 81.7,
+            "y": 95.3,
+            "endX": 78.3,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Morata",
+            "tipo": "TakeOn",
+            "minuto": 16,
+            "segundo": 48,
+            "x": 81.0,
+            "y": 72.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Álvaro Morata",
             "tipo": "TakeOn",
             "minuto": 16,
@@ -393,7 +426,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Luís Maximiano",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -5186,7 +5224,68 @@
         "y": 46.4,
         "arco_y": 46.7,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sergio Akieme",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 25,
+            "x": 82.7,
+            "y": 100.0,
+            "endX": 93.5,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Arribas",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 26,
+            "x": 95.5,
+            "y": 86.1,
+            "endX": 94.5,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Akieme",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 28,
+            "x": 94.9,
+            "y": 92.8,
+            "endX": 89.3,
+            "endY": 56.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Álex Pozo",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 32,
+            "x": 89.3,
+            "y": 56.6,
+            "endX": 78.1,
+            "endY": 45.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Pozo",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 32,
+            "x": 78.1,
+            "y": 45.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jan Oblak",
+          "portero": true
+        }
       },
       {
         "minuto": 68,

@@ -432,7 +432,35 @@
         "y": 53.4,
         "arco_y": 52.9,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Calvin Twigt",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 71.5,
+            "y": 38.5,
+            "endX": 86.2,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathis Suray",
+            "tipo": "SavedShot",
+            "minuto": 57,
+            "segundo": 22,
+            "x": 86.2,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Stijn van Gassel",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -452,6 +480,28 @@
         "arco_y": 45.8,
         "arco_z": 11.4,
         "secuencia_gol": [
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 56,
+            "x": 58.5,
+            "y": 59.2,
+            "endX": 84.5,
+            "endY": 30.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oskar Sivertsen",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 5,
+            "x": 84.5,
+            "y": 30.9,
+            "endX": 65.9,
+            "endY": 3.0,
+            "exitoso": true
+          },
           {
             "jugador": "Oskar Sivertsen",
             "tipo": "Pass",
@@ -507,7 +557,12 @@
             "endY": 55.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Szymon Wlodarczyk",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

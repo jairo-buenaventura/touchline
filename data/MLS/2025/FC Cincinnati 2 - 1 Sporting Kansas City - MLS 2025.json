@@ -420,7 +420,90 @@
         "y": 36.4,
         "arco_y": 47.3,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tah Brian Anunga",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 23,
+            "x": 67.2,
+            "y": 30.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tah Brian Anunga",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 24,
+            "x": 67.2,
+            "y": 30.8,
+            "endX": 72.3,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 28,
+            "x": 72.3,
+            "y": 22.7,
+            "endX": 71.1,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 28,
+            "x": 71.1,
+            "y": 31.6,
+            "endX": 81.6,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 29,
+            "x": 81.6,
+            "y": 50.3,
+            "endX": 83.4,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Engel",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 30,
+            "x": 83.4,
+            "y": 61.1,
+            "endX": 81.7,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Engel",
+            "tipo": "SavedShot",
+            "minuto": 42,
+            "segundo": 30,
+            "x": 81.7,
+            "y": 63.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "John Pulskamp",
+          "portero": true
+        }
       },
       {
         "minuto": 44,
@@ -486,6 +569,28 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Miles Robinson",
+            "tipo": "Aerial",
+            "minuto": 76,
+            "segundo": 56,
+            "x": 90.2,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Obinna Nwobodo",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 0,
+            "x": 71.5,
+            "y": 44.2,
+            "endX": 88.1,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Luca Orellano",
             "tipo": "TakeOn",
             "minuto": 77,
@@ -507,7 +612,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robert Voloder",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -4902,6 +5012,17 @@
         "secuencia_gol": [
           {
             "jugador": "Andrew Brody",
+            "tipo": "Aerial",
+            "minuto": 88,
+            "segundo": 48,
+            "x": 67.0,
+            "y": 54.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Brody",
             "tipo": "Pass",
             "minuto": 88,
             "segundo": 48,
@@ -4933,7 +5054,12 @@
             "endY": 33.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kévin Denkey",
+          "portero": false
+        }
       }
     ],
     "corners": [

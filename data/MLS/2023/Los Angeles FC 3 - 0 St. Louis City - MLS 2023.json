@@ -564,6 +564,17 @@
         "secuencia_gol": [
           {
             "jugador": "Denil Maldonado",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 14,
+            "x": 23.7,
+            "y": 5.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denil Maldonado",
             "tipo": "TakeOn",
             "minuto": 91,
             "segundo": 16,
@@ -606,7 +617,12 @@
             "endY": 52.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "John Nelson",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

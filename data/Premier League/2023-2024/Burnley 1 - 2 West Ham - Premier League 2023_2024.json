@@ -4873,6 +4873,28 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "James Ward-Prowse",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.7,
+            "endY": 45.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vladimír Coufal",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 36,
+            "x": 90.7,
+            "y": 45.4,
+            "endX": 69.2,
+            "endY": 20.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Vladimír Coufal",
             "tipo": "Pass",
             "minuto": 90,
@@ -4916,7 +4938,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jordan Beyer",
+          "portero": false
+        }
       }
     ],
     "corners": [

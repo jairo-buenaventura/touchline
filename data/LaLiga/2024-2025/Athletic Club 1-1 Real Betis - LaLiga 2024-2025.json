@@ -484,6 +484,39 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Íñigo Ruíz de Galarreta",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 6,
+            "x": 31.5,
+            "y": 58.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Íñigo Ruíz de Galarreta",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 8,
+            "x": 31.5,
+            "y": 58.4,
+            "endX": 69.7,
+            "endY": 23.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Óscar De Marcos",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 25,
+            "x": 69.7,
+            "y": 23.5,
+            "endX": 49.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Óscar De Marcos",
             "tipo": "Pass",
             "minuto": 67,
@@ -615,7 +648,12 @@
             "endY": 45.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Diego Llorente",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -4924,6 +4962,94 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Pablo Fornals",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 37,
+            "x": 38.3,
+            "y": 66.6,
+            "endX": 34.6,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 39,
+            "x": 34.6,
+            "y": 65.8,
+            "endX": 31.4,
+            "endY": 61.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 39,
+            "x": 31.4,
+            "y": 61.9,
+            "endX": 30.6,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Bartra",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 30.6,
+            "y": 24.3,
+            "endX": 33.6,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Bartra",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 33.6,
+            "y": 16.3,
+            "endX": 38.9,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssouf Sabaly",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 45,
+            "x": 38.9,
+            "y": 5.5,
+            "endX": 56.0,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Assane Diao",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 46,
+            "x": 56.0,
+            "y": 4.9,
+            "endX": 57.0,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iker Losada",
+            "tipo": "BallTouch",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 57.0,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Youssouf Sabaly",
             "tipo": "TakeOn",
             "minuto": 51,
@@ -4956,7 +5082,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aitor Paredes",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

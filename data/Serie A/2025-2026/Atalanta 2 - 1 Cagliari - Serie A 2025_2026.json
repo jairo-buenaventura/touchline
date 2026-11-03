@@ -593,7 +593,145 @@
         "y": 45.9,
         "arco_y": 49.6,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 2,
+            "x": 34.9,
+            "y": 0.0,
+            "endX": 25.7,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Honest Ahanor",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 6,
+            "x": 25.7,
+            "y": 24.7,
+            "endX": 24.8,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Honest Ahanor",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 6,
+            "x": 24.8,
+            "y": 41.4,
+            "endX": 29.6,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 29.6,
+            "y": 62.1,
+            "endX": 31.1,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 31.1,
+            "y": 72.7,
+            "endX": 28.2,
+            "endY": 51.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Honest Ahanor",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 14,
+            "x": 26.9,
+            "y": 50.6,
+            "endX": 37.9,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Pasalic",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 16,
+            "x": 38.8,
+            "y": 28.2,
+            "endX": 45.5,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marten de Roon",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 19,
+            "x": 48.3,
+            "y": 6.3,
+            "endX": 67.8,
+            "endY": 4.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 21,
+            "x": 67.8,
+            "y": 4.8,
+            "endX": 72.0,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 21,
+            "x": 72.0,
+            "y": 6.8,
+            "endX": 75.7,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles De Ketelaere",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 23,
+            "x": 75.6,
+            "y": 19.7,
+            "endX": 82.4,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 25,
+            "x": 82.3,
+            "y": 12.7,
+            "endX": 84.8,
+            "endY": 16.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Riyad Idrissi",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -5093,6 +5231,39 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Elia Caprile",
+            "tipo": "Claim",
+            "minuto": 74,
+            "segundo": 5,
+            "x": 4.9,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elia Caprile",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 6,
+            "x": 12.5,
+            "y": 45.1,
+            "endX": 61.1,
+            "endY": 53.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alessandro Deiola",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 11,
+            "x": 61.1,
+            "y": 53.8,
+            "endX": 55.5,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Alessandro Deiola",
             "tipo": "Pass",
             "minuto": 74,
@@ -5180,7 +5351,12 @@
             "endY": 62.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Honest Ahanor",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

@@ -613,6 +613,17 @@
         "secuencia_gol": [
           {
             "jugador": "Víctor Chust",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 39,
+            "x": 25.9,
+            "y": 94.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Víctor Chust",
             "tipo": "Pass",
             "minuto": 72,
             "segundo": 45,
@@ -743,7 +754,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luka Sucic",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -5144,6 +5160,50 @@
         "arco_z": 26.0,
         "secuencia_gol": [
           {
+            "jugador": "Job Ochieng",
+            "tipo": "CornerAwarded",
+            "minuto": 9,
+            "segundo": 20,
+            "x": 86.4,
+            "y": 33.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Gómez",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 58,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 96.1,
+            "endY": 51.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 2,
+            "x": 96.1,
+            "y": 51.4,
+            "endX": 76.0,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "MissedShots",
+            "minuto": 10,
+            "segundo": 2,
+            "x": 76.0,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Carlos Soler",
             "tipo": "Pass",
             "minuto": 10,
@@ -5154,7 +5214,12 @@
             "endY": 36.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Germán Valera",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -5262,6 +5327,61 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Héctor Fort",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 2,
+            "x": 30.0,
+            "y": 0.0,
+            "endX": 56.1,
+            "endY": 20.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 3,
+            "x": 56.1,
+            "y": 20.7,
+            "endX": 42.9,
+            "endY": 18.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "BallTouch",
+            "minuto": 89,
+            "segundo": 3,
+            "x": 42.9,
+            "y": 18.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Job Ochieng",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 55.6,
+            "y": 20.7,
+            "endX": 62.8,
+            "endY": 13.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 6,
+            "x": 62.8,
+            "y": 13.1,
+            "endX": 64.9,
+            "endY": 18.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Luka Sucic",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -5272,7 +5392,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Víctor Chust",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

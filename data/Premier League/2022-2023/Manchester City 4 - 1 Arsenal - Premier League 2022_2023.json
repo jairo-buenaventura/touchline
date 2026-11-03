@@ -696,7 +696,35 @@
         "y": 49.6,
         "arco_y": 51.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Phil Foden",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 28,
+            "x": 77.2,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 29,
+            "x": 78.4,
+            "y": 44.7,
+            "endX": 82.1,
+            "endY": 46.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Rob Holding",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4671,6 +4699,28 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Leandro Trossard",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 35,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.8,
+            "endY": 39.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oleksandr Zinchenko",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 39,
+            "x": 89.8,
+            "y": 39.8,
+            "endX": 67.8,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Oleksandr Zinchenko",
             "tipo": "Pass",
             "minuto": 85,
@@ -4747,7 +4797,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julián Alvarez",
+          "portero": false
+        }
       }
     ],
     "corners": [

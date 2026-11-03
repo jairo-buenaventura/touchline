@@ -447,6 +447,61 @@
         "secuencia_gol": [
           {
             "jugador": "João Palhinha",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 56,
+            "x": 42.6,
+            "y": 71.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Palhinha",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 1,
+            "x": 63.3,
+            "y": 85.5,
+            "endX": 77.4,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 4,
+            "x": 77.4,
+            "y": 85.7,
+            "endX": 82.7,
+            "endY": 80.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 4,
+            "x": 82.7,
+            "y": 80.0,
+            "endX": 83.4,
+            "endY": 56.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "João Palhinha",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 11,
+            "x": 83.4,
+            "y": 56.7,
+            "endX": 71.2,
+            "endY": 98.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Palhinha",
             "tipo": "Pass",
             "minuto": 21,
             "segundo": 11,
@@ -544,7 +599,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tomás Soucek",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -574,6 +634,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Raúl Jiménez",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 3,
+            "x": 69.9,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raúl Jiménez",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 5,
+            "x": 70.0,
+            "y": 59.7,
+            "endX": 77.1,
+            "endY": 79.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 10,
+            "x": 77.1,
+            "y": 79.2,
+            "endX": 75.9,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 10,
+            "x": 75.9,
+            "y": 71.1,
+            "endX": 81.0,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Iwobi",
+            "tipo": "SavedShot",
+            "minuto": 30,
+            "segundo": 11,
+            "x": 82.8,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Andreas Pereira",
             "tipo": "Pass",
             "minuto": 30,
@@ -595,7 +710,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lukasz Fabianski",
+          "portero": true
+        }
       },
       {
         "minuto": 39,
@@ -614,7 +734,24 @@
         "y": 52.4,
         "arco_y": 53.2,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tosin Adarabioyo",
+            "tipo": "Aerial",
+            "minuto": 40,
+            "segundo": 0,
+            "x": 88.0,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kurt Zouma",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

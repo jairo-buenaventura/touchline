@@ -472,7 +472,24 @@
         "y": 50.1,
         "arco_y": 50.2,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bernd Leno",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 36,
+            "x": 0.1,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jake O'Brien",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4751,6 +4768,94 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Jake O'Brien",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 34,
+            "x": 61.6,
+            "y": 0.0,
+            "endX": 60.3,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Idrissa Gueye",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 39,
+            "x": 59.4,
+            "y": 9.8,
+            "endX": 58.9,
+            "endY": 5.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 40,
+            "x": 59.0,
+            "y": 5.5,
+            "endX": 41.5,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Keane",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 41.5,
+            "y": 40.1,
+            "endX": 61.4,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Keane",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 61.4,
+            "y": 60.3,
+            "endX": 63.9,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrique George",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 52,
+            "x": 63.9,
+            "y": 92.4,
+            "endX": 68.4,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrique George",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 52,
+            "x": 68.4,
+            "y": 91.4,
+            "endX": 86.0,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitalii Mykolenko",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 55,
+            "x": 86.0,
+            "y": 91.8,
+            "endX": 89.9,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Vitalii Mykolenko",
             "tipo": "TakeOn",
             "minuto": 74,
@@ -4772,7 +4877,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joachim Andersen",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

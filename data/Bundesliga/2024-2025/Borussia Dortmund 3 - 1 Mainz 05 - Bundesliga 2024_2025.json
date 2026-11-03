@@ -459,6 +459,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 13,
+            "x": 47.6,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 13,
+            "x": 47.6,
+            "y": 58.5,
+            "endX": 54.8,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Beier",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 15,
+            "x": 54.8,
+            "y": 48.4,
+            "endX": 60.0,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Maximilian Beier",
             "tipo": "TakeOn",
             "minuto": 38,
@@ -535,7 +568,12 @@
             "endY": 48.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lee Jae-Sung",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -545,7 +583,24 @@
         "y": 57.7,
         "arco_y": 49.9,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emre Can",
+            "tipo": "Aerial",
+            "minuto": 41,
+            "segundo": 12,
+            "x": 97.2,
+            "y": 59.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Burkardt",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -591,7 +646,24 @@
         "y": 49.1,
         "arco_y": 49.7,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maximilian Beier",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 10,
+            "x": 93.4,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Moritz Jenz",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

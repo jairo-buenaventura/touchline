@@ -3954,6 +3954,39 @@
         "secuencia_gol": [
           {
             "jugador": "Quinten Timber",
+            "tipo": "CornerAwarded",
+            "minuto": 70,
+            "segundo": 40,
+            "x": 85.6,
+            "y": 89.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Stengs",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 8,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 92.2,
+            "endY": 62.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Quinten Timber",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 92.2,
+            "y": 62.1,
+            "endX": 70.6,
+            "endY": 72.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinten Timber",
             "tipo": "Pass",
             "minuto": 71,
             "segundo": 12,
@@ -3985,7 +4018,12 @@
             "endY": 13.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jason van Duiven",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4006,6 +4044,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Alireza Jahanbakhsh",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 23,
+            "x": 72.4,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alireza Jahanbakhsh",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 24,
+            "x": 74.9,
+            "y": 39.3,
+            "endX": 76.1,
+            "endY": 37.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yankuba Minteh",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 76.1,
+            "y": 37.2,
+            "endX": 84.0,
+            "endY": 28.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yankuba Minteh",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 84.0,
+            "y": 28.1,
+            "endX": 95.2,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alireza Jahanbakhsh",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 29,
+            "x": 96.5,
+            "y": 32.7,
+            "endX": 94.8,
+            "endY": 45.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Calvin Stengs",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 33,
+            "x": 94.8,
+            "y": 45.4,
+            "endX": 95.7,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Calvin Stengs",
             "tipo": "Pass",
             "minuto": 91,
@@ -4016,7 +4120,12 @@
             "endY": 54.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Milan Corryn",
+          "portero": false
+        }
       }
     ],
     "corners": [

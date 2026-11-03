@@ -4901,6 +4901,28 @@
         "arco_z": 34.8,
         "secuencia_gol": [
           {
+            "jugador": "Kevin Stöger",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 40,
+            "x": 70.6,
+            "y": 43.1,
+            "endX": 85.9,
+            "endY": 37.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dominique Heintz",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 85.9,
+            "y": 37.4,
+            "endX": 89.9,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Dominique Heintz",
             "tipo": "Pass",
             "minuto": 75,
@@ -4922,7 +4944,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Florian Kainz",
+          "portero": false
+        }
       }
     ],
     "corners": [

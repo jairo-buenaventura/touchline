@@ -491,7 +491,24 @@
         "y": 32.4,
         "arco_y": 47.7,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hans Nicolussi Caviglia",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 35,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 93.6,
+            "endY": 50.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sam Beukema",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -4742,6 +4759,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Matteo Politano",
+            "tipo": "CornerAwarded",
+            "minuto": 49,
+            "segundo": 45,
+            "x": 97.0,
+            "y": 41.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Politano",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 17,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.6,
+            "endY": 43.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frank Anguissa",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 20,
+            "x": 94.6,
+            "y": 43.9,
+            "endX": 98.0,
+            "endY": 59.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Frank Anguissa",
             "tipo": "Pass",
             "minuto": 50,
@@ -4752,7 +4802,12 @@
             "endY": 52.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Simon Sohm",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

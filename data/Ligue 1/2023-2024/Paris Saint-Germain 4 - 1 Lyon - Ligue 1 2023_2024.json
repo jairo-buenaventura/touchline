@@ -637,6 +637,72 @@
         "secuencia_gol": [
           {
             "jugador": "Vitinha",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 7,
+            "x": 15.1,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 8,
+            "x": 18.7,
+            "y": 47.6,
+            "endX": 28.7,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 12,
+            "x": 28.7,
+            "y": 89.0,
+            "endX": 29.1,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 12,
+            "x": 29.1,
+            "y": 83.6,
+            "endX": 18.9,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beraldo",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 14,
+            "x": 17.9,
+            "y": 85.3,
+            "endX": 25.0,
+            "endY": 80.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 16,
+            "x": 25.0,
+            "y": 80.3,
+            "endX": 21.3,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
             "tipo": "TakeOn",
             "minuto": 41,
             "segundo": 16,
@@ -701,7 +767,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxence Caqueret",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -5937,6 +6008,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Maxence Caqueret",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 23,
+            "x": 51.7,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Caqueret",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 23,
+            "x": 51.9,
+            "y": 48.5,
+            "endX": 71.0,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saïd Benrahma",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 27,
+            "x": 71.0,
+            "y": 75.8,
+            "endX": 75.1,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saïd Benrahma",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 27,
+            "x": 75.1,
+            "y": 68.0,
+            "endX": 90.9,
+            "endY": 61.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Saïd Benrahma",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 30,
+            "x": 90.9,
+            "y": 61.5,
+            "endX": 90.8,
+            "endY": 80.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Saïd Benrahma",
             "tipo": "Pass",
             "minuto": 35,
@@ -6244,7 +6370,12 @@
             "endY": 20.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Danilo Pereira",
+          "portero": false
+        }
       },
       {
         "minuto": 38,

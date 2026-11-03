@@ -409,6 +409,17 @@
         "secuencia_gol": [
           {
             "jugador": "Frank Magri",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 33,
+            "x": 94.0,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Magri",
             "tipo": "MissedShots",
             "minuto": 48,
             "segundo": 33,
@@ -418,7 +429,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nabil Bentaleb",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -457,6 +473,94 @@
         "arco_y": 53.2,
         "arco_z": 4.4,
         "secuencia_gol": [
+          {
+            "jugador": "Warren Kamanzi",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 1,
+            "x": 34.9,
+            "y": 3.2,
+            "endX": 45.9,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 4,
+            "x": 45.9,
+            "y": 11.4,
+            "endX": 46.6,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 4,
+            "x": 46.6,
+            "y": 25.5,
+            "endX": 48.0,
+            "endY": 51.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 6,
+            "x": 48.0,
+            "y": 51.8,
+            "endX": 53.1,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 6,
+            "x": 53.1,
+            "y": 49.5,
+            "endX": 65.7,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 11,
+            "x": 65.7,
+            "y": 75.6,
+            "endX": 92.2,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Mawissa",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 11,
+            "x": 92.2,
+            "y": 73.1,
+            "endX": 96.6,
+            "endY": 58.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vincent Sierro",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 19,
+            "x": 96.6,
+            "y": 58.7,
+            "endX": 74.5,
+            "endY": 94.3,
+            "exitoso": true
+          },
           {
             "jugador": "Vincent Sierro",
             "tipo": "Pass",
@@ -633,7 +737,12 @@
             "endY": 38.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leny Yoro",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

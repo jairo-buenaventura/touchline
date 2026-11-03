@@ -371,6 +371,28 @@
         "secuencia_gol": [
           {
             "jugador": "Daniel Muñoz",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 7,
+            "x": 76.7,
+            "y": 31.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Muñoz",
+            "tipo": "TakeOn",
+            "minuto": 10,
+            "segundo": 8,
+            "x": 92.1,
+            "y": 32.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Muñoz",
             "tipo": "Pass",
             "minuto": 10,
             "segundo": 10,
@@ -380,7 +402,12 @@
             "endY": 40.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thomas Kaminski",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

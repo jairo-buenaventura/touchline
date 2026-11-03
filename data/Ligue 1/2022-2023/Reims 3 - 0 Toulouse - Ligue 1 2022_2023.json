@@ -390,6 +390,17 @@
         "secuencia_gol": [
           {
             "jugador": "Junya Ito",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 49,
+            "x": 68.9,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junya Ito",
             "tipo": "TakeOn",
             "minuto": 3,
             "segundo": 49,
@@ -399,7 +410,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Anthony Rouault",
+          "portero": false
+        }
       },
       {
         "minuto": 6,

@@ -3989,6 +3989,39 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Sebastian Rudy",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 49,
+            "x": 44.2,
+            "y": 74.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Rudy",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 49,
+            "x": 42.7,
+            "y": 75.0,
+            "endX": 64.1,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 54,
+            "x": 64.1,
+            "y": 89.8,
+            "endX": 82.8,
+            "endY": 80.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Christoph Baumgartner",
             "tipo": "TakeOn",
             "minuto": 34,
@@ -4010,7 +4043,12 @@
             "endY": 57.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nikola Soldo",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

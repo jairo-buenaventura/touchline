@@ -4925,7 +4925,24 @@
         "y": 39.9,
         "arco_y": 45.6,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Srdjan Babic",
+            "tipo": "Aerial",
+            "minuto": 6,
+            "segundo": 55,
+            "x": 88.2,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luca de la Torre",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -4936,6 +4953,61 @@
         "arco_y": 47.4,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Álex Centelles",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 7,
+            "x": 47.2,
+            "y": 98.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Centelles",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 8,
+            "x": 45.7,
+            "y": 97.7,
+            "endX": 43.0,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samú Costa",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 8,
+            "x": 43.0,
+            "y": 92.4,
+            "endX": 58.0,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Robertone",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 10,
+            "x": 56.1,
+            "y": 92.4,
+            "endX": 67.7,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 13,
+            "x": 67.7,
+            "y": 82.0,
+            "endX": 79.4,
+            "endY": 81.4,
+            "exitoso": true
+          },
           {
             "jugador": "Luis Suárez",
             "tipo": "TakeOn",
@@ -4958,7 +5030,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joseph Aidoo",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

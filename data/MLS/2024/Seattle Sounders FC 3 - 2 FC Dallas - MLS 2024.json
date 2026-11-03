@@ -522,7 +522,24 @@
         "y": 47.9,
         "arco_y": 53.4,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raúl Ruidíaz",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 21,
+            "x": 88.4,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nkosi Tafari",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -5132,6 +5149,28 @@
             "jugador": "Patrickson Delgado",
             "tipo": "Pass",
             "minuto": 69,
+            "segundo": 31,
+            "x": 65.1,
+            "y": 51.6,
+            "endX": 67.6,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Musa",
+            "tipo": "SavedShot",
+            "minuto": 69,
+            "segundo": 34,
+            "x": 69.6,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrickson Delgado",
+            "tipo": "Pass",
+            "minuto": 69,
             "segundo": 37,
             "x": 75.1,
             "y": 60.9,
@@ -5183,7 +5222,12 @@
             "endY": 60.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jackson Ragen",
+          "portero": true
+        }
       },
       {
         "minuto": 96,

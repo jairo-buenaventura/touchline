@@ -410,6 +410,39 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Pires",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 52,
+            "x": 55.4,
+            "y": 100.0,
+            "endX": 75.5,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zian Flemming",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 55,
+            "x": 76.3,
+            "y": 81.1,
+            "endX": 74.0,
+            "endY": 77.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaidon Anthony",
+            "tipo": "BallTouch",
+            "minuto": 45,
+            "segundo": 56,
+            "x": 74.0,
+            "y": 77.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Lesley Ugochukwu",
             "tipo": "Pass",
             "minuto": 45,
@@ -508,7 +541,12 @@
             "endY": 58.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sepp van den Berg",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4443,7 +4481,35 @@
         "y": 48.4,
         "arco_y": 49.5,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "Aerial",
+            "minuto": 33,
+            "segundo": 35,
+            "x": 96.9,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "SavedShot",
+            "minuto": 33,
+            "segundo": 36,
+            "x": 96.9,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lucas Pires",
+          "portero": true
+        }
       },
       {
         "minuto": 46,

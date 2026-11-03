@@ -5627,6 +5627,28 @@
         "secuencia_gol": [
           {
             "jugador": "Tiago Tomás",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 12,
+            "x": 38.8,
+            "y": 28.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tiago Tomás",
+            "tipo": "TakeOn",
+            "minuto": 87,
+            "segundo": 14,
+            "x": 57.2,
+            "y": 32.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tiago Tomás",
             "tipo": "Pass",
             "minuto": 87,
             "segundo": 17,
@@ -5636,7 +5658,12 @@
             "endY": 65.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leon Goretzka",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

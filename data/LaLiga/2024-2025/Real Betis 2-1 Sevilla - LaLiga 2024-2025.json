@@ -5038,6 +5038,28 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "José Ángel Carmona",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 29,
+            "x": 37.3,
+            "y": 0.0,
+            "endX": 33.4,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Sambi Lokonga",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 31,
+            "x": 33.6,
+            "y": 27.6,
+            "endX": 31.0,
+            "endY": 25.4,
+            "exitoso": false
+          },
+          {
             "jugador": "Albert Sambi Lokonga",
             "tipo": "Pass",
             "minuto": 16,
@@ -5114,7 +5136,12 @@
             "endY": 37.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Cucho Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

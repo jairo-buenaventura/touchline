@@ -414,6 +414,17 @@
         "secuencia_gol": [
           {
             "jugador": "Michiel Kramer",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 46,
+            "x": 94.8,
+            "y": 42.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michiel Kramer",
             "tipo": "Pass",
             "minuto": 14,
             "segundo": 46,
@@ -423,7 +434,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tasos Douvikas",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -452,6 +468,171 @@
         "arco_y": 45.5,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Claim",
+            "minuto": 43,
+            "segundo": 5,
+            "x": 3.1,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 29,
+            "x": 13.6,
+            "y": 44.7,
+            "endX": 61.5,
+            "endY": 20.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michiel Kramer",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 32,
+            "x": 61.8,
+            "y": 20.1,
+            "endX": 54.7,
+            "endY": 9.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Lelieveld",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 35,
+            "x": 53.7,
+            "y": 10.8,
+            "endX": 35.4,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juriën Gaari",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 45,
+            "x": 35.4,
+            "y": 27.0,
+            "endX": 33.9,
+            "endY": 19.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juriën Gaari",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 45,
+            "x": 33.9,
+            "y": 19.0,
+            "endX": 17.5,
+            "endY": 45.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 48,
+            "x": 17.5,
+            "y": 45.7,
+            "endX": 18.3,
+            "endY": 49.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 48,
+            "x": 18.3,
+            "y": 49.2,
+            "endX": 22.3,
+            "endY": 78.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dario Van den Buijs",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 51,
+            "x": 21.3,
+            "y": 76.2,
+            "endX": 7.1,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 55,
+            "x": 7.1,
+            "y": 53.8,
+            "endX": 9.7,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Etienne Vaessen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 55,
+            "x": 9.7,
+            "y": 51.3,
+            "endX": 13.5,
+            "endY": 18.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juriën Gaari",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 59,
+            "x": 13.5,
+            "y": 18.7,
+            "endX": 25.8,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juriën Gaari",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 59,
+            "x": 25.8,
+            "y": 7.6,
+            "endX": 44.1,
+            "endY": 20.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michiel Kramer",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 2,
+            "x": 43.6,
+            "y": 20.4,
+            "endX": 48.7,
+            "endY": 24.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 4,
+            "x": 48.7,
+            "y": 24.1,
+            "endX": 40.8,
+            "endY": 32.5,
+            "exitoso": true
+          },
           {
             "jugador": "Yassin Oukili",
             "tipo": "Pass",
@@ -496,7 +677,12 @@
             "endY": 72.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Modibo Sagnan",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -4249,7 +4435,46 @@
         "y": 52.4,
         "arco_y": 48.2,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Can Bozdogan",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 13,
+            "x": 73.3,
+            "y": 65.9,
+            "endX": 70.5,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 17,
+            "x": 70.5,
+            "y": 44.6,
+            "endX": 73.9,
+            "endY": 41.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 17,
+            "x": 73.9,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Etienne Vaessen",
+          "portero": true
+        }
       },
       {
         "minuto": 74,
@@ -4269,6 +4494,204 @@
         "arco_y": 53.3,
         "arco_z": 12.0,
         "secuencia_gol": [
+          {
+            "jugador": "Vasilios Barkas",
+            "tipo": "KeeperPickup",
+            "minuto": 83,
+            "segundo": 12,
+            "x": 7.3,
+            "y": 63.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Barkas",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 14,
+            "x": 9.1,
+            "y": 56.6,
+            "endX": 24.2,
+            "endY": 13.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark van der Maarel",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 22,
+            "x": 24.2,
+            "y": 13.3,
+            "endX": 35.6,
+            "endY": 7.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark van der Maarel",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 22,
+            "x": 35.6,
+            "y": 7.3,
+            "endX": 33.4,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 27,
+            "x": 33.4,
+            "y": 32.2,
+            "endX": 43.8,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 27,
+            "x": 43.8,
+            "y": 43.1,
+            "endX": 57.5,
+            "endY": 4.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 30,
+            "x": 57.5,
+            "y": 4.7,
+            "endX": 45.3,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark van der Maarel",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 33,
+            "x": 44.9,
+            "y": 10.1,
+            "endX": 39.4,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 40,
+            "x": 39.4,
+            "y": 44.0,
+            "endX": 52.8,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 40,
+            "x": 52.8,
+            "y": 53.7,
+            "endX": 58.7,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark van der Maarel",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 44,
+            "x": 61.1,
+            "y": 12.5,
+            "endX": 69.6,
+            "endY": 14.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 57,
+            "x": 69.6,
+            "y": 14.9,
+            "endX": 72.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 57,
+            "x": 72.8,
+            "y": 0.0,
+            "endX": 67.5,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luuk Brouwers",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 58,
+            "x": 67.5,
+            "y": 3.8,
+            "endX": 71.0,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luuk Brouwers",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 58,
+            "x": 71.0,
+            "y": 6.8,
+            "endX": 73.4,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 73.4,
+            "y": 5.0,
+            "endX": 75.5,
+            "endY": 2.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 0,
+            "x": 75.5,
+            "y": 2.8,
+            "endX": 78.9,
+            "endY": 7.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hidde ter Avest",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 7,
+            "x": 78.9,
+            "y": 7.7,
+            "endX": 80.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Hidde ter Avest",
             "tipo": "Pass",
@@ -4302,7 +4725,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luuk Wouters",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

@@ -508,7 +508,24 @@
         "y": 55.0,
         "arco_y": 48.7,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nouha Dicko",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 23,
+            "x": 92.8,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Abdoul Ouattara",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -5241,6 +5258,83 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Mike Penders",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 12.7,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Penders",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 36,
+            "x": 12.9,
+            "y": 57.1,
+            "endX": 28.7,
+            "endY": 96.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Chilwell",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 39,
+            "x": 31.6,
+            "y": 97.0,
+            "endX": 39.9,
+            "endY": 93.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kendry Páez",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 40,
+            "x": 39.9,
+            "y": 93.1,
+            "endX": 43.6,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 43,
+            "x": 43.6,
+            "y": 82.9,
+            "endX": 54.2,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 43,
+            "x": 54.2,
+            "y": 83.1,
+            "endX": 56.9,
+            "endY": 84.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Martial Godo",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 53,
+            "x": 56.9,
+            "y": 84.3,
+            "endX": 75.4,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Martial Godo",
             "tipo": "Pass",
             "minuto": 25,
@@ -5405,7 +5499,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Hamari Traoré",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -5507,6 +5606,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ismaël Doukouré",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 38,
+            "x": 92.6,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Doukouré",
             "tipo": "MissedShots",
             "minuto": 86,
             "segundo": 38,
@@ -5516,7 +5626,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Moustapha Mbow",
+          "portero": false
+        }
       }
     ],
     "corners": [

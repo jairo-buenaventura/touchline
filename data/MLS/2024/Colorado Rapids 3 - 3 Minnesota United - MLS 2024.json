@@ -5083,6 +5083,61 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Wil Trapp",
+            "tipo": "Aerial",
+            "minuto": 7,
+            "segundo": 44,
+            "x": 40.0,
+            "y": 15.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wil Trapp",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 44,
+            "x": 43.1,
+            "y": 18.3,
+            "endX": 41.0,
+            "endY": 16.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wil Trapp",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 45,
+            "x": 41.8,
+            "y": 16.5,
+            "endX": 56.4,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 47,
+            "x": 56.4,
+            "y": 15.2,
+            "endX": 55.4,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "TakeOn",
+            "minuto": 7,
+            "segundo": 47,
+            "x": 55.4,
+            "y": 19.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Robin Lod",
             "tipo": "Pass",
             "minuto": 7,
@@ -5093,7 +5148,12 @@
             "endY": 37.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oliver Larraz",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -5112,7 +5172,68 @@
         "y": 42.5,
         "arco_y": 46.4,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Harvey",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 16,
+            "x": 65.6,
+            "y": 15.9,
+            "endX": 69.6,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "DJ Taylor",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 16,
+            "x": 69.6,
+            "y": 12.3,
+            "endX": 77.6,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeong Sang-Bin",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 18,
+            "x": 77.6,
+            "y": 37.9,
+            "endX": 75.3,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 75.3,
+            "y": 57.9,
+            "endX": 77.7,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "SavedShot",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 77.7,
+            "y": 64.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Zack Steffen",
+          "portero": true
+        }
       },
       {
         "minuto": 32,

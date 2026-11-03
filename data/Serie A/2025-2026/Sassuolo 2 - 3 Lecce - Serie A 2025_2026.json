@@ -418,6 +418,61 @@
         "secuencia_gol": [
           {
             "jugador": "Pedro Felipe",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 53,
+            "x": 14.3,
+            "y": 19.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Felipe",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 54,
+            "x": 15.6,
+            "y": 16.5,
+            "endX": 27.0,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domenico Berardi",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 7,
+            "x": 27.0,
+            "y": 11.3,
+            "endX": 96.9,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domenico Berardi",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 7,
+            "x": 96.9,
+            "y": 8.8,
+            "endX": 87.4,
+            "endY": 14.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Felipe",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 9,
+            "x": 87.4,
+            "y": 14.5,
+            "endX": 90.4,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Felipe",
             "tipo": "TakeOn",
             "minuto": 19,
             "segundo": 9,
@@ -438,7 +493,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oumar Ngom",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -511,7 +571,156 @@
         "y": 51.9,
         "arco_y": 48.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 29,
+            "x": 87.2,
+            "y": 87.7,
+            "endX": 77.7,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 33,
+            "x": 77.7,
+            "y": 84.1,
+            "endX": 75.7,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 33,
+            "x": 75.7,
+            "y": 81.5,
+            "endX": 88.0,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 36,
+            "x": 88.0,
+            "y": 93.7,
+            "endX": 87.4,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darryl Bakola",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 36,
+            "x": 87.4,
+            "y": 90.0,
+            "endX": 86.9,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 38,
+            "x": 86.9,
+            "y": 95.5,
+            "endX": 78.4,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 41,
+            "x": 76.3,
+            "y": 86.8,
+            "endX": 62.5,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tarik Muharemovic",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 43,
+            "x": 61.9,
+            "y": 69.7,
+            "endX": 73.4,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 46,
+            "x": 73.0,
+            "y": 90.3,
+            "endX": 64.9,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tarik Muharemovic",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 63.3,
+            "y": 69.7,
+            "endX": 86.3,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darryl Bakola",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 52,
+            "x": 86.8,
+            "y": 84.0,
+            "endX": 96.1,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 54,
+            "x": 96.1,
+            "y": 72.7,
+            "endX": 98.2,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 54,
+            "x": 98.2,
+            "y": 66.9,
+            "endX": 97.0,
+            "endY": 64.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tiago Gabriel",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -5449,6 +5658,17 @@
         "secuencia_gol": [
           {
             "jugador": "Omri Gandelman",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 11,
+            "x": 78.6,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omri Gandelman",
             "tipo": "Pass",
             "minuto": 95,
             "segundo": 14,
@@ -5458,7 +5678,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tarik Muharemovic",
+          "portero": false
+        }
       }
     ],
     "corners": [

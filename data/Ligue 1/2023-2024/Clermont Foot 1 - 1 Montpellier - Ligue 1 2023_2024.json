@@ -4652,6 +4652,94 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Jordan Ferri",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 53.9,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Ferri",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 5,
+            "x": 53.6,
+            "y": 54.1,
+            "endX": 63.8,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnaud Nordin",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 63.8,
+            "y": 27.4,
+            "endX": 59.6,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arnaud Nordin",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 59.6,
+            "y": 36.3,
+            "endX": 73.7,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Téji Savanier",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 73.7,
+            "y": 35.2,
+            "endX": 65.5,
+            "endY": 39.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Téji Savanier",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 65.5,
+            "y": 39.0,
+            "endX": 72.8,
+            "endY": 13.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Tchato",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 72.8,
+            "y": 13.1,
+            "endX": 77.6,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Tchato",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 77.6,
+            "y": 16.9,
+            "endX": 92.0,
+            "endY": 48.7,
+            "exitoso": false
+          },
+          {
             "jugador": "Akor Adams",
             "tipo": "BallTouch",
             "minuto": 55,
@@ -4662,7 +4750,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Chrislain Matsima",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

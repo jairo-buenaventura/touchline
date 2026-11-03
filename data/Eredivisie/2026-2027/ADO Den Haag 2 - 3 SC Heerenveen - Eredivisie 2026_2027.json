@@ -464,7 +464,24 @@
         "y": 51.5,
         "arco_y": 52.1,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daryl van Mieghem",
+            "tipo": "SavedShot",
+            "minuto": 56,
+            "segundo": 33,
+            "x": 88.8,
+            "y": 26.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Bernt Klaverboer",
+          "portero": true
+        }
       },
       {
         "minuto": 58,
@@ -4317,6 +4334,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Ringo Meerveld",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 39,
+            "x": 35.3,
+            "y": 7.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ringo Meerveld",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 40,
+            "x": 33.4,
+            "y": 6.9,
+            "endX": 36.5,
+            "endY": 17.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Linday",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 40,
+            "x": 36.5,
+            "y": 17.5,
+            "endX": 33.0,
+            "endY": 9.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ringo Meerveld",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 33.0,
+            "y": 9.0,
+            "endX": 28.3,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ringo Meerveld",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 28.3,
+            "y": 12.9,
+            "endX": 33.9,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Nolhan Courtens",
             "tipo": "TakeOn",
             "minuto": 22,
@@ -4371,7 +4443,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Juho Kilo",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

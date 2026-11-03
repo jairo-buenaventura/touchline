@@ -497,6 +497,72 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Sebastián Boselli",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 22,
+            "x": 36.4,
+            "y": 34.5,
+            "endX": 60.2,
+            "endY": 6.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dani Carvajal",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 49,
+            "x": 60.2,
+            "y": 6.8,
+            "endX": 75.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Carvajal",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 49,
+            "x": 75.3,
+            "y": 0.0,
+            "endX": 80.1,
+            "endY": 18.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enes Ünal",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 52,
+            "x": 80.1,
+            "y": 18.5,
+            "endX": 78.2,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enes Ünal",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 52,
+            "x": 78.2,
+            "y": 13.2,
+            "endX": 82.0,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés García",
+            "tipo": "TakeOn",
+            "minuto": 72,
+            "segundo": 53,
+            "x": 80.2,
+            "y": 4.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrés García",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -540,7 +606,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Manu Bueno",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -578,6 +649,39 @@
         "arco_y": 46.1,
         "arco_z": 17.1,
         "secuencia_gol": [
+          {
+            "jugador": "Dani Carvajal",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 59,
+            "x": 55.6,
+            "y": 100.0,
+            "endX": 82.0,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Azón",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 3,
+            "x": 80.1,
+            "y": 97.5,
+            "endX": 77.7,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davinchi",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 77.7,
+            "y": 91.7,
+            "endX": 81.8,
+            "endY": 91.4,
+            "exitoso": true
+          },
           {
             "jugador": "Davinchi",
             "tipo": "TakeOn",
@@ -622,7 +726,12 @@
             "endY": 47.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andrés Castrín",
+          "portero": false
+        }
       }
     ],
     "corners": [

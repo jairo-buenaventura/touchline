@@ -363,7 +363,57 @@
         "y": 45.5,
         "arco_y": 46.0,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rubén García",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 44,
+            "x": 82.9,
+            "y": 4.3,
+            "endX": 89.9,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 47,
+            "x": 89.9,
+            "y": 10.0,
+            "endX": 98.7,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 47,
+            "x": 98.7,
+            "y": 8.3,
+            "endX": 91.5,
+            "endY": 33.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ante Budimir",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 48,
+            "x": 93.0,
+            "y": 32.8,
+            "endX": 91.7,
+            "endY": 44.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Brais Méndez",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -3607,6 +3657,39 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Igor Zubeldia",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 37,
+            "x": 41.2,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Zubeldia",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 37,
+            "x": 46.9,
+            "y": 60.0,
+            "endX": 67.5,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umar Sadiq",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 39,
+            "x": 67.5,
+            "y": 58.3,
+            "endX": 67.3,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Umar Sadiq",
             "tipo": "TakeOn",
             "minuto": 40,
@@ -3617,7 +3700,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alejandro Catena",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

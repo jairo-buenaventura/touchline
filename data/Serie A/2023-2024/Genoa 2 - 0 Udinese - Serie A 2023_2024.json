@@ -447,7 +447,79 @@
         "y": 58.7,
         "arco_y": 45.5,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josep Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 45,
+            "x": 19.8,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josep Martínez",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 49,
+            "x": 23.8,
+            "y": 47.0,
+            "endX": 44.9,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Badelj",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 54,
+            "x": 44.9,
+            "y": 95.0,
+            "endX": 53.5,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Badelj",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 54,
+            "x": 53.5,
+            "y": 95.1,
+            "endX": 61.0,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Gudmundsson",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 56,
+            "x": 63.4,
+            "y": 93.2,
+            "endX": 87.9,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aarón Martín",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 58,
+            "x": 87.9,
+            "y": 94.2,
+            "endX": 88.8,
+            "endY": 64.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lautaro Giannetti",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -458,6 +530,28 @@
         "arco_y": 52.5,
         "arco_z": 17.7,
         "secuencia_gol": [
+          {
+            "jugador": "Albert Gudmundsson",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 57,
+            "x": 88.5,
+            "y": 93.3,
+            "endX": 95.7,
+            "endY": 56.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aarón Martín",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 5,
+            "x": 95.7,
+            "y": 56.4,
+            "endX": 68.2,
+            "endY": 77.9,
+            "exitoso": true
+          },
           {
             "jugador": "Aarón Martín",
             "tipo": "Pass",
@@ -491,7 +585,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Walace",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

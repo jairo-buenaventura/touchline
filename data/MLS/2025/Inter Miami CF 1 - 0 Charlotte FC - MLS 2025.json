@@ -397,6 +397,105 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Yannick Bright",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 50,
+            "x": 65.0,
+            "y": 90.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Bright",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 50,
+            "x": 65.0,
+            "y": 90.5,
+            "endX": 68.6,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 53,
+            "x": 69.2,
+            "y": 83.4,
+            "endX": 72.0,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Telasco Segovia",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 55,
+            "x": 71.3,
+            "y": 93.2,
+            "endX": 65.2,
+            "endY": 78.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 57,
+            "x": 65.2,
+            "y": 78.9,
+            "endX": 65.5,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 57,
+            "x": 65.5,
+            "y": 69.0,
+            "endX": 78.3,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Telasco Segovia",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 2,
+            "x": 78.3,
+            "y": 86.6,
+            "endX": 77.6,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Telasco Segovia",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 2,
+            "x": 77.6,
+            "y": 81.4,
+            "endX": 90.6,
+            "endY": 40.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 1,
+            "x": 90.6,
+            "y": 40.7,
+            "endX": 49.9,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Suárez",
             "tipo": "Pass",
             "minuto": 45,
@@ -484,7 +583,12 @@
             "endY": 62.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tim Ream",
+          "portero": false
+        }
       }
     ],
     "corners": [

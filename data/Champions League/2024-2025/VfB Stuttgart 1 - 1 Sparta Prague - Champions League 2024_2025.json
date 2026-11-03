@@ -387,6 +387,28 @@
           {
             "jugador": "Pascal Stenzel",
             "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 58,
+            "x": 38.6,
+            "y": 6.7,
+            "endX": 40.1,
+            "endY": 7.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pascal Stenzel",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 16,
+            "x": 40.1,
+            "y": 7.1,
+            "endX": 46.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Stenzel",
+            "tipo": "Pass",
             "minuto": 6,
             "segundo": 16,
             "x": 46.4,
@@ -472,7 +494,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Albion Rrahmani",
+          "portero": false
+        }
       },
       {
         "minuto": 8,

@@ -430,6 +430,17 @@
         "secuencia_gol": [
           {
             "jugador": "Moussa Djitté",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 50,
+            "x": 94.3,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moussa Djitté",
             "tipo": "MissedShots",
             "minuto": 60,
             "segundo": 50,
@@ -439,7 +450,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Daniel Lovitz",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

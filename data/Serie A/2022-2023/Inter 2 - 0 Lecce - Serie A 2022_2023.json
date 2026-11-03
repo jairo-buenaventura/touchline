@@ -439,6 +439,61 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 7,
+            "x": 47.3,
+            "y": 75.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 7,
+            "x": 47.3,
+            "y": 75.8,
+            "endX": 59.7,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 8,
+            "x": 59.8,
+            "y": 82.4,
+            "endX": 57.0,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Gosens",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 57.0,
+            "y": 85.5,
+            "endX": 86.1,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Gosens",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 86.1,
+            "y": 71.7,
+            "endX": 87.4,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolò Barella",
             "tipo": "TakeOn",
             "minuto": 28,
@@ -460,7 +515,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Youssef Maleh",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -480,6 +540,39 @@
         "arco_y": 46.6,
         "arco_z": 24.7,
         "secuencia_gol": [
+          {
+            "jugador": "Matteo Darmian",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 46.2,
+            "y": 26.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Darmian",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 55.4,
+            "y": 43.5,
+            "endX": 55.6,
+            "endY": 40.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matteo Darmian",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 48,
+            "x": 55.6,
+            "y": 40.6,
+            "endX": 57.0,
+            "endY": 35.8,
+            "exitoso": true
+          },
           {
             "jugador": "Matteo Darmian",
             "tipo": "Pass",
@@ -557,7 +650,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Youssef Maleh",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

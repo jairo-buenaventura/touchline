@@ -411,6 +411,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Serge Gnabry",
+            "tipo": "CornerAwarded",
+            "minuto": 15,
+            "segundo": 49,
+            "x": 97.4,
+            "y": 34.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 19,
+            "x": 99.4,
+            "y": 0.7,
+            "endX": 91.2,
+            "endY": 41.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kingsley Coman",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 23,
+            "x": 91.2,
+            "y": 41.9,
+            "endX": 78.1,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Kingsley Coman",
             "tipo": "MissedShots",
             "minuto": 16,
@@ -421,7 +454,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Angelo Stiller",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

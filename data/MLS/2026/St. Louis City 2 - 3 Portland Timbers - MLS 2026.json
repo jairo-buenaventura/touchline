@@ -530,6 +530,28 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Lukas MacNaughton",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 28,
+            "x": 70.4,
+            "y": 22.3,
+            "endX": 85.4,
+            "endY": 31.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Timo Baumgartl",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 36,
+            "x": 85.4,
+            "y": 31.8,
+            "endX": 55.6,
+            "endY": 48.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Timo Baumgartl",
             "tipo": "Pass",
             "minuto": 90,
@@ -584,7 +606,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kamal Miller",
+          "portero": false
+        }
       },
       {
         "minuto": 97,
@@ -4579,6 +4606,72 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Kamal Miller",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 29,
+            "x": 35.3,
+            "y": 54.5,
+            "endX": 36.1,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jimer Fory",
+            "tipo": "BallTouch",
+            "minuto": 47,
+            "segundo": 30,
+            "x": 36.1,
+            "y": 69.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristoffer Velde",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 31,
+            "x": 63.2,
+            "y": 86.5,
+            "endX": 57.7,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jimer Fory",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 57.7,
+            "y": 89.5,
+            "endX": 53.8,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jimer Fory",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 53.8,
+            "y": 96.2,
+            "endX": 80.6,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "David da Costa",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 37,
+            "x": 80.6,
+            "y": 93.0,
+            "endX": 90.9,
+            "endY": 77.8,
+            "exitoso": true
+          },
+          {
             "jugador": "David da Costa",
             "tipo": "TakeOn",
             "minuto": 47,
@@ -4589,7 +4682,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Timo Baumgartl",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4611,6 +4709,28 @@
         "secuencia_gol": [
           {
             "jugador": "David da Costa",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 20,
+            "x": 73.0,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David da Costa",
+            "tipo": "SavedShot",
+            "minuto": 47,
+            "segundo": 24,
+            "x": 92.7,
+            "y": 58.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David da Costa",
             "tipo": "Pass",
             "minuto": 47,
             "segundo": 28,
@@ -4620,7 +4740,12 @@
             "endY": 86.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ben Lundt",
+          "portero": true
+        }
       },
       {
         "minuto": 58,

@@ -4398,6 +4398,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Nicolas Höfler",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 70.3,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Höfler",
+            "tipo": "TakeOn",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 69.8,
+            "y": 53.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Höfler",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 29,
+            "x": 73.8,
+            "y": 64.3,
+            "endX": 75.4,
+            "endY": 61.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Michael Gregoritsch",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 30,
+            "x": 75.4,
+            "y": 61.0,
+            "endX": 80.9,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Michael Gregoritsch",
             "tipo": "Pass",
             "minuto": 21,
@@ -4518,7 +4562,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ivan Sunjic",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

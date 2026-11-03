@@ -352,7 +352,24 @@
         "y": 49.1,
         "arco_y": 52.4,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Serhou Guirassy",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 9,
+            "x": 96.0,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marco Friedl",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4062,6 +4079,83 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Marco Friedl",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 37,
+            "x": 24.0,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Friedl",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 39,
+            "x": 23.7,
+            "y": 48.4,
+            "endX": 28.0,
+            "endY": 71.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Kaboré",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 51,
+            "x": 28.0,
+            "y": 71.9,
+            "endX": 75.6,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Kaboré",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 51,
+            "x": 75.6,
+            "y": 85.0,
+            "endX": 69.3,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 54,
+            "x": 69.3,
+            "y": 64.2,
+            "endX": 72.8,
+            "endY": 70.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 54,
+            "x": 72.8,
+            "y": 70.1,
+            "endX": 89.3,
+            "endY": 41.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Milos Veljkovic",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 89.3,
+            "y": 41.5,
+            "endX": 76.4,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Milos Veljkovic",
             "tipo": "Pass",
             "minuto": 63,
@@ -4072,7 +4166,12 @@
             "endY": 39.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julian Ryerson",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

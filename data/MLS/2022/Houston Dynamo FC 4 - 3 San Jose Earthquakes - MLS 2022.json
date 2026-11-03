@@ -468,7 +468,24 @@
         "y": 50.0,
         "arco_y": 48.7,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 41,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.0,
+            "endY": 47.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jeremy Ebobisse",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -3718,6 +3735,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "JT Marcinkowski",
+            "tipo": "KeeperPickup",
+            "minuto": 26,
+            "segundo": 56,
+            "x": 1.5,
+            "y": 46.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "JT Marcinkowski",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 5,
+            "x": 10.7,
+            "y": 44.0,
+            "endX": 30.4,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jackson Yueill",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 9,
+            "x": 32.0,
+            "y": 86.5,
+            "endX": 44.1,
+            "endY": 74.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Jeremy Ebobisse",
             "tipo": "TakeOn",
             "minuto": 27,
@@ -3805,7 +3855,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ethan Bartlow",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -3896,7 +3951,68 @@
         "y": 63.9,
         "arco_y": 47.1,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jeremy Ebobisse",
+            "tipo": "CornerAwarded",
+            "minuto": 75,
+            "segundo": 31,
+            "x": 97.3,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 53,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 92.4,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanner Beason",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 58,
+            "x": 92.4,
+            "y": 57.6,
+            "endX": 94.4,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanner Beason",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 58,
+            "x": 94.4,
+            "y": 44.8,
+            "endX": 92.8,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousseni Bouda",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 59,
+            "x": 91.3,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Adalberto Carrasquilla",
+          "portero": true
+        }
       },
       {
         "minuto": 80,

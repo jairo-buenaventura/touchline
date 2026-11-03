@@ -4223,6 +4223,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Josko Gvardiol",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 33,
+            "x": 19.8,
+            "y": 77.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josko Gvardiol",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 35,
+            "x": 20.5,
+            "y": 76.6,
+            "endX": 42.8,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 37,
+            "x": 42.8,
+            "y": 73.9,
+            "endX": 35.6,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Matheus Nunes",
             "tipo": "TakeOn",
             "minuto": 82,
@@ -4244,7 +4277,12 @@
             "endY": 58.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Konstantinos Mavropanos",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

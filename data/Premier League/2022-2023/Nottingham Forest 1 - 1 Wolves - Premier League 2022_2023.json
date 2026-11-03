@@ -414,6 +414,83 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Moussa Niakhaté",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 25,
+            "x": 59.9,
+            "y": 92.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moussa Niakhaté",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 27,
+            "x": 64.7,
+            "y": 91.3,
+            "endX": 68.3,
+            "endY": 75.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Gibbs-White",
+            "tipo": "BallTouch",
+            "minuto": 37,
+            "segundo": 28,
+            "x": 69.3,
+            "y": 75.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Santos",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 29,
+            "x": 70.9,
+            "y": 69.6,
+            "endX": 76.7,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Gibbs-White",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 31,
+            "x": 76.7,
+            "y": 73.1,
+            "endX": 75.9,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Santos",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 32,
+            "x": 75.9,
+            "y": 64.0,
+            "endX": 78.6,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Santos",
+            "tipo": "TakeOn",
+            "minuto": 37,
+            "segundo": 32,
+            "x": 78.6,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Danilo Santos",
             "tipo": "Pass",
             "minuto": 37,
@@ -424,7 +501,12 @@
             "endY": 36.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rúben Neves",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -3755,7 +3837,68 @@
         "y": 61.5,
         "arco_y": 49.7,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Toti Gomes",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 6,
+            "x": 82.7,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Maximilian Kilman",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 8,
+            "x": 88.2,
+            "y": 17.2,
+            "endX": 86.5,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Costa",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 10,
+            "x": 86.5,
+            "y": 45.4,
+            "endX": 82.2,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Costa",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 10,
+            "x": 82.2,
+            "y": 46.6,
+            "endX": 77.2,
+            "endY": 53.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "SavedShot",
+            "minuto": 82,
+            "segundo": 11,
+            "x": 78.3,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joe Worrall",
+          "portero": true
+        }
       }
     ],
     "corners": [

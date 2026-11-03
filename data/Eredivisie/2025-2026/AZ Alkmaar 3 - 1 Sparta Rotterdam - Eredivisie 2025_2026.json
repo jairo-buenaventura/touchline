@@ -444,6 +444,50 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Isak Jensen",
+            "tipo": "BallTouch",
+            "minuto": 64,
+            "segundo": 39,
+            "x": 58.9,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 40,
+            "x": 53.5,
+            "y": 70.3,
+            "endX": 64.2,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Chávez",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 42,
+            "x": 65.2,
+            "y": 91.5,
+            "endX": 67.0,
+            "endY": 83.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 45,
+            "x": 67.0,
+            "y": 83.9,
+            "endX": 66.0,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Troy Parrott",
             "tipo": "Pass",
             "minuto": 64,
@@ -520,7 +564,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lushendry Martes",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -548,7 +597,134 @@
         "y": 52.3,
         "arco_y": 46.0,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 58,
+            "x": 35.7,
+            "y": 6.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 4,
+            "x": 39.3,
+            "y": 9.1,
+            "endX": 47.1,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 5,
+            "x": 46.6,
+            "y": 22.5,
+            "endX": 49.3,
+            "endY": 7.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 10,
+            "x": 49.3,
+            "y": 7.2,
+            "endX": 55.6,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 10,
+            "x": 55.6,
+            "y": 37.0,
+            "endX": 67.7,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isak Jensen",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 24,
+            "x": 67.7,
+            "y": 93.3,
+            "endX": 80.3,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isak Jensen",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 24,
+            "x": 80.3,
+            "y": 94.2,
+            "endX": 65.0,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 25,
+            "x": 65.0,
+            "y": 88.1,
+            "endX": 75.8,
+            "endY": 85.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees de Wit",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 27,
+            "x": 77.8,
+            "y": 84.2,
+            "endX": 73.7,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 32,
+            "x": 73.7,
+            "y": 74.4,
+            "endX": 88.2,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "TakeOn",
+            "minuto": 82,
+            "segundo": 32,
+            "x": 88.2,
+            "y": 65.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bruno Martins Indi",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

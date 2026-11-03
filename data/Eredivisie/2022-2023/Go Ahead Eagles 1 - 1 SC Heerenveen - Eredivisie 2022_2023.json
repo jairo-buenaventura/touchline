@@ -481,7 +481,79 @@
         "y": 49.8,
         "arco_y": 48.2,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sylla Sow",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 42,
+            "x": 89.0,
+            "y": 48.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gerrit Nauber",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 45,
+            "x": 90.1,
+            "y": 75.3,
+            "endX": 82.1,
+            "endY": 87.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Rommens",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 81.2,
+            "y": 87.6,
+            "endX": 88.7,
+            "endY": 83.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bas Kuipers",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 51,
+            "x": 89.3,
+            "y": 82.4,
+            "endX": 95.1,
+            "endY": 46.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Willum Willumsson",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 95.1,
+            "y": 46.1,
+            "endX": 90.5,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willum Willumsson",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 55,
+            "x": 90.5,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pawel Bochniewicz",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4683,6 +4755,94 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Pawel Bochniewicz",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 27,
+            "x": 62.8,
+            "y": 78.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pawel Bochniewicz",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 29,
+            "x": 63.0,
+            "y": 78.7,
+            "endX": 70.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "BallTouch",
+            "minuto": 51,
+            "segundo": 31,
+            "x": 70.2,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tibor Halilovic",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 34,
+            "x": 72.4,
+            "y": 68.1,
+            "endX": 89.7,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amin Sarr",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 36,
+            "x": 89.7,
+            "y": 64.6,
+            "endX": 92.0,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amin Sarr",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 36,
+            "x": 92.0,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amin Sarr",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 38,
+            "x": 90.0,
+            "y": 63.5,
+            "endX": 88.6,
+            "endY": 65.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amin Sarr",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 38,
+            "x": 88.6,
+            "y": 65.3,
+            "endX": 91.0,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Amin Sarr",
             "tipo": "BallTouch",
             "minuto": 51,
@@ -4704,7 +4864,12 @@
             "endY": 58.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jeffrey de Lange",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

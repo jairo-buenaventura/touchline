@@ -424,6 +424,83 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Luka Modric",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 10,
+            "x": 28.0,
+            "y": 31.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 10,
+            "x": 28.2,
+            "y": 32.7,
+            "endX": 47.5,
+            "endY": 50.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher Nkunku",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 21,
+            "x": 47.5,
+            "y": 50.6,
+            "endX": 77.7,
+            "endY": 56.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher Nkunku",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 21,
+            "x": 77.7,
+            "y": 56.8,
+            "endX": 85.8,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "SavedShot",
+            "minuto": 50,
+            "segundo": 23,
+            "x": 85.6,
+            "y": 71.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Bartesaghi",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 26,
+            "x": 93.6,
+            "y": 79.7,
+            "endX": 90.3,
+            "endY": 49.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 28,
+            "x": 90.3,
+            "y": 49.2,
+            "endX": 85.0,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Adrien Rabiot",
             "tipo": "Pass",
             "minuto": 50,
@@ -610,7 +687,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Matías Vecino",
+          "portero": false
+        }
       },
       {
         "minuto": 52,

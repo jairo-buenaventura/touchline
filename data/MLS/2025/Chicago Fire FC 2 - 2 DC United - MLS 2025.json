@@ -387,6 +387,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jack Elliott",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 40,
+            "x": 95.6,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
             "tipo": "MissedShots",
             "minuto": 29,
             "segundo": 40,
@@ -396,7 +407,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jared Stroud",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -442,7 +458,35 @@
         "y": 46.4,
         "arco_y": 45.7,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 50,
+            "x": 92.2,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "SavedShot",
+            "minuto": 69,
+            "segundo": 50,
+            "x": 94.9,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lucas Bartlett",
+          "portero": true
+        }
       },
       {
         "minuto": 77,
@@ -4770,6 +4814,39 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "David Schnegg",
+            "tipo": "CornerAwarded",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 99.5,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aarón Herrera",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 56,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.5,
+            "endY": 45.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matti Peltola",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 0,
+            "x": 94.5,
+            "y": 45.5,
+            "endX": 78.9,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Matti Peltola",
             "tipo": "Pass",
             "minuto": 95,
@@ -4791,7 +4868,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tom Barlow",
+          "portero": false
+        }
       }
     ],
     "corners": [

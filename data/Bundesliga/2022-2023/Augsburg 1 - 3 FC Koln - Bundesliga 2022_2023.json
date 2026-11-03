@@ -411,6 +411,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Iago Borduchi",
+            "tipo": "CornerAwarded",
+            "minuto": 27,
+            "segundo": 43,
+            "x": 90.8,
+            "y": 73.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Engels",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 11,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.8,
+            "endY": 58.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elvis Rexhbeçaj",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 15,
+            "x": 96.8,
+            "y": 58.2,
+            "endX": 84.8,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elvis Rexhbeçaj",
+            "tipo": "SavedShot",
+            "minuto": 28,
+            "segundo": 15,
+            "x": 84.8,
+            "y": 73.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Maier",
+            "tipo": "SavedShot",
+            "minuto": 28,
+            "segundo": 17,
+            "x": 75.9,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Maximilian Bauer",
             "tipo": "BallTouch",
             "minuto": 28,
@@ -421,7 +476,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kingsley Schindler",
+          "portero": true
+        }
       },
       {
         "minuto": 36,
@@ -4552,6 +4612,50 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Timo Hübers",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 7,
+            "x": 23.6,
+            "y": 7.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Ljubicic",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 9,
+            "x": 31.9,
+            "y": 3.8,
+            "endX": 28.9,
+            "endY": 7.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kingsley Schindler",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 27,
+            "x": 28.9,
+            "y": 7.0,
+            "endX": 28.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Schindler",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 27,
+            "x": 28.8,
+            "y": 0.0,
+            "endX": 55.2,
+            "endY": 11.9,
+            "exitoso": false
+          },
+          {
             "jugador": "Florian Kainz",
             "tipo": "Pass",
             "minuto": 58,
@@ -4584,7 +4688,12 @@
             "endY": 55.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maximilian Bauer",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

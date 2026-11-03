@@ -390,6 +390,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Carlens Arcus",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 7,
+            "x": 26.4,
+            "y": 22.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlens Arcus",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 7,
+            "x": 26.4,
+            "y": 22.8,
+            "endX": 31.3,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Belkhdim",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 9,
+            "x": 31.3,
+            "y": 22.5,
+            "endX": 46.6,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 15,
+            "x": 46.6,
+            "y": 8.8,
+            "endX": 81.2,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 15,
+            "x": 81.2,
+            "y": 7.9,
+            "endX": 86.4,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Himad Abdelli",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 17,
+            "x": 86.4,
+            "y": 28.2,
+            "endX": 90.7,
+            "endY": 35.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Himad Abdelli",
             "tipo": "TakeOn",
             "minuto": 6,
@@ -400,7 +466,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yunis Abdelhamid",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -446,7 +517,57 @@
         "y": 48.1,
         "arco_y": 51.7,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Farid El Melali",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 46,
+            "x": 79.2,
+            "y": 88.7,
+            "endX": 94.1,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Niane",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 48,
+            "x": 93.0,
+            "y": 33.1,
+            "endX": 95.2,
+            "endY": 60.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jim Allevinah",
+            "tipo": "MissedShots",
+            "minuto": 38,
+            "segundo": 51,
+            "x": 94.8,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Lefort",
+            "tipo": "BallTouch",
+            "minuto": 38,
+            "segundo": 52,
+            "x": 91.3,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mickaël Nadé",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -4426,6 +4547,17 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Léo Pétrot",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 34,
+            "x": 74.0,
+            "y": 100.0,
+            "endX": 84.9,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Stassin",
             "tipo": "TakeOn",
             "minuto": 56,
@@ -4447,7 +4579,12 @@
             "endY": 62.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierrick Capelle",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

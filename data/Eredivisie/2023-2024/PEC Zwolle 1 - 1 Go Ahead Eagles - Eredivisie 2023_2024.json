@@ -476,6 +476,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Zico Buurmeester",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 39,
+            "x": 68.4,
+            "y": 28.8,
+            "endX": 83.7,
+            "endY": 44.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lennart Thy",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 44,
+            "x": 83.7,
+            "y": 44.8,
+            "endX": 75.6,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Lennart Thy",
             "tipo": "Pass",
             "minuto": 51,
@@ -508,7 +530,12 @@
             "endY": 47.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Evert Linthorst",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

@@ -464,6 +464,61 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Éder Balanta",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 16,
+            "x": 38.4,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Balanta",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 16,
+            "x": 39.7,
+            "y": 43.9,
+            "endX": 43.9,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Karaman",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 23,
+            "x": 43.9,
+            "y": 33.0,
+            "endX": 81.9,
+            "endY": 16.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Karaman",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 23,
+            "x": 81.9,
+            "y": 16.5,
+            "endX": 85.6,
+            "endY": 54.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marius Bülter",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 32,
+            "x": 85.6,
+            "y": 54.8,
+            "endX": 81.2,
+            "endY": 94.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Marius Bülter",
             "tipo": "Pass",
             "minuto": 78,
@@ -474,7 +529,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marius Wolf",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4165,6 +4225,94 @@
             "jugador": "Marius Wolf",
             "tipo": "Pass",
             "minuto": 58,
+            "segundo": 6,
+            "x": 58.7,
+            "y": 3.7,
+            "endX": 40.1,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 10,
+            "x": 39.2,
+            "y": 9.2,
+            "endX": 18.7,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Meyer",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 14,
+            "x": 18.7,
+            "y": 37.4,
+            "endX": 21.7,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Meyer",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 14,
+            "x": 21.7,
+            "y": 39.1,
+            "endX": 24.9,
+            "endY": 67.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 18,
+            "x": 25.8,
+            "y": 66.6,
+            "endX": 13.6,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Meyer",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 20,
+            "x": 13.6,
+            "y": 45.2,
+            "endX": 23.8,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 23,
+            "x": 24.0,
+            "y": 9.4,
+            "endX": 27.8,
+            "endY": 10.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marius Wolf",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 42,
+            "x": 27.8,
+            "y": 10.4,
+            "endX": 29.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marius Wolf",
+            "tipo": "Pass",
+            "minuto": 58,
             "segundo": 42,
             "x": 29.9,
             "y": 0.0,
@@ -4282,7 +4430,12 @@
             "endY": 63.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Michael Frey",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

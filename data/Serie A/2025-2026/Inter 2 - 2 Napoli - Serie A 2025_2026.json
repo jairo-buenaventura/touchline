@@ -4722,6 +4722,83 @@
         "secuencia_gol": [
           {
             "jugador": "Giovanni Di Lorenzo",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 18,
+            "x": 40.3,
+            "y": 6.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 20,
+            "x": 38.8,
+            "y": 6.5,
+            "endX": 37.5,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanislav Lobotka",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 22,
+            "x": 37.3,
+            "y": 27.4,
+            "endX": 63.8,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Højlund",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 24,
+            "x": 63.5,
+            "y": 28.1,
+            "endX": 59.1,
+            "endY": 19.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Beukema",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 25,
+            "x": 58.8,
+            "y": 19.6,
+            "endX": 62.3,
+            "endY": 4.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Politano",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 26,
+            "x": 63.6,
+            "y": 5.0,
+            "endX": 61.1,
+            "endY": 6.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 37,
+            "x": 61.1,
+            "y": 6.7,
+            "endX": 54.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
             "tipo": "Pass",
             "minuto": 25,
             "segundo": 37,
@@ -4918,7 +4995,12 @@
             "endY": 56.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Federico Dimarco",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

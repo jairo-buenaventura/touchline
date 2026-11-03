@@ -524,6 +524,105 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 58,
+            "x": 31.9,
+            "y": 67.7,
+            "endX": 42.1,
+            "endY": 68.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 59,
+            "x": 42.1,
+            "y": 68.9,
+            "endX": 31.3,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kerem Demirbay",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 1,
+            "x": 31.3,
+            "y": 63.3,
+            "endX": 37.4,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kerem Demirbay",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 1,
+            "x": 37.4,
+            "y": 68.0,
+            "endX": 61.8,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 6,
+            "x": 61.8,
+            "y": 82.4,
+            "endX": 78.4,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 6,
+            "x": 78.4,
+            "y": 72.3,
+            "endX": 95.9,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 8,
+            "x": 95.9,
+            "y": 37.7,
+            "endX": 96.6,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "SavedShot",
+            "minuto": 57,
+            "segundo": 8,
+            "x": 96.6,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sardar Azmoun",
+            "tipo": "SavedShot",
+            "minuto": 57,
+            "segundo": 10,
+            "x": 96.0,
+            "y": 44.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "BallTouch",
             "minuto": 57,
@@ -534,7 +633,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Edimilson Fernandes",
+          "portero": true
+        }
       },
       {
         "minuto": 65,
@@ -5397,6 +5501,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lee Jae-Sung",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 1,
+            "x": 88.2,
+            "y": 68.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lee Jae-Sung",
             "tipo": "Pass",
             "minuto": 48,
             "segundo": 1,
@@ -5406,7 +5521,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Tah",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

@@ -428,7 +428,35 @@
         "y": 37.8,
         "arco_y": 53.3,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ki-Jana Hoever",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 6,
+            "x": 74.1,
+            "y": 19.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ki-Jana Hoever",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 8,
+            "x": 77.0,
+            "y": 19.1,
+            "endX": 86.6,
+            "endY": 42.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Azor Matusiwa",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -591,6 +619,17 @@
         "secuencia_gol": [
           {
             "jugador": "Florian Ayé",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 66.7,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Ayé",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 37,
@@ -611,7 +650,12 @@
             "endY": 56.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       }
     ],
     "corners": [

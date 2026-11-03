@@ -360,6 +360,39 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Arsène Kouassi",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 51,
+            "x": 79.5,
+            "y": 80.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arsène Kouassi",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 52,
+            "x": 79.4,
+            "y": 80.0,
+            "endX": 81.6,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 53,
+            "x": 81.6,
+            "y": 74.8,
+            "endX": 85.2,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Pablo Pagis",
             "tipo": "TakeOn",
             "minuto": 8,
@@ -370,7 +403,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ousmane Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

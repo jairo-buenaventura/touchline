@@ -417,6 +417,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Thomas Lemar",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 15,
+            "x": 66.1,
+            "y": 70.3,
+            "endX": 87.5,
+            "endY": 45.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 19,
+            "x": 87.5,
+            "y": 45.8,
+            "endX": 61.0,
+            "endY": 17.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Daley Blind",
             "tipo": "Pass",
             "minuto": 43,
@@ -603,7 +625,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ante Budimir",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

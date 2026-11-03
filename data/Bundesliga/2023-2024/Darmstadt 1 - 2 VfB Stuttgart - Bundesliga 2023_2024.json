@@ -4753,6 +4753,17 @@
         "secuencia_gol": [
           {
             "jugador": "Waldemar Anton",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 1,
+            "x": 97.0,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Waldemar Anton",
             "tipo": "Pass",
             "minuto": 13,
             "segundo": 1,
@@ -4762,7 +4773,12 @@
             "endY": 58.3,
             "exitoso": false
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Christoph Klarer",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -4826,7 +4842,68 @@
         "y": 39.7,
         "arco_y": 46.1,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Angelo Stiller",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 1,
+            "x": 63.8,
+            "y": 66.6,
+            "endX": 68.3,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mahmoud Dahoud",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 68.3,
+            "y": 39.5,
+            "endX": 66.2,
+            "endY": 35.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mahmoud Dahoud",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 66.2,
+            "y": 35.8,
+            "endX": 73.3,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 9,
+            "x": 73.3,
+            "y": 43.4,
+            "endX": 73.7,
+            "endY": 55.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "SavedShot",
+            "minuto": 91,
+            "segundo": 9,
+            "x": 73.7,
+            "y": 55.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marcel Schuhen",
+          "portero": true
+        }
       }
     ],
     "corners": [

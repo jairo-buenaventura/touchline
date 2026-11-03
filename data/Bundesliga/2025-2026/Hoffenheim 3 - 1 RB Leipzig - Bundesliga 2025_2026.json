@@ -645,6 +645,83 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Albian Hajdari",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 9,
+            "x": 32.7,
+            "y": 26.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albian Hajdari",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 10,
+            "x": 32.7,
+            "y": 26.4,
+            "endX": 8.1,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 13,
+            "x": 8.1,
+            "y": 44.5,
+            "endX": 9.0,
+            "endY": 37.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 13,
+            "x": 9.0,
+            "y": 37.8,
+            "endX": 13.9,
+            "endY": 6.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Hranác",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 16,
+            "x": 13.9,
+            "y": 6.1,
+            "endX": 25.2,
+            "endY": 2.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vladimír Coufal",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 19,
+            "x": 25.2,
+            "y": 2.8,
+            "endX": 29.6,
+            "endY": 5.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vladimír Coufal",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 30,
+            "x": 29.6,
+            "y": 5.2,
+            "endX": 30.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Vladimír Coufal",
             "tipo": "Pass",
             "minuto": 78,
@@ -787,7 +864,12 @@
             "endY": 38.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Rômulo",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4979,7 +5061,68 @@
         "y": 40.5,
         "arco_y": 52.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 0,
+            "x": 65.0,
+            "y": 62.6,
+            "endX": 71.0,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Assan Ouédraogo",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 1,
+            "x": 71.0,
+            "y": 56.4,
+            "endX": 72.5,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Assan Ouédraogo",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 1,
+            "x": 72.5,
+            "y": 53.8,
+            "endX": 79.6,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Diomande",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 2,
+            "x": 79.6,
+            "y": 32.5,
+            "endX": 93.2,
+            "endY": 40.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Diomande",
+            "tipo": "TakeOn",
+            "minuto": 8,
+            "segundo": 2,
+            "x": 93.2,
+            "y": 40.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bernardo",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

@@ -565,7 +565,68 @@
         "y": 54.9,
         "arco_y": 45.6,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ondrej Duda",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 3,
+            "x": 67.3,
+            "y": 58.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ondrej Duda",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 6,
+            "x": 67.8,
+            "y": 40.8,
+            "endX": 81.9,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steffen Tigges",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 7,
+            "x": 82.1,
+            "y": 50.3,
+            "endX": 86.6,
+            "endY": 36.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benno Schmitz",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 8,
+            "x": 86.6,
+            "y": 36.1,
+            "endX": 86.5,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benno Schmitz",
+            "tipo": "BallTouch",
+            "minuto": 60,
+            "segundo": 8,
+            "x": 86.5,
+            "y": 33.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robert Gumny",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4649,6 +4710,83 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Rubén Vargas",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 49,
+            "x": 68.8,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "BallTouch",
+            "minuto": 12,
+            "segundo": 49,
+            "x": 68.5,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Gruezo",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 51,
+            "x": 67.1,
+            "y": 46.9,
+            "endX": 70.1,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 53,
+            "x": 70.8,
+            "y": 31.8,
+            "endX": 68.2,
+            "endY": 12.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphael Framberger",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 55,
+            "x": 68.2,
+            "y": 12.0,
+            "endX": 70.3,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphael Framberger",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 55,
+            "x": 70.3,
+            "y": 16.0,
+            "endX": 90.5,
+            "endY": 59.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ermedin Demirovic",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 1,
+            "x": 90.5,
+            "y": 59.4,
+            "endX": 76.6,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ermedin Demirovic",
             "tipo": "Pass",
             "minuto": 13,
@@ -4758,7 +4896,12 @@
             "endY": 70.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Benno Schmitz",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

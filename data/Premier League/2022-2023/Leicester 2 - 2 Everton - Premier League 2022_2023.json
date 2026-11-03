@@ -395,6 +395,17 @@
         "secuencia_gol": [
           {
             "jugador": "Wout Faes",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 18,
+            "x": 90.5,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Faes",
             "tipo": "Pass",
             "minuto": 21,
             "segundo": 18,
@@ -404,7 +415,12 @@
             "endY": 56.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Vitalii Mykolenko",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -425,6 +441,39 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "James Maddison",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 36,
+            "x": 48.4,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Maddison",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 37,
+            "x": 48.1,
+            "y": 40.6,
+            "endX": 72.1,
+            "endY": 47.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 41,
+            "x": 72.1,
+            "y": 47.4,
+            "endX": 88.4,
+            "endY": 50.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamie Vardy",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -435,7 +484,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jordan Pickford",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -4881,7 +4935,24 @@
         "y": 40.8,
         "arco_y": 52.9,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dominic Calvert-Lewin",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 57,
+            "x": 90.8,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wout Faes",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

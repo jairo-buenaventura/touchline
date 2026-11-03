@@ -4858,7 +4858,46 @@
         "y": 63.2,
         "arco_y": 45.9,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Philip Zinckernagel",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 17,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.7,
+            "endY": 52.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 22,
+            "x": 96.7,
+            "y": 52.9,
+            "endX": 79.0,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 22,
+            "x": 79.0,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Liel Abada",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -4869,6 +4908,72 @@
         "arco_y": 48.7,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 1,
+            "x": 32.5,
+            "y": 88.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 2,
+            "x": 32.5,
+            "y": 88.2,
+            "endX": 39.3,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Bamba",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 3,
+            "x": 41.1,
+            "y": 90.1,
+            "endX": 32.7,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 7,
+            "x": 32.7,
+            "y": 96.0,
+            "endX": 37.3,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brian Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 7,
+            "x": 37.3,
+            "y": 95.5,
+            "endX": 35.9,
+            "endY": 93.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Bamba",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 9,
+            "x": 35.9,
+            "y": 93.0,
+            "endX": 35.0,
+            "endY": 95.9,
+            "exitoso": true
+          },
           {
             "jugador": "Jonathan Bamba",
             "tipo": "Pass",
@@ -5122,7 +5227,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Nick Scardina",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

@@ -389,6 +389,17 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Stefan Posch",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 14,
+            "x": 98.5,
+            "y": 45.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Kaishu Sano",
             "tipo": "Pass",
             "minuto": 14,
@@ -399,7 +410,12 @@
             "endY": 55.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Jonas Urbig",
+          "portero": true
+        }
       },
       {
         "minuto": 19,
@@ -445,7 +461,68 @@
         "y": 54.0,
         "arco_y": 51.3,
         "arco_z": 35.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 17,
+            "x": 36.3,
+            "y": 66.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 18,
+            "x": 38.8,
+            "y": 62.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 19,
+            "x": 38.3,
+            "y": 71.1,
+            "endX": 68.4,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 25,
+            "x": 68.4,
+            "y": 79.8,
+            "endX": 88.0,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "SavedShot",
+            "minuto": 28,
+            "segundo": 25,
+            "x": 88.0,
+            "y": 66.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonas Urbig",
+          "portero": true
+        }
       },
       {
         "minuto": 34,
@@ -482,7 +559,112 @@
         "y": 46.4,
         "arco_y": 46.4,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Batz",
+            "tipo": "KeeperPickup",
+            "minuto": 46,
+            "segundo": 14,
+            "x": 3.7,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Batz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 5.2,
+            "y": 45.0,
+            "endX": 13.2,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan Posch",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 29,
+            "x": 13.2,
+            "y": 25.6,
+            "endX": 24.8,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan Posch",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 29,
+            "x": 24.8,
+            "y": 11.2,
+            "endX": 37.9,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phillip Tietz",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 31,
+            "x": 38.0,
+            "y": 29.5,
+            "endX": 45.1,
+            "endY": 45.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaishu Sano",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 33,
+            "x": 46.8,
+            "y": 46.2,
+            "endX": 81.9,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 38,
+            "x": 81.9,
+            "y": 74.8,
+            "endX": 86.0,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "TakeOn",
+            "minuto": 46,
+            "segundo": 38,
+            "x": 86.0,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 38,
+            "x": 84.0,
+            "y": 69.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonas Urbig",
+          "portero": true
+        }
       },
       {
         "minuto": 47,
@@ -3913,6 +4095,39 @@
         "secuencia_gol": [
           {
             "jugador": "Michael Olise",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 45,
+            "x": 79.3,
+            "y": 16.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 48,
+            "x": 88.5,
+            "y": 23.4,
+            "endX": 89.2,
+            "endY": 33.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 51,
+            "x": 89.2,
+            "y": 33.4,
+            "endX": 84.6,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
             "tipo": "Pass",
             "minuto": 52,
             "segundo": 51,
@@ -3933,7 +4148,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dominik Kohr",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -4058,7 +4278,123 @@
         "y": 47.6,
         "arco_y": 47.9,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "BallTouch",
+            "minuto": 79,
+            "segundo": 46,
+            "x": 72.3,
+            "y": 45.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 47,
+            "x": 71.9,
+            "y": 52.3,
+            "endX": 73.2,
+            "endY": 34.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 73.0,
+            "y": 32.2,
+            "endX": 78.4,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 51,
+            "x": 78.3,
+            "y": 16.8,
+            "endX": 80.1,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 53,
+            "x": 80.1,
+            "y": 35.1,
+            "endX": 79.2,
+            "endY": 38.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 53,
+            "x": 79.2,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 54,
+            "x": 84.3,
+            "y": 33.4,
+            "endX": 95.8,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 55,
+            "x": 95.8,
+            "y": 32.7,
+            "endX": 98.6,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 55,
+            "x": 98.6,
+            "y": 29.7,
+            "endX": 95.2,
+            "endY": 45.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "BallTouch",
+            "minuto": 79,
+            "segundo": 56,
+            "x": 97.0,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Danny da Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

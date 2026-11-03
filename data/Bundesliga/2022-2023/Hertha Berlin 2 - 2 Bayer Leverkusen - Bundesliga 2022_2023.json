@@ -456,6 +456,39 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Tousart",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 50,
+            "x": 38.4,
+            "y": 24.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 51,
+            "x": 38.8,
+            "y": 24.4,
+            "endX": 68.4,
+            "endY": 24.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wilfried Kanga",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 56,
+            "x": 68.4,
+            "y": 24.9,
+            "endX": 87.5,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Wilfried Kanga",
             "tipo": "Pass",
             "minuto": 54,
@@ -477,7 +510,12 @@
             "endY": 59.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Edmond Tapsoba",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

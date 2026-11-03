@@ -383,7 +383,24 @@
         "y": 48.2,
         "arco_y": 53.9,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nikolai Hopland",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 13,
+            "x": 94.2,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pelle Clement",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -458,6 +475,50 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Mats Köhlert",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 50,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.6,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ion Nicolaescu",
+            "tipo": "MissedShots",
+            "minuto": 56,
+            "segundo": 53,
+            "x": 91.6,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Trenskow",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 56,
+            "x": 91.4,
+            "y": 18.6,
+            "endX": 91.5,
+            "endY": 21.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luuk Brouwers",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 1,
+            "x": 91.5,
+            "y": 21.3,
+            "endX": 77.9,
+            "endY": 10.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Luuk Brouwers",
             "tipo": "Pass",
             "minuto": 57,
@@ -479,7 +540,12 @@
             "endY": 35.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pelle Clement",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

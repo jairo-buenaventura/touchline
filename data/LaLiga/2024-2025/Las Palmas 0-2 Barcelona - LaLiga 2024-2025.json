@@ -3764,6 +3764,50 @@
         "secuencia_gol": [
           {
             "jugador": "Dani Olmo",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 17,
+            "x": 46.2,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 19,
+            "x": 60.2,
+            "y": 43.3,
+            "endX": 67.1,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 24,
+            "x": 67.1,
+            "y": 28.0,
+            "endX": 76.2,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 24,
+            "x": 76.2,
+            "y": 35.7,
+            "endX": 87.9,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
             "tipo": "TakeOn",
             "minuto": 61,
             "segundo": 26,
@@ -3773,7 +3817,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Álex Suárez",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

@@ -4261,6 +4261,28 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Mattia Perin",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 33,
+            "x": 5.1,
+            "y": 48.8,
+            "endX": 41.3,
+            "endY": 34.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Arkadiusz Milik",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 51,
+            "x": 41.3,
+            "y": 34.2,
+            "endX": 45.4,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Arkadiusz Milik",
             "tipo": "Pass",
             "minuto": 59,
@@ -4293,7 +4315,12 @@
             "endY": 33.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Isak Hien",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

@@ -624,6 +624,83 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Brooks Lennon",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 22.5,
+            "y": 20.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brooks Lennon",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 22.5,
+            "y": 20.0,
+            "endX": 3.8,
+            "endY": 47.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Guzan",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 41,
+            "x": 3.8,
+            "y": 47.7,
+            "endX": 5.8,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Guzan",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 41,
+            "x": 5.8,
+            "y": 53.9,
+            "endX": 21.0,
+            "endY": 54.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Rossetto",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 43,
+            "x": 21.0,
+            "y": 54.1,
+            "endX": 21.0,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Rossetto",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 43,
+            "x": 21.0,
+            "y": 57.5,
+            "endX": 32.1,
+            "endY": 64.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Xande Silva",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 51,
+            "x": 32.1,
+            "y": 64.6,
+            "endX": 64.0,
+            "endY": 69.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Xande Silva",
             "tipo": "Pass",
             "minuto": 42,
@@ -876,7 +953,12 @@
             "endY": 58.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "DeAndre Yedlin",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -5327,6 +5409,83 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Drake Callender",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 50,
+            "x": 27.3,
+            "y": 32.2,
+            "endX": 47.6,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamín Cremaschi",
+            "tipo": "BallTouch",
+            "minuto": 23,
+            "segundo": 51,
+            "x": 47.0,
+            "y": 31.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Campana",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 57,
+            "x": 70.4,
+            "y": 48.9,
+            "endX": 74.1,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Farías",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 2,
+            "x": 74.1,
+            "y": 68.0,
+            "endX": 72.4,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Farías",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 2,
+            "x": 72.4,
+            "y": 63.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Farías",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 4,
+            "x": 69.3,
+            "y": 52.2,
+            "endX": 71.4,
+            "endY": 28.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dixon Arroyo",
+            "tipo": "ShotOnPost",
+            "minuto": 24,
+            "segundo": 8,
+            "x": 74.0,
+            "y": 28.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Campana",
             "tipo": "TakeOn",
             "minuto": 24,
@@ -5337,7 +5496,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Miles Robinson",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

@@ -418,6 +418,50 @@
         "secuencia_gol": [
           {
             "jugador": "Diogo Dalot",
+            "tipo": "Clearance",
+            "minuto": 32,
+            "segundo": 58,
+            "x": 10.6,
+            "y": 28.3,
+            "endX": 13.6,
+            "endY": 12.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 2,
+            "x": 13.6,
+            "y": 12.2,
+            "endX": 14.1,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 2,
+            "x": 14.1,
+            "y": 2.6,
+            "endX": 12.6,
+            "endY": 2.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Diogo Dalot",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 21,
+            "x": 12.6,
+            "y": 2.2,
+            "endX": 17.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Dalot",
             "tipo": "Pass",
             "minuto": 33,
             "segundo": 21,
@@ -702,7 +746,12 @@
             "endY": 35.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Gabriel Martinelli",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -807,6 +856,39 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Diogo Dalot",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 38,
+            "x": 25.3,
+            "y": 0.0,
+            "endX": 37.8,
+            "endY": 12.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristiano Ronaldo",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 40,
+            "x": 39.1,
+            "y": 13.7,
+            "endX": 38.9,
+            "endY": 15.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cristiano Ronaldo",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 42,
+            "x": 38.9,
+            "y": 15.2,
+            "endX": 41.9,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristiano Ronaldo",
             "tipo": "Pass",
             "minuto": 74,
@@ -850,7 +932,12 @@
             "endY": 58.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Fábio Vieira",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -4239,7 +4326,57 @@
         "y": 45.5,
         "arco_y": 48.4,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 11,
+            "x": 60.9,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 11,
+            "x": 63.7,
+            "y": 79.1,
+            "endX": 61.5,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 61.5,
+            "y": 72.6,
+            "endX": 68.2,
+            "endY": 53.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 15,
+            "x": 69.0,
+            "y": 51.2,
+            "endX": 89.1,
+            "endY": 49.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Diogo Dalot",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

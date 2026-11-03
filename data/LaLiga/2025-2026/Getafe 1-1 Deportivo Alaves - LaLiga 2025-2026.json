@@ -364,6 +364,94 @@
         "secuencia_gol": [
           {
             "jugador": "Kiko Femenía",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 2,
+            "x": 37.8,
+            "y": 18.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiko Femenía",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 2,
+            "x": 37.8,
+            "y": 18.5,
+            "endX": 56.3,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Sancris",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 56.3,
+            "y": 5.3,
+            "endX": 53.4,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Sancris",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 53.4,
+            "y": 7.9,
+            "endX": 60.0,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Borja Mayoral",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 7,
+            "x": 60.0,
+            "y": 38.5,
+            "endX": 57.6,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rico",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 12,
+            "x": 57.6,
+            "y": 87.7,
+            "endX": 72.8,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rico",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 12,
+            "x": 72.8,
+            "y": 94.4,
+            "endX": 87.2,
+            "endY": 41.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kiko Femenía",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 16,
+            "x": 87.2,
+            "y": 41.7,
+            "endX": 76.1,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiko Femenía",
             "tipo": "Pass",
             "minuto": 62,
             "segundo": 16,
@@ -395,7 +483,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Youssef Enríquez",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

@@ -524,6 +524,61 @@
         "arco_z": 29.8,
         "secuencia_gol": [
           {
+            "jugador": "Mark Delgado",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 52,
+            "x": 74.6,
+            "y": 14.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 52,
+            "x": 79.5,
+            "y": 14.3,
+            "endX": 90.7,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 57,
+            "x": 90.7,
+            "y": 28.9,
+            "endX": 93.3,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "TakeOn",
+            "minuto": 50,
+            "segundo": 57,
+            "x": 93.3,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "SavedShot",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 95.5,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Son Heung-Min",
             "tipo": "BallTouch",
             "minuto": 50,
@@ -534,7 +589,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Oleksandr Svatok",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -587,6 +647,17 @@
         "secuencia_gol": [
           {
             "jugador": "Denis Bouanga",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 44,
+            "x": 53.8,
+            "y": 82.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
             "tipo": "Pass",
             "minuto": 71,
             "segundo": 44,
@@ -618,7 +689,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jon Gallagher",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

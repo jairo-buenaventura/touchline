@@ -401,7 +401,24 @@
         "y": 50.3,
         "arco_y": 52.3,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Odsonne Édouard",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 5,
+            "x": 91.1,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Adama Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -438,7 +455,24 @@
         "y": 52.6,
         "arco_y": 54.0,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Samson Baidoo",
+            "tipo": "Aerial",
+            "minuto": 63,
+            "segundo": 52,
+            "x": 90.9,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Otávio",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4416,6 +4450,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Adama Camara",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 47,
+            "x": 41.7,
+            "y": 27.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Camara",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 52,
+            "x": 79.8,
+            "y": 35.6,
+            "endX": 92.5,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilan Kebbal",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 55,
+            "x": 92.1,
+            "y": 24.2,
+            "endX": 80.8,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 57,
+            "x": 80.8,
+            "y": 50.0,
+            "endX": 82.6,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Pierre Lees-Melou",
             "tipo": "TakeOn",
             "minuto": 26,
@@ -4426,7 +4504,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matthieu Udol",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

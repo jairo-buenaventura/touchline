@@ -494,6 +494,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rasmus Nicolaisen",
+            "tipo": "Aerial",
+            "minuto": 43,
+            "segundo": 51,
+            "x": 89.0,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Nicolaisen",
             "tipo": "Pass",
             "minuto": 43,
             "segundo": 51,
@@ -503,7 +514,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maxime Le Marchand",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -4516,6 +4532,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gerzino Nyamsi",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 29,
+            "x": 13.2,
+            "y": 77.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerzino Nyamsi",
             "tipo": "TakeOn",
             "minuto": 64,
             "segundo": 29,
@@ -4613,7 +4640,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brecht Dejaegere",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

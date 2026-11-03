@@ -791,7 +791,24 @@
         "y": 43.7,
         "arco_y": 46.3,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sam Beukema",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 20,
+            "x": 95.4,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mike te Wierik",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -884,6 +901,28 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Wouter Goes",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 27,
+            "x": 90.2,
+            "y": 40.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sam Beukema",
+            "tipo": "SavedShot",
+            "minuto": 45,
+            "segundo": 28,
+            "x": 89.7,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Myron van Brederode",
             "tipo": "Pass",
             "minuto": 45,
@@ -905,7 +944,12 @@
             "endY": 60.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mohamed Bouchouari",
+          "portero": true
+        }
       },
       {
         "minuto": 46,
@@ -5976,6 +6020,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lucas Bernadou",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 10,
+            "x": 53.2,
+            "y": 54.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Bernadou",
             "tipo": "Pass",
             "minuto": 49,
             "segundo": 13,
@@ -5985,7 +6040,12 @@
             "endY": 43.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tijjani Reijnders",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

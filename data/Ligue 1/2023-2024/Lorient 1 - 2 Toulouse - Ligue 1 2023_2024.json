@@ -386,7 +386,24 @@
         "y": 51.4,
         "arco_y": 52.2,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mohamed Bamba",
+            "tipo": "BlockedPass",
+            "minuto": 18,
+            "segundo": 53,
+            "x": 95.8,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Logan Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4383,6 +4400,28 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Vincent Sierro",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 29,
+            "x": 74.4,
+            "y": 19.7,
+            "endX": 88.0,
+            "endY": 49.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Niklas Schmidt",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 33,
+            "x": 88.0,
+            "y": 49.7,
+            "endX": 79.1,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Niklas Schmidt",
             "tipo": "Pass",
             "minuto": 58,
@@ -4404,7 +4443,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nathaniel Adjei",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

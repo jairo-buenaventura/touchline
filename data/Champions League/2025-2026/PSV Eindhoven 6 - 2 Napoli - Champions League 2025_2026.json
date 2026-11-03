@@ -466,6 +466,83 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Ryan Flamingo",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 13,
+            "x": 56.7,
+            "y": 10.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Flamingo",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 15,
+            "x": 53.8,
+            "y": 11.8,
+            "endX": 72.1,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guus Til",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 17,
+            "x": 72.5,
+            "y": 23.8,
+            "endX": 67.7,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Man",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 22,
+            "x": 67.7,
+            "y": 12.3,
+            "endX": 70.0,
+            "endY": 22.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Man",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 22,
+            "x": 70.0,
+            "y": 22.9,
+            "endX": 69.6,
+            "endY": 31.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 23,
+            "x": 69.9,
+            "y": 31.4,
+            "endX": 87.8,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauro Júnior",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 23,
+            "x": 87.8,
+            "y": 28.9,
+            "endX": 93.4,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Mauro Júnior",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -487,7 +564,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alessandro Buongiorno",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -906,6 +988,94 @@
             "jugador": "Joey Veerman",
             "tipo": "Pass",
             "minuto": 85,
+            "segundo": 38,
+            "x": 50.3,
+            "y": 50.0,
+            "endX": 33.5,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jerdy Schouten",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 40,
+            "x": 33.5,
+            "y": 47.3,
+            "endX": 33.3,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 42,
+            "x": 32.3,
+            "y": 66.8,
+            "endX": 12.0,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matej Kovár",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 45,
+            "x": 12.0,
+            "y": 49.7,
+            "endX": 19.5,
+            "endY": 39.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jerdy Schouten",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 47,
+            "x": 19.5,
+            "y": 39.5,
+            "endX": 20.7,
+            "endY": 66.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 50,
+            "x": 20.7,
+            "y": 68.6,
+            "endX": 20.7,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jerdy Schouten",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 20.7,
+            "y": 36.1,
+            "endX": 34.9,
+            "endY": 62.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 56,
+            "x": 34.9,
+            "y": 62.0,
+            "endX": 38.9,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 85,
             "segundo": 56,
             "x": 38.9,
             "y": 67.0,
@@ -935,7 +1105,12 @@
             "endY": 47.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Frank Anguissa",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -5399,7 +5574,24 @@
         "y": 47.9,
         "arco_y": 51.6,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Scott McTominay",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 59,
+            "x": 96.2,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Armando Obispo",
+          "portero": false
+        }
       }
     ],
     "corners": [

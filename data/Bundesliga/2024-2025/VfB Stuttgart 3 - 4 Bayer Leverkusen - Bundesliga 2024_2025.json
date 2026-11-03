@@ -372,7 +372,46 @@
         "y": 48.9,
         "arco_y": 47.1,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maximilian Mittelstädt",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 55,
+            "x": 80.0,
+            "y": 63.3,
+            "endX": 85.6,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 57,
+            "x": 85.6,
+            "y": 46.0,
+            "endX": 90.5,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Leweling",
+            "tipo": "SavedShot",
+            "minuto": 13,
+            "segundo": 58,
+            "x": 89.3,
+            "y": 36.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lukás Hrádecky",
+          "portero": true
+        }
       },
       {
         "minuto": 24,
@@ -4299,7 +4338,24 @@
         "y": 37.0,
         "arco_y": 52.5,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robert Andrich",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 83.6,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Angelo Stiller",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -4378,6 +4434,39 @@
         "arco_y": 52.7,
         "arco_z": 17.7,
         "secuencia_gol": [
+          {
+            "jugador": "Exequiel Palacios",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 34,
+            "x": 38.6,
+            "y": 65.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Exequiel Palacios",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 34,
+            "x": 38.6,
+            "y": 65.4,
+            "endX": 60.7,
+            "endY": 39.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 43,
+            "x": 60.7,
+            "y": 39.1,
+            "endX": 12.1,
+            "endY": 83.3,
+            "exitoso": true
+          },
           {
             "jugador": "Lukás Hrádecky",
             "tipo": "Pass",
@@ -4477,7 +4566,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jeff Chabot",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

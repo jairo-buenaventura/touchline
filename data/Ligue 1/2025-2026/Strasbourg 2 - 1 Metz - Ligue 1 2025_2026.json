@@ -390,6 +390,182 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Guéla Doué",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 7,
+            "x": 15.9,
+            "y": 14.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guéla Doué",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 11,
+            "x": 20.3,
+            "y": 11.9,
+            "endX": 19.9,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 12,
+            "x": 19.6,
+            "y": 28.3,
+            "endX": 2.5,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike Penders",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 15,
+            "x": 2.0,
+            "y": 49.8,
+            "endX": 11.0,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Chilwell",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 23,
+            "x": 11.0,
+            "y": 91.1,
+            "endX": 30.6,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Chilwell",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 23,
+            "x": 30.6,
+            "y": 94.8,
+            "endX": 23.4,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Doukouré",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 26,
+            "x": 23.4,
+            "y": 73.8,
+            "endX": 23.8,
+            "endY": 67.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Doukouré",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 26,
+            "x": 23.8,
+            "y": 67.3,
+            "endX": 23.0,
+            "endY": 33.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 34,
+            "x": 23.0,
+            "y": 33.5,
+            "endX": 37.5,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 34,
+            "x": 37.5,
+            "y": 33.9,
+            "endX": 37.9,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samir El Mourabet",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 37,
+            "x": 37.0,
+            "y": 64.6,
+            "endX": 36.1,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 40,
+            "x": 36.1,
+            "y": 37.4,
+            "endX": 45.7,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 40,
+            "x": 45.7,
+            "y": 43.3,
+            "endX": 55.2,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guéla Doué",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 42,
+            "x": 55.2,
+            "y": 29.4,
+            "endX": 43.6,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Høgsberg",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 45,
+            "x": 42.6,
+            "y": 10.2,
+            "endX": 43.5,
+            "endY": 10.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas Høgsberg",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 48,
+            "x": 43.5,
+            "y": 10.2,
+            "endX": 31.1,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Høgsberg",
             "tipo": "Pass",
             "minuto": 10,
@@ -598,7 +774,12 @@
             "endY": 36.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Giorgi Tsitaishvili",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -671,7 +852,24 @@
         "y": 57.5,
         "arco_y": 53.2,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Martial Godo",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 38,
+            "x": 91.2,
+            "y": 57.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Malick Mbaye",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

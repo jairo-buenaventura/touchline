@@ -454,6 +454,28 @@
         "secuencia_gol": [
           {
             "jugador": "Edson Álvarez",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 47,
+            "x": 92.6,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edson Álvarez",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 48,
+            "x": 93.7,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edson Álvarez",
             "tipo": "BallTouch",
             "minuto": 21,
             "segundo": 49,
@@ -463,7 +485,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Miguel Araujo",
+          "portero": true
+        }
       },
       {
         "minuto": 25,
@@ -5984,6 +6011,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jeremy Antonisse",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 40,
+            "x": 60.1,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremy Antonisse",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 40,
+            "x": 59.2,
+            "y": 70.3,
+            "endX": 62.3,
+            "endY": 70.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mark Diemers",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 46,
+            "x": 62.3,
+            "y": 70.1,
+            "endX": 60.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Mark Diemers",
             "tipo": "Pass",
             "minuto": 57,
@@ -6115,7 +6175,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Florian Grillitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

@@ -4184,6 +4184,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 42,
+            "x": 70.3,
+            "y": 69.3,
+            "endX": 76.9,
+            "endY": 73.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 47,
+            "x": 76.9,
+            "y": 73.0,
+            "endX": 77.9,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrej Kramaric",
             "tipo": "Pass",
             "minuto": 24,
@@ -4227,7 +4249,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Suat Serdar",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

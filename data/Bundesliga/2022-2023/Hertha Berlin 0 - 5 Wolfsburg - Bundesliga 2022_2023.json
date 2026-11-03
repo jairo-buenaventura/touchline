@@ -3930,6 +3930,61 @@
             "jugador": "Micky van de Ven",
             "tipo": "Pass",
             "minuto": 71,
+            "segundo": 7,
+            "x": 61.9,
+            "y": 100.0,
+            "endX": 58.9,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 58.9,
+            "y": 92.6,
+            "endX": 71.4,
+            "endY": 95.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 71.4,
+            "y": 95.2,
+            "endX": 77.2,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Wind",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 13,
+            "x": 77.6,
+            "y": 96.2,
+            "endX": 78.6,
+            "endY": 94.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Micky van de Ven",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 15,
+            "x": 78.6,
+            "y": 94.8,
+            "endX": 68.6,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Micky van de Ven",
+            "tipo": "Pass",
+            "minuto": 71,
             "segundo": 15,
             "x": 68.6,
             "y": 95.1,
@@ -3970,7 +4025,12 @@
             "endY": 36.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jonjoe Kenny",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4030,6 +4090,17 @@
             "jugador": "Omar Marmoush",
             "tipo": "TakeOn",
             "minuto": 85,
+            "segundo": 49,
+            "x": 79.7,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "TakeOn",
+            "minuto": 85,
             "segundo": 53,
             "x": 88.4,
             "y": 68.4,
@@ -4037,7 +4108,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Filip Uremovic",
+          "portero": false
+        }
       }
     ],
     "corners": [

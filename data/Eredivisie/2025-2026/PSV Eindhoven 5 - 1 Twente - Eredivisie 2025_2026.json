@@ -398,7 +398,24 @@
         "y": 50.2,
         "arco_y": 49.4,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Flamingo",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 95.8,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ruud Nijstad",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -449,6 +466,28 @@
         "arco_y": 45.9,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Ivan Perisic",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 24,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.9,
+            "endY": 40.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Noah Fernandez",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 31,
+            "x": 95.9,
+            "y": 40.0,
+            "endX": 68.2,
+            "endY": 60.3,
+            "exitoso": true
+          },
           {
             "jugador": "Noah Fernandez",
             "tipo": "Pass",
@@ -504,7 +543,12 @@
             "endY": 12.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Daouda Weidmann",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

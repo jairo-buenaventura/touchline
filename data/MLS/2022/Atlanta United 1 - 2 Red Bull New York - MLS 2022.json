@@ -474,6 +474,72 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Alan Franco",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 34,
+            "x": 57.4,
+            "y": 100.0,
+            "endX": 56.1,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 37,
+            "x": 56.1,
+            "y": 93.2,
+            "endX": 62.4,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alan Franco",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 38,
+            "x": 62.4,
+            "y": 95.6,
+            "endX": 56.2,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amar Sejdic",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 42,
+            "x": 56.1,
+            "y": 55.4,
+            "endX": 73.2,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brooks Lennon",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 46,
+            "x": 76.0,
+            "y": 4.6,
+            "endX": 86.1,
+            "endY": 44.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amar Sejdic",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 49,
+            "x": 86.1,
+            "y": 44.2,
+            "endX": 65.3,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Amar Sejdic",
             "tipo": "Pass",
             "minuto": 93,
@@ -517,7 +583,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dylan Nealis",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5164,6 +5235,28 @@
         "secuencia_gol": [
           {
             "jugador": "Kyle Duncan",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 37,
+            "x": 59.3,
+            "y": 10.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Duncan",
+            "tipo": "TakeOn",
+            "minuto": 10,
+            "segundo": 44,
+            "x": 83.3,
+            "y": 2.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Duncan",
             "tipo": "Pass",
             "minuto": 10,
             "segundo": 47,
@@ -5184,7 +5277,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Caleb Wiley",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

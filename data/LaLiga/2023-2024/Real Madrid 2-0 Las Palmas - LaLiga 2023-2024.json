@@ -538,6 +538,50 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Ferland Mendy",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 22,
+            "x": 64.1,
+            "y": 52.2,
+            "endX": 66.4,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 66.4,
+            "y": 64.7,
+            "endX": 65.2,
+            "endY": 59.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 65.2,
+            "y": 59.8,
+            "endX": 77.5,
+            "endY": 23.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 27,
+            "x": 77.5,
+            "y": 23.7,
+            "endX": 91.0,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas Vázquez",
             "tipo": "Pass",
             "minuto": 47,
@@ -548,7 +592,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Cristian Herrera",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -558,7 +607,24 @@
         "y": 53.2,
         "arco_y": 45.7,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joselu",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 2,
+            "x": 90.5,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric Curbelo",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

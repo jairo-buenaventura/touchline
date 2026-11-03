@@ -429,7 +429,24 @@
         "y": 47.0,
         "arco_y": 47.1,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "SavedShot",
+            "minuto": 11,
+            "segundo": 56,
+            "x": 86.7,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Martin Valjent",
+          "portero": true
+        }
       },
       {
         "minuto": 17,
@@ -466,7 +483,46 @@
         "y": 46.2,
         "arco_y": 47.5,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Álex Centelles",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 56,
+            "x": 74.8,
+            "y": 80.5,
+            "endX": 78.9,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adri Embarba",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 1,
+            "x": 78.9,
+            "y": 93.4,
+            "endX": 76.1,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adri Embarba",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 1,
+            "x": 76.1,
+            "y": 82.0,
+            "endX": 90.0,
+            "endY": 55.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dani Rodríguez",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -485,7 +541,46 @@
         "y": 43.5,
         "arco_y": 46.1,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Álex Pozo",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 48,
+            "x": 45.0,
+            "y": 4.8,
+            "endX": 74.4,
+            "endY": 6.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 53,
+            "x": 74.4,
+            "y": 6.6,
+            "endX": 88.0,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 53,
+            "x": 88.0,
+            "y": 5.2,
+            "endX": 90.2,
+            "endY": 45.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Martin Valjent",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

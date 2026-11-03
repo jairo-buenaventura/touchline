@@ -448,6 +448,17 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Sam Surridge",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 21,
+            "x": 89.2,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Edvard Tagseth",
             "tipo": "Pass",
             "minuto": 25,
@@ -535,7 +546,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jefferson Díaz",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -554,7 +570,35 @@
         "y": 46.8,
         "arco_y": 52.4,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 30,
+            "x": 76.0,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "SavedShot",
+            "minuto": 32,
+            "segundo": 30,
+            "x": 77.8,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Drake Callender",
+          "portero": true
+        }
       },
       {
         "minuto": 43,

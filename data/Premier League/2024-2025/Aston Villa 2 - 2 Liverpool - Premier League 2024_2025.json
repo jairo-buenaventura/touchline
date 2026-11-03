@@ -392,7 +392,35 @@
         "y": 60.1,
         "arco_y": 47.5,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tyrone Mings",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 59,
+            "x": 87.4,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrone Mings",
+            "tipo": "MissedShots",
+            "minuto": 36,
+            "segundo": 59,
+            "x": 92.9,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dominik Szoboszlai",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4596,6 +4624,61 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 10,
+            "x": 27.8,
+            "y": 79.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 13,
+            "x": 31.9,
+            "y": 71.4,
+            "endX": 41.3,
+            "endY": 41.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 16,
+            "x": 41.3,
+            "y": 41.9,
+            "endX": 58.0,
+            "endY": 36.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 16,
+            "x": 58.0,
+            "y": 36.4,
+            "endX": 68.7,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 19,
+            "x": 68.7,
+            "y": 17.4,
+            "endX": 77.0,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Salah",
             "tipo": "TakeOn",
             "minuto": 60,
@@ -4617,7 +4700,12 @@
             "endY": 35.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucas Digne",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

@@ -424,6 +424,28 @@
             "jugador": "Lazar Samardzic",
             "tipo": "Pass",
             "minuto": 91,
+            "segundo": 11,
+            "x": 65.7,
+            "y": 77.6,
+            "endX": 92.0,
+            "endY": 51.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 21,
+            "x": 92.0,
+            "y": 51.6,
+            "endX": 89.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 91,
             "segundo": 21,
             "x": 89.0,
             "y": 100.0,
@@ -486,7 +508,12 @@
             "endY": 43.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Giovanni Simeone",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3727,7 +3754,24 @@
         "y": 50.2,
         "arco_y": 53.9,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Victor Osimhen",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 47,
+            "x": 90.6,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "João Ferreira",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

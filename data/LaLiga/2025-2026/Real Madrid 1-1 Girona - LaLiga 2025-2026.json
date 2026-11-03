@@ -490,6 +490,39 @@
         "secuencia_gol": [
           {
             "jugador": "Fran García",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 1,
+            "x": 84.3,
+            "y": 99.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 2,
+            "x": 84.3,
+            "y": 99.0,
+            "endX": 84.9,
+            "endY": 96.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fran García",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 4,
+            "x": 84.9,
+            "y": 96.9,
+            "endX": 80.9,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran García",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 4,
@@ -521,7 +554,12 @@
             "endY": 54.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Iván Martín",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

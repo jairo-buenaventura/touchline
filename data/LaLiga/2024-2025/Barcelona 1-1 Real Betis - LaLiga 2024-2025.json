@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lamine Yamal",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 50,
+            "x": 59.5,
+            "y": 5.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 54,
@@ -416,7 +427,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pablo Fornals",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -5677,7 +5693,24 @@
         "y": 47.2,
         "arco_y": 49.9,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Natan",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 16,
+            "x": 93.9,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ronald Araujo",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

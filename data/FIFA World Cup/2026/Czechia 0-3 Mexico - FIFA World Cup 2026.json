@@ -4212,6 +4212,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Luis Romo",
+            "tipo": "BallTouch",
+            "minuto": 54,
+            "segundo": 9,
+            "x": 46.4,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Romo",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 10,
+            "x": 47.5,
+            "y": 56.7,
+            "endX": 61.7,
+            "endY": 36.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Chávez",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 13,
+            "x": 61.7,
+            "y": 36.4,
+            "endX": 71.6,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Mateo Chávez",
             "tipo": "TakeOn",
             "minuto": 54,
@@ -4222,7 +4255,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Michal Sadílek",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4274,6 +4312,50 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Guillermo Ochoa",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 54,
+            "x": 2.6,
+            "y": 49.7,
+            "endX": 77.4,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Alvarado",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 1,
+            "x": 77.4,
+            "y": 6.2,
+            "endX": 86.6,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 86.6,
+            "y": 30.7,
+            "endX": 93.5,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "SavedShot",
+            "minuto": 93,
+            "segundo": 4,
+            "x": 93.5,
+            "y": 39.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Roberto Alvarado",
             "tipo": "Pass",
             "minuto": 93,
@@ -4284,7 +4366,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Matej Kovár",
+          "portero": true
+        }
       }
     ],
     "corners": [

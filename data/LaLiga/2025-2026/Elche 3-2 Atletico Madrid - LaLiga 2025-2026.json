@@ -400,6 +400,17 @@
         "secuencia_gol": [
           {
             "jugador": "Aleix Febas",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 14,
+            "x": 75.5,
+            "y": 63.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix Febas",
             "tipo": "Pass",
             "minuto": 17,
             "segundo": 14,
@@ -420,7 +431,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thiago Almada",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -5463,7 +5479,35 @@
         "y": 47.2,
         "arco_y": 51.1,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nico González",
+            "tipo": "Aerial",
+            "minuto": 33,
+            "segundo": 19,
+            "x": 90.8,
+            "y": 13.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico González",
+            "tipo": "TakeOn",
+            "minuto": 33,
+            "segundo": 20,
+            "x": 97.2,
+            "y": 43.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matías Dituro",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

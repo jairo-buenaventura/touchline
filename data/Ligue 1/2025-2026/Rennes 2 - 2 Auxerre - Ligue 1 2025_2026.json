@@ -413,7 +413,24 @@
         "y": 49.9,
         "arco_y": 47.1,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Breel Embolo",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 55,
+            "x": 94.0,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kévin Danois",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -470,6 +487,50 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Ludovic Blas",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 27.2,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Blas",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 37.7,
+            "y": 6.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Blas",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 36.3,
+            "y": 8.0,
+            "endX": 36.6,
+            "endY": 13.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Valentin Rongier",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 36.6,
+            "y": 13.3,
+            "endX": 36.2,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Valentin Rongier",
             "tipo": "Pass",
             "minuto": 55,
@@ -513,7 +574,12 @@
             "endY": 60.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Oussama El Azzouzi",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

@@ -399,7 +399,24 @@
         "y": 51.6,
         "arco_y": 46.9,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rafael Czichos",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 48,
+            "x": 91.2,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Josh Williams",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -3947,6 +3964,72 @@
         "secuencia_gol": [
           {
             "jugador": "Darlington Nagbe",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 13,
+            "x": 31.8,
+            "y": 21.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 16,
+            "x": 34.9,
+            "y": 4.8,
+            "endX": 37.0,
+            "endY": 7.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 37.0,
+            "y": 7.1,
+            "endX": 44.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 44.3,
+            "y": 0.0,
+            "endX": 59.5,
+            "endY": 12.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 40,
+            "x": 60.0,
+            "y": 11.8,
+            "endX": 60.0,
+            "endY": 14.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 42,
+            "x": 60.0,
+            "y": 14.3,
+            "endX": 55.8,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
             "tipo": "Pass",
             "minuto": 62,
             "segundo": 42,
@@ -4011,7 +4094,12 @@
             "endY": 67.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Rafael Czichos",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4040,6 +4128,28 @@
         "arco_y": 49.4,
         "arco_z": 3.8,
         "secuencia_gol": [
+          {
+            "jugador": "Pedro Santos",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 20,
+            "x": 55.0,
+            "y": 100.0,
+            "endX": 70.9,
+            "endY": 96.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Derrick Etienne",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 24,
+            "x": 70.9,
+            "y": 96.9,
+            "endX": 77.0,
+            "endY": 94.3,
+            "exitoso": true
+          },
           {
             "jugador": "Derrick Etienne",
             "tipo": "TakeOn",
@@ -4095,7 +4205,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jairo Torres",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

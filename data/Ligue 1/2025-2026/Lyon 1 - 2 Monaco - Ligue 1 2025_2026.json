@@ -431,6 +431,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolás Tagliafico",
+            "tipo": "BlockedPass",
+            "minuto": 40,
+            "segundo": 48,
+            "x": 61.7,
+            "y": 92.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Tagliafico",
             "tipo": "Pass",
             "minuto": 40,
             "segundo": 53,
@@ -561,7 +572,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jordan Teze",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4811,7 +4827,90 @@
         "y": 46.8,
         "arco_y": 47.8,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 51,
+            "x": 4.0,
+            "y": 45.4,
+            "endX": 6.8,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 53,
+            "x": 6.8,
+            "y": 25.6,
+            "endX": 11.0,
+            "endY": 13.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 53,
+            "x": 11.0,
+            "y": 13.0,
+            "endX": 25.8,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Teze",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 58,
+            "x": 25.8,
+            "y": 5.6,
+            "endX": 30.6,
+            "endY": 7.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Teze",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 58,
+            "x": 30.6,
+            "y": 7.1,
+            "endX": 79.7,
+            "endY": 51.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 59,
+            "x": 79.7,
+            "y": 51.7,
+            "endX": 85.3,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 59,
+            "x": 85.3,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Clinton Mata",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

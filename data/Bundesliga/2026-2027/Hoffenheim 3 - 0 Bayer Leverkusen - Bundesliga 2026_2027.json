@@ -555,6 +555,17 @@
         "secuencia_gol": [
           {
             "jugador": "Max Moerstedt",
+            "tipo": "Aerial",
+            "minuto": 88,
+            "segundo": 50,
+            "x": 53.4,
+            "y": 35.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Moerstedt",
             "tipo": "Pass",
             "minuto": 88,
             "segundo": 50,
@@ -575,7 +586,12 @@
             "endY": 52.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Loïc Badé",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -595,6 +611,17 @@
         "arco_y": 53.9,
         "arco_z": 7.0,
         "secuencia_gol": [
+          {
+            "jugador": "Bambasé Conté",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 45,
+            "x": 46.7,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Bambasé Conté",
             "tipo": "TakeOn",
@@ -628,7 +655,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aleix García",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -368,7 +368,24 @@
         "y": 49.5,
         "arco_y": 46.8,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kamal Miller",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 27,
+            "x": 95.8,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Franco Ibarra",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -479,6 +496,50 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Rudy Camacho",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 6,
+            "x": 88.0,
+            "y": 39.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Samuel Piette",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 76.9,
+            "y": 34.6,
+            "endX": 87.2,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamal Miller",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 12,
+            "x": 87.2,
+            "y": 19.2,
+            "endX": 91.2,
+            "endY": 19.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamal Miller",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 12,
+            "x": 91.2,
+            "y": 19.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kamal Miller",
             "tipo": "Pass",
             "minuto": 81,
@@ -489,7 +550,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jake Mulraney",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

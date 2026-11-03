@@ -402,7 +402,24 @@
         "y": 47.4,
         "arco_y": 54.3,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Deybi Flores",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 2,
+            "x": 87.2,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Gerardo Valenzuela",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -4432,7 +4449,46 @@
         "y": 51.3,
         "arco_y": 45.5,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin Kelsy",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 13,
+            "x": 71.3,
+            "y": 71.1,
+            "endX": 69.4,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 14,
+            "x": 69.4,
+            "y": 64.3,
+            "endX": 71.9,
+            "endY": 61.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 14,
+            "x": 71.9,
+            "y": 61.7,
+            "endX": 73.6,
+            "endY": 61.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sigurd Rosted",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -4451,7 +4507,35 @@
         "y": 53.4,
         "arco_y": 48.0,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luca Orellano",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 48,
+            "x": 79.5,
+            "y": 22.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Orellano",
+            "tipo": "SavedShot",
+            "minuto": 54,
+            "segundo": 50,
+            "x": 87.6,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Sean Johnson",
+          "portero": true
+        }
       },
       {
         "minuto": 62,
@@ -4872,6 +4956,72 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Sérgio Santos",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 36,
+            "x": 39.8,
+            "y": 92.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 38,
+            "x": 36.0,
+            "y": 87.7,
+            "endX": 36.8,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 39,
+            "x": 36.8,
+            "y": 66.9,
+            "endX": 48.5,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yamil Asad",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 43,
+            "x": 48.5,
+            "y": 66.1,
+            "endX": 55.8,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yamil Asad",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 43,
+            "x": 55.8,
+            "y": 64.8,
+            "endX": 69.4,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 46,
+            "x": 69.4,
+            "y": 82.0,
+            "endX": 75.5,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucho Acosta",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -4915,7 +5065,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sigurd Rosted",
+          "portero": false
+        }
       }
     ],
     "corners": [

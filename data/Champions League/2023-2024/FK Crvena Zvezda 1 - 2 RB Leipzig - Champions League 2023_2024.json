@@ -4891,6 +4891,17 @@
         "secuencia_gol": [
           {
             "jugador": "Xaver Schlager",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 18,
+            "x": 32.9,
+            "y": 95.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
             "tipo": "TakeOn",
             "minuto": 76,
             "segundo": 22,
@@ -4911,7 +4922,12 @@
             "endY": 74.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kosta Nedeljkovic",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

@@ -421,6 +421,17 @@
         "secuencia_gol": [
           {
             "jugador": "Yéremy Pino",
+            "tipo": "Aerial",
+            "minuto": 22,
+            "segundo": 16,
+            "x": 91.7,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yéremy Pino",
             "tipo": "ShotOnPost",
             "minuto": 22,
             "segundo": 16,
@@ -430,7 +441,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Miguel Gutiérrez",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4034,7 +4050,35 @@
         "y": 55.9,
         "arco_y": 49.4,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Abel Ruiz",
+            "tipo": "CornerAwarded",
+            "minuto": 65,
+            "segundo": 3,
+            "x": 90.1,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Gil",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.4,
+            "endY": 50.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thierno Barry",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

@@ -581,6 +581,28 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Marcos Llorente",
+            "tipo": "SavedShot",
+            "minuto": 48,
+            "segundo": 26,
+            "x": 85.9,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Memphis Depay",
+            "tipo": "MissedShots",
+            "minuto": 48,
+            "segundo": 28,
+            "x": 92.4,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Yannick Carrasco",
             "tipo": "Pass",
             "minuto": 48,
@@ -602,7 +624,12 @@
             "endY": 65.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Eray Cömert",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -622,6 +649,39 @@
         "arco_y": 53.4,
         "arco_z": 11.4,
         "secuencia_gol": [
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 46,
+            "x": 39.1,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 51,
+            "x": 54.5,
+            "y": 59.7,
+            "endX": 89.5,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Morata",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 89.5,
+            "y": 87.2,
+            "endX": 90.6,
+            "endY": 78.4,
+            "exitoso": true
+          },
           {
             "jugador": "Álvaro Morata",
             "tipo": "TakeOn",
@@ -644,7 +704,12 @@
             "endY": 46.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Eray Cömert",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

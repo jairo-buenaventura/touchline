@@ -416,7 +416,24 @@
         "y": 54.0,
         "arco_y": 45.9,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ransford Königsdörffer",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 20,
+            "x": 90.6,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nico Schlotterbeck",
+          "portero": false
+        }
       },
       {
         "minuto": 98,
@@ -4314,6 +4331,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nico Schlotterbeck",
+            "tipo": "Aerial",
+            "minuto": 63,
+            "segundo": 42,
+            "x": 92.6,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nico Schlotterbeck",
             "tipo": "Pass",
             "minuto": 63,
             "segundo": 44,
@@ -4323,7 +4351,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jordan Torunarigha",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

@@ -480,6 +480,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Farès Chaïbi",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 58,
+            "x": 45.4,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Farès Chaïbi",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 58,
+            "x": 42.9,
+            "y": 62.5,
+            "endX": 45.0,
+            "endY": 64.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 45.0,
+            "y": 64.9,
+            "endX": 43.4,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Larsson",
             "tipo": "Pass",
             "minuto": 71,
@@ -512,7 +545,12 @@
             "endY": 63.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Tim Siersleben",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

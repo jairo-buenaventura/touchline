@@ -444,6 +444,39 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Ramy Bensebaini",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 53,
+            "x": 39.6,
+            "y": 65.7,
+            "endX": 45.3,
+            "endY": 43.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aaron Anselmino",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 54,
+            "x": 45.3,
+            "y": 43.2,
+            "endX": 58.8,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 58,
+            "x": 58.8,
+            "y": 15.9,
+            "endX": 71.7,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Yan Couto",
             "tipo": "TakeOn",
             "minuto": 42,
@@ -465,7 +498,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robert Skov",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -713,7 +751,24 @@
         "y": 59.7,
         "arco_y": 47.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ramy Bensebaini",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 37,
+            "x": 93.4,
+            "y": 61.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tom Rothe",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -502,6 +502,105 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Michael Zetterer",
+            "tipo": "KeeperPickup",
+            "minuto": 64,
+            "segundo": 33,
+            "x": 2.5,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Zetterer",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 38,
+            "x": 10.5,
+            "y": 49.5,
+            "endX": 39.7,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathaniel Brown",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 46,
+            "x": 38.7,
+            "y": 85.9,
+            "endX": 37.0,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 49,
+            "x": 37.0,
+            "y": 72.4,
+            "endX": 54.5,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 49,
+            "x": 54.5,
+            "y": 47.9,
+            "endX": 53.2,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aurèle Amenda",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 51,
+            "x": 53.2,
+            "y": 23.6,
+            "endX": 64.0,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoube Amaimouni-Echghouyab",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 56,
+            "x": 64.0,
+            "y": 10.3,
+            "endX": 74.4,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoube Amaimouni-Echghouyab",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 56,
+            "x": 74.4,
+            "y": 8.8,
+            "endX": 84.1,
+            "endY": 12.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 4,
+            "x": 84.1,
+            "y": 12.3,
+            "endX": 39.7,
+            "endY": 20.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Robin Koch",
             "tipo": "Pass",
             "minuto": 65,
@@ -589,7 +688,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Cenk Özkacar",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -5315,7 +5419,35 @@
         "y": 48.0,
         "arco_y": 54.2,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakub Kaminski",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 41,
+            "x": 73.7,
+            "y": 34.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakub Kaminski",
+            "tipo": "TakeOn",
+            "minuto": 69,
+            "segundo": 42,
+            "x": 84.0,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

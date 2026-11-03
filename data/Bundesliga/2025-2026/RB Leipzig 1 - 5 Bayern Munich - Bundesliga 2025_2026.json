@@ -422,6 +422,28 @@
         "secuencia_gol": [
           {
             "jugador": "Xaver Schlager",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 29,
+            "x": 43.3,
+            "y": 35.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
+            "tipo": "TakeOn",
+            "minuto": 19,
+            "segundo": 29,
+            "x": 40.8,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
             "tipo": "Pass",
             "minuto": 19,
             "segundo": 33,
@@ -530,7 +552,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leon Goretzka",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -4661,7 +4688,24 @@
         "y": 43.4,
         "arco_y": 50.6,
         "arco_z": 26.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 56,
+            "x": 97.1,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Conrad Harder",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

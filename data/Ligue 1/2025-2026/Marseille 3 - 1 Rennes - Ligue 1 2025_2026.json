@@ -405,6 +405,39 @@
         "secuencia_gol": [
           {
             "jugador": "Mason Greenwood",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 16,
+            "x": 68.3,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 17,
+            "x": 68.3,
+            "y": 11.9,
+            "endX": 67.4,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Weah",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 18,
+            "x": 67.4,
+            "y": 19.4,
+            "endX": 64.8,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
             "tipo": "TakeOn",
             "minuto": 1,
             "segundo": 18,
@@ -425,7 +458,12 @@
             "endY": 48.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mahdi Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 8,

@@ -505,7 +505,24 @@
         "y": 50.2,
         "arco_y": 52.7,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anthony Lozano",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 16,
+            "x": 96.6,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kiko Femenía",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4821,6 +4838,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Filip Jörgensen",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 22,
+            "x": 3.2,
+            "y": 50.3,
+            "endX": 9.1,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aïssa Mandi",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 23,
+            "x": 9.1,
+            "y": 30.3,
+            "endX": 12.5,
+            "endY": 14.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiko Femenía",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 23,
+            "x": 10.4,
+            "y": 16.2,
+            "endX": 11.4,
+            "endY": 16.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aïssa Mandi",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 11.4,
+            "y": 16.0,
+            "endX": 3.3,
+            "endY": 44.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Aïssa Mandi",
             "tipo": "Pass",
             "minuto": 23,
@@ -5073,7 +5134,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Adri Embarba",
+          "portero": false
+        }
       },
       {
         "minuto": 32,

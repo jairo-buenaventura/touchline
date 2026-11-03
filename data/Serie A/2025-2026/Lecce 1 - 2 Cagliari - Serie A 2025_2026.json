@@ -356,6 +356,39 @@
         "secuencia_gol": [
           {
             "jugador": "Riccardo Sottil",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 10,
+            "x": 71.0,
+            "y": 96.2,
+            "endX": 70.0,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ylber Ramadani",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 11,
+            "x": 70.0,
+            "y": 90.3,
+            "endX": 78.4,
+            "endY": 98.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 13,
+            "x": 78.4,
+            "y": 98.6,
+            "endX": 80.8,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
             "tipo": "TakeOn",
             "minuto": 4,
             "segundo": 13,
@@ -376,7 +409,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sebastiano Esposito",
+          "portero": false
+        }
       },
       {
         "minuto": 15,

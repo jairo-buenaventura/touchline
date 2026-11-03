@@ -502,6 +502,94 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Thiago Almada",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 10,
+            "x": 52.9,
+            "y": 83.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 59.0,
+            "y": 87.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 16,
+            "x": 63.5,
+            "y": 83.3,
+            "endX": 64.0,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelino Moreno",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 64.0,
+            "y": 65.4,
+            "endX": 68.1,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcelino Moreno",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 68.1,
+            "y": 56.4,
+            "endX": 88.7,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luiz Araújo",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 88.7,
+            "y": 88.0,
+            "endX": 93.5,
+            "endY": 84.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luiz Araújo",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 93.5,
+            "y": 84.0,
+            "endX": 93.3,
+            "endY": 62.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luiz Araújo",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 33,
+            "x": 93.3,
+            "y": 62.4,
+            "endX": 92.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Luiz Araújo",
             "tipo": "Pass",
             "minuto": 90,
@@ -644,7 +732,12 @@
             "endY": 54.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jonathan Mensah",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -5270,7 +5363,68 @@
         "y": 65.9,
         "arco_y": 46.3,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 9,
+            "x": 29.4,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 10,
+            "x": 29.4,
+            "y": 53.6,
+            "endX": 28.7,
+            "endY": 69.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Derrick Etienne",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 12,
+            "x": 28.7,
+            "y": 69.8,
+            "endX": 75.2,
+            "endY": 70.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erik Hurtado",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 20,
+            "x": 75.2,
+            "y": 70.4,
+            "endX": 86.4,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erik Hurtado",
+            "tipo": "TakeOn",
+            "minuto": 44,
+            "segundo": 20,
+            "x": 86.4,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alex De John",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

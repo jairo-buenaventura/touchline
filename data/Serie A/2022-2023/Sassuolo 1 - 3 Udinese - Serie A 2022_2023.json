@@ -3460,7 +3460,24 @@
         "y": 50.9,
         "arco_y": 52.2,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Beto",
+            "tipo": "Aerial",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 96.6,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jeremy Toljan",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -3729,6 +3746,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sandi Lovric",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 39.8,
+            "y": 35.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
             "tipo": "TakeOn",
             "minuto": 92,
             "segundo": 6,
@@ -3749,7 +3777,12 @@
             "endY": 56.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Abdou Harroui",
+          "portero": false
+        }
       }
     ],
     "corners": [

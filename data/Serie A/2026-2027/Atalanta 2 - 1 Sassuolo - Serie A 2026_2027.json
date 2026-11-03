@@ -395,6 +395,61 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Nicola Zalewski",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 3,
+            "x": 46.1,
+            "y": 25.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicola Zalewski",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 3,
+            "x": 46.5,
+            "y": 26.7,
+            "endX": 73.2,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Zappacosta",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 6,
+            "x": 73.2,
+            "y": 11.0,
+            "endX": 95.7,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Zappacosta",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 6,
+            "x": 95.7,
+            "y": 12.5,
+            "endX": 91.7,
+            "endY": 56.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giacomo Raspadori",
+            "tipo": "BallTouch",
+            "minuto": 5,
+            "segundo": 10,
+            "x": 91.7,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gianluca Gaetano",
             "tipo": "Pass",
             "minuto": 5,
@@ -405,7 +460,12 @@
             "endY": 63.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Simone Cinquegrano",
+          "portero": false
+        }
       },
       {
         "minuto": 9,

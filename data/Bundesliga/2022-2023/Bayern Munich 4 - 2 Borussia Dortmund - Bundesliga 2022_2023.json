@@ -436,6 +436,17 @@
         "secuencia_gol": [
           {
             "jugador": "Matthijs de Ligt",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 24,
+            "x": 90.8,
+            "y": 51.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
             "tipo": "MissedShots",
             "minuto": 17,
             "segundo": 24,
@@ -445,7 +456,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nico Schlotterbeck",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -473,7 +489,35 @@
         "y": 57.3,
         "arco_y": 48.3,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 38,
+            "x": 73.4,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "SavedShot",
+            "minuto": 22,
+            "segundo": 42,
+            "x": 74.5,
+            "y": 38.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gregor Kobel",
+          "portero": true
+        }
       },
       {
         "minuto": 28,
@@ -512,6 +556,72 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Yann Sommer",
+            "tipo": "KeeperPickup",
+            "minuto": 49,
+            "segundo": 27,
+            "x": 2.4,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 33,
+            "x": 6.9,
+            "y": 49.1,
+            "endX": 11.7,
+            "endY": 82.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 35,
+            "x": 11.7,
+            "y": 82.2,
+            "endX": 26.7,
+            "endY": 98.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 37,
+            "x": 26.7,
+            "y": 98.3,
+            "endX": 37.7,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 40,
+            "x": 37.1,
+            "y": 93.8,
+            "endX": 48.5,
+            "endY": 81.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kingsley Coman",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 41,
+            "x": 45.7,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kingsley Coman",
             "tipo": "Pass",
             "minuto": 49,
@@ -544,7 +654,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Salih Özcan",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

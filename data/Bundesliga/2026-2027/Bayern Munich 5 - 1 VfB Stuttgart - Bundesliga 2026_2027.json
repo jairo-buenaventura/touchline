@@ -625,6 +625,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Harry Kane",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 6.9,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 11,
+            "x": 4.0,
+            "y": 31.5,
+            "endX": 2.0,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Neuer",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 14,
+            "x": 2.0,
+            "y": 46.3,
+            "endX": 45.1,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "BallTouch",
+            "minuto": 81,
+            "segundo": 17,
+            "x": 45.1,
+            "y": 16.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 20,
+            "x": 43.2,
+            "y": 2.8,
+            "endX": 74.0,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 25,
+            "x": 74.0,
+            "y": 25.5,
+            "endX": 93.0,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Ismael Saibari",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -646,7 +712,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Finn Jeltsch",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -665,7 +736,35 @@
         "y": 45.8,
         "arco_y": 53.6,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 64.1,
+            "y": 40.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 63.1,
+            "y": 40.3,
+            "endX": 69.1,
+            "endY": 49.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Leonidas Stergiou",
+          "portero": false
+        }
       }
     ],
     "corners": [

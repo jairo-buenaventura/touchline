@@ -397,6 +397,72 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Ivan Ilic",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 23,
+            "x": 68.3,
+            "y": 13.4,
+            "endX": 89.9,
+            "endY": 55.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josh Doig",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 26,
+            "x": 89.9,
+            "y": 55.8,
+            "endX": 78.8,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Doig",
+            "tipo": "SavedShot",
+            "minuto": 39,
+            "segundo": 26,
+            "x": 78.8,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Tamèze",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 30,
+            "x": 66.4,
+            "y": 56.3,
+            "endX": 65.9,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ilic",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 33,
+            "x": 66.5,
+            "y": 14.9,
+            "endX": 87.3,
+            "endY": 72.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josh Doig",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 39,
+            "x": 87.3,
+            "y": 72.1,
+            "endX": 96.6,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Josh Doig",
             "tipo": "Pass",
             "minuto": 39,
@@ -407,7 +473,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joan González",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -438,6 +509,28 @@
         "secuencia_gol": [
           {
             "jugador": "Ivan Ilic",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 63.6,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ilic",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 65.7,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ilic",
             "tipo": "Pass",
             "minuto": 53,
             "segundo": 3,
@@ -447,7 +540,12 @@
             "endY": 71.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gabriel Strefezza",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

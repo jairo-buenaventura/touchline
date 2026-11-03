@@ -4893,6 +4893,17 @@
         "secuencia_gol": [
           {
             "jugador": "Junior Messias",
+            "tipo": "TakeOn",
+            "minuto": 82,
+            "segundo": 10,
+            "x": 64.2,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Messias",
             "tipo": "Pass",
             "minuto": 82,
             "segundo": 11,
@@ -4924,7 +4935,12 @@
             "endY": 41.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oumar Solet",
+          "portero": false
+        }
       }
     ],
     "corners": [

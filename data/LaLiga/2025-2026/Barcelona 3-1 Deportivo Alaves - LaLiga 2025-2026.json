@@ -5985,6 +5985,39 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Antonio Sivera",
+            "tipo": "CornerAwarded",
+            "minuto": 0,
+            "segundo": 10,
+            "x": 99.6,
+            "y": 10.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Rebbach",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 40,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.5,
+            "endY": 41.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Victor Parada",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 42,
+            "x": 95.5,
+            "y": 41.8,
+            "endX": 96.0,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Victor Parada",
             "tipo": "SavedShot",
             "minuto": 0,
@@ -6006,7 +6039,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marc Casadó",
+          "portero": false
+        }
       },
       {
         "minuto": 1,

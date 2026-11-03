@@ -378,6 +378,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Santiago Rodríguez",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 53,
+            "x": 77.8,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Rodríguez",
+            "tipo": "BallTouch",
+            "minuto": 11,
+            "segundo": 53,
+            "x": 77.8,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 54,
+            "x": 77.6,
+            "y": 54.0,
+            "endX": 87.3,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 56,
+            "x": 87.3,
+            "y": 59.9,
+            "endX": 92.6,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Maxi Moralez",
             "tipo": "TakeOn",
             "minuto": 11,
@@ -388,7 +432,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ryan Sailor",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

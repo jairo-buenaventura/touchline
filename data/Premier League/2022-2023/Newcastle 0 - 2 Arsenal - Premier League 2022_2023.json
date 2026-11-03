@@ -4367,6 +4367,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 56,
+            "x": 63.7,
+            "y": 72.6,
+            "endX": 90.1,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ben White",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 59,
+            "x": 90.1,
+            "y": 47.2,
+            "endX": 71.6,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Ben White",
             "tipo": "Pass",
             "minuto": 12,
@@ -4410,7 +4432,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dan Burn",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

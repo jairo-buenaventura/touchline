@@ -407,7 +407,24 @@
         "y": 53.8,
         "arco_y": 45.8,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "Aerial",
+            "minuto": 26,
+            "segundo": 11,
+            "x": 93.2,
+            "y": 47.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tyler Adams",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4609,6 +4626,17 @@
         "secuencia_gol": [
           {
             "jugador": "Evanilson",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 15,
+            "x": 81.0,
+            "y": 62.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evanilson",
             "tipo": "TakeOn",
             "minuto": 16,
             "segundo": 15,
@@ -4618,7 +4646,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mark Flekken",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

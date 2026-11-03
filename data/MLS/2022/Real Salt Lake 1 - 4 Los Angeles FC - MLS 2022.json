@@ -4525,6 +4525,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Carlos Vela",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 43,
+            "x": 79.5,
+            "y": 4.7,
+            "endX": 96.3,
+            "endY": 56.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ilie Sánchez",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 46,
+            "x": 96.3,
+            "y": 56.7,
+            "endX": 86.2,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilie Sánchez",
+            "tipo": "SavedShot",
+            "minuto": 8,
+            "segundo": 46,
+            "x": 86.2,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jesús Murillo",
             "tipo": "BallTouch",
             "minuto": 8,
@@ -4535,7 +4568,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Aarón Herrera",
+          "portero": true
+        }
       },
       {
         "minuto": 16,
@@ -4695,7 +4733,68 @@
         "y": 36.2,
         "arco_y": 51.2,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kellyn Acosta",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 3,
+            "x": 18.5,
+            "y": 51.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kellyn Acosta",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 5,
+            "x": 25.6,
+            "y": 46.3,
+            "endX": 46.7,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Arango",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 10,
+            "x": 46.7,
+            "y": 8.5,
+            "endX": 68.3,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gareth Bale",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 18,
+            "x": 68.3,
+            "y": 13.8,
+            "endX": 95.0,
+            "endY": 14.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gareth Bale",
+            "tipo": "TakeOn",
+            "minuto": 86,
+            "segundo": 18,
+            "x": 95.0,
+            "y": 14.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Justen Glad",
+          "portero": false
+        }
       }
     ],
     "corners": [

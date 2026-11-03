@@ -3806,7 +3806,35 @@
         "y": 59.0,
         "arco_y": 53.6,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Kane",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 49,
+            "x": 87.4,
+            "y": 17.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 51,
+            "x": 93.6,
+            "y": 18.4,
+            "endX": 93.9,
+            "endY": 22.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joe Rodon",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

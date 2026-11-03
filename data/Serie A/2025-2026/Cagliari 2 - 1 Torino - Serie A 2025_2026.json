@@ -525,6 +525,17 @@
         "secuencia_gol": [
           {
             "jugador": "Yerry Mina",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 55,
+            "x": 99.2,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yerry Mina",
             "tipo": "BallTouch",
             "minuto": 46,
             "segundo": 56,
@@ -534,7 +545,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Emirhan Ilkhan",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

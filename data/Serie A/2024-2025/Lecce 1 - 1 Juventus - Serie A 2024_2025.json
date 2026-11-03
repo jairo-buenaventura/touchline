@@ -4296,6 +4296,17 @@
         "secuencia_gol": [
           {
             "jugador": "Francisco Conceição",
+            "tipo": "Tackle",
+            "minuto": 67,
+            "segundo": 22,
+            "x": 81.2,
+            "y": 17.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Francisco Conceição",
             "tipo": "Pass",
             "minuto": 67,
             "segundo": 30,
@@ -4338,7 +4349,12 @@
             "endY": 17.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Antonino Gallo",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

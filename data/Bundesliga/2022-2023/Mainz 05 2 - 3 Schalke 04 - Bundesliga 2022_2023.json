@@ -446,6 +446,17 @@
         "secuencia_gol": [
           {
             "jugador": "Andreas Hanche-Olsen",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 52,
+            "x": 93.2,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Hanche-Olsen",
             "tipo": "MissedShots",
             "minuto": 52,
             "segundo": 52,
@@ -455,7 +466,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marcin Kaminski",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -4421,6 +4437,50 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Alex Král",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 62.1,
+            "y": 11.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Král",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 62.1,
+            "y": 11.4,
+            "endX": 60.5,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Karaman",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 54,
+            "x": 60.5,
+            "y": 3.2,
+            "endX": 66.7,
+            "endY": 4.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Karaman",
+            "tipo": "TakeOn",
+            "minuto": 58,
+            "segundo": 54,
+            "x": 66.7,
+            "y": 4.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kenan Karaman",
             "tipo": "Pass",
             "minuto": 58,
@@ -4475,7 +4535,12 @@
             "endY": 38.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ludovic Ajorque",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

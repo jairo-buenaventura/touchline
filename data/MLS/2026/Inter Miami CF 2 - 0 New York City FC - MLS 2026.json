@@ -389,6 +389,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Casemiro",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 21,
+            "x": 62.0,
+            "y": 21.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Casemiro",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 22,
+            "x": 62.0,
+            "y": 21.7,
+            "endX": 64.1,
+            "endY": 48.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Galarza",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 23,
+            "x": 63.9,
+            "y": 49.0,
+            "endX": 86.0,
+            "endY": 60.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergio Reguilón",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 28,
+            "x": 86.0,
+            "y": 60.9,
+            "endX": 60.8,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Reguilón",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 28,
+            "x": 60.8,
+            "y": 94.2,
+            "endX": 62.1,
+            "endY": 94.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergio Reguilón",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 43,
+            "x": 62.1,
+            "y": 94.6,
+            "endX": 61.4,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Sergio Reguilón",
             "tipo": "Pass",
             "minuto": 18,
@@ -542,7 +608,12 @@
             "endY": 51.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tayvon Gray",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -599,6 +670,61 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Micael",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 18,
+            "x": 23.8,
+            "y": 78.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Micael",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 19,
+            "x": 31.0,
+            "y": 79.5,
+            "endX": 56.4,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Germán Berterame",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 56.4,
+            "y": 78.7,
+            "endX": 62.4,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Germán Berterame",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 62.4,
+            "y": 71.5,
+            "endX": 70.1,
+            "endY": 49.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 29,
+            "x": 70.1,
+            "y": 49.5,
+            "endX": 78.0,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lionel Messi",
             "tipo": "Pass",
             "minuto": 49,
@@ -609,7 +735,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nico Cavallo",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

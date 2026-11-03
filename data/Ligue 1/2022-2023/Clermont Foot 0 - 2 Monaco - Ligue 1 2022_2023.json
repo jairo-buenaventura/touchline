@@ -4677,7 +4677,24 @@
         "y": 50.6,
         "arco_y": 46.5,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Guillermo Maripán",
+            "tipo": "Aerial",
+            "minuto": 2,
+            "segundo": 20,
+            "x": 93.1,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mateusz Wieteska",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -4688,6 +4705,39 @@
         "arco_y": 47.6,
         "arco_z": 8.9,
         "secuencia_gol": [
+          {
+            "jugador": "Takumi Minamino",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 1,
+            "x": 33.9,
+            "y": 20.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takumi Minamino",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 7,
+            "x": 70.3,
+            "y": 45.3,
+            "endX": 79.2,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandr Golovin",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 10,
+            "x": 79.2,
+            "y": 68.7,
+            "endX": 87.8,
+            "endY": 64.9,
+            "exitoso": true
+          },
           {
             "jugador": "Aleksandr Golovin",
             "tipo": "TakeOn",
@@ -4710,7 +4760,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Florent Ogier",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

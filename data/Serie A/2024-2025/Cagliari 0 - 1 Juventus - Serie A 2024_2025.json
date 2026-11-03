@@ -4078,6 +4078,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dusan Vlahovic",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 41,
+            "x": 70.8,
+            "y": 70.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dusan Vlahovic",
             "tipo": "TakeOn",
             "minuto": 11,
             "segundo": 43,
@@ -4087,7 +4098,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Elia Caprile",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

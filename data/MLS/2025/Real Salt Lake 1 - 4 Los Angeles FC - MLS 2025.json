@@ -525,7 +525,123 @@
         "y": 43.4,
         "arco_y": 52.2,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Samuel Junqua",
+            "tipo": "ShieldBallOpp",
+            "minuto": 75,
+            "segundo": 13,
+            "x": 63.4,
+            "y": 97.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Junqua",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 16,
+            "x": 62.7,
+            "y": 100.0,
+            "endX": 48.3,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Caliskan",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 20,
+            "x": 48.3,
+            "y": 86.6,
+            "endX": 58.7,
+            "endY": 77.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Caliskan",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 20,
+            "x": 58.7,
+            "y": 77.5,
+            "endX": 63.6,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Braian Ojeda",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 26,
+            "x": 63.6,
+            "y": 54.0,
+            "endX": 71.5,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Braian Ojeda",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 26,
+            "x": 71.5,
+            "y": 35.6,
+            "endX": 77.9,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 27,
+            "x": 78.1,
+            "y": 12.4,
+            "endX": 94.9,
+            "endY": 29.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Luna",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 30,
+            "x": 94.8,
+            "y": 29.4,
+            "endX": 88.4,
+            "endY": 35.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Braian Ojeda",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 32,
+            "x": 88.4,
+            "y": 35.3,
+            "endX": 85.1,
+            "endY": 47.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Caliskan",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 34,
+            "x": 85.1,
+            "y": 47.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mark Delgado",
+          "portero": true
+        }
       },
       {
         "minuto": 84,
@@ -4766,6 +4882,83 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Hugo Lloris",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 13,
+            "x": 2.3,
+            "y": 48.8,
+            "endX": 5.9,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nkosi Tafari",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 14,
+            "x": 5.9,
+            "y": 72.0,
+            "endX": 14.4,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 15,
+            "x": 14.4,
+            "y": 95.7,
+            "endX": 32.5,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 17,
+            "x": 32.5,
+            "y": 96.0,
+            "endX": 27.7,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Hollingshead",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 19,
+            "x": 27.9,
+            "y": 87.2,
+            "endX": 28.5,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 19,
+            "x": 28.5,
+            "y": 96.2,
+            "endX": 28.8,
+            "endY": 94.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Eddie Segura",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 38,
+            "x": 28.8,
+            "y": 94.5,
+            "endX": 33.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Eddie Segura",
             "tipo": "Pass",
             "minuto": 15,
@@ -4809,7 +5002,12 @@
             "endY": 70.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Emeka Eneli",
+          "portero": false
+        }
       },
       {
         "minuto": 25,
@@ -4910,7 +5108,68 @@
         "y": 53.8,
         "arco_y": 53.9,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Artem Smoliakov",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 15,
+            "x": 22.8,
+            "y": 92.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Artem Smoliakov",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 15,
+            "x": 24.0,
+            "y": 94.5,
+            "endX": 19.1,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yaw Yeboah",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 16,
+            "x": 19.1,
+            "y": 84.8,
+            "endX": 34.7,
+            "endY": 84.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 18,
+            "x": 34.7,
+            "y": 84.7,
+            "endX": 39.9,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "TakeOn",
+            "minuto": 87,
+            "segundo": 21,
+            "x": 41.2,
+            "y": 69.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Samuel Junqua",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

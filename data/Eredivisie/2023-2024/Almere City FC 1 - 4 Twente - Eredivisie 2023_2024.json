@@ -4019,7 +4019,24 @@
         "y": 54.6,
         "arco_y": 48.4,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Pröpper",
+            "tipo": "Aerial",
+            "minuto": 58,
+            "segundo": 3,
+            "x": 89.3,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Peer Koopmeiners",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -4177,6 +4194,61 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Michal Sadílek",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 20,
+            "x": 35.6,
+            "y": 96.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michal Sadílek",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 22,
+            "x": 35.6,
+            "y": 96.3,
+            "endX": 73.0,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 73.0,
+            "y": 72.1,
+            "endX": 81.2,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 81.2,
+            "y": 71.2,
+            "endX": 87.6,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 87.6,
+            "y": 40.6,
+            "endX": 92.4,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Daan Rots",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -4198,7 +4270,12 @@
             "endY": 44.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sherel Floranus",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

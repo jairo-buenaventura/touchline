@@ -5413,6 +5413,28 @@
         "secuencia_gol": [
           {
             "jugador": "Dejan Kulusevski",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 44,
+            "x": 29.0,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Kulusevski",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 45,
+            "x": 32.6,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Kulusevski",
             "tipo": "Pass",
             "minuto": 51,
             "segundo": 46,
@@ -5477,7 +5499,12 @@
             "endY": 39.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ilkay Gündogan",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

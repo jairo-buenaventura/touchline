@@ -407,6 +407,39 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Álex Baena",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 1,
+            "x": 24.5,
+            "y": 86.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Baena",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 3,
+            "x": 27.3,
+            "y": 85.5,
+            "endX": 71.2,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 11,
+            "x": 71.2,
+            "y": 91.1,
+            "endX": 92.8,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Jackson",
             "tipo": "TakeOn",
             "minuto": 41,
@@ -428,7 +461,12 @@
             "endY": 59.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aridane Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

@@ -380,7 +380,24 @@
         "y": 41.0,
         "arco_y": 46.0,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "James Ward-Prowse",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 27,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.4,
+            "endY": 54.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "César Azpilicueta",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -400,6 +417,72 @@
         "arco_y": 46.9,
         "arco_z": 25.9,
         "secuencia_gol": [
+          {
+            "jugador": "Armel Bella-Kotchap",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 16,
+            "x": 41.0,
+            "y": 25.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armel Bella-Kotchap",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 16,
+            "x": 36.3,
+            "y": 23.3,
+            "endX": 38.9,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker-Peters",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 19,
+            "x": 38.9,
+            "y": 7.9,
+            "endX": 44.4,
+            "endY": 8.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker-Peters",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 19,
+            "x": 44.4,
+            "y": 8.9,
+            "endX": 57.9,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Diallo",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 22,
+            "x": 57.9,
+            "y": 23.7,
+            "endX": 63.2,
+            "endY": 21.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Diallo",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 22,
+            "x": 63.2,
+            "y": 21.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Ibrahima Diallo",
             "tipo": "Pass",
@@ -455,7 +538,12 @@
             "endY": 54.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jorginho",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

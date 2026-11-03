@@ -4948,7 +4948,79 @@
         "y": 55.6,
         "arco_y": 54.2,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Logan Ndenbe",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 53,
+            "x": 73.0,
+            "y": 100.0,
+            "endX": 64.1,
+            "endY": 86.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bartlett",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 56,
+            "x": 64.1,
+            "y": 86.5,
+            "endX": 64.0,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bartlett",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 56,
+            "x": 64.0,
+            "y": 83.0,
+            "endX": 65.0,
+            "endY": 36.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jansen Miller",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 0,
+            "x": 65.0,
+            "y": 36.7,
+            "endX": 60.3,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jansen Miller",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 0,
+            "x": 60.3,
+            "y": 34.3,
+            "endX": 88.5,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khiry Shelton",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 3,
+            "x": 88.3,
+            "y": 9.2,
+            "endX": 91.6,
+            "endY": 34.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Artur",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -4988,6 +5060,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jansen Miller",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 90.6,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jansen Miller",
             "tipo": "ShotOnPost",
             "minuto": 51,
             "segundo": 5,
@@ -4997,7 +5080,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Felipe Andrade",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -5026,6 +5114,94 @@
         "arco_y": 46.1,
         "arco_z": 7.0,
         "secuencia_gol": [
+          {
+            "jugador": "Dániel Sallói",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 18,
+            "x": 74.7,
+            "y": 66.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Manu García",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 25,
+            "x": 69.2,
+            "y": 87.2,
+            "endX": 81.0,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Muñóz",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 26,
+            "x": 81.0,
+            "y": 87.8,
+            "endX": 67.2,
+            "endY": 90.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Leibold",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 28,
+            "x": 67.2,
+            "y": 90.5,
+            "endX": 35.7,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Fernández",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 30,
+            "x": 34.5,
+            "y": 79.7,
+            "endX": 14.9,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Pulskamp",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 33,
+            "x": 14.9,
+            "y": 47.8,
+            "endX": 19.6,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Pulskamp",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 33,
+            "x": 19.6,
+            "y": 44.6,
+            "endX": 74.9,
+            "endY": 35.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Zorhan Bassong",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 42,
+            "x": 74.9,
+            "y": 35.8,
+            "endX": 64.6,
+            "endY": 36.1,
+            "exitoso": true
+          },
           {
             "jugador": "Zorhan Bassong",
             "tipo": "Pass",
@@ -5059,7 +5235,12 @@
             "endY": 59.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Felipe Andrade",
+          "portero": false
+        }
       }
     ],
     "corners": [

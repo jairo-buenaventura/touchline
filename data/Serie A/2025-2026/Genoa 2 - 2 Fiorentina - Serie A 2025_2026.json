@@ -455,6 +455,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Lorenzo Colombo",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 27,
+            "x": 86.0,
+            "y": 63.8,
+            "endX": 86.2,
+            "endY": 66.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Leo Østigård",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 29,
+            "x": 86.2,
+            "y": 66.2,
+            "endX": 89.6,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Leo Østigård",
             "tipo": "BallTouch",
             "minuto": 59,
@@ -465,7 +487,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Hans Nicolussi Caviglia",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

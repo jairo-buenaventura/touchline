@@ -523,7 +523,90 @@
         "y": 50.6,
         "arco_y": 51.1,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brad Guzan",
+            "tipo": "KeeperPickup",
+            "minuto": 44,
+            "segundo": 15,
+            "x": 3.4,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Guzan",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 26,
+            "x": 9.3,
+            "y": 51.3,
+            "endX": 41.2,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 29,
+            "x": 41.2,
+            "y": 91.8,
+            "endX": 48.0,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 29,
+            "x": 48.0,
+            "y": 93.0,
+            "endX": 48.1,
+            "endY": 81.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xande Silva",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 31,
+            "x": 48.1,
+            "y": 81.0,
+            "endX": 57.2,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xande Silva",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 31,
+            "x": 57.2,
+            "y": 86.6,
+            "endX": 94.7,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 35,
+            "x": 94.3,
+            "y": 80.0,
+            "endX": 94.0,
+            "endY": 78.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Allan Arigoni",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -534,6 +617,39 @@
         "arco_y": 52.3,
         "arco_z": 19.0,
         "secuencia_gol": [
+          {
+            "jugador": "Brad Guzan",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 38,
+            "x": 2.4,
+            "y": 53.0,
+            "endX": 32.1,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Muyumba",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 40,
+            "x": 30.2,
+            "y": 78.2,
+            "endX": 21.6,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Derrick Williams",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 43,
+            "x": 21.6,
+            "y": 93.0,
+            "endX": 43.7,
+            "endY": 50.3,
+            "exitoso": true
+          },
           {
             "jugador": "Thiago Almada",
             "tipo": "TakeOn",
@@ -589,7 +705,12 @@
             "endY": 58.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rafael Czichos",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -628,6 +749,61 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Thiago Almada",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 24,
+            "x": 84.6,
+            "y": 91.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "TakeOn",
+            "minuto": 94,
+            "segundo": 31,
+            "x": 92.6,
+            "y": 82.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 33,
+            "x": 95.1,
+            "y": 76.6,
+            "endX": 90.6,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "BallTouch",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 90.1,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "ShotOnPost",
+            "minuto": 94,
+            "segundo": 38,
+            "x": 86.8,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamal Thiaré",
             "tipo": "TakeOn",
             "minuto": 94,
@@ -638,7 +814,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chris Mueller",
+          "portero": false
+        }
       }
     ],
     "corners": [

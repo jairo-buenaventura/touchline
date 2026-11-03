@@ -420,6 +420,28 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Yohann Magnin",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 25,
+            "x": 49.6,
+            "y": 0.1,
+            "endX": 39.3,
+            "endY": 3.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andy Pelmard",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 28,
+            "x": 39.3,
+            "y": 3.7,
+            "endX": 31.5,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Andy Pelmard",
             "tipo": "Pass",
             "minuto": 51,
@@ -562,7 +584,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ângelo",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4626,6 +4653,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Dilane Bakwa",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 20,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.9,
+            "endY": 44.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ângelo",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 23,
+            "x": 94.9,
+            "y": 44.2,
+            "endX": 94.2,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Ângelo",
             "tipo": "Pass",
             "minuto": 33,
@@ -4647,7 +4696,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Johan Gastien",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

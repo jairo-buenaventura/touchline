@@ -386,6 +386,28 @@
         "secuencia_gol": [
           {
             "jugador": "Mohammed Kudus",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 33,
+            "x": 43.1,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "TakeOn",
+            "minuto": 12,
+            "segundo": 33,
+            "x": 39.2,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
             "tipo": "TakeOn",
             "minuto": 12,
             "segundo": 37,
@@ -439,7 +461,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Will Hughes",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

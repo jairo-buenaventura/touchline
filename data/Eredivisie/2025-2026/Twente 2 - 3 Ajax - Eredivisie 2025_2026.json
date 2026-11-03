@@ -405,6 +405,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ruud Nijstad",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 12,
+            "x": 90.9,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruud Nijstad",
             "tipo": "SavedShot",
             "minuto": 3,
             "segundo": 13,
@@ -425,7 +436,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lucas Rosa",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -5154,7 +5170,24 @@
         "y": 48.4,
         "arco_y": 52.6,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 14,
+            "x": 93.3,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ruud Nijstad",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

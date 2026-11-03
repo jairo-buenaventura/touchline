@@ -507,7 +507,101 @@
         "y": 33.6,
         "arco_y": 53.9,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonas Urbig",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 52,
+            "x": 11.9,
+            "y": 25.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Urbig",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 53,
+            "x": 14.7,
+            "y": 28.3,
+            "endX": 18.3,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 59,
+            "x": 18.3,
+            "y": 61.8,
+            "endX": 31.6,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 59,
+            "x": 31.6,
+            "y": 64.3,
+            "endX": 42.1,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 8,
+            "x": 42.1,
+            "y": 75.2,
+            "endX": 54.1,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 8,
+            "x": 54.1,
+            "y": 51.2,
+            "endX": 87.0,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 9,
+            "x": 87.0,
+            "y": 25.0,
+            "endX": 86.3,
+            "endY": 37.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "BallTouch",
+            "minuto": 42,
+            "segundo": 9,
+            "x": 86.3,
+            "y": 37.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Stanley Nsoki",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -537,6 +631,61 @@
         "arco_y": 45.9,
         "arco_z": 15.8,
         "secuencia_gol": [
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 30,
+            "x": 11.2,
+            "y": 5.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dayot Upamecano",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 33,
+            "x": 11.8,
+            "y": 3.8,
+            "endX": 13.1,
+            "endY": 3.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 53,
+            "x": 13.1,
+            "y": 3.6,
+            "endX": 22.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 53,
+            "x": 22.2,
+            "y": 0.0,
+            "endX": 29.2,
+            "endY": 8.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lennart Karl",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 29.1,
+            "y": 8.6,
+            "endX": 21.6,
+            "endY": 4.4,
+            "exitoso": true
+          },
           {
             "jugador": "Josip Stanisic",
             "tipo": "TakeOn",
@@ -614,7 +763,12 @@
             "endY": 60.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aljoscha Kemlein",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -705,7 +859,35 @@
         "y": 70.9,
         "arco_y": 53.1,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Konrad Laimer",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 75.8,
+            "y": 44.0,
+            "endX": 76.5,
+            "endY": 56.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "SavedShot",
+            "minuto": 66,
+            "segundo": 0,
+            "x": 79.4,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Danilho Doekhi",
+          "portero": true
+        }
       },
       {
         "minuto": 69,

@@ -649,6 +649,39 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Romano Schmid",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 30,
+            "x": 63.9,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 33,
+            "x": 75.3,
+            "y": 63.7,
+            "endX": 78.3,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Kvernadze",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 34,
+            "x": 78.3,
+            "y": 52.4,
+            "endX": 87.9,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Giorgi Kvernadze",
             "tipo": "TakeOn",
             "minuto": 47,
@@ -659,7 +692,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Martin Baturina",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

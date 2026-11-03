@@ -465,6 +465,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Trincão",
+            "tipo": "BallTouch",
+            "minuto": 68,
+            "segundo": 0,
+            "x": 71.1,
+            "y": 58.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 1,
+            "x": 73.6,
+            "y": 67.3,
+            "endX": 81.6,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pote",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 81.6,
+            "y": 45.2,
+            "endX": 78.1,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pote",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 78.1,
+            "y": 43.8,
+            "endX": 80.9,
+            "endY": 42.5,
+            "exitoso": false
+          },
+          {
             "jugador": "Pote",
             "tipo": "BallTouch",
             "minuto": 68,
@@ -475,7 +519,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ulisses Garcia",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

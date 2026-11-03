@@ -385,6 +385,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Mattias Svanberg",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 38,
+            "x": 67.3,
+            "y": 46.4,
+            "endX": 73.4,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ridle Baku",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 41,
+            "x": 73.4,
+            "y": 7.0,
+            "endX": 75.4,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 43,
+            "x": 75.4,
+            "y": 24.4,
+            "endX": 73.6,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "TakeOn",
+            "minuto": 10,
+            "segundo": 43,
+            "x": 73.6,
+            "y": 29.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Patrick Wimmer",
             "tipo": "Pass",
             "minuto": 10,
@@ -395,7 +439,12 @@
             "endY": 38.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jens Stage",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -486,7 +535,68 @@
         "y": 38.2,
         "arco_y": 52.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "CornerAwarded",
+            "minuto": 83,
+            "segundo": 14,
+            "x": 92.2,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Kruse",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 79.9,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 33,
+            "x": 79.9,
+            "y": 84.5,
+            "endX": 88.6,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Kruse",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 34,
+            "x": 89.3,
+            "y": 88.2,
+            "endX": 89.0,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukas Nmecha",
+            "tipo": "SavedShot",
+            "minuto": 83,
+            "segundo": 36,
+            "x": 88.8,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Amos Pieper",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4940,6 +5050,138 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 44,
+            "x": 36.6,
+            "y": 91.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 44,
+            "x": 35.9,
+            "y": 94.2,
+            "endX": 47.9,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 45,
+            "x": 47.9,
+            "y": 95.6,
+            "endX": 54.0,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 45,
+            "x": 54.0,
+            "y": 96.3,
+            "endX": 56.0,
+            "endY": 92.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anthony Jung",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 56,
+            "x": 56.0,
+            "y": 92.4,
+            "endX": 58.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Jung",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 56,
+            "x": 58.0,
+            "y": 100.0,
+            "endX": 33.9,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Friedl",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 33.9,
+            "y": 93.6,
+            "endX": 32.0,
+            "endY": 78.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Friedl",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 32.0,
+            "y": 78.2,
+            "endX": 34.9,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Veljkovic",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 2,
+            "x": 34.9,
+            "y": 41.0,
+            "endX": 36.9,
+            "endY": 34.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Veljkovic",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 2,
+            "x": 36.9,
+            "y": 34.5,
+            "endX": 54.1,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 5,
+            "x": 54.1,
+            "y": 3.2,
+            "endX": 54.2,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 5,
+            "x": 54.2,
+            "y": 25.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mitchell Weiser",
             "tipo": "Pass",
             "minuto": 20,
@@ -4961,7 +5203,12 @@
             "endY": 79.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Omar Marmoush",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4972,6 +5219,17 @@
         "arco_y": 53.8,
         "arco_z": 15.2,
         "secuencia_gol": [
+          {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "Aerial",
+            "minuto": 22,
+            "segundo": 32,
+            "x": 64.4,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Niclas Füllkrug",
             "tipo": "Pass",
@@ -5016,7 +5274,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maxence Lacroix",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

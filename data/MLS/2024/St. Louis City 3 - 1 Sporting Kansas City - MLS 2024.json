@@ -403,6 +403,17 @@
         "secuencia_gol": [
           {
             "jugador": "Akil Watts",
+            "tipo": "SavedShot",
+            "minuto": 32,
+            "segundo": 51,
+            "x": 75.0,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akil Watts",
             "tipo": "BallTouch",
             "minuto": 32,
             "segundo": 51,
@@ -412,7 +423,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Zorhan Bassong",
+          "portero": true
+        }
       },
       {
         "minuto": 49,

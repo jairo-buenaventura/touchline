@@ -454,6 +454,127 @@
         "secuencia_gol": [
           {
             "jugador": "Fabian Rieder",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 48,
+            "x": 53.4,
+            "y": 92.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 49,
+            "x": 53.6,
+            "y": 94.5,
+            "endX": 55.1,
+            "endY": 93.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 5,
+            "x": 55.1,
+            "y": 93.6,
+            "endX": 55.6,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 5,
+            "x": 55.6,
+            "y": 100.0,
+            "endX": 56.7,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 6,
+            "x": 57.7,
+            "y": 88.2,
+            "endX": 61.9,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Han-Noah Massengo",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 7,
+            "x": 62.3,
+            "y": 95.8,
+            "endX": 63.7,
+            "endY": 93.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 19,
+            "x": 63.7,
+            "y": 93.6,
+            "endX": 58.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 19,
+            "x": 58.5,
+            "y": 100.0,
+            "endX": 61.8,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 61.8,
+            "y": 91.8,
+            "endX": 68.2,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 68.2,
+            "y": 91.8,
+            "endX": 66.4,
+            "endY": 94.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 22,
+            "x": 66.4,
+            "y": 94.0,
+            "endX": 62.7,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 22,
@@ -485,7 +606,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jakub Kaminski",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

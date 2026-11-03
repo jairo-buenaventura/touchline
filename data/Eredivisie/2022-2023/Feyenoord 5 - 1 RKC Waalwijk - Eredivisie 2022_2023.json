@@ -491,6 +491,17 @@
         "secuencia_gol": [
           {
             "jugador": "Santiago Giménez",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 17,
+            "x": 71.1,
+            "y": 67.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
             "tipo": "TakeOn",
             "minuto": 30,
             "segundo": 20,
@@ -511,7 +522,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shawn Adewoye",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -727,6 +743,28 @@
         "secuencia_gol": [
           {
             "jugador": "Orkun Kökçü",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 37.4,
+            "y": 54.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Orkun Kökçü",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 33,
+            "x": 47.8,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Orkun Kökçü",
             "tipo": "TakeOn",
             "minuto": 60,
             "segundo": 38,
@@ -747,7 +785,12 @@
             "endY": 39.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shawn Adewoye",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -5488,7 +5531,35 @@
         "y": 35.8,
         "arco_y": 48.0,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 48,
+            "x": 56.7,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 50,
+            "x": 69.8,
+            "y": 39.8,
+            "endX": 80.5,
+            "endY": 34.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dávid Hancko",
+          "portero": false
+        }
       }
     ],
     "corners": [

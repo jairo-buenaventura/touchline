@@ -4391,6 +4391,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Sean Johnson",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 17,
+            "x": 20.9,
+            "y": 35.3,
+            "endX": 66.0,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 22,
+            "x": 65.4,
+            "y": 9.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Santiago Rodríguez",
             "tipo": "TakeOn",
             "minuto": 28,
@@ -4412,7 +4434,12 @@
             "endY": 51.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "José Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

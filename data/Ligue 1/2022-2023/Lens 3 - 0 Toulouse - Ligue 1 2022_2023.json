@@ -473,6 +473,50 @@
         "secuencia_gol": [
           {
             "jugador": "Deiver Machado",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 36,
+            "x": 59.9,
+            "y": 83.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deiver Machado",
+            "tipo": "BallTouch",
+            "minuto": 59,
+            "segundo": 38,
+            "x": 68.8,
+            "y": 83.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 39,
+            "x": 70.3,
+            "y": 77.8,
+            "endX": 69.7,
+            "endY": 75.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Deiver Machado",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 45,
+            "x": 69.7,
+            "y": 75.4,
+            "endX": 70.4,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deiver Machado",
             "tipo": "Pass",
             "minuto": 59,
             "segundo": 45,
@@ -559,7 +603,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mikkel Desler",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -599,6 +648,171 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Massadio Haïdara",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 18.5,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Massadio Haïdara",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 35,
+            "x": 18.0,
+            "y": 75.5,
+            "endX": 36.5,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Seko Fofana",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 36.5,
+            "y": 80.5,
+            "endX": 38.9,
+            "endY": 82.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Seko Fofana",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 38.9,
+            "y": 82.8,
+            "endX": 38.9,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 38.9,
+            "y": 68.7,
+            "endX": 40.6,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 40.6,
+            "y": 72.6,
+            "endX": 38.6,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Seko Fofana",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 38.6,
+            "y": 77.3,
+            "endX": 46.0,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Seko Fofana",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 46.0,
+            "y": 64.7,
+            "endX": 43.1,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Salis Abdul Samed",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 43.1,
+            "y": 52.7,
+            "endX": 46.8,
+            "endY": 54.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Salis Abdul Samed",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 46.8,
+            "y": 54.1,
+            "endX": 57.5,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 57.5,
+            "y": 63.0,
+            "endX": 55.2,
+            "endY": 58.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 55.2,
+            "y": 58.7,
+            "endX": 65.2,
+            "endY": 51.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 65.2,
+            "y": 51.8,
+            "endX": 61.4,
+            "endY": 41.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Sotoca",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 61.4,
+            "y": 41.5,
+            "endX": 72.4,
+            "endY": 63.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 52,
+            "x": 72.4,
+            "y": 63.5,
+            "endX": 65.2,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexis Claude-Maurice",
             "tipo": "Pass",
             "minuto": 91,
@@ -609,7 +823,12 @@
             "endY": 34.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Anthony Rouault",
+          "portero": false
+        }
       }
     ],
     "corners": [

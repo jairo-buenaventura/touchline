@@ -4508,7 +4508,57 @@
         "y": 37.0,
         "arco_y": 47.8,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thórir Helgason",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 37,
+            "x": 36.3,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thórir Helgason",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 36.3,
+            "y": 8.0,
+            "endX": 46.1,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 43,
+            "x": 46.1,
+            "y": 26.4,
+            "endX": 58.5,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 43,
+            "x": 58.5,
+            "y": 30.1,
+            "endX": 67.6,
+            "endY": 27.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lautaro Valenti",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4530,6 +4580,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nikola Krstovic",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 64.6,
+            "y": 72.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
             "tipo": "Pass",
             "minuto": 92,
             "segundo": 21,
@@ -4539,7 +4600,12 @@
             "endY": 34.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Antoine Hainaut",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -3953,6 +3953,39 @@
         "secuencia_gol": [
           {
             "jugador": "James Maddison",
+            "tipo": "CornerAwarded",
+            "minuto": 51,
+            "segundo": 39,
+            "x": 99.0,
+            "y": 43.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Kulusevski",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 49,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.3,
+            "endY": 24.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Maddison",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 53,
+            "x": 95.3,
+            "y": 24.8,
+            "endX": 95.6,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Maddison",
             "tipo": "TakeOn",
             "minuto": 51,
             "segundo": 53,
@@ -3973,7 +4006,12 @@
             "endY": 41.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alfie Doughty",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

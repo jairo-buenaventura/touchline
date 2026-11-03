@@ -4714,6 +4714,17 @@
         "secuencia_gol": [
           {
             "jugador": "Stijn Bultman",
+            "tipo": "Aerial",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 93.6,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stijn Bultman",
             "tipo": "SavedShot",
             "minuto": 3,
             "segundo": 6,
@@ -4723,7 +4734,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Loïc Mbe Soh",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -4848,7 +4864,35 @@
         "y": 60.7,
         "arco_y": 53.9,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Abdenego Nankishi",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 10,
+            "x": 69.5,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdenego Nankishi",
+            "tipo": "TakeOn",
+            "minuto": 77,
+            "segundo": 12,
+            "x": 70.4,
+            "y": 59.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jochem Ritmeester van de Kamp",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

@@ -399,6 +399,28 @@
         "secuencia_gol": [
           {
             "jugador": "Jerdy Schouten",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 2,
+            "x": 39.2,
+            "y": 47.6,
+            "endX": 40.9,
+            "endY": 47.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jerdy Schouten",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 3,
+            "x": 40.9,
+            "y": 47.8,
+            "endX": 39.7,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jerdy Schouten",
             "tipo": "BallTouch",
             "minuto": 20,
             "segundo": 3,
@@ -474,7 +496,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Martin Hongla",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

@@ -399,6 +399,17 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Julián Alvarez",
+            "tipo": "SavedShot",
+            "minuto": 14,
+            "segundo": 52,
+            "x": 75.2,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Pablo Barrios",
             "tipo": "Pass",
             "minuto": 15,
@@ -673,7 +684,12 @@
             "endY": 67.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "David Strelec",
+          "portero": true
+        }
       },
       {
         "minuto": 18,
@@ -755,7 +771,24 @@
         "y": 51.3,
         "arco_y": 49.4,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Aerial",
+            "minuto": 41,
+            "segundo": 44,
+            "x": 96.4,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Guram Kashia",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

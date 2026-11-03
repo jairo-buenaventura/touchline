@@ -456,7 +456,24 @@
         "y": 51.3,
         "arco_y": 51.3,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Oliver Edvardsen",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 0,
+            "x": 96.2,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lutsharel Geertruida",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -4216,6 +4233,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Ayase Ueda",
+            "tipo": "Aerial",
+            "minuto": 68,
+            "segundo": 24,
+            "x": 62.4,
+            "y": 26.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayase Ueda",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 24,
+            "x": 65.6,
+            "y": 24.4,
+            "endX": 56.3,
+            "endY": 14.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lutsharel Geertruida",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 25,
+            "x": 58.6,
+            "y": 13.3,
+            "endX": 69.1,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Calvin Stengs",
             "tipo": "TakeOn",
             "minuto": 68,
@@ -4237,7 +4287,12 @@
             "endY": 34.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bas Kuipers",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

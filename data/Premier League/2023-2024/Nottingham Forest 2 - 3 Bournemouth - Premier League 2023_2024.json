@@ -361,6 +361,17 @@
         "secuencia_gol": [
           {
             "jugador": "Chris Wood",
+            "tipo": "TakeOn",
+            "minuto": 46,
+            "segundo": 35,
+            "x": 71.6,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Wood",
             "tipo": "Pass",
             "minuto": 46,
             "segundo": 37,
@@ -370,7 +381,12 @@
             "endY": 34.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alex Scott",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -380,7 +396,24 @@
         "y": 57.3,
         "arco_y": 48.1,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Chris Wood",
+            "tipo": "Aerial",
+            "minuto": 73,
+            "segundo": 33,
+            "x": 93.6,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Philip Billing",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -3773,7 +3806,24 @@
         "y": 60.5,
         "arco_y": 48.8,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dominic Solanke",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 21,
+            "x": 90.1,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Murillo",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -3801,7 +3851,101 @@
         "y": 54.9,
         "arco_y": 54.2,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Christie",
+            "tipo": "CornerAwarded",
+            "minuto": 56,
+            "segundo": 15,
+            "x": 94.4,
+            "y": 24.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 24,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.9,
+            "endY": 18.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Christie",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 26,
+            "x": 91.0,
+            "y": 19.0,
+            "endX": 86.2,
+            "endY": 15.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 28,
+            "x": 86.2,
+            "y": 15.4,
+            "endX": 78.7,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 28,
+            "x": 78.7,
+            "y": 21.9,
+            "endX": 75.0,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Scott",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 29,
+            "x": 75.0,
+            "y": 36.9,
+            "endX": 85.5,
+            "endY": 40.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Philip Billing",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 85.5,
+            "y": 40.7,
+            "endX": 78.2,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Billing",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 78.2,
+            "y": 41.8,
+            "endX": 85.0,
+            "endY": 50.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Neco Williams",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

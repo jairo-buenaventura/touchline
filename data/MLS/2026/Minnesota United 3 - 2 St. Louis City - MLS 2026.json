@@ -811,6 +811,50 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 23,
+            "x": 10.4,
+            "y": 10.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 24,
+            "x": 10.5,
+            "y": 10.4,
+            "endX": 18.0,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 25,
+            "x": 18.0,
+            "y": 11.4,
+            "endX": 22.6,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 25,
+            "x": 22.6,
+            "y": 14.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Joaquín Pereyra",
             "tipo": "Pass",
             "minuto": 85,
@@ -821,7 +865,12 @@
             "endY": 68.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jaziel Orozco",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -4415,7 +4464,112 @@
         "y": 66.0,
         "arco_y": 53.6,
         "arco_z": 29.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Timo Baumgartl",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 53,
+            "x": 3.6,
+            "y": 57.6,
+            "endX": 5.9,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaziel Orozco",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 55,
+            "x": 6.4,
+            "y": 23.4,
+            "endX": 21.3,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mykhi Joyner",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 56,
+            "x": 21.6,
+            "y": 5.3,
+            "endX": 28.3,
+            "endY": 20.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante Polvara",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 2,
+            "x": 28.3,
+            "y": 20.0,
+            "endX": 56.1,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dante Polvara",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 2,
+            "x": 56.1,
+            "y": 44.5,
+            "endX": 56.2,
+            "endY": 45.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tomas Totland",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 56.2,
+            "y": 45.7,
+            "endX": 84.3,
+            "endY": 53.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomas Totland",
+            "tipo": "GoodSkill",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 84.3,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomas Totland",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 6,
+            "x": 85.3,
+            "y": 55.5,
+            "endX": 86.7,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Becher",
+            "tipo": "SavedShot",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 86.7,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Drake Callender",
+          "portero": true
+        }
       },
       {
         "minuto": 7,

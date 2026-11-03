@@ -433,6 +433,17 @@
         "secuencia_gol": [
           {
             "jugador": "Can Bozdogan",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 40,
+            "x": 70.5,
+            "y": 22.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Can Bozdogan",
             "tipo": "BallTouch",
             "minuto": 69,
             "segundo": 40,
@@ -475,7 +486,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Cisse Sandra",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -521,7 +537,24 @@
         "y": 50.9,
         "arco_y": 53.8,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Modibo Sagnan",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 47,
+            "x": 94.1,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Casper Widell",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4778,6 +4811,61 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Julian Baas",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 12,
+            "x": 74.0,
+            "y": 80.0,
+            "endX": 77.3,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 13,
+            "x": 78.5,
+            "y": 80.8,
+            "endX": 77.8,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Zagré",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 77.8,
+            "y": 89.0,
+            "endX": 80.4,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Zagré",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 80.4,
+            "y": 92.0,
+            "endX": 83.2,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Couhaib Driouech",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 20,
+            "x": 83.2,
+            "y": 90.8,
+            "endX": 89.2,
+            "endY": 86.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Couhaib Driouech",
             "tipo": "TakeOn",
             "minuto": 52,
@@ -4788,7 +4876,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hidde ter Avest",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

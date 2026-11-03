@@ -4571,6 +4571,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alfonso Pedraza",
+            "tipo": "BallRecovery",
+            "minuto": 96,
+            "segundo": 37,
+            "x": 23.3,
+            "y": 68.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfonso Pedraza",
             "tipo": "TakeOn",
             "minuto": 96,
             "segundo": 38,
@@ -4591,7 +4602,12 @@
             "endY": 66.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Antoine Griezmann",
+          "portero": false
+        }
       }
     ],
     "corners": [

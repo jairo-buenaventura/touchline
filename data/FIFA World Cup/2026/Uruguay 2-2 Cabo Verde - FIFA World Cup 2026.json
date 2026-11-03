@@ -469,7 +469,24 @@
         "y": 50.1,
         "arco_y": 50.3,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rodrigo Bentancur",
+            "tipo": "Aerial",
+            "minuto": 43,
+            "segundo": 0,
+            "x": 86.8,
+            "y": 43.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sidny Cabral",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -482,6 +499,17 @@
         "secuencia_gol": [
           {
             "jugador": "Maxi Araújo",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 0,
+            "x": 92.6,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Araújo",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 0,
@@ -491,7 +519,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Steven Moreira",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

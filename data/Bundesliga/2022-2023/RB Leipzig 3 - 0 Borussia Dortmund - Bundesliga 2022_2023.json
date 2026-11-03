@@ -538,6 +538,50 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 24,
+            "x": 65.4,
+            "y": 95.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 26,
+            "x": 65.4,
+            "y": 95.3,
+            "endX": 71.0,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christopher Nkunku",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 28,
+            "x": 71.4,
+            "y": 70.3,
+            "endX": 82.6,
+            "endY": 69.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Timo Werner",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 30,
+            "x": 82.6,
+            "y": 69.1,
+            "endX": 88.2,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Timo Werner",
             "tipo": "Pass",
             "minuto": 83,
@@ -548,7 +592,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nico Schlotterbeck",
+          "portero": false
+        }
       }
     ],
     "corners": [

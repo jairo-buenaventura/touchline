@@ -537,7 +537,24 @@
         "y": 59.9,
         "arco_y": 46.4,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 15,
+            "x": 95.3,
+            "y": 52.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "João Klauss",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -5131,6 +5148,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Jeong Sang-Bin",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 59,
+            "x": 39.1,
+            "y": 5.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeong Sang-Bin",
+            "tipo": "TakeOn",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 43.5,
+            "y": 7.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeong Sang-Bin",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 2,
+            "x": 65.0,
+            "y": 11.2,
+            "endX": 77.0,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 3,
+            "x": 77.0,
+            "y": 41.6,
+            "endX": 85.9,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
             "jugador": "João Klauss",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -5141,7 +5202,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Belal Halbouni",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

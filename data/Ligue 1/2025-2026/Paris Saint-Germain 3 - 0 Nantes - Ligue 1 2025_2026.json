@@ -425,7 +425,90 @@
         "y": 27.8,
         "arco_y": 53.9,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marquinhos",
+            "tipo": "BallRecovery",
+            "minuto": 36,
+            "segundo": 39,
+            "x": 19.5,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marquinhos",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 40,
+            "x": 20.4,
+            "y": 12.0,
+            "endX": 25.1,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Neves",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 42,
+            "x": 25.1,
+            "y": 24.9,
+            "endX": 29.3,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 45,
+            "x": 29.3,
+            "y": 35.6,
+            "endX": 47.3,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 45,
+            "x": 47.3,
+            "y": 35.1,
+            "endX": 58.6,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 48,
+            "x": 58.6,
+            "y": 19.7,
+            "endX": 64.2,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 48,
+            "x": 64.2,
+            "y": 24.7,
+            "endX": 76.0,
+            "endY": 23.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nicolas Cozza",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -447,6 +530,61 @@
         "secuencia_gol": [
           {
             "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 57,
+            "x": 38.9,
+            "y": 92.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 59,
+            "x": 37.9,
+            "y": 94.2,
+            "endX": 83.5,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 5,
+            "x": 83.5,
+            "y": 92.0,
+            "endX": 78.4,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 5,
+            "x": 78.4,
+            "y": 80.6,
+            "endX": 77.3,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 7,
+            "x": 77.3,
+            "y": 65.8,
+            "endX": 87.1,
+            "endY": 56.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
             "tipo": "TakeOn",
             "minuto": 49,
             "segundo": 7,
@@ -456,7 +594,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Frédéric Guilbert",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

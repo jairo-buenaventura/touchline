@@ -4561,7 +4561,35 @@
         "y": 50.9,
         "arco_y": 53.9,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nico Schlotterbeck",
+            "tipo": "BallTouch",
+            "minuto": 87,
+            "segundo": 8,
+            "x": 96.9,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 9,
+            "x": 97.7,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Noah Atubolu",
+          "portero": true
+        }
       },
       {
         "minuto": 89,
@@ -4581,6 +4609,39 @@
         "arco_y": 51.8,
         "arco_z": 19.6,
         "secuencia_gol": [
+          {
+            "jugador": "Marcel Sabitzer",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 37,
+            "x": 61.8,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcel Sabitzer",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 61.8,
+            "y": 52.8,
+            "endX": 63.1,
+            "endY": 52.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcel Sabitzer",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 40,
+            "x": 63.1,
+            "y": 52.1,
+            "endX": 61.2,
+            "endY": 37.4,
+            "exitoso": true
+          },
           {
             "jugador": "Marcel Sabitzer",
             "tipo": "Pass",
@@ -4658,7 +4719,12 @@
             "endY": 25.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Maximilian Eggestein",
+          "portero": false
+        }
       }
     ],
     "corners": [

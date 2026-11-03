@@ -503,7 +503,90 @@
         "y": 55.9,
         "arco_y": 54.3,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 34,
+            "x": 45.4,
+            "y": 0.0,
+            "endX": 90.7,
+            "endY": 7.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 53,
+            "x": 90.7,
+            "y": 7.3,
+            "endX": 89.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 53,
+            "x": 89.9,
+            "y": 0.0,
+            "endX": 89.9,
+            "endY": 15.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elias Manoel",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 54,
+            "x": 89.9,
+            "y": 15.5,
+            "endX": 97.2,
+            "endY": 18.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elias Manoel",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 54,
+            "x": 97.2,
+            "y": 18.8,
+            "endX": 86.3,
+            "endY": 24.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 18,
+            "x": 86.3,
+            "y": 24.8,
+            "endX": 90.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Nealis",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 18,
+            "x": 90.2,
+            "y": 0.0,
+            "endX": 91.8,
+            "endY": 40.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kipp Keller",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -523,6 +606,28 @@
         "arco_y": 51.9,
         "arco_z": 18.4,
         "secuencia_gol": [
+          {
+            "jugador": "Ronald Donkor",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 19,
+            "x": 43.9,
+            "y": 35.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ronald Donkor",
+            "tipo": "TakeOn",
+            "minuto": 58,
+            "segundo": 22,
+            "x": 59.4,
+            "y": 17.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Ronald Donkor",
             "tipo": "Pass",
@@ -611,7 +716,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yuya Kubo",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

@@ -432,6 +432,17 @@
         "secuencia_gol": [
           {
             "jugador": "Andreu Fontàs",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 37,
+            "x": 63.0,
+            "y": 64.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreu Fontàs",
             "tipo": "Pass",
             "minuto": 27,
             "segundo": 37,
@@ -529,7 +540,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Diego Luna",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -5188,7 +5204,24 @@
         "y": 34.8,
         "arco_y": 52.6,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Andrés Gómez",
+            "tipo": "TakeOn",
+            "minuto": 50,
+            "segundo": 37,
+            "x": 61.2,
+            "y": 35.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andreu Fontàs",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

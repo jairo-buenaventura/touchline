@@ -431,7 +431,24 @@
         "y": 50.0,
         "arco_y": 54.2,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edan Diop",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 44,
+            "x": 92.1,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Christ Tapé",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -5319,6 +5336,61 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Christ Tapé",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 26,
+            "x": 59.8,
+            "y": 95.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christ Tapé",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 26,
+            "x": 59.8,
+            "y": 95.4,
+            "endX": 68.1,
+            "endY": 84.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilyas Azizi",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 28,
+            "x": 68.1,
+            "y": 84.7,
+            "endX": 74.9,
+            "endY": 94.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christ Tapé",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 29,
+            "x": 74.9,
+            "y": 94.0,
+            "endX": 75.3,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christ Tapé",
+            "tipo": "BallTouch",
+            "minuto": 58,
+            "segundo": 29,
+            "x": 75.3,
+            "y": 88.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Alexis Vossah",
             "tipo": "Pass",
             "minuto": 58,
@@ -5395,7 +5467,12 @@
             "endY": 43.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Eric Dier",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

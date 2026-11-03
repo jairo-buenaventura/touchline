@@ -407,6 +407,127 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Lovro Majer",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 16,
+            "x": 46.5,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lovro Majer",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 18,
+            "x": 47.4,
+            "y": 50.6,
+            "endX": 43.0,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kilian Fischer",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 20,
+            "x": 43.1,
+            "y": 24.3,
+            "endX": 39.2,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 24,
+            "x": 40.2,
+            "y": 34.6,
+            "endX": 35.3,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiaan Bornauw",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 25,
+            "x": 35.3,
+            "y": 56.1,
+            "endX": 46.9,
+            "endY": 53.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 27,
+            "x": 46.9,
+            "y": 53.6,
+            "endX": 45.7,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 27,
+            "x": 45.7,
+            "y": 46.0,
+            "endX": 38.2,
+            "endY": 16.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 30,
+            "x": 37.7,
+            "y": 14.1,
+            "endX": 40.9,
+            "endY": 5.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kilian Fischer",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 31,
+            "x": 40.9,
+            "y": 5.9,
+            "endX": 50.2,
+            "endY": 18.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ridle Baku",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 32,
+            "x": 50.2,
+            "y": 18.6,
+            "endX": 42.6,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 33,
+            "x": 42.6,
+            "y": 19.4,
+            "endX": 45.9,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Maxence Lacroix",
             "tipo": "TakeOn",
             "minuto": 17,
@@ -472,7 +593,12 @@
             "endY": 54.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andreas Hanche-Olsen",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4633,7 +4759,46 @@
         "y": 46.8,
         "arco_y": 46.3,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 56,
+            "x": 66.6,
+            "y": 8.9,
+            "endX": 90.8,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 90.8,
+            "y": 53.4,
+            "endX": 91.1,
+            "endY": 48.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "SavedShot",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 91.1,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Koen Casteels",
+          "portero": true
+        }
       },
       {
         "minuto": 84,

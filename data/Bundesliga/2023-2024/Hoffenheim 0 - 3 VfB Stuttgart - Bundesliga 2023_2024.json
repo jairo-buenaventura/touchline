@@ -4351,6 +4351,61 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Waldemar Anton",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 55,
+            "x": 45.2,
+            "y": 8.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Waldemar Anton",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 57,
+            "x": 44.5,
+            "y": 8.8,
+            "endX": 60.8,
+            "endY": 19.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 58,
+            "x": 60.8,
+            "y": 19.9,
+            "endX": 65.6,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 58,
+            "x": 65.6,
+            "y": 22.3,
+            "endX": 60.6,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josha Vagnoman",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 58,
+            "x": 60.6,
+            "y": 23.8,
+            "endX": 57.6,
+            "endY": 20.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Josha Vagnoman",
             "tipo": "TakeOn",
             "minuto": 44,
@@ -4394,7 +4449,12 @@
             "endY": 58.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Anton Stach",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -4467,7 +4527,35 @@
         "y": 67.5,
         "arco_y": 48.2,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 90.1,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hiroki Ito",
+            "tipo": "SavedShot",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 89.8,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Florian Grillitsch",
+          "portero": true
+        }
       },
       {
         "minuto": 73,

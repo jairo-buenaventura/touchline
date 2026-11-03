@@ -5511,6 +5511,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tommaso Augello",
+            "tipo": "TakeOn",
+            "minuto": 11,
+            "segundo": 33,
+            "x": 39.0,
+            "y": 90.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tommaso Augello",
             "tipo": "Pass",
             "minuto": 11,
             "segundo": 37,
@@ -5542,7 +5553,12 @@
             "endY": 62.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Patrick Ciurria",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -5624,7 +5640,35 @@
         "y": 44.1,
         "arco_y": 47.8,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mehdi Léris",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 9,
+            "x": 90.1,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Léris",
+            "tipo": "SavedShot",
+            "minuto": 57,
+            "segundo": 9,
+            "x": 89.7,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Michele Di Gregorio",
+          "portero": true
+        }
       }
     ],
     "corners": [

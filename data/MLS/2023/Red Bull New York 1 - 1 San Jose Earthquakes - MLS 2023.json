@@ -499,7 +499,79 @@
         "y": 51.5,
         "arco_y": 51.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cristian Cásseres",
+            "tipo": "Pass",
+            "minuto": 106,
+            "segundo": 36,
+            "x": 71.5,
+            "y": 74.0,
+            "endX": 67.9,
+            "endY": 65.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Stroud",
+            "tipo": "Pass",
+            "minuto": 106,
+            "segundo": 38,
+            "x": 67.8,
+            "y": 65.1,
+            "endX": 80.7,
+            "endY": 65.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omir Fernandez",
+            "tipo": "Carry",
+            "minuto": 106,
+            "segundo": 41,
+            "x": 80.7,
+            "y": 65.3,
+            "endX": 86.0,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omir Fernandez",
+            "tipo": "TakeOn",
+            "minuto": 106,
+            "segundo": 41,
+            "x": 86.0,
+            "y": 63.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omir Fernandez",
+            "tipo": "Pass",
+            "minuto": 106,
+            "segundo": 42,
+            "x": 87.9,
+            "y": 67.2,
+            "endX": 92.0,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Duncan",
+            "tipo": "SavedShot",
+            "minuto": 106,
+            "segundo": 44,
+            "x": 92.0,
+            "y": 42.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "JT Marcinkowski",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4782,6 +4854,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Carlos Gruezo",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 28,
+            "x": 61.5,
+            "y": 74.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Gruezo",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 29,
+            "x": 62.8,
+            "y": 73.1,
+            "endX": 83.2,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 32,
+            "x": 83.2,
+            "y": 29.2,
+            "endX": 88.7,
+            "endY": 40.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristian Espinoza",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -4792,7 +4897,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dylan Nealis",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

@@ -511,7 +511,79 @@
         "y": 64.2,
         "arco_y": 46.2,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pablo Martínez",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 4,
+            "x": 99.7,
+            "y": 99.9,
+            "endX": 95.3,
+            "endY": 53.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ramón Enríquez",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 7,
+            "x": 95.3,
+            "y": 53.5,
+            "endX": 75.6,
+            "endY": 44.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramón Enríquez",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 7,
+            "x": 75.6,
+            "y": 44.7,
+            "endX": 66.4,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafita",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 9,
+            "x": 64.6,
+            "y": 30.3,
+            "endX": 77.6,
+            "endY": 16.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Larrubia",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 12,
+            "x": 78.9,
+            "y": 16.9,
+            "endX": 90.1,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafita",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 12,
+            "x": 90.5,
+            "y": 30.6,
+            "endX": 87.3,
+            "endY": 42.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Aihen Muñoz",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4668,6 +4740,50 @@
             "jugador": "Aihen Muñoz",
             "tipo": "Pass",
             "minuto": 2,
+            "segundo": 26,
+            "x": 18.9,
+            "y": 100.0,
+            "endX": 21.5,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Soler",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 27,
+            "x": 22.4,
+            "y": 89.9,
+            "endX": 20.6,
+            "endY": 96.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aihen Muñoz",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 29,
+            "x": 20.6,
+            "y": 96.4,
+            "endX": 22.3,
+            "endY": 96.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aihen Muñoz",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 38,
+            "x": 22.3,
+            "y": 96.1,
+            "endX": 22.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aihen Muñoz",
+            "tipo": "Pass",
+            "minuto": 2,
             "segundo": 38,
             "x": 22.2,
             "y": 100.0,
@@ -4708,7 +4824,12 @@
             "endY": 12.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Carlos Dotor",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -4736,7 +4857,101 @@
         "y": 43.3,
         "arco_y": 46.8,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Héctor Fort",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 20,
+            "x": 92.1,
+            "y": 0.0,
+            "endX": 84.4,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gorrotxategi",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 21,
+            "x": 84.4,
+            "y": 9.2,
+            "endX": 85.2,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Fort",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 25,
+            "x": 85.2,
+            "y": 5.4,
+            "endX": 66.5,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Héctor Fort",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 25,
+            "x": 66.5,
+            "y": 15.1,
+            "endX": 59.3,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 29,
+            "x": 59.3,
+            "y": 9.5,
+            "endX": 53.5,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 29,
+            "x": 53.5,
+            "y": 21.5,
+            "endX": 40.6,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sarr",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 32,
+            "x": 41.4,
+            "y": 36.7,
+            "endX": 55.3,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gorrotxategi",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 53.7,
+            "y": 30.7,
+            "endX": 51.7,
+            "endY": 37.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Adrián Niño",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -5034,7 +5249,24 @@
         "y": 43.7,
         "arco_y": 49.6,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Orri Óskarsson",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 36,
+            "x": 96.0,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fernando Calero",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

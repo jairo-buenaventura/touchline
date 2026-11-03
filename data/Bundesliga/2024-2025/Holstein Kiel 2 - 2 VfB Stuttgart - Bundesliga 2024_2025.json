@@ -419,7 +419,35 @@
         "y": 56.1,
         "arco_y": 53.4,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "David Zec",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 54,
+            "x": 92.8,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Zec",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 54,
+            "x": 90.7,
+            "y": 39.4,
+            "endX": 90.7,
+            "endY": 40.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ramon Hendriks",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4314,6 +4342,28 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Jamie Leweling",
+            "tipo": "BallTouch",
+            "minuto": 14,
+            "segundo": 51,
+            "x": 68.8,
+            "y": 6.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Millot",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 52,
+            "x": 68.1,
+            "y": 30.8,
+            "endX": 70.8,
+            "endY": 35.0,
+            "exitoso": false
+          },
+          {
             "jugador": "Enzo Millot",
             "tipo": "Pass",
             "minuto": 14,
@@ -4324,7 +4374,12 @@
             "endY": 25.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Nicolai Remberg",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -4354,6 +4409,149 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Alexander Nübel",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 6,
+            "x": 3.6,
+            "y": 50.0,
+            "endX": 20.9,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Hendriks",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 7,
+            "x": 21.6,
+            "y": 73.6,
+            "endX": 30.9,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Mittelstädt",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 8,
+            "x": 30.9,
+            "y": 89.5,
+            "endX": 39.4,
+            "endY": 89.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 12,
+            "x": 39.4,
+            "y": 89.9,
+            "endX": 30.5,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Mittelstädt",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 18,
+            "x": 29.5,
+            "y": 90.9,
+            "endX": 23.9,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angelo Stiller",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 23,
+            "x": 23.9,
+            "y": 65.1,
+            "endX": 29.2,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angelo Stiller",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 23,
+            "x": 29.2,
+            "y": 51.9,
+            "endX": 32.9,
+            "endY": 14.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Leweling",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 32.9,
+            "y": 14.3,
+            "endX": 32.2,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Leweling",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 32.2,
+            "y": 26.3,
+            "endX": 26.4,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angelo Stiller",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 29,
+            "x": 26.4,
+            "y": 38.9,
+            "endX": 74.5,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "BallTouch",
+            "minuto": 54,
+            "segundo": 32,
+            "x": 74.5,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ermedin Demirovic",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 34,
+            "x": 79.3,
+            "y": 37.4,
+            "endX": 90.9,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 36,
+            "x": 90.9,
+            "y": 28.2,
+            "endX": 94.8,
+            "endY": 29.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nick Woltemade",
             "tipo": "TakeOn",
             "minuto": 54,
@@ -4375,7 +4573,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marko Ivezic",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

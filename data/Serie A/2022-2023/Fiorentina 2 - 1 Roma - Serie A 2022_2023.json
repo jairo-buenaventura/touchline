@@ -504,6 +504,17 @@
         "secuencia_gol": [
           {
             "jugador": "Rolando Mandragora",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 36,
+            "x": 96.8,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
             "tipo": "MissedShots",
             "minuto": 84,
             "segundo": 37,
@@ -513,7 +524,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Roger Ibañez",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -532,7 +548,35 @@
         "y": 54.0,
         "arco_y": 54.1,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 5,
+            "x": 96.0,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 5,
+            "x": 96.7,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Roger Ibañez",
+          "portero": true
+        }
       }
     ],
     "corners": [

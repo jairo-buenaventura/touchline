@@ -4068,6 +4068,39 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Samuele Ricci",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 39,
+            "x": 62.8,
+            "y": 89.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuele Ricci",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 39,
+            "x": 62.8,
+            "y": 89.7,
+            "endX": 55.3,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mërgim Vojvoda",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 42,
+            "x": 55.3,
+            "y": 93.3,
+            "endX": 58.6,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Mërgim Vojvoda",
             "tipo": "TakeOn",
             "minuto": 27,
@@ -4177,7 +4210,12 @@
             "endY": 44.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cyril Ngonge",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

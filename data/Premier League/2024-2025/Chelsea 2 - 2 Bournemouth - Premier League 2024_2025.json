@@ -398,6 +398,39 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Enzo Fernández",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 52,
+            "x": 39.6,
+            "y": 81.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Fernández",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 53,
+            "x": 39.6,
+            "y": 81.7,
+            "endX": 56.0,
+            "endY": 78.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 57,
+            "x": 56.0,
+            "y": 78.8,
+            "endX": 49.3,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Jackson",
             "tipo": "TakeOn",
             "minuto": 11,
@@ -419,7 +452,12 @@
             "endY": 57.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Illia Zabarnyi",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

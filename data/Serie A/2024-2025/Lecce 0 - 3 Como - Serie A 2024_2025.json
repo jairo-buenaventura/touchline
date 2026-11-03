@@ -4030,6 +4030,39 @@
         "secuencia_gol": [
           {
             "jugador": "Nico Paz",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 41,
+            "x": 29.0,
+            "y": 62.1,
+            "endX": 32.1,
+            "endY": 62.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas da Cunha",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 43,
+            "x": 32.1,
+            "y": 62.4,
+            "endX": 34.8,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas da Cunha",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 43,
+            "x": 34.8,
+            "y": 49.7,
+            "endX": 42.4,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Paz",
             "tipo": "TakeOn",
             "minuto": 32,
             "segundo": 44,
@@ -4050,7 +4083,12 @@
             "endY": 59.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ylber Ramadani",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -4078,7 +4116,24 @@
         "y": 45.5,
         "arco_y": 53.7,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edoardo Goldaniga",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 37,
+            "x": 95.2,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Balthazar Pierret",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

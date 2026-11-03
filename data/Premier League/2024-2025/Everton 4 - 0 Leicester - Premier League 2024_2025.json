@@ -434,6 +434,72 @@
         "secuencia_gol": [
           {
             "jugador": "Jake O'Brien",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 42,
+            "x": 14.7,
+            "y": 37.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 42,
+            "x": 14.7,
+            "y": 37.3,
+            "endX": 38.7,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdoulaye Doucouré",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 44,
+            "x": 38.7,
+            "y": 34.8,
+            "endX": 39.4,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdoulaye Doucouré",
+            "tipo": "TakeOn",
+            "minuto": 4,
+            "segundo": 44,
+            "x": 39.4,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdoulaye Doucouré",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 47,
+            "x": 47.1,
+            "y": 4.3,
+            "endX": 88.6,
+            "endY": 14.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 19,
+            "x": 88.6,
+            "y": 14.4,
+            "endX": 82.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jake O'Brien",
             "tipo": "Pass",
             "minuto": 5,
             "segundo": 19,
@@ -597,7 +663,12 @@
             "endY": 37.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wout Faes",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

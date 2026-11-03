@@ -417,6 +417,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Randall Leal",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 44,
+            "x": 72.8,
+            "y": 87.8,
+            "endX": 92.0,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fafà Picault",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 46,
+            "x": 92.0,
+            "y": 49.3,
+            "endX": 92.9,
+            "endY": 39.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Fafà Picault",
             "tipo": "Pass",
             "minuto": 33,
@@ -427,7 +449,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maxime Chanot",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

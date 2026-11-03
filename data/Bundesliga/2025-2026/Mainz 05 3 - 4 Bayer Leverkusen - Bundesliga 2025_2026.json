@@ -4624,6 +4624,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jonas Hofmann",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 74.5,
+            "y": 27.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Hofmann",
             "tipo": "TakeOn",
             "minuto": 47,
             "segundo": 23,
@@ -4644,7 +4655,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nadiem Amiri",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -4699,7 +4715,101 @@
         "y": 51.6,
         "arco_y": 52.3,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Equi Fernández",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 12,
+            "x": 52.5,
+            "y": 40.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Equi Fernández",
+            "tipo": "TakeOn",
+            "minuto": 86,
+            "segundo": 13,
+            "x": 59.6,
+            "y": 39.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Equi Fernández",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 14,
+            "x": 63.2,
+            "y": 35.4,
+            "endX": 69.5,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Maza",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 19,
+            "x": 69.5,
+            "y": 22.5,
+            "endX": 74.0,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Maza",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 19,
+            "x": 74.0,
+            "y": 33.6,
+            "endX": 72.6,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 21,
+            "x": 73.1,
+            "y": 54.1,
+            "endX": 90.3,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eliesse Ben Seghir",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 23,
+            "x": 91.8,
+            "y": 70.3,
+            "endX": 89.9,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Maza",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 24,
+            "x": 89.9,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Danny da Costa",
+          "portero": true
+        }
       },
       {
         "minuto": 89,

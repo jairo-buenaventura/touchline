@@ -503,6 +503,28 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "João Gomes",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 35,
+            "x": 29.9,
+            "y": 60.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Gomes",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 37,
+            "x": 29.2,
+            "y": 59.1,
+            "endX": 62.7,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Gonçalo Guedes",
             "tipo": "TakeOn",
             "minuto": 68,
@@ -524,7 +546,12 @@
             "endY": 40.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marcos Senesi",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

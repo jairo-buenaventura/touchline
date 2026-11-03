@@ -526,6 +526,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dave Romney",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 8,
+            "x": 89.1,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dave Romney",
             "tipo": "Pass",
             "minuto": 60,
             "segundo": 8,
@@ -535,7 +546,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Michael Boxall",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -4677,6 +4693,61 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Michael Boxall",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 2,
+            "x": 46.7,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Boxall",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 46.7,
+            "y": 46.6,
+            "endX": 47.8,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kemar Lawrence",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 5,
+            "x": 47.8,
+            "y": 86.0,
+            "endX": 65.2,
+            "endY": 95.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 65.2,
+            "y": 95.3,
+            "endX": 73.4,
+            "endY": 92.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 73.4,
+            "y": 92.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Emanuel Reynoso",
             "tipo": "Pass",
             "minuto": 74,
@@ -4698,7 +4769,12 @@
             "endY": 35.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shaq Moore",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

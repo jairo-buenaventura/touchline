@@ -4491,6 +4491,39 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Domenico Berardi",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 9,
+            "x": 80.3,
+            "y": 10.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domenico Berardi",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 9,
+            "x": 80.6,
+            "y": 10.4,
+            "endX": 86.9,
+            "endY": 10.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nadir Zortea",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 14,
+            "x": 86.9,
+            "y": 10.6,
+            "endX": 97.2,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Nadir Zortea",
             "tipo": "Pass",
             "minuto": 10,
@@ -4501,7 +4534,12 @@
             "endY": 56.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Bruno Amione",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

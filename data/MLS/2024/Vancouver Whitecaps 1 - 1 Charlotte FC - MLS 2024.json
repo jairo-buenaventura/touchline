@@ -425,6 +425,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Ryan Gauld",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.6,
+            "endY": 57.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pedro Vite",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 46,
+            "x": 90.6,
+            "y": 57.0,
+            "endX": 75.4,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Pedro Vite",
             "tipo": "Pass",
             "minuto": 49,
@@ -435,7 +457,12 @@
             "endY": 61.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Enzo Copetti",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

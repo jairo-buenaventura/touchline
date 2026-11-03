@@ -502,7 +502,24 @@
         "y": 52.8,
         "arco_y": 47.7,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Teun Koopmeiners",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 33,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 98.1,
+            "endY": 61.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lautaro Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -4430,6 +4447,17 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "SavedShot",
+            "minuto": 35,
+            "segundo": 30,
+            "x": 75.5,
+            "y": 65.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Federico Dimarco",
             "tipo": "Pass",
             "minuto": 35,
@@ -4473,7 +4501,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Teun Koopmeiners",
+          "portero": true
+        }
       },
       {
         "minuto": 42,
@@ -4510,7 +4543,101 @@
         "y": 48.7,
         "arco_y": 48.7,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 59,
+            "x": 56.0,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 59,
+            "x": 56.0,
+            "y": 50.7,
+            "endX": 66.2,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 2,
+            "x": 66.2,
+            "y": 43.4,
+            "endX": 72.4,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 2,
+            "x": 72.4,
+            "y": 47.3,
+            "endX": 78.8,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 5,
+            "x": 78.8,
+            "y": 64.2,
+            "endX": 83.5,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 5,
+            "x": 83.5,
+            "y": 63.4,
+            "endX": 94.9,
+            "endY": 67.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 94.9,
+            "y": 67.5,
+            "endX": 94.3,
+            "endY": 73.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 94.3,
+            "y": 73.4,
+            "endX": 96.2,
+            "endY": 49.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Joakim Mæhle",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

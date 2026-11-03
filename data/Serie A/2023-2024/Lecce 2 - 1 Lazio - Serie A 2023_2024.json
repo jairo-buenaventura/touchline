@@ -537,6 +537,28 @@
         "secuencia_gol": [
           {
             "jugador": "Marin Pongracic",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 51,
+            "x": 42.7,
+            "y": 29.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marin Pongracic",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 54,
+            "x": 46.1,
+            "y": 25.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marin Pongracic",
             "tipo": "Pass",
             "minuto": 83,
             "segundo": 56,
@@ -733,7 +755,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ciro Immobile",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

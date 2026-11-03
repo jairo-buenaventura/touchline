@@ -427,7 +427,35 @@
         "y": 56.2,
         "arco_y": 53.9,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emanuele Valeri",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 1,
+            "x": 60.8,
+            "y": 83.4,
+            "endX": 87.2,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enrico Delprato",
+            "tipo": "SavedShot",
+            "minuto": 84,
+            "segundo": 1,
+            "x": 87.2,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marco Carnesecchi",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4082,6 +4110,28 @@
         "secuencia_gol": [
           {
             "jugador": "Nikola Krstovic",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 1,
+            "x": 89.0,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
+            "tipo": "BallTouch",
+            "minuto": 78,
+            "segundo": 2,
+            "x": 92.5,
+            "y": 52.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Krstovic",
             "tipo": "Pass",
             "minuto": 78,
             "segundo": 4,
@@ -4091,7 +4141,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lautaro Valenti",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

@@ -4089,6 +4089,17 @@
         "secuencia_gol": [
           {
             "jugador": "Danilo Pereira",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 58,
+            "x": 27.3,
+            "y": 78.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Pereira",
             "tipo": "TakeOn",
             "minuto": 28,
             "segundo": 59,
@@ -4131,7 +4142,12 @@
             "endY": 74.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "David da Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

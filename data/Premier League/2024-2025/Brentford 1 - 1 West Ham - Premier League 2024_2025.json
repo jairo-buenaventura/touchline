@@ -391,6 +391,17 @@
         "secuencia_gol": [
           {
             "jugador": "Fábio Carvalho",
+            "tipo": "Aerial",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 91.6,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Carvalho",
             "tipo": "Pass",
             "minuto": 0,
             "segundo": 36,
@@ -400,7 +411,12 @@
             "endY": 56.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jarrod Bowen",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4723,6 +4739,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lucas Paquetá",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 33,
+            "x": 67.2,
+            "y": 83.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Paquetá",
             "tipo": "TakeOn",
             "minuto": 53,
             "segundo": 33,
@@ -4831,7 +4858,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mikkel Damsgaard",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

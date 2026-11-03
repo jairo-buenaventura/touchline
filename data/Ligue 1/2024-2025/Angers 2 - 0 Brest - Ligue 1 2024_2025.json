@@ -374,6 +374,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jean-Eudes Aholou",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 3,
+            "x": 40.0,
+            "y": 15.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Eudes Aholou",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 4,
+            "x": 40.0,
+            "y": 15.1,
+            "endX": 62.2,
+            "endY": 22.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Estéban Lepaul",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 8,
+            "x": 62.2,
+            "y": 22.2,
+            "endX": 68.5,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Estéban Lepaul",
             "tipo": "Pass",
             "minuto": 5,
@@ -450,7 +483,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Abdoulaye Ndiaye",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

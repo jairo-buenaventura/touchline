@@ -412,6 +412,17 @@
         "secuencia_gol": [
           {
             "jugador": "Habib Diallo",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 24,
+            "x": 97.6,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Habib Diallo",
             "tipo": "Pass",
             "minuto": 14,
             "segundo": 24,
@@ -432,7 +443,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Castello Lukeba",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -4803,7 +4819,35 @@
         "y": 43.1,
         "arco_y": 47.7,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Corentin Tolisso",
+            "tipo": "Aerial",
+            "minuto": 31,
+            "segundo": 17,
+            "x": 92.7,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corentin Tolisso",
+            "tipo": "SavedShot",
+            "minuto": 31,
+            "segundo": 17,
+            "x": 92.0,
+            "y": 41.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Matz Sels",
+          "portero": true
+        }
       },
       {
         "minuto": 35,
@@ -4814,6 +4858,149 @@
         "arco_y": 46.8,
         "arco_z": 1.3,
         "secuencia_gol": [
+          {
+            "jugador": "Anthony Lopes",
+            "tipo": "KeeperPickup",
+            "minuto": 34,
+            "segundo": 59,
+            "x": 1.0,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Lopes",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 2,
+            "x": 11.8,
+            "y": 66.3,
+            "endX": 19.7,
+            "endY": 81.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 5,
+            "x": 19.7,
+            "y": 81.0,
+            "endX": 16.9,
+            "endY": 77.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 5,
+            "x": 16.9,
+            "y": 77.0,
+            "endX": 28.4,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrique",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 7,
+            "x": 28.4,
+            "y": 91.2,
+            "endX": 33.9,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrique",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 7,
+            "x": 33.9,
+            "y": 96.5,
+            "endX": 18.3,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 8,
+            "x": 18.0,
+            "y": 78.7,
+            "endX": 18.9,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Lovren",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 15,
+            "x": 18.9,
+            "y": 50.1,
+            "endX": 36.6,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Lovren",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 15,
+            "x": 36.6,
+            "y": 25.4,
+            "endX": 37.1,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sinaly Diomandé",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 18,
+            "x": 39.2,
+            "y": 10.7,
+            "endX": 44.2,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corentin Tolisso",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 44.2,
+            "y": 21.2,
+            "endX": 48.9,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Corentin Tolisso",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 48.9,
+            "y": 25.1,
+            "endX": 45.7,
+            "endY": 21.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Corentin Tolisso",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 20,
+            "x": 45.7,
+            "y": 21.2,
+            "endX": 48.9,
+            "endY": 25.0,
+            "exitoso": true
+          },
           {
             "jugador": "Corentin Tolisso",
             "tipo": "BallTouch",
@@ -4891,7 +5078,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jean-Eudes Aholou",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

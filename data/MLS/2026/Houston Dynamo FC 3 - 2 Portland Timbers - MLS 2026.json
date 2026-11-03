@@ -471,6 +471,39 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 14,
+            "x": 80.1,
+            "y": 23.3,
+            "endX": 94.0,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Duane Holmes",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 16,
+            "x": 92.2,
+            "y": 15.4,
+            "endX": 88.8,
+            "endY": 47.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 19,
+            "x": 88.8,
+            "y": 47.0,
+            "endX": 75.7,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Jack McGlynn",
             "tipo": "Pass",
             "minuto": 61,
@@ -492,7 +525,12 @@
             "endY": 54.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Finn Surman",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -4600,6 +4638,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Felipe Mora",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 29,
+            "x": 67.4,
+            "y": 90.1,
+            "endX": 66.5,
+            "endY": 92.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jimer Fory",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 50,
+            "x": 66.5,
+            "y": 92.0,
+            "endX": 77.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jimer Fory",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 50,
+            "x": 77.2,
+            "y": 100.0,
+            "endX": 92.2,
+            "endY": 68.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Smith",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 52,
+            "x": 92.2,
+            "y": 68.5,
+            "endX": 90.2,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Smith",
+            "tipo": "BallTouch",
+            "minuto": 78,
+            "segundo": 52,
+            "x": 90.2,
+            "y": 71.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gage Guerra",
+            "tipo": "SavedShot",
+            "minuto": 78,
+            "segundo": 54,
+            "x": 89.0,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Finn Surman",
             "tipo": "Pass",
             "minuto": 78,
@@ -4610,7 +4714,12 @@
             "endY": 51.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Agustin Resch",
+          "portero": true
+        }
       },
       {
         "minuto": 81,

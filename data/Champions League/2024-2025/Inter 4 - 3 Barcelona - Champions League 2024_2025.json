@@ -501,6 +501,28 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 36,
+            "x": 66.0,
+            "y": 37.1,
+            "endX": 78.0,
+            "endY": 28.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 40,
+            "x": 78.0,
+            "y": 28.2,
+            "endX": 89.6,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Denzel Dumfries",
             "tipo": "Pass",
             "minuto": 92,
@@ -511,7 +533,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gerard Martín",
+          "portero": false
+        }
       },
       {
         "minuto": 98,
@@ -522,6 +549,50 @@
         "arco_y": 53.9,
         "arco_z": 5.7,
         "secuencia_gol": [
+          {
+            "jugador": "Mehdi Taremi",
+            "tipo": "Aerial",
+            "minuto": 98,
+            "segundo": 14,
+            "x": 70.1,
+            "y": 21.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mehdi Taremi",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 14,
+            "x": 68.7,
+            "y": 20.9,
+            "endX": 83.3,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Carry",
+            "minuto": 98,
+            "segundo": 23,
+            "x": 83.3,
+            "y": 23.5,
+            "endX": 93.6,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "TakeOn",
+            "minuto": 98,
+            "segundo": 23,
+            "x": 93.6,
+            "y": 15.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Marcus Thuram",
             "tipo": "Pass",
@@ -544,7 +615,12 @@
             "endY": 33.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ronald Araujo",
+          "portero": false
+        }
       },
       {
         "minuto": 108,
@@ -4593,6 +4669,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 5,
+            "x": 79.8,
+            "y": 60.3,
+            "endX": 92.7,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerard Martín",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 92.7,
+            "y": 73.9,
+            "endX": 90.9,
+            "endY": 64.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gerard Martín",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 9,
+            "x": 90.9,
+            "y": 64.5,
+            "endX": 95.6,
+            "endY": 73.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Gerard Martín",
             "tipo": "Pass",
             "minuto": 53,
@@ -4603,7 +4712,12 @@
             "endY": 43.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Yann Bisseck",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4623,6 +4737,50 @@
         "arco_y": 52.8,
         "arco_z": 19.0,
         "secuencia_gol": [
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 59,
+            "x": 71.5,
+            "y": 19.0,
+            "endX": 90.8,
+            "endY": 37.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 7,
+            "x": 90.8,
+            "y": 37.6,
+            "endX": 80.1,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 7,
+            "x": 80.1,
+            "y": 8.3,
+            "endX": 85.9,
+            "endY": 29.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 85.9,
+            "y": 29.8,
+            "endX": 66.5,
+            "endY": 54.9,
+            "exitoso": true
+          },
           {
             "jugador": "Frenkie de Jong",
             "tipo": "Pass",
@@ -4656,7 +4814,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Henrikh Mkhitaryan",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4702,7 +4865,57 @@
         "y": 63.8,
         "arco_y": 45.8,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Fermín López",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 52,
+            "x": 73.2,
+            "y": 25.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fermín López",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 53,
+            "x": 76.4,
+            "y": 21.8,
+            "endX": 73.7,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 54,
+            "x": 73.7,
+            "y": 45.5,
+            "endX": 88.5,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 56,
+            "x": 89.6,
+            "y": 67.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yann Sommer",
+          "portero": true
+        }
       },
       {
         "minuto": 91,

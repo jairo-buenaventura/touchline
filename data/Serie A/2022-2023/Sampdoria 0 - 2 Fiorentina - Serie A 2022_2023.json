@@ -4327,6 +4327,61 @@
         "secuencia_gol": [
           {
             "jugador": "Christian Kouamé",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 59,
+            "x": 7.9,
+            "y": 96.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "TakeOn",
+            "minuto": 3,
+            "segundo": 1,
+            "x": 9.8,
+            "y": 94.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 2,
+            "x": 15.7,
+            "y": 97.1,
+            "endX": 29.5,
+            "endY": 97.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 4,
+            "x": 29.7,
+            "y": 97.1,
+            "endX": 44.2,
+            "endY": 98.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 10,
+            "x": 44.2,
+            "y": 98.0,
+            "endX": 58.1,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Kouamé",
             "tipo": "TakeOn",
             "minuto": 3,
             "segundo": 10,
@@ -4380,7 +4435,12 @@
             "endY": 44.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gonzalo Villar",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -4408,7 +4468,24 @@
         "y": 41.7,
         "arco_y": 49.6,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nikola Milenkovic",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 15,
+            "x": 96.5,
+            "y": 41.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Francesco Caputo",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

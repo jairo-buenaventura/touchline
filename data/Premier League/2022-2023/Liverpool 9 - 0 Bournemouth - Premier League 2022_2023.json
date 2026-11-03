@@ -421,6 +421,83 @@
         "secuencia_gol": [
           {
             "jugador": "Roberto Firmino",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 16,
+            "x": 56.9,
+            "y": 34.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 18,
+            "x": 57.2,
+            "y": 35.7,
+            "endX": 60.0,
+            "endY": 35.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 20,
+            "x": 60.0,
+            "y": 35.0,
+            "endX": 65.3,
+            "endY": 23.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 20,
+            "x": 65.3,
+            "y": 23.8,
+            "endX": 88.5,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 23,
+            "x": 88.5,
+            "y": 19.2,
+            "endX": 90.1,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 23,
+            "x": 90.1,
+            "y": 24.7,
+            "endX": 91.8,
+            "endY": 28.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 26,
+            "x": 91.8,
+            "y": 28.8,
+            "endX": 87.4,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
             "tipo": "Pass",
             "minuto": 2,
             "segundo": 26,
@@ -430,7 +507,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jordan Zemura",
+          "portero": false
+        }
       },
       {
         "minuto": 5,
@@ -441,6 +523,72 @@
         "arco_y": 53.2,
         "arco_z": 12.0,
         "secuencia_gol": [
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 20,
+            "x": 31.1,
+            "y": 70.7,
+            "endX": 29.0,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 22,
+            "x": 29.0,
+            "y": 38.3,
+            "endX": 34.7,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 22,
+            "x": 34.7,
+            "y": 31.5,
+            "endX": 57.0,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 25,
+            "x": 57.0,
+            "y": 11.2,
+            "endX": 54.2,
+            "endY": 14.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 25,
+            "x": 54.2,
+            "y": 14.7,
+            "endX": 64.8,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 28,
+            "x": 64.8,
+            "y": 43.4,
+            "endX": 64.1,
+            "endY": 36.0,
+            "exitoso": true
+          },
           {
             "jugador": "Luis Díaz",
             "tipo": "TakeOn",
@@ -507,7 +655,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jefferson Lerma",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -537,6 +690,28 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Jordan Henderson",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 35,
+            "x": 66.4,
+            "y": 34.3,
+            "endX": 64.4,
+            "endY": 35.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 36,
+            "x": 64.4,
+            "y": 35.2,
+            "endX": 68.1,
+            "endY": 35.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Trent Alexander-Arnold",
             "tipo": "Pass",
             "minuto": 27,
@@ -558,7 +733,12 @@
             "endY": 35.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ryan Christie",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -568,7 +748,376 @@
         "y": 50.9,
         "arco_y": 49.9,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Henderson",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 28,
+            "x": 58.2,
+            "y": 58.2,
+            "endX": 39.4,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 29,
+            "x": 39.4,
+            "y": 38.5,
+            "endX": 38.0,
+            "endY": 34.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 29,
+            "x": 38.0,
+            "y": 34.1,
+            "endX": 44.8,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 32,
+            "x": 44.8,
+            "y": 8.4,
+            "endX": 64.3,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 64.3,
+            "y": 7.9,
+            "endX": 63.9,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 63.9,
+            "y": 11.2,
+            "endX": 56.5,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 37,
+            "x": 56.0,
+            "y": 31.1,
+            "endX": 54.3,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 39,
+            "x": 54.3,
+            "y": 46.5,
+            "endX": 65.1,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 43,
+            "x": 63.9,
+            "y": 74.5,
+            "endX": 52.8,
+            "endY": 69.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 44,
+            "x": 53.3,
+            "y": 69.6,
+            "endX": 52.3,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 47,
+            "x": 52.3,
+            "y": 45.8,
+            "endX": 47.6,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 47,
+            "x": 47.6,
+            "y": 41.2,
+            "endX": 57.7,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 49,
+            "x": 57.7,
+            "y": 15.9,
+            "endX": 67.8,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 51,
+            "x": 65.5,
+            "y": 6.1,
+            "endX": 55.7,
+            "endY": 14.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 54,
+            "x": 55.7,
+            "y": 14.5,
+            "endX": 55.1,
+            "endY": 17.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 54,
+            "x": 55.1,
+            "y": 17.8,
+            "endX": 47.3,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 56,
+            "x": 47.4,
+            "y": 42.3,
+            "endX": 53.4,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 58,
+            "x": 54.5,
+            "y": 71.6,
+            "endX": 66.7,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 59,
+            "x": 66.7,
+            "y": 80.6,
+            "endX": 45.7,
+            "endY": 75.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 3,
+            "x": 45.7,
+            "y": 75.5,
+            "endX": 44.3,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 3,
+            "x": 44.3,
+            "y": 71.2,
+            "endX": 30.6,
+            "endY": 49.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alisson Becker",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 7,
+            "x": 30.6,
+            "y": 49.8,
+            "endX": 30.6,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alisson Becker",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 7,
+            "x": 30.6,
+            "y": 53.7,
+            "endX": 41.6,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 13,
+            "x": 41.6,
+            "y": 87.2,
+            "endX": 61.8,
+            "endY": 90.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 13,
+            "x": 61.8,
+            "y": 90.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 14,
+            "x": 67.4,
+            "y": 90.1,
+            "endX": 71.1,
+            "endY": 94.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 15,
+            "x": 70.1,
+            "y": 93.0,
+            "endX": 59.2,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 19,
+            "x": 60.3,
+            "y": 71.2,
+            "endX": 55.7,
+            "endY": 51.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabinho",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 21,
+            "x": 55.7,
+            "y": 51.1,
+            "endX": 55.1,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabinho",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 21,
+            "x": 55.1,
+            "y": 46.3,
+            "endX": 69.9,
+            "endY": 10.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Elliott",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 24,
+            "x": 71.0,
+            "y": 9.9,
+            "endX": 81.2,
+            "endY": 4.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 27,
+            "x": 81.2,
+            "y": 4.2,
+            "endX": 87.3,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 27,
+            "x": 87.3,
+            "y": 12.5,
+            "endX": 89.7,
+            "endY": 18.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marcus Tavernier",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -656,7 +1205,79 @@
         "y": 48.4,
         "arco_y": 47.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "CornerAwarded",
+            "minuto": 61,
+            "segundo": 6,
+            "x": 95.2,
+            "y": 28.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 23,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.5,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Carvalho",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 27,
+            "x": 90.5,
+            "y": 7.9,
+            "endX": 88.8,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Carvalho",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 27,
+            "x": 88.8,
+            "y": 11.2,
+            "endX": 76.4,
+            "endY": 26.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 29,
+            "x": 78.1,
+            "y": 26.9,
+            "endX": 95.0,
+            "endY": 51.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 31,
+            "x": 95.9,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mark Travers",
+          "portero": true
+        }
       },
       {
         "minuto": 65,
@@ -792,7 +1413,24 @@
         "y": 44.5,
         "arco_y": 49.0,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 94.3,
+            "y": 42.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jefferson Lerma",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

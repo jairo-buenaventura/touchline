@@ -529,6 +529,61 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Jefferson Lerma",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 56,
+            "x": 61.3,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jefferson Lerma",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 56,
+            "x": 61.3,
+            "y": 37.0,
+            "endX": 71.4,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustavo Puerta",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 57,
+            "x": 71.4,
+            "y": 31.9,
+            "endX": 72.8,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jhon Arias",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 72.8,
+            "y": 39.1,
+            "endX": 73.6,
+            "endY": 42.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jhon Arias",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 1,
+            "x": 73.6,
+            "y": 42.1,
+            "endX": 70.6,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jhon Arias",
             "tipo": "Pass",
             "minuto": 75,
@@ -550,7 +605,12 @@
             "endY": 33.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Charles Pickel",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

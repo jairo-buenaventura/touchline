@@ -590,6 +590,39 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Hernández",
+            "tipo": "CornerAwarded",
+            "minuto": 46,
+            "segundo": 58,
+            "x": 89.4,
+            "y": 71.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lee Kang-In",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 48,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.1,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "SavedShot",
+            "minuto": 47,
+            "segundo": 50,
+            "x": 96.1,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gonçalo Ramos",
             "tipo": "Pass",
             "minuto": 47,
@@ -600,7 +633,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonathan Fischer",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -631,6 +669,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gonçalo Ramos",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 15,
+            "x": 81.9,
+            "y": 74.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonçalo Ramos",
             "tipo": "TakeOn",
             "minuto": 76,
             "segundo": 16,
@@ -640,7 +689,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sadibou Sané",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

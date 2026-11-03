@@ -459,6 +459,61 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Dálcio",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 47,
+            "x": 43.8,
+            "y": 33.1,
+            "endX": 58.4,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Seol Young-Woo",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 50,
+            "x": 59.9,
+            "y": 5.3,
+            "endX": 77.7,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Egor Prutsev",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 53,
+            "x": 77.7,
+            "y": 8.5,
+            "endX": 80.8,
+            "endY": 8.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Egor Prutsev",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 53,
+            "x": 80.8,
+            "y": 8.9,
+            "endX": 81.1,
+            "endY": 50.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Seol Young-Woo",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 57,
+            "x": 81.1,
+            "y": 50.0,
+            "endX": 72.7,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Seol Young-Woo",
             "tipo": "Pass",
             "minuto": 82,
@@ -469,7 +524,12 @@
             "endY": 74.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jules Koundé",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3863,7 +3923,101 @@
         "y": 52.2,
         "arco_y": 52.2,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 44,
+            "x": 29.0,
+            "y": 8.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 39.4,
+            "y": 19.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 51,
+            "x": 62.2,
+            "y": 27.0,
+            "endX": 76.4,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 55,
+            "x": 76.4,
+            "y": 8.3,
+            "endX": 80.1,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 55,
+            "x": 80.1,
+            "y": 11.6,
+            "endX": 78.9,
+            "endY": 34.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 59,
+            "x": 78.9,
+            "y": 34.2,
+            "endX": 82.8,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 59,
+            "x": 82.8,
+            "y": 32.4,
+            "endX": 92.7,
+            "endY": 21.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 1,
+            "x": 94.7,
+            "y": 22.7,
+            "endX": 96.9,
+            "endY": 48.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marko Ilic",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -4084,6 +4238,17 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Lamine Yamal",
+            "tipo": "BallTouch",
+            "minuto": 75,
+            "segundo": 26,
+            "x": 79.8,
+            "y": 11.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Fermín López",
             "tipo": "Pass",
             "minuto": 75,
@@ -4204,7 +4369,12 @@
             "endY": 43.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dálcio",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

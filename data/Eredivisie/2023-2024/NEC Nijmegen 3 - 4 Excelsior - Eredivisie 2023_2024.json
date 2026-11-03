@@ -409,6 +409,94 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Bram Nuytinck",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 14,
+            "x": 32.8,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bram Nuytinck",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 15,
+            "x": 33.9,
+            "y": 55.7,
+            "endX": 37.7,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lasse Schöne",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 16,
+            "x": 37.8,
+            "y": 51.3,
+            "endX": 39.2,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bram Nuytinck",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 17,
+            "x": 40.1,
+            "y": 58.1,
+            "endX": 45.8,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees Hoedemakers",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 46.3,
+            "y": 70.8,
+            "endX": 65.5,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Baas",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 24,
+            "x": 65.5,
+            "y": 91.5,
+            "endX": 73.7,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Baas",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 24,
+            "x": 73.7,
+            "y": 87.8,
+            "endX": 73.8,
+            "endY": 86.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Youri Baas",
+            "tipo": "BallTouch",
+            "minuto": 35,
+            "segundo": 24,
+            "x": 73.9,
+            "y": 86.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Youri Baas",
             "tipo": "Pass",
             "minuto": 35,
@@ -496,7 +584,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Redouan El Yaakoubi",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -623,7 +716,24 @@
         "y": 54.0,
         "arco_y": 52.9,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Koki Ogawa",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 93.6,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Redouan El Yaakoubi",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4795,6 +4905,72 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Casper Widell",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 32,
+            "x": 24.2,
+            "y": 57.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Casper Widell",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 33,
+            "x": 24.2,
+            "y": 57.0,
+            "endX": 31.9,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Redouan El Yaakoubi",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 34,
+            "x": 31.4,
+            "y": 53.3,
+            "endX": 24.2,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Siebe Horemans",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 36,
+            "x": 24.4,
+            "y": 24.5,
+            "endX": 60.6,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Couhaib Driouech",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 38,
+            "x": 60.6,
+            "y": 9.2,
+            "endX": 65.4,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Couhaib Driouech",
+            "tipo": "TakeOn",
+            "minuto": 11,
+            "segundo": 38,
+            "x": 65.4,
+            "y": 6.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Couhaib Driouech",
             "tipo": "Pass",
             "minuto": 11,
@@ -4805,7 +4981,12 @@
             "endY": 45.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Youri Baas",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

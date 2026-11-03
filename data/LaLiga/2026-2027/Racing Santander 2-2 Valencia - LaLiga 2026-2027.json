@@ -485,7 +485,123 @@
         "y": 51.7,
         "arco_y": 46.2,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "André Almeida",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 34,
+            "x": 46.6,
+            "y": 69.9,
+            "endX": 59.4,
+            "endY": 94.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñigo Vicente",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 37,
+            "x": 59.0,
+            "y": 94.6,
+            "endX": 52.3,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Prati",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 38,
+            "x": 52.1,
+            "y": 90.0,
+            "endX": 52.4,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeanuël Belocian",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 42,
+            "x": 52.4,
+            "y": 68.8,
+            "endX": 58.2,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeanuël Belocian",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 42,
+            "x": 58.2,
+            "y": 72.1,
+            "endX": 69.3,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorge Salinas",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 43,
+            "x": 69.4,
+            "y": 82.5,
+            "endX": 74.6,
+            "endY": 97.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñigo Vicente",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 46,
+            "x": 74.6,
+            "y": 97.8,
+            "endX": 85.0,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñigo Vicente",
+            "tipo": "TakeOn",
+            "minuto": 46,
+            "segundo": 46,
+            "x": 85.0,
+            "y": 87.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñigo Vicente",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 47,
+            "x": 84.3,
+            "y": 84.9,
+            "endX": 78.2,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorge Salinas",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 49,
+            "x": 79.8,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Filip Ugrinic",
+          "portero": true
+        }
       },
       {
         "minuto": 48,
@@ -4960,6 +5076,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dani Raba",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 9,
+            "x": 89.6,
+            "y": 72.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Raba",
             "tipo": "TakeOn",
             "minuto": 1,
             "segundo": 10,
@@ -4969,7 +5096,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jeanuël Belocian",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -5024,7 +5156,35 @@
         "y": 41.3,
         "arco_y": 47.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Javi Guerra",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 34,
+            "x": 66.0,
+            "y": 20.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Guerra",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 35,
+            "x": 87.6,
+            "y": 20.0,
+            "endX": 96.2,
+            "endY": 39.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jorge Salinas",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

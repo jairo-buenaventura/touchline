@@ -394,6 +394,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Simon Olsson",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 31,
+            "x": 67.6,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 36,
+            "x": 69.2,
+            "y": 54.6,
+            "endX": 86.5,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pelle van Amersfoort",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 37,
+            "x": 86.5,
+            "y": 50.9,
+            "endX": 89.7,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Pelle van Amersfoort",
             "tipo": "TakeOn",
             "minuto": 14,
@@ -404,7 +437,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nordin Bakker",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

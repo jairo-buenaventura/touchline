@@ -462,6 +462,28 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 29,
+            "x": 99.7,
+            "y": 0.7,
+            "endX": 94.1,
+            "endY": 33.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "David Ayala",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 37,
+            "x": 94.1,
+            "y": 33.3,
+            "endX": 54.0,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
             "jugador": "David Ayala",
             "tipo": "Pass",
             "minuto": 60,
@@ -516,7 +538,12 @@
             "endY": 71.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Obinna Nwobodo",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -555,6 +582,94 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Micael",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 45,
+            "x": 44.1,
+            "y": 62.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Micael",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 45,
+            "x": 44.1,
+            "y": 62.0,
+            "endX": 58.5,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 49,
+            "x": 58.1,
+            "y": 61.8,
+            "endX": 78.2,
+            "endY": 51.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Casemiro",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 53,
+            "x": 78.2,
+            "y": 51.4,
+            "endX": 63.4,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Casemiro",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 53,
+            "x": 63.4,
+            "y": 45.2,
+            "endX": 49.0,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 57,
+            "x": 49.0,
+            "y": 43.6,
+            "endX": 64.8,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 57,
+            "x": 64.8,
+            "y": 43.0,
+            "endX": 85.9,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riquelme Fillipi",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 1,
+            "x": 85.9,
+            "y": 92.6,
+            "endX": 86.4,
+            "endY": 74.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Riquelme Fillipi",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -565,7 +680,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alvas Powell",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

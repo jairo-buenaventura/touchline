@@ -4048,6 +4048,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 52,
+            "x": 69.8,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 52,
+            "x": 71.2,
+            "y": 29.5,
+            "endX": 73.2,
+            "endY": 30.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabinho",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 57,
+            "x": 73.2,
+            "y": 30.1,
+            "endX": 70.2,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Fabinho",
             "tipo": "Pass",
             "minuto": 16,
@@ -4091,7 +4124,12 @@
             "endY": 41.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lucas Paquetá",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

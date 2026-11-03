@@ -417,6 +417,28 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 59,
+            "x": 84.0,
+            "y": 95.5,
+            "endX": 91.0,
+            "endY": 51.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabio Miretti",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 1,
+            "x": 91.0,
+            "y": 51.2,
+            "endX": 74.6,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Fabio Miretti",
             "tipo": "SavedShot",
             "minuto": 11,
@@ -438,7 +460,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Filippo Terracciano",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -449,6 +476,39 @@
         "arco_y": 46.1,
         "arco_z": 7.0,
         "secuencia_gol": [
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 8.5,
+            "y": 73.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 7,
+            "x": 7.4,
+            "y": 68.5,
+            "endX": 10.3,
+            "endY": 70.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 12,
+            "x": 10.3,
+            "y": 70.3,
+            "endX": 21.5,
+            "endY": 82.9,
+            "exitoso": true
+          },
           {
             "jugador": "Kenan Yildiz",
             "tipo": "Pass",
@@ -493,7 +553,12 @@
             "endY": 62.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Warren Bondo",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -521,7 +586,24 @@
         "y": 51.1,
         "arco_y": 51.3,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "SavedShot",
+            "minuto": 34,
+            "segundo": 33,
+            "x": 88.5,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Emil Audero",
+          "portero": true
+        }
       },
       {
         "minuto": 40,
@@ -586,6 +668,292 @@
         "arco_y": 53.6,
         "arco_z": 8.9,
         "secuencia_gol": [
+          {
+            "jugador": "Juan Cabal",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 2,
+            "x": 54.5,
+            "y": 95.5,
+            "endX": 38.7,
+            "endY": 76.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lloyd Kelly",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 4,
+            "x": 39.5,
+            "y": 74.1,
+            "endX": 44.3,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 9,
+            "x": 43.0,
+            "y": 31.5,
+            "endX": 37.5,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lloyd Kelly",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 15,
+            "x": 37.5,
+            "y": 59.2,
+            "endX": 43.0,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lloyd Kelly",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 15,
+            "x": 43.0,
+            "y": 63.0,
+            "endX": 43.7,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 20,
+            "x": 43.7,
+            "y": 23.0,
+            "endX": 56.2,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 20,
+            "x": 56.2,
+            "y": 30.3,
+            "endX": 64.8,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 22,
+            "x": 63.8,
+            "y": 18.0,
+            "endX": 52.2,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 23,
+            "x": 52.2,
+            "y": 26.7,
+            "endX": 41.2,
+            "endY": 41.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 26,
+            "x": 41.2,
+            "y": 41.5,
+            "endX": 43.1,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 26,
+            "x": 43.1,
+            "y": 37.0,
+            "endX": 60.3,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabio Miretti",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 27,
+            "x": 60.7,
+            "y": 35.0,
+            "endX": 63.5,
+            "endY": 8.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 32,
+            "x": 63.5,
+            "y": 8.9,
+            "endX": 70.2,
+            "endY": 10.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 32,
+            "x": 70.2,
+            "y": 10.7,
+            "endX": 76.7,
+            "endY": 3.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Kalulu",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 33,
+            "x": 76.7,
+            "y": 3.3,
+            "endX": 74.5,
+            "endY": 6.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Kalulu",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 33,
+            "x": 74.5,
+            "y": 6.3,
+            "endX": 62.9,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 36,
+            "x": 62.9,
+            "y": 9.1,
+            "endX": 63.1,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bremer",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 36,
+            "x": 63.1,
+            "y": 15.8,
+            "endX": 47.6,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 47.6,
+            "y": 40.9,
+            "endX": 51.4,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 51.4,
+            "y": 41.8,
+            "endX": 56.1,
+            "endY": 93.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cabal",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 45,
+            "x": 58.2,
+            "y": 92.1,
+            "endX": 62.4,
+            "endY": 80.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khéphren Thuram",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 46,
+            "x": 62.4,
+            "y": 80.2,
+            "endX": 63.3,
+            "endY": 87.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khéphren Thuram",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 46,
+            "x": 63.3,
+            "y": 87.4,
+            "endX": 66.9,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cabal",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 66.9,
+            "y": 96.8,
+            "endX": 63.8,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cabal",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 63.8,
+            "y": 95.1,
+            "endX": 59.1,
+            "endY": 93.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Weston McKennie",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 53,
+            "x": 59.1,
+            "y": 93.6,
+            "endX": 65.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Weston McKennie",
             "tipo": "Pass",
@@ -740,7 +1108,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Franco Vázquez",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

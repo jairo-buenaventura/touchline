@@ -549,6 +549,17 @@
         "secuencia_gol": [
           {
             "jugador": "Zeno Van den Bosch",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 43,
+            "x": 96.5,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zeno Van den Bosch",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 43,
@@ -580,7 +591,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Elias Baum",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4408,6 +4424,17 @@
         "secuencia_gol": [
           {
             "jugador": "Elias Baum",
+            "tipo": "SavedShot",
+            "minuto": 66,
+            "segundo": 31,
+            "x": 87.5,
+            "y": 33.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elias Baum",
             "tipo": "BallTouch",
             "minuto": 66,
             "segundo": 33,
@@ -4417,7 +4444,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Livan Burcu",
+          "portero": true
+        }
       },
       {
         "minuto": 74,

@@ -385,6 +385,28 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Jamaal Lascelles",
+            "tipo": "Clearance",
+            "minuto": 2,
+            "segundo": 42,
+            "x": 29.0,
+            "y": 7.6,
+            "endX": 29.1,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 50,
+            "x": 29.1,
+            "y": 5.4,
+            "endX": 30.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Kieran Trippier",
             "tipo": "Pass",
             "minuto": 2,
@@ -648,7 +670,12 @@
             "endY": 29.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jean-Philippe Mateta",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

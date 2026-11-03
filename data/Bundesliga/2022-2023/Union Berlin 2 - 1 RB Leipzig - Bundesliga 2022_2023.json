@@ -378,6 +378,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Diogo Leite",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 28,
+            "x": 9.0,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Leite",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 29,
+            "x": 9.0,
+            "y": 61.2,
+            "endX": 12.5,
+            "endY": 53.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rani Khedira",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 30,
+            "x": 12.5,
+            "y": 53.3,
+            "endX": 34.4,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sheraldo Becker",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 32,
+            "x": 34.4,
+            "y": 59.1,
+            "endX": 39.4,
+            "endY": 60.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Janik Haberer",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 34,
+            "x": 39.4,
+            "y": 60.2,
+            "endX": 45.0,
+            "endY": 79.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Janik Haberer",
             "tipo": "Pass",
             "minuto": 31,
@@ -410,7 +465,12 @@
             "endY": 49.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Josko Gvardiol",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -421,6 +481,39 @@
         "arco_y": 51.7,
         "arco_z": 25.3,
         "secuencia_gol": [
+          {
+            "jugador": "András Schäfer",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 45,
+            "x": 30.3,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "András Schäfer",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 46,
+            "x": 32.0,
+            "y": 59.7,
+            "endX": 33.7,
+            "endY": 61.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "András Schäfer",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 48,
+            "x": 33.7,
+            "y": 61.8,
+            "endX": 45.5,
+            "endY": 70.0,
+            "exitoso": true
+          },
           {
             "jugador": "András Schäfer",
             "tipo": "Pass",
@@ -443,7 +536,12 @@
             "endY": 24.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Konrad Laimer",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -3875,7 +3973,24 @@
         "y": 51.8,
         "arco_y": 50.0,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Willi Orbán",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 47,
+            "x": 93.3,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kevin Behrens",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

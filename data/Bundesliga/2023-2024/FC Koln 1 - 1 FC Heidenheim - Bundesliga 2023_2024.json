@@ -402,6 +402,83 @@
         "secuencia_gol": [
           {
             "jugador": "Florian Kainz",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 45,
+            "x": 86.8,
+            "y": 100.0,
+            "endX": 78.1,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Finkgräfe",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 48,
+            "x": 78.1,
+            "y": 90.2,
+            "endX": 85.9,
+            "endY": 84.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Finkgräfe",
+            "tipo": "TakeOn",
+            "minuto": 27,
+            "segundo": 48,
+            "x": 85.9,
+            "y": 84.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Finkgräfe",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 49,
+            "x": 77.1,
+            "y": 77.3,
+            "endX": 62.7,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timo Hübers",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 52,
+            "x": 62.7,
+            "y": 62.8,
+            "endX": 66.4,
+            "endY": 57.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timo Hübers",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 52,
+            "x": 66.4,
+            "y": 57.7,
+            "endX": 90.5,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Kainz",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 58,
+            "x": 90.5,
+            "y": 91.0,
+            "endX": 92.2,
+            "endY": 84.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Kainz",
             "tipo": "TakeOn",
             "minuto": 27,
             "segundo": 58,
@@ -422,7 +499,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Eren Dinkçi",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4829,7 +4911,24 @@
         "y": 47.7,
         "arco_y": 47.6,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 16,
+            "x": 92.0,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Timo Hübers",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

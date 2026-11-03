@@ -4902,6 +4902,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Tim Parker",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 30,
+            "x": 61.5,
+            "y": 18.9,
+            "endX": 88.1,
+            "endY": 4.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Chris Durkin",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 35,
+            "x": 88.1,
+            "y": 4.6,
+            "endX": 80.7,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Chris Durkin",
             "tipo": "Pass",
             "minuto": 30,
@@ -4923,7 +4945,12 @@
             "endY": 47.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tim Leibold",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4954,6 +4981,28 @@
         "secuencia_gol": [
           {
             "jugador": "João Klauss",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 34,
+            "x": 66.8,
+            "y": 28.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
+            "tipo": "TakeOn",
+            "minuto": 47,
+            "segundo": 35,
+            "x": 67.2,
+            "y": 35.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
             "tipo": "Pass",
             "minuto": 47,
             "segundo": 37,
@@ -4963,7 +5012,12 @@
             "endY": 75.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nemanja Radoja",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -5036,7 +5090,24 @@
         "y": 37.3,
         "arco_y": 53.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tomas Totland",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 31,
+            "x": 73.4,
+            "y": 38.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tim Leibold",
+          "portero": false
+        }
       }
     ],
     "corners": [

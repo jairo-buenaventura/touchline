@@ -431,6 +431,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jamal Thiaré",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 8,
+            "x": 70.2,
+            "y": 13.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Thiaré",
             "tipo": "Pass",
             "minuto": 45,
             "segundo": 8,
@@ -473,7 +484,12 @@
             "endY": 54.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Malte Amundsen",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -705,6 +721,50 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Juan Berrocal",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 35,
+            "x": 57.7,
+            "y": 62.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Berrocal",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 35,
+            "x": 57.7,
+            "y": 62.5,
+            "endX": 65.6,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 37,
+            "x": 65.6,
+            "y": 35.9,
+            "endX": 71.4,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "TakeOn",
+            "minuto": 87,
+            "segundo": 37,
+            "x": 71.4,
+            "y": 34.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Aleksey Miranchuk",
             "tipo": "Pass",
             "minuto": 87,
@@ -748,7 +808,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Taha Habroune",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -4547,6 +4612,61 @@
         "secuencia_gol": [
           {
             "jugador": "Max Arfsten",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 0,
+            "x": 32.6,
+            "y": 91.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Arfsten",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 1,
+            "x": 32.6,
+            "y": 91.1,
+            "endX": 38.4,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 2,
+            "x": 38.2,
+            "y": 81.2,
+            "endX": 41.4,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 3,
+            "x": 41.4,
+            "y": 92.9,
+            "endX": 44.7,
+            "endY": 87.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Max Arfsten",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 43,
+            "x": 44.7,
+            "y": 87.1,
+            "endX": 37.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Arfsten",
             "tipo": "Pass",
             "minuto": 15,
             "segundo": 43,
@@ -4622,7 +4742,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ronald Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -4633,6 +4758,94 @@
         "arco_y": 53.2,
         "arco_z": 3.2,
         "secuencia_gol": [
+          {
+            "jugador": "Patrick Schulte",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 27,
+            "x": 3.7,
+            "y": 58.1,
+            "endX": 21.1,
+            "endY": 57.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 28,
+            "x": 21.1,
+            "y": 57.7,
+            "endX": 26.7,
+            "endY": 56.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "BallTouch",
+            "minuto": 23,
+            "segundo": 28,
+            "x": 26.7,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rossi",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 30,
+            "x": 43.1,
+            "y": 68.0,
+            "endX": 30.9,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malte Amundsen",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 31,
+            "x": 30.9,
+            "y": 85.9,
+            "endX": 40.5,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wessam Abou Ali",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 34,
+            "x": 40.5,
+            "y": 73.0,
+            "endX": 36.2,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wessam Abou Ali",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 34,
+            "x": 36.2,
+            "y": 92.9,
+            "endX": 55.4,
+            "endY": 84.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Arfsten",
+            "tipo": "BallTouch",
+            "minuto": 23,
+            "segundo": 38,
+            "x": 55.2,
+            "y": 84.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Max Arfsten",
             "tipo": "Pass",
@@ -4908,7 +5121,12 @@
             "endY": 44.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ronald Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

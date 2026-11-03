@@ -556,6 +556,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Matty Cash",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 22.2,
+            "y": 26.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matty Cash",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 21.9,
+            "y": 26.1,
+            "endX": 21.9,
+            "endY": 24.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Morgan Rogers",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 17,
+            "x": 21.9,
+            "y": 24.6,
+            "endX": 19.4,
+            "endY": 4.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Morgan Rogers",
             "tipo": "Pass",
             "minuto": 71,
@@ -797,7 +830,12 @@
             "endY": 27.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Son Heung-Min",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

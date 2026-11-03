@@ -4501,6 +4501,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Adrià Alti",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 11,
+            "x": 15.4,
+            "y": 25.4,
+            "endX": 8.8,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Jörgensen",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 15,
+            "x": 8.8,
+            "y": 57.2,
+            "endX": 22.7,
+            "endY": 84.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alberto Moreno",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 18,
+            "x": 22.7,
+            "y": 84.3,
+            "endX": 54.0,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Sørloth",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 24,
+            "x": 54.0,
+            "y": 88.1,
+            "endX": 89.3,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexander Sørloth",
             "tipo": "TakeOn",
             "minuto": 17,
@@ -4522,7 +4566,12 @@
             "endY": 52.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ricard Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4552,6 +4601,94 @@
         "arco_y": 46.3,
         "arco_z": 15.8,
         "secuencia_gol": [
+          {
+            "jugador": "Ilias Akhomach",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 22,
+            "x": 35.9,
+            "y": 27.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilias Akhomach",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 23,
+            "x": 35.9,
+            "y": 27.7,
+            "endX": 32.7,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Étienne Capoue",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 24,
+            "x": 32.7,
+            "y": 34.0,
+            "endX": 27.1,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Alti",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 32,
+            "x": 27.1,
+            "y": 15.6,
+            "endX": 8.2,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Alti",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 32,
+            "x": 8.2,
+            "y": 7.0,
+            "endX": 9.2,
+            "endY": 6.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adrià Alti",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 48,
+            "x": 9.2,
+            "y": 6.4,
+            "endX": 13.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Alti",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 48,
+            "x": 13.2,
+            "y": 0.0,
+            "endX": 25.6,
+            "endY": 6.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilias Akhomach",
+            "tipo": "BallTouch",
+            "minuto": 26,
+            "segundo": 49,
+            "x": 25.6,
+            "y": 6.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Ilias Akhomach",
             "tipo": "Pass",
@@ -4596,7 +4733,12 @@
             "endY": 69.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gonzalo Villar",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

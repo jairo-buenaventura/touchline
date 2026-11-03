@@ -4453,6 +4453,28 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Maxim Dekker",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 21,
+            "x": 53.7,
+            "y": 55.2,
+            "endX": 70.9,
+            "endY": 47.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 26,
+            "x": 70.9,
+            "y": 47.7,
+            "endX": 74.2,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Troy Parrott",
             "tipo": "Pass",
             "minuto": 77,
@@ -4463,7 +4485,12 @@
             "endY": 40.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Danny Bakker",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

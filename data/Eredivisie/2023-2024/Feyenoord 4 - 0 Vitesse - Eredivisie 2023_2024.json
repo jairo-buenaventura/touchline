@@ -399,6 +399,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Bart Nieuwkoop",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 41,
+            "x": 57.7,
+            "y": 0.0,
+            "endX": 60.0,
+            "endY": 7.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Justin Bijlow",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 49,
+            "x": 60.0,
+            "y": 7.9,
+            "endX": 26.2,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Justin Bijlow",
             "tipo": "Pass",
             "minuto": 6,
@@ -431,7 +453,12 @@
             "endY": 62.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ramon Hendriks",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -601,6 +628,50 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Calvin Stengs",
+            "tipo": "CornerAwarded",
+            "minuto": 47,
+            "segundo": 58,
+            "x": 95.0,
+            "y": 69.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 37,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.1,
+            "endY": 51.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yankuba Minteh",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 94.1,
+            "y": 51.9,
+            "endX": 81.8,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yankuba Minteh",
+            "tipo": "SavedShot",
+            "minuto": 48,
+            "segundo": 41,
+            "x": 81.8,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Santiago Giménez",
             "tipo": "Pass",
             "minuto": 48,
@@ -611,7 +682,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Eloy Room",
+          "portero": true
+        }
       },
       {
         "minuto": 54,

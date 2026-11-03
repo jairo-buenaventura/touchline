@@ -455,7 +455,24 @@
         "y": 65.1,
         "arco_y": 54.2,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Borja García",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 1,
+            "x": 77.1,
+            "y": 2.1,
+            "endX": 91.0,
+            "endY": 60.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "José Gragera",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -4581,6 +4598,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Denis Suárez",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 27,
+            "x": 56.5,
+            "y": 34.6,
+            "endX": 57.9,
+            "endY": 33.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rubén Sánchez",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 39,
+            "x": 57.9,
+            "y": 33.1,
+            "endX": 67.1,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rubén Sánchez",
             "tipo": "Pass",
             "minuto": 72,
@@ -4690,7 +4729,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "David López",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

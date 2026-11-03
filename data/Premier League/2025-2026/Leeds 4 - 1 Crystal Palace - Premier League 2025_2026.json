@@ -437,7 +437,24 @@
         "y": 50.6,
         "arco_y": 51.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dominic Calvert-Lewin",
+            "tipo": "SavedShot",
+            "minuto": 37,
+            "segundo": 31,
+            "x": 94.9,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dean Henderson",
+          "portero": true
+        }
       },
       {
         "minuto": 44,
@@ -477,6 +494,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jaka Bijol",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 43,
+            "x": 85.7,
+            "y": 36.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaka Bijol",
             "tipo": "Pass",
             "minuto": 48,
             "segundo": 43,
@@ -486,7 +514,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tyrick Mitchell",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -514,7 +547,57 @@
         "y": 49.3,
         "arco_y": 46.0,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "CornerAwarded",
+            "minuto": 59,
+            "segundo": 12,
+            "x": 97.1,
+            "y": 88.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anton Stach",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 40,
+            "x": 99.6,
+            "y": 99.5,
+            "endX": 96.2,
+            "endY": 59.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 41,
+            "x": 96.2,
+            "y": 59.1,
+            "endX": 77.4,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 41,
+            "x": 77.4,
+            "y": 49.7,
+            "endX": 87.5,
+            "endY": 48.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Chris Richards",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

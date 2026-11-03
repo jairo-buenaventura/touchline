@@ -493,6 +493,50 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Raúl Moro",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 10,
+            "x": 67.6,
+            "y": 83.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raúl Moro",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 13,
+            "x": 73.7,
+            "y": 70.5,
+            "endX": 80.7,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanko Juric",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 14,
+            "x": 80.7,
+            "y": 65.2,
+            "endX": 86.5,
+            "endY": 67.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mario Maroto",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 86.5,
+            "y": 67.5,
+            "endX": 97.7,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Mario Maroto",
             "tipo": "Pass",
             "minuto": 93,
@@ -503,7 +547,12 @@
             "endY": 37.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Antonio Sánchez",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -527,6 +527,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Matt O'Riley",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 2,
+            "x": 73.8,
+            "y": 82.7,
+            "endX": 85.8,
+            "endY": 48.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amir Murillo",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 9,
+            "x": 85.8,
+            "y": 48.2,
+            "endX": 71.5,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Amir Murillo",
             "tipo": "Pass",
             "minuto": 80,
@@ -779,7 +801,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Soumaïla Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

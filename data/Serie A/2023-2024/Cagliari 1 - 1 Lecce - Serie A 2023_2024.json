@@ -391,6 +391,28 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Tommaso Augello",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 56,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.0,
+            "endY": 60.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gianluca Gaetano",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 59,
+            "x": 95.0,
+            "y": 60.8,
+            "endX": 76.6,
+            "endY": 67.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Gianluca Gaetano",
             "tipo": "MissedShots",
             "minuto": 24,
@@ -401,7 +423,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nikola Krstovic",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -3641,6 +3668,105 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Nicola Sansone",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 40,
+            "x": 30.1,
+            "y": 95.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicola Sansone",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 41,
+            "x": 30.1,
+            "y": 95.6,
+            "endX": 26.5,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamza Rafia",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 42,
+            "x": 26.5,
+            "y": 89.0,
+            "endX": 26.1,
+            "endY": 82.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Blin",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 42,
+            "x": 26.0,
+            "y": 82.2,
+            "endX": 22.1,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonino Gallo",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 43,
+            "x": 22.1,
+            "y": 91.7,
+            "endX": 19.5,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marin Pongracic",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 47,
+            "x": 19.8,
+            "y": 72.9,
+            "endX": 20.4,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Baschirotto",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 50,
+            "x": 23.1,
+            "y": 40.9,
+            "endX": 31.9,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hamza Rafia",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 52,
+            "x": 32.6,
+            "y": 80.3,
+            "endX": 54.4,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonino Gallo",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 58,
+            "x": 54.4,
+            "y": 95.7,
+            "endX": 74.1,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Antonino Gallo",
             "tipo": "TakeOn",
             "minuto": 82,
@@ -3695,7 +3821,12 @@
             "endY": 56.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mateusz Wieteska",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

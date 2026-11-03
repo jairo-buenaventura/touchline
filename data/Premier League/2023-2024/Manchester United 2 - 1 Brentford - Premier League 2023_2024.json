@@ -582,6 +582,17 @@
         "secuencia_gol": [
           {
             "jugador": "Harry Maguire",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 9,
+            "x": 87.4,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Maguire",
             "tipo": "Pass",
             "minuto": 96,
             "segundo": 9,
@@ -591,7 +602,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Frank Onyeka",
+          "portero": false
+        }
       }
     ],
     "corners": [

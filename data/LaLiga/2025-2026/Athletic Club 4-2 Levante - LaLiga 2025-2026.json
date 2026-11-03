@@ -426,6 +426,149 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Iñaki Williams",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 59,
+            "x": 59.0,
+            "y": 6.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 1,
+            "x": 66.6,
+            "y": 14.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 2,
+            "x": 63.6,
+            "y": 15.4,
+            "endX": 62.5,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Jauregizar",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 3,
+            "x": 63.0,
+            "y": 32.4,
+            "endX": 67.9,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andoni Gorosabel",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 5,
+            "x": 68.3,
+            "y": 5.3,
+            "endX": 63.1,
+            "endY": 24.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Íñigo Ruíz de Galarreta",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 12,
+            "x": 63.1,
+            "y": 24.1,
+            "endX": 68.7,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Íñigo Ruíz de Galarreta",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 12,
+            "x": 68.7,
+            "y": 33.6,
+            "endX": 73.6,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 73.6,
+            "y": 28.5,
+            "endX": 73.9,
+            "endY": 24.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andoni Gorosabel",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 15,
+            "x": 73.9,
+            "y": 24.5,
+            "endX": 73.5,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andoni Gorosabel",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 15,
+            "x": 73.5,
+            "y": 8.3,
+            "endX": 75.0,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Williams",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 16,
+            "x": 75.2,
+            "y": 18.5,
+            "endX": 89.3,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andoni Gorosabel",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 17,
+            "x": 90.6,
+            "y": 9.8,
+            "endX": 91.1,
+            "endY": 14.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andoni Gorosabel",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 26,
+            "x": 91.1,
+            "y": 14.1,
+            "endX": 84.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andoni Gorosabel",
             "tipo": "Pass",
             "minuto": 28,
@@ -458,7 +601,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Manu Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -706,6 +854,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Selton Sánchez",
+            "tipo": "Aerial",
+            "minuto": 98,
+            "segundo": 15,
+            "x": 66.2,
+            "y": 35.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Selton Sánchez",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 15,
+            "x": 66.2,
+            "y": 35.3,
+            "endX": 68.8,
+            "endY": 37.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Iñaki Williams",
+            "tipo": "Carry",
+            "minuto": 98,
+            "segundo": 18,
+            "x": 68.8,
+            "y": 37.1,
+            "endX": 75.0,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Iñaki Williams",
             "tipo": "Pass",
             "minuto": 98,
@@ -716,7 +897,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Iker Losada",
+          "portero": false
+        }
       }
     ],
     "corners": [

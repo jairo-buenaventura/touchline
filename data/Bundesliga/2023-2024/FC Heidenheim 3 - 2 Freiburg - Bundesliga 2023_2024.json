@@ -431,6 +431,61 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Adrian Beck",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 45,
+            "x": 27.7,
+            "y": 35.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrian Beck",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 46,
+            "x": 27.7,
+            "y": 43.3,
+            "endX": 34.1,
+            "endY": 43.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Dinkçi",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 34.1,
+            "y": 43.7,
+            "endX": 32.9,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Dinkçi",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 32.9,
+            "y": 47.2,
+            "endX": 35.2,
+            "endY": 43.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tim Kleindienst",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 54,
+            "x": 35.2,
+            "y": 43.6,
+            "endX": 85.6,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Tim Kleindienst",
             "tipo": "Pass",
             "minuto": 51,
@@ -441,7 +496,12 @@
             "endY": 47.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lukas Kübler",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -507,6 +567,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Stefan Schimmer",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 28,
+            "x": 71.7,
+            "y": 17.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan Schimmer",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 28,
+            "x": 71.7,
+            "y": 17.1,
+            "endX": 74.4,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Dovedan",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 30,
+            "x": 74.5,
+            "y": 30.6,
+            "endX": 85.1,
+            "endY": 48.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jan Schöppner",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 34,
+            "x": 85.1,
+            "y": 48.2,
+            "endX": 66.8,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Jan Schöppner",
             "tipo": "Pass",
             "minuto": 83,
@@ -539,7 +643,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kiliann Sildillia",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

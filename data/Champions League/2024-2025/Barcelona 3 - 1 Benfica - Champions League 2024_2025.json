@@ -432,6 +432,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lamine Yamal",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 3,
+            "x": 55.4,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
             "tipo": "TakeOn",
             "minuto": 10,
             "segundo": 8,
@@ -452,7 +463,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Florentino",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -480,7 +496,46 @@
         "y": 31.7,
         "arco_y": 54.0,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 15,
+            "x": 82.9,
+            "y": 96.1,
+            "endX": 91.6,
+            "endY": 2.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 24,
+            "x": 91.6,
+            "y": 2.9,
+            "endX": 87.6,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "TakeOn",
+            "minuto": 26,
+            "segundo": 24,
+            "x": 87.6,
+            "y": 15.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tomás Araújo",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -5387,7 +5442,24 @@
         "y": 47.8,
         "arco_y": 45.8,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "António Silva",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 11,
+            "x": 92.4,
+            "y": 56.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robert Lewandowski",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

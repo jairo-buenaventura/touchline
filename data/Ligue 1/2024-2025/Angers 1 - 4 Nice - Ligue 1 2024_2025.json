@@ -4663,7 +4663,24 @@
         "y": 48.0,
         "arco_y": 48.6,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Youssouf Ndayishimiye",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 56,
+            "x": 92.2,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jean-Eudes Aholou",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -4781,6 +4798,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jérémie Boga",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 2,
+            "x": 35.2,
+            "y": 73.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémie Boga",
             "tipo": "TakeOn",
             "minuto": 71,
             "segundo": 4,
@@ -4812,7 +4840,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierrick Capelle",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4822,7 +4855,24 @@
         "y": 47.9,
         "arco_y": 47.2,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "TakeOn",
+            "minuto": 84,
+            "segundo": 43,
+            "x": 79.2,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cédric Hountondji",
+          "portero": false
+        }
       }
     ],
     "corners": [

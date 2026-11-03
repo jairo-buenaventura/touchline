@@ -408,6 +408,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Tsiki Ntsabeleng",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 2,
+            "x": 48.7,
+            "y": 76.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tsiki Ntsabeleng",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 6,
+            "x": 62.0,
+            "y": 53.7,
+            "endX": 59.8,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Ferreira",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 9,
+            "x": 60.1,
+            "y": 34.5,
+            "endX": 58.5,
+            "endY": 34.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Liam Fraser",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 10,
+            "x": 58.5,
+            "y": 34.6,
+            "endX": 48.6,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Liam Fraser",
             "tipo": "Pass",
             "minuto": 16,
@@ -440,7 +484,12 @@
             "endY": 27.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joseph Rosales",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -4396,7 +4445,24 @@
         "y": 50.0,
         "arco_y": 52.0,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "Aerial",
+            "minuto": 31,
+            "segundo": 51,
+            "x": 97.4,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maarten Paes",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

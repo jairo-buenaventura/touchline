@@ -384,6 +384,149 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Oliver Baumann",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 50,
+            "x": 16.1,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 54,
+            "x": 15.8,
+            "y": 59.3,
+            "endX": 25.7,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Grillitsch",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 57,
+            "x": 25.7,
+            "y": 63.9,
+            "endX": 24.1,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Grillitsch",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 57,
+            "x": 24.1,
+            "y": 60.9,
+            "endX": 30.5,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 0,
+            "x": 30.5,
+            "y": 44.8,
+            "endX": 30.1,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 0,
+            "x": 30.1,
+            "y": 37.7,
+            "endX": 34.7,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Akpoguma",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 4,
+            "x": 34.7,
+            "y": 16.0,
+            "endX": 36.7,
+            "endY": 22.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Akpoguma",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 4,
+            "x": 36.7,
+            "y": 22.6,
+            "endX": 29.3,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Grillitsch",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 13,
+            "x": 29.3,
+            "y": 44.9,
+            "endX": 32.7,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Grillitsch",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 13,
+            "x": 32.7,
+            "y": 52.2,
+            "endX": 32.2,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stanley Nsoki",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 15,
+            "x": 31.7,
+            "y": 81.8,
+            "endX": 40.2,
+            "endY": 96.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 16,
+            "x": 40.1,
+            "y": 97.2,
+            "endX": 45.6,
+            "endY": 96.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexander Prass",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 29,
+            "x": 45.6,
+            "y": 96.0,
+            "endX": 39.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexander Prass",
             "tipo": "Pass",
             "minuto": 4,
@@ -471,7 +614,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jens Stage",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -4106,7 +4254,24 @@
         "y": 49.2,
         "arco_y": 54.0,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 52,
+            "x": 93.3,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Florian Grillitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

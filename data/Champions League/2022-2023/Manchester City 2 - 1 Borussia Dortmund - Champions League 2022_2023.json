@@ -594,6 +594,50 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Julián Alvarez",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 48,
+            "x": 73.6,
+            "y": 17.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 51,
+            "x": 77.3,
+            "y": 22.4,
+            "endX": 74.3,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 51,
+            "x": 74.3,
+            "y": 28.0,
+            "endX": 87.0,
+            "endY": 46.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 55,
+            "x": 87.0,
+            "y": 46.7,
+            "endX": 67.1,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Nathan Aké",
             "tipo": "Pass",
             "minuto": 82,
@@ -626,7 +670,12 @@
             "endY": 43.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mats Hummels",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -5580,6 +5629,17 @@
         "secuencia_gol": [
           {
             "jugador": "Salih Özcan",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 93.2,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Salih Özcan",
             "tipo": "BallTouch",
             "minuto": 55,
             "segundo": 42,
@@ -5600,7 +5660,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Erling Haaland",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

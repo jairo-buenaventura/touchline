@@ -393,6 +393,17 @@
         "secuencia_gol": [
           {
             "jugador": "Thomas Foket",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 6,
+            "x": 96.6,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Foket",
             "tipo": "Pass",
             "minuto": 27,
             "segundo": 6,
@@ -402,7 +413,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maxime Estève",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -4569,7 +4585,79 @@
         "y": 47.0,
         "arco_y": 53.2,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Benjamin Lecomte",
+            "tipo": "KeeperPickup",
+            "minuto": 74,
+            "segundo": 50,
+            "x": 1.7,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Lecomte",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 57,
+            "x": 3.3,
+            "y": 56.0,
+            "endX": 23.4,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Ferri",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 3,
+            "x": 23.4,
+            "y": 66.1,
+            "endX": 38.6,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Ferri",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 3,
+            "x": 38.6,
+            "y": 68.3,
+            "endX": 51.3,
+            "endY": 70.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elye Wahi",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 6,
+            "x": 51.3,
+            "y": 70.0,
+            "endX": 68.2,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elye Wahi",
+            "tipo": "TakeOn",
+            "minuto": 75,
+            "segundo": 6,
+            "x": 68.2,
+            "y": 67.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thibault De Smet",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

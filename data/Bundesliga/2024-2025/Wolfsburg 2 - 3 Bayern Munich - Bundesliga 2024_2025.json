@@ -3657,6 +3657,39 @@
         "secuencia_gol": [
           {
             "jugador": "Sacha Boey",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 50,
+            "x": 64.6,
+            "y": 0.0,
+            "endX": 77.2,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 52,
+            "x": 77.2,
+            "y": 8.3,
+            "endX": 71.3,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 53,
+            "x": 71.3,
+            "y": 12.9,
+            "endX": 92.2,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sacha Boey",
             "tipo": "TakeOn",
             "minuto": 18,
             "segundo": 56,
@@ -3677,7 +3710,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jakub Kaminski",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -3760,6 +3798,61 @@
         "arco_y": 52.9,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 43,
+            "x": 36.0,
+            "y": 27.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 45,
+            "x": 35.6,
+            "y": 27.9,
+            "endX": 34.6,
+            "endY": 33.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Serge Gnabry",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 48,
+            "x": 34.6,
+            "y": 33.0,
+            "endX": 37.3,
+            "endY": 3.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Serge Gnabry",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 48,
+            "x": 37.3,
+            "y": 3.6,
+            "endX": 56.8,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "BallTouch",
+            "minuto": 80,
+            "segundo": 49,
+            "x": 56.7,
+            "y": 11.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Manuel Neuer",
             "tipo": "Pass",
@@ -3892,7 +3985,12 @@
             "endY": 36.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Cédric Zesiger",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

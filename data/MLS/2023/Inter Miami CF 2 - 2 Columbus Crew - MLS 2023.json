@@ -406,7 +406,24 @@
         "y": 47.6,
         "arco_y": 50.6,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leonardo Campana",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 27,
+            "x": 96.3,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sean Zawadzki",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -4986,7 +5003,24 @@
         "y": 38.6,
         "arco_y": 52.5,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Zelarayán",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 41,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.8,
+            "endY": 51.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Drake Callender",
+          "portero": true
+        }
       },
       {
         "minuto": 29,
@@ -5052,6 +5086,72 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Darlington Nagbe",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 2,
+            "x": 57.6,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 6,
+            "x": 63.0,
+            "y": 35.7,
+            "endX": 68.1,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 7,
+            "x": 68.1,
+            "y": 24.6,
+            "endX": 69.7,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexandru Matan",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 11,
+            "x": 69.7,
+            "y": 22.1,
+            "endX": 78.6,
+            "endY": 34.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexandru Matan",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 11,
+            "x": 78.6,
+            "y": 34.2,
+            "endX": 80.2,
+            "endY": 33.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 14,
+            "x": 80.2,
+            "y": 33.0,
+            "endX": 89.5,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Cucho Hernández",
             "tipo": "Pass",
             "minuto": 68,
@@ -5062,7 +5162,12 @@
             "endY": 51.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dixon Arroyo",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

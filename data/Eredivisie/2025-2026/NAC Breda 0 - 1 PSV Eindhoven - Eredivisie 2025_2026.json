@@ -4344,6 +4344,28 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Jerdy Schouten",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 58,
+            "x": 58.1,
+            "y": 29.4,
+            "endX": 62.3,
+            "endY": 3.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergiño Dest",
+            "tipo": "BallTouch",
+            "minuto": 35,
+            "segundo": 0,
+            "x": 62.3,
+            "y": 3.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Sergiño Dest",
             "tipo": "Pass",
             "minuto": 35,
@@ -4409,7 +4431,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kamal Sowah",
+          "portero": false
+        }
       },
       {
         "minuto": 38,

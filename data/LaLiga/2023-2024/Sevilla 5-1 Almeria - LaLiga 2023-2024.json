@@ -410,6 +410,17 @@
         "secuencia_gol": [
           {
             "jugador": "Loïc Badé",
+            "tipo": "Aerial",
+            "minuto": 6,
+            "segundo": 4,
+            "x": 89.6,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïc Badé",
             "tipo": "ShotOnPost",
             "minuto": 6,
             "segundo": 4,
@@ -419,7 +430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luis Suárez",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -607,7 +623,101 @@
         "y": 53.0,
         "arco_y": 53.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Suso",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 54,
+            "x": 19.4,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 55,
+            "x": 21.2,
+            "y": 32.2,
+            "endX": 21.6,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 21.6,
+            "y": 24.6,
+            "endX": 68.8,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "TakeOn",
+            "minuto": 50,
+            "segundo": 3,
+            "x": 68.8,
+            "y": 5.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dodi Lukébakio",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 5,
+            "x": 71.3,
+            "y": 7.2,
+            "endX": 68.9,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 11,
+            "x": 68.9,
+            "y": 72.0,
+            "endX": 73.2,
+            "endY": 74.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 11,
+            "x": 73.2,
+            "y": 74.0,
+            "endX": 88.7,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 13,
+            "x": 90.6,
+            "y": 83.7,
+            "endX": 91.0,
+            "endY": 75.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "César Montes",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

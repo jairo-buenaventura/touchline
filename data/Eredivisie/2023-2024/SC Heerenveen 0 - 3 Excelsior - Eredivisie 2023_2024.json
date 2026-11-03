@@ -4872,6 +4872,17 @@
         "secuencia_gol": [
           {
             "jugador": "Couhaib Driouech",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 48,
+            "x": 49.1,
+            "y": 62.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Couhaib Driouech",
             "tipo": "TakeOn",
             "minuto": 46,
             "segundo": 51,
@@ -4892,7 +4903,12 @@
             "endY": 32.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Luuk Brouwers",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4912,6 +4928,39 @@
         "arco_y": 46.1,
         "arco_z": 23.4,
         "secuencia_gol": [
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 52,
+            "x": 30.9,
+            "y": 12.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 52,
+            "x": 30.9,
+            "y": 12.1,
+            "endX": 28.6,
+            "endY": 20.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kian Fitz-Jim",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 53,
+            "x": 28.6,
+            "y": 20.0,
+            "endX": 24.8,
+            "endY": 35.2,
+            "exitoso": true
+          },
           {
             "jugador": "Kian Fitz-Jim",
             "tipo": "Pass",
@@ -4956,7 +5005,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Anas Tahiri",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

@@ -448,6 +448,50 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Jayden Bogle",
+            "tipo": "CornerAwarded",
+            "minuto": 17,
+            "segundo": 13,
+            "x": 97.4,
+            "y": 23.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ao Tanaka",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 47,
+            "x": 99.6,
+            "y": 0.7,
+            "endX": 90.7,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaka Bijol",
+            "tipo": "MissedShots",
+            "minuto": 17,
+            "segundo": 51,
+            "x": 90.7,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ethan Ampadu",
+            "tipo": "SavedShot",
+            "minuto": 17,
+            "segundo": 53,
+            "x": 97.1,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Noah Okafor",
             "tipo": "BallTouch",
             "minuto": 17,
@@ -458,7 +502,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dan Bentley",
+          "portero": true
+        }
       },
       {
         "minuto": 19,
@@ -468,7 +517,35 @@
         "y": 58.9,
         "arco_y": 53.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 12,
+            "x": 53.8,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 16,
+            "x": 79.9,
+            "y": 15.6,
+            "endX": 81.8,
+            "endY": 18.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Toti Gomes",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

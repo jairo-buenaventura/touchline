@@ -480,6 +480,94 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Daouda Guindo",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 15,
+            "x": 62.8,
+            "y": 100.0,
+            "endX": 62.8,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 18,
+            "x": 62.8,
+            "y": 82.7,
+            "endX": 65.6,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "TakeOn",
+            "minuto": 54,
+            "segundo": 19,
+            "x": 67.7,
+            "y": 89.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Tousart",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 68.5,
+            "y": 86.0,
+            "endX": 70.4,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pathé Mboup",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 70.3,
+            "y": 94.2,
+            "endX": 74.8,
+            "endY": 81.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kamory Doumbia",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 74.8,
+            "y": 81.2,
+            "endX": 79.1,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamory Doumbia",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 79.1,
+            "y": 77.2,
+            "endX": 75.1,
+            "endY": 65.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kamory Doumbia",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 28,
+            "x": 75.1,
+            "y": 65.0,
+            "endX": 96.6,
+            "endY": 69.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Kamory Doumbia",
             "tipo": "Pass",
             "minuto": 54,
@@ -490,7 +578,12 @@
             "endY": 57.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Branco van den Boomen",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4692,6 +4785,17 @@
         "secuencia_gol": [
           {
             "jugador": "Branco van den Boomen",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 41,
+            "x": 21.7,
+            "y": 20.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Branco van den Boomen",
             "tipo": "TakeOn",
             "minuto": 59,
             "segundo": 42,
@@ -4734,7 +4838,12 @@
             "endY": 76.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hamidou Makalou",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

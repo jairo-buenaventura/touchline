@@ -513,6 +513,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "David de Gea",
+            "tipo": "KeeperPickup",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 2.3,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David de Gea",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 13.1,
+            "y": 59.1,
+            "endX": 67.8,
+            "endY": 80.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moise Kean",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 67.8,
+            "y": 80.3,
+            "endX": 87.0,
+            "endY": 69.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Moise Kean",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -523,7 +556,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Reda Belahyane",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -4747,7 +4747,46 @@
         "y": 54.0,
         "arco_y": 52.8,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stephan El Shaarawy",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 59,
+            "x": 64.7,
+            "y": 58.2,
+            "endX": 71.1,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 3,
+            "x": 71.1,
+            "y": 38.0,
+            "endX": 84.9,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 3,
+            "x": 84.9,
+            "y": 38.6,
+            "endX": 85.6,
+            "endY": 40.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Petko Hristov",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -4759,6 +4798,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Paulo Dybala",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 28,
+            "x": 43.3,
+            "y": 35.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 30,
+            "x": 53.5,
+            "y": 41.0,
+            "endX": 61.0,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tammy Abraham",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 32,
+            "x": 61.0,
+            "y": 47.3,
+            "endX": 71.6,
+            "endY": 44.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Tammy Abraham",
             "tipo": "TakeOn",
             "minuto": 48,
@@ -4769,7 +4841,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mattia Caldara",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

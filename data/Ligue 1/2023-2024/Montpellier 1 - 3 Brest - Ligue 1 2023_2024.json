@@ -4781,6 +4781,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Bradley Locko",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 2,
+            "x": 20.6,
+            "y": 88.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Locko",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 2,
+            "x": 23.2,
+            "y": 89.7,
+            "endX": 52.9,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steve Mounié",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 7,
+            "x": 52.9,
+            "y": 94.1,
+            "endX": 45.6,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Steve Mounié",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -4835,7 +4868,12 @@
             "endY": 44.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kiki Kouyaté",
+          "portero": false
+        }
       }
     ],
     "corners": [

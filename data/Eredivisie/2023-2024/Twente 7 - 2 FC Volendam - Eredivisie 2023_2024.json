@@ -452,6 +452,160 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 12,
+            "x": 49.3,
+            "y": 50.1,
+            "endX": 28.5,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michal Sadílek",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 22,
+            "x": 28.4,
+            "y": 55.4,
+            "endX": 23.4,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees Hilgers",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 26,
+            "x": 23.4,
+            "y": 40.6,
+            "endX": 30.6,
+            "endY": 34.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees Hilgers",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 26,
+            "x": 30.6,
+            "y": 34.1,
+            "endX": 45.2,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Kjølø",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 45.2,
+            "y": 31.9,
+            "endX": 54.0,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Kjølø",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 28,
+            "x": 54.0,
+            "y": 33.2,
+            "endX": 71.9,
+            "endY": 85.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Naci Ünüvar",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 37,
+            "x": 73.4,
+            "y": 86.1,
+            "endX": 67.5,
+            "endY": 75.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Kjølø",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 67.5,
+            "y": 75.2,
+            "endX": 71.0,
+            "endY": 80.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Kjølø",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 71.0,
+            "y": 80.4,
+            "endX": 75.0,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 41,
+            "x": 74.7,
+            "y": 93.0,
+            "endX": 67.0,
+            "endY": 74.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Pröpper",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 44,
+            "x": 67.0,
+            "y": 74.1,
+            "endX": 65.8,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 51,
+            "x": 66.0,
+            "y": 90.9,
+            "endX": 61.2,
+            "endY": 76.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Kjølø",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 53,
+            "x": 61.2,
+            "y": 75.8,
+            "endX": 74.8,
+            "endY": 35.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 58,
+            "x": 74.8,
+            "y": 35.3,
+            "endX": 55.9,
+            "endY": 15.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Daan Rots",
             "tipo": "Pass",
             "minuto": 21,
@@ -528,7 +682,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Achraf Douiri",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -547,7 +706,24 @@
         "y": 55.6,
         "arco_y": 47.5,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Pröpper",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 40,
+            "x": 89.6,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Xavier Mbuyamba",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -563,13 +739,29 @@
             "tipo": "TakeOn",
             "minuto": 39,
             "segundo": 24,
+            "x": 76.0,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Regeer",
+            "tipo": "TakeOn",
+            "minuto": 39,
+            "segundo": 24,
             "x": 79.9,
             "y": 61.4,
             "endX": null,
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Darius Johnson",
+          "portero": false
+        }
       },
       {
         "minuto": 42,

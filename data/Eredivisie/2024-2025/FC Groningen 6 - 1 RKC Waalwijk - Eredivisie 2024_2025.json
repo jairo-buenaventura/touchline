@@ -547,7 +547,24 @@
         "y": 48.7,
         "arco_y": 50.0,
         "arco_z": 32.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stije Resink",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 55,
+            "x": 96.0,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Liam van Gelderen",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -645,6 +662,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Noam Emeran",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 52,
+            "x": 63.0,
+            "y": 0.0,
+            "endX": 77.1,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brynjólfur Willumsson",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 53,
+            "x": 77.1,
+            "y": 17.0,
+            "endX": 77.7,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brynjólfur Willumsson",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 53,
+            "x": 77.7,
+            "y": 23.3,
+            "endX": 87.0,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 87.0,
+            "y": 26.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Brynjólfur Willumsson",
             "tipo": "BallTouch",
             "minuto": 88,
@@ -655,7 +716,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Juan Familia-Castillo",
+          "portero": false
+        }
       }
     ],
     "corners": [

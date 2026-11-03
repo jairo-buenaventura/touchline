@@ -465,7 +465,35 @@
         "y": 44.1,
         "arco_y": 51.3,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hákon Haraldsson",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 57,
+            "x": 90.1,
+            "y": 38.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hákon Haraldsson",
+            "tipo": "SavedShot",
+            "minuto": 41,
+            "segundo": 59,
+            "x": 89.3,
+            "y": 37.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Radoslaw Majecki",
+          "portero": true
+        }
       },
       {
         "minuto": 45,
@@ -4208,6 +4236,17 @@
         "secuencia_gol": [
           {
             "jugador": "Maghnes Akliouche",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 28,
+            "x": 90.9,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
             "tipo": "MissedShots",
             "minuto": 45,
             "segundo": 28,
@@ -4228,7 +4267,12 @@
             "endY": 50.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Gabriel Gudmundsson",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

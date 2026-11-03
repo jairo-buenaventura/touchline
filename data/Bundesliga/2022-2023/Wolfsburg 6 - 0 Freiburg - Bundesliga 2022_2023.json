@@ -584,7 +584,57 @@
         "y": 52.8,
         "arco_y": 50.4,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 71.6,
+            "y": 19.4,
+            "endX": 70.3,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 20,
+            "x": 70.3,
+            "y": 23.1,
+            "endX": 73.0,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "SavedShot",
+            "minuto": 36,
+            "segundo": 20,
+            "x": 73.0,
+            "y": 26.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Micky van de Ven",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 24,
+            "x": 94.4,
+            "y": 75.4,
+            "endX": 94.3,
+            "endY": 70.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matthias Ginter",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -658,6 +708,72 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Yannick Gerhardt",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 33,
+            "x": 41.0,
+            "y": 96.7,
+            "endX": 36.1,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 34,
+            "x": 36.1,
+            "y": 85.2,
+            "endX": 28.9,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 39,
+            "x": 28.9,
+            "y": 67.2,
+            "endX": 29.7,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 39,
+            "x": 29.7,
+            "y": 51.5,
+            "endX": 30.4,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiaan Bornauw",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 41,
+            "x": 30.4,
+            "y": 29.5,
+            "endX": 27.8,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiaan Bornauw",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 41,
+            "x": 27.8,
+            "y": 25.3,
+            "endX": 35.0,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Ridle Baku",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -723,7 +839,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Noah Weisshaupt",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

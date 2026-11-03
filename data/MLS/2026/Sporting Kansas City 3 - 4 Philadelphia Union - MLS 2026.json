@@ -366,6 +366,28 @@
         "secuencia_gol": [
           {
             "jugador": "André Luiz",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 43,
+            "x": 44.7,
+            "y": 15.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Luiz",
+            "tipo": "TakeOn",
+            "minuto": 4,
+            "segundo": 47,
+            "x": 67.0,
+            "y": 10.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Luiz",
             "tipo": "TakeOn",
             "minuto": 4,
             "segundo": 50,
@@ -375,7 +397,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nathan Harriel",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -427,7 +454,24 @@
         "y": 44.7,
         "arco_y": 51.3,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Wyatt Meyer",
+            "tipo": "Aerial",
+            "minuto": 15,
+            "segundo": 18,
+            "x": 95.8,
+            "y": 44.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Indiana Vassilev",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -4449,6 +4493,83 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Neil Pierre",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 25,
+            "x": 13.9,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neil Pierre",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 26,
+            "x": 19.0,
+            "y": 18.0,
+            "endX": 28.2,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danley Jean Jacques",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 31,
+            "x": 28.2,
+            "y": 30.4,
+            "endX": 44.6,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danley Jean Jacques",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 31,
+            "x": 44.6,
+            "y": 29.5,
+            "endX": 60.7,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 37,
+            "x": 60.7,
+            "y": 4.3,
+            "endX": 74.9,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 37,
+            "x": 74.9,
+            "y": 7.6,
+            "endX": 90.2,
+            "endY": 46.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 90.2,
+            "y": 46.0,
+            "endX": 83.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Frankie Westfield",
             "tipo": "Pass",
             "minuto": 64,
@@ -4591,7 +4712,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wyatt Meyer",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4604,6 +4730,105 @@
         "secuencia_gol": [
           {
             "jugador": "Milan Iloski",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 50,
+            "x": 87.4,
+            "y": 40.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 51,
+            "x": 88.6,
+            "y": 41.0,
+            "endX": 88.7,
+            "endY": 45.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 88.7,
+            "y": 45.9,
+            "endX": 63.1,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 63.1,
+            "y": 16.8,
+            "endX": 57.2,
+            "endY": 14.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neil Pierre",
+            "tipo": "BallTouch",
+            "minuto": 66,
+            "segundo": 59,
+            "x": 57.6,
+            "y": 14.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danley Jean Jacques",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 1,
+            "x": 59.7,
+            "y": 15.0,
+            "endX": 67.4,
+            "endY": 11.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 7,
+            "x": 67.4,
+            "y": 11.8,
+            "endX": 91.7,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 7,
+            "x": 91.7,
+            "y": 12.5,
+            "endX": 84.9,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 8,
+            "x": 84.9,
+            "y": 32.7,
+            "endX": 91.2,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
             "tipo": "TakeOn",
             "minuto": 67,
             "segundo": 8,
@@ -4613,7 +4838,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lasse Berg Johnsen",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

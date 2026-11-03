@@ -369,6 +369,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Francesco Antonucci",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 38,
+            "x": 55.3,
+            "y": 81.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Antonucci",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 38,
+            "x": 55.3,
+            "y": 81.8,
+            "endX": 37.3,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Derry John Murkin",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 39,
+            "x": 37.3,
+            "y": 92.6,
+            "endX": 55.0,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Antonucci",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 42,
+            "x": 55.0,
+            "y": 92.4,
+            "endX": 55.7,
+            "endY": 91.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Derry John Murkin",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 48,
+            "x": 55.7,
+            "y": 91.4,
+            "endX": 59.4,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Derry John Murkin",
             "tipo": "Pass",
             "minuto": 9,
@@ -489,7 +544,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Bart van Rooij",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -4607,6 +4667,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mikkel Duelund",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 22,
+            "x": 91.0,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Duelund",
             "tipo": "Pass",
             "minuto": 16,
             "segundo": 22,
@@ -4616,7 +4687,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Carel Eiting",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

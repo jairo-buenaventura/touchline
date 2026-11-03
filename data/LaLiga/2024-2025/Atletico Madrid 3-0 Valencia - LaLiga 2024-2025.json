@@ -447,6 +447,61 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Alexander Sørloth",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 57,
+            "x": 42.2,
+            "y": 41.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Sørloth",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 58,
+            "x": 45.7,
+            "y": 45.3,
+            "endX": 68.1,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 2,
+            "x": 68.1,
+            "y": 76.2,
+            "endX": 79.4,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 2,
+            "x": 79.4,
+            "y": 76.2,
+            "endX": 79.6,
+            "endY": 70.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 7,
+            "x": 79.6,
+            "y": 70.6,
+            "endX": 75.3,
+            "endY": 67.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Antoine Griezmann",
             "tipo": "Pass",
             "minuto": 38,
@@ -468,7 +523,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Pepelu",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -488,6 +548,28 @@
         "arco_y": 53.2,
         "arco_z": 10.8,
         "secuencia_gol": [
+          {
+            "jugador": "Alexander Sørloth",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 4,
+            "x": 89.8,
+            "y": 12.4,
+            "endX": 86.7,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 7,
+            "x": 89.3,
+            "y": 16.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Marcos Llorente",
             "tipo": "Pass",
@@ -543,7 +625,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Enzo Barrenechea",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

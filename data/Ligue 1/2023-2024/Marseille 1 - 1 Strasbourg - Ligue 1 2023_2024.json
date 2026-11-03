@@ -395,6 +395,39 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Samuel Gigot",
+            "tipo": "CornerAwarded",
+            "minuto": 2,
+            "segundo": 1,
+            "x": 98.9,
+            "y": 14.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 21,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 96.0,
+            "endY": 44.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 27,
+            "x": 96.0,
+            "y": 44.6,
+            "endX": 82.6,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordan Veretout",
             "tipo": "Pass",
             "minuto": 2,
@@ -449,7 +482,12 @@
             "endY": 48.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Frédéric Guilbert",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -4369,7 +4407,35 @@
         "y": 44.9,
         "arco_y": 45.5,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dilane Bakwa",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 0,
+            "x": 69.7,
+            "y": 59.4,
+            "endX": 87.6,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abakar Sylla",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 1,
+            "x": 87.0,
+            "y": 43.1,
+            "endX": 90.0,
+            "endY": 58.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jonathan Clauss",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

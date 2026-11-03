@@ -595,7 +595,57 @@
         "y": 47.7,
         "arco_y": 52.2,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Malang Sarr",
+            "tipo": "CornerAwarded",
+            "minuto": 77,
+            "segundo": 15,
+            "x": 97.4,
+            "y": 34.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.8,
+            "endY": 51.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mamadou Sangaré",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 49,
+            "x": 95.8,
+            "y": 51.7,
+            "endX": 83.6,
+            "endY": 53.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sangaré",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 49,
+            "x": 83.6,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joris Chotard",
+          "portero": true
+        }
       },
       {
         "minuto": 81,
@@ -633,6 +683,17 @@
         "arco_y": 51.9,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Anthony Bermont",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 57,
+            "x": 55.4,
+            "y": 12.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Anthony Bermont",
             "tipo": "Pass",
@@ -721,7 +782,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Junior Diaz",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

@@ -401,6 +401,83 @@
         "arco_z": 20.2,
         "secuencia_gol": [
           {
+            "jugador": "Edu Expósito",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 48,
+            "x": 22.2,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 48,
+            "x": 23.8,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrhys Dolan",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 50,
+            "x": 27.6,
+            "y": 83.7,
+            "endX": 23.1,
+            "endY": 76.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 52,
+            "x": 23.1,
+            "y": 76.8,
+            "endX": 21.8,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 52,
+            "x": 21.8,
+            "y": 83.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edu Expósito",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 53,
+            "x": 23.6,
+            "y": 77.1,
+            "endX": 23.9,
+            "endY": 75.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Clemens Riedel",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 1,
+            "x": 23.9,
+            "y": 75.8,
+            "endX": 48.9,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Clemens Riedel",
             "tipo": "Pass",
             "minuto": 29,
@@ -510,7 +587,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jude Bellingham",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4070,7 +4152,24 @@
         "y": 50.8,
         "arco_y": 52.3,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 55,
+            "x": 90.0,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Roger Hinojo",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

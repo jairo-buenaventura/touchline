@@ -442,6 +442,28 @@
         "secuencia_gol": [
           {
             "jugador": "Lewis Morgan",
+            "tipo": "Tackle",
+            "minuto": 63,
+            "segundo": 33,
+            "x": 45.6,
+            "y": 96.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Morgan",
+            "tipo": "TakeOn",
+            "minuto": 63,
+            "segundo": 34,
+            "x": 46.5,
+            "y": 97.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Morgan",
             "tipo": "Pass",
             "minuto": 63,
             "segundo": 38,
@@ -473,7 +495,12 @@
             "endY": 66.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Steven Moreira",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -4397,7 +4424,24 @@
         "y": 55.2,
         "arco_y": 51.6,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Ramirez",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 42,
+            "x": 96.7,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Noah Eile",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

@@ -408,6 +408,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Jailson",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 13,
+            "x": 54.1,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jailson",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 59.3,
+            "y": 56.7,
+            "endX": 64.3,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 18,
+            "x": 64.3,
+            "y": 70.0,
+            "endX": 77.6,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 18,
+            "x": 77.6,
+            "y": 74.7,
+            "endX": 87.2,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Durán",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 20,
+            "x": 86.0,
+            "y": 74.7,
+            "endX": 86.1,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Álvarez",
             "tipo": "TakeOn",
             "minuto": 21,
@@ -418,7 +473,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Luis Pérez",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -455,7 +515,112 @@
         "y": 49.2,
         "arco_y": 48.1,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Fran Beltrán",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 48,
+            "x": 54.9,
+            "y": 45.7,
+            "endX": 53.2,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 48,
+            "x": 53.2,
+            "y": 67.6,
+            "endX": 59.9,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 48,
+            "x": 59.9,
+            "y": 38.2,
+            "endX": 55.0,
+            "endY": 44.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jailson",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 50,
+            "x": 55.0,
+            "y": 44.3,
+            "endX": 53.2,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jailson",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 50,
+            "x": 53.2,
+            "y": 67.6,
+            "endX": 62.3,
+            "endY": 92.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 55,
+            "x": 62.3,
+            "y": 92.6,
+            "endX": 70.0,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 55,
+            "x": 70.0,
+            "y": 81.1,
+            "endX": 86.4,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 58,
+            "x": 86.4,
+            "y": 69.6,
+            "endX": 90.9,
+            "endY": 66.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "SavedShot",
+            "minuto": 34,
+            "segundo": 58,
+            "x": 90.9,
+            "y": 66.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Karl Hein",
+          "portero": true
+        }
       },
       {
         "minuto": 46,

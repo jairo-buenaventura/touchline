@@ -397,7 +397,90 @@
         "y": 60.0,
         "arco_y": 46.4,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cristhian Mosquera",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 45,
+            "x": 46.9,
+            "y": 11.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristhian Mosquera",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 47,
+            "x": 44.6,
+            "y": 14.5,
+            "endX": 48.1,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 52,
+            "x": 48.1,
+            "y": 44.2,
+            "endX": 65.6,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 52,
+            "x": 65.6,
+            "y": 63.3,
+            "endX": 76.1,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Gayà",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 56,
+            "x": 76.8,
+            "y": 96.2,
+            "endX": 82.5,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umar Sadiq",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 59,
+            "x": 82.5,
+            "y": 69.3,
+            "endX": 79.1,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umar Sadiq",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 59,
+            "x": 79.1,
+            "y": 77.6,
+            "endX": 74.0,
+            "endY": 79.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Florian Grillitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -508,6 +591,94 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Dimitri Foulquier",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 18,
+            "x": 44.0,
+            "y": 13.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dimitri Foulquier",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 44.0,
+            "y": 13.6,
+            "endX": 40.3,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 22,
+            "x": 40.3,
+            "y": 28.6,
+            "endX": 42.8,
+            "endY": 31.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 22,
+            "x": 42.8,
+            "y": 31.1,
+            "endX": 54.1,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego López",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 24,
+            "x": 54.1,
+            "y": 59.6,
+            "endX": 47.8,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 27,
+            "x": 47.8,
+            "y": 38.3,
+            "endX": 54.8,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Barrenechea",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 27,
+            "x": 54.8,
+            "y": 40.6,
+            "endX": 86.7,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umar Sadiq",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 30,
+            "x": 86.7,
+            "y": 69.0,
+            "endX": 88.4,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Umar Sadiq",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -518,7 +689,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cenk Özkacar",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

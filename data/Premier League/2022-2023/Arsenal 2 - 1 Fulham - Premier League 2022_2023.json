@@ -503,6 +503,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Gabriel Magalhães",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 52,
+            "x": 30.4,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Magalhães",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 52,
+            "x": 29.1,
+            "y": 56.0,
+            "endX": 30.5,
+            "endY": 60.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aaron Ramsdale",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 0,
+            "x": 30.5,
+            "y": 60.3,
+            "endX": 4.4,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Aaron Ramsdale",
             "tipo": "Pass",
             "minuto": 63,
@@ -612,7 +645,12 @@
             "endY": 44.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Aleksandar Mitrovic",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

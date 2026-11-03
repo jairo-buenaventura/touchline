@@ -4520,6 +4520,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Bryan Acosta",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 49,
+            "x": 33.7,
+            "y": 40.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Acosta",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 52,
+            "x": 39.2,
+            "y": 37.1,
+            "endX": 67.0,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 59,
+            "x": 67.0,
+            "y": 13.2,
+            "endX": 90.6,
+            "endY": 26.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristian Espinoza",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -4541,7 +4574,12 @@
             "endY": 43.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matt Polster",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

@@ -386,6 +386,17 @@
         "secuencia_gol": [
           {
             "jugador": "Adrien Thomasson",
+            "tipo": "Aerial",
+            "minuto": 1,
+            "segundo": 59,
+            "x": 89.0,
+            "y": 34.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
             "tipo": "Pass",
             "minuto": 2,
             "segundo": 0,
@@ -395,7 +406,12 @@
             "endY": 42.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thilo Kehrer",
+          "portero": false
+        }
       },
       {
         "minuto": 4,
@@ -504,7 +520,46 @@
         "y": 43.8,
         "arco_y": 47.4,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Allan Saint-Maximin",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 93.0,
+            "y": 60.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 84.8,
+            "y": 76.1,
+            "endX": 77.5,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malang Sarr",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 77.5,
+            "y": 63.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Philipp Köhn",
+          "portero": true
+        }
       },
       {
         "minuto": 59,
@@ -4712,7 +4767,24 @@
         "y": 49.2,
         "arco_y": 49.9,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Denis Zakaria",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 19,
+            "x": 95.5,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Matthieu Udol",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

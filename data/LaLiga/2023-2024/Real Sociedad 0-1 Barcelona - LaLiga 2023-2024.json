@@ -4489,6 +4489,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Jules Koundé",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 35,
+            "x": 36.0,
+            "y": 11.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 36,
+            "x": 36.0,
+            "y": 11.3,
+            "endX": 40.4,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 40.4,
+            "y": 23.5,
+            "endX": 41.2,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Gavi",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -4598,7 +4631,12 @@
             "endY": 47.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brais Méndez",
+          "portero": false
+        }
       }
     ],
     "corners": [

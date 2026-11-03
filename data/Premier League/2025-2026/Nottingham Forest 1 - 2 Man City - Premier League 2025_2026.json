@@ -389,6 +389,28 @@
         "secuencia_gol": [
           {
             "jugador": "Morgan Gibbs-White",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 34,
+            "x": 24.5,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Gibbs-White",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 36,
+            "x": 25.9,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Gibbs-White",
             "tipo": "Pass",
             "minuto": 53,
             "segundo": 39,
@@ -453,7 +475,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nico González",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

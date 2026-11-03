@@ -400,6 +400,28 @@
         "secuencia_gol": [
           {
             "jugador": "Ross Barkley",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 25,
+            "x": 28.2,
+            "y": 66.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ross Barkley",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 25,
+            "x": 24.6,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ross Barkley",
             "tipo": "Pass",
             "minuto": 79,
             "segundo": 30,
@@ -420,7 +442,12 @@
             "endY": 54.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Harvey Elliott",
+          "portero": false
+        }
       },
       {
         "minuto": 99,
@@ -3859,7 +3886,24 @@
         "y": 53.8,
         "arco_y": 49.8,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 39,
+            "x": 96.2,
+            "y": 52.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Issa Kaboré",
+          "portero": false
+        }
       }
     ],
     "corners": [

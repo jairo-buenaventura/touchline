@@ -5550,7 +5550,24 @@
         "y": 58.5,
         "arco_y": 46.6,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Niklas Vesterlund",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 53,
+            "x": 90.2,
+            "y": 58.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Gernot Trauner",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -5561,6 +5578,50 @@
         "arco_y": 48.6,
         "arco_z": 19.6,
         "secuencia_gol": [
+          {
+            "jugador": "Alonzo Engwanda",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 16,
+            "x": 25.6,
+            "y": 68.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alonzo Engwanda",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 16,
+            "x": 25.6,
+            "y": 68.1,
+            "endX": 47.8,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sébastien Haller",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 18,
+            "x": 47.8,
+            "y": 89.6,
+            "endX": 52.1,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sébastien Haller",
+            "tipo": "TakeOn",
+            "minuto": 64,
+            "segundo": 18,
+            "x": 52.1,
+            "y": 91.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Sébastien Haller",
             "tipo": "Pass",
@@ -5594,7 +5655,12 @@
             "endY": 48.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gernot Trauner",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

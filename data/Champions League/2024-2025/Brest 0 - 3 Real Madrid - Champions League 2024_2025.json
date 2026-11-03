@@ -4528,6 +4528,105 @@
         "secuencia_gol": [
           {
             "jugador": "Rodrygo",
+            "tipo": "CornerAwarded",
+            "minuto": 25,
+            "segundo": 50,
+            "x": 97.5,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.2,
+            "endY": 90.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 8,
+            "x": 95.2,
+            "y": 90.5,
+            "endX": 85.7,
+            "endY": 86.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 11,
+            "x": 85.7,
+            "y": 86.0,
+            "endX": 81.1,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 11,
+            "x": 81.1,
+            "y": 80.8,
+            "endX": 85.8,
+            "endY": 73.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ferland Mendy",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 17,
+            "x": 85.8,
+            "y": 73.5,
+            "endX": 57.5,
+            "endY": 88.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferland Mendy",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 17,
+            "x": 57.5,
+            "y": 88.2,
+            "endX": 63.9,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 19,
+            "x": 64.1,
+            "y": 95.8,
+            "endX": 73.0,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrygo",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 21,
+            "x": 73.0,
+            "y": 80.5,
+            "endX": 76.1,
+            "endY": 80.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrygo",
             "tipo": "TakeOn",
             "minuto": 26,
             "segundo": 21,
@@ -4537,7 +4636,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brendan Chardonnet",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4693,7 +4797,156 @@
         "y": 56.5,
         "arco_y": 48.7,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ferland Mendy",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 9,
+            "x": 46.1,
+            "y": 85.8,
+            "endX": 43.0,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 12,
+            "x": 43.0,
+            "y": 71.8,
+            "endX": 44.0,
+            "endY": 60.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 12,
+            "x": 44.0,
+            "y": 60.5,
+            "endX": 47.0,
+            "endY": 20.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 14,
+            "x": 47.7,
+            "y": 18.6,
+            "endX": 67.5,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 21,
+            "x": 67.5,
+            "y": 5.5,
+            "endX": 77.6,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arda Güler",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 21,
+            "x": 77.6,
+            "y": 17.4,
+            "endX": 82.3,
+            "endY": 5.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Vázquez",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 22,
+            "x": 82.3,
+            "y": 5.7,
+            "endX": 72.1,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 24,
+            "x": 72.1,
+            "y": 18.0,
+            "endX": 70.2,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 26,
+            "x": 70.8,
+            "y": 36.0,
+            "endX": 69.6,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 31,
+            "x": 69.6,
+            "y": 54.3,
+            "endX": 69.9,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 31,
+            "x": 69.9,
+            "y": 68.0,
+            "endX": 77.1,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrygo",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 32,
+            "x": 78.7,
+            "y": 73.4,
+            "endX": 91.4,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 34,
+            "x": 93.3,
+            "y": 67.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marco Bizot",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

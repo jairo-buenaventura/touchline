@@ -460,6 +460,50 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Santiago Castro",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 5,
+            "x": 38.5,
+            "y": 76.3,
+            "endX": 90.7,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benja Domínguez",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 16,
+            "x": 90.7,
+            "y": 3.4,
+            "endX": 93.9,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benja Domínguez",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 16,
+            "x": 93.9,
+            "y": 18.0,
+            "endX": 93.0,
+            "endY": 22.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Remo Freuler",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 17,
+            "x": 93.0,
+            "y": 22.3,
+            "endX": 89.4,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Remo Freuler",
             "tipo": "BallTouch",
             "minuto": 58,
@@ -470,7 +514,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Robin Gosens",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

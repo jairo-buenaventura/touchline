@@ -412,6 +412,17 @@
         "secuencia_gol": [
           {
             "jugador": "Saïdou Sow",
+            "tipo": "Aerial",
+            "minuto": 22,
+            "segundo": 8,
+            "x": 90.4,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Saïdou Sow",
             "tipo": "BallTouch",
             "minuto": 22,
             "segundo": 8,
@@ -421,7 +432,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lorenz Assignon",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -440,7 +456,24 @@
         "y": 40.9,
         "arco_y": 47.4,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dilane Bakwa",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 12,
+            "x": 88.6,
+            "y": 7.1,
+            "endX": 96.2,
+            "endY": 44.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Christopher Wooh",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4819,7 +4852,68 @@
         "y": 46.3,
         "arco_y": 52.3,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lorenz Assignon",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 18,
+            "x": 89.3,
+            "y": 10.7,
+            "endX": 81.0,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Azor Matusiwa",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 20,
+            "x": 81.0,
+            "y": 11.1,
+            "endX": 87.2,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Glen Kamara",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 22,
+            "x": 87.2,
+            "y": 32.4,
+            "endX": 88.2,
+            "endY": 43.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Østigård",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 24,
+            "x": 88.2,
+            "y": 43.7,
+            "endX": 87.2,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Østigård",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 24,
+            "x": 87.2,
+            "y": 51.5,
+            "endX": 88.8,
+            "endY": 34.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Saïdou Sow",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

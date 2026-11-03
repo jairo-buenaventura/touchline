@@ -4056,7 +4056,79 @@
         "y": 50.0,
         "arco_y": 52.1,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Kent",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 49,
+            "x": 29.9,
+            "y": 77.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Kent",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 51,
+            "x": 30.6,
+            "y": 79.6,
+            "endX": 28.5,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Roldan",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 55,
+            "x": 28.5,
+            "y": 62.3,
+            "endX": 32.9,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Roldan",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 55,
+            "x": 32.9,
+            "y": 57.3,
+            "endX": 74.9,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Rothrock",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 74.9,
+            "y": 14.8,
+            "endX": 87.0,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Rothrock",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 87.0,
+            "y": 16.0,
+            "endX": 88.2,
+            "endY": 19.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Femi Awodesu",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4432,6 +4504,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Alex Roldan",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 46,
+            "x": 96.1,
+            "y": 3.7,
+            "endX": 76.5,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro de la Vega",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 48,
+            "x": 78.8,
+            "y": 12.6,
+            "endX": 95.1,
+            "endY": 72.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nouhou Tolo",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 12,
+            "x": 95.1,
+            "y": 72.6,
+            "endX": 72.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nouhou Tolo",
             "tipo": "Pass",
             "minuto": 57,
@@ -4574,7 +4679,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Griffin Dorsey",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

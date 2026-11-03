@@ -4200,6 +4200,61 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Rudy Camacho",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 30.1,
+            "y": 63.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rudy Camacho",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 25,
+            "x": 30.1,
+            "y": 63.9,
+            "endX": 8.3,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Schulte",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 29,
+            "x": 8.4,
+            "y": 62.1,
+            "endX": 48.0,
+            "endY": 73.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 33,
+            "x": 48.0,
+            "y": 73.4,
+            "endX": 52.5,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "BallTouch",
+            "minuto": 46,
+            "segundo": 33,
+            "x": 52.5,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Max Arfsten",
             "tipo": "TakeOn",
             "minuto": 46,
@@ -4243,7 +4298,12 @@
             "endY": 46.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nick Lima",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -4315,6 +4375,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Cucho Hernández",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 49,
+            "x": 22.5,
+            "y": 59.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 50,
+            "x": 22.5,
+            "y": 59.3,
+            "endX": 26.1,
+            "endY": 59.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Max Arfsten",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 53,
+            "x": 26.1,
+            "y": 59.2,
+            "endX": 26.1,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Max Arfsten",
             "tipo": "Pass",
             "minuto": 78,
@@ -4347,7 +4440,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Noel Buck",
+          "portero": false
+        }
       }
     ],
     "corners": [

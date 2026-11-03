@@ -444,6 +444,39 @@
         "secuencia_gol": [
           {
             "jugador": "Marius Wolf",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 10,
+            "x": 61.4,
+            "y": 7.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marius Wolf",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 10,
+            "x": 61.4,
+            "y": 7.1,
+            "endX": 60.4,
+            "endY": 5.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marius Wolf",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 18,
+            "x": 60.4,
+            "y": 5.9,
+            "endX": 68.7,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marius Wolf",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 18,
@@ -475,7 +508,12 @@
             "endY": 56.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Florian Wirtz",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4685,7 +4723,24 @@
         "y": 59.3,
         "arco_y": 49.0,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 52,
+            "x": 92.8,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Niclas Füllkrug",
+          "portero": false
+        }
       }
     ],
     "corners": [

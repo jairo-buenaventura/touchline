@@ -4663,6 +4663,105 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Anselmo MacNulty",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 51,
+            "x": 60.6,
+            "y": 76.1,
+            "endX": 46.5,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Graves",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 54,
+            "x": 45.3,
+            "y": 63.5,
+            "endX": 49.0,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tristan Gooijer",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 55,
+            "x": 49.0,
+            "y": 29.4,
+            "endX": 38.7,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Graves",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 56,
+            "x": 38.2,
+            "y": 40.9,
+            "endX": 58.0,
+            "endY": 7.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijs Oosting",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 5,
+            "x": 58.0,
+            "y": 7.4,
+            "endX": 73.5,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijs Oosting",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 5,
+            "x": 73.5,
+            "y": 8.6,
+            "endX": 89.8,
+            "endY": 59.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sherel Floranus",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 9,
+            "x": 89.8,
+            "y": 59.2,
+            "endX": 63.6,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sherel Floranus",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 9,
+            "x": 63.6,
+            "y": 59.9,
+            "endX": 74.0,
+            "endY": 67.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Simon Graves",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 16,
+            "x": 74.0,
+            "y": 67.4,
+            "endX": 63.3,
+            "endY": 26.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Simon Graves",
             "tipo": "Pass",
             "minuto": 42,
@@ -4827,7 +4926,12 @@
             "endY": 54.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Cherrion Valerius",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4873,7 +4977,57 @@
         "y": 61.3,
         "arco_y": 47.1,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thijs Oosting",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 15,
+            "x": 69.9,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thijs Oosting",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 15,
+            "x": 69.9,
+            "y": 11.9,
+            "endX": 88.8,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koen Kostons",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 17,
+            "x": 88.5,
+            "y": 27.7,
+            "endX": 77.6,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Fichtinger",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 19,
+            "x": 78.4,
+            "y": 40.9,
+            "endX": 78.6,
+            "endY": 46.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lewis Holtby",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

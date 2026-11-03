@@ -4604,6 +4604,50 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Ivan Ilic",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 27,
+            "x": 32.1,
+            "y": 94.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Ilic",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 27,
+            "x": 32.3,
+            "y": 94.4,
+            "endX": 60.2,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Radonjic",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 31,
+            "x": 60.2,
+            "y": 94.7,
+            "endX": 74.1,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Radonjic",
+            "tipo": "TakeOn",
+            "minuto": 22,
+            "segundo": 31,
+            "x": 74.1,
+            "y": 90.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Nemanja Radonjic",
             "tipo": "TakeOn",
             "minuto": 22,
@@ -4625,7 +4669,12 @@
             "endY": 52.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Federico Baschirotto",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

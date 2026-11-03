@@ -370,6 +370,61 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Amine Boutrah",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 28,
+            "x": 65.6,
+            "y": 12.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Boutrah",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 29,
+            "x": 70.0,
+            "y": 8.9,
+            "endX": 57.6,
+            "endY": 9.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Oroz",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 30,
+            "x": 57.6,
+            "y": 9.9,
+            "endX": 62.5,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Melle Meulensteen",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 31,
+            "x": 62.5,
+            "y": 22.9,
+            "endX": 90.3,
+            "endY": 15.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carlens Arcus",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 58,
+            "x": 90.3,
+            "y": 15.0,
+            "endX": 85.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Carlens Arcus",
             "tipo": "Pass",
             "minuto": 2,
@@ -413,7 +468,12 @@
             "endY": 32.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pawel Bochniewicz",
+          "portero": false
+        }
       },
       {
         "minuto": 4,
@@ -4117,6 +4177,39 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Simon Olsson",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 49,
+            "x": 29.4,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 52,
+            "x": 25.7,
+            "y": 37.9,
+            "endX": 35.3,
+            "endY": 6.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ché Nunnely",
+            "tipo": "TakeOn",
+            "minuto": 23,
+            "segundo": 55,
+            "x": 34.8,
+            "y": 7.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ché Nunnely",
             "tipo": "Pass",
             "minuto": 23,
@@ -4215,7 +4308,12 @@
             "endY": 44.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Michael Pinto",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

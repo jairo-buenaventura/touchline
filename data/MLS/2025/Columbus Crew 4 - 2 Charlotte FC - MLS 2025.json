@@ -512,6 +512,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mohamed Farsi",
+            "tipo": "BallTouch",
+            "minuto": 50,
+            "segundo": 14,
+            "x": 92.6,
+            "y": 14.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Farsi",
             "tipo": "Pass",
             "minuto": 50,
             "segundo": 16,
@@ -521,7 +532,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tim Ream",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -559,6 +575,116 @@
         "arco_y": 46.2,
         "arco_z": 16.5,
         "secuencia_gol": [
+          {
+            "jugador": "Max Arfsten",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 30,
+            "x": 26.5,
+            "y": 100.0,
+            "endX": 15.6,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yevhen Cheberko",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 32,
+            "x": 15.3,
+            "y": 89.5,
+            "endX": 39.5,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rossi",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 39.5,
+            "y": 86.4,
+            "endX": 39.5,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rossi",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 39.5,
+            "y": 91.4,
+            "endX": 34.3,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 34.3,
+            "y": 81.3,
+            "endX": 28.9,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 42,
+            "x": 28.9,
+            "y": 50.9,
+            "endX": 22.7,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 46,
+            "x": 21.8,
+            "y": 34.1,
+            "endX": 15.0,
+            "endY": 48.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Zawadzki",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 15.0,
+            "y": 48.6,
+            "endX": 19.0,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Zawadzki",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 19.0,
+            "y": 40.3,
+            "endX": 48.9,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rossi",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 53,
+            "x": 48.9,
+            "y": 48.3,
+            "endX": 33.9,
+            "endY": 45.3,
+            "exitoso": true
+          },
           {
             "jugador": "Diego Rossi",
             "tipo": "TakeOn",
@@ -768,7 +894,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Brandt Bronico",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -566,6 +566,28 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Alan Velasco",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 49,
+            "x": 75.0,
+            "y": 83.3,
+            "endX": 73.5,
+            "endY": 82.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marco Farfán",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 51,
+            "x": 73.5,
+            "y": 82.1,
+            "endX": 68.0,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Marco Farfán",
             "tipo": "Pass",
             "minuto": 28,
@@ -620,7 +642,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "David Ayala",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

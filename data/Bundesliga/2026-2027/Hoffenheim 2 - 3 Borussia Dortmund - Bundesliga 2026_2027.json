@@ -518,6 +518,17 @@
         "secuencia_gol": [
           {
             "jugador": "Wouter Burger",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 51.8,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wouter Burger",
             "tipo": "Pass",
             "minuto": 53,
             "segundo": 1,
@@ -549,7 +560,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Joey Veerman",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

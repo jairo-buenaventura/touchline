@@ -522,6 +522,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mattia Viti",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 31,
+            "x": 48.9,
+            "y": 78.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattia Viti",
             "tipo": "TakeOn",
             "minuto": 49,
             "segundo": 32,
@@ -564,7 +575,12 @@
             "endY": 42.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rominigue Kouamé",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -5300,7 +5316,35 @@
         "y": 56.8,
         "arco_y": 47.8,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Adil Rami",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 47,
+            "x": 67.5,
+            "y": 96.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adil Rami",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 53,
+            "x": 87.8,
+            "y": 96.9,
+            "endX": 90.7,
+            "endY": 54.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dante",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

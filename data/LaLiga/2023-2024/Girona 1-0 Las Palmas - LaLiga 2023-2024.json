@@ -470,6 +470,39 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Portu",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 19,
+            "x": 58.5,
+            "y": 15.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Portu",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 20,
+            "x": 56.1,
+            "y": 15.6,
+            "endX": 57.4,
+            "endY": 13.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 25,
+            "x": 57.4,
+            "y": 13.2,
+            "endX": 56.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Yan Couto",
             "tipo": "Pass",
             "minuto": 87,
@@ -568,7 +601,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sergi Cardona",
+          "portero": false
+        }
       }
     ],
     "corners": [

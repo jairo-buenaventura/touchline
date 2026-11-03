@@ -4189,7 +4189,24 @@
         "y": 50.7,
         "arco_y": 46.8,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nico González",
+            "tipo": "Aerial",
+            "minuto": 35,
+            "segundo": 25,
+            "x": 93.6,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Flavius Daniliuc",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -4228,6 +4245,39 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Giacomo Bonaventura",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 3,
+            "x": 67.9,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Bonaventura",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 4,
+            "x": 68.4,
+            "y": 63.4,
+            "endX": 85.0,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Ikoné",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 6,
+            "x": 85.0,
+            "y": 43.0,
+            "endX": 91.7,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Jonathan Ikoné",
             "tipo": "TakeOn",
             "minuto": 70,
@@ -4238,7 +4288,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Guillermo Ochoa",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

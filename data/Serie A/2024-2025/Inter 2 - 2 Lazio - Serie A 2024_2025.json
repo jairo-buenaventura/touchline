@@ -423,7 +423,57 @@
         "y": 54.2,
         "arco_y": 52.5,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "CornerAwarded",
+            "minuto": 45,
+            "segundo": 36,
+            "x": 87.7,
+            "y": 12.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 4,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.8,
+            "endY": 41.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 7,
+            "x": 94.8,
+            "y": 41.7,
+            "endX": 87.5,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "MissedShots",
+            "minuto": 46,
+            "segundo": 7,
+            "x": 87.5,
+            "y": 63.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alessio Romagnoli",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4712,6 +4762,61 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Elseid Hysaj",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 92.2,
+            "y": 14.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elseid Hysaj",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 9,
+            "x": 96.1,
+            "y": 23.4,
+            "endX": 87.1,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 87.1,
+            "y": 28.5,
+            "endX": 78.0,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattéo Guendouzi",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 78.0,
+            "y": 37.0,
+            "endX": 78.6,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Marusic",
+            "tipo": "SavedShot",
+            "minuto": 71,
+            "segundo": 15,
+            "x": 79.9,
+            "y": 67.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Matías Vecino",
             "tipo": "Pass",
             "minuto": 71,
@@ -4722,7 +4827,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Denzel Dumfries",
+          "portero": true
+        }
       },
       {
         "minuto": 89,

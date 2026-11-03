@@ -715,6 +715,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Fábio Vieira",
+            "tipo": "BallRecovery",
+            "minuto": 100,
+            "segundo": 8,
+            "x": 45.0,
+            "y": 80.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Vieira",
+            "tipo": "Pass",
+            "minuto": 100,
+            "segundo": 8,
+            "x": 45.3,
+            "y": 79.8,
+            "endX": 63.7,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
+            "tipo": "Carry",
+            "minuto": 100,
+            "segundo": 13,
+            "x": 63.7,
+            "y": 59.7,
+            "endX": 92.0,
+            "endY": 61.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Jesus",
             "tipo": "TakeOn",
             "minuto": 100,
@@ -725,7 +758,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Diogo Dalot",
+          "portero": false
+        }
       }
     ],
     "corners": [

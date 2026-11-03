@@ -429,7 +429,57 @@
         "y": 51.9,
         "arco_y": 53.7,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 50,
+            "x": 83.2,
+            "y": 16.6,
+            "endX": 90.8,
+            "endY": 45.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jeppe Tverskov",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 52,
+            "x": 90.8,
+            "y": 45.8,
+            "endX": 93.1,
+            "endY": 51.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeppe Tverskov",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 52,
+            "x": 93.1,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Ingvartsen",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 53,
+            "x": 96.8,
+            "y": 51.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Morgan Guilavogui",
+          "portero": true
+        }
       },
       {
         "minuto": 41,
@@ -4963,7 +5013,24 @@
         "y": 50.0,
         "arco_y": 46.1,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sergi Solans",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 18,
+            "x": 88.3,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Manu Duah",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -5128,6 +5195,17 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Justen Glad",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 30,
+            "x": 96.2,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Morgan Guilavogui",
             "tipo": "Pass",
             "minuto": 84,
@@ -5160,7 +5238,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Manu Duah",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

@@ -385,7 +385,79 @@
         "y": 56.5,
         "arco_y": 51.7,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 36,
+            "x": 71.6,
+            "y": 86.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 37,
+            "x": 75.9,
+            "y": 80.0,
+            "endX": 72.4,
+            "endY": 46.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Miguel Berry",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 44,
+            "x": 72.4,
+            "y": 46.0,
+            "endX": 73.3,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Berry",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 44,
+            "x": 73.3,
+            "y": 40.1,
+            "endX": 94.4,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Machop Chol",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 94.4,
+            "y": 32.5,
+            "endX": 92.3,
+            "endY": 34.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Machop Chol",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 46,
+            "x": 92.3,
+            "y": 34.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Antônio Carlos",
+          "portero": true
+        }
       },
       {
         "minuto": 39,
@@ -4770,6 +4842,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Rafael Santos",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 28,
+            "x": 39.9,
+            "y": 93.0,
+            "endX": 39.0,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "César Araújo",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 39.0,
+            "y": 85.3,
+            "endX": 39.4,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "César Araújo",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 39.4,
+            "y": 75.4,
+            "endX": 44.1,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mauricio Pereyra",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 33,
+            "x": 44.1,
+            "y": 64.8,
+            "endX": 58.7,
+            "endY": 68.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Mauricio Pereyra",
             "tipo": "TakeOn",
             "minuto": 59,
@@ -4791,7 +4907,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matheus Rossetto",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

@@ -520,6 +520,83 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Brad Stuver",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 6,
+            "x": 36.6,
+            "y": 62.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brad Stuver",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 33.9,
+            "y": 63.6,
+            "endX": 42.5,
+            "endY": 29.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jhojan Valencia",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 42.5,
+            "y": 29.0,
+            "endX": 57.7,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jhojan Valencia",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 57.7,
+            "y": 32.2,
+            "endX": 69.4,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 69.0,
+            "y": 91.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 74.5,
+            "y": 92.4,
+            "endX": 92.7,
+            "endY": 51.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nick Lima",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 92.7,
+            "y": 51.5,
+            "endX": 96.2,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Nick Lima",
             "tipo": "ShotOnPost",
             "minuto": 90,
@@ -530,7 +607,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Raoul Petretta",
+          "portero": false
+        }
       }
     ],
     "corners": [

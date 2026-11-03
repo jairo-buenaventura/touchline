@@ -476,6 +476,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "James Garner",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 53,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 98.1,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 58,
+            "x": 98.1,
+            "y": 49.3,
+            "endX": 92.9,
+            "endY": 48.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Jake O'Brien",
             "tipo": "Pass",
             "minuto": 79,
@@ -486,7 +508,12 @@
             "endY": 29.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Matz Sels",
+          "portero": true
+        }
       },
       {
         "minuto": 82,

@@ -4532,6 +4532,28 @@
         "secuencia_gol": [
           {
             "jugador": "Matthis Abline",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 13,
+            "x": 38.3,
+            "y": 24.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthis Abline",
+            "tipo": "TakeOn",
+            "minuto": 69,
+            "segundo": 24,
+            "x": 85.2,
+            "y": 17.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthis Abline",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 25,
@@ -4541,7 +4563,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergio Akieme",
+          "portero": false
+        }
       }
     ],
     "corners": [

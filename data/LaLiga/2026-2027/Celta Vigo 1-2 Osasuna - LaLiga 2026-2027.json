@@ -355,6 +355,61 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Williot Swedberg",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 5,
+            "x": 52.8,
+            "y": 84.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Williot Swedberg",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 5,
+            "x": 52.6,
+            "y": 84.3,
+            "endX": 53.3,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Román",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 8,
+            "x": 53.3,
+            "y": 63.7,
+            "endX": 54.1,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Román",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 8,
+            "x": 54.1,
+            "y": 58.3,
+            "endX": 63.8,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 12,
+            "x": 63.8,
+            "y": 36.9,
+            "endX": 77.4,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Iago Aspas",
             "tipo": "TakeOn",
             "minuto": 13,
@@ -365,7 +420,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucas Torró",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4767,6 +4827,17 @@
         "secuencia_gol": [
           {
             "jugador": "Raúl García",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 48,
+            "x": 91.4,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raúl García",
             "tipo": "MissedShots",
             "minuto": 53,
             "segundo": 49,
@@ -4776,7 +4847,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Carl Starfelt",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

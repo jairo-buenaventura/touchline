@@ -530,6 +530,17 @@
         "secuencia_gol": [
           {
             "jugador": "Domagoj Bradaric",
+            "tipo": "TakeOn",
+            "minuto": 64,
+            "segundo": 25,
+            "x": 72.0,
+            "y": 86.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
             "tipo": "Pass",
             "minuto": 64,
             "segundo": 27,
@@ -605,7 +616,12 @@
             "endY": 47.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Grégoire Defrel",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

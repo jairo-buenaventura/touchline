@@ -642,7 +642,35 @@
         "y": 56.9,
         "arco_y": 46.3,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mats Egbring",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 4,
+            "x": 88.4,
+            "y": 42.9,
+            "endX": 90.2,
+            "endY": 56.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eser Gürbüz",
+            "tipo": "TakeOn",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 90.6,
+            "y": 58.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Olivier Aertssen",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4343,6 +4371,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kaj de Rooij",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 52,
+            "x": 71.0,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaj de Rooij",
             "tipo": "Pass",
             "minuto": 12,
             "segundo": 53,
@@ -4374,7 +4413,12 @@
             "endY": 52.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Oliver Braude",
+          "portero": false
+        }
       },
       {
         "minuto": 15,

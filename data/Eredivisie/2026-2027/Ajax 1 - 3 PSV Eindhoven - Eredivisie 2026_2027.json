@@ -4904,6 +4904,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ruben van Bommel",
+            "tipo": "Aerial",
+            "minuto": 4,
+            "segundo": 36,
+            "x": 89.3,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben van Bommel",
             "tipo": "Pass",
             "minuto": 4,
             "segundo": 37,
@@ -4913,7 +4924,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Anton Gaaei",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -4977,7 +4993,35 @@
         "y": 63.8,
         "arco_y": 46.6,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 51,
+            "x": 84.9,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 52,
+            "x": 84.9,
+            "y": 51.4,
+            "endX": 86.3,
+            "endY": 51.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tolu Arokodare",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

@@ -435,6 +435,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Leon Bailey",
+            "tipo": "BallRecovery",
+            "minuto": 44,
+            "segundo": 56,
+            "x": 31.5,
+            "y": 25.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Bailey",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 0,
+            "x": 47.1,
+            "y": 43.3,
+            "endX": 77.6,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Rogers",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 6,
+            "x": 77.6,
+            "y": 75.4,
+            "endX": 91.8,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Morgan Rogers",
             "tipo": "TakeOn",
             "minuto": 45,
@@ -445,7 +478,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Adam Smith",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

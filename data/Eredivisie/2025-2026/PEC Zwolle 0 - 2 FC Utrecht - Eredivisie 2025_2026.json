@@ -4248,6 +4248,61 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "David Min",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 21,
+            "x": 43.3,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Min",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 27,
+            "x": 63.8,
+            "y": 31.6,
+            "endX": 73.3,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Rodríguez",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 29,
+            "x": 73.3,
+            "y": 22.5,
+            "endX": 79.5,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Rodríguez",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 29,
+            "x": 79.5,
+            "y": 27.3,
+            "endX": 86.3,
+            "endY": 52.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Siebe Horemans",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 45,
+            "x": 86.3,
+            "y": 52.6,
+            "endX": 56.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Siebe Horemans",
             "tipo": "Pass",
             "minuto": 40,
@@ -4335,7 +4390,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Olivier Aertssen",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

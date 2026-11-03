@@ -468,6 +468,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Vitinha",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 56,
+            "x": 62.2,
+            "y": 72.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 57,
+            "x": 62.2,
+            "y": 72.3,
+            "endX": 72.1,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 0,
+            "x": 72.1,
+            "y": 76.2,
+            "endX": 71.5,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 0,
+            "x": 71.5,
+            "y": 72.5,
+            "endX": 89.7,
+            "endY": 41.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Khvicha Kvaratskhelia",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -478,7 +522,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christian Mawissa",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -5214,6 +5263,39 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Vanderson",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 20,
+            "x": 68.5,
+            "y": 16.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vanderson",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 21,
+            "x": 73.4,
+            "y": 23.1,
+            "endX": 83.9,
+            "endY": 39.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 29,
+            "x": 83.9,
+            "y": 39.8,
+            "endX": 93.2,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Maghnes Akliouche",
             "tipo": "Pass",
             "minuto": 16,
@@ -5312,7 +5394,12 @@
             "endY": 33.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Willian Pacho",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

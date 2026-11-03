@@ -3988,6 +3988,28 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Noni Madueke",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 18,
+            "x": 94.3,
+            "y": 23.7,
+            "endX": 92.7,
+            "endY": 24.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "N'Golo Kanté",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 22,
+            "x": 92.7,
+            "y": 24.0,
+            "endX": 85.7,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
             "jugador": "N'Golo Kanté",
             "tipo": "Pass",
             "minuto": 8,
@@ -4031,7 +4053,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Matías Viña",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

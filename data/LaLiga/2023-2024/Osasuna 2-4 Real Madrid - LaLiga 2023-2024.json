@@ -377,7 +377,57 @@
         "y": 45.0,
         "arco_y": 47.6,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "CornerAwarded",
+            "minuto": 5,
+            "segundo": 39,
+            "x": 96.8,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Moncayola",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 58,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.4,
+            "endY": 33.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jorge Herrando",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 0,
+            "x": 97.4,
+            "y": 33.9,
+            "endX": 96.0,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorge Herrando",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 0,
+            "x": 96.0,
+            "y": 60.9,
+            "endX": 96.7,
+            "endY": 56.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Toni Kroos",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -453,6 +503,94 @@
         "secuencia_gol": [
           {
             "jugador": "Jesús Areso",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 61.0,
+            "y": 2.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 89.3,
+            "y": 12.1,
+            "endX": 89.2,
+            "endY": 17.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 89.2,
+            "y": 17.4,
+            "endX": 93.1,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 93.1,
+            "y": 11.7,
+            "endX": 85.4,
+            "endY": 17.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Torró",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 23,
+            "x": 85.5,
+            "y": 17.0,
+            "endX": 75.8,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iker Muñoz",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 27,
+            "x": 75.8,
+            "y": 30.3,
+            "endX": 84.8,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iker Muñoz",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 27,
+            "x": 84.8,
+            "y": 25.2,
+            "endX": 91.0,
+            "endY": 50.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jesús Areso",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 32,
+            "x": 91.0,
+            "y": 50.9,
+            "endX": 97.6,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Areso",
             "tipo": "Pass",
             "minuto": 90,
             "segundo": 32,
@@ -462,7 +600,12 @@
             "endY": 35.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Antonio Rüdiger",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3970,6 +4113,61 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Ferland Mendy",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 16,
+            "x": 26.3,
+            "y": 100.0,
+            "endX": 40.8,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "BallTouch",
+            "minuto": 16,
+            "segundo": 18,
+            "x": 43.7,
+            "y": 94.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrygo",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 24,
+            "x": 65.0,
+            "y": 87.2,
+            "endX": 63.5,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 26,
+            "x": 63.5,
+            "y": 73.0,
+            "endX": 67.8,
+            "endY": 72.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 28,
+            "x": 67.8,
+            "y": 72.7,
+            "endX": 68.1,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Brahim Díaz",
             "tipo": "Pass",
             "minuto": 16,
@@ -4255,7 +4453,12 @@
             "endY": 41.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Lucas Torró",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4304,6 +4507,17 @@
         "secuencia_gol": [
           {
             "jugador": "Federico Valverde",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 29,
+            "x": 45.1,
+            "y": 35.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
             "tipo": "Pass",
             "minuto": 60,
             "segundo": 29,
@@ -4313,7 +4527,12 @@
             "endY": 47.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Alejandro Catena",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

@@ -452,6 +452,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "TakeOn",
+            "minuto": 29,
+            "segundo": 52,
+            "x": 79.9,
+            "y": 32.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 55,
+            "x": 84.7,
+            "y": 33.6,
+            "endX": 93.6,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 57,
+            "x": 93.6,
+            "y": 26.2,
+            "endX": 90.1,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "TakeOn",
             "minuto": 29,
@@ -473,7 +506,12 @@
             "endY": 39.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Julian Brandt",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -566,6 +604,50 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 50,
+            "x": 39.3,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 52,
+            "x": 39.3,
+            "y": 8.0,
+            "endX": 47.2,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 55,
+            "x": 47.1,
+            "y": 32.1,
+            "endX": 79.5,
+            "endY": 89.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 2,
+            "x": 79.5,
+            "y": 89.9,
+            "endX": 78.6,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "Pass",
             "minuto": 91,
@@ -576,7 +658,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yan Couto",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5259,7 +5346,46 @@
         "y": 37.6,
         "arco_y": 54.2,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 40,
+            "x": 82.1,
+            "y": 91.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 43,
+            "x": 76.5,
+            "y": 85.1,
+            "endX": 81.5,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 45,
+            "x": 82.1,
+            "y": 53.4,
+            "endX": 82.9,
+            "endY": 51.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alejandro Grimaldo",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

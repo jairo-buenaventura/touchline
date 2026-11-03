@@ -483,7 +483,24 @@
         "y": 58.5,
         "arco_y": 47.2,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Paulinho",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 95.7,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Emerson Royal",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -495,6 +512,105 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Manuel Ugarte",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 21.1,
+            "y": 34.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Ugarte",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 21.1,
+            "y": 34.4,
+            "endX": 19.6,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Porro",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 13,
+            "x": 19.6,
+            "y": 28.7,
+            "endX": 31.7,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Gomes",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 14,
+            "x": 31.7,
+            "y": 52.7,
+            "endX": 35.9,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulinho",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 15,
+            "x": 35.9,
+            "y": 43.4,
+            "endX": 38.7,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Esgaio",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 22,
+            "x": 38.7,
+            "y": 90.9,
+            "endX": 42.5,
+            "endY": 86.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Esgaio",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 22,
+            "x": 42.5,
+            "y": 86.0,
+            "endX": 62.2,
+            "endY": 81.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulinho",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 24,
+            "x": 62.1,
+            "y": 81.8,
+            "endX": 71.0,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Gomes",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 31,
+            "x": 71.0,
+            "y": 96.8,
+            "endX": 91.6,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Arthur Gomes",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -505,7 +621,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Emerson Royal",
+          "portero": false
+        }
       }
     ],
     "corners": [

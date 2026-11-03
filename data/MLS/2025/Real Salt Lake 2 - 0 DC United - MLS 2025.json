@@ -407,6 +407,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Pablo Ruiz",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 39,
+            "x": 29.4,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Ruiz",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 39,
+            "x": 29.4,
+            "y": 49.0,
+            "endX": 33.7,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Gonçalves",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 33.7,
+            "y": 62.4,
+            "endX": 39.0,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Diogo Gonçalves",
             "tipo": "TakeOn",
             "minuto": 22,
@@ -428,7 +461,12 @@
             "endY": 32.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Randall Leal",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

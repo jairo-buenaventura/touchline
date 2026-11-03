@@ -383,6 +383,39 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "CornerAwarded",
+            "minuto": 16,
+            "segundo": 46,
+            "x": 97.8,
+            "y": 71.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Garner",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 27,
+            "x": 99.7,
+            "y": 99.4,
+            "endX": 98.3,
+            "endY": 49.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Idrissa Gueye",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 31,
+            "x": 98.3,
+            "y": 49.4,
+            "endX": 73.8,
+            "endY": 27.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Idrissa Gueye",
             "tipo": "Pass",
             "minuto": 17,
@@ -426,7 +459,12 @@
             "endY": 52.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Alphonse Areola",
+          "portero": true
+        }
       },
       {
         "minuto": 34,
@@ -4591,7 +4629,57 @@
         "y": 31.3,
         "arco_y": 51.9,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 0,
+            "x": 35.6,
+            "y": 84.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 0,
+            "x": 36.0,
+            "y": 83.8,
+            "endX": 48.6,
+            "endY": 90.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "El Hadji Malick Diouf",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 7,
+            "x": 48.6,
+            "y": 90.2,
+            "endX": 86.0,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "El Hadji Malick Diouf",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 7,
+            "x": 86.0,
+            "y": 90.8,
+            "endX": 89.9,
+            "endY": 51.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Michael Keane",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

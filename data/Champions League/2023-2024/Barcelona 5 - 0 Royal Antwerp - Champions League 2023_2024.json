@@ -386,6 +386,17 @@
         "secuencia_gol": [
           {
             "jugador": "João Félix",
+            "tipo": "Tackle",
+            "minuto": 9,
+            "segundo": 55,
+            "x": 75.0,
+            "y": 92.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "João Félix",
             "tipo": "Pass",
             "minuto": 10,
             "segundo": 2,
@@ -615,7 +626,12 @@
             "endY": 72.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Arbnor Muja",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -791,6 +807,292 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Frenkie de Jong",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 18,
+            "x": 63.1,
+            "y": 37.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 22,
+            "x": 64.4,
+            "y": 39.7,
+            "endX": 66.4,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Balde",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 66.2,
+            "y": 69.0,
+            "endX": 76.0,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 29,
+            "x": 76.0,
+            "y": 88.6,
+            "endX": 72.9,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 29,
+            "x": 72.9,
+            "y": 79.9,
+            "endX": 73.7,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 31,
+            "x": 73.1,
+            "y": 67.8,
+            "endX": 68.9,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 34,
+            "x": 68.9,
+            "y": 73.0,
+            "endX": 70.8,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 34,
+            "x": 70.8,
+            "y": 63.4,
+            "endX": 76.2,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 34,
+            "x": 76.2,
+            "y": 55.7,
+            "endX": 82.3,
+            "endY": 53.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 41,
+            "x": 82.3,
+            "y": 53.0,
+            "endX": 64.6,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 41,
+            "x": 64.6,
+            "y": 100.0,
+            "endX": 54.6,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Christensen",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 41,
+            "x": 54.9,
+            "y": 86.8,
+            "endX": 58.2,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 43,
+            "x": 58.2,
+            "y": 94.2,
+            "endX": 59.1,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 43,
+            "x": 59.1,
+            "y": 82.7,
+            "endX": 58.0,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 48,
+            "x": 58.0,
+            "y": 49.6,
+            "endX": 63.8,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 48,
+            "x": 63.8,
+            "y": 46.9,
+            "endX": 68.1,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 49,
+            "x": 68.1,
+            "y": 37.9,
+            "endX": 63.5,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 49,
+            "x": 63.5,
+            "y": 44.9,
+            "endX": 58.9,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 52,
+            "x": 59.0,
+            "y": 26.1,
+            "endX": 71.6,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 54,
+            "x": 71.6,
+            "y": 5.6,
+            "endX": 72.7,
+            "endY": 0.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 54,
+            "x": 72.7,
+            "y": 0.5,
+            "endX": 76.4,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 58,
+            "x": 76.4,
+            "y": 17.0,
+            "endX": 87.6,
+            "endY": 20.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 58,
+            "x": 87.6,
+            "y": 20.0,
+            "endX": 88.9,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 59,
+            "x": 88.9,
+            "y": 30.6,
+            "endX": 94.9,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 95.4,
+            "y": 31.5,
+            "endX": 93.3,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "SavedShot",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 93.3,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ilkay Gündogan",
             "tipo": "SavedShot",
             "minuto": 53,
@@ -812,7 +1114,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Toby Alderweireld",
+          "portero": true
+        }
       },
       {
         "minuto": 56,
@@ -861,6 +1168,39 @@
         "secuencia_gol": [
           {
             "jugador": "João Cancelo",
+            "tipo": "CornerAwarded",
+            "minuto": 65,
+            "segundo": 1,
+            "x": 96.6,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 96.8,
+            "endY": 49.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "João Cancelo",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 96.8,
+            "y": 49.4,
+            "endX": 66.6,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Cancelo",
             "tipo": "Pass",
             "minuto": 65,
             "segundo": 40,
@@ -903,7 +1243,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Toby Alderweireld",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

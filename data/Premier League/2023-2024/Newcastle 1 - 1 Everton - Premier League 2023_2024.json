@@ -412,6 +412,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Harvey Barnes",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 32,
+            "x": 59.6,
+            "y": 86.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 33,
+            "x": 59.6,
+            "y": 86.9,
+            "endX": 81.8,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Isak",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 38,
+            "x": 81.8,
+            "y": 72.7,
+            "endX": 89.5,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexander Isak",
             "tipo": "TakeOn",
             "minuto": 14,
@@ -422,7 +455,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jarrad Branthwaite",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

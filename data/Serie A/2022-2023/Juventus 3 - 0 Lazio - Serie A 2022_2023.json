@@ -400,7 +400,35 @@
         "y": 59.9,
         "arco_y": 47.4,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 14,
+            "x": 41.7,
+            "y": 71.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 16,
+            "x": 42.6,
+            "y": 71.9,
+            "endX": 71.7,
+            "endY": 63.7,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "KeeperSweeper",
+          "jugador": "Ivan Provedel",
+          "portero": true
+        }
       },
       {
         "minuto": 47,
@@ -437,7 +465,57 @@
         "y": 49.9,
         "arco_y": 49.1,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 17,
+            "x": 53.4,
+            "y": 32.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 17,
+            "x": 53.8,
+            "y": 31.2,
+            "endX": 72.1,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 22,
+            "x": 72.1,
+            "y": 69.0,
+            "endX": 81.3,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "SavedShot",
+            "minuto": 53,
+            "segundo": 22,
+            "x": 81.3,
+            "y": 72.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ivan Provedel",
+          "portero": true
+        }
       },
       {
         "minuto": 60,

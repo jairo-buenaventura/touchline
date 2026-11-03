@@ -5514,6 +5514,28 @@
         "secuencia_gol": [
           {
             "jugador": "Viti Rozada",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 23.8,
+            "y": 45.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Viti Rozada",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 23.8,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Viti Rozada",
             "tipo": "Pass",
             "minuto": 65,
             "segundo": 57,
@@ -5589,7 +5611,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gerard Martín",
+          "portero": false
+        }
       }
     ],
     "corners": [],

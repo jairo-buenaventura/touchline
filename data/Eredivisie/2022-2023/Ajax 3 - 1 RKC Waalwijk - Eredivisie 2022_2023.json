@@ -469,7 +469,68 @@
         "y": 52.4,
         "arco_y": 51.9,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Devyne Rensch",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 54,
+            "x": 72.0,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Devyne Rensch",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 55,
+            "x": 72.3,
+            "y": 27.7,
+            "endX": 80.8,
+            "endY": 17.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Berghuis",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 57,
+            "x": 82.2,
+            "y": 17.1,
+            "endX": 88.1,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dusan Tadic",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 59,
+            "x": 87.0,
+            "y": 32.1,
+            "endX": 91.3,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Berghuis",
+            "tipo": "SavedShot",
+            "minuto": 49,
+            "segundo": 0,
+            "x": 91.7,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Etienne Vaessen",
+          "portero": true
+        }
       },
       {
         "minuto": 60,
@@ -518,6 +579,17 @@
         "secuencia_gol": [
           {
             "jugador": "Edson Álvarez",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 6,
+            "x": 89.6,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edson Álvarez",
             "tipo": "Pass",
             "minuto": 77,
             "segundo": 6,
@@ -549,7 +621,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Shawn Adewoye",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

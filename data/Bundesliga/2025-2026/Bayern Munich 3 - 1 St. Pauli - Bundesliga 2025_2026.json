@@ -902,6 +902,28 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Josip Stanisic",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 59,
+            "x": 62.0,
+            "y": 68.0,
+            "endX": 80.9,
+            "endY": 12.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Serge Gnabry",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 80.9,
+            "y": 12.3,
+            "endX": 63.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Serge Gnabry",
             "tipo": "Pass",
             "minuto": 92,
@@ -1088,7 +1110,12 @@
             "endY": 49.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Louis Oppie",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

@@ -464,7 +464,57 @@
         "y": 47.2,
         "arco_y": 46.9,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Lletget",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 46,
+            "x": 66.4,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Lletget",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 46,
+            "x": 65.5,
+            "y": 60.3,
+            "endX": 68.8,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tsiki Ntsabeleng",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 49,
+            "x": 68.8,
+            "y": 49.5,
+            "endX": 72.9,
+            "endY": 44.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tsiki Ntsabeleng",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 49,
+            "x": 72.9,
+            "y": 44.4,
+            "endX": 78.4,
+            "endY": 46.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dario Zuparic",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -501,7 +551,24 @@
         "y": 40.5,
         "arco_y": 46.5,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nkosi Tafari",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 16,
+            "x": 92.6,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Claudio Bravo",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -5117,6 +5184,17 @@
         "secuencia_gol": [
           {
             "jugador": "Felipe Mora",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 34,
+            "x": 43.0,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Mora",
             "tipo": "Pass",
             "minuto": 62,
             "segundo": 34,
@@ -5170,7 +5248,12 @@
             "endY": 48.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Samuel Junqua",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

@@ -3958,6 +3958,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tetê",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 13,
+            "x": 68.1,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tetê",
             "tipo": "TakeOn",
             "minuto": 27,
             "segundo": 16,
@@ -3978,7 +3989,12 @@
             "endY": 62.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bonke Innocent",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

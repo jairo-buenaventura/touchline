@@ -4727,6 +4727,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Adalberto Carrasquilla",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 44,
+            "x": 57.9,
+            "y": 79.7,
+            "endX": 59.1,
+            "endY": 79.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 50,
+            "x": 59.1,
+            "y": 79.8,
+            "endX": 58.1,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Lundkvist",
             "tipo": "Pass",
             "minuto": 23,
@@ -4759,7 +4781,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ilie Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

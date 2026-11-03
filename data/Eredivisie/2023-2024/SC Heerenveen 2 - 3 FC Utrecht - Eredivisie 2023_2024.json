@@ -477,7 +477,35 @@
         "y": 57.5,
         "arco_y": 46.1,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ion Nicolaescu",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 3,
+            "x": 68.9,
+            "y": 62.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ion Nicolaescu",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 3,
+            "x": 70.4,
+            "y": 62.0,
+            "endX": 70.8,
+            "endY": 62.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mike van der Hoorn",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -490,6 +518,17 @@
         "secuencia_gol": [
           {
             "jugador": "Patrik Wålemark",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 36,
+            "x": 86.2,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrik Wålemark",
             "tipo": "TakeOn",
             "minuto": 93,
             "segundo": 37,
@@ -499,7 +538,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Vasilios Barkas",
+          "portero": false
+        }
       }
     ],
     "corners": [

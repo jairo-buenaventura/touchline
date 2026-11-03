@@ -515,6 +515,83 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Jordan Henderson",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 58,
+            "x": 15.1,
+            "y": 55.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Henderson",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 59,
+            "x": 15.1,
+            "y": 55.8,
+            "endX": 30.6,
+            "endY": 75.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Alcântara",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 2,
+            "x": 30.6,
+            "y": 75.5,
+            "endX": 37.7,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Alcântara",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 2,
+            "x": 37.7,
+            "y": 76.9,
+            "endX": 55.1,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 9,
+            "x": 55.1,
+            "y": 86.6,
+            "endX": 86.6,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 9,
+            "x": 86.6,
+            "y": 66.0,
+            "endX": 85.2,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 11,
+            "x": 85.2,
+            "y": 47.3,
+            "endX": 86.6,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Roberto Firmino",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -525,7 +602,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lewis Dunk",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4956,7 +5038,57 @@
         "y": 57.5,
         "arco_y": 45.8,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 44,
+            "x": 75.6,
+            "y": 52.8,
+            "endX": 80.9,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Welbeck",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 44,
+            "x": 80.3,
+            "y": 49.3,
+            "endX": 85.6,
+            "endY": 59.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 46,
+            "x": 85.6,
+            "y": 59.8,
+            "endX": 85.8,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "TakeOn",
+            "minuto": 3,
+            "segundo": 46,
+            "x": 85.8,
+            "y": 63.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -4985,6 +5117,94 @@
         "arco_y": 49.1,
         "arco_z": 15.8,
         "secuencia_gol": [
+          {
+            "jugador": "Robert Sánchez",
+            "tipo": "KeeperPickup",
+            "minuto": 16,
+            "segundo": 23,
+            "x": 4.3,
+            "y": 45.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Sánchez",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 30,
+            "x": 8.6,
+            "y": 49.3,
+            "endX": 6.7,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Dunk",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 34,
+            "x": 6.7,
+            "y": 71.4,
+            "endX": 10.7,
+            "endY": 58.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Dunk",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 34,
+            "x": 10.7,
+            "y": 58.5,
+            "endX": 21.4,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 35,
+            "x": 21.4,
+            "y": 43.1,
+            "endX": 11.9,
+            "endY": 15.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joël Veltman",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 39,
+            "x": 12.2,
+            "y": 15.0,
+            "endX": 23.5,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 42,
+            "x": 25.0,
+            "y": 28.0,
+            "endX": 35.6,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 46,
+            "x": 36.8,
+            "y": 3.8,
+            "endX": 66.2,
+            "endY": 67.3,
+            "exitoso": false
+          },
           {
             "jugador": "Danny Welbeck",
             "tipo": "Pass",
@@ -5029,7 +5249,12 @@
             "endY": 66.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

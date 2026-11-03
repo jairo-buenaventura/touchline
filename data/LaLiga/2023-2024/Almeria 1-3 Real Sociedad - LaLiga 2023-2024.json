@@ -428,7 +428,68 @@
         "y": 55.9,
         "arco_y": 51.7,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gonzalo Melero",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 43,
+            "x": 70.1,
+            "y": 69.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Melero",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 44,
+            "x": 77.1,
+            "y": 69.9,
+            "endX": 78.1,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dion Lopy",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 45,
+            "x": 77.1,
+            "y": 63.3,
+            "endX": 80.5,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lázaro",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 46,
+            "x": 80.5,
+            "y": 69.9,
+            "endX": 86.5,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lázaro",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 46,
+            "x": 86.5,
+            "y": 61.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Álex Remiro",
+          "portero": true
+        }
       },
       {
         "minuto": 99,
@@ -3923,7 +3984,46 @@
         "y": 56.3,
         "arco_y": 52.1,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hamari Traoré",
+            "tipo": "CornerAwarded",
+            "minuto": 61,
+            "segundo": 22,
+            "x": 95.1,
+            "y": 16.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arsen Zakharyan",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 48,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.0,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aritz Elustondo",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 49,
+            "x": 94.9,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Luís Maximiano",
+          "portero": true
+        }
       },
       {
         "minuto": 78,
@@ -3982,6 +4082,17 @@
         "secuencia_gol": [
           {
             "jugador": "Aritz Elustondo",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 16,
+            "x": 92.5,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aritz Elustondo",
             "tipo": "MissedShots",
             "minuto": 94,
             "segundo": 16,
@@ -3991,7 +4102,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sergio Akieme",
+          "portero": false
+        }
       }
     ],
     "corners": [

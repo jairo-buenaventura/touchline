@@ -526,6 +526,17 @@
         "secuencia_gol": [
           {
             "jugador": "Son Heung-Min",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 17,
+            "x": 15.6,
+            "y": 71.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
             "tipo": "TakeOn",
             "minuto": 85,
             "segundo": 20,
@@ -579,7 +590,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jordan Clark",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -5201,6 +5217,28 @@
         "secuencia_gol": [
           {
             "jugador": "Andros Townsend",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 3,
+            "x": 34.3,
+            "y": 26.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andros Townsend",
+            "tipo": "TakeOn",
+            "minuto": 2,
+            "segundo": 11,
+            "x": 78.2,
+            "y": 11.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andros Townsend",
             "tipo": "Pass",
             "minuto": 2,
             "segundo": 13,
@@ -5232,7 +5270,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yves Bissouma",
+          "portero": false
+        }
       },
       {
         "minuto": 16,

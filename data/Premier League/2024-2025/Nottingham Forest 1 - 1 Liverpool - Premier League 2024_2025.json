@@ -358,6 +358,17 @@
             "jugador": "Callum Hudson-Odoi",
             "tipo": "Pass",
             "minuto": 7,
+            "segundo": 42,
+            "x": 57.5,
+            "y": 68.7,
+            "endX": 55.5,
+            "endY": 66.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Callum Hudson-Odoi",
+            "tipo": "Pass",
+            "minuto": 7,
             "segundo": 44,
             "x": 55.3,
             "y": 65.8,
@@ -376,7 +387,12 @@
             "endY": 66.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mohamed Salah",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -3638,7 +3654,24 @@
         "y": 50.8,
         "arco_y": 53.7,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diogo Jota",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 22,
+            "x": 97.1,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Chris Wood",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

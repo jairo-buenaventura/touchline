@@ -345,6 +345,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 57,
+            "x": 43.6,
+            "y": 0.0,
+            "endX": 30.1,
+            "endY": 12.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 1,
+            "x": 30.1,
+            "y": 12.3,
+            "endX": 31.9,
+            "endY": 17.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 1,
+            "x": 31.9,
+            "y": 17.2,
+            "endX": 33.0,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 7,
+            "x": 33.0,
+            "y": 66.0,
+            "endX": 43.7,
+            "endY": 70.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 7,
+            "x": 43.7,
+            "y": 70.1,
+            "endX": 83.5,
+            "endY": 48.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrea Belotti",
             "tipo": "TakeOn",
             "minuto": 16,
@@ -355,7 +410,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Norbert Gyömbér",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -4957,6 +5017,39 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Grigoris Kastanos",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 50,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 97.2,
+            "endY": 1.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 97.2,
+            "y": 1.9,
+            "endX": 97.9,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 97.9,
+            "y": 9.1,
+            "endX": 95.9,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Matteo Lovato",
             "tipo": "BallTouch",
             "minuto": 47,
@@ -5055,7 +5148,12 @@
             "endY": 22.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rasmus Kristensen",
+          "portero": false
+        }
       }
     ],
     "corners": [

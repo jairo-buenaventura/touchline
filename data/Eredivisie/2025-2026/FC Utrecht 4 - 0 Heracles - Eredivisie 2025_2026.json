@@ -596,6 +596,17 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "David Min",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 30,
+            "x": 66.8,
+            "y": 39.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Yoann Cathline",
             "tipo": "Pass",
             "minuto": 69,
@@ -606,7 +617,12 @@
             "endY": 41.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sem Scheperman",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -634,7 +650,24 @@
         "y": 45.0,
         "arco_y": 53.8,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dani de Wit",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 35,
+            "x": 88.2,
+            "y": 43.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ivan Mesík",
+          "portero": false
+        }
       }
     ],
     "corners": [

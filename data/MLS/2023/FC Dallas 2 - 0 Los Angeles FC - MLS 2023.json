@@ -384,6 +384,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nkosi Tafari",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 45,
+            "x": 93.3,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nkosi Tafari",
             "tipo": "BallTouch",
             "minuto": 55,
             "segundo": 45,
@@ -393,7 +404,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ilie Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -431,6 +447,17 @@
         "arco_y": 53.1,
         "arco_z": 19.6,
         "secuencia_gol": [
+          {
+            "jugador": "José Mulato",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 2,
+            "x": 63.0,
+            "y": 30.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "José Mulato",
             "tipo": "Pass",
@@ -541,7 +568,12 @@
             "endY": 40.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kellyn Acosta",
+          "portero": false
+        }
       }
     ],
     "corners": [

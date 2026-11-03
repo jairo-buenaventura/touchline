@@ -388,6 +388,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Justin Kluivert",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 12,
+            "x": 66.2,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Justin Kluivert",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 13,
+            "x": 66.2,
+            "y": 63.6,
+            "endX": 63.3,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Christie",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 14,
+            "x": 63.3,
+            "y": 77.2,
+            "endX": 75.0,
+            "endY": 93.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Kerkez",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 18,
+            "x": 75.0,
+            "y": 93.7,
+            "endX": 94.4,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Kerkez",
+            "tipo": "TakeOn",
+            "minuto": 8,
+            "segundo": 18,
+            "x": 94.4,
+            "y": 82.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Milos Kerkez",
             "tipo": "Pass",
             "minuto": 8,
@@ -398,7 +453,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Phil Foden",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -4215,7 +4275,24 @@
         "y": 53.6,
         "arco_y": 53.5,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josko Gvardiol",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 22,
+            "x": 92.0,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Milos Kerkez",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

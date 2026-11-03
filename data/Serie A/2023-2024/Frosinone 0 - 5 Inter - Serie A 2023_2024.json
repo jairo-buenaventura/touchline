@@ -4256,7 +4256,46 @@
         "y": 49.0,
         "arco_y": 46.1,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 5,
+            "x": 76.3,
+            "y": 77.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 6,
+            "x": 76.3,
+            "y": 77.9,
+            "endX": 93.9,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 7,
+            "x": 93.9,
+            "y": 69.0,
+            "endX": 92.9,
+            "endY": 66.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kevin Bonifazi",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -4304,6 +4343,149 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 13,
+            "x": 28.9,
+            "y": 100.0,
+            "endX": 41.3,
+            "endY": 90.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 15,
+            "x": 41.3,
+            "y": 90.0,
+            "endX": 38.4,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 16,
+            "x": 38.4,
+            "y": 83.6,
+            "endX": 48.1,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 22,
+            "x": 48.1,
+            "y": 84.1,
+            "endX": 62.0,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 22,
+            "x": 62.0,
+            "y": 52.2,
+            "endX": 71.0,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 26,
+            "x": 71.0,
+            "y": 15.0,
+            "endX": 75.4,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 26,
+            "x": 75.4,
+            "y": 18.3,
+            "endX": 88.6,
+            "endY": 45.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 29,
+            "x": 88.6,
+            "y": 45.5,
+            "endX": 77.6,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 29,
+            "x": 77.6,
+            "y": 34.6,
+            "endX": 74.8,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 31,
+            "x": 74.7,
+            "y": 34.8,
+            "endX": 77.6,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 34,
+            "x": 77.5,
+            "y": 16.4,
+            "endX": 76.5,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 36,
+            "x": 76.5,
+            "y": 28.5,
+            "endX": 77.1,
+            "endY": 28.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Davide Frattesi",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 39,
+            "x": 77.1,
+            "y": 28.6,
+            "endX": 92.1,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Davide Frattesi",
             "tipo": "Pass",
             "minuto": 59,
@@ -4314,7 +4496,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kevin Bonifazi",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

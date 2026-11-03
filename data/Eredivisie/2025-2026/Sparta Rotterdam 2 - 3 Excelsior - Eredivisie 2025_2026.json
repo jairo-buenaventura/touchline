@@ -527,6 +527,39 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan de Guzmán",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 72.6,
+            "y": 64.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan de Guzmán",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 25,
+            "x": 72.6,
+            "y": 64.9,
+            "endX": 74.8,
+            "endY": 62.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Julian Baas",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 33,
+            "x": 74.8,
+            "y": 62.1,
+            "endX": 89.5,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Julian Baas",
             "tipo": "Pass",
             "minuto": 90,
@@ -636,7 +669,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Szymon Wlodarczyk",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -4652,7 +4690,24 @@
         "y": 53.0,
         "arco_y": 46.4,
         "arco_z": 26.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Arthur Zagré",
+            "tipo": "SavedShot",
+            "minuto": 49,
+            "segundo": 54,
+            "x": 90.3,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Giannino Vianello",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -4689,7 +4744,24 @@
         "y": 57.7,
         "arco_y": 51.9,
         "arco_z": 24.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Noah Naujoks",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 41,
+            "x": 96.1,
+            "y": 57.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tobias Lauritsen",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

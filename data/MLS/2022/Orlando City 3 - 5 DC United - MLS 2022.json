@@ -479,6 +479,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Rodrigo Schlegel",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 23,
+            "x": 53.4,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Schlegel",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 28,
+            "x": 77.2,
+            "y": 26.6,
+            "endX": 84.6,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruan",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 29,
+            "x": 84.6,
+            "y": 17.0,
+            "endX": 85.2,
+            "endY": 19.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ruan",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 32,
+            "x": 85.2,
+            "y": 19.6,
+            "endX": 89.5,
+            "endY": 13.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Ruan",
             "tipo": "Pass",
             "minuto": 56,
@@ -511,7 +555,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Sami Guediri",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -521,7 +570,24 @@
         "y": 54.0,
         "arco_y": 46.8,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ercan Kara",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 12,
+            "x": 92.2,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Brendan Hines-Ike",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -5100,6 +5166,50 @@
         "secuencia_gol": [
           {
             "jugador": "Drew Skundrich",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 30,
+            "x": 60.9,
+            "y": 29.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Drew Skundrich",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 30,
+            "x": 60.9,
+            "y": 29.8,
+            "endX": 57.9,
+            "endY": 13.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ola Kamara",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 34,
+            "x": 57.9,
+            "y": 13.0,
+            "endX": 73.9,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Drew Skundrich",
+            "tipo": "TakeOn",
+            "minuto": 4,
+            "segundo": 35,
+            "x": 76.2,
+            "y": 7.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Drew Skundrich",
             "tipo": "Pass",
             "minuto": 4,
             "segundo": 37,
@@ -5131,7 +5241,12 @@
             "endY": 41.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kyle Smith",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -5143,6 +5258,83 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Ola Kamara",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 19,
+            "x": 37.8,
+            "y": 5.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ola Kamara",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 23,
+            "x": 54.0,
+            "y": 9.9,
+            "endX": 44.5,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Gressel",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 27,
+            "x": 44.5,
+            "y": 4.3,
+            "endX": 41.2,
+            "endY": 9.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Gressel",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 27,
+            "x": 41.2,
+            "y": 9.7,
+            "endX": 28.0,
+            "endY": 7.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donovan Pines",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 32,
+            "x": 28.4,
+            "y": 7.2,
+            "endX": 82.8,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Estrada",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 38,
+            "x": 82.8,
+            "y": 14.8,
+            "endX": 92.1,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Estrada",
+            "tipo": "TakeOn",
+            "minuto": 7,
+            "segundo": 38,
+            "x": 92.1,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Michael Estrada",
             "tipo": "Pass",
             "minuto": 7,
@@ -5153,7 +5345,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kyle Smith",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

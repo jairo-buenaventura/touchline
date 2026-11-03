@@ -437,7 +437,35 @@
         "y": 40.3,
         "arco_y": 46.1,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 46,
+            "x": 89.4,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "SavedShot",
+            "minuto": 9,
+            "segundo": 46,
+            "x": 90.9,
+            "y": 54.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Péter Gulácsi",
+          "portero": true
+        }
       },
       {
         "minuto": 29,
@@ -545,6 +573,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Jonas Hofmann",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.0,
+            "endY": 47.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lars Stindl",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 14,
+            "x": 90.0,
+            "y": 47.9,
+            "endX": 79.3,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Lars Stindl",
             "tipo": "Pass",
             "minuto": 52,
@@ -555,7 +605,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Willi Orbán",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

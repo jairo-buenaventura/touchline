@@ -514,6 +514,39 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Oscar Verhoeven",
+            "tipo": "CornerAwarded",
+            "minuto": 78,
+            "segundo": 20,
+            "x": 99.2,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 96.5,
+            "endY": 40.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luca Bombino",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 50,
+            "x": 96.5,
+            "y": 40.1,
+            "endX": 77.5,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Luca Bombino",
             "tipo": "BallTouch",
             "minuto": 78,
@@ -524,7 +557,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Brian White",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

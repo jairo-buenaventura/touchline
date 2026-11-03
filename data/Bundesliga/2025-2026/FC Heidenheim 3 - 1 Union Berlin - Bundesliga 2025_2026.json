@@ -383,6 +383,28 @@
             "jugador": "Marnon Busch",
             "tipo": "Pass",
             "minuto": 7,
+            "segundo": 41,
+            "x": 40.1,
+            "y": 9.0,
+            "endX": 37.8,
+            "endY": 8.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marnon Busch",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 51,
+            "x": 37.8,
+            "y": 8.2,
+            "endX": 41.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marnon Busch",
+            "tipo": "Pass",
+            "minuto": 7,
             "segundo": 51,
             "x": 41.4,
             "y": 0.0,
@@ -478,7 +500,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Andrej Ilic",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -500,6 +527,17 @@
         "secuencia_gol": [
           {
             "jugador": "Patrick Mainka",
+            "tipo": "Aerial",
+            "minuto": 35,
+            "segundo": 8,
+            "x": 96.7,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Mainka",
             "tipo": "Pass",
             "minuto": 35,
             "segundo": 9,
@@ -509,7 +547,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andrej Ilic",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -537,7 +580,123 @@
         "y": 64.5,
         "arco_y": 47.4,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Julian Niehues",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 8,
+            "x": 59.4,
+            "y": 70.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Niehues",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 8,
+            "x": 59.4,
+            "y": 70.3,
+            "endX": 65.9,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Schöppner",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 10,
+            "x": 66.3,
+            "y": 83.2,
+            "endX": 75.1,
+            "endY": 77.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 12,
+            "x": 75.0,
+            "y": 77.8,
+            "endX": 76.7,
+            "endY": 96.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 17,
+            "x": 76.7,
+            "y": 96.4,
+            "endX": 88.6,
+            "endY": 91.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 17,
+            "x": 88.6,
+            "y": 91.2,
+            "endX": 86.4,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Schöppner",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 18,
+            "x": 86.1,
+            "y": 71.5,
+            "endX": 87.2,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Budu Zivzivadze",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 20,
+            "x": 87.2,
+            "y": 61.8,
+            "endX": 85.3,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Budu Zivzivadze",
+            "tipo": "TakeOn",
+            "minuto": 78,
+            "segundo": 20,
+            "x": 85.3,
+            "y": 59.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Budu Zivzivadze",
+            "tipo": "TakeOn",
+            "minuto": 78,
+            "segundo": 20,
+            "x": 88.8,
+            "y": 63.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Danilho Doekhi",
+          "portero": false
+        }
       },
       {
         "minuto": 97,

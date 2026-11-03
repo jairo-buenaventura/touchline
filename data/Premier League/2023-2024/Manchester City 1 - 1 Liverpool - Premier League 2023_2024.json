@@ -389,6 +389,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nathan Aké",
+            "tipo": "BallRecovery",
+            "minuto": 26,
+            "segundo": 27,
+            "x": 63.8,
+            "y": 77.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
             "tipo": "TakeOn",
             "minuto": 26,
             "segundo": 30,
@@ -409,7 +420,12 @@
             "endY": 62.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 31,

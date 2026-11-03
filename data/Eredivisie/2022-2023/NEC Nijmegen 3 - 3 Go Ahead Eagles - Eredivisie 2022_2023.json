@@ -381,6 +381,17 @@
         "secuencia_gol": [
           {
             "jugador": "Oussama Tannane",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 33,
+            "x": 61.7,
+            "y": 40.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
             "tipo": "TakeOn",
             "minuto": 2,
             "segundo": 37,
@@ -390,7 +401,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "José Fontán",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -508,7 +524,101 @@
         "y": 45.8,
         "arco_y": 46.3,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 2,
+            "x": 58.6,
+            "y": 85.9,
+            "endX": 64.3,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 4,
+            "x": 64.2,
+            "y": 85.6,
+            "endX": 73.6,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Souffian El Karouani",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 6,
+            "x": 73.6,
+            "y": 90.9,
+            "endX": 76.6,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Souffian El Karouani",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 6,
+            "x": 76.6,
+            "y": 92.1,
+            "endX": 71.7,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 8,
+            "x": 71.7,
+            "y": 83.7,
+            "endX": 76.5,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oussama Tannane",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 8,
+            "x": 76.5,
+            "y": 83.3,
+            "endX": 91.0,
+            "endY": 52.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elayis Tavsan",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 11,
+            "x": 91.0,
+            "y": 52.4,
+            "endX": 96.7,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elayis Tavsan",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 11,
+            "x": 96.7,
+            "y": 38.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "José Fontán",
+          "portero": true
+        }
       },
       {
         "minuto": 82,

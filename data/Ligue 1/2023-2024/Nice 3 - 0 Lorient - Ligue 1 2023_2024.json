@@ -455,7 +455,57 @@
         "y": 57.7,
         "arco_y": 49.4,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 40,
+            "x": 24.8,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 42,
+            "x": 32.9,
+            "y": 37.1,
+            "endX": 58.4,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed-Ali Cho",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 50,
+            "x": 58.4,
+            "y": 5.8,
+            "endX": 85.3,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed-Ali Cho",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 50,
+            "x": 85.3,
+            "y": 25.6,
+            "endX": 90.5,
+            "endY": 46.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nathaniel Adjei",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -530,6 +580,50 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 45,
+            "x": 42.7,
+            "y": 41.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Clair Todibo",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 47,
+            "x": 51.8,
+            "y": 47.2,
+            "endX": 68.2,
+            "endY": 56.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 51,
+            "x": 68.2,
+            "y": 56.2,
+            "endX": 79.4,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 51,
+            "x": 79.4,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jérémie Boga",
             "tipo": "Pass",
             "minuto": 87,
@@ -551,7 +645,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yvon Mvogo",
+          "portero": true
+        }
       },
       {
         "minuto": 92,

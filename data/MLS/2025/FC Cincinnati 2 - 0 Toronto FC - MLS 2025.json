@@ -485,6 +485,72 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 49,
+            "x": 14.7,
+            "y": 71.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 50,
+            "x": 15.3,
+            "y": 69.3,
+            "endX": 33.3,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sérgio Santos",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 52,
+            "x": 34.1,
+            "y": 57.6,
+            "endX": 28.2,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 53,
+            "x": 28.2,
+            "y": 67.9,
+            "endX": 34.2,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 53,
+            "x": 34.2,
+            "y": 64.4,
+            "endX": 36.2,
+            "endY": 67.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 55,
+            "x": 36.2,
+            "y": 67.5,
+            "endX": 42.0,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Evander",
             "tipo": "Pass",
             "minuto": 86,
@@ -495,7 +561,12 @@
             "endY": 28.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kosi Thompson",
+          "portero": false
+        }
       }
     ],
     "corners": [

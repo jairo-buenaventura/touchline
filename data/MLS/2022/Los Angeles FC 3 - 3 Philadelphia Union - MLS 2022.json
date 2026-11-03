@@ -605,7 +605,24 @@
         "y": 51.6,
         "arco_y": 52.2,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gareth Bale",
+            "tipo": "Aerial",
+            "minuto": 127,
+            "segundo": 28,
+            "x": 92.4,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jack Elliott",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5144,6 +5161,17 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Julián Carranza",
+            "tipo": "Aerial",
+            "minuto": 58,
+            "segundo": 10,
+            "x": 90.2,
+            "y": 47.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Olivier Mbaizo",
             "tipo": "Pass",
             "minuto": 58,
@@ -5176,7 +5204,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jesús Murillo",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

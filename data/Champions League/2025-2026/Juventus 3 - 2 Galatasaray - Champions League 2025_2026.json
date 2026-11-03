@@ -574,6 +574,17 @@
         "secuencia_gol": [
           {
             "jugador": "Teun Koopmeiners",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 1,
+            "x": 85.6,
+            "y": 30.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Teun Koopmeiners",
             "tipo": "Pass",
             "minuto": 81,
             "segundo": 1,
@@ -583,7 +594,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Baris Alper Yilmaz",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -5390,6 +5406,171 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 116,
+            "segundo": 48,
+            "x": 44.9,
+            "y": 38.9,
+            "endX": 38.5,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdülkerim Bardakci",
+            "tipo": "Carry",
+            "minuto": 116,
+            "segundo": 50,
+            "x": 38.5,
+            "y": 64.4,
+            "endX": 41.3,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdülkerim Bardakci",
+            "tipo": "Pass",
+            "minuto": 116,
+            "segundo": 50,
+            "x": 41.3,
+            "y": 69.3,
+            "endX": 56.4,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Baris Alper Yilmaz",
+            "tipo": "Carry",
+            "minuto": 116,
+            "segundo": 53,
+            "x": 56.4,
+            "y": 93.4,
+            "endX": 72.6,
+            "endY": 94.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Baris Alper Yilmaz",
+            "tipo": "Pass",
+            "minuto": 116,
+            "segundo": 53,
+            "x": 72.6,
+            "y": 94.9,
+            "endX": 64.4,
+            "endY": 94.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Elmali",
+            "tipo": "Pass",
+            "minuto": 116,
+            "segundo": 54,
+            "x": 63.1,
+            "y": 93.9,
+            "endX": 57.3,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Carry",
+            "minuto": 116,
+            "segundo": 57,
+            "x": 57.3,
+            "y": 76.2,
+            "endX": 55.8,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 116,
+            "segundo": 57,
+            "x": 55.8,
+            "y": 70.3,
+            "endX": 47.3,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davinson Sánchez",
+            "tipo": "Pass",
+            "minuto": 117,
+            "segundo": 0,
+            "x": 47.1,
+            "y": 32.5,
+            "endX": 53.4,
+            "endY": 8.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sacha Boey",
+            "tipo": "Carry",
+            "minuto": 117,
+            "segundo": 2,
+            "x": 53.4,
+            "y": 8.1,
+            "endX": 44.7,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sacha Boey",
+            "tipo": "Pass",
+            "minuto": 117,
+            "segundo": 2,
+            "x": 44.7,
+            "y": 9.1,
+            "endX": 15.1,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ugurcan Çakir",
+            "tipo": "Carry",
+            "minuto": 117,
+            "segundo": 13,
+            "x": 15.1,
+            "y": 46.9,
+            "endX": 18.5,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ugurcan Çakir",
+            "tipo": "Pass",
+            "minuto": 117,
+            "segundo": 13,
+            "x": 18.5,
+            "y": 50.5,
+            "endX": 34.6,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Elmali",
+            "tipo": "Pass",
+            "minuto": 117,
+            "segundo": 17,
+            "x": 34.6,
+            "y": 90.1,
+            "endX": 55.6,
+            "endY": 44.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Victor Osimhen",
+            "tipo": "Carry",
+            "minuto": 117,
+            "segundo": 22,
+            "x": 55.6,
+            "y": 44.2,
+            "endX": 64.7,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Victor Osimhen",
             "tipo": "Pass",
             "minuto": 117,
@@ -5565,7 +5746,12 @@
             "endY": 55.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Filip Kostic",
+          "portero": false
+        }
       }
     ],
     "corners": [

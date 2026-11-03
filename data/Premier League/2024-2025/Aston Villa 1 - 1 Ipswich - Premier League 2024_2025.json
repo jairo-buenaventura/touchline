@@ -5402,6 +5402,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Jens Cajuste",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 58,
+            "x": 78.0,
+            "y": 100.0,
+            "endX": 89.7,
+            "endY": 59.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luke Woolfenden",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 89.7,
+            "y": 59.3,
+            "endX": 71.1,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Luke Woolfenden",
             "tipo": "Pass",
             "minuto": 55,
@@ -5467,7 +5489,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Morgan Rogers",
+          "portero": false
+        }
       }
     ],
     "corners": [

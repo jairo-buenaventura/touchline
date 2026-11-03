@@ -4702,6 +4702,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Arquímides Ordóñez",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 79.1,
+            "y": 38.6,
+            "endX": 78.0,
+            "endY": 44.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Haris Medunjanin",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 78.0,
+            "y": 44.3,
+            "endX": 78.5,
+            "endY": 41.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Obinna Nwobodo",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 20,
+            "x": 78.5,
+            "y": 41.8,
+            "endX": 69.4,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Obinna Nwobodo",
             "tipo": "Pass",
             "minuto": 92,
@@ -4789,7 +4822,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joseph Rosales",
+          "portero": false
+        }
       }
     ],
     "corners": [

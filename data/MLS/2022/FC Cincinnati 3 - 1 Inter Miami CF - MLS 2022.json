@@ -420,6 +420,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Alec Kann",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 41,
+            "x": 4.8,
+            "y": 48.1,
+            "endX": 44.7,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alvas Powell",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 44,
+            "x": 44.7,
+            "y": 10.1,
+            "endX": 40.6,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alvas Powell",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 44,
+            "x": 40.6,
+            "y": 9.5,
+            "endX": 47.6,
+            "endY": 11.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dominique Badji",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 47,
+            "x": 47.6,
+            "y": 11.8,
+            "endX": 55.7,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Dominique Badji",
             "tipo": "Pass",
             "minuto": 17,
@@ -474,7 +518,12 @@
             "endY": 63.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kieran Gibbs",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -484,7 +533,24 @@
         "y": 53.9,
         "arco_y": 46.3,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 8,
+            "x": 92.4,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Drake Callender",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -548,7 +614,24 @@
         "y": 45.8,
         "arco_y": 52.7,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 9,
+            "x": 93.6,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Noah Allen",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

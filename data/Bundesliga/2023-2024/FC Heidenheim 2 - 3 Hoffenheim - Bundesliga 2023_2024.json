@@ -4059,6 +4059,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Pavel Kaderábek",
+            "tipo": "CornerAwarded",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 92.2,
+            "y": 12.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 10,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.8,
+            "endY": 56.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 16,
+            "x": 90.8,
+            "y": 56.3,
+            "endX": 89.3,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Tom Bischof",
             "tipo": "Pass",
             "minuto": 76,
@@ -4069,7 +4102,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Patrick Mainka",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -4088,7 +4126,90 @@
         "y": 46.6,
         "arco_y": 47.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 36.9,
+            "y": 84.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 36.9,
+            "y": 84.8,
+            "endX": 44.8,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Akpoguma",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 38,
+            "x": 44.8,
+            "y": 85.7,
+            "endX": 65.1,
+            "endY": 98.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Skov",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 41,
+            "x": 65.7,
+            "y": 98.3,
+            "endX": 67.7,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 45,
+            "x": 68.2,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "BallTouch",
+            "minuto": 79,
+            "segundo": 49,
+            "x": 76.3,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Finn Becker",
+            "tipo": "ShotOnPost",
+            "minuto": 79,
+            "segundo": 50,
+            "x": 78.2,
+            "y": 62.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kevin Müller",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

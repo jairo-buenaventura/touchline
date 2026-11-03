@@ -4678,6 +4678,39 @@
           {
             "jugador": "Carlos Augusto",
             "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 51,
+            "x": 58.3,
+            "y": 100.0,
+            "endX": 53.7,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Machín",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 54,
+            "x": 56.2,
+            "y": 94.5,
+            "endX": 59.4,
+            "endY": 91.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 12,
+            "x": 59.4,
+            "y": 91.8,
+            "endX": 63.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Pass",
             "minuto": 17,
             "segundo": 12,
             "x": 63.7,
@@ -4708,7 +4741,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nicolò Fagioli",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4720,6 +4758,28 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Carlos Augusto",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 18,
+            "x": 42.6,
+            "y": 82.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 74.1,
+            "y": 71.9,
+            "endX": 89.7,
+            "endY": 55.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Dany Mota",
             "tipo": "TakeOn",
             "minuto": 38,
@@ -4730,7 +4790,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wojciech Szczesny",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

@@ -441,6 +441,28 @@
         "secuencia_gol": [
           {
             "jugador": "Rafik Belghali",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 26,
+            "x": 16.1,
+            "y": 22.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafik Belghali",
+            "tipo": "TakeOn",
+            "minuto": 58,
+            "segundo": 33,
+            "x": 41.0,
+            "y": 6.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafik Belghali",
             "tipo": "Pass",
             "minuto": 58,
             "segundo": 34,
@@ -472,7 +494,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Riyad Idrissi",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4316,6 +4343,83 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Riyad Idrissi",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 16,
+            "x": 40.8,
+            "y": 92.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riyad Idrissi",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 19,
+            "x": 54.4,
+            "y": 74.4,
+            "endX": 50.2,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Mazzitelli",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 21,
+            "x": 50.5,
+            "y": 68.5,
+            "endX": 60.2,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Obert",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 24,
+            "x": 60.2,
+            "y": 86.6,
+            "endX": 67.7,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattia Felici",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 66.6,
+            "y": 96.0,
+            "endX": 68.1,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Pavoletti",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 68.7,
+            "y": 83.6,
+            "endX": 85.3,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattia Felici",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 85.3,
+            "y": 92.9,
+            "endX": 87.4,
+            "endY": 84.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Mattia Felici",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -4326,7 +4430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Victor Nelsson",
+          "portero": false
+        }
       }
     ],
     "corners": [

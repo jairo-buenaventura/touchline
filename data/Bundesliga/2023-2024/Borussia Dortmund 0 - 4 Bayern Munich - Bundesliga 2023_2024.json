@@ -4928,6 +4928,28 @@
         "secuencia_gol": [
           {
             "jugador": "Alphonso Davies",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 16,
+            "x": 53.7,
+            "y": 58.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "TakeOn",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 55.0,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
             "tipo": "Pass",
             "minuto": 71,
             "segundo": 20,
@@ -5047,7 +5069,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Niclas Füllkrug",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

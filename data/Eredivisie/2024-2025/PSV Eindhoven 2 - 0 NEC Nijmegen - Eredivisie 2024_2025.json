@@ -406,6 +406,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jerdy Schouten",
+            "tipo": "Aerial",
+            "minuto": 15,
+            "segundo": 31,
+            "x": 80.9,
+            "y": 28.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jerdy Schouten",
             "tipo": "Pass",
             "minuto": 15,
             "segundo": 31,
@@ -525,7 +536,12 @@
             "endY": 39.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thomas Ouwejan",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

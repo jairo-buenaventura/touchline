@@ -424,6 +424,28 @@
         "secuencia_gol": [
           {
             "jugador": "Anthony Lozano",
+            "tipo": "BallRecovery",
+            "minuto": 68,
+            "segundo": 34,
+            "x": 69.5,
+            "y": 69.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Lozano",
+            "tipo": "TakeOn",
+            "minuto": 68,
+            "segundo": 36,
+            "x": 69.6,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Lozano",
             "tipo": "Pass",
             "minuto": 68,
             "segundo": 38,
@@ -433,7 +455,12 @@
             "endY": 10.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Javi Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

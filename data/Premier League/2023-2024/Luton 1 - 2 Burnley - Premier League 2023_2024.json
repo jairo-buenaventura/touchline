@@ -491,6 +491,17 @@
         "secuencia_gol": [
           {
             "jugador": "Reece Burke",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 59,
+            "x": 90.3,
+            "y": 63.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reece Burke",
             "tipo": "Pass",
             "minuto": 82,
             "segundo": 59,
@@ -500,7 +511,12 @@
             "endY": 56.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Connor Roberts",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4388,7 +4404,68 @@
         "y": 44.7,
         "arco_y": 46.0,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "James Trafford",
+            "tipo": "KeeperPickup",
+            "minuto": 45,
+            "segundo": 54,
+            "x": 11.6,
+            "y": 64.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Trafford",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 57,
+            "x": 12.7,
+            "y": 56.1,
+            "endX": 15.0,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ameen Al Dakhil",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 0,
+            "x": 15.8,
+            "y": 42.5,
+            "endX": 30.5,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Cullen",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 2,
+            "x": 30.5,
+            "y": 44.9,
+            "endX": 53.3,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sander Berge",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 5,
+            "x": 55.0,
+            "y": 46.6,
+            "endX": 67.8,
+            "endY": 48.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tom Lockyer",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

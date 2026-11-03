@@ -407,6 +407,17 @@
         "secuencia_gol": [
           {
             "jugador": "Eric Martel",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 6,
+            "x": 93.0,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Martel",
             "tipo": "MissedShots",
             "minuto": 17,
             "segundo": 6,
@@ -416,7 +427,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Benjamin Sesko",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -4336,6 +4352,61 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Xaver Schlager",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 64.3,
+            "y": 53.6,
+            "endX": 61.2,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willi Orbán",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 61.2,
+            "y": 31.2,
+            "endX": 50.3,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 2,
+            "x": 49.8,
+            "y": 54.5,
+            "endX": 57.6,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 57.6,
+            "y": 72.0,
+            "endX": 57.1,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xaver Schlager",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 57.1,
+            "y": 75.6,
+            "endX": 67.6,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
             "jugador": "David Raum",
             "tipo": "TakeOn",
             "minuto": 66,
@@ -4357,7 +4428,12 @@
             "endY": 56.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rasmus Carstensen",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4376,7 +4452,35 @@
         "y": 56.5,
         "arco_y": 46.3,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 36,
+            "x": 92.8,
+            "y": 62.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin Henrichs",
+            "tipo": "SavedShot",
+            "minuto": 69,
+            "segundo": 38,
+            "x": 82.8,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Max Finkgräfe",
+          "portero": true
+        }
       },
       {
         "minuto": 75,
@@ -4414,6 +4518,61 @@
         "arco_y": 52.3,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "David Raum",
+            "tipo": "BlockedPass",
+            "minuto": 79,
+            "segundo": 24,
+            "x": 76.5,
+            "y": 75.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 26,
+            "x": 71.5,
+            "y": 77.7,
+            "endX": 82.9,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 29,
+            "x": 82.9,
+            "y": 84.2,
+            "endX": 97.5,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raum",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 29,
+            "x": 97.5,
+            "y": 77.3,
+            "endX": 98.8,
+            "endY": 37.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin Henrichs",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 15,
+            "x": 98.8,
+            "y": 37.3,
+            "endX": 87.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Benjamin Henrichs",
             "tipo": "Pass",
@@ -4678,7 +4837,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leart Paçarada",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

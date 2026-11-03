@@ -4373,6 +4373,39 @@
         "secuencia_gol": [
           {
             "jugador": "Tijjani Reijnders",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 7,
+            "x": 30.5,
+            "y": 62.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tijjani Reijnders",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 8,
+            "x": 30.8,
+            "y": 67.8,
+            "endX": 33.0,
+            "endY": 72.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tijjani Reijnders",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 8,
+            "x": 33.0,
+            "y": 72.3,
+            "endX": 30.5,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tijjani Reijnders",
             "tipo": "Pass",
             "minuto": 45,
             "segundo": 8,
@@ -4459,7 +4492,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Simon Olsson",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

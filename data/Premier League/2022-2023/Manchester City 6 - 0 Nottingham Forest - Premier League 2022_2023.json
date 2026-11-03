@@ -434,7 +434,57 @@
         "y": 51.2,
         "arco_y": 53.4,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "João Cancelo",
+            "tipo": "CornerAwarded",
+            "minuto": 11,
+            "segundo": 2,
+            "x": 92.8,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 72.2,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 34,
+            "x": 72.2,
+            "y": 75.4,
+            "endX": 75.9,
+            "endY": 76.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 34,
+            "x": 75.9,
+            "y": 76.5,
+            "endX": 79.3,
+            "endY": 71.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Morgan Gibbs-White",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -463,7 +513,24 @@
         "y": 47.6,
         "arco_y": 48.1,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 37,
+            "segundo": 49,
+            "x": 98.8,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Joe Worrall",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -830,7 +897,24 @@
         "y": 35.5,
         "arco_y": 52.9,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Riyad Mahrez",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 51,
+            "x": 75.9,
+            "y": 31.2,
+            "endX": 77.5,
+            "endY": 33.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Remo Freuler",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -858,7 +942,57 @@
         "y": 58.7,
         "arco_y": 52.9,
         "arco_z": 35.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 29,
+            "x": 40.2,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 35,
+            "x": 72.9,
+            "y": 39.1,
+            "endX": 81.2,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riyad Mahrez",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 37,
+            "x": 81.2,
+            "y": 28.0,
+            "endX": 84.3,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riyad Mahrez",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 37,
+            "x": 84.3,
+            "y": 33.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Scott McKenna",
+          "portero": true
+        }
       },
       {
         "minuto": 88,

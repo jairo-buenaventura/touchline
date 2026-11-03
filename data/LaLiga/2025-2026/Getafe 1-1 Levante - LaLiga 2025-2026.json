@@ -381,6 +381,17 @@
         "secuencia_gol": [
           {
             "jugador": "Abdel Abqar",
+            "tipo": "Aerial",
+            "minuto": 56,
+            "segundo": 20,
+            "x": 96.8,
+            "y": 40.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdel Abqar",
             "tipo": "Pass",
             "minuto": 56,
             "segundo": 21,
@@ -390,7 +401,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Manu Sánchez",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -4065,6 +4081,50 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Karl Etta Eyong",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 36,
+            "x": 78.0,
+            "y": 61.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kervin Arriaga",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 40,
+            "x": 60.0,
+            "y": 51.1,
+            "endX": 66.8,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Sánchez",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 43,
+            "x": 66.8,
+            "y": 95.4,
+            "endX": 72.9,
+            "endY": 81.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kervin Arriaga",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 46,
+            "x": 72.9,
+            "y": 81.7,
+            "endX": 61.7,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Kervin Arriaga",
             "tipo": "BallTouch",
             "minuto": 25,
@@ -4130,7 +4190,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Djené Dakonam",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

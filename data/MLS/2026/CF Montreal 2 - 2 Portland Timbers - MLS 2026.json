@@ -4559,6 +4559,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Alexander Aravena",
+            "tipo": "CornerAwarded",
+            "minuto": 19,
+            "segundo": 46,
+            "x": 90.3,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristoffer Velde",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 24,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.0,
+            "endY": 49.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "David da Costa",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 28,
+            "x": 96.0,
+            "y": 49.7,
+            "endX": 80.1,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
             "jugador": "David da Costa",
             "tipo": "Pass",
             "minuto": 20,
@@ -4580,7 +4613,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jalen Neal",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4653,7 +4691,24 @@
         "y": 56.0,
         "arco_y": 52.9,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cole Bassett",
+            "tipo": "ShotOnPost",
+            "minuto": 76,
+            "segundo": 8,
+            "x": 76.9,
+            "y": 63.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Thomas Gillier",
+          "portero": false
+        }
       }
     ],
     "corners": [

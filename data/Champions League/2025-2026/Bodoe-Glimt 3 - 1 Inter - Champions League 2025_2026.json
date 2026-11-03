@@ -697,6 +697,17 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Sondre Fet",
+            "tipo": "Tackle",
+            "minuto": 63,
+            "segundo": 23,
+            "x": 33.4,
+            "y": 43.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Håkon Evjen",
             "tipo": "TakeOn",
             "minuto": 63,
@@ -773,7 +784,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolò Barella",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4809,7 +4825,35 @@
         "y": 56.1,
         "arco_y": 49.0,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 94.2,
+            "y": 59.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "SavedShot",
+            "minuto": 29,
+            "segundo": 35,
+            "x": 94.2,
+            "y": 59.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Fredrik Sjøvold",
+          "portero": true
+        }
       },
       {
         "minuto": 36,

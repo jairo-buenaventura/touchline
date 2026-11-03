@@ -599,7 +599,101 @@
         "y": 55.1,
         "arco_y": 50.6,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rodrigo Guth",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 25.0,
+            "y": 23.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Guth",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 3,
+            "x": 25.0,
+            "y": 23.7,
+            "endX": 5.7,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Verrips",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 5.7,
+            "y": 32.8,
+            "endX": 11.5,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Verrips",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 11.5,
+            "y": 24.6,
+            "endX": 67.6,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessio da Cruz",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 15,
+            "x": 67.6,
+            "y": 29.2,
+            "endX": 70.9,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessio da Cruz",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 15,
+            "x": 70.9,
+            "y": 30.3,
+            "endX": 79.1,
+            "endY": 38.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 17,
+            "x": 79.1,
+            "y": 38.4,
+            "endX": 86.4,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 17,
+            "x": 86.4,
+            "y": 52.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jasper Cillessen",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -4452,6 +4546,72 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Mees Hoedemakers",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 56,
+            "x": 45.8,
+            "y": 55.5,
+            "endX": 12.8,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jasper Cillessen",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 1,
+            "x": 14.1,
+            "y": 45.1,
+            "endX": 24.5,
+            "endY": 21.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 4,
+            "x": 24.5,
+            "y": 21.6,
+            "endX": 28.1,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees Hoedemakers",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 8,
+            "x": 28.1,
+            "y": 34.6,
+            "endX": 34.8,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees Hoedemakers",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 8,
+            "x": 34.8,
+            "y": 39.7,
+            "endX": 76.8,
+            "endY": 86.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Youri Baas",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 18,
+            "x": 76.8,
+            "y": 86.5,
+            "endX": 77.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Youri Baas",
             "tipo": "Pass",
             "minuto": 58,
@@ -4484,7 +4644,12 @@
             "endY": 62.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ivo Pinto",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

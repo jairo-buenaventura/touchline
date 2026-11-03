@@ -479,6 +479,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Tyler Miller",
+            "tipo": "KeeperPickup",
+            "minuto": 72,
+            "segundo": 24,
+            "x": 7.8,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyler Miller",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 39,
+            "x": 14.0,
+            "y": 59.4,
+            "endX": 67.9,
+            "endY": 53.7,
+            "exitoso": false
+          },
+          {
             "jugador": "Christian Benteke",
             "tipo": "Pass",
             "minuto": 72,
@@ -489,7 +511,12 @@
             "endY": 63.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jalen Neal",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

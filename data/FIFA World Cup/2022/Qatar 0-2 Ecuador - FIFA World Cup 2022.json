@@ -4312,6 +4312,39 @@
         "secuencia_gol": [
           {
             "jugador": "Moisés Caicedo",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 31,
+            "x": 57.8,
+            "y": 73.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 36,
+            "x": 72.3,
+            "y": 47.3,
+            "endX": 76.1,
+            "endY": 47.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Moisés Caicedo",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 41,
+            "x": 76.1,
+            "y": 47.0,
+            "endX": 91.5,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moisés Caicedo",
             "tipo": "Pass",
             "minuto": 30,
             "segundo": 41,
@@ -4332,7 +4365,12 @@
             "endY": 51.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Boualem Khoukhi",
+          "portero": false
+        }
       },
       {
         "minuto": 51,

@@ -398,6 +398,116 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Axel Witsel",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 48,
+            "x": 24.9,
+            "y": 93.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Witsel",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 50,
+            "x": 22.7,
+            "y": 92.1,
+            "endX": 7.4,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivo Grbic",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 55,
+            "x": 7.4,
+            "y": 49.3,
+            "endX": 12.5,
+            "endY": 36.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivo Grbic",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 55,
+            "x": 12.5,
+            "y": 36.4,
+            "endX": 21.8,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Geoffrey Kondogbia",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 1,
+            "x": 21.8,
+            "y": 33.9,
+            "endX": 28.1,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Geoffrey Kondogbia",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 1,
+            "x": 28.1,
+            "y": 26.2,
+            "endX": 24.7,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Witsel",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 4,
+            "x": 24.7,
+            "y": 47.2,
+            "endX": 26.0,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Axel Witsel",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 4,
+            "x": 26.0,
+            "y": 50.1,
+            "endX": 29.7,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Hermoso",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 6,
+            "x": 29.7,
+            "y": 73.2,
+            "endX": 45.6,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Lemar",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 9,
+            "x": 45.6,
+            "y": 96.3,
+            "endX": 49.3,
+            "endY": 90.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Thomas Lemar",
             "tipo": "TakeOn",
             "minuto": 8,
@@ -441,7 +551,12 @@
             "endY": 36.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Carles Pérez",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -471,6 +586,72 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Ángel Correa",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 1,
+            "x": 72.6,
+            "y": 63.4,
+            "endX": 70.3,
+            "endY": 75.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Morata",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 3,
+            "x": 70.3,
+            "y": 75.7,
+            "endX": 72.8,
+            "endY": 78.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Morata",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 3,
+            "x": 72.8,
+            "y": 78.2,
+            "endX": 87.2,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Carrasco",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 6,
+            "x": 87.2,
+            "y": 83.0,
+            "endX": 93.7,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Carrasco",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 6,
+            "x": 93.7,
+            "y": 76.0,
+            "endX": 93.9,
+            "endY": 71.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 9,
+            "x": 93.9,
+            "y": 71.5,
+            "endX": 84.8,
+            "endY": 54.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Koke",
             "tipo": "Pass",
             "minuto": 49,
@@ -481,7 +662,12 @@
             "endY": 66.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Hugo Mallo",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -501,6 +687,94 @@
         "arco_y": 53.9,
         "arco_z": 17.1,
         "secuencia_gol": [
+          {
+            "jugador": "Yannick Carrasco",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 20,
+            "x": 59.4,
+            "y": 100.0,
+            "endX": 61.5,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 24,
+            "x": 61.5,
+            "y": 86.8,
+            "endX": 62.3,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 24,
+            "x": 62.3,
+            "y": 75.9,
+            "endX": 61.8,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Molina",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 29,
+            "x": 61.8,
+            "y": 22.1,
+            "endX": 72.0,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Molina",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 29,
+            "x": 72.0,
+            "y": 29.7,
+            "endX": 80.3,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "BallTouch",
+            "minuto": 64,
+            "segundo": 30,
+            "x": 80.3,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Reinildo Mandava",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 35,
+            "x": 46.4,
+            "y": 71.2,
+            "endX": 60.6,
+            "endY": 45.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Geoffrey Kondogbia",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 38,
+            "x": 60.6,
+            "y": 45.7,
+            "endX": 52.9,
+            "endY": 52.7,
+            "exitoso": true
+          },
           {
             "jugador": "Geoffrey Kondogbia",
             "tipo": "Pass",
@@ -611,7 +885,12 @@
             "endY": 88.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gabri Veiga",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4730,6 +5009,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Franco Cervi",
+            "tipo": "CornerAwarded",
+            "minuto": 70,
+            "segundo": 15,
+            "x": 83.3,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franco Cervi",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.3,
+            "endY": 50.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 54,
+            "x": 95.3,
+            "y": 50.6,
+            "endX": 66.0,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Iago Aspas",
             "tipo": "Pass",
             "minuto": 70,
@@ -4740,7 +5052,12 @@
             "endY": 26.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Axel Witsel",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

@@ -388,6 +388,105 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Lutsharel Geertruida",
+            "tipo": "BallRecovery",
+            "minuto": 18,
+            "segundo": 38,
+            "x": 28.1,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lutsharel Geertruida",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 39,
+            "x": 28.3,
+            "y": 60.2,
+            "endX": 32.9,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 40,
+            "x": 34.2,
+            "y": 50.7,
+            "endX": 30.8,
+            "endY": 30.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 43,
+            "x": 31.2,
+            "y": 30.0,
+            "endX": 32.3,
+            "endY": 42.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 46,
+            "x": 33.0,
+            "y": 39.8,
+            "endX": 46.7,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 47,
+            "x": 46.0,
+            "y": 33.6,
+            "endX": 42.0,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 49,
+            "x": 42.0,
+            "y": 38.5,
+            "endX": 53.7,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 49,
+            "x": 53.7,
+            "y": 47.0,
+            "endX": 62.8,
+            "endY": 60.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 55,
+            "x": 62.8,
+            "y": 60.3,
+            "endX": 70.9,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Xavi Simons",
             "tipo": "Pass",
             "minuto": 18,
@@ -420,7 +519,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Iván Fresneda",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -475,7 +579,68 @@
         "y": 51.7,
         "arco_y": 52.4,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 71.8,
+            "y": 51.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 17,
+            "x": 75.8,
+            "y": 53.4,
+            "endX": 81.6,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 17,
+            "x": 81.5,
+            "y": 46.4,
+            "endX": 86.0,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yussuf Poulsen",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 86.0,
+            "y": 56.6,
+            "endX": 92.7,
+            "endY": 50.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yussuf Poulsen",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 19,
+            "x": 92.7,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Franco Israel",
+          "portero": true
+        }
       },
       {
         "minuto": 80,

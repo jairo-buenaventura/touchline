@@ -473,6 +473,83 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "William Yarbrough",
+            "tipo": "Claim",
+            "minuto": 91,
+            "segundo": 27,
+            "x": 15.5,
+            "y": 62.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Yarbrough",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 15.1,
+            "y": 51.4,
+            "endX": 26.3,
+            "endY": 11.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamín Kuscevic",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 32,
+            "x": 27.4,
+            "y": 12.6,
+            "endX": 45.3,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Sallói",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 46.7,
+            "y": 15.1,
+            "endX": 56.0,
+            "endY": 3.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Theo Corbeanu",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 56.0,
+            "y": 3.3,
+            "endX": 91.7,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Theo Corbeanu",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 91.7,
+            "y": 8.4,
+            "endX": 92.8,
+            "endY": 37.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Richie Laryea",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 2,
+            "x": 92.8,
+            "y": 37.3,
+            "endX": 85.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Richie Laryea",
             "tipo": "Pass",
             "minuto": 92,
@@ -505,7 +582,12 @@
             "endY": 59.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jalen Neal",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -516,6 +598,17 @@
         "arco_y": 52.3,
         "arco_z": 15.2,
         "secuencia_gol": [
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 48,
+            "x": 13.9,
+            "y": 96.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Niklas Dorsch",
             "tipo": "Pass",
@@ -593,7 +686,12 @@
             "endY": 54.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dawid Bugaj",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4210,7 +4308,90 @@
         "y": 46.6,
         "arco_y": 49.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 44,
+            "x": 56.5,
+            "y": 92.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 46,
+            "x": 55.0,
+            "y": 93.2,
+            "endX": 36.6,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandan Craig",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 48,
+            "x": 36.0,
+            "y": 57.5,
+            "endX": 61.0,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 51,
+            "x": 61.0,
+            "y": 50.9,
+            "endX": 70.5,
+            "endY": 51.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 55,
+            "x": 70.5,
+            "y": 51.6,
+            "endX": 66.3,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Prince Owusu",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 55,
+            "x": 66.3,
+            "y": 39.1,
+            "endX": 87.5,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matty Longstaff",
+            "tipo": "SavedShot",
+            "minuto": 50,
+            "segundo": 57,
+            "x": 87.5,
+            "y": 35.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "William Yarbrough",
+          "portero": true
+        }
       },
       {
         "minuto": 53,

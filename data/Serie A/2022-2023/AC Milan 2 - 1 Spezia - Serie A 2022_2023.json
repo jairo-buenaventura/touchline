@@ -689,6 +689,28 @@
         "secuencia_gol": [
           {
             "jugador": "Sandro Tonali",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 21,
+            "x": 70.1,
+            "y": 34.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Tonali",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 23,
+            "x": 72.3,
+            "y": 32.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Tonali",
             "tipo": "Pass",
             "minuto": 88,
             "segundo": 24,
@@ -698,7 +720,12 @@
             "endY": 56.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Albin Ekdal",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

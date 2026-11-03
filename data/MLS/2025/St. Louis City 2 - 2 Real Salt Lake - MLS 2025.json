@@ -642,7 +642,24 @@
         "y": 54.4,
         "arco_y": 46.0,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "João Klauss",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 16,
+            "x": 94.9,
+            "y": 55.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Justen Glad",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4830,6 +4847,83 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Rafael Cabral",
+            "tipo": "KeeperPickup",
+            "minuto": 15,
+            "segundo": 38,
+            "x": 1.4,
+            "y": 54.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Cabral",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 47,
+            "x": 10.4,
+            "y": 56.1,
+            "endX": 11.0,
+            "endY": 16.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeAndre Yedlin",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 49,
+            "x": 10.9,
+            "y": 16.8,
+            "endX": 24.9,
+            "endY": 10.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Luna",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 54,
+            "x": 24.9,
+            "y": 10.8,
+            "endX": 20.2,
+            "endY": 12.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Luna",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 54,
+            "x": 20.2,
+            "y": 12.7,
+            "endX": 21.3,
+            "endY": 13.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Caliskan",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 56,
+            "x": 21.3,
+            "y": 13.6,
+            "endX": 23.0,
+            "endY": 9.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Noel Caliskan",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 57,
+            "x": 23.0,
+            "y": 9.9,
+            "endX": 21.7,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Noel Caliskan",
             "tipo": "Pass",
             "minuto": 15,
@@ -4906,7 +5000,12 @@
             "endY": 32.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Chris Durkin",
+          "portero": false
+        }
       },
       {
         "minuto": 31,

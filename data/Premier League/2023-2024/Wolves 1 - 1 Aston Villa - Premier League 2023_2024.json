@@ -385,7 +385,79 @@
         "y": 44.7,
         "arco_y": 46.7,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hwang Hee-Chan",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 19,
+            "x": 25.3,
+            "y": 87.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hwang Hee-Chan",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 38.1,
+            "y": 64.9,
+            "endX": 41.0,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Cunha",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 23,
+            "x": 41.0,
+            "y": 53.4,
+            "endX": 55.6,
+            "endY": 4.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 32,
+            "x": 55.6,
+            "y": 4.2,
+            "endX": 92.4,
+            "endY": 18.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "TakeOn",
+            "minuto": 52,
+            "segundo": 32,
+            "x": 92.4,
+            "y": 18.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedro Neto",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 34,
+            "x": 97.7,
+            "y": 24.4,
+            "endX": 97.6,
+            "endY": 30.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lucas Digne",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -3916,6 +3988,17 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Ollie Watkins",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 29,
+            "x": 86.0,
+            "y": 34.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Matty Cash",
             "tipo": "Pass",
             "minuto": 54,
@@ -3937,7 +4020,12 @@
             "endY": 54.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Toti Gomes",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

@@ -447,7 +447,24 @@
         "y": 56.6,
         "arco_y": 52.1,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ben Mee",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 49,
+            "x": 96.1,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Murillo",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4594,7 +4611,24 @@
         "y": 49.0,
         "arco_y": 45.7,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolás Domínguez",
+            "tipo": "Aerial",
+            "minuto": 2,
+            "segundo": 38,
+            "x": 85.4,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ben Mee",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -4660,6 +4694,39 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Andrew Omobamidele",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 59,
+            "x": 70.1,
+            "y": 25.9,
+            "endX": 67.7,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Santos",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 2,
+            "x": 67.7,
+            "y": 52.8,
+            "endX": 66.9,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilo Santos",
+            "tipo": "TakeOn",
+            "minuto": 64,
+            "segundo": 2,
+            "x": 66.9,
+            "y": 56.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Danilo Santos",
             "tipo": "Pass",
             "minuto": 64,
@@ -4681,7 +4748,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mikkel Damsgaard",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

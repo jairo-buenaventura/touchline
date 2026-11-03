@@ -412,6 +412,61 @@
         "secuencia_gol": [
           {
             "jugador": "Krystof Danek",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 31,
+            "x": 55.5,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krystof Danek",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 31,
+            "x": 55.6,
+            "y": 48.5,
+            "endX": 43.9,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Wiesner",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 43.7,
+            "y": 29.2,
+            "endX": 63.3,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krystof Danek",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 63.3,
+            "y": 16.2,
+            "endX": 76.8,
+            "endY": 20.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krystof Danek",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 39,
+            "x": 76.8,
+            "y": 20.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Krystof Danek",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 40,
@@ -454,7 +509,12 @@
             "endY": 55.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierre Lees-Melou",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -4245,7 +4305,24 @@
         "y": 51.0,
         "arco_y": 52.9,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ludovic Ajorque",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 43,
+            "x": 94.9,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Filip Panák",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

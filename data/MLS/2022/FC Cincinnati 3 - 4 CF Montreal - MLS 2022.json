@@ -396,7 +396,68 @@
         "y": 43.1,
         "arco_y": 48.9,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dominique Badji",
+            "tipo": "BallTouch",
+            "minuto": 10,
+            "segundo": 57,
+            "x": 53.1,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 0,
+            "x": 47.0,
+            "y": 61.2,
+            "endX": 43.3,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Júnior Moreno",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 2,
+            "x": 44.9,
+            "y": 56.9,
+            "endX": 81.5,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alvas Powell",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 7,
+            "x": 81.5,
+            "y": 24.6,
+            "endX": 98.3,
+            "endY": 32.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alvas Powell",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 7,
+            "x": 98.3,
+            "y": 32.6,
+            "endX": 96.3,
+            "endY": 47.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sébastian Breza",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -4164,6 +4225,17 @@
         "secuencia_gol": [
           {
             "jugador": "Victor Wanyama",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 28,
+            "x": 66.2,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Wanyama",
             "tipo": "TakeOn",
             "minuto": 40,
             "segundo": 32,
@@ -4195,7 +4267,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Geoff Cameron",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4355,7 +4432,79 @@
         "y": 57.7,
         "arco_y": 52.4,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rudy Camacho",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 11,
+            "x": 16.2,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rudy Camacho",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 13,
+            "x": 18.5,
+            "y": 55.5,
+            "endX": 41.9,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Torres",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 19,
+            "x": 41.9,
+            "y": 27.6,
+            "endX": 68.9,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Torres",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 19,
+            "x": 68.9,
+            "y": 41.0,
+            "endX": 91.2,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 22,
+            "x": 91.2,
+            "y": 26.8,
+            "endX": 89.3,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kei Kamara",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 22,
+            "x": 89.3,
+            "y": 29.4,
+            "endX": 95.3,
+            "endY": 50.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Alec Kann",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

@@ -4599,6 +4599,17 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Ivan Perisic",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 5,
+            "x": 56.0,
+            "y": 74.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "James Maddison",
             "tipo": "TakeOn",
             "minuto": 62,
@@ -4741,7 +4752,12 @@
             "endY": 57.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Illia Zabarnyi",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

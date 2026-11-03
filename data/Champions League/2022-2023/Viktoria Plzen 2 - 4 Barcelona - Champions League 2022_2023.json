@@ -3629,7 +3629,79 @@
         "y": 47.8,
         "arco_y": 47.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marcos Alonso",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 41,
+            "x": 60.7,
+            "y": 71.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Alonso",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 43,
+            "x": 63.2,
+            "y": 67.0,
+            "endX": 72.9,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Torres",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 45,
+            "x": 72.9,
+            "y": 60.3,
+            "endX": 76.9,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Torres",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 45,
+            "x": 76.9,
+            "y": 65.2,
+            "endX": 85.0,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansu Fati",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 48,
+            "x": 85.0,
+            "y": 71.8,
+            "endX": 89.9,
+            "endY": 65.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansu Fati",
+            "tipo": "SavedShot",
+            "minuto": 5,
+            "segundo": 48,
+            "x": 89.9,
+            "y": 65.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jindrich Stanek",
+          "portero": true
+        }
       },
       {
         "minuto": 6,
@@ -3896,6 +3968,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ferran Torres",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 56,
+            "x": 71.5,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Torres",
             "tipo": "TakeOn",
             "minuto": 52,
             "segundo": 58,
@@ -3938,7 +4021,12 @@
             "endY": 40.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ludek Pernica",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -3958,6 +4046,61 @@
         "arco_y": 51.2,
         "arco_z": 29.1,
         "secuencia_gol": [
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 47,
+            "x": 61.0,
+            "y": 88.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 48,
+            "x": 61.0,
+            "y": 88.0,
+            "endX": 66.4,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ferran Torres",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 50,
+            "x": 66.4,
+            "y": 95.1,
+            "endX": 59.6,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 51,
+            "x": 58.9,
+            "y": 94.1,
+            "endX": 56.9,
+            "endY": 93.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marc Casadó",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 53,
+            "x": 56.9,
+            "y": 93.8,
+            "endX": 55.0,
+            "endY": 84.4,
+            "exitoso": true
+          },
           {
             "jugador": "Marc Casadó",
             "tipo": "Pass",
@@ -4013,7 +4156,12 @@
             "endY": 69.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Tomás Chory",
+          "portero": false
+        }
       }
     ],
     "corners": [

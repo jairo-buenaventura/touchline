@@ -391,7 +391,68 @@
         "y": 49.6,
         "arco_y": 45.8,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tom Rothe",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 49,
+            "x": 57.1,
+            "y": 94.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Rothe",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 50,
+            "x": 57.1,
+            "y": 94.2,
+            "endX": 58.7,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rani Khedira",
+            "tipo": "BallTouch",
+            "minuto": 28,
+            "segundo": 51,
+            "x": 58.8,
+            "y": 89.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benedict Hollerbach",
+            "tipo": "TakeOn",
+            "minuto": 28,
+            "segundo": 52,
+            "x": 70.2,
+            "y": 82.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benedict Hollerbach",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 56,
+            "x": 91.3,
+            "y": 76.3,
+            "endX": 91.7,
+            "endY": 69.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aleix García",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -3785,6 +3846,94 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 16,
+            "x": 55.6,
+            "y": 0.0,
+            "endX": 49.3,
+            "endY": 7.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 18,
+            "x": 49.4,
+            "y": 7.6,
+            "endX": 36.7,
+            "endY": 16.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edmond Tapsoba",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 21,
+            "x": 36.7,
+            "y": 16.1,
+            "endX": 13.4,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 25,
+            "x": 13.9,
+            "y": 42.7,
+            "endX": 26.7,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 27,
+            "x": 26.7,
+            "y": 91.4,
+            "endX": 36.7,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 29,
+            "x": 36.7,
+            "y": 76.4,
+            "endX": 22.4,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 31,
+            "x": 20.7,
+            "y": 93.2,
+            "endX": 23.0,
+            "endY": 93.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Piero Hincapié",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 41,
+            "x": 23.0,
+            "y": 93.3,
+            "endX": 24.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Piero Hincapié",
             "tipo": "Pass",
             "minuto": 1,
@@ -3839,7 +3988,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Christopher Trimmel",
+          "portero": false
+        }
       },
       {
         "minuto": 4,

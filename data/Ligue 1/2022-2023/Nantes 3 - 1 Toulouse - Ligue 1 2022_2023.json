@@ -455,7 +455,24 @@
         "y": 58.8,
         "arco_y": 53.9,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Aerial",
+            "minuto": 49,
+            "segundo": 39,
+            "x": 95.9,
+            "y": 58.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rasmus Nicolaisen",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -475,6 +492,17 @@
         "arco_y": 54.2,
         "arco_z": 5.1,
         "secuencia_gol": [
+          {
+            "jugador": "Fábio",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 43,
+            "x": 45.5,
+            "y": 0.0,
+            "endX": 59.5,
+            "endY": 10.1,
+            "exitoso": true
+          },
           {
             "jugador": "Evann Guessand",
             "tipo": "TakeOn",
@@ -497,7 +525,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Zakaria Aboukhlal",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -517,6 +550,50 @@
         "arco_y": 48.4,
         "arco_z": 29.7,
         "secuencia_gol": [
+          {
+            "jugador": "Sébastien Corchia",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 57,
+            "x": 71.4,
+            "y": 0.0,
+            "endX": 84.3,
+            "endY": 2.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 0,
+            "x": 84.3,
+            "y": 2.6,
+            "endX": 87.0,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 0,
+            "x": 87.0,
+            "y": 9.2,
+            "endX": 89.7,
+            "endY": 32.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sébastien Corchia",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 3,
+            "x": 89.7,
+            "y": 32.0,
+            "endX": 79.1,
+            "endY": 10.2,
+            "exitoso": true
+          },
           {
             "jugador": "Sébastien Corchia",
             "tipo": "Pass",
@@ -550,7 +627,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rasmus Nicolaisen",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

@@ -4778,6 +4778,17 @@
         "arco_z": 33.5,
         "secuencia_gol": [
           {
+            "jugador": "Lloyd Kelly",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 54,
+            "x": 92.8,
+            "y": 43.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Bremer",
             "tipo": "Pass",
             "minuto": 46,
@@ -4788,7 +4799,12 @@
             "endY": 32.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bryan Cristante",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4816,7 +4832,24 @@
         "y": 60.5,
         "arco_y": 52.0,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 93.1,
+            "y": 53.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Zeki Çelik",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4844,7 +4877,35 @@
         "y": 50.9,
         "arco_y": 53.0,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 76.1,
+            "y": 15.3,
+            "endX": 89.6,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weston McKennie",
+            "tipo": "MissedShots",
+            "minuto": 92,
+            "segundo": 13,
+            "x": 89.6,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Evan Ndicka",
+          "portero": false
+        }
       }
     ],
     "corners": [

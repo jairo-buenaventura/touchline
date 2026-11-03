@@ -951,6 +951,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jude Bellingham",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 14,
+            "x": 69.6,
+            "y": 33.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 15,
+            "x": 70.7,
+            "y": 37.1,
+            "endX": 74.0,
+            "endY": 38.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 17,
+            "x": 74.0,
+            "y": 38.3,
+            "endX": 69.8,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Federico Valverde",
             "tipo": "Pass",
             "minuto": 50,
@@ -994,7 +1027,12 @@
             "endY": 70.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Aitor Paredes",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

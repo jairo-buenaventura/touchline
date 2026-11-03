@@ -809,6 +809,39 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Mark Delgado",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 44,
+            "x": 34.7,
+            "y": 36.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 46,
+            "x": 34.7,
+            "y": 36.3,
+            "endX": 38.3,
+            "endY": 36.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 47,
+            "x": 38.3,
+            "y": 36.0,
+            "endX": 46.3,
+            "endY": 31.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Pec",
             "tipo": "Pass",
             "minuto": 56,
@@ -1006,7 +1039,12 @@
             "endY": 67.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Eryk Williamson",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

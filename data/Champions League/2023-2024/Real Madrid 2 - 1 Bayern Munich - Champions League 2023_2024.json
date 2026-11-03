@@ -553,6 +553,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Eduardo Camavinga",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 56,
+            "x": 91.2,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduardo Camavinga",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 56,
+            "x": 91.2,
+            "y": 49.9,
+            "endX": 92.9,
+            "endY": 41.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nacho",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 0,
+            "x": 92.9,
+            "y": 41.2,
+            "endX": 87.2,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nacho",
             "tipo": "Pass",
             "minuto": 90,
@@ -574,7 +607,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Aleksandar Pavlovic",
+          "portero": false
+        }
       }
     ],
     "corners": [

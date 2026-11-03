@@ -522,6 +522,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Tim Kleindienst",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 62.1,
+            "y": 83.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Kleindienst",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 61.2,
+            "y": 80.6,
+            "endX": 68.4,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Dinkçi",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 42,
+            "x": 68.4,
+            "y": 65.5,
+            "endX": 71.9,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Dinkçi",
+            "tipo": "TakeOn",
+            "minuto": 21,
+            "segundo": 42,
+            "x": 71.9,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Eren Dinkçi",
             "tipo": "TakeOn",
             "minuto": 21,
@@ -532,7 +576,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Timo Hübers",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -551,7 +600,57 @@
         "y": 60.9,
         "arco_y": 46.2,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tim Kleindienst",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 6,
+            "x": 73.3,
+            "y": 86.8,
+            "endX": 85.4,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Beste",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 9,
+            "x": 85.4,
+            "y": 94.8,
+            "endX": 77.1,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 77.1,
+            "y": 83.8,
+            "endX": 78.8,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 78.8,
+            "y": 88.3,
+            "endX": 86.8,
+            "endY": 48.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dominique Heintz",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

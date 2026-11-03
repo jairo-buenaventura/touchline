@@ -5170,6 +5170,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nahuel Molina",
+            "tipo": "BallRecovery",
+            "minuto": 28,
+            "segundo": 52,
+            "x": 80.8,
+            "y": 18.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Molina",
             "tipo": "TakeOn",
             "minuto": 28,
             "segundo": 53,
@@ -5234,7 +5245,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pepelu",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

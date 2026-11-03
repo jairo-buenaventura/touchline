@@ -668,6 +668,72 @@
         "secuencia_gol": [
           {
             "jugador": "Daan Rots",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 3,
+            "x": 52.6,
+            "y": 17.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 3,
+            "x": 52.6,
+            "y": 17.1,
+            "endX": 42.8,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Brenet",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 5,
+            "x": 42.6,
+            "y": 18.9,
+            "endX": 55.3,
+            "endY": 30.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anass Salah-Eddine",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 6,
+            "x": 55.3,
+            "y": 30.0,
+            "endX": 63.0,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 7,
+            "x": 63.0,
+            "y": 25.6,
+            "endX": 62.5,
+            "endY": 22.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 10,
+            "x": 62.5,
+            "y": 22.7,
+            "endX": 61.4,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
             "tipo": "Pass",
             "minuto": 76,
             "segundo": 10,
@@ -688,7 +754,12 @@
             "endY": 41.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Metinho",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

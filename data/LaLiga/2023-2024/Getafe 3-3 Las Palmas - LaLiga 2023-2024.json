@@ -425,7 +425,57 @@
         "y": 36.8,
         "arco_y": 47.6,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Rico",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 36.8,
+            "y": 83.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rico",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 39,
+            "x": 40.7,
+            "y": 75.6,
+            "endX": 69.0,
+            "endY": 40.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 43,
+            "x": 69.0,
+            "y": 40.1,
+            "endX": 80.8,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "TakeOn",
+            "minuto": 13,
+            "segundo": 43,
+            "x": 80.8,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Álvaro Valles",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -3911,6 +3961,39 @@
         "secuencia_gol": [
           {
             "jugador": "Alberto Moleiro",
+            "tipo": "CornerAwarded",
+            "minuto": 48,
+            "segundo": 28,
+            "x": 85.4,
+            "y": 72.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Ramírez",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 58,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.0,
+            "endY": 45.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alberto Moleiro",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 3,
+            "x": 89.0,
+            "y": 45.5,
+            "endX": 69.2,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alberto Moleiro",
             "tipo": "Pass",
             "minuto": 49,
             "segundo": 3,
@@ -3942,7 +4025,12 @@
             "endY": 48.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Juan Iglesias",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

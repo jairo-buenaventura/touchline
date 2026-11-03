@@ -407,6 +407,28 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Álex Baena",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 4,
+            "x": 98.8,
+            "y": 95.6,
+            "endX": 87.9,
+            "endY": 41.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 8,
+            "x": 87.9,
+            "y": 41.3,
+            "endX": 66.7,
+            "endY": 35.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Robin Le Normand",
             "tipo": "Pass",
             "minuto": 20,
@@ -428,7 +450,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Vitor Reis",
+          "portero": false
+        }
       },
       {
         "minuto": 26,

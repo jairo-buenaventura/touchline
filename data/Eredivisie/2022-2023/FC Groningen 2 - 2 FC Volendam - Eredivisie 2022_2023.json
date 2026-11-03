@@ -444,6 +444,39 @@
         "secuencia_gol": [
           {
             "jugador": "Cyril Ngonge",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 47,
+            "x": 63.4,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Lundqvist",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 48,
+            "x": 68.7,
+            "y": 5.6,
+            "endX": 68.7,
+            "endY": 11.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyril Ngonge",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 50,
+            "x": 68.7,
+            "y": 11.9,
+            "endX": 72.9,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyril Ngonge",
             "tipo": "TakeOn",
             "minuto": 33,
             "segundo": 50,
@@ -464,7 +497,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Benaissa Benamar",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4731,7 +4769,24 @@
         "y": 53.4,
         "arco_y": 48.7,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Benaissa Benamar",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 18,
+            "x": 94.8,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Laros Duarte",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

@@ -395,6 +395,17 @@
         "secuencia_gol": [
           {
             "jugador": "Younes Namli",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 11,
+            "x": 29.8,
+            "y": 5.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
             "tipo": "TakeOn",
             "minuto": 6,
             "segundo": 13,
@@ -437,7 +448,12 @@
             "endY": 62.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mateo Chávez",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

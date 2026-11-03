@@ -517,6 +517,50 @@
           {
             "jugador": "Rafael Czichos",
             "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 49,
+            "x": 65.7,
+            "y": 55.5,
+            "endX": 79.8,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 53,
+            "x": 79.8,
+            "y": 92.7,
+            "endX": 87.3,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Navarro",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 53,
+            "x": 87.3,
+            "y": 91.5,
+            "endX": 90.9,
+            "endY": 53.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rafael Czichos",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 0,
+            "x": 90.9,
+            "y": 53.1,
+            "endX": 64.4,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Czichos",
+            "tipo": "Pass",
             "minuto": 88,
             "segundo": 0,
             "x": 64.4,
@@ -569,7 +613,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Miles Robinson",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -4181,7 +4230,24 @@
         "y": 39.8,
         "arco_y": 52.0,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "SavedShot",
+            "minuto": 28,
+            "segundo": 6,
+            "x": 80.4,
+            "y": 65.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Chris Brady",
+          "portero": true
+        }
       },
       {
         "minuto": 37,
@@ -4390,6 +4456,61 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Andrew Gutman",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 52,
+            "x": 42.0,
+            "y": 88.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Gutman",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 53,
+            "x": 42.5,
+            "y": 89.0,
+            "endX": 58.7,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 56,
+            "x": 58.7,
+            "y": 81.2,
+            "endX": 67.2,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 56,
+            "x": 67.2,
+            "y": 65.1,
+            "endX": 80.3,
+            "endY": 63.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgos Giakoumakis",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 59,
+            "x": 80.3,
+            "y": 63.5,
+            "endX": 85.4,
+            "endY": 60.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Giorgos Giakoumakis",
             "tipo": "TakeOn",
             "minuto": 63,
@@ -4400,7 +4521,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chris Brady",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

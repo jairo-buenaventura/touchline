@@ -5123,6 +5123,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Elliot Anderson",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 1,
+            "x": 55.3,
+            "y": 91.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elliot Anderson",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 3,
+            "x": 65.1,
+            "y": 83.8,
+            "endX": 80.1,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Anthony Gordon",
             "tipo": "TakeOn",
             "minuto": 46,
@@ -5144,7 +5166,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kristoffer Ajer",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

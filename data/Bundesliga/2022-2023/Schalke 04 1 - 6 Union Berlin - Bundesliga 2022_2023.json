@@ -4581,7 +4581,24 @@
         "y": 53.4,
         "arco_y": 51.0,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Morten Thorsby",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 49,
+            "x": 95.9,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Simon Terodde",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4699,7 +4716,35 @@
         "y": 48.2,
         "arco_y": 51.1,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diogo Leite",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 8,
+            "x": 61.0,
+            "y": 72.0,
+            "endX": 56.6,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danilho Doekhi",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 11,
+            "x": 56.5,
+            "y": 52.5,
+            "endX": 86.0,
+            "endY": 52.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maya Yoshida",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4709,7 +4754,24 @@
         "y": 59.2,
         "arco_y": 48.3,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Niko Gießelmann",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 1,
+            "x": 87.4,
+            "y": 5.3,
+            "endX": 86.2,
+            "endY": 47.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dominick Drexler",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -4768,6 +4830,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kevin Behrens",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 75.2,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Behrens",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 50,
@@ -4777,7 +4850,12 @@
             "endY": 68.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maya Yoshida",
+          "portero": false
+        }
       }
     ],
     "corners": [

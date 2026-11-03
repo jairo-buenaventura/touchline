@@ -363,7 +363,57 @@
         "y": 40.7,
         "arco_y": 52.8,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 29,
+            "x": 60.4,
+            "y": 16.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 33,
+            "x": 67.6,
+            "y": 21.0,
+            "endX": 79.7,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Conteh",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 35,
+            "x": 79.7,
+            "y": 67.0,
+            "endX": 85.7,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Conteh",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 35,
+            "x": 85.7,
+            "y": 65.2,
+            "endX": 88.5,
+            "endY": 63.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ramon Hendriks",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -440,7 +490,35 @@
         "y": 43.3,
         "arco_y": 46.7,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 63.8,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arijon Ibrahimovic",
+            "tipo": "SavedShot",
+            "minuto": 81,
+            "segundo": 52,
+            "x": 86.7,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alexander Nübel",
+          "portero": true
+        }
       },
       {
         "minuto": 93,
@@ -3888,6 +3966,72 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Nikolas Nartey",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 22,
+            "x": 33.5,
+            "y": 76.3,
+            "endX": 25.4,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeff Chabot",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 24,
+            "x": 27.1,
+            "y": 63.0,
+            "endX": 24.7,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ramon Hendriks",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 28,
+            "x": 24.7,
+            "y": 14.0,
+            "endX": 36.4,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josha Vagnoman",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 32,
+            "x": 36.4,
+            "y": 4.9,
+            "endX": 48.2,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josha Vagnoman",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 32,
+            "x": 48.2,
+            "y": 4.3,
+            "endX": 49.2,
+            "endY": 5.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josha Vagnoman",
+            "tipo": "Carry",
+            "minuto": 87,
+            "segundo": 37,
+            "x": 49.2,
+            "y": 5.3,
+            "endX": 49.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Josha Vagnoman",
             "tipo": "Pass",
             "minuto": 87,
@@ -4030,7 +4174,12 @@
             "endY": 41.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Hennes Behrens",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

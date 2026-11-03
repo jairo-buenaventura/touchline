@@ -4965,6 +4965,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Armel Bella-Kotchap",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 56.0,
+            "y": 90.9,
+            "endX": 72.8,
+            "endY": 94.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Bernede",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 72.8,
+            "y": 94.5,
+            "endX": 77.4,
+            "endY": 94.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolás Valentini",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 29,
+            "x": 77.4,
+            "y": 94.7,
+            "endX": 79.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolás Valentini",
             "tipo": "Pass",
             "minuto": 92,
@@ -4997,7 +5030,12 @@
             "endY": 58.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Niccolò Fortini",
+          "portero": false
+        }
       }
     ],
     "corners": [

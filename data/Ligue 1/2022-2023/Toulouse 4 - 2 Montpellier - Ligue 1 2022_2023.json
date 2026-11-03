@@ -878,6 +878,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Issiaga Sylla",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 25,
+            "x": 79.4,
+            "y": 100.0,
+            "endX": 84.4,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Branco van den Boomen",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 26,
+            "x": 85.6,
+            "y": 87.2,
+            "endX": 93.6,
+            "endY": 96.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issiaga Sylla",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 29,
+            "x": 93.6,
+            "y": 96.6,
+            "endX": 96.9,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issiaga Sylla",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 29,
+            "x": 96.9,
+            "y": 97.5,
+            "endX": 93.1,
+            "endY": 56.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Zakaria Aboukhlal",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 31,
+            "x": 93.1,
+            "y": 56.3,
+            "endX": 86.5,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Zakaria Aboukhlal",
             "tipo": "BallTouch",
             "minuto": 47,
@@ -888,7 +943,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Enzo Tchato",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -4556,7 +4616,46 @@
         "y": 36.9,
         "arco_y": 49.4,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Téji Savanier",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 59,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 87.1,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wahbi Khazri",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 2,
+            "x": 87.1,
+            "y": 42.1,
+            "endX": 83.1,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wahbi Khazri",
+            "tipo": "SavedShot",
+            "minuto": 6,
+            "segundo": 2,
+            "x": 83.1,
+            "y": 36.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maxime Dupé",
+          "portero": true
+        }
       },
       {
         "minuto": 12,
@@ -4676,6 +4775,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Falaye Sacko",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 22,
+            "x": 59.5,
+            "y": 0.0,
+            "endX": 62.5,
+            "endY": 16.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Téji Savanier",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 24,
+            "x": 62.5,
+            "y": 16.7,
+            "endX": 65.8,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Téji Savanier",
             "tipo": "TakeOn",
             "minuto": 67,
@@ -4719,7 +4840,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Branco van den Boomen",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

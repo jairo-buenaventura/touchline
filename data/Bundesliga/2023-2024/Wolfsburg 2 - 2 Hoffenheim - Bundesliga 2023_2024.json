@@ -447,6 +447,83 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Sebastiaan Bornauw",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 73.3,
+            "y": 34.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastiaan Bornauw",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 34,
+            "x": 73.3,
+            "y": 32.3,
+            "endX": 78.0,
+            "endY": 18.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Wind",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 39,
+            "x": 78.0,
+            "y": 18.6,
+            "endX": 81.2,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Wind",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 39,
+            "x": 81.2,
+            "y": 4.6,
+            "endX": 89.1,
+            "endY": 14.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattias Svanberg",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 41,
+            "x": 89.1,
+            "y": 14.3,
+            "endX": 92.6,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattias Svanberg",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 41,
+            "x": 92.6,
+            "y": 10.3,
+            "endX": 92.8,
+            "endY": 15.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kevin Behrens",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 43,
+            "x": 92.8,
+            "y": 15.1,
+            "endX": 89.6,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Kevin Behrens",
             "tipo": "Pass",
             "minuto": 57,
@@ -457,7 +534,12 @@
             "endY": 36.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Grischa Prömel",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4243,6 +4325,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Ozan Kabak",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 21,
+            "x": 24.4,
+            "y": 35.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ozan Kabak",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 21,
+            "x": 24.3,
+            "y": 35.7,
+            "endX": 31.7,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 25,
+            "x": 31.7,
+            "y": 55.1,
+            "endX": 44.0,
+            "endY": 58.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 25,
+            "x": 44.0,
+            "y": 58.8,
+            "endX": 69.9,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maximilian Beier",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 30,
+            "x": 69.9,
+            "y": 81.4,
+            "endX": 86.6,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Maximilian Beier",
             "tipo": "TakeOn",
             "minuto": 5,
@@ -4253,7 +4390,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sebastiaan Bornauw",
+          "portero": false
+        }
       },
       {
         "minuto": 11,

@@ -631,6 +631,17 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Frederik Rønnow",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 17,
+            "x": 5.2,
+            "y": 37.4,
+            "endX": 62.7,
+            "endY": 28.6,
+            "exitoso": false
+          },
+          {
             "jugador": "Andrej Ilic",
             "tipo": "Pass",
             "minuto": 92,
@@ -663,7 +674,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Xaver Schlager",
+          "portero": false
+        }
       }
     ],
     "corners": [

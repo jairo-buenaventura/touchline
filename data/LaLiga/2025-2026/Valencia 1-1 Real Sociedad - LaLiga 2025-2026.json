@@ -4297,6 +4297,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Pablo Marín",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 29,
+            "x": 53.9,
+            "y": 89.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Marín",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 30,
+            "x": 53.4,
+            "y": 89.1,
+            "endX": 55.3,
+            "endY": 89.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ander Barrenetxea",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 55.3,
+            "y": 89.9,
+            "endX": 46.7,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Ander Barrenetxea",
             "tipo": "Pass",
             "minuto": 59,
@@ -4329,7 +4362,12 @@
             "endY": 47.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Javi Guerra",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

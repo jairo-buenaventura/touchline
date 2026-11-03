@@ -491,6 +491,149 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Jordi Alba",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 58,
+            "x": 94.8,
+            "y": 95.6,
+            "endX": 71.5,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Busquets",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 2,
+            "x": 72.3,
+            "y": 81.7,
+            "endX": 73.3,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamín Cremaschi",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 4,
+            "x": 73.1,
+            "y": 93.3,
+            "endX": 58.3,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 7,
+            "x": 60.2,
+            "y": 83.2,
+            "endX": 48.1,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Avilés",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 12,
+            "x": 48.1,
+            "y": 44.0,
+            "endX": 51.2,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Avilés",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 12,
+            "x": 51.2,
+            "y": 44.0,
+            "endX": 56.1,
+            "endY": 77.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 16,
+            "x": 56.1,
+            "y": 77.3,
+            "endX": 65.0,
+            "endY": 77.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 16,
+            "x": 65.0,
+            "y": 77.5,
+            "endX": 72.4,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 18,
+            "x": 72.4,
+            "y": 66.7,
+            "endX": 79.2,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Taylor",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 19,
+            "x": 79.2,
+            "y": 67.8,
+            "endX": 77.5,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Taylor",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 19,
+            "x": 77.5,
+            "y": 63.8,
+            "endX": 90.5,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Martínez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 21,
+            "x": 92.7,
+            "y": 72.8,
+            "endX": 87.6,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Suárez",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 22,
+            "x": 87.6,
+            "y": 47.0,
+            "endX": 89.1,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Suárez",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -501,7 +644,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matt Polster",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -6023,7 +6171,57 @@
         "y": 37.8,
         "arco_y": 47.1,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alhassan Yusuf",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 2,
+            "x": 32.1,
+            "y": 33.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alhassan Yusuf",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 7,
+            "x": 61.5,
+            "y": 30.7,
+            "endX": 71.1,
+            "endY": 29.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luca Langoni",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 11,
+            "x": 71.1,
+            "y": 29.5,
+            "endX": 88.2,
+            "endY": 28.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Langoni",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 11,
+            "x": 88.2,
+            "y": 28.2,
+            "endX": 88.5,
+            "endY": 32.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Tomás Avilés",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

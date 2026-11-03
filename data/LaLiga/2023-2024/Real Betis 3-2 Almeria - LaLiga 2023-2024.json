@@ -439,6 +439,28 @@
         "secuencia_gol": [
           {
             "jugador": "Isco",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 26,
+            "x": 88.3,
+            "y": 72.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
+            "tipo": "TakeOn",
+            "minuto": 63,
+            "segundo": 26,
+            "x": 86.2,
+            "y": 74.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
             "tipo": "Pass",
             "minuto": 63,
             "segundo": 27,
@@ -448,7 +470,12 @@
             "endY": 60.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chumi",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

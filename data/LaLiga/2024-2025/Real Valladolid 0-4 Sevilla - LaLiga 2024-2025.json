@@ -4504,6 +4504,28 @@
         "arco_z": 33.5,
         "secuencia_gol": [
           {
+            "jugador": "Rubén Vargas",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 35,
+            "x": 65.1,
+            "y": 95.7,
+            "endX": 58.9,
+            "endY": 91.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrià Pedrosa",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 36,
+            "x": 58.9,
+            "y": 91.6,
+            "endX": 59.0,
+            "endY": 85.4,
+            "exitoso": false
+          },
+          {
             "jugador": "Djibril Sow",
             "tipo": "Pass",
             "minuto": 3,
@@ -4811,7 +4833,12 @@
             "endY": 56.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Florian Grillitsch",
+          "portero": false
+        }
       },
       {
         "minuto": 9,

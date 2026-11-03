@@ -635,7 +635,90 @@
         "y": 36.8,
         "arco_y": 49.2,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mathieu Choinière",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 44,
+            "x": 10.3,
+            "y": 21.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathieu Choinière",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 10.2,
+            "y": 22.4,
+            "endX": 3.5,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "George Campbell",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 46,
+            "x": 3.5,
+            "y": 15.3,
+            "endX": 31.8,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassi Lappalainen",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 49,
+            "x": 34.5,
+            "y": 33.7,
+            "endX": 46.8,
+            "endY": 20.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Toye",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 53,
+            "x": 46.4,
+            "y": 21.5,
+            "endX": 60.1,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ariel Lassiter",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 1,
+            "x": 60.1,
+            "y": 79.3,
+            "endX": 88.5,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ariel Lassiter",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 1,
+            "x": 88.5,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "David Bingham",
+          "portero": true
+        }
       },
       {
         "minuto": 82,
@@ -4526,6 +4609,50 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Felipe Mora",
+            "tipo": "Aerial",
+            "minuto": 85,
+            "segundo": 5,
+            "x": 88.3,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Juan Mosquera",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 10,
+            "x": 73.4,
+            "y": 9.1,
+            "endX": 69.8,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Chará",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 12,
+            "x": 70.2,
+            "y": 23.4,
+            "endX": 92.0,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yimmi Chará",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 15,
+            "x": 92.6,
+            "y": 28.1,
+            "endX": 93.5,
+            "endY": 29.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Yimmi Chará",
             "tipo": "Pass",
             "minuto": 85,
@@ -4536,7 +4663,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Gabriele Corbo",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

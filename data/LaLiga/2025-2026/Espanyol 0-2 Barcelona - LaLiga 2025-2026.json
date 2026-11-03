@@ -3687,6 +3687,94 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Frenkie de Jong",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 2,
+            "x": 23.5,
+            "y": 63.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 2,
+            "x": 23.5,
+            "y": 63.4,
+            "endX": 19.5,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 5,
+            "x": 19.5,
+            "y": 74.8,
+            "endX": 19.2,
+            "endY": 66.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 5,
+            "x": 19.2,
+            "y": 66.1,
+            "endX": 25.9,
+            "endY": 24.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 11,
+            "x": 25.9,
+            "y": 24.0,
+            "endX": 37.0,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 11,
+            "x": 37.0,
+            "y": 10.0,
+            "endX": 43.3,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 14,
+            "x": 43.3,
+            "y": 23.7,
+            "endX": 59.5,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fermín López",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 17,
+            "x": 59.5,
+            "y": 32.7,
+            "endX": 65.5,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Fermín López",
             "tipo": "TakeOn",
             "minuto": 85,
@@ -3708,7 +3796,12 @@
             "endY": 65.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leandro Cabrera",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -3747,6 +3840,83 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Pedri",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 47,
+            "x": 19.2,
+            "y": 7.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pedri",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 48,
+            "x": 18.7,
+            "y": 6.5,
+            "endX": 21.2,
+            "endY": 4.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 6,
+            "x": 21.2,
+            "y": 4.3,
+            "endX": 20.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 6,
+            "x": 20.6,
+            "y": 0.0,
+            "endX": 39.3,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Lewandowski",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 8,
+            "x": 39.3,
+            "y": 9.8,
+            "endX": 43.0,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 10,
+            "x": 43.0,
+            "y": 3.7,
+            "endX": 65.6,
+            "endY": 20.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fermín López",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 65.6,
+            "y": 20.6,
+            "endX": 80.4,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Fermín López",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -3768,7 +3938,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Omar El Hilali",
+          "portero": false
+        }
       }
     ],
     "corners": [

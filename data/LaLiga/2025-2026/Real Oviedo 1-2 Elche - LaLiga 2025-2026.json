@@ -4670,6 +4670,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Rodríguez",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 52,
+            "x": 54.6,
+            "y": 4.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Rodríguez",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 53,
+            "x": 56.2,
+            "y": 5.0,
+            "endX": 83.0,
+            "endY": 7.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Buba Sangaré",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 12,
+            "x": 83.0,
+            "y": 7.9,
+            "endX": 88.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Buba Sangaré",
             "tipo": "Pass",
             "minuto": 5,
@@ -4724,7 +4757,12 @@
             "endY": 57.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Carmo",
+          "portero": false
+        }
       },
       {
         "minuto": 15,

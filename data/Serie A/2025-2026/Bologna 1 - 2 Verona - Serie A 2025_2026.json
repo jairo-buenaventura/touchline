@@ -461,6 +461,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jonathan Rowe",
+            "tipo": "Tackle",
+            "minuto": 48,
+            "segundo": 27,
+            "x": 69.0,
+            "y": 53.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Rowe",
             "tipo": "Pass",
             "minuto": 48,
             "segundo": 31,
@@ -492,7 +503,12 @@
             "endY": 44.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Roberto Gagliardini",
+          "portero": false
+        }
       },
       {
         "minuto": 77,
@@ -4790,7 +4806,24 @@
         "y": 51.5,
         "arco_y": 46.0,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kieron Bowie",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 37,
+            "x": 92.6,
+            "y": 42.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jhon Lucumí",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4801,6 +4834,61 @@
         "arco_y": 51.0,
         "arco_z": 1.3,
         "secuencia_gol": [
+          {
+            "jugador": "Lorenzo Montipò",
+            "tipo": "Claim",
+            "minuto": 56,
+            "segundo": 8,
+            "x": 4.4,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Montipò",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 15,
+            "x": 13.7,
+            "y": 61.1,
+            "endX": 20.5,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 16,
+            "x": 20.5,
+            "y": 86.5,
+            "endX": 41.7,
+            "endY": 92.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdou Harroui",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 18,
+            "x": 41.7,
+            "y": 92.2,
+            "endX": 45.0,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdou Harroui",
+            "tipo": "TakeOn",
+            "minuto": 56,
+            "segundo": 18,
+            "x": 45.0,
+            "y": 93.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Abdou Harroui",
             "tipo": "Pass",
@@ -4823,7 +4911,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Martin Vitík",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

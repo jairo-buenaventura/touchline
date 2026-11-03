@@ -434,7 +434,68 @@
         "y": 67.0,
         "arco_y": 45.8,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 29,
+            "x": 65.5,
+            "y": 87.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Augusto",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 30,
+            "x": 65.3,
+            "y": 87.7,
+            "endX": 67.2,
+            "endY": 74.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 31,
+            "x": 67.0,
+            "y": 74.4,
+            "endX": 72.3,
+            "endY": 84.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 72.3,
+            "y": 84.0,
+            "endX": 83.3,
+            "endY": 82.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 83.3,
+            "y": 82.2,
+            "endX": 89.5,
+            "endY": 59.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "James Abankwah",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -455,6 +516,50 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Andy Diouf",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 9,
+            "x": 74.5,
+            "y": 28.2,
+            "endX": 80.6,
+            "endY": 36.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 10,
+            "x": 80.6,
+            "y": 36.0,
+            "endX": 83.9,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 10,
+            "x": 83.9,
+            "y": 35.1,
+            "endX": 89.2,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 11,
+            "x": 89.5,
+            "y": 25.3,
+            "endX": 87.9,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolò Barella",
             "tipo": "TakeOn",
             "minuto": 34,
@@ -465,7 +570,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Enzo Ebosse",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -728,6 +838,193 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Nicolò Barella",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 57,
+            "x": 51.9,
+            "y": 15.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 57,
+            "x": 51.9,
+            "y": 15.1,
+            "endX": 52.6,
+            "endY": 15.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 52.6,
+            "y": 15.1,
+            "endX": 55.3,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 55.3,
+            "y": 22.3,
+            "endX": 64.3,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 3,
+            "x": 64.3,
+            "y": 15.1,
+            "endX": 68.5,
+            "endY": 14.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 3,
+            "x": 68.5,
+            "y": 14.1,
+            "endX": 72.1,
+            "endY": 7.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 6,
+            "x": 72.1,
+            "y": 7.4,
+            "endX": 86.0,
+            "endY": 12.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 6,
+            "x": 86.0,
+            "y": 12.4,
+            "endX": 76.6,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 8,
+            "x": 76.5,
+            "y": 19.7,
+            "endX": 76.9,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 9,
+            "x": 76.9,
+            "y": 28.8,
+            "endX": 74.7,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 13,
+            "x": 74.7,
+            "y": 9.8,
+            "endX": 71.4,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 13,
+            "x": 71.4,
+            "y": 9.4,
+            "endX": 64.0,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Akanji",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 21,
+            "x": 63.5,
+            "y": 21.5,
+            "endX": 58.7,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 23,
+            "x": 58.5,
+            "y": 8.9,
+            "endX": 69.3,
+            "endY": 5.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 26,
+            "x": 69.3,
+            "y": 5.7,
+            "endX": 75.6,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 26,
+            "x": 75.6,
+            "y": 5.6,
+            "endX": 85.0,
+            "endY": 33.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Manuel Akanji",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 31,
+            "x": 85.0,
+            "y": 33.0,
+            "endX": 61.0,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Manuel Akanji",
             "tipo": "BallTouch",
             "minuto": 66,
@@ -793,7 +1090,12 @@
             "endY": 44.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Enzo Ebosse",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -839,7 +1141,112 @@
         "y": 53.6,
         "arco_y": 49.0,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 32,
+            "x": 37.3,
+            "y": 28.2,
+            "endX": 62.9,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 36,
+            "x": 62.9,
+            "y": 92.0,
+            "endX": 68.9,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 36,
+            "x": 68.9,
+            "y": 89.1,
+            "endX": 71.1,
+            "endY": 58.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 37,
+            "x": 71.1,
+            "y": 58.1,
+            "endX": 75.1,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 37,
+            "x": 75.1,
+            "y": 54.0,
+            "endX": 78.6,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 37,
+            "x": 78.6,
+            "y": 59.1,
+            "endX": 79.1,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Diouf",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 37,
+            "x": 79.1,
+            "y": 62.6,
+            "endX": 86.0,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Curtis Jones",
+            "tipo": "BallTouch",
+            "minuto": 78,
+            "segundo": 38,
+            "x": 86.6,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "SavedShot",
+            "minuto": 78,
+            "segundo": 41,
+            "x": 89.3,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maduka Okoye",
+          "portero": true
+        }
       },
       {
         "minuto": 88,
@@ -5558,6 +5965,17 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Keinan Davis",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 7,
+            "x": 91.9,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Unai Gómez",
             "tipo": "Pass",
             "minuto": 8,
@@ -5568,7 +5986,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Carlos Augusto",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -5620,6 +6043,127 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Idrissa Gueye",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 27,
+            "x": 25.6,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Idrissa Gueye",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 28,
+            "x": 30.9,
+            "y": 53.8,
+            "endX": 54.7,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vakoun Bayo",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 54.7,
+            "y": 76.9,
+            "endX": 54.8,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vakoun Bayo",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 54.8,
+            "y": 73.8,
+            "endX": 52.9,
+            "endY": 56.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 36,
+            "x": 52.9,
+            "y": 56.8,
+            "endX": 54.6,
+            "endY": 46.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 36,
+            "x": 54.6,
+            "y": 46.1,
+            "endX": 58.3,
+            "endY": 24.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Chakvetadze",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 39,
+            "x": 60.6,
+            "y": 25.6,
+            "endX": 89.6,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassane Kamara",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 48,
+            "x": 89.6,
+            "y": 5.6,
+            "endX": 90.8,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassane Kamara",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 48,
+            "x": 90.8,
+            "y": 26.8,
+            "endX": 77.2,
+            "endY": 21.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 49,
+            "x": 77.3,
+            "y": 21.8,
+            "endX": 85.6,
+            "endY": 51.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "James Abankwah",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 54,
+            "x": 85.6,
+            "y": 51.4,
+            "endX": 63.0,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
             "jugador": "James Abankwah",
             "tipo": "Pass",
             "minuto": 89,
@@ -5663,7 +6207,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Benjamin Pavard",
+          "portero": false
+        }
       }
     ],
     "corners": [

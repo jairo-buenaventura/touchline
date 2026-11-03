@@ -389,6 +389,39 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "César de la Hoz",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 4,
+            "x": 80.0,
+            "y": 43.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "César de la Hoz",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 4,
+            "x": 79.1,
+            "y": 42.7,
+            "endX": 86.9,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergio Akieme",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 8,
+            "x": 86.9,
+            "y": 49.3,
+            "endX": 66.7,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Sergio Akieme",
             "tipo": "Pass",
             "minuto": 12,
@@ -586,7 +619,12 @@
             "endY": 42.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Arnau Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -3912,7 +3950,57 @@
         "y": 47.0,
         "arco_y": 49.5,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aleix García",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 13,
+            "x": 20.9,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 13,
+            "x": 22.2,
+            "y": 60.8,
+            "endX": 28.9,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 28.9,
+            "y": 78.7,
+            "endX": 35.0,
+            "endY": 80.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 35.0,
+            "y": 80.4,
+            "endX": 70.5,
+            "endY": 42.8,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "KeeperSweeper",
+          "jugador": "Fernando Martínez",
+          "portero": true
+        }
       },
       {
         "minuto": 54,

@@ -4748,6 +4748,204 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Hannes Wolf",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 14,
+            "x": 48.5,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hannes Wolf",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 15,
+            "x": 48.5,
+            "y": 57.3,
+            "endX": 29.0,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Sands",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 16,
+            "x": 29.0,
+            "y": 63.1,
+            "endX": 28.7,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 19,
+            "x": 28.7,
+            "y": 36.9,
+            "endX": 36.8,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 23,
+            "x": 36.8,
+            "y": 11.7,
+            "endX": 33.1,
+            "endY": 12.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 23,
+            "x": 33.1,
+            "y": 12.7,
+            "endX": 12.2,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 25,
+            "x": 12.2,
+            "y": 18.9,
+            "endX": 4.8,
+            "endY": 48.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Freese",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 28,
+            "x": 4.3,
+            "y": 48.1,
+            "endX": 9.1,
+            "endY": 86.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Cavallo",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 9.1,
+            "y": 86.5,
+            "endX": 8.7,
+            "endY": 90.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Cavallo",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 8.7,
+            "y": 90.4,
+            "endX": 15.1,
+            "endY": 78.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 38,
+            "x": 15.1,
+            "y": 78.9,
+            "endX": 15.4,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 38,
+            "x": 15.4,
+            "y": 83.5,
+            "endX": 8.7,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Sands",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 40,
+            "x": 8.7,
+            "y": 71.5,
+            "endX": 10.8,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 43,
+            "x": 10.8,
+            "y": 29.2,
+            "endX": 36.4,
+            "endY": 7.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Fernández Mercau",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 47,
+            "x": 35.8,
+            "y": 5.5,
+            "endX": 31.8,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Shore",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 48,
+            "x": 32.1,
+            "y": 21.0,
+            "endX": 30.0,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 53,
+            "x": 31.0,
+            "y": 31.3,
+            "endX": 73.8,
+            "endY": 15.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Agustín Ojeda",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 55,
+            "x": 73.8,
+            "y": 15.1,
+            "endX": 93.5,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Agustín Ojeda",
             "tipo": "Pass",
             "minuto": 60,
@@ -4758,7 +4956,12 @@
             "endY": 46.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Philip Quinton",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

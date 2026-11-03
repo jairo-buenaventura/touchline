@@ -476,6 +476,127 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Joe Gomez",
+            "tipo": "BallRecovery",
+            "minuto": 45,
+            "segundo": 25,
+            "x": 11.3,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Gomez",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 27,
+            "x": 7.7,
+            "y": 24.2,
+            "endX": 11.6,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 28,
+            "x": 11.6,
+            "y": 30.1,
+            "endX": 7.6,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 30,
+            "x": 7.2,
+            "y": 7.5,
+            "endX": 11.4,
+            "endY": 9.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alisson Becker",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 37,
+            "x": 11.4,
+            "y": 9.8,
+            "endX": 4.5,
+            "endY": 44.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alisson Becker",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 37,
+            "x": 4.5,
+            "y": 44.3,
+            "endX": 24.3,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 41,
+            "x": 24.3,
+            "y": 76.2,
+            "endX": 31.3,
+            "endY": 76.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 41,
+            "x": 31.3,
+            "y": 76.5,
+            "endX": 41.0,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 43,
+            "x": 41.0,
+            "y": 66.7,
+            "endX": 59.8,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 45,
+            "x": 60.6,
+            "y": 75.8,
+            "endX": 78.4,
+            "endY": 85.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cody Gakpo",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 48,
+            "x": 78.4,
+            "y": 85.6,
+            "endX": 82.0,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Cody Gakpo",
             "tipo": "TakeOn",
             "minuto": 45,
@@ -486,7 +607,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "James Justin",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -605,6 +731,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 45,
+            "x": 39.6,
+            "y": 31.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 45,
+            "x": 39.8,
+            "y": 30.7,
+            "endX": 38.6,
+            "endY": 38.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cody Gakpo",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 48,
+            "x": 38.6,
+            "y": 38.0,
+            "endX": 47.7,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Cody Gakpo",
             "tipo": "Pass",
             "minuto": 81,
@@ -615,7 +774,12 @@
             "endY": 10.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jordan Ayew",
+          "portero": false
+        }
       }
     ],
     "corners": [

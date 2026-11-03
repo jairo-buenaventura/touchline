@@ -477,6 +477,28 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.2,
+            "endY": 52.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Geoff Cameron",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 35,
+            "x": 94.2,
+            "y": 52.6,
+            "endX": 90.2,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Geoff Cameron",
             "tipo": "MissedShots",
             "minuto": 40,
@@ -487,7 +509,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Juan Purata",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

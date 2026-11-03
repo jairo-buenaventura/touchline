@@ -546,6 +546,39 @@
         "secuencia_gol": [
           {
             "jugador": "Jesús Bueno",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 30,
+            "x": 73.2,
+            "y": 15.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Bueno",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 31,
+            "x": 74.4,
+            "y": 15.7,
+            "endX": 76.8,
+            "endY": 32.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jesús Bueno",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 35,
+            "x": 76.8,
+            "y": 32.0,
+            "endX": 80.8,
+            "endY": 48.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Bueno",
             "tipo": "Pass",
             "minuto": 46,
             "segundo": 35,
@@ -555,7 +588,12 @@
             "endY": 64.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Iago Teodoro",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -566,6 +604,50 @@
         "arco_y": 52.5,
         "arco_z": 29.1,
         "secuencia_gol": [
+          {
+            "jugador": "Ben Bender",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 29,
+            "x": 27.1,
+            "y": 26.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Bender",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 30,
+            "x": 27.1,
+            "y": 26.3,
+            "endX": 42.0,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 42.0,
+            "y": 32.1,
+            "endX": 39.0,
+            "endY": 23.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 39.0,
+            "y": 23.8,
+            "endX": 35.6,
+            "endY": 15.7,
+            "exitoso": true
+          },
           {
             "jugador": "Quinn Sullivan",
             "tipo": "Pass",
@@ -654,7 +736,12 @@
             "endY": 62.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Iván Angulo",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4444,6 +4531,94 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Vinícius Nogueira",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 6,
+            "x": 22.0,
+            "y": 42.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Nogueira",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 7,
+            "x": 22.3,
+            "y": 44.5,
+            "endX": 29.1,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Otávio",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 8,
+            "x": 29.3,
+            "y": 34.2,
+            "endX": 32.8,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Atuesta",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 32.8,
+            "y": 50.4,
+            "endX": 39.2,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Atuesta",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 39.2,
+            "y": 45.4,
+            "endX": 45.5,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Angulo",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 18,
+            "x": 45.5,
+            "y": 29.1,
+            "endX": 68.5,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Angulo",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 18,
+            "x": 68.5,
+            "y": 21.0,
+            "endX": 86.0,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Sarajian",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 23,
+            "x": 86.0,
+            "y": 15.6,
+            "endX": 92.2,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Harvey Sarajian",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -4465,7 +4640,12 @@
             "endY": 48.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kai Wagner",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

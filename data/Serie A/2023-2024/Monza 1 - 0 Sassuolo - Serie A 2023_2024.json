@@ -397,6 +397,17 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Matteo Pessina",
+            "tipo": "Save",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 10.9,
+            "y": 54.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Michele Di Gregorio",
             "tipo": "Pass",
             "minuto": 29,
@@ -561,7 +572,12 @@
             "endY": 61.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andrea Pinamonti",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

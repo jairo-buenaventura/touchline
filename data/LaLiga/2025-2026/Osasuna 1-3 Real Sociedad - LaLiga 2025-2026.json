@@ -4273,6 +4273,94 @@
         "secuencia_gol": [
           {
             "jugador": "Carlos Soler",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 12,
+            "x": 56.4,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Soler",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 13,
+            "x": 62.1,
+            "y": 31.6,
+            "endX": 56.9,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "BallTouch",
+            "minuto": 52,
+            "segundo": 14,
+            "x": 56.9,
+            "y": 25.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carlos Soler",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 63.9,
+            "y": 29.7,
+            "endX": 64.1,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Aramburu",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 17,
+            "x": 64.8,
+            "y": 6.9,
+            "endX": 71.3,
+            "endY": 13.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arsen Zakharyan",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 18,
+            "x": 71.3,
+            "y": 13.6,
+            "endX": 70.0,
+            "endY": 18.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arsen Zakharyan",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 18,
+            "x": 70.0,
+            "y": 18.1,
+            "endX": 72.3,
+            "endY": 17.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carlos Soler",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 72.3,
+            "y": 17.5,
+            "endX": 68.4,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Soler",
             "tipo": "Pass",
             "minuto": 52,
             "segundo": 21,
@@ -4282,7 +4370,12 @@
             "endY": 27.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Abel Bretones",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4312,6 +4405,72 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Jon Martín",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 50,
+            "x": 40.5,
+            "y": 3.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 51,
+            "x": 41.5,
+            "y": 3.9,
+            "endX": 44.2,
+            "endY": 10.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 51,
+            "x": 44.2,
+            "y": 10.2,
+            "endX": 51.6,
+            "endY": 2.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Aramburu",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 53,
+            "x": 54.5,
+            "y": 2.8,
+            "endX": 61.3,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonçalo Guedes",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 57,
+            "x": 64.0,
+            "y": 25.3,
+            "endX": 70.6,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Oyarzabal",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 58,
+            "x": 70.6,
+            "y": 50.7,
+            "endX": 71.4,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Mikel Oyarzabal",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -4333,7 +4492,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Enzo Boyomo",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

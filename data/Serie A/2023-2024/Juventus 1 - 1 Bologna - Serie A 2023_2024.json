@@ -507,6 +507,28 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Alex Sandro",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 40,
+            "x": 35.9,
+            "y": 100.0,
+            "endX": 46.4,
+            "endY": 94.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Pogba",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 44,
+            "x": 46.4,
+            "y": 94.5,
+            "endX": 47.3,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Paul Pogba",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -550,7 +572,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Michel Aebischer",
+          "portero": false
+        }
       }
     ],
     "corners": [

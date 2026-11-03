@@ -380,6 +380,50 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Isi Palazón",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 54,
+            "x": 45.0,
+            "y": 10.0,
+            "endX": 43.4,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Óscar Valentín",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 55,
+            "x": 43.4,
+            "y": 30.2,
+            "endX": 33.7,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nobel Mendy",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 56,
+            "x": 32.2,
+            "y": 55.6,
+            "endX": 80.2,
+            "endY": 72.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Álvaro García",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 58,
+            "x": 80.2,
+            "y": 72.0,
+            "endX": 95.4,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Álvaro García",
             "tipo": "Pass",
             "minuto": 3,
@@ -390,7 +434,12 @@
             "endY": 49.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Pablo Maffeo",
+          "portero": false
+        }
       },
       {
         "minuto": 15,

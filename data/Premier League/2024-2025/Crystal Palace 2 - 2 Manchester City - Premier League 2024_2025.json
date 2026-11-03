@@ -371,6 +371,61 @@
         "secuencia_gol": [
           {
             "jugador": "Will Hughes",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 32,
+            "x": 48.7,
+            "y": 78.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 32,
+            "x": 48.1,
+            "y": 78.7,
+            "endX": 62.7,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaïla Sarr",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 35,
+            "x": 62.7,
+            "y": 65.4,
+            "endX": 56.7,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaïla Sarr",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 35,
+            "x": 56.7,
+            "y": 74.4,
+            "endX": 57.0,
+            "endY": 77.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 38,
+            "x": 57.0,
+            "y": 77.9,
+            "endX": 62.7,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
             "tipo": "Pass",
             "minuto": 3,
             "segundo": 38,
@@ -380,7 +435,12 @@
             "endY": 29.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Ilkay Gündogan",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -3867,7 +3927,24 @@
         "y": 46.0,
         "arco_y": 53.8,
         "arco_z": 26.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 38,
+            "x": 93.3,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marc Guéhi",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

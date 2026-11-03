@@ -491,6 +491,17 @@
         "secuencia_gol": [
           {
             "jugador": "Eren Dinkçi",
+            "tipo": "Aerial",
+            "minuto": 58,
+            "segundo": 31,
+            "x": 73.1,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eren Dinkçi",
             "tipo": "Pass",
             "minuto": 58,
             "segundo": 31,
@@ -500,7 +511,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mattes Hansen",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -5431,6 +5447,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jano ter Horst",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 2,
+            "x": 38.2,
+            "y": 15.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jano ter Horst",
             "tipo": "Pass",
             "minuto": 17,
             "segundo": 3,
@@ -5462,7 +5489,12 @@
             "endY": 30.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marco Grüll",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

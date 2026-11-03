@@ -392,7 +392,24 @@
         "y": 50.5,
         "arco_y": 50.0,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Koki Ogawa",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 22,
+            "x": 95.0,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Simon Graves",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4449,6 +4466,39 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Tristan Gooijer",
+            "tipo": "CornerAwarded",
+            "minuto": 13,
+            "segundo": 14,
+            "x": 93.1,
+            "y": 36.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 50,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.8,
+            "endY": 35.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 54,
+            "x": 93.8,
+            "y": 35.3,
+            "endX": 65.1,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamiro Monteiro",
             "tipo": "Pass",
             "minuto": 13,
@@ -4492,7 +4542,12 @@
             "endY": 6.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bryan Linssen",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

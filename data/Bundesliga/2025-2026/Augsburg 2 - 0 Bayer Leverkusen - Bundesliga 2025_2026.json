@@ -380,6 +380,28 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Robin Fellhauer",
+            "tipo": "Clearance",
+            "minuto": 4,
+            "segundo": 19,
+            "x": 2.5,
+            "y": 22.3,
+            "endX": 4.2,
+            "endY": 21.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 31,
+            "x": 4.2,
+            "y": 21.1,
+            "endX": 23.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Fabian Rieder",
             "tipo": "Pass",
             "minuto": 4,
@@ -522,7 +544,12 @@
             "endY": 66.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Martin Terrier",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

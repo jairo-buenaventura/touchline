@@ -371,6 +371,72 @@
         "secuencia_gol": [
           {
             "jugador": "Nahuel Tenaglia",
+            "tipo": "ShieldBallOpp",
+            "minuto": 15,
+            "segundo": 44,
+            "x": 2.7,
+            "y": 13.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Sivera",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 14,
+            "x": 3.4,
+            "y": 50.0,
+            "endX": 21.6,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Sedlar",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 18,
+            "x": 23.2,
+            "y": 64.0,
+            "endX": 60.9,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Vicente",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 22,
+            "x": 62.8,
+            "y": 9.4,
+            "endX": 76.0,
+            "endY": 2.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Tenaglia",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 23,
+            "x": 76.9,
+            "y": 3.5,
+            "endX": 82.2,
+            "endY": 4.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nahuel Tenaglia",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 29,
+            "x": 82.2,
+            "y": 4.4,
+            "endX": 72.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nahuel Tenaglia",
             "tipo": "Pass",
             "minuto": 16,
             "segundo": 29,
@@ -402,7 +468,12 @@
             "endY": 32.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Adrià Pedrosa",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

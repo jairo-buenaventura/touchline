@@ -420,6 +420,50 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Aaron Long",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 13,
+            "x": 22.8,
+            "y": 77.7,
+            "endX": 20.9,
+            "endY": 32.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Murillo",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 13,
+            "x": 20.8,
+            "y": 32.8,
+            "endX": 24.8,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 15,
+            "x": 24.9,
+            "y": 8.0,
+            "endX": 27.0,
+            "endY": 7.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergi Palencia",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 29,
+            "x": 27.0,
+            "y": 7.3,
+            "endX": 32.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Sergi Palencia",
             "tipo": "Pass",
             "minuto": 19,
@@ -507,7 +551,12 @@
             "endY": 54.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Kévin Cabral",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

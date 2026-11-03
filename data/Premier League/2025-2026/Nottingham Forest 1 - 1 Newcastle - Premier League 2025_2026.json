@@ -497,6 +497,17 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Chris Wood",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 55,
+            "x": 87.1,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Lorenzo Lucca",
             "tipo": "BallTouch",
             "minuto": 86,
@@ -529,7 +540,12 @@
             "endY": 65.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lewis Hall",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -4527,6 +4543,17 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Sven Botman",
+            "tipo": "Save",
+            "minuto": 72,
+            "segundo": 11,
+            "x": 11.1,
+            "y": 63.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Nick Pope",
             "tipo": "Pass",
             "minuto": 73,
@@ -4735,7 +4762,12 @@
             "endY": 47.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Omari Hutchinson",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

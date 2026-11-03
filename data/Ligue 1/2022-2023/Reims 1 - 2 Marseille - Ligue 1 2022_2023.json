@@ -417,6 +417,28 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Yunis Abdelhamid",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 51,
+            "x": 45.9,
+            "y": 91.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yunis Abdelhamid",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 59,
+            "x": 60.5,
+            "y": 92.4,
+            "endX": 76.8,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Marshall Munetsi",
             "tipo": "TakeOn",
             "minuto": 12,
@@ -438,7 +460,12 @@
             "endY": 59.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jordan Veretout",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

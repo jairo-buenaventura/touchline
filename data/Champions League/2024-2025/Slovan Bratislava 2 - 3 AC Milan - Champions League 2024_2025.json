@@ -3923,6 +3923,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tammy Abraham",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 12,
+            "x": 46.2,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tammy Abraham",
             "tipo": "TakeOn",
             "minuto": 20,
             "segundo": 14,
@@ -3943,7 +3954,12 @@
             "endY": 28.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Siemen Voet",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

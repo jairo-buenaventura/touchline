@@ -453,6 +453,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jannik Schuster",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 21,
+            "x": 92.6,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jannik Schuster",
             "tipo": "Pass",
             "minuto": 60,
             "segundo": 22,
@@ -462,7 +473,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Morgan Rogers",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -490,7 +506,57 @@
         "y": 46.2,
         "arco_y": 45.8,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mamadou Sangaré",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 55,
+            "x": 33.7,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sangaré",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 55,
+            "x": 33.7,
+            "y": 43.6,
+            "endX": 42.8,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 56,
+            "x": 43.9,
+            "y": 55.5,
+            "endX": 85.8,
+            "endY": 59.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Schade",
+            "tipo": "SavedShot",
+            "minuto": 82,
+            "segundo": 0,
+            "x": 85.8,
+            "y": 59.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Emiliano Martínez",
+          "portero": true
+        }
       },
       {
         "minuto": 93,
@@ -500,7 +566,57 @@
         "y": 41.7,
         "arco_y": 47.0,
         "arco_z": 29.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aaron Hickey",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 51,
+            "x": 72.1,
+            "y": 55.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aaron Hickey",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 52,
+            "x": 73.5,
+            "y": 59.4,
+            "endX": 87.4,
+            "endY": 78.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Schade",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 53,
+            "x": 87.4,
+            "y": 78.0,
+            "endX": 89.6,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Schade",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 53,
+            "x": 89.6,
+            "y": 75.6,
+            "endX": 91.0,
+            "endY": 58.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Josh Acheampong",
+          "portero": false
+        }
       }
     ],
     "corners": [

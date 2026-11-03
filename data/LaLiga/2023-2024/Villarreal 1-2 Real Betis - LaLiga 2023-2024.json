@@ -467,7 +467,24 @@
         "y": 54.8,
         "arco_y": 53.1,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jorge Cuenca",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 36,
+            "x": 88.2,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Germán Pezzella",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -5147,6 +5164,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Marc Roca",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 10,
+            "x": 41.7,
+            "y": 30.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 12,
+            "x": 52.5,
+            "y": 27.2,
+            "endX": 61.8,
+            "endY": 22.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 15,
+            "x": 61.8,
+            "y": 22.5,
+            "endX": 67.0,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isco",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 15,
+            "x": 67.0,
+            "y": 23.2,
+            "endX": 95.2,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luiz Henrique",
+            "tipo": "TakeOn",
+            "minuto": 19,
+            "segundo": 18,
+            "x": 96.2,
+            "y": 28.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Luiz Henrique",
             "tipo": "Pass",
             "minuto": 19,
@@ -5157,7 +5229,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alberto Moreno",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

@@ -398,7 +398,24 @@
         "y": 45.2,
         "arco_y": 49.3,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Artem Dovbyk",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 25,
+            "x": 96.0,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Loïc Badé",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -409,6 +426,17 @@
         "arco_y": 49.0,
         "arco_z": 1.3,
         "secuencia_gol": [
+          {
+            "jugador": "Savinho",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 23,
+            "x": 36.6,
+            "y": 92.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Savinho",
             "tipo": "TakeOn",
@@ -442,7 +470,12 @@
             "endY": 51.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tanguy Nianzou",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

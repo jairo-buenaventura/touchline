@@ -483,6 +483,39 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Perrin",
+            "tipo": "BallRecovery",
+            "minuto": 66,
+            "segundo": 53,
+            "x": 35.6,
+            "y": 25.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Perrin",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 53,
+            "x": 35.8,
+            "y": 26.1,
+            "endX": 39.7,
+            "endY": 18.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Abakar Sylla",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 54,
+            "x": 39.7,
+            "y": 18.8,
+            "endX": 38.1,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Abakar Sylla",
             "tipo": "Pass",
             "minuto": 66,
@@ -548,7 +581,12 @@
             "endY": 56.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Warren Zaïre-Emery",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

@@ -459,6 +459,39 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Gabriel Pec",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 27,
+            "x": 30.6,
+            "y": 24.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 31,
+            "x": 36.7,
+            "y": 52.5,
+            "endX": 69.1,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Paintsil",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 36,
+            "x": 69.1,
+            "y": 82.1,
+            "endX": 87.9,
+            "endY": 71.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Joseph Paintsil",
             "tipo": "TakeOn",
             "minuto": 54,
@@ -469,7 +502,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Noel Caliskan",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

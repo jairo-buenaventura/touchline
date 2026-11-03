@@ -4209,6 +4209,50 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Fred",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 48.3,
+            "y": 81.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fred",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 3,
+            "x": 51.6,
+            "y": 83.2,
+            "endX": 57.7,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 4,
+            "x": 57.7,
+            "y": 67.0,
+            "endX": 70.2,
+            "endY": 82.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Garnacho",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 5,
+            "x": 70.2,
+            "y": 82.0,
+            "endX": 76.3,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Alejandro Garnacho",
             "tipo": "TakeOn",
             "minuto": 84,
@@ -4219,7 +4263,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Koch",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

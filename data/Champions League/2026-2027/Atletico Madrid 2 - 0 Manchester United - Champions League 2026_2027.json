@@ -395,6 +395,116 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Jan Oblak",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 9,
+            "x": 4.2,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Oblak",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 15,
+            "x": 10.9,
+            "y": 48.1,
+            "endX": 13.5,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Romero",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 22,
+            "x": 13.5,
+            "y": 26.8,
+            "endX": 24.1,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Romero",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 22,
+            "x": 24.1,
+            "y": 33.1,
+            "endX": 17.6,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 24,
+            "x": 17.8,
+            "y": 63.0,
+            "endX": 17.6,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Romero",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 26,
+            "x": 17.3,
+            "y": 31.6,
+            "endX": 5.9,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Oblak",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 29,
+            "x": 5.9,
+            "y": 46.3,
+            "endX": 12.7,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Romero",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 12.7,
+            "y": 22.3,
+            "endX": 16.2,
+            "endY": 22.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Romero",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 16.2,
+            "y": 22.8,
+            "endX": 32.0,
+            "endY": 29.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lee Kang-In",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 40,
+            "x": 32.0,
+            "y": 29.7,
+            "endX": 39.0,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Lee Kang-In",
             "tipo": "Pass",
             "minuto": 0,
@@ -427,7 +537,12 @@
             "endY": 43.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Carlos Baleba",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -518,7 +633,90 @@
         "y": 53.4,
         "arco_y": 52.0,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "BallRecovery",
+            "minuto": 78,
+            "segundo": 17,
+            "x": 32.6,
+            "y": 35.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johnny Cardoso",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 17,
+            "x": 40.0,
+            "y": 28.0,
+            "endX": 29.6,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 21,
+            "x": 29.6,
+            "y": 34.8,
+            "endX": 32.6,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 21,
+            "x": 32.6,
+            "y": 34.9,
+            "endX": 45.4,
+            "endY": 80.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Carry",
+            "minuto": 78,
+            "segundo": 24,
+            "x": 45.4,
+            "y": 80.2,
+            "endX": 74.1,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Pass",
+            "minuto": 78,
+            "segundo": 24,
+            "x": 74.1,
+            "y": 66.7,
+            "endX": 87.0,
+            "endY": 45.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan David",
+            "tipo": "SavedShot",
+            "minuto": 78,
+            "segundo": 25,
+            "x": 87.9,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Senne Lammens",
+          "portero": true
+        }
       }
     ],
     "corners": [

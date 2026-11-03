@@ -560,6 +560,39 @@
         "secuencia_gol": [
           {
             "jugador": "Ritsu Doan",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 52,
+            "x": 85.5,
+            "y": 5.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ritsu Doan",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 53,
+            "x": 85.4,
+            "y": 6.4,
+            "endX": 87.4,
+            "endY": 7.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ritsu Doan",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 56,
+            "x": 87.4,
+            "y": 7.0,
+            "endX": 82.4,
+            "endY": 6.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ritsu Doan",
             "tipo": "Pass",
             "minuto": 23,
             "segundo": 56,
@@ -602,7 +635,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Felix Agu",
+          "portero": false
+        }
       },
       {
         "minuto": 37,

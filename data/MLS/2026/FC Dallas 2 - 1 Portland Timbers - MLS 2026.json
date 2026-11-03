@@ -516,6 +516,28 @@
         "secuencia_gol": [
           {
             "jugador": "Petar Musa",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 31,
+            "x": 91.0,
+            "y": 35.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Musa",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 32,
+            "x": 91.1,
+            "y": 35.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Musa",
             "tipo": "Pass",
             "minuto": 86,
             "segundo": 35,
@@ -525,7 +547,12 @@
             "endY": 58.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "James Pantemis",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4103,6 +4130,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gage Guerra",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 5,
+            "x": 64.8,
+            "y": 45.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gage Guerra",
             "tipo": "Pass",
             "minuto": 90,
             "segundo": 6,
@@ -4167,7 +4205,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nolan Norris",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

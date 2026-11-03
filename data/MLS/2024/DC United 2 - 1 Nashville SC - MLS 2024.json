@@ -460,6 +460,17 @@
         "secuencia_gol": [
           {
             "jugador": "Christian Benteke",
+            "tipo": "Aerial",
+            "minuto": 49,
+            "segundo": 56,
+            "x": 87.8,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Benteke",
             "tipo": "SavedShot",
             "minuto": 49,
             "segundo": 56,
@@ -480,7 +491,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Teal Bunbury",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -4365,6 +4381,72 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Sean Davis",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 48,
+            "x": 58.8,
+            "y": 28.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Davis",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 49,
+            "x": 59.0,
+            "y": 28.6,
+            "endX": 68.9,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 52,
+            "x": 68.9,
+            "y": 33.0,
+            "endX": 71.0,
+            "endY": 44.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 52,
+            "x": 71.0,
+            "y": 44.8,
+            "endX": 87.5,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Surridge",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 54,
+            "x": 87.5,
+            "y": 67.2,
+            "endX": 92.0,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Surridge",
+            "tipo": "SavedShot",
+            "minuto": 17,
+            "segundo": 54,
+            "x": 92.0,
+            "y": 73.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Daniel Lovitz",
             "tipo": "Pass",
             "minuto": 18,
@@ -4397,7 +4479,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Cristian Dájome",
+          "portero": true
+        }
       },
       {
         "minuto": 25,

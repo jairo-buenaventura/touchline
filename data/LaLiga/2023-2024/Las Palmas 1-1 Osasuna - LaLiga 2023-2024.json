@@ -399,7 +399,24 @@
         "y": 47.2,
         "arco_y": 54.1,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Park",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 0,
+            "x": 91.0,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jorge Herrando",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -5187,6 +5204,28 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Jon Moncayola",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 52,
+            "x": 99.7,
+            "y": 0.5,
+            "endX": 86.6,
+            "endY": 53.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Johan Mojica",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 1,
+            "x": 86.6,
+            "y": 53.8,
+            "endX": 95.9,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Johan Mojica",
             "tipo": "Pass",
             "minuto": 48,
@@ -5197,7 +5236,12 @@
             "endY": 35.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marc Cardona",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

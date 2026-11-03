@@ -636,6 +636,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ander Barrenetxea",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 27,
+            "x": 70.8,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ander Barrenetxea",
             "tipo": "TakeOn",
             "minuto": 89,
             "segundo": 29,
@@ -645,7 +656,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pedro Bigas",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -385,6 +385,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Enric Llansana",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 11,
+            "x": 89.1,
+            "y": 95.0,
+            "endX": 79.9,
+            "endY": 89.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 13,
+            "x": 81.5,
+            "y": 90.8,
+            "endX": 96.4,
+            "endY": 70.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Søren Tengstedt",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 16,
+            "x": 96.4,
+            "y": 70.7,
+            "endX": 95.9,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Søren Tengstedt",
             "tipo": "TakeOn",
             "minuto": 2,
@@ -428,7 +461,12 @@
             "endY": 56.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Julian Lelieveld",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -555,7 +593,57 @@
         "y": 45.8,
         "arco_y": 46.2,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "CornerAwarded",
+            "minuto": 58,
+            "segundo": 30,
+            "x": 92.8,
+            "y": 75.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 5,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.8,
+            "endY": 58.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 6,
+            "x": 90.8,
+            "y": 58.4,
+            "endX": 91.8,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "MissedShots",
+            "minuto": 59,
+            "segundo": 6,
+            "x": 91.8,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dario Van den Buijs",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

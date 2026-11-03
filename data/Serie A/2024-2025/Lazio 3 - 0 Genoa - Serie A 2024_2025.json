@@ -403,6 +403,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Mario Gila",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 9,
+            "x": 13.3,
+            "y": 59.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mario Gila",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 10,
+            "x": 10.5,
+            "y": 60.9,
+            "endX": 15.8,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Tavares",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 21,
+            "x": 15.8,
+            "y": 90.3,
+            "endX": 71.3,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Tavares",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 21,
+            "x": 71.3,
+            "y": 76.4,
+            "endX": 76.6,
+            "endY": 82.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nuno Tavares",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 21,
+            "x": 76.6,
+            "y": 82.7,
+            "endX": 71.0,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Tavares",
+            "tipo": "BallTouch",
+            "minuto": 20,
+            "segundo": 21,
+            "x": 71.0,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Tijjani Noslin",
             "tipo": "TakeOn",
             "minuto": 20,
@@ -413,7 +479,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Stefano Sabelli",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -513,7 +584,68 @@
         "y": 49.7,
         "arco_y": 53.3,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 53,
+            "x": 46.8,
+            "y": 40.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 54,
+            "x": 47.9,
+            "y": 38.3,
+            "endX": 64.8,
+            "endY": 21.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 57,
+            "x": 64.8,
+            "y": 21.1,
+            "endX": 73.8,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 57,
+            "x": 73.8,
+            "y": 25.9,
+            "endX": 95.1,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Castellanos",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 0,
+            "x": 95.1,
+            "y": 28.0,
+            "endX": 97.3,
+            "endY": 46.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nicola Leali",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -550,7 +682,24 @@
         "y": 49.6,
         "arco_y": 51.7,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matías Vecino",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 91.6,
+            "y": 47.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Johan Vásquez",
+          "portero": false
+        }
       }
     ],
     "corners": [

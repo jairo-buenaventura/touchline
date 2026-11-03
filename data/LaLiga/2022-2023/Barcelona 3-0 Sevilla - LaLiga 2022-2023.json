@@ -456,6 +456,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 55,
+            "x": 54.4,
+            "y": 66.4,
+            "endX": 61.4,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gavi",
+            "tipo": "BallTouch",
+            "minuto": 56,
+            "segundo": 56,
+            "x": 61.1,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Pedri",
             "tipo": "TakeOn",
             "minuto": 56,
@@ -686,7 +708,12 @@
             "endY": 61.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bryan Gil",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

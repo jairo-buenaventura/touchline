@@ -389,6 +389,83 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "André Gomes",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 35,
+            "x": 42.0,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Gomes",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 52.3,
+            "y": 71.5,
+            "endX": 50.7,
+            "endY": 53.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 39,
+            "x": 50.7,
+            "y": 53.3,
+            "endX": 60.8,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan David",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 40,
+            "x": 60.8,
+            "y": 36.1,
+            "endX": 67.0,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angel Gomes",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 42,
+            "x": 67.0,
+            "y": 52.1,
+            "endX": 60.9,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Gomes",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 43,
+            "x": 60.9,
+            "y": 54.2,
+            "endX": 62.7,
+            "endY": 54.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Angel Gomes",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 45,
+            "x": 62.7,
+            "y": 54.0,
+            "endX": 65.5,
+            "endY": 50.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Angel Gomes",
             "tipo": "Pass",
             "minuto": 13,
@@ -564,7 +641,12 @@
             "endY": 28.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Habib Diarra",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -592,7 +674,200 @@
         "y": 46.6,
         "arco_y": 51.4,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 30,
+            "x": 62.5,
+            "y": 18.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 32,
+            "x": 61.5,
+            "y": 20.4,
+            "endX": 40.9,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aïssa Mandi",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 36,
+            "x": 40.8,
+            "y": 56.3,
+            "endX": 56.3,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Gomes",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 38,
+            "x": 56.3,
+            "y": 55.4,
+            "endX": 63.3,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémy Cabella",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 39,
+            "x": 63.3,
+            "y": 63.9,
+            "endX": 62.3,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Gomes",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 40,
+            "x": 62.3,
+            "y": 53.9,
+            "endX": 62.4,
+            "endY": 51.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Angel Gomes",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 43,
+            "x": 62.4,
+            "y": 51.9,
+            "endX": 64.8,
+            "endY": 43.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angel Gomes",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 43,
+            "x": 64.8,
+            "y": 43.7,
+            "endX": 58.2,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 45,
+            "x": 58.2,
+            "y": 36.1,
+            "endX": 59.8,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 47,
+            "x": 58.9,
+            "y": 11.6,
+            "endX": 64.6,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 52,
+            "x": 63.2,
+            "y": 4.3,
+            "endX": 46.5,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bafodé Diakité",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 54,
+            "x": 46.5,
+            "y": 27.3,
+            "endX": 55.7,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Gomes",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 57,
+            "x": 55.5,
+            "y": 38.0,
+            "endX": 64.2,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémy Cabella",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 1,
+            "x": 64.2,
+            "y": 52.2,
+            "endX": 69.1,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémy Cabella",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 1,
+            "x": 69.1,
+            "y": 54.3,
+            "endX": 90.8,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 3,
+            "x": 90.8,
+            "y": 34.0,
+            "endX": 87.8,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Meunier",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 3,
+            "x": 87.8,
+            "y": 33.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Djordje Petrovic",
+          "portero": true
+        }
       },
       {
         "minuto": 36,
@@ -4983,7 +5258,24 @@
         "y": 49.4,
         "arco_y": 51.4,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Nanasi",
+            "tipo": "SavedShot",
+            "minuto": 29,
+            "segundo": 40,
+            "x": 98.2,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lucas Chevalier",
+          "portero": true
+        }
       },
       {
         "minuto": 32,

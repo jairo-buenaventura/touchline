@@ -506,6 +506,50 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Marco Grüll",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 39,
+            "x": 71.3,
+            "y": 21.9,
+            "endX": 83.5,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 42,
+            "x": 83.5,
+            "y": 12.6,
+            "endX": 80.8,
+            "endY": 19.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 42,
+            "x": 80.8,
+            "y": 19.5,
+            "endX": 84.8,
+            "endY": 44.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Senne Lynen",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 53,
+            "x": 84.8,
+            "y": 44.8,
+            "endX": 35.7,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Senne Lynen",
             "tipo": "Pass",
             "minuto": 81,
@@ -725,7 +769,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maximilian Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -773,6 +822,105 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Victor Boniface",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 41,
+            "x": 39.6,
+            "y": 63.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Boniface",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 45,
+            "x": 68.5,
+            "y": 72.1,
+            "endX": 78.0,
+            "endY": 47.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Isaac Schmidt",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 15,
+            "x": 78.0,
+            "y": 47.1,
+            "endX": 89.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Isaac Schmidt",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 15,
+            "x": 89.2,
+            "y": 100.0,
+            "endX": 86.3,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 86.2,
+            "y": 90.3,
+            "endX": 82.1,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Mbangula",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 21,
+            "x": 82.1,
+            "y": 95.7,
+            "endX": 78.7,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Mbangula",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 21,
+            "x": 78.7,
+            "y": 85.2,
+            "endX": 77.4,
+            "endY": 61.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 23,
+            "x": 77.4,
+            "y": 61.9,
+            "endX": 80.1,
+            "endY": 62.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Leonardo Bittencourt",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 26,
+            "x": 80.1,
+            "y": 62.7,
+            "endX": 68.4,
+            "endY": 60.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Bittencourt",
             "tipo": "Pass",
             "minuto": 93,
@@ -816,7 +964,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Patrick Wimmer",
+          "portero": false
+        }
       }
     ],
     "corners": [

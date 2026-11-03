@@ -397,7 +397,112 @@
         "y": 53.2,
         "arco_y": 51.2,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luigi Sepe",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 40,
+            "x": 5.1,
+            "y": 50.5,
+            "endX": 10.8,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Norbert Gyömbér",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 42,
+            "x": 10.8,
+            "y": 28.3,
+            "endX": 8.8,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Norbert Gyömbér",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 42,
+            "x": 8.8,
+            "y": 25.2,
+            "endX": 15.2,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Bronn",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 45,
+            "x": 15.2,
+            "y": 5.4,
+            "endX": 29.3,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Bronn",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 45,
+            "x": 29.3,
+            "y": 4.3,
+            "endX": 43.9,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassana Coulibaly",
+            "tipo": "BallTouch",
+            "minuto": 6,
+            "segundo": 46,
+            "x": 43.9,
+            "y": 16.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 49,
+            "x": 45.3,
+            "y": 27.4,
+            "endX": 81.1,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Bonazzoli",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 54,
+            "x": 81.1,
+            "y": 23.1,
+            "endX": 90.0,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Bonazzoli",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 54,
+            "x": 90.0,
+            "y": 35.1,
+            "endX": 93.0,
+            "endY": 47.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Fabio Depaoli",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -427,6 +532,94 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Giulio Maggiore",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 44,
+            "x": 47.0,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 44,
+            "x": 47.0,
+            "y": 33.0,
+            "endX": 59.9,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tonny Vilhena",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 45,
+            "x": 59.9,
+            "y": 32.7,
+            "endX": 63.0,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tonny Vilhena",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 45,
+            "x": 63.0,
+            "y": 34.6,
+            "endX": 63.3,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 48,
+            "x": 63.3,
+            "y": 54.3,
+            "endX": 63.4,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giulio Maggiore",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 48,
+            "x": 63.4,
+            "y": 65.1,
+            "endX": 62.2,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pasquale Mazzocchi",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 54,
+            "x": 62.2,
+            "y": 95.7,
+            "endX": 81.5,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pasquale Mazzocchi",
+            "tipo": "TakeOn",
+            "minuto": 14,
+            "segundo": 54,
+            "x": 81.5,
+            "y": 86.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Pasquale Mazzocchi",
             "tipo": "Pass",
             "minuto": 14,
@@ -448,7 +641,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Fabio Depaoli",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

@@ -662,6 +662,61 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Marco Verratti",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 20,
+            "x": 67.0,
+            "y": 39.0,
+            "endX": 73.8,
+            "endY": 30.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 24,
+            "x": 73.8,
+            "y": 30.5,
+            "endX": 83.1,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 24,
+            "x": 83.1,
+            "y": 33.6,
+            "endX": 94.2,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 25,
+            "x": 92.8,
+            "y": 23.7,
+            "endX": 94.3,
+            "endY": 28.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 30,
+            "x": 94.3,
+            "y": 28.8,
+            "endX": 85.9,
+            "endY": 2.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Nordi Mukiele",
             "tipo": "Pass",
             "minuto": 54,
@@ -749,7 +804,12 @@
             "endY": 40.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Abdu Conté",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -760,6 +820,17 @@
         "arco_y": 51.9,
         "arco_z": 22.8,
         "secuencia_gol": [
+          {
+            "jugador": "Nordi Mukiele",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 2,
+            "x": 12.3,
+            "y": 11.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Nordi Mukiele",
             "tipo": "TakeOn",
@@ -903,7 +974,12 @@
             "endY": 42.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wilson Odobert",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -5958,6 +6034,149 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Erik Palmer-Brown",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 52,
+            "x": 46.8,
+            "y": 43.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erik Palmer-Brown",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 54,
+            "x": 37.1,
+            "y": 53.3,
+            "endX": 15.0,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gauthier Gallon",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 56,
+            "x": 15.0,
+            "y": 43.6,
+            "endX": 13.5,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gauthier Gallon",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 56,
+            "x": 13.5,
+            "y": 46.8,
+            "endX": 21.1,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Salmier",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 1,
+            "x": 21.1,
+            "y": 82.1,
+            "endX": 29.1,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Salmier",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 1,
+            "x": 29.1,
+            "y": 93.4,
+            "endX": 47.3,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdu Conté",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 2,
+            "x": 47.3,
+            "y": 95.1,
+            "endX": 47.1,
+            "endY": 98.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdu Conté",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 2,
+            "x": 47.1,
+            "y": 98.9,
+            "endX": 49.1,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wilson Odobert",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 6,
+            "x": 49.1,
+            "y": 83.1,
+            "endX": 62.0,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wilson Odobert",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 6,
+            "x": 62.0,
+            "y": 85.2,
+            "endX": 89.7,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdu Conté",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 9,
+            "x": 89.7,
+            "y": 87.1,
+            "endX": 93.7,
+            "endY": 87.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdu Conté",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 9,
+            "x": 93.7,
+            "y": 87.3,
+            "endX": 92.4,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rony Lopes",
+            "tipo": "SavedShot",
+            "minuto": 2,
+            "segundo": 10,
+            "x": 93.1,
+            "y": 52.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Rony Lopes",
             "tipo": "Pass",
             "minuto": 2,
@@ -5968,7 +6187,12 @@
             "endY": 45.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Juan Bernat",
+          "portero": true
+        }
       },
       {
         "minuto": 9,
@@ -6198,6 +6422,28 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Yoann Salmier",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 59,
+            "x": 92.3,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Salmier",
+            "tipo": "MissedShots",
+            "minuto": 86,
+            "segundo": 59,
+            "x": 91.7,
+            "y": 57.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Renaud Ripart",
             "tipo": "MissedShots",
             "minuto": 87,
@@ -6208,7 +6454,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marquinhos",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -4006,6 +4006,39 @@
         "secuencia_gol": [
           {
             "jugador": "Castello Lukeba",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 20,
+            "x": 74.1,
+            "y": 79.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 23,
+            "x": 95.2,
+            "y": 76.5,
+            "endX": 92.2,
+            "endY": 73.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 27,
+            "x": 92.2,
+            "y": 73.0,
+            "endX": 95.6,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
             "tipo": "Pass",
             "minuto": 32,
             "segundo": 27,
@@ -4048,7 +4081,12 @@
             "endY": 40.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Faitout Maouassa",
+          "portero": false
+        }
       },
       {
         "minuto": 38,

@@ -407,6 +407,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Pablo Pagis",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 11,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 92.6,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Panos Katseris",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 18,
+            "x": 92.6,
+            "y": 47.2,
+            "endX": 97.3,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Panos Katseris",
             "tipo": "Pass",
             "minuto": 25,
@@ -417,7 +439,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ismaël Doukouré",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4147,7 +4174,35 @@
         "y": 45.7,
         "arco_y": 50.3,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Moreira",
+            "tipo": "CornerAwarded",
+            "minuto": 98,
+            "segundo": 29,
+            "x": 98.2,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Nanasi",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 57,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.1,
+            "endY": 41.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sambou Soumano",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -5210,6 +5210,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Junya Ito",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 22,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 92.2,
+            "endY": 49.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thibault De Smet",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 28,
+            "x": 92.2,
+            "y": 49.9,
+            "endX": 64.2,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Thibault De Smet",
             "tipo": "Pass",
             "minuto": 44,
@@ -5341,7 +5363,12 @@
             "endY": 57.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Danilo Pereira",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

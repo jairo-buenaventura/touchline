@@ -407,7 +407,68 @@
         "y": 50.3,
         "arco_y": 48.9,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edwin Cerrillo",
+            "tipo": "Tackle",
+            "minuto": 6,
+            "segundo": 57,
+            "x": 37.2,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edwin Cerrillo",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 59,
+            "x": 34.0,
+            "y": 61.7,
+            "endX": 84.0,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miki Yamane",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 4,
+            "x": 85.5,
+            "y": 5.6,
+            "endX": 82.8,
+            "endY": 20.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 6,
+            "x": 82.8,
+            "y": 20.7,
+            "endX": 85.5,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "SavedShot",
+            "minuto": 7,
+            "segundo": 6,
+            "x": 85.5,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kristijan Kahlina",
+          "portero": true
+        }
       },
       {
         "minuto": 10,
@@ -419,6 +480,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Sanabria",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 56,
+            "x": 40.6,
+            "y": 39.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Sanabria",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 56,
+            "x": 41.8,
+            "y": 36.0,
+            "endX": 45.0,
+            "endY": 32.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 3,
+            "x": 45.0,
+            "y": 32.7,
+            "endX": 90.7,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Pec",
             "tipo": "Pass",
             "minuto": 10,
@@ -429,7 +523,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luca de la Torre",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

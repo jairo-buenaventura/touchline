@@ -428,6 +428,39 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Amine Gouiri",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 56,
+            "x": 74.0,
+            "y": 59.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Gouiri",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 75.7,
+            "y": 58.0,
+            "endX": 87.1,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angel Gomes",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 59,
+            "x": 87.1,
+            "y": 37.4,
+            "endX": 89.6,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Angel Gomes",
             "tipo": "TakeOn",
             "minuto": 70,
@@ -438,7 +471,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Willian Pacho",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -4353,7 +4391,101 @@
         "y": 49.1,
         "arco_y": 50.0,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 98.0,
+            "endY": 56.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 98.0,
+            "y": 56.4,
+            "endX": 80.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 80.0,
+            "y": 100.0,
+            "endX": 68.4,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 39,
+            "x": 68.3,
+            "y": 91.0,
+            "endX": 72.9,
+            "endY": 96.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 40,
+            "x": 74.5,
+            "y": 97.0,
+            "endX": 66.2,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 45,
+            "x": 66.2,
+            "y": 89.1,
+            "endX": 73.8,
+            "endY": 89.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 45,
+            "x": 73.8,
+            "y": 89.2,
+            "endX": 92.1,
+            "endY": 48.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marquinhos",
+            "tipo": "SavedShot",
+            "minuto": 73,
+            "segundo": 48,
+            "x": 92.1,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jeffrey de Lange",
+          "portero": true
+        }
       },
       {
         "minuto": 77,

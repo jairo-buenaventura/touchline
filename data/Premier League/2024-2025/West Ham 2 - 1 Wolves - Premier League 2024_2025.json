@@ -559,6 +559,50 @@
         "secuencia_gol": [
           {
             "jugador": "Jarrod Bowen",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 59,
+            "x": 65.1,
+            "y": 10.7,
+            "endX": 88.4,
+            "endY": 52.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 2,
+            "x": 88.4,
+            "y": 52.1,
+            "endX": 81.3,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Crysencio Summerville",
+            "tipo": "SavedShot",
+            "minuto": 71,
+            "segundo": 2,
+            "x": 81.3,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 7,
+            "x": 89.2,
+            "y": 18.2,
+            "endX": 82.2,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
             "tipo": "TakeOn",
             "minuto": 71,
             "segundo": 9,
@@ -568,7 +612,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gonçalo Guedes",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -4752,6 +4801,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Matheus Cunha",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 35,
+            "x": 96.4,
+            "y": 10.4,
+            "endX": 95.3,
+            "endY": 45.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jean-Ricner Bellegarde",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 39,
+            "x": 95.3,
+            "y": 45.1,
+            "endX": 70.0,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Jean-Ricner Bellegarde",
             "tipo": "Pass",
             "minuto": 68,
@@ -4828,7 +4899,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Edson Álvarez",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

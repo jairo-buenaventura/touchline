@@ -4235,6 +4235,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 48,
+            "x": 52.2,
+            "y": 29.7,
+            "endX": 87.6,
+            "endY": 50.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sven Botman",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 51,
+            "x": 87.6,
+            "y": 50.6,
+            "endX": 86.6,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Sven Botman",
             "tipo": "Pass",
             "minuto": 42,
@@ -4245,7 +4267,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ryan Yates",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

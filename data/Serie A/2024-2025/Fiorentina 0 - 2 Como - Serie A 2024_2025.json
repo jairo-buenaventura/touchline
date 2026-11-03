@@ -4407,6 +4407,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Lucas da Cunha",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 33,
+            "x": 70.1,
+            "y": 66.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas da Cunha",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 35,
+            "x": 74.1,
+            "y": 62.6,
+            "endX": 82.3,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Nico Paz",
             "tipo": "TakeOn",
             "minuto": 65,
@@ -4417,7 +4439,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolò Fagioli",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

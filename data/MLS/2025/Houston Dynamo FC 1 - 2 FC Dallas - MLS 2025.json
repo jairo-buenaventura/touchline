@@ -394,6 +394,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ezequiel Ponce",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 26,
+            "x": 95.5,
+            "y": 54.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ezequiel Ponce",
             "tipo": "SavedShot",
             "minuto": 17,
             "segundo": 27,
@@ -414,7 +425,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Shaq Moore",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4954,7 +4970,57 @@
         "y": 34.2,
         "arco_y": 50.5,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Petar Musa",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 42,
+            "x": 25.6,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Musa",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 44,
+            "x": 27.9,
+            "y": 48.1,
+            "endX": 67.1,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anderson Julio",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 47,
+            "x": 67.1,
+            "y": 42.4,
+            "endX": 70.2,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anderson Julio",
+            "tipo": "TakeOn",
+            "minuto": 75,
+            "segundo": 47,
+            "x": 70.2,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andrew Tarbell",
+          "portero": false
+        }
       }
     ],
     "corners": [

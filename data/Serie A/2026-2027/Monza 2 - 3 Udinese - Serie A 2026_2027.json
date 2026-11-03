@@ -4592,6 +4592,61 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Jakub Piotrowski",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 16,
+            "x": 67.3,
+            "y": 35.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakub Piotrowski",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 16,
+            "x": 67.3,
+            "y": 35.8,
+            "endX": 77.0,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keinan Davis",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 17,
+            "x": 77.2,
+            "y": 33.7,
+            "endX": 82.2,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 19,
+            "x": 82.2,
+            "y": 65.4,
+            "endX": 84.3,
+            "endY": 60.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jurgen Ekkelenkamp",
+            "tipo": "SavedShot",
+            "minuto": 31,
+            "segundo": 19,
+            "x": 84.3,
+            "y": 60.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Hassane Kamara",
             "tipo": "BallTouch",
             "minuto": 31,
@@ -4602,7 +4657,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mathis Mout",
+          "portero": true
+        }
       },
       {
         "minuto": 43,
@@ -4640,7 +4700,35 @@
         "y": 55.5,
         "arco_y": 46.4,
         "arco_z": 26.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakub Piotrowski",
+            "tipo": "Aerial",
+            "minuto": 47,
+            "segundo": 3,
+            "x": 93.7,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakub Piotrowski",
+            "tipo": "MissedShots",
+            "minuto": 47,
+            "segundo": 3,
+            "x": 93.7,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Samuele Birindelli",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

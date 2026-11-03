@@ -486,6 +486,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Peer Koopmeiners",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 57,
+            "x": 35.8,
+            "y": 59.8,
+            "endX": 34.7,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Chávez",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 59,
+            "x": 34.7,
+            "y": 75.9,
+            "endX": 55.6,
+            "endY": 85.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 1,
+            "x": 55.6,
+            "y": 85.4,
+            "endX": 57.0,
+            "endY": 89.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Kees Smit",
             "tipo": "TakeOn",
             "minuto": 67,
@@ -551,7 +584,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Milan Hokke",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

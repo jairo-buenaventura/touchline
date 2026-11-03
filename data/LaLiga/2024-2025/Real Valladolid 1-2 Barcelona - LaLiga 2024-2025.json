@@ -315,6 +315,50 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Iván Sánchez",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.8,
+            "endY": 46.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Raúl Moro",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 93.8,
+            "y": 46.7,
+            "endX": 81.0,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raúl Moro",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 81.0,
+            "y": 75.8,
+            "endX": 84.0,
+            "endY": 70.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Raúl Moro",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 53,
+            "x": 84.0,
+            "y": 70.5,
+            "endX": 90.8,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Raúl Moro",
             "tipo": "Pass",
             "minuto": 4,
@@ -325,7 +369,12 @@
             "endY": 11.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andreas Christensen",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

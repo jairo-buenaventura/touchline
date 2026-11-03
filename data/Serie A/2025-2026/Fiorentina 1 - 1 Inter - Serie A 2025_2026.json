@@ -476,7 +476,35 @@
         "y": 48.1,
         "arco_y": 48.2,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolò Fagioli",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 81.6,
+            "y": 54.0,
+            "endX": 90.6,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Albert Gudmundsson",
+            "tipo": "SavedShot",
+            "minuto": 76,
+            "segundo": 20,
+            "x": 90.6,
+            "y": 73.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yann Sommer",
+          "portero": true
+        }
       },
       {
         "minuto": 79,
@@ -4187,6 +4215,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Aerial",
+            "minuto": 0,
+            "segundo": 9,
+            "x": 70.4,
+            "y": 12.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 30,
+            "x": 79.8,
+            "y": 0.0,
+            "endX": 88.7,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Pio Esposito",
+            "tipo": "BallTouch",
+            "minuto": 0,
+            "segundo": 35,
+            "x": 88.7,
+            "y": 38.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Nicolò Barella",
             "tipo": "Pass",
             "minuto": 0,
@@ -4197,7 +4258,12 @@
             "endY": 43.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robin Gosens",
+          "portero": false
+        }
       },
       {
         "minuto": 3,

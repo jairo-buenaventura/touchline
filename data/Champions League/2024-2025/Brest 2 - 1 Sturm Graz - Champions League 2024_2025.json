@@ -415,7 +415,57 @@
         "y": 50.3,
         "arco_y": 45.9,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brendan Chardonnet",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 83.8,
+            "y": 48.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brendan Chardonnet",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 40,
+            "x": 81.6,
+            "y": 49.9,
+            "endX": 90.1,
+            "endY": 29.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kenny Lala",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 6,
+            "x": 90.1,
+            "y": 29.8,
+            "endX": 84.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenny Lala",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 6,
+            "x": 84.9,
+            "y": 0.0,
+            "endX": 89.2,
+            "endY": 43.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jon Gorenc Stankovic",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -447,6 +497,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ludovic Ajorque",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 85.3,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Ajorque",
             "tipo": "BallTouch",
             "minuto": 55,
             "segundo": 1,
@@ -456,7 +517,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dimitri Lavalée",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

@@ -433,6 +433,17 @@
         "secuencia_gol": [
           {
             "jugador": "Xavi Simons",
+            "tipo": "BallRecovery",
+            "minuto": 24,
+            "segundo": 38,
+            "x": 76.0,
+            "y": 57.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
             "tipo": "TakeOn",
             "minuto": 24,
             "segundo": 39,
@@ -442,7 +453,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robbin Ruiter",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -784,6 +800,17 @@
         "secuencia_gol": [
           {
             "jugador": "Fábio Silva",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 29,
+            "x": 62.0,
+            "y": 30.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Silva",
             "tipo": "Pass",
             "minuto": 87,
             "segundo": 29,
@@ -848,7 +875,12 @@
             "endY": 42.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Floris Smand",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -5006,7 +5038,68 @@
         "y": 34.4,
         "arco_y": 45.9,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mimoun Mahi",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 23.9,
+            "y": 79.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mimoun Mahi",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 11,
+            "x": 24.3,
+            "y": 78.5,
+            "endX": 30.1,
+            "endY": 86.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Navarone Foor",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 12,
+            "x": 30.3,
+            "y": 85.9,
+            "endX": 38.0,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mimoun Mahi",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 38.0,
+            "y": 76.3,
+            "endX": 45.1,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mimoun Mahi",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 45.1,
+            "y": 72.1,
+            "endX": 64.6,
+            "endY": 44.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Patrick van Aanholt",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

@@ -379,6 +379,17 @@
         "secuencia_gol": [
           {
             "jugador": "Thiago Mendes",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 40,
+            "x": 25.5,
+            "y": 8.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Mendes",
             "tipo": "TakeOn",
             "minuto": 10,
             "segundo": 40,
@@ -597,7 +608,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mounaïm El Idrissy",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

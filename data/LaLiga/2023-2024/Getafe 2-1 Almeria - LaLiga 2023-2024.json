@@ -544,7 +544,90 @@
         "y": 45.5,
         "arco_y": 54.2,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Rico",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 42,
+            "x": 60.4,
+            "y": 100.0,
+            "endX": 53.2,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Milla",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 45,
+            "x": 53.2,
+            "y": 74.4,
+            "endX": 44.5,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Álvarez",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 48,
+            "x": 44.5,
+            "y": 32.5,
+            "endX": 52.9,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Álvarez",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 48,
+            "x": 52.9,
+            "y": 23.6,
+            "endX": 72.2,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 51,
+            "x": 72.2,
+            "y": 4.9,
+            "endX": 72.4,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Damián Suárez",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 53,
+            "x": 73.6,
+            "y": 16.3,
+            "endX": 85.8,
+            "endY": 61.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juanmi Latasa",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 55,
+            "x": 85.8,
+            "y": 61.6,
+            "endX": 91.9,
+            "endY": 54.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Chumi",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4600,6 +4683,17 @@
         "secuencia_gol": [
           {
             "jugador": "Chumi",
+            "tipo": "Aerial",
+            "minuto": 6,
+            "segundo": 17,
+            "x": 97.2,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chumi",
             "tipo": "Pass",
             "minuto": 6,
             "segundo": 17,
@@ -4609,7 +4703,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nemanja Maksimovic",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

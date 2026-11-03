@@ -447,6 +447,17 @@
         "secuencia_gol": [
           {
             "jugador": "José Gayà",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 43,
+            "x": 71.7,
+            "y": 87.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Gayà",
             "tipo": "TakeOn",
             "minuto": 58,
             "segundo": 45,
@@ -467,7 +478,12 @@
             "endY": 47.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Arnau Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

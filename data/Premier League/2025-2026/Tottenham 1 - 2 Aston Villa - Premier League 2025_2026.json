@@ -380,6 +380,28 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Mathys Tel",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 28,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.6,
+            "endY": 53.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Djed Spence",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 33,
+            "x": 91.6,
+            "y": 53.7,
+            "endX": 71.2,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Djed Spence",
             "tipo": "Pass",
             "minuto": 4,
@@ -412,7 +434,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Evann Guessand",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -4340,7 +4367,24 @@
         "y": 33.6,
         "arco_y": 53.4,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Morgan Rogers",
+            "tipo": "TakeOn",
+            "minuto": 36,
+            "segundo": 51,
+            "x": 76.4,
+            "y": 34.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Xavi Simons",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

@@ -4550,6 +4550,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Giuseppe Pezzella",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 54,
+            "x": 37.6,
+            "y": 80.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giuseppe Pezzella",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 54,
+            "x": 37.6,
+            "y": 80.5,
+            "endX": 72.6,
+            "endY": 48.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Colombo",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 59,
+            "x": 72.6,
+            "y": 48.8,
+            "endX": 84.2,
+            "endY": 42.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Lorenzo Colombo",
             "tipo": "TakeOn",
             "minuto": 30,
@@ -4571,7 +4604,12 @@
             "endY": 57.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marin Sverko",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

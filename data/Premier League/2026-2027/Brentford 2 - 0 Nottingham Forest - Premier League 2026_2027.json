@@ -416,6 +416,39 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 17.5,
+            "y": 91.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 17.1,
+            "y": 91.4,
+            "endX": 33.5,
+            "endY": 93.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kevin Schade",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 1,
+            "x": 33.5,
+            "y": 93.7,
+            "endX": 36.7,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Kevin Schade",
             "tipo": "Pass",
             "minuto": 75,
@@ -470,7 +503,12 @@
             "endY": 55.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "James McAtee",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

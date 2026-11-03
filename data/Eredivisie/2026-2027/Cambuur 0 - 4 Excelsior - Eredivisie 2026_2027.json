@@ -4328,6 +4328,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "David Garden",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 24,
+            "x": 45.5,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Garden",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 27,
+            "x": 55.4,
+            "y": 47.0,
+            "endX": 64.5,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irakli Yegoian",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 29,
+            "x": 64.5,
+            "y": 19.2,
+            "endX": 68.6,
+            "endY": 15.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Irakli Yegoian",
             "tipo": "TakeOn",
             "minuto": 30,
@@ -4349,7 +4382,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jamal Amofa",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

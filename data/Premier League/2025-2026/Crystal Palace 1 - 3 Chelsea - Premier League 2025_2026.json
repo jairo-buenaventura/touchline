@@ -464,6 +464,39 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Will Hughes",
+            "tipo": "Pass",
+            "minuto": 87,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 96.8,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jefferson Lerma",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 8,
+            "x": 96.8,
+            "y": 55.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chadi Riad",
+            "tipo": "SavedShot",
+            "minuto": 87,
+            "segundo": 13,
+            "x": 91.1,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Chadi Riad",
             "tipo": "BallTouch",
             "minuto": 87,
@@ -474,7 +507,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Malo Gusto",
+          "portero": true
+        }
       },
       {
         "minuto": 98,
@@ -4453,7 +4491,101 @@
         "y": 40.1,
         "arco_y": 49.0,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Trevoh Chalobah",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 12,
+            "x": 26.5,
+            "y": 9.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trevoh Chalobah",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 13,
+            "x": 24.7,
+            "y": 8.5,
+            "endX": 52.8,
+            "endY": 15.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 17,
+            "x": 52.8,
+            "y": 15.4,
+            "endX": 55.2,
+            "endY": 7.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 17,
+            "x": 55.2,
+            "y": 7.8,
+            "endX": 54.6,
+            "endY": 0.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Estêvão",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 19,
+            "x": 54.6,
+            "y": 0.4,
+            "endX": 55.7,
+            "endY": 4.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Estêvão",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 19,
+            "x": 55.7,
+            "y": 4.2,
+            "endX": 89.3,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 25,
+            "x": 89.3,
+            "y": 27.1,
+            "endX": 95.3,
+            "endY": 34.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 25,
+            "x": 95.3,
+            "y": 34.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Adam Wharton",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

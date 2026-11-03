@@ -401,6 +401,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Harrison Reed",
+            "tipo": "Aerial",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 74.8,
+            "y": 66.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harrison Reed",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 75.8,
+            "y": 65.7,
+            "endX": 78.6,
+            "endY": 60.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tosin Adarabioyo",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 78.6,
+            "y": 60.5,
+            "endX": 72.0,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Tosin Adarabioyo",
             "tipo": "Pass",
             "minuto": 47,
@@ -422,7 +455,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alexis Mac Allister",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

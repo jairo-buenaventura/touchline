@@ -3965,6 +3965,28 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Héctor Herrera",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 15,
+            "x": 68.6,
+            "y": 65.0,
+            "endX": 92.5,
+            "endY": 50.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ethan Bartlow",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 19,
+            "x": 92.5,
+            "y": 50.2,
+            "endX": 95.9,
+            "endY": 51.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Ethan Bartlow",
             "tipo": "BallTouch",
             "minuto": 53,
@@ -3975,7 +3997,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dany Rosero",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

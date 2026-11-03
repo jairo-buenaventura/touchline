@@ -5023,6 +5023,193 @@
         "secuencia_gol": [
           {
             "jugador": "Will Hughes",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 4,
+            "x": 42.3,
+            "y": 24.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 4,
+            "x": 42.3,
+            "y": 24.8,
+            "endX": 46.6,
+            "endY": 16.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 5,
+            "x": 46.6,
+            "y": 16.1,
+            "endX": 39.3,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 6,
+            "x": 39.4,
+            "y": 32.5,
+            "endX": 72.2,
+            "endY": 31.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Ayew",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 14,
+            "x": 71.9,
+            "y": 29.9,
+            "endX": 80.1,
+            "endY": 15.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 80.1,
+            "y": 15.4,
+            "endX": 92.6,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "TakeOn",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 92.6,
+            "y": 19.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michael Olise",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 20,
+            "x": 97.9,
+            "y": 31.3,
+            "endX": 94.6,
+            "endY": 56.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tyrick Mitchell",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 23,
+            "x": 94.6,
+            "y": 56.1,
+            "endX": 80.6,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrick Mitchell",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 23,
+            "x": 80.6,
+            "y": 68.3,
+            "endX": 86.5,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 30,
+            "x": 85.7,
+            "y": 91.1,
+            "endX": 83.7,
+            "endY": 85.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrick Mitchell",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 31,
+            "x": 83.7,
+            "y": 85.1,
+            "endX": 78.6,
+            "endY": 96.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 32,
+            "x": 78.6,
+            "y": 96.5,
+            "endX": 79.2,
+            "endY": 93.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "TakeOn",
+            "minuto": 76,
+            "segundo": 32,
+            "x": 79.2,
+            "y": 93.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 35,
+            "x": 85.2,
+            "y": 71.3,
+            "endX": 76.6,
+            "endY": 55.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 37,
+            "x": 76.6,
+            "y": 55.5,
+            "endX": 80.5,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
+            "tipo": "SavedShot",
+            "minuto": 76,
+            "segundo": 37,
+            "x": 80.5,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Will Hughes",
             "tipo": "BallTouch",
             "minuto": 76,
             "segundo": 37,
@@ -5032,7 +5219,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Wilfried Gnonto",
+          "portero": true
+        }
       },
       {
         "minuto": 86,

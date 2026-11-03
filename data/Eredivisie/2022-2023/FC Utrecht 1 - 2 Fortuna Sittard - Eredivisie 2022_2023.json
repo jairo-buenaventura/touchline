@@ -454,7 +454,46 @@
         "y": 56.3,
         "arco_y": 53.5,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Toornstra",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 7,
+            "x": 99.6,
+            "y": 0.5,
+            "endX": 91.5,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 9,
+            "x": 91.5,
+            "y": 47.6,
+            "endX": 92.3,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "SavedShot",
+            "minuto": 58,
+            "segundo": 9,
+            "x": 92.3,
+            "y": 50.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ivor Pandur",
+          "portero": true
+        }
       },
       {
         "minuto": 77,
@@ -4824,6 +4863,17 @@
             "jugador": "Kristijan Bistrovic",
             "tipo": "TakeOn",
             "minuto": 67,
+            "segundo": 58,
+            "x": 90.0,
+            "y": 52.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kristijan Bistrovic",
+            "tipo": "TakeOn",
+            "minuto": 67,
             "segundo": 59,
             "x": 89.6,
             "y": 52.9,
@@ -4831,7 +4881,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mike van der Hoorn",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

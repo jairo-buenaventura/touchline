@@ -422,6 +422,28 @@
         "secuencia_gol": [
           {
             "jugador": "Suso",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 58,
+            "x": 28.1,
+            "y": 11.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
+            "tipo": "TakeOn",
+            "minuto": 32,
+            "segundo": 59,
+            "x": 37.3,
+            "y": 7.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suso",
             "tipo": "Pass",
             "minuto": 33,
             "segundo": 7,
@@ -431,7 +453,12 @@
             "endY": 33.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dani Parejo",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -495,7 +522,24 @@
         "y": 52.6,
         "arco_y": 45.7,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Youssef En-Nesyri",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 12,
+            "x": 92.0,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Alfonso Pedraza",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4001,7 +4045,35 @@
         "y": 47.8,
         "arco_y": 45.9,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yéremy Pino",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 11,
+            "x": 95.2,
+            "y": 55.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yéremy Pino",
+            "tipo": "SavedShot",
+            "minuto": 54,
+            "segundo": 11,
+            "x": 95.7,
+            "y": 56.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Loïc Badé",
+          "portero": true
+        }
       },
       {
         "minuto": 64,

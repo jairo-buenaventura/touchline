@@ -486,6 +486,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ranko Veselinovic",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 92.2,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ranko Veselinovic",
             "tipo": "Pass",
             "minuto": 51,
             "segundo": 6,
@@ -495,7 +506,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Robin Lod",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -4505,7 +4521,46 @@
         "y": 53.1,
         "arco_y": 48.7,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Lod",
+            "tipo": "Aerial",
+            "minuto": 32,
+            "segundo": 36,
+            "x": 94.2,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "SavedShot",
+            "minuto": 32,
+            "segundo": 36,
+            "x": 96.7,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Lod",
+            "tipo": "BallTouch",
+            "minuto": 32,
+            "segundo": 36,
+            "x": 97.6,
+            "y": 51.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tristan Blackmon",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

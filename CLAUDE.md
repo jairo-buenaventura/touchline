@@ -51,7 +51,23 @@ el pase anterior (`endX`/`endY`) contra dónde arranca la siguiente acción
 del jugador que la recibió; si la distancia supera `UMBRAL_CONDUCCION`
 (3.0 en la escala 0-100 de cancha), se cuenta como tramo de conducción.
 Pensado para la vista "cómo se gestó este gol" al hacer click en el
-goleador.
+goleador. Un toque reactivo del rival (`Save`, `Clearance`, `BlockedPass`,
+`Challenge`, `Aerial`, `BallTouch`, `Punch`, `KeeperSweeper` —
+`_TIPOS_REACCION_RIVAL`) que queda "sandwicheado" entre dos acciones de mi
+equipo (la de justo antes del gol y la de más atrás todavía) se trata como
+ruido de rebote/rechace y se salta en vez de cortar la secuencia ahí; un
+robo de balón limpio (`BallRecovery`/`Interception`/`Tackle`) sigue
+cortando siempre. De los ~35,864 goles del dataset, ~6,725 (19%) quedan
+con `secuencia_gol` vacío de todos modos (penales cobrados, o cambios de
+posesión genuinos) — la UI igual muestra el punto del remate y el nombre
+del goleador en esos casos, nunca se queda sin dibujar nada.
+
+**`tiros[].rebote_de`** (desde 2026-11-02, opcional): cuando el gol vino
+de un rebote/rechace, trae `{tipo, jugador, portero}` del toque reactivo
+rival que se absorbió como ruido (ver arriba) — `portero: true` si ese
+toque fue específicamente de un arquero (`Save`/`Punch`/`KeeperSweeper`),
+para que la UI pueda avisar "rebote de la atajada de X" en vez de solo
+"tras un rechace de X".
 
 **Ojo:** `data/jugadores.json` y `data/lista.json` viven en la misma carpeta
 `data/` pero NO son partidos — son índices/metadata que arma `parser.py`.

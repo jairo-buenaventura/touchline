@@ -479,6 +479,17 @@
         "secuencia_gol": [
           {
             "jugador": "Wout Weghorst",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 46,
+            "x": 63.9,
+            "y": 31.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 46,
@@ -499,7 +510,12 @@
             "endY": 35.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Max Bruns",
+          "portero": false
+        }
       }
     ],
     "corners": [

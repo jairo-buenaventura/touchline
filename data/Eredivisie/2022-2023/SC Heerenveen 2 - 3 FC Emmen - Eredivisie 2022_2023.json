@@ -421,6 +421,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Thom Haye",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 37,
+            "x": 59.1,
+            "y": 29.3,
+            "endX": 68.9,
+            "endY": 6.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan van Ewijk",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 42,
+            "x": 68.9,
+            "y": 6.1,
+            "endX": 70.4,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan van Ewijk",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 42,
+            "x": 70.4,
+            "y": 15.1,
+            "endX": 73.4,
+            "endY": 16.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 45,
+            "x": 73.4,
+            "y": 16.5,
+            "endX": 91.0,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Simon Olsson",
             "tipo": "Pass",
             "minuto": 20,
@@ -431,7 +475,12 @@
             "endY": 44.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lorenzo Burnet",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4985,7 +5034,24 @@
         "y": 44.5,
         "arco_y": 46.6,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ahmed El Messaoudi",
+            "tipo": "BlockedPass",
+            "minuto": 73,
+            "segundo": 57,
+            "x": 82.0,
+            "y": 46.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pawel Bochniewicz",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

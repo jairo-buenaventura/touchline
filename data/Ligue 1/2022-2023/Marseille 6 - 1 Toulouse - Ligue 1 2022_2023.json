@@ -513,6 +513,83 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Pape Gueye",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 21,
+            "x": 42.6,
+            "y": 81.8,
+            "endX": 38.8,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dimitri Payet",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 22,
+            "x": 40.8,
+            "y": 64.1,
+            "endX": 35.3,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentin Rongier",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 26,
+            "x": 35.3,
+            "y": 52.7,
+            "endX": 50.3,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentin Rongier",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 26,
+            "x": 50.3,
+            "y": 43.1,
+            "endX": 53.2,
+            "endY": 43.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pape Gueye",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 53.2,
+            "y": 43.4,
+            "endX": 74.5,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Gueye",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 74.5,
+            "y": 64.0,
+            "endX": 82.9,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 82.9,
+            "y": 68.4,
+            "endX": 88.6,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Sead Kolasinac",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -523,7 +600,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rasmus Nicolaisen",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -534,6 +616,105 @@
         "arco_y": 46.4,
         "arco_z": 26.6,
         "secuencia_gol": [
+          {
+            "jugador": "Samuel Gigot",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 15,
+            "x": 0.5,
+            "y": 62.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gigot",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 16,
+            "x": 0.8,
+            "y": 71.3,
+            "endX": 8.3,
+            "endY": 81.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 19,
+            "x": 8.3,
+            "y": 81.0,
+            "endX": 6.6,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 19,
+            "x": 6.6,
+            "y": 83.7,
+            "endX": 30.5,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dimitri Payet",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 23,
+            "x": 30.5,
+            "y": 54.3,
+            "endX": 26.8,
+            "endY": 49.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dimitri Payet",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 23,
+            "x": 26.8,
+            "y": 49.8,
+            "endX": 48.6,
+            "endY": 12.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 48.6,
+            "y": 12.4,
+            "endX": 74.3,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 32,
+            "x": 74.3,
+            "y": 15.8,
+            "endX": 92.1,
+            "endY": 17.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 92.1,
+            "y": 17.9,
+            "endX": 87.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Jonathan Clauss",
             "tipo": "Pass",
@@ -589,7 +770,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Anthony Rouault",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -610,6 +796,28 @@
         "arco_y": 50.4,
         "arco_z": 28.5,
         "secuencia_gol": [
+          {
+            "jugador": "Chancel Mbemba",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 19,
+            "x": 77.9,
+            "y": 14.4,
+            "endX": 97.3,
+            "endY": 20.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 21,
+            "x": 98.4,
+            "y": 19.3,
+            "endX": 91.9,
+            "endY": 57.6,
+            "exitoso": true
+          },
           {
             "jugador": "Nuno Tavares",
             "tipo": "TakeOn",
@@ -632,7 +840,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christian Mawissa",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

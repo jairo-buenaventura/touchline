@@ -682,6 +682,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Federico Valverde",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 2,
+            "x": 46.5,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 2,
+            "x": 45.0,
+            "y": 57.5,
+            "endX": 64.8,
+            "endY": 64.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 7,
+            "x": 64.8,
+            "y": 64.1,
+            "endX": 90.2,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Vinícius Júnior",
             "tipo": "TakeOn",
             "minuto": 64,
@@ -692,7 +725,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergio Herrera",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

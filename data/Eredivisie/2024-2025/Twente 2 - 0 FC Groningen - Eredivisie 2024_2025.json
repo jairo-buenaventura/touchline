@@ -414,6 +414,72 @@
         "secuencia_gol": [
           {
             "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 7,
+            "x": 80.0,
+            "y": 8.9,
+            "endX": 76.4,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sem Steijn",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 10,
+            "x": 76.4,
+            "y": 37.3,
+            "endX": 87.6,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Regeer",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 11,
+            "x": 87.7,
+            "y": 29.8,
+            "endX": 78.7,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 12,
+            "x": 78.3,
+            "y": 28.3,
+            "endX": 77.4,
+            "endY": 37.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 13,
+            "x": 77.4,
+            "y": 37.9,
+            "endX": 86.8,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Lammers",
+            "tipo": "SavedShot",
+            "minuto": 23,
+            "segundo": 15,
+            "x": 87.0,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
             "tipo": "ShieldBallOpp",
             "minuto": 23,
             "segundo": 19,
@@ -610,7 +676,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Leandro Bacuna",
+          "portero": true
+        }
       },
       {
         "minuto": 26,
@@ -649,6 +720,83 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Michal Sadílek",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 57.9,
+            "y": 5.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michal Sadílek",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 3,
+            "x": 61.4,
+            "y": 4.9,
+            "endX": 61.0,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 6,
+            "x": 61.0,
+            "y": 34.3,
+            "endX": 61.7,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Vlap",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 6,
+            "x": 61.7,
+            "y": 26.2,
+            "endX": 72.5,
+            "endY": 1.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 11,
+            "x": 72.5,
+            "y": 1.7,
+            "endX": 74.6,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 11,
+            "x": 74.6,
+            "y": 4.1,
+            "endX": 95.0,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sem Steijn",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 13,
+            "x": 95.0,
+            "y": 28.6,
+            "endX": 95.2,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Sem Steijn",
             "tipo": "TakeOn",
             "minuto": 56,
@@ -659,7 +807,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Stije Resink",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

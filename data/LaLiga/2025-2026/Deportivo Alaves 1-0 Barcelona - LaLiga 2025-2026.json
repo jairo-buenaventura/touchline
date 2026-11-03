@@ -374,6 +374,28 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Denis Suárez",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 19,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.5,
+            "endY": 42.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antonio Blanco",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 21,
+            "x": 93.5,
+            "y": 42.6,
+            "endX": 84.5,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Antonio Blanco",
             "tipo": "Pass",
             "minuto": 45,
@@ -384,7 +406,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marcus Rashford",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

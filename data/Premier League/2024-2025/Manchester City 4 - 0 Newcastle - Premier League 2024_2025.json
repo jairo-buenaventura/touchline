@@ -766,6 +766,17 @@
         "secuencia_gol": [
           {
             "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 2,
+            "x": 97.4,
+            "y": 58.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erling Haaland",
             "tipo": "Pass",
             "minuto": 83,
             "segundo": 2,
@@ -775,7 +786,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dan Burn",
+          "portero": false
+        }
       }
     ],
     "corners": [

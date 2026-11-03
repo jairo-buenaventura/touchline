@@ -399,6 +399,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolas Jackson",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 52,
+            "x": 88.5,
+            "y": 75.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
             "tipo": "TakeOn",
             "minuto": 5,
             "segundo": 54,
@@ -408,7 +419,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Elliot Anderson",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4056,7 +4072,24 @@
         "y": 51.7,
         "arco_y": 53.6,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Erling Haaland",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 56,
+            "x": 95.1,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Victor Lindelöf",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

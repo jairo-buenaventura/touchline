@@ -405,6 +405,39 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Kyle Walker",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 11,
+            "x": 69.6,
+            "y": 23.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 11,
+            "x": 69.6,
+            "y": 23.5,
+            "endX": 80.8,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 15,
+            "x": 81.5,
+            "y": 15.7,
+            "endX": 79.6,
+            "endY": 36.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Phil Foden",
             "tipo": "TakeOn",
             "minuto": 1,
@@ -415,7 +448,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "James Ward-Prowse",
+          "portero": false
+        }
       },
       {
         "minuto": 6,

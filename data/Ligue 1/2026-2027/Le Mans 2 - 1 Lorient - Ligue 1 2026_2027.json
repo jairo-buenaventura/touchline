@@ -4414,6 +4414,28 @@
         "arco_z": 19.0,
         "secuencia_gol": [
           {
+            "jugador": "Isak Jensen",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.9,
+            "endY": 47.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dembo Sylla",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 39,
+            "x": 93.9,
+            "y": 47.9,
+            "endX": 61.0,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Dembo Sylla",
             "tipo": "Pass",
             "minuto": 77,
@@ -4523,7 +4545,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Alexandre Lauray",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

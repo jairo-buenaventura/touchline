@@ -398,6 +398,50 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Matt Miazga",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 24,
+            "x": 39.6,
+            "y": 14.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matt Miazga",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 27,
+            "x": 39.6,
+            "y": 14.2,
+            "endX": 66.5,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 29,
+            "x": 66.3,
+            "y": 8.2,
+            "endX": 67.4,
+            "endY": 1.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raymon Gaddis",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 31,
+            "x": 66.8,
+            "y": 2.3,
+            "endX": 70.0,
+            "endY": 2.6,
+            "exitoso": false
+          },
+          {
             "jugador": "Raymon Gaddis",
             "tipo": "Pass",
             "minuto": 16,
@@ -474,7 +518,12 @@
             "endY": 46.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Gustavo Vallecilla",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4091,6 +4140,17 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Mohamed Farsi",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 37,
+            "x": 73.4,
+            "y": 0.0,
+            "endX": 89.7,
+            "endY": 17.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Cucho Hernández",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -4112,7 +4172,12 @@
             "endY": 45.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yerson Mosquera",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -4140,7 +4205,156 @@
         "y": 50.4,
         "arco_y": 50.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Schulte",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 3,
+            "x": 31.3,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Schulte",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 4,
+            "x": 31.3,
+            "y": 60.2,
+            "endX": 36.3,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 36.3,
+            "y": 34.6,
+            "endX": 43.1,
+            "endY": 25.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 43.1,
+            "y": 25.7,
+            "endX": 62.1,
+            "endY": 4.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Farsi",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 11,
+            "x": 61.8,
+            "y": 4.5,
+            "endX": 48.4,
+            "endY": 14.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 15,
+            "x": 48.4,
+            "y": 14.7,
+            "endX": 53.8,
+            "endY": 23.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 15,
+            "x": 53.8,
+            "y": 23.1,
+            "endX": 64.0,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 16,
+            "x": 64.0,
+            "y": 39.4,
+            "endX": 87.1,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 21,
+            "x": 87.1,
+            "y": 15.3,
+            "endX": 91.0,
+            "endY": 15.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Darlington Nagbe",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 21,
+            "x": 91.0,
+            "y": 15.5,
+            "endX": 81.0,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Farsi",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 23,
+            "x": 81.0,
+            "y": 18.2,
+            "endX": 89.2,
+            "endY": 49.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 25,
+            "x": 89.2,
+            "y": 49.6,
+            "endX": 90.3,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 25,
+            "x": 90.3,
+            "y": 61.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Roman Celentano",
+          "portero": true
+        }
       },
       {
         "minuto": 75,

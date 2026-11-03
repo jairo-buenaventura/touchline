@@ -389,6 +389,17 @@
         "secuencia_gol": [
           {
             "jugador": "Luis Alberto",
+            "tipo": "Tackle",
+            "minuto": 78,
+            "segundo": 5,
+            "x": 77.8,
+            "y": 74.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Alberto",
             "tipo": "BallTouch",
             "minuto": 78,
             "segundo": 6,
@@ -409,7 +420,12 @@
             "endY": 59.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lorenzo De Silvestri",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

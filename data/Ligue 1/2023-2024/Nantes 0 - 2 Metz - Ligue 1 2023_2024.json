@@ -4314,6 +4314,17 @@
         "secuencia_gol": [
           {
             "jugador": "Danley Jean Jacques",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 27,
+            "x": 28.9,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danley Jean Jacques",
             "tipo": "TakeOn",
             "minuto": 59,
             "segundo": 30,
@@ -4356,7 +4367,12 @@
             "endY": 59.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolas Pallois",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

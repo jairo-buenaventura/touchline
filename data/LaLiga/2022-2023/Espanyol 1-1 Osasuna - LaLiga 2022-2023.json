@@ -412,6 +412,28 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Sergi Darder",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 25,
+            "x": 76.8,
+            "y": 87.7,
+            "endX": 95.9,
+            "endY": 46.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Leandro Cabrera",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 34,
+            "x": 95.9,
+            "y": 46.1,
+            "endX": 79.3,
+            "endY": 6.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Leandro Cabrera",
             "tipo": "Pass",
             "minuto": 58,
@@ -444,7 +466,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Aitor Fernández",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4084,7 +4111,46 @@
         "y": 47.8,
         "arco_y": 46.5,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Chimy Ávila",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 24,
+            "x": 91.0,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chimy Ávila",
+            "tipo": "BallTouch",
+            "minuto": 44,
+            "segundo": 24,
+            "x": 93.7,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chimy Ávila",
+            "tipo": "SavedShot",
+            "minuto": 44,
+            "segundo": 24,
+            "x": 91.5,
+            "y": 38.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ronaël Pierre-Gabriel",
+          "portero": true
+        }
       },
       {
         "minuto": 52,

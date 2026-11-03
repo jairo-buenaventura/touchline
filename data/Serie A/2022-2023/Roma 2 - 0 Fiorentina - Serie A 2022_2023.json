@@ -507,6 +507,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Rui Patrício",
+            "tipo": "KeeperPickup",
+            "minuto": 81,
+            "segundo": 4,
+            "x": 14.0,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rui Patrício",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 9,
+            "x": 12.2,
+            "y": 54.5,
+            "endX": 19.1,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Smalling",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 13,
+            "x": 19.1,
+            "y": 51.0,
+            "endX": 4.4,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rui Patrício",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 4.0,
+            "y": 55.9,
+            "endX": 32.0,
+            "endY": 86.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Spinazzola",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 18,
+            "x": 30.8,
+            "y": 87.2,
+            "endX": 34.3,
+            "endY": 82.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nemanja Matic",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 28,
+            "x": 34.3,
+            "y": 82.4,
+            "endX": 45.2,
+            "endY": 98.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Nemanja Matic",
             "tipo": "Pass",
             "minuto": 81,
@@ -616,7 +682,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lorenzo Venuti",
+          "portero": false
+        }
       }
     ],
     "corners": [

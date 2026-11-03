@@ -446,7 +446,57 @@
         "y": 58.1,
         "arco_y": 53.6,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Umut Tohumcu",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 15,
+            "x": 65.1,
+            "y": 18.5,
+            "endX": 88.7,
+            "endY": 12.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Kaderábek",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 17,
+            "x": 88.7,
+            "y": 12.4,
+            "endX": 89.2,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Grischa Prömel",
+            "tipo": "BallTouch",
+            "minuto": 42,
+            "segundo": 19,
+            "x": 88.2,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 20,
+            "x": 91.2,
+            "y": 61.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matús Bero",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -504,6 +554,28 @@
         "secuencia_gol": [
           {
             "jugador": "Ihlas Bebou",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 20,
+            "x": 31.0,
+            "y": 21.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ihlas Bebou",
+            "tipo": "TakeOn",
+            "minuto": 75,
+            "segundo": 21,
+            "x": 32.0,
+            "y": 27.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ihlas Bebou",
             "tipo": "Pass",
             "minuto": 75,
             "segundo": 23,
@@ -546,7 +618,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kevin Stöger",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

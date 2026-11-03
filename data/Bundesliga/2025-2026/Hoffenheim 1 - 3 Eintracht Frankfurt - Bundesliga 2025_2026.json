@@ -4673,6 +4673,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Rasmus Kristensen",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 30,
+            "x": 84.6,
+            "y": 6.0,
+            "endX": 85.1,
+            "endY": 18.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Can Uzun",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 32,
+            "x": 85.1,
+            "y": 18.9,
+            "endX": 80.5,
+            "endY": 15.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Can Uzun",
             "tipo": "BallTouch",
             "minuto": 16,
@@ -4694,7 +4716,12 @@
             "endY": 34.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bernardo",
+          "portero": false
+        }
       },
       {
         "minuto": 26,

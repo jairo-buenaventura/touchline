@@ -410,6 +410,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Granit Xhaka",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 46,
+            "x": 41.2,
+            "y": 32.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 47,
+            "x": 41.2,
+            "y": 32.5,
+            "endX": 70.1,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 50,
+            "x": 70.1,
+            "y": 67.8,
+            "endX": 75.0,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "TakeOn",
             "minuto": 31,
@@ -431,7 +464,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ko Itakura",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

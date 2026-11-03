@@ -507,7 +507,24 @@
         "y": 49.4,
         "arco_y": 48.4,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "SavedShot",
+            "minuto": 46,
+            "segundo": 5,
+            "x": 91.6,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nouhou Tolo",
+          "portero": true
+        }
       },
       {
         "minuto": 51,
@@ -5163,6 +5180,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "João Paulo",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 24,
+            "x": 44.1,
+            "y": 28.7,
+            "endX": 58.3,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raúl Ruidíaz",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 26,
+            "x": 58.3,
+            "y": 39.1,
+            "endX": 60.2,
+            "endY": 41.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Raúl Ruidíaz",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 28,
+            "x": 60.2,
+            "y": 41.0,
+            "endX": 70.7,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Raúl Ruidíaz",
             "tipo": "Pass",
             "minuto": 56,
@@ -5195,7 +5245,12 @@
             "endY": 47.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Eric Remedi",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

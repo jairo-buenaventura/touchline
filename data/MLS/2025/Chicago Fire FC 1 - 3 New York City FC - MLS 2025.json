@@ -4549,6 +4549,61 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Nicolás Fernández",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 4,
+            "x": 70.2,
+            "y": 0.0,
+            "endX": 62.7,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 6,
+            "x": 62.2,
+            "y": 15.6,
+            "endX": 43.0,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Martins",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 7,
+            "x": 42.7,
+            "y": 35.2,
+            "endX": 46.1,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raul Gustavo",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 10,
+            "x": 46.1,
+            "y": 57.0,
+            "endX": 72.5,
+            "endY": 94.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hannes Wolf",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 14,
+            "x": 72.5,
+            "y": 94.0,
+            "endX": 70.9,
+            "endY": 84.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Justin Haak",
             "tipo": "Pass",
             "minuto": 38,
@@ -4834,7 +4889,12 @@
             "endY": 41.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "André Franco",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4889,7 +4949,46 @@
         "y": 60.3,
         "arco_y": 48.6,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hannes Wolf",
+            "tipo": "CornerAwarded",
+            "minuto": 55,
+            "segundo": 41,
+            "x": 90.9,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Fernández",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 45,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.8,
+            "endY": 57.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raul Gustavo",
+            "tipo": "SavedShot",
+            "minuto": 56,
+            "segundo": 47,
+            "x": 89.9,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Djé D'Avilla",
+          "portero": true
+        }
       },
       {
         "minuto": 92,

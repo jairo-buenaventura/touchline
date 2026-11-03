@@ -507,6 +507,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Diego Chará",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 58,
+            "x": 8.1,
+            "y": 73.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Chará",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 59,
+            "x": 8.1,
+            "y": 73.0,
+            "endX": 21.1,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Blanco",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 21.1,
+            "y": 92.7,
+            "endX": 27.2,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Blanco",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 1,
+            "x": 27.2,
+            "y": 89.0,
+            "endX": 28.8,
+            "endY": 84.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sebastián Blanco",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 2,
+            "x": 27.0,
+            "y": 82.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Sebastián Blanco",
             "tipo": "Pass",
             "minuto": 55,
@@ -517,7 +572,12 @@
             "endY": 65.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Uri Rosell",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -644,7 +704,68 @@
         "y": 44.3,
         "arco_y": 50.7,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tega Ikoba",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 58,
+            "x": 37.0,
+            "y": 47.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tega Ikoba",
+            "tipo": "BallTouch",
+            "minuto": 90,
+            "segundo": 58,
+            "x": 36.0,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Chará",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 0,
+            "x": 30.0,
+            "y": 47.3,
+            "endX": 64.1,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 64.1,
+            "y": 64.2,
+            "endX": 88.0,
+            "endY": 51.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Moreno",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 88.0,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tim Melia",
+          "portero": false
+        }
       }
     ],
     "corners": [

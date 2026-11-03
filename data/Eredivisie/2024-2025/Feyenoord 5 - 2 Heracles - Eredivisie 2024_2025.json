@@ -487,6 +487,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dávid Hancko",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 51,
+            "x": 21.7,
+            "y": 37.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
             "tipo": "TakeOn",
             "minuto": 46,
             "segundo": 54,
@@ -573,7 +584,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shiloh 't Zand",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -585,6 +601,39 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Santiago Giménez",
+            "tipo": "CornerAwarded",
+            "minuto": 47,
+            "segundo": 49,
+            "x": 94.5,
+            "y": 36.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Stengs",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 92.7,
+            "endY": 46.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Givairo Read",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 36,
+            "x": 92.7,
+            "y": 46.1,
+            "endX": 75.7,
+            "endY": 35.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Givairo Read",
             "tipo": "Pass",
             "minuto": 48,
@@ -595,7 +644,12 @@
             "endY": 59.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Damon Mirani",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

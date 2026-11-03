@@ -478,6 +478,17 @@
         "secuencia_gol": [
           {
             "jugador": "Adam Buksa",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 25,
+            "x": 91.6,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Buksa",
             "tipo": "MissedShots",
             "minuto": 61,
             "segundo": 26,
@@ -487,7 +498,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marcelo Silva",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -4551,7 +4567,35 @@
         "y": 48.4,
         "arco_y": 48.4,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bobby Wood",
+            "tipo": "BallTouch",
+            "minuto": 77,
+            "segundo": 9,
+            "x": 86.0,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Córdova",
+            "tipo": "TakeOn",
+            "minuto": 77,
+            "segundo": 10,
+            "x": 91.4,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Earl Edwards Jr.",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

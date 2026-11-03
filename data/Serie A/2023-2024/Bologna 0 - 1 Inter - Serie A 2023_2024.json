@@ -5450,6 +5450,160 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 13,
+            "x": 28.1,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 15,
+            "x": 28.1,
+            "y": 50.1,
+            "endX": 8.5,
+            "endY": 46.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 17,
+            "x": 8.5,
+            "y": 46.7,
+            "endX": 24.4,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 20,
+            "x": 25.2,
+            "y": 35.6,
+            "endX": 31.6,
+            "endY": 34.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 23,
+            "x": 31.6,
+            "y": 36.1,
+            "endX": 31.9,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 28,
+            "x": 31.9,
+            "y": 51.9,
+            "endX": 46.7,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 28,
+            "x": 46.7,
+            "y": 60.3,
+            "endX": 45.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 30,
+            "x": 46.5,
+            "y": 72.6,
+            "endX": 53.4,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 33,
+            "x": 54.1,
+            "y": 56.1,
+            "endX": 57.5,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Bisseck",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 38,
+            "x": 57.5,
+            "y": 10.1,
+            "endX": 62.5,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Bisseck",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 38,
+            "x": 62.5,
+            "y": 5.3,
+            "endX": 53.8,
+            "endY": 16.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 40,
+            "x": 53.8,
+            "y": 16.7,
+            "endX": 62.9,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 43,
+            "x": 63.7,
+            "y": 31.9,
+            "endX": 67.7,
+            "endY": 22.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Henrikh Mkhitaryan",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 47,
+            "x": 67.7,
+            "y": 22.3,
+            "endX": 54.9,
+            "endY": 17.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Henrikh Mkhitaryan",
             "tipo": "Pass",
             "minuto": 35,
@@ -5636,7 +5790,12 @@
             "endY": 42.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lewis Ferguson",
+          "portero": false
+        }
       }
     ],
     "corners": [

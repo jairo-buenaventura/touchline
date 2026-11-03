@@ -399,6 +399,17 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Felix Passlack",
+            "tipo": "BallTouch",
+            "minuto": 5,
+            "segundo": 40,
+            "x": 80.6,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Matús Bero",
             "tipo": "Pass",
             "minuto": 5,
@@ -442,7 +453,12 @@
             "endY": 41.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jan Schöppner",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -479,7 +495,57 @@
         "y": 52.1,
         "arco_y": 52.2,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Felix Passlack",
+            "tipo": "Tackle",
+            "minuto": 37,
+            "segundo": 33,
+            "x": 90.9,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tim Oermann",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 40,
+            "x": 76.8,
+            "y": 19.9,
+            "endX": 78.4,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matús Bero",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 42,
+            "x": 78.4,
+            "y": 40.9,
+            "endX": 83.3,
+            "endY": 49.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matús Bero",
+            "tipo": "TakeOn",
+            "minuto": 37,
+            "segundo": 42,
+            "x": 83.3,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Patrick Mainka",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

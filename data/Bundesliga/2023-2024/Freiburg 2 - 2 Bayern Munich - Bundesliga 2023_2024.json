@@ -398,6 +398,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolas Höfler",
+            "tipo": "Aerial",
+            "minuto": 11,
+            "segundo": 23,
+            "x": 75.8,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Höfler",
             "tipo": "Pass",
             "minuto": 11,
             "segundo": 23,
@@ -407,7 +418,12 @@
             "endY": 68.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Aleksandar Pavlovic",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -4566,6 +4582,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 34,
+            "x": 62.7,
+            "y": 43.6,
+            "endX": 64.8,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 37,
+            "x": 64.8,
+            "y": 81.8,
+            "endX": 71.3,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 37,
+            "x": 71.3,
+            "y": 69.3,
+            "endX": 60.8,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 38,
+            "x": 60.8,
+            "y": 74.7,
+            "endX": 65.6,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 38,
+            "x": 65.6,
+            "y": 81.5,
+            "endX": 86.2,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamal Musiala",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 45,
+            "x": 86.2,
+            "y": 82.9,
+            "endX": 94.2,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Jamal Musiala",
             "tipo": "TakeOn",
             "minuto": 74,
@@ -4576,7 +4658,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kiliann Sildillia",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

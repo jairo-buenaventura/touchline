@@ -4483,6 +4483,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Valentín Barco",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 32,
+            "x": 26.5,
+            "y": 38.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valentín Barco",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 32,
+            "x": 26.4,
+            "y": 39.0,
+            "endX": 21.9,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mamadou Sarr",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 33,
+            "x": 21.9,
+            "y": 40.4,
+            "endX": 27.9,
+            "endY": 12.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guéla Doué",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 34,
+            "x": 27.9,
+            "y": 12.0,
+            "endX": 26.5,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Guéla Doué",
             "tipo": "TakeOn",
             "minuto": 23,
@@ -4691,7 +4735,12 @@
             "endY": 38.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Matias Fernandez-Pardo",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

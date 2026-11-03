@@ -502,6 +502,83 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Henry Kessler",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 53,
+            "x": 30.3,
+            "y": 61.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henry Kessler",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 55,
+            "x": 30.5,
+            "y": 62.2,
+            "endX": 43.9,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 58,
+            "x": 43.9,
+            "y": 86.7,
+            "endX": 42.4,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 58,
+            "x": 42.4,
+            "y": 92.4,
+            "endX": 52.0,
+            "endY": 93.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Buck",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 3,
+            "x": 52.0,
+            "y": 93.7,
+            "endX": 57.8,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noel Buck",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 3,
+            "x": 57.8,
+            "y": 85.0,
+            "endX": 93.6,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustavo Bou",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 93.6,
+            "y": 76.2,
+            "endX": 89.4,
+            "endY": 75.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Gustavo Bou",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -534,7 +611,12 @@
             "endY": 32.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Derrick Williams",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -5197,6 +5279,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Chicharito",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 40,
+            "x": 44.3,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chicharito",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 41,
+            "x": 41.8,
+            "y": 41.2,
+            "endX": 54.0,
+            "endY": 59.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kévin Cabral",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 43,
+            "x": 54.0,
+            "y": 59.9,
+            "endX": 52.0,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Kévin Cabral",
             "tipo": "BallTouch",
             "minuto": 14,
@@ -5218,7 +5333,12 @@
             "endY": 38.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matt Polster",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

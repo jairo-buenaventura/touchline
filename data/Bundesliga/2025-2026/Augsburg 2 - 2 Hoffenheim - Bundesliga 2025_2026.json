@@ -369,6 +369,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Cédric Zesiger",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 14,
+            "x": 32.2,
+            "y": 53.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cédric Zesiger",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 14,
+            "x": 32.2,
+            "y": 53.5,
+            "endX": 49.5,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 17,
+            "x": 49.5,
+            "y": 67.8,
+            "endX": 67.4,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Alexis Claude-Maurice",
             "tipo": "TakeOn",
             "minuto": 10,
@@ -401,7 +434,12 @@
             "endY": 54.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leon Avdullahu",
+          "portero": false
+        }
       },
       {
         "minuto": 13,

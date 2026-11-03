@@ -4284,6 +4284,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gustavo Bou",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 50,
+            "x": 70.1,
+            "y": 74.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustavo Bou",
             "tipo": "TakeOn",
             "minuto": 67,
             "segundo": 52,
@@ -4293,7 +4304,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jack Elliott",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

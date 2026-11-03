@@ -510,7 +510,46 @@
         "y": 47.8,
         "arco_y": 46.9,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 6,
+            "x": 92.2,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 6,
+            "x": 93.2,
+            "y": 62.8,
+            "endX": 96.0,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Gabbia",
+            "tipo": "SavedShot",
+            "minuto": 79,
+            "segundo": 6,
+            "x": 94.8,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yann Sommer",
+          "portero": true
+        }
       },
       {
         "minuto": 82,
@@ -4556,6 +4595,17 @@
         "secuencia_gol": [
           {
             "jugador": "Benjamin Pavard",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 34,
+            "x": 96.2,
+            "y": 58.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Pavard",
             "tipo": "Pass",
             "minuto": 17,
             "segundo": 34,
@@ -4565,7 +4615,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Théo Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -4620,7 +4675,145 @@
         "y": 67.6,
         "arco_y": 53.0,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 56,
+            "x": 2.6,
+            "y": 66.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 58,
+            "x": 7.6,
+            "y": 63.1,
+            "endX": 21.7,
+            "endY": 75.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 10,
+            "x": 21.7,
+            "y": 75.7,
+            "endX": 24.4,
+            "endY": 73.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 10,
+            "x": 24.4,
+            "y": 73.7,
+            "endX": 43.2,
+            "endY": 65.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 12,
+            "x": 43.7,
+            "y": 67.2,
+            "endX": 36.1,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 13,
+            "x": 35.0,
+            "y": 91.9,
+            "endX": 29.5,
+            "endY": 74.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 16,
+            "x": 28.6,
+            "y": 73.9,
+            "endX": 17.9,
+            "endY": 47.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Sommer",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 21,
+            "x": 19.0,
+            "y": 48.8,
+            "endX": 28.5,
+            "endY": 85.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 28.5,
+            "y": 85.5,
+            "endX": 37.3,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 25,
+            "x": 37.3,
+            "y": 88.0,
+            "endX": 76.4,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 32,
+            "x": 76.4,
+            "y": 76.3,
+            "endX": 82.8,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 32,
+            "x": 82.8,
+            "y": 87.7,
+            "endX": 85.7,
+            "endY": 84.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Fikayo Tomori",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

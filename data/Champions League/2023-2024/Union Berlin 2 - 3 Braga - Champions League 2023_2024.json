@@ -3944,7 +3944,35 @@
         "y": 56.0,
         "arco_y": 51.2,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Serdar Saatçi",
+            "tipo": "Aerial",
+            "minuto": 40,
+            "segundo": 20,
+            "x": 91.7,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ricardo Horta",
+            "tipo": "SavedShot",
+            "minuto": 40,
+            "segundo": 23,
+            "x": 80.9,
+            "y": 28.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Frederik Rønnow",
+          "portero": true
+        }
       },
       {
         "minuto": 50,
@@ -4045,6 +4073,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Simon Banza",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 71.9,
+            "y": 34.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Banza",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 30,
+            "x": 71.9,
+            "y": 34.6,
+            "endX": 74.3,
+            "endY": 33.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Abel Ruiz",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 39,
+            "x": 74.3,
+            "y": 33.1,
+            "endX": 84.9,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Abel Ruiz",
             "tipo": "Pass",
             "minuto": 93,
@@ -4066,7 +4127,12 @@
             "endY": 37.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Diogo Leite",
+          "portero": false
+        }
       }
     ],
     "corners": [

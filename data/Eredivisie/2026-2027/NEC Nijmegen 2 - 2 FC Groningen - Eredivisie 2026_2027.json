@@ -530,7 +530,35 @@
         "y": 52.1,
         "arco_y": 54.0,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Aerial",
+            "minuto": 70,
+            "segundo": 28,
+            "x": 89.8,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaj Sierhuis",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 29,
+            "x": 89.8,
+            "y": 57.9,
+            "endX": 91.7,
+            "endY": 48.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marco Rente",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4833,6 +4861,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marco Rente",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 21,
+            "x": 90.2,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Rente",
             "tipo": "MissedShots",
             "minuto": 10,
             "segundo": 22,
@@ -4842,7 +4881,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Darko Nejasmic",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

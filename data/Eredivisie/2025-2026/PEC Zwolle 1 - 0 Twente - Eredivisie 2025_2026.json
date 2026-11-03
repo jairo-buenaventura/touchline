@@ -395,6 +395,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Tom de Graaff",
+            "tipo": "KeeperPickup",
+            "minuto": 7,
+            "segundo": 5,
+            "x": 2.8,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom de Graaff",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 6,
+            "x": 8.5,
+            "y": 43.1,
+            "endX": 44.9,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Mbayo",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 14,
+            "x": 44.9,
+            "y": 14.6,
+            "endX": 71.6,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Dylan Mbayo",
             "tipo": "TakeOn",
             "minuto": 7,
@@ -416,7 +449,12 @@
             "endY": 50.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Robin Pröpper",
+          "portero": false
+        }
       },
       {
         "minuto": 16,

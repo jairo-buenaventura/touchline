@@ -410,6 +410,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lucas Stassin",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 7,
+            "x": 93.8,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Stassin",
             "tipo": "MissedShots",
             "minuto": 50,
             "segundo": 7,
@@ -419,7 +430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Saïdou Sow",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -456,7 +472,90 @@
         "y": 52.6,
         "arco_y": 52.8,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dennis Appiah",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 28,
+            "x": 53.1,
+            "y": 0.0,
+            "endX": 39.2,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Batubinsika",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 32,
+            "x": 39.2,
+            "y": 14.8,
+            "endX": 39.6,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dylan Batubinsika",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 32,
+            "x": 39.6,
+            "y": 25.9,
+            "endX": 40.7,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mickaël Nadé",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 35,
+            "x": 40.7,
+            "y": 65.4,
+            "endX": 65.3,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zuriko Davitashvili",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 41,
+            "x": 66.1,
+            "y": 94.2,
+            "endX": 65.6,
+            "endY": 84.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aïmen Moueffek",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 44,
+            "x": 65.6,
+            "y": 84.3,
+            "endX": 71.7,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Léo Pétrot",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 45,
+            "x": 71.7,
+            "y": 93.8,
+            "endX": 75.2,
+            "endY": 84.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Guéla Doué",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

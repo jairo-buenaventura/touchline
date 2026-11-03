@@ -537,7 +537,24 @@
         "y": 47.2,
         "arco_y": 45.5,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tim Kleindienst",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 13,
+            "x": 90.4,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Leo Østigård",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4353,7 +4370,90 @@
         "y": 46.0,
         "arco_y": 52.3,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marius Bülter",
+            "tipo": "CornerAwarded",
+            "minuto": 42,
+            "segundo": 10,
+            "x": 98.7,
+            "y": 66.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.5,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 41,
+            "x": 90.5,
+            "y": 90.6,
+            "endX": 90.5,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 41,
+            "x": 90.5,
+            "y": 83.8,
+            "endX": 97.4,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bazoumana Touré",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 42,
+            "x": 97.6,
+            "y": 74.4,
+            "endX": 90.9,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Hlozek",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 90.9,
+            "y": 59.7,
+            "endX": 88.1,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Hlozek",
+            "tipo": "SavedShot",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 88.1,
+            "y": 57.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonas Omlin",
+          "portero": true
+        }
       },
       {
         "minuto": 46,
@@ -4401,6 +4501,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Tom Bischof",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 51,
+            "x": 9.9,
+            "y": 9.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tom Bischof",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 53,
+            "x": 9.9,
+            "y": 9.7,
+            "endX": 56.5,
+            "endY": 8.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adam Hlozek",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 56.5,
+            "y": 8.6,
+            "endX": 60.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Hlozek",
             "tipo": "Pass",
             "minuto": 53,
@@ -4433,7 +4566,12 @@
             "endY": 69.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fabio Chiarodia",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4481,6 +4619,50 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Marius Bülter",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 46,
+            "x": 92.2,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marius Bülter",
+            "tipo": "BallTouch",
+            "minuto": 72,
+            "segundo": 46,
+            "x": 91.9,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 52,
+            "x": 66.7,
+            "y": 73.3,
+            "endX": 76.9,
+            "endY": 84.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Hlozek",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 56,
+            "x": 76.9,
+            "y": 84.4,
+            "endX": 84.8,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Hlozek",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -4491,7 +4673,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kevin Stöger",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

@@ -569,6 +569,61 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Kieran Trippier",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 33,
+            "x": 3.5,
+            "y": 8.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 33,
+            "x": 3.6,
+            "y": 7.3,
+            "endX": 14.6,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elliot Anderson",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 34,
+            "x": 14.6,
+            "y": 7.0,
+            "endX": 15.0,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 37,
+            "x": 15.0,
+            "y": 11.4,
+            "endX": 34.6,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 37,
+            "x": 34.6,
+            "y": 4.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Miguel Almirón",
             "tipo": "Pass",
             "minuto": 88,
@@ -579,7 +634,12 @@
             "endY": 23.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Moisés Caicedo",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -591,6 +651,50 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Alexander Isak",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 12,
+            "x": 48.4,
+            "y": 80.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Isak",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 13,
+            "x": 53.7,
+            "y": 75.1,
+            "endX": 66.0,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Callum Wilson",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 66.0,
+            "y": 57.2,
+            "endX": 87.8,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Callum Wilson",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 87.8,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Callum Wilson",
             "tipo": "Pass",
             "minuto": 90,
@@ -601,7 +705,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lewis Dunk",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

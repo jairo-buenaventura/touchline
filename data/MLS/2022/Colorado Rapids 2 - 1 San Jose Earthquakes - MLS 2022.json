@@ -392,7 +392,90 @@
         "y": 57.1,
         "arco_y": 54.0,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Felipe Gutiérrez",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 24,
+            "x": 57.1,
+            "y": 79.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felipe Gutiérrez",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 25,
+            "x": 57.1,
+            "y": 79.1,
+            "endX": 67.2,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gyasi Zardes",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 67.2,
+            "y": 66.9,
+            "endX": 65.3,
+            "endY": 64.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gyasi Zardes",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 65.3,
+            "y": 64.3,
+            "endX": 67.2,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 67.2,
+            "y": 81.4,
+            "endX": 69.4,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 69.4,
+            "y": 83.5,
+            "endX": 84.4,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Lewis",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 36,
+            "x": 86.2,
+            "y": 90.4,
+            "endX": 88.8,
+            "endY": 81.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Paul Marie",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -467,6 +550,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Esteves",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 12,
+            "x": 58.8,
+            "y": 100.0,
+            "endX": 71.2,
+            "endY": 95.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 14,
+            "x": 71.2,
+            "y": 95.8,
+            "endX": 67.0,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rubio",
+            "tipo": "TakeOn",
+            "minuto": 76,
+            "segundo": 14,
+            "x": 67.0,
+            "y": 86.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Diego Rubio",
             "tipo": "Pass",
             "minuto": 76,
@@ -488,7 +604,12 @@
             "endY": 28.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Judson",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -3951,7 +4072,24 @@
         "y": 57.5,
         "arco_y": 48.7,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nathan",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 17,
+            "x": 96.9,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Danny Wilson",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

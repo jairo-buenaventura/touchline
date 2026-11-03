@@ -417,6 +417,61 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Donny van de Beek",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 7,
+            "x": 42.6,
+            "y": 76.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 7,
+            "x": 31.9,
+            "y": 66.2,
+            "endX": 39.7,
+            "endY": 72.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Donny van de Beek",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 9,
+            "x": 39.7,
+            "y": 72.8,
+            "endX": 42.6,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donny van de Beek",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 9,
+            "x": 42.6,
+            "y": 76.2,
+            "endX": 42.1,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 10,
+            "x": 42.3,
+            "y": 86.9,
+            "endX": 37.2,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Philipp Max",
             "tipo": "TakeOn",
             "minuto": 13,
@@ -471,7 +526,12 @@
             "endY": 70.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lovro Majer",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -526,7 +586,46 @@
         "y": 40.5,
         "arco_y": 54.0,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 62.5,
+            "y": 20.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Koch",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 60.8,
+            "y": 13.1,
+            "endX": 71.8,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Chandler",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 72.4,
+            "y": 25.6,
+            "endX": 80.6,
+            "endY": 28.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joakim Mæhle",
+          "portero": false
+        }
       },
       {
         "minuto": 95,
@@ -5021,7 +5120,24 @@
         "y": 49.3,
         "arco_y": 46.2,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin Behrens",
+            "tipo": "Aerial",
+            "minuto": 35,
+            "segundo": 12,
+            "x": 95.3,
+            "y": 49.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Philipp Max",
+          "portero": false
+        }
       },
       {
         "minuto": 37,

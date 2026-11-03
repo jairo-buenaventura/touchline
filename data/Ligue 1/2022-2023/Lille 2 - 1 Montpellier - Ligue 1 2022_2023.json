@@ -487,6 +487,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Benjamin André",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 16,
+            "x": 34.3,
+            "y": 33.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 17,
+            "x": 35.9,
+            "y": 32.8,
+            "endX": 34.9,
+            "endY": 28.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bafodé Diakité",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 19,
+            "x": 34.9,
+            "y": 28.6,
+            "endX": 38.3,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Bafodé Diakité",
             "tipo": "Pass",
             "minuto": 69,
@@ -530,7 +563,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Stephy Mavididi",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -549,7 +587,156 @@
         "y": 44.5,
         "arco_y": 46.7,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Chevalier",
+            "tipo": "KeeperPickup",
+            "minuto": 70,
+            "segundo": 53,
+            "x": 3.6,
+            "y": 31.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Chevalier",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 56,
+            "x": 14.2,
+            "y": 42.9,
+            "endX": 20.2,
+            "endY": 58.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexsandro Ribeiro",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 20.2,
+            "y": 58.7,
+            "endX": 44.5,
+            "endY": 48.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexsandro Ribeiro",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 5,
+            "x": 44.5,
+            "y": 48.6,
+            "endX": 44.2,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bafodé Diakité",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 8,
+            "x": 43.8,
+            "y": 21.0,
+            "endX": 59.5,
+            "endY": 4.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 10,
+            "x": 59.5,
+            "y": 4.1,
+            "endX": 55.8,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 10,
+            "x": 55.8,
+            "y": 3.7,
+            "endX": 64.8,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 64.8,
+            "y": 13.7,
+            "endX": 62.3,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 12,
+            "x": 62.3,
+            "y": 10.9,
+            "endX": 61.9,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edon Zhegrova",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 62.8,
+            "y": 22.8,
+            "endX": 74.1,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan David",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 15,
+            "x": 73.6,
+            "y": 42.4,
+            "endX": 86.0,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaily",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 86.0,
+            "y": 77.2,
+            "endX": 94.3,
+            "endY": 71.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaily",
+            "tipo": "SavedShot",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 94.3,
+            "y": 71.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Benjamin Lecomte",
+          "portero": true
+        }
       },
       {
         "minuto": 93,

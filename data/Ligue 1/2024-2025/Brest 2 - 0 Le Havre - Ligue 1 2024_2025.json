@@ -457,6 +457,28 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Marco Bizot",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 3.8,
+            "y": 56.6,
+            "endX": 57.5,
+            "endY": 50.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Romain Del Castillo",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 57.5,
+            "y": 50.6,
+            "endX": 70.3,
+            "endY": 12.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Romain Del Castillo",
             "tipo": "Pass",
             "minuto": 91,
@@ -467,7 +489,12 @@
             "endY": 25.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daler Kuzyaev",
+          "portero": false
+        }
       }
     ],
     "corners": [

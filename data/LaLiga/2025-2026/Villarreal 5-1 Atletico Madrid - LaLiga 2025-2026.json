@@ -477,7 +477,35 @@
         "y": 52.3,
         "arco_y": 47.8,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alfonso Pedraza",
+            "tipo": "TakeOn",
+            "minuto": 33,
+            "segundo": 3,
+            "x": 86.9,
+            "y": 91.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alfonso Pedraza",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 6,
+            "x": 93.9,
+            "y": 75.4,
+            "endX": 92.3,
+            "endY": 48.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dávid Hancko",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -498,6 +526,39 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Ayoze Pérez",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 55.9,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoze Pérez",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 54,
+            "x": 81.3,
+            "y": 46.8,
+            "endX": 85.6,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 56,
+            "x": 85.6,
+            "y": 64.0,
+            "endX": 86.4,
+            "endY": 58.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Georges Mikautadze",
             "tipo": "TakeOn",
             "minuto": 39,
@@ -508,7 +569,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Clément Lenglet",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -540,7 +606,101 @@
         "y": 33.2,
         "arco_y": 53.3,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alfonso Pedraza",
+            "tipo": "Tackle",
+            "minuto": 53,
+            "segundo": 15,
+            "x": 24.6,
+            "y": 96.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alfonso Pedraza",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 33,
+            "x": 27.8,
+            "y": 100.0,
+            "endX": 41.0,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 34,
+            "x": 41.0,
+            "y": 93.2,
+            "endX": 41.9,
+            "endY": 78.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 34,
+            "x": 41.9,
+            "y": 78.1,
+            "endX": 56.7,
+            "endY": 36.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoze Pérez",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 38,
+            "x": 56.7,
+            "y": 36.8,
+            "endX": 55.4,
+            "endY": 26.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ayoze Pérez",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 38,
+            "x": 55.4,
+            "y": 26.8,
+            "endX": 75.0,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Pépé",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 42,
+            "x": 75.0,
+            "y": 22.3,
+            "endX": 76.1,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Pépé",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 42,
+            "x": 76.1,
+            "y": 27.6,
+            "endX": 78.1,
+            "endY": 26.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matteo Ruggeri",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

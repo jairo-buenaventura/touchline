@@ -372,7 +372,90 @@
         "y": 42.7,
         "arco_y": 51.9,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 21,
+            "x": 25.9,
+            "y": 85.8,
+            "endX": 33.7,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Víctor Vázquez",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 25,
+            "x": 33.7,
+            "y": 94.4,
+            "endX": 46.4,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Víctor Vázquez",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 25,
+            "x": 46.4,
+            "y": 82.6,
+            "endX": 53.1,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Araujo",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 31,
+            "x": 53.1,
+            "y": 31.2,
+            "endX": 62.6,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Araujo",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 31,
+            "x": 62.6,
+            "y": 33.1,
+            "endX": 74.0,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Cabral",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 33,
+            "x": 74.0,
+            "y": 9.2,
+            "endX": 81.5,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Cabral",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 33,
+            "x": 81.5,
+            "y": 8.5,
+            "endX": 85.3,
+            "endY": 17.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Kelyn Rowe",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -4784,6 +4867,50 @@
           {
             "jugador": "Nouhou Tolo",
             "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 58,
+            "x": 70.1,
+            "y": 70.8,
+            "endX": 86.9,
+            "endY": 87.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kelyn Rowe",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 1,
+            "x": 86.9,
+            "y": 87.0,
+            "endX": 84.2,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kelyn Rowe",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 1,
+            "x": 84.2,
+            "y": 82.1,
+            "endX": 91.5,
+            "endY": 55.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nouhou Tolo",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 4,
+            "x": 91.5,
+            "y": 55.8,
+            "endX": 88.9,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nouhou Tolo",
+            "tipo": "Pass",
             "minuto": 60,
             "segundo": 4,
             "x": 88.9,
@@ -4803,7 +4930,12 @@
             "endY": 47.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Séga Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4831,7 +4963,35 @@
         "y": 48.2,
         "arco_y": 47.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yeimar Gómez",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 43,
+            "x": 92.7,
+            "y": 59.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeimar Gómez",
+            "tipo": "SavedShot",
+            "minuto": 72,
+            "segundo": 43,
+            "x": 94.2,
+            "y": 52.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jonathan Bond",
+          "portero": true
+        }
       }
     ],
     "corners": [

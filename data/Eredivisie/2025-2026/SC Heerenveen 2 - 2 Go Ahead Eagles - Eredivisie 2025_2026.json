@@ -464,7 +464,35 @@
         "y": 50.6,
         "arco_y": 45.9,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jacob Trenskow",
+            "tipo": "CornerAwarded",
+            "minuto": 45,
+            "segundo": 26,
+            "x": 98.9,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Rivera",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 59,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 89.8,
+            "endY": 50.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Melle Meulensteen",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -475,6 +503,17 @@
         "arco_y": 49.7,
         "arco_z": 8.2,
         "secuencia_gol": [
+          {
+            "jugador": "Joris van Overeem",
+            "tipo": "BallTouch",
+            "minuto": 47,
+            "segundo": 21,
+            "x": 47.5,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Joris van Overeem",
             "tipo": "Pass",
@@ -519,7 +558,12 @@
             "endY": 40.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Calvin Twigt",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4812,7 +4856,68 @@
         "y": 45.5,
         "arco_y": 46.6,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 1,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.7,
+            "endY": 52.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 91.7,
+            "y": 52.3,
+            "endX": 61.4,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aske Adelgaard",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 61.4,
+            "y": 60.6,
+            "endX": 84.4,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Edvardsen",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 84.4,
+            "y": 70.5,
+            "endX": 88.9,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Edvardsen",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 88.9,
+            "y": 65.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Andries Noppert",
+          "portero": true
+        }
       },
       {
         "minuto": 94,

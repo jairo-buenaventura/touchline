@@ -547,7 +547,24 @@
         "y": 42.9,
         "arco_y": 53.4,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anton Stach",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 4,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 93.0,
+            "endY": 48.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ryan Gravenberch",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4442,7 +4459,46 @@
         "y": 46.6,
         "arco_y": 51.9,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Conor Bradley",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 31,
+            "x": 84.2,
+            "y": 6.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Conor Bradley",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 88.5,
+            "y": 10.2,
+            "endX": 94.3,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "SavedShot",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 94.6,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lucas Perri",
+          "portero": true
+        }
       },
       {
         "minuto": 66,

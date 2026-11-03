@@ -362,7 +362,35 @@
         "y": 52.6,
         "arco_y": 46.8,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mohamed Elyounoussi",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 23,
+            "x": 74.2,
+            "y": 33.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Elyounoussi",
+            "tipo": "SavedShot",
+            "minuto": 33,
+            "segundo": 24,
+            "x": 84.2,
+            "y": 39.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rúben Dias",
+          "portero": true
+        }
       },
       {
         "minuto": 38,
@@ -3516,13 +3544,29 @@
             "tipo": "BallTouch",
             "minuto": 44,
             "segundo": 56,
+            "x": 84.0,
+            "y": 10.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "BallTouch",
+            "minuto": 44,
+            "segundo": 56,
             "x": 84.8,
             "y": 24.2,
             "endX": null,
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Magnus Mattsson",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -3658,7 +3702,156 @@
         "y": 44.5,
         "arco_y": 48.6,
         "arco_z": 11.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jérémy Doku",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 26,
+            "x": 70.0,
+            "y": 91.5,
+            "endX": 66.4,
+            "endY": 81.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 28,
+            "x": 66.4,
+            "y": 81.7,
+            "endX": 67.3,
+            "endY": 68.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 32,
+            "x": 67.3,
+            "y": 68.0,
+            "endX": 70.2,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 36,
+            "x": 70.2,
+            "y": 15.8,
+            "endX": 63.0,
+            "endY": 25.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 38,
+            "x": 63.7,
+            "y": 27.4,
+            "endX": 53.2,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 53.2,
+            "y": 50.1,
+            "endX": 53.8,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 41,
+            "x": 53.8,
+            "y": 45.2,
+            "endX": 62.3,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 62.3,
+            "y": 13.4,
+            "endX": 62.9,
+            "endY": 17.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 62.9,
+            "y": 17.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 46,
+            "x": 72.9,
+            "y": 18.1,
+            "endX": 86.6,
+            "endY": 18.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 86.6,
+            "y": 18.8,
+            "endX": 88.4,
+            "endY": 24.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 88.4,
+            "y": 24.9,
+            "endX": 96.8,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 50,
+            "x": 96.8,
+            "y": 33.9,
+            "endX": 90.7,
+            "endY": 46.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Denis Vavro",
+          "portero": false
+        }
       }
     ],
     "corners": [

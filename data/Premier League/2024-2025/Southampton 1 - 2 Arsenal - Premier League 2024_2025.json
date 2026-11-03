@@ -417,7 +417,24 @@
         "y": 51.0,
         "arco_y": 47.3,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ross Stewart",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 44,
+            "x": 95.4,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jakub Kiwior",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4036,6 +4053,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Oleksandr Zinchenko",
+            "tipo": "CornerAwarded",
+            "minuto": 41,
+            "segundo": 5,
+            "x": 79.3,
+            "y": 37.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Declan Rice",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.7,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ethan Nwaneri",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 56,
+            "x": 97.7,
+            "y": 47.2,
+            "endX": 77.8,
+            "endY": 11.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Ethan Nwaneri",
             "tipo": "Pass",
             "minuto": 41,
@@ -4112,7 +4162,12 @@
             "endY": 41.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Aaron Ramsdale",
+          "portero": true
+        }
       },
       {
         "minuto": 52,
@@ -4223,6 +4278,61 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Jakub Kiwior",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 43,
+            "x": 11.7,
+            "y": 73.8,
+            "endX": 35.6,
+            "endY": 45.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 55,
+            "x": 35.6,
+            "y": 45.2,
+            "endX": 73.4,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 55,
+            "x": 73.4,
+            "y": 30.1,
+            "endX": 74.5,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 57,
+            "x": 74.5,
+            "y": 47.3,
+            "endX": 75.6,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 75.6,
+            "y": 37.4,
+            "endX": 71.4,
+            "endY": 43.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Martin Ødegaard",
             "tipo": "TakeOn",
             "minuto": 88,
@@ -4233,7 +4343,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Will Smallbone",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

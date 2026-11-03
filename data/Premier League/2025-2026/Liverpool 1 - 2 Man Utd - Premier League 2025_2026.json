@@ -4707,6 +4707,17 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Bryan Mbeumo",
+            "tipo": "Aerial",
+            "minuto": 0,
+            "segundo": 54,
+            "x": 61.4,
+            "y": 43.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Bruno Fernandes",
             "tipo": "Pass",
             "minuto": 0,
@@ -4739,7 +4750,12 @@
             "endY": 32.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Virgil van Dijk",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -4835,6 +4851,28 @@
             "jugador": "Bruno Fernandes",
             "tipo": "Pass",
             "minuto": 83,
+            "segundo": 3,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 84.6,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Mbeumo",
+            "tipo": "SavedShot",
+            "minuto": 83,
+            "segundo": 7,
+            "x": 84.6,
+            "y": 65.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "Pass",
+            "minuto": 83,
             "segundo": 8,
             "x": 85.3,
             "y": 88.7,
@@ -4842,7 +4880,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Federico Chiesa",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

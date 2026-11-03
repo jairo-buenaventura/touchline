@@ -4765,6 +4765,39 @@
         "secuencia_gol": [
           {
             "jugador": "Juan Miranda",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 54,
+            "x": 29.9,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Miranda",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 55,
+            "x": 29.6,
+            "y": 86.4,
+            "endX": 63.5,
+            "endY": 88.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Juan Miranda",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 11,
+            "x": 63.5,
+            "y": 88.6,
+            "endX": 56.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Miranda",
             "tipo": "Pass",
             "minuto": 16,
             "segundo": 11,
@@ -4840,7 +4873,12 @@
             "endY": 37.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jamil Siebert",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

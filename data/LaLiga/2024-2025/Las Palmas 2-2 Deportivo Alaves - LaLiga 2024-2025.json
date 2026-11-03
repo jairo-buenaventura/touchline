@@ -496,7 +496,68 @@
         "y": 48.4,
         "arco_y": 53.3,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jasper Cillessen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 55,
+            "x": 52.2,
+            "y": 25.0,
+            "endX": 60.9,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Fuster",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 63.2,
+            "y": 19.1,
+            "endX": 67.3,
+            "endY": 43.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Muñoz",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 0,
+            "x": 67.3,
+            "y": 43.3,
+            "endX": 82.0,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adnan Januzaj",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 5,
+            "x": 82.0,
+            "y": 13.2,
+            "endX": 87.0,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adnan Januzaj",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 5,
+            "x": 87.0,
+            "y": 11.1,
+            "endX": 89.9,
+            "endY": 19.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Manu Sánchez",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4399,6 +4460,39 @@
         "arco_z": 34.2,
         "secuencia_gol": [
           {
+            "jugador": "Abdel Abqar",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 2,
+            "x": 82.2,
+            "y": 79.1,
+            "endX": 84.0,
+            "endY": 81.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Carles Aleñá",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 6,
+            "x": 84.0,
+            "y": 81.4,
+            "endX": 76.7,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Aleñá",
+            "tipo": "SavedShot",
+            "minuto": 6,
+            "segundo": 6,
+            "x": 76.7,
+            "y": 67.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Carles Aleñá",
             "tipo": "Pass",
             "minuto": 6,
@@ -4420,7 +4514,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Juanma Herzog",
+          "portero": true
+        }
       },
       {
         "minuto": 8,
@@ -4484,7 +4583,46 @@
         "y": 50.1,
         "arco_y": 48.8,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Asier Villalibre",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 26,
+            "x": 50.2,
+            "y": 68.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Asier Villalibre",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 29,
+            "x": 64.2,
+            "y": 80.5,
+            "endX": 86.0,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Guridi",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 31,
+            "x": 87.8,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jasper Cillessen",
+          "portero": false
+        }
       }
     ],
     "corners": [

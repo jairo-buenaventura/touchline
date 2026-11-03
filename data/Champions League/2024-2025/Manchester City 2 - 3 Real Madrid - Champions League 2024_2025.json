@@ -4970,7 +4970,68 @@
         "y": 40.9,
         "arco_y": 53.5,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 40,
+            "x": 63.6,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 41,
+            "x": 63.2,
+            "y": 38.4,
+            "endX": 75.0,
+            "endY": 23.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 44,
+            "x": 75.0,
+            "y": 23.2,
+            "endX": 92.2,
+            "endY": 25.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 46,
+            "x": 92.2,
+            "y": 25.2,
+            "endX": 92.1,
+            "endY": 30.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "SavedShot",
+            "minuto": 85,
+            "segundo": 46,
+            "x": 92.1,
+            "y": 30.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ederson",
+          "portero": true
+        }
       },
       {
         "minuto": 91,
@@ -4992,6 +5053,17 @@
         "secuencia_gol": [
           {
             "jugador": "Vinícius Júnior",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 24,
+            "x": 64.0,
+            "y": 78.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
             "tipo": "MissedShots",
             "minuto": 91,
             "segundo": 27,
@@ -5001,7 +5073,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rico Lewis",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -420,7 +420,24 @@
         "y": 56.5,
         "arco_y": 52.8,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yoane Wissa",
+            "tipo": "Aerial",
+            "minuto": 41,
+            "segundo": 19,
+            "x": 91.6,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Trent Alexander-Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 83,
@@ -3623,6 +3640,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Ibrahima Konaté",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 17,
+            "x": 29.2,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Konaté",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 18,
+            "x": 29.5,
+            "y": 62.5,
+            "endX": 32.0,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 21,
+            "x": 31.5,
+            "y": 87.2,
+            "endX": 34.3,
+            "endY": 86.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andy Robertson",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 27,
+            "x": 34.3,
+            "y": 86.9,
+            "endX": 76.6,
+            "endY": 78.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Andy Robertson",
             "tipo": "Pass",
             "minuto": 49,
@@ -3721,7 +3782,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Mathias Jensen",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

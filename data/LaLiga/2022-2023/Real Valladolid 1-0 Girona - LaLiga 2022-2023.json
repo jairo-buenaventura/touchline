@@ -392,6 +392,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Iván Fresneda",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 14,
+            "x": 81.6,
+            "y": 0.0,
+            "endX": 73.8,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyle Larin",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 16,
+            "x": 73.8,
+            "y": 19.4,
+            "endX": 70.9,
+            "endY": 17.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cyle Larin",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 16,
+            "x": 70.9,
+            "y": 17.4,
+            "endX": 71.7,
+            "endY": 17.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gonzalo Plata",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 20,
+            "x": 71.7,
+            "y": 17.0,
+            "endX": 97.7,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Gonzalo Plata",
             "tipo": "Pass",
             "minuto": 23,
@@ -402,7 +446,12 @@
             "endY": 40.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Reinier",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

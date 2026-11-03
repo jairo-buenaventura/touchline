@@ -4695,6 +4695,17 @@
         "secuencia_gol": [
           {
             "jugador": "João Klauss",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 9,
+            "x": 90.6,
+            "y": 39.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
             "tipo": "Pass",
             "minuto": 9,
             "segundo": 9,
@@ -4704,7 +4715,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Vítor Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4717,6 +4733,17 @@
         "secuencia_gol": [
           {
             "jugador": "Brendan McSorley",
+            "tipo": "Aerial",
+            "minuto": 18,
+            "segundo": 29,
+            "x": 79.3,
+            "y": 43.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brendan McSorley",
             "tipo": "BallTouch",
             "minuto": 18,
             "segundo": 30,
@@ -4726,7 +4753,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bruno Wilson",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4782,6 +4814,39 @@
         "arco_y": 53.6,
         "arco_z": 10.8,
         "secuencia_gol": [
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "BallRecovery",
+            "minuto": 43,
+            "segundo": 40,
+            "x": 55.6,
+            "y": 90.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 42,
+            "x": 60.0,
+            "y": 91.6,
+            "endX": 76.2,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Célio Pompeu",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 45,
+            "x": 76.2,
+            "y": 88.3,
+            "endX": 75.8,
+            "endY": 77.0,
+            "exitoso": true
+          },
           {
             "jugador": "Célio Pompeu",
             "tipo": "TakeOn",
@@ -4848,7 +4913,12 @@
             "endY": 57.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Daniel Munie",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

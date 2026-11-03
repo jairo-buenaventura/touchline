@@ -4765,6 +4765,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Carles Aleñá",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 42,
+            "x": 90.3,
+            "y": 81.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Aleñá",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 43,
+            "x": 90.4,
+            "y": 81.6,
+            "endX": 82.6,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Amavi",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 45,
+            "x": 84.6,
+            "y": 73.1,
+            "endX": 86.0,
+            "endY": 72.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Amavi",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 48,
+            "x": 86.0,
+            "y": 72.0,
+            "endX": 85.0,
+            "endY": 80.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordan Amavi",
             "tipo": "Pass",
             "minuto": 53,
@@ -4797,7 +4841,12 @@
             "endY": 54.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tete Morente",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

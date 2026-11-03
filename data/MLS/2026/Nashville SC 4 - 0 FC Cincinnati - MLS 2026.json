@@ -478,7 +478,24 @@
         "y": 53.6,
         "arco_y": 52.4,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sam Surridge",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 22,
+            "x": 94.9,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Matt Miazga",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -498,6 +515,17 @@
         "arco_y": 47.1,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Elias Saad",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 49,
+            "x": 44.1,
+            "y": 96.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Elias Saad",
             "tipo": "TakeOn",
@@ -564,7 +592,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Evander",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -624,6 +657,39 @@
         "arco_y": 52.6,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Brian Schwake",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 28,
+            "x": 3.6,
+            "y": 47.0,
+            "endX": 63.7,
+            "endY": 42.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matthew Corcoran",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 36,
+            "x": 63.7,
+            "y": 42.7,
+            "endX": 35.2,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthew Corcoran",
+            "tipo": "BallTouch",
+            "minuto": 94,
+            "segundo": 36,
+            "x": 35.2,
+            "y": 63.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Maxwell Woledzi",
             "tipo": "Pass",
@@ -778,7 +844,12 @@
             "endY": 18.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tah Brian Anunga",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

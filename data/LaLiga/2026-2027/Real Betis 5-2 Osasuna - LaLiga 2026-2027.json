@@ -5344,7 +5344,24 @@
         "y": 43.8,
         "arco_y": 48.5,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ante Budimir",
+            "tipo": "Clearance",
+            "minuto": 47,
+            "segundo": 12,
+            "x": 4.3,
+            "y": 45.0,
+            "endX": 4.5,
+            "endY": 47.3,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Diego Llorente",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -5379,6 +5396,39 @@
         "secuencia_gol": [
           {
             "jugador": "Abel Bretones",
+            "tipo": "CornerAwarded",
+            "minuto": 54,
+            "segundo": 54,
+            "x": 98.6,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén García",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 31,
+            "x": 99.4,
+            "y": 99.3,
+            "endX": 95.2,
+            "endY": 52.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Abel Bretones",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 38,
+            "x": 95.2,
+            "y": 52.6,
+            "endX": 66.0,
+            "endY": 55.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abel Bretones",
             "tipo": "Pass",
             "minuto": 55,
             "segundo": 38,
@@ -5399,7 +5449,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marc Roca",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

@@ -397,7 +397,101 @@
         "y": 53.8,
         "arco_y": 52.0,
         "arco_z": 26.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "El Chadaille Bitshiabu",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 46,
+            "x": 45.4,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "El Chadaille Bitshiabu",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 46,
+            "x": 45.1,
+            "y": 49.9,
+            "endX": 54.0,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 48,
+            "x": 54.0,
+            "y": 50.0,
+            "endX": 65.4,
+            "endY": 39.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 53,
+            "x": 65.4,
+            "y": 39.1,
+            "endX": 76.2,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Benjamin Sesko",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 53,
+            "x": 76.2,
+            "y": 23.6,
+            "endX": 91.9,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loïs Openda",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 55,
+            "x": 92.6,
+            "y": 31.9,
+            "endX": 93.6,
+            "endY": 44.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 57,
+            "x": 93.6,
+            "y": 44.2,
+            "endX": 92.0,
+            "endY": 51.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amadou Haidara",
+            "tipo": "SavedShot",
+            "minuto": 0,
+            "segundo": 57,
+            "x": 92.0,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Andreas Hanche-Olsen",
+          "portero": true
+        }
       },
       {
         "minuto": 3,
@@ -5051,7 +5145,57 @@
         "y": 46.0,
         "arco_y": 51.2,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 59,
+            "x": 77.3,
+            "y": 25.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 3,
+            "x": 85.0,
+            "y": 31.6,
+            "endX": 96.4,
+            "endY": 26.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 96.4,
+            "y": 26.5,
+            "endX": 98.6,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 98.6,
+            "y": 30.1,
+            "endX": 98.0,
+            "endY": 33.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Willi Orbán",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -5071,6 +5215,50 @@
         "arco_y": 48.3,
         "arco_z": 1.3,
         "secuencia_gol": [
+          {
+            "jugador": "Danny da Costa",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 3,
+            "x": 46.7,
+            "y": 25.8,
+            "endX": 54.0,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nadiem Amiri",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 4,
+            "x": 54.0,
+            "y": 31.2,
+            "endX": 54.4,
+            "endY": 4.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 7,
+            "x": 54.7,
+            "y": 4.1,
+            "endX": 75.9,
+            "endY": 19.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 11,
+            "x": 75.9,
+            "y": 19.1,
+            "endX": 70.3,
+            "endY": 15.0,
+            "exitoso": true
+          },
           {
             "jugador": "Paul Nebel",
             "tipo": "Pass",
@@ -5214,7 +5402,12 @@
             "endY": 60.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "El Chadaille Bitshiabu",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

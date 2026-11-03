@@ -447,7 +447,24 @@
         "y": 51.6,
         "arco_y": 53.9,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Scott McTominay",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 5,
+            "x": 92.4,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Unai Núñez",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -5442,6 +5459,50 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Nicolás Valentini",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 36,
+            "x": 15.8,
+            "y": 90.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Valentini",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 36,
+            "x": 15.8,
+            "y": 90.6,
+            "endX": 0.9,
+            "endY": 76.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Montipò",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 38,
+            "x": 1.6,
+            "y": 76.8,
+            "endX": 26.2,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Frese",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 41,
+            "x": 26.2,
+            "y": 92.8,
+            "endX": 36.8,
+            "endY": 84.6,
+            "exitoso": false
+          },
+          {
             "jugador": "Gift Orban",
             "tipo": "Pass",
             "minuto": 15,
@@ -5507,7 +5568,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Amir Rrahmani",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

@@ -397,6 +397,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Bryan Limbombe",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 23,
+            "x": 44.9,
+            "y": 70.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Limbombe",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 24,
+            "x": 44.9,
+            "y": 70.8,
+            "endX": 49.2,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juho Talvitie",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 30,
+            "x": 49.2,
+            "y": 53.1,
+            "endX": 69.8,
+            "endY": 48.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Juho Talvitie",
             "tipo": "TakeOn",
             "minuto": 32,
@@ -440,7 +473,12 @@
             "endY": 44.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rúnar Sigurgeirsson",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4804,6 +4842,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kyan Vaesen",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 16,
+            "x": 91.4,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyan Vaesen",
             "tipo": "BallTouch",
             "minuto": 36,
             "segundo": 17,
@@ -4813,7 +4862,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mario Engels",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

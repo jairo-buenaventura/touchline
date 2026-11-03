@@ -410,7 +410,35 @@
         "y": 50.8,
         "arco_y": 46.2,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Domenico Berardi",
+            "tipo": "CornerAwarded",
+            "minuto": 49,
+            "segundo": 5,
+            "x": 86.5,
+            "y": 29.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domenico Berardi",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 36,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 94.9,
+            "endY": 51.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yerry Mina",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -439,6 +467,17 @@
         "arco_y": 52.5,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Kristian Thorstvedt",
+            "tipo": "Aerial",
+            "minuto": 76,
+            "segundo": 3,
+            "x": 10.5,
+            "y": 84.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Arijanet Muric",
             "tipo": "Pass",
@@ -560,7 +599,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Yerry Mina",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

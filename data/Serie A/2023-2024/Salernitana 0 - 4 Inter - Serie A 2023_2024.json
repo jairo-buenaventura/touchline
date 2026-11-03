@@ -4171,6 +4171,17 @@
         "secuencia_gol": [
           {
             "jugador": "Denzel Dumfries",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 44,
+            "x": 70.4,
+            "y": 9.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denzel Dumfries",
             "tipo": "TakeOn",
             "minuto": 76,
             "segundo": 46,
@@ -4224,7 +4235,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Domagoj Bradaric",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

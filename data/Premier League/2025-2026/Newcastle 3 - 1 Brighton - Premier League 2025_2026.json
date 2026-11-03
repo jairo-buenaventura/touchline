@@ -382,7 +382,24 @@
         "y": 51.9,
         "arco_y": 46.9,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 35,
+            "x": 94.5,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jack Hinshelwood",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -473,7 +490,46 @@
         "y": 64.0,
         "arco_y": 51.2,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Yoane Wissa",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 57,
+            "x": 97.1,
+            "y": 66.7,
+            "endX": 95.7,
+            "endY": 65.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 58,
+            "x": 95.7,
+            "y": 65.5,
+            "endX": 88.8,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "TakeOn",
+            "minuto": 94,
+            "segundo": 58,
+            "x": 88.8,
+            "y": 62.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bart Verbruggen",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -393,6 +393,28 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro García",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 25,
+            "x": 58.1,
+            "y": 83.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro García",
+            "tipo": "TakeOn",
+            "minuto": 8,
+            "segundo": 26,
+            "x": 59.3,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Pacha Espino",
             "tipo": "Pass",
             "minuto": 8,
@@ -458,7 +480,12 @@
             "endY": 40.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marc Bernal",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4245,6 +4272,28 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Alejandro Balde",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 28,
+            "x": 75.9,
+            "y": 26.2,
+            "endX": 81.7,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Yamal",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 30,
+            "x": 81.7,
+            "y": 17.6,
+            "endX": 87.2,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lamine Yamal",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -4266,7 +4315,12 @@
             "endY": 38.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pacha Espino",
+          "portero": false
+        }
       },
       {
         "minuto": 92,

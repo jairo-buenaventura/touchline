@@ -412,6 +412,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bryan Linssen",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 59,
+            "x": 91.7,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bryan Linssen",
             "tipo": "BallTouch",
             "minuto": 25,
             "segundo": 0,
@@ -421,7 +432,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jordy Clasie",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -4291,7 +4307,35 @@
         "y": 36.8,
         "arco_y": 51.9,
         "arco_z": 31.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 4,
+            "x": 93.5,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 5,
+            "x": 98.6,
+            "y": 37.4,
+            "endX": 96.6,
+            "endY": 48.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Darko Nejasmic",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

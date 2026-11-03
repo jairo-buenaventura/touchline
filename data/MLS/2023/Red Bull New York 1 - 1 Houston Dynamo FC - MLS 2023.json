@@ -4881,6 +4881,39 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Teenage Hadebe",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 53,
+            "x": 4.3,
+            "y": 88.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Teenage Hadebe",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 55,
+            "x": 1.1,
+            "y": 94.2,
+            "endX": 1.9,
+            "endY": 94.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Steve Clark",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 50,
+            "x": 1.9,
+            "y": 94.5,
+            "endX": 5.2,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Steve Clark",
             "tipo": "Pass",
             "minuto": 66,
@@ -4913,7 +4946,12 @@
             "endY": 55.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Elias Manoel",
+          "portero": false
+        }
       }
     ],
     "corners": [],

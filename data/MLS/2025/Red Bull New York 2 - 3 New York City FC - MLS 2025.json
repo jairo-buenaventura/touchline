@@ -375,6 +375,50 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Wiki Carmona",
+            "tipo": "BlockedPass",
+            "minuto": 22,
+            "segundo": 34,
+            "x": 27.3,
+            "y": 17.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gustav Berggren",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 36,
+            "x": 29.5,
+            "y": 38.0,
+            "endX": 55.7,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emil Forsberg",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 39,
+            "x": 54.1,
+            "y": 33.9,
+            "endX": 84.8,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Choupo-Moting",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 42,
+            "x": 84.8,
+            "y": 26.2,
+            "endX": 95.2,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Eric Choupo-Moting",
             "tipo": "TakeOn",
             "minuto": 22,
@@ -396,7 +440,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thiago Martins",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4866,7 +4915,35 @@
         "y": 50.7,
         "arco_y": 51.6,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Andrés Perea",
+            "tipo": "Aerial",
+            "minuto": 64,
+            "segundo": 2,
+            "x": 90.1,
+            "y": 55.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrés Perea",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 3,
+            "x": 92.0,
+            "y": 55.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Carlos Coronel",
+          "portero": true
+        }
       },
       {
         "minuto": 72,

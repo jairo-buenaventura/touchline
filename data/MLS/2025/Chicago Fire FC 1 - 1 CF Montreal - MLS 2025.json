@@ -393,6 +393,28 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Sam Rogers",
+            "tipo": "Clearance",
+            "minuto": 38,
+            "segundo": 33,
+            "x": 31.6,
+            "y": 9.2,
+            "endX": 34.3,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Barroso",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 51,
+            "x": 34.3,
+            "y": 8.4,
+            "endX": 31.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Barroso",
             "tipo": "Pass",
             "minuto": 38,
@@ -458,7 +480,12 @@
             "endY": 42.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luca Petrasso",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4166,6 +4193,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Prince Owusu",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 50,
+            "x": 64.5,
+            "y": 26.0,
+            "endX": 68.1,
+            "endY": 30.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Caden Clark",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 53,
+            "x": 68.1,
+            "y": 30.7,
+            "endX": 71.5,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Caden Clark",
             "tipo": "Pass",
             "minuto": 49,
@@ -4198,7 +4247,12 @@
             "endY": 41.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sam Rogers",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

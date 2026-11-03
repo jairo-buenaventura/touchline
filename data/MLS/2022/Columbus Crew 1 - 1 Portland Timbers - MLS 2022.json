@@ -4637,6 +4637,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Claudio Bravo",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 11,
+            "x": 87.6,
+            "y": 100.0,
+            "endX": 92.8,
+            "endY": 58.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cristhian Paredes",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 16,
+            "x": 92.8,
+            "y": 58.8,
+            "endX": 70.4,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristhian Paredes",
             "tipo": "Pass",
             "minuto": 94,
@@ -4735,7 +4757,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Milos Degenek",
+          "portero": false
+        }
       }
     ],
     "corners": [

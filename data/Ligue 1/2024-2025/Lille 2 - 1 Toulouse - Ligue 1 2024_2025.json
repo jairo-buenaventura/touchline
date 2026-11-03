@@ -508,6 +508,17 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Matias Fernandez-Pardo",
+            "tipo": "BallTouch",
+            "minuto": 71,
+            "segundo": 16,
+            "x": 30.6,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ayyoub Bouaddi",
             "tipo": "TakeOn",
             "minuto": 71,
@@ -529,7 +540,12 @@
             "endY": 67.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cristian Cásseres",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4874,7 +4890,68 @@
         "y": 41.1,
         "arco_y": 48.9,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joshua King",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 3,
+            "x": 42.2,
+            "y": 77.9,
+            "endX": 62.9,
+            "endY": 79.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 10,
+            "x": 62.9,
+            "y": 79.4,
+            "endX": 92.3,
+            "endY": 66.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "TakeOn",
+            "minuto": 38,
+            "segundo": 10,
+            "x": 92.3,
+            "y": 66.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yann Gboho",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 11,
+            "x": 98.2,
+            "y": 62.7,
+            "endX": 94.5,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aron Dønnum",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 12,
+            "x": 94.5,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gabriel Gudmundsson",
+          "portero": true
+        }
       },
       {
         "minuto": 47,

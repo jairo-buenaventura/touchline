@@ -425,6 +425,17 @@
         "secuencia_gol": [
           {
             "jugador": "Luke O'Nien",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 18,
+            "x": 79.5,
+            "y": 30.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luke O'Nien",
             "tipo": "BallTouch",
             "minuto": 24,
             "segundo": 19,
@@ -434,7 +445,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jorrel Hato",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

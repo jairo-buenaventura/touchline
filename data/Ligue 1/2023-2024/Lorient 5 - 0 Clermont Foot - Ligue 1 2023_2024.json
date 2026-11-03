@@ -532,6 +532,28 @@
         "secuencia_gol": [
           {
             "jugador": "Julien Ponceau",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 53,
+            "x": 29.1,
+            "y": 77.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julien Ponceau",
+            "tipo": "TakeOn",
+            "minuto": 52,
+            "segundo": 54,
+            "x": 29.3,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julien Ponceau",
             "tipo": "Pass",
             "minuto": 52,
             "segundo": 55,
@@ -585,7 +607,12 @@
             "endY": 36.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alan Virginius",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -622,7 +649,24 @@
         "y": 48.8,
         "arco_y": 49.7,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gédéon Kalulu",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 17,
+            "x": 91.4,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mory Diaw",
+          "portero": true
+        }
       },
       {
         "minuto": 70,

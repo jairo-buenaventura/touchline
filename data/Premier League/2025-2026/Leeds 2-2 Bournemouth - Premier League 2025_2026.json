@@ -489,7 +489,35 @@
         "y": 38.7,
         "arco_y": 46.1,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Noah Okafor",
+            "tipo": "SavedShot",
+            "minuto": 53,
+            "segundo": 35,
+            "x": 92.3,
+            "y": 72.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brenden Aaronson",
+            "tipo": "SavedShot",
+            "minuto": 53,
+            "segundo": 36,
+            "x": 87.8,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marcos Senesi",
+          "portero": true
+        }
       },
       {
         "minuto": 64,
@@ -4398,6 +4426,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marcos Senesi",
+            "tipo": "Aerial",
+            "minuto": 92,
+            "segundo": 11,
+            "x": 86.3,
+            "y": 44.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Senesi",
             "tipo": "Pass",
             "minuto": 92,
             "segundo": 12,
@@ -4407,7 +4446,12 @@
             "endY": 57.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pascal Struijk",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

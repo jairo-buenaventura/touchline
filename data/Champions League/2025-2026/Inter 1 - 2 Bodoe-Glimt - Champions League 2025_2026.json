@@ -620,6 +620,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marcus Thuram",
+            "tipo": "Aerial",
+            "minuto": 75,
+            "segundo": 39,
+            "x": 93.1,
+            "y": 45.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
             "tipo": "MissedShots",
             "minuto": 75,
             "segundo": 39,
@@ -640,7 +651,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Patrick Berg",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -5426,7 +5442,35 @@
         "y": 52.3,
         "arco_y": 51.7,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ole Didrik Blomberg",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 80.1,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ole Didrik Blomberg",
+            "tipo": "SavedShot",
+            "minuto": 57,
+            "segundo": 20,
+            "x": 89.6,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Yann Sommer",
+          "portero": true
+        }
       },
       {
         "minuto": 60,

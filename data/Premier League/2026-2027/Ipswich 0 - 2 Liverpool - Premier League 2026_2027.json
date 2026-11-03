@@ -4336,6 +4336,17 @@
         "secuencia_gol": [
           {
             "jugador": "Cody Gakpo",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 50,
+            "x": 65.7,
+            "y": 84.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cody Gakpo",
             "tipo": "TakeOn",
             "minuto": 5,
             "segundo": 50,
@@ -4356,7 +4367,12 @@
             "endY": 34.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Exequiel Palacios",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -4367,6 +4383,61 @@
         "arco_y": 51.7,
         "arco_z": 3.2,
         "secuencia_gol": [
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 56,
+            "x": 76.0,
+            "y": 80.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 57,
+            "x": 76.0,
+            "y": 80.5,
+            "endX": 71.4,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cody Gakpo",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 59,
+            "x": 71.4,
+            "y": 85.3,
+            "endX": 75.7,
+            "endY": 76.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 0,
+            "x": 75.5,
+            "y": 77.2,
+            "endX": 80.0,
+            "endY": 70.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 2,
+            "x": 80.0,
+            "y": 70.8,
+            "endX": 68.8,
+            "endY": 75.3,
+            "exitoso": true
+          },
           {
             "jugador": "Alexis Mac Allister",
             "tipo": "Pass",
@@ -4587,7 +4658,12 @@
             "endY": 66.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Issa Diop",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

@@ -407,6 +407,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bruno Martins Indi",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 42,
+            "x": 78.2,
+            "y": 73.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Martins Indi",
             "tipo": "Pass",
             "minuto": 24,
             "segundo": 42,
@@ -427,7 +438,12 @@
             "endY": 64.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Miguel Rodríguez",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4500,7 +4516,24 @@
         "y": 55.6,
         "arco_y": 51.7,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Souffian El Karouani",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 42,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.2,
+            "endY": 49.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julian Baas",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

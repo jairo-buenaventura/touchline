@@ -5069,6 +5069,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Robert Gumny",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 53,
+            "x": 73.2,
+            "y": 0.0,
+            "endX": 83.9,
+            "endY": 26.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Elvis Rexhbeçaj",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 56,
+            "x": 83.9,
+            "y": 26.8,
+            "endX": 68.7,
+            "endY": 19.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Elvis Rexhbeçaj",
             "tipo": "Pass",
             "minuto": 39,
@@ -5090,7 +5112,12 @@
             "endY": 54.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Patrick Mainka",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -5100,7 +5127,68 @@
         "y": 53.8,
         "arco_y": 52.9,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "BallTouch",
+            "minuto": 41,
+            "segundo": 17,
+            "x": 35.1,
+            "y": 37.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ermedin Demirovic",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 19,
+            "x": 48.6,
+            "y": 45.2,
+            "endX": 54.3,
+            "endY": 29.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Michel",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 21,
+            "x": 53.9,
+            "y": 27.2,
+            "endX": 74.2,
+            "endY": 12.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fredrik Jensen",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 25,
+            "x": 74.2,
+            "y": 12.4,
+            "endX": 86.2,
+            "endY": 15.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fredrik Jensen",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 25,
+            "x": 86.2,
+            "y": 15.9,
+            "endX": 96.2,
+            "endY": 51.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kevin Müller",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

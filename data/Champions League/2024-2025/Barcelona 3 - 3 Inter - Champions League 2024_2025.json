@@ -5636,6 +5636,160 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 0,
+            "x": 50.1,
+            "y": 50.1,
+            "endX": 37.3,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 2,
+            "x": 37.3,
+            "y": 50.0,
+            "endX": 34.9,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hakan Çalhanoglu",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 2,
+            "x": 34.9,
+            "y": 55.8,
+            "endX": 30.8,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 4,
+            "x": 29.9,
+            "y": 84.4,
+            "endX": 34.3,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 5,
+            "x": 34.4,
+            "y": 95.3,
+            "endX": 20.3,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alessandro Bastoni",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 8,
+            "x": 19.1,
+            "y": 84.5,
+            "endX": 8.5,
+            "endY": 85.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 10,
+            "x": 8.5,
+            "y": 85.3,
+            "endX": 40.6,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 13,
+            "x": 40.6,
+            "y": 84.2,
+            "endX": 46.8,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Thuram",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 15,
+            "x": 46.8,
+            "y": 71.8,
+            "endX": 43.9,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 16,
+            "x": 43.9,
+            "y": 64.6,
+            "endX": 51.5,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 16,
+            "x": 51.5,
+            "y": 57.9,
+            "endX": 75.6,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 21,
+            "x": 75.6,
+            "y": 24.6,
+            "endX": 85.3,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 21,
+            "x": 85.3,
+            "y": 29.1,
+            "endX": 92.0,
+            "endY": 56.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 25,
+            "x": 92.0,
+            "y": 56.6,
+            "endX": 76.7,
+            "endY": 14.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolò Barella",
             "tipo": "Pass",
             "minuto": 0,
@@ -5668,7 +5822,12 @@
             "endY": 45.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jules Koundé",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -5687,7 +5846,35 @@
         "y": 48.7,
         "arco_y": 51.3,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 7,
+            "x": 89.4,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francesco Acerbi",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 7,
+            "x": 89.1,
+            "y": 41.0,
+            "endX": 95.5,
+            "endY": 47.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gerard Martín",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -5706,7 +5893,24 @@
         "y": 54.0,
         "arco_y": 52.3,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Denzel Dumfries",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 56,
+            "x": 95.3,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dani Olmo",
+          "portero": false
+        }
       },
       {
         "minuto": 64,

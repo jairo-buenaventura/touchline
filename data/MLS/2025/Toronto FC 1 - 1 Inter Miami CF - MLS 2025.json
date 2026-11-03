@@ -397,6 +397,72 @@
         "secuencia_gol": [
           {
             "jugador": "Theo Corbeanu",
+            "tipo": "BallRecovery",
+            "minuto": 58,
+            "segundo": 56,
+            "x": 56.1,
+            "y": 11.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Theo Corbeanu",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 59,
+            "x": 72.7,
+            "y": 19.3,
+            "endX": 82.3,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Richie Laryea",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 1,
+            "x": 82.3,
+            "y": 14.4,
+            "endX": 88.8,
+            "endY": 23.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Richie Laryea",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 1,
+            "x": 88.8,
+            "y": 23.5,
+            "endX": 89.2,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "BallTouch",
+            "minuto": 59,
+            "segundo": 2,
+            "x": 87.6,
+            "y": 47.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Theo Corbeanu",
+            "tipo": "BallTouch",
+            "minuto": 59,
+            "segundo": 5,
+            "x": 87.5,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Theo Corbeanu",
             "tipo": "BallTouch",
             "minuto": 59,
             "segundo": 8,
@@ -439,7 +505,12 @@
             "endY": 51.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Baltasar Rodríguez",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

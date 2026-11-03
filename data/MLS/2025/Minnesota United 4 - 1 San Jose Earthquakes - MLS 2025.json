@@ -456,6 +456,61 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Anthony Markanich",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 21,
+            "x": 25.9,
+            "y": 96.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Markanich",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 22,
+            "x": 26.0,
+            "y": 96.2,
+            "endX": 30.9,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 26,
+            "x": 30.9,
+            "y": 82.6,
+            "endX": 32.1,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 26,
+            "x": 32.1,
+            "y": 92.9,
+            "endX": 63.9,
+            "endY": 42.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tani Oluwaseyi",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 39,
+            "x": 63.9,
+            "y": 42.2,
+            "endX": 97.0,
+            "endY": 78.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Tani Oluwaseyi",
             "tipo": "Pass",
             "minuto": 41,
@@ -466,7 +521,12 @@
             "endY": 43.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Daniel Munie",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -497,6 +557,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolás Romero",
+            "tipo": "Aerial",
+            "minuto": 49,
+            "segundo": 47,
+            "x": 91.8,
+            "y": 45.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolás Romero",
             "tipo": "BallTouch",
             "minuto": 49,
             "segundo": 48,
@@ -506,7 +577,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nick Lima",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -3808,6 +3884,17 @@
         "secuencia_gol": [
           {
             "jugador": "Preston Judd",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 35,
+            "x": 90.2,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Preston Judd",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 36,
@@ -3817,7 +3904,12 @@
             "endY": 46.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nicolás Romero",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

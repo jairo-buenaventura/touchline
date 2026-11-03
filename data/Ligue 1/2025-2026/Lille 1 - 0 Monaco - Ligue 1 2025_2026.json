@@ -524,6 +524,39 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Romain Perraud",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 31,
+            "x": 68.0,
+            "y": 89.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Perraud",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 31,
+            "x": 64.3,
+            "y": 93.0,
+            "endX": 64.6,
+            "endY": 92.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 34,
+            "x": 64.6,
+            "y": 92.8,
+            "endX": 62.0,
+            "endY": 85.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Benjamin André",
             "tipo": "Pass",
             "minuto": 90,
@@ -567,7 +600,12 @@
             "endY": 49.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maghnes Akliouche",
+          "portero": false
+        }
       },
       {
         "minuto": 98,

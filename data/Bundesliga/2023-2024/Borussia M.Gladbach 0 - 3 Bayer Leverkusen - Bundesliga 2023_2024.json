@@ -4837,6 +4837,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Tah",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 39.0,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 23,
+            "x": 39.3,
+            "y": 29.7,
+            "endX": 47.4,
+            "endY": 53.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 28,
+            "x": 47.4,
+            "y": 53.7,
+            "endX": 61.0,
+            "endY": 41.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "TakeOn",
             "minuto": 52,
@@ -4858,7 +4891,12 @@
             "endY": 41.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Florian Neuhaus",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

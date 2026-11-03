@@ -441,6 +441,28 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 8,
+            "x": 72.2,
+            "y": 74.3,
+            "endX": 89.7,
+            "endY": 52.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Florian Grillitsch",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 15,
+            "x": 89.7,
+            "y": 52.5,
+            "endX": 41.3,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Grillitsch",
             "tipo": "Pass",
             "minuto": 36,
@@ -572,7 +594,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Shuto Machino",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -699,7 +726,46 @@
         "y": 39.7,
         "arco_y": 48.1,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Oliver Baumann",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 30,
+            "x": 4.0,
+            "y": 49.0,
+            "endX": 66.7,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bruun Larsen",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 40,
+            "x": 66.7,
+            "y": 41.3,
+            "endX": 80.3,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Bruun Larsen",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 40,
+            "x": 80.3,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Timon Weiner",
+          "portero": true
+        }
       },
       {
         "minuto": 93,
@@ -5018,7 +5084,24 @@
         "y": 55.2,
         "arco_y": 54.0,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alexander Bernhardsson",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 92.6,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pavel Kaderábek",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

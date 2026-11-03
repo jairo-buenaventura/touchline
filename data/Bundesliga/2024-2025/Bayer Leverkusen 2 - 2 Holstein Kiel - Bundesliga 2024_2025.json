@@ -385,6 +385,61 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Victor Boniface",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 2,
+            "x": 34.4,
+            "y": 33.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Boniface",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 2,
+            "x": 34.4,
+            "y": 33.3,
+            "endX": 27.4,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Exequiel Palacios",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 27.4,
+            "y": 41.6,
+            "endX": 38.0,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Exequiel Palacios",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 38.0,
+            "y": 57.9,
+            "endX": 50.8,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 9,
+            "x": 50.8,
+            "y": 80.8,
+            "endX": 70.4,
+            "endY": 64.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Wirtz",
             "tipo": "TakeOn",
             "minuto": 3,
@@ -428,7 +483,12 @@
             "endY": 70.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marko Ivezic",
+          "portero": false
+        }
       },
       {
         "minuto": 5,

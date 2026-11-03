@@ -402,6 +402,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Nicolò Barella",
+            "tipo": "TakeOn",
+            "minuto": 13,
+            "segundo": 21,
+            "x": 46.3,
+            "y": 42.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Barella",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 24,
+            "x": 69.5,
+            "y": 42.6,
+            "endX": 75.4,
+            "endY": 63.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Petar Sucic",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 27,
+            "x": 75.4,
+            "y": 63.1,
+            "endX": 89.5,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Petar Sucic",
             "tipo": "Pass",
             "minuto": 13,
@@ -412,7 +445,12 @@
             "endY": 60.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Woyo Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 21,

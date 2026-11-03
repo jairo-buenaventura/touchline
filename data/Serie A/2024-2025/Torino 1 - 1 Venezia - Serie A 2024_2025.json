@@ -4601,6 +4601,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "John Yeboah",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 55,
+            "x": 66.7,
+            "y": 39.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Yeboah",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 55,
+            "x": 66.7,
+            "y": 39.9,
+            "endX": 70.8,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Gytkjær",
+            "tipo": "BallTouch",
+            "minuto": 35,
+            "segundo": 56,
+            "x": 70.8,
+            "y": 44.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kike Pérez",
             "tipo": "TakeOn",
             "minuto": 35,
@@ -4611,7 +4644,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Guillermo Maripán",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

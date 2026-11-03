@@ -364,6 +364,83 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Santiago Pierotti",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 73.5,
+            "y": 7.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Pierotti",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 73.5,
+            "y": 7.9,
+            "endX": 68.1,
+            "endY": 21.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ylber Ramadani",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 38,
+            "x": 68.1,
+            "y": 21.2,
+            "endX": 72.4,
+            "endY": 34.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Kaba",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 39,
+            "x": 72.4,
+            "y": 34.4,
+            "endX": 67.0,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 41,
+            "x": 67.0,
+            "y": 42.1,
+            "endX": 78.7,
+            "endY": 52.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "SavedShot",
+            "minuto": 0,
+            "segundo": 41,
+            "x": 78.7,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef Maleh",
+            "tipo": "BallTouch",
+            "minuto": 0,
+            "segundo": 43,
+            "x": 78.7,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Kaba",
             "tipo": "TakeOn",
             "minuto": 0,
@@ -429,7 +506,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Adrián Bernabé",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -4207,7 +4289,24 @@
         "y": 45.1,
         "arco_y": 48.6,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mateo Pellegrino",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 57,
+            "x": 98.1,
+            "y": 45.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mohamed Kaba",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

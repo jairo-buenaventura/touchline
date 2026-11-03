@@ -601,6 +601,28 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Yoann Cathline",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 19,
+            "x": 86.5,
+            "y": 18.4,
+            "endX": 94.0,
+            "endY": 52.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Siebe Horemans",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 24,
+            "x": 94.0,
+            "y": 52.1,
+            "endX": 84.0,
+            "endY": 79.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Siebe Horemans",
             "tipo": "Pass",
             "minuto": 74,
@@ -710,7 +732,12 @@
             "endY": 26.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Hidde ter Avest",
+          "portero": false
+        }
       },
       {
         "minuto": 83,

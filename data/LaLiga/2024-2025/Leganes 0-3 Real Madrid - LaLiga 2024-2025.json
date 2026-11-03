@@ -3890,6 +3890,28 @@
         "secuencia_gol": [
           {
             "jugador": "Vinícius Júnior",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 22,
+            "x": 88.1,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 22,
+            "x": 81.0,
+            "y": 39.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
             "tipo": "TakeOn",
             "minuto": 42,
             "segundo": 23,
@@ -3910,7 +3932,12 @@
             "endY": 54.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergio González",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4016,7 +4043,57 @@
         "y": 49.6,
         "arco_y": 51.0,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 42,
+            "x": 95.8,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "MissedShots",
+            "minuto": 84,
+            "segundo": 42,
+            "x": 95.5,
+            "y": 56.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Rüdiger",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 44,
+            "x": 85.8,
+            "y": 64.1,
+            "endX": 81.2,
+            "endY": 53.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brahim Díaz",
+            "tipo": "SavedShot",
+            "minuto": 84,
+            "segundo": 46,
+            "x": 81.2,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Renato Tapia",
+          "portero": true
+        }
       },
       {
         "minuto": 90,

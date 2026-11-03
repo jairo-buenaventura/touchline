@@ -397,6 +397,39 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Unai Núñez",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 33,
+            "x": 30.4,
+            "y": 65.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai Núñez",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 34,
+            "x": 30.4,
+            "y": 65.3,
+            "endX": 38.7,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beñat Prados",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 36,
+            "x": 38.7,
+            "y": 70.2,
+            "endX": 37.0,
+            "endY": 66.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Beñat Prados",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -473,7 +506,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Samú Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4527,7 +4565,24 @@
         "y": 47.6,
         "arco_y": 47.4,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antonio Raíllo",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 51,
+            "x": 92.0,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Maroan Sannadi",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

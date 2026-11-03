@@ -4149,6 +4149,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Nicolò Savona",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 33,
+            "x": 45.5,
+            "y": 24.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolò Savona",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 41,
+            "x": 75.8,
+            "y": 12.1,
+            "endX": 75.7,
+            "endY": 20.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kenan Yildiz",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 44,
+            "x": 75.7,
+            "y": 20.0,
+            "endX": 75.0,
+            "endY": 24.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Kenan Yildiz",
             "tipo": "TakeOn",
             "minuto": 7,
@@ -4159,7 +4192,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Karol Linetty",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

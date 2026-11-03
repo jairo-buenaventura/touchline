@@ -397,6 +397,39 @@
         "secuencia_gol": [
           {
             "jugador": "Felix Mambimbi",
+            "tipo": "BallRecovery",
+            "minuto": 20,
+            "segundo": 10,
+            "x": 70.6,
+            "y": 24.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Mambimbi",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 10,
+            "x": 71.2,
+            "y": 25.2,
+            "endX": 71.6,
+            "endY": 26.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Felix Mambimbi",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 11,
+            "x": 71.6,
+            "y": 26.4,
+            "endX": 71.7,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Mambimbi",
             "tipo": "Pass",
             "minuto": 20,
             "segundo": 11,
@@ -428,7 +461,12 @@
             "endY": 37.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Marius Courcoul",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

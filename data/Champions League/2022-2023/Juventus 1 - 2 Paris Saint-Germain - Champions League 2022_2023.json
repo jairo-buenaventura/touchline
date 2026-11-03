@@ -445,7 +445,79 @@
         "y": 51.6,
         "arco_y": 48.4,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Fabio Miretti",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 15,
+            "x": 65.5,
+            "y": 31.6,
+            "endX": 79.1,
+            "endY": 83.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 20,
+            "x": 79.1,
+            "y": 83.1,
+            "endX": 82.9,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 20,
+            "x": 82.9,
+            "y": 79.6,
+            "endX": 76.8,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 23,
+            "x": 76.8,
+            "y": 67.1,
+            "endX": 74.8,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Locatelli",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 23,
+            "x": 74.8,
+            "y": 59.1,
+            "endX": 91.3,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Cuadrado",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 92.4,
+            "y": 33.7,
+            "endX": 95.2,
+            "endY": 51.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Gianluigi Donnarumma",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4779,6 +4851,61 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Marco Verratti",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 37,
+            "x": 55.0,
+            "y": 28.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Verratti",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 37,
+            "x": 55.0,
+            "y": 28.2,
+            "endX": 62.0,
+            "endY": 40.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 38,
+            "x": 61.9,
+            "y": 42.4,
+            "endX": 69.7,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 39,
+            "x": 69.7,
+            "y": 61.8,
+            "endX": 71.0,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "TakeOn",
+            "minuto": 12,
+            "segundo": 39,
+            "x": 71.0,
+            "y": 65.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kylian Mbappé",
             "tipo": "TakeOn",
             "minuto": 12,
@@ -4789,7 +4916,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Manuel Locatelli",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

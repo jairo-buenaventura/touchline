@@ -536,6 +536,149 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 37,
+            "x": 34.0,
+            "y": 89.6,
+            "endX": 13.6,
+            "endY": 53.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Trapp",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 13.6,
+            "y": 53.9,
+            "endX": 20.8,
+            "endY": 73.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Coppola",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 43,
+            "x": 21.5,
+            "y": 75.3,
+            "endX": 30.1,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 44,
+            "x": 30.1,
+            "y": 74.2,
+            "endX": 21.4,
+            "endY": 75.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Coppola",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 51,
+            "x": 21.4,
+            "y": 75.7,
+            "endX": 24.4,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Coppola",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 51,
+            "x": 24.4,
+            "y": 67.9,
+            "endX": 17.9,
+            "endY": 45.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Trapp",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 17.9,
+            "y": 45.8,
+            "endX": 21.3,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Trapp",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 54,
+            "x": 21.3,
+            "y": 43.1,
+            "endX": 71.5,
+            "endY": 57.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 59,
+            "x": 71.5,
+            "y": 57.5,
+            "endX": 70.2,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Pagis",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 59,
+            "x": 70.2,
+            "y": 60.3,
+            "endX": 72.0,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Koleosho",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 5,
+            "x": 72.0,
+            "y": 93.8,
+            "endX": 77.6,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Koleosho",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 5,
+            "x": 77.6,
+            "y": 77.6,
+            "endX": 83.8,
+            "endY": 75.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 6,
+            "x": 83.8,
+            "y": 75.3,
+            "endX": 91.7,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Lassine Sinayoko",
             "tipo": "MissedShots",
             "minuto": 48,
@@ -546,7 +689,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sebastian Szymanski",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -583,7 +731,35 @@
         "y": 50.1,
         "arco_y": 46.3,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Aerial",
+            "minuto": 75,
+            "segundo": 47,
+            "x": 92.4,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 48,
+            "x": 92.4,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Charlie Cresswell",
+          "portero": true
+        }
       },
       {
         "minuto": 96,

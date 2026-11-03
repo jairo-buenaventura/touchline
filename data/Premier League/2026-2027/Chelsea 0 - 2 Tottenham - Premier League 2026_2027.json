@@ -426,7 +426,24 @@
         "y": 48.4,
         "arco_y": 48.8,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mike Penders",
+            "tipo": "Aerial",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 6.8,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jan Paul van Hecke",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -3869,6 +3886,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mathys Tel",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 20,
+            "x": 37.0,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathys Tel",
             "tipo": "TakeOn",
             "minuto": 86,
             "segundo": 23,
@@ -3878,7 +3906,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxence Lacroix",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

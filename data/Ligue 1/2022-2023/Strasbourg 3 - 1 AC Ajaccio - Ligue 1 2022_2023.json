@@ -466,7 +466,24 @@
         "y": 40.2,
         "arco_y": 47.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Morgan Sanson",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 18,
+            "x": 78.3,
+            "y": 20.3,
+            "endX": 91.9,
+            "endY": 42.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Yoann Touzghar",
+          "portero": false
+        }
       },
       {
         "minuto": 85,
@@ -494,7 +511,68 @@
         "y": 50.9,
         "arco_y": 48.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ibrahima Sissoko",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 51,
+            "x": 55.1,
+            "y": 39.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Sissoko",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 69.0,
+            "y": 46.6,
+            "endX": 81.8,
+            "endY": 29.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yuito Suzuki",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 57,
+            "x": 81.8,
+            "y": 29.5,
+            "endX": 82.1,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yuito Suzuki",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 57,
+            "x": 82.1,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yuito Suzuki",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 58,
+            "x": 83.2,
+            "y": 41.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oumar Gonzalez",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4307,6 +4385,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Ismaël Diallo",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 59.3,
+            "y": 0.0,
+            "endX": 66.2,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Touzghar",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 66.2,
+            "y": 8.3,
+            "endX": 62.3,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Touzghar",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 35,
+            "x": 62.3,
+            "y": 8.8,
+            "endX": 63.4,
+            "endY": 3.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Diallo",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 36,
+            "x": 63.4,
+            "y": 3.2,
+            "endX": 57.3,
+            "endY": 1.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Diallo",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 36,
+            "x": 57.3,
+            "y": 1.3,
+            "endX": 66.0,
+            "endY": 7.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thomas Mangani",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 38,
+            "x": 66.0,
+            "y": 7.1,
+            "endX": 57.5,
+            "endY": 16.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Thomas Mangani",
             "tipo": "Pass",
             "minuto": 75,
@@ -4361,7 +4505,12 @@
             "endY": 67.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Eduard Sobol",
+          "portero": false
+        }
       }
     ],
     "corners": [],

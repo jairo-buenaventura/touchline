@@ -463,6 +463,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Vinícius Júnior",
+            "tipo": "CornerAwarded",
+            "minuto": 39,
+            "segundo": 9,
+            "x": 90.6,
+            "y": 78.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Toni Kroos",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 28,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 92.0,
+            "endY": 48.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 34,
+            "x": 92.0,
+            "y": 48.5,
+            "endX": 70.2,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Luka Modric",
             "tipo": "Pass",
             "minuto": 39,
@@ -484,7 +517,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Jeremías Ledesma",
+          "portero": true
+        }
       },
       {
         "minuto": 47,
@@ -539,7 +577,57 @@
         "y": 66.0,
         "arco_y": 53.9,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 45,
+            "x": 92.2,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Éder Militão",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 46,
+            "x": 92.6,
+            "y": 59.3,
+            "endX": 80.6,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Toni Kroos",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 47,
+            "x": 80.6,
+            "y": 72.5,
+            "endX": 90.6,
+            "endY": 77.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vinícius Júnior",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 50,
+            "x": 89.9,
+            "y": 76.7,
+            "endX": 91.6,
+            "endY": 70.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Iza Carcelén",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -5505,7 +5593,24 @@
         "y": 53.2,
         "arco_y": 47.4,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Álvaro Negredo",
+            "tipo": "SavedShot",
+            "minuto": 80,
+            "segundo": 59,
+            "x": 92.5,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Thibaut Courtois",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

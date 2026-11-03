@@ -384,6 +384,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 55,
+            "x": 28.4,
+            "y": 66.6,
+            "endX": 41.3,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 56,
+            "x": 41.3,
+            "y": 62.6,
+            "endX": 27.9,
+            "endY": 66.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 58,
+            "x": 27.9,
+            "y": 66.2,
+            "endX": 30.2,
+            "endY": 56.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 58,
+            "x": 30.2,
+            "y": 56.5,
+            "endX": 37.6,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 1,
+            "x": 36.9,
+            "y": 15.1,
+            "endX": 46.3,
+            "endY": 8.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Savinho",
             "tipo": "TakeOn",
             "minuto": 8,
@@ -405,7 +460,12 @@
             "endY": 34.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Riccardo Calafiori",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -685,7 +745,90 @@
         "y": 46.0,
         "arco_y": 48.4,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "CornerAwarded",
+            "minuto": 96,
+            "segundo": 57,
+            "x": 95.2,
+            "y": 57.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 5,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 80.9,
+            "endY": 74.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 7,
+            "x": 80.9,
+            "y": 74.6,
+            "endX": 93.8,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Carry",
+            "minuto": 97,
+            "segundo": 11,
+            "x": 93.8,
+            "y": 80.8,
+            "endX": 93.8,
+            "endY": 73.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Pass",
+            "minuto": 97,
+            "segundo": 11,
+            "x": 93.8,
+            "y": 73.5,
+            "endX": 87.9,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "Carry",
+            "minuto": 97,
+            "segundo": 12,
+            "x": 87.9,
+            "y": 63.1,
+            "endX": 85.4,
+            "endY": 55.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "SavedShot",
+            "minuto": 97,
+            "segundo": 12,
+            "x": 85.4,
+            "y": 55.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jakub Kiwior",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -5569,7 +5712,24 @@
         "y": 53.6,
         "arco_y": 53.9,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Magalhães",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 3,
+            "x": 97.6,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Josko Gvardiol",
+          "portero": false
+        }
       },
       {
         "minuto": 96,

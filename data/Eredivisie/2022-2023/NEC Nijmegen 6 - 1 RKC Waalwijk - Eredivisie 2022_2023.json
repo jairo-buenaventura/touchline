@@ -531,7 +531,46 @@
         "y": 60.0,
         "arco_y": 46.4,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bart van Rooij",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 22,
+            "x": 78.3,
+            "y": 17.3,
+            "endX": 70.6,
+            "endY": 19.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lasse Schöne",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 70.6,
+            "y": 19.4,
+            "endX": 73.9,
+            "endY": 20.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lasse Schöne",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 73.9,
+            "y": 20.0,
+            "endX": 88.0,
+            "endY": 47.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dario Van den Buijs",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -607,6 +646,28 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Lasse Schöne",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 9,
+            "x": 74.6,
+            "y": 11.4,
+            "endX": 93.3,
+            "endY": 52.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joris Kramer",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 13,
+            "x": 93.3,
+            "y": 52.8,
+            "endX": 85.2,
+            "endY": 44.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Joris Kramer",
             "tipo": "Pass",
             "minuto": 77,
@@ -617,7 +678,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julian Lelieveld",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

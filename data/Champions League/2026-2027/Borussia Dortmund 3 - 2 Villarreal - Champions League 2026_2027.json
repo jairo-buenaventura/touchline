@@ -507,6 +507,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ethan Nwaneri",
+            "tipo": "SavedShot",
+            "minuto": 78,
+            "segundo": 55,
+            "x": 78.1,
+            "y": 64.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ethan Nwaneri",
             "tipo": "Pass",
             "minuto": 78,
             "segundo": 57,
@@ -593,7 +604,12 @@
             "endY": 47.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pape Gueye",
+          "portero": true
+        }
       },
       {
         "minuto": 81,
@@ -5131,7 +5147,24 @@
         "y": 58.3,
         "arco_y": 54.4,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Mouriño",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 52,
+            "x": 95.0,
+            "y": 58.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Julian Ryerson",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

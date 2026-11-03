@@ -412,7 +412,24 @@
         "y": 46.2,
         "arco_y": 46.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Magalhães",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 4,
+            "x": 95.3,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Chris Richards",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -556,6 +573,61 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "David Raya",
+            "tipo": "Claim",
+            "minuto": 58,
+            "segundo": 15,
+            "x": 8.0,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Raya",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 17,
+            "x": 13.5,
+            "y": 46.4,
+            "endX": 45.3,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 22,
+            "x": 45.3,
+            "y": 18.2,
+            "endX": 70.0,
+            "endY": 26.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 22,
+            "x": 70.0,
+            "y": 26.0,
+            "endX": 88.8,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Trossard",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 25,
+            "x": 88.8,
+            "y": 60.2,
+            "endX": 89.6,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Leandro Trossard",
             "tipo": "TakeOn",
             "minuto": 58,
@@ -566,7 +638,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nathaniel Clyne",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

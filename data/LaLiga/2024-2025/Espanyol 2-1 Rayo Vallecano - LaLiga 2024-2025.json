@@ -366,6 +366,28 @@
         "secuencia_gol": [
           {
             "jugador": "Omar El Hilali",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 35,
+            "x": 29.5,
+            "y": 26.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar El Hilali",
+            "tipo": "TakeOn",
+            "minuto": 7,
+            "segundo": 35,
+            "x": 35.1,
+            "y": 20.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar El Hilali",
             "tipo": "Pass",
             "minuto": 7,
             "segundo": 36,
@@ -419,7 +441,12 @@
             "endY": 44.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Unai López",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -503,6 +530,61 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Aguado",
+            "tipo": "BallRecovery",
+            "minuto": 95,
+            "segundo": 28,
+            "x": 26.4,
+            "y": 80.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Aguado",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 30,
+            "x": 26.4,
+            "y": 80.0,
+            "endX": 44.2,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Walid Cheddira",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 32,
+            "x": 44.2,
+            "y": 65.6,
+            "endX": 56.2,
+            "endY": 66.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irvin Cardona",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 38,
+            "x": 56.2,
+            "y": 66.5,
+            "endX": 90.4,
+            "endY": 59.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irvin Cardona",
+            "tipo": "SavedShot",
+            "minuto": 95,
+            "segundo": 38,
+            "x": 90.4,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Walid Cheddira",
             "tipo": "Pass",
             "minuto": 95,
@@ -513,7 +595,12 @@
             "endY": 47.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dani Cárdenas",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4244,7 +4331,68 @@
         "y": 44.6,
         "arco_y": 52.3,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Abdul Mumin",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 23,
+            "x": 38.4,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdul Mumin",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 25,
+            "x": 38.4,
+            "y": 48.7,
+            "endX": 46.7,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Óscar Valentín",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 27,
+            "x": 46.7,
+            "y": 48.4,
+            "endX": 66.1,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adri Embarba",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 30,
+            "x": 66.1,
+            "y": 35.7,
+            "endX": 67.7,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adri Embarba",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 30,
+            "x": 67.7,
+            "y": 40.9,
+            "endX": 78.2,
+            "endY": 47.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Fernando Calero",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

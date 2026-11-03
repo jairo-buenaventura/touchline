@@ -397,7 +397,24 @@
         "y": 53.2,
         "arco_y": 47.1,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Morten Thorsby",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 17,
+            "x": 90.6,
+            "y": 52.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pantelis Hatzidiakos",
+          "portero": false
+        }
       },
       {
         "minuto": 25,
@@ -417,6 +434,17 @@
         "arco_y": 45.9,
         "arco_z": 20.3,
         "secuencia_gol": [
+          {
+            "jugador": "Aarón Martín",
+            "tipo": "SavedShot",
+            "minuto": 25,
+            "segundo": 11,
+            "x": 77.4,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Johan Vásquez",
             "tipo": "Pass",
@@ -670,7 +698,12 @@
             "endY": 65.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alessandro Deiola",
+          "portero": true
+        }
       },
       {
         "minuto": 32,

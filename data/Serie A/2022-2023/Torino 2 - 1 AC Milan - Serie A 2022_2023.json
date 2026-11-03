@@ -420,6 +420,17 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Pietro Pellegri",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 26,
+            "x": 72.8,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Nikola Vlasic",
             "tipo": "Pass",
             "minuto": 36,
@@ -430,7 +441,12 @@
             "endY": 61.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Matteo Gabbia",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

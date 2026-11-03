@@ -3858,6 +3858,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nicolas Jackson",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 48,
+            "x": 84.4,
+            "y": 64.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
             "tipo": "TakeOn",
             "minuto": 14,
             "segundo": 48,
@@ -3867,7 +3878,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Caleb Okoli",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -3949,7 +3965,35 @@
         "y": 51.4,
         "arco_y": 52.9,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Aerial",
+            "minuto": 74,
+            "segundo": 33,
+            "x": 93.6,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "SavedShot",
+            "minuto": 74,
+            "segundo": 33,
+            "x": 93.9,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mads Hermansen",
+          "portero": true
+        }
       },
       {
         "minuto": 79,

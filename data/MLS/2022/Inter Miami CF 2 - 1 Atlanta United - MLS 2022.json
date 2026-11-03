@@ -544,6 +544,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Bryce Duke",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 53,
+            "x": 45.5,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryce Duke",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 53,
+            "x": 46.2,
+            "y": 55.3,
+            "endX": 67.8,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ariel Lassiter",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 58,
+            "x": 67.8,
+            "y": 35.7,
+            "endX": 70.5,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ariel Lassiter",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 58,
+            "x": 70.5,
+            "y": 48.5,
+            "endX": 83.6,
+            "endY": 61.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Leonardo Campana",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 83.6,
+            "y": 61.4,
+            "endX": 89.6,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Campana",
             "tipo": "Pass",
             "minuto": 63,
@@ -554,7 +609,12 @@
             "endY": 47.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "George Campbell",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

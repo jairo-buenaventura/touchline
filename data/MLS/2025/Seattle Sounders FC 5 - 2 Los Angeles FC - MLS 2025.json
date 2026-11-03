@@ -997,6 +997,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jon Bell",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 28,
+            "x": 71.9,
+            "y": 88.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Bell",
             "tipo": "TakeOn",
             "minuto": 83,
             "segundo": 28,
@@ -1039,7 +1050,12 @@
             "endY": 37.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nkosi Tafari",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -1078,6 +1094,94 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Jon Bell",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 26,
+            "x": 75.6,
+            "y": 84.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Bell",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 27,
+            "x": 75.6,
+            "y": 84.4,
+            "endX": 72.5,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Paulo",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 27,
+            "x": 72.5,
+            "y": 71.7,
+            "endX": 61.9,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jackson Ragen",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 28,
+            "x": 61.9,
+            "y": 79.3,
+            "endX": 56.1,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeimar Gómez",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 32,
+            "x": 56.1,
+            "y": 54.8,
+            "endX": 56.0,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeimar Gómez",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 32,
+            "x": 56.0,
+            "y": 50.4,
+            "endX": 66.3,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Roldan",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 33,
+            "x": 66.3,
+            "y": 52.1,
+            "endX": 86.2,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georgi Minoungou",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 37,
+            "x": 86.2,
+            "y": 13.2,
+            "endX": 93.8,
+            "endY": 25.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Georgi Minoungou",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -1099,7 +1203,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yaw Yeboah",
+          "portero": false
+        }
       },
       {
         "minuto": 96,
@@ -6211,7 +6320,46 @@
         "y": 49.5,
         "arco_y": 51.2,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mark Delgado",
+            "tipo": "SavedShot",
+            "minuto": 36,
+            "segundo": 52,
+            "x": 95.2,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nkosi Tafari",
+            "tipo": "BallTouch",
+            "minuto": 36,
+            "segundo": 52,
+            "x": 92.6,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Ordaz",
+            "tipo": "SavedShot",
+            "minuto": 36,
+            "segundo": 54,
+            "x": 95.7,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "João Paulo",
+          "portero": true
+        }
       },
       {
         "minuto": 90,
@@ -6230,7 +6378,24 @@
         "y": 53.2,
         "arco_y": 48.0,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "David Martínez",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 14,
+            "x": 88.0,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yeimar Gómez",
+          "portero": false
+        }
       }
     ],
     "corners": [

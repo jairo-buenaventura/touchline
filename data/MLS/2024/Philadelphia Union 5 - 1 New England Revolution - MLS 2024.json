@@ -497,7 +497,24 @@
         "y": 56.8,
         "arco_y": 48.0,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 92.7,
+            "y": 58.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andrew Farrell",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4437,6 +4454,94 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Dave Romney",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 32,
+            "x": 7.8,
+            "y": 67.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dave Romney",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 34,
+            "x": 8.5,
+            "y": 68.2,
+            "endX": 23.7,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Panayotou",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 36,
+            "x": 23.7,
+            "y": 91.1,
+            "endX": 34.9,
+            "endY": 95.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Panayotou",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 36,
+            "x": 34.9,
+            "y": 95.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Panayotou",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 42,
+            "x": 70.6,
+            "y": 81.5,
+            "endX": 79.1,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Spaulding",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 48,
+            "x": 79.1,
+            "y": 93.3,
+            "endX": 95.2,
+            "endY": 83.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Spaulding",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 48,
+            "x": 95.2,
+            "y": 83.9,
+            "endX": 97.1,
+            "endY": 50.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andrew Farrell",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 52,
+            "x": 97.1,
+            "y": 50.6,
+            "endX": 75.8,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrew Farrell",
             "tipo": "Pass",
             "minuto": 49,
@@ -4458,7 +4563,12 @@
             "endY": 33.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Andre Blake",
+          "portero": true
+        }
       },
       {
         "minuto": 66,

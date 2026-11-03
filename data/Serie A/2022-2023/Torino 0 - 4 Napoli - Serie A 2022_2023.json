@@ -4339,7 +4339,24 @@
         "y": 46.6,
         "arco_y": 53.2,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Victor Osimhen",
+            "tipo": "Aerial",
+            "minuto": 8,
+            "segundo": 27,
+            "x": 93.5,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Perr Schuurs",
+          "portero": false
+        }
       },
       {
         "minuto": 12,
@@ -4513,6 +4530,17 @@
         "secuencia_gol": [
           {
             "jugador": "Victor Osimhen",
+            "tipo": "TakeOn",
+            "minuto": 67,
+            "segundo": 21,
+            "x": 69.1,
+            "y": 9.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Osimhen",
             "tipo": "Pass",
             "minuto": 67,
             "segundo": 21,
@@ -4533,7 +4561,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Perr Schuurs",
+          "portero": false
+        }
       }
     ],
     "corners": [

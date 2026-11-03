@@ -4614,6 +4614,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marco Asensio",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 40,
+            "x": 93.4,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Asensio",
             "tipo": "BallTouch",
             "minuto": 23,
             "segundo": 40,
@@ -4623,7 +4634,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dani Vivian",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -4689,6 +4705,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Nacho",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 25,
+            "x": 10.2,
+            "y": 0.0,
+            "endX": 11.9,
+            "endY": 7.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 26,
+            "x": 11.9,
+            "y": 7.4,
+            "endX": 15.4,
+            "endY": 10.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 26,
+            "x": 15.4,
+            "y": 10.8,
+            "endX": 18.2,
+            "endY": 11.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 28,
+            "x": 20.2,
+            "y": 12.5,
+            "endX": 58.5,
+            "endY": 71.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rodrygo",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 35,
+            "x": 58.5,
+            "y": 71.1,
+            "endX": 69.9,
+            "endY": 32.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Rodrygo",
             "tipo": "Pass",
             "minuto": 89,
@@ -4743,7 +4814,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Íñigo Lekue",
+          "portero": false
+        }
       }
     ],
     "corners": [

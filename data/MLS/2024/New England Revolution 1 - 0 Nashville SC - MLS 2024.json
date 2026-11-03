@@ -438,6 +438,39 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Esmir Bajraktarevic",
+            "tipo": "BallRecovery",
+            "minuto": 84,
+            "segundo": 31,
+            "x": 3.6,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Esmir Bajraktarevic",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 31,
+            "x": 2.6,
+            "y": 88.6,
+            "endX": 5.1,
+            "endY": 88.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aljaz Ivacic",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 51,
+            "x": 5.1,
+            "y": 88.7,
+            "endX": 5.4,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Aljaz Ivacic",
             "tipo": "Pass",
             "minuto": 84,
@@ -613,7 +646,12 @@
             "endY": 45.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Shaq Moore",
+          "portero": false
+        }
       }
     ],
     "corners": [

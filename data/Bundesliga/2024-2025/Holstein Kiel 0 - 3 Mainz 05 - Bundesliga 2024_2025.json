@@ -3819,6 +3819,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Anthony Caci",
+            "tipo": "BallRecovery",
+            "minuto": 9,
+            "segundo": 47,
+            "x": 64.4,
+            "y": 16.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 48,
+            "x": 65.0,
+            "y": 24.6,
+            "endX": 68.7,
+            "endY": 32.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 50,
+            "x": 68.7,
+            "y": 32.5,
+            "endX": 68.2,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Paul Nebel",
             "tipo": "Pass",
             "minuto": 9,
@@ -4060,7 +4093,12 @@
             "endY": 30.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lewis Holtby",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -4157,6 +4195,28 @@
             "jugador": "Anthony Caci",
             "tipo": "Pass",
             "minuto": 52,
+            "segundo": 22,
+            "x": 83.5,
+            "y": 0.0,
+            "endX": 89.2,
+            "endY": 47.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 27,
+            "x": 89.2,
+            "y": 47.3,
+            "endX": 93.0,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 52,
             "segundo": 27,
             "x": 93.0,
             "y": 8.4,
@@ -4164,7 +4224,12 @@
             "endY": 41.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Finn Porath",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

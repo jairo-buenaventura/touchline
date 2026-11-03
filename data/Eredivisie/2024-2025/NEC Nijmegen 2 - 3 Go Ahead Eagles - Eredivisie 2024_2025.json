@@ -409,6 +409,17 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Kento Shiogai",
+            "tipo": "Aerial",
+            "minuto": 68,
+            "segundo": 33,
+            "x": 73.2,
+            "y": 77.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Basar Önal",
             "tipo": "Pass",
             "minuto": 68,
@@ -463,7 +474,12 @@
             "endY": 29.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mats Deijl",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -492,6 +508,50 @@
         "arco_y": 46.9,
         "arco_z": 9.5,
         "secuencia_gol": [
+          {
+            "jugador": "Thomas Ouwejan",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 26,
+            "x": 25.2,
+            "y": 70.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Ouwejan",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 26,
+            "x": 25.2,
+            "y": 70.2,
+            "endX": 39.5,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 37,
+            "x": 39.5,
+            "y": 82.1,
+            "endX": 63.7,
+            "endY": 78.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 37,
+            "x": 63.7,
+            "y": 78.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Basar Önal",
             "tipo": "Pass",
@@ -525,7 +585,12 @@
             "endY": 56.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Enric Llansana",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -3979,7 +4044,24 @@
         "y": 33.3,
         "arco_y": 53.7,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Victor Edvardsen",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 82.1,
+            "y": 56.6,
+            "endX": 88.0,
+            "endY": 50.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Bram Nuytinck",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

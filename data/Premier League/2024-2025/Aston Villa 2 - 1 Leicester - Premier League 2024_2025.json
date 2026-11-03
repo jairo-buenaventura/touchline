@@ -432,7 +432,46 @@
         "y": 55.5,
         "arco_y": 54.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Boubacar Kamara",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 0,
+            "x": 67.9,
+            "y": 63.4,
+            "endX": 68.8,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Digne",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 2,
+            "x": 68.8,
+            "y": 83.0,
+            "endX": 75.2,
+            "endY": 96.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Tielemans",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 4,
+            "x": 75.1,
+            "y": 96.5,
+            "endX": 91.3,
+            "endY": 51.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jannik Vestergaard",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -5092,7 +5131,46 @@
         "y": 58.3,
         "arco_y": 51.6,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Ayew",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 49,
+            "x": 54.1,
+            "y": 11.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Ayew",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 55,
+            "x": 93.1,
+            "y": 16.1,
+            "endX": 93.6,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamie Vardy",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 56,
+            "x": 93.3,
+            "y": 45.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Emiliano Martínez",
+          "portero": true
+        }
       }
     ],
     "corners": [

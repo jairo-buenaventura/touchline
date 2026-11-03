@@ -353,7 +353,24 @@
         "y": 46.2,
         "arco_y": 52.9,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 10,
+            "x": 93.4,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "David Ruíz",
+          "portero": false
+        }
       },
       {
         "minuto": 31,
@@ -374,6 +391,61 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Julián Carranza",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 42,
+            "x": 71.1,
+            "y": 5.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 44,
+            "x": 68.2,
+            "y": 9.1,
+            "endX": 80.8,
+            "endY": 6.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 47,
+            "x": 80.8,
+            "y": 6.5,
+            "endX": 84.4,
+            "endY": 5.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 47,
+            "x": 84.4,
+            "y": 5.9,
+            "endX": 85.1,
+            "endY": 11.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mikael Uhre",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 51,
+            "x": 85.1,
+            "y": 11.7,
+            "endX": 92.0,
+            "endY": 48.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Mikael Uhre",
             "tipo": "Pass",
             "minuto": 38,
@@ -384,7 +456,12 @@
             "endY": 45.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dixon Arroyo",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

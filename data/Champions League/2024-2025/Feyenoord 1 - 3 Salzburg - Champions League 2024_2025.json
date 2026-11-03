@@ -5014,6 +5014,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kamil Piatkowski",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 8,
+            "x": 87.4,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamil Piatkowski",
             "tipo": "Pass",
             "minuto": 57,
             "segundo": 8,
@@ -5023,7 +5034,12 @@
             "endY": 54.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Quinten Timber",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -5043,6 +5059,72 @@
         "arco_y": 53.6,
         "arco_z": 32.9,
         "secuencia_gol": [
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 48,
+            "x": 63.8,
+            "y": 29.2,
+            "endX": 59.4,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Capaldo",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 50,
+            "x": 59.4,
+            "y": 17.6,
+            "endX": 56.0,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Capaldo",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 50,
+            "x": 56.0,
+            "y": 16.3,
+            "endX": 68.0,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bobby Clark",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 52,
+            "x": 68.0,
+            "y": 9.4,
+            "endX": 66.1,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bobby Clark",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 52,
+            "x": 66.1,
+            "y": 4.5,
+            "endX": 70.1,
+            "endY": 9.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bobby Clark",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 53,
+            "x": 70.1,
+            "y": 9.4,
+            "endX": 64.1,
+            "endY": 2.1,
+            "exitoso": true
+          },
           {
             "jugador": "Bobby Clark",
             "tipo": "Pass",
@@ -5186,7 +5268,12 @@
             "endY": 73.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Hugo Bueno",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

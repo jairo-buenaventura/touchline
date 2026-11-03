@@ -406,6 +406,72 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Brad Stuver",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 8,
+            "x": 5.2,
+            "y": 52.1,
+            "endX": 23.3,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Ring",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 14,
+            "x": 23.3,
+            "y": 38.5,
+            "endX": 30.3,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Ring",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 14,
+            "x": 30.3,
+            "y": 38.8,
+            "endX": 33.8,
+            "endY": 60.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 18,
+            "x": 33.8,
+            "y": 60.4,
+            "endX": 39.0,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 18,
+            "x": 39.0,
+            "y": 62.6,
+            "endX": 80.8,
+            "endY": 69.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Adam Lundkvist",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 30,
+            "x": 80.8,
+            "y": 69.8,
+            "endX": 78.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Lundkvist",
             "tipo": "Pass",
             "minuto": 39,
@@ -449,7 +515,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jonathan Mensah",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -531,7 +602,35 @@
         "y": 51.1,
         "arco_y": 49.5,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leo Väisänen",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 55,
+            "x": 95.0,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Väisänen",
+            "tipo": "SavedShot",
+            "minuto": 77,
+            "segundo": 55,
+            "x": 95.0,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "JT Marcinkowski",
+          "portero": true
+        }
       },
       {
         "minuto": 82,
@@ -4402,6 +4501,105 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Paul Marie",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 4,
+            "x": 26.4,
+            "y": 100.0,
+            "endX": 27.9,
+            "endY": 89.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 6,
+            "x": 27.1,
+            "y": 86.4,
+            "endX": 20.9,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Mensah",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 8,
+            "x": 20.8,
+            "y": 63.1,
+            "endX": 32.0,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Gruezo",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 9,
+            "x": 32.8,
+            "y": 66.8,
+            "endX": 33.1,
+            "endY": 22.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Akapo",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 17,
+            "x": 33.1,
+            "y": 22.8,
+            "endX": 66.2,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Akapo",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 17,
+            "x": 66.2,
+            "y": 18.0,
+            "endX": 89.4,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 23,
+            "x": 89.4,
+            "y": 4.5,
+            "endX": 97.6,
+            "endY": 7.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Espinoza",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 23,
+            "x": 97.6,
+            "y": 7.5,
+            "endX": 89.3,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "SavedShot",
+            "minuto": 20,
+            "segundo": 24,
+            "x": 89.0,
+            "y": 48.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Carlos Akapo",
             "tipo": "Pass",
             "minuto": 20,
@@ -4412,7 +4610,12 @@
             "endY": 27.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alexander Ring",
+          "portero": true
+        }
       },
       {
         "minuto": 30,

@@ -465,6 +465,83 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Artur",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 50,
+            "x": 36.6,
+            "y": 64.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Artur",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 51,
+            "x": 36.6,
+            "y": 62.7,
+            "endX": 45.7,
+            "endY": 71.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Kowalczyk",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 52,
+            "x": 43.2,
+            "y": 69.9,
+            "endX": 45.9,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Bassi",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 54,
+            "x": 45.9,
+            "y": 64.6,
+            "endX": 46.7,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Bassi",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 54,
+            "x": 46.7,
+            "y": 56.7,
+            "endX": 46.3,
+            "endY": 44.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brooklyn Raines",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 55,
+            "x": 46.2,
+            "y": 43.9,
+            "endX": 47.0,
+            "endY": 41.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amine Bassi",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 56,
+            "x": 47.0,
+            "y": 41.6,
+            "endX": 56.3,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Amine Bassi",
             "tipo": "Pass",
             "minuto": 77,
@@ -497,7 +574,12 @@
             "endY": 61.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Diego Rubio",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

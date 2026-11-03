@@ -891,6 +891,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jude Bellingham",
+            "tipo": "Aerial",
+            "minuto": 77,
+            "segundo": 37,
+            "x": 78.4,
+            "y": 32.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
             "tipo": "Pass",
             "minuto": 77,
             "segundo": 37,
@@ -900,7 +911,12 @@
             "endY": 26.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mads Pedersen",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -5519,6 +5535,50 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Arne Maier",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 32,
+            "x": 41.6,
+            "y": 24.5,
+            "endX": 41.6,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dion Beljo",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 33,
+            "x": 41.6,
+            "y": 36.1,
+            "endX": 38.9,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Engels",
+            "tipo": "Carry",
+            "minuto": 45,
+            "segundo": 35,
+            "x": 38.9,
+            "y": 28.3,
+            "endX": 42.8,
+            "endY": 27.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Engels",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 35,
+            "x": 42.8,
+            "y": 27.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Arne Engels",
             "tipo": "Pass",
             "minuto": 45,
@@ -5529,7 +5589,12 @@
             "endY": 35.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Salih Özcan",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

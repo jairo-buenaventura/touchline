@@ -4207,6 +4207,17 @@
         "secuencia_gol": [
           {
             "jugador": "Harry Kane",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 44,
+            "x": 47.2,
+            "y": 7.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 44,
@@ -4359,7 +4370,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Benedikt Gimber",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

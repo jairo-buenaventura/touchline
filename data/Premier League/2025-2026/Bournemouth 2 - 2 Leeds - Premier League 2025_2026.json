@@ -564,6 +564,94 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Amine Adli",
+            "tipo": "CornerAwarded",
+            "minuto": 84,
+            "segundo": 32,
+            "x": 94.2,
+            "y": 35.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Amine Adli",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 77.2,
+            "endY": 18.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Scott",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 48,
+            "x": 77.2,
+            "y": 18.3,
+            "endX": 82.6,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Scott",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 48,
+            "x": 82.6,
+            "y": 15.0,
+            "endX": 75.8,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 49,
+            "x": 75.8,
+            "y": 45.0,
+            "endX": 74.6,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 49,
+            "x": 74.6,
+            "y": 54.3,
+            "endX": 67.9,
+            "endY": 54.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Truffert",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 51,
+            "x": 67.2,
+            "y": 55.4,
+            "endX": 69.7,
+            "endY": 55.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Álex Jiménez",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 53,
+            "x": 69.7,
+            "y": 55.2,
+            "endX": 66.2,
+            "endY": 43.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Álex Jiménez",
             "tipo": "Pass",
             "minuto": 84,
@@ -618,7 +706,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sean Longstaff",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4938,7 +5031,24 @@
         "y": 47.4,
         "arco_y": 45.8,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joe Rodon",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 3,
+            "x": 93.9,
+            "y": 38.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Alex Scott",
+          "portero": false
+        }
       }
     ],
     "corners": [

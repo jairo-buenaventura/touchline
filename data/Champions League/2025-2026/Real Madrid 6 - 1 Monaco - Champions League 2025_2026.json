@@ -714,6 +714,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Kylian Mbappé",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 44,
+            "x": 68.4,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kylian Mbappé",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 45,
+            "x": 68.0,
+            "y": 51.9,
+            "endX": 82.1,
+            "endY": 47.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Vinícius Júnior",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -735,7 +757,12 @@
             "endY": 33.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Eric Dier",
+          "portero": false
+        }
       },
       {
         "minuto": 58,
@@ -832,6 +859,50 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Federico Valverde",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 53,
+            "x": 67.2,
+            "y": 39.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Valverde",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 55,
+            "x": 65.4,
+            "y": 41.5,
+            "endX": 81.9,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 55,
+            "x": 81.9,
+            "y": 46.2,
+            "endX": 75.9,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dean Huijsen",
+            "tipo": "GoodSkill",
+            "minuto": 79,
+            "segundo": 55,
+            "x": 75.9,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jude Bellingham",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -842,7 +913,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Philipp Köhn",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

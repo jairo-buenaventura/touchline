@@ -366,6 +366,28 @@
         "secuencia_gol": [
           {
             "jugador": "Alexander Røssing-Lelesiit",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 41,
+            "x": 39.6,
+            "y": 79.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Røssing-Lelesiit",
+            "tipo": "TakeOn",
+            "minuto": 16,
+            "segundo": 43,
+            "x": 52.2,
+            "y": 74.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Røssing-Lelesiit",
             "tipo": "Pass",
             "minuto": 16,
             "segundo": 46,
@@ -375,7 +397,12 @@
             "endY": 36.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Chema Andres",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -450,6 +477,50 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Nicolás Capaldo",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 13,
+            "x": 22.2,
+            "y": 64.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Capaldo",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 14,
+            "x": 16.9,
+            "y": 63.7,
+            "endX": 37.1,
+            "endY": 79.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabio Baldé",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 37.1,
+            "y": 79.7,
+            "endX": 41.8,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabio Baldé",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 41.8,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Fabio Baldé",
             "tipo": "BallTouch",
             "minuto": 93,
@@ -460,7 +531,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maximilian Mittelstädt",
+          "portero": false
+        }
       }
     ],
     "corners": [

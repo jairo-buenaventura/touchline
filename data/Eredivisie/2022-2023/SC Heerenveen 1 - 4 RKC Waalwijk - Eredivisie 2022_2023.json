@@ -489,6 +489,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ché Nunnely",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 18,
+            "x": 91.0,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ché Nunnely",
             "tipo": "ShotOnPost",
             "minuto": 34,
             "segundo": 18,
@@ -498,7 +509,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thierry Lutonda",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -5460,6 +5476,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Pelle Clement",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 32,
+            "x": 55.2,
+            "y": 17.0,
+            "endX": 43.9,
+            "endY": 6.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Lelieveld",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 34,
+            "x": 43.9,
+            "y": 6.9,
+            "endX": 50.6,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Lelieveld",
+            "tipo": "TakeOn",
+            "minuto": 93,
+            "segundo": 34,
+            "x": 50.6,
+            "y": 11.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Julian Lelieveld",
             "tipo": "Pass",
             "minuto": 93,
@@ -5569,7 +5618,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Antoine Colassin",
+          "portero": false
+        }
       }
     ],
     "corners": [],

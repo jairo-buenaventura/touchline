@@ -491,6 +491,83 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Jens Stage",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 47.2,
+            "y": 38.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Stage",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 16,
+            "x": 42.2,
+            "y": 32.4,
+            "endX": 63.8,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 17,
+            "x": 63.8,
+            "y": 28.9,
+            "endX": 61.8,
+            "endY": 31.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mitchell Weiser",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 17,
+            "x": 61.8,
+            "y": 31.3,
+            "endX": 64.2,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keke Topp",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 19,
+            "x": 64.2,
+            "y": 38.3,
+            "endX": 72.0,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keke Topp",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 19,
+            "x": 72.0,
+            "y": 45.2,
+            "endX": 74.8,
+            "endY": 41.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Issa Kaboré",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 29,
+            "x": 74.8,
+            "y": 41.5,
+            "endX": 76.5,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Issa Kaboré",
             "tipo": "Pass",
             "minuto": 89,
@@ -534,7 +611,12 @@
             "endY": 52.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Denis Vavro",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4741,7 +4823,24 @@
         "y": 50.1,
         "arco_y": 51.6,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 13,
+            "x": 95.3,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Michael Zetterer",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -4778,7 +4877,112 @@
         "y": 59.3,
         "arco_y": 47.6,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joakim Mæhle",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 21,
+            "x": 63.3,
+            "y": 88.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joakim Mæhle",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 63.3,
+            "y": 88.3,
+            "endX": 65.1,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bence Dárdai",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 26,
+            "x": 65.1,
+            "y": 65.1,
+            "endX": 64.6,
+            "endY": 69.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bence Dárdai",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 26,
+            "x": 64.6,
+            "y": 69.0,
+            "endX": 61.7,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 28,
+            "x": 61.6,
+            "y": 91.4,
+            "endX": 73.9,
+            "endY": 98.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Amoura",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 73.9,
+            "y": 98.0,
+            "endX": 80.3,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Amoura",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 32,
+            "x": 80.3,
+            "y": 91.5,
+            "endX": 71.9,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 71.9,
+            "y": 90.6,
+            "endX": 74.2,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "TakeOn",
+            "minuto": 47,
+            "segundo": 38,
+            "x": 74.2,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leonardo Bittencourt",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

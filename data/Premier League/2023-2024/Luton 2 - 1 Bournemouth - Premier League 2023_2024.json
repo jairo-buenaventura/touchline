@@ -551,6 +551,17 @@
         "secuencia_gol": [
           {
             "jugador": "Carlton Morris",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 27,
+            "x": 46.3,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlton Morris",
             "tipo": "TakeOn",
             "minuto": 89,
             "segundo": 29,
@@ -615,7 +626,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Philip Billing",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4467,6 +4483,61 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Lewis Cook",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 52,
+            "x": 52.0,
+            "y": 49.0,
+            "endX": 64.9,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Christie",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 64.9,
+            "y": 59.9,
+            "endX": 78.6,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Christie",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 78.6,
+            "y": 69.7,
+            "endX": 96.0,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Justin Kluivert",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 59,
+            "x": 96.4,
+            "y": 43.2,
+            "endX": 95.7,
+            "endY": 50.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 95.7,
+            "y": 50.1,
+            "endX": 76.7,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Marcus Tavernier",
             "tipo": "Pass",
             "minuto": 51,
@@ -4521,7 +4592,12 @@
             "endY": 32.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Reece Burke",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

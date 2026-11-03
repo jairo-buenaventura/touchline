@@ -564,6 +564,72 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Vicente Guaita",
+            "tipo": "Claim",
+            "minuto": 38,
+            "segundo": 17,
+            "x": 4.7,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vicente Guaita",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 20,
+            "x": 11.7,
+            "y": 53.4,
+            "endX": 54.3,
+            "endY": 92.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jørgen Strand Larsen",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 24,
+            "x": 54.7,
+            "y": 93.8,
+            "endX": 43.1,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 25,
+            "x": 43.1,
+            "y": 92.1,
+            "endX": 50.2,
+            "endY": 82.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jailson",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 28,
+            "x": 52.7,
+            "y": 83.7,
+            "endX": 53.8,
+            "endY": 80.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Álvarez",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 30,
+            "x": 53.8,
+            "y": 80.0,
+            "endX": 46.5,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Álvarez",
             "tipo": "Pass",
             "minuto": 38,
@@ -651,7 +717,12 @@
             "endY": 35.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Máximo Perrone",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -744,6 +815,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Bamba",
+            "tipo": "Tackle",
+            "minuto": 70,
+            "segundo": 9,
+            "x": 54.2,
+            "y": 57.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iago Aspas",
+            "tipo": "TakeOn",
+            "minuto": 70,
+            "segundo": 10,
+            "x": 63.0,
+            "y": 44.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Iago Aspas",
             "tipo": "Pass",
             "minuto": 70,
@@ -754,7 +847,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergi Cardona",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4561,7 +4659,24 @@
         "y": 51.4,
         "arco_y": 53.1,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Juanma Herzog",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 28,
+            "x": 95.6,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Williot Swedberg",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

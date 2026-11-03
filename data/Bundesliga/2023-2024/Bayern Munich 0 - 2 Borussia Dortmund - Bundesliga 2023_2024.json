@@ -5416,6 +5416,72 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Marco Reus",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 13,
+            "x": 35.1,
+            "y": 77.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 14,
+            "x": 35.1,
+            "y": 77.9,
+            "endX": 25.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Maatsen",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 16,
+            "x": 25.2,
+            "y": 72.6,
+            "endX": 2.5,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Meyer",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 20,
+            "x": 2.5,
+            "y": 52.2,
+            "endX": 3.8,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexander Meyer",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 20,
+            "x": 3.8,
+            "y": 40.3,
+            "endX": 37.2,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Ryerson",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 24,
+            "x": 37.6,
+            "y": 5.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Julian Ryerson",
             "tipo": "Pass",
             "minuto": 81,
@@ -5679,7 +5745,12 @@
             "endY": 39.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Serge Gnabry",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -3858,7 +3858,123 @@
         "y": 48.5,
         "arco_y": 47.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ederson",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 0,
+            "x": 18.7,
+            "y": 63.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ederson",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 1,
+            "x": 20.5,
+            "y": 64.5,
+            "endX": 27.9,
+            "endY": 70.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 7,
+            "x": 27.9,
+            "y": 70.4,
+            "endX": 43.2,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 7,
+            "x": 43.2,
+            "y": 73.2,
+            "endX": 57.1,
+            "endY": 79.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 10,
+            "x": 57.1,
+            "y": 79.5,
+            "endX": 58.2,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 10,
+            "x": 58.2,
+            "y": 76.4,
+            "endX": 62.2,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 13,
+            "x": 62.2,
+            "y": 65.0,
+            "endX": 66.5,
+            "endY": 59.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 13,
+            "x": 66.5,
+            "y": 59.4,
+            "endX": 71.0,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 16,
+            "x": 71.0,
+            "y": 33.7,
+            "endX": 74.1,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 16,
+            "x": 74.1,
+            "y": 34.6,
+            "endX": 91.0,
+            "endY": 53.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ethan Pinnock",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -3878,6 +3994,83 @@
         "arco_y": 45.9,
         "arco_z": 10.1,
         "secuencia_gol": [
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 51,
+            "x": 70.1,
+            "y": 100.0,
+            "endX": 63.5,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan Aké",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 53,
+            "x": 63.5,
+            "y": 93.8,
+            "endX": 69.2,
+            "endY": 97.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 55,
+            "x": 69.1,
+            "y": 97.2,
+            "endX": 66.8,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 0,
+            "x": 66.8,
+            "y": 90.0,
+            "endX": 69.7,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Phil Foden",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 0,
+            "x": 69.7,
+            "y": 81.3,
+            "endX": 59.8,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rúben Dias",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 2,
+            "x": 59.8,
+            "y": 63.8,
+            "endX": 65.7,
+            "endY": 42.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 4,
+            "x": 65.7,
+            "y": 42.2,
+            "endX": 69.2,
+            "endY": 33.4,
+            "exitoso": true
+          },
           {
             "jugador": "Kyle Walker",
             "tipo": "TakeOn",
@@ -4076,7 +4269,12 @@
             "endY": 48.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mathias Jensen",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

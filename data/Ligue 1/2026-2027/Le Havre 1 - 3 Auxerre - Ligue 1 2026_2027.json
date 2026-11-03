@@ -451,6 +451,61 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Junior Mwanga",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 47,
+            "x": 10.5,
+            "y": 4.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Mwanga",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 25.2,
+            "y": 14.2,
+            "endX": 29.7,
+            "endY": 45.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mbwana Samatta",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 29.7,
+            "y": 45.5,
+            "endX": 44.9,
+            "endY": 35.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Fofana",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 54,
+            "x": 45.1,
+            "y": 35.3,
+            "endX": 43.8,
+            "endY": 54.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mbwana Samatta",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 57,
+            "x": 43.8,
+            "y": 54.7,
+            "endX": 57.0,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Mbwana Samatta",
             "tipo": "Pass",
             "minuto": 64,
@@ -483,7 +538,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Christ Makosso",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -4845,6 +4905,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Romain Faivre",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 53.4,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Faivre",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 31,
+            "x": 53.7,
+            "y": 50.3,
+            "endX": 60.6,
+            "endY": 61.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Namaso",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 34,
+            "x": 60.6,
+            "y": 61.5,
+            "endX": 68.2,
+            "endY": 62.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Namaso",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 34,
+            "x": 68.2,
+            "y": 62.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Danny Namaso",
             "tipo": "TakeOn",
             "minuto": 60,
@@ -4921,7 +5025,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rassoul Ndiaye",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

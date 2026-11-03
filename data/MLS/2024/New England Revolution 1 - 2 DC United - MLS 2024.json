@@ -4782,6 +4782,28 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Jared Stroud",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 55,
+            "x": 99.2,
+            "y": 26.4,
+            "endX": 93.5,
+            "endY": 39.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aarón Herrera",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 7,
+            "x": 93.5,
+            "y": 39.7,
+            "endX": 74.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Aarón Herrera",
             "tipo": "Pass",
             "minuto": 2,
@@ -4869,7 +4891,12 @@
             "endY": 72.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 7,

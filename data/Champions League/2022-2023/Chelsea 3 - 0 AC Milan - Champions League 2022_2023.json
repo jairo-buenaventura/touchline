@@ -425,6 +425,17 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Pierre-Emerick Aubameyang",
+            "tipo": "BallTouch",
+            "minuto": 23,
+            "segundo": 8,
+            "x": 93.2,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ruben Loftus-Cheek",
             "tipo": "BallTouch",
             "minuto": 23,
@@ -435,7 +446,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Pierre Kalulu",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -464,6 +480,28 @@
         "arco_y": 49.7,
         "arco_z": 15.8,
         "secuencia_gol": [
+          {
+            "jugador": "Mason Mount",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 55.2,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Mount",
+            "tipo": "TakeOn",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 66.9,
+            "y": 69.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Mason Mount",
             "tipo": "Pass",
@@ -574,7 +612,12 @@
             "endY": 47.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ismaël Bennacer",
+          "portero": false
+        }
       },
       {
         "minuto": 61,

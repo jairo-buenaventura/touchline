@@ -4653,6 +4653,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Nökkvi Thórisson",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 26,
+            "x": 68.7,
+            "y": 15.3,
+            "endX": 72.0,
+            "endY": 15.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Neville Ogidi Nwankwo",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 27,
+            "x": 72.0,
+            "y": 15.3,
+            "endX": 75.1,
+            "endY": 8.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Neville Ogidi Nwankwo",
             "tipo": "Pass",
             "minuto": 13,
@@ -4663,7 +4685,12 @@
             "endY": 61.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Gijs Smal",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

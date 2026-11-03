@@ -464,6 +464,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bukayo Saka",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 11,
+            "x": 71.0,
+            "y": 13.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
             "tipo": "TakeOn",
             "minuto": 54,
             "segundo": 11,
@@ -506,7 +517,12 @@
             "endY": 37.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Anthony Gordon",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

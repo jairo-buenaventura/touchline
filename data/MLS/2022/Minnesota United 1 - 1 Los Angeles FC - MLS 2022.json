@@ -403,7 +403,24 @@
         "y": 46.2,
         "arco_y": 45.7,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brent Kallman",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 20,
+            "x": 94.6,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Cristian Arango",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4381,6 +4398,61 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Eddie Segura",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 36,
+            "x": 66.8,
+            "y": 73.8,
+            "endX": 67.4,
+            "endY": 53.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Latif Blessing",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 37,
+            "x": 67.4,
+            "y": 53.1,
+            "endX": 57.1,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 41,
+            "x": 57.1,
+            "y": 64.6,
+            "endX": 50.4,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 41,
+            "x": 50.4,
+            "y": 67.2,
+            "endX": 43.9,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Murillo",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 46,
+            "x": 43.9,
+            "y": 60.6,
+            "endX": 29.2,
+            "endY": 84.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jesús Murillo",
             "tipo": "TakeOn",
             "minuto": 62,
@@ -4468,7 +4540,12 @@
             "endY": 37.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Luis Amarilla",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

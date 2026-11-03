@@ -495,6 +495,39 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Aerial",
+            "minuto": 73,
+            "segundo": 35,
+            "x": 92.0,
+            "y": 55.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 35,
+            "x": 91.5,
+            "y": 58.1,
+            "endX": 85.2,
+            "endY": 53.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Julián Malatini",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 37,
+            "x": 85.2,
+            "y": 53.0,
+            "endX": 79.7,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Julián Malatini",
             "tipo": "Pass",
             "minuto": 73,
@@ -505,7 +538,12 @@
             "endY": 57.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Robert Andrich",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -535,6 +573,17 @@
         "arco_y": 52.6,
         "arco_z": 25.9,
         "secuencia_gol": [
+          {
+            "jugador": "Marvin Ducksch",
+            "tipo": "Interception",
+            "minuto": 88,
+            "segundo": 56,
+            "x": 65.6,
+            "y": 25.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Derrick Köhn",
             "tipo": "Pass",
@@ -579,7 +628,12 @@
             "endY": 65.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aleix García",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4471,7 +4525,90 @@
         "y": 50.0,
         "arco_y": 49.7,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "BallRecovery",
+            "minuto": 29,
+            "segundo": 43,
+            "x": 49.4,
+            "y": 5.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 45,
+            "x": 47.4,
+            "y": 8.2,
+            "endX": 52.7,
+            "endY": 26.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Andrich",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 49,
+            "x": 52.7,
+            "y": 26.7,
+            "endX": 62.5,
+            "endY": 18.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Andrich",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 49,
+            "x": 62.5,
+            "y": 18.2,
+            "endX": 68.5,
+            "endY": 6.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 51,
+            "x": 70.2,
+            "y": 7.1,
+            "endX": 79.8,
+            "endY": 12.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 53,
+            "x": 80.0,
+            "y": 12.8,
+            "endX": 85.3,
+            "endY": 10.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 55,
+            "x": 87.1,
+            "y": 10.4,
+            "endX": 94.6,
+            "endY": 49.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Julián Malatini",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

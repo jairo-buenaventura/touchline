@@ -4604,6 +4604,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sven Mijnans",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 32,
+            "x": 67.0,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Mijnans",
             "tipo": "TakeOn",
             "minuto": 17,
             "segundo": 33,
@@ -4624,7 +4635,12 @@
             "endY": 62.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mees Hoedemakers",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

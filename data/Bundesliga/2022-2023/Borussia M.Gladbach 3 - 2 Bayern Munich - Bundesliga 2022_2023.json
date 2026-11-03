@@ -585,6 +585,17 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Stefan Lainer",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 21,
+            "x": 42.1,
+            "y": 26.4,
+            "endX": 63.1,
+            "endY": 35.1,
+            "exitoso": false
+          },
+          {
             "jugador": "Florian Neuhaus",
             "tipo": "Pass",
             "minuto": 83,
@@ -617,7 +628,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daley Blind",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -5274,6 +5290,28 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 20,
+            "x": 40.7,
+            "y": 63.4,
+            "endX": 51.9,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonso Davies",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 22,
+            "x": 51.9,
+            "y": 90.0,
+            "endX": 60.0,
+            "endY": 94.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Alphonso Davies",
             "tipo": "TakeOn",
             "minuto": 34,
@@ -5295,7 +5333,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Stefan Lainer",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

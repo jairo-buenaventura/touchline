@@ -4552,6 +4552,28 @@
         "secuencia_gol": [
           {
             "jugador": "Hany Mukhtar",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 25,
+            "x": 67.4,
+            "y": 31.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "TakeOn",
+            "minuto": 64,
+            "segundo": 27,
+            "x": 68.4,
+            "y": 32.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
             "tipo": "Pass",
             "minuto": 64,
             "segundo": 29,
@@ -4561,7 +4583,12 @@
             "endY": 64.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Deybi Flores",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

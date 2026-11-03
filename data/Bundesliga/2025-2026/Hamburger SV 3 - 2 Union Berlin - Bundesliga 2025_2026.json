@@ -631,6 +631,50 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Fábio Vieira",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 5,
+            "x": 30.9,
+            "y": 31.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Vieira",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 6,
+            "x": 31.3,
+            "y": 31.2,
+            "endX": 33.3,
+            "endY": 8.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Gocholeishvili",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 33.3,
+            "y": 7.9,
+            "endX": 65.0,
+            "endY": 12.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ransford Königsdörffer",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 12,
+            "x": 65.0,
+            "y": 12.1,
+            "endX": 72.6,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Ransford Königsdörffer",
             "tipo": "TakeOn",
             "minuto": 81,
@@ -641,7 +685,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leopold Querfeld",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4782,7 +4831,24 @@
         "y": 47.0,
         "arco_y": 47.7,
         "arco_z": 22.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Andrej Ilic",
+            "tipo": "Aerial",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 95.1,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "William Mikelbrencis",
+          "portero": false
+        }
       }
     ],
     "corners": [

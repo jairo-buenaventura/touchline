@@ -409,6 +409,149 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Gonzalo Crettaz",
+            "tipo": "KeeperPickup",
+            "minuto": 15,
+            "segundo": 1,
+            "x": 12.4,
+            "y": 42.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Crettaz",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 1,
+            "x": 12.4,
+            "y": 42.7,
+            "endX": 23.1,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 10,
+            "x": 23.1,
+            "y": 67.9,
+            "endX": 52.4,
+            "endY": 76.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 10,
+            "x": 52.4,
+            "y": 76.5,
+            "endX": 56.6,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noé Lebreton",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 12,
+            "x": 56.6,
+            "y": 92.3,
+            "endX": 52.7,
+            "endY": 81.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 14,
+            "x": 52.7,
+            "y": 82.3,
+            "endX": 34.1,
+            "endY": 62.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 34.1,
+            "y": 62.9,
+            "endX": 46.0,
+            "endY": 69.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 46.0,
+            "y": 69.5,
+            "endX": 42.4,
+            "endY": 47.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eli Dasa",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 23,
+            "x": 42.2,
+            "y": 49.3,
+            "endX": 45.2,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 25,
+            "x": 45.2,
+            "y": 65.4,
+            "endX": 44.2,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 25,
+            "x": 44.2,
+            "y": 72.1,
+            "endX": 60.8,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 27,
+            "x": 61.2,
+            "y": 94.0,
+            "endX": 61.6,
+            "endY": 93.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 47,
+            "x": 61.6,
+            "y": 93.1,
+            "endX": 73.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ahmetcan Kaplan",
             "tipo": "Pass",
             "minuto": 15,
@@ -529,7 +672,12 @@
             "endY": 39.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Walid Ould-Chikh",
+          "portero": false
+        }
       },
       {
         "minuto": 25,
@@ -738,7 +886,24 @@
         "y": 51.0,
         "arco_y": 48.0,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Noé Lebreton",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 7,
+            "x": 96.3,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Djevencio van der Kust",
+          "portero": false
+        }
       }
     ],
     "corners": [

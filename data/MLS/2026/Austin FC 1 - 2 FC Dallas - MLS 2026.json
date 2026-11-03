@@ -4783,6 +4783,39 @@
         "arco_z": 19.6,
         "secuencia_gol": [
           {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 56,
+            "x": 15.4,
+            "y": 18.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastien Ibeagha",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 57,
+            "x": 15.4,
+            "y": 18.8,
+            "endX": 47.8,
+            "endY": 25.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Herman Johansson",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 20,
+            "x": 47.8,
+            "y": 25.5,
+            "endX": 50.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Herman Johansson",
             "tipo": "Pass",
             "minuto": 72,
@@ -4837,7 +4870,12 @@
             "endY": 38.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Oleksandr Svatok",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

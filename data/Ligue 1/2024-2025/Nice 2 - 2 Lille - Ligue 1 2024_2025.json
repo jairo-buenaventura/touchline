@@ -428,6 +428,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Evann Guessand",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 50,
+            "x": 37.1,
+            "y": 15.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 52,
+            "x": 34.8,
+            "y": 6.3,
+            "endX": 29.7,
+            "endY": 7.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Clauss",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 6,
+            "x": 29.7,
+            "y": 7.2,
+            "endX": 36.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jonathan Clauss",
             "tipo": "Pass",
             "minuto": 55,
@@ -548,7 +581,12 @@
             "endY": 49.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Matias Fernandez-Pardo",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -632,6 +670,17 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Youssouf Ndayishimiye",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 45,
+            "x": 88.2,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Evann Guessand",
             "tipo": "BallTouch",
             "minuto": 95,
@@ -642,7 +691,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bafodé Diakité",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -508,7 +508,57 @@
         "y": 46.6,
         "arco_y": 48.0,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bernardo",
+            "tipo": "CornerAwarded",
+            "minuto": 48,
+            "segundo": 29,
+            "x": 97.6,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Stöger",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 58,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 88.2,
+            "endY": 50.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 0,
+            "x": 88.2,
+            "y": 50.4,
+            "endX": 90.8,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo",
+            "tipo": "SavedShot",
+            "minuto": 49,
+            "segundo": 0,
+            "x": 90.8,
+            "y": 46.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kevin Behrens",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -520,6 +570,61 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Manuel Riemann",
+            "tipo": "KeeperPickup",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 13.2,
+            "y": 66.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manuel Riemann",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 4,
+            "x": 13.3,
+            "y": 67.8,
+            "endX": 48.1,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takuma Asano",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 8,
+            "x": 48.1,
+            "y": 70.5,
+            "endX": 63.2,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takuma Asano",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 8,
+            "x": 63.2,
+            "y": 69.9,
+            "endX": 73.4,
+            "endY": 77.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Christopher Antwi-Adjei",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 12,
+            "x": 73.4,
+            "y": 77.5,
+            "endX": 89.3,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Christopher Antwi-Adjei",
             "tipo": "Pass",
             "minuto": 53,
@@ -530,7 +635,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Josip Juranovic",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

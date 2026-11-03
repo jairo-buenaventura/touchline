@@ -402,6 +402,83 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Kristian Thorstvedt",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 43,
+            "x": 39.3,
+            "y": 79.8,
+            "endX": 41.1,
+            "endY": 68.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Boloca",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 44,
+            "x": 41.1,
+            "y": 68.1,
+            "endX": 55.0,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Viña",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 45,
+            "x": 55.0,
+            "y": 93.3,
+            "endX": 61.5,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Viña",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 45,
+            "x": 61.5,
+            "y": 89.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matías Viña",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 46,
+            "x": 60.4,
+            "y": 89.9,
+            "endX": 62.7,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Henrique",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 50,
+            "x": 62.7,
+            "y": 72.3,
+            "endX": 74.9,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Henrique",
+            "tipo": "SavedShot",
+            "minuto": 24,
+            "segundo": 50,
+            "x": 74.9,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Armand Laurienté",
             "tipo": "Pass",
             "minuto": 24,
@@ -434,7 +511,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Evan Ndicka",
+          "portero": true
+        }
       },
       {
         "minuto": 42,
@@ -3863,6 +3945,17 @@
         "secuencia_gol": [
           {
             "jugador": "Evan Ndicka",
+            "tipo": "BallTouch",
+            "minuto": 78,
+            "segundo": 43,
+            "x": 78.8,
+            "y": 92.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ndicka",
             "tipo": "Pass",
             "minuto": 80,
             "segundo": 48,
@@ -3949,7 +4042,12 @@
             "endY": 26.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Martin Erlic",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

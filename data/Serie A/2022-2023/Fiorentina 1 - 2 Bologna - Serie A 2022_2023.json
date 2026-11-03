@@ -408,6 +408,83 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Sofyan Amrabat",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 18,
+            "x": 57.2,
+            "y": 46.7,
+            "endX": 66.7,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Bonaventura",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 20,
+            "x": 66.7,
+            "y": 33.9,
+            "endX": 67.9,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Bonaventura",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 20,
+            "x": 67.9,
+            "y": 30.7,
+            "endX": 79.3,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico González",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 25,
+            "x": 79.3,
+            "y": 8.8,
+            "endX": 85.9,
+            "endY": 18.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico González",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 25,
+            "x": 85.9,
+            "y": 18.8,
+            "endX": 77.6,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Bonaventura",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 26,
+            "x": 77.9,
+            "y": 21.7,
+            "endX": 94.2,
+            "endY": 49.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luka Jovic",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 28,
+            "x": 94.2,
+            "y": 49.7,
+            "endX": 88.3,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Luka Jovic",
             "tipo": "BallTouch",
             "minuto": 18,
@@ -429,7 +506,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Lukasz Skorupski",
+          "portero": true
+        }
       },
       {
         "minuto": 23,
@@ -5076,7 +5158,24 @@
         "y": 50.0,
         "arco_y": 47.7,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Stefan Posch",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 10,
+            "x": 93.3,
+            "y": 50.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lucas Martínez Quarta",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

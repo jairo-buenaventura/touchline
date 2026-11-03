@@ -383,7 +383,24 @@
         "y": 48.7,
         "arco_y": 46.0,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Giménez",
+            "tipo": "Aerial",
+            "minuto": 0,
+            "segundo": 36,
+            "x": 98.4,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thomas Beelen",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -4808,6 +4825,28 @@
         "arco_z": 36.1,
         "secuencia_gol": [
           {
+            "jugador": "Anis Hadj Moussa",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 44,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.0,
+            "endY": 41.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Givairo Read",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 97.0,
+            "y": 41.0,
+            "endX": 84.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Givairo Read",
             "tipo": "Pass",
             "minuto": 72,
@@ -5016,7 +5055,12 @@
             "endY": 45.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "João Félix",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

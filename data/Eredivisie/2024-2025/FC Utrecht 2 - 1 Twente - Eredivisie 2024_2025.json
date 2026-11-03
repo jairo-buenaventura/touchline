@@ -374,6 +374,193 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 55,
+            "x": 35.2,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 55,
+            "x": 41.5,
+            "y": 22.5,
+            "endX": 31.5,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 56,
+            "x": 32.1,
+            "y": 45.8,
+            "endX": 13.8,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Barkas",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 0,
+            "x": 13.8,
+            "y": 46.6,
+            "endX": 19.0,
+            "endY": 19.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 2,
+            "x": 20.9,
+            "y": 20.9,
+            "endX": 10.7,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Barkas",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 9,
+            "x": 10.7,
+            "y": 44.0,
+            "endX": 12.1,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Barkas",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 9,
+            "x": 12.1,
+            "y": 48.1,
+            "endX": 27.8,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Siebe Horemans",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 11,
+            "x": 29.5,
+            "y": 19.5,
+            "endX": 15.4,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 14,
+            "x": 15.4,
+            "y": 27.4,
+            "endX": 21.1,
+            "endY": 27.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mike van der Hoorn",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 14,
+            "x": 21.1,
+            "y": 27.1,
+            "endX": 31.4,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alonzo Engwanda",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 21,
+            "x": 31.4,
+            "y": 27.6,
+            "endX": 30.3,
+            "endY": 41.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alonzo Engwanda",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 21,
+            "x": 30.3,
+            "y": 41.7,
+            "endX": 23.8,
+            "endY": 67.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 24,
+            "x": 23.8,
+            "y": 67.5,
+            "endX": 25.4,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 24,
+            "x": 25.4,
+            "y": 72.6,
+            "endX": 36.5,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Souffian El Karouani",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 27,
+            "x": 36.5,
+            "y": 94.4,
+            "endX": 39.5,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Souffian El Karouani",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 27,
+            "x": 39.5,
+            "y": 93.3,
+            "endX": 38.7,
+            "endY": 90.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nick Viergever",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 30,
+            "x": 38.7,
+            "y": 90.5,
+            "endX": 34.6,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Nick Viergever",
             "tipo": "BallTouch",
             "minuto": 12,
@@ -560,7 +747,12 @@
             "endY": 41.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daan Rots",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -597,7 +789,79 @@
         "y": 56.9,
         "arco_y": 52.9,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jens Toornstra",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 35.6,
+            "y": 32.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jens Toornstra",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 7,
+            "x": 32.2,
+            "y": 22.1,
+            "endX": 46.7,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ole Romeny",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 12,
+            "x": 46.7,
+            "y": 50.3,
+            "endX": 56.7,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ole Romeny",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 12,
+            "x": 56.7,
+            "y": 71.4,
+            "endX": 65.5,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paxten Aaronson",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 17,
+            "x": 65.5,
+            "y": 83.6,
+            "endX": 76.5,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paxten Aaronson",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 17,
+            "x": 76.5,
+            "y": 59.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lars Unnerstall",
+          "portero": true
+        }
       },
       {
         "minuto": 64,

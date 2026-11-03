@@ -575,7 +575,24 @@
         "y": 48.8,
         "arco_y": 47.1,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daniel Munie",
+            "tipo": "Aerial",
+            "minuto": 41,
+            "segundo": 18,
+            "x": 92.1,
+            "y": 44.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Logan Ndenbe",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -5216,6 +5233,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "John Pulskamp",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 26,
+            "x": 19.5,
+            "y": 61.7,
+            "endX": 70.9,
+            "endY": 59.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Manu García",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 35,
+            "x": 70.9,
+            "y": 59.3,
+            "endX": 65.1,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Manu García",
             "tipo": "Pass",
             "minuto": 72,
@@ -5237,7 +5276,12 @@
             "endY": 53.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

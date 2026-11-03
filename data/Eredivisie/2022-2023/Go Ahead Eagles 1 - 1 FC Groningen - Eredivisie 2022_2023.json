@@ -4536,6 +4536,39 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Oliver Antman",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 26,
+            "x": 55.0,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Antman",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 27,
+            "x": 55.0,
+            "y": 8.0,
+            "endX": 55.8,
+            "endY": 9.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jorg Schreuders",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 45,
+            "x": 55.8,
+            "y": 9.7,
+            "endX": 62.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jorg Schreuders",
             "tipo": "Pass",
             "minuto": 4,
@@ -4678,7 +4711,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jay Idzes",
+          "portero": false
+        }
       },
       {
         "minuto": 19,

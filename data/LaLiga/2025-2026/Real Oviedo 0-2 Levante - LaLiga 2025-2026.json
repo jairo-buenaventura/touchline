@@ -4752,6 +4752,94 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Unai Vencedor",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 23,
+            "x": 31.2,
+            "y": 58.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai Vencedor",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 23,
+            "x": 31.2,
+            "y": 58.9,
+            "endX": 45.7,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Álvarez",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 28,
+            "x": 45.7,
+            "y": 56.6,
+            "endX": 73.5,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Álvarez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 28,
+            "x": 73.5,
+            "y": 67.9,
+            "endX": 84.8,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Romero",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 32,
+            "x": 86.3,
+            "y": 76.1,
+            "endX": 90.5,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Sánchez",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 90.5,
+            "y": 85.0,
+            "endX": 95.9,
+            "endY": 85.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Sánchez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 34,
+            "x": 95.9,
+            "y": 85.7,
+            "endX": 89.5,
+            "endY": 45.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jeremy Toljan",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 39,
+            "x": 89.5,
+            "y": 45.4,
+            "endX": 77.8,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Jeremy Toljan",
             "tipo": "Pass",
             "minuto": 29,
@@ -4795,7 +4883,12 @@
             "endY": 59.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Carmo",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -4877,7 +4970,46 @@
         "y": 50.5,
         "arco_y": 50.2,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Carlos Álvarez",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 34,
+            "x": 99.4,
+            "y": 0.7,
+            "endX": 76.8,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oriol Rey",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 35,
+            "x": 76.8,
+            "y": 16.8,
+            "endX": 76.9,
+            "endY": 23.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oriol Rey",
+            "tipo": "SavedShot",
+            "minuto": 71,
+            "segundo": 35,
+            "x": 76.9,
+            "y": 23.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Aarón Escandell",
+          "portero": true
+        }
       },
       {
         "minuto": 93,

@@ -4950,6 +4950,39 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Matty Longstaff",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 55,
+            "x": 37.6,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matty Longstaff",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 56,
+            "x": 39.4,
+            "y": 39.4,
+            "endX": 76.5,
+            "endY": 12.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Federico Bernardeschi",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 4,
+            "x": 76.5,
+            "y": 12.4,
+            "endX": 86.4,
+            "endY": 29.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Federico Bernardeschi",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -4971,7 +5004,12 @@
             "endY": 59.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kyle Smith",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -4781,7 +4781,24 @@
         "y": 55.0,
         "arco_y": 54.6,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tai Baribo",
+            "tipo": "Aerial",
+            "minuto": 75,
+            "segundo": 32,
+            "x": 95.4,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ilay Feingold",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -4819,6 +4836,17 @@
         "arco_y": 53.8,
         "arco_z": 19.0,
         "secuencia_gol": [
+          {
+            "jugador": "Bruno Damiani",
+            "tipo": "Aerial",
+            "minuto": 96,
+            "segundo": 23,
+            "x": 67.8,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Indiana Vassilev",
             "tipo": "Pass",
@@ -4907,7 +4935,12 @@
             "endY": 34.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Brayan Ceballos",
+          "portero": false
+        }
       }
     ],
     "corners": [

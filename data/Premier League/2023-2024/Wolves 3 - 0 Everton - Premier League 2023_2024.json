@@ -645,6 +645,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Rayan Aït-Nouri",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 59,
+            "x": 71.1,
+            "y": 79.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Aït-Nouri",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 5,
+            "x": 97.7,
+            "y": 74.5,
+            "endX": 94.9,
+            "endY": 56.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tommy Doyle",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 8,
+            "x": 94.9,
+            "y": 56.1,
+            "endX": 92.9,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Tommy Doyle",
             "tipo": "Pass",
             "minuto": 60,
@@ -677,7 +710,12 @@
             "endY": 51.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "James Tarkowski",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

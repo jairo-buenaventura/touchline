@@ -557,7 +557,24 @@
         "y": 51.0,
         "arco_y": 53.5,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jonas Wind",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 15,
+            "x": 92.5,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Timo Becker",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -5558,7 +5575,24 @@
         "y": 47.0,
         "arco_y": 54.3,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "David Zec",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 50,
+            "x": 92.0,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mattias Svanberg",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -5578,6 +5612,94 @@
         "arco_y": 46.1,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Finn Porath",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 4,
+            "x": 74.0,
+            "y": 8.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Finn Porath",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 5,
+            "x": 74.5,
+            "y": 11.6,
+            "endX": 85.6,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Skrzybski",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 8,
+            "x": 85.6,
+            "y": 5.8,
+            "endX": 92.4,
+            "endY": 6.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Skrzybski",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 8,
+            "x": 92.4,
+            "y": 6.2,
+            "endX": 92.8,
+            "endY": 45.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "John Tolkin",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 14,
+            "x": 92.8,
+            "y": 45.7,
+            "endX": 77.2,
+            "endY": 96.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Tolkin",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 14,
+            "x": 77.2,
+            "y": 96.8,
+            "endX": 62.0,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Komenda",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 15,
+            "x": 62.0,
+            "y": 92.4,
+            "endX": 86.8,
+            "endY": 66.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Timon Weiner",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 23,
+            "x": 86.8,
+            "y": 66.6,
+            "endX": 27.1,
+            "endY": 86.8,
+            "exitoso": true
+          },
           {
             "jugador": "Timon Weiner",
             "tipo": "Pass",
@@ -5666,7 +5788,12 @@
             "endY": 41.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sebastiaan Bornauw",
+          "portero": false
+        }
       }
     ],
     "corners": [

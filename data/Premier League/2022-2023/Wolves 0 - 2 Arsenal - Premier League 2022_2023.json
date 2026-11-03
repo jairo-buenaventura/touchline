@@ -3934,6 +3934,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Oleksandr Zinchenko",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 35,
+            "x": 43.4,
+            "y": 100.0,
+            "endX": 57.7,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 38,
+            "x": 57.7,
+            "y": 75.9,
+            "endX": 45.4,
+            "endY": 65.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 38,
+            "x": 45.4,
+            "y": 65.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Martinelli",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -4021,7 +4054,12 @@
             "endY": 46.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rúben Neves",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -4067,7 +4105,79 @@
         "y": 53.8,
         "arco_y": 53.3,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 44,
+            "x": 93.0,
+            "y": 93.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 47,
+            "x": 85.9,
+            "y": 80.4,
+            "endX": 97.4,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oleksandr Zinchenko",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 50,
+            "x": 97.4,
+            "y": 81.2,
+            "endX": 98.3,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oleksandr Zinchenko",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 50,
+            "x": 98.3,
+            "y": 72.3,
+            "endX": 91.2,
+            "endY": 63.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 51,
+            "x": 91.2,
+            "y": 63.0,
+            "endX": 88.1,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Martinelli",
+            "tipo": "SavedShot",
+            "minuto": 74,
+            "segundo": 51,
+            "x": 88.1,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "José Sá",
+          "portero": true
+        }
       },
       {
         "minuto": 78,

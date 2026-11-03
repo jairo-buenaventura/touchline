@@ -626,6 +626,17 @@
         "secuencia_gol": [
           {
             "jugador": "Andrew Brody",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 52,
+            "x": 60.8,
+            "y": 73.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Brody",
             "tipo": "Pass",
             "minuto": 88,
             "segundo": 54,
@@ -646,7 +657,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Juan Mosquera",
+          "portero": false
+        }
       },
       {
         "minuto": 97,
@@ -4747,7 +4763,68 @@
         "y": 59.5,
         "arco_y": 46.0,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Antony",
+            "tipo": "CornerAwarded",
+            "minuto": 61,
+            "segundo": 18,
+            "x": 96.7,
+            "y": 38.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evander",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 87.3,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Miller",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 32,
+            "x": 87.3,
+            "y": 46.9,
+            "endX": 89.4,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Miller",
+            "tipo": "MissedShots",
+            "minuto": 61,
+            "segundo": 32,
+            "x": 89.4,
+            "y": 43.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 33,
+            "x": 92.7,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Noel Caliskan",
+          "portero": true
+        }
       },
       {
         "minuto": 73,

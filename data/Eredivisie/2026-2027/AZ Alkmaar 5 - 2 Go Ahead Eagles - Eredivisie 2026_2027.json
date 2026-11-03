@@ -474,6 +474,116 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 38,
+            "x": 6.6,
+            "y": 12.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elijah Dijkstra",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 39,
+            "x": 5.0,
+            "y": 13.2,
+            "endX": 13.0,
+            "endY": 1.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weslley Patati",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 42,
+            "x": 13.0,
+            "y": 1.9,
+            "endX": 8.0,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weslley Patati",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 42,
+            "x": 8.0,
+            "y": 3.8,
+            "endX": 5.6,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Schouten",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 45,
+            "x": 8.0,
+            "y": 20.7,
+            "endX": 16.2,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 50,
+            "x": 16.2,
+            "y": 29.2,
+            "endX": 24.1,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 50,
+            "x": 24.1,
+            "y": 34.6,
+            "endX": 36.9,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peer Koopmeiners",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 52,
+            "x": 36.9,
+            "y": 50.0,
+            "endX": 62.5,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peer Koopmeiners",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 52,
+            "x": 62.5,
+            "y": 59.7,
+            "endX": 63.6,
+            "endY": 59.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Peer Koopmeiners",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 59,
+            "x": 63.6,
+            "y": 59.4,
+            "endX": 59.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Peer Koopmeiners",
             "tipo": "Pass",
             "minuto": 33,
@@ -616,7 +726,12 @@
             "endY": 83.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Julius Dirksen",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -4964,7 +5079,24 @@
         "y": 57.0,
         "arco_y": 52.5,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Melle Meulensteen",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 39,
+            "x": 79.0,
+            "y": 55.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jari De Busser",
+          "portero": true
+        }
       },
       {
         "minuto": 50,

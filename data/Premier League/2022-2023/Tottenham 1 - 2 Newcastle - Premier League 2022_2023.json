@@ -503,6 +503,17 @@
         "secuencia_gol": [
           {
             "jugador": "Clément Lenglet",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 12,
+            "x": 96.2,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Clément Lenglet",
             "tipo": "Pass",
             "minuto": 53,
             "segundo": 12,
@@ -512,7 +523,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sven Botman",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4601,6 +4617,17 @@
         "secuencia_gol": [
           {
             "jugador": "Miguel Almirón",
+            "tipo": "BallRecovery",
+            "minuto": 39,
+            "segundo": 49,
+            "x": 73.6,
+            "y": 16.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
             "tipo": "TakeOn",
             "minuto": 39,
             "segundo": 50,
@@ -4610,7 +4637,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Clément Lenglet",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

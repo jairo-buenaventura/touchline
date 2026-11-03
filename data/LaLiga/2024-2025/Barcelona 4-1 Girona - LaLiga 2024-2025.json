@@ -692,6 +692,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Ronald Araujo",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 16,
+            "x": 18.7,
+            "y": 31.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ronald Araujo",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 17,
+            "x": 18.9,
+            "y": 31.9,
+            "endX": 33.0,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 19,
+            "x": 33.0,
+            "y": 33.1,
+            "endX": 36.0,
+            "endY": 34.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Frenkie de Jong",
             "tipo": "TakeOn",
             "minuto": 76,
@@ -713,7 +746,12 @@
             "endY": 63.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Arnau Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

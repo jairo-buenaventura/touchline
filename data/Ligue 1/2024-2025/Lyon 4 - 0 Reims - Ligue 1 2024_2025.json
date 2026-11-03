@@ -432,6 +432,61 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Nicolás Tagliafico",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 6,
+            "x": 59.1,
+            "y": 82.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Tagliafico",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 8,
+            "x": 62.6,
+            "y": 84.5,
+            "endX": 70.3,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ernest Nuamah",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 70.3,
+            "y": 95.1,
+            "endX": 72.8,
+            "endY": 81.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ernest Nuamah",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 11,
+            "x": 72.8,
+            "y": 81.8,
+            "endX": 70.8,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Cherki",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 14,
+            "x": 70.8,
+            "y": 55.2,
+            "endX": 70.4,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rayan Cherki",
             "tipo": "TakeOn",
             "minuto": 35,
@@ -475,7 +530,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mamadou Diakhon",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -656,7 +716,79 @@
         "y": 52.8,
         "arco_y": 51.4,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 23.4,
+            "y": 11.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 23.4,
+            "y": 11.8,
+            "endX": 34.7,
+            "endY": 5.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Cherki",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 19,
+            "x": 36.3,
+            "y": 4.0,
+            "endX": 48.0,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 25,
+            "x": 48.0,
+            "y": 4.6,
+            "endX": 71.8,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 25,
+            "x": 71.8,
+            "y": 8.6,
+            "endX": 88.9,
+            "endY": 26.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Cherki",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 28,
+            "x": 90.6,
+            "y": 27.0,
+            "endX": 97.6,
+            "endY": 47.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yehvann Diouf",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -414,6 +414,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jacob Murphy",
+            "tipo": "BlockedPass",
+            "minuto": 88,
+            "segundo": 56,
+            "x": 53.8,
+            "y": 4.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 10,
@@ -544,7 +555,12 @@
             "endY": 55.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Eric García",
+          "portero": false
+        }
       },
       {
         "minuto": 97,
@@ -4121,6 +4137,83 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Frenkie de Jong",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 10,
+            "x": 25.8,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frenkie de Jong",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 10,
+            "x": 25.8,
+            "y": 50.4,
+            "endX": 29.6,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 11,
+            "x": 29.6,
+            "y": 32.8,
+            "endX": 62.7,
+            "endY": 6.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 62.7,
+            "y": 6.1,
+            "endX": 88.7,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "TakeOn",
+            "minuto": 57,
+            "segundo": 19,
+            "x": 88.7,
+            "y": 28.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 23,
+            "x": 97.6,
+            "y": 29.8,
+            "endX": 96.3,
+            "endY": 30.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Raphinha",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 26,
+            "x": 96.3,
+            "y": 30.7,
+            "endX": 85.3,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Raphinha",
             "tipo": "Pass",
             "minuto": 57,
@@ -4153,7 +4246,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Tino Livramento",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

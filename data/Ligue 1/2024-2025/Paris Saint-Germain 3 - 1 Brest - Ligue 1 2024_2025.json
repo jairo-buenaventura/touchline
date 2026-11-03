@@ -494,6 +494,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bradley Barcola",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 4,
+            "x": 72.8,
+            "y": 72.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
             "tipo": "TakeOn",
             "minuto": 41,
             "segundo": 5,
@@ -536,7 +547,12 @@
             "endY": 42.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mahdi Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -592,6 +608,17 @@
         "arco_y": 52.8,
         "arco_z": 25.9,
         "secuencia_gol": [
+          {
+            "jugador": "Beraldo",
+            "tipo": "BallTouch",
+            "minuto": 72,
+            "segundo": 14,
+            "x": 58.1,
+            "y": 94.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Beraldo",
             "tipo": "Pass",
@@ -669,7 +696,12 @@
             "endY": 49.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mathias Pereira Lage",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -688,7 +720,57 @@
         "y": 51.5,
         "arco_y": 52.3,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Désiré Doué",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 44,
+            "x": 55.5,
+            "y": 80.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Désiré Doué",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 45,
+            "x": 55.5,
+            "y": 80.6,
+            "endX": 73.6,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randal Kolo Muani",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 49,
+            "x": 73.6,
+            "y": 62.3,
+            "endX": 82.5,
+            "endY": 49.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Randal Kolo Muani",
+            "tipo": "SavedShot",
+            "minuto": 73,
+            "segundo": 49,
+            "x": 82.5,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Julien Le Cardinal",
+          "portero": true
+        }
       },
       {
         "minuto": 86,

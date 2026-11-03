@@ -505,6 +505,17 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Mario Pasalic",
+            "tipo": "SavedShot",
+            "minuto": 44,
+            "segundo": 25,
+            "x": 82.0,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Raoul Bellanova",
             "tipo": "Pass",
             "minuto": 44,
@@ -636,7 +647,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ardian Ismajli",
+          "portero": true
+        }
       },
       {
         "minuto": 59,
@@ -701,6 +717,72 @@
         "arco_y": 46.1,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Charles De Ketelaere",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 0,
+            "x": 56.7,
+            "y": 44.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles De Ketelaere",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 0,
+            "x": 62.5,
+            "y": 39.4,
+            "endX": 65.6,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 3,
+            "x": 65.6,
+            "y": 27.4,
+            "endX": 72.7,
+            "endY": 31.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 3,
+            "x": 72.7,
+            "y": 31.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lazar Samardzic",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 5,
+            "x": 65.8,
+            "y": 47.0,
+            "endX": 77.4,
+            "endY": 64.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matteo Ruggeri",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 12,
+            "x": 77.4,
+            "y": 64.0,
+            "endX": 44.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Matteo Ruggeri",
             "tipo": "Pass",
@@ -778,7 +860,12 @@
             "endY": 21.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Emmanuel Gyasi",
+          "portero": false
+        }
       }
     ],
     "corners": [

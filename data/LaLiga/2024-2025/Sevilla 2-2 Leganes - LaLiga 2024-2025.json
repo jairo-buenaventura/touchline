@@ -372,7 +372,24 @@
         "y": 46.6,
         "arco_y": 46.4,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kike Salas",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 34,
+            "x": 91.5,
+            "y": 44.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dani Raba",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -4883,6 +4900,17 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Jorge Sáenz",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 39,
+            "x": 92.9,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Óscar Rodríguez",
             "tipo": "Pass",
             "minuto": 72,
@@ -4915,7 +4943,12 @@
             "endY": 46.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Ørjan Nyland",
+          "portero": true
+        }
       },
       {
         "minuto": 76,

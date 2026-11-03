@@ -4941,6 +4941,17 @@
         "secuencia_gol": [
           {
             "jugador": "Issa Soumaré",
+            "tipo": "Aerial",
+            "minuto": 37,
+            "segundo": 13,
+            "x": 87.0,
+            "y": 54.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Soumaré",
             "tipo": "Pass",
             "minuto": 37,
             "segundo": 13,
@@ -4950,7 +4961,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Benjamin André",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -5014,7 +5030,79 @@
         "y": 51.3,
         "arco_y": 46.5,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Étienne Youté",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 37,
+            "x": 94.2,
+            "y": 55.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Étienne Youté",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 37,
+            "x": 94.3,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Soumaré",
+            "tipo": "MissedShots",
+            "minuto": 55,
+            "segundo": 38,
+            "x": 92.7,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josué Casimir",
+            "tipo": "ShotOnPost",
+            "minuto": 55,
+            "segundo": 40,
+            "x": 93.0,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Mwanga",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 96.4,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gautier Lloris",
+            "tipo": "BallTouch",
+            "minuto": 55,
+            "segundo": 42,
+            "x": 92.9,
+            "y": 42.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gabriel Gudmundsson",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

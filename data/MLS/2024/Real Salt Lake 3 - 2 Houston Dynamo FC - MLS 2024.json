@@ -436,6 +436,39 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Braian Ojeda",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 10,
+            "x": 54.7,
+            "y": 5.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Braian Ojeda",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 12,
+            "x": 54.7,
+            "y": 5.8,
+            "endX": 60.0,
+            "endY": 11.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andrew Brody",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 18,
+            "x": 60.0,
+            "y": 11.7,
+            "endX": 62.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Andrew Brody",
             "tipo": "Pass",
             "minuto": 41,
@@ -578,7 +611,12 @@
             "endY": 72.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Franco Escobar",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -654,6 +692,61 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Braian Ojeda",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 55,
+            "x": 15.9,
+            "y": 56.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Braian Ojeda",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 14.4,
+            "y": 49.5,
+            "endX": 18.2,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Luna",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 18.2,
+            "y": 70.3,
+            "endX": 21.9,
+            "endY": 68.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Luna",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 21.9,
+            "y": 68.9,
+            "endX": 63.8,
+            "endY": 33.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Cristian Arango",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 11,
+            "x": 63.8,
+            "y": 33.3,
+            "endX": 72.7,
+            "endY": 16.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristian Arango",
             "tipo": "Pass",
             "minuto": 66,
@@ -675,7 +768,12 @@
             "endY": 53.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Franco Escobar",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

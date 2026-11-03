@@ -3660,6 +3660,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Jorge Sánchez",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 28,
+            "x": 52.8,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jorge Sánchez",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 29,
+            "x": 55.5,
+            "y": 40.7,
+            "endX": 63.5,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Francisco Conceição",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 30,
+            "x": 63.5,
+            "y": 38.0,
+            "endX": 63.2,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Francisco Conceição",
             "tipo": "TakeOn",
             "minuto": 37,
@@ -3725,7 +3758,12 @@
             "endY": 46.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Souffian El Karouani",
+          "portero": false
+        }
       },
       {
         "minuto": 47,

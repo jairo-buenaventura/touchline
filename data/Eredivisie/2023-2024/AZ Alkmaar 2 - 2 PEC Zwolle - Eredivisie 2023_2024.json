@@ -539,6 +539,17 @@
         "secuencia_gol": [
           {
             "jugador": "Bruno Martins Indi",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 2,
+            "x": 94.2,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bruno Martins Indi",
             "tipo": "BallTouch",
             "minuto": 93,
             "segundo": 2,
@@ -548,7 +559,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Jasper Schendelaar",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -5327,7 +5343,46 @@
         "y": 56.5,
         "arco_y": 53.6,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Younes Namli",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 26,
+            "x": 59.1,
+            "y": 6.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 32,
+            "x": 76.3,
+            "y": 27.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "SavedShot",
+            "minuto": 85,
+            "segundo": 33,
+            "x": 78.0,
+            "y": 28.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rome-Jayden Owusu-Oduro",
+          "portero": true
+        }
       }
     ],
     "corners": [

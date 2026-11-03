@@ -1240,7 +1240,7 @@
       <button type="button" class="modal-secuencia-cerrar" onclick="cerrarSecuenciaGol()" aria-label="Cerrar">✕</button>
       <div class="modal-secuencia-titulo" id="modal-secuencia-titulo"></div>
       <div class="modal-secuencia-subtitulo" id="modal-secuencia-subtitulo"></div>
-      <svg id="modal-secuencia-svg" viewBox="0 0 380 520" style="width:100%; height:auto; background:#1a1a1a; border-radius:8px;"></svg>
+      <svg id="modal-secuencia-svg" viewBox="0 0 380 520" style="width:100%; height:auto; background:#f7f6f3; border-radius:8px;"></svg>
     </div>
   </div>
 
@@ -3546,24 +3546,32 @@
       // Sin secuencia (penal cobrado, o rebote/rechace que no se pudo
       // reconstruir): igual se muestra el punto del remate que termino en
       // gol -- nunca se deja el modal sin nada que dibujar.
+      let textoSubtitulo;
       if (secuencia && secuencia.length > 0) {
         const pases = secuencia.filter(s => s.tipo === 'Pass').length;
         const inicio = secuencia[0], fin = secuencia[secuencia.length - 1];
         const segundosTotales = (fin.minuto * 60 + fin.segundo) - (inicio.minuto * 60 + inicio.segundo);
         const jugadoresUnicos = new Set(secuencia.map(s => s.jugador)).size;
-        subtitulo.textContent = `${nombreEquipo} · ${segundosTotales}s · ${pases} pase${pases === 1 ? '' : 's'} · ${jugadoresUnicos} jugador${jugadoresUnicos === 1 ? '' : 'es'}`;
+        textoSubtitulo = `${nombreEquipo} · ${segundosTotales}s · ${pases} pase${pases === 1 ? '' : 's'} · ${jugadoresUnicos} jugador${jugadoresUnicos === 1 ? '' : 'es'}`;
       } else {
-        subtitulo.textContent = `${nombreEquipo} · sin jugada previa registrada`;
+        textoSubtitulo = `${nombreEquipo} · sin jugada previa registrada`;
       }
+      // rebote_de: el toque reactivo del rival (atajada, despeje, forcejeo)
+      // que se absorbio como ruido al reconstruir la secuencia (ver
+      // calcular_secuencia_gol en parser.py) -- si existe, se avisa de
+      // donde vino el rebote, marcando aparte cuando fue el portero.
+      if (tiro.rebote_de) {
+        textoSubtitulo += tiro.rebote_de.portero
+          ? ` · rebote de la atajada de ${tiro.rebote_de.jugador}`
+          : ` · tras un rechace de ${tiro.rebote_de.jugador}`;
+      }
+      subtitulo.textContent = textoSubtitulo;
 
-      let html = `<rect x="0" y="0" width="380" height="520" fill="#1a1a1a"/>`;
-      // dibujarLineasCancha() devuelve class="linea-cancha", pero esa clase
-      // fija un stroke oscuro (pensado para fondo blanco) que pisaria
-      // cualquier atributo inline agregado al lado -- se saca la clase y se
-      // deja solo el stroke claro propio para que se vea sobre fondo oscuro.
-      html += dibujarLineasCancha()
-        .replace(/class="linea-cancha"/g, 'stroke="rgba(255,255,255,0.28)" fill="none"')
-        .replace(/fill="rgba\(40,40,40,0\.18\)"/g, 'fill="rgba(255,255,255,0.28)"');
+      // Mismo estilo de cancha que la red de pases (Passing network): fondo
+      // claro #f7f6f3 y las lineas con su color/clase normal, en vez de la
+      // version invertida que se usaba antes para un fondo oscuro.
+      let html = `<rect x="0" y="0" width="380" height="520" fill="#f7f6f3"/>`;
+      html += dibujarLineasCancha();
 
       // Varios toques seguidos del MISMO jugador (recibe, conduce, conduce
       // de nuevo) se colapsan en un solo punto/flecha -- lo que importa ver
@@ -3593,11 +3601,11 @@
             `stroke="#e53935" stroke-width="2" marker-end="url(#flecha-secuencia-gol)" ` +
             `${esConduccion ? 'stroke-dasharray="4,3"' : ''}/>`;
         }
-        html += `<circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="9" fill="#1a1a1a" stroke="#e53935" stroke-width="1.5"/>`;
-        html += `<text x="${x1.toFixed(1)}" y="${(y1 + 3.5).toFixed(1)}" fill="white" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${i + 1}</text>`;
+        html += `<circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="9" fill="#f7f6f3" stroke="#e53935" stroke-width="1.5"/>`;
+        html += `<text x="${x1.toFixed(1)}" y="${(y1 + 3.5).toFixed(1)}" fill="#1a1a1a" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${i + 1}</text>`;
         const nombreCorto = apellido(seg.jugador);
         const etiquetaArriba = y1 > 40;
-        html += `<text x="${x1.toFixed(1)}" y="${(etiquetaArriba ? y1 - 13 : y1 + 20).toFixed(1)}" fill="#ddd" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
+        html += `<text x="${x1.toFixed(1)}" y="${(etiquetaArriba ? y1 - 13 : y1 + 20).toFixed(1)}" fill="#555" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
       });
 
       // Punto final: desde donde salio el tiro que termino en gol. Si no
@@ -3609,10 +3617,10 @@
       if (consolidada.length === 0) {
         const nombreCorto = apellido(g.jugador);
         const etiquetaArriba = yg > 40;
-        html += `<text x="${xg.toFixed(1)}" y="${(etiquetaArriba ? yg - 18 : yg + 25).toFixed(1)}" fill="#ddd" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
+        html += `<text x="${xg.toFixed(1)}" y="${(etiquetaArriba ? yg - 18 : yg + 25).toFixed(1)}" fill="#555" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
       }
-      html += `<path transform="translate(${xg.toFixed(1)},${yg.toFixed(1)})" d="M0,-8 L2.3,-2.5 L8,-2.5 L3.5,1.2 L5.2,7.5 L0,4 L-5.2,7.5 L-3.5,1.2 L-8,-2.5 L-2.3,-2.5 Z" fill="#ffd54a" stroke="#1a1a1a" stroke-width="0.6"/>`;
-      html += `<text x="${xg.toFixed(1)}" y="${(yg - 13).toFixed(1)}" fill="#ffd54a" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
+      html += `<path transform="translate(${xg.toFixed(1)},${yg.toFixed(1)})" d="M0,-8 L2.3,-2.5 L8,-2.5 L3.5,1.2 L5.2,7.5 L0,4 L-5.2,7.5 L-3.5,1.2 L-8,-2.5 L-2.3,-2.5 Z" fill="#ffc400" stroke="#1a1a1a" stroke-width="0.6"/>`;
+      html += `<text x="${xg.toFixed(1)}" y="${(yg - 13).toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
 
       svg.innerHTML = `<defs><marker id="flecha-secuencia-gol" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">` +
         `<path d="M0,0 L10,5 L0,10 Z" fill="#e53935"/></marker></defs>` + html;

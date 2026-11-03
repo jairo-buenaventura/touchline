@@ -445,6 +445,39 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Ismaël Bennacer",
+            "tipo": "BallRecovery",
+            "minuto": 36,
+            "segundo": 31,
+            "x": 61.1,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismaël Bennacer",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 32,
+            "x": 67.8,
+            "y": 57.3,
+            "endX": 85.9,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Leão",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 36,
+            "x": 85.9,
+            "y": 63.1,
+            "endX": 88.6,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Rafael Leão",
             "tipo": "TakeOn",
             "minuto": 36,
@@ -455,7 +488,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "David López",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

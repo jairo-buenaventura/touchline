@@ -386,6 +386,61 @@
         "secuencia_gol": [
           {
             "jugador": "Karol Swiderski",
+            "tipo": "BallRecovery",
+            "minuto": 23,
+            "segundo": 35,
+            "x": 43.0,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karol Swiderski",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 35,
+            "x": 45.0,
+            "y": 40.7,
+            "endX": 63.6,
+            "endY": 67.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamil Józwiak",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 39,
+            "x": 63.6,
+            "y": 67.3,
+            "endX": 71.2,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamil Józwiak",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 39,
+            "x": 71.2,
+            "y": 61.8,
+            "endX": 79.8,
+            "endY": 43.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Karol Swiderski",
+            "tipo": "Carry",
+            "minuto": 23,
+            "segundo": 42,
+            "x": 79.8,
+            "y": 43.4,
+            "endX": 84.3,
+            "endY": 47.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karol Swiderski",
             "tipo": "Pass",
             "minuto": 23,
             "segundo": 42,
@@ -406,7 +461,12 @@
             "endY": 50.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jack Elliott",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -434,7 +494,35 @@
         "y": 59.5,
         "arco_y": 51.3,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kamil Józwiak",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 93.0,
+            "y": 72.4,
+            "endX": 89.3,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Ríos",
+            "tipo": "TakeOn",
+            "minuto": 53,
+            "segundo": 1,
+            "x": 89.2,
+            "y": 64.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Leon Flach",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

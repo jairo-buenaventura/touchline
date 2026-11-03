@@ -423,6 +423,50 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Johnny Russell",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 6,
+            "x": 72.3,
+            "y": 24.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alan Pulido",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 13,
+            "x": 85.8,
+            "y": 6.4,
+            "endX": 72.8,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khiry Shelton",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 15,
+            "x": 71.5,
+            "y": 10.1,
+            "endX": 74.2,
+            "endY": 10.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Khiry Shelton",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 20,
+            "x": 74.2,
+            "y": 10.1,
+            "endX": 94.6,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Khiry Shelton",
             "tipo": "Pass",
             "minuto": 91,
@@ -433,7 +477,12 @@
             "endY": 44.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ali Ahmed",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4834,7 +4883,35 @@
         "y": 46.2,
         "arco_y": 50.9,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bjørn Utvik",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 15,
+            "x": 90.8,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ryan Gauld",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 16,
+            "x": 86.8,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dany Rosero",
+          "portero": true
+        }
       },
       {
         "minuto": 47,

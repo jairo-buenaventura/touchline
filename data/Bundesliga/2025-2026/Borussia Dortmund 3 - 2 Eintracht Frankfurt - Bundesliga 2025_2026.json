@@ -454,6 +454,28 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Samuele Inácio",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 42,
+            "x": 28.2,
+            "y": 79.3,
+            "endX": 58.7,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Brandt",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 50,
+            "x": 58.7,
+            "y": 33.0,
+            "endX": 59.0,
+            "endY": 23.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Julian Brandt",
             "tipo": "TakeOn",
             "minuto": 41,
@@ -519,7 +541,12 @@
             "endY": 44.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nathaniel Brown",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -646,6 +673,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Samuele Inácio",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 39,
+            "x": 78.4,
+            "y": 82.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuele Inácio",
+            "tipo": "TakeOn",
+            "minuto": 71,
+            "segundo": 40,
+            "x": 79.3,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Jobe Bellingham",
             "tipo": "Pass",
             "minuto": 71,
@@ -667,7 +716,12 @@
             "endY": 51.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ritsu Doan",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4906,6 +4960,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mahmoud Dahoud",
+            "tipo": "BallTouch",
+            "minuto": 1,
+            "segundo": 15,
+            "x": 86.6,
+            "y": 80.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mahmoud Dahoud",
             "tipo": "Pass",
             "minuto": 1,
             "segundo": 16,
@@ -4915,7 +4980,12 @@
             "endY": 62.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Julian Brandt",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -4979,7 +5049,112 @@
         "y": 51.3,
         "arco_y": 51.0,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aurèle Amenda",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 45,
+            "x": 32.2,
+            "y": 16.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aurèle Amenda",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 46,
+            "x": 31.3,
+            "y": 18.3,
+            "endX": 26.1,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Theate",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 26.1,
+            "y": 49.9,
+            "endX": 31.8,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Theate",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 31.8,
+            "y": 70.6,
+            "endX": 47.3,
+            "endY": 94.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Mattéo Bahoya",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 55,
+            "x": 47.3,
+            "y": 94.5,
+            "endX": 51.2,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Mattéo Bahoya",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 55,
+            "x": 51.2,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean-Mattéo Bahoya",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 57,
+            "x": 62.8,
+            "y": 75.7,
+            "endX": 79.2,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 59,
+            "x": 79.2,
+            "y": 70.2,
+            "endX": 93.9,
+            "endY": 65.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "SavedShot",
+            "minuto": 85,
+            "segundo": 59,
+            "x": 93.9,
+            "y": 65.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gregor Kobel",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

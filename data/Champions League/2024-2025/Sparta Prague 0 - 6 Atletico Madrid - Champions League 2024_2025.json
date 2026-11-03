@@ -4332,6 +4332,61 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Giuliano Simeone",
+            "tipo": "CornerAwarded",
+            "minuto": 41,
+            "segundo": 28,
+            "x": 88.0,
+            "y": 31.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 54,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 80.6,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 58,
+            "x": 81.8,
+            "y": 12.0,
+            "endX": 94.0,
+            "endY": 13.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 0,
+            "x": 94.0,
+            "y": 13.1,
+            "endX": 91.6,
+            "endY": 52.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 5,
+            "x": 91.6,
+            "y": 52.4,
+            "endX": 76.5,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Marcos Llorente",
             "tipo": "Pass",
             "minuto": 42,
@@ -4353,7 +4408,12 @@
             "endY": 77.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Martin Vitík",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4400,6 +4460,28 @@
         "arco_y": 47.3,
         "arco_z": 13.3,
         "secuencia_gol": [
+          {
+            "jugador": "Javi Galán",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 22,
+            "x": 17.7,
+            "y": 100.0,
+            "endX": 12.7,
+            "endY": 88.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Clément Lenglet",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 24,
+            "x": 12.7,
+            "y": 88.7,
+            "endX": 4.2,
+            "endY": 85.9,
+            "exitoso": true
+          },
           {
             "jugador": "Clément Lenglet",
             "tipo": "TakeOn",
@@ -4466,7 +4548,12 @@
             "endY": 36.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ermal Krasniqi",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -4655,7 +4742,46 @@
         "y": 49.7,
         "arco_y": 50.6,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 57,
+            "x": 62.7,
+            "y": 56.6,
+            "endX": 73.7,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 73.7,
+            "y": 75.9,
+            "endX": 86.6,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 2,
+            "x": 86.6,
+            "y": 72.4,
+            "endX": 88.3,
+            "endY": 66.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Martin Vitík",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -4667,6 +4793,171 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Javi Galán",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 12,
+            "x": 32.6,
+            "y": 80.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Javi Galán",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 13,
+            "x": 37.6,
+            "y": 78.7,
+            "endX": 54.7,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 54.7,
+            "y": 93.6,
+            "endX": 52.8,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 16,
+            "x": 52.8,
+            "y": 88.9,
+            "endX": 60.8,
+            "endY": 96.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 60.8,
+            "y": 96.4,
+            "endX": 64.3,
+            "endY": 97.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Griezmann",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 64.3,
+            "y": 97.4,
+            "endX": 70.4,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 20,
+            "x": 70.4,
+            "y": 95.6,
+            "endX": 67.3,
+            "endY": 93.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Lino",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 20,
+            "x": 67.3,
+            "y": 93.8,
+            "endX": 57.0,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 24,
+            "x": 57.0,
+            "y": 93.6,
+            "endX": 56.4,
+            "endY": 82.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koke",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 24,
+            "x": 56.4,
+            "y": 82.5,
+            "endX": 47.4,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "José María Giménez",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 26,
+            "x": 48.2,
+            "y": 44.4,
+            "endX": 69.7,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 31,
+            "x": 69.7,
+            "y": 13.4,
+            "endX": 79.0,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcos Llorente",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 31,
+            "x": 79.0,
+            "y": 32.5,
+            "endX": 80.7,
+            "endY": 47.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 32,
+            "x": 80.7,
+            "y": 47.4,
+            "endX": 77.2,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ángel Correa",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 32,
+            "x": 77.2,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ángel Correa",
             "tipo": "TakeOn",
             "minuto": 88,
@@ -4677,7 +4968,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Martin Vitík",
+          "portero": false
+        }
       },
       {
         "minuto": 91,

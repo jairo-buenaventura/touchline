@@ -565,6 +565,17 @@
         "secuencia_gol": [
           {
             "jugador": "Youssef En-Nesyri",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 38,
+            "x": 72.8,
+            "y": 71.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youssef En-Nesyri",
             "tipo": "TakeOn",
             "minuto": 77,
             "segundo": 42,
@@ -574,7 +585,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aridane Hernández",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -5004,7 +5020,24 @@
         "y": 39.9,
         "arco_y": 54.2,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "David García",
+            "tipo": "Aerial",
+            "minuto": 17,
+            "segundo": 38,
+            "x": 94.6,
+            "y": 37.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pape Gueye",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -5089,6 +5122,17 @@
         "secuencia_gol": [
           {
             "jugador": "Pablo Ibáñez",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 5,
+            "x": 62.7,
+            "y": 26.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Ibáñez",
             "tipo": "Pass",
             "minuto": 84,
             "segundo": 5,
@@ -5098,7 +5142,12 @@
             "endY": 25.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Alex Telles",
+          "portero": false
+        }
       }
     ],
     "corners": [

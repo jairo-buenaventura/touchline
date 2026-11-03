@@ -428,6 +428,83 @@
         "secuencia_gol": [
           {
             "jugador": "Pablo Fornals",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 9,
+            "x": 47.3,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Fornals",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 47.4,
+            "y": 58.2,
+            "endX": 61.3,
+            "endY": 74.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 61.3,
+            "y": 74.9,
+            "endX": 72.9,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 14,
+            "x": 72.9,
+            "y": 63.6,
+            "endX": 74.3,
+            "endY": 41.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 18,
+            "x": 74.3,
+            "y": 41.7,
+            "endX": 91.0,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Fornals",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 19,
+            "x": 89.9,
+            "y": 31.3,
+            "endX": 90.6,
+            "endY": 35.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pablo Fornals",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 20,
+            "x": 90.6,
+            "y": 35.2,
+            "endX": 89.0,
+            "endY": 45.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Fornals",
             "tipo": "BallTouch",
             "minuto": 21,
             "segundo": 20,
@@ -437,7 +514,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Javi López",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

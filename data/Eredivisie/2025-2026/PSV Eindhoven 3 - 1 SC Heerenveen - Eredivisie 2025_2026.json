@@ -467,6 +467,39 @@
         "secuencia_gol": [
           {
             "jugador": "Ivan Perisic",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 4,
+            "x": 76.7,
+            "y": 100.0,
+            "endX": 66.3,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 7,
+            "x": 66.1,
+            "y": 92.0,
+            "endX": 82.5,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Perisic",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 11,
+            "x": 82.5,
+            "y": 95.4,
+            "endX": 87.3,
+            "endY": 88.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Perisic",
             "tipo": "TakeOn",
             "minuto": 44,
             "segundo": 11,
@@ -476,7 +509,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oliver Braude",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

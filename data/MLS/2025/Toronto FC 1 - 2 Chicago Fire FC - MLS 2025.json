@@ -362,7 +362,24 @@
         "y": 52.2,
         "arco_y": 54.2,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Deandre Kerr",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 23,
+            "x": 94.8,
+            "y": 51.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jonathan Dean",
+          "portero": false
+        }
       },
       {
         "minuto": 22,
@@ -4463,6 +4480,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Leonardo Barroso",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 31,
+            "x": 94.7,
+            "y": 22.8,
+            "endX": 89.5,
+            "endY": 41.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Cuypers",
+            "tipo": "Carry",
+            "minuto": 43,
+            "segundo": 34,
+            "x": 89.5,
+            "y": 41.1,
+            "endX": 94.6,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Hugo Cuypers",
             "tipo": "TakeOn",
             "minuto": 43,
@@ -4473,7 +4512,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sean Johnson",
+          "portero": false
+        }
       },
       {
         "minuto": 62,

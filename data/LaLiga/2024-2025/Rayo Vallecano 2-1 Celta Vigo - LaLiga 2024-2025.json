@@ -449,6 +449,28 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Pep Chavarría",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 20,
+            "x": 74.2,
+            "y": 100.0,
+            "endX": 75.9,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Camello",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 24,
+            "x": 75.9,
+            "y": 82.3,
+            "endX": 72.2,
+            "endY": 76.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Sergio Camello",
             "tipo": "TakeOn",
             "minuto": 62,
@@ -470,7 +492,12 @@
             "endY": 27.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Carl Starfelt",
+          "portero": false
+        }
       }
     ],
     "corners": [

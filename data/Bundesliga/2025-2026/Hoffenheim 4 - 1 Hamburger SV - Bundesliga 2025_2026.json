@@ -490,6 +490,28 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Vladimír Coufal",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 36,
+            "x": 62.3,
+            "y": 22.9,
+            "endX": 91.2,
+            "endY": 61.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bazoumana Touré",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 46,
+            "x": 91.2,
+            "y": 61.3,
+            "endX": 77.7,
+            "endY": 93.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Bazoumana Touré",
             "tipo": "Pass",
             "minuto": 29,
@@ -599,7 +621,12 @@
             "endY": 47.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jordan Torunarigha",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -619,6 +646,17 @@
         "arco_y": 49.2,
         "arco_z": 0.6,
         "secuencia_gol": [
+          {
+            "jugador": "Grischa Prömel",
+            "tipo": "Aerial",
+            "minuto": 63,
+            "segundo": 48,
+            "x": 84.9,
+            "y": 70.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Robin Hranác",
             "tipo": "Pass",
@@ -795,7 +833,12 @@
             "endY": 61.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Luka Vuskovic",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

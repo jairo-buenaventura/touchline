@@ -4358,6 +4358,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Juan Manuel Sanabria",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 41,
+            "x": 71.6,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Manuel Sanabria",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 41,
+            "x": 71.6,
+            "y": 62.2,
+            "endX": 86.6,
+            "endY": 67.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 86.6,
+            "y": 67.8,
+            "endX": 91.8,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 91.8,
+            "y": 69.9,
+            "endX": 91.8,
+            "endY": 68.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 45,
+            "x": 91.8,
+            "y": 68.4,
+            "endX": 92.8,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Saba Lobjanidze",
             "tipo": "Pass",
             "minuto": 22,
@@ -4379,7 +4434,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

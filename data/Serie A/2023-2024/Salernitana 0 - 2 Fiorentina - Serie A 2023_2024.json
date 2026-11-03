@@ -3433,7 +3433,24 @@
         "y": 44.1,
         "arco_y": 51.7,
         "arco_z": 27.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Kouamé",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 0,
+            "x": 92.0,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marco Pellegrino",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -3464,6 +3481,116 @@
         "secuencia_gol": [
           {
             "jugador": "Rolando Mandragora",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 20,
+            "x": 26.4,
+            "y": 68.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 20,
+            "x": 26.4,
+            "y": 68.1,
+            "endX": 55.1,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Ikoné",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 27,
+            "x": 55.1,
+            "y": 5.5,
+            "endX": 68.6,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Ikoné",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 27,
+            "x": 68.6,
+            "y": 7.0,
+            "endX": 80.4,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Faraoni",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 33,
+            "x": 80.4,
+            "y": 22.3,
+            "endX": 96.5,
+            "endY": 16.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Faraoni",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 33,
+            "x": 96.5,
+            "y": 16.7,
+            "endX": 85.6,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 86.9,
+            "y": 65.4,
+            "endX": 86.9,
+            "endY": 57.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 86.9,
+            "y": 57.1,
+            "endX": 85.0,
+            "endY": 53.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riccardo Sottil",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 85.0,
+            "y": 53.0,
+            "endX": 86.8,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
+            "tipo": "SavedShot",
+            "minuto": 94,
+            "segundo": 38,
+            "x": 88.6,
+            "y": 64.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rolando Mandragora",
             "tipo": "Pass",
             "minuto": 94,
             "segundo": 40,
@@ -3473,7 +3600,12 @@
             "endY": 55.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Guillermo Ochoa",
+          "portero": true
+        }
       }
     ],
     "corners": [

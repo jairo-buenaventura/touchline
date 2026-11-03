@@ -455,7 +455,24 @@
         "y": 50.3,
         "arco_y": 48.4,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raúl García",
+            "tipo": "Aerial",
+            "minuto": 59,
+            "segundo": 1,
+            "x": 93.4,
+            "y": 51.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Andrei Ratiu",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4511,6 +4528,94 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Augusto Batalla",
+            "tipo": "KeeperPickup",
+            "minuto": 18,
+            "segundo": 5,
+            "x": 9.3,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Augusto Batalla",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 6,
+            "x": 9.9,
+            "y": 53.7,
+            "endX": 24.3,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abdul Mumin",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 9,
+            "x": 25.3,
+            "y": 71.1,
+            "endX": 32.5,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pep Chavarría",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 11,
+            "x": 32.5,
+            "y": 87.5,
+            "endX": 34.9,
+            "endY": 76.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 13,
+            "x": 34.9,
+            "y": 76.0,
+            "endX": 32.1,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Unai López",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 13,
+            "x": 32.1,
+            "y": 73.8,
+            "endX": 32.4,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrei Ratiu",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 17,
+            "x": 32.4,
+            "y": 9.2,
+            "endX": 33.8,
+            "endY": 8.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Florian Lejeune",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 21,
+            "x": 33.8,
+            "y": 8.9,
+            "endX": 17.8,
+            "endY": 12.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Florian Lejeune",
             "tipo": "Pass",
             "minuto": 18,
@@ -4532,7 +4637,12 @@
             "endY": 26.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Rubén García",
+          "portero": false
+        }
       },
       {
         "minuto": 31,

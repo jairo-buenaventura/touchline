@@ -396,7 +396,57 @@
         "y": 63.8,
         "arco_y": 46.6,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 52,
+            "x": 47.5,
+            "y": 82.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aníbal Godoy",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 52,
+            "x": 47.5,
+            "y": 82.1,
+            "endX": 57.0,
+            "endY": 70.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sean Davis",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 54,
+            "x": 56.3,
+            "y": 68.4,
+            "endX": 64.9,
+            "endY": 54.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dru Yearwood",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 56,
+            "x": 65.2,
+            "y": 54.6,
+            "endX": 69.9,
+            "endY": 58.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mathieu Choinière",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -424,7 +474,24 @@
         "y": 49.3,
         "arco_y": 51.4,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Walker Zimmerman",
+            "tipo": "Aerial",
+            "minuto": 19,
+            "segundo": 59,
+            "x": 94.9,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "George Campbell",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -602,6 +669,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 89.5,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Surridge",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 49,
+            "x": 89.5,
+            "y": 39.8,
+            "endX": 93.4,
+            "endY": 42.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Surridge",
+            "tipo": "ShotOnPost",
+            "minuto": 80,
+            "segundo": 49,
+            "x": 93.4,
+            "y": 42.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brent Kallman",
+            "tipo": "SavedShot",
+            "minuto": 80,
+            "segundo": 51,
+            "x": 94.8,
+            "y": 52.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Maher",
+            "tipo": "BallTouch",
+            "minuto": 80,
+            "segundo": 51,
+            "x": 93.7,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Alex Muyl",
             "tipo": "Pass",
             "minuto": 80,
@@ -656,7 +778,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mathieu Choinière",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

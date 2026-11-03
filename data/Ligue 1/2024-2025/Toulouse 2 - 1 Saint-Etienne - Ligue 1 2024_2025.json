@@ -522,7 +522,24 @@
         "y": 52.2,
         "arco_y": 51.1,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Zakaria Aboukhlal",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 46,
+            "x": 95.4,
+            "y": 54.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dennis Appiah",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4423,6 +4440,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Gautier Larsonneur",
+            "tipo": "KeeperPickup",
+            "minuto": 52,
+            "segundo": 12,
+            "x": 3.8,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gautier Larsonneur",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 6.7,
+            "y": 54.6,
+            "endX": 6.3,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Léo Pétrot",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 27,
+            "x": 6.3,
+            "y": 79.6,
+            "endX": 18.2,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Pierre Cornud",
             "tipo": "TakeOn",
             "minuto": 52,
@@ -4565,7 +4615,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Aron Dønnum",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

@@ -437,7 +437,24 @@
         "y": 45.5,
         "arco_y": 48.5,
         "arco_z": 14.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Josko Gvardiol",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 8,
+            "x": 95.8,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rúben Dias",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4205,7 +4222,46 @@
         "y": 55.1,
         "arco_y": 47.7,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 57,
+            "x": 67.8,
+            "y": 69.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Grealish",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 59,
+            "x": 70.2,
+            "y": 58.5,
+            "endX": 79.6,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilkay Gündogan",
+            "tipo": "Pass",
+            "minuto": 26,
+            "segundo": 0,
+            "x": 77.6,
+            "y": 55.3,
+            "endX": 78.2,
+            "endY": 55.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Josko Gvardiol",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

@@ -398,6 +398,17 @@
         "secuencia_gol": [
           {
             "jugador": "Koni De Winter",
+            "tipo": "Aerial",
+            "minuto": 39,
+            "segundo": 19,
+            "x": 94.2,
+            "y": 37.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Koni De Winter",
             "tipo": "MissedShots",
             "minuto": 39,
             "segundo": 19,
@@ -407,7 +418,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Victor Osimhen",
+          "portero": false
+        }
       },
       {
         "minuto": 54,
@@ -428,6 +444,17 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Mattia Bani",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 24,
+            "x": 94.8,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Kevin Strootman",
             "tipo": "Pass",
             "minuto": 55,
@@ -438,7 +465,12 @@
             "endY": 51.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Alex Meret",
+          "portero": true
+        }
       },
       {
         "minuto": 69,
@@ -4029,6 +4061,83 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Mathías Olivera",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 54,
+            "x": 38.1,
+            "y": 97.7,
+            "endX": 39.7,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Piotr Zielinski",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 57,
+            "x": 39.6,
+            "y": 76.9,
+            "endX": 31.3,
+            "endY": 49.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Østigård",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 31.3,
+            "y": 49.0,
+            "endX": 44.6,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Østigård",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 1,
+            "x": 44.6,
+            "y": 31.2,
+            "endX": 63.3,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Politano",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 63.3,
+            "y": 7.0,
+            "endX": 68.0,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Politano",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 3,
+            "x": 68.0,
+            "y": 5.5,
+            "endX": 87.5,
+            "endY": 29.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Giovanni Di Lorenzo",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 11,
+            "x": 87.5,
+            "y": 29.4,
+            "endX": 93.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Giovanni Di Lorenzo",
             "tipo": "Pass",
             "minuto": 83,
@@ -4160,7 +4269,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Radu Dragusin",
+          "portero": false
+        }
       }
     ],
     "corners": [

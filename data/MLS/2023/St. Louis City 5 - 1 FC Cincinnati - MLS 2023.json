@@ -497,7 +497,46 @@
         "y": 65.5,
         "arco_y": 53.9,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "John Nelson",
+            "tipo": "TakeOn",
+            "minuto": 38,
+            "segundo": 8,
+            "x": 87.2,
+            "y": 83.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Nelson",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 10,
+            "x": 89.8,
+            "y": 74.7,
+            "endX": 89.2,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicholas Gioacchini",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 12,
+            "x": 89.1,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Matt Miazga",
+          "portero": true
+        }
       },
       {
         "minuto": 46,
@@ -508,6 +547,28 @@
         "arco_y": 47.4,
         "arco_z": 3.8,
         "secuencia_gol": [
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 57,
+            "x": 87.0,
+            "y": 5.3,
+            "endX": 91.4,
+            "endY": 46.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jake Nerwinski",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 3,
+            "x": 91.4,
+            "y": 46.1,
+            "endX": 69.8,
+            "endY": 43.0,
+            "exitoso": true
+          },
           {
             "jugador": "Jake Nerwinski",
             "tipo": "Pass",
@@ -552,7 +613,12 @@
             "endY": 54.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yerson Mosquera",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -563,6 +629,50 @@
         "arco_y": 51.8,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 16,
+            "x": 24.8,
+            "y": 77.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 35.6,
+            "y": 77.8,
+            "endX": 32.8,
+            "endY": 73.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 32.8,
+            "y": 73.3,
+            "endX": 35.9,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 21,
+            "x": 35.9,
+            "y": 71.5,
+            "endX": 38.5,
+            "endY": 77.5,
+            "exitoso": false
+          },
           {
             "jugador": "Jared Stroud",
             "tipo": "Pass",
@@ -596,7 +706,12 @@
             "endY": 54.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Dominique Badji",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -4414,6 +4529,61 @@
         "secuencia_gol": [
           {
             "jugador": "Dominique Badji",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 37,
+            "x": 34.6,
+            "y": 23.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominique Badji",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 39,
+            "x": 39.8,
+            "y": 23.6,
+            "endX": 66.4,
+            "endY": 19.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 43,
+            "x": 66.4,
+            "y": 19.5,
+            "endX": 74.8,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 43,
+            "x": 74.8,
+            "y": 13.7,
+            "endX": 85.3,
+            "endY": 40.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominique Badji",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 45,
+            "x": 85.3,
+            "y": 40.9,
+            "endX": 89.4,
+            "endY": 42.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominique Badji",
             "tipo": "TakeOn",
             "minuto": 61,
             "segundo": 45,
@@ -4434,7 +4604,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jake Nerwinski",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

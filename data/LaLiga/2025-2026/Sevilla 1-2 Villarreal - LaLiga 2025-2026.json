@@ -441,7 +441,35 @@
         "y": 43.1,
         "arco_y": 46.5,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 98.5,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 98.5,
+            "y": 41.2,
+            "endX": 92.8,
+            "endY": 52.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Santiago Mouriño",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -5306,6 +5334,17 @@
         "secuencia_gol": [
           {
             "jugador": "Pape Gueye",
+            "tipo": "TakeOn",
+            "minuto": 15,
+            "segundo": 47,
+            "x": 36.7,
+            "y": 90.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Gueye",
             "tipo": "Pass",
             "minuto": 15,
             "segundo": 48,
@@ -5381,7 +5420,12 @@
             "endY": 48.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Akor Adams",
+          "portero": false
+        }
       },
       {
         "minuto": 18,
@@ -5465,6 +5509,50 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Tajon Buchanan",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 28,
+            "x": 24.9,
+            "y": 18.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tajon Buchanan",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 28,
+            "x": 22.2,
+            "y": 15.4,
+            "endX": 45.4,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 32,
+            "x": 45.4,
+            "y": 22.7,
+            "endX": 54.7,
+            "endY": 19.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georges Mikautadze",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 32,
+            "x": 54.7,
+            "y": 19.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Georges Mikautadze",
             "tipo": "Pass",
             "minuto": 85,
@@ -5475,7 +5563,12 @@
             "endY": 58.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "José Ángel Carmona",
+          "portero": false
+        }
       }
     ],
     "corners": [

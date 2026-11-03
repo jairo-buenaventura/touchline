@@ -449,6 +449,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Johan Manzambi",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 42,
+            "x": 85.6,
+            "y": 100.0,
+            "endX": 89.0,
+            "endY": 60.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Philipp Treu",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 47,
+            "x": 89.0,
+            "y": 60.6,
+            "endX": 75.7,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Philipp Treu",
             "tipo": "Pass",
             "minuto": 74,
@@ -481,7 +503,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lovro Majer",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

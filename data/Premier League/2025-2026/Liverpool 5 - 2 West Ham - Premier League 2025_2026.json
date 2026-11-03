@@ -395,6 +395,17 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Joe Gomez",
+            "tipo": "Aerial",
+            "minuto": 4,
+            "segundo": 42,
+            "x": 89.0,
+            "y": 48.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Ryan Gravenberch",
             "tipo": "Pass",
             "minuto": 4,
@@ -405,7 +416,12 @@
             "endY": 63.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tomás Soucek",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -424,7 +440,24 @@
         "y": 52.9,
         "arco_y": 47.1,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 40,
+            "x": 96.4,
+            "y": 52.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tomás Soucek",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -482,6 +515,17 @@
         "secuencia_gol": [
           {
             "jugador": "Virgil van Dijk",
+            "tipo": "Aerial",
+            "minuto": 42,
+            "segundo": 39,
+            "x": 95.3,
+            "y": 48.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
             "tipo": "Pass",
             "minuto": 42,
             "segundo": 40,
@@ -502,7 +546,12 @@
             "endY": 57.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Soungoutou Magassa",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -542,6 +591,127 @@
         "secuencia_gol": [
           {
             "jugador": "Hugo Ekitiké",
+            "tipo": "CornerAwarded",
+            "minuto": 68,
+            "segundo": 31,
+            "x": 86.3,
+            "y": 15.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 3,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 97.1,
+            "endY": 52.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 10,
+            "x": 97.1,
+            "y": 52.4,
+            "endX": 90.9,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 10,
+            "x": 90.9,
+            "y": 89.1,
+            "endX": 70.7,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Kerkez",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 15,
+            "x": 70.7,
+            "y": 83.8,
+            "endX": 74.0,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Kerkez",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 15,
+            "x": 74.0,
+            "y": 86.7,
+            "endX": 76.1,
+            "endY": 79.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 23,
+            "x": 76.1,
+            "y": 79.7,
+            "endX": 60.7,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Gravenberch",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 23,
+            "x": 60.7,
+            "y": 62.6,
+            "endX": 71.6,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 25,
+            "x": 71.6,
+            "y": 69.9,
+            "endX": 77.4,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 25,
+            "x": 77.4,
+            "y": 71.4,
+            "endX": 80.6,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 27,
+            "x": 80.6,
+            "y": 63.4,
+            "endX": 75.5,
+            "endY": 66.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
             "tipo": "TakeOn",
             "minuto": 69,
             "segundo": 27,
@@ -562,7 +732,12 @@
             "endY": 86.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mateus Fernandes",
+          "portero": false
+        }
       },
       {
         "minuto": 77,
@@ -4482,6 +4657,127 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Jarrod Bowen",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 79.3,
+            "y": 6.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 39,
+            "x": 79.4,
+            "y": 5.8,
+            "endX": 69.3,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Konstantinos Mavropanos",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 44,
+            "x": 69.9,
+            "y": 3.1,
+            "endX": 60.3,
+            "endY": 14.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Soungoutou Magassa",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 46,
+            "x": 60.3,
+            "y": 14.8,
+            "endX": 57.4,
+            "endY": 16.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Soungoutou Magassa",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 46,
+            "x": 57.4,
+            "y": 16.6,
+            "endX": 52.4,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateus Fernandes",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 48,
+            "x": 53.6,
+            "y": 32.1,
+            "endX": 68.2,
+            "endY": 30.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Soucek",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 49,
+            "x": 67.5,
+            "y": 29.7,
+            "endX": 70.9,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 56,
+            "x": 70.9,
+            "y": 5.6,
+            "endX": 77.8,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 56,
+            "x": 77.8,
+            "y": 15.0,
+            "endX": 87.2,
+            "endY": 8.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateus Fernandes",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 58,
+            "x": 87.2,
+            "y": 10.1,
+            "endX": 88.2,
+            "endY": 54.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "El Hadji Malick Diouf",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 0,
+            "x": 88.2,
+            "y": 54.4,
+            "endX": 92.6,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
             "jugador": "El Hadji Malick Diouf",
             "tipo": "Pass",
             "minuto": 48,
@@ -4492,7 +4788,12 @@
             "endY": 48.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ibrahima Konaté",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

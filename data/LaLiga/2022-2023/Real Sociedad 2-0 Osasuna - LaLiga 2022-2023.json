@@ -452,6 +452,61 @@
         "secuencia_gol": [
           {
             "jugador": "Brais Méndez",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 14,
+            "x": 56.1,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 14,
+            "x": 56.1,
+            "y": 72.4,
+            "endX": 55.4,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Rico",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 22,
+            "x": 55.9,
+            "y": 95.3,
+            "endX": 63.2,
+            "endY": 77.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Silva",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 23,
+            "x": 63.2,
+            "y": 77.0,
+            "endX": 63.9,
+            "endY": 76.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Brais Méndez",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 25,
+            "x": 63.9,
+            "y": 76.6,
+            "endX": 69.9,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brais Méndez",
             "tipo": "Pass",
             "minuto": 63,
             "segundo": 25,
@@ -461,7 +516,12 @@
             "endY": 72.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lucas Torró",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

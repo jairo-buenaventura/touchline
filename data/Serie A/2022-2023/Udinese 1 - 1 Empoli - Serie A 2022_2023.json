@@ -5219,6 +5219,72 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Guglielmo Vicario",
+            "tipo": "KeeperPickup",
+            "minuto": 1,
+            "segundo": 43,
+            "x": 1.7,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guglielmo Vicario",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 45,
+            "x": 8.7,
+            "y": 41.5,
+            "endX": 29.6,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabiano Parisi",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 49,
+            "x": 29.6,
+            "y": 6.0,
+            "endX": 27.5,
+            "endY": 9.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabiano Parisi",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 49,
+            "x": 27.5,
+            "y": 9.8,
+            "endX": 31.6,
+            "endY": 3.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Stojanovic",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 50,
+            "x": 31.6,
+            "y": 3.1,
+            "endX": 32.8,
+            "endY": 2.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Petar Stojanovic",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 7,
+            "x": 32.8,
+            "y": 2.9,
+            "endX": 37.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Petar Stojanovic",
             "tipo": "Pass",
             "minuto": 2,
@@ -5361,7 +5427,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Destiny Udogie",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

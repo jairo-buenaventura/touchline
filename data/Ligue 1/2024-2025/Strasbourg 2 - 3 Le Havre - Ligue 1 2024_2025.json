@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Guéla Doué",
+            "tipo": "Aerial",
+            "minuto": 19,
+            "segundo": 4,
+            "x": 90.2,
+            "y": 48.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guéla Doué",
             "tipo": "BallTouch",
             "minuto": 19,
             "segundo": 4,
@@ -394,7 +405,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Issa Soumaré",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

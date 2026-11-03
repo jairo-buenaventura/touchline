@@ -562,6 +562,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Tyrick Mitchell",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 38,
+            "x": 20.5,
+            "y": 92.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tyrick Mitchell",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 41,
+            "x": 20.2,
+            "y": 93.9,
+            "endX": 24.9,
+            "endY": 94.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jeffrey Schlupp",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 44,
+            "x": 24.9,
+            "y": 94.6,
+            "endX": 34.2,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Jeffrey Schlupp",
             "tipo": "Pass",
             "minuto": 69,
@@ -627,7 +660,12 @@
             "endY": 53.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daniel Podence",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -4851,6 +4889,17 @@
         "secuencia_gol": [
           {
             "jugador": "Adama Traoré",
+            "tipo": "Aerial",
+            "minuto": 30,
+            "segundo": 2,
+            "x": 45.2,
+            "y": 10.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adama Traoré",
             "tipo": "Pass",
             "minuto": 30,
             "segundo": 2,
@@ -4915,7 +4964,12 @@
             "endY": 41.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Tyrick Mitchell",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

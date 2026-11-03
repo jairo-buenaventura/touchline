@@ -486,6 +486,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jesús Ferreira",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 11,
+            "x": 29.7,
+            "y": 33.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Ferreira",
             "tipo": "TakeOn",
             "minuto": 54,
             "segundo": 21,
@@ -495,7 +506,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Max Floriani",
+          "portero": false
+        }
       },
       {
         "minuto": 56,
@@ -597,6 +613,72 @@
         "arco_z": 26.6,
         "secuencia_gol": [
           {
+            "jugador": "Peter Kingston",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 38,
+            "x": 46.2,
+            "y": 8.6,
+            "endX": 58.6,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osaze De Rosario",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 41,
+            "x": 58.6,
+            "y": 15.0,
+            "endX": 64.9,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osaze De Rosario",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 41,
+            "x": 64.9,
+            "y": 17.6,
+            "endX": 77.6,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Kingston",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 44,
+            "x": 77.6,
+            "y": 8.5,
+            "endX": 87.5,
+            "endY": 21.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peter Kingston",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 44,
+            "x": 87.5,
+            "y": 21.5,
+            "endX": 85.6,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesús Ferreira",
+            "tipo": "SavedShot",
+            "minuto": 88,
+            "segundo": 45,
+            "x": 85.6,
+            "y": 46.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Cristian Roldan",
             "tipo": "Pass",
             "minuto": 88,
@@ -629,7 +711,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Beau Leroux",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4924,7 +5011,189 @@
         "y": 43.0,
         "arco_y": 54.0,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jamar Ricketts",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 22,
+            "x": 50.7,
+            "y": 100.0,
+            "endX": 44.0,
+            "endY": 87.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 23,
+            "x": 44.0,
+            "y": 87.5,
+            "endX": 54.7,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Fernandez",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 24,
+            "x": 53.9,
+            "y": 72.0,
+            "endX": 38.6,
+            "endY": 63.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Harkes",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 25,
+            "x": 38.0,
+            "y": 62.6,
+            "endX": 40.0,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Jasinski",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 30,
+            "x": 40.0,
+            "y": 21.0,
+            "endX": 55.7,
+            "endY": 20.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Jasinski",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 30,
+            "x": 55.7,
+            "y": 20.3,
+            "endX": 65.9,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousseni Bouda",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 36,
+            "x": 65.9,
+            "y": 3.4,
+            "endX": 68.5,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousseni Bouda",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 36,
+            "x": 68.5,
+            "y": 11.1,
+            "endX": 59.0,
+            "endY": 14.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Fernandez",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 40,
+            "x": 59.0,
+            "y": 14.4,
+            "endX": 62.8,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Fernandez",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 40,
+            "x": 62.8,
+            "y": 28.3,
+            "endX": 68.1,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 40,
+            "x": 68.1,
+            "y": 42.8,
+            "endX": 70.5,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Harkes",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 41,
+            "x": 70.7,
+            "y": 38.0,
+            "endX": 72.2,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 44,
+            "x": 72.2,
+            "y": 41.6,
+            "endX": 84.6,
+            "endY": 28.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 44,
+            "x": 84.6,
+            "y": 28.5,
+            "endX": 88.1,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ian Harkes",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 45,
+            "x": 90.2,
+            "y": 35.4,
+            "endX": 86.4,
+            "endY": 31.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Beau Leroux",
+            "tipo": "SavedShot",
+            "minuto": 68,
+            "segundo": 46,
+            "x": 86.4,
+            "y": 31.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jackson Ragen",
+          "portero": true
+        }
       },
       {
         "minuto": 78,

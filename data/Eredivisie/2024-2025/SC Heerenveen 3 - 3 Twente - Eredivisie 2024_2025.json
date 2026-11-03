@@ -395,7 +395,35 @@
         "y": 63.8,
         "arco_y": 46.0,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alireza Jahanbakhsh",
+            "tipo": "CornerAwarded",
+            "minuto": 31,
+            "segundo": 40,
+            "x": 98.0,
+            "y": 30.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Köhlert",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 22,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 92.3,
+            "endY": 43.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Michel Vlap",
+          "portero": false
+        }
       },
       {
         "minuto": 37,
@@ -470,6 +498,17 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Nikolai Hopland",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 11,
+            "x": 89.2,
+            "y": 34.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Oliver Braude",
             "tipo": "Pass",
             "minuto": 52,
@@ -502,7 +541,12 @@
             "endY": 22.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ricky van Wolfswinkel",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

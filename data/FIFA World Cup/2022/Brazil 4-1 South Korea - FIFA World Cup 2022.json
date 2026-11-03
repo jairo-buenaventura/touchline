@@ -443,6 +443,17 @@
         "secuencia_gol": [
           {
             "jugador": "Richarlison",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 7,
+            "x": 78.9,
+            "y": 34.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Richarlison",
             "tipo": "Pass",
             "minuto": 28,
             "segundo": 8,
@@ -474,7 +485,12 @@
             "endY": 44.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Hwang In-Beom",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -5402,7 +5418,24 @@
         "y": 50.9,
         "arco_y": 46.3,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lee Kang-In",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 44,
+            "x": 71.6,
+            "y": 9.4,
+            "endX": 88.1,
+            "endY": 47.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Casemiro",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

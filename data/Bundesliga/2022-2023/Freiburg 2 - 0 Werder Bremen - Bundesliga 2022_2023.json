@@ -452,6 +452,28 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Christian Günter",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 35,
+            "x": 73.9,
+            "y": 75.3,
+            "endX": 87.7,
+            "endY": 39.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nicolas Höfler",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 39,
+            "x": 87.7,
+            "y": 39.8,
+            "endX": 68.4,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolas Höfler",
             "tipo": "Pass",
             "minuto": 54,
@@ -539,7 +561,12 @@
             "endY": 32.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Lee Buchanan",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

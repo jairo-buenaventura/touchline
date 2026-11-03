@@ -395,6 +395,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ihlas Bebou",
+            "tipo": "BallRecovery",
+            "minuto": 21,
+            "segundo": 53,
+            "x": 87.5,
+            "y": 56.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ihlas Bebou",
             "tipo": "TakeOn",
             "minuto": 21,
             "segundo": 53,
@@ -404,7 +415,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Frederik Rønnow",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -472,6 +488,28 @@
         "secuencia_gol": [
           {
             "jugador": "Mu'nas Dabbur",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 97.4,
+            "y": 86.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mu'nas Dabbur",
+            "tipo": "TakeOn",
+            "minuto": 89,
+            "segundo": 2,
+            "x": 97.7,
+            "y": 73.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mu'nas Dabbur",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 4,
@@ -481,7 +519,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kevin Behrens",
+          "portero": false
+        }
       },
       {
         "minuto": 98,
@@ -491,7 +534,57 @@
         "y": 39.3,
         "arco_y": 45.5,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sebastian Rudy",
+            "tipo": "BallRecovery",
+            "minuto": 98,
+            "segundo": 13,
+            "x": 41.8,
+            "y": 34.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastian Rudy",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 13,
+            "x": 41.8,
+            "y": 34.3,
+            "endX": 60.9,
+            "endY": 60.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrej Kramaric",
+            "tipo": "Pass",
+            "minuto": 98,
+            "segundo": 17,
+            "x": 62.1,
+            "y": 61.4,
+            "endX": 76.1,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mu'nas Dabbur",
+            "tipo": "TakeOn",
+            "minuto": 98,
+            "segundo": 19,
+            "x": 77.5,
+            "y": 37.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Josip Juranovic",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4312,7 +4405,24 @@
         "y": 51.6,
         "arco_y": 48.7,
         "arco_z": 34.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Danilho Doekhi",
+            "tipo": "Aerial",
+            "minuto": 48,
+            "segundo": 30,
+            "x": 89.9,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Finn Becker",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -4433,6 +4543,17 @@
         "secuencia_gol": [
           {
             "jugador": "Timo Baumgartl",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 37,
+            "x": 88.1,
+            "y": 44.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timo Baumgartl",
             "tipo": "Pass",
             "minuto": 94,
             "segundo": 37,
@@ -4442,7 +4563,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Angeliño",
+          "portero": false
+        }
       }
     ],
     "corners": [

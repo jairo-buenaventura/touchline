@@ -388,6 +388,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Miguel Rodríguez",
+            "tipo": "Aerial",
+            "minuto": 40,
+            "segundo": 1,
+            "x": 38.9,
+            "y": 9.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Rodríguez",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 1,
+            "x": 38.9,
+            "y": 9.2,
+            "endX": 37.4,
+            "endY": 7.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gjivai Zechiël",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 4,
+            "x": 37.4,
+            "y": 7.2,
+            "endX": 34.6,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Gjivai Zechiël",
             "tipo": "BallTouch",
             "minuto": 40,
@@ -464,7 +497,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ahmetcan Kaplan",
+          "portero": false
+        }
       },
       {
         "minuto": 46,

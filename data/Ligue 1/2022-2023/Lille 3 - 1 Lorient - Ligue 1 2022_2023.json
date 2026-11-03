@@ -889,6 +889,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Bamba",
+            "tipo": "BallRecovery",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 20.3,
+            "y": 30.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Bamba",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 20,
+            "x": 20.6,
+            "y": 30.7,
+            "endX": 43.8,
+            "endY": 11.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Bayo",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 25,
+            "x": 43.8,
+            "y": 11.4,
+            "endX": 46.9,
+            "endY": 6.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohamed Bayo",
             "tipo": "TakeOn",
             "minuto": 90,
@@ -910,7 +943,12 @@
             "endY": 6.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Darlin Yongwa",
+          "portero": false
+        }
       }
     ],
     "corners": [

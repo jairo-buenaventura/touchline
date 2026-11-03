@@ -522,6 +522,17 @@
             "jugador": "Gabriel Pereira",
             "tipo": "TakeOn",
             "minuto": 48,
+            "segundo": 49,
+            "x": 89.2,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pereira",
+            "tipo": "TakeOn",
+            "minuto": 48,
             "segundo": 51,
             "x": 89.4,
             "y": 50.4,
@@ -529,7 +540,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Djordje Petrovic",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -602,7 +618,90 @@
         "y": 40.5,
         "arco_y": 48.4,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Santiago Rodríguez",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 34,
+            "x": 25.5,
+            "y": 29.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Rodríguez",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 34,
+            "x": 24.9,
+            "y": 29.3,
+            "endX": 23.8,
+            "endY": 16.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pereira",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 23.8,
+            "y": 16.1,
+            "endX": 29.5,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pereira",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 40,
+            "x": 29.5,
+            "y": 25.1,
+            "endX": 41.0,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Rodríguez",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 41,
+            "x": 41.0,
+            "y": 39.1,
+            "endX": 69.4,
+            "endY": 56.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Andrade",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 46,
+            "x": 69.4,
+            "y": 56.4,
+            "endX": 79.3,
+            "endY": 59.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Andrade",
+            "tipo": "SavedShot",
+            "minuto": 81,
+            "segundo": 46,
+            "x": 79.3,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Djordje Petrovic",
+          "portero": true
+        }
       }
     ],
     "corners": [

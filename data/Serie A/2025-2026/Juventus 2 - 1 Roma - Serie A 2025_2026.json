@@ -566,6 +566,28 @@
         "secuencia_gol": [
           {
             "jugador": "Weston McKennie",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 29,
+            "x": 92.0,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weston McKennie",
+            "tipo": "SavedShot",
+            "minuto": 69,
+            "segundo": 30,
+            "x": 92.0,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Weston McKennie",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 31,
@@ -575,7 +597,12 @@
             "endY": 52.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mile Svilar",
+          "portero": true
+        }
       },
       {
         "minuto": 79,
@@ -4563,7 +4590,57 @@
         "y": 44.1,
         "arco_y": 47.1,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Wesley",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 53,
+            "x": 69.1,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wesley",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 53,
+            "x": 69.4,
+            "y": 69.7,
+            "endX": 83.1,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ferguson",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 56,
+            "x": 83.1,
+            "y": 73.0,
+            "endX": 87.2,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ferguson",
+            "tipo": "SavedShot",
+            "minuto": 74,
+            "segundo": 56,
+            "x": 87.2,
+            "y": 71.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Michele Di Gregorio",
+          "portero": true
+        }
       },
       {
         "minuto": 80,

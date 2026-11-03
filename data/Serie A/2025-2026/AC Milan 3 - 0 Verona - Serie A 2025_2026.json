@@ -437,6 +437,17 @@
         "secuencia_gol": [
           {
             "jugador": "Adrien Rabiot",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 27,
+            "x": 91.7,
+            "y": 45.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
             "tipo": "MissedShots",
             "minuto": 45,
             "segundo": 28,
@@ -446,7 +457,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Al Musrati",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -475,7 +491,101 @@
         "y": 49.9,
         "arco_y": 50.0,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christian Pulisic",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 43,
+            "x": 84.2,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Christian Pulisic",
+            "tipo": "BallTouch",
+            "minuto": 51,
+            "segundo": 46,
+            "x": 83.7,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 47,
+            "x": 72.3,
+            "y": 26.1,
+            "endX": 67.8,
+            "endY": 29.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 51,
+            "x": 67.8,
+            "y": 29.1,
+            "endX": 72.9,
+            "endY": 43.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 51,
+            "x": 72.9,
+            "y": 43.5,
+            "endX": 70.5,
+            "endY": 62.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 53,
+            "x": 70.5,
+            "y": 62.8,
+            "endX": 91.7,
+            "endY": 33.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 0,
+            "x": 91.7,
+            "y": 33.4,
+            "endX": 80.9,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "SavedShot",
+            "minuto": 52,
+            "segundo": 0,
+            "x": 80.9,
+            "y": 62.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lorenzo Montipò",
+          "portero": true
+        }
       },
       {
         "minuto": 54,

@@ -433,7 +433,24 @@
         "y": 43.9,
         "arco_y": 52.1,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leonardo Campana",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 18,
+            "x": 91.4,
+            "y": 43.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Lucas Bartlett",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -463,6 +480,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Peyton Miller",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 32,
+            "x": 82.1,
+            "y": 56.7,
+            "endX": 75.8,
+            "endY": 48.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 34,
+            "x": 75.8,
+            "y": 48.2,
+            "endX": 80.9,
+            "endY": 49.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Carles Gil",
             "tipo": "TakeOn",
             "minuto": 69,
@@ -473,7 +512,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Boris Enow",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

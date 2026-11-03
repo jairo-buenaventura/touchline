@@ -626,6 +626,28 @@
         "secuencia_gol": [
           {
             "jugador": "Gabriel Pec",
+            "tipo": "BallRecovery",
+            "minuto": 36,
+            "segundo": 45,
+            "x": 42.3,
+            "y": 12.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "TakeOn",
+            "minuto": 36,
+            "segundo": 47,
+            "x": 65.6,
+            "y": 12.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
             "tipo": "TakeOn",
             "minuto": 36,
             "segundo": 52,
@@ -646,7 +668,12 @@
             "endY": 49.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jasper Löffelsend",
+          "portero": false
+        }
       },
       {
         "minuto": 41,

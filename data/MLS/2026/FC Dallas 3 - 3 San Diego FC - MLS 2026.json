@@ -442,7 +442,46 @@
         "y": 51.0,
         "arco_y": 46.7,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kaick",
+            "tipo": "BallRecovery",
+            "minuto": 40,
+            "segundo": 41,
+            "x": 91.3,
+            "y": 69.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaick",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 41,
+            "x": 91.3,
+            "y": 69.7,
+            "endX": 92.7,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Petar Musa",
+            "tipo": "SavedShot",
+            "minuto": 40,
+            "segundo": 42,
+            "x": 92.7,
+            "y": 55.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Pablo Sisniega",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
@@ -492,6 +531,28 @@
         "secuencia_gol": [
           {
             "jugador": "Bernard Kamungo",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 1,
+            "x": 71.0,
+            "y": 88.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernard Kamungo",
+            "tipo": "TakeOn",
+            "minuto": 94,
+            "segundo": 1,
+            "x": 83.0,
+            "y": 75.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernard Kamungo",
             "tipo": "BallTouch",
             "minuto": 94,
             "segundo": 7,
@@ -501,7 +562,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christopher McVey",
+          "portero": false
+        }
       },
       {
         "minuto": 95,
@@ -4208,6 +4274,28 @@
         "arco_z": 34.8,
         "secuencia_gol": [
           {
+            "jugador": "Luca Bombino",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 34,
+            "x": 83.9,
+            "y": 57.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luca Bombino",
+            "tipo": "BallTouch",
+            "minuto": 50,
+            "segundo": 35,
+            "x": 82.5,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Alex Mighten",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -4229,7 +4317,12 @@
             "endY": 53.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joaquín Valiente",
+          "portero": false
+        }
       },
       {
         "minuto": 98,

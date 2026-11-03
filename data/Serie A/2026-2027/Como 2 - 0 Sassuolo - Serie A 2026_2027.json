@@ -435,6 +435,116 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Jean Butez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 13,
+            "x": 5.0,
+            "y": 63.0,
+            "endX": 10.6,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacobo Ramón",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 14,
+            "x": 10.6,
+            "y": 32.7,
+            "endX": 26.8,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Máximo Perrone",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 15,
+            "x": 26.8,
+            "y": 48.4,
+            "endX": 5.9,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean Butez",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 18,
+            "x": 5.9,
+            "y": 64.6,
+            "endX": 2.4,
+            "endY": 55.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean Butez",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 18,
+            "x": 2.4,
+            "y": 55.1,
+            "endX": 9.4,
+            "endY": 21.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacobo Ramón",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 20,
+            "x": 9.4,
+            "y": 21.8,
+            "endX": 12.0,
+            "endY": 16.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacobo Ramón",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 20,
+            "x": 12.0,
+            "y": 16.7,
+            "endX": 18.3,
+            "endY": 2.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 23,
+            "x": 19.4,
+            "y": 1.8,
+            "endX": 37.9,
+            "endY": 8.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jayden Addai",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 26,
+            "x": 37.9,
+            "y": 8.6,
+            "endX": 45.5,
+            "endY": 3.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lucas da Cunha",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 35,
+            "x": 45.5,
+            "y": 3.0,
+            "endX": 50.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucas da Cunha",
             "tipo": "Pass",
             "minuto": 47,
@@ -610,7 +720,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fali Candé",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -650,6 +765,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kaiki",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 44,
+            "x": 85.4,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kaiki",
             "tipo": "TakeOn",
             "minuto": 59,
             "segundo": 45,
@@ -681,7 +807,12 @@
             "endY": 53.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Duje Caleta-Car",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

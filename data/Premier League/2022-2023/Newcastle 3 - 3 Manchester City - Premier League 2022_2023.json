@@ -407,6 +407,28 @@
         "secuencia_gol": [
           {
             "jugador": "Allan Saint-Maximin",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 14,
+            "x": 65.8,
+            "y": 82.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Allan Saint-Maximin",
+            "tipo": "TakeOn",
+            "minuto": 27,
+            "segundo": 21,
+            "x": 90.9,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Allan Saint-Maximin",
             "tipo": "Pass",
             "minuto": 27,
             "segundo": 22,
@@ -416,7 +438,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rodri",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -4089,7 +4116,101 @@
         "y": 52.8,
         "arco_y": 46.1,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 6,
+            "x": 55.8,
+            "y": 76.2,
+            "endX": 55.8,
+            "endY": 56.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 8,
+            "x": 55.8,
+            "y": 56.9,
+            "endX": 56.7,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Walker",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 10,
+            "x": 56.7,
+            "y": 25.0,
+            "endX": 75.9,
+            "endY": 2.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 18,
+            "x": 75.9,
+            "y": 2.5,
+            "endX": 80.9,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bernardo Silva",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 18,
+            "x": 80.9,
+            "y": 16.0,
+            "endX": 73.3,
+            "endY": 35.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 20,
+            "x": 73.3,
+            "y": 35.0,
+            "endX": 73.3,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 23,
+            "x": 73.3,
+            "y": 65.1,
+            "endX": 74.1,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin De Bruyne",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 23,
+            "x": 74.1,
+            "y": 59.0,
+            "endX": 76.9,
+            "endY": 56.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joe Willock",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

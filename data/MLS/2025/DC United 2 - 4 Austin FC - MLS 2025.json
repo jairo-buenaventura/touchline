@@ -4565,6 +4565,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Guilherme Biro",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 24,
+            "x": 63.1,
+            "y": 81.4,
+            "endX": 72.6,
+            "endY": 96.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Owen Wolff",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 27,
+            "x": 72.6,
+            "y": 96.9,
+            "endX": 81.9,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guilherme Biro",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 81.9,
+            "y": 81.4,
+            "endX": 88.4,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guilherme Biro",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 88.4,
+            "y": 76.7,
+            "endX": 87.8,
+            "endY": 52.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 44,
+            "x": 87.8,
+            "y": 52.2,
+            "endX": 65.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Dani Pereira",
             "tipo": "Pass",
             "minuto": 20,
@@ -4641,7 +4696,12 @@
             "endY": 48.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Schnegg",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4678,7 +4738,24 @@
         "y": 54.2,
         "arco_y": 50.3,
         "arco_z": 34.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Owen Wolff",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 3,
+            "x": 96.4,
+            "y": 55.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Randall Leal",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -4898,6 +4975,72 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Myrto Uzuni",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 38.0,
+            "y": 45.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myrto Uzuni",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 44,
+            "x": 38.0,
+            "y": 45.7,
+            "endX": 31.7,
+            "endY": 45.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Dubersarsky",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 45,
+            "x": 31.7,
+            "y": 45.5,
+            "endX": 47.3,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Taylor",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 47.3,
+            "y": 91.7,
+            "endX": 66.0,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robert Taylor",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 53,
+            "x": 66.0,
+            "y": 75.9,
+            "endX": 82.6,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolás Dubersarsky",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 57,
+            "x": 82.6,
+            "y": 92.3,
+            "endX": 84.8,
+            "endY": 87.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Nicolás Dubersarsky",
             "tipo": "TakeOn",
             "minuto": 91,
@@ -4919,7 +5062,12 @@
             "endY": 72.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jared Stroud",
+          "portero": false
+        }
       }
     ],
     "corners": [

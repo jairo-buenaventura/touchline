@@ -466,6 +466,28 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Adnan Januzaj",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 30,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 88.2,
+            "endY": 43.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Viti Rozada",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 35,
+            "x": 88.2,
+            "y": 43.0,
+            "endX": 65.0,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Viti Rozada",
             "tipo": "Pass",
             "minuto": 82,
@@ -509,7 +531,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Umar Sadiq",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4464,7 +4491,35 @@
         "y": 51.4,
         "arco_y": 52.3,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rafa Mir",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 59,
+            "x": 92.0,
+            "y": 42.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Rioja",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 2,
+            "x": 98.2,
+            "y": 35.4,
+            "endX": 97.4,
+            "endY": 43.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dinko Horkas",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4492,7 +4547,24 @@
         "y": 48.5,
         "arco_y": 54.3,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Hugo Duro",
+            "tipo": "Aerial",
+            "minuto": 57,
+            "segundo": 42,
+            "x": 92.6,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Álex Suárez",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

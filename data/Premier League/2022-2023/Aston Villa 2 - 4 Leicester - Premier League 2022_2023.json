@@ -355,6 +355,39 @@
         "secuencia_gol": [
           {
             "jugador": "Douglas Luiz",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 29,
+            "x": 43.5,
+            "y": 6.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Douglas Luiz",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 29,
+            "x": 43.5,
+            "y": 6.6,
+            "endX": 49.4,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Bailey",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 32,
+            "x": 49.4,
+            "y": 9.5,
+            "endX": 48.9,
+            "endY": 13.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Douglas Luiz",
             "tipo": "Pass",
             "minuto": 8,
             "segundo": 34,
@@ -430,7 +463,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Youri Tielemans",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -5144,6 +5182,94 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Harry Souttar",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 52,
+            "x": 52.3,
+            "y": 31.6,
+            "endX": 60.6,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Castagne",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 55,
+            "x": 60.7,
+            "y": 11.1,
+            "endX": 71.0,
+            "endY": 11.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tetê",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 57,
+            "x": 71.0,
+            "y": 11.0,
+            "endX": 66.7,
+            "endY": 11.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tetê",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 57,
+            "x": 66.7,
+            "y": 11.1,
+            "endX": 66.1,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kiernan Dewsbury-Hall",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 0,
+            "x": 63.2,
+            "y": 14.4,
+            "endX": 82.8,
+            "endY": 88.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 4,
+            "x": 82.7,
+            "y": 87.8,
+            "endX": 75.2,
+            "endY": 78.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Victor Kristiansen",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 6,
+            "x": 75.2,
+            "y": 78.8,
+            "endX": 92.3,
+            "endY": 53.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Victor Kristiansen",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 9,
+            "x": 92.3,
+            "y": 53.6,
+            "endX": 74.8,
+            "endY": 73.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Victor Kristiansen",
             "tipo": "Pass",
             "minuto": 40,
@@ -5176,7 +5302,12 @@
             "endY": 44.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Tyrone Mings",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -5195,7 +5326,57 @@
         "y": 57.9,
         "arco_y": 51.9,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Youri Tielemans",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 35,
+            "x": 59.0,
+            "y": 70.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Tielemans",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 36,
+            "x": 59.0,
+            "y": 70.3,
+            "endX": 67.9,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kelechi Iheanacho",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 37,
+            "x": 67.9,
+            "y": 61.1,
+            "endX": 87.1,
+            "endY": 58.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tetê",
+            "tipo": "TakeOn",
+            "minuto": 46,
+            "segundo": 39,
+            "x": 88.1,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Emiliano Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

@@ -4516,6 +4516,72 @@
             "jugador": "Yoram Zague",
             "tipo": "Pass",
             "minuto": 0,
+            "segundo": 16,
+            "x": 48.1,
+            "y": 0.0,
+            "endX": 45.7,
+            "endY": 11.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Clem",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 18,
+            "x": 45.7,
+            "y": 11.2,
+            "endX": 48.7,
+            "endY": 6.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yoram Zague",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 24,
+            "x": 48.7,
+            "y": 6.6,
+            "endX": 47.7,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoram Zague",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 24,
+            "x": 47.7,
+            "y": 0.0,
+            "endX": 46.6,
+            "endY": 8.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Clem",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 25,
+            "x": 46.6,
+            "y": 8.5,
+            "endX": 44.5,
+            "endY": 5.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yoram Zague",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 30,
+            "x": 44.5,
+            "y": 5.7,
+            "endX": 41.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoram Zague",
+            "tipo": "Pass",
+            "minuto": 0,
             "segundo": 30,
             "x": 41.4,
             "y": 0.0,
@@ -4754,7 +4820,12 @@
             "endY": 51.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Georges Mikautadze",
+          "portero": false
+        }
       },
       {
         "minuto": 4,
@@ -4897,7 +4968,46 @@
         "y": 56.6,
         "arco_y": 48.1,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dominik Kotarski",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 25,
+            "x": 9.3,
+            "y": 66.3,
+            "endX": 86.5,
+            "endY": 73.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mohamed Elyounoussi",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 86.5,
+            "y": 73.9,
+            "endX": 74.3,
+            "endY": 42.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Elyounoussi",
+            "tipo": "SavedShot",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 74.3,
+            "y": 42.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Renato Veiga",
+          "portero": true
+        }
       }
     ],
     "corners": [

@@ -4171,6 +4171,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Jonjoe Kenny",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 5,
+            "x": 2.2,
+            "y": 24.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonjoe Kenny",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 6,
+            "x": 2.2,
+            "y": 24.1,
+            "endX": 51.1,
+            "endY": 25.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davie Selke",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 10,
+            "x": 51.1,
+            "y": 25.9,
+            "endX": 58.1,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Davie Selke",
             "tipo": "TakeOn",
             "minuto": 92,
@@ -4192,7 +4225,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Julian Baumgartlinger",
+          "portero": false
+        }
       }
     ],
     "corners": [

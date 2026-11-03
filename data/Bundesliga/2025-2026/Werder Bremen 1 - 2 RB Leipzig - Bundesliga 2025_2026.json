@@ -488,6 +488,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Cameron Puertas",
+            "tipo": "Aerial",
+            "minuto": 93,
+            "segundo": 12,
+            "x": 31.6,
+            "y": 38.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cameron Puertas",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 13,
+            "x": 31.6,
+            "y": 38.5,
+            "endX": 44.2,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrice Covic",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 14,
+            "x": 43.8,
+            "y": 34.8,
+            "endX": 58.8,
+            "endY": 34.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Romano Schmid",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -520,7 +553,12 @@
             "endY": 46.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Willi Orbán",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4973,7 +5011,24 @@
         "y": 62.0,
         "arco_y": 54.4,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rômulo",
+            "tipo": "SavedShot",
+            "minuto": 14,
+            "segundo": 1,
+            "x": 83.7,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Felix Agu",
+          "portero": true
+        }
       },
       {
         "minuto": 51,

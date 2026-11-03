@@ -388,6 +388,72 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Kornelius Hansen",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 10,
+            "x": 50.1,
+            "y": 50.4,
+            "endX": 41.0,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Visus",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 11,
+            "x": 41.0,
+            "y": 64.5,
+            "endX": 29.5,
+            "endY": 38.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricardo Visus",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 11,
+            "x": 29.5,
+            "y": 38.9,
+            "endX": 78.8,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles-Andreas Brym",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 13,
+            "x": 78.8,
+            "y": 92.4,
+            "endX": 70.5,
+            "endY": 88.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles-Andreas Brym",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 13,
+            "x": 70.5,
+            "y": 88.0,
+            "endX": 85.2,
+            "endY": 88.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thomas Robinet",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 16,
+            "x": 85.2,
+            "y": 88.7,
+            "endX": 89.1,
+            "endY": 89.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Thomas Robinet",
             "tipo": "Pass",
             "minuto": 18,
@@ -431,7 +497,12 @@
             "endY": 72.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maxime Busi",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4367,6 +4438,50 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Daniel Bielica",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 47,
+            "x": 5.2,
+            "y": 54.5,
+            "endX": 12.5,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Van den Bergh",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 50,
+            "x": 12.5,
+            "y": 83.3,
+            "endX": 15.1,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Van den Bergh",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 50,
+            "x": 15.1,
+            "y": 85.3,
+            "endX": 69.0,
+            "endY": 72.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sydney van Hooijdonk",
+            "tipo": "BallTouch",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 68.7,
+            "y": 72.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Boyd Lucassen",
             "tipo": "Pass",
             "minuto": 16,
@@ -4410,7 +4525,12 @@
             "endY": 42.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ricardo Visus",
+          "portero": false
+        }
       },
       {
         "minuto": 44,

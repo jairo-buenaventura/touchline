@@ -4328,6 +4328,72 @@
         "secuencia_gol": [
           {
             "jugador": "Jordan Zemura",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 1,
+            "x": 24.2,
+            "y": 87.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Zemura",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 1,
+            "x": 24.2,
+            "y": 87.2,
+            "endX": 15.5,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kristensen",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 15.5,
+            "y": 82.7,
+            "endX": 12.1,
+            "endY": 83.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Kristensen",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 2,
+            "x": 12.1,
+            "y": 83.6,
+            "endX": 36.4,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Lucca",
+            "tipo": "BallTouch",
+            "minuto": 56,
+            "segundo": 5,
+            "x": 36.4,
+            "y": 82.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Lorenzo Lucca",
+            "tipo": "BallTouch",
+            "minuto": 56,
+            "segundo": 7,
+            "x": 35.4,
+            "y": 84.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Zemura",
             "tipo": "Pass",
             "minuto": 56,
             "segundo": 8,
@@ -4359,7 +4425,12 @@
             "endY": 10.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Yacine Adli",
+          "portero": false
+        }
       },
       {
         "minuto": 70,

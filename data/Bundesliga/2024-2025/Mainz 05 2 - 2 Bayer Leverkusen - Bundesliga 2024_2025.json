@@ -447,6 +447,83 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Lee Jae-Sung",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 18,
+            "x": 39.6,
+            "y": 72.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lee Jae-Sung",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 22,
+            "x": 39.9,
+            "y": 75.4,
+            "endX": 28.6,
+            "endY": 88.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Hanche-Olsen",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 24,
+            "x": 28.1,
+            "y": 88.3,
+            "endX": 25.0,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan Bell",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 28,
+            "x": 25.0,
+            "y": 60.3,
+            "endX": 25.5,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stefan Bell",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 28,
+            "x": 25.5,
+            "y": 51.5,
+            "endX": 39.9,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 29,
+            "x": 39.9,
+            "y": 41.2,
+            "endX": 50.3,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Paul Nebel",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 31,
+            "x": 50.3,
+            "y": 49.3,
+            "endX": 41.2,
+            "endY": 37.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Paul Nebel",
             "tipo": "Pass",
             "minuto": 34,
@@ -479,7 +556,12 @@
             "endY": 38.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aleix García",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -4025,7 +4107,24 @@
         "y": 56.1,
         "arco_y": 46.6,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrik Schick",
+            "tipo": "Aerial",
+            "minuto": 53,
+            "segundo": 10,
+            "x": 95.8,
+            "y": 53.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kaishu Sano",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

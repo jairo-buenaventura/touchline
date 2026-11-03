@@ -610,6 +610,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Louis Mouton",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 53,
+            "x": 63.0,
+            "y": 100.0,
+            "endX": 88.4,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zuriko Davitashvili",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 57,
+            "x": 88.4,
+            "y": 94.8,
+            "endX": 95.8,
+            "endY": 79.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Zuriko Davitashvili",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -631,7 +653,12 @@
             "endY": 53.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Haris Belkebla",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -5138,7 +5165,35 @@
         "y": 57.7,
         "arco_y": 49.9,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ibrahima Niane",
+            "tipo": "Aerial",
+            "minuto": 16,
+            "segundo": 8,
+            "x": 93.8,
+            "y": 61.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahima Niane",
+            "tipo": "ShotOnPost",
+            "minuto": 16,
+            "segundo": 8,
+            "x": 93.1,
+            "y": 59.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gautier Larsonneur",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

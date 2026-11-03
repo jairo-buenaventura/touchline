@@ -519,7 +519,79 @@
         "y": 46.6,
         "arco_y": 49.4,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Willum Willumsson",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 42,
+            "x": 54.4,
+            "y": 21.3,
+            "endX": 51.6,
+            "endY": 35.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philippe Rommens",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 44,
+            "x": 51.0,
+            "y": 34.6,
+            "endX": 59.1,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bas Kuipers",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 49,
+            "x": 59.1,
+            "y": 79.9,
+            "endX": 75.2,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bas Kuipers",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 49,
+            "x": 75.2,
+            "y": 62.5,
+            "endX": 85.3,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Edvardsen",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 50,
+            "x": 85.3,
+            "y": 69.9,
+            "endX": 88.5,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oliver Edvardsen",
+            "tipo": "SavedShot",
+            "minuto": 61,
+            "segundo": 50,
+            "x": 88.5,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Eloy Room",
+          "portero": true
+        }
       },
       {
         "minuto": 64,
@@ -558,6 +630,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Sylla Sow",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 36,
+            "x": 94.3,
+            "y": 95.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sylla Sow",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 37,
+            "x": 97.9,
+            "y": 91.1,
+            "endX": 96.3,
+            "endY": 87.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jakob Breum",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 40,
+            "x": 96.3,
+            "y": 87.6,
+            "endX": 97.7,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Jakob Breum",
             "tipo": "Pass",
             "minuto": 79,
@@ -568,7 +673,12 @@
             "endY": 59.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Carlens Arcus",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -598,6 +708,50 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Bas Kuipers",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 48,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 91.6,
+            "endY": 41.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Bobby Adekanye",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 91.6,
+            "y": 41.6,
+            "endX": 79.3,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bobby Adekanye",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 52,
+            "x": 79.3,
+            "y": 31.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bobby Adekanye",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 54,
+            "x": 86.0,
+            "y": 32.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Bobby Adekanye",
             "tipo": "BallTouch",
             "minuto": 85,
@@ -608,7 +762,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marco van Ginkel",
+          "portero": false
+        }
       },
       {
         "minuto": 89,

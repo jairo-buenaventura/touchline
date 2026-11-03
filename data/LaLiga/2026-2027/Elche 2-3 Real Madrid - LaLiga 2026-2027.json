@@ -5185,6 +5185,39 @@
         "arco_z": 20.2,
         "secuencia_gol": [
           {
+            "jugador": "Marc Cucurella",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 22.5,
+            "y": 100.0,
+            "endX": 35.7,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 35.7,
+            "y": 89.1,
+            "endX": 48.9,
+            "endY": 96.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jude Bellingham",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 48.9,
+            "y": 96.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jude Bellingham",
             "tipo": "Pass",
             "minuto": 90,
@@ -5217,7 +5250,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Rubén Sánchez",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -4881,6 +4881,39 @@
         "arco_z": 34.2,
         "secuencia_gol": [
           {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 17,
+            "x": 46.7,
+            "y": 4.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 55.9,
+            "y": 6.8,
+            "endX": 64.7,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roberto Firmino",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 20,
+            "x": 64.7,
+            "y": 23.7,
+            "endX": 58.9,
+            "endY": 26.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Roberto Firmino",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -5111,7 +5144,12 @@
             "endY": 36.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Davy Klaassen",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

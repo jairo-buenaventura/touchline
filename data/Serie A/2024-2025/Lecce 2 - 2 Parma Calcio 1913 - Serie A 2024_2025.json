@@ -4391,6 +4391,72 @@
         "secuencia_gol": [
           {
             "jugador": "Anas Haj Mohamed",
+            "tipo": "BallRecovery",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 59.6,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anas Haj Mohamed",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 12,
+            "x": 59.6,
+            "y": 34.9,
+            "endX": 70.7,
+            "endY": 18.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antoine Hainaut",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 14,
+            "x": 70.7,
+            "y": 18.4,
+            "endX": 88.6,
+            "endY": 27.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 88.6,
+            "y": 27.0,
+            "endX": 92.6,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ange-Yoan Bonny",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 16,
+            "x": 92.6,
+            "y": 25.6,
+            "endX": 87.5,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anas Haj Mohamed",
+            "tipo": "SavedShot",
+            "minuto": 92,
+            "segundo": 19,
+            "x": 88.2,
+            "y": 40.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anas Haj Mohamed",
             "tipo": "BallTouch",
             "minuto": 92,
             "segundo": 20,
@@ -4400,7 +4466,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Hamza Rafia",
+          "portero": true
+        }
       },
       {
         "minuto": 94,
@@ -4412,6 +4483,39 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Pontus Almqvist",
+            "tipo": "CornerAwarded",
+            "minuto": 94,
+            "segundo": 30,
+            "x": 71.4,
+            "y": 25.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrián Bernabé",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 52,
+            "x": 99.6,
+            "y": 0.7,
+            "endX": 95.2,
+            "endY": 41.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anas Haj Mohamed",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 57,
+            "x": 95.2,
+            "y": 41.7,
+            "endX": 74.4,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Anas Haj Mohamed",
             "tipo": "Pass",
             "minuto": 94,
@@ -4422,7 +4526,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Hamza Rafia",
+          "portero": false
+        }
       }
     ],
     "corners": [

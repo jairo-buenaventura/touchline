@@ -411,7 +411,24 @@
         "y": 45.1,
         "arco_y": 45.8,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emanuele Lulli",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 0,
+            "x": 92.9,
+            "y": 45.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Adam Obert",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -956,7 +973,57 @@
         "y": 49.0,
         "arco_y": 53.5,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Donyell Malen",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 13,
+            "x": 72.7,
+            "y": 50.1,
+            "endX": 85.3,
+            "endY": 63.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rodrigo Mora",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 15,
+            "x": 85.3,
+            "y": 63.6,
+            "endX": 95.6,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Mora",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 15,
+            "x": 95.6,
+            "y": 69.7,
+            "endX": 93.1,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donyell Malen",
+            "tipo": "SavedShot",
+            "minuto": 86,
+            "segundo": 16,
+            "x": 93.1,
+            "y": 51.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Juan Rodríguez",
+          "portero": true
+        }
       },
       {
         "minuto": 94,
@@ -5675,6 +5742,127 @@
         "secuencia_gol": [
           {
             "jugador": "Adam Obert",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 24,
+            "x": 62.4,
+            "y": 100.0,
+            "endX": 62.0,
+            "endY": 91.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Liteta",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 25,
+            "x": 62.2,
+            "y": 92.7,
+            "endX": 61.6,
+            "endY": 98.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Obert",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 27,
+            "x": 61.9,
+            "y": 98.1,
+            "endX": 52.4,
+            "endY": 95.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Rodríguez",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 29,
+            "x": 52.7,
+            "y": 94.6,
+            "endX": 40.0,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yerry Mina",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 32,
+            "x": 40.0,
+            "y": 86.8,
+            "endX": 40.6,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yerry Mina",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 32,
+            "x": 40.6,
+            "y": 83.7,
+            "endX": 30.9,
+            "endY": 51.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elia Caprile",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 42,
+            "x": 30.9,
+            "y": 51.4,
+            "endX": 29.1,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elia Caprile",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 42,
+            "x": 29.1,
+            "y": 48.4,
+            "endX": 62.6,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Maldini",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 46,
+            "x": 62.6,
+            "y": 43.0,
+            "endX": 63.5,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Maldini",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 46,
+            "x": 63.5,
+            "y": 49.9,
+            "endX": 67.9,
+            "endY": 75.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Obert",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 49,
+            "x": 67.9,
+            "y": 75.1,
+            "endX": 71.9,
+            "endY": 76.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Obert",
             "tipo": "TakeOn",
             "minuto": 80,
             "segundo": 49,
@@ -5695,7 +5883,12 @@
             "endY": 62.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Devyne Rensch",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

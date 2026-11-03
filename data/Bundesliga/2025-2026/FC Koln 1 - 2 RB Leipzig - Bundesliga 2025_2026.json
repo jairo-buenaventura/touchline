@@ -440,6 +440,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ísak Bergmann Jóhannesson",
+            "tipo": "Aerial",
+            "minuto": 50,
+            "segundo": 43,
+            "x": 87.0,
+            "y": 57.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ísak Bergmann Jóhannesson",
             "tipo": "BallTouch",
             "minuto": 50,
             "segundo": 44,
@@ -449,7 +460,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Antonio Nusa",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4229,7 +4245,24 @@
         "y": 50.6,
         "arco_y": 49.0,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 44,
+            "x": 91.3,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Eric Martel",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

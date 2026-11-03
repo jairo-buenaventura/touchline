@@ -409,6 +409,61 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Maxi Moralez",
+            "tipo": "CornerAwarded",
+            "minuto": 6,
+            "segundo": 16,
+            "x": 93.4,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 36,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.4,
+            "endY": 52.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Andres Jasson",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 43,
+            "x": 94.4,
+            "y": 52.8,
+            "endX": 62.6,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andres Jasson",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 43,
+            "x": 62.6,
+            "y": 29.2,
+            "endX": 87.4,
+            "endY": 30.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Keaton Parks",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 47,
+            "x": 87.4,
+            "y": 30.1,
+            "endX": 80.5,
+            "endY": 28.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Keaton Parks",
             "tipo": "Pass",
             "minuto": 6,
@@ -430,7 +485,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kamal Miller",
+          "portero": false
+        }
       },
       {
         "minuto": 15,
@@ -516,7 +576,24 @@
         "y": 50.8,
         "arco_y": 47.7,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Talles Magno",
+            "tipo": "Aerial",
+            "minuto": 63,
+            "segundo": 17,
+            "x": 94.0,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Zachary Brault-Guillard",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4739,6 +4816,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Róbert Thorkelsson",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 6,
+            "x": 41.8,
+            "y": 92.0,
+            "endX": 56.1,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 56.1,
+            "y": 96.2,
+            "endX": 79.2,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djordje Mihailovic",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 79.2,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Djordje Mihailovic",
             "tipo": "Pass",
             "minuto": 51,
@@ -4749,7 +4859,12 @@
             "endY": 45.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andres Jasson",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

@@ -400,6 +400,28 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Leonardo Balerdi",
+            "tipo": "BallTouch",
+            "minuto": 6,
+            "segundo": 48,
+            "x": 87.2,
+            "y": 59.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "BallTouch",
+            "minuto": 6,
+            "segundo": 49,
+            "x": 91.8,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Ulisses Garcia",
             "tipo": "Pass",
             "minuto": 6,
@@ -421,7 +443,12 @@
             "endY": 31.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Hugo Magnetti",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -5106,6 +5133,50 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Mathias Pereira Lage",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 52,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.8,
+            "endY": 49.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brendan Chardonnet",
+            "tipo": "ShotOnPost",
+            "minuto": 24,
+            "segundo": 53,
+            "x": 91.5,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brendan Chardonnet",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 55,
+            "x": 91.3,
+            "y": 45.8,
+            "endX": 96.0,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ludovic Ajorque",
+            "tipo": "SavedShot",
+            "minuto": 24,
+            "segundo": 56,
+            "x": 96.1,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Ludovic Ajorque",
             "tipo": "BallTouch",
             "minuto": 24,
@@ -5116,7 +5187,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Gerónimo Rulli",
+          "portero": true
+        }
       },
       {
         "minuto": 36,

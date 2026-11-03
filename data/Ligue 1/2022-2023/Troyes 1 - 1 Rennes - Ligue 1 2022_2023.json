@@ -348,6 +348,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Yoann Salmier",
+            "tipo": "Aerial",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 86.7,
+            "y": 33.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yoann Salmier",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 37,
+            "x": 87.9,
+            "y": 34.9,
+            "endX": 89.0,
+            "endY": 32.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rony Lopes",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 39,
+            "x": 89.0,
+            "y": 32.2,
+            "endX": 84.4,
+            "endY": 45.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Rony Lopes",
             "tipo": "MissedShots",
             "minuto": 13,
@@ -358,7 +391,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Martin Terrier",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

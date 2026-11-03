@@ -378,6 +378,39 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Romano Floriani Mussolini",
+            "tipo": "Tackle",
+            "minuto": 8,
+            "segundo": 19,
+            "x": 66.2,
+            "y": 17.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Romano Floriani Mussolini",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 32,
+            "x": 71.7,
+            "y": 0.0,
+            "endX": 89.7,
+            "endY": 14.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Reda Belahyane",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 38,
+            "x": 89.7,
+            "y": 14.8,
+            "endX": 71.5,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Reda Belahyane",
             "tipo": "ShieldBallOpp",
             "minuto": 8,
@@ -564,7 +597,12 @@
             "endY": 42.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Strahinja Pavlovic",
+          "portero": false
+        }
       },
       {
         "minuto": 20,

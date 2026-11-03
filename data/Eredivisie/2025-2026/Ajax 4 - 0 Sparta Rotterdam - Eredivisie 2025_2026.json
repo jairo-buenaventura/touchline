@@ -467,6 +467,28 @@
         "arco_z": 34.8,
         "secuencia_gol": [
           {
+            "jugador": "Takehiro Tomiyasu",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 15,
+            "x": 95.3,
+            "y": 73.3,
+            "endX": 91.3,
+            "endY": 46.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sean Steur",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 17,
+            "x": 91.3,
+            "y": 46.0,
+            "endX": 88.4,
+            "endY": 61.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Sean Steur",
             "tipo": "Pass",
             "minuto": 31,
@@ -477,7 +499,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Teo Quintero",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -570,6 +597,17 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Mika Godts",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 10,
+            "x": 65.8,
+            "y": 96.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Lucas Rosa",
             "tipo": "Pass",
             "minuto": 72,
@@ -602,7 +640,12 @@
             "endY": 72.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Shurandy Sambo",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -614,6 +657,39 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Kasper Dolberg",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 39,
+            "x": 28.8,
+            "y": 32.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kasper Dolberg",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 39,
+            "x": 31.6,
+            "y": 37.3,
+            "endX": 61.6,
+            "endY": 40.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mika Godts",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 45,
+            "x": 61.6,
+            "y": 40.0,
+            "endX": 70.8,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Mika Godts",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -624,7 +700,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shurandy Sambo",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

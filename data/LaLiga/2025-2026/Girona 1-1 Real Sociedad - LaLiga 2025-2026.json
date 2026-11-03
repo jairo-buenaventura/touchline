@@ -595,6 +595,83 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 45,
+            "x": 66.7,
+            "y": 26.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 45,
+            "x": 66.7,
+            "y": 26.1,
+            "endX": 63.3,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran Beltrán",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 47,
+            "x": 63.3,
+            "y": 41.8,
+            "endX": 64.6,
+            "endY": 47.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fran Beltrán",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 47,
+            "x": 64.6,
+            "y": 47.0,
+            "endX": 67.6,
+            "endY": 87.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 67.6,
+            "y": 87.5,
+            "endX": 75.1,
+            "endY": 87.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Moreno",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 50,
+            "x": 75.1,
+            "y": 87.3,
+            "endX": 96.7,
+            "endY": 49.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thomas Lemar",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 59,
+            "x": 96.7,
+            "y": 49.7,
+            "endX": 68.3,
+            "endY": 21.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Thomas Lemar",
             "tipo": "Pass",
             "minuto": 64,
@@ -649,7 +726,12 @@
             "endY": 45.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Álex Remiro",
+          "portero": true
+        }
       },
       {
         "minuto": 68,
@@ -5299,7 +5381,24 @@
         "y": 49.0,
         "arco_y": 46.8,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jon Martín",
+            "tipo": "Aerial",
+            "minuto": 27,
+            "segundo": 42,
+            "x": 91.4,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Axel Witsel",
+          "portero": false
+        }
       },
       {
         "minuto": 54,

@@ -523,6 +523,28 @@
         "secuencia_gol": [
           {
             "jugador": "Chidozie Awaziem",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 40,
+            "x": 96.8,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidozie Awaziem",
+            "tipo": "SavedShot",
+            "minuto": 52,
+            "segundo": 40,
+            "x": 95.8,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidozie Awaziem",
             "tipo": "BallTouch",
             "minuto": 52,
             "segundo": 41,
@@ -532,7 +554,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jeppe Tverskov",
+          "portero": true
+        }
       },
       {
         "minuto": 59,
@@ -4647,6 +4674,94 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Jeppe Tverskov",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 14,
+            "x": 38.1,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeppe Tverskov",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 15,
+            "x": 37.0,
+            "y": 40.7,
+            "endX": 58.5,
+            "endY": 37.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Ángel",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 16,
+            "x": 58.4,
+            "y": 37.3,
+            "endX": 47.2,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 47.2,
+            "y": 19.2,
+            "endX": 50.6,
+            "endY": 21.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milan Iloski",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 50.6,
+            "y": 21.8,
+            "endX": 69.9,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Mighten",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 28,
+            "x": 69.9,
+            "y": 89.6,
+            "endX": 89.0,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Mighten",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 28,
+            "x": 89.0,
+            "y": 72.1,
+            "endX": 88.9,
+            "endY": 68.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anders Dreyer",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 29,
+            "x": 88.9,
+            "y": 68.8,
+            "endX": 85.7,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Anders Dreyer",
             "tipo": "Pass",
             "minuto": 88,
@@ -4657,7 +4772,12 @@
             "endY": 65.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Keegan Rosenberry",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

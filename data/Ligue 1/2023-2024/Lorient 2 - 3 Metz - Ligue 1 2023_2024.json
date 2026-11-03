@@ -400,6 +400,61 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Tiémoué Bakayoko",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 40,
+            "x": 41.1,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tiémoué Bakayoko",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 41,
+            "x": 43.8,
+            "y": 53.1,
+            "endX": 48.2,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Siriné Doucouré",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 43,
+            "x": 48.2,
+            "y": 34.9,
+            "endX": 48.7,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Siriné Doucouré",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 43,
+            "x": 48.7,
+            "y": 38.8,
+            "endX": 50.5,
+            "endY": 13.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Faivre",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 48,
+            "x": 50.5,
+            "y": 13.1,
+            "endX": 58.7,
+            "endY": 0.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Romain Faivre",
             "tipo": "TakeOn",
             "minuto": 6,
@@ -476,7 +531,12 @@
             "endY": 35.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cheikh Sabaly",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -5318,6 +5378,17 @@
         "secuencia_gol": [
           {
             "jugador": "Matthieu Udol",
+            "tipo": "Aerial",
+            "minuto": 64,
+            "segundo": 41,
+            "x": 94.7,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthieu Udol",
             "tipo": "Pass",
             "minuto": 64,
             "segundo": 41,
@@ -5327,7 +5398,12 @@
             "endY": 56.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Julien Laporte",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

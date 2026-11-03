@@ -435,7 +435,24 @@
         "y": 57.1,
         "arco_y": 52.9,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Martín Rodríguez",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 56,
+            "x": 82.5,
+            "y": 16.7,
+            "endX": 93.0,
+            "endY": 52.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Aimé Mabika",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4127,6 +4144,17 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Aimé Mabika",
+            "tipo": "BallTouch",
+            "minuto": 38,
+            "segundo": 12,
+            "x": 91.8,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Campana",
             "tipo": "TakeOn",
             "minuto": 38,
@@ -4137,7 +4165,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Steven Birnbaum",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4166,6 +4199,17 @@
         "arco_y": 46.3,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Alejandro Pozuelo",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 24,
+            "x": 31.2,
+            "y": 40.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Alejandro Pozuelo",
             "tipo": "TakeOn",
@@ -4298,7 +4342,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ravel Morrison",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

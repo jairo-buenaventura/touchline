@@ -393,7 +393,24 @@
         "y": 50.5,
         "arco_y": 52.9,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Michiel Kramer",
+            "tipo": "Aerial",
+            "minuto": 9,
+            "segundo": 39,
+            "x": 92.6,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Shurandy Sambo",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4741,6 +4758,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tobias Lauritsen",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 36,
+            "x": 87.0,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tobias Lauritsen",
             "tipo": "Pass",
             "minuto": 34,
             "segundo": 36,
@@ -4750,7 +4778,12 @@
             "endY": 56.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pelle Clement",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -4789,6 +4822,39 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Vito van Crooij",
+            "tipo": "CornerAwarded",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 94.6,
+            "y": 59.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 37,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.8,
+            "endY": 52.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 43,
+            "x": 95.8,
+            "y": 52.1,
+            "endX": 64.3,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Younes Namli",
             "tipo": "BallTouch",
             "minuto": 74,
@@ -4821,7 +4887,12 @@
             "endY": 57.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Etienne Vaessen",
+          "portero": true
+        }
       },
       {
         "minuto": 91,

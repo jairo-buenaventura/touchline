@@ -575,6 +575,72 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Patrick Schulte",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 39,
+            "x": 5.8,
+            "y": 56.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Schulte",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 40,
+            "x": 5.8,
+            "y": 56.3,
+            "endX": 16.3,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malte Amundsen",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 43,
+            "x": 16.7,
+            "y": 90.8,
+            "endX": 18.5,
+            "endY": 90.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Malte Amundsen",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 45,
+            "x": 18.5,
+            "y": 90.6,
+            "endX": 23.2,
+            "endY": 97.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malte Amundsen",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 45,
+            "x": 23.2,
+            "y": 97.8,
+            "endX": 33.5,
+            "endY": 95.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yaw Yeboah",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 47,
+            "x": 33.5,
+            "y": 95.7,
+            "endX": 31.8,
+            "endY": 88.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Yaw Yeboah",
             "tipo": "TakeOn",
             "minuto": 46,
@@ -618,7 +684,12 @@
             "endY": 65.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thiago Almada",
+          "portero": false
+        }
       },
       {
         "minuto": 52,
@@ -4755,6 +4826,50 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Thiago Almada",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 45.5,
+            "y": 23.1,
+            "endX": 43.2,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Caleb Wiley",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 52,
+            "x": 43.2,
+            "y": 70.6,
+            "endX": 44.7,
+            "endY": 74.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Caleb Wiley",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 52,
+            "x": 44.7,
+            "y": 74.4,
+            "endX": 45.9,
+            "endY": 74.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Abram",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 55,
+            "x": 45.9,
+            "y": 74.4,
+            "endX": 32.3,
+            "endY": 76.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Abram",
             "tipo": "Pass",
             "minuto": 48,
@@ -4820,7 +4935,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Mohamed Farsi",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

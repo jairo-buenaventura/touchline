@@ -4386,6 +4386,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Tasos Douvikas",
+            "tipo": "BallRecovery",
+            "minuto": 10,
+            "segundo": 49,
+            "x": 63.7,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tasos Douvikas",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 51,
+            "x": 71.1,
+            "y": 49.2,
+            "endX": 78.5,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mërgim Vojvoda",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 54,
+            "x": 78.5,
+            "y": 25.4,
+            "endX": 85.1,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Mërgim Vojvoda",
             "tipo": "TakeOn",
             "minuto": 10,
@@ -4396,7 +4429,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Teun Koopmeiners",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

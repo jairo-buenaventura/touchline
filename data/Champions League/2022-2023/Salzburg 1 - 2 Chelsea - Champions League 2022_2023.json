@@ -3861,6 +3861,28 @@
         "arco_z": 34.2,
         "secuencia_gol": [
           {
+            "jugador": "Kepa Arrizabalaga",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 33,
+            "x": 4.1,
+            "y": 47.3,
+            "endX": 69.7,
+            "endY": 87.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marc Cucurella",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 44,
+            "x": 69.7,
+            "y": 87.1,
+            "endX": 39.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Marc Cucurella",
             "tipo": "Pass",
             "minuto": 62,
@@ -4102,7 +4124,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Amar Dedic",
+          "portero": false
+        }
       },
       {
         "minuto": 73,

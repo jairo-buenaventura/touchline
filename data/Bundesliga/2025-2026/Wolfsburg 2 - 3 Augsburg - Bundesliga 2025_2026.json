@@ -452,6 +452,39 @@
         "arco_z": 13.9,
         "secuencia_gol": [
           {
+            "jugador": "Saël Kumbedi",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 49,
+            "x": 13.9,
+            "y": 26.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saël Kumbedi",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 51,
+            "x": 21.1,
+            "y": 21.1,
+            "endX": 32.9,
+            "endY": 18.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Daghim",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 52,
+            "x": 32.9,
+            "y": 18.0,
+            "endX": 41.3,
+            "endY": 22.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Daghim",
             "tipo": "TakeOn",
             "minuto": 69,
@@ -495,7 +528,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Elvis Rexhbeçaj",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -4690,7 +4728,68 @@
         "y": 35.2,
         "arco_y": 47.7,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kristijan Jakic",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 30,
+            "x": 58.5,
+            "y": 28.9,
+            "endX": 70.2,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Ribeiro",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 31,
+            "x": 70.2,
+            "y": 25.6,
+            "endX": 63.4,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Fellhauer",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 34,
+            "x": 63.4,
+            "y": 25.4,
+            "endX": 67.6,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabian Rieder",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 35,
+            "x": 67.6,
+            "y": 31.5,
+            "endX": 66.6,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Claude-Maurice",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 35,
+            "x": 68.0,
+            "y": 52.8,
+            "endX": 78.4,
+            "endY": 39.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Yannick Gerhardt",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

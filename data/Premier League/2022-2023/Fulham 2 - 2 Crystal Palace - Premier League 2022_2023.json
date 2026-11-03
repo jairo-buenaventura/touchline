@@ -4004,6 +4004,50 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Joel Ward",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 43,
+            "x": 19.4,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joel Ward",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 45,
+            "x": 23.1,
+            "y": 73.2,
+            "endX": 26.7,
+            "endY": 84.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 47,
+            "x": 26.7,
+            "y": 84.4,
+            "endX": 33.4,
+            "endY": 83.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eberechi Eze",
+            "tipo": "TakeOn",
+            "minuto": 33,
+            "segundo": 47,
+            "x": 33.4,
+            "y": 83.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Eberechi Eze",
             "tipo": "Pass",
             "minuto": 33,
@@ -4014,7 +4058,12 @@
             "endY": 66.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tom Cairney",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -4078,7 +4127,24 @@
         "y": 49.9,
         "arco_y": 48.2,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joel Ward",
+            "tipo": "SavedShot",
+            "minuto": 82,
+            "segundo": 37,
+            "x": 91.7,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Bernd Leno",
+          "portero": true
+        }
       },
       {
         "minuto": 85,

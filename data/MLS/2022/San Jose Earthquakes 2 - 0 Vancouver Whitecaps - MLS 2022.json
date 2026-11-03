@@ -375,6 +375,83 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Nathan",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 29.7,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nathan",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 8,
+            "x": 29.7,
+            "y": 35.6,
+            "endX": 31.9,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigues",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 11,
+            "x": 31.9,
+            "y": 10.9,
+            "endX": 45.0,
+            "endY": 34.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Remedi",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 14,
+            "x": 45.0,
+            "y": 34.6,
+            "endX": 44.0,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Remedi",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 14,
+            "x": 44.0,
+            "y": 38.6,
+            "endX": 34.6,
+            "endY": 76.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanner Beason",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 17,
+            "x": 35.1,
+            "y": 73.7,
+            "endX": 62.7,
+            "endY": 88.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cade Cowell",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 22,
+            "x": 62.7,
+            "y": 88.1,
+            "endX": 68.2,
+            "endY": 86.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Cade Cowell",
             "tipo": "TakeOn",
             "minuto": 3,
@@ -407,7 +484,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Javain Brown",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -427,6 +509,61 @@
         "arco_y": 47.6,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 4,
+            "x": 34.4,
+            "y": 92.4,
+            "endX": 32.8,
+            "endY": 90.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tanner Beason",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 16,
+            "x": 32.8,
+            "y": 90.6,
+            "endX": 38.3,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tanner Beason",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 16,
+            "x": 38.3,
+            "y": 100.0,
+            "endX": 44.1,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 17,
+            "x": 44.2,
+            "y": 92.7,
+            "endX": 43.7,
+            "endY": 93.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "BallTouch",
+            "minuto": 33,
+            "segundo": 17,
+            "x": 43.6,
+            "y": 93.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Tanner Beason",
             "tipo": "Pass",
@@ -482,7 +619,12 @@
             "endY": 61.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alessandro Schöpf",
+          "portero": false
+        }
       },
       {
         "minuto": 36,

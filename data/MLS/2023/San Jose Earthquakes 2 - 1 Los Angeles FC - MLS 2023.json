@@ -381,6 +381,28 @@
         "secuencia_gol": [
           {
             "jugador": "Jackson Yueill",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 56,
+            "x": 43.0,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jackson Yueill",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 57,
+            "x": 43.2,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jackson Yueill",
             "tipo": "Pass",
             "minuto": 7,
             "segundo": 0,
@@ -467,7 +489,12 @@
             "endY": 37.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergi Palencia",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -4350,7 +4377,112 @@
         "y": 38.9,
         "arco_y": 51.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ilie Sánchez",
+            "tipo": "BallRecovery",
+            "minuto": 29,
+            "segundo": 3,
+            "x": 31.1,
+            "y": 8.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilie Sánchez",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 3,
+            "x": 31.1,
+            "y": 8.3,
+            "endX": 33.4,
+            "endY": 4.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlos Vela",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 4,
+            "x": 34.8,
+            "y": 4.7,
+            "endX": 37.5,
+            "endY": 32.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 7,
+            "x": 37.5,
+            "y": 32.4,
+            "endX": 37.6,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Cifuentes",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 7,
+            "x": 37.6,
+            "y": 37.0,
+            "endX": 46.8,
+            "endY": 64.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 11,
+            "x": 46.8,
+            "y": 64.5,
+            "endX": 58.1,
+            "endY": 66.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 11,
+            "x": 58.1,
+            "y": 66.7,
+            "endX": 82.2,
+            "endY": 93.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 19,
+            "x": 82.2,
+            "y": 93.9,
+            "endX": 77.5,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "SavedShot",
+            "minuto": 29,
+            "segundo": 19,
+            "x": 77.5,
+            "y": 69.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "JT Marcinkowski",
+          "portero": true
+        }
       },
       {
         "minuto": 35,

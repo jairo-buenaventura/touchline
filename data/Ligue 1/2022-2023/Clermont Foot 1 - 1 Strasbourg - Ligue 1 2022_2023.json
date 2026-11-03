@@ -446,7 +446,79 @@
         "y": 59.8,
         "arco_y": 54.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Elbasan Rashani",
+            "tipo": "BallRecovery",
+            "minuto": 64,
+            "segundo": 21,
+            "x": 61.5,
+            "y": 84.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elbasan Rashani",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 23,
+            "x": 65.2,
+            "y": 86.7,
+            "endX": 85.4,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neto Borges",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 26,
+            "x": 85.4,
+            "y": 91.0,
+            "endX": 85.3,
+            "endY": 78.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Neto Borges",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 26,
+            "x": 85.3,
+            "y": 78.0,
+            "endX": 87.9,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saîf-Eddine Khaoui",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 28,
+            "x": 87.9,
+            "y": 52.0,
+            "endX": 88.6,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saîf-Eddine Khaoui",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 28,
+            "x": 88.6,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maxime Le Marchand",
+          "portero": true
+        }
       },
       {
         "minuto": 69,
@@ -4599,6 +4671,39 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 16,
+            "x": 38.3,
+            "y": 26.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frédéric Guilbert",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 18,
+            "x": 45.2,
+            "y": 35.6,
+            "endX": 37.4,
+            "endY": 24.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ismaël Doukouré",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 22,
+            "x": 37.4,
+            "y": 24.4,
+            "endX": 36.0,
+            "endY": 29.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Ismaël Doukouré",
             "tipo": "Pass",
             "minuto": 33,
@@ -4752,7 +4857,12 @@
             "endY": 49.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Maxime Gonalons",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

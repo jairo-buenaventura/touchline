@@ -435,7 +435,68 @@
         "y": 44.9,
         "arco_y": 54.5,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "José Ángel Carmona",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 3,
+            "x": 45.0,
+            "y": 0.0,
+            "endX": 74.1,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 8,
+            "x": 74.1,
+            "y": 8.8,
+            "endX": 92.6,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Pass",
+            "minuto": 21,
+            "segundo": 8,
+            "x": 92.6,
+            "y": 17.6,
+            "endX": 92.3,
+            "endY": 22.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Carry",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 92.3,
+            "y": 22.9,
+            "endX": 86.6,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 10,
+            "x": 86.6,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Lucas Ahijado",
+          "portero": true
+        }
       },
       {
         "minuto": 25,
@@ -483,6 +544,138 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 18,
+            "x": 89.1,
+            "y": 100.0,
+            "endX": 96.9,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 20,
+            "x": 97.1,
+            "y": 85.9,
+            "endX": 85.9,
+            "endY": 87.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Bueno",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 22,
+            "x": 83.6,
+            "y": 88.9,
+            "endX": 73.3,
+            "endY": 80.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Batista Mendy",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 25,
+            "x": 73.2,
+            "y": 83.2,
+            "endX": 72.5,
+            "endY": 90.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Bueno",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 26,
+            "x": 72.5,
+            "y": 90.4,
+            "endX": 69.4,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Bueno",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 26,
+            "x": 69.4,
+            "y": 80.1,
+            "endX": 66.5,
+            "endY": 45.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Ángel Carmona",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 66.5,
+            "y": 45.6,
+            "endX": 69.5,
+            "endY": 39.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Ángel Carmona",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 31,
+            "x": 69.5,
+            "y": 39.3,
+            "endX": 70.2,
+            "endY": 26.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 70.2,
+            "y": 26.2,
+            "endX": 72.8,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucien Agoumé",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 33,
+            "x": 72.8,
+            "y": 33.6,
+            "endX": 86.6,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Akor Adams",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 35,
+            "x": 86.9,
+            "y": 36.6,
+            "endX": 85.9,
+            "endY": 40.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Batista Mendy",
+            "tipo": "Carry",
+            "minuto": 50,
+            "segundo": 36,
+            "x": 85.9,
+            "y": 40.8,
+            "endX": 89.1,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Batista Mendy",
             "tipo": "TakeOn",
             "minuto": 50,
@@ -493,7 +686,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "David Costas",
+          "portero": false
+        }
       },
       {
         "minuto": 63,
@@ -532,6 +730,61 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "José Ángel Carmona",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 1,
+            "x": 37.0,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "José Ángel Carmona",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 2,
+            "x": 37.0,
+            "y": 51.1,
+            "endX": 35.9,
+            "endY": 72.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 5,
+            "x": 35.9,
+            "y": 72.8,
+            "endX": 54.8,
+            "endY": 73.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oso",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 5,
+            "x": 54.8,
+            "y": 73.6,
+            "endX": 75.2,
+            "endY": 93.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chidera Ejuke",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 14,
+            "x": 75.2,
+            "y": 93.4,
+            "endX": 94.8,
+            "endY": 71.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Chidera Ejuke",
             "tipo": "TakeOn",
             "minuto": 88,
@@ -542,7 +795,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Josip Brekalo",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -410,6 +410,17 @@
         "secuencia_gol": [
           {
             "jugador": "Carlton Morris",
+            "tipo": "Aerial",
+            "minuto": 0,
+            "segundo": 17,
+            "x": 94.3,
+            "y": 55.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carlton Morris",
             "tipo": "MissedShots",
             "minuto": 0,
             "segundo": 17,
@@ -419,7 +430,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pascal Groß",
+          "portero": false
+        }
       },
       {
         "minuto": 2,
@@ -596,7 +612,24 @@
         "y": 52.4,
         "arco_y": 52.4,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Alfie Doughty",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 90.3,
+            "endY": 41.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "João Pedro",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

@@ -4861,6 +4861,17 @@
         "secuencia_gol": [
           {
             "jugador": "Charles De Ketelaere",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 50,
+            "x": 74.6,
+            "y": 17.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles De Ketelaere",
             "tipo": "TakeOn",
             "minuto": 50,
             "segundo": 53,
@@ -4881,7 +4892,12 @@
             "endY": 49.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maximilian Mittelstädt",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

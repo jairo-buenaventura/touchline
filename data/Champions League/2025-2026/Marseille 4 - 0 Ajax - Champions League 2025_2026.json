@@ -645,6 +645,72 @@
         "secuencia_gol": [
           {
             "jugador": "Igor Paixão",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 36,
+            "x": 10.2,
+            "y": 69.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 36,
+            "x": 10.3,
+            "y": 70.3,
+            "endX": 19.7,
+            "endY": 86.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mason Greenwood",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 37,
+            "x": 18.7,
+            "y": 86.3,
+            "endX": 31.4,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 41,
+            "x": 31.4,
+            "y": 70.3,
+            "endX": 54.7,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arthur Vermeeren",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 41,
+            "x": 54.7,
+            "y": 72.0,
+            "endX": 55.8,
+            "endY": 70.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 45,
+            "x": 55.8,
+            "y": 70.1,
+            "endX": 76.5,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
             "tipo": "Pass",
             "minuto": 51,
             "segundo": 45,
@@ -654,7 +720,12 @@
             "endY": 43.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Youri Baas",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

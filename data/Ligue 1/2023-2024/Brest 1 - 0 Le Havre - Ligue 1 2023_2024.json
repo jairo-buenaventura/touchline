@@ -407,6 +407,83 @@
         "arco_z": 24.1,
         "secuencia_gol": [
           {
+            "jugador": "Hugo Magnetti",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 23,
+            "x": 70.9,
+            "y": 9.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Magnetti",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 24,
+            "x": 70.3,
+            "y": 10.9,
+            "endX": 68.4,
+            "endY": 33.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 27,
+            "x": 68.4,
+            "y": 33.9,
+            "endX": 75.9,
+            "endY": 37.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 27,
+            "x": 75.9,
+            "y": 37.5,
+            "endX": 94.3,
+            "endY": 12.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Del Castillo",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 32,
+            "x": 94.3,
+            "y": 12.9,
+            "endX": 96.3,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romain Del Castillo",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 32,
+            "x": 96.3,
+            "y": 10.4,
+            "endX": 97.1,
+            "endY": 28.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mathias Pereira Lage",
+            "tipo": "BallTouch",
+            "minuto": 33,
+            "segundo": 33,
+            "x": 96.3,
+            "y": 29.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mathias Pereira Lage",
             "tipo": "Pass",
             "minuto": 33,
@@ -417,7 +494,12 @@
             "endY": 41.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gautier Lloris",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

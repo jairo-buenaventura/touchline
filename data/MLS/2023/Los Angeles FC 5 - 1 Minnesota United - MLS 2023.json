@@ -409,6 +409,17 @@
         "arco_z": 20.9,
         "secuencia_gol": [
           {
+            "jugador": "Carlos Vela",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 0,
+            "x": 80.4,
+            "y": 36.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Ilie Sánchez",
             "tipo": "Pass",
             "minuto": 5,
@@ -441,7 +452,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kervin Arriaga",
+          "portero": false
+        }
       },
       {
         "minuto": 9,
@@ -627,7 +643,35 @@
         "y": 33.0,
         "arco_y": 46.1,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Diego Palacios",
+            "tipo": "CornerAwarded",
+            "minuto": 44,
+            "segundo": 30,
+            "x": 93.5,
+            "y": 77.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateusz Bogusz",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 0,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 93.5,
+            "endY": 56.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Michael Boxall",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -5281,7 +5325,90 @@
         "y": 48.2,
         "arco_y": 47.6,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 57,
+            "x": 38.2,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 1,
+            "x": 67.5,
+            "y": 49.1,
+            "endX": 74.7,
+            "endY": 60.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Teemu Pukki",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 3,
+            "x": 75.8,
+            "y": 59.4,
+            "endX": 75.0,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 75.0,
+            "y": 31.6,
+            "endX": 77.6,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bongokuhle Hlongwane",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 5,
+            "x": 77.6,
+            "y": 33.3,
+            "endX": 91.6,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "TakeOn",
+            "minuto": 3,
+            "segundo": 7,
+            "x": 90.9,
+            "y": 31.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuel Reynoso",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 9,
+            "x": 98.0,
+            "y": 36.6,
+            "endX": 96.9,
+            "endY": 43.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maxime Crépeau",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

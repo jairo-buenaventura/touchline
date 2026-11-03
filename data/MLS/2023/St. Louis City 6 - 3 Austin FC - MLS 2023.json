@@ -402,7 +402,24 @@
         "y": 49.7,
         "arco_y": 46.6,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tim Parker",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 16,
+            "x": 89.6,
+            "y": 47.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Matt Hedges",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -481,7 +498,79 @@
         "y": 54.3,
         "arco_y": 47.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rasmus Alm",
+            "tipo": "BallRecovery",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 13.6,
+            "y": 10.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Alm",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 48,
+            "x": 16.4,
+            "y": 9.1,
+            "endX": 33.9,
+            "endY": 12.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aziel Jackson",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 52,
+            "x": 32.8,
+            "y": 14.0,
+            "endX": 70.2,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Alm",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 58,
+            "x": 70.2,
+            "y": 23.9,
+            "endX": 84.8,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Alm",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 58,
+            "x": 84.8,
+            "y": 28.3,
+            "endX": 94.0,
+            "endY": 54.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicholas Gioacchini",
+            "tipo": "SavedShot",
+            "minuto": 48,
+            "segundo": 59,
+            "x": 95.2,
+            "y": 53.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Brad Stuver",
+          "portero": true
+        }
       },
       {
         "minuto": 62,
@@ -509,7 +598,35 @@
         "y": 67.0,
         "arco_y": 46.4,
         "arco_z": 28.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 35,
+            "x": 45.8,
+            "y": 82.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 35,
+            "x": 43.0,
+            "y": 83.3,
+            "endX": 47.2,
+            "endY": 84.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nick Lima",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -4394,7 +4511,134 @@
         "y": 43.9,
         "arco_y": 46.7,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Julio Cascante",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 55,
+            "x": 47.4,
+            "y": 0.0,
+            "endX": 46.6,
+            "endY": 42.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 59,
+            "x": 46.6,
+            "y": 42.3,
+            "endX": 47.8,
+            "endY": 45.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 59,
+            "x": 47.8,
+            "y": 45.7,
+            "endX": 60.7,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 3,
+            "x": 60.7,
+            "y": 67.2,
+            "endX": 66.1,
+            "endY": 80.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 3,
+            "x": 66.1,
+            "y": 80.8,
+            "endX": 80.3,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gallagher",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 6,
+            "x": 80.3,
+            "y": 92.3,
+            "endX": 79.2,
+            "endY": 86.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jon Gallagher",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 6,
+            "x": 79.2,
+            "y": 86.6,
+            "endX": 72.1,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 70.8,
+            "y": 89.4,
+            "endX": 71.5,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Pereira",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 9,
+            "x": 71.5,
+            "y": 79.3,
+            "endX": 74.6,
+            "endY": 80.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 74.6,
+            "y": 80.0,
+            "endX": 79.4,
+            "endY": 62.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sebastián Driussi",
+            "tipo": "SavedShot",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 79.4,
+            "y": 62.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Joakim Nilsson",
+          "portero": true
+        }
       }
     ],
     "corners": [

@@ -4616,6 +4616,17 @@
         "secuencia_gol": [
           {
             "jugador": "Milos Kerkez",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 16,
+            "x": 52.2,
+            "y": 68.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Milos Kerkez",
             "tipo": "TakeOn",
             "minuto": 41,
             "segundo": 19,
@@ -4625,7 +4636,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oguzhan Özyakup",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

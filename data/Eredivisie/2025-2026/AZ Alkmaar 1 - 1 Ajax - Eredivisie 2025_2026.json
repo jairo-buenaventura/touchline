@@ -422,7 +422,35 @@
         "y": 47.0,
         "arco_y": 48.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Isak Jensen",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 87.9,
+            "y": 58.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mateo Chávez",
+            "tipo": "SavedShot",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 85.4,
+            "y": 59.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Vítezslav Jaros",
+          "portero": true
+        }
       },
       {
         "minuto": 60,
@@ -4133,6 +4161,39 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Wout Weghorst",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 50,
+            "x": 90.6,
+            "y": 31.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 51,
+            "x": 90.6,
+            "y": 31.5,
+            "endX": 89.4,
+            "endY": 49.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Josip Sutalo",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 58,
+            "x": 89.4,
+            "y": 49.5,
+            "endX": 62.5,
+            "endY": 17.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Josip Sutalo",
             "tipo": "Pass",
             "minuto": 91,
@@ -4198,7 +4259,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wouter Goes",
+          "portero": false
+        }
       }
     ],
     "corners": [

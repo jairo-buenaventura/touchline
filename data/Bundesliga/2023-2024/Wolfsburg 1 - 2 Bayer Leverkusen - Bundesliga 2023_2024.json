@@ -446,6 +446,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Maximilian Arnold",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 14,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 86.8,
+            "endY": 42.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mattias Svanberg",
+            "tipo": "Carry",
+            "minuto": 40,
+            "segundo": 18,
+            "x": 86.8,
+            "y": 42.8,
+            "endX": 77.5,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattias Svanberg",
+            "tipo": "MissedShots",
+            "minuto": 40,
+            "segundo": 18,
+            "x": 77.5,
+            "y": 59.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Moritz Jenz",
             "tipo": "Pass",
             "minuto": 40,
@@ -456,7 +489,12 @@
             "endY": 41.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jonathan Tah",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4449,6 +4487,50 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Florian Wirtz",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 26,
+            "x": 74.8,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Wirtz",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 27,
+            "x": 74.8,
+            "y": 44.2,
+            "endX": 71.5,
+            "endY": 33.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josip Stanisic",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 28,
+            "x": 71.5,
+            "y": 33.4,
+            "endX": 81.8,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeremie Frimpong",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 31,
+            "x": 81.8,
+            "y": 30.7,
+            "endX": 94.4,
+            "endY": 34.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Jeremie Frimpong",
             "tipo": "TakeOn",
             "minuto": 61,
@@ -4470,7 +4552,12 @@
             "endY": 60.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxence Lacroix",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

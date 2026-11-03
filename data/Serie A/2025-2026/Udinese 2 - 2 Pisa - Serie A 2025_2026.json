@@ -4246,6 +4246,17 @@
         "secuencia_gol": [
           {
             "jugador": "Michel Aebischer",
+            "tipo": "TakeOn",
+            "minuto": 12,
+            "segundo": 47,
+            "x": 68.4,
+            "y": 72.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Aebischer",
             "tipo": "Pass",
             "minuto": 12,
             "segundo": 48,
@@ -4255,7 +4266,12 @@
             "endY": 87.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Hassane Kamara",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4328,7 +4344,57 @@
         "y": 48.8,
         "arco_y": 47.7,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Henrik Meister",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 58,
+            "x": 62.5,
+            "y": 54.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Henrik Meister",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 1,
+            "x": 62.5,
+            "y": 54.5,
+            "endX": 70.3,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattéo Tramoni",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 4,
+            "x": 70.7,
+            "y": 82.1,
+            "endX": 92.4,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriele Piccinini",
+            "tipo": "SavedShot",
+            "minuto": 66,
+            "segundo": 6,
+            "x": 93.1,
+            "y": 50.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maduka Okoye",
+          "portero": true
+        }
       },
       {
         "minuto": 75,

@@ -919,6 +919,94 @@
           {
             "jugador": "Joshua Kimmich",
             "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 12,
+            "x": 89.1,
+            "y": 0.0,
+            "endX": 69.0,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "BallTouch",
+            "minuto": 64,
+            "segundo": 13,
+            "x": 69.0,
+            "y": 8.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 16,
+            "x": 62.3,
+            "y": 70.2,
+            "endX": 57.7,
+            "endY": 25.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 20,
+            "x": 57.7,
+            "y": 25.6,
+            "endX": 62.8,
+            "endY": 20.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 20,
+            "x": 62.8,
+            "y": 20.6,
+            "endX": 68.4,
+            "endY": 4.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 23,
+            "x": 68.4,
+            "y": 4.6,
+            "endX": 71.8,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 23,
+            "x": 71.8,
+            "y": 5.2,
+            "endX": 87.8,
+            "endY": 38.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 4,
+            "x": 87.8,
+            "y": 38.6,
+            "endX": 87.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
             "minuto": 65,
             "segundo": 4,
             "x": 87.3,
@@ -1125,7 +1213,12 @@
             "endY": 46.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sepp van den Berg",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -1153,7 +1246,35 @@
         "y": 46.4,
         "arco_y": 46.1,
         "arco_z": 24.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Eric Dier",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 19,
+            "x": 91.8,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Dier",
+            "tipo": "SavedShot",
+            "minuto": 69,
+            "segundo": 19,
+            "x": 90.6,
+            "y": 54.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Robin Zentner",
+          "portero": true
+        }
       },
       {
         "minuto": 88,

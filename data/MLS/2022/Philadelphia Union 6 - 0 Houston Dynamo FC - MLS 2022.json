@@ -536,6 +536,94 @@
         "arco_z": 27.8,
         "secuencia_gol": [
           {
+            "jugador": "Jack Elliott",
+            "tipo": "Pass",
+            "minuto": 43,
+            "segundo": 57,
+            "x": 36.4,
+            "y": 64.2,
+            "endX": 41.0,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 6,
+            "x": 41.0,
+            "y": 34.3,
+            "endX": 61.3,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 6,
+            "x": 61.3,
+            "y": 32.2,
+            "endX": 66.5,
+            "endY": 61.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 9,
+            "x": 66.5,
+            "y": 61.8,
+            "endX": 69.1,
+            "endY": 63.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 9,
+            "x": 69.1,
+            "y": 63.9,
+            "endX": 75.3,
+            "endY": 54.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 9,
+            "x": 75.3,
+            "y": 54.8,
+            "endX": 83.5,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julián Carranza",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 12,
+            "x": 84.1,
+            "y": 65.2,
+            "endX": 90.9,
+            "endY": 51.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jack McGlynn",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 16,
+            "x": 90.9,
+            "y": 51.2,
+            "endX": 76.7,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Jack McGlynn",
             "tipo": "Pass",
             "minuto": 44,
@@ -788,7 +876,12 @@
             "endY": 48.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Daniel Steres",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -1072,6 +1165,17 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Cory Burke",
+            "tipo": "Tackle",
+            "minuto": 88,
+            "segundo": 7,
+            "x": 86.9,
+            "y": 38.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Jack McGlynn",
             "tipo": "Pass",
             "minuto": 88,
@@ -1082,7 +1186,12 @@
             "endY": 38.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Héctor Herrera",
+          "portero": false
+        }
       }
     ],
     "corners": [

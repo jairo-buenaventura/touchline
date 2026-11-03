@@ -589,6 +589,72 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Andrei Ratiu",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 15,
+            "x": 39.2,
+            "y": 9.2,
+            "endX": 36.0,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Lejeune",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 15,
+            "x": 35.7,
+            "y": 20.8,
+            "endX": 39.0,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pathé Ciss",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 16,
+            "x": 39.1,
+            "y": 33.1,
+            "endX": 36.4,
+            "endY": 13.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Lejeune",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 36.4,
+            "y": 12.6,
+            "endX": 54.8,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrei Ratiu",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 20,
+            "x": 54.9,
+            "y": 6.0,
+            "endX": 57.5,
+            "endY": 15.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jorge de Frutos",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 23,
+            "x": 57.5,
+            "y": 15.8,
+            "endX": 68.9,
+            "endY": 34.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Jorge de Frutos",
             "tipo": "Pass",
             "minuto": 71,
@@ -643,7 +709,12 @@
             "endY": 78.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sergio Gómez",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4942,7 +5013,57 @@
         "y": 41.5,
         "arco_y": 51.9,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Arkaitz Mariezkurrena",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 7,
+            "x": 69.8,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arkaitz Mariezkurrena",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 7,
+            "x": 70.7,
+            "y": 48.7,
+            "endX": 90.4,
+            "endY": 23.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takefusa Kubo",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 12,
+            "x": 90.4,
+            "y": 23.0,
+            "endX": 95.0,
+            "endY": 30.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takefusa Kubo",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 12,
+            "x": 95.0,
+            "y": 30.4,
+            "endX": 96.7,
+            "endY": 45.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Augusto Batalla",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

@@ -398,6 +398,39 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Nicolas Seiwald",
+            "tipo": "BallRecovery",
+            "minuto": 19,
+            "segundo": 13,
+            "x": 57.2,
+            "y": 31.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Seiwald",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 14,
+            "x": 57.2,
+            "y": 31.0,
+            "endX": 71.2,
+            "endY": 45.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Stefan Posch",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 25,
+            "x": 71.2,
+            "y": 45.0,
+            "endX": 64.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Stefan Posch",
             "tipo": "Pass",
             "minuto": 19,
@@ -595,7 +628,12 @@
             "endY": 59.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yazan Al Arab",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

@@ -4012,6 +4012,149 @@
             "jugador": "Kieran Trippier",
             "tipo": "Pass",
             "minuto": 1,
+            "segundo": 13,
+            "x": 45.6,
+            "y": 0.0,
+            "endX": 46.7,
+            "endY": 7.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 18,
+            "x": 46.7,
+            "y": 7.3,
+            "endX": 37.5,
+            "endY": 40.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Willock",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 18,
+            "x": 37.5,
+            "y": 40.6,
+            "endX": 38.1,
+            "endY": 67.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 21,
+            "x": 38.1,
+            "y": 67.0,
+            "endX": 40.7,
+            "endY": 77.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 21,
+            "x": 40.7,
+            "y": 77.5,
+            "endX": 56.9,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 26,
+            "x": 56.9,
+            "y": 91.4,
+            "endX": 45.6,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "TakeOn",
+            "minuto": 1,
+            "segundo": 26,
+            "x": 45.6,
+            "y": 94.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 28,
+            "x": 55.2,
+            "y": 94.5,
+            "endX": 58.0,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 31,
+            "x": 58.0,
+            "y": 95.6,
+            "endX": 45.4,
+            "endY": 90.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 31,
+            "x": 45.4,
+            "y": 90.8,
+            "endX": 35.4,
+            "endY": 94.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 33,
+            "x": 36.9,
+            "y": 93.5,
+            "endX": 56.2,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 37,
+            "x": 56.2,
+            "y": 9.4,
+            "endX": 69.0,
+            "endY": 17.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 55,
+            "x": 69.0,
+            "y": 17.0,
+            "endX": 59.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 1,
             "segundo": 55,
             "x": 59.4,
             "y": 0.0,
@@ -4041,7 +4184,12 @@
             "endY": 35.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kevin Medina",
+          "portero": false
+        }
       },
       {
         "minuto": 6,
@@ -4069,7 +4217,24 @@
         "y": 45.8,
         "arco_y": 53.8,
         "arco_z": 16.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Aerial",
+            "minuto": 7,
+            "segundo": 49,
+            "x": 94.8,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pedro Bicalho",
+          "portero": false
+        }
       },
       {
         "minuto": 11,
@@ -4152,7 +4317,35 @@
         "y": 52.2,
         "arco_y": 52.8,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anthony Gordon",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 57,
+            "x": 73.2,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Gordon",
+            "tipo": "TakeOn",
+            "minuto": 32,
+            "segundo": 58,
+            "x": 87.8,
+            "y": 47.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mateusz Kochalski",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4201,6 +4394,358 @@
         "arco_z": 28.5,
         "secuencia_gol": [
           {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 21,
+            "x": 56.4,
+            "y": 78.2,
+            "endX": 44.5,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 25,
+            "x": 44.5,
+            "y": 70.8,
+            "endX": 53.9,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 31,
+            "x": 53.9,
+            "y": 71.1,
+            "endX": 52.8,
+            "endY": 48.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 31,
+            "x": 52.8,
+            "y": 48.3,
+            "endX": 55.6,
+            "endY": 15.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 33,
+            "x": 55.9,
+            "y": 14.1,
+            "endX": 64.0,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 35,
+            "x": 61.1,
+            "y": 5.3,
+            "endX": 45.7,
+            "endY": 7.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 37,
+            "x": 45.7,
+            "y": 7.4,
+            "endX": 39.0,
+            "endY": 33.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 41,
+            "x": 38.7,
+            "y": 31.3,
+            "endX": 43.8,
+            "endY": 14.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 44,
+            "x": 43.8,
+            "y": 14.0,
+            "endX": 37.8,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 49,
+            "x": 37.8,
+            "y": 57.5,
+            "endX": 44.9,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 49,
+            "x": 44.9,
+            "y": 63.7,
+            "endX": 55.6,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 50,
+            "x": 54.8,
+            "y": 60.3,
+            "endX": 46.3,
+            "endY": 58.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 51,
+            "x": 45.7,
+            "y": 58.5,
+            "endX": 45.3,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 53,
+            "x": 42.8,
+            "y": 40.1,
+            "endX": 44.7,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kieran Trippier",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 57,
+            "x": 44.7,
+            "y": 18.9,
+            "endX": 36.9,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 2,
+            "x": 36.9,
+            "y": 38.6,
+            "endX": 41.7,
+            "endY": 42.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 2,
+            "x": 41.7,
+            "y": 42.8,
+            "endX": 51.4,
+            "endY": 53.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandro Tonali",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 3,
+            "x": 51.6,
+            "y": 53.4,
+            "endX": 44.3,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 4,
+            "x": 43.6,
+            "y": 43.3,
+            "endX": 44.9,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 8,
+            "x": 44.9,
+            "y": 67.6,
+            "endX": 51.2,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 8,
+            "x": 51.2,
+            "y": 69.6,
+            "endX": 56.7,
+            "endY": 89.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Hall",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 56.7,
+            "y": 89.3,
+            "endX": 45.7,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 45.7,
+            "y": 79.3,
+            "endX": 46.4,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dan Burn",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 14,
+            "x": 46.4,
+            "y": 69.9,
+            "endX": 44.9,
+            "endY": 40.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 22,
+            "x": 44.9,
+            "y": 40.7,
+            "endX": 57.2,
+            "endY": 43.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Thiaw",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 22,
+            "x": 57.2,
+            "y": 43.4,
+            "endX": 67.0,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 25,
+            "x": 67.8,
+            "y": 77.0,
+            "endX": 71.7,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 26,
+            "x": 71.7,
+            "y": 74.8,
+            "endX": 67.2,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Ramsey",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 28,
+            "x": 66.4,
+            "y": 81.1,
+            "endX": 66.8,
+            "endY": 73.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 31,
+            "x": 66.8,
+            "y": 73.8,
+            "endX": 69.8,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harvey Barnes",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 31,
+            "x": 69.8,
+            "y": 64.6,
+            "endX": 81.6,
+            "endY": 7.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Murphy",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 35,
+            "x": 81.6,
+            "y": 7.9,
+            "endX": 77.3,
+            "endY": 5.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Jacob Murphy",
             "tipo": "TakeOn",
             "minuto": 71,
@@ -4211,7 +4756,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Elvin Cafarquliyev",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

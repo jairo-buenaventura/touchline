@@ -432,6 +432,28 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Juan Cruz",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 77.8,
+            "y": 100.0,
+            "endX": 92.1,
+            "endY": 56.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kike Barja",
+            "tipo": "BallTouch",
+            "minuto": 75,
+            "segundo": 0,
+            "x": 91.4,
+            "y": 56.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Alejandro Catena",
             "tipo": "Pass",
             "minuto": 75,
@@ -497,7 +519,12 @@
             "endY": 38.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jules Koundé",
+          "portero": false
+        }
       },
       {
         "minuto": 95,
@@ -3977,7 +4004,24 @@
         "y": 44.6,
         "arco_y": 54.6,
         "arco_z": 13.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jules Koundé",
+            "tipo": "Aerial",
+            "minuto": 45,
+            "segundo": 7,
+            "x": 89.4,
+            "y": 44.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Pablo Ibáñez",
+          "portero": false
+        }
       },
       {
         "minuto": 85,

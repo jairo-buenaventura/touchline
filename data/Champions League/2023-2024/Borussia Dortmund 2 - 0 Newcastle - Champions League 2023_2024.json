@@ -402,6 +402,39 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "Niclas Füllkrug",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 33,
+            "x": 62.1,
+            "y": 35.5,
+            "endX": 70.7,
+            "endY": 32.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Nmecha",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 35,
+            "x": 69.4,
+            "y": 32.8,
+            "endX": 72.4,
+            "endY": 35.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Felix Nmecha",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 36,
+            "x": 72.4,
+            "y": 35.3,
+            "endX": 75.4,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Felix Nmecha",
             "tipo": "Pass",
             "minuto": 25,
@@ -445,7 +478,12 @@
             "endY": 47.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jamaal Lascelles",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

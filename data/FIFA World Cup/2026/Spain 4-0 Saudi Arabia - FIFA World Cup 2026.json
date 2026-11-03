@@ -554,6 +554,50 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Mikel Oyarzabal",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 30,
+            "x": 96.1,
+            "y": 66.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Oyarzabal",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 31,
+            "x": 96.1,
+            "y": 66.0,
+            "endX": 96.2,
+            "endY": 49.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 32,
+            "x": 96.2,
+            "y": 49.4,
+            "endX": 87.3,
+            "endY": 35.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani Olmo",
+            "tipo": "MissedShots",
+            "minuto": 20,
+            "segundo": 32,
+            "x": 87.3,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Aymeric Laporte",
             "tipo": "Pass",
             "minuto": 20,
@@ -564,7 +608,12 @@
             "endY": 63.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Feras Al Brikan",
+          "portero": false
+        }
       },
       {
         "minuto": 23,

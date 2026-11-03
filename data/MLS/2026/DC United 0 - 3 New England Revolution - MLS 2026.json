@@ -4241,6 +4241,39 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Jack Harrison",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 28,
+            "x": 84.1,
+            "y": 12.3,
+            "endX": 88.2,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 88.2,
+            "y": 26.3,
+            "endX": 88.1,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "SavedShot",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 88.1,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Peyton Miller",
             "tipo": "Pass",
             "minuto": 65,
@@ -4328,7 +4361,12 @@
             "endY": 50.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Sean Johnson",
+          "portero": true
+        }
       },
       {
         "minuto": 87,

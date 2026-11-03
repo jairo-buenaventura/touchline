@@ -3814,6 +3814,28 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 28,
+            "x": 74.1,
+            "y": 13.5,
+            "endX": 90.5,
+            "endY": 61.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 33,
+            "x": 90.5,
+            "y": 61.5,
+            "endX": 71.1,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Díaz",
             "tipo": "Pass",
             "minuto": 14,
@@ -3846,7 +3868,12 @@
             "endY": 34.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Derrick Luckassen",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -3857,6 +3884,50 @@
         "arco_y": 47.3,
         "arco_z": 19.6,
         "secuencia_gol": [
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 59,
+            "x": 54.8,
+            "y": 89.7,
+            "endX": 49.8,
+            "endY": 84.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Pavlovic",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 0,
+            "x": 49.9,
+            "y": 84.1,
+            "endX": 38.2,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 4,
+            "x": 37.1,
+            "y": 68.2,
+            "endX": 42.7,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksandar Pavlovic",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 6,
+            "x": 42.9,
+            "y": 88.0,
+            "endX": 59.2,
+            "endY": 94.0,
+            "exitoso": true
+          },
           {
             "jugador": "Luis Díaz",
             "tipo": "TakeOn",
@@ -4099,7 +4170,12 @@
             "endY": 54.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jajá",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -4362,7 +4438,68 @@
         "y": 64.6,
         "arco_y": 54.1,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kim Min-Jae",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 30,
+            "x": 39.2,
+            "y": 84.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Konrad Laimer",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 45,
+            "x": 43.8,
+            "y": 100.0,
+            "endX": 58.0,
+            "endY": 84.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raphaël Guerreiro",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 47,
+            "x": 60.4,
+            "y": 84.3,
+            "endX": 80.3,
+            "endY": 64.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 52,
+            "x": 80.3,
+            "y": 64.0,
+            "endX": 87.1,
+            "endY": 53.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicolas Jackson",
+            "tipo": "SavedShot",
+            "minuto": 67,
+            "segundo": 52,
+            "x": 87.1,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Neofytos Michael",
+          "portero": true
+        }
       },
       {
         "minuto": 75,

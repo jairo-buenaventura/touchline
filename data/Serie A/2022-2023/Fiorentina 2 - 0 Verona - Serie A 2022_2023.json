@@ -515,6 +515,17 @@
         "secuencia_gol": [
           {
             "jugador": "Cristiano Biraghi",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 18,
+            "x": 48.0,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristiano Biraghi",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 18,
@@ -656,7 +667,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Fabio Depaoli",
+          "portero": false
+        }
       }
     ],
     "corners": [

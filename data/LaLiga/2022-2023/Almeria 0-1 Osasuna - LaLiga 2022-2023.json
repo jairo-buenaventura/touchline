@@ -4830,6 +4830,61 @@
         "secuencia_gol": [
           {
             "jugador": "Rubén García",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 3,
+            "x": 63.7,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén García",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 6,
+            "x": 63.8,
+            "y": 48.8,
+            "endX": 89.2,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moi Gómez",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 11,
+            "x": 89.2,
+            "y": 82.3,
+            "endX": 94.4,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moi Gómez",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 11,
+            "x": 94.4,
+            "y": 72.6,
+            "endX": 92.1,
+            "endY": 69.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rubén García",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 12,
+            "x": 92.1,
+            "y": 69.7,
+            "endX": 89.7,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rubén García",
             "tipo": "Pass",
             "minuto": 27,
             "segundo": 12,
@@ -4839,7 +4894,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Álex Pozo",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

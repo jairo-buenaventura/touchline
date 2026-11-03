@@ -376,7 +376,24 @@
         "y": 49.2,
         "arco_y": 50.0,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mehdi Léris",
+            "tipo": "Aerial",
+            "minuto": 14,
+            "segundo": 31,
+            "x": 92.4,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Giacomo Quagliata",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -4373,6 +4390,50 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Giacomo Quagliata",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 7,
+            "x": 35.7,
+            "y": 93.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giacomo Quagliata",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 7,
+            "x": 35.7,
+            "y": 93.0,
+            "endX": 55.3,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Buonaiuto",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 10,
+            "x": 55.8,
+            "y": 88.6,
+            "endX": 72.4,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frank Tsadjout",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 13,
+            "x": 72.4,
+            "y": 89.6,
+            "endX": 72.4,
+            "endY": 81.9,
+            "exitoso": true
+          },
+          {
             "jugador": "Frank Tsadjout",
             "tipo": "TakeOn",
             "minuto": 34,
@@ -4405,7 +4466,12 @@
             "endY": 35.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bruno Amione",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4461,6 +4527,72 @@
         "arco_y": 50.0,
         "arco_z": 4.4,
         "secuencia_gol": [
+          {
+            "jugador": "Leonardo Sernicola",
+            "tipo": "CornerAwarded",
+            "minuto": 83,
+            "segundo": 23,
+            "x": 97.6,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristian Buonaiuto",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 45,
+            "x": 99.6,
+            "y": 99.3,
+            "endX": 91.5,
+            "endY": 54.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Emanuele Valeri",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 53,
+            "x": 91.5,
+            "y": 54.4,
+            "endX": 73.1,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emanuele Valeri",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 53,
+            "x": 73.1,
+            "y": 91.7,
+            "endX": 88.4,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles Pickel",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 56,
+            "x": 88.6,
+            "y": 30.1,
+            "endX": 86.3,
+            "endY": 46.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Afena-Gyan",
+            "tipo": "SavedShot",
+            "minuto": 83,
+            "segundo": 57,
+            "x": 86.5,
+            "y": 46.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Michele Castagnetti",
             "tipo": "Pass",
@@ -4560,7 +4692,12 @@
             "endY": 43.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Sam Lammers",
+          "portero": true
+        }
       },
       {
         "minuto": 89,
@@ -4599,6 +4736,50 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Matteo Bianchetti",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 59,
+            "x": 35.1,
+            "y": 5.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matteo Bianchetti",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 59,
+            "x": 35.1,
+            "y": 5.8,
+            "endX": 67.2,
+            "endY": 3.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leonardo Sernicola",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 1,
+            "x": 67.5,
+            "y": 4.0,
+            "endX": 72.9,
+            "endY": 10.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Felix Afena-Gyan",
+            "tipo": "Carry",
+            "minuto": 94,
+            "segundo": 3,
+            "x": 72.9,
+            "y": 10.8,
+            "endX": 78.6,
+            "endY": 11.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Felix Afena-Gyan",
             "tipo": "TakeOn",
             "minuto": 94,
@@ -4620,7 +4801,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bruno Amione",
+          "portero": false
+        }
       }
     ],
     "corners": [

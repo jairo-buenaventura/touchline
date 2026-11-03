@@ -381,6 +381,17 @@
         "secuencia_gol": [
           {
             "jugador": "Josh Doig",
+            "tipo": "TakeOn",
+            "minuto": 30,
+            "segundo": 46,
+            "x": 41.6,
+            "y": 75.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josh Doig",
             "tipo": "Pass",
             "minuto": 30,
             "segundo": 50,
@@ -412,7 +423,12 @@
             "endY": 43.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Domen Crnigoj",
+          "portero": false
+        }
       },
       {
         "minuto": 42,

@@ -429,7 +429,24 @@
         "y": 52.6,
         "arco_y": 52.4,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Evann Guessand",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 59,
+            "x": 93.0,
+            "y": 55.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ki-Jana Hoever",
+          "portero": false
+        }
       },
       {
         "minuto": 42,
@@ -4792,6 +4809,39 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Jubal",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 40,
+            "x": 37.0,
+            "y": 11.9,
+            "endX": 42.0,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kévin Danois",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 41,
+            "x": 42.0,
+            "y": 15.8,
+            "endX": 65.2,
+            "endY": 4.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ki-Jana Hoever",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 48,
+            "x": 65.2,
+            "y": 4.6,
+            "endX": 58.9,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ki-Jana Hoever",
             "tipo": "Pass",
             "minuto": 92,
@@ -4956,7 +5006,12 @@
             "endY": 35.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dante",
+          "portero": false
+        }
       }
     ],
     "corners": [

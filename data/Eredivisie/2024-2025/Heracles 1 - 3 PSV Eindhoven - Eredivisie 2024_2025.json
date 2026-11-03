@@ -3912,6 +3912,28 @@
         "secuencia_gol": [
           {
             "jugador": "Jordan Teze",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 5,
+            "x": 5.3,
+            "y": 3.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Teze",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 6,
+            "x": 5.5,
+            "y": 3.5,
+            "endX": 12.1,
+            "endY": 2.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Teze",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 27,
@@ -3976,7 +3998,12 @@
             "endY": 64.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Lorenzo Milani",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

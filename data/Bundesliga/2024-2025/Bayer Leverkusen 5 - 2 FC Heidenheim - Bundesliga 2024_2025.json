@@ -733,6 +733,61 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "BallRecovery",
+            "minuto": 50,
+            "segundo": 53,
+            "x": 34.5,
+            "y": 67.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alejandro Grimaldo",
+            "tipo": "Pass",
+            "minuto": 50,
+            "segundo": 58,
+            "x": 32.4,
+            "y": 60.8,
+            "endX": 45.9,
+            "endY": 44.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 0,
+            "x": 46.0,
+            "y": 45.5,
+            "endX": 52.1,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleix García",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 2,
+            "x": 52.1,
+            "y": 68.7,
+            "endX": 53.5,
+            "endY": 66.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Granit Xhaka",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 5,
+            "x": 53.5,
+            "y": 66.0,
+            "endX": 46.3,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Granit Xhaka",
             "tipo": "Pass",
             "minuto": 51,
@@ -897,7 +952,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jan Schöppner",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -7124,7 +7184,90 @@
         "y": 60.9,
         "arco_y": 47.4,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mathias Honsak",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 29,
+            "x": 65.8,
+            "y": 62.0,
+            "endX": 55.0,
+            "endY": 89.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 32,
+            "x": 55.0,
+            "y": 89.6,
+            "endX": 60.3,
+            "endY": 84.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 32,
+            "x": 60.3,
+            "y": 84.5,
+            "endX": 73.7,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niklas Dorsch",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 33,
+            "x": 73.7,
+            "y": 70.9,
+            "endX": 70.0,
+            "endY": 65.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Honsak",
+            "tipo": "Carry",
+            "minuto": 20,
+            "segundo": 34,
+            "x": 70.0,
+            "y": 65.2,
+            "endX": 77.7,
+            "endY": 66.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Honsak",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 34,
+            "x": 77.7,
+            "y": 66.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Honsak",
+            "tipo": "TakeOn",
+            "minuto": 20,
+            "segundo": 36,
+            "x": 78.4,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Granit Xhaka",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

@@ -4106,6 +4106,39 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 0,
+            "x": 23.3,
+            "y": 8.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Laborde",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 2,
+            "x": 26.9,
+            "y": 8.1,
+            "endX": 53.5,
+            "endY": 4.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Lotomba",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 10,
+            "x": 53.5,
+            "y": 4.3,
+            "endX": 31.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordan Lotomba",
             "tipo": "Pass",
             "minuto": 12,
@@ -4435,7 +4468,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fali Candé",
+          "portero": false
+        }
       },
       {
         "minuto": 25,

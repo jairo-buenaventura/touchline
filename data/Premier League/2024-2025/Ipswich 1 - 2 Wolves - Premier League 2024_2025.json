@@ -385,6 +385,17 @@
         "secuencia_gol": [
           {
             "jugador": "Dara O'Shea",
+            "tipo": "Aerial",
+            "minuto": 15,
+            "segundo": 46,
+            "x": 87.2,
+            "y": 32.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dara O'Shea",
             "tipo": "Pass",
             "minuto": 15,
             "segundo": 46,
@@ -394,7 +405,12 @@
             "endY": 46.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rayan Aït-Nouri",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -4042,7 +4058,68 @@
         "y": 46.2,
         "arco_y": 46.1,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Toti Gomes",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 45,
+            "x": 60.6,
+            "y": 93.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Toti Gomes",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 47,
+            "x": 67.8,
+            "y": 95.1,
+            "endX": 64.5,
+            "endY": 87.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Emmanuel Agbadou",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 49,
+            "x": 65.0,
+            "y": 88.1,
+            "endX": 95.6,
+            "endY": 68.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jørgen Strand Larsen",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 55,
+            "x": 94.1,
+            "y": 70.1,
+            "endX": 84.8,
+            "endY": 46.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Sarabia",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 57,
+            "x": 84.9,
+            "y": 44.9,
+            "endX": 87.3,
+            "endY": 44.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jens Cajuste",
+          "portero": false
+        }
       },
       {
         "minuto": 75,

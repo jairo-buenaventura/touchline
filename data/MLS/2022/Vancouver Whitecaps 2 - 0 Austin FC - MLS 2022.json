@@ -370,6 +370,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Jake Nerwinski",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 20,
+            "x": 18.4,
+            "y": 7.4,
+            "endX": 21.5,
+            "endY": 6.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pedro Vite",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 23,
+            "x": 21.5,
+            "y": 6.7,
+            "endX": 38.3,
+            "endY": 4.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Pedro Vite",
             "tipo": "Pass",
             "minuto": 6,
@@ -413,7 +435,12 @@
             "endY": 25.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Diego Fagúndez",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

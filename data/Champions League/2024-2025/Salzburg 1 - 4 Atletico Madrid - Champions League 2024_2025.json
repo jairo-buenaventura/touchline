@@ -4903,6 +4903,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Robin Le Normand",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 53,
+            "x": 54.4,
+            "y": 41.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Le Normand",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 56,
+            "x": 50.1,
+            "y": 40.9,
+            "endX": 59.0,
+            "endY": 26.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 58,
+            "x": 59.0,
+            "y": 26.0,
+            "endX": 58.4,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo De Paul",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 58,
+            "x": 58.4,
+            "y": 32.2,
+            "endX": 78.9,
+            "endY": 55.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Julián Alvarez",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 2,
+            "x": 78.9,
+            "y": 55.4,
+            "endX": 73.8,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Julián Alvarez",
             "tipo": "Pass",
             "minuto": 4,
@@ -4913,7 +4968,12 @@
             "endY": 31.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Samson Baidoo",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

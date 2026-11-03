@@ -386,7 +386,101 @@
         "y": 50.8,
         "arco_y": 49.7,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Natan",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 5,
+            "x": 35.5,
+            "y": 56.6,
+            "endX": 35.5,
+            "endY": 41.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Llorente",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 7,
+            "x": 35.4,
+            "y": 41.4,
+            "endX": 35.8,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marc Roca",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 11,
+            "x": 36.4,
+            "y": 53.7,
+            "endX": 39.5,
+            "endY": 69.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Fidalgo",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 13,
+            "x": 40.3,
+            "y": 70.8,
+            "endX": 61.1,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 61.1,
+            "y": 80.1,
+            "endX": 91.9,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "TakeOn",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 91.9,
+            "y": 69.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Abde Ezzalzouli",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 23,
+            "x": 98.7,
+            "y": 65.3,
+            "endX": 96.9,
+            "endY": 55.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cucho Hernández",
+            "tipo": "SavedShot",
+            "minuto": 15,
+            "segundo": 24,
+            "x": 96.9,
+            "y": 55.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kike Salas",
+          "portero": true
+        }
       },
       {
         "minuto": 36,
@@ -4543,6 +4637,28 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Adnan Januzaj",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 10,
+            "x": 72.9,
+            "y": 91.8,
+            "endX": 91.0,
+            "endY": 45.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Djibril Sow",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 13,
+            "x": 91.0,
+            "y": 45.1,
+            "endX": 90.5,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Djibril Sow",
             "tipo": "Pass",
             "minuto": 84,
@@ -4553,7 +4669,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marc Roca",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

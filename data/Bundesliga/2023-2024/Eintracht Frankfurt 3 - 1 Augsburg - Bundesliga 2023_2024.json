@@ -464,6 +464,17 @@
         "secuencia_gol": [
           {
             "jugador": "Willian Pacho",
+            "tipo": "Aerial",
+            "minuto": 54,
+            "segundo": 5,
+            "x": 46.7,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
             "tipo": "Pass",
             "minuto": 54,
             "segundo": 5,
@@ -572,7 +583,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Phillip Tietz",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -582,7 +598,112 @@
         "y": 43.7,
         "arco_y": 52.2,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ellyes Skhiri",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 51,
+            "x": 25.6,
+            "y": 53.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ellyes Skhiri",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 54,
+            "x": 26.6,
+            "y": 53.4,
+            "endX": 37.4,
+            "endY": 13.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Dina Ebimbe",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 56,
+            "x": 37.4,
+            "y": 13.4,
+            "endX": 51.4,
+            "endY": 36.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 1,
+            "x": 51.4,
+            "y": 36.9,
+            "endX": 61.2,
+            "endY": 59.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Omar Marmoush",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 1,
+            "x": 61.2,
+            "y": 59.7,
+            "endX": 73.7,
+            "endY": 70.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 4,
+            "x": 73.7,
+            "y": 70.9,
+            "endX": 79.2,
+            "endY": 61.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 4,
+            "x": 79.2,
+            "y": 61.7,
+            "endX": 85.3,
+            "endY": 61.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 6,
+            "x": 85.3,
+            "y": 61.2,
+            "endX": 81.9,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Ekitiké",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 6,
+            "x": 81.9,
+            "y": 65.4,
+            "endX": 79.4,
+            "endY": 59.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Kristijan Jakic",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

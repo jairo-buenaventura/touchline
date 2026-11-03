@@ -5272,6 +5272,17 @@
         "secuencia_gol": [
           {
             "jugador": "Santiago Giménez",
+            "tipo": "BallRecovery",
+            "minuto": 17,
+            "segundo": 54,
+            "x": 78.2,
+            "y": 54.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Giménez",
             "tipo": "TakeOn",
             "minuto": 17,
             "segundo": 56,
@@ -5281,7 +5292,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jorrel Hato",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

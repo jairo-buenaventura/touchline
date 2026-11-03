@@ -541,6 +541,17 @@
         "secuencia_gol": [
           {
             "jugador": "Magnus Mattsson",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 21,
+            "x": 83.6,
+            "y": 71.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Magnus Mattsson",
             "tipo": "TakeOn",
             "minuto": 47,
             "segundo": 23,
@@ -561,7 +572,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Vasilios Barkas",
+          "portero": false
+        }
       },
       {
         "minuto": 69,
@@ -4768,7 +4784,24 @@
         "y": 51.2,
         "arco_y": 50.2,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sander van de Streek",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 6,
+            "x": 88.0,
+            "y": 33.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jasper Cillessen",
+          "portero": true
+        }
       },
       {
         "minuto": 66,
@@ -4778,7 +4811,57 @@
         "y": 54.3,
         "arco_y": 53.5,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sander van de Streek",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 47,
+            "x": 72.7,
+            "y": 28.9,
+            "endX": 78.4,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tasos Douvikas",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 50,
+            "x": 78.4,
+            "y": 22.3,
+            "endX": 95.2,
+            "endY": 26.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tasos Douvikas",
+            "tipo": "TakeOn",
+            "minuto": 66,
+            "segundo": 50,
+            "x": 95.2,
+            "y": 26.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tasos Douvikas",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 52,
+            "x": 98.4,
+            "y": 38.8,
+            "endX": 98.4,
+            "endY": 40.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Iván Márquez",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

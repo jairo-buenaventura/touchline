@@ -440,6 +440,17 @@
         "secuencia_gol": [
           {
             "jugador": "Troy Parrott",
+            "tipo": "Aerial",
+            "minuto": 39,
+            "segundo": 38,
+            "x": 60.1,
+            "y": 23.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Troy Parrott",
             "tipo": "Pass",
             "minuto": 39,
             "segundo": 38,
@@ -471,7 +482,12 @@
             "endY": 31.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Deveron Fonville",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4459,6 +4475,105 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Basar Önal",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 40,
+            "x": 55.6,
+            "y": 100.0,
+            "endX": 36.0,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deveron Fonville",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 45,
+            "x": 36.0,
+            "y": 88.6,
+            "endX": 37.0,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Deveron Fonville",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 45,
+            "x": 37.0,
+            "y": 92.8,
+            "endX": 31.1,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 46,
+            "x": 31.1,
+            "y": 72.4,
+            "endX": 30.3,
+            "endY": 67.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ahmetcan Kaplan",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 46,
+            "x": 30.3,
+            "y": 67.5,
+            "endX": 17.9,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Crettaz",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 48,
+            "x": 17.9,
+            "y": 45.2,
+            "endX": 21.4,
+            "endY": 40.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Crettaz",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 48,
+            "x": 21.4,
+            "y": 40.2,
+            "endX": 78.2,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bryan Linssen",
+            "tipo": "BallTouch",
+            "minuto": 9,
+            "segundo": 50,
+            "x": 77.0,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Noé Lebreton",
+            "tipo": "SavedShot",
+            "minuto": 9,
+            "segundo": 54,
+            "x": 80.4,
+            "y": 46.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Noé Lebreton",
             "tipo": "BallTouch",
             "minuto": 9,
@@ -4469,7 +4584,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Maxim Dekker",
+          "portero": true
+        }
       },
       {
         "minuto": 11,

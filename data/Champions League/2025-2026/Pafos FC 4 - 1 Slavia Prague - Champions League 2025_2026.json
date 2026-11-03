@@ -393,7 +393,24 @@
         "y": 28.0,
         "arco_y": 53.7,
         "arco_z": 29.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Pêpê Rodrigues",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 7,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.9,
+            "endY": 50.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Igoh Ogbu",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -430,7 +447,24 @@
         "y": 46.2,
         "arco_y": 45.9,
         "arco_z": 9.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anderson Silva",
+            "tipo": "Aerial",
+            "minuto": 52,
+            "segundo": 4,
+            "x": 91.4,
+            "y": 42.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Zima",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -578,6 +612,28 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Pêpê Rodrigues",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 21,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.5,
+            "endY": 43.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vlad Dragomir",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 26,
+            "x": 89.5,
+            "y": 43.5,
+            "endX": 64.4,
+            "endY": 45.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Vlad Dragomir",
             "tipo": "Pass",
             "minuto": 86,
@@ -643,7 +699,12 @@
             "endY": 81.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Doudera",
+          "portero": false
+        }
       },
       {
         "minuto": 95,

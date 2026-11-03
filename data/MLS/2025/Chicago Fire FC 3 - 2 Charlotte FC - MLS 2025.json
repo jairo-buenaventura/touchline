@@ -398,6 +398,17 @@
         "secuencia_gol": [
           {
             "jugador": "Philip Zinckernagel",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 10,
+            "x": 54.4,
+            "y": 0.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philip Zinckernagel",
             "tipo": "TakeOn",
             "minuto": 22,
             "segundo": 14,
@@ -407,7 +418,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Andrew Privett",
+          "portero": false
+        }
       },
       {
         "minuto": 24,

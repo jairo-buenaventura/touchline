@@ -634,6 +634,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Marcel Sabitzer",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 22,
+            "x": 71.3,
+            "y": 44.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcel Sabitzer",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 22,
+            "x": 56.1,
+            "y": 29.7,
+            "endX": 63.0,
+            "endY": 30.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carney Chukwuemeka",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 23,
+            "x": 63.0,
+            "y": 30.1,
+            "endX": 67.2,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Carney Chukwuemeka",
             "tipo": "TakeOn",
             "minuto": 79,
@@ -677,7 +710,12 @@
             "endY": 50.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Diogo Leite",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -687,7 +725,24 @@
         "y": 50.2,
         "arco_y": 52.5,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Serhou Guirassy",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 47,
+            "x": 93.4,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Diogo Leite",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -707,6 +762,28 @@
         "arco_y": 46.1,
         "arco_z": 12.7,
         "secuencia_gol": [
+          {
+            "jugador": "Karim Adeyemi",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 28,
+            "x": 73.7,
+            "y": 45.1,
+            "endX": 84.0,
+            "endY": 51.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 35,
+            "x": 84.0,
+            "y": 51.6,
+            "endX": 74.8,
+            "endY": 8.8,
+            "exitoso": true
+          },
           {
             "jugador": "Yan Couto",
             "tipo": "Pass",
@@ -729,7 +806,12 @@
             "endY": 57.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "László Bénes",
+          "portero": false
+        }
       }
     ],
     "corners": [

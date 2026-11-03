@@ -849,6 +849,28 @@
         "secuencia_gol": [
           {
             "jugador": "Gessime Yassine",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 37,
+            "x": 30.0,
+            "y": 19.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gessime Yassine",
+            "tipo": "TakeOn",
+            "minuto": 83,
+            "segundo": 38,
+            "x": 38.2,
+            "y": 7.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gessime Yassine",
             "tipo": "Pass",
             "minuto": 83,
             "segundo": 41,
@@ -1166,7 +1188,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Cameron Archer",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

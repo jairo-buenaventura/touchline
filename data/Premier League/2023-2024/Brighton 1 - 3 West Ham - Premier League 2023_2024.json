@@ -532,6 +532,94 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Pervis Estupiñán",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 6,
+            "x": 39.3,
+            "y": 76.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pervis Estupiñán",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 8,
+            "x": 41.5,
+            "y": 76.6,
+            "endX": 46.9,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 16,
+            "x": 46.9,
+            "y": 67.2,
+            "endX": 70.6,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 16,
+            "x": 70.6,
+            "y": 46.9,
+            "endX": 78.8,
+            "endY": 34.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lallana",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 17,
+            "x": 78.8,
+            "y": 34.5,
+            "endX": 79.1,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Lallana",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 17,
+            "x": 79.1,
+            "y": 31.5,
+            "endX": 81.8,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joël Veltman",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 20,
+            "x": 80.1,
+            "y": 11.9,
+            "endX": 75.3,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pascal Groß",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 24,
+            "x": 75.3,
+            "y": 32.1,
+            "endX": 78.2,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Pascal Groß",
             "tipo": "TakeOn",
             "minuto": 80,
@@ -542,7 +630,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Edson Álvarez",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -5815,7 +5908,35 @@
         "y": 45.3,
         "arco_y": 47.7,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 24,
+            "x": 93.0,
+            "y": 66.4,
+            "endX": 92.2,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "James Ward-Prowse",
+            "tipo": "SavedShot",
+            "minuto": 18,
+            "segundo": 25,
+            "x": 93.5,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Billy Gilmour",
+          "portero": true
+        }
       },
       {
         "minuto": 52,
@@ -5907,7 +6028,79 @@
         "y": 40.7,
         "arco_y": 53.5,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Emerson",
+            "tipo": "Clearance",
+            "minuto": 61,
+            "segundo": 55,
+            "x": 3.1,
+            "y": 86.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alphonse Areola",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 39,
+            "x": 4.9,
+            "y": 49.5,
+            "endX": 58.0,
+            "endY": 3.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 44,
+            "x": 58.0,
+            "y": 3.9,
+            "endX": 62.1,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jarrod Bowen",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 44,
+            "x": 62.1,
+            "y": 15.1,
+            "endX": 78.4,
+            "endY": 41.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Carry",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 78.4,
+            "y": 41.7,
+            "endX": 88.5,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 48,
+            "x": 88.5,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Adam Webster",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

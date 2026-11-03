@@ -626,6 +626,50 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Taylor Booth",
+            "tipo": "BallRecovery",
+            "minuto": 69,
+            "segundo": 8,
+            "x": 39.2,
+            "y": 24.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Taylor Booth",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 9,
+            "x": 39.2,
+            "y": 24.4,
+            "endX": 33.4,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Flamingo",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 10,
+            "x": 33.6,
+            "y": 33.1,
+            "endX": 54.4,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Fraulo",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 12,
+            "x": 54.4,
+            "y": 34.9,
+            "endX": 60.6,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Oscar Fraulo",
             "tipo": "TakeOn",
             "minuto": 69,
@@ -669,7 +713,12 @@
             "endY": 49.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Deroy Duarte",
+          "portero": false
+        }
       },
       {
         "minuto": 74,
@@ -701,7 +750,46 @@
         "y": 68.7,
         "arco_y": 53.2,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 12,
+            "x": 77.1,
+            "y": 90.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Othmane Boussaid",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 12,
+            "x": 76.5,
+            "y": 89.9,
+            "endX": 89.0,
+            "endY": 57.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sam Lammers",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 16,
+            "x": 90.3,
+            "y": 59.0,
+            "endX": 86.8,
+            "endY": 58.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Arianit Ferati",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

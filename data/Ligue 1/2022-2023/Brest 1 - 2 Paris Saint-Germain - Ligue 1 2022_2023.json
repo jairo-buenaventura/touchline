@@ -404,6 +404,28 @@
         "secuencia_gol": [
           {
             "jugador": "Pierre Lees-Melou",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 47,
+            "x": 12.1,
+            "y": 18.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 48,
+            "x": 15.6,
+            "y": 20.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Lees-Melou",
             "tipo": "Pass",
             "minuto": 42,
             "segundo": 50,
@@ -435,7 +457,12 @@
             "endY": 45.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nuno Mendes",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4169,6 +4196,50 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Nuno Mendes",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 14.1,
+            "y": 52.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 50,
+            "x": 14.2,
+            "y": 52.3,
+            "endX": 45.4,
+            "endY": 28.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 53,
+            "x": 45.4,
+            "y": 28.3,
+            "endX": 43.0,
+            "endY": 25.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lionel Messi",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 53,
+            "x": 43.0,
+            "y": 25.1,
+            "endX": 79.9,
+            "endY": 35.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Kylian Mbappé",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -4179,7 +4250,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marco Bizot",
+          "portero": false
+        }
       }
     ],
     "corners": [

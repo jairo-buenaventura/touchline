@@ -435,6 +435,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Guus Til",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 25,
+            "x": 74.7,
+            "y": 23.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guus Til",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 26,
+            "x": 76.9,
+            "y": 24.4,
+            "endX": 85.3,
+            "endY": 50.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Malik Tillman",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 0,
+            "x": 85.3,
+            "y": 50.5,
+            "endX": 84.1,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Malik Tillman",
             "tipo": "Pass",
             "minuto": 15,
@@ -445,7 +478,12 @@
             "endY": 37.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David López",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -602,6 +640,39 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Malik Tillman",
+            "tipo": "CornerAwarded",
+            "minuto": 82,
+            "segundo": 28,
+            "x": 99.2,
+            "y": 41.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malik Tillman",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 40,
+            "x": 99.6,
+            "y": 0.2,
+            "endX": 91.9,
+            "endY": 6.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Johan Bakayoko",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 45,
+            "x": 91.9,
+            "y": 6.0,
+            "endX": 83.6,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Johan Bakayoko",
             "tipo": "TakeOn",
             "minuto": 82,
@@ -612,7 +683,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kim Min-Su",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

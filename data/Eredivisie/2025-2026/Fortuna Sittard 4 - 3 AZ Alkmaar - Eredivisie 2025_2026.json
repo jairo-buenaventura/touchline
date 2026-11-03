@@ -446,7 +446,57 @@
         "y": 53.8,
         "arco_y": 51.8,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ryan Fosso",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 36,
+            "x": 76.0,
+            "y": 76.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Fosso",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 36,
+            "x": 76.0,
+            "y": 76.2,
+            "endX": 81.1,
+            "endY": 62.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Ihattaren",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 38,
+            "x": 81.1,
+            "y": 62.5,
+            "endX": 97.0,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Fosso",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 38,
+            "x": 97.0,
+            "y": 68.7,
+            "endX": 95.6,
+            "endY": 58.0,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alexandre Penetra",
+          "portero": false
+        }
       },
       {
         "minuto": 53,
@@ -4142,6 +4192,50 @@
         "secuencia_gol": [
           {
             "jugador": "Kees Smit",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 0,
+            "x": 22.2,
+            "y": 37.3,
+            "endX": 18.4,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Peer Koopmeiners",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 1,
+            "x": 18.1,
+            "y": 30.9,
+            "endX": 6.6,
+            "endY": 48.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rome-Jayden Owusu-Oduro",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 3,
+            "x": 8.9,
+            "y": 46.9,
+            "endX": 64.2,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Troy Parrott",
+            "tipo": "BallTouch",
+            "minuto": 70,
+            "segundo": 8,
+            "x": 64.1,
+            "y": 49.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kees Smit",
             "tipo": "TakeOn",
             "minuto": 70,
             "segundo": 10,
@@ -4239,7 +4333,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Shawn Adewoye",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

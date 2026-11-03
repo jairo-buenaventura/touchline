@@ -424,6 +424,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Edimilson Fernandes",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 31,
+            "x": 21.7,
+            "y": 24.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Edimilson Fernandes",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 34,
+            "x": 27.2,
+            "y": 25.0,
+            "endX": 64.4,
+            "endY": 4.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 38,
+            "x": 64.4,
+            "y": 4.9,
+            "endX": 70.5,
+            "endY": 4.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "TakeOn",
+            "minuto": 75,
+            "segundo": 38,
+            "x": 70.5,
+            "y": 4.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Karim Onisiwo",
             "tipo": "Pass",
             "minuto": 75,
@@ -434,7 +478,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lukas Klostermann",
+          "portero": false
+        }
       },
       {
         "minuto": 79,
@@ -453,7 +502,68 @@
         "y": 52.6,
         "arco_y": 51.0,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Edimilson Fernandes",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 18,
+            "x": 87.3,
+            "y": 3.8,
+            "endX": 95.9,
+            "endY": 54.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Aymen Barkok",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 23,
+            "x": 95.9,
+            "y": 54.2,
+            "endX": 73.5,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aymen Barkok",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 23,
+            "x": 73.5,
+            "y": 33.7,
+            "endX": 90.6,
+            "endY": 57.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 27,
+            "x": 90.6,
+            "y": 57.5,
+            "endX": 93.2,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "SavedShot",
+            "minuto": 79,
+            "segundo": 27,
+            "x": 93.2,
+            "y": 32.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Kevin Kampl",
+          "portero": true
+        }
       },
       {
         "minuto": 84,

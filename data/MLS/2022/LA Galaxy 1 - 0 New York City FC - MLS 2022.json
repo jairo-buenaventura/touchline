@@ -511,6 +511,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Raheem Edwards",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 76.3,
+            "y": 69.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Edwards",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 14,
+            "x": 77.8,
+            "y": 67.4,
+            "endX": 92.9,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chicharito",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 16,
+            "x": 92.9,
+            "y": 67.2,
+            "endX": 90.3,
+            "endY": 60.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Chicharito",
             "tipo": "TakeOn",
             "minuto": 89,
@@ -521,7 +554,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Maxime Chanot",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -380,6 +380,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Jimmy Maurer",
+            "tipo": "KeeperPickup",
+            "minuto": 14,
+            "segundo": 30,
+            "x": 2.8,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jimmy Maurer",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 43,
+            "x": 8.4,
+            "y": 50.9,
+            "endX": 28.0,
+            "endY": 90.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Junqua",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 46,
+            "x": 28.0,
+            "y": 90.9,
+            "endX": 36.1,
+            "endY": 88.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alan Velasco",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 47,
+            "x": 36.3,
+            "y": 88.4,
+            "endX": 38.9,
+            "endY": 83.3,
+            "exitoso": false
+          },
+          {
             "jugador": "Show",
             "tipo": "Pass",
             "minuto": 14,
@@ -423,7 +467,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alenis Vargas",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -4677,7 +4726,35 @@
         "y": 44.0,
         "arco_y": 49.6,
         "arco_z": 15.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "William Agada",
+            "tipo": "BallRecovery",
+            "minuto": 88,
+            "segundo": 18,
+            "x": 95.8,
+            "y": 44.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "William Agada",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 90.3,
+            "y": 48.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jimmy Maurer",
+          "portero": false
+        }
       }
     ],
     "corners": [

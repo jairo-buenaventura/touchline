@@ -400,6 +400,39 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Rocco Reitz",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 35,
+            "x": 87.6,
+            "y": 4.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 39,
+            "x": 80.6,
+            "y": 12.9,
+            "endX": 90.8,
+            "endY": 28.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joe Scally",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 48,
+            "x": 90.8,
+            "y": 28.6,
+            "endX": 91.4,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Joe Scally",
             "tipo": "Pass",
             "minuto": 14,
@@ -597,7 +630,12 @@
             "endY": 48.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maximilian Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

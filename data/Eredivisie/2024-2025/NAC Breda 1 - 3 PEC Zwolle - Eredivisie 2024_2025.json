@@ -506,7 +506,57 @@
         "y": 59.9,
         "arco_y": 52.9,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Raul Paula",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 45.1,
+            "y": 87.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raul Paula",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 48,
+            "x": 45.6,
+            "y": 92.6,
+            "endX": 60.5,
+            "endY": 91.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Sauer",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 54,
+            "x": 60.5,
+            "y": 91.8,
+            "endX": 84.8,
+            "endY": 85.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Sauer",
+            "tipo": "Pass",
+            "minuto": 91,
+            "segundo": 54,
+            "x": 84.8,
+            "y": 85.0,
+            "endX": 92.7,
+            "endY": 50.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Damian van der Haar",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -4618,6 +4668,83 @@
         "arco_z": 11.4,
         "secuencia_gol": [
           {
+            "jugador": "Davy van den Berg",
+            "tipo": "BallRecovery",
+            "minuto": 53,
+            "segundo": 35,
+            "x": 62.7,
+            "y": 12.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davy van den Berg",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 35,
+            "x": 61.1,
+            "y": 11.1,
+            "endX": 67.2,
+            "endY": 21.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "BallTouch",
+            "minuto": 53,
+            "segundo": 38,
+            "x": 66.2,
+            "y": 20.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davy van den Berg",
+            "tipo": "BallTouch",
+            "minuto": 53,
+            "segundo": 39,
+            "x": 64.0,
+            "y": 21.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 40,
+            "x": 65.4,
+            "y": 20.9,
+            "endX": 57.8,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ryan Thomas",
+            "tipo": "Pass",
+            "minuto": 53,
+            "segundo": 41,
+            "x": 56.8,
+            "y": 8.0,
+            "endX": 81.2,
+            "endY": 5.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Namli",
+            "tipo": "Carry",
+            "minuto": 53,
+            "segundo": 46,
+            "x": 81.2,
+            "y": 5.2,
+            "endX": 91.6,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Younes Namli",
             "tipo": "TakeOn",
             "minuto": 53,
@@ -4628,7 +4755,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Boy Kemper",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

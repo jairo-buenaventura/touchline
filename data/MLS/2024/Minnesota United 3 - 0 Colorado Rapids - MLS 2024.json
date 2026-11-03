@@ -534,6 +534,94 @@
           {
             "jugador": "Joseph Rosales",
             "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 44,
+            "x": 58.9,
+            "y": 100.0,
+            "endX": 63.7,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kelvin Yeboah",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 47,
+            "x": 64.1,
+            "y": 86.9,
+            "endX": 60.1,
+            "endY": 93.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joaquín Pereyra",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 47,
+            "x": 60.1,
+            "y": 93.5,
+            "endX": 75.7,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 50,
+            "x": 75.4,
+            "y": 95.1,
+            "endX": 76.6,
+            "endY": 90.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 1,
+            "x": 76.6,
+            "y": 90.6,
+            "endX": 67.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 1,
+            "x": 67.8,
+            "y": 100.0,
+            "endX": 78.1,
+            "endY": 95.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 3,
+            "x": 78.8,
+            "y": 96.3,
+            "endX": 76.2,
+            "endY": 95.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 12,
+            "x": 76.2,
+            "y": 95.9,
+            "endX": 77.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Rosales",
+            "tipo": "Pass",
             "minuto": 46,
             "segundo": 12,
             "x": 77.5,
@@ -597,7 +685,12 @@
             "endY": 60.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Darren Yapi",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -643,7 +736,68 @@
         "y": 41.7,
         "arco_y": 47.0,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tani Oluwaseyi",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 37,
+            "x": 53.1,
+            "y": 10.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tani Oluwaseyi",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 39,
+            "x": 53.1,
+            "y": 10.7,
+            "endX": 77.3,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeong Sang-Bin",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 49,
+            "x": 77.2,
+            "y": 8.6,
+            "endX": 72.4,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 51,
+            "x": 72.5,
+            "y": 20.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hassani Dotson",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 53,
+            "x": 76.4,
+            "y": 32.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Connor Ronan",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

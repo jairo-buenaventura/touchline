@@ -472,6 +472,17 @@
         "secuencia_gol": [
           {
             "jugador": "Gabriel Jesus",
+            "tipo": "BallRecovery",
+            "minuto": 29,
+            "segundo": 28,
+            "x": 87.2,
+            "y": 66.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
             "tipo": "TakeOn",
             "minuto": 29,
             "segundo": 29,
@@ -481,7 +492,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Djené Dakonam",
+          "portero": false
+        }
       },
       {
         "minuto": 38,

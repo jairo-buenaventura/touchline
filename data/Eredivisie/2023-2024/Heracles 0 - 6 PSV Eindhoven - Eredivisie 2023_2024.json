@@ -3916,6 +3916,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Hirving Lozano",
+            "tipo": "CornerAwarded",
+            "minuto": 63,
+            "segundo": 8,
+            "x": 81.3,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 49,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 86.8,
+            "endY": 43.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Teze",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 54,
+            "x": 86.8,
+            "y": 43.9,
+            "endX": 70.9,
+            "endY": 17.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Jordan Teze",
             "tipo": "Pass",
             "minuto": 63,
@@ -3937,7 +3970,12 @@
             "endY": 42.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jannes Wieckhoff",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4019,6 +4057,17 @@
         "secuencia_gol": [
           {
             "jugador": "Shurandy Sambo",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 43,
+            "x": 35.8,
+            "y": 13.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Shurandy Sambo",
             "tipo": "Pass",
             "minuto": 82,
             "segundo": 57,
@@ -4083,7 +4132,12 @@
             "endY": 57.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jetro Willems",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

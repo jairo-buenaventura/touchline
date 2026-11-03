@@ -424,7 +424,35 @@
         "y": 65.2,
         "arco_y": 50.0,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Andreas Pereira",
+            "tipo": "Aerial",
+            "minuto": 31,
+            "segundo": 42,
+            "x": 85.7,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andreas Pereira",
+            "tipo": "BallTouch",
+            "minuto": 31,
+            "segundo": 42,
+            "x": 89.5,
+            "y": 52.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andy Robertson",
+          "portero": false
+        }
       },
       {
         "minuto": 35,
@@ -445,6 +473,61 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Andreas Pereira",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 5,
+            "x": 99.5,
+            "y": 0.7,
+            "endX": 89.8,
+            "endY": 49.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alex Iwobi",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 8,
+            "x": 89.8,
+            "y": 49.9,
+            "endX": 75.6,
+            "endY": 38.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Iwobi",
+            "tipo": "Pass",
+            "minuto": 36,
+            "segundo": 8,
+            "x": 75.6,
+            "y": 38.8,
+            "endX": 80.8,
+            "endY": 37.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Muniz",
+            "tipo": "Carry",
+            "minuto": 36,
+            "segundo": 12,
+            "x": 80.8,
+            "y": 37.7,
+            "endX": 77.6,
+            "endY": 39.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Muniz",
+            "tipo": "TakeOn",
+            "minuto": 36,
+            "segundo": 12,
+            "x": 77.6,
+            "y": 39.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Rodrigo Muniz",
             "tipo": "GoodSkill",
             "minuto": 36,
@@ -455,7 +538,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Virgil van Dijk",
+          "portero": false
+        }
       },
       {
         "minuto": 43,

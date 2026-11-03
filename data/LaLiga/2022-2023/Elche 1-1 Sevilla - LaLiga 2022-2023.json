@@ -415,7 +415,24 @@
         "y": 62.7,
         "arco_y": 48.4,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tete Morente",
+            "tipo": "Aerial",
+            "minuto": 24,
+            "segundo": 9,
+            "x": 90.9,
+            "y": 62.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jesús Navas",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -5079,6 +5096,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Fernando",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 26,
+            "x": 36.9,
+            "y": 40.5,
+            "endX": 98.7,
+            "endY": 11.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Ocampos",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 32,
+            "x": 98.4,
+            "y": 12.0,
+            "endX": 85.9,
+            "endY": 59.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Marcos Acuña",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 38,
+            "x": 85.9,
+            "y": 59.8,
+            "endX": 73.3,
+            "endY": 68.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Marcos Acuña",
             "tipo": "Pass",
             "minuto": 9,
@@ -5111,7 +5161,12 @@
             "endY": 44.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "John Donald",
+          "portero": false
+        }
       },
       {
         "minuto": 14,

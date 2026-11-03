@@ -540,6 +540,61 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Gustavo Bou",
+            "tipo": "CornerAwarded",
+            "minuto": 84,
+            "segundo": 5,
+            "x": 96.5,
+            "y": 53.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 28,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.9,
+            "endY": 61.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 33,
+            "x": 97.9,
+            "y": 61.5,
+            "endX": 79.1,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "DeJuan Jones",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 33,
+            "x": 79.1,
+            "y": 81.3,
+            "endX": 87.3,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Carles Gil",
+            "tipo": "Carry",
+            "minuto": 84,
+            "segundo": 37,
+            "x": 87.3,
+            "y": 90.0,
+            "endX": 87.6,
+            "endY": 80.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Carles Gil",
             "tipo": "TakeOn",
             "minuto": 84,
@@ -572,7 +627,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kamil Józwiak",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4728,7 +4788,24 @@
         "y": 50.7,
         "arco_y": 54.0,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Enzo Copetti",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 12,
+            "x": 77.0,
+            "y": 67.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andrew Farrell",
+          "portero": false
+        }
       }
     ],
     "corners": [

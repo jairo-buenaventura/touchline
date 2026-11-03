@@ -428,6 +428,28 @@
         "arco_z": 22.2,
         "secuencia_gol": [
           {
+            "jugador": "Julian Baas",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 46,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.4,
+            "endY": 54.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Couhaib Driouech",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 51,
+            "x": 94.4,
+            "y": 54.5,
+            "endX": 92.3,
+            "endY": 31.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Couhaib Driouech",
             "tipo": "Pass",
             "minuto": 27,
@@ -438,7 +460,12 @@
             "endY": 57.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yassin Oukili",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -4373,6 +4400,50 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Yassin Oukili",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 58,
+            "x": 43.7,
+            "y": 89.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 58,
+            "x": 43.3,
+            "y": 89.6,
+            "endX": 46.6,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Seuntjens",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 0,
+            "x": 45.0,
+            "y": 77.5,
+            "endX": 78.7,
+            "endY": 26.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Julian Lelieveld",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 21,
+            "x": 78.7,
+            "y": 26.5,
+            "endX": 73.1,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Julian Lelieveld",
             "tipo": "Pass",
             "minuto": 75,
@@ -4559,7 +4630,12 @@
             "endY": 67.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mimeirhel Benita",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

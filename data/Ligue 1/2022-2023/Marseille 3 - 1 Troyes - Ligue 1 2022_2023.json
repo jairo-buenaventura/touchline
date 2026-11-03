@@ -401,6 +401,50 @@
         "secuencia_gol": [
           {
             "jugador": "Vítinha",
+            "tipo": "BallRecovery",
+            "minuto": 1,
+            "segundo": 18,
+            "x": 83.6,
+            "y": 4.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vítinha",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 20,
+            "x": 88.6,
+            "y": 24.6,
+            "endX": 87.7,
+            "endY": 45.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 21,
+            "x": 87.7,
+            "y": 45.4,
+            "endX": 87.3,
+            "endY": 50.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Sánchez",
+            "tipo": "BallTouch",
+            "minuto": 1,
+            "segundo": 21,
+            "x": 87.3,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vítinha",
             "tipo": "TakeOn",
             "minuto": 1,
             "segundo": 23,
@@ -410,7 +454,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Yoann Salmier",
+          "portero": false
+        }
       },
       {
         "minuto": 5,
@@ -645,6 +694,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sead Kolasinac",
+            "tipo": "Aerial",
+            "minuto": 63,
+            "segundo": 16,
+            "x": 96.4,
+            "y": 41.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sead Kolasinac",
             "tipo": "ShotOnPost",
             "minuto": 63,
             "segundo": 16,
@@ -654,7 +714,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mama Baldé",
+          "portero": false
+        }
       },
       {
         "minuto": 71,
@@ -5822,7 +5887,57 @@
         "y": 37.8,
         "arco_y": 54.2,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mama Baldé",
+            "tipo": "BallTouch",
+            "minuto": 90,
+            "segundo": 38,
+            "x": 44.1,
+            "y": 57.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeff Reine-Adélaïde",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 40,
+            "x": 54.5,
+            "y": 49.3,
+            "endX": 77.9,
+            "endY": 30.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mama Baldé",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 43,
+            "x": 77.9,
+            "y": 30.2,
+            "endX": 83.1,
+            "endY": 31.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mama Baldé",
+            "tipo": "TakeOn",
+            "minuto": 90,
+            "segundo": 43,
+            "x": 83.1,
+            "y": 31.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Issa Kaboré",
+          "portero": false
+        }
       }
     ],
     "corners": [

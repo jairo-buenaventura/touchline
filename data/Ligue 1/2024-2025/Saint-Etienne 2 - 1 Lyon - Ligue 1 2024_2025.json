@@ -402,6 +402,50 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Dennis Appiah",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 44,
+            "x": 60.1,
+            "y": 21.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dennis Appiah",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 46,
+            "x": 60.1,
+            "y": 21.9,
+            "endX": 68.4,
+            "endY": 32.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 49,
+            "x": 68.4,
+            "y": 32.8,
+            "endX": 70.3,
+            "endY": 39.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "SavedShot",
+            "minuto": 8,
+            "segundo": 49,
+            "x": 70.3,
+            "y": 39.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mickaël Nadé",
             "tipo": "Pass",
             "minuto": 8,
@@ -478,7 +522,12 @@
             "endY": 47.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Tanner Tessmann",
+          "portero": true
+        }
       },
       {
         "minuto": 20,
@@ -4376,6 +4425,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ainsley Maitland-Niles",
+            "tipo": "Aerial",
+            "minuto": 74,
+            "segundo": 40,
+            "x": 31.6,
+            "y": 15.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ainsley Maitland-Niles",
             "tipo": "Pass",
             "minuto": 74,
             "segundo": 40,
@@ -4583,7 +4643,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Florian Tardieu",
+          "portero": false
+        }
       },
       {
         "minuto": 79,

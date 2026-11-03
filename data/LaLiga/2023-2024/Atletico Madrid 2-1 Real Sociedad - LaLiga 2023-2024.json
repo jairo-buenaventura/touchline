@@ -4111,6 +4111,28 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Igor Zubeldia",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 28,
+            "x": 16.2,
+            "y": 66.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Zubeldia",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 29,
+            "x": 16.1,
+            "y": 66.8,
+            "endX": 26.6,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Ander Barrenetxea",
             "tipo": "TakeOn",
             "minuto": 72,
@@ -4154,7 +4176,12 @@
             "endY": 42.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nahuel Molina",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

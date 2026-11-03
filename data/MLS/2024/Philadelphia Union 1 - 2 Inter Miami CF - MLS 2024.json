@@ -4586,6 +4586,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Yannick Bright",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 16,
+            "x": 26.1,
+            "y": 74.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yannick Bright",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 21,
+            "x": 31.2,
+            "y": 95.7,
+            "endX": 56.0,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leo Afonso",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 27,
+            "x": 56.0,
+            "y": 78.7,
+            "endX": 79.6,
+            "endY": 63.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Leo Afonso",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -4596,7 +4629,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jakob Glesnes",
+          "portero": false
+        }
       }
     ],
     "corners": [

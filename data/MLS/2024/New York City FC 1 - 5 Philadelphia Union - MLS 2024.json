@@ -5261,6 +5261,28 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Kai Wagner",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 13,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.8,
+            "endY": 58.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Olivier Mbaizo",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 16,
+            "x": 97.8,
+            "y": 58.8,
+            "endX": 72.5,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Olivier Mbaizo",
             "tipo": "Pass",
             "minuto": 14,
@@ -5271,7 +5293,12 @@
             "endY": 50.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "James Sands",
+          "portero": false
+        }
       },
       {
         "minuto": 16,
@@ -5367,7 +5394,24 @@
         "y": 49.9,
         "arco_y": 50.4,
         "arco_z": 32.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 59,
+            "x": 93.2,
+            "y": 50.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thiago Martins",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

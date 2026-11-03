@@ -4872,6 +4872,127 @@
         "arco_z": 24.7,
         "secuencia_gol": [
           {
+            "jugador": "Lucas Chevalier",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 13,
+            "x": 14.9,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Chevalier",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 13,
+            "x": 14.9,
+            "y": 50.3,
+            "endX": 21.2,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bafodé Diakité",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 17,
+            "x": 21.2,
+            "y": 23.9,
+            "endX": 23.4,
+            "endY": 28.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bafodé Diakité",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 17,
+            "x": 23.4,
+            "y": 28.8,
+            "endX": 22.0,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexsandro",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 22,
+            "x": 22.0,
+            "y": 82.7,
+            "endX": 23.6,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexsandro",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 22,
+            "x": 23.6,
+            "y": 89.4,
+            "endX": 38.7,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matias Fernandez-Pardo",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 23,
+            "x": 38.7,
+            "y": 81.2,
+            "endX": 41.7,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matias Fernandez-Pardo",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 23,
+            "x": 41.7,
+            "y": 77.6,
+            "endX": 38.1,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 26,
+            "x": 38.1,
+            "y": 96.3,
+            "endX": 51.5,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 26,
+            "x": 51.5,
+            "y": 97.5,
+            "endX": 59.6,
+            "endY": 81.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Benjamin André",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 30,
+            "x": 59.6,
+            "y": 81.3,
+            "endX": 64.7,
+            "endY": 72.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Benjamin André",
             "tipo": "Pass",
             "minuto": 60,
@@ -4904,7 +5025,12 @@
             "endY": 22.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Conor Gallagher",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4935,6 +5061,61 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Angel Gomes",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 29,
+            "x": 64.0,
+            "y": 52.0,
+            "endX": 81.9,
+            "endY": 96.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osame Sahraoui",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 34,
+            "x": 81.9,
+            "y": 96.3,
+            "endX": 89.5,
+            "endY": 90.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osame Sahraoui",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 34,
+            "x": 89.5,
+            "y": 90.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Osame Sahraoui",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 38,
+            "x": 97.9,
+            "y": 68.5,
+            "endX": 98.6,
+            "endY": 56.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gabriel Gudmundsson",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 39,
+            "x": 98.6,
+            "y": 56.3,
+            "endX": 90.6,
+            "endY": 64.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Gudmundsson",
             "tipo": "MissedShots",
             "minuto": 88,
@@ -4945,7 +5126,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jan Oblak",
+          "portero": false
+        }
       }
     ],
     "corners": [

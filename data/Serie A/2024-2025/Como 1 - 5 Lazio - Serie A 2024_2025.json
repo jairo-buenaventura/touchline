@@ -423,7 +423,57 @@
         "y": 64.2,
         "arco_y": 45.6,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Cutrone",
+            "tipo": "BallRecovery",
+            "minuto": 52,
+            "segundo": 19,
+            "x": 74.0,
+            "y": 11.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Cutrone",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 22,
+            "x": 75.2,
+            "y": 39.8,
+            "endX": 78.4,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Paz",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 78.4,
+            "y": 77.9,
+            "endX": 81.1,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico Paz",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 25,
+            "x": 81.1,
+            "y": 72.6,
+            "endX": 84.8,
+            "endY": 67.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Adam Marusic",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -4560,6 +4610,17 @@
         "secuencia_gol": [
           {
             "jugador": "Boulaye Dia",
+            "tipo": "Aerial",
+            "minuto": 71,
+            "segundo": 0,
+            "x": 97.4,
+            "y": 54.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boulaye Dia",
             "tipo": "MissedShots",
             "minuto": 71,
             "segundo": 0,
@@ -4569,7 +4630,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Luca Mazzitelli",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -4579,7 +4645,68 @@
         "y": 55.3,
         "arco_y": 50.6,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Boulaye Dia",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 12,
+            "x": 65.2,
+            "y": 76.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boulaye Dia",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 13,
+            "x": 66.5,
+            "y": 74.1,
+            "endX": 65.1,
+            "endY": 66.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 14,
+            "x": 65.1,
+            "y": 66.3,
+            "endX": 66.5,
+            "endY": 62.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Loum Tchaouna",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 14,
+            "x": 66.5,
+            "y": 62.9,
+            "endX": 75.3,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boulaye Dia",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 15,
+            "x": 75.8,
+            "y": 70.1,
+            "endX": 78.2,
+            "endY": 64.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Edoardo Goldaniga",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

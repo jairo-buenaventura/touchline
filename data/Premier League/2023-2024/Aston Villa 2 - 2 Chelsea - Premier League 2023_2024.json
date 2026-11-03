@@ -381,6 +381,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Moussa Diaby",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 59,
+            "x": 75.3,
+            "y": 34.0,
+            "endX": 75.9,
+            "endY": 33.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matty Cash",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 0,
+            "x": 75.9,
+            "y": 33.1,
+            "endX": 73.2,
+            "endY": 36.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Matty Cash",
             "tipo": "Pass",
             "minuto": 41,
@@ -391,7 +413,12 @@
             "endY": 65.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Marc Cucurella",
+          "portero": false
+        }
       },
       {
         "minuto": 72,

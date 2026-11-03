@@ -609,7 +609,35 @@
         "y": 42.3,
         "arco_y": 46.1,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luuk de Jong",
+            "tipo": "Aerial",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 91.4,
+            "y": 47.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luuk de Jong",
+            "tipo": "SavedShot",
+            "minuto": 94,
+            "segundo": 35,
+            "x": 91.3,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Loïc Badé",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -4985,6 +5013,17 @@
         "secuencia_gol": [
           {
             "jugador": "Sergio Ramos",
+            "tipo": "Aerial",
+            "minuto": 67,
+            "segundo": 22,
+            "x": 95.9,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergio Ramos",
             "tipo": "Pass",
             "minuto": 67,
             "segundo": 22,
@@ -4994,7 +5033,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Malik Tillman",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

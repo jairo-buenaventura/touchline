@@ -4375,6 +4375,50 @@
         "arco_z": 29.7,
         "secuencia_gol": [
           {
+            "jugador": "Paddy McNair",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 31,
+            "x": 4.2,
+            "y": 60.5,
+            "endX": 3.5,
+            "endY": 49.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Sisniega",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 34,
+            "x": 3.5,
+            "y": 49.3,
+            "endX": 12.2,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Onni Valakari",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 37,
+            "x": 12.2,
+            "y": 41.2,
+            "endX": 20.6,
+            "endY": 94.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luca Bombino",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 45,
+            "x": 20.6,
+            "y": 94.7,
+            "endX": 28.6,
+            "endY": 96.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Luca Bombino",
             "tipo": "Pass",
             "minuto": 47,
@@ -4396,7 +4440,12 @@
             "endY": 45.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Leonardo Barroso",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

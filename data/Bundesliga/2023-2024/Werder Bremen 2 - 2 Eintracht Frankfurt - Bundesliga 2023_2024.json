@@ -4710,6 +4710,83 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Tuta",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 17,
+            "x": 21.2,
+            "y": 29.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tuta",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 20,
+            "x": 24.1,
+            "y": 29.6,
+            "endX": 38.5,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ansgar Knauff",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 22,
+            "x": 38.8,
+            "y": 62.6,
+            "endX": 37.3,
+            "endY": 69.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 28,
+            "x": 37.3,
+            "y": 69.6,
+            "endX": 67.7,
+            "endY": 85.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hugo Larsson",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 28,
+            "x": 67.7,
+            "y": 85.2,
+            "endX": 86.5,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niels Nkounkou",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 30,
+            "x": 87.6,
+            "y": 85.7,
+            "endX": 88.9,
+            "endY": 72.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Niels Nkounkou",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 88.9,
+            "y": 72.0,
+            "endX": 91.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Niels Nkounkou",
             "tipo": "Pass",
             "minuto": 63,
@@ -4742,7 +4819,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Milos Veljkovic",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

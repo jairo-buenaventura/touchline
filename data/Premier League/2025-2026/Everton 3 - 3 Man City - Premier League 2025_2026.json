@@ -449,7 +449,24 @@
         "y": 54.0,
         "arco_y": 53.6,
         "arco_z": 30.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jake O'Brien",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 38,
+            "x": 95.6,
+            "y": 54.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Nico González",
+          "portero": false
+        }
       },
       {
         "minuto": 75,
@@ -477,7 +494,24 @@
         "y": 55.1,
         "arco_y": 50.3,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Merlin Röhl",
+            "tipo": "SavedShot",
+            "minuto": 80,
+            "segundo": 41,
+            "x": 86.5,
+            "y": 34.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Abdukodir Khusanov",
+          "portero": true
+        }
       }
     ],
     "corners": [
@@ -3578,6 +3612,17 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Nico González",
+            "tipo": "BlockedPass",
+            "minuto": 41,
+            "segundo": 50,
+            "x": 79.3,
+            "y": 42.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jérémy Doku",
             "tipo": "Pass",
             "minuto": 41,
@@ -3654,7 +3699,12 @@
             "endY": 34.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Tim Iroegbunam",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

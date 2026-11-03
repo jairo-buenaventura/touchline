@@ -402,7 +402,24 @@
         "y": 50.3,
         "arco_y": 53.5,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Danilho Doekhi",
+            "tipo": "Aerial",
+            "minuto": 2,
+            "segundo": 6,
+            "x": 94.2,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Marvin Friedrich",
+          "portero": false
+        }
       },
       {
         "minuto": 4,
@@ -524,7 +541,24 @@
         "y": 53.2,
         "arco_y": 54.0,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Woo-yeong Jeong",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 34,
+            "x": 73.4,
+            "y": 20.0,
+            "endX": 90.2,
+            "endY": 52.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Marvin Friedrich",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -4036,6 +4070,83 @@
         "arco_z": 18.4,
         "secuencia_gol": [
           {
+            "jugador": "Kevin Diks",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 11,
+            "x": 8.9,
+            "y": 68.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kevin Diks",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 13,
+            "x": 6.7,
+            "y": 83.2,
+            "endX": 45.4,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Haris Tabakovic",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 17,
+            "x": 45.7,
+            "y": 73.7,
+            "endX": 46.2,
+            "endY": 55.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Neuhaus",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 18,
+            "x": 46.2,
+            "y": 55.0,
+            "endX": 47.0,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Neuhaus",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 18,
+            "x": 47.0,
+            "y": 52.1,
+            "endX": 63.8,
+            "endY": 25.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Carry",
+            "minuto": 32,
+            "segundo": 21,
+            "x": 63.8,
+            "y": 25.3,
+            "endX": 69.4,
+            "endY": 28.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Pass",
+            "minuto": 32,
+            "segundo": 21,
+            "x": 69.4,
+            "y": 28.6,
+            "endX": 78.9,
+            "endY": 57.0,
+            "exitoso": false
+          },
+          {
             "jugador": "Yannik Engelhardt",
             "tipo": "Pass",
             "minuto": 32,
@@ -4046,7 +4157,12 @@
             "endY": 63.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leopold Querfeld",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

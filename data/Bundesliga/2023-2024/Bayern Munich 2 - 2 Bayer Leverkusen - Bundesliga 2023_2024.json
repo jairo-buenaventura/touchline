@@ -411,7 +411,35 @@
         "y": 55.3,
         "arco_y": 52.4,
         "arco_z": 24.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thomas Müller",
+            "tipo": "CornerAwarded",
+            "minuto": 6,
+            "segundo": 9,
+            "x": 95.0,
+            "y": 38.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 32,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.3,
+            "endY": 46.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Edmond Tapsoba",
+          "portero": false
+        }
       },
       {
         "minuto": 10,
@@ -531,6 +559,28 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Matthijs de Ligt",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 14,
+            "x": 67.7,
+            "y": 69.6,
+            "endX": 83.2,
+            "endY": 83.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathys Tel",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 18,
+            "x": 83.2,
+            "y": 83.2,
+            "endX": 89.0,
+            "endY": 74.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Mathys Tel",
             "tipo": "TakeOn",
             "minuto": 85,
@@ -552,7 +602,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Odilon Kossounou",
+          "portero": false
+        }
       }
     ],
     "corners": [

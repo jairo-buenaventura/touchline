@@ -580,6 +580,17 @@
         "secuencia_gol": [
           {
             "jugador": "David Møller Wolfe",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 49,
+            "x": 89.6,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Møller Wolfe",
             "tipo": "Pass",
             "minuto": 83,
             "segundo": 49,
@@ -589,7 +600,12 @@
             "endY": 51.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Yassin Oukili",
+          "portero": false
+        }
       },
       {
         "minuto": 88,
@@ -5297,6 +5313,105 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Oskar Zawada",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 44,
+            "x": 40.4,
+            "y": 93.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oskar Zawada",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 44,
+            "x": 40.4,
+            "y": 93.3,
+            "endX": 32.7,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Godfried Roemeratoe",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 45,
+            "x": 32.5,
+            "y": 92.0,
+            "endX": 32.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 47,
+            "x": 31.9,
+            "y": 72.7,
+            "endX": 20.8,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Redouan El Yaakoubi",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 49,
+            "x": 21.2,
+            "y": 75.7,
+            "endX": 31.0,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 51,
+            "x": 31.8,
+            "y": 50.0,
+            "endX": 44.8,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Lokesa",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 55,
+            "x": 44.8,
+            "y": 25.8,
+            "endX": 53.5,
+            "endY": 25.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Lokesa",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 55,
+            "x": 53.5,
+            "y": 25.0,
+            "endX": 54.4,
+            "endY": 26.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Yassin Oukili",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 2,
+            "x": 54.4,
+            "y": 26.4,
+            "endX": 77.4,
+            "endY": 19.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Yassin Oukili",
             "tipo": "Pass",
             "minuto": 61,
@@ -5307,7 +5422,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ruben van Bommel",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -5317,7 +5437,134 @@
         "y": 63.6,
         "arco_y": 45.5,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Redouan El Yaakoubi",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 6,
+            "x": 74.9,
+            "y": 86.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Redouan El Yaakoubi",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 8,
+            "x": 71.1,
+            "y": 82.6,
+            "endX": 39.6,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roshon van Eijma",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 11,
+            "x": 39.6,
+            "y": 75.4,
+            "endX": 38.5,
+            "endY": 69.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roshon van Eijma",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 11,
+            "x": 38.5,
+            "y": 69.4,
+            "endX": 18.5,
+            "endY": 43.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeroen Houwen",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 18.5,
+            "y": 43.9,
+            "endX": 23.7,
+            "endY": 39.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeroen Houwen",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 15,
+            "x": 23.7,
+            "y": 39.2,
+            "endX": 69.6,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Richonell Margaret",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 19,
+            "x": 67.7,
+            "y": 78.1,
+            "endX": 70.2,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Familia-Castillo",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 26,
+            "x": 70.2,
+            "y": 95.0,
+            "endX": 81.2,
+            "endY": 92.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Juan Familia-Castillo",
+            "tipo": "Pass",
+            "minuto": 81,
+            "segundo": 26,
+            "x": 81.2,
+            "y": 92.2,
+            "endX": 82.6,
+            "endY": 80.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Lokesa",
+            "tipo": "Carry",
+            "minuto": 81,
+            "segundo": 28,
+            "x": 82.6,
+            "y": 80.1,
+            "endX": 88.4,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Chris Lokesa",
+            "tipo": "TakeOn",
+            "minuto": 81,
+            "segundo": 28,
+            "x": 88.4,
+            "y": 67.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Alexandre Penetra",
+          "portero": false
+        }
       }
     ],
     "corners": [

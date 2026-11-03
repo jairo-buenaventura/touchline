@@ -377,7 +377,35 @@
         "y": 52.1,
         "arco_y": 45.9,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "André Ayew",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 42,
+            "x": 87.5,
+            "y": 40.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Boyd Lucassen",
+            "tipo": "SavedShot",
+            "minuto": 21,
+            "segundo": 44,
+            "x": 84.6,
+            "y": 33.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jordan Bos",
+          "portero": true
+        }
       },
       {
         "minuto": 26,
@@ -397,6 +425,39 @@
         "arco_y": 54.0,
         "arco_z": 10.1,
         "secuencia_gol": [
+          {
+            "jugador": "Clint Leemans",
+            "tipo": "Aerial",
+            "minuto": 38,
+            "segundo": 26,
+            "x": 60.5,
+            "y": 82.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Clint Leemans",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 27,
+            "x": 61.4,
+            "y": 74.4,
+            "endX": 64.1,
+            "endY": 74.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kamal Sowah",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 28,
+            "x": 64.1,
+            "y": 74.0,
+            "endX": 68.1,
+            "endY": 85.1,
+            "exitoso": true
+          },
           {
             "jugador": "Kamal Sowah",
             "tipo": "Pass",
@@ -485,7 +546,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jakub Moder",
+          "portero": false
+        }
       },
       {
         "minuto": 47,
@@ -4255,6 +4321,50 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Mats Deijl",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 50,
+            "x": 53.1,
+            "y": 0.0,
+            "endX": 51.3,
+            "endY": 10.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luciano Valente",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 51,
+            "x": 51.3,
+            "y": 10.8,
+            "endX": 53.8,
+            "endY": 2.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Deijl",
+            "tipo": "Pass",
+            "minuto": 29,
+            "segundo": 52,
+            "x": 54.3,
+            "y": 3.9,
+            "endX": 52.8,
+            "endY": 7.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luciano Valente",
+            "tipo": "Carry",
+            "minuto": 29,
+            "segundo": 55,
+            "x": 52.8,
+            "y": 7.2,
+            "endX": 43.5,
+            "endY": 7.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Luciano Valente",
             "tipo": "Pass",
             "minuto": 29,
@@ -4342,7 +4452,12 @@
             "endY": 32.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Lewis Holtby",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

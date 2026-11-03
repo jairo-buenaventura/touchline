@@ -5238,7 +5238,24 @@
         "y": 61.5,
         "arco_y": 53.2,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mats Deijl",
+            "tipo": "SavedShot",
+            "minuto": 55,
+            "segundo": 51,
+            "x": 74.0,
+            "y": 69.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Mickey van der Hart",
+          "portero": true
+        }
       },
       {
         "minuto": 59,
@@ -5323,6 +5340,28 @@
         "secuencia_gol": [
           {
             "jugador": "Søren Tengstedt",
+            "tipo": "BallRecovery",
+            "minuto": 91,
+            "segundo": 33,
+            "x": 37.5,
+            "y": 59.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Søren Tengstedt",
+            "tipo": "TakeOn",
+            "minuto": 91,
+            "segundo": 34,
+            "x": 42.2,
+            "y": 67.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Søren Tengstedt",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 39,
@@ -5332,7 +5371,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Oliver Braude",
+          "portero": false
+        }
       }
     ],
     "corners": [

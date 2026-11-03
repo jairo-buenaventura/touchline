@@ -484,6 +484,17 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Hugo Bolin",
+            "tipo": "BallTouch",
+            "minuto": 73,
+            "segundo": 30,
+            "x": 94.9,
+            "y": 57.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Shuto Machino",
             "tipo": "BallTouch",
             "minuto": 73,
@@ -494,7 +505,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Benedikt Gimber",
+          "portero": false
+        }
       },
       {
         "minuto": 76,
@@ -4877,7 +4893,24 @@
         "y": 52.3,
         "arco_y": 54.2,
         "arco_z": 19.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "Aerial",
+            "minuto": 25,
+            "segundo": 29,
+            "x": 91.5,
+            "y": 52.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Philipp Sander",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -4950,7 +4983,46 @@
         "y": 35.4,
         "arco_y": 54.2,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marvin Pieringer",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 53,
+            "x": 75.8,
+            "y": 84.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Pieringer",
+            "tipo": "TakeOn",
+            "minuto": 62,
+            "segundo": 55,
+            "x": 79.4,
+            "y": 67.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marvin Pieringer",
+            "tipo": "SavedShot",
+            "minuto": 62,
+            "segundo": 56,
+            "x": 79.3,
+            "y": 66.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rocco Reitz",
+          "portero": true
+        }
       },
       {
         "minuto": 84,

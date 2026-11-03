@@ -4520,6 +4520,39 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "BallRecovery",
+            "minuto": 13,
+            "segundo": 51,
+            "x": 48.4,
+            "y": 27.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Warren Zaïre-Emery",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 52,
+            "x": 62.1,
+            "y": 20.1,
+            "endX": 73.7,
+            "endY": 15.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 54,
+            "x": 73.7,
+            "y": 15.1,
+            "endX": 81.1,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Achraf Hakimi",
             "tipo": "Pass",
             "minuto": 13,
@@ -4530,7 +4563,12 @@
             "endY": 40.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Moisés Caicedo",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -4576,7 +4614,24 @@
         "y": 51.2,
         "arco_y": 47.1,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "BallTouch",
+            "minuto": 60,
+            "segundo": 59,
+            "x": 82.9,
+            "y": 56.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andrey Santos",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

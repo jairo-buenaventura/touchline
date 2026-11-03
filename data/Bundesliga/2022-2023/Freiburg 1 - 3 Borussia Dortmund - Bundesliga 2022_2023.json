@@ -411,6 +411,17 @@
         "secuencia_gol": [
           {
             "jugador": "Matthias Ginter",
+            "tipo": "Aerial",
+            "minuto": 34,
+            "segundo": 17,
+            "x": 89.8,
+            "y": 38.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matthias Ginter",
             "tipo": "Pass",
             "minuto": 34,
             "segundo": 18,
@@ -420,7 +431,12 @@
             "endY": 57.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thorgan Hazard",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4244,6 +4260,17 @@
         "secuencia_gol": [
           {
             "jugador": "Marius Wolf",
+            "tipo": "BallRecovery",
+            "minuto": 87,
+            "segundo": 36,
+            "x": 87.0,
+            "y": 13.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marius Wolf",
             "tipo": "TakeOn",
             "minuto": 87,
             "segundo": 37,
@@ -4253,7 +4280,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Christian Günter",
+          "portero": false
+        }
       }
     ],
     "corners": [

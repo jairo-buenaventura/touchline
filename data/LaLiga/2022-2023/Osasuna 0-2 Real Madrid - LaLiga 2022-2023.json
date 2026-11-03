@@ -4439,6 +4439,39 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Luka Modric",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 32.9,
+            "y": 74.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luka Modric",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 42,
+            "x": 32.8,
+            "y": 73.9,
+            "endX": 38.6,
+            "endY": 52.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Asensio",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 46,
+            "x": 38.6,
+            "y": 52.4,
+            "endX": 56.6,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Marco Asensio",
             "tipo": "TakeOn",
             "minuto": 77,
@@ -4482,7 +4515,12 @@
             "endY": 58.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jon Moncayola",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

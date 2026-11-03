@@ -423,7 +423,35 @@
         "y": 45.7,
         "arco_y": 49.4,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jaroslaw Niezgoda",
+            "tipo": "Aerial",
+            "minuto": 26,
+            "segundo": 3,
+            "x": 90.9,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jaroslaw Niezgoda",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 3,
+            "x": 91.9,
+            "y": 51.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Walker Zimmerman",
+          "portero": true
+        }
       },
       {
         "minuto": 34,
@@ -4627,6 +4655,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Dave Romney",
+            "tipo": "Aerial",
+            "minuto": 19,
+            "segundo": 16,
+            "x": 92.6,
+            "y": 42.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dave Romney",
+            "tipo": "MissedShots",
+            "minuto": 19,
+            "segundo": 16,
+            "x": 93.5,
+            "y": 40.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Sean Davis",
             "tipo": "MissedShots",
             "minuto": 19,
@@ -4637,7 +4687,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "David Ayala",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

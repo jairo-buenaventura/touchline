@@ -397,6 +397,61 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Adam Kaied",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 9,
+            "x": 53.5,
+            "y": 78.5,
+            "endX": 36.6,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Max Balard",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 10,
+            "x": 34.9,
+            "y": 72.1,
+            "endX": 25.3,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Van den Bergh",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 15,
+            "x": 25.3,
+            "y": 66.9,
+            "endX": 31.4,
+            "endY": 73.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Van den Bergh",
+            "tipo": "Pass",
+            "minuto": 13,
+            "segundo": 15,
+            "x": 31.4,
+            "y": 73.0,
+            "endX": 75.6,
+            "endY": 88.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Boy Kemper",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 34,
+            "x": 75.6,
+            "y": 88.6,
+            "endX": 69.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Boy Kemper",
             "tipo": "Pass",
             "minuto": 13,
@@ -440,7 +495,12 @@
             "endY": 85.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Gustaf Lagerbielke",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -451,6 +511,50 @@
         "arco_y": 54.6,
         "arco_z": 20.9,
         "secuencia_gol": [
+          {
+            "jugador": "Daniel Bielica",
+            "tipo": "KeeperPickup",
+            "minuto": 18,
+            "segundo": 36,
+            "x": 4.6,
+            "y": 51.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Bielica",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 49,
+            "x": 13.8,
+            "y": 47.9,
+            "endX": 27.7,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Janosek",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 50,
+            "x": 27.7,
+            "y": 10.0,
+            "endX": 34.9,
+            "endY": 13.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Janosek",
+            "tipo": "TakeOn",
+            "minuto": 18,
+            "segundo": 50,
+            "x": 34.9,
+            "y": 13.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Dominik Janosek",
             "tipo": "Pass",
@@ -484,7 +588,12 @@
             "endY": 44.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Michel Vlap",
+          "portero": false
+        }
       },
       {
         "minuto": 25,
@@ -4073,7 +4182,24 @@
         "y": 52.6,
         "arco_y": 46.1,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Daan Rots",
+            "tipo": "Aerial",
+            "minuto": 76,
+            "segundo": 0,
+            "x": 96.4,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Leo Greiml",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

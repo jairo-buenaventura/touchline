@@ -412,6 +412,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lautaro Martínez",
+            "tipo": "SavedShot",
+            "minuto": 45,
+            "segundo": 55,
+            "x": 84.8,
+            "y": 54.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
             "tipo": "BallTouch",
             "minuto": 45,
             "segundo": 56,
@@ -432,7 +443,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Andreas Christensen",
+          "portero": true
+        }
       }
     ],
     "corners": [

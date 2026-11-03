@@ -593,6 +593,17 @@
         "secuencia_gol": [
           {
             "jugador": "Miguel Almirón",
+            "tipo": "BallRecovery",
+            "minuto": 81,
+            "segundo": 20,
+            "x": 89.5,
+            "y": 47.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Miguel Almirón",
             "tipo": "TakeOn",
             "minuto": 81,
             "segundo": 20,
@@ -602,7 +613,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "David Raya",
+          "portero": false
+        }
       }
     ],
     "corners": [

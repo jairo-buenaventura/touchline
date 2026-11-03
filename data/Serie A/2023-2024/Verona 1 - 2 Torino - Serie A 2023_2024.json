@@ -424,6 +424,28 @@
         "secuencia_gol": [
           {
             "jugador": "Suat Serdar",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 89.3,
+            "y": 81.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suat Serdar",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 59,
+            "x": 85.6,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suat Serdar",
             "tipo": "Pass",
             "minuto": 66,
             "segundo": 3,
@@ -433,7 +455,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Karol Linetty",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -4158,6 +4185,50 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Valentino Lazaro",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 35,
+            "x": 88.5,
+            "y": 0.0,
+            "endX": 66.0,
+            "endY": 8.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Tamèze",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 39,
+            "x": 66.0,
+            "y": 8.8,
+            "endX": 72.1,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karol Linetty",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 40,
+            "x": 72.1,
+            "y": 15.8,
+            "endX": 70.2,
+            "endY": 3.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuele Ricci",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 44,
+            "x": 70.2,
+            "y": 3.1,
+            "endX": 77.7,
+            "endY": 6.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Samuele Ricci",
             "tipo": "TakeOn",
             "minuto": 76,
@@ -4190,7 +4261,12 @@
             "endY": 53.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Suat Serdar",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

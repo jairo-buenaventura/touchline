@@ -499,6 +499,72 @@
         "arco_z": 14.6,
         "secuencia_gol": [
           {
+            "jugador": "Sergiño Dest",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 2,
+            "x": 33.2,
+            "y": 92.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergiño Dest",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 6,
+            "x": 37.4,
+            "y": 90.0,
+            "endX": 75.6,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Perisic",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 13,
+            "x": 75.6,
+            "y": 77.6,
+            "endX": 95.9,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ivan Perisic",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 13,
+            "x": 95.9,
+            "y": 83.3,
+            "endX": 84.5,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben van Bommel",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 15,
+            "x": 84.5,
+            "y": 79.3,
+            "endX": 83.4,
+            "endY": 74.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben van Bommel",
+            "tipo": "SavedShot",
+            "minuto": 31,
+            "segundo": 15,
+            "x": 83.4,
+            "y": 74.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Guus Til",
             "tipo": "ShotOnPost",
             "minuto": 31,
@@ -509,7 +575,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Thijmen Blokzijl",
+          "portero": true
+        }
       },
       {
         "minuto": 43,
@@ -830,7 +901,46 @@
         "y": 56.1,
         "arco_y": 46.3,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ruben van Bommel",
+            "tipo": "Aerial",
+            "minuto": 64,
+            "segundo": 52,
+            "x": 87.7,
+            "y": 62.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Sergiño Dest",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 59,
+            "x": 85.7,
+            "y": 67.6,
+            "endX": 82.3,
+            "endY": 51.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ismael Saibari",
+            "tipo": "SavedShot",
+            "minuto": 65,
+            "segundo": 0,
+            "x": 81.3,
+            "y": 52.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Hidde Jurjus",
+          "portero": true
+        }
       },
       {
         "minuto": 68,

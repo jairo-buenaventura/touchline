@@ -3820,6 +3820,50 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Bruno Guimarães",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 35,
+            "x": 14.6,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Guimarães",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 38,
+            "x": 27.2,
+            "y": 33.7,
+            "endX": 37.0,
+            "endY": 55.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nick Woltemade",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 40,
+            "x": 36.7,
+            "y": 56.7,
+            "endX": 37.7,
+            "endY": 59.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Anthony Gordon",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 47,
+            "x": 37.7,
+            "y": 59.9,
+            "endX": 23.1,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Anthony Gordon",
             "tipo": "Pass",
             "minuto": 3,
@@ -3863,7 +3907,12 @@
             "endY": 12.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Maximilian Kilman",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

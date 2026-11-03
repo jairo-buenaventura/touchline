@@ -499,6 +499,105 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Quinten Timber",
+            "tipo": "BallRecovery",
+            "minuto": 15,
+            "segundo": 14,
+            "x": 55.3,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinten Timber",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 15,
+            "x": 55.2,
+            "y": 53.5,
+            "endX": 62.4,
+            "endY": 82.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quilindschy Hartman",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 19,
+            "x": 62.7,
+            "y": 81.6,
+            "endX": 45.5,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dávid Hancko",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 45.5,
+            "y": 64.4,
+            "endX": 46.6,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gernot Trauner",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 25,
+            "x": 46.6,
+            "y": 41.8,
+            "endX": 44.3,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gernot Trauner",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 25,
+            "x": 44.3,
+            "y": 36.3,
+            "endX": 72.5,
+            "endY": 6.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 26,
+            "x": 72.5,
+            "y": 6.8,
+            "endX": 66.6,
+            "endY": 7.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 26,
+            "x": 66.6,
+            "y": 7.7,
+            "endX": 71.7,
+            "endY": 11.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Igor Paixão",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 29,
+            "x": 71.7,
+            "y": 11.3,
+            "endX": 72.4,
+            "endY": 21.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Igor Paixão",
             "tipo": "Pass",
             "minuto": 15,
@@ -520,7 +619,12 @@
             "endY": 35.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mats Köhlert",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -5761,7 +5865,90 @@
         "y": 64.7,
         "arco_y": 46.4,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Anas Tahiri",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 4,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.8,
+            "endY": 57.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Denzel Hall",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 11,
+            "x": 89.8,
+            "y": 57.2,
+            "endX": 60.6,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denzel Hall",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 11,
+            "x": 60.6,
+            "y": 57.8,
+            "endX": 71.7,
+            "endY": 76.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Syb van Ottele",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 15,
+            "x": 71.7,
+            "y": 76.1,
+            "endX": 65.8,
+            "endY": 68.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Syb van Ottele",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 15,
+            "x": 65.8,
+            "y": 68.2,
+            "endX": 73.4,
+            "endY": 60.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 17,
+            "x": 73.4,
+            "y": 60.3,
+            "endX": 83.2,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Simon Olsson",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 17,
+            "x": 83.2,
+            "y": 63.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Quinten Timber",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

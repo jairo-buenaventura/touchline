@@ -507,6 +507,39 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Cristian Espinoza",
+            "tipo": "CornerAwarded",
+            "minuto": 71,
+            "segundo": 30,
+            "x": 99.8,
+            "y": 21.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jamiro Monteiro",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 48,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 89.3,
+            "endY": 46.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ján Gregus",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 50,
+            "x": 89.3,
+            "y": 46.4,
+            "endX": 88.2,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Ján Gregus",
             "tipo": "Pass",
             "minuto": 71,
@@ -517,7 +550,12 @@
             "endY": 50.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dave Romney",
+          "portero": false
+        }
       },
       {
         "minuto": 78,
@@ -5153,6 +5191,17 @@
         "secuencia_gol": [
           {
             "jugador": "C.J. Sapong",
+            "tipo": "Aerial",
+            "minuto": 62,
+            "segundo": 49,
+            "x": 88.4,
+            "y": 40.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "C.J. Sapong",
             "tipo": "Pass",
             "minuto": 62,
             "segundo": 49,
@@ -5162,7 +5211,12 @@
             "endY": 57.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Francisco Calvo",
+          "portero": false
+        }
       }
     ],
     "corners": [

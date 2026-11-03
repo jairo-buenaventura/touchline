@@ -422,6 +422,116 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Nathan Collins",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 41,
+            "x": 14.8,
+            "y": 27.0,
+            "endX": 9.1,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 9.1,
+            "y": 46.6,
+            "endX": 12.1,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 12.1,
+            "y": 45.0,
+            "endX": 14.1,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ethan Pinnock",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 50,
+            "x": 14.1,
+            "y": 69.7,
+            "endX": 24.5,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ethan Pinnock",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 50,
+            "x": 24.5,
+            "y": 73.2,
+            "endX": 34.5,
+            "endY": 59.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 52,
+            "x": 34.5,
+            "y": 59.4,
+            "endX": 31.4,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 52,
+            "x": 31.4,
+            "y": 58.2,
+            "endX": 36.7,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sepp van den Berg",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 54,
+            "x": 39.2,
+            "y": 88.9,
+            "endX": 55.4,
+            "endY": 94.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keane Lewis-Potter",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 55,
+            "x": 55.4,
+            "y": 94.4,
+            "endX": 56.8,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Keane Lewis-Potter",
+            "tipo": "TakeOn",
+            "minuto": 42,
+            "segundo": 55,
+            "x": 56.8,
+            "y": 88.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Keane Lewis-Potter",
             "tipo": "TakeOn",
             "minuto": 42,
@@ -454,7 +564,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kalvin Phillips",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -465,6 +580,61 @@
         "arco_y": 47.4,
         "arco_z": 1.9,
         "secuencia_gol": [
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "KeeperPickup",
+            "minuto": 44,
+            "segundo": 37,
+            "x": 3.7,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mark Flekken",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 40,
+            "x": 12.7,
+            "y": 45.6,
+            "endX": 26.1,
+            "endY": 40.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 44,
+            "x": 26.1,
+            "y": 40.7,
+            "endX": 33.5,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikkel Damsgaard",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 44,
+            "x": 33.5,
+            "y": 36.1,
+            "endX": 36.3,
+            "endY": 32.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mads Roerslev",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 50,
+            "x": 36.3,
+            "y": 32.6,
+            "endX": 29.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Mads Roerslev",
             "tipo": "Pass",
@@ -575,7 +745,12 @@
             "endY": 45.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jens Cajuste",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -5042,6 +5217,72 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Dara O'Shea",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 42,
+            "x": 31.3,
+            "y": 48.3,
+            "endX": 32.3,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Clarke",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 46,
+            "x": 32.3,
+            "y": 28.9,
+            "endX": 31.8,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Clarke",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 46,
+            "x": 31.8,
+            "y": 38.3,
+            "endX": 30.0,
+            "endY": 51.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dara O'Shea",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 47,
+            "x": 30.0,
+            "y": 51.5,
+            "endX": 39.9,
+            "endY": 35.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kalvin Phillips",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 49,
+            "x": 41.0,
+            "y": 35.5,
+            "endX": 71.2,
+            "endY": 36.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "George Hirst",
+            "tipo": "BallTouch",
+            "minuto": 27,
+            "segundo": 51,
+            "x": 71.2,
+            "y": 36.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "George Hirst",
             "tipo": "Pass",
             "minuto": 27,
@@ -5052,7 +5293,12 @@
             "endY": 55.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nathan Collins",
+          "portero": false
+        }
       },
       {
         "minuto": 30,
@@ -5141,6 +5387,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kalvin Phillips",
+            "tipo": "TakeOn",
+            "minuto": 84,
+            "segundo": 54,
+            "x": 54.2,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kalvin Phillips",
             "tipo": "Pass",
             "minuto": 84,
             "segundo": 55,
@@ -5183,7 +5440,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Fábio Carvalho",
+          "portero": false
+        }
       },
       {
         "minuto": 97,

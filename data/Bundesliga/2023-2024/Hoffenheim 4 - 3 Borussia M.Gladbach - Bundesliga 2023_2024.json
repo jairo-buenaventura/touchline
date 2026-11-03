@@ -842,6 +842,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ozan Kabak",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 2,
+            "x": 72.5,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ozan Kabak",
             "tipo": "TakeOn",
             "minuto": 65,
             "segundo": 3,
@@ -851,7 +862,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Julian Weigl",
+          "portero": false
+        }
       },
       {
         "minuto": 68,

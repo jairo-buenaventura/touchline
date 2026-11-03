@@ -484,6 +484,17 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Patrik Schick",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 18,
+            "x": 68.4,
+            "y": 8.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Ibrahim Maza",
             "tipo": "Pass",
             "minuto": 69,
@@ -527,7 +538,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Fabio Chiarodia",
+          "portero": false
+        }
       },
       {
         "minuto": 82,
@@ -5502,7 +5518,24 @@
         "y": 50.7,
         "arco_y": 53.9,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Haris Tabakovic",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 25,
+            "x": 95.3,
+            "y": 50.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jarell Quansah",
+          "portero": false
+        }
       }
     ],
     "corners": [

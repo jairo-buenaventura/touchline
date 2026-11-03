@@ -386,7 +386,134 @@
         "y": 50.2,
         "arco_y": 49.9,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "BallRecovery",
+            "minuto": 4,
+            "segundo": 45,
+            "x": 40.7,
+            "y": 36.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Brandon Vázquez",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 48,
+            "x": 41.0,
+            "y": 35.1,
+            "endX": 44.4,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 44.4,
+            "y": 62.6,
+            "endX": 45.9,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 51,
+            "x": 45.9,
+            "y": 57.8,
+            "endX": 75.8,
+            "endY": 7.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Arias",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 58,
+            "x": 75.8,
+            "y": 7.0,
+            "endX": 78.5,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Santiago Arias",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 58,
+            "x": 78.5,
+            "y": 24.7,
+            "endX": 77.8,
+            "endY": 41.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 0,
+            "x": 77.8,
+            "y": 41.8,
+            "endX": 80.8,
+            "endY": 47.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "TakeOn",
+            "minuto": 5,
+            "segundo": 0,
+            "x": 80.8,
+            "y": 47.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "SavedShot",
+            "minuto": 5,
+            "segundo": 1,
+            "x": 81.8,
+            "y": 51.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 2,
+            "x": 87.3,
+            "y": 58.2,
+            "endX": 90.5,
+            "endY": 64.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bret Halsey",
+            "tipo": "SavedShot",
+            "minuto": 5,
+            "segundo": 3,
+            "x": 90.7,
+            "y": 64.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Luis Barraza",
+          "portero": true
+        }
       },
       {
         "minuto": 17,
@@ -425,6 +552,28 @@
         "arco_z": 16.5,
         "secuencia_gol": [
           {
+            "jugador": "Júnior Moreno",
+            "tipo": "BlockedPass",
+            "minuto": 51,
+            "segundo": 14,
+            "x": 55.3,
+            "y": 91.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucho Acosta",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 19,
+            "x": 93.9,
+            "y": 67.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Lucho Acosta",
             "tipo": "Pass",
             "minuto": 51,
@@ -435,7 +584,12 @@
             "endY": 49.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Birk Risa",
+          "portero": false
+        }
       },
       {
         "minuto": 57,

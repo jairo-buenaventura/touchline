@@ -480,6 +480,61 @@
         "secuencia_gol": [
           {
             "jugador": "Mathias Jensen",
+            "tipo": "BallRecovery",
+            "minuto": 94,
+            "segundo": 53,
+            "x": 32.8,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 55,
+            "x": 32.6,
+            "y": 50.6,
+            "endX": 40.9,
+            "endY": 65.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Shandon Baptiste",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 57,
+            "x": 42.4,
+            "y": 67.3,
+            "endX": 56.2,
+            "endY": 89.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitaly Janelt",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 59,
+            "x": 56.2,
+            "y": 89.1,
+            "endX": 58.3,
+            "endY": 88.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mathias Jensen",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 4,
+            "x": 58.3,
+            "y": 88.0,
+            "endX": 45.5,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mathias Jensen",
             "tipo": "Pass",
             "minuto": 95,
             "segundo": 4,
@@ -555,7 +610,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Jordan Ayew",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -785,6 +785,28 @@
             "jugador": "Paulo Dybala",
             "tipo": "Pass",
             "minuto": 49,
+            "segundo": 38,
+            "x": 64.2,
+            "y": 72.3,
+            "endX": 86.0,
+            "endY": 53.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 44,
+            "x": 86.0,
+            "y": 53.2,
+            "endX": 73.2,
+            "endY": 70.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paulo Dybala",
+            "tipo": "Pass",
+            "minuto": 49,
             "segundo": 44,
             "x": 73.2,
             "y": 70.8,
@@ -814,7 +836,12 @@
             "endY": 69.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jeremy Toljan",
+          "portero": false
+        }
       },
       {
         "minuto": 59,
@@ -5137,7 +5164,57 @@
         "y": 51.8,
         "arco_y": 53.6,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Matheus Henrique",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 31,
+            "x": 64.9,
+            "y": 40.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Henrique",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 34,
+            "x": 73.1,
+            "y": 58.3,
+            "endX": 85.0,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Davide Frattesi",
+            "tipo": "SavedShot",
+            "minuto": 12,
+            "segundo": 36,
+            "x": 84.3,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrea Pinamonti",
+            "tipo": "SavedShot",
+            "minuto": 12,
+            "segundo": 39,
+            "x": 86.6,
+            "y": 34.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Rui Patrício",
+          "portero": true
+        }
       },
       {
         "minuto": 16,
@@ -5289,6 +5366,83 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Davide Frattesi",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 13,
+            "x": 45.2,
+            "y": 8.3,
+            "endX": 47.9,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gian Marco Ferrari",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 17,
+            "x": 47.9,
+            "y": 62.7,
+            "endX": 55.8,
+            "endY": 74.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gian Marco Ferrari",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 17,
+            "x": 55.8,
+            "y": 74.8,
+            "endX": 67.4,
+            "endY": 95.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 25,
+            "x": 67.4,
+            "y": 95.0,
+            "endX": 66.8,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 25,
+            "x": 66.8,
+            "y": 87.2,
+            "endX": 65.7,
+            "endY": 73.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 28,
+            "x": 65.7,
+            "y": 73.0,
+            "endX": 66.6,
+            "endY": 81.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Armand Laurienté",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 28,
+            "x": 66.6,
+            "y": 81.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Armand Laurienté",
             "tipo": "Pass",
             "minuto": 74,
@@ -5299,7 +5453,12 @@
             "endY": 59.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mady Camara",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

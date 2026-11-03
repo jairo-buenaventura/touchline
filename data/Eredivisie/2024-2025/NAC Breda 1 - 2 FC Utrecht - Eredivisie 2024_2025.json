@@ -4304,6 +4304,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mike van der Hoorn",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 16,
+            "x": 96.2,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mike van der Hoorn",
             "tipo": "BallTouch",
             "minuto": 90,
             "segundo": 18,
@@ -4313,7 +4324,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Leo Greiml",
+          "portero": false
+        }
       },
       {
         "minuto": 95,
@@ -4324,6 +4340,17 @@
         "arco_y": 46.8,
         "arco_z": 27.2,
         "secuencia_gol": [
+          {
+            "jugador": "Victor Jensen",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 0,
+            "x": 87.6,
+            "y": 24.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
           {
             "jugador": "Alonzo Engwanda",
             "tipo": "Pass",
@@ -4357,7 +4384,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jan Van den Bergh",
+          "portero": false
+        }
       }
     ],
     "corners": [

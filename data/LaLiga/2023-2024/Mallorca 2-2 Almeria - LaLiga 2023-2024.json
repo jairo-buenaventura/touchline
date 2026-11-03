@@ -426,6 +426,17 @@
         "secuencia_gol": [
           {
             "jugador": "Samú Costa",
+            "tipo": "Aerial",
+            "minuto": 28,
+            "segundo": 22,
+            "x": 92.6,
+            "y": 37.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samú Costa",
             "tipo": "Pass",
             "minuto": 28,
             "segundo": 22,
@@ -446,7 +457,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Bruno Langa",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -621,6 +637,94 @@
         "secuencia_gol": [
           {
             "jugador": "Antonio Raíllo",
+            "tipo": "BallRecovery",
+            "minuto": 82,
+            "segundo": 24,
+            "x": 38.7,
+            "y": 26.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Raíllo",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 26,
+            "x": 43.0,
+            "y": 28.8,
+            "endX": 62.6,
+            "endY": 49.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergi Darder",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 29,
+            "x": 62.6,
+            "y": 49.9,
+            "endX": 63.2,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sergi Darder",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 29,
+            "x": 63.2,
+            "y": 40.4,
+            "endX": 66.2,
+            "endY": 15.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Morlanes",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 32,
+            "x": 66.2,
+            "y": 15.8,
+            "endX": 71.6,
+            "endY": 12.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Manu Morlanes",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 32,
+            "x": 71.6,
+            "y": 12.8,
+            "endX": 86.0,
+            "endY": 4.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nemanja Radonjic",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 35,
+            "x": 86.0,
+            "y": 4.1,
+            "endX": 91.3,
+            "endY": 41.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antonio Raíllo",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 38,
+            "x": 91.3,
+            "y": 41.5,
+            "endX": 72.8,
+            "endY": 45.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antonio Raíllo",
             "tipo": "Pass",
             "minuto": 82,
             "segundo": 38,
@@ -630,7 +734,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Chumi",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4750,7 +4859,35 @@
         "y": 45.8,
         "arco_y": 53.2,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Bruno Langa",
+            "tipo": "Tackle",
+            "minuto": 40,
+            "segundo": 51,
+            "x": 76.1,
+            "y": 91.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álex Centelles",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 53,
+            "x": 84.8,
+            "y": 89.4,
+            "endX": 90.4,
+            "endY": 50.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Antonio Raíllo",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

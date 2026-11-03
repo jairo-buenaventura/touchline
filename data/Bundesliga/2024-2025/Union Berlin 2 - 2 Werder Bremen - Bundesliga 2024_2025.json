@@ -423,7 +423,24 @@
         "y": 58.3,
         "arco_y": 46.1,
         "arco_z": 19.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tom Rothe",
+            "tipo": "Aerial",
+            "minuto": 36,
+            "segundo": 56,
+            "x": 91.6,
+            "y": 54.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Mitchell Weiser",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -525,6 +542,17 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "Leopold Querfeld",
+            "tipo": "Aerial",
+            "minuto": 83,
+            "segundo": 36,
+            "x": 91.0,
+            "y": 52.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Tom Rothe",
             "tipo": "Pass",
             "minuto": 83,
@@ -535,7 +563,12 @@
             "endY": 74.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jens Stage",
+          "portero": false
+        }
       },
       {
         "minuto": 86,

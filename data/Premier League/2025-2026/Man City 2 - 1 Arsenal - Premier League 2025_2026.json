@@ -417,6 +417,83 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Marc Guéhi",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 11,
+            "x": 71.1,
+            "y": 71.4,
+            "endX": 76.4,
+            "endY": 90.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémy Doku",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 15,
+            "x": 76.4,
+            "y": 90.6,
+            "endX": 74.4,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémy Doku",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 15,
+            "x": 74.4,
+            "y": 86.4,
+            "endX": 69.6,
+            "endY": 71.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodri",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 18,
+            "x": 69.6,
+            "y": 70.3,
+            "endX": 87.6,
+            "endY": 23.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 87.6,
+            "y": 23.6,
+            "endX": 72.6,
+            "endY": 28.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Matheus Nunes",
+            "tipo": "Pass",
+            "minuto": 15,
+            "segundo": 22,
+            "x": 72.6,
+            "y": 28.0,
+            "endX": 78.4,
+            "endY": 32.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rayan Cherki",
+            "tipo": "Carry",
+            "minuto": 15,
+            "segundo": 24,
+            "x": 78.4,
+            "y": 32.1,
+            "endX": 88.5,
+            "endY": 36.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rayan Cherki",
             "tipo": "TakeOn",
             "minuto": 15,
@@ -427,7 +504,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gabriel Magalhães",
+          "portero": false
+        }
       },
       {
         "minuto": 26,
@@ -509,7 +591,90 @@
         "y": 46.2,
         "arco_y": 51.9,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Gianluigi Donnarumma",
+            "tipo": "KeeperPickup",
+            "minuto": 64,
+            "segundo": 23,
+            "x": 10.0,
+            "y": 34.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluigi Donnarumma",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 27,
+            "x": 12.4,
+            "y": 43.3,
+            "endX": 57.4,
+            "endY": 77.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico O'Reilly",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 34,
+            "x": 57.4,
+            "y": 77.6,
+            "endX": 76.6,
+            "endY": 79.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico O'Reilly",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 34,
+            "x": 76.6,
+            "y": 79.3,
+            "endX": 84.9,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémy Doku",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 38,
+            "x": 84.9,
+            "y": 90.0,
+            "endX": 83.9,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémy Doku",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 38,
+            "x": 83.9,
+            "y": 71.8,
+            "endX": 89.6,
+            "endY": 64.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nico O'Reilly",
+            "tipo": "Pass",
+            "minuto": 64,
+            "segundo": 39,
+            "x": 89.6,
+            "y": 64.4,
+            "endX": 90.6,
+            "endY": 46.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Piero Hincapié",
+          "portero": false
+        }
       },
       {
         "minuto": 67,

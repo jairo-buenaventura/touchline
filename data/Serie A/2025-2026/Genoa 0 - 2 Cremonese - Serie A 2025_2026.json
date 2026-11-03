@@ -4493,6 +4493,39 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Federico Bonazzoli",
+            "tipo": "CornerAwarded",
+            "minuto": 2,
+            "segundo": 46,
+            "x": 95.2,
+            "y": 12.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jari Vandeputte",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 11,
+            "x": 99.6,
+            "y": 0.2,
+            "endX": 96.9,
+            "endY": 40.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Matteo Bianchetti",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 13,
+            "x": 96.9,
+            "y": 40.9,
+            "endX": 89.5,
+            "endY": 46.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Matteo Bianchetti",
             "tipo": "MissedShots",
             "minuto": 3,
@@ -4503,7 +4536,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Valentín Carboni",
+          "portero": false
+        }
       },
       {
         "minuto": 18,

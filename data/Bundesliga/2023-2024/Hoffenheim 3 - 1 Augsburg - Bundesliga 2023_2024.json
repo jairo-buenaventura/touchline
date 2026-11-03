@@ -4941,6 +4941,50 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Arne Engels",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 3,
+            "x": 42.9,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Engels",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 7,
+            "x": 60.2,
+            "y": 15.6,
+            "endX": 69.4,
+            "endY": 58.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Maier",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 69.4,
+            "y": 58.3,
+            "endX": 81.3,
+            "endY": 53.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Arne Maier",
+            "tipo": "SavedShot",
+            "minuto": 60,
+            "segundo": 12,
+            "x": 81.3,
+            "y": 53.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Phillip Tietz",
             "tipo": "Pass",
             "minuto": 60,
@@ -4951,7 +4995,12 @@
             "endY": 56.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Florian Grillitsch",
+          "portero": true
+        }
       },
       {
         "minuto": 64,

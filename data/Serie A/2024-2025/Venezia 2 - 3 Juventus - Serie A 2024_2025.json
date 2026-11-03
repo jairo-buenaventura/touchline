@@ -368,6 +368,39 @@
             "jugador": "Ridgeciano Haps",
             "tipo": "Pass",
             "minuto": 1,
+            "segundo": 6,
+            "x": 68.5,
+            "y": 59.4,
+            "endX": 79.1,
+            "endY": 83.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikael Ellertsson",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 8,
+            "x": 79.8,
+            "y": 84.1,
+            "endX": 81.6,
+            "endY": 81.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ridgeciano Haps",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 10,
+            "x": 81.6,
+            "y": 81.1,
+            "endX": 91.3,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ridgeciano Haps",
+            "tipo": "Pass",
+            "minuto": 1,
             "segundo": 10,
             "x": 91.3,
             "y": 66.0,
@@ -375,7 +408,12 @@
             "endY": 51.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Alberto Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -430,7 +468,68 @@
         "y": 60.7,
         "arco_y": 52.3,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ionut Radu",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 38,
+            "x": 8.3,
+            "y": 45.4,
+            "endX": 26.2,
+            "endY": 40.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hans Nicolussi Caviglia",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 39,
+            "x": 26.2,
+            "y": 40.3,
+            "endX": 35.3,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hans Nicolussi Caviglia",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 39,
+            "x": 35.3,
+            "y": 25.8,
+            "endX": 76.4,
+            "endY": 28.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Doumbia",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 45,
+            "x": 76.4,
+            "y": 28.9,
+            "endX": 93.6,
+            "endY": 29.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Issa Doumbia",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 45,
+            "x": 93.6,
+            "y": 29.9,
+            "endX": 91.0,
+            "endY": 37.2,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Renato Veiga",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

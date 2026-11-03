@@ -5333,7 +5333,68 @@
         "y": 57.7,
         "arco_y": 51.0,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ki-Jana Hoever",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 26,
+            "x": 21.8,
+            "y": 25.2,
+            "endX": 68.5,
+            "endY": 27.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 29,
+            "x": 68.5,
+            "y": 27.6,
+            "endX": 68.3,
+            "endY": 22.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Pass",
+            "minuto": 39,
+            "segundo": 29,
+            "x": 68.3,
+            "y": 22.1,
+            "endX": 77.1,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Carry",
+            "minuto": 39,
+            "segundo": 32,
+            "x": 77.1,
+            "y": 46.6,
+            "endX": 84.6,
+            "endY": 50.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "TakeOn",
+            "minuto": 39,
+            "segundo": 32,
+            "x": 84.6,
+            "y": 50.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mathew Ryan",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -5396,6 +5457,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "BallRecovery",
+            "minuto": 71,
+            "segundo": 54,
+            "x": 38.2,
+            "y": 62.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lassine Sinayoko",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 55,
+            "x": 38.7,
+            "y": 64.8,
+            "endX": 55.6,
+            "endY": 48.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 3,
+            "x": 55.6,
+            "y": 48.5,
+            "endX": 79.6,
+            "endY": 38.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Gaëtan Perrin",
             "tipo": "Pass",
             "minuto": 72,
@@ -5406,7 +5500,12 @@
             "endY": 35.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Juma Bah",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

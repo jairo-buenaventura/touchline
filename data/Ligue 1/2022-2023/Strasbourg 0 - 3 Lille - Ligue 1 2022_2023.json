@@ -4426,6 +4426,39 @@
         "secuencia_gol": [
           {
             "jugador": "Rémy Cabella",
+            "tipo": "BallRecovery",
+            "minuto": 75,
+            "segundo": 9,
+            "x": 87.9,
+            "y": 33.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémy Cabella",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 10,
+            "x": 89.2,
+            "y": 32.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan David",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 12,
+            "x": 91.1,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rémy Cabella",
             "tipo": "Pass",
             "minuto": 75,
             "segundo": 13,
@@ -4479,7 +4512,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Ronaël Pierre-Gabriel",
+          "portero": true
+        }
       },
       {
         "minuto": 79,

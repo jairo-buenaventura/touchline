@@ -447,6 +447,39 @@
         "secuencia_gol": [
           {
             "jugador": "Idan Toklomati",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 64.9,
+            "y": 10.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Idan Toklomati",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 23,
+            "x": 81.1,
+            "y": 27.4,
+            "endX": 87.5,
+            "endY": 61.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kerwin Vargas",
+            "tipo": "SavedShot",
+            "minuto": 35,
+            "segundo": 25,
+            "x": 89.4,
+            "y": 62.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Idan Toklomati",
             "tipo": "Pass",
             "minuto": 35,
             "segundo": 31,
@@ -456,7 +489,12 @@
             "endY": 50.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dave Romney",
+          "portero": true
+        }
       },
       {
         "minuto": 39,

@@ -568,6 +568,28 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Dani Pereira",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 36,
+            "x": 17.4,
+            "y": 47.9,
+            "endX": 23.1,
+            "endY": 73.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Owen Wolff",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 38,
+            "x": 23.1,
+            "y": 73.6,
+            "endX": 30.5,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Owen Wolff",
             "tipo": "TakeOn",
             "minuto": 70,
@@ -666,7 +688,12 @@
             "endY": 63.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Eduard Löwen",
+          "portero": false
+        }
       },
       {
         "minuto": 94,
@@ -5234,7 +5261,24 @@
         "y": 51.3,
         "arco_y": 49.5,
         "arco_z": 13.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tim Parker",
+            "tipo": "Aerial",
+            "minuto": 23,
+            "segundo": 32,
+            "x": 93.6,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Brad Stuver",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -5365,7 +5409,90 @@
         "y": 35.8,
         "arco_y": 54.2,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "John Nelson",
+            "tipo": "BallRecovery",
+            "minuto": 85,
+            "segundo": 15,
+            "x": 19.4,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John Nelson",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 15,
+            "x": 19.4,
+            "y": 88.6,
+            "endX": 33.9,
+            "endY": 70.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eduard Löwen",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 18,
+            "x": 34.2,
+            "y": 70.2,
+            "endX": 45.8,
+            "endY": 34.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicholas Gioacchini",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 21,
+            "x": 45.8,
+            "y": 34.3,
+            "endX": 50.9,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nicholas Gioacchini",
+            "tipo": "Pass",
+            "minuto": 85,
+            "segundo": 21,
+            "x": 50.9,
+            "y": 38.3,
+            "endX": 73.9,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
+            "tipo": "Carry",
+            "minuto": 85,
+            "segundo": 26,
+            "x": 73.9,
+            "y": 22.7,
+            "endX": 89.4,
+            "endY": 29.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Klauss",
+            "tipo": "TakeOn",
+            "minuto": 85,
+            "segundo": 26,
+            "x": 89.4,
+            "y": 29.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kipp Keller",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

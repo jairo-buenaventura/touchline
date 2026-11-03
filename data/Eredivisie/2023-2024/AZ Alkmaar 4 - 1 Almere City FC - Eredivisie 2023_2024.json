@@ -745,6 +745,83 @@
         "secuencia_gol": [
           {
             "jugador": "Alexandre Penetra",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 25,
+            "x": 51.5,
+            "y": 72.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexandre Penetra",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 26,
+            "x": 54.2,
+            "y": 76.6,
+            "endX": 65.6,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myron van Brederode",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 65.6,
+            "y": 92.4,
+            "endX": 75.0,
+            "endY": 88.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Myron van Brederode",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 31,
+            "x": 75.0,
+            "y": 88.5,
+            "endX": 91.1,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vangelis Pavlidis",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 35,
+            "x": 91.2,
+            "y": 84.2,
+            "endX": 91.2,
+            "endY": 81.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dani de Wit",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 36,
+            "x": 91.2,
+            "y": 81.4,
+            "endX": 94.5,
+            "endY": 53.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dani de Wit",
+            "tipo": "BallTouch",
+            "minuto": 65,
+            "segundo": 36,
+            "x": 94.5,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alexandre Penetra",
             "tipo": "SavedShot",
             "minuto": 65,
             "segundo": 39,
@@ -765,7 +842,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Stije Resink",
+          "portero": false
+        }
       },
       {
         "minuto": 72,
@@ -5131,7 +5213,24 @@
         "y": 45.8,
         "arco_y": 47.1,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Loïc Mbe Soh",
+            "tipo": "Aerial",
+            "minuto": 55,
+            "segundo": 31,
+            "x": 93.4,
+            "y": 61.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Alexandre Penetra",
+          "portero": false
+        }
       }
     ],
     "corners": [

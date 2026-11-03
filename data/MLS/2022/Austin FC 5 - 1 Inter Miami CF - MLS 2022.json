@@ -698,6 +698,17 @@
         "secuencia_gol": [
           {
             "jugador": "Diego Fagúndez",
+            "tipo": "BallRecovery",
+            "minuto": 89,
+            "segundo": 43,
+            "x": 36.9,
+            "y": 90.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Fagúndez",
             "tipo": "TakeOn",
             "minuto": 89,
             "segundo": 49,
@@ -718,7 +729,12 @@
             "endY": 25.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "George Acosta",
+          "portero": false
+        }
       }
     ],
     "corners": [

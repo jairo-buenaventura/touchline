@@ -416,6 +416,28 @@
         "arco_z": 22.8,
         "secuencia_gol": [
           {
+            "jugador": "Gerrit Holtmann",
+            "tipo": "BallRecovery",
+            "minuto": 37,
+            "segundo": 54,
+            "x": 29.2,
+            "y": 92.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerrit Holtmann",
+            "tipo": "BallTouch",
+            "minuto": 37,
+            "segundo": 57,
+            "x": 53.9,
+            "y": 88.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Manuel Riemann",
             "tipo": "Pass",
             "minuto": 38,
@@ -459,7 +481,12 @@
             "endY": 91.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Alexander Hack",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

@@ -561,6 +561,83 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "John McCarthy",
+            "tipo": "KeeperPickup",
+            "minuto": 66,
+            "segundo": 29,
+            "x": 13.3,
+            "y": 47.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McCarthy",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 31,
+            "x": 13.3,
+            "y": 47.3,
+            "endX": 24.4,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maya Yoshida",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 36,
+            "x": 24.4,
+            "y": 77.9,
+            "endX": 33.6,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maya Yoshida",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 36,
+            "x": 33.6,
+            "y": 77.9,
+            "endX": 38.5,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 37,
+            "x": 38.5,
+            "y": 81.1,
+            "endX": 37.3,
+            "endY": 74.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 37,
+            "x": 37.3,
+            "y": 74.7,
+            "endX": 45.6,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Carry",
+            "minuto": 66,
+            "segundo": 39,
+            "x": 45.6,
+            "y": 57.3,
+            "endX": 46.8,
+            "endY": 52.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Marco Reus",
             "tipo": "TakeOn",
             "minuto": 66,
@@ -637,7 +714,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lewis O'Brien",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -5627,7 +5709,68 @@
         "y": 44.8,
         "arco_y": 48.0,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lewis O'Brien",
+            "tipo": "BallRecovery",
+            "minuto": 3,
+            "segundo": 30,
+            "x": 48.4,
+            "y": 59.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis O'Brien",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 31,
+            "x": 48.1,
+            "y": 60.3,
+            "endX": 64.3,
+            "endY": 82.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Carry",
+            "minuto": 3,
+            "segundo": 38,
+            "x": 64.3,
+            "y": 82.6,
+            "endX": 95.0,
+            "endY": 67.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "TakeOn",
+            "minuto": 3,
+            "segundo": 38,
+            "x": 95.0,
+            "y": 67.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Pass",
+            "minuto": 3,
+            "segundo": 38,
+            "x": 95.2,
+            "y": 65.0,
+            "endX": 94.3,
+            "endY": 50.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Maya Yoshida",
+          "portero": false
+        }
       },
       {
         "minuto": 7,
@@ -5655,7 +5798,57 @@
         "y": 61.3,
         "arco_y": 50.8,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 0,
+            "x": 26.4,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Timothy Tillman",
+            "tipo": "Pass",
+            "minuto": 14,
+            "segundo": 3,
+            "x": 45.9,
+            "y": 58.6,
+            "endX": 65.2,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Carry",
+            "minuto": 14,
+            "segundo": 10,
+            "x": 65.2,
+            "y": 93.2,
+            "endX": 88.7,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "TakeOn",
+            "minuto": 14,
+            "segundo": 10,
+            "x": 88.7,
+            "y": 71.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jalen Neal",
+          "portero": false
+        }
       },
       {
         "minuto": 26,

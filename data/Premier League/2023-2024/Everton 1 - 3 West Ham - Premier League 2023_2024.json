@@ -4836,7 +4836,24 @@
         "y": 49.2,
         "arco_y": 46.5,
         "arco_z": 29.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Kurt Zouma",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 14,
+            "x": 95.2,
+            "y": 51.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ben Godfrey",
+          "portero": false
+        }
       },
       {
         "minuto": 64,
@@ -4874,6 +4891,61 @@
         "arco_y": 54.5,
         "arco_z": 21.5,
         "secuencia_gol": [
+          {
+            "jugador": "Tomás Soucek",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 9,
+            "x": 59.2,
+            "y": 16.4,
+            "endX": 60.5,
+            "endY": 16.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 60.5,
+            "y": 16.7,
+            "endX": 74.1,
+            "endY": 9.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michail Antonio",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 17,
+            "x": 74.1,
+            "y": 9.4,
+            "endX": 90.7,
+            "endY": 21.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tomás Soucek",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 19,
+            "x": 91.4,
+            "y": 22.1,
+            "endX": 90.8,
+            "endY": 47.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kalvin Phillips",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 25,
+            "x": 90.8,
+            "y": 47.9,
+            "endX": 67.2,
+            "endY": 47.2,
+            "exitoso": true
+          },
           {
             "jugador": "Kalvin Phillips",
             "tipo": "Pass",
@@ -4918,7 +4990,12 @@
             "endY": 31.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ben Godfrey",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

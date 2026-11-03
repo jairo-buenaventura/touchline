@@ -5218,6 +5218,39 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Yan Couto",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 20,
+            "x": 21.8,
+            "y": 1.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yan Couto",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 25,
+            "x": 33.0,
+            "y": 18.6,
+            "endX": 60.1,
+            "endY": 21.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Viktor Tsygankov",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 30,
+            "x": 60.1,
+            "y": 21.1,
+            "endX": 87.6,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Viktor Tsygankov",
             "tipo": "Pass",
             "minuto": 11,
@@ -5228,7 +5261,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andreas Christensen",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -5470,7 +5508,57 @@
         "y": 50.4,
         "arco_y": 45.5,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Cristhian Stuani",
+            "tipo": "Aerial",
+            "minuto": 79,
+            "segundo": 54,
+            "x": 78.3,
+            "y": 25.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cristhian Stuani",
+            "tipo": "Pass",
+            "minuto": 79,
+            "segundo": 54,
+            "x": 75.2,
+            "y": 26.6,
+            "endX": 77.5,
+            "endY": 39.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "Carry",
+            "minuto": 79,
+            "segundo": 56,
+            "x": 77.5,
+            "y": 39.7,
+            "endX": 79.4,
+            "endY": 43.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valery Fernández",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 56,
+            "x": 79.4,
+            "y": 43.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jules Koundé",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

@@ -437,7 +437,24 @@
         "y": 49.1,
         "arco_y": 53.8,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sem Steijn",
+            "tipo": "Aerial",
+            "minuto": 70,
+            "segundo": 37,
+            "x": 90.3,
+            "y": 33.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Quilindschy Hartman",
+          "portero": false
+        }
       },
       {
         "minuto": 84,
@@ -4754,6 +4771,28 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Thomas Beelen",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 44,
+            "x": 23.6,
+            "y": 37.0,
+            "endX": 56.7,
+            "endY": 31.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Givairo Read",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 1,
+            "x": 56.7,
+            "y": 31.1,
+            "endX": 44.5,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Givairo Read",
             "tipo": "Pass",
             "minuto": 61,
@@ -4786,7 +4825,12 @@
             "endY": 55.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Mees Hilgers",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

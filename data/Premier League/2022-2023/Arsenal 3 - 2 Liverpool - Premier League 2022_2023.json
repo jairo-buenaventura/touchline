@@ -507,6 +507,28 @@
         "secuencia_gol": [
           {
             "jugador": "Gabriel Jesus",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 29,
+            "x": 30.4,
+            "y": 60.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 29,
+            "x": 29.6,
+            "y": 59.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Jesus",
             "tipo": "Pass",
             "minuto": 49,
             "segundo": 31,
@@ -549,7 +571,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thiago Alcântara",
+          "portero": false
+        }
       },
       {
         "minuto": 49,
@@ -4172,6 +4199,50 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 2,
+            "x": 28.8,
+            "y": 0.0,
+            "endX": 37.6,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thiago Alcântara",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 3,
+            "x": 37.8,
+            "y": 13.9,
+            "endX": 32.2,
+            "endY": 3.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Trent Alexander-Arnold",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 5,
+            "x": 32.5,
+            "y": 3.5,
+            "endX": 65.1,
+            "endY": 21.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 11,
+            "x": 65.1,
+            "y": 21.8,
+            "endX": 90.9,
+            "endY": 22.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Díaz",
             "tipo": "Pass",
             "minuto": 33,
@@ -4182,7 +4253,12 @@
             "endY": 49.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gabriel Magalhães",
+          "portero": false
+        }
       },
       {
         "minuto": 52,

@@ -4299,6 +4299,39 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Charlie Taylor",
+            "tipo": "CornerAwarded",
+            "minuto": 10,
+            "segundo": 28,
+            "x": 76.6,
+            "y": 51.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jóhann Gudmundsson",
+            "tipo": "Pass",
+            "minuto": 10,
+            "segundo": 53,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 95.0,
+            "endY": 50.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Dara O'Shea",
+            "tipo": "Carry",
+            "minuto": 10,
+            "segundo": 56,
+            "x": 95.0,
+            "y": 50.1,
+            "endX": 85.6,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Dara O'Shea",
             "tipo": "Pass",
             "minuto": 10,
@@ -4309,7 +4342,12 @@
             "endY": 39.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Illia Zabarnyi",
+          "portero": false
+        }
       },
       {
         "minuto": 35,

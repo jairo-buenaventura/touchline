@@ -467,7 +467,35 @@
         "y": 45.8,
         "arco_y": 49.9,
         "arco_z": 8.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Rayan Philippe",
+            "tipo": "MissedShots",
+            "minuto": 40,
+            "segundo": 57,
+            "x": 96.3,
+            "y": 55.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giorgi Gocholeishvili",
+            "tipo": "Pass",
+            "minuto": 40,
+            "segundo": 59,
+            "x": 98.1,
+            "y": 36.2,
+            "endX": 98.2,
+            "endY": 45.5,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Luca Kerber",
+          "portero": false
+        }
       },
       {
         "minuto": 51,
@@ -4603,6 +4631,50 @@
         "arco_z": 25.9,
         "secuencia_gol": [
           {
+            "jugador": "Yannik Wagner",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 38,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.9,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 41,
+            "x": 90.9,
+            "y": 94.8,
+            "endX": 92.7,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonas Föhrenbach",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 41,
+            "x": 92.7,
+            "y": 91.7,
+            "endX": 90.5,
+            "endY": 51.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Omar Haktab Traoré",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 44,
+            "x": 90.5,
+            "y": 51.6,
+            "endX": 82.4,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Omar Haktab Traoré",
             "tipo": "MissedShots",
             "minuto": 92,
@@ -4613,7 +4685,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Luka Vuskovic",
+          "portero": false
+        }
       },
       {
         "minuto": 98,

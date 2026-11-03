@@ -360,6 +360,28 @@
         "arco_z": 31.6,
         "secuencia_gol": [
           {
+            "jugador": "Josef Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 56,
+            "segundo": 33,
+            "x": 76.5,
+            "y": 43.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Josef Martínez",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 35,
+            "x": 77.3,
+            "y": 42.2,
+            "endX": 80.4,
+            "endY": 31.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Leonardo Campana",
             "tipo": "TakeOn",
             "minuto": 56,
@@ -370,7 +392,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Wilder Cartagena",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -4658,7 +4685,24 @@
         "y": 39.5,
         "arco_y": 52.2,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ercan Kara",
+            "tipo": "Aerial",
+            "minuto": 18,
+            "segundo": 57,
+            "x": 97.2,
+            "y": 41.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sergii Kryvtsov",
+          "portero": false
+        }
       },
       {
         "minuto": 27,

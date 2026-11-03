@@ -389,6 +389,17 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Mats Deijl",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 1,
+            "x": 65.0,
+            "y": 6.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Søren Tengstedt",
             "tipo": "Pass",
             "minuto": 10,
@@ -454,7 +465,12 @@
             "endY": 79.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bas Kuipers",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -4296,7 +4312,35 @@
         "y": 55.7,
         "arco_y": 48.4,
         "arco_z": 3.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Aerial",
+            "minuto": 65,
+            "segundo": 21,
+            "x": 92.6,
+            "y": 64.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 22,
+            "x": 93.8,
+            "y": 63.1,
+            "endX": 92.6,
+            "endY": 59.9,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mats Deijl",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

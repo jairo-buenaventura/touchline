@@ -592,6 +592,17 @@
         "secuencia_gol": [
           {
             "jugador": "Tayvon Gray",
+            "tipo": "BallRecovery",
+            "minuto": 77,
+            "segundo": 54,
+            "x": 66.7,
+            "y": 8.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tayvon Gray",
             "tipo": "TakeOn",
             "minuto": 77,
             "segundo": 55,
@@ -744,7 +755,12 @@
             "endY": 61.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tom Barlow",
+          "portero": false
+        }
       },
       {
         "minuto": 81,
@@ -5262,6 +5278,17 @@
         "arco_z": 9.5,
         "secuencia_gol": [
           {
+            "jugador": "Samuel Gidi",
+            "tipo": "Interception",
+            "minuto": 30,
+            "segundo": 55,
+            "x": 53.3,
+            "y": 40.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kyle Smith",
             "tipo": "Pass",
             "minuto": 31,
@@ -5294,7 +5321,12 @@
             "endY": 56.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kai Trewin",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -5425,6 +5457,116 @@
         "secuencia_gol": [
           {
             "jugador": "Pavel Bucha",
+            "tipo": "ShieldBallOpp",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 6.3,
+            "y": 15.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Celentano",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 11,
+            "x": 3.7,
+            "y": 49.0,
+            "endX": 9.2,
+            "endY": 74.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 15,
+            "x": 10.0,
+            "y": 75.6,
+            "endX": 8.8,
+            "endY": 63.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrei Chirila",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 8.8,
+            "y": 63.1,
+            "endX": 24.6,
+            "endY": 59.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrei Chirila",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 24,
+            "x": 24.6,
+            "y": 59.1,
+            "endX": 34.2,
+            "endY": 83.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Samuel Gidi",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 27,
+            "x": 35.7,
+            "y": 86.3,
+            "endX": 31.7,
+            "endY": 70.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrei Chirila",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 32,
+            "x": 31.7,
+            "y": 70.2,
+            "endX": 32.9,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kyle Smith",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 33,
+            "x": 32.9,
+            "y": 41.0,
+            "endX": 40.7,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gerardo Valenzuela",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 35,
+            "x": 40.7,
+            "y": 14.6,
+            "endX": 85.2,
+            "endY": 28.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Pavel Bucha",
+            "tipo": "Carry",
+            "minuto": 91,
+            "segundo": 0,
+            "x": 85.2,
+            "y": 28.3,
+            "endX": 89.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pavel Bucha",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 0,
@@ -5456,7 +5598,12 @@
             "endY": 33.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Raul Gustavo",
+          "portero": false
+        }
       },
       {
         "minuto": 94,

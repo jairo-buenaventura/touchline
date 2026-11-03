@@ -465,6 +465,50 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Mika Mármol",
+            "tipo": "BallRecovery",
+            "minuto": 59,
+            "segundo": 50,
+            "x": 37.0,
+            "y": 70.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mika Mármol",
+            "tipo": "Pass",
+            "minuto": 59,
+            "segundo": 52,
+            "x": 44.2,
+            "y": 70.1,
+            "endX": 63.2,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Silva",
+            "tipo": "Carry",
+            "minuto": 59,
+            "segundo": 56,
+            "x": 63.2,
+            "y": 86.9,
+            "endX": 74.0,
+            "endY": 69.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fábio Silva",
+            "tipo": "TakeOn",
+            "minuto": 59,
+            "segundo": 56,
+            "x": 74.0,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Fábio Silva",
             "tipo": "Pass",
             "minuto": 59,
@@ -475,7 +519,12 @@
             "endY": 49.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jon Martín",
+          "portero": false
+        }
       },
       {
         "minuto": 73,
@@ -4204,7 +4253,90 @@
         "y": 51.6,
         "arco_y": 50.4,
         "arco_z": 0.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jon Aramburu",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 26,
+            "x": 50.6,
+            "y": 0.0,
+            "endX": 55.4,
+            "endY": 11.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Oyarzabal",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 28,
+            "x": 55.4,
+            "y": 11.5,
+            "endX": 57.4,
+            "endY": 15.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mikel Oyarzabal",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 28,
+            "x": 57.4,
+            "y": 15.7,
+            "endX": 60.8,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Marín",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 31,
+            "x": 60.8,
+            "y": 35.9,
+            "endX": 64.8,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Marín",
+            "tipo": "Pass",
+            "minuto": 4,
+            "segundo": 31,
+            "x": 64.8,
+            "y": 46.0,
+            "endX": 67.2,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ander Barrenetxea",
+            "tipo": "Carry",
+            "minuto": 4,
+            "segundo": 38,
+            "x": 67.2,
+            "y": 78.7,
+            "endX": 78.1,
+            "endY": 74.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ander Barrenetxea",
+            "tipo": "SavedShot",
+            "minuto": 4,
+            "segundo": 38,
+            "x": 78.1,
+            "y": 74.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dinko Horkas",
+          "portero": true
+        }
       },
       {
         "minuto": 6,

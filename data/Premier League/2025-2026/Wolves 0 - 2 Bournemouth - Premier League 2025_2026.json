@@ -4693,6 +4693,17 @@
         "secuencia_gol": [
           {
             "jugador": "Alex Scott",
+            "tipo": "BallRecovery",
+            "minuto": 32,
+            "segundo": 4,
+            "x": 62.2,
+            "y": 54.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Scott",
             "tipo": "TakeOn",
             "minuto": 32,
             "segundo": 7,
@@ -4724,7 +4735,12 @@
             "endY": 60.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "João Gomes",
+          "portero": false
+        }
       },
       {
         "minuto": 42,

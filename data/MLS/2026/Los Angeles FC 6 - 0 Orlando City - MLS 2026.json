@@ -453,7 +453,57 @@
         "y": 61.1,
         "arco_y": 47.5,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 29,
+            "x": 33.4,
+            "y": 56.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 29,
+            "x": 33.4,
+            "y": 56.3,
+            "endX": 61.3,
+            "endY": 71.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 36,
+            "x": 61.3,
+            "y": 71.5,
+            "endX": 90.6,
+            "endY": 59.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "TakeOn",
+            "minuto": 22,
+            "segundo": 36,
+            "x": 90.6,
+            "y": 59.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nolan Miller",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -464,6 +514,39 @@
         "arco_y": 51.9,
         "arco_z": 29.1,
         "secuencia_gol": [
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "BallRecovery",
+            "minuto": 27,
+            "segundo": 18,
+            "x": 73.5,
+            "y": 51.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Denis Bouanga",
+            "tipo": "Pass",
+            "minuto": 27,
+            "segundo": 18,
+            "x": 73.5,
+            "y": 51.9,
+            "endX": 80.9,
+            "endY": 47.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "Carry",
+            "minuto": 27,
+            "segundo": 19,
+            "x": 80.9,
+            "y": 47.3,
+            "endX": 82.8,
+            "endY": 50.9,
+            "exitoso": true
+          },
           {
             "jugador": "Son Heung-Min",
             "tipo": "TakeOn",
@@ -486,7 +569,12 @@
             "endY": 54.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "David Brekalo",
+          "portero": false
+        }
       },
       {
         "minuto": 28,

@@ -404,6 +404,50 @@
           {
             "jugador": "Gijs Smal",
             "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 46,
+            "x": 85.1,
+            "y": 100.0,
+            "endX": 87.6,
+            "endY": 81.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christos Tzolis",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 49,
+            "x": 87.6,
+            "y": 81.4,
+            "endX": 91.5,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christos Tzolis",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 49,
+            "x": 91.5,
+            "y": 72.9,
+            "endX": 92.2,
+            "endY": 56.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 9,
+            "x": 92.2,
+            "y": 56.7,
+            "endX": 70.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
             "minuto": 7,
             "segundo": 9,
             "x": 70.0,
@@ -467,7 +511,12 @@
             "endY": 55.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Redouan El Yaakoubi",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -628,7 +677,24 @@
         "y": 62.0,
         "arco_y": 47.6,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Manfred Ugalde",
+            "tipo": "BallTouch",
+            "minuto": 92,
+            "segundo": 35,
+            "x": 73.2,
+            "y": 60.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sven Nieuwpoort",
+          "portero": false
+        }
       }
     ],
     "corners": [

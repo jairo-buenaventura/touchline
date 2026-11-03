@@ -5146,6 +5146,61 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "André Onana",
+            "tipo": "KeeperPickup",
+            "minuto": 37,
+            "segundo": 40,
+            "x": 4.5,
+            "y": 48.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "André Onana",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 45,
+            "x": 10.1,
+            "y": 39.8,
+            "endX": 33.5,
+            "endY": 27.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 48,
+            "x": 33.5,
+            "y": 27.3,
+            "endX": 46.3,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 48,
+            "x": 46.3,
+            "y": 22.7,
+            "endX": 64.1,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Antony",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 51,
+            "x": 64.1,
+            "y": 10.3,
+            "endX": 67.0,
+            "endY": 17.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Antony",
             "tipo": "TakeOn",
             "minuto": 37,
@@ -5189,7 +5244,12 @@
             "endY": 42.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nicolas Jackson",
+          "portero": false
+        }
       },
       {
         "minuto": 41,
@@ -5255,6 +5315,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Aaron Wan-Bissaka",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 7,
+            "x": 16.3,
+            "y": 0.0,
+            "endX": 9.9,
+            "endY": 5.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willy Kambwala",
+            "tipo": "Pass",
+            "minuto": 66,
+            "segundo": 10,
+            "x": 11.6,
+            "y": 7.0,
+            "endX": 38.9,
+            "endY": 11.0,
+            "exitoso": false
+          },
+          {
             "jugador": "Antony",
             "tipo": "Pass",
             "minuto": 66,
@@ -5309,7 +5391,12 @@
             "endY": 57.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Benoît Badiashile",
+          "portero": false
+        }
       }
     ],
     "corners": [

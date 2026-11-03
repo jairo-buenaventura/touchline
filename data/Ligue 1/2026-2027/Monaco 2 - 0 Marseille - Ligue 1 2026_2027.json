@@ -403,6 +403,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Flávio Nazinho",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 22,
+            "x": 68.0,
+            "y": 83.9,
+            "endX": 90.6,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Eric Dier",
+            "tipo": "MissedShots",
+            "minuto": 12,
+            "segundo": 25,
+            "x": 90.6,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sadibou Sané",
+            "tipo": "BallTouch",
+            "minuto": 12,
+            "segundo": 26,
+            "x": 91.2,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mamadou Coulibaly",
             "tipo": "Pass",
             "minuto": 12,
@@ -435,7 +468,12 @@
             "endY": 52.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Geoffrey Kondogbia",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -501,6 +539,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Eric Dier",
+            "tipo": "Pass",
+            "minuto": 52,
+            "segundo": 37,
+            "x": 4.8,
+            "y": 58.9,
+            "endX": 58.9,
+            "endY": 21.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Paris Brunner",
+            "tipo": "Carry",
+            "minuto": 52,
+            "segundo": 44,
+            "x": 58.9,
+            "y": 21.4,
+            "endX": 88.8,
+            "endY": 33.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Paris Brunner",
             "tipo": "TakeOn",
             "minuto": 52,
@@ -522,7 +582,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Geoffrey Kondogbia",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

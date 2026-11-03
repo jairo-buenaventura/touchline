@@ -388,6 +388,28 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Sergio Escudero",
+            "tipo": "Pass",
+            "minuto": 23,
+            "segundo": 59,
+            "x": 90.4,
+            "y": 6.4,
+            "endX": 93.8,
+            "endY": 41.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gonzalo Plata",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 2,
+            "x": 93.8,
+            "y": 41.3,
+            "endX": 88.3,
+            "endY": 40.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Gonzalo Plata",
             "tipo": "Pass",
             "minuto": 24,
@@ -398,7 +420,12 @@
             "endY": 31.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ronaël Pierre-Gabriel",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -464,6 +491,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Cyle Larin",
+            "tipo": "BallTouch",
+            "minuto": 61,
+            "segundo": 33,
+            "x": 73.4,
+            "y": 21.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Plata",
+            "tipo": "TakeOn",
+            "minuto": 61,
+            "segundo": 38,
+            "x": 78.1,
+            "y": 8.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gonzalo Plata",
+            "tipo": "TakeOn",
+            "minuto": 61,
+            "segundo": 40,
+            "x": 91.7,
+            "y": 11.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gonzalo Plata",
             "tipo": "Pass",
             "minuto": 61,
@@ -474,7 +534,12 @@
             "endY": 46.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Ronaël Pierre-Gabriel",
+          "portero": false
+        }
       },
       {
         "minuto": 69,

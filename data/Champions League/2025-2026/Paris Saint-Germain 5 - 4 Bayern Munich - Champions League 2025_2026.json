@@ -631,7 +631,24 @@
         "y": 56.7,
         "arco_y": 46.6,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "João Neves",
+            "tipo": "Aerial",
+            "minuto": 32,
+            "segundo": 26,
+            "x": 93.0,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jamal Musiala",
+          "portero": false
+        }
       },
       {
         "minuto": 34,
@@ -4798,6 +4815,72 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Tah",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 40.9,
+            "y": 17.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jonathan Tah",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 49,
+            "x": 40.9,
+            "y": 17.6,
+            "endX": 46.2,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 50,
+            "x": 46.2,
+            "y": 11.7,
+            "endX": 47.6,
+            "endY": 24.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joshua Kimmich",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 50,
+            "x": 47.6,
+            "y": 24.6,
+            "endX": 52.1,
+            "endY": 44.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 53,
+            "x": 52.1,
+            "y": 44.0,
+            "endX": 55.6,
+            "endY": 46.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Kane",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 53,
+            "x": 55.6,
+            "y": 46.0,
+            "endX": 86.8,
+            "endY": 61.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Díaz",
             "tipo": "TakeOn",
             "minuto": 67,
@@ -4819,7 +4902,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Marquinhos",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

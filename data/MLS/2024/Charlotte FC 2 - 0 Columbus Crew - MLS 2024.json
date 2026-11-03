@@ -459,7 +459,90 @@
         "y": 53.6,
         "arco_y": 53.7,
         "arco_z": 25.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Adilson Malanda",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 8,
+            "x": 22.6,
+            "y": 28.9,
+            "endX": 27.8,
+            "endY": 50.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Privett",
+            "tipo": "Carry",
+            "minuto": 82,
+            "segundo": 11,
+            "x": 27.8,
+            "y": 50.7,
+            "endX": 33.8,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Privett",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 11,
+            "x": 33.8,
+            "y": 57.5,
+            "endX": 46.3,
+            "endY": 81.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 14,
+            "x": 47.9,
+            "y": 83.6,
+            "endX": 46.6,
+            "endY": 66.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Djibril Diani",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 16,
+            "x": 46.6,
+            "y": 66.4,
+            "endX": 39.2,
+            "endY": 75.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrew Privett",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 20,
+            "x": 39.2,
+            "y": 75.8,
+            "endX": 59.6,
+            "endY": 92.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Pedro",
+            "tipo": "Pass",
+            "minuto": 82,
+            "segundo": 22,
+            "x": 59.6,
+            "y": 92.8,
+            "endX": 85.2,
+            "endY": 47.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Yevhen Cheberko",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -470,6 +553,50 @@
         "arco_y": 54.2,
         "arco_z": 29.1,
         "secuencia_gol": [
+          {
+            "jugador": "Adilson Malanda",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 44,
+            "x": 36.4,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adilson Malanda",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 47,
+            "x": 37.7,
+            "y": 30.1,
+            "endX": 59.3,
+            "endY": 82.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iuri Tavares",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 55,
+            "x": 59.3,
+            "y": 82.4,
+            "endX": 68.2,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iuri Tavares",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 55,
+            "x": 68.2,
+            "y": 54.2,
+            "endX": 70.5,
+            "endY": 36.2,
+            "exitoso": false
+          },
           {
             "jugador": "Iuri Tavares",
             "tipo": "Pass",
@@ -503,7 +630,12 @@
             "endY": 59.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Malte Amundsen",
+          "portero": false
+        }
       }
     ],
     "corners": [

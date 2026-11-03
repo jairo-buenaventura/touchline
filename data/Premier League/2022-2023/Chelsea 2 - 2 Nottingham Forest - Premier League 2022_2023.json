@@ -463,6 +463,39 @@
         "secuencia_gol": [
           {
             "jugador": "Raheem Sterling",
+            "tipo": "Tackle",
+            "minuto": 57,
+            "segundo": 44,
+            "x": 47.5,
+            "y": 49.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben Loftus-Cheek",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 48,
+            "x": 73.5,
+            "y": 61.0,
+            "endX": 85.5,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Sterling",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 51,
+            "x": 85.5,
+            "y": 73.2,
+            "endX": 88.6,
+            "endY": 67.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raheem Sterling",
             "tipo": "TakeOn",
             "minuto": 57,
             "segundo": 51,
@@ -472,7 +505,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Felipe",
+          "portero": false
+        }
       },
       {
         "minuto": 80,
@@ -5550,7 +5588,24 @@
         "y": 50.4,
         "arco_y": 50.3,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Taiwo Awoniyi",
+            "tipo": "Aerial",
+            "minuto": 12,
+            "segundo": 34,
+            "x": 92.6,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Thiago Silva",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -5616,6 +5671,17 @@
         "arco_z": 8.2,
         "secuencia_gol": [
           {
+            "jugador": "Joe Worrall",
+            "tipo": "Aerial",
+            "minuto": 61,
+            "segundo": 7,
+            "x": 93.2,
+            "y": 52.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Orel Mangala",
             "tipo": "Pass",
             "minuto": 61,
@@ -5626,7 +5692,12 @@
             "endY": 48.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Thiago Silva",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

@@ -479,6 +479,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Michel Adopo",
+            "tipo": "BallRecovery",
+            "minuto": 74,
+            "segundo": 28,
+            "x": 54.1,
+            "y": 77.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Michel Adopo",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 29,
+            "x": 51.0,
+            "y": 77.6,
+            "endX": 85.2,
+            "endY": 88.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tommaso Augello",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 41,
+            "x": 85.2,
+            "y": 88.3,
+            "endX": 78.8,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Tommaso Augello",
             "tipo": "Pass",
             "minuto": 74,
@@ -555,7 +588,12 @@
             "endY": 51.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Giangiacomo Magnani",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

@@ -4509,6 +4509,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "BallRecovery",
+            "minuto": 80,
+            "segundo": 34,
+            "x": 46.6,
+            "y": 14.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aleksey Miranchuk",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 36,
+            "x": 50.5,
+            "y": 11.0,
+            "endX": 52.5,
+            "endY": 11.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wilfried Singo",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 44,
+            "x": 52.5,
+            "y": 11.8,
+            "endX": 60.0,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Wilfried Singo",
             "tipo": "Pass",
             "minuto": 80,
@@ -4684,7 +4717,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Razvan Marin",
+          "portero": false
+        }
       },
       {
         "minuto": 84,

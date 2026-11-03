@@ -370,6 +370,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Patrick Wimmer",
+            "tipo": "CornerAwarded",
+            "minuto": 0,
+            "segundo": 49,
+            "x": 75.6,
+            "y": 51.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Wimmer",
+            "tipo": "Pass",
+            "minuto": 1,
+            "segundo": 13,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 96.1,
+            "endY": 46.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ridle Baku",
+            "tipo": "Carry",
+            "minuto": 1,
+            "segundo": 27,
+            "x": 96.1,
+            "y": 46.2,
+            "endX": 86.3,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ridle Baku",
             "tipo": "Pass",
             "minuto": 1,
@@ -468,7 +501,12 @@
             "endY": 70.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Punch",
+          "jugador": "Tjark Ernst",
+          "portero": true
+        }
       },
       {
         "minuto": 5,
@@ -5342,7 +5380,24 @@
         "y": 67.2,
         "arco_y": 47.3,
         "arco_z": 22.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marco Richter",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 24,
+            "x": 93.1,
+            "y": 83.4,
+            "endX": 96.0,
+            "endY": 58.4,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ridle Baku",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

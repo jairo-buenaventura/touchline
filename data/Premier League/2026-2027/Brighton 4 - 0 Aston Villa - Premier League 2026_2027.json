@@ -409,6 +409,61 @@
         "arco_z": 10.1,
         "secuencia_gol": [
           {
+            "jugador": "Lewis Dunk",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 7,
+            "x": 4.5,
+            "y": 61.1,
+            "endX": 4.2,
+            "endY": 55.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bart Verbruggen",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 8,
+            "x": 6.4,
+            "y": 54.2,
+            "endX": 23.4,
+            "endY": 87.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Dunk",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 12,
+            "x": 23.4,
+            "y": 87.7,
+            "endX": 27.8,
+            "endY": 89.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lewis Dunk",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 12,
+            "x": 27.8,
+            "y": 89.5,
+            "endX": 63.5,
+            "endY": 79.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Georginio Rutter",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 19,
+            "x": 63.5,
+            "y": 79.9,
+            "endX": 93.5,
+            "endY": 71.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Georginio Rutter",
             "tipo": "TakeOn",
             "minuto": 17,
@@ -430,7 +485,12 @@
             "endY": 50.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pau Torres",
+          "portero": false
+        }
       },
       {
         "minuto": 23,
@@ -452,6 +512,17 @@
         "secuencia_gol": [
           {
             "jugador": "Diego Gómez",
+            "tipo": "Aerial",
+            "minuto": 29,
+            "segundo": 9,
+            "x": 94.7,
+            "y": 40.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diego Gómez",
             "tipo": "Pass",
             "minuto": 29,
             "segundo": 10,
@@ -461,7 +532,12 @@
             "endY": 52.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ian Maatsen",
+          "portero": false
+        }
       },
       {
         "minuto": 30,

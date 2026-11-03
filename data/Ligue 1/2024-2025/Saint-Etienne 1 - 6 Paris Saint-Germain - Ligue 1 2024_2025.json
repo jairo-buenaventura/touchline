@@ -403,6 +403,149 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Zuriko Davitashvili",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 6,
+            "x": 72.6,
+            "y": 83.9,
+            "endX": 67.9,
+            "endY": 77.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Ekwah",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 7,
+            "x": 67.9,
+            "y": 77.2,
+            "endX": 79.3,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zuriko Davitashvili",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 10,
+            "x": 79.3,
+            "y": 85.3,
+            "endX": 71.4,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Ekwah",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 12,
+            "x": 71.4,
+            "y": 73.2,
+            "endX": 71.6,
+            "endY": 67.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Ekwah",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 12,
+            "x": 71.6,
+            "y": 67.9,
+            "endX": 93.6,
+            "endY": 66.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irvin Cardona",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 14,
+            "x": 93.6,
+            "y": 66.9,
+            "endX": 91.6,
+            "endY": 52.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Stassin",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 16,
+            "x": 92.3,
+            "y": 52.5,
+            "endX": 83.7,
+            "endY": 45.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 20,
+            "x": 83.7,
+            "y": 45.7,
+            "endX": 71.3,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 20,
+            "x": 71.3,
+            "y": 83.3,
+            "endX": 70.4,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierre Ekwah",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 23,
+            "x": 70.9,
+            "y": 66.0,
+            "endX": 78.1,
+            "endY": 91.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Tardieu",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 25,
+            "x": 77.9,
+            "y": 90.5,
+            "endX": 92.0,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Irvin Cardona",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 29,
+            "x": 92.7,
+            "y": 83.5,
+            "endX": 91.7,
+            "endY": 79.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Irvin Cardona",
+            "tipo": "Carry",
+            "minuto": 8,
+            "segundo": 31,
+            "x": 91.7,
+            "y": 79.7,
+            "endX": 90.8,
+            "endY": 87.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Irvin Cardona",
             "tipo": "Pass",
             "minuto": 8,
@@ -523,7 +666,12 @@
             "endY": 49.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "João Neves",
+          "portero": false
+        }
       },
       {
         "minuto": 29,
@@ -4756,7 +4904,57 @@
         "y": 48.2,
         "arco_y": 52.3,
         "arco_z": 5.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 18,
+            "x": 60.0,
+            "y": 83.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 18,
+            "x": 60.0,
+            "y": 83.9,
+            "endX": 78.2,
+            "endY": 85.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 61,
+            "segundo": 23,
+            "x": 78.2,
+            "y": 85.1,
+            "endX": 92.6,
+            "endY": 68.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 23,
+            "x": 92.6,
+            "y": 68.3,
+            "endX": 90.5,
+            "endY": 55.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mickaël Nadé",
+          "portero": false
+        }
       },
       {
         "minuto": 65,
@@ -4768,6 +4966,83 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Bradley Barcola",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 25.5,
+            "y": 84.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 40,
+            "x": 33.4,
+            "y": 82.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 43,
+            "x": 24.2,
+            "y": 88.1,
+            "endX": 26.3,
+            "endY": 76.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 45,
+            "x": 26.3,
+            "y": 76.1,
+            "endX": 28.1,
+            "endY": 82.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 45,
+            "x": 28.1,
+            "y": 82.7,
+            "endX": 55.2,
+            "endY": 95.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Pass",
+            "minuto": 65,
+            "segundo": 49,
+            "x": 55.6,
+            "y": 96.2,
+            "endX": 72.3,
+            "endY": 88.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Désiré Doué",
+            "tipo": "Carry",
+            "minuto": 65,
+            "segundo": 56,
+            "x": 72.3,
+            "y": 88.4,
+            "endX": 88.2,
+            "endY": 69.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Désiré Doué",
             "tipo": "TakeOn",
             "minuto": 65,
@@ -4778,7 +5053,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dylan Batubinsika",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4815,7 +5095,354 @@
         "y": 49.6,
         "arco_y": 48.4,
         "arco_z": 6.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 5,
+            "x": 29.3,
+            "y": 27.4,
+            "endX": 24.6,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 8,
+            "x": 24.2,
+            "y": 41.6,
+            "endX": 28.8,
+            "endY": 37.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 9,
+            "x": 28.8,
+            "y": 37.1,
+            "endX": 22.5,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 12,
+            "x": 22.5,
+            "y": 41.0,
+            "endX": 22.6,
+            "endY": 44.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 12,
+            "x": 22.6,
+            "y": 44.2,
+            "endX": 24.9,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Presnel Kimpembe",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 14,
+            "x": 24.9,
+            "y": 84.2,
+            "endX": 25.4,
+            "endY": 89.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Presnel Kimpembe",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 14,
+            "x": 25.4,
+            "y": 89.4,
+            "endX": 38.9,
+            "endY": 85.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 16,
+            "x": 40.2,
+            "y": 87.2,
+            "endX": 34.5,
+            "endY": 94.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 34.5,
+            "y": 94.7,
+            "endX": 46.6,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "TakeOn",
+            "minuto": 88,
+            "segundo": 19,
+            "x": 46.6,
+            "y": 90.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 24,
+            "x": 64.7,
+            "y": 83.9,
+            "endX": 60.3,
+            "endY": 75.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 28,
+            "x": 60.3,
+            "y": 75.3,
+            "endX": 55.8,
+            "endY": 69.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 28,
+            "x": 55.8,
+            "y": 69.7,
+            "endX": 56.7,
+            "endY": 35.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Désiré Doué",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 30,
+            "x": 56.7,
+            "y": 35.1,
+            "endX": 72.4,
+            "endY": 15.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ibrahim Mbaye",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 34,
+            "x": 72.1,
+            "y": 15.3,
+            "endX": 70.7,
+            "endY": 24.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 35,
+            "x": 70.7,
+            "y": 24.4,
+            "endX": 74.1,
+            "endY": 5.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Neves",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 38,
+            "x": 72.9,
+            "y": 7.4,
+            "endX": 43.9,
+            "endY": 21.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 42,
+            "x": 43.9,
+            "y": 21.0,
+            "endX": 45.5,
+            "endY": 26.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Hernández",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 42,
+            "x": 45.5,
+            "y": 26.1,
+            "endX": 43.3,
+            "endY": 60.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Presnel Kimpembe",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 45,
+            "x": 43.3,
+            "y": 60.9,
+            "endX": 43.7,
+            "endY": 57.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Presnel Kimpembe",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 45,
+            "x": 43.7,
+            "y": 57.6,
+            "endX": 45.9,
+            "endY": 86.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 48,
+            "x": 45.5,
+            "y": 86.6,
+            "endX": 67.6,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 52,
+            "x": 67.6,
+            "y": 94.8,
+            "endX": 71.9,
+            "endY": 93.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 52,
+            "x": 71.9,
+            "y": 93.3,
+            "endX": 77.6,
+            "endY": 77.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 77.6,
+            "y": 77.9,
+            "endX": 77.6,
+            "endY": 85.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 54,
+            "x": 77.6,
+            "y": 85.9,
+            "endX": 73.8,
+            "endY": 95.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 55,
+            "x": 73.8,
+            "y": 95.4,
+            "endX": 68.7,
+            "endY": 72.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Carry",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 68.7,
+            "y": 72.3,
+            "endX": 68.8,
+            "endY": 76.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Pass",
+            "minuto": 88,
+            "segundo": 59,
+            "x": 68.8,
+            "y": 76.4,
+            "endX": 89.9,
+            "endY": 72.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Carry",
+            "minuto": 89,
+            "segundo": 1,
+            "x": 89.9,
+            "y": 72.4,
+            "endX": 91.4,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bradley Barcola",
+            "tipo": "Pass",
+            "minuto": 89,
+            "segundo": 1,
+            "x": 91.4,
+            "y": 65.8,
+            "endX": 91.9,
+            "endY": 49.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Léo Pétrot",
+          "portero": false
+        }
       }
     ],
     "corners": [

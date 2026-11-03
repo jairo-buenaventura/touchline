@@ -645,6 +645,17 @@
         "secuencia_gol": [
           {
             "jugador": "Patrick Mainka",
+            "tipo": "Aerial",
+            "minuto": 82,
+            "segundo": 53,
+            "x": 84.8,
+            "y": 42.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Mainka",
             "tipo": "Pass",
             "minuto": 82,
             "segundo": 53,
@@ -654,7 +665,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Karim Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 87,
@@ -4936,7 +4952,68 @@
         "y": 60.1,
         "arco_y": 50.4,
         "arco_z": 10.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marco Grüll",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 23,
+            "x": 70.0,
+            "y": 84.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Grüll",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 24,
+            "x": 72.8,
+            "y": 82.9,
+            "endX": 71.7,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Romano Schmid",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 25,
+            "x": 71.7,
+            "y": 69.3,
+            "endX": 92.1,
+            "endY": 70.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Grüll",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 27,
+            "x": 92.1,
+            "y": 70.6,
+            "endX": 97.0,
+            "endY": 65.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Grüll",
+            "tipo": "TakeOn",
+            "minuto": 49,
+            "segundo": 27,
+            "x": 97.0,
+            "y": 65.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tim Siersleben",
+          "portero": false
+        }
       },
       {
         "minuto": 53,

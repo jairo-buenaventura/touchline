@@ -452,7 +452,90 @@
         "y": 54.0,
         "arco_y": 46.2,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "BallRecovery",
+            "minuto": 16,
+            "segundo": 42,
+            "x": 24.0,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 42,
+            "x": 24.0,
+            "y": 56.4,
+            "endX": 37.8,
+            "endY": 87.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lee Jae-Sung",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 45,
+            "x": 37.8,
+            "y": 87.8,
+            "endX": 25.0,
+            "endY": 87.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Anthony Caci",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 48,
+            "x": 25.0,
+            "y": 87.5,
+            "endX": 60.6,
+            "endY": 92.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 49,
+            "x": 60.6,
+            "y": 92.1,
+            "endX": 64.5,
+            "endY": 93.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "TakeOn",
+            "minuto": 16,
+            "segundo": 49,
+            "x": 64.5,
+            "y": 93.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Karim Onisiwo",
+            "tipo": "BallTouch",
+            "minuto": 16,
+            "segundo": 55,
+            "x": 67.2,
+            "y": 88.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Anthony Losilla",
+          "portero": false
+        }
       },
       {
         "minuto": 20,
@@ -531,6 +614,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Andreas Hanche-Olsen",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 43,
+            "x": 29.9,
+            "y": 31.1,
+            "endX": 47.1,
+            "endY": 57.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lee Jae-Sung",
+            "tipo": "Pass",
+            "minuto": 56,
+            "segundo": 45,
+            "x": 47.1,
+            "y": 57.2,
+            "endX": 42.0,
+            "endY": 33.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "Carry",
+            "minuto": 56,
+            "segundo": 47,
+            "x": 42.0,
+            "y": 33.1,
+            "endX": 43.6,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leandro Barreiro",
+            "tipo": "TakeOn",
+            "minuto": 56,
+            "segundo": 47,
+            "x": 43.6,
+            "y": 37.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Leandro Barreiro",
             "tipo": "Pass",
             "minuto": 56,
@@ -541,7 +668,12 @@
             "endY": 36.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pierre Kunde",
+          "portero": false
+        }
       },
       {
         "minuto": 86,
@@ -552,6 +684,17 @@
         "arco_y": 46.1,
         "arco_z": 30.4,
         "secuencia_gol": [
+          {
+            "jugador": "Marcus Ingvartsen",
+            "tipo": "Aerial",
+            "minuto": 86,
+            "segundo": 52,
+            "x": 68.0,
+            "y": 42.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Marcus Ingvartsen",
             "tipo": "Pass",
@@ -585,7 +728,12 @@
             "endY": 38.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Keven Schlotterbeck",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -4418,6 +4566,39 @@
         "secuencia_gol": [
           {
             "jugador": "Takuma Asano",
+            "tipo": "Aerial",
+            "minuto": 69,
+            "segundo": 12,
+            "x": 83.2,
+            "y": 30.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takuma Asano",
+            "tipo": "Pass",
+            "minuto": 69,
+            "segundo": 12,
+            "x": 82.9,
+            "y": 30.7,
+            "endX": 88.6,
+            "endY": 40.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Takuma Asano",
+            "tipo": "Carry",
+            "minuto": 69,
+            "segundo": 15,
+            "x": 88.6,
+            "y": 40.4,
+            "endX": 81.2,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Takuma Asano",
             "tipo": "Pass",
             "minuto": 69,
             "segundo": 15,
@@ -4438,7 +4619,12 @@
             "endY": 37.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Edimilson Fernandes",
+          "portero": false
+        }
       },
       {
         "minuto": 71,

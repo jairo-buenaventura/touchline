@@ -459,7 +459,35 @@
         "y": 52.5,
         "arco_y": 52.5,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Federico Dimarco",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 31,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.6,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "BallTouch",
+            "minuto": 57,
+            "segundo": 32,
+            "x": 90.5,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Joshua Kimmich",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -487,7 +515,24 @@
         "y": 50.0,
         "arco_y": 50.3,
         "arco_z": 23.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Benjamin Pavard",
+            "tipo": "Aerial",
+            "minuto": 60,
+            "segundo": 45,
+            "x": 95.4,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Kim Min-Jae",
+          "portero": false
+        }
       },
       {
         "minuto": 62,
@@ -4074,6 +4119,83 @@
         "secuencia_gol": [
           {
             "jugador": "Leon Goretzka",
+            "tipo": "Aerial",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 40.0,
+            "y": 27.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 8,
+            "x": 26.0,
+            "y": 34.8,
+            "endX": 44.3,
+            "endY": 36.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Konrad Laimer",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 13,
+            "x": 44.3,
+            "y": 36.3,
+            "endX": 60.9,
+            "endY": 63.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Konrad Laimer",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 13,
+            "x": 60.9,
+            "y": 63.3,
+            "endX": 77.0,
+            "endY": 89.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 16,
+            "x": 77.0,
+            "y": 89.9,
+            "endX": 81.3,
+            "endY": 88.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leroy Sané",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 16,
+            "x": 81.3,
+            "y": 88.6,
+            "endX": 92.4,
+            "endY": 49.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Leon Goretzka",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 20,
+            "x": 92.4,
+            "y": 49.1,
+            "endX": 75.1,
+            "endY": 38.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leon Goretzka",
             "tipo": "Pass",
             "minuto": 51,
             "segundo": 20,
@@ -4083,7 +4205,12 @@
             "endY": 32.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Francesco Acerbi",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

@@ -435,6 +435,61 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Matías Soulé",
+            "tipo": "Goal",
+            "minuto": 54,
+            "segundo": 49,
+            "x": 18.2,
+            "y": 49.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Walid Cheddira",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 49.9,
+            "y": 50.0,
+            "endX": 36.0,
+            "endY": 38.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Caleb Okoli",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 48,
+            "x": 36.0,
+            "y": 38.6,
+            "endX": 90.8,
+            "endY": 10.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ilario Monterisi",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 53,
+            "x": 92.0,
+            "y": 9.3,
+            "endX": 93.1,
+            "endY": 13.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ilario Monterisi",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 55,
+            "x": 93.1,
+            "y": 13.9,
+            "endX": 88.6,
+            "endY": 10.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Ilario Monterisi",
             "tipo": "Pass",
             "minuto": 55,
@@ -445,7 +500,12 @@
             "endY": 28.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Pedro Pereira",
+          "portero": false
+        }
       },
       {
         "minuto": 60,
@@ -4669,6 +4729,39 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Dany Mota",
+            "tipo": "CornerAwarded",
+            "minuto": 16,
+            "segundo": 35,
+            "x": 98.8,
+            "y": 68.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Andrea Colpani",
+            "tipo": "Pass",
+            "minuto": 17,
+            "segundo": 13,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 95.3,
+            "endY": 39.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Warren Bondo",
+            "tipo": "Carry",
+            "minuto": 17,
+            "segundo": 18,
+            "x": 95.3,
+            "y": 39.2,
+            "endX": 66.8,
+            "endY": 15.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Warren Bondo",
             "tipo": "Pass",
             "minuto": 17,
@@ -4723,7 +4816,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Enzo Barrenechea",
+          "portero": false
+        }
       },
       {
         "minuto": 29,

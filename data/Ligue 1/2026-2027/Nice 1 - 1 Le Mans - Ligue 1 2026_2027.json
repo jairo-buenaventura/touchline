@@ -4766,6 +4766,39 @@
         "arco_z": 24.0,
         "secuencia_gol": [
           {
+            "jugador": "Jean Vercruysse",
+            "tipo": "BallRecovery",
+            "minuto": 12,
+            "segundo": 3,
+            "x": 68.2,
+            "y": 83.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jean Vercruysse",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 3,
+            "x": 68.3,
+            "y": 83.8,
+            "endX": 73.4,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adil Bourabaa",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 4,
+            "x": 73.4,
+            "y": 64.8,
+            "endX": 75.0,
+            "endY": 54.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Adil Bourabaa",
             "tipo": "TakeOn",
             "minuto": 12,
@@ -4776,7 +4809,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Youssouf Ndayishimiye",
+          "portero": false
+        }
       },
       {
         "minuto": 52,

@@ -424,7 +424,57 @@
         "y": 59.7,
         "arco_y": 49.5,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "BallRecovery",
+            "minuto": 24,
+            "segundo": 15,
+            "x": 71.9,
+            "y": 42.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "Pass",
+            "minuto": 24,
+            "segundo": 17,
+            "x": 72.1,
+            "y": 42.0,
+            "endX": 82.1,
+            "endY": 56.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Indiana Vassilev",
+            "tipo": "Carry",
+            "minuto": 24,
+            "segundo": 18,
+            "x": 82.1,
+            "y": 56.7,
+            "endX": 87.7,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Indiana Vassilev",
+            "tipo": "TakeOn",
+            "minuto": 24,
+            "segundo": 18,
+            "x": 87.7,
+            "y": 59.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Graham Zusi",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -481,6 +531,50 @@
         "arco_z": 12.7,
         "secuencia_gol": [
           {
+            "jugador": "Tim Parker",
+            "tipo": "BallRecovery",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 27.0,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tim Parker",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 26,
+            "x": 27.0,
+            "y": 57.3,
+            "endX": 12.7,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roman Bürki",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 28,
+            "x": 12.5,
+            "y": 49.9,
+            "endX": 54.3,
+            "endY": 46.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "Carry",
+            "minuto": 54,
+            "segundo": 33,
+            "x": 54.3,
+            "y": 46.0,
+            "endX": 67.0,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jared Stroud",
             "tipo": "Pass",
             "minuto": 54,
@@ -491,7 +585,12 @@
             "endY": 41.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Andreu Fontàs",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

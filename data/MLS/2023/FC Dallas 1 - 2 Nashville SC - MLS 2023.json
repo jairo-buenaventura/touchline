@@ -4873,6 +4873,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Daniel Lovitz",
+            "tipo": "BallRecovery",
+            "minuto": 76,
+            "segundo": 31,
+            "x": 33.3,
+            "y": 88.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniel Lovitz",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 32,
+            "x": 33.3,
+            "y": 88.8,
+            "endX": 66.4,
+            "endY": 63.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Hany Mukhtar",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 36,
+            "x": 66.4,
+            "y": 63.2,
+            "endX": 75.4,
+            "endY": 61.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Hany Mukhtar",
             "tipo": "TakeOn",
             "minuto": 76,
@@ -4883,7 +4916,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "José Martínez",
+          "portero": false
+        }
       },
       {
         "minuto": 93,

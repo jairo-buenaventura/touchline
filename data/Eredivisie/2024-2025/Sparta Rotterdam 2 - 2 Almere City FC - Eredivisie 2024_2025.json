@@ -5281,6 +5281,28 @@
         "secuencia_gol": [
           {
             "jugador": "Junior Kadile",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 39,
+            "x": 27.5,
+            "y": 77.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Kadile",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 39,
+            "x": 26.6,
+            "y": 80.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Kadile",
             "tipo": "Pass",
             "minuto": 6,
             "segundo": 42,
@@ -5444,7 +5466,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Pelle Clement",
+          "portero": false
+        }
       },
       {
         "minuto": 10,

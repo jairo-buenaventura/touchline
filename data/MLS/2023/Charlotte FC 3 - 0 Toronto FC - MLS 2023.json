@@ -492,6 +492,17 @@
         "secuencia_gol": [
           {
             "jugador": "Kamil Józwiak",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 43,
+            "x": 75.0,
+            "y": 5.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kamil Józwiak",
             "tipo": "TakeOn",
             "minuto": 55,
             "segundo": 46,
@@ -523,7 +534,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Themi Antonoglou",
+          "portero": false
+        }
       },
       {
         "minuto": 59,

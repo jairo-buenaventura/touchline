@@ -846,7 +846,68 @@
         "y": 38.6,
         "arco_y": 52.9,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lucas Zelarayán",
+            "tipo": "Tackle",
+            "minuto": 74,
+            "segundo": 30,
+            "x": 81.5,
+            "y": 59.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Zelarayán",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 31,
+            "x": 80.2,
+            "y": 57.3,
+            "endX": 73.6,
+            "endY": 48.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Moreira",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 33,
+            "x": 74.2,
+            "y": 46.0,
+            "endX": 82.8,
+            "endY": 26.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 36,
+            "x": 82.8,
+            "y": 26.0,
+            "endX": 94.0,
+            "endY": 23.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Díaz",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 36,
+            "x": 94.0,
+            "y": 23.7,
+            "endX": 93.9,
+            "endY": 26.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Malte Amundsen",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4676,6 +4737,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Anton Tinnerholm",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 25,
+            "x": 86.0,
+            "y": 7.3,
+            "endX": 83.5,
+            "endY": 25.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 30,
+            "x": 83.5,
+            "y": 25.4,
+            "endX": 90.9,
+            "endY": 3.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxi Moralez",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 30,
+            "x": 90.9,
+            "y": 3.5,
+            "endX": 68.7,
+            "endY": 7.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Alfredo Morales",
             "tipo": "TakeOn",
             "minuto": 63,
@@ -4741,7 +4835,12 @@
             "endY": 19.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Derrick Etienne",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

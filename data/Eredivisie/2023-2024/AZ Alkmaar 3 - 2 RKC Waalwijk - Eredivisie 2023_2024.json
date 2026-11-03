@@ -777,6 +777,39 @@
         "arco_z": 17.7,
         "secuencia_gol": [
           {
+            "jugador": "Ibrahim Sadiq",
+            "tipo": "CornerAwarded",
+            "minuto": 76,
+            "segundo": 7,
+            "x": 95.0,
+            "y": 49.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yukinari Sugawara",
+            "tipo": "Pass",
+            "minuto": 76,
+            "segundo": 47,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.5,
+            "endY": 57.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Wouter Goes",
+            "tipo": "Carry",
+            "minuto": 76,
+            "segundo": 51,
+            "x": 94.5,
+            "y": 57.2,
+            "endX": 91.2,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Wouter Goes",
             "tipo": "Pass",
             "minuto": 76,
@@ -809,7 +842,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Juriën Gaari",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5603,7 +5641,79 @@
         "y": 52.0,
         "arco_y": 52.9,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Thierry Lutonda",
+            "tipo": "BallRecovery",
+            "minuto": 2,
+            "segundo": 45,
+            "x": 63.9,
+            "y": 89.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thierry Lutonda",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 45,
+            "x": 63.8,
+            "y": 89.0,
+            "endX": 71.4,
+            "endY": 97.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Seuntjens",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 47,
+            "x": 71.4,
+            "y": 97.8,
+            "endX": 72.2,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Seuntjens",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 47,
+            "x": 72.2,
+            "y": 92.3,
+            "endX": 89.2,
+            "endY": 62.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reuven Niemeijer",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 50,
+            "x": 89.2,
+            "y": 62.1,
+            "endX": 89.5,
+            "endY": 66.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Reuven Niemeijer",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 50,
+            "x": 89.5,
+            "y": 66.2,
+            "endX": 88.9,
+            "endY": 61.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Riechedly Bazoer",
+          "portero": false
+        }
       },
       {
         "minuto": 17,

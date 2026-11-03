@@ -447,6 +447,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Vito van Crooij",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 37,
+            "x": 70.7,
+            "y": 89.9,
+            "endX": 85.2,
+            "endY": 46.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Shurandy Sambo",
+            "tipo": "Carry",
+            "minuto": 70,
+            "segundo": 43,
+            "x": 85.2,
+            "y": 46.3,
+            "endX": 61.8,
+            "endY": 53.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Shurandy Sambo",
             "tipo": "Pass",
             "minuto": 70,
@@ -512,7 +534,12 @@
             "endY": 63.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Julio Pleguezuelo",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

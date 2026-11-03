@@ -470,6 +470,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Castello Lukeba",
+            "tipo": "TakeOn",
+            "minuto": 45,
+            "segundo": 50,
+            "x": 91.2,
+            "y": 5.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Castello Lukeba",
+            "tipo": "Pass",
+            "minuto": 45,
+            "segundo": 52,
+            "x": 97.2,
+            "y": 12.8,
+            "endX": 93.4,
+            "endY": 36.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ridle Baku",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 8,
+            "x": 93.4,
+            "y": 36.3,
+            "endX": 73.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ridle Baku",
             "tipo": "Pass",
             "minuto": 46,
@@ -546,7 +579,12 @@
             "endY": 38.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Benedikt Gimber",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -5026,6 +5064,61 @@
         "secuencia_gol": [
           {
             "jugador": "Jan Schöppner",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 51,
+            "x": 79.1,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Schöppner",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 51,
+            "x": 78.3,
+            "y": 38.6,
+            "endX": 85.8,
+            "endY": 46.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 52,
+            "x": 85.8,
+            "y": 46.9,
+            "endX": 85.3,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patrick Mainka",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 52,
+            "x": 85.3,
+            "y": 41.2,
+            "endX": 85.8,
+            "endY": 51.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jan Schöppner",
+            "tipo": "Carry",
+            "minuto": 5,
+            "segundo": 55,
+            "x": 85.8,
+            "y": 51.0,
+            "endX": 80.4,
+            "endY": 43.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Schöppner",
             "tipo": "BallTouch",
             "minuto": 5,
             "segundo": 55,
@@ -5035,7 +5128,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Christoph Baumgartner",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

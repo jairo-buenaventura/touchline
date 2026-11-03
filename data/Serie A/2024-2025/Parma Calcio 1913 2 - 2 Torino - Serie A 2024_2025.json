@@ -600,7 +600,24 @@
         "y": 55.2,
         "arco_y": 50.7,
         "arco_z": 31.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mateo Pellegrino",
+            "tipo": "Aerial",
+            "minuto": 81,
+            "segundo": 57,
+            "x": 95.2,
+            "y": 55.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Ché Adams",
+          "portero": false
+        }
       },
       {
         "minuto": 89,
@@ -4402,6 +4419,39 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Nikola Vlasic",
+            "tipo": "TakeOn",
+            "minuto": 71,
+            "segundo": 17,
+            "x": 73.2,
+            "y": 39.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Vlasic",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 18,
+            "x": 74.8,
+            "y": 42.7,
+            "endX": 77.1,
+            "endY": 44.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Guillermo Maripán",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 19,
+            "x": 77.1,
+            "y": 44.4,
+            "endX": 80.7,
+            "endY": 54.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Guillermo Maripán",
             "tipo": "BallTouch",
             "minuto": 71,
@@ -4412,7 +4462,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Mateo Pellegrino",
+          "portero": false
+        }
       }
     ],
     "corners": [

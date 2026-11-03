@@ -4590,6 +4590,17 @@
         "secuencia_gol": [
           {
             "jugador": "Mees de Wit",
+            "tipo": "Aerial",
+            "minuto": 91,
+            "segundo": 5,
+            "x": 84.7,
+            "y": 67.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mees de Wit",
             "tipo": "Pass",
             "minuto": 91,
             "segundo": 6,
@@ -4599,7 +4610,12 @@
             "endY": 62.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Simon Janssen",
+          "portero": false
+        }
       },
       {
         "minuto": 93,
@@ -4619,6 +4635,39 @@
         "arco_y": 48.1,
         "arco_z": 25.9,
         "secuencia_gol": [
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "CornerAwarded",
+            "minuto": 94,
+            "segundo": 42,
+            "x": 95.0,
+            "y": 69.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sven Mijnans",
+            "tipo": "Pass",
+            "minuto": 94,
+            "segundo": 59,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 91.0,
+            "endY": 48.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mexx Meerdink",
+            "tipo": "BallTouch",
+            "minuto": 95,
+            "segundo": 4,
+            "x": 90.0,
+            "y": 48.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Mexx Meerdink",
             "tipo": "Pass",
@@ -4663,7 +4712,12 @@
             "endY": 54.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Stan Henderikx",
+          "portero": false
+        }
       }
     ],
     "corners": [

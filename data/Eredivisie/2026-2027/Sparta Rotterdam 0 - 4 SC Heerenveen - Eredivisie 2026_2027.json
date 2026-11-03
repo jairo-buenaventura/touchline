@@ -4253,6 +4253,28 @@
           {
             "jugador": "Vasilios Zagaritis",
             "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 47,
+            "x": 91.8,
+            "y": 77.4,
+            "endX": 97.1,
+            "endY": 46.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Vasilios Zagaritis",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 3,
+            "x": 97.1,
+            "y": 46.2,
+            "endX": 76.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Zagaritis",
+            "tipo": "Pass",
             "minuto": 26,
             "segundo": 3,
             "x": 76.7,
@@ -4591,7 +4613,12 @@
             "endY": 52.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Bas Kuipers",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -4639,6 +4666,39 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Maxence Rivera",
+            "tipo": "BallRecovery",
+            "minuto": 42,
+            "segundo": 38,
+            "x": 45.9,
+            "y": 48.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Rivera",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 38,
+            "x": 45.9,
+            "y": 48.9,
+            "endX": 65.0,
+            "endY": 12.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jacob Trenskow",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 46,
+            "x": 65.0,
+            "y": 12.1,
+            "endX": 87.2,
+            "endY": 22.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Jacob Trenskow",
             "tipo": "TakeOn",
             "minuto": 42,
@@ -4649,7 +4709,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Joel Ideho",
+          "portero": false
+        }
       },
       {
         "minuto": 55,
@@ -4661,6 +4726,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Levi Smans",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 44,
+            "x": 32.6,
+            "y": 63.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Levi Smans",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 46,
+            "x": 38.2,
+            "y": 60.3,
+            "endX": 78.5,
+            "endY": 21.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Rivera",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 53,
+            "x": 78.5,
+            "y": 21.7,
+            "endX": 89.9,
+            "endY": 34.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Maxence Rivera",
             "tipo": "TakeOn",
             "minuto": 55,
@@ -4671,7 +4769,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lushendry Martes",
+          "portero": false
+        }
       },
       {
         "minuto": 58,

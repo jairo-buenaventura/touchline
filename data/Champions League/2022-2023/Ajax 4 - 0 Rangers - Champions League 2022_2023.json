@@ -467,6 +467,50 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Daley Blind",
+            "tipo": "BallRecovery",
+            "minuto": 31,
+            "segundo": 5,
+            "x": 65.7,
+            "y": 80.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daley Blind",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 6,
+            "x": 65.6,
+            "y": 77.7,
+            "endX": 67.2,
+            "endY": 61.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Berghuis",
+            "tipo": "Pass",
+            "minuto": 31,
+            "segundo": 7,
+            "x": 66.4,
+            "y": 60.0,
+            "endX": 70.7,
+            "endY": 63.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mohammed Kudus",
+            "tipo": "Carry",
+            "minuto": 31,
+            "segundo": 9,
+            "x": 70.7,
+            "y": 63.5,
+            "endX": 71.7,
+            "endY": 24.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Mohammed Kudus",
             "tipo": "BallTouch",
             "minuto": 31,
@@ -477,7 +521,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Glen Kamara",
+          "portero": false
+        }
       },
       {
         "minuto": 33,
@@ -618,7 +667,35 @@
         "y": 54.9,
         "arco_y": 52.6,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "BallRecovery",
+            "minuto": 79,
+            "segundo": 10,
+            "x": 83.9,
+            "y": 46.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Steven Bergwijn",
+            "tipo": "TakeOn",
+            "minuto": 79,
+            "segundo": 10,
+            "x": 83.8,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "KeeperSweeper",
+          "jugador": "Jon McLaughlin",
+          "portero": true
+        }
       },
       {
         "minuto": 86,

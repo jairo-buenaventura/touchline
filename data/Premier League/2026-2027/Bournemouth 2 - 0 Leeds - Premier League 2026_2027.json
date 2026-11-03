@@ -401,7 +401,35 @@
         "y": 49.6,
         "arco_y": 47.9,
         "arco_z": 10.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Justin Kluivert",
+            "tipo": "BallRecovery",
+            "minuto": 30,
+            "segundo": 39,
+            "x": 84.8,
+            "y": 42.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Justin Kluivert",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 40,
+            "x": 87.4,
+            "y": 38.9,
+            "endX": 87.1,
+            "endY": 50.8,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "James Trafford",
+          "portero": false
+        }
       },
       {
         "minuto": 39,
@@ -476,6 +504,61 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Álvaro Rodríguez",
+            "tipo": "BallRecovery",
+            "minuto": 93,
+            "segundo": 50,
+            "x": 77.7,
+            "y": 22.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Álvaro Rodríguez",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 50,
+            "x": 77.7,
+            "y": 22.6,
+            "endX": 73.4,
+            "endY": 39.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 54,
+            "x": 73.4,
+            "y": 39.8,
+            "endX": 74.2,
+            "endY": 54.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 54,
+            "x": 74.2,
+            "y": 54.2,
+            "endX": 76.3,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Kroupi",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 57,
+            "x": 76.3,
+            "y": 62.7,
+            "endX": 76.8,
+            "endY": 52.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Junior Kroupi",
             "tipo": "TakeOn",
             "minuto": 93,
@@ -508,7 +591,12 @@
             "endY": 42.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sean Longstaff",
+          "portero": false
+        }
       }
     ],
     "corners": [

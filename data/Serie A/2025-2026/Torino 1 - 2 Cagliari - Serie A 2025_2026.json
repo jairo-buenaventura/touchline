@@ -406,6 +406,39 @@
             "jugador": "Gvidas Gineitis",
             "tipo": "Pass",
             "minuto": 26,
+            "segundo": 52,
+            "x": 43.5,
+            "y": 55.8,
+            "endX": 73.9,
+            "endY": 62.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 54,
+            "x": 73.9,
+            "y": 62.3,
+            "endX": 86.8,
+            "endY": 57.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Giovanni Simeone",
+            "tipo": "SavedShot",
+            "minuto": 26,
+            "segundo": 54,
+            "x": 86.8,
+            "y": 57.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gvidas Gineitis",
+            "tipo": "Pass",
+            "minuto": 26,
             "segundo": 57,
             "x": 86.1,
             "y": 67.0,
@@ -424,7 +457,12 @@
             "endY": 44.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Elia Caprile",
+          "portero": true
+        }
       },
       {
         "minuto": 43,
@@ -4701,6 +4739,39 @@
         "secuencia_gol": [
           {
             "jugador": "Semih Kiliçsoy",
+            "tipo": "BallRecovery",
+            "minuto": 65,
+            "segundo": 10,
+            "x": 46.5,
+            "y": 40.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Semih Kiliçsoy",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 16,
+            "x": 72.3,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Semih Kiliçsoy",
+            "tipo": "TakeOn",
+            "minuto": 65,
+            "segundo": 17,
+            "x": 73.9,
+            "y": 33.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Semih Kiliçsoy",
             "tipo": "GoodSkill",
             "minuto": 65,
             "segundo": 18,
@@ -4710,7 +4781,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Gvidas Gineitis",
+          "portero": false
+        }
       }
     ],
     "corners": [

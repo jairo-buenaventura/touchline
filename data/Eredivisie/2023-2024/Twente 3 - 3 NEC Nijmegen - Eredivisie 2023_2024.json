@@ -583,7 +583,134 @@
         "y": 47.2,
         "arco_y": 51.7,
         "arco_z": 26.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "TakeOn",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 80.0,
+            "y": 75.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 0,
+            "x": 89.0,
+            "y": 83.1,
+            "endX": 85.8,
+            "endY": 46.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 12,
+            "x": 85.8,
+            "y": 46.4,
+            "endX": 90.7,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 12,
+            "x": 90.7,
+            "y": 100.0,
+            "endX": 75.3,
+            "endY": 85.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Regeer",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 19,
+            "x": 75.3,
+            "y": 85.1,
+            "endX": 71.4,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Regeer",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 19,
+            "x": 71.4,
+            "y": 86.7,
+            "endX": 81.4,
+            "endY": 96.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 21,
+            "x": 81.4,
+            "y": 96.6,
+            "endX": 69.7,
+            "endY": 92.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Youri Regeer",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 24,
+            "x": 69.7,
+            "y": 89.6,
+            "endX": 81.5,
+            "endY": 73.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ricky van Wolfswinkel",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 25,
+            "x": 81.5,
+            "y": 73.1,
+            "endX": 95.5,
+            "endY": 82.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Younes Taha",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 27,
+            "x": 95.5,
+            "y": 82.5,
+            "endX": 91.0,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Robin Pröpper",
+            "tipo": "SavedShot",
+            "minuto": 75,
+            "segundo": 28,
+            "x": 90.3,
+            "y": 53.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jasper Cillessen",
+          "portero": true
+        }
       },
       {
         "minuto": 79,
@@ -5696,7 +5823,24 @@
         "y": 46.4,
         "arco_y": 46.0,
         "arco_z": 21.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Mathias Ross",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 58,
+            "x": 95.9,
+            "y": 46.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Michel Vlap",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -5716,6 +5860,28 @@
         "arco_y": 51.5,
         "arco_z": 12.0,
         "secuencia_gol": [
+          {
+            "jugador": "Jasper Cillessen",
+            "tipo": "Pass",
+            "minuto": 54,
+            "segundo": 53,
+            "x": 3.6,
+            "y": 54.8,
+            "endX": 62.9,
+            "endY": 84.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Carry",
+            "minuto": 55,
+            "segundo": 9,
+            "x": 62.9,
+            "y": 84.2,
+            "endX": 49.1,
+            "endY": 100.0,
+            "exitoso": true
+          },
           {
             "jugador": "Calvin Verdonk",
             "tipo": "Pass",
@@ -5804,7 +5970,12 @@
             "endY": 48.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Daan Rots",
+          "portero": false
+        }
       },
       {
         "minuto": 60,

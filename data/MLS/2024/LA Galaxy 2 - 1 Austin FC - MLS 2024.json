@@ -391,6 +391,39 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "John Nelson",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 24,
+            "x": 61.0,
+            "y": 86.9,
+            "endX": 61.2,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 27,
+            "x": 61.2,
+            "y": 66.4,
+            "endX": 85.2,
+            "endY": 9.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 32,
+            "x": 85.2,
+            "y": 9.9,
+            "endX": 88.8,
+            "endY": 5.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Pec",
             "tipo": "TakeOn",
             "minuto": 30,
@@ -401,7 +434,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Guilherme Biro",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -476,6 +514,83 @@
         "arco_z": 31.0,
         "secuencia_gol": [
           {
+            "jugador": "John McCarthy",
+            "tipo": "KeeperPickup",
+            "minuto": 74,
+            "segundo": 58,
+            "x": 4.0,
+            "y": 49.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "John McCarthy",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 3,
+            "x": 12.8,
+            "y": 51.8,
+            "endX": 29.0,
+            "endY": 40.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Brugman",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 7,
+            "x": 29.0,
+            "y": 40.7,
+            "endX": 36.1,
+            "endY": 38.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gastón Brugman",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 7,
+            "x": 36.1,
+            "y": 38.5,
+            "endX": 54.5,
+            "endY": 35.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 13,
+            "x": 54.5,
+            "y": 35.8,
+            "endX": 74.1,
+            "endY": 29.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riqui Puig",
+            "tipo": "Pass",
+            "minuto": 75,
+            "segundo": 13,
+            "x": 74.1,
+            "y": 29.8,
+            "endX": 84.6,
+            "endY": 52.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dejan Joveljic",
+            "tipo": "Carry",
+            "minuto": 75,
+            "segundo": 15,
+            "x": 84.6,
+            "y": 52.3,
+            "endX": 87.6,
+            "endY": 57.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Dejan Joveljic",
             "tipo": "TakeOn",
             "minuto": 75,
@@ -486,7 +601,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jon Gallagher",
+          "portero": false
+        }
       },
       {
         "minuto": 81,

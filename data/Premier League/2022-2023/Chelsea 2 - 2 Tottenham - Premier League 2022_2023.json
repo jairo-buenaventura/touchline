@@ -5323,6 +5323,39 @@
         "arco_z": 0.6,
         "secuencia_gol": [
           {
+            "jugador": "Son Heung-Min",
+            "tipo": "BallRecovery",
+            "minuto": 67,
+            "segundo": 37,
+            "x": 79.8,
+            "y": 30.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Son Heung-Min",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 39,
+            "x": 79.8,
+            "y": 30.7,
+            "endX": 78.5,
+            "endY": 34.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ben Davies",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 40,
+            "x": 78.5,
+            "y": 34.0,
+            "endX": 80.3,
+            "endY": 48.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Ben Davies",
             "tipo": "Pass",
             "minuto": 67,
@@ -5333,7 +5366,12 @@
             "endY": 39.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "N'Golo Kanté",
+          "portero": false
+        }
       },
       {
         "minuto": 90,

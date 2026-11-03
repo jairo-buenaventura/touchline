@@ -524,6 +524,39 @@
         "arco_z": 1.9,
         "secuencia_gol": [
           {
+            "jugador": "Boy Kemper",
+            "tipo": "BallRecovery",
+            "minuto": 86,
+            "segundo": 1,
+            "x": 24.2,
+            "y": 89.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Boy Kemper",
+            "tipo": "Pass",
+            "minuto": 86,
+            "segundo": 2,
+            "x": 24.4,
+            "y": 89.7,
+            "endX": 58.0,
+            "endY": 93.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Raul Paula",
+            "tipo": "Carry",
+            "minuto": 86,
+            "segundo": 9,
+            "x": 58.0,
+            "y": 93.2,
+            "endX": 79.8,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Raul Paula",
             "tipo": "TakeOn",
             "minuto": 86,
@@ -545,7 +578,12 @@
             "endY": 34.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Dave Kwakman",
+          "portero": false
+        }
       }
     ],
     "corners": [

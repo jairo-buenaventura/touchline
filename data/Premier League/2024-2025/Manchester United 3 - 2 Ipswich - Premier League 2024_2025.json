@@ -398,7 +398,68 @@
         "y": 54.0,
         "arco_y": 52.3,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Maguire",
+            "tipo": "CornerAwarded",
+            "minuto": 25,
+            "segundo": 0,
+            "x": 92.6,
+            "y": 76.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bruno Fernandes",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 32,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 97.2,
+            "endY": 44.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Maguire",
+            "tipo": "Carry",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 97.2,
+            "y": 44.6,
+            "endX": 94.2,
+            "endY": 43.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Harry Maguire",
+            "tipo": "SavedShot",
+            "minuto": 25,
+            "segundo": 34,
+            "x": 94.2,
+            "y": 43.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Diogo Dalot",
+            "tipo": "SavedShot",
+            "minuto": 25,
+            "segundo": 36,
+            "x": 92.1,
+            "y": 48.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Alex Palmer",
+          "portero": true
+        }
       },
       {
         "minuto": 35,
@@ -426,7 +487,24 @@
         "y": 49.6,
         "arco_y": 53.1,
         "arco_z": 17.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Harry Maguire",
+            "tipo": "Aerial",
+            "minuto": 46,
+            "segundo": 56,
+            "x": 93.0,
+            "y": 49.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jaden Philogene",
+          "portero": false
+        }
       },
       {
         "minuto": 97,
@@ -4028,7 +4106,24 @@
         "y": 47.0,
         "arco_y": 52.6,
         "arco_z": 7.6,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Sam Morsy",
+            "tipo": "Aerial",
+            "minuto": 21,
+            "segundo": 32,
+            "x": 5.4,
+            "y": 46.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Rasmus Højlund",
+          "portero": false
+        }
       },
       {
         "minuto": 46,
@@ -4039,6 +4134,39 @@
         "arco_y": 54.1,
         "arco_z": 5.1,
         "secuencia_gol": [
+          {
+            "jugador": "Leif Davis",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 13,
+            "x": 37.0,
+            "y": 100.0,
+            "endX": 39.8,
+            "endY": 87.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sam Morsy",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 14,
+            "x": 39.8,
+            "y": 87.2,
+            "endX": 33.4,
+            "endY": 95.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Leif Davis",
+            "tipo": "Carry",
+            "minuto": 46,
+            "segundo": 15,
+            "x": 33.4,
+            "y": 95.1,
+            "endX": 36.9,
+            "endY": 96.8,
+            "exitoso": true
+          },
           {
             "jugador": "Leif Davis",
             "tipo": "TakeOn",
@@ -4259,7 +4387,12 @@
             "endY": 5.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Bruno Fernandes",
+          "portero": false
+        }
       },
       {
         "minuto": 49,

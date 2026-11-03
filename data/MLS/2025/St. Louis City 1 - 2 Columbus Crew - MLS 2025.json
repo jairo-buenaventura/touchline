@@ -370,6 +370,28 @@
         "secuencia_gol": [
           {
             "jugador": "Célio Pompeu",
+            "tipo": "BallRecovery",
+            "minuto": 6,
+            "segundo": 10,
+            "x": 46.9,
+            "y": 80.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Célio Pompeu",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 22,
+            "x": 91.8,
+            "y": 83.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Célio Pompeu",
             "tipo": "Pass",
             "minuto": 6,
             "segundo": 25,
@@ -390,7 +412,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Steven Moreira",
+          "portero": false
+        }
       },
       {
         "minuto": 12,

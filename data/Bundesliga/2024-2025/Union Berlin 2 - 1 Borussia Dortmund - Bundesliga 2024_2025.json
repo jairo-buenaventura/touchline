@@ -448,6 +448,28 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Christopher Trimmel",
+            "tipo": "Pass",
+            "minuto": 44,
+            "segundo": 15,
+            "x": 99.5,
+            "y": 0.5,
+            "endX": 93.4,
+            "endY": 46.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tom Rothe",
+            "tipo": "Carry",
+            "minuto": 44,
+            "segundo": 19,
+            "x": 93.4,
+            "y": 46.6,
+            "endX": 85.9,
+            "endY": 45.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Tom Rothe",
             "tipo": "BallTouch",
             "minuto": 44,
@@ -469,7 +491,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Nico Schlotterbeck",
+          "portero": false
+        }
       },
       {
         "minuto": 52,

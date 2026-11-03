@@ -368,6 +368,39 @@
         "arco_z": 27.2,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan Dean",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 38,
+            "x": 71.2,
+            "y": 0.0,
+            "endX": 56.3,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "Pass",
+            "minuto": 8,
+            "segundo": 42,
+            "x": 57.9,
+            "y": 3.5,
+            "endX": 58.6,
+            "endY": 4.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jack Elliott",
+            "tipo": "BallTouch",
+            "minuto": 8,
+            "segundo": 42,
+            "x": 58.6,
+            "y": 4.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Jack Elliott",
             "tipo": "Pass",
             "minuto": 8,
@@ -477,7 +510,12 @@
             "endY": 47.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Germán Berterame",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

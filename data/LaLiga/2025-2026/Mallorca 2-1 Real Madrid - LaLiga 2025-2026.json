@@ -532,6 +532,39 @@
         "arco_z": 32.9,
         "secuencia_gol": [
           {
+            "jugador": "Jan Virgili",
+            "tipo": "Aerial",
+            "minuto": 90,
+            "segundo": 28,
+            "x": 63.9,
+            "y": 65.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Virgili",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 28,
+            "x": 61.8,
+            "y": 67.1,
+            "endX": 63.7,
+            "endY": 66.7,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antonio Sánchez",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 30,
+            "x": 63.7,
+            "y": 66.7,
+            "endX": 68.3,
+            "endY": 66.4,
+            "exitoso": true
+          },
+          {
             "jugador": "Antonio Sánchez",
             "tipo": "Pass",
             "minuto": 90,
@@ -553,7 +586,12 @@
             "endY": 43.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aurélien Tchouaméni",
+          "portero": false
+        }
       }
     ],
     "corners": [

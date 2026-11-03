@@ -381,6 +381,17 @@
         "secuencia_gol": [
           {
             "jugador": "Ayoze Pérez",
+            "tipo": "Aerial",
+            "minuto": 5,
+            "segundo": 32,
+            "x": 96.4,
+            "y": 44.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ayoze Pérez",
             "tipo": "BallTouch",
             "minuto": 5,
             "segundo": 33,
@@ -390,7 +401,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Antonio Raíllo",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -4682,6 +4698,50 @@
         "arco_z": 4.4,
         "secuencia_gol": [
           {
+            "jugador": "Jan Virgili",
+            "tipo": "BallRecovery",
+            "minuto": 7,
+            "segundo": 18,
+            "x": 84.1,
+            "y": 74.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jan Virgili",
+            "tipo": "Pass",
+            "minuto": 7,
+            "segundo": 20,
+            "x": 78.2,
+            "y": 63.1,
+            "endX": 74.1,
+            "endY": 42.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 22,
+            "x": 74.1,
+            "y": 42.4,
+            "endX": 77.2,
+            "endY": 47.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pablo Torre",
+            "tipo": "TakeOn",
+            "minuto": 7,
+            "segundo": 22,
+            "x": 77.2,
+            "y": 47.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Pablo Torre",
             "tipo": "Pass",
             "minuto": 7,
@@ -4692,7 +4752,12 @@
             "endY": 70.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Santi Comesaña",
+          "portero": false
+        }
       },
       {
         "minuto": 22,

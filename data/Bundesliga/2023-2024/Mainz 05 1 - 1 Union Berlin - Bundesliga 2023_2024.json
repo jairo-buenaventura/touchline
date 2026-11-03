@@ -3935,6 +3935,17 @@
         "secuencia_gol": [
           {
             "jugador": "Janik Haberer",
+            "tipo": "BlockedPass",
+            "minuto": 57,
+            "segundo": 10,
+            "x": 79.0,
+            "y": 7.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Janik Haberer",
             "tipo": "Pass",
             "minuto": 57,
             "segundo": 14,
@@ -3966,7 +3977,12 @@
             "endY": 59.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Ludovic Ajorque",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

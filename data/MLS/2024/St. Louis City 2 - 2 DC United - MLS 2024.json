@@ -396,7 +396,24 @@
         "y": 54.0,
         "arco_y": 47.3,
         "arco_z": 17.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joshua Yaro",
+            "tipo": "Aerial",
+            "minuto": 18,
+            "segundo": 37,
+            "x": 93.6,
+            "y": 58.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Christian Benteke",
+          "portero": false
+        }
       },
       {
         "minuto": 21,
@@ -4652,7 +4669,68 @@
         "y": 46.6,
         "arco_y": 47.1,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jackson Hopkins",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 46,
+            "x": 56.3,
+            "y": 44.8,
+            "endX": 44.4,
+            "endY": 52.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lucas Bartlett",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 50,
+            "x": 44.4,
+            "y": 52.8,
+            "endX": 87.4,
+            "endY": 10.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jared Stroud",
+            "tipo": "Pass",
+            "minuto": 19,
+            "segundo": 53,
+            "x": 87.5,
+            "y": 9.8,
+            "endX": 91.5,
+            "endY": 52.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Benteke",
+            "tipo": "Carry",
+            "minuto": 19,
+            "segundo": 55,
+            "x": 91.5,
+            "y": 52.1,
+            "endX": 92.7,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Christian Benteke",
+            "tipo": "SavedShot",
+            "minuto": 19,
+            "segundo": 55,
+            "x": 92.7,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Roman Bürki",
+          "portero": true
+        }
       },
       {
         "minuto": 37,
@@ -4663,6 +4741,17 @@
         "arco_y": 53.3,
         "arco_z": 2.5,
         "secuencia_gol": [
+          {
+            "jugador": "Cristian Dájome",
+            "tipo": "BallTouch",
+            "minuto": 36,
+            "segundo": 32,
+            "x": 68.1,
+            "y": 75.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Cristian Dájome",
             "tipo": "Pass",
@@ -4773,7 +4862,12 @@
             "endY": 49.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Joakim Nilsson",
+          "portero": false
+        }
       },
       {
         "minuto": 40,

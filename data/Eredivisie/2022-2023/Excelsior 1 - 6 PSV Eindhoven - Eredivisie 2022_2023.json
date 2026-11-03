@@ -441,7 +441,24 @@
         "y": 50.1,
         "arco_y": 45.8,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Siebe Horemans",
+            "tipo": "Aerial",
+            "minuto": 73,
+            "segundo": 18,
+            "x": 93.4,
+            "y": 50.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Jarrad Branthwaite",
+          "portero": false
+        }
       },
       {
         "minuto": 91,
@@ -4274,7 +4291,24 @@
         "y": 46.8,
         "arco_y": 46.1,
         "arco_z": 12.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Armando Obispo",
+            "tipo": "Aerial",
+            "minuto": 1,
+            "segundo": 33,
+            "x": 91.8,
+            "y": 48.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Siebe Horemans",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -4518,7 +4552,79 @@
         "y": 52.4,
         "arco_y": 50.0,
         "arco_z": 15.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "BallRecovery",
+            "minuto": 57,
+            "segundo": 59,
+            "x": 51.4,
+            "y": 53.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joey Veerman",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 0,
+            "x": 51.4,
+            "y": 53.1,
+            "endX": 64.3,
+            "endY": 48.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Xavi Simons",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 2,
+            "x": 64.3,
+            "y": 48.4,
+            "endX": 80.5,
+            "endY": 71.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Max",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 5,
+            "x": 80.5,
+            "y": 71.7,
+            "endX": 92.8,
+            "endY": 72.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Philipp Max",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 5,
+            "x": 92.8,
+            "y": 72.2,
+            "endX": 91.8,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Cody Gakpo",
+            "tipo": "SavedShot",
+            "minuto": 58,
+            "segundo": 7,
+            "x": 91.8,
+            "y": 58.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Nathan Tjoe-A-On",
+          "portero": true
+        }
       },
       {
         "minuto": 61,
@@ -4566,6 +4672,39 @@
         "arco_z": 7.0,
         "secuencia_gol": [
           {
+            "jugador": "Guus Til",
+            "tipo": "BallRecovery",
+            "minuto": 83,
+            "segundo": 15,
+            "x": 25.2,
+            "y": 56.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Guus Til",
+            "tipo": "Pass",
+            "minuto": 83,
+            "segundo": 16,
+            "x": 25.2,
+            "y": 56.7,
+            "endX": 28.5,
+            "endY": 27.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Savinho",
+            "tipo": "Carry",
+            "minuto": 83,
+            "segundo": 20,
+            "x": 28.5,
+            "y": 27.8,
+            "endX": 36.0,
+            "endY": 33.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Savinho",
             "tipo": "TakeOn",
             "minuto": 83,
@@ -4587,7 +4726,12 @@
             "endY": 65.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nathan Tjoe-A-On",
+          "portero": false
+        }
       },
       {
         "minuto": 88,

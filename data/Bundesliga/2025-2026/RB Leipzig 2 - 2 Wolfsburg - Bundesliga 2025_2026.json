@@ -541,7 +541,24 @@
         "y": 38.9,
         "arco_y": 54.3,
         "arco_z": 27.8,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Christoph Baumgartner",
+            "tipo": "Aerial",
+            "minuto": 87,
+            "segundo": 57,
+            "x": 92.8,
+            "y": 49.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maximilian Arnold",
+          "portero": false
+        }
       },
       {
         "minuto": 92,
@@ -5464,6 +5481,50 @@
         "arco_z": 30.4,
         "secuencia_gol": [
           {
+            "jugador": "Mohammed Amoura",
+            "tipo": "BallRecovery",
+            "minuto": 51,
+            "segundo": 2,
+            "x": 41.1,
+            "y": 18.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohammed Amoura",
+            "tipo": "Pass",
+            "minuto": 51,
+            "segundo": 3,
+            "x": 41.2,
+            "y": 16.0,
+            "endX": 65.8,
+            "endY": 8.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Daghim",
+            "tipo": "Carry",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 65.8,
+            "y": 8.2,
+            "endX": 86.4,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adam Daghim",
+            "tipo": "TakeOn",
+            "minuto": 51,
+            "segundo": 9,
+            "x": 86.4,
+            "y": 15.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Adam Daghim",
             "tipo": "Pass",
             "minuto": 51,
@@ -5474,7 +5535,12 @@
             "endY": 36.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Max Finkgräfe",
+          "portero": false
+        }
       },
       {
         "minuto": 55,

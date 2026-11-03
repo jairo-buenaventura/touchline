@@ -386,7 +386,112 @@
         "y": 41.9,
         "arco_y": 49.5,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Philippe Sandler",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 29,
+            "x": 24.7,
+            "y": 13.8,
+            "endX": 14.2,
+            "endY": 51.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Márquez",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 30,
+            "x": 14.2,
+            "y": 51.2,
+            "endX": 18.8,
+            "endY": 49.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Iván Márquez",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 30,
+            "x": 18.8,
+            "y": 49.7,
+            "endX": 22.4,
+            "endY": 92.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 32,
+            "x": 19.8,
+            "y": 92.0,
+            "endX": 37.5,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sontje Hansen",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 35,
+            "x": 37.5,
+            "y": 90.0,
+            "endX": 41.6,
+            "endY": 75.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sontje Hansen",
+            "tipo": "Pass",
+            "minuto": 2,
+            "segundo": 35,
+            "x": 41.6,
+            "y": 75.9,
+            "endX": 70.5,
+            "endY": 75.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "Carry",
+            "minuto": 2,
+            "segundo": 41,
+            "x": 70.5,
+            "y": 75.4,
+            "endX": 94.2,
+            "endY": 64.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vito van Crooij",
+            "tipo": "SavedShot",
+            "minuto": 2,
+            "segundo": 41,
+            "x": 94.2,
+            "y": 64.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sami Ouaissa",
+            "tipo": "SavedShot",
+            "minuto": 2,
+            "segundo": 44,
+            "x": 94.5,
+            "y": 45.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "James Lawrence",
+          "portero": true
+        }
       },
       {
         "minuto": 6,
@@ -443,6 +548,83 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Brayann Pereira",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 51,
+            "x": 49.0,
+            "y": 0.0,
+            "endX": 41.6,
+            "endY": 37.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Carry",
+            "minuto": 92,
+            "segundo": 58,
+            "x": 41.6,
+            "y": 37.0,
+            "endX": 41.0,
+            "endY": 45.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Pass",
+            "minuto": 92,
+            "segundo": 58,
+            "x": 41.0,
+            "y": 45.2,
+            "endX": 58.7,
+            "endY": 36.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dirk Proper",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 1,
+            "x": 60.2,
+            "y": 34.6,
+            "endX": 84.3,
+            "endY": 73.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 8,
+            "x": 84.3,
+            "y": 73.0,
+            "endX": 77.2,
+            "endY": 84.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Basar Önal",
+            "tipo": "Pass",
+            "minuto": 93,
+            "segundo": 8,
+            "x": 77.2,
+            "y": 84.2,
+            "endX": 89.6,
+            "endY": 64.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Calvin Verdonk",
+            "tipo": "Carry",
+            "minuto": 93,
+            "segundo": 12,
+            "x": 89.6,
+            "y": 64.0,
+            "endX": 60.8,
+            "endY": 68.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Calvin Verdonk",
             "tipo": "Pass",
             "minuto": 93,
@@ -486,7 +668,12 @@
             "endY": 60.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Álex Balboa",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4331,7 +4518,24 @@
         "y": 58.3,
         "arco_y": 46.4,
         "arco_z": 20.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Ricardo Visus",
+            "tipo": "Aerial",
+            "minuto": 44,
+            "segundo": 7,
+            "x": 90.4,
+            "y": 52.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Dirk Proper",
+          "portero": false
+        }
       },
       {
         "minuto": 57,
@@ -4370,6 +4574,83 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Vasilios Zagaritis",
+            "tipo": "BallRecovery",
+            "minuto": 72,
+            "segundo": 54,
+            "x": 89.4,
+            "y": 89.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vasilios Zagaritis",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 55,
+            "x": 89.0,
+            "y": 88.7,
+            "endX": 89.4,
+            "endY": 86.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Thomas Robinet",
+            "tipo": "Carry",
+            "minuto": 72,
+            "segundo": 58,
+            "x": 89.4,
+            "y": 86.5,
+            "endX": 90.9,
+            "endY": 72.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Robinet",
+            "tipo": "Pass",
+            "minuto": 72,
+            "segundo": 58,
+            "x": 90.9,
+            "y": 72.0,
+            "endX": 80.2,
+            "endY": 72.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles-Andreas Brym",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 0,
+            "x": 80.4,
+            "y": 72.3,
+            "endX": 84.9,
+            "endY": 63.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Junior Kadile",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 1,
+            "x": 84.9,
+            "y": 63.4,
+            "endX": 80.2,
+            "endY": 66.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charles-Andreas Brym",
+            "tipo": "SavedShot",
+            "minuto": 73,
+            "segundo": 3,
+            "x": 80.0,
+            "y": 66.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Charles-Andreas Brym",
             "tipo": "Pass",
             "minuto": 73,
@@ -4402,7 +4683,12 @@
             "endY": 38.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dirk Proper",
+          "portero": true
+        }
       }
     ],
     "corners": [

@@ -638,6 +638,72 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Stephen Eustaquio",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 36,
+            "x": 64.2,
+            "y": 85.3,
+            "endX": 67.5,
+            "endY": 91.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zaidu Sanusi",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 37,
+            "x": 67.4,
+            "y": 92.1,
+            "endX": 65.7,
+            "endY": 84.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stephen Eustaquio",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 38,
+            "x": 65.7,
+            "y": 84.7,
+            "endX": 60.0,
+            "endY": 82.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Stephen Eustaquio",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 38,
+            "x": 60.0,
+            "y": 82.9,
+            "endX": 85.9,
+            "endY": 86.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Zaidu Sanusi",
+            "tipo": "Pass",
+            "minuto": 42,
+            "segundo": 40,
+            "x": 86.2,
+            "y": 87.7,
+            "endX": 86.0,
+            "endY": 86.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Zaidu Sanusi",
+            "tipo": "Carry",
+            "minuto": 42,
+            "segundo": 44,
+            "x": 86.0,
+            "y": 86.3,
+            "endX": 97.0,
+            "endY": 83.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Zaidu Sanusi",
             "tipo": "Pass",
             "minuto": 42,
@@ -670,7 +736,12 @@
             "endY": 59.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Heorhiy Sudakov",
+          "portero": false
+        }
       },
       {
         "minuto": 50,
@@ -698,7 +769,35 @@
         "y": 66.7,
         "arco_y": 52.3,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Galeno",
+            "tipo": "BallRecovery",
+            "minuto": 61,
+            "segundo": 8,
+            "x": 72.4,
+            "y": 74.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Galeno",
+            "tipo": "Pass",
+            "minuto": 61,
+            "segundo": 10,
+            "x": 75.5,
+            "y": 72.7,
+            "endX": 90.2,
+            "endY": 71.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Valerii Bondar",
+          "portero": false
+        }
       },
       {
         "minuto": 67,
@@ -4873,7 +4972,101 @@
         "y": 51.3,
         "arco_y": 51.8,
         "arco_z": 1.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Giorgi Gocholeishvili",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 13,
+            "x": 79.6,
+            "y": 0.0,
+            "endX": 49.3,
+            "endY": 2.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valerii Bondar",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 18,
+            "x": 49.3,
+            "y": 2.5,
+            "endX": 40.8,
+            "endY": 4.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Valerii Bondar",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 18,
+            "x": 40.8,
+            "y": 4.7,
+            "endX": 51.6,
+            "endY": 2.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Artem Bondarenko",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 20,
+            "x": 51.6,
+            "y": 2.2,
+            "endX": 46.5,
+            "endY": 20.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Taras Stepanenko",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 23,
+            "x": 46.5,
+            "y": 20.1,
+            "endX": 48.1,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Taras Stepanenko",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 23,
+            "x": 48.1,
+            "y": 24.3,
+            "endX": 89.7,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oleksandr Zubkov",
+            "tipo": "Carry",
+            "minuto": 28,
+            "segundo": 29,
+            "x": 89.7,
+            "y": 14.6,
+            "endX": 95.9,
+            "endY": 31.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oleksandr Zubkov",
+            "tipo": "Pass",
+            "minuto": 28,
+            "segundo": 29,
+            "x": 95.9,
+            "y": 31.6,
+            "endX": 94.9,
+            "endY": 50.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Diogo Costa",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

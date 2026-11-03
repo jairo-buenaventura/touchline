@@ -432,6 +432,105 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Willian Pacho",
+            "tipo": "BallRecovery",
+            "minuto": 11,
+            "segundo": 7,
+            "x": 52.0,
+            "y": 35.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Willian Pacho",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 8,
+            "x": 52.0,
+            "y": 35.5,
+            "endX": 55.7,
+            "endY": 15.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 13,
+            "x": 55.7,
+            "y": 15.2,
+            "endX": 60.8,
+            "endY": 15.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 13,
+            "x": 60.8,
+            "y": 15.1,
+            "endX": 52.0,
+            "endY": 31.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marquinhos",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 14,
+            "x": 52.0,
+            "y": 31.9,
+            "endX": 54.4,
+            "endY": 59.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Vitinha",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 17,
+            "x": 56.7,
+            "y": 60.3,
+            "endX": 72.1,
+            "endY": 97.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 22,
+            "x": 72.1,
+            "y": 97.5,
+            "endX": 85.2,
+            "endY": 84.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Khvicha Kvaratskhelia",
+            "tipo": "Pass",
+            "minuto": 11,
+            "segundo": 22,
+            "x": 85.2,
+            "y": 84.8,
+            "endX": 85.6,
+            "endY": 81.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Fabián Ruiz",
+            "tipo": "Carry",
+            "minuto": 11,
+            "segundo": 25,
+            "x": 85.6,
+            "y": 81.8,
+            "endX": 89.2,
+            "endY": 78.3,
+            "exitoso": true
+          },
+          {
             "jugador": "Fabián Ruiz",
             "tipo": "Pass",
             "minuto": 11,
@@ -464,7 +563,12 @@
             "endY": 45.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Denzel Dumfries",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -781,6 +885,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nuno Mendes",
+            "tipo": "Tackle",
+            "minuto": 71,
+            "segundo": 51,
+            "x": 33.0,
+            "y": 77.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nuno Mendes",
             "tipo": "Pass",
             "minuto": 71,
             "segundo": 54,
@@ -812,7 +927,12 @@
             "endY": 66.9,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Denzel Dumfries",
+          "portero": false
+        }
       },
       {
         "minuto": 80,

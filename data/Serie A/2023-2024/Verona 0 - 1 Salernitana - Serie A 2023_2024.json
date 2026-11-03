@@ -4442,6 +4442,39 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "BallRecovery",
+            "minuto": 47,
+            "segundo": 33,
+            "x": 7.4,
+            "y": 69.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Domagoj Bradaric",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 35,
+            "x": 5.8,
+            "y": 89.3,
+            "endX": 46.2,
+            "endY": 93.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Antonio Candreva",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 43,
+            "x": 46.2,
+            "y": 93.6,
+            "endX": 60.1,
+            "endY": 97.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Antonio Candreva",
             "tipo": "Pass",
             "minuto": 47,
@@ -4474,7 +4507,12 @@
             "endY": 37.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Jackson Tchatchoua",
+          "portero": false
+        }
       },
       {
         "minuto": 56,

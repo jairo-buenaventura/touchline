@@ -464,6 +464,61 @@
             "jugador": "Nhoa Sangui",
             "tipo": "Pass",
             "minuto": 6,
+            "segundo": 40,
+            "x": 59.1,
+            "y": 81.5,
+            "endX": 62.3,
+            "endY": 86.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxime Lopez",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 44,
+            "x": 62.3,
+            "y": 86.4,
+            "endX": 61.6,
+            "endY": 81.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxime Lopez",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 44,
+            "x": 61.6,
+            "y": 81.2,
+            "endX": 64.6,
+            "endY": 91.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nhoa Sangui",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 50,
+            "x": 64.6,
+            "y": 91.4,
+            "endX": 60.7,
+            "endY": 91.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nhoa Sangui",
+            "tipo": "TakeOn",
+            "minuto": 6,
+            "segundo": 50,
+            "x": 60.7,
+            "y": 91.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nhoa Sangui",
+            "tipo": "Pass",
+            "minuto": 6,
             "segundo": 53,
             "x": 56.6,
             "y": 88.4,
@@ -515,7 +570,12 @@
             "endY": 47.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Mamadou Coulibaly",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -720,7 +780,35 @@
         "y": 36.6,
         "arco_y": 45.6,
         "arco_z": 32.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Moustapha Mbow",
+            "tipo": "BallRecovery",
+            "minuto": 70,
+            "segundo": 45,
+            "x": 32.1,
+            "y": 65.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Moustapha Mbow",
+            "tipo": "Pass",
+            "minuto": 70,
+            "segundo": 46,
+            "x": 27.1,
+            "y": 63.0,
+            "endX": 75.1,
+            "endY": 51.3,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Denis Zakaria",
+          "portero": false
+        }
       },
       {
         "minuto": 90,
@@ -4317,7 +4405,101 @@
         "y": 46.4,
         "arco_y": 49.3,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lamine Camara",
+            "tipo": "BallRecovery",
+            "minuto": 35,
+            "segundo": 34,
+            "x": 30.7,
+            "y": 25.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lamine Camara",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 34,
+            "x": 30.7,
+            "y": 25.8,
+            "endX": 9.6,
+            "endY": 38.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 37,
+            "x": 9.6,
+            "y": 38.7,
+            "endX": 12.2,
+            "endY": 41.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lukás Hrádecky",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 37,
+            "x": 12.2,
+            "y": 41.3,
+            "endX": 23.4,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Faes",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 43,
+            "x": 23.4,
+            "y": 67.2,
+            "endX": 35.4,
+            "endY": 62.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Faes",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 43,
+            "x": 35.4,
+            "y": 62.7,
+            "endX": 47.1,
+            "endY": 56.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aladji Bamba",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 46,
+            "x": 47.1,
+            "y": 56.1,
+            "endX": 60.7,
+            "endY": 50.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Aladji Bamba",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 46,
+            "x": 60.7,
+            "y": 50.5,
+            "endX": 71.9,
+            "endY": 48.1,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Moustapha Mbow",
+          "portero": false
+        }
       },
       {
         "minuto": 39,

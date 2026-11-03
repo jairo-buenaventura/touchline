@@ -474,7 +474,35 @@
         "y": 50.2,
         "arco_y": 54.0,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Danny Bakker",
+            "tipo": "Aerial",
+            "minuto": 68,
+            "segundo": 58,
+            "x": 94.8,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Danny Bakker",
+            "tipo": "SavedShot",
+            "minuto": 68,
+            "segundo": 58,
+            "x": 94.8,
+            "y": 56.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Timo Jansink",
+          "portero": true
+        }
       },
       {
         "minuto": 71,
@@ -486,6 +514,50 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Jochem Ritmeester van de Kamp",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 10,
+            "x": 67.7,
+            "y": 67.1,
+            "endX": 70.2,
+            "endY": 78.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeff Hardeveld",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 70.2,
+            "y": 78.7,
+            "endX": 74.9,
+            "endY": 81.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jeff Hardeveld",
+            "tipo": "Pass",
+            "minuto": 71,
+            "segundo": 11,
+            "x": 74.9,
+            "y": 81.1,
+            "endX": 86.9,
+            "endY": 81.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Patrick Brouwer",
+            "tipo": "Carry",
+            "minuto": 71,
+            "segundo": 17,
+            "x": 86.9,
+            "y": 81.1,
+            "endX": 95.5,
+            "endY": 73.2,
+            "exitoso": true
+          },
+          {
             "jugador": "Patrick Brouwer",
             "tipo": "Pass",
             "minuto": 71,
@@ -496,7 +568,12 @@
             "endY": 44.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Sava-Arangel Cestic",
+          "portero": false
+        }
       },
       {
         "minuto": 76,

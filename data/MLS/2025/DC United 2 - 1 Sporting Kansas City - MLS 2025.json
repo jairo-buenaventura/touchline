@@ -471,6 +471,39 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Gabriel Pirani",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 27,
+            "x": 68.4,
+            "y": 72.9,
+            "endX": 84.0,
+            "endY": 90.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Schnegg",
+            "tipo": "Pass",
+            "minuto": 67,
+            "segundo": 30,
+            "x": 86.0,
+            "y": 92.1,
+            "endX": 89.6,
+            "endY": 63.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "David Schnegg",
+            "tipo": "Carry",
+            "minuto": 67,
+            "segundo": 45,
+            "x": 89.6,
+            "y": 63.2,
+            "endX": 94.5,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "David Schnegg",
             "tipo": "Pass",
             "minuto": 67,
@@ -525,7 +558,12 @@
             "endY": 50.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jansen Miller",
+          "portero": false
+        }
       }
     ],
     "corners": [

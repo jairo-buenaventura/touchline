@@ -406,6 +406,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jérémy Doku",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 51,
+            "x": 64.7,
+            "y": 43.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jérémy Doku",
             "tipo": "TakeOn",
             "minuto": 8,
             "segundo": 52,
@@ -415,7 +426,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Thibault De Smet",
+          "portero": false
+        }
       },
       {
         "minuto": 13,

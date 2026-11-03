@@ -395,6 +395,83 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Julian Weigl",
+            "tipo": "BallRecovery",
+            "minuto": 0,
+            "segundo": 9,
+            "x": 58.8,
+            "y": 18.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Julian Weigl",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 9,
+            "x": 58.8,
+            "y": 18.5,
+            "endX": 62.3,
+            "endY": 13.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joe Scally",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 10,
+            "x": 63.2,
+            "y": 12.9,
+            "endX": 63.8,
+            "endY": 2.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Franck Honorat",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 12,
+            "x": 64.7,
+            "y": 2.1,
+            "endX": 57.7,
+            "endY": 2.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 13,
+            "x": 57.7,
+            "y": 2.9,
+            "endX": 58.2,
+            "endY": 11.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Pass",
+            "minuto": 0,
+            "segundo": 13,
+            "x": 58.2,
+            "y": 11.3,
+            "endX": 60.3,
+            "endY": 11.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rocco Reitz",
+            "tipo": "Carry",
+            "minuto": 0,
+            "segundo": 13,
+            "x": 60.3,
+            "y": 11.5,
+            "endX": 57.4,
+            "endY": 4.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Rocco Reitz",
             "tipo": "Pass",
             "minuto": 0,
@@ -438,7 +515,12 @@
             "endY": 32.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Chris Führich",
+          "portero": false
+        }
       },
       {
         "minuto": 13,

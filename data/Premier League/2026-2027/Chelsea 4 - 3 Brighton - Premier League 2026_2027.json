@@ -379,6 +379,105 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Levi Colwill",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 37,
+            "x": 52.4,
+            "y": 70.3,
+            "endX": 46.7,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roméo Lavia",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 39,
+            "x": 46.7,
+            "y": 59.9,
+            "endX": 45.2,
+            "endY": 55.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roméo Lavia",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 39,
+            "x": 45.2,
+            "y": 55.6,
+            "endX": 46.2,
+            "endY": 42.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maxence Lacroix",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 44,
+            "x": 45.8,
+            "y": 39.8,
+            "endX": 45.6,
+            "endY": 57.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roméo Lavia",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 46,
+            "x": 45.6,
+            "y": 57.1,
+            "endX": 47.2,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Roméo Lavia",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 46,
+            "x": 47.2,
+            "y": 63.7,
+            "endX": 46.0,
+            "endY": 81.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Levi Colwill",
+            "tipo": "Carry",
+            "minuto": 12,
+            "segundo": 48,
+            "x": 46.0,
+            "y": 81.0,
+            "endX": 45.4,
+            "endY": 89.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Levi Colwill",
+            "tipo": "Pass",
+            "minuto": 12,
+            "segundo": 48,
+            "x": 45.4,
+            "y": 89.9,
+            "endX": 49.0,
+            "endY": 91.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jorrel Hato",
+            "tipo": "Carry",
+            "minuto": 13,
+            "segundo": 1,
+            "x": 49.0,
+            "y": 91.1,
+            "endX": 64.0,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Jorrel Hato",
             "tipo": "Pass",
             "minuto": 13,
@@ -422,7 +521,12 @@
             "endY": 51.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Diego Gómez",
+          "portero": false
+        }
       },
       {
         "minuto": 24,
@@ -3625,7 +3729,79 @@
         "y": 43.8,
         "arco_y": 53.8,
         "arco_z": 20.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Malick Yalcouyé",
+            "tipo": "Tackle",
+            "minuto": 34,
+            "segundo": 37,
+            "x": 30.6,
+            "y": 4.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Maxim De Cuyper",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 41,
+            "x": 41.5,
+            "y": 0.0,
+            "endX": 58.4,
+            "endY": 8.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Yalcouyé",
+            "tipo": "TakeOn",
+            "minuto": 34,
+            "segundo": 44,
+            "x": 58.5,
+            "y": 9.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Malick Yalcouyé",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 45,
+            "x": 75.5,
+            "y": 25.8,
+            "endX": 89.0,
+            "endY": 35.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charalampos Kostoulas",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 46,
+            "x": 89.0,
+            "y": 35.4,
+            "endX": 92.9,
+            "endY": 34.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Charalampos Kostoulas",
+            "tipo": "SavedShot",
+            "minuto": 34,
+            "segundo": 46,
+            "x": 92.9,
+            "y": 34.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Emiliano Martínez",
+          "portero": true
+        }
       },
       {
         "minuto": 44,
@@ -3725,7 +3901,24 @@
         "y": 45.4,
         "arco_y": 53.0,
         "arco_z": 18.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Promise David",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 5,
+            "x": 93.2,
+            "y": 50.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Jorrel Hato",
+          "portero": false
+        }
       }
     ],
     "corners": [

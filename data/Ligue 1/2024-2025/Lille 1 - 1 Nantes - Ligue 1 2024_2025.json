@@ -377,6 +377,17 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Jonathan David",
+            "tipo": "BallTouch",
+            "minuto": 39,
+            "segundo": 16,
+            "x": 69.1,
+            "y": 95.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Gudmundsson",
             "tipo": "Pass",
             "minuto": 39,
@@ -563,7 +574,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Johann Lepenant",
+          "portero": false
+        }
       },
       {
         "minuto": 45,

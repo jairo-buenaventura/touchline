@@ -407,6 +407,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "BallRecovery",
+            "minuto": 25,
+            "segundo": 46,
+            "x": 28.9,
+            "y": 12.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gaëtan Perrin",
+            "tipo": "Pass",
+            "minuto": 25,
+            "segundo": 54,
+            "x": 38.5,
+            "y": 3.9,
+            "endX": 35.8,
+            "endY": 4.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Paul Joly",
+            "tipo": "Carry",
+            "minuto": 26,
+            "segundo": 0,
+            "x": 35.8,
+            "y": 4.1,
+            "endX": 34.8,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Paul Joly",
             "tipo": "Pass",
             "minuto": 26,
@@ -428,7 +461,12 @@
             "endY": 83.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Zuriko Davitashvili",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

@@ -401,6 +401,61 @@
         "arco_z": 15.8,
         "secuencia_gol": [
           {
+            "jugador": "Bukayo Saka",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 25,
+            "x": 61.0,
+            "y": 6.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Bukayo Saka",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 28,
+            "x": 61.1,
+            "y": 6.5,
+            "endX": 57.2,
+            "endY": 17.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Thomas Partey",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 30,
+            "x": 56.9,
+            "y": 17.9,
+            "endX": 67.0,
+            "endY": 25.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 32,
+            "x": 67.0,
+            "y": 25.8,
+            "endX": 72.6,
+            "endY": 29.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Martin Ødegaard",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 32,
+            "x": 72.6,
+            "y": 29.4,
+            "endX": 89.1,
+            "endY": 32.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Declan Rice",
             "tipo": "TakeOn",
             "minuto": 33,
@@ -411,7 +466,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Kepa Arrizabalaga",
+          "portero": false
+        }
       },
       {
         "minuto": 43,
@@ -4275,7 +4335,57 @@
         "y": 45.1,
         "arco_y": 47.6,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "CornerAwarded",
+            "minuto": 72,
+            "segundo": 0,
+            "x": 92.0,
+            "y": 58.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alex Scott",
+            "tipo": "Pass",
+            "minuto": 74,
+            "segundo": 8,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 94.1,
+            "endY": 47.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "Carry",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 94.1,
+            "y": 47.5,
+            "endX": 92.0,
+            "endY": 58.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marcus Tavernier",
+            "tipo": "MissedShots",
+            "minuto": 74,
+            "segundo": 9,
+            "x": 92.0,
+            "y": 58.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Martin Ødegaard",
+          "portero": false
+        }
       }
     ],
     "corners": [

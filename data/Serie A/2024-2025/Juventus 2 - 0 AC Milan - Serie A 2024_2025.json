@@ -479,6 +479,39 @@
         "arco_z": 25.3,
         "secuencia_gol": [
           {
+            "jugador": "Weston McKennie",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 45,
+            "x": 54.0,
+            "y": 11.6,
+            "endX": 53.8,
+            "endY": 5.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Teun Koopmeiners",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 45,
+            "x": 53.8,
+            "y": 5.0,
+            "endX": 55.9,
+            "endY": 8.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Teun Koopmeiners",
+            "tipo": "TakeOn",
+            "minuto": 58,
+            "segundo": 45,
+            "x": 55.9,
+            "y": 8.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Teun Koopmeiners",
             "tipo": "TakeOn",
             "minuto": 58,
@@ -533,7 +566,12 @@
             "endY": 70.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tijjani Reijnders",
+          "portero": false
+        }
       },
       {
         "minuto": 63,

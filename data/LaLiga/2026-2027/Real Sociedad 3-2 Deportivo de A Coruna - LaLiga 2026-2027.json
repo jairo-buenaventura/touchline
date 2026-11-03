@@ -468,7 +468,35 @@
         "y": 55.0,
         "arco_y": 46.8,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Luka Sucic",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 13,
+            "x": 86.7,
+            "y": 30.9,
+            "endX": 79.6,
+            "endY": 39.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yangel Herrera",
+            "tipo": "SavedShot",
+            "minuto": 33,
+            "segundo": 14,
+            "x": 79.6,
+            "y": 39.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Diego Villares",
+          "portero": true
+        }
       },
       {
         "minuto": 41,
@@ -4387,6 +4415,50 @@
         "arco_z": 3.8,
         "secuencia_gol": [
           {
+            "jugador": "Riki Rodríguez",
+            "tipo": "BallRecovery",
+            "minuto": 60,
+            "segundo": 29,
+            "x": 36.8,
+            "y": 36.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Riki Rodríguez",
+            "tipo": "Pass",
+            "minuto": 60,
+            "segundo": 29,
+            "x": 36.8,
+            "y": 36.2,
+            "endX": 49.6,
+            "endY": 37.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeremay Hernández",
+            "tipo": "Carry",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 49.6,
+            "y": 37.4,
+            "endX": 57.2,
+            "endY": 46.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Yeremay Hernández",
+            "tipo": "TakeOn",
+            "minuto": 60,
+            "segundo": 32,
+            "x": 57.2,
+            "y": 46.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Yeremay Hernández",
             "tipo": "Pass",
             "minuto": 60,
@@ -4430,7 +4502,12 @@
             "endY": 51.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Sergio Gómez",
+          "portero": false
+        }
       },
       {
         "minuto": 65,

@@ -423,6 +423,61 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Lisandro Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 38,
+            "x": 60.5,
+            "y": 88.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lisandro Martínez",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 40,
+            "x": 62.8,
+            "y": 95.3,
+            "endX": 78.2,
+            "endY": 72.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Casemiro",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 44,
+            "x": 78.2,
+            "y": 72.4,
+            "endX": 65.8,
+            "endY": 65.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Casemiro",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 44,
+            "x": 65.8,
+            "y": 65.8,
+            "endX": 73.1,
+            "endY": 59.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Højlund",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 47,
+            "x": 73.1,
+            "y": 59.9,
+            "endX": 79.3,
+            "endY": 49.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Rasmus Højlund",
             "tipo": "TakeOn",
             "minuto": 22,
@@ -433,7 +488,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Nayef Aguerd",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -462,6 +522,61 @@
         "arco_y": 48.0,
         "arco_z": 17.7,
         "secuencia_gol": [
+          {
+            "jugador": "André Onana",
+            "tipo": "Pass",
+            "minuto": 47,
+            "segundo": 55,
+            "x": 4.8,
+            "y": 45.2,
+            "endX": 7.7,
+            "endY": 62.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lisandro Martínez",
+            "tipo": "Carry",
+            "minuto": 48,
+            "segundo": 0,
+            "x": 7.7,
+            "y": 62.6,
+            "endX": 11.9,
+            "endY": 67.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lisandro Martínez",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 0,
+            "x": 11.9,
+            "y": 67.1,
+            "endX": 20.1,
+            "endY": 87.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luke Shaw",
+            "tipo": "Pass",
+            "minuto": 48,
+            "segundo": 3,
+            "x": 22.7,
+            "y": 87.9,
+            "endX": 37.6,
+            "endY": 58.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rasmus Højlund",
+            "tipo": "TakeOn",
+            "minuto": 48,
+            "segundo": 5,
+            "x": 35.9,
+            "y": 56.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
           {
             "jugador": "Rasmus Højlund",
             "tipo": "Pass",
@@ -517,7 +632,12 @@
             "endY": 23.1,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Tomás Soucek",
+          "portero": false
+        }
       },
       {
         "minuto": 50,

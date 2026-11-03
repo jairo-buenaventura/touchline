@@ -513,6 +513,72 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Alexis Mac Allister",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 43,
+            "x": 45.9,
+            "y": 46.4,
+            "endX": 56.6,
+            "endY": 31.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 45,
+            "x": 56.6,
+            "y": 31.2,
+            "endX": 57.4,
+            "endY": 24.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dominik Szoboszlai",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 45,
+            "x": 57.4,
+            "y": 24.3,
+            "endX": 74.1,
+            "endY": 5.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 50,
+            "x": 74.1,
+            "y": 5.6,
+            "endX": 87.5,
+            "endY": 19.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mohamed Salah",
+            "tipo": "Pass",
+            "minuto": 58,
+            "segundo": 50,
+            "x": 87.5,
+            "y": 19.3,
+            "endX": 89.1,
+            "endY": 42.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Joël Matip",
+            "tipo": "Carry",
+            "minuto": 58,
+            "segundo": 53,
+            "x": 89.1,
+            "y": 42.1,
+            "endX": 56.3,
+            "endY": 21.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Joël Matip",
             "tipo": "Pass",
             "minuto": 58,
@@ -545,7 +611,12 @@
             "endY": 44.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kurt Zouma",
+          "portero": false
+        }
       },
       {
         "minuto": 61,
@@ -582,7 +653,35 @@
         "y": 52.6,
         "arco_y": 52.4,
         "arco_z": 1.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Aerial",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 94.0,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Virgil van Dijk",
+            "tipo": "Pass",
+            "minuto": 84,
+            "segundo": 25,
+            "x": 93.7,
+            "y": 42.6,
+            "endX": 96.8,
+            "endY": 53.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Edson Álvarez",
+          "portero": false
+        }
       },
       {
         "minuto": 87,

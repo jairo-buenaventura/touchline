@@ -427,6 +427,17 @@
         "secuencia_gol": [
           {
             "jugador": "Patson Daka",
+            "tipo": "BallRecovery",
+            "minuto": 38,
+            "segundo": 23,
+            "x": 72.4,
+            "y": 30.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Patson Daka",
             "tipo": "TakeOn",
             "minuto": 38,
             "segundo": 24,
@@ -436,7 +447,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Enzo Fernández",
+          "portero": false
+        }
       },
       {
         "minuto": 40,
@@ -4935,6 +4951,17 @@
         "arco_z": 1.3,
         "secuencia_gol": [
           {
+            "jugador": "Wesley Fofana",
+            "tipo": "Aerial",
+            "minuto": 10,
+            "segundo": 36,
+            "x": 93.4,
+            "y": 50.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Kalidou Koulibaly",
             "tipo": "Pass",
             "minuto": 10,
@@ -4945,7 +4972,12 @@
             "endY": 24.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Harry Souttar",
+          "portero": false
+        }
       },
       {
         "minuto": 19,
@@ -4993,6 +5025,105 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "Mateo Kovacic",
+            "tipo": "BallRecovery",
+            "minuto": 49,
+            "segundo": 30,
+            "x": 29.8,
+            "y": 62.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 35,
+            "x": 57.8,
+            "y": 70.8,
+            "endX": 67.9,
+            "endY": 92.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ben Chilwell",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 39,
+            "x": 67.6,
+            "y": 94.8,
+            "endX": 65.0,
+            "endY": 85.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 42,
+            "x": 64.9,
+            "y": 84.9,
+            "endX": 73.2,
+            "endY": 72.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 46,
+            "x": 73.2,
+            "y": 72.6,
+            "endX": 70.1,
+            "endY": 63.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 46,
+            "x": 70.1,
+            "y": 63.6,
+            "endX": 79.2,
+            "endY": 10.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben Loftus-Cheek",
+            "tipo": "Carry",
+            "minuto": 49,
+            "segundo": 54,
+            "x": 79.2,
+            "y": 10.9,
+            "endX": 86.9,
+            "endY": 23.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben Loftus-Cheek",
+            "tipo": "Pass",
+            "minuto": 49,
+            "segundo": 54,
+            "x": 86.9,
+            "y": 23.9,
+            "endX": 80.2,
+            "endY": 30.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "João Félix",
+            "tipo": "SavedShot",
+            "minuto": 49,
+            "segundo": 55,
+            "x": 81.8,
+            "y": 28.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Wesley Fofana",
             "tipo": "Pass",
             "minuto": 49,
@@ -5025,7 +5156,12 @@
             "endY": 46.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Wout Faes",
+          "portero": true
+        }
       },
       {
         "minuto": 62,
@@ -5081,6 +5217,50 @@
         "arco_y": 49.5,
         "arco_z": 24.7,
         "secuencia_gol": [
+          {
+            "jugador": "Enzo Fernández",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 3,
+            "x": 46.6,
+            "y": 56.9,
+            "endX": 45.6,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 5,
+            "x": 45.6,
+            "y": 69.3,
+            "endX": 46.0,
+            "endY": 65.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mateo Kovacic",
+            "tipo": "Pass",
+            "minuto": 77,
+            "segundo": 5,
+            "x": 46.0,
+            "y": 65.4,
+            "endX": 45.8,
+            "endY": 54.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Enzo Fernández",
+            "tipo": "Carry",
+            "minuto": 77,
+            "segundo": 7,
+            "x": 45.8,
+            "y": 54.5,
+            "endX": 45.6,
+            "endY": 50.7,
+            "exitoso": true
+          },
           {
             "jugador": "Enzo Fernández",
             "tipo": "TakeOn",
@@ -5235,7 +5415,12 @@
             "endY": 53.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Jamie Vardy",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -649,6 +649,39 @@
         "arco_z": 7.6,
         "secuencia_gol": [
           {
+            "jugador": "Jakub Moder",
+            "tipo": "CornerAwarded",
+            "minuto": 89,
+            "segundo": 43,
+            "x": 99.0,
+            "y": 27.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gijs Smal",
+            "tipo": "Pass",
+            "minuto": 90,
+            "segundo": 8,
+            "x": 99.4,
+            "y": 0.8,
+            "endX": 88.8,
+            "endY": 48.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Oussama Targhalline",
+            "tipo": "Carry",
+            "minuto": 90,
+            "segundo": 14,
+            "x": 88.8,
+            "y": 48.5,
+            "endX": 66.7,
+            "endY": 14.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Oussama Targhalline",
             "tipo": "Pass",
             "minuto": 90,
@@ -681,7 +714,12 @@
             "endY": 70.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Ricardo Visus",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -5105,6 +5143,28 @@
         "arco_z": 2.5,
         "secuencia_gol": [
           {
+            "jugador": "Kornelius Hansen",
+            "tipo": "BallRecovery",
+            "minuto": 5,
+            "segundo": 7,
+            "x": 74.1,
+            "y": 11.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kornelius Hansen",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 10,
+            "x": 96.2,
+            "y": 24.3,
+            "endX": 94.2,
+            "endY": 42.5,
+            "exitoso": false
+          },
+          {
             "jugador": "Ruben Providence",
             "tipo": "SavedShot",
             "minuto": 5,
@@ -5126,7 +5186,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Igor Paixão",
+          "portero": false
+        }
       },
       {
         "minuto": 11,

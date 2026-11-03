@@ -380,6 +380,28 @@
         "arco_z": 32.3,
         "secuencia_gol": [
           {
+            "jugador": "Rayane Bounida",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 5,
+            "x": 69.2,
+            "y": 80.9,
+            "endX": 81.9,
+            "endY": 63.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Owen Wijndal",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 10,
+            "x": 81.9,
+            "y": 63.1,
+            "endX": 64.3,
+            "endY": 57.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Owen Wijndal",
             "tipo": "Pass",
             "minuto": 6,
@@ -401,7 +423,12 @@
             "endY": 61.5,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Dimitrios Limnios",
+          "portero": false
+        }
       },
       {
         "minuto": 8,
@@ -729,6 +756,50 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Wout Weghorst",
+            "tipo": "Aerial",
+            "minuto": 80,
+            "segundo": 15,
+            "x": 58.8,
+            "y": 60.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wout Weghorst",
+            "tipo": "Pass",
+            "minuto": 80,
+            "segundo": 16,
+            "x": 58.8,
+            "y": 60.5,
+            "endX": 61.5,
+            "endY": 79.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "Carry",
+            "minuto": 80,
+            "segundo": 22,
+            "x": 61.5,
+            "y": 79.6,
+            "endX": 87.4,
+            "endY": 70.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Oscar Gloukh",
+            "tipo": "SavedShot",
+            "minuto": 80,
+            "segundo": 22,
+            "x": 87.4,
+            "y": 70.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Mika Godts",
             "tipo": "Pass",
             "minuto": 80,
@@ -750,7 +821,12 @@
             "endY": 53.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Shawn Adewoye",
+          "portero": true
+        }
       },
       {
         "minuto": 83,

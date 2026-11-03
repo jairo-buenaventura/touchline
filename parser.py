@@ -461,8 +461,30 @@ _TIPOS_IGNORAR_SECUENCIA = {
     "Start", "End", "FormationSet", "FormationChange", "SubstitutionOn",
     "SubstitutionOff", "Card", "OffsideGiven", "OffsideProvoked",
 }
+# Toques reactivos del rival (despeje, atajada, bloqueo, forcejeo, duelo
+# aereo) que suelen aparecer sueltos en medio de un remate/rebote -- si uno
+# de estos queda "sandwicheado" entre dos acciones de mi equipo (la de
+# justo antes del gol y la de mas atras todavia), no es un cambio real de
+# posesion, es ruido de un rebote/rechace, y se salta en vez de cortar la
+# secuencia ahi (confirmado a mano en Suiza 2-0 Argelia, Mundial 2026 --
+# Pass/Challenge/TakeOn -- y Lille 3-0 Lens -- Pass/Clearance/Goal). Un
+# robo de balon limpio (BallRecovery/Interception/Tackle) si sigue
+# cortando la secuencia siempre, aunque este sandwicheado: ahi el rival
+# genuinamente gano el balon.
+_TIPOS_REACCION_RIVAL = {
+    "Save", "Clearance", "BlockedPass", "Challenge", "Aerial", "BallTouch",
+    "Punch", "KeeperSweeper",
+}
 MAX_EVENTOS_SECUENCIA_GOL = 25  # tope para no arrastrar posesiones gigantes (ej. tiki-taka largo) a un dato que se guarda por partido
 UMBRAL_CONDUCCION = 3.0  # distancia minima (0-100) entre donde un jugador recibe y desde donde sale su siguiente accion para contarla como conduccion, no ruido de medicion
+
+
+# Tipos de evento de arquero -- cuando el toque rival absorbido (ver
+# _TIPOS_REACCION_RIVAL) es uno de estos, el rebote vino especificamente
+# de una atajada/puno del portero, no de un despeje/forcejeo de un
+# jugador de campo -- esto se expone en calcular_tiros como
+# tiro["rebote_de"]["portero"] para que la vista pueda marcarlo distinto.
+_TIPOS_ARQUERO = {"Save", "Punch", "KeeperSweeper"}
 
 
 def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
@@ -474,8 +496,15 @@ def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
     un mismo jugador recibe el balon en un punto y su siguiente accion sale
     desde un punto distinto (WhoScored no trae un evento de "Carry" propio,
     a diferencia de StatsBomb).
+
+    Devuelve (secuencia, rebote_de): rebote_de es None, o un dict con el
+    toque reactivo del rival mas cercano al gol que se absorbio como ruido
+    (ver _TIPOS_REACCION_RIVAL) -- util para marcar en la UI que el gol
+    vino de un rebote/rechace y, si aplica, que fue justo de un atajada
+    del portero.
     """
     crudos = []
+    rebote_de = None
     i = idx_gol - 1
     while i >= 0 and len(crudos) < MAX_EVENTOS_SECUENCIA_GOL:
         ev = eventos[i]
@@ -484,6 +513,19 @@ def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
             i -= 1
             continue
         if ev.get("teamId") != team_id:
+            if (
+                tipo in _TIPOS_REACCION_RIVAL
+                and i > 0
+                and eventos[i - 1].get("teamId") == team_id
+            ):
+                if rebote_de is None:
+                    rebote_de = {
+                        "tipo": tipo,
+                        "jugador": nombres.get(str(ev.get("playerId")), "?"),
+                        "portero": tipo in _TIPOS_ARQUERO,
+                    }
+                i -= 1
+                continue
             break
         crudos.append(ev)
         if tipo in _TIPOS_INICIO_POSESION:
@@ -516,7 +558,7 @@ def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
         }
         secuencia.append(segmento)
         anterior = segmento
-    return secuencia
+    return secuencia, rebote_de
 
 
 def calcular_tiros(data, lado="home"):
@@ -554,7 +596,10 @@ def calcular_tiros(data, lado="home"):
             "arco_z": ev.get("goalMouthZ"),
         }
         if tipo == "Goal":
-            tiro["secuencia_gol"] = calcular_secuencia_gol(eventos, nombres, idx, team_id)
+            secuencia, rebote_de = calcular_secuencia_gol(eventos, nombres, idx, team_id)
+            tiro["secuencia_gol"] = secuencia
+            if rebote_de:
+                tiro["rebote_de"] = rebote_de
         tiros_salida.append(tiro)
 
     tiros_salida.sort(key=lambda t: t["minuto"])

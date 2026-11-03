@@ -451,6 +451,39 @@
         "arco_z": 6.3,
         "secuencia_gol": [
           {
+            "jugador": "Nanu",
+            "tipo": "BallRecovery",
+            "minuto": 41,
+            "segundo": 20,
+            "x": 15.7,
+            "y": 93.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nanu",
+            "tipo": "Pass",
+            "minuto": 41,
+            "segundo": 21,
+            "x": 15.4,
+            "y": 94.4,
+            "endX": 16.7,
+            "endY": 94.4,
+            "exitoso": false
+          },
+          {
+            "jugador": "Alan Velasco",
+            "tipo": "Carry",
+            "minuto": 41,
+            "segundo": 25,
+            "x": 16.7,
+            "y": 94.4,
+            "endX": 31.7,
+            "endY": 82.1,
+            "exitoso": true
+          },
+          {
             "jugador": "Alan Velasco",
             "tipo": "Pass",
             "minuto": 41,
@@ -505,7 +538,12 @@
             "endY": 56.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Sebastián Driussi",
+          "portero": false
+        }
       },
       {
         "minuto": 48,

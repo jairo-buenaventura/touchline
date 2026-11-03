@@ -472,7 +472,57 @@
         "y": 62.0,
         "arco_y": 46.0,
         "arco_z": 8.9,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Elías Báez",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 37,
+            "x": 83.3,
+            "y": 100.0,
+            "endX": 81.2,
+            "endY": 90.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Saba Lobjanidze",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 38,
+            "x": 81.8,
+            "y": 90.0,
+            "endX": 79.9,
+            "endY": 97.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elías Báez",
+            "tipo": "Carry",
+            "minuto": 68,
+            "segundo": 42,
+            "x": 79.9,
+            "y": 97.8,
+            "endX": 74.7,
+            "endY": 97.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Elías Báez",
+            "tipo": "Pass",
+            "minuto": 68,
+            "segundo": 42,
+            "x": 74.7,
+            "y": 97.0,
+            "endX": 76.7,
+            "endY": 91.7,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Gabriel Pec",
+          "portero": false
+        }
       },
       {
         "minuto": 70,
@@ -4369,6 +4419,72 @@
         "arco_z": 5.7,
         "secuencia_gol": [
           {
+            "jugador": "Erik Thommy",
+            "tipo": "BallRecovery",
+            "minuto": 73,
+            "segundo": 16,
+            "x": 29.9,
+            "y": 96.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Erik Thommy",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 17,
+            "x": 29.9,
+            "y": 96.3,
+            "endX": 45.6,
+            "endY": 83.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Joseph Paintsil",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 17,
+            "x": 45.6,
+            "y": 83.3,
+            "endX": 41.4,
+            "endY": 77.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 20,
+            "x": 41.4,
+            "y": 77.0,
+            "endX": 47.2,
+            "endY": 71.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Marco Reus",
+            "tipo": "Pass",
+            "minuto": 73,
+            "segundo": 20,
+            "x": 47.2,
+            "y": 71.9,
+            "endX": 69.4,
+            "endY": 36.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gabriel Pec",
+            "tipo": "Carry",
+            "minuto": 73,
+            "segundo": 21,
+            "x": 69.4,
+            "y": 36.4,
+            "endX": 76.6,
+            "endY": 34.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Gabriel Pec",
             "tipo": "TakeOn",
             "minuto": 73,
@@ -4379,7 +4495,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Elías Báez",
+          "portero": false
+        }
       },
       {
         "minuto": 78,

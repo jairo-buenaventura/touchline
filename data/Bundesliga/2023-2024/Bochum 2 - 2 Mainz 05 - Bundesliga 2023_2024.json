@@ -460,7 +460,24 @@
         "y": 52.2,
         "arco_y": 49.2,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Moritz Broschinski",
+            "tipo": "Save",
+            "minuto": 58,
+            "segundo": 23,
+            "x": 9.3,
+            "y": 33.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Aymen Barkok",
+          "portero": false
+        }
       },
       {
         "minuto": 68,
@@ -4554,6 +4571,28 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Edimilson Fernandes",
+            "tipo": "Pass",
+            "minuto": 95,
+            "segundo": 27,
+            "x": 68.7,
+            "y": 4.6,
+            "endX": 89.0,
+            "endY": 53.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Danny da Costa",
+            "tipo": "Carry",
+            "minuto": 95,
+            "segundo": 31,
+            "x": 89.0,
+            "y": 53.0,
+            "endX": 76.1,
+            "endY": 45.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Danny da Costa",
             "tipo": "Pass",
             "minuto": 95,
@@ -4597,7 +4636,12 @@
             "endY": 46.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Philipp Hofmann",
+          "portero": false
+        }
       }
     ],
     "corners": [

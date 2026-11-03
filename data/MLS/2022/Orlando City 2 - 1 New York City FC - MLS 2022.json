@@ -379,6 +379,28 @@
         "arco_z": 21.5,
         "secuencia_gol": [
           {
+            "jugador": "João Moutinho",
+            "tipo": "Pass",
+            "minuto": 5,
+            "segundo": 40,
+            "x": 89.8,
+            "y": 100.0,
+            "endX": 90.5,
+            "endY": 60.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ruan",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 4,
+            "x": 90.5,
+            "y": 60.8,
+            "endX": 79.2,
+            "endY": 0.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ruan",
             "tipo": "Pass",
             "minuto": 6,
@@ -433,7 +455,12 @@
             "endY": 43.0,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Maxime Chanot",
+          "portero": false
+        }
       },
       {
         "minuto": 27,
@@ -569,7 +596,24 @@
         "y": 55.3,
         "arco_y": 48.7,
         "arco_z": 4.4,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Tesho Akindele",
+            "tipo": "Aerial",
+            "minuto": 95,
+            "segundo": 31,
+            "x": 94.6,
+            "y": 56.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Justin Haak",
+          "portero": false
+        }
       }
     ],
     "corners": [

@@ -393,6 +393,94 @@
         "arco_z": 12.0,
         "secuencia_gol": [
           {
+            "jugador": "Dagur Thórhallsson",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 32,
+            "x": 67.9,
+            "y": 0.0,
+            "endX": 47.3,
+            "endY": 9.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Brekalo",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 37,
+            "x": 47.3,
+            "y": 9.5,
+            "endX": 46.9,
+            "endY": 16.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Brekalo",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 37,
+            "x": 46.9,
+            "y": 16.0,
+            "endX": 41.5,
+            "endY": 43.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rodrigo Schlegel",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 38,
+            "x": 41.5,
+            "y": 43.7,
+            "endX": 44.1,
+            "endY": 60.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Rafael Santos",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 39,
+            "x": 42.9,
+            "y": 62.4,
+            "endX": 55.1,
+            "endY": 72.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "César Araújo",
+            "tipo": "Carry",
+            "minuto": 6,
+            "segundo": 44,
+            "x": 55.1,
+            "y": 72.9,
+            "endX": 54.9,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "César Araújo",
+            "tipo": "Pass",
+            "minuto": 6,
+            "segundo": 44,
+            "x": 54.9,
+            "y": 86.7,
+            "endX": 57.3,
+            "endY": 87.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Rafael Santos",
+            "tipo": "Carry",
+            "minuto": 7,
+            "segundo": 3,
+            "x": 57.3,
+            "y": 87.8,
+            "endX": 57.2,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Rafael Santos",
             "tipo": "Pass",
             "minuto": 7,
@@ -458,7 +546,12 @@
             "endY": 21.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Danley Jean Jacques",
+          "portero": false
+        }
       },
       {
         "minuto": 32,
@@ -614,6 +707,28 @@
         "arco_z": 29.1,
         "secuencia_gol": [
           {
+            "jugador": "David Brekalo",
+            "tipo": "Aerial",
+            "minuto": 78,
+            "segundo": 0,
+            "x": 90.6,
+            "y": 45.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "David Brekalo",
+            "tipo": "SavedShot",
+            "minuto": 78,
+            "segundo": 1,
+            "x": 91.0,
+            "y": 53.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Luis Muriel",
             "tipo": "ShotOnPost",
             "minuto": 78,
@@ -635,7 +750,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Jakob Glesnes",
+          "portero": true
+        }
       },
       {
         "minuto": 85,
@@ -4866,6 +4986,72 @@
         "arco_z": 8.9,
         "secuencia_gol": [
           {
+            "jugador": "Quinn Sullivan",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 45,
+            "x": 70.8,
+            "y": 22.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 48,
+            "x": 72.9,
+            "y": 37.4,
+            "endX": 85.0,
+            "endY": 17.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 52,
+            "x": 85.0,
+            "y": 17.9,
+            "endX": 88.6,
+            "endY": 18.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 52,
+            "x": 88.6,
+            "y": 18.7,
+            "endX": 81.6,
+            "endY": 39.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 53,
+            "x": 81.6,
+            "y": 39.3,
+            "endX": 81.7,
+            "endY": 34.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "MissedShots",
+            "minuto": 22,
+            "segundo": 53,
+            "x": 81.7,
+            "y": 34.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Kai Wagner",
             "tipo": "Pass",
             "minuto": 22,
@@ -4876,7 +5062,12 @@
             "endY": 50.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Eduard Atuesta",
+          "portero": false
+        }
       },
       {
         "minuto": 45,
@@ -4914,6 +5105,39 @@
         "arco_y": 45.8,
         "arco_z": 18.4,
         "secuencia_gol": [
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "BallRecovery",
+            "minuto": 46,
+            "segundo": 42,
+            "x": 42.2,
+            "y": 8.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Pass",
+            "minuto": 46,
+            "segundo": 47,
+            "x": 71.3,
+            "y": 5.6,
+            "endX": 78.0,
+            "endY": 3.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Carry",
+            "minuto": 47,
+            "segundo": 14,
+            "x": 78.0,
+            "y": 3.6,
+            "endX": 47.6,
+            "endY": 0.0,
+            "exitoso": true
+          },
           {
             "jugador": "Frankie Westfield",
             "tipo": "Pass",
@@ -5090,7 +5314,12 @@
             "endY": 39.7,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Rafael Santos",
+          "portero": false
+        }
       },
       {
         "minuto": 48,
@@ -5133,6 +5362,171 @@
         "arco_z": 3.2,
         "secuencia_gol": [
           {
+            "jugador": "Kai Wagner",
+            "tipo": "BallRecovery",
+            "minuto": 62,
+            "segundo": 57,
+            "x": 29.7,
+            "y": 90.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kai Wagner",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 58,
+            "x": 30.7,
+            "y": 90.1,
+            "endX": 34.7,
+            "endY": 79.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tai Baribo",
+            "tipo": "Pass",
+            "minuto": 62,
+            "segundo": 59,
+            "x": 34.7,
+            "y": 79.1,
+            "endX": 46.2,
+            "endY": 92.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Quinn Sullivan",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 1,
+            "x": 46.2,
+            "y": 93.3,
+            "endX": 49.9,
+            "endY": 92.6,
+            "exitoso": false
+          },
+          {
+            "jugador": "Kai Wagner",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 25,
+            "x": 49.9,
+            "y": 92.6,
+            "endX": 51.4,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Kai Wagner",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 25,
+            "x": 51.4,
+            "y": 100.0,
+            "endX": 56.4,
+            "endY": 82.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tai Baribo",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 27,
+            "x": 54.9,
+            "y": 82.0,
+            "endX": 37.1,
+            "endY": 20.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jakob Glesnes",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 31,
+            "x": 37.1,
+            "y": 20.4,
+            "endX": 43.8,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 34,
+            "x": 45.1,
+            "y": 3.9,
+            "endX": 64.2,
+            "endY": 31.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Tai Baribo",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 36,
+            "x": 63.7,
+            "y": 31.2,
+            "endX": 73.9,
+            "endY": 9.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dániel Gazdag",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 40,
+            "x": 73.9,
+            "y": 9.1,
+            "endX": 78.0,
+            "endY": 14.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 41,
+            "x": 78.0,
+            "y": 14.2,
+            "endX": 85.8,
+            "endY": 16.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 41,
+            "x": 85.8,
+            "y": 16.3,
+            "endX": 86.7,
+            "endY": 17.1,
+            "exitoso": false
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 42,
+            "x": 86.7,
+            "y": 17.1,
+            "endX": 85.2,
+            "endY": 27.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Frankie Westfield",
+            "tipo": "BallTouch",
+            "minuto": 63,
+            "segundo": 42,
+            "x": 85.2,
+            "y": 27.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
             "jugador": "Frankie Westfield",
             "tipo": "Pass",
             "minuto": 63,
@@ -5143,7 +5537,12 @@
             "endY": 48.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Eduard Atuesta",
+          "portero": false
+        }
       },
       {
         "minuto": 74,

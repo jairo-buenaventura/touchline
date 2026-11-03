@@ -467,6 +467,17 @@
         "secuencia_gol": [
           {
             "jugador": "Nikola Milenkovic",
+            "tipo": "Aerial",
+            "minuto": 89,
+            "segundo": 33,
+            "x": 86.1,
+            "y": 43.4,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nikola Milenkovic",
             "tipo": "Pass",
             "minuto": 89,
             "segundo": 33,
@@ -476,7 +487,12 @@
             "endY": 43.3,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Milan Skriniar",
+          "portero": false
+        }
       }
     ],
     "corners": [
@@ -4588,6 +4604,17 @@
         "secuencia_gol": [
           {
             "jugador": "Lautaro Martínez",
+            "tipo": "BlockedPass",
+            "minuto": 1,
+            "segundo": 26,
+            "x": 63.7,
+            "y": 23.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
             "tipo": "Pass",
             "minuto": 1,
             "segundo": 26,
@@ -4597,7 +4624,12 @@
             "endY": 39.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Nikola Milenkovic",
+          "portero": false
+        }
       },
       {
         "minuto": 14,
@@ -4607,7 +4639,35 @@
         "y": 52.1,
         "arco_y": 46.1,
         "arco_z": 2.5,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "BallRecovery",
+            "minuto": 14,
+            "segundo": 17,
+            "x": 60.8,
+            "y": 60.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lautaro Martínez",
+            "tipo": "TakeOn",
+            "minuto": 14,
+            "segundo": 22,
+            "x": 82.7,
+            "y": 50.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Lucas Martínez Quarta",
+          "portero": false
+        }
       },
       {
         "minuto": 33,

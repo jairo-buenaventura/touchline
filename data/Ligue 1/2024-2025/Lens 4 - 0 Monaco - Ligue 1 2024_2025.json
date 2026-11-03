@@ -427,6 +427,50 @@
         "arco_z": 17.1,
         "secuencia_gol": [
           {
+            "jugador": "Andy Diouf",
+            "tipo": "BallTouch",
+            "minuto": 20,
+            "segundo": 23,
+            "x": 77.9,
+            "y": 61.8,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nampalys Mendy",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 24,
+            "x": 74.4,
+            "y": 69.4,
+            "endX": 79.3,
+            "endY": 80.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Facundo Medina",
+            "tipo": "Pass",
+            "minuto": 20,
+            "segundo": 27,
+            "x": 79.3,
+            "y": 80.6,
+            "endX": 90.1,
+            "endY": 41.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Goduine Koyalipou",
+            "tipo": "BallTouch",
+            "minuto": 20,
+            "segundo": 28,
+            "x": 90.1,
+            "y": 41.0,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
             "jugador": "Jonathan Gradit",
             "tipo": "Pass",
             "minuto": 20,
@@ -470,7 +514,12 @@
             "endY": 51.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Caio Henrique",
+          "portero": false
+        }
       },
       {
         "minuto": 44,
@@ -507,7 +556,68 @@
         "y": 45.6,
         "arco_y": 48.2,
         "arco_z": 25.3,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Nampalys Mendy",
+            "tipo": "BallRecovery",
+            "minuto": 55,
+            "segundo": 4,
+            "x": 63.5,
+            "y": 26.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nampalys Mendy",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 5,
+            "x": 63.5,
+            "y": 26.5,
+            "endX": 75.6,
+            "endY": 18.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Thomasson",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 8,
+            "x": 75.7,
+            "y": 18.9,
+            "endX": 90.0,
+            "endY": 11.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ruben Aguilar",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 10,
+            "x": 90.3,
+            "y": 12.9,
+            "endX": 84.5,
+            "endY": 24.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Nampalys Mendy",
+            "tipo": "Pass",
+            "minuto": 55,
+            "segundo": 11,
+            "x": 85.2,
+            "y": 24.3,
+            "endX": 91.4,
+            "endY": 43.6,
+            "exitoso": false
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Wilfried Singo",
+          "portero": false
+        }
       },
       {
         "minuto": 66,
@@ -556,6 +666,17 @@
         "secuencia_gol": [
           {
             "jugador": "Jonathan Gradit",
+            "tipo": "Aerial",
+            "minuto": 72,
+            "segundo": 19,
+            "x": 91.4,
+            "y": 48.2,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jonathan Gradit",
             "tipo": "BallTouch",
             "minuto": 72,
             "segundo": 20,
@@ -587,7 +708,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Caio Henrique",
+          "portero": false
+        }
       },
       {
         "minuto": 77,

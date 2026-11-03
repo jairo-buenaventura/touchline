@@ -437,6 +437,160 @@
         "arco_z": 15.2,
         "secuencia_gol": [
           {
+            "jugador": "Evan Ndicka",
+            "tipo": "BallRecovery",
+            "minuto": 8,
+            "segundo": 58,
+            "x": 27.7,
+            "y": 7.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ndicka",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 2,
+            "x": 29.1,
+            "y": 7.0,
+            "endX": 31.9,
+            "endY": 32.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 5,
+            "x": 31.9,
+            "y": 32.2,
+            "endX": 34.2,
+            "endY": 40.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 5,
+            "x": 34.2,
+            "y": 40.7,
+            "endX": 37.1,
+            "endY": 51.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 11,
+            "x": 37.1,
+            "y": 51.3,
+            "endX": 41.2,
+            "endY": 41.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 11,
+            "x": 41.2,
+            "y": 41.2,
+            "endX": 44.3,
+            "endY": 12.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 13,
+            "x": 44.3,
+            "y": 12.5,
+            "endX": 51.0,
+            "endY": 9.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 13,
+            "x": 51.0,
+            "y": 9.0,
+            "endX": 66.5,
+            "endY": 4.5,
+            "exitoso": true
+          },
+          {
+            "jugador": "Alexis Saelemaekers",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 14,
+            "x": 67.0,
+            "y": 7.4,
+            "endX": 46.0,
+            "endY": 9.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 17,
+            "x": 45.2,
+            "y": 11.6,
+            "endX": 39.5,
+            "endY": 34.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mats Hummels",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 19,
+            "x": 38.8,
+            "y": 37.6,
+            "endX": 39.2,
+            "endY": 67.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Evan Ndicka",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 22,
+            "x": 39.2,
+            "y": 67.5,
+            "endX": 42.9,
+            "endY": 94.2,
+            "exitoso": true
+          },
+          {
+            "jugador": "Angeliño",
+            "tipo": "Pass",
+            "minuto": 9,
+            "segundo": 23,
+            "x": 42.9,
+            "y": 94.2,
+            "endX": 62.4,
+            "endY": 61.5,
+            "exitoso": false
+          },
+          {
+            "jugador": "Tommaso Baldanzi",
+            "tipo": "Carry",
+            "minuto": 9,
+            "segundo": 29,
+            "x": 62.4,
+            "y": 61.5,
+            "endX": 62.6,
+            "endY": 56.6,
+            "exitoso": true
+          },
+          {
             "jugador": "Tommaso Baldanzi",
             "tipo": "Pass",
             "minuto": 9,
@@ -458,7 +612,12 @@
             "endY": 11.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Andrea Carboni",
+          "portero": false
+        }
       },
       {
         "minuto": 13,
@@ -541,6 +700,28 @@
         "arco_y": 51.5,
         "arco_z": 10.8,
         "secuencia_gol": [
+          {
+            "jugador": "Bryan Cristante",
+            "tipo": "Pass",
+            "minuto": 30,
+            "segundo": 49,
+            "x": 67.2,
+            "y": 40.3,
+            "endX": 71.0,
+            "endY": 36.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Gianluca Mancini",
+            "tipo": "Carry",
+            "minuto": 30,
+            "segundo": 52,
+            "x": 71.0,
+            "y": 36.2,
+            "endX": 41.2,
+            "endY": 36.2,
+            "exitoso": true
+          },
           {
             "jugador": "Gianluca Mancini",
             "tipo": "Pass",
@@ -629,7 +810,12 @@
             "endY": 54.8,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BlockedPass",
+          "jugador": "Patrick Ciurria",
+          "portero": false
+        }
       },
       {
         "minuto": 34,

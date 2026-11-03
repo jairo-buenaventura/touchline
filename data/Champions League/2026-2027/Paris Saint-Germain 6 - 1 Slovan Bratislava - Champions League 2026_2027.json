@@ -445,6 +445,50 @@
         "arco_z": 5.1,
         "secuencia_gol": [
           {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 5,
+            "x": 99.4,
+            "y": 0.2,
+            "endX": 75.2,
+            "endY": 22.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Achraf Hakimi",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 6,
+            "x": 76.9,
+            "y": 21.1,
+            "endX": 86.0,
+            "endY": 3.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 16,
+            "segundo": 8,
+            "x": 83.2,
+            "y": 4.1,
+            "endX": 93.8,
+            "endY": 54.9,
+            "exitoso": false
+          },
+          {
+            "jugador": "Nuno Mendes",
+            "tipo": "Carry",
+            "minuto": 16,
+            "segundo": 13,
+            "x": 93.8,
+            "y": 54.9,
+            "endX": 78.1,
+            "endY": 57.5,
+            "exitoso": true
+          },
+          {
             "jugador": "Nuno Mendes",
             "tipo": "ShotOnPost",
             "minuto": 16,
@@ -455,7 +499,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Kenan Bajric",
+          "portero": false
+        }
       },
       {
         "minuto": 17,
@@ -492,7 +541,101 @@
         "y": 52.1,
         "arco_y": 52.6,
         "arco_z": 5.1,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Dro Fernández",
+            "tipo": "BallRecovery",
+            "minuto": 22,
+            "segundo": 37,
+            "x": 81.9,
+            "y": 84.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dro Fernández",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 37,
+            "x": 84.0,
+            "y": 84.6,
+            "endX": 87.1,
+            "endY": 69.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 38,
+            "x": 87.1,
+            "y": 69.9,
+            "endX": 91.3,
+            "endY": 69.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ousmane Dembélé",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 38,
+            "x": 91.3,
+            "y": 69.3,
+            "endX": 81.1,
+            "endY": 57.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dro Fernández",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 40,
+            "x": 81.2,
+            "y": 56.2,
+            "endX": 81.3,
+            "endY": 42.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Carry",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 81.3,
+            "y": 42.7,
+            "endX": 85.9,
+            "endY": 38.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Maghnes Akliouche",
+            "tipo": "Pass",
+            "minuto": 22,
+            "segundo": 43,
+            "x": 85.9,
+            "y": 38.3,
+            "endX": 87.9,
+            "endY": 33.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Dro Fernández",
+            "tipo": "SavedShot",
+            "minuto": 22,
+            "segundo": 44,
+            "x": 87.2,
+            "y": 35.6,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Sandro Cruz",
+          "portero": true
+        }
       },
       {
         "minuto": 24,
@@ -6273,6 +6416,28 @@
         "arco_z": 23.4,
         "secuencia_gol": [
           {
+            "jugador": "Tigran Barseghyan",
+            "tipo": "Pass",
+            "minuto": 57,
+            "segundo": 50,
+            "x": 71.8,
+            "y": 58.0,
+            "endX": 89.5,
+            "endY": 94.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Suleiman Camara",
+            "tipo": "Carry",
+            "minuto": 57,
+            "segundo": 58,
+            "x": 89.5,
+            "y": 94.8,
+            "endX": 94.5,
+            "endY": 75.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Suleiman Camara",
             "tipo": "TakeOn",
             "minuto": 57,
@@ -6283,7 +6448,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Challenge",
+          "jugador": "Illia Zabarnyi",
+          "portero": false
+        }
       },
       {
         "minuto": 82,

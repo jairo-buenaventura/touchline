@@ -421,6 +421,94 @@
         "arco_z": 20.3,
         "secuencia_gol": [
           {
+            "jugador": "Filip Kostic",
+            "tipo": "BallRecovery",
+            "minuto": 33,
+            "segundo": 22,
+            "x": 72.1,
+            "y": 91.1,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Filip Kostic",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 22,
+            "x": 72.1,
+            "y": 91.1,
+            "endX": 68.7,
+            "endY": 81.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 24,
+            "x": 68.7,
+            "y": 81.0,
+            "endX": 72.7,
+            "endY": 81.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "TakeOn",
+            "minuto": 33,
+            "segundo": 24,
+            "x": 72.7,
+            "y": 81.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Adrien Rabiot",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 28,
+            "x": 81.1,
+            "y": 89.8,
+            "endX": 89.7,
+            "endY": 47.2,
+            "exitoso": false
+          },
+          {
+            "jugador": "Mattia De Sciglio",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 34,
+            "x": 89.7,
+            "y": 47.2,
+            "endX": 97.9,
+            "endY": 23.4,
+            "exitoso": true
+          },
+          {
+            "jugador": "Mattia De Sciglio",
+            "tipo": "Pass",
+            "minuto": 33,
+            "segundo": 34,
+            "x": 97.9,
+            "y": 23.4,
+            "endX": 93.2,
+            "endY": 37.8,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ángel Di María",
+            "tipo": "Carry",
+            "minuto": 33,
+            "segundo": 37,
+            "x": 93.2,
+            "y": 37.8,
+            "endX": 90.3,
+            "endY": 30.8,
+            "exitoso": true
+          },
+          {
             "jugador": "Ángel Di María",
             "tipo": "Pass",
             "minuto": 33,
@@ -431,7 +519,12 @@
             "endY": 57.2,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Cristiano Biraghi",
+          "portero": false
+        }
       },
       {
         "minuto": 66,

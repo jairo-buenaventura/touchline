@@ -441,6 +441,39 @@
         "arco_z": 10.8,
         "secuencia_gol": [
           {
+            "jugador": "Sandi Lovric",
+            "tipo": "CornerAwarded",
+            "minuto": 17,
+            "segundo": 42,
+            "x": 92.4,
+            "y": 49.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Thauvin",
+            "tipo": "Pass",
+            "minuto": 18,
+            "segundo": 17,
+            "x": 99.5,
+            "y": 99.5,
+            "endX": 90.1,
+            "endY": 44.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Arthur Atta",
+            "tipo": "Carry",
+            "minuto": 18,
+            "segundo": 21,
+            "x": 90.1,
+            "y": 44.0,
+            "endX": 77.4,
+            "endY": 41.7,
+            "exitoso": true
+          },
+          {
             "jugador": "Arthur Atta",
             "tipo": "MissedShots",
             "minuto": 18,
@@ -451,7 +484,12 @@
             "endY": null,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Clearance",
+          "jugador": "Giuseppe Pezzella",
+          "portero": false
+        }
       },
       {
         "minuto": 36,
@@ -515,7 +553,90 @@
         "y": 43.1,
         "arco_y": 47.2,
         "arco_z": 12.7,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Jesper Karlström",
+            "tipo": "BallRecovery",
+            "minuto": 63,
+            "segundo": 45,
+            "x": 24.8,
+            "y": 90.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jesper Karlström",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 47,
+            "x": 23.9,
+            "y": 91.5,
+            "endX": 42.3,
+            "endY": 88.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Florian Thauvin",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 52,
+            "x": 42.8,
+            "y": 90.6,
+            "endX": 60.7,
+            "endY": 66.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Carry",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 60.7,
+            "y": 66.0,
+            "endX": 69.5,
+            "endY": 50.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Sandi Lovric",
+            "tipo": "Pass",
+            "minuto": 63,
+            "segundo": 57,
+            "x": 69.5,
+            "y": 50.1,
+            "endX": 78.1,
+            "endY": 33.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Lucca",
+            "tipo": "Carry",
+            "minuto": 64,
+            "segundo": 1,
+            "x": 78.1,
+            "y": 33.7,
+            "endX": 89.6,
+            "endY": 32.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Lucca",
+            "tipo": "SavedShot",
+            "minuto": 64,
+            "segundo": 1,
+            "x": 89.6,
+            "y": 32.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Marco Silvestri",
+          "portero": true
+        }
       },
       {
         "minuto": 65,

@@ -411,6 +411,17 @@
         "secuencia_gol": [
           {
             "jugador": "Daniele Ghilardi",
+            "tipo": "Aerial",
+            "minuto": 20,
+            "segundo": 56,
+            "x": 94.7,
+            "y": 41.5,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Daniele Ghilardi",
             "tipo": "Pass",
             "minuto": 20,
             "segundo": 57,
@@ -420,7 +431,12 @@
             "endY": 53.6,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "Aerial",
+          "jugador": "Sandro Cruz",
+          "portero": false
+        }
       },
       {
         "minuto": 28,
@@ -457,7 +473,112 @@
         "y": 41.9,
         "arco_y": 46.6,
         "arco_z": 3.2,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Niccolò Pisilli",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 55,
+            "x": 51.5,
+            "y": 10.1,
+            "endX": 27.4,
+            "endY": 32.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierluigi Gollini",
+            "tipo": "Carry",
+            "minuto": 37,
+            "segundo": 59,
+            "x": 27.4,
+            "y": 32.6,
+            "endX": 30.0,
+            "endY": 35.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pierluigi Gollini",
+            "tipo": "Pass",
+            "minuto": 37,
+            "segundo": 59,
+            "x": 30.0,
+            "y": 35.9,
+            "endX": 36.8,
+            "endY": 71.8,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wesley",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 4,
+            "x": 36.8,
+            "y": 71.8,
+            "endX": 42.0,
+            "endY": 83.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Wesley",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 4,
+            "x": 42.0,
+            "y": 83.0,
+            "endX": 43.7,
+            "endY": 86.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Pellegrini",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 7,
+            "x": 43.7,
+            "y": 86.7,
+            "endX": 46.2,
+            "endY": 67.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Lorenzo Pellegrini",
+            "tipo": "Pass",
+            "minuto": 38,
+            "segundo": 7,
+            "x": 46.2,
+            "y": 67.6,
+            "endX": 74.7,
+            "endY": 73.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donyell Malen",
+            "tipo": "Carry",
+            "minuto": 38,
+            "segundo": 13,
+            "x": 74.7,
+            "y": 73.7,
+            "endX": 88.3,
+            "endY": 68.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Donyell Malen",
+            "tipo": "SavedShot",
+            "minuto": 38,
+            "segundo": 13,
+            "x": 88.3,
+            "y": 68.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Dominik Takác",
+          "portero": true
+        }
       },
       {
         "minuto": 47,

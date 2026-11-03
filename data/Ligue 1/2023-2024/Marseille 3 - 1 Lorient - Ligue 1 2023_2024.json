@@ -440,6 +440,171 @@
         "arco_z": 13.3,
         "secuencia_gol": [
           {
+            "jugador": "Luis Henrique",
+            "tipo": "BallRecovery",
+            "minuto": 34,
+            "segundo": 46,
+            "x": 34.0,
+            "y": 85.3,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Henrique",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 52,
+            "x": 73.8,
+            "y": 76.6,
+            "endX": 86.1,
+            "endY": 73.6,
+            "exitoso": true
+          },
+          {
+            "jugador": "Faris Moumbagna",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 56,
+            "x": 86.1,
+            "y": 73.6,
+            "endX": 92.7,
+            "endY": 76.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Faris Moumbagna",
+            "tipo": "Pass",
+            "minuto": 34,
+            "segundo": 56,
+            "x": 92.7,
+            "y": 76.9,
+            "endX": 92.3,
+            "endY": 49.3,
+            "exitoso": false
+          },
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "Carry",
+            "minuto": 34,
+            "segundo": 59,
+            "x": 92.3,
+            "y": 49.3,
+            "endX": 79.7,
+            "endY": 63.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "BallTouch",
+            "minuto": 34,
+            "segundo": 59,
+            "x": 79.7,
+            "y": 63.7,
+            "endX": null,
+            "endY": null,
+            "exitoso": false
+          },
+          {
+            "jugador": "Amir Murillo",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 8,
+            "x": 59.1,
+            "y": 0.0,
+            "endX": 70.2,
+            "endY": 30.9,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Gueye",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 17,
+            "x": 70.2,
+            "y": 30.9,
+            "endX": 71.9,
+            "endY": 36.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Pape Gueye",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 17,
+            "x": 71.9,
+            "y": 36.0,
+            "endX": 70.3,
+            "endY": 56.0,
+            "exitoso": true
+          },
+          {
+            "jugador": "Jordan Veretout",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 19,
+            "x": 72.6,
+            "y": 55.4,
+            "endX": 77.0,
+            "endY": 76.7,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 21,
+            "x": 75.9,
+            "y": 78.6,
+            "endX": 93.1,
+            "endY": 82.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Henrique",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 25,
+            "x": 93.1,
+            "y": 82.3,
+            "endX": 97.6,
+            "endY": 85.3,
+            "exitoso": true
+          },
+          {
+            "jugador": "Luis Henrique",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 25,
+            "x": 97.6,
+            "y": 85.3,
+            "endX": 80.5,
+            "endY": 87.1,
+            "exitoso": true
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Pass",
+            "minuto": 35,
+            "segundo": 27,
+            "x": 81.0,
+            "y": 88.5,
+            "endX": 84.0,
+            "endY": 82.0,
+            "exitoso": false
+          },
+          {
+            "jugador": "Ulisses Garcia",
+            "tipo": "Carry",
+            "minuto": 35,
+            "segundo": 33,
+            "x": 84.0,
+            "y": 82.0,
+            "endX": 81.6,
+            "endY": 100.0,
+            "exitoso": true
+          },
+          {
             "jugador": "Ulisses Garcia",
             "tipo": "Pass",
             "minuto": 35,
@@ -593,7 +758,12 @@
             "endY": 53.4,
             "exitoso": true
           }
-        ]
+        ],
+        "rebote_de": {
+          "tipo": "BallTouch",
+          "jugador": "Panos Katseris",
+          "portero": false
+        }
       },
       {
         "minuto": 38,
@@ -621,7 +791,24 @@
         "y": 45.6,
         "arco_y": 46.7,
         "arco_z": 7.0,
-        "secuencia_gol": []
+        "secuencia_gol": [
+          {
+            "jugador": "Samuel Gigot",
+            "tipo": "SavedShot",
+            "minuto": 40,
+            "segundo": 19,
+            "x": 97.6,
+            "y": 45.9,
+            "endX": null,
+            "endY": null,
+            "exitoso": true
+          }
+        ],
+        "rebote_de": {
+          "tipo": "Save",
+          "jugador": "Julien Laporte",
+          "portero": true
+        }
       },
       {
         "minuto": 53,
