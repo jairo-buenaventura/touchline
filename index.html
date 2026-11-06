@@ -3624,6 +3624,24 @@
       // modal nunca se queda sin mostrar nada, siempre se ve donde y quien
       // remato.
       const [xg, yg] = aCancha(tiro.x, 100 - tiro.y);
+      // Conectar el ultimo punto de la secuencia con el remate: la posicion
+      // donde "parece" terminar el ultimo pase/conduccion registrado (su
+      // endX/endY, o su propia x/y si no los tiene) casi nunca coincide
+      // exacto con tiro.x/tiro.y (el dato real de donde se pateo) -- sin
+      // esta linea, la estrella del gol quedaba flotando desconectada del
+      // resto del grafico, perdiendo el ultimo tramo de la jugada (un
+      // toque extra del rematador, o simplemente la diferencia entre
+      // "a donde iba el pase" y "desde donde se disparo").
+      if (secuencia.length > 0) {
+        const ultimo = secuencia[secuencia.length - 1];
+        const finX = ultimo.endX != null ? ultimo.endX : ultimo.x;
+        const finY = ultimo.endY != null ? ultimo.endY : ultimo.y;
+        if (finX != null && finY != null) {
+          const [xf, yf] = aCancha(finX, 100 - finY);
+          html += `<line x1="${xf.toFixed(1)}" y1="${yf.toFixed(1)}" x2="${xg.toFixed(1)}" y2="${yg.toFixed(1)}" ` +
+            `stroke="#e53935" stroke-width="2" marker-end="url(#flecha-secuencia-gol)"/>`;
+        }
+      }
       // El nombre del goleador va siempre en dorado junto al punto del gol
       // -- el ultimo punto de la secuencia (si la hay) es de quien dio el
       // PASE final, no de quien remato, asi que el nombre del que anota no
