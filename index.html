@@ -3574,11 +3574,12 @@
       html += dibujarLineasCancha();
 
       // Varios toques seguidos del MISMO jugador (recibe, conduce, conduce
-      // de nuevo) se colapsan en un solo punto/flecha -- lo que importa ver
-      // es de donde a donde se movio ese jugador con el balon, no cada
-      // toque individual amontonado en el mismo lugar del grafico. El
-      // ultimo jugador de la cadena (el que remata) siempre queda como su
-      // propio punto, aunque haya tenido varios toques previos.
+      // de nuevo) se colapsan en un solo punto/numero -- lo que se quiere
+      // reducir es el amontonamiento de circulos/nombres repetidos, no la
+      // conduccion en si. El trayecto (lineas) se dibuja aparte, de la
+      // secuencia CRUDA sin consolidar, para que la conduccion de cada
+      // jugador siga viendose como su propio tramo punteado en vez de
+      // perderse dentro de una sola flecha recta "recibe -> pasa".
       const consolidada = [];
       secuencia.forEach(seg => {
         const ultimo = consolidada[consolidada.length - 1];
@@ -3598,15 +3599,18 @@
       // derecha -- sin esto, la jugada sale reflejada al reves en el eje
       // horizontal (visible en secuencias largas con cambios de lado, ej.
       // Ferran Torres vs Argentina, Mundial 2026).
+      secuencia.forEach(seg => {
+        if (seg.x == null || seg.y == null || seg.endX == null || seg.endY == null) return;
+        const [x1, y1] = aCancha(seg.x, 100 - seg.y);
+        const [x2, y2] = aCancha(seg.endX, 100 - seg.endY);
+        const esConduccion = seg.tipo === 'Carry';
+        html += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" ` +
+          `stroke="#e53935" stroke-width="2" marker-end="url(#flecha-secuencia-gol)" ` +
+          `${esConduccion ? 'stroke-dasharray="4,3"' : ''}/>`;
+      });
+
       consolidada.forEach((seg, i) => {
         const [x1, y1] = aCancha(seg.x, 100 - seg.y);
-        if (seg.endX != null && seg.endY != null) {
-          const [x2, y2] = aCancha(seg.endX, 100 - seg.endY);
-          const esConduccion = seg.tipo === 'Carry';
-          html += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" ` +
-            `stroke="#e53935" stroke-width="2" marker-end="url(#flecha-secuencia-gol)" ` +
-            `${esConduccion ? 'stroke-dasharray="4,3"' : ''}/>`;
-        }
         html += `<circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="9" fill="#f7f6f3" stroke="#e53935" stroke-width="1.5"/>`;
         html += `<text x="${x1.toFixed(1)}" y="${(y1 + 3.5).toFixed(1)}" fill="#1a1a1a" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${i + 1}</text>`;
         const nombreCorto = apellido(seg.jugador);
