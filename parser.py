@@ -538,15 +538,26 @@ def calcular_secuencia_gol(eventos, nombres, idx_gol, team_id):
     for ev in crudos:
         jugador = nombres.get(str(ev.get("playerId")), "?")
         x, y = ev.get("x"), ev.get("y")
-        if anterior and anterior.get("endX") is not None and x is not None:
-            dx, dy = x - anterior["endX"], y - anterior["endY"]
-            if (dx * dx + dy * dy) ** 0.5 > UMBRAL_CONDUCCION:
-                secuencia.append({
-                    "jugador": jugador, "tipo": "Carry",
-                    "minuto": ev.get("minute", 0), "segundo": ev.get("second", 0),
-                    "x": anterior["endX"], "y": anterior["endY"],
-                    "endX": x, "endY": y, "exitoso": True,
-                })
+        if anterior:
+            # Posicion efectiva donde "quedo" el balon tras el evento anterior:
+            # su endX/endY si los tiene (un pase, que sí trae destino propio),
+            # o su propia x/y si no (un TakeOn, o el evento que arranca la
+            # secuencia -- BallRecovery/Interception/etc. -- no traen destino
+            # en los datos de WhoScored, pero la posicion donde ocurrieron
+            # sigue siendo un punto de referencia valido para medir si el
+            # balon se movio despues). Sin esto, una conduccion justo despues
+            # de un regate quedaba invisible (el chequeo solo miraba endX).
+            fin_x = anterior["endX"] if anterior.get("endX") is not None else anterior.get("x")
+            fin_y = anterior["endY"] if anterior.get("endY") is not None else anterior.get("y")
+            if fin_x is not None and x is not None:
+                dx, dy = x - fin_x, y - fin_y
+                if (dx * dx + dy * dy) ** 0.5 > UMBRAL_CONDUCCION:
+                    secuencia.append({
+                        "jugador": jugador, "tipo": "Carry",
+                        "minuto": ev.get("minute", 0), "segundo": ev.get("second", 0),
+                        "x": fin_x, "y": fin_y,
+                        "endX": x, "endY": y, "exitoso": True,
+                    })
         segmento = {
             "jugador": jugador,
             "tipo": ev["type"]["displayName"],
