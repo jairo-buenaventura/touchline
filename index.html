@@ -3539,7 +3539,12 @@
       const titulo = document.getElementById('modal-secuencia-titulo');
       const subtitulo = document.getElementById('modal-secuencia-subtitulo');
       const svg = document.getElementById('modal-secuencia-svg');
-      const secuencia = tiro.secuencia_gol;
+      // || [] y no solo el campo tal cual: los ~9 partidos rescatados de
+      // Sofascore (WhoScored sin datos detallados, ver CLAUDE.md) nunca
+      // traen secuencia_gol -- ni siquiera vacio, directamente no existe
+      // la llave -- y sin este fallback el modal rompia con un
+      // TypeError al llamar secuencia.forEach() mas abajo.
+      const secuencia = tiro.secuencia_gol || [];
 
       titulo.textContent = `${g.jugador} — gol, ${g.minuto}'`;
 
@@ -3609,21 +3614,99 @@
           `${esConduccion ? 'stroke-dasharray="4,3"' : ''}/>`;
       });
 
+      // Sistema de posicionamiento de etiquetas que evita que se amontonen
+      // unas sobre otras -- en jugadas largas (circulacion de posesion
+      // entre 2-3 jugadores por 20-30s) el mismo apellido puede aparecer
+      // varias veces no-consecutivas en puntos cercanos entre si, y sin
+      // esto sus etiquetas de nombre (o la del goleador en dorado contra
+      // la de un pasador en gris) terminaban literalmente una encima de
+      // la otra. Prueba varias posiciones candidatas (arriba/abajo del
+      // punto, con distintos desplazamientos) y usa la primera que no
+      // choque contra ninguna etiqueta ya colocada; si ninguna alcanza,
+      // usa la primera candidata igual (ultimo recurso, muy raro).
+      const cajasTexto = []; // {x1,y1,x2,y2,texto}
+      function anchoAprox(texto) {
+        return texto.length * 5.3 + 4;
+      }
+      function cajasSolapan(a, b, margen) {
+        return !(a.x1 > b.x2 + margen || b.x1 > a.x2 + margen || a.y1 > b.y2 + margen || b.y1 > a.y2 + margen);
+      }
+      function colocarEtiqueta(texto, cx, y0, arriba, tamano, omitirSiRepetido) {
+        const ancho = anchoAprox(texto) * (tamano / 9);
+        const alto = tamano + 1;
+        const dir = arriba ? -1 : 1;
+        // Barrido amplio: primero se aleja del punto en la direccion
+        // preferida (arriba/abajo), despues prueba con un empujon
+        // horizontal, y por ultimo tantea tambien el lado opuesto --
+        // en jugadas con muchos puntos muy juntos (circulacion larga de
+        // posesion) hace falta bastante margen de maniobra antes de
+        // rendirse.
+        const candidatos = [];
+        for (const paso of [13, 20, 27, 34, 41, 48, 55]) {
+          candidatos.push({ cx, cy: y0 + dir * paso });
+        }
+        for (const paso of [13, 20, 27, 34]) {
+          candidatos.push({ cx: cx + 18, cy: y0 + dir * paso });
+          candidatos.push({ cx: cx - 18, cy: y0 + dir * paso });
+        }
+        for (const paso of [13, 20, 27]) {
+          candidatos.push({ cx, cy: y0 - dir * paso });
+        }
+        for (const cand of candidatos) {
+          const caja = { x1: cand.cx - ancho / 2, y1: cand.cy - alto / 2, x2: cand.cx + ancho / 2, y2: cand.cy + alto / 2 };
+          if (!cajasTexto.some(b => cajasSolapan(caja, b, 1))) {
+            caja.texto = texto;
+            cajasTexto.push(caja);
+            return cand;
+          }
+        }
+        // No hubo forma de acomodarla sin chocar. Si es el mismo nombre
+        // que ya aparece cerca (el jugador toco el balon varias veces no
+        // consecutivas en un espacio chico), mejor omitir el duplicado --
+        // el numero del punto ya lo identifica, no hace falta repetir el
+        // apellido encimado. Para el goleador/"GOL" (omitirSiRepetido en
+        // false) nunca se omite, es informacion central del grafico.
+        if (omitirSiRepetido) {
+          const cercaMismoTexto = cajasTexto.some(b =>
+            b.texto === texto && Math.abs((b.x1 + b.x2) / 2 - cx) < 60 && Math.abs((b.y1 + b.y2) / 2 - y0) < 60
+          );
+          if (cercaMismoTexto) return null;
+        }
+        const cand = candidatos[0];
+        cajasTexto.push({ x1: cand.cx - ancho / 2, y1: cand.cy - alto / 2, x2: cand.cx + ancho / 2, y2: cand.cy + alto / 2, texto });
+        return cand;
+      }
+
+      // Se calculan aca (antes de colocar las etiquetas grises) para poder
+      // reservarles el espacio de entrada a "GOL" y al nombre del goleador
+      // ANTES de que cualquier etiqueta gris lo ocupe -- sin esto, cuando
+      // el propio goleador aparece tambien como punto de su secuencia (ej.
+      // recibe, toca, y mas tarde remata el mismo), su etiqueta gris y la
+      // dorada terminaban peleando por el mismo lugar cerca de la estrella.
+      const [xg, yg] = aCancha(tiro.x, 100 - tiro.y);
+      const nombreGoleador = apellido(g.jugador);
+      const reservaGol = { x1: xg - anchoAprox('GOL') / 2, y1: yg - 13 - 5.5, x2: xg + anchoAprox('GOL') / 2, y2: yg - 13 + 5.5, texto: '__reserva_gol__' };
+      const reservaGoleador = { x1: xg - anchoAprox(nombreGoleador) / 2, y1: yg + 17 - 5.5, x2: xg + anchoAprox(nombreGoleador) / 2, y2: yg + 17 + 5.5, texto: '__reserva_goleador__' };
+      cajasTexto.push(reservaGol, reservaGoleador);
+
       consolidada.forEach((seg, i) => {
         const [x1, y1] = aCancha(seg.x, 100 - seg.y);
         html += `<circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="9" fill="#f7f6f3" stroke="#e53935" stroke-width="1.5"/>`;
         html += `<text x="${x1.toFixed(1)}" y="${(y1 + 3.5).toFixed(1)}" fill="#1a1a1a" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${i + 1}</text>`;
         const nombreCorto = apellido(seg.jugador);
         const etiquetaArriba = y1 > 40;
-        html += `<text x="${x1.toFixed(1)}" y="${(etiquetaArriba ? y1 - 13 : y1 + 20).toFixed(1)}" fill="#555" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
+        const pos = colocarEtiqueta(nombreCorto, x1, y1, etiquetaArriba, 9, true);
+        if (pos) {
+          html += `<text x="${pos.cx.toFixed(1)}" y="${pos.cy.toFixed(1)}" fill="#555" font-size="9" text-anchor="middle" font-family="sans-serif">${nombreCorto}</text>`;
+        }
       });
 
       // Punto final: desde donde salio el tiro que termino en gol. Si no
       // hay secuencia previa (penal, o rebote/rechace que no se pudo
       // reconstruir), este punto queda solo en el grafico -- pero el
       // modal nunca se queda sin mostrar nada, siempre se ve donde y quien
-      // remato.
-      const [xg, yg] = aCancha(tiro.x, 100 - tiro.y);
+      // remato. (xg/yg ya se calcularon arriba, antes de colocar las
+      // etiquetas grises, para poder reservarles su lugar de entrada.)
       // Conectar el ultimo punto de la secuencia con el remate: la posicion
       // donde "parece" terminar el ultimo pase/conduccion registrado (su
       // endX/endY, o su propia x/y si no los tiene) casi nunca coincide
@@ -3650,10 +3733,23 @@
       // siempre abajo -- nunca compiten por el mismo lado, asi no se
       // amontonan con la etiqueta del ultimo punto de la secuencia (que
       // suele caer muy cerca del remate, ej. el pase final del asistente).
-      const nombreGoleador = apellido(g.jugador);
       html += `<path transform="translate(${xg.toFixed(1)},${yg.toFixed(1)})" d="M0,-8 L2.3,-2.5 L8,-2.5 L3.5,1.2 L5.2,7.5 L0,4 L-5.2,7.5 L-3.5,1.2 L-8,-2.5 L-2.3,-2.5 Z" fill="#ffc400" stroke="#1a1a1a" stroke-width="0.6"/>`;
-      html += `<text x="${xg.toFixed(1)}" y="${(yg - 13).toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
-      html += `<text x="${xg.toFixed(1)}" y="${(yg + 17).toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${nombreGoleador}</text>`;
+      // Se quitan las cajas de reserva (ya cumplieron su proposito de
+      // mantener a las etiquetas grises lejos de esta zona) para que la
+      // colocacion real de "GOL"/goleador no choque contra si misma.
+      const idxReservaGol = cajasTexto.indexOf(reservaGol);
+      if (idxReservaGol !== -1) cajasTexto.splice(idxReservaGol, 1);
+      const idxReservaGoleador = cajasTexto.indexOf(reservaGoleador);
+      if (idxReservaGoleador !== -1) cajasTexto.splice(idxReservaGoleador, 1);
+      // "GOL" y el nombre del goleador tambien pasan por el mismo sistema
+      // de colocacion que las etiquetas grises -- sin esto, cuando el
+      // remate cae muy cerca de un punto de la secuencia (comun: el
+      // ultimo pase suele terminar justo ahi), el nombre en dorado y el
+      // de un pasador en gris quedaban literalmente superpuestos.
+      const posGol = colocarEtiqueta('GOL', xg, yg, true, 10, false);
+      html += `<text x="${posGol.cx.toFixed(1)}" y="${posGol.cy.toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">GOL</text>`;
+      const posGoleador = colocarEtiqueta(nombreGoleador, xg, yg, false, 10, false);
+      html += `<text x="${posGoleador.cx.toFixed(1)}" y="${posGoleador.cy.toFixed(1)}" fill="#b8860b" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">${nombreGoleador}</text>`;
 
       svg.innerHTML = `<defs><marker id="flecha-secuencia-gol" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">` +
         `<path d="M0,0 L10,5 L0,10 Z" fill="#e53935"/></marker></defs>` + html;
